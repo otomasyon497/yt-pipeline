@@ -31,7 +31,7 @@ PUBLIC_MEDIA = ROOT / "remotion" / "public" / "media"
 MUSIC_DIR = ROOT / "music"
 
 # Voice
-DEFAULT_VOICE = "bm_george"
+DEFAULT_VOICE = "am_michael"
 SAMPLE_VOICES = ["bm_george", "am_michael", "am_onyx"]
 SAMPLE_MIN_SECONDS = 10.0
 TTS_SPEED = 0.95

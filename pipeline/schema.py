@@ -58,7 +58,7 @@ class Scene(BaseModel):
 
 class Script(BaseModel):
     title: str
-    voice: str = "bm_george"
+    voice: str = "am_michael"
     music: str = "auto"  # "auto" | file name inside /music | "none"
     scenes: list[Scene]
     sources: list[str] = Field(default_factory=list)  # free-form fact-check notes, not rendered

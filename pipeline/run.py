@@ -6,6 +6,7 @@
 """
 import hashlib
 import json
+import os
 import shutil
 import sys
 import time
@@ -116,8 +117,9 @@ def prepare(slug: str) -> None:
         credits.write(work / "credits.txt", clips, track, used_ai)
         print(f"  total video length: {total_sec:.1f}s ({timeline['totalFrames']} frames)")
 
-    with step("voice-samples"):
-        voice_samples(script, work / "voice_samples")
+    if os.environ.get("VOICE_SAMPLES") == "1":  # voice is decided (am_michael); samples are opt-in now
+        with step("voice-samples"):
+            voice_samples(script, work / "voice_samples")
 
     (work / "timings_prepare.json").write_text(json.dumps(_timings), encoding="utf-8")
 
@@ -128,7 +130,8 @@ def finalize(slug: str) -> None:
     with step("mux"):
         media.mux(work / "video.mp4", work / "audio_mix.m4a", out / "final.mp4")
     shutil.copyfile(work / "credits.txt", out / "credits.txt")
-    shutil.copytree(work / "voice_samples", out / "voice_samples")
+    if (work / "voice_samples").exists():
+        shutil.copytree(work / "voice_samples", out / "voice_samples")
     size = (out / "final.mp4").stat().st_size / 1e6
     print(f"final.mp4: {size:.1f} MB")
 

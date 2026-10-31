@@ -27,6 +27,16 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
+## Phase 2A (done 2026-10-31, except real-music test)
+- [x] render.yml: `timeout-minutes: 150`; caches restored with `actions/cache/restore` and saved in final `if: always()` steps
+      (assets always; HF models only on miss). Verified on run 41206608587: assets-41201330118 + hf-models-v1 restored, new assets key saved.
+      Not exercised: a deliberately failed run (save-on-failure relies on `always()`; a hard timeout kill may skip it).
+- [x] Default voice am_michael verified end-to-end (same run): job 4m49s, prepare 1m02s (tts 37s, captions 11s, media 10s), render 2m02s (1674 frames), video 69.8 s.
+- [x] Ducking: `tools/ducking_test.py` + `audio-test.yml` call the real `media.mix_audio()` with synthetic narration/music and measure
+      the 200 Hz music band in speech vs silence: 8.6 dB average (~9.8 dB excluding the fade-out window). Run 41206551954.
+      Local ffmpeg (Remotion's bundled build) lacks sidechaincompress/volumedetect, so this must run on Actions.
+- [ ] Real-music test: /music still has no tracks. When added: commit them, fill credits.json, run render.yml, listen to the result.
+
 ## Phase 2 plan (approved decisions, not started)
 Decisions: (1) script generation runs in the Claude Code session (research -> facts.json with >=2 sources per number ->
 script.json -> deterministic check_script.py -> separate verifier agent -> user review); (2) timeout: single job,

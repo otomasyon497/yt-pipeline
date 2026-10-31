@@ -27,5 +27,14 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
-## Next steps (Phase 2 candidates, not started)
-Script generation, thumbnails, YouTube private-draft upload.
+## Phase 2 plan (approved decisions, not started)
+Decisions: (1) script generation runs in the Claude Code session (research -> facts.json with >=2 sources per number ->
+script.json -> deterministic check_script.py -> separate verifier agent -> user review); (2) timeout: single job,
+`timeout-minutes: 150`, cache saved with `if: always()`.
+- 2A: timeout/cache fix; music + ducking test (needs tracks in /music; measure music level during narration vs silence).
+- 2B: thumbnail (Remotion still 1280x720, AI background, 2-3 variants) + `upload.yml` (YouTube Data API, privacyStatus=private,
+  OAuth refresh token as secret; consent screen must be "In production" because Testing tokens expire in 7 days).
+  To verify before coding: thumbnails.set channel-verification requirement, containsSyntheticMedia field, production-app limits.
+- 2C: script generation flow (facts.json, check_script.py, verifier pass, review gate).
+- Risk: YouTube monetisation policy on mass-produced / inauthentic content; keep original scripts + disclose synthetic media.
+Each sub-phase stops for user approval.

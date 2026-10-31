@@ -47,6 +47,16 @@
 - Speed: ~0.3x real time on the PC (~23 s per 75 s track). Rendering per video on Actions would add ~6 min for 20 min of music,
   so a pre-generated, user-curated library may be better.
 - Waiting for the user's listening feedback (files in C:\Users\MONSTER\Videos\yt-pipeline\music-lab\). Not integrated into the pipeline.
+- Decision (user delegated it on 2026-10-31, "you decide"): own procedural music is the default source.
+  Reasons: zero licence and Content ID risk for a monetised channel, no manual downloads, a consistent channel sound,
+  and the user did not reject the sound.
+  - Moods by chapter: calm = default (explanations), curious = map journeys / "how it works", tension = wars, crises, collapses
+    (tame tension low end: <80 Hz is currently 21% of energy).
+  - Level: about -20 dB under the voice while speaking (bed about -11 dB, ducked about 9 dB); adjustable.
+  - Production: a pre-generated library (about 8 tracks x 3 moods, about 4 min each, A/B sections for variety), generated once
+    on Actions and stored as a private Release asset. Each video picks tracks per chapter mood and crossfades at chapter
+    boundaries, so there is no per-video generation cost. Refresh/extend the library periodically.
+  - YouTube Audio Library tracks the user adds manually remain supported via /music + credits.json.
 
 ## Phase 2A (done 2026-10-31, except real-music test)
 - [x] render.yml: `timeout-minutes: 150`; caches restored with `actions/cache/restore` and saved in final `if: always()` steps

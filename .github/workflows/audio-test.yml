@@ -1,0 +1,19 @@
+name: Audio ducking test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ducking:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      - run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          pip install numpy soundfile
+      - run: python tools/ducking_test.py

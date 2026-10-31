@@ -37,7 +37,7 @@ export const Thumbnail: React.FC<ThumbProps> = ({text, background, layout}) => {
 							{line}
 						</div>
 					))}
-					<div style={{height: 10, marginTop: 22, width: 380, backgroundColor: colors.accent, marginLeft: layout === 'center' ? 'auto' : 0, marginRight: layout === 'center' ? 'auto' : 0}} />
+					<div style={{height: 10, marginTop: 22, width: 380, backgroundColor: colors.accent, marginLeft: layout === 'left' ? 0 : 'auto', marginRight: layout === 'right' ? 0 : layout === 'center' ? 'auto' : 0}} />
 				</div>
 			</AbsoluteFill>
 		</AbsoluteFill>

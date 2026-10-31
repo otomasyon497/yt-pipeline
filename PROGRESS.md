@@ -37,7 +37,20 @@
       Local ffmpeg (Remotion's bundled build) lacks sidechaincompress/volumedetect, so this must run on Actions.
 - [ ] Real-music test: /music still has no tracks. When added: commit them, fill credits.json, run render.yml, listen to the result.
 
-## Phase 2 plan (approved decisions, not started)
+## Phase 2B (code done 2026-10-31; upload NOT yet run against YouTube)
+- [x] Thumbnails: `pipeline/thumbnails.py` + Remotion `Thumbnail` still (1280x720). 3 variants (A left / B center / C right) with
+      schnell backgrounds (`THUMB_STYLE`), 68-101 KB each. Verified on run 41207658895 (+22 s, ~175 neurons). script.json needs a `thumbnail` block.
+- [x] `pipeline/youtube_upload.py` + `.github/workflows/upload.yml` (inputs: slug, render_run_id, thumbnail A/B/C, dry_run default TRUE, force).
+      Always `privacyStatus=private`, `selfDeclaredMadeForKids=false`, `containsSyntheticMedia` from script (default true), no publishAt.
+      Refuses a duplicate title unless force. Thumbnail failure (e.g. unverified channel, 403) only warns. Workflow inputs go through env (no shell injection).
+- [x] `tools/youtube_auth.py`: run on the user's PC; sets YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN via gh without printing them.
+- [x] script.json `youtube` block (title <=100, description intro, tags, category 27); credits.txt is appended to the description.
+- Verified docs: thumbnails.set JPEG/PNG <=50 MB, 50 quota units; videos.insert 1 unit (own bucket, 100/day);
+  Testing-mode refresh tokens expire in 7 days. NOT confirmed this session: exact unverified-app limits in production, channel-verification rule for thumbnails.
+- [ ] User: Google Cloud project + OAuth client + `python tools/youtube_auth.py client_secret.json` (steps given in chat).
+- [ ] Then: dry run, then a real private upload of nokia-intro (needs the user's go-ahead).
+
+## Phase 2 plan (approved decisions)
 Decisions: (1) script generation runs in the Claude Code session (research -> facts.json with >=2 sources per number ->
 script.json -> deterministic check_script.py -> separate verifier agent -> user review); (2) timeout: single job,
 `timeout-minutes: 150`, cache saved with `if: always()`.

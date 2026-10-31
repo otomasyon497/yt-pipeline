@@ -1,28 +1,31 @@
 ﻿# PROGRESS
 
-## Status (Phase 1)
-- [x] Repo `otomasyon497/yt-pipeline` (private) created, code pushed
-- [x] Python pipeline (TTS, captions, Pexels, Workers AI, audio mix, timeline) written, compile-checked
-- [x] Remotion project written, `tsc --noEmit` clean
-- [x] Workflow `.github/workflows/render.yml` (workflow_dispatch, input `slug`)
-- [ ] Secrets set by user: PEXELS_API_KEY, CF_ACCOUNT_ID, CF_API_TOKEN
-- [ ] First end-to-end run on Actions + fixes
-- [ ] Measure Actions minutes, report voice samples + final.mp4
+## Status (Phase 1 - DONE, waiting for user approval)
+- [x] Repo, pipeline, Remotion project, workflow; secrets set by user
+- [x] End-to-end run on Actions green (run 41201330118): 1920x1080 / 24 fps H.264+AAC, ~70.6 s, artifact `nokia-intro`
+      (final.mp4, credits.txt, voice_samples/ with bm_george, am_michael, am_onyx)
+- [x] Measured: job 6m07s (billed ~7 min). Prepare 1m39s (tts 55s, captions 13s, media 14s warm cache, samples 14s),
+      Remotion render 2m27s for 1694 frames (~11.5 fps on 2 vCPU), setup (apt+pip+npm) ~1m50s.
+      First (cold-cache) run: job ~6m, render 2m52s for 2035 frames.
+- Music: /music is empty, so the test video has narration only (ducking/mix path not yet exercised with a real track).
 
 ## Decisions
-- Default voice `bm_george`; `am_michael` + `am_onyx` ~10 s samples are rendered into the artifact (`voice_samples/`).
-- AI images: `@cf/black-forest-labs/flux-2-klein-4b` (weights Apache 2.0; accepts width/height 256-1920 so 16:9 is native)
-  at 1536x864 (6 output tiles ~ 156 neurons/image). Automatic fallback to `flux-1-schnell` + 16:9 centre-crop.
-  Open point: Cloudflare points to BFL Terms of Service for the hosted model and those terms do not
-  explicitly cover third-party hosts; weights licence itself is clean.
-- 24 fps (20% fewer frames than 30). Render: concurrency 2, jpeg frames, x264 veryfast crf 20, audio muted in
-  Remotion and mixed/muxed with ffmpeg; stock clips pre-normalised with ffmpeg; no gradients/blur/shadows in React.
+- Default voice `bm_george`; samples of `am_michael` + `am_onyx` in the artifact for comparison.
+- AI images: `CF_IMAGE_MODEL=@cf/black-forest-labs/flux-1-schnell` set in workflow (user chose licence caution over
+  flux-2-klein-4b, whose hosted terms on Cloudflare are unclear). Klein code path remains (switch by changing env), unverified in practice.
+  schnell: 1024x1024 centre-cropped to 16:9, upscaled to 1080p; no `seed` field accepted.
+- 24 fps; render concurrency 2, jpeg frames, x264 veryfast crf 20; audio muted in Remotion, mixed + muxed by ffmpeg.
+- Secrets are sanitised (pasted curly quotes broke the Pexels header once) via `config.secret()`.
 - Remotion licence: free for individuals / companies up to 3 people.
-- Pexels uses `/v1/videos/search`; local limiter 150 req/h; search results + clips cached.
-- Cache: actions/cache with `assets-<run_id>` + prefix restore; HF models cached separately.
-- Test script facts are illustrative (see `sources` in script.json) - fact-check before real use.
+- Cache: actions/cache `assets-<run_id>` + prefix restore; HF models separate.
+- Test script facts are illustrative (see `sources`) - fact-check before real use.
 
-## Next steps
-1. User runs the three `gh secret set` commands.
-2. `gh workflow run render.yml -f slug=nokia-intro`, read `gh run view --log-failed` (last ~100 lines only).
-3. Fix failures, measure per-step minutes, report to user, wait for approval before Phase 2.
+## Known issues / notes for later phases
+- Kokoro runs ~1x real time on CPU: a 15-min video needs ~15 min TTS + ~30 min render + captions ~3 min -> close to the
+  workflow `timeout-minutes: 60`; raise it (job limit is 6 h) or split TTS/render jobs for long episodes.
+- Narration pace is ~2.05 words/s at speed 0.95; budget ~125 words per 60 s plus ~0.9 s per scene overhead.
+- spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
+- Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
+
+## Next steps (Phase 2 candidates, not started)
+Script generation, thumbnails, YouTube private-draft upload.

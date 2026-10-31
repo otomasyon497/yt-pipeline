@@ -1,9 +1,9 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFrame} from 'remotion';
-import type {SceneData} from '../types';
+import type {ShotData} from '../types';
 
 // Ken Burns: slow zoom + drift over the whole scene.
-export const ImageScene: React.FC<{scene: SceneData}> = ({scene}) => {
+export const ImageScene: React.FC<{scene: ShotData}> = ({scene}) => {
 	const frame = useCurrentFrame();
 	const k = scene.kenBurns;
 	const t = interpolate(frame, [0, scene.durationFrames], [0, 1], {easing: Easing.inOut(Easing.quad), extrapolateRight: 'clamp'});

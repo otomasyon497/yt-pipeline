@@ -11,105 +11,6 @@
     "Elop memo, Feb 2011 - verify exact wording of the quote.",
     "Microsoft bought the devices and services business, announced Sept 2013, about 5.44 billion euros."
   ],
-  "scenes": [
-    {
-      "id": "s01",
-      "visual": "title_card",
-      "narration": "In 2007, Nokia sold roughly half of all the smartphones on Earth.",
-      "on_screen_text": "NOKIA",
-      "subtitle": "How an empire fell"
-    },
-    {
-      "id": "s02",
-      "visual": "stock",
-      "narration": "Its phones were in pockets from Helsinki to Jakarta.",
-      "query": "busy city street crowd people walking",
-      "on_screen_text": "Helsinki to Jakarta"
-    },
-    {
-      "id": "s03",
-      "visual": "map",
-      "narration": "It began in Finland, home to about five and a half million people.",
-      "map": {
-        "highlight": [
-          "Finland"
-        ],
-        "points": [
-          {
-            "label": "Nokia",
-            "lon": 23.5,
-            "lat": 61.5
-          }
-        ]
-      },
-      "on_screen_text": "Finland"
-    },
-    {
-      "id": "s04",
-      "visual": "ai_image",
-      "narration": "Founded in 1865 as a paper mill, it reinvented itself again and again.",
-      "prompt": "19th century Finnish paper mill beside a river in winter, wooden buildings, smoke rising, dramatic light",
-      "on_screen_text": "Founded 1865"
-    },
-    {
-      "id": "s05",
-      "visual": "stock",
-      "narration": "By the late nineties, it was the world's biggest phone maker.",
-      "query": "electronics factory assembly line"
-    },
-    {
-      "id": "s06",
-      "visual": "chart",
-      "narration": "At its peak, half of all smartphones sold carried its name.",
-      "chart": {
-        "type": "bar",
-        "title": "Smartphone market share, 2007 (illustrative)",
-        "unit": "%",
-        "data": [
-          [
-            "Nokia",
-            50
-          ],
-          [
-            "Everyone else",
-            50
-          ]
-        ]
-      }
-    },
-    {
-      "id": "s07",
-      "visual": "stock",
-      "narration": "Then, in 2007, Apple launched the iPhone.",
-      "query": "hand using smartphone touchscreen close up"
-    },
-    {
-      "id": "s08",
-      "visual": "ai_image",
-      "narration": "Nokia's phones still sold, but its software could not keep up.",
-      "prompt": "an old generic candybar mobile phone with a green screen on a dark table, moody low key light, shallow depth of field"
-    },
-    {
-      "id": "s09",
-      "visual": "quote",
-      "narration": "In 2011, its new chief executive told his staff the company had fallen behind.",
-      "quote": "We have fallen behind, we have missed big trends, and we have lost time.",
-      "author": "Stephen Elop, 2011"
-    },
-    {
-      "id": "s10",
-      "visual": "stock",
-      "narration": "In 2013, Microsoft bought the phone business for 5.4 billion euros.",
-      "query": "glass office skyscraper corporate building"
-    },
-    {
-      "id": "s11",
-      "visual": "title_card",
-      "narration": "This is how an empire lost its way.",
-      "on_screen_text": "THE FALL OF NOKIA",
-      "subtitle": "Part one"
-    }
-  ],
   "thumbnail": {
     "text": "Nokia's Fall",
     "prompt": "an old black candybar mobile phone cracked in half on a dark reflective surface, red and amber light"
@@ -123,8 +24,155 @@
       "economic history",
       "iphone",
       "documentary"
-    ],
-    "category_id": "27",
-    "contains_synthetic_media": true
-  }
+    ]
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "In 2007, Nokia sold roughly half of all the smartphones on Earth.",
+          "shots": [
+            {
+              "type": "title_card",
+              "at": 0,
+              "on_screen_text": "NOKIA",
+              "subtitle": "How an empire fell"
+            }
+          ]
+        },
+        {
+          "text": "Its phones were in pockets from Helsinki to Jakarta.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "busy city street crowd people walking",
+              "on_screen_text": "Helsinki to Jakarta"
+            }
+          ]
+        },
+        {
+          "text": "It began in Finland, home to about five and a half million people.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Finland",
+              "map": {
+                "highlight": [
+                  "Finland"
+                ],
+                "points": [
+                  {
+                    "label": "Nokia",
+                    "lon": 23.5,
+                    "lat": 61.5
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Founded in 1865 as a paper mill, it reinvented itself again and again.",
+          "shots": [
+            {
+              "type": "ai_image",
+              "at": 0,
+              "prompt": "19th century Finnish paper mill beside a river in winter, wooden buildings, smoke rising, dramatic light",
+              "on_screen_text": "Founded 1865"
+            }
+          ]
+        },
+        {
+          "text": "By the late nineties, it was the world's biggest phone maker.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "electronics factory assembly line"
+            }
+          ]
+        },
+        {
+          "text": "At its peak, half of all smartphones sold carried its name.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Smartphone market share, 2007 (illustrative)",
+                "unit": "%",
+                "data": [
+                  [
+                    "Nokia",
+                    50
+                  ],
+                  [
+                    "Everyone else",
+                    50
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Then, in 2007, Apple launched the iPhone.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "hand using smartphone touchscreen close up"
+            }
+          ]
+        },
+        {
+          "text": "Nokia's phones still sold, but its software could not keep up.",
+          "shots": [
+            {
+              "type": "ai_image",
+              "at": 0,
+              "prompt": "an old generic candybar mobile phone with a green screen on a dark table, moody low key light, shallow depth of field"
+            }
+          ]
+        },
+        {
+          "text": "In 2011, its new chief executive told his staff the company had fallen behind.",
+          "shots": [
+            {
+              "type": "quote",
+              "at": 0,
+              "quote": "We have fallen behind, we have missed big trends, and we have lost time.",
+              "author": "Stephen Elop, 2011"
+            }
+          ]
+        },
+        {
+          "text": "In 2013, Microsoft bought the phone business for 5.4 billion euros.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "glass office skyscraper corporate building"
+            }
+          ]
+        },
+        {
+          "text": "This is how an empire lost its way.",
+          "shots": [
+            {
+              "type": "title_card",
+              "at": 0,
+              "on_screen_text": "THE FALL OF NOKIA",
+              "subtitle": "Part one"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -5,7 +5,7 @@ import {Thumbnail} from './Thumbnail';
 import type {Timeline} from './types';
 
 // Placeholder shown in Studio; real renders pass --props=<build>/timeline.json.
-const emptyTimeline: Timeline = {fps: 24, width: 1920, height: 1080, totalFrames: 24, transitionFrames: 12, scenes: []};
+const emptyTimeline: Timeline = {fps: 24, width: 1920, height: 1080, totalFrames: 24, transitionFrames: 10, showCaptions: true, shots: [], words: [], chapters: []};
 
 export const RemotionRoot: React.FC = () => (
 	<>

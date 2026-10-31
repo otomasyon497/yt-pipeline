@@ -1,6 +1,7 @@
-export type Visual = 'stock' | 'ai_image' | 'chart' | 'map' | 'title_card' | 'quote';
+export type Visual = 'stock' | 'ai_image' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card';
 
-export type Word = {text: string; start: number; end: number}; // frames relative to the scene
+// Absolute frames; `p` = paragraph index (caption phrases never cross paragraphs).
+export type Word = {text: string; start: number; end: number; p: number};
 
 export type ChartSpec = {
 	type: 'bar' | 'line';
@@ -16,12 +17,11 @@ export type MapSpec = {
 
 export type KenBurns = {z0: number; z1: number; x0: number; x1: number; y0: number; y1: number};
 
-export type SceneData = {
+export type ShotData = {
 	id: string;
 	visual: Visual;
 	startFrame: number;
-	durationFrames: number;
-	narrationStartFrame: number;
+	durationFrames: number; // includes the overlap the next shot dissolves over
 	media: string | null;
 	onScreenText: string | null;
 	subtitle: string | null;
@@ -29,10 +29,11 @@ export type SceneData = {
 	map: MapSpec | null;
 	quote: string | null;
 	author: string | null;
-	showCaptions: boolean;
 	kenBurns: KenBurns;
-	words: Word[];
+	chapterNumber: number | null;
 };
+
+export type ChapterMark = {title: string; startFrame: number; mood: string};
 
 export type Timeline = {
 	fps: number;
@@ -40,5 +41,8 @@ export type Timeline = {
 	height: number;
 	totalFrames: number;
 	transitionFrames: number;
-	scenes: SceneData[];
+	showCaptions: boolean;
+	shots: ShotData[];
+	words: Word[];
+	chapters: ChapterMark[];
 };

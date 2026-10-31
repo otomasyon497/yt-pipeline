@@ -1,9 +1,10 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {body, clamp01, colors, display, easeOut} from '../theme';
-import type {SceneData} from '../types';
+import type {ShotData} from '../types';
+import {fitSize} from './ChapterCard';
 
-export const TitleCard: React.FC<{scene: SceneData}> = ({scene}) => {
+export const TitleCard: React.FC<{scene: ShotData}> = ({scene}) => {
 	const frame = useCurrentFrame();
 	const titleP = easeOut((frame - 6) / 22);
 	const lineP = easeOut((frame - 14) / 26);
@@ -16,7 +17,7 @@ export const TitleCard: React.FC<{scene: SceneData}> = ({scene}) => {
 				<div
 					style={{
 						fontFamily: display,
-						fontSize: 250,
+						fontSize: fitSize(scene.onScreenText ?? '', 250, 110),
 						color: colors.text,
 						letterSpacing: spacing,
 						lineHeight: 1,

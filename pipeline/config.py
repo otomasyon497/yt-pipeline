@@ -17,12 +17,16 @@ FPS = 24
 WIDTH = 1920
 HEIGHT = 1080
 
-# Timing (frames). Each scene i occupies [start_i, start_i + duration_i) on the timeline and
-# is drawn for TRANSITION_FRAMES longer so the next scene can dissolve in over its tail.
-# Narration starts TRANSITION_FRAMES after the scene start, i.e. after the dissolve finished.
-TRANSITION_FRAMES = 12
-TAIL_FRAMES = 10  # silence after the last word of a scene
-END_PAD_FRAMES = 36  # extra time after the final scene (music fade-out)
+# Long-form layout. Narration flows paragraph by paragraph; shots cut on anchor words and each shot
+# is drawn TRANSITION_FRAMES longer so the next one can dissolve in over it.
+TRANSITION_FRAMES = 10
+LEAD_IN = 0.4  # seconds of picture before the first word
+PARA_PAUSE = 0.55  # after every paragraph
+CHAPTER_PAUSE = 0.9  # extra pause at the end of a chapter
+CARD_SEC = 2.6  # chapter title card (no narration)
+CUT_LEAD = 0.1  # cuts land slightly before their anchor word
+MIN_SHOT = 1.2  # shortest allowed shot (later anchors are pushed back if needed)
+END_PAD = 2.5  # after the last word (music fade-out)
 
 CACHE_DIR = Path(os.environ.get("YTP_CACHE_DIR", ROOT / ".cache"))
 BUILD_DIR = ROOT / "build"

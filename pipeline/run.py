@@ -1,9 +1,9 @@
-"""Pipeline orchestrator.
+"""Pipeline orchestrator (long-form, script.json v2).
 
-  python pipeline/run.py prepare  <slug>   # TTS, captions, media, audio mix, timeline.json
+  python pipeline/run.py prepare    <slug>  # TTS, word timings, media, audio mix, timeline.json, youtube.txt
   (remotion render happens as a separate workflow step)
-  python pipeline/run.py thumbnails <slug> # 3 thumbnail variants (needs the Remotion deps)
-  python pipeline/run.py finalize <slug>   # mux audio, copy credits/samples into out/<slug>/
+  python pipeline/run.py thumbnails <slug>  # 3 thumbnail variants (needs the Remotion deps)
+  python pipeline/run.py finalize   <slug>  # mux audio, collect final.mp4 + youtube.txt + thumbnails in out/<slug>/
 """
 import hashlib
 import json
@@ -22,9 +22,11 @@ import cf_images
 import credits
 import media
 import pexels
+import pronounce
 import thumbnails
 import timeline as tl
 import tts
+import youtube_meta
 from config import (BUILD_DIR, DEFAULT_VOICE, FPS, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA, ROOT, SAMPLE_MIN_SECONDS,
                     SAMPLE_VOICES, TTS_SAMPLE_RATE)
 from schema import load_script
@@ -49,21 +51,26 @@ def pick_music(setting: str, slug: str) -> Path | None:
         named = MUSIC_DIR / setting
         return named if named.exists() else None
     if not tracks:
-        print("  no tracks in /music -> video will have narration only")
+        print("  no tracks in /music -> narration only")
         return None
     return tracks[int(hashlib.sha1(slug.encode()).hexdigest(), 16) % len(tracks)]
 
 
+def reading_order(script) -> list[tuple[int, int, object]]:
+    """(chapter index, paragraph index, Paragraph) for every paragraph, in narration order."""
+    return [(ci, pi, p) for ci, ch in enumerate(script.chapters) for pi, p in enumerate(ch.paragraphs)]
+
+
 def voice_samples(script, out_dir: Path) -> None:
-    """Render ~10 s of the opening narration with each candidate voice (whole scenes, so no cut-off words)."""
+    """Render ~10 s of the opening narration with each candidate voice (whole paragraphs, no cut-off words)."""
     out_dir.mkdir(parents=True, exist_ok=True)
+    texts = [p.text for _, _, p in reading_order(script)]
     for voice in SAMPLE_VOICES:
         parts, total = [], 0.0
-        for sc in script.scenes:
-            tmp = out_dir / f"_{voice}_{sc.id}.wav"
-            total += tts.synth(sc.narration, voice, tmp)
-            data, _ = sf.read(tmp, dtype="float32")
-            parts.append(data)
+        for k, text in enumerate(texts):
+            tmp = out_dir / f"_{voice}_{k}.wav"
+            total += tts.synth(text, voice, tmp)[0]
+            parts.append(sf.read(tmp, dtype="float32")[0])
             tmp.unlink()
             if total >= SAMPLE_MIN_SECONDS:
                 break
@@ -79,47 +86,68 @@ def prepare(slug: str) -> None:
     (work / "audio").mkdir(parents=True)
     PUBLIC_MEDIA.mkdir(parents=True)
     voice = script.voice or DEFAULT_VOICE
+    table = pronounce.load(slug)
+    flat = reading_order(script)
 
     with step("tts"):
-        wavs, durations = [], []
-        for sc in script.scenes:
-            wav = work / "audio" / f"{sc.id}.wav"
-            durations.append(tts.synth(sc.narration, voice, wav))
+        wavs, durs, tts_words = [], [], []
+        for ci, pi, para in flat:
+            text, used = pronounce.apply(para.text, table)
+            wav = work / "audio" / f"c{ci + 1:02d}p{pi + 1:02d}.wav"
+            dur, words, phonemes = tts.synth(text, voice, wav)
             wavs.append(wav)
-            print(f"  {sc.id}: {durations[-1]:.1f}s")
+            durs.append(dur)
+            tts_words.append(words)
+            for key in used:
+                ipa = table[key].get("ipa")
+                status = "respelled" if ipa is None else "applied" if ipa in phonemes else "NOT applied"
+                print(f"  pronunciation {key!r}: {status}")
+        print(f"  {len(flat)} paragraphs, {sum(durs):.1f}s of narration")
 
-    with step("captions"):
-        words = [captions.word_timings(w, sc.narration) for w, sc in zip(wavs, script.scenes)]
+    with step("word-timings"):
+        words, sources = [], {}
+        for (_, _, para), wav, tw in zip(flat, wavs, tts_words):
+            w, source = captions.word_timings(wav, para.text, tw)
+            words.append(w)
+            sources[source] = sources.get(source, 0) + 1
+        print(f"  word timings from: {sources}")
 
-    # Pass 1 of the timeline gives every scene its duration, which stock clips need.
-    draft = tl.build(script.scenes, durations, words, [None] * len(script.scenes))
+    def per_chapter(values: list) -> list[list]:
+        return [[v for (c, _, _), v in zip(flat, values) if c == ci] for ci in range(len(script.chapters))]
 
-    clips, media_files, used_ids, used_ai = [], [], set(), False
+    lay = tl.layout(script, per_chapter(durs), per_chapter(words))
+
+    clips, media_files, used_ids, used_ai = [], {}, set(), False
     with step("media"):
-        for sc, item in zip(script.scenes, draft["scenes"]):
-            name = None
-            if sc.visual == "stock":
-                clip = pexels.get_clip(sc.query, item["durationFrames"] / FPS, used_ids)
+        for s in lay["shots"]:
+            src, seconds = s["src"], s["drawFrames"] / FPS
+            if src is None:
+                continue
+            if src.type == "stock":
+                clip = pexels.get_clip(src.query, seconds, used_ids)
                 clips.append(clip)
-                name = f"{sc.id}.mp4"
-                media.normalize_clip(clip["path"], PUBLIC_MEDIA / name, item["durationFrames"] / FPS)
-            elif sc.visual == "ai_image":
+                media_files[s["id"]] = f"{s['id']}.mp4"
+                media.normalize_clip(clip["path"], PUBLIC_MEDIA / media_files[s["id"]], seconds)
+            elif src.type == "ai_image":
                 used_ai = True
-                name = f"{sc.id}.jpg"
-                shutil.copyfile(cf_images.generate(sc.prompt), PUBLIC_MEDIA / name)
-            media_files.append(name)
+                media_files[s["id"]] = f"{s['id']}.jpg"
+                shutil.copyfile(cf_images.generate(src.prompt), PUBLIC_MEDIA / media_files[s["id"]])
 
     with step("timeline+audio"):
-        timeline = tl.build(script.scenes, durations, words, media_files)
+        timeline = tl.to_timeline(lay, script, media_files)
         (work / "timeline.json").write_text(json.dumps(timeline, indent=1), encoding="utf-8")
-        total_sec = tl.build_narration_track(wavs, timeline, work / "narration.wav")
+        total_sec = tl.build_narration_track(wavs, lay, work / "narration.wav")
         track = pick_music(script.music, slug)
         print(f"  music: {track.name if track else 'none'}")
         media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a")
         credits.write(work / "credits.txt", clips, track, used_ai)
-        print(f"  total video length: {total_sec:.1f}s ({timeline['totalFrames']} frames)")
+        for warning in youtube_meta.write(work / "youtube.txt", script, timeline,
+                                          (work / "credits.txt").read_text(encoding="utf-8")):
+            print(f"  youtube.txt warning: {warning}")
+        print(f"  total video length: {total_sec:.1f}s ({timeline['totalFrames']} frames, "
+              f"{len(timeline['shots'])} shots, {len(timeline['chapters'])} chapters)")
 
-    if os.environ.get("VOICE_SAMPLES") == "1":  # voice is decided (am_michael); samples are opt-in now
+    if os.environ.get("VOICE_SAMPLES") == "1":  # voice is decided (am_michael); samples are opt-in
         with step("voice-samples"):
             voice_samples(script, work / "voice_samples")
 
@@ -137,13 +165,12 @@ def finalize(slug: str) -> None:
     shutil.rmtree(out, ignore_errors=True)
     with step("mux"):
         media.mux(work / "video.mp4", work / "audio_mix.m4a", out / "final.mp4")
-    shutil.copyfile(work / "credits.txt", out / "credits.txt")
-    if (work / "thumbnails").exists():
-        shutil.copytree(work / "thumbnails", out / "thumbnails")
-    if (work / "voice_samples").exists():
-        shutil.copytree(work / "voice_samples", out / "voice_samples")
-    size = (out / "final.mp4").stat().st_size / 1e6
-    print(f"final.mp4: {size:.1f} MB")
+    for name in ("youtube.txt", "credits.txt"):
+        shutil.copyfile(work / name, out / name)
+    for folder in ("thumbnails", "voice_samples"):
+        if (work / folder).exists():
+            shutil.copytree(work / folder, out / folder)
+    print(f"final.mp4: {(out / 'final.mp4').stat().st_size / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":

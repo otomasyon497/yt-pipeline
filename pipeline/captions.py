@@ -60,14 +60,20 @@ def align(script_text: str, heard: list[tuple[str, float, float]], total: float)
     return [{"t": toks[k], "s": round(out[k][0], 3), "e": round(out[k][1], 3)} for k in range(len(toks))]
 
 
-def word_timings(wav: Path, script_text: str) -> list[dict]:
+def word_timings(wav: Path, script_text: str, tts_words: list | None = None) -> tuple[list[dict], str]:
+    """Word timings for `script_text`: Kokoro's own timestamps when available, otherwise faster-whisper.
+
+    Returns (words, source) where source is "kokoro" or "whisper".
+    """
     info = sf.info(wav)
     total = info.frames / info.samplerate
+    if tts_words:
+        return align(script_text, [(w[0], w[1], w[2]) for w in tts_words], total), "kokoro"
     cached = cache_path("captions", f"{digest(WHISPER_MODEL, script_text, round(total, 3))}.json")
     if cached.exists():
-        return json.loads(cached.read_text(encoding="utf-8"))
+        return json.loads(cached.read_text(encoding="utf-8")), "whisper"
     segments, _ = _whisper().transcribe(str(wav), language="en", word_timestamps=True, beam_size=1, vad_filter=False)
     heard = [(w.word, w.start, w.end) for seg in segments for w in (seg.words or [])]
     words = align(script_text, heard, total)
     cached.write_text(json.dumps(words), encoding="utf-8")
-    return words
+    return words, "whisper"

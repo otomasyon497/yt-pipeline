@@ -1,13 +1,13 @@
 import React from 'react';
 import {AbsoluteFill, useCurrentFrame} from 'remotion';
 import {body, clamp01, colors, display, easeOut} from '../theme';
-import type {SceneData} from '../types';
+import type {ShotData} from '../types';
 
-export const QuoteScene: React.FC<{scene: SceneData}> = ({scene}) => {
+export const QuoteScene: React.FC<{scene: ShotData}> = ({scene}) => {
 	const frame = useCurrentFrame();
 	const words = (scene.quote ?? '').split(' ');
 	const markP = easeOut((frame - 4) / 18);
-	const authorP = easeOut((frame - (scene.narrationStartFrame - scene.startFrame) - 70) / 18);
+	const authorP = easeOut((frame - Math.min(80, Math.floor(scene.durationFrames * 0.45))) / 18);
 	return (
 		<AbsoluteFill style={{backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center'}}>
 			<div style={{width: 1400, textAlign: 'left', position: 'relative'}}>

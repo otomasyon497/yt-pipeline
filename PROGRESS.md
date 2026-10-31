@@ -1,16 +1,16 @@
 ﻿# PROGRESS
 
-## Status (Phase 1 - DONE, waiting for user approval)
+## Status (Phase 1 approved; Phase 2 planning)
 - [x] Repo, pipeline, Remotion project, workflow; secrets set by user
 - [x] End-to-end run on Actions green (run 41201330118): 1920x1080 / 24 fps H.264+AAC, ~70.6 s, artifact `nokia-intro`
       (final.mp4, credits.txt, voice_samples/ with bm_george, am_michael, am_onyx)
 - [x] Measured: job 6m07s (billed ~7 min). Prepare 1m39s (tts 55s, captions 13s, media 14s warm cache, samples 14s),
       Remotion render 2m27s for 1694 frames (~11.5 fps on 2 vCPU), setup (apt+pip+npm) ~1m50s.
       First (cold-cache) run: job ~6m, render 2m52s for 2035 frames.
-- Music: /music is empty, so the test video has narration only (ducking/mix path not yet exercised with a real track).
+- Music: /music was still empty on 2026-10-31 (user said tracks were added, none found in the working tree); so the test video has narration only (ducking/mix path not yet exercised with a real track).
 
 ## Decisions
-- Default voice `bm_george`; samples of `am_michael` + `am_onyx` in the artifact for comparison.
+- Voice: user chose `am_michael` as default for all episodes (config.DEFAULT_VOICE, schema default). Voice samples are now opt-in (`VOICE_SAMPLES=1`).
 - AI images: `CF_IMAGE_MODEL=@cf/black-forest-labs/flux-1-schnell` set in workflow (user chose licence caution over
   flux-2-klein-4b, whose hosted terms on Cloudflare are unclear). Klein code path remains (switch by changing env), unverified in practice.
   schnell: 1024x1024 centre-cropped to 16:9, upscaled to 1080p; no `seed` field accepted.

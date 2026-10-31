@@ -4,6 +4,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+
+def secret(name: str) -> str:
+    """Read an env secret, tolerating pasted quotes (straight or curly) and stray whitespace."""
+    value = os.environ.get(name, "").strip().strip("\"'“”‘’").strip()
+    if not value:
+        raise RuntimeError(f"{name} is not set")
+    return value
+
 # Video format. 24 fps is a deliberate render-time optimisation (20% fewer frames than 30 fps).
 FPS = 24
 WIDTH = 1920

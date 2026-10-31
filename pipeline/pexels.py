@@ -6,16 +6,13 @@ from pathlib import Path
 import requests
 
 from cache import HourlyLimiter, cache_path, digest
-from config import PEXELS_BASE, PEXELS_HOURLY_SOFT_LIMIT
+from config import PEXELS_BASE, PEXELS_HOURLY_SOFT_LIMIT, secret
 
 _limiter = HourlyLimiter("pexels", PEXELS_HOURLY_SOFT_LIMIT)
 
 
 def _headers() -> dict:
-    key = os.environ.get("PEXELS_API_KEY")
-    if not key:
-        raise RuntimeError("PEXELS_API_KEY is not set")
-    return {"Authorization": key}
+    return {"Authorization": secret("PEXELS_API_KEY")}
 
 
 def search(query: str) -> list[dict]:

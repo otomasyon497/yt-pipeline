@@ -17,6 +17,7 @@ from config import (
     CF_STYLE_SUFFIX,
     HEIGHT,
     WIDTH,
+    secret,
 )
 
 _budget = DailyBudget("cf_neurons", CF_DAILY_BUDGET_NEURONS)
@@ -24,11 +25,11 @@ _FALLBACK_STEPS = 6
 
 
 def _url(model: str) -> str:
-    return f"https://api.cloudflare.com/client/v4/accounts/{os.environ['CF_ACCOUNT_ID']}/ai/run/{model}"
+    return f"https://api.cloudflare.com/client/v4/accounts/{secret('CF_ACCOUNT_ID')}/ai/run/{model}"
 
 
 def _auth() -> dict:
-    return {"Authorization": f"Bearer {os.environ['CF_API_TOKEN']}"}
+    return {"Authorization": f"Bearer {secret('CF_API_TOKEN')}"}
 
 
 def _decode(resp: requests.Response) -> bytes:

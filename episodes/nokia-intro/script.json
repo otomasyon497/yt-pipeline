@@ -1,0 +1,93 @@
+{
+  "title": "How Nokia Lost Its Empire",
+  "voice": "bm_george",
+  "music": "auto",
+  "sources": [
+    "TEST SCRIPT - fact-check before publishing anything real.",
+    "Founded 1865 as a paper mill (Fredrik Idestam) - Nokia corporate history.",
+    "Largest mobile phone maker from 1998 - widely reported; verify exact year.",
+    "Smartphone share ~half in 2007 - illustrative round number, verify against Gartner/IDC.",
+    "iPhone launched June 2007.",
+    "Elop memo, Feb 2011 - verify exact wording of the quote.",
+    "Microsoft bought the devices and services business, announced Sept 2013, about 5.44 billion euros."
+  ],
+  "scenes": [
+    {
+      "id": "s01",
+      "visual": "title_card",
+      "narration": "In 2007, Nokia sold roughly half of all the smartphones on Earth.",
+      "on_screen_text": "NOKIA",
+      "subtitle": "How an empire fell"
+    },
+    {
+      "id": "s02",
+      "visual": "stock",
+      "narration": "Its phones were in pockets from Helsinki to Jakarta. For a decade, it seemed untouchable.",
+      "query": "busy city street crowd people walking",
+      "on_screen_text": "Helsinki to Jakarta"
+    },
+    {
+      "id": "s03",
+      "visual": "map",
+      "narration": "It all began in Finland, a small country of about five and a half million people.",
+      "map": { "highlight": ["Finland"], "points": [{ "label": "Nokia", "lon": 23.5, "lat": 61.5 }] },
+      "on_screen_text": "Finland"
+    },
+    {
+      "id": "s04",
+      "visual": "ai_image",
+      "narration": "Founded in 1865 as a paper mill, the company reinvented itself again and again, from rubber boots to cables to electronics.",
+      "prompt": "19th century Finnish paper mill beside a river in winter, wooden buildings, smoke rising, dramatic light",
+      "on_screen_text": "Founded 1865"
+    },
+    {
+      "id": "s05",
+      "visual": "stock",
+      "narration": "By the late nineties, Nokia had become the largest mobile phone maker in the world.",
+      "query": "electronics factory assembly line"
+    },
+    {
+      "id": "s06",
+      "visual": "chart",
+      "narration": "At its peak, roughly half of all smartphones sold carried the Nokia name.",
+      "chart": {
+        "type": "bar",
+        "title": "Smartphone market share, 2007 (illustrative)",
+        "unit": "%",
+        "data": [["Nokia", 50], ["Everyone else", 50]]
+      }
+    },
+    {
+      "id": "s07",
+      "visual": "stock",
+      "narration": "Then, in 2007, Apple launched the iPhone.",
+      "query": "hand using smartphone touchscreen close up"
+    },
+    {
+      "id": "s08",
+      "visual": "ai_image",
+      "narration": "Nokia's phones were still selling, but its software could not keep up.",
+      "prompt": "an old generic candybar mobile phone with a green screen on a dark table, moody low key light, shallow depth of field"
+    },
+    {
+      "id": "s09",
+      "visual": "quote",
+      "narration": "In 2011, its new chief executive wrote to his staff: we have fallen behind, we have missed big trends, and we have lost time.",
+      "quote": "We have fallen behind, we have missed big trends, and we have lost time.",
+      "author": "Stephen Elop, 2011"
+    },
+    {
+      "id": "s10",
+      "visual": "stock",
+      "narration": "In 2013, Microsoft bought Nokia's phone business for about five and a half billion euros.",
+      "query": "glass office skyscraper corporate building"
+    },
+    {
+      "id": "s11",
+      "visual": "title_card",
+      "narration": "This is the story of how an empire lost its way.",
+      "on_screen_text": "THE FALL OF NOKIA",
+      "subtitle": "Part one"
+    }
+  ]
+}

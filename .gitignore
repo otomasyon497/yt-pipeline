@@ -1,7 +1,9 @@
 ﻿build/
-node_modules/
 out/
+.cache/
+node_modules/
 __pycache__/
 *.pyc
 .omc/
 .env
+remotion/public/media/

@@ -22,39 +22,59 @@
     {
       "id": "s02",
       "visual": "stock",
-      "narration": "Its phones were in pockets from Helsinki to Jakarta. For a decade, it seemed untouchable.",
+      "narration": "Its phones were in pockets from Helsinki to Jakarta.",
       "query": "busy city street crowd people walking",
       "on_screen_text": "Helsinki to Jakarta"
     },
     {
       "id": "s03",
       "visual": "map",
-      "narration": "It all began in Finland, a small country of about five and a half million people.",
-      "map": { "highlight": ["Finland"], "points": [{ "label": "Nokia", "lon": 23.5, "lat": 61.5 }] },
+      "narration": "It began in Finland, home to about five and a half million people.",
+      "map": {
+        "highlight": [
+          "Finland"
+        ],
+        "points": [
+          {
+            "label": "Nokia",
+            "lon": 23.5,
+            "lat": 61.5
+          }
+        ]
+      },
       "on_screen_text": "Finland"
     },
     {
       "id": "s04",
       "visual": "ai_image",
-      "narration": "Founded in 1865 as a paper mill, the company reinvented itself again and again, from rubber boots to cables to electronics.",
+      "narration": "Founded in 1865 as a paper mill, it reinvented itself again and again.",
       "prompt": "19th century Finnish paper mill beside a river in winter, wooden buildings, smoke rising, dramatic light",
       "on_screen_text": "Founded 1865"
     },
     {
       "id": "s05",
       "visual": "stock",
-      "narration": "By the late nineties, Nokia had become the largest mobile phone maker in the world.",
+      "narration": "By the late nineties, it was the world's biggest phone maker.",
       "query": "electronics factory assembly line"
     },
     {
       "id": "s06",
       "visual": "chart",
-      "narration": "At its peak, roughly half of all smartphones sold carried the Nokia name.",
+      "narration": "At its peak, half of all smartphones sold carried its name.",
       "chart": {
         "type": "bar",
         "title": "Smartphone market share, 2007 (illustrative)",
         "unit": "%",
-        "data": [["Nokia", 50], ["Everyone else", 50]]
+        "data": [
+          [
+            "Nokia",
+            50
+          ],
+          [
+            "Everyone else",
+            50
+          ]
+        ]
       }
     },
     {
@@ -66,26 +86,26 @@
     {
       "id": "s08",
       "visual": "ai_image",
-      "narration": "Nokia's phones were still selling, but its software could not keep up.",
+      "narration": "Nokia's phones still sold, but its software could not keep up.",
       "prompt": "an old generic candybar mobile phone with a green screen on a dark table, moody low key light, shallow depth of field"
     },
     {
       "id": "s09",
       "visual": "quote",
-      "narration": "In 2011, its new chief executive wrote to his staff: we have fallen behind, we have missed big trends, and we have lost time.",
+      "narration": "In 2011, its new chief executive told his staff the company had fallen behind.",
       "quote": "We have fallen behind, we have missed big trends, and we have lost time.",
       "author": "Stephen Elop, 2011"
     },
     {
       "id": "s10",
       "visual": "stock",
-      "narration": "In 2013, Microsoft bought Nokia's phone business for about five and a half billion euros.",
+      "narration": "In 2013, Microsoft bought the phone business for 5.4 billion euros.",
       "query": "glass office skyscraper corporate building"
     },
     {
       "id": "s11",
       "visual": "title_card",
-      "narration": "This is the story of how an empire lost its way.",
+      "narration": "This is how an empire lost its way.",
       "on_screen_text": "THE FALL OF NOKIA",
       "subtitle": "Part one"
     }

@@ -55,7 +55,7 @@ def _klein(prompt: str, seed: int) -> bytes:
 
 def _schnell(prompt: str, seed: int) -> bytes:
     _budget.spend(4 * 4.8 + _FALLBACK_STEPS * 9.6)  # 1024x1024 = 4 tiles + steps
-    r = requests.post(_url(CF_MODEL_FALLBACK), headers=_auth(), json={"prompt": prompt, "steps": _FALLBACK_STEPS, "seed": seed}, timeout=180)
+    r = requests.post(_url(CF_MODEL_FALLBACK), headers=_auth(), json={"prompt": prompt, "steps": _FALLBACK_STEPS}, timeout=180)
     if not r.ok:
         raise RuntimeError(f"{CF_MODEL_FALLBACK} HTTP {r.status_code}: {r.text[:300]}")
     return _decode(r)

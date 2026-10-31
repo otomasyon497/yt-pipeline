@@ -7,7 +7,9 @@ export const QuoteScene: React.FC<{scene: ShotData}> = ({scene}) => {
 	const frame = useCurrentFrame();
 	const words = (scene.quote ?? '').split(' ');
 	const markP = easeOut((frame - 4) / 18);
-	const authorP = easeOut((frame - Math.min(80, Math.floor(scene.durationFrames * 0.45))) / 18);
+	// The author appears once the quote has finished revealing (capped so it is never too late).
+	const authorAt = Math.min(14 + words.length * 4 + 8, Math.floor(scene.durationFrames * 0.7));
+	const authorP = easeOut((frame - authorAt) / 18);
 	return (
 		<AbsoluteFill style={{backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center'}}>
 			<div style={{width: 1400, textAlign: 'left', position: 'relative'}}>

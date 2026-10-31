@@ -27,6 +27,21 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
+## Phase 3A - long-form engine (done 2026-10-31, waiting for user approval)
+- script.json v2 (chapters -> paragraphs -> word-anchored shots), paragraph TTS, chapter cards, global word-by-word captions,
+  pronunciation dictionary (pipeline/pronunciations.json + per-episode overrides), youtube.txt (title, description with
+  chapters + credits, tags). YouTube API upload removed: the user uploads manually with final.mp4 + youtube.txt + thumbnails.
+- Evidence: run 41226922614 (suez-canal): 181.2 s, 27 shots, 4 chapters. Job 11m52s = prepare 3m33s (tts 155 s for 158 s
+  of narration, media 51 s) + render 5m52s (4,350 frames, ~12.4 fps) + thumbnails 21 s. final.mp4 87.8 MB (~3.9 Mbps),
+  so 15-20 min would be ~350-470 MB: Release delivery (3D) is required.
+- Kokoro returns word timestamps: all 19 paragraphs used them and Whisper never ran (kept only as a fallback).
+- Pronunciation overrides confirmed in Kokoro's phoneme output ("Port Said", "Lesseps").
+- Findings: map labels overlap and zoom stays too wide (3B). Pexels returns wrong specific places (a US dam for the Nile,
+  the Elbe canal for "desert canal"), so use stock only for generic concepts, maps or illustrations for specific places,
+  and add storyboard review (3D). A chart shot stayed 12.9 s (pacing rule for 2C). TTS is ~1x real time (optimisation candidate).
+- Fixed after the run, not yet re-rendered: the quote author appears only after the quote text has revealed.
+- Delivered to the PC: C:\Users\MONSTER\Videos\yt-pipeline\suez-canal\ (final.mp4, youtube.txt, credits.txt, thumbnails).
+
 ## Phase 3 plan - long form (proposed 2026-10-31, awaiting approval; no code yet)
 Flow per episode: topic -> script (Claude Code session: outline, facts.json with >=2 sources per number, chapter-by-chapter
 writing, check_script.py, separate verifier, user approval) -> storyboard preview on Actions -> full render -> private Release

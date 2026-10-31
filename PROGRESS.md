@@ -27,6 +27,21 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
+## Phase 3 plan - long form (proposed 2026-10-31, awaiting approval; no code yet)
+Flow per episode: topic -> script (Claude Code session: outline, facts.json with >=2 sources per number, chapter-by-chapter
+writing, check_script.py, separate verifier, user approval) -> storyboard preview on Actions -> full render -> private Release
+-> download to C:\Users\MONSTER\Videos\yt-pipeline\<slug>\ -> user watches -> upload private to YouTube -> delete Release.
+- 3A: script.json v2 (chapters -> paragraphs -> shots anchored to words), paragraph-level TTS (pauses ~0.6 s / ~1.5 s),
+  word-anchored cuts, pronunciation dictionary (Kokoro inline phonemes, to verify), YouTube chapters in the description.
+  Keep Whisper unless Kokoro exposes timestamps (not documented on the model card). Evidence: a 3-4 min sample video.
+- 3B: map engine v2: Natural Earth layers (admin-0/1, places, rivers, lakes, marine, relief), globe intro, region focus,
+  animated routes, choropleths (OWID / World Bank, CC BY 4.0), markers/labels, true-size compare, historical borders
+  (OpenHistoricalMap CC0 or own GeoJSON); static layers pre-rendered; 2-3 style frames for the user to choose.
+- 3C: music library v1 (8 tracks x 3 moods, ~4 min, A/B sections) generated once, private Release; chapter crossfades; ~-20 dB under voice.
+- 3D: Release delivery + PC download, storyboard step, upload.yml reads from the Release, per-run Actions-minutes summary.
+- 3E: first full 15-20 min pilot (script generation + render + review + private upload). Needs phone-verified channel + 2B OAuth.
+Budget per video (estimate): Actions 45-80 min; Pexels ~100 requests; schnell ~1,000-1,500 neurons; YouTube API ~51 units.
+
 ## Direction change (2026-10-31, discussion with user)
 - Target: 15-20 min videos, map-heavy niche as a MIX (economic geography, geopolitics, empires, border oddities), ~20/month
   (suggested ramp: start 8-12/month; Actions estimate ~45-80 min per video vs 2,000 min/month).

@@ -55,3 +55,8 @@ CF_STYLE_SUFFIX = (
     "cinematic documentary photograph, 35mm film look, muted color grading, "
     "natural light, no text, no watermark, no logos"
 )
+
+# Thumbnails (YouTube: 1280x720, JPEG/PNG, < 2 MB)
+THUMB_WIDTH = 1280
+THUMB_HEIGHT = 720
+THUMB_STYLE = "high contrast, dramatic lighting, cinematic, rich colors, no text, no watermark, no logos, no people"

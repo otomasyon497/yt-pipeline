@@ -76,9 +76,9 @@ def _fit_16_9(raw: bytes) -> Image.Image:
     return img.resize((WIDTH, HEIGHT), Image.LANCZOS)
 
 
-def generate(prompt: str):
+def generate(prompt: str, style: str | None = None):
     """Return the path of a 1920x1080 JPEG for `prompt` (cached by prompt + model settings)."""
-    full = f"{prompt}, {CF_STYLE_SUFFIX}"
+    full = f"{prompt}, {style or CF_STYLE_SUFFIX}"
     key = digest(CF_MODEL_PRIMARY, CF_IMAGE_WIDTH, CF_IMAGE_HEIGHT, full)
     dest = cache_path("cf_images", f"{key}.jpg")
     if dest.exists():

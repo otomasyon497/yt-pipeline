@@ -7,3 +7,5 @@ __pycache__/
 .omc/
 .env
 remotion/public/media/
+client_secret*.json
+*.token

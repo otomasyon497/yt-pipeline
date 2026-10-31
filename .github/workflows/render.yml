@@ -79,6 +79,9 @@ jobs:
             --codec=h264 --crf=20 --x264-preset=veryfast \
             --concurrency=2 --image-format=jpeg --jpeg-quality=88 --muted --log=info
 
+      - name: Thumbnails (3 variants)
+        run: python pipeline/run.py thumbnails "$SLUG"
+
       - name: Finalize (mux audio, collect outputs)
         run: python pipeline/run.py finalize "$SLUG"
 

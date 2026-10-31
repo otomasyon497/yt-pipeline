@@ -56,12 +56,27 @@ class Scene(BaseModel):
         return self
 
 
+class Thumbnail(BaseModel):
+    text: str  # 2-4 words, rendered large on the thumbnail
+    prompt: str  # background image prompt (objects/places/symbols, no real people)
+
+
+class YouTubeMeta(BaseModel):
+    title: str = Field(max_length=100)
+    description: str  # intro text; credits.txt is appended automatically
+    tags: list[str] = Field(default_factory=list)
+    category_id: str = "27"  # 27 = Education
+    contains_synthetic_media: bool = True  # disclose AI-generated realistic imagery / synthetic voice
+
+
 class Script(BaseModel):
     title: str
     voice: str = "am_michael"
     music: str = "auto"  # "auto" | file name inside /music | "none"
     scenes: list[Scene]
     sources: list[str] = Field(default_factory=list)  # free-form fact-check notes, not rendered
+    thumbnail: Optional[Thumbnail] = None
+    youtube: Optional[YouTubeMeta] = None
 
     @model_validator(mode="after")
     def _unique_ids(self):

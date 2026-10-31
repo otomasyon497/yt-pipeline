@@ -2,6 +2,7 @@
 
   python pipeline/run.py prepare  <slug>   # TTS, captions, media, audio mix, timeline.json
   (remotion render happens as a separate workflow step)
+  python pipeline/run.py thumbnails <slug> # 3 thumbnail variants (needs the Remotion deps)
   python pipeline/run.py finalize <slug>   # mux audio, copy credits/samples into out/<slug>/
 """
 import hashlib
@@ -21,6 +22,7 @@ import cf_images
 import credits
 import media
 import pexels
+import thumbnails
 import timeline as tl
 import tts
 from config import (BUILD_DIR, DEFAULT_VOICE, FPS, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA, ROOT, SAMPLE_MIN_SECONDS,
@@ -124,12 +126,20 @@ def prepare(slug: str) -> None:
     (work / "timings_prepare.json").write_text(json.dumps(_timings), encoding="utf-8")
 
 
+def make_thumbnails(slug: str) -> None:
+    script = load_script(ROOT / "episodes" / slug / "script.json")
+    with step("thumbnails"):
+        thumbnails.make(script, BUILD_DIR / slug / "thumbnails")
+
+
 def finalize(slug: str) -> None:
     work, out = BUILD_DIR / slug, OUT_DIR / slug
     shutil.rmtree(out, ignore_errors=True)
     with step("mux"):
         media.mux(work / "video.mp4", work / "audio_mix.m4a", out / "final.mp4")
     shutil.copyfile(work / "credits.txt", out / "credits.txt")
+    if (work / "thumbnails").exists():
+        shutil.copytree(work / "thumbnails", out / "thumbnails")
     if (work / "voice_samples").exists():
         shutil.copytree(work / "voice_samples", out / "voice_samples")
     size = (out / "final.mp4").stat().st_size / 1e6
@@ -138,4 +148,4 @@ def finalize(slug: str) -> None:
 
 if __name__ == "__main__":
     cmd, slug = sys.argv[1], sys.argv[2]
-    {"prepare": prepare, "finalize": finalize}[cmd](slug)
+    {"prepare": prepare, "thumbnails": make_thumbnails, "finalize": finalize}[cmd](slug)

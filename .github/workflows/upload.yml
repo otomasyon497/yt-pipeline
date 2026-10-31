@@ -1,0 +1,60 @@
+name: Upload to YouTube (private)
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Episode folder name under episodes/"
+        required: true
+        default: nokia-intro
+      render_run_id:
+        description: "Run ID of the 'Render episode' run whose artifact to upload"
+        required: true
+      thumbnail:
+        description: "Thumbnail variant"
+        type: choice
+        options: ["A", "B", "C"]
+        default: "A"
+      dry_run:
+        description: "Dry run: check credentials and show what would be uploaded"
+        type: boolean
+        default: true
+      force:
+        description: "Upload even if a video with the same title already exists"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      SLUG: ${{ inputs.slug }}
+      RENDER_RUN_ID: ${{ inputs.render_run_id }}
+      THUMB: ${{ inputs.thumbnail }}
+      DRY_RUN: ${{ inputs.dry_run }}
+      FORCE: ${{ inputs.force }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pipeline/requirements-upload.txt
+      - run: pip install -r pipeline/requirements-upload.txt
+      - name: Download rendered artifact
+        run: gh run download "$RENDER_RUN_ID" --repo "$GITHUB_REPOSITORY" -n "$SLUG" -D "out/$SLUG"
+      - name: Upload (private)
+        run: |
+          flags=""
+          [ "$DRY_RUN" = "true" ] && flags="$flags --dry-run"
+          [ "$FORCE" = "true" ] && flags="$flags --force"
+          python pipeline/youtube_upload.py --slug "$SLUG" --thumbnail "$THUMB" $flags

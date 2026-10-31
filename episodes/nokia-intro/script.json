@@ -109,5 +109,22 @@
       "on_screen_text": "THE FALL OF NOKIA",
       "subtitle": "Part one"
     }
-  ]
+  ],
+  "thumbnail": {
+    "text": "Nokia's Fall",
+    "prompt": "an old black candybar mobile phone cracked in half on a dark reflective surface, red and amber light"
+  },
+  "youtube": {
+    "title": "How Nokia Lost Its Empire",
+    "description": "Test upload from an automated pipeline. In 2007 Nokia sold roughly half of all smartphones on Earth - then the iPhone arrived.\n\nFacts in this test script are illustrative and not yet fact-checked.",
+    "tags": [
+      "nokia",
+      "business history",
+      "economic history",
+      "iphone",
+      "documentary"
+    ],
+    "category_id": "27",
+    "contains_synthetic_media": true
+  }
 }

@@ -30,7 +30,7 @@ def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: boo
     if mc:
         lines += ["Music:", f"- {mc}", ""]
     if used_ai_images:
-        lines += ["Some images in this video were generated with AI (FLUX.2 [klein] 4B by Black Forest Labs, via Cloudflare Workers AI).", ""]
+        lines += ["Some images in this video were generated with AI (FLUX by Black Forest Labs, via Cloudflare Workers AI).", ""]
     lines.append("Narration: synthetic voice (Kokoro TTS).")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

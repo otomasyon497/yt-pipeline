@@ -84,15 +84,16 @@ def generate(prompt: str):
         print(f"  cf: cache hit {key}")
         return dest
     seed = int(key[:8], 16) % (2**31)
-    try:
-        raw = _klein(full, seed)
-        used = CF_MODEL_PRIMARY
-    except RuntimeError as e:
-        if "budget" in str(e):
-            raise
-        print(f"  cf: primary model failed ({e}); falling back to {CF_MODEL_FALLBACK}")
-        raw = _schnell(full, seed)
-        used = CF_MODEL_FALLBACK
+    if CF_MODEL_PRIMARY == CF_MODEL_FALLBACK:  # schnell selected explicitly (e.g. licence caution)
+        raw, used = _schnell(full, seed), CF_MODEL_FALLBACK
+    else:
+        try:
+            raw, used = _klein(full, seed), CF_MODEL_PRIMARY
+        except RuntimeError as e:
+            if "budget" in str(e):
+                raise
+            print(f"  cf: primary model failed ({e}); falling back to {CF_MODEL_FALLBACK}")
+            raw, used = _schnell(full, seed), CF_MODEL_FALLBACK
     _fit_16_9(raw).save(dest, "JPEG", quality=92)
     print(f"  cf: generated {key} with {used}")
     return dest

@@ -46,6 +46,11 @@
 - Procedural music (pipeline/music.py, music "procedural" or "auto" with empty /music): one music_lab bed per chapter
   mood, 2 s crossfades, bed 10 dB under the measured narration + sidechain ducking; mix is stereo now.
 - Map labels: place kind `label` (text-only callout, e.g. "EVER GIVEN" above the ship).
+- Evidence: run 41345404099 (final; first pass 41343940945): 161.8 s video, 20 units from 23 shots, 4 chapters with
+  procedural music (bed -20.6 dB applied, 10 dB under the -27.2 LUFS voice), job 10m51s (prepare 2m56s incl. 9
+  Sentinel-2 views with 1-30 scenes each, render 5m45s, thumbnails 14 s). Event imagery needed a percentile stretch
+  (the 24 March scene is full of dust). Delivered to C:\Users\MONSTER\Videos\yt-pipeline\suez-v2\.
+- Known: wide Sentinel-2 mosaics can still show a thin seam/sliver where scenes from different days meet.
 
 ## Phase 3B - map engine v2 + "more attention, more flow" (2026-11-01)
 User feedback on 3A: "izledim güzel olmuş" + make it more attention-grabbing and fluid.

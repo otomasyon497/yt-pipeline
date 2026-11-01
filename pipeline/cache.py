@@ -60,3 +60,13 @@ class DailyBudget:
         if used + amount > self.limit:
             raise RuntimeError(f"Daily neuron budget exceeded ({used:.0f}+{amount:.0f} > {self.limit}).")
         _save(self.path, {day: used + amount})
+
+
+_STOP = {"aerial", "view", "video", "footage", "the", "and", "with", "from", "of", "a", "in", "on", "at"}
+
+
+def relevance(query: str, text: str) -> int:
+    """How many meaningful query words appear in a clip's tags / page slug (stock clip ranking)."""
+    words = {w for w in query.lower().replace("-", " ").split() if len(w) > 2 and w not in _STOP}
+    hay = text.lower().replace("-", " ").replace(",", " ")
+    return sum(1 for w in words if w in hay or (w.endswith("s") and w[:-1] in hay))

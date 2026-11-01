@@ -8,7 +8,7 @@ import time
 
 import requests
 
-from cache import cache_path, digest
+from cache import cache_path, digest, relevance
 from config import secret
 
 API = "https://pixabay.com/api/videos/"
@@ -43,7 +43,11 @@ def get_clip(query: str, need_sec: float, used_ids: set) -> dict:
     hits = [v for v in search(query) if f"pixabay:{v['id']}" not in used_ids and _best_file(v)]
     if not hits:
         raise RuntimeError(f"No usable Pixabay clip for query {query!r}")
-    hits.sort(key=lambda v: 0 if v.get("duration", 0) >= need_sec else 1)  # long enough first, then API ranking
+    # Most query words in the tags first (Pixabay's own ranking returned a cruise ship for "container ship"),
+    # then clips long enough for the scene, then the API order.
+    hits.sort(key=lambda v: (-relevance(query, v.get("tags", "")), 0 if v.get("duration", 0) >= need_sec else 1))
+    if relevance(query, hits[0].get("tags", "")) == 0:
+        raise RuntimeError(f"No Pixabay clip tagged like {query!r}")
     v = hits[0]
     used_ids.add(f"pixabay:{v['id']}")
     f = _best_file(v)

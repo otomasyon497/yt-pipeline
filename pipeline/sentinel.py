@@ -236,6 +236,10 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         valid = np.isfinite(acc[..., 0])
         if not valid.any():
             return None
+        filled = float(np.isfinite(acc[py, px, 0])[coverable].mean()) if coverable.any() else 0.0
+        if filled < 0.9:  # a half-filled mosaic shows as a pale patch over Blue Marble: better none at all
+            print(f"  sentinel-2: skipped, only {filled:.0%} of the view filled")
+            return None
         disp = _tone(np.where(np.isfinite(acc), acc, 0), valid, stretch=when is not None)
         img = Image.fromarray((disp * 255).astype(np.uint8))
         img = ImageEnhance.Color(img).enhance(1.22)

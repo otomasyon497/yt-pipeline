@@ -5,7 +5,7 @@ from pathlib import Path
 
 import requests
 
-from cache import HourlyLimiter, cache_path, digest
+from cache import HourlyLimiter, cache_path, digest, relevance
 from config import PEXELS_BASE, PEXELS_HOURLY_SOFT_LIMIT, secret
 
 _limiter = HourlyLimiter("pexels", PEXELS_HOURLY_SOFT_LIMIT)
@@ -49,7 +49,7 @@ def get_clip(query: str, need_sec: float, used_ids: set) -> dict:
     if not candidates:
         raise RuntimeError(f"No usable Pexels clip for query {query!r}")
     # Prefer clips long enough for the scene (no loop needed); otherwise keep search ranking.
-    candidates.sort(key=lambda v: 0 if v.get("duration", 0) >= need_sec else 1)
+    candidates.sort(key=lambda v: (-relevance(query, v.get("url", "")), 0 if v.get("duration", 0) >= need_sec else 1))
     v = candidates[0]
     f = _best_file(v)
     dest = cache_path("pexels_video", f"{v['id']}_{f['width']}.mp4")

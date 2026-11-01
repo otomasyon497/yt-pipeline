@@ -1,0 +1,22 @@
+# gerd-nile: production plan
+
+Resume from the first unchecked box. Every step ends with a commit and a log line.
+
+Working question (to be tested by the research, not assumed): Ethiopia finished Africa's biggest dam on the
+river Egypt cannot live without. Did the feared catastrophe happen, and what will the next long drought decide?
+
+## Steps
+- [ ] 1. Research dossier (`research.md`): every number with a source; 2-3 own calculations, maths shown
+- [ ] 2. Visual inventory (in `research.md`): Sentinel-2 before/after dates, Commons PD/CC0/CC BY files, data series, stock queries
+- [ ] 3. Outline (`outline.md`), Turkish summary to the user (gate 1, non-blocking unless they object)
+- [ ] 4. Feature: Sentinel-2 before/after wipe on a map step
+- [ ] 5. Feature: animated chart scene (bar / line)
+- [ ] 6. Feature: "where are we" locator inset on stock and photo shots
+- [ ] 7. Feature: one episode look (same grade on stock and archive; chapter cards over blurred satellite)
+- [ ] 8. Script (`script.json`): about 2,500 words, 16-18 min, each paragraph written to a visual we can show
+- [ ] 9. Fact-check pass: every claim against `research.md`
+- [ ] 10. Storyboard run, self-review of every frame, fixes
+- [ ] 11. Full render, download to `Videos\yt-pipeline\gerd-nile`, user review (gate 2)
+
+## Log
+- 2026-11-02: started. Claude Code auto-continue is on (`autoContinue: true`); a keep-awake process runs for this session.

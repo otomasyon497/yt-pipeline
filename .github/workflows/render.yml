@@ -19,16 +19,23 @@ on:
         description: "Make the 3 thumbnail variants"
         type: boolean
         default: true
+      storyboard:
+        description: "Only a storyboard: one still per shot / map stop on contact sheets (no video)"
+        type: boolean
+        default: false
 
 jobs:
   render:
     runs-on: ubuntu-latest
     timeout-minutes: 150
+    permissions:
+      contents: write  # publish the finished episode as a private release
     env:
+      GH_TOKEN: ${{ github.token }}
       SLUG: ${{ inputs.slug }}
       MAP_STYLE: ${{ inputs.map_style }}
       STILLS: ${{ inputs.stills }}
-      OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}
+      OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}${{ inputs.storyboard && '-storyboard' || '' }}
       YTP_CACHE_DIR: ${{ github.workspace }}/.cache
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -37,6 +44,9 @@ jobs:
       # Licence caution: hosted FLUX.2 klein terms are unclear for third-party hosts, so use schnell.
       CF_IMAGE_MODEL: "@cf/black-forest-labs/flux-1-schnell"
     steps:
+      - name: Start clock
+        run: echo "RUN_START=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v7
 
       - uses: actions/setup-python@v7
@@ -94,8 +104,15 @@ jobs:
           node stills.mjs "../build/$SLUG/timeline.json" "../out/$SLUG/stills" "$STILLS"
           cp "../build/$SLUG/timeline.json" "../out/$SLUG/stills/"
 
+      - name: Storyboard (one still per shot and map stop)
+        if: inputs.storyboard
+        run: |
+          python pipeline/run.py storyboard "$SLUG"
+          (cd remotion && node stills.mjs "../build/$SLUG/timeline.json" "../build/$SLUG/sb" "$(cat ../build/$SLUG/storyboard_frames.txt)")
+          python tools/contact_sheet.py "build/$SLUG/storyboard.json" "build/$SLUG/sb" "out/$SLUG/storyboard"
+
       - name: Render video (Remotion)
-        if: inputs.stills == ''
+        if: inputs.stills == '' && !inputs.storyboard
         working-directory: remotion
         run: |
           npx remotion render src/index.ts Episode "../build/$SLUG/video.mp4" \
@@ -104,14 +121,33 @@ jobs:
             --concurrency=2 --image-format=jpeg --jpeg-quality=88 --muted --log=info
 
       - name: Thumbnails (3 variants)
-        if: inputs.stills == '' && inputs.thumbnails
+        if: inputs.stills == '' && !inputs.storyboard && inputs.thumbnails
         run: python pipeline/run.py thumbnails "$SLUG"
 
       - name: Finalize (mux audio, collect outputs)
-        if: inputs.stills == ''
+        if: inputs.stills == '' && !inputs.storyboard
         run: python pipeline/run.py finalize "$SLUG"
 
-      - name: Upload artifact (2-day retention)
+      - name: Publish private release (the PC downloads it from there)
+        if: inputs.stills == '' && !inputs.storyboard
+        run: |
+          TAG="ep-$SLUG-$GITHUB_RUN_ID"
+          OUT="out/$SLUG"
+          cp "$OUT/final.mp4" "$OUT/$OUT_NAME.mp4"
+          MIN=$(( ( $(date +%s) - RUN_START ) / 60 + 1 ))
+          SIZE=$(du -m "$OUT/final.mp4" | cut -f1)
+          DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT/final.mp4" | cut -d. -f1)
+          {
+            echo "Episode: $SLUG"
+            echo "Video: ${DUR} s, ${SIZE} MB. Actions time until publish: about ${MIN} min."
+            echo
+            echo "Download (PowerShell): gh release download $TAG -R $GITHUB_REPOSITORY -D \"\$env:USERPROFILE\Videos\yt-pipeline\\$SLUG\""
+          } > notes.md
+          gh release create "$TAG" "$OUT/$OUT_NAME.mp4" "$OUT/youtube.txt" "$OUT/credits.txt" $(ls "$OUT"/thumbnails/*.jpg 2>/dev/null)             --prerelease --title "$OUT_NAME $(date -u +%F)" --notes-file notes.md
+          echo "Release: $TAG (${DUR} s, ${SIZE} MB)" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload artifact (stills / storyboard, 2-day retention)
+        if: inputs.stills != '' || inputs.storyboard
         uses: actions/upload-artifact@v7
         with:
           name: ${{ env.OUT_NAME }}
@@ -132,3 +168,13 @@ jobs:
         with:
           path: ~/.cache/huggingface
           key: hf-models-v1
+
+      - name: Minutes summary
+        if: always()
+        run: |
+          MIN=$(( ( $(date +%s) - RUN_START ) / 60 + 1 ))
+          {
+            echo "### $OUT_NAME"
+            echo "- Job time: about $MIN min (GitHub bills each started minute)"
+            if [ -f "build/$SLUG/timings_prepare.json" ]; then echo "- Prepare steps (s): $(cat build/$SLUG/timings_prepare.json)"; fi
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -232,6 +232,33 @@ def finalize(slug: str) -> None:
     print(f"final.mp4: {(out / 'final.mp4').stat().st_size / 1e6:.1f} MB")
 
 
+def storyboard(slug: str) -> None:
+    """Pick one frame per shot (and per map camera stop) for a quick review before the full render."""
+    work = BUILD_DIR / slug
+    tlj = json.loads((work / "timeline.json").read_text(encoding="utf-8"))
+    words = tlj["words"]
+
+    def said(frame: int) -> str:
+        near = [w["text"] for w in words if frame - 30 <= w["start"] <= frame + 50]
+        return " ".join(near[:10])
+
+    items = []
+    for s in tlj["shots"]:
+        start, n = s["startFrame"], s["durationFrames"]
+        frames = {start + max(s.get("transitionIn", 0) + 4, n // 2 if s["visual"] != "map" else 18)}
+        if s["visual"] == "map" and s["media"]:
+            block = json.loads((PUBLIC_MEDIA / s["media"]).read_text(encoding="utf-8"))
+            frames |= {start + c["start"] + c["frames"] + 6 for c in block["cams"] if c["start"] + c["frames"] + 6 < n}
+        for f in sorted(frames):
+            if f < tlj["totalFrames"]:
+                t = f / tlj["fps"]
+                items.append({"frame": f, "label": f"{int(t // 60):02d}:{t % 60:04.1f}  {s['visual']}  {s['id']}",
+                              "words": said(f)})
+    (work / "storyboard.json").write_text(json.dumps(items, indent=1), encoding="utf-8")
+    (work / "storyboard_frames.txt").write_text(",".join(str(i["frame"]) for i in items), encoding="utf-8")
+    print(f"storyboard: {len(items)} frames")
+
+
 if __name__ == "__main__":
     cmd, slug = sys.argv[1], sys.argv[2]
-    {"prepare": prepare, "thumbnails": make_thumbnails, "finalize": finalize}[cmd](slug)
+    {"prepare": prepare, "thumbnails": make_thumbnails, "finalize": finalize, "storyboard": storyboard}[cmd](slug)

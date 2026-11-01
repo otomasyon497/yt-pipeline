@@ -50,7 +50,7 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
     map blocks), paragraphs, words and chapters, all positioned in seconds and frames.
     """
     t, last_end = 0.0, 0.0
-    shots, paras, all_words, chapters = [], [], [], []
+    shots, paras, all_words, chapters, asks = [], [], [], [], []
     for ci, ch in enumerate(script.chapters):
         chapters.append({"title": ch.title, "mood": ch.mood, "start": t})
         if script.has_card(ci):
@@ -69,6 +69,9 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
                 shots.append({"id": f"c{ci + 1:02d}p{pi + 1:02d}s{k + 1:02d}", "src": shot, "kind": shot.type,
                               "start": start + ws[idx]["s"] - CUT_LEAD,
                               "steps": [start + ws[j]["s"] - CUT_LEAD for j in step_idx[k]]})
+            if para.ask is not None:
+                asks.append({"t": start + ws[para.ask_index()]["s"], "end": start + durations[ci][pi] + 1.2,
+                             "text": para.ask.text})
             last_end = start + durations[ci][pi]
             t = last_end + PARA_PAUSE
         t += CHAPTER_PAUSE
@@ -89,7 +92,7 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
         s["frames"] = max(1, (total_frames if i + 1 == len(shots) else shots[i + 1]["startFrame"]) - s["startFrame"])
     units = group_units(shots, total_frames)
     return {"shots": shots, "units": units, "paragraphs": paras, "words": all_words, "chapters": chapters,
-            "total_frames": total_frames}
+            "total_frames": total_frames, "asks": asks}
 
 
 def group_units(shots: list[dict], total_frames: int) -> list[dict]:
@@ -128,6 +131,12 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
                 offset = s["startFrame"] - u["startFrame"]
                 texts.append({"text": text, "from": offset + (u["transitionIn"] if offset == 0 else 0) + TEXT_DELAY,
                               "countUp": count_up(text)})
+        for a in lay.get("asks", []):
+            f = round(a["t"] * FPS)
+            if u["startFrame"] <= f < u["startFrame"] + u["frames"]:
+                texts.append({"text": a["text"], "from": f - u["startFrame"], "countUp": None, "kind": "question",
+                              "hold": max(48, round(a["end"] * FPS) - f)})
+        texts.sort(key=lambda x: x["from"])
         shots.append({
             "id": u["id"],
             "visual": u["kind"],
@@ -170,6 +179,8 @@ def card_sfx(timeline: dict) -> list[tuple[float, str, float]]:
         elif s["visual"] == "title_card":
             events.append((t + 0.1, "hit", -3.0))
         for text in s["texts"]:
+            if text.get("kind") == "question":
+                events.append(((s["startFrame"] + text["from"]) / FPS, "pop", -1.0))
             if text["countUp"]:
                 events.append(((s["startFrame"] + text["from"]) / FPS + 0.3, "ticks", 0.0))
     return events

@@ -1,0 +1,560 @@
+{
+  "title": "One Ship, Six Days: The Desert Shortcut the World Can't Live Without",
+  "voice": "am_michael",
+  "music": "procedural",
+  "map_style": "satellite",
+  "captions": true,
+  "sources": [
+    "Test episode 3 (2026-11-02): same verified facts as suez-v2, rewritten with in-content engagement questions, retention bridges and one content-tied subscribe line.",
+    "Ever Given: grounded 23 March 2021, about 400 m long; at least 369 ships queuing by 28 March; refloated 29 March after six days - https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction",
+    "About USD 9.6 billion of trade held up per day - https://porteconomicsmanagement.org/suez-canal-blockage-2021/ , https://www.aljazeera.com/news/2021/3/26/maritime-traffic-jam-grows-outside-blocked-suez-canal",
+    "Canal run by the Suez Canal Company from 1869 until nationalisation on 26 July 1956 (87 years); invasion by Britain, France and Israel; withdrawal under US and Soviet pressure - https://en.wikipedia.org/wiki/Suez_Crisis",
+    "Lesseps and Said Pasha; construction from 1859 with forced labour until 1864, death toll disputed; opened 1869; London to the Arabian Sea about 8,900 km shorter; 193.3 km long; about 20,600 ships in 2021; about 12% of world trade - https://en.wikipedia.org/wiki/Suez_Canal",
+    "Closed 1967-1975, 15 ships trapped, the Yellow Fleet - https://en.wikipedia.org/wiki/Yellow_Fleet",
+    "Empire State Building roof height 381 m - https://en.wikipedia.org/wiki/Empire_State_Building"
+  ],
+  "thumbnail": {
+    "text": "ONE SHIP. 6 DAYS.",
+    "prompt": "a giant container ship in a narrow canal cutting through a desert at sunset, aerial view, dramatic"
+  },
+  "youtube": {
+    "title": "One Ship, Six Days: The Desert Shortcut the World Can't Live Without",
+    "description": "In March 2021, one ship turned sideways in the Suez Canal and hundreds of ships stopped behind it. Real satellite images, archive pictures and maps tell the story of the shortcut the world depends on.\n\n(Test episode from the automated pipeline.)",
+    "tags": [
+      "suez canal",
+      "ever given",
+      "satellite images",
+      "geopolitics",
+      "geography",
+      "shipping",
+      "egypt",
+      "history"
+    ],
+    "pinned_comment": "Two questions from the video: Was taking back the canal Egypt's right, or a gamble? And will the world ever build a real alternative to Suez? Tell me below."
+  },
+  "chapters": [
+    {
+      "title": "Six Days in March",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "On March 23rd, 2021, a ship about as long as the Empire State Building is tall turned sideways in the Suez Canal, and stopped.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite image · 24 March 2021",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.5795,
+                      "lat": 30.0175,
+                      "span": 0.06
+                    },
+                    "date": "2021-03-24"
+                  },
+                  {
+                    "at": "turned sideways",
+                    "places": [
+                      {
+                        "name": "EVER GIVEN",
+                        "lon": 32.5795,
+                        "lat": 30.0215,
+                        "kind": "label"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "This is a real satellite image, taken the next day. Four hundred meters of steel, jammed from bank to bank. And nothing could get past.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Ever Given, about 400 m",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "at": "nothing could get past",
+                    "view": {
+                      "lon": 32.575,
+                      "lat": 30.03,
+                      "span": 0.5
+                    },
+                    "date": "2021-03-24"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "But the strangest part wasn't the ship. It was what was piling up behind it.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Ever Given in Suez Canal viewed from ISS.jpg",
+              "on_screen_text": "Photo from the ISS · 27 March 2021"
+            }
+          ]
+        },
+        {
+          "text": "Within days, at least 369 ships were waiting at both ends, and around 9.6 billion dollars' worth of goods were stuck, every single day.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "369 ships waiting",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.56,
+                      "lat": 29.865,
+                      "span": 0.38
+                    },
+                    "date": "2021-03-24",
+                    "places": [
+                      {
+                        "name": "SHIPS WAITING",
+                        "lon": 32.565,
+                        "lat": 29.835,
+                        "kind": "label"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "around",
+              "query": "container ship ocean aerial",
+              "source": "pixabay",
+              "on_screen_text": "About $9.6 billion of goods per day"
+            }
+          ]
+        },
+        {
+          "text": "So here is a question. Should one country control a canal the whole world depends on, or should it belong to everyone? Tell me which side you are on.",
+          "ask": {
+            "at": "Should one country",
+            "text": "One country, or the whole world?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.4,
+                      "span": 3.2
+                    }
+                  },
+                  {
+                    "at": "the whole world depends",
+                    "world": true,
+                    "places": [
+                      {
+                        "name": "Suez Canal",
+                        "kind": "event",
+                        "label": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Because to answer that, you need to know how this ditch was dug in the first place. And if you like seeing history through real satellite images, subscribe. This channel is built on them.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "desert sand dunes aerial",
+              "source": "pixabay"
+            },
+            {
+              "type": "stock",
+              "at": "And if you like",
+              "query": "earth from space satellite",
+              "source": "pixabay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Shortcut",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "For centuries, ships sailing between Europe and Asia had to go all the way around Africa.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 3.5
+                      }
+                    ]
+                  },
+                  {
+                    "at": "around Africa",
+                    "places": [
+                      {
+                        "name": "Cape of Good Hope"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Then a French diplomat, Ferdinand de Lesseps, convinced Egypt's ruler, Said Pasha, to let him cut a canal straight through the desert.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Retrato de Ferdinand de Lesseps, por Felix Nadar.jpg",
+              "on_screen_text": "Ferdinand de Lesseps"
+            },
+            {
+              "type": "photo",
+              "at": "Said Pasha",
+              "photo": "File:Muhammad Said Pascha 1855 Nadar (edited).JPG",
+              "on_screen_text": "Said Pasha, ruler of Egypt"
+            }
+          ]
+        },
+        {
+          "text": "Digging began in 1859. Tens of thousands of Egyptian workers, many of them forced, moved the sand. How many of them died is still disputed.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Civil engineering; work on the Suez canal. Wood engraving by Wellcome V0024392.jpg",
+              "on_screen_text": "1859"
+            }
+          ]
+        },
+        {
+          "text": "Ten years later, the canal opened, and the trip from London to the Arabian Sea became almost 9,000 kilometers shorter. But who would control this shortcut? That question would one day bring three armies to Egypt.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:L'inauguration du canal de Suez, 17 November 1869 Gal18 riou 001f.jpg",
+              "on_screen_text": "17 November 1869"
+            },
+            {
+              "type": "map",
+              "at": "the trip",
+              "on_screen_text": "About 8,900 km shorter",
+              "map": {
+                "steps": [
+                  {
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 1.2
+                      }
+                    ]
+                  },
+                  {
+                    "at": "almost",
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "label": "Via Suez",
+                        "seconds": 2.2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Fight for the Canal",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "For 87 years, a European company ran the canal. Then, in July 1956, Egypt's president, Gamal Abdel Nasser, took it back.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Al-Ahram Newspaper Publish Suez Canal Nationalization.jpg",
+              "on_screen_text": "Al-Ahram · July 1956"
+            }
+          ]
+        },
+        {
+          "text": "Britain, France and Israel invaded. Within months, pressure from the United States and the Soviet Union forced them out.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      "Egypt"
+                    ],
+                    "highlight": [
+                      "Egypt"
+                    ]
+                  },
+                  {
+                    "at": "invaded",
+                    "arrows": [
+                      {
+                        "from": [
+                          33.0,
+                          34.6
+                        ],
+                        "to": [
+                          32.35,
+                          31.35
+                        ],
+                        "label": "Britain & France"
+                      },
+                      {
+                        "from": [
+                          34.5,
+                          31.3
+                        ],
+                        "to": [
+                          33.0,
+                          30.4
+                        ],
+                        "label": "Israel",
+                        "bend": -0.25
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "So, was taking back the canal Egypt's right, or a gamble that dragged the country into war? Right, or gamble? Let me know in the comments.",
+          "ask": {
+            "at": "was taking back",
+            "text": "Egypt's right, or a gamble?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "at": "dragged the country into war",
+                    "view": {
+                      "lon": 32.6,
+                      "lat": 30.4,
+                      "span": 7
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "And that was not the canal's last war. In 1967, it closed again, this time for eight years. Fifteen ships were trapped inside. They became known as the Yellow Fleet, after the desert sand that piled up on their decks.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Closed from 1967 to 1975",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.42,
+                      "lat": 30.33,
+                      "span": 0.9
+                    }
+                  },
+                  {
+                    "at": "Fifteen ships",
+                    "places": [
+                      {
+                        "name": "Great Bitter Lake",
+                        "kind": "sea"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Yellow Fleet",
+                    "view": {
+                      "lon": 32.38,
+                      "lat": 30.335,
+                      "span": 0.3
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Still the Shortcut",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "Today, the canal is 193 kilometers long. In 2021 alone, more than 20,000 ships passed through it, carrying about 12 percent of world trade.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "193 km",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.55,
+                      "span": 2.2
+                    },
+                    "routes": [
+                      {
+                        "path": "Suez Canal",
+                        "mode": "line",
+                        "seconds": 2.5
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Port Said",
+                        "kind": "port"
+                      },
+                      {
+                        "name": "Suez",
+                        "kind": "port"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "more than",
+              "query": "cargo ship sailing",
+              "source": "pixabay",
+              "on_screen_text": "About 20,600 ships in 2021"
+            }
+          ]
+        },
+        {
+          "text": "That is why, when tugs finally pulled the Ever Given free on March 29th, after six days, the whole world breathed out.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "29 March 2021 · hours before it was freed",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.58,
+                      "lat": 30.02,
+                      "span": 0.12
+                    },
+                    "date": "2021-03-29"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "One ship. Six days. One narrow ditch in the desert. So will the world ever build a real alternative to Suez, or will it always depend on this one shortcut? Tell me what you think.",
+          "ask": {
+            "at": "will the world ever",
+            "text": "Is there a real alternative to Suez?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.5,
+                      "span": 4.0
+                    }
+                  },
+                  {
+                    "at": "will the world ever",
+                    "world": true,
+                    "places": [
+                      {
+                        "name": "Suez Canal",
+                        "kind": "event",
+                        "label": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "title_card",
+              "at": "Tell me what you think",
+              "on_screen_text": "THE SUEZ CANAL",
+              "subtitle": "The shortcut the world runs on"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

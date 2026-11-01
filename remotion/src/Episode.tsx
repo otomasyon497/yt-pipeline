@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Sequence, useCurrentFrame} from 'remotion';
 import {Captions} from './components/Captions';
 import {OnScreenText} from './components/OnScreenText';
+import {QuestionCard} from './components/QuestionCard';
 import {MapBlock} from './map/MapBlock';
 import {ChapterCard} from './scenes/ChapterCard';
 import {ChartScene} from './scenes/ChartScene';
@@ -45,7 +46,14 @@ const ShotFrame: React.FC<{shot: ShotData; index: number}> = ({shot, index}) => 
 		<AbsoluteFill style={{opacity: p, transform: scale !== 1 ? `scale(${scale})` : undefined, backgroundColor: colors.bg}}>
 			<ShotBody shot={shot} />
 			{shot.texts.map((t, k) => {
-				const next = shot.texts[k + 1];
+				if (t.kind === 'question') {
+					return (
+						<Sequence key={k} from={t.from} layout="none">
+							<QuestionCard text={t.text} hold={t.hold ?? 120} />
+						</Sequence>
+					);
+				}
+				const next = shot.texts.slice(k + 1).find((x) => x.kind !== 'question');
 				const hold = Math.min(96, (next ? next.from : shot.durationFrames) - t.from - 14);
 				return hold > 20 ? (
 					<Sequence key={k} from={t.from} layout="none">

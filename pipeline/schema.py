@@ -189,9 +189,16 @@ class Shot(BaseModel):
         return self
 
 
+class Ask(BaseModel):
+    """Engagement question: the narration asks it (at this word) and a question card shows it on screen."""
+    at: Union[int, str] = 0
+    text: str = Field(max_length=70)
+
+
 class Paragraph(BaseModel):
     text: str
     shots: list[Shot] = Field(default_factory=list)
+    ask: Optional[Ask] = None
 
     def _find(self, at: Union[int, str], start: int) -> int:
         """Word index of an anchor; phrases are searched from word `start` on."""
@@ -242,9 +249,13 @@ class Paragraph(BaseModel):
             out.append(idxs)
         return out
 
+    def ask_index(self) -> int | None:
+        return None if self.ask is None else self._find(self.ask.at, 0)
+
     @model_validator(mode="after")
     def _anchors(self):
         self.step_indices()
+        self.ask_index()
         return self
 
 
@@ -264,6 +275,7 @@ class YouTubeMeta(BaseModel):
     title: str = Field(max_length=100)
     description: str  # intro text; chapters and credits are appended automatically
     tags: list[str] = Field(default_factory=list)
+    pinned_comment: Optional[str] = None  # posted and pinned by hand after upload
 
 
 class Script(BaseModel):

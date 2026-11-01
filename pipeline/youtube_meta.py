@@ -43,5 +43,7 @@ def write(path: Path, script, timeline: dict, credits_text: str) -> list[str]:
     tag_chars = sum(len(t) + (2 if " " in t else 0) for t in tags) + max(len(tags) - 1, 0)
     if tag_chars > 500:
         warnings.append(f"tags use {tag_chars} characters (limit 500)")
-    path.write_text(f"TITLE\n{title}\n\nDESCRIPTION\n{description}\nTAGS\n{', '.join(tags)}\n", encoding="utf-8")
+    pinned = meta.pinned_comment if meta else None
+    extra = f"\nPINNED COMMENT (post it under the video and pin it)\n{pinned}\n" if pinned else ""
+    path.write_text(f"TITLE\n{title}\n\nDESCRIPTION\n{description}\nTAGS\n{', '.join(tags)}\n{extra}", encoding="utf-8")
     return warnings

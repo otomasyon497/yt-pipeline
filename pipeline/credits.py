@@ -16,9 +16,9 @@ def music_credit(track: Path | None) -> str | None:
 
 
 def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: bool, extra: list[str] = ()) -> None:
-    lines = ["Videos provided by Pexels (https://www.pexels.com)", ""]
+    lines = []
     if clips:
-        lines.append("Stock footage:")
+        lines += ["Videos provided by Pexels (https://www.pexels.com)", "", "Stock footage:"]
         seen = set()
         for c in clips:
             if c["id"] in seen:

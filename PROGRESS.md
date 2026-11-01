@@ -1,6 +1,8 @@
-﻿# PROGRESS
+# PROGRESS
 
-## Status (Phase 1 approved; Phase 2 planning)
+## Status (2026-11-01: Phase 3B done in code, renders under review; waiting for the user's map style choice)
+
+## Phase 1 (approved)
 - [x] Repo, pipeline, Remotion project, workflow; secrets set by user
 - [x] End-to-end run on Actions green (run 41201330118): 1920x1080 / 24 fps H.264+AAC, ~70.6 s, artifact `nokia-intro`
       (final.mp4, credits.txt, voice_samples/ with bm_george, am_michael, am_onyx)
@@ -26,6 +28,39 @@
 - Narration pace is ~2.05 words/s at speed 0.95; budget ~125 words per 60 s plus ~0.9 s per scene overhead.
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
+
+## Phase 3B - map engine v2 + "more attention, more flow" (2026-11-01)
+User feedback on 3A: "izledim güzel olmuş" + make it more attention-grabbing and fluid.
+- Data: Natural Earth 5.1.2 GeoJSON (public domain; pinned tag, cached in .cache/geo) for countries 10m/50m/110m, land,
+  coast, borders, lakes, rivers, admin-1, populated places, marine + region names. NASA GIBS WMS (EPSG:3857) imagery:
+  Blue Marble shaded relief + bathymetry (day), VIIRS Black Marble 2016 (night lights), ASTER GDEM greyscale relief
+  (NASA/METI, no redistribution limits since v3). GIBS acknowledgement goes into credits.txt automatically.
+- Sea routes: `searoute` (Apache-2.0 code; Eurostat MARNET network, EUPL-1.2 - commercial use allowed, only rendered lines
+  leave the pipeline). Curated lines in pipeline/lines.json (Suez Canal traced from ASTER relief), curated places in
+  pipeline/gazetteer.json (Wikipedia coordinates).
+- Script: `map.steps[]` (each anchored to a word like shots): focus / view {lon, lat, span} / world, highlight
+  (country, state or `file:x.geojson` from episodes/<slug>/geo/ for historical borders), dim, places (gazetteer names
+  or lon/lat; kinds city/capital/port/site/event/sea), routes (sea/air/line, avoid passages, curated path), arrows,
+  choropleth (inline values or World Bank indicator + year, CC BY 4.0, log/linear), true_size, layer day/night,
+  `globe: true` intro. v2 `highlight/points` shorthand still works. Script-level `map_style`.
+- Engine: consecutive map shots form one map block with one continuous camera (van Wijk smooth zoom/pan, eased,
+  slow push-in while holding); overlays of the previous shot clear (min 1.6 s on screen); camera auto-reframes when new
+  content is outside the safe area (captions band kept clear). Python (pipeline/maps.py) pre-computes everything
+  (camera keyframes, LOD layers clipped + simplified, imagery per view, label anchors); Remotion (src/map/) only draws.
+  Labels: deterministic widths, greedy collision placement per camera "epoch", kept in place between epochs.
+- Styles: satellite (Blue Marble, grade baked in), atlas (light vector + relief), midnight (dark vector + relief).
+  Relief is masked to Natural Earth land. Default MAP_STYLE=satellite until the user picks.
+- Flow: TTS speed 0.95 -> 1.0, paragraph pause 0.55 -> 0.45 s, chapter pause 0.9 -> 0.75 s, cards 2.6 -> 2.4 s,
+  dissolves 10 -> 8 frames, chapter cards punch in (scale + fade), stock clips slow push-in, lower-thirds count numbers up
+  ("About $9.6 billion" - never bare years), procedural SFX (pipeline/sfx.py, numpy only): whoosh on camera flights,
+  long whoosh on globe dives, pops on markers, thump on highlights, swoosh on routes/arrows, hit on cards, ticks on counters.
+  Mixed under the voice (SFX_LEVEL_DB -17, not ducked). `SFX=0` disables.
+- Tooling: render.yml inputs `map_style`, `stills` (render chosen frames only, e.g. "0,12.5s"; ~1-3 s per frame) and
+  `thumbnails`; remotion/stills.mjs. Removed unused world-atlas/topojson deps.
+- Evidence so far: stills runs 41290179584 (satellite) and 41290703460 / 41290708422 / 41290713167 (3 styles):
+  prepare 1m39s for the 53.5 s demo (tts 44 s, maps + imagery 51 s cold), 21 SFX placed, map block JSON 0.4-1.2 MB.
+- Known limits: views crossing the antimeridian get vector wrap but only one imagery tile; satellite imagery is 500 m
+  (soft below ~3 degree spans); historical borders need your own GeoJSON (OpenHistoricalMap import not automated).
 
 ## Phase 3A - long-form engine (done 2026-10-31, waiting for user approval)
 - script.json v2 (chapters -> paragraphs -> word-anchored shots), paragraph TTS, chapter cards, global word-by-word captions,

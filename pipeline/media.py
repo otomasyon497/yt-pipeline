@@ -1,4 +1,5 @@
 """ffmpeg helpers: normalise stock clips and mix the final audio."""
+import json
 import subprocess
 from pathlib import Path
 
@@ -22,13 +23,25 @@ def normalize_clip(src: Path, dst: Path, seconds: float) -> None:
          "-vf", vf, "-an", "-c:v", "libx264", "-preset", "ultrafast", "-crf", "18", "-pix_fmt", "yuv420p", dst])
 
 
-def mix_audio(narration_wav: Path, music: Path | None, total_sec: float, out_m4a: Path, sfx_wav: Path | None = None) -> None:
-    """Narration (+ optional music ducked under it, + optional sound effects), fade-out, about -14 LUFS.
+def loudness(wav: Path) -> float:
+    """Integrated loudness (LUFS) of a file, via ffmpeg's loudnorm analysis."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(wav), "-af", "loudnorm=print_format=json",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    if r.returncode != 0:
+        raise RuntimeError("loudness analysis failed:\n" + r.stderr[-800:])
+    return float(json.loads(r.stderr[r.stderr.rindex("{"):r.stderr.rindex("}") + 1])["input_i"])
+
+
+def mix_audio(narration_wav: Path, music: Path | None, total_sec: float, out_m4a: Path, sfx_wav: Path | None = None,
+              target_lufs: float = -14.0) -> None:
+    """Narration (+ optional music ducked under it, + optional sound effects), fade-out, then one constant gain
+    to about -14 LUFS with a -1 dBFS limiter. (Single-pass dynamic loudnorm pumped quiet passages up, so
+    effects on silent chapter cards ended up louder than the voice.)
 
     Input order: 0 = narration, 1 = sfx (if any), then music (looped). Effects are not ducked: they are
     short and placed on visual events, at a fixed level under the voice (see sfx.py).
     """
-    fade = f"afade=t=out:st={max(total_sec - 2.5, 0):.2f}:d=2.5,loudnorm=I=-14:TP=-1.5:LRA=11"
+    fade = f"afade=t=out:st={max(total_sec - 2.5, 0):.2f}:d=2.5"
     inputs = ["-i", narration_wav]
     parts = ["[0:a]aresample=48000[n0]"]
     voice = "[n0]"
@@ -51,8 +64,14 @@ def mix_audio(narration_wav: Path, music: Path | None, total_sec: float, out_m4a
         parts.append(f"[mx]{fade}[out]")
     else:
         parts.append(f"{voice}{fade}[out]")
+    raw = out_m4a.with_name(out_m4a.stem + "_raw.wav")
     run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(parts), "-map", "[out]",
-         "-t", f"{total_sec:.3f}", "-ar", 48000, "-c:a", "aac", "-b:a", "192k", out_m4a])
+         "-t", f"{total_sec:.3f}", "-ar", 48000, "-c:a", "pcm_s16le", raw])
+    gain = target_lufs - loudness(raw)
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af", f"volume={gain:.2f}dB,alimiter=limit=0.891:level=false",
+         "-ar", 48000, "-c:a", "aac", "-b:a", "192k", out_m4a])
+    raw.unlink()
+    print(f"  audio: {gain:+.1f} dB to {target_lufs} LUFS (linear gain + -1 dBFS limiter)")
 
 
 def mux(video: Path, audio: Path, out: Path) -> None:

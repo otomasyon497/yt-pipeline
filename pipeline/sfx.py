@@ -13,7 +13,7 @@ from config import SFX_LEVEL_DB
 
 SR = 48000
 # Peak level of each kind relative to SFX_LEVEL_DB (dB).
-BASE_DB = {"whoosh": -1.0, "whoosh_long": 0.0, "swoosh": -4.0, "pop": -5.0, "thump": -2.0, "hit": 2.0, "ticks": -7.0}
+BASE_DB = {"whoosh": -1.0, "whoosh_long": 0.0, "swoosh": -4.0, "pop": -5.0, "thump": -2.0, "hit": 0.0, "ticks": -7.0}
 MIN_GAP = {"pop": 0.12, "whoosh": 0.5, "swoosh": 0.4, "thump": 0.3, "hit": 1.0, "whoosh_long": 1.0, "ticks": 0.5}
 
 

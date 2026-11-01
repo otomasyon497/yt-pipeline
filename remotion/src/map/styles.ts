@@ -109,7 +109,7 @@ export const STYLES: Record<string, MapStyle> = {
 		border: '#5d7095',
 		borderWidth: 1.3,
 		rasterFilter: 'none',
-		reliefOpacity: 0.55,
+		reliefOpacity: 0.4,
 		label: '#eef2f8',
 		labelHalo: 'rgba(3,6,12,0.92)',
 		seaLabel: '#7d9cc6',

@@ -75,8 +75,12 @@ def _feather(img: Image.Image, frac: float = 0.07) -> Image.Image:
     return img
 
 
-def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, out: Path, feather: bool = True) -> dict | None:
-    """Fetch `layer` for a unit-Mercator box (x0, y0, x1, y1), save as WebP, return its placement."""
+def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, out: Path, feather: bool = True,
+             mask=None) -> dict | None:
+    """Fetch `layer` for a unit-Mercator box (x0, y0, x1, y1), save as WebP, return its placement.
+
+    `mask(box, (w, h))` may return an L image; its values scale the alpha (e.g. land only for relief).
+    """
     name, when, fmt, finest = LAYERS[layer]
     x0, y0, x1, y1 = max(0.0, box[0]), max(0.0, box[1]), min(1.0, box[2]), min(1.0, box[3])
     if x1 - x0 <= 1e-6 or y1 - y0 <= 1e-6:
@@ -92,6 +96,10 @@ def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, 
     if layer == "day":  # baked-in grade (cheaper than a CSS filter on every frame): darker, so overlays pop
         img = ImageEnhance.Color(ImageEnhance.Contrast(ImageEnhance.Brightness(img).enhance(0.8)).enhance(1.06)).enhance(0.92)
     img = _relief(img) if layer == "relief" else img.convert("RGBA")
+    if mask is not None:
+        m = np.asarray(mask((x0, y0, x1, y1), img.size), dtype=np.float32) / 255.0
+        a = np.asarray(img.getchannel("A"), dtype=np.float32) * m
+        img.putalpha(Image.fromarray(a.astype(np.uint8)))
     if feather:
         img = _feather(img)
     out.parent.mkdir(parents=True, exist_ok=True)

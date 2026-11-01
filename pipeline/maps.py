@@ -11,6 +11,7 @@ from pathlib import Path
 
 import numpy as np
 import requests
+from PIL import Image, ImageDraw, ImageFilter
 import searoute
 import shapely
 from shapely import affinity
@@ -453,6 +454,33 @@ def _active_cams(plan: Plan, start: int, end: int, min_overlap: int = 12) -> lis
     return out or ([best[1]] if best else plan.cams[:1])
 
 
+def land_mask(box, size) -> Image.Image:
+    """Natural Earth land (minus lakes) rasterised over a unit-Mercator box: relief shading stays on land."""
+    w, h = size
+    img = Image.new("L", (w, h), 0)
+    draw = ImageDraw.Draw(img)
+    lon0, lat0, lon1, lat1 = unit_box_to_lonlat(box)
+    sx, sy = w / (box[2] - box[0]), h / (box[3] - box[1])
+
+    def pix(ring):
+        a = np.asarray(ring.coords)[:, :2]
+        return list(zip(((geo.mx(a[:, 0]) - box[0]) * sx).tolist(), ((geo.my(a[:, 1]) - box[1]) * sy).tolist()))
+
+    for layer, value in (("ne_10m_land", 255), ("ne_10m_lakes", 0)):
+        for _, g in geo.ne_geoms(layer):
+            b = g.bounds
+            if b[2] < lon0 or b[0] > lon1 or b[3] < lat0 or b[1] > lat1:
+                continue
+            clipped = shapely.clip_by_rect(g, lon0 - 0.5, lat0 - 0.5, lon1 + 0.5, lat1 + 0.5)
+            for poly in getattr(clipped, "geoms", [clipped]):
+                if poly.geom_type != "Polygon" or poly.is_empty:
+                    continue
+                draw.polygon(pix(poly.exterior), fill=value)
+                for hole in poly.interiors:
+                    draw.polygon(pix(hole), fill=255 - value)
+    return img.filter(ImageFilter.GaussianBlur(1.2))
+
+
 def _night_cams(plan: Plan) -> list[dict]:
     """Keyframes on screen while the night layer is (becoming) visible."""
     out = []
@@ -593,7 +621,7 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
 
     def add(layer: str, bx, px: int, feather: bool, name: str) -> dict | None:
         try:
-            r = gibs.backdrop(layer, bx, px, out_dir / name, feather)
+            r = gibs.backdrop(layer, bx, px, out_dir / name, feather, land_mask if layer == "relief" else None)
         except Exception as exc:  # imagery is decoration: a failed fetch must not stop the render
             plan.warnings.append(f"GIBS {layer} image failed ({exc}); map continues without it")
             return None

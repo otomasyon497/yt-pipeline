@@ -217,27 +217,34 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					<path d={pathOf(lod.landR, xf, offsets, true)} fill={style.land} />
 				</svg>
 			) : null}
-			{rasters.map((r, i) => {
-				const [x0, y0] = toScreen(xf, r.x0, r.y0);
-				const [x1, y1] = toScreen(xf, r.x1, r.y1);
-				const onScreen = x1 > 0 && x0 < W && y1 > 0 && y0 < H;
-				const layerOpacity = r.layer === 'night' ? night : r.layer === 'day' ? 1 : style.reliefOpacity;
-				const opacity = onScreen ? layerOpacity : 0;
+			{(['day', 'relief', 'night'] as const).map((layer) => {
+				// One opacity per layer (not per image): overlapping images must not add up while fading.
+				const layerOpacity = layer === 'night' ? night : layer === 'day' ? 1 : style.reliefOpacity;
+				const imgs = rasters.filter((r) => r.layer === layer);
+				if (!imgs.length) return null;
 				return (
-					<Img
-						key={`${r.src}-${i}`}
-						src={staticFile(`media/${r.src}`)}
-						style={{
-							position: 'absolute',
-							left: x0,
-							top: y0,
-							width: x1 - x0,
-							height: y1 - y0,
-							opacity,
-							filter: r.layer === 'relief' || style.rasterFilter === 'none' ? undefined : style.rasterFilter,
-							mixBlendMode: r.layer === 'relief' ? 'soft-light' : 'normal',
-						}}
-					/>
+					<AbsoluteFill key={layer} style={{opacity: layerOpacity, mixBlendMode: layer === 'relief' ? 'soft-light' : 'normal'}}>
+						{imgs.map((r, i) => {
+							const [x0, y0] = toScreen(xf, r.x0, r.y0);
+							const [x1, y1] = toScreen(xf, r.x1, r.y1);
+							const onScreen = x1 > 0 && x0 < W && y1 > 0 && y0 < H;
+							return (
+								<Img
+									key={`${r.src}-${i}`}
+									src={staticFile(`media/${r.src}`)}
+									style={{
+										position: 'absolute',
+										left: x0,
+										top: y0,
+										width: x1 - x0,
+										height: y1 - y0,
+										opacity: onScreen ? 1 : 0,
+										filter: layer === 'relief' || style.rasterFilter === 'none' ? undefined : style.rasterFilter,
+									}}
+								/>
+							);
+						})}
+					</AbsoluteFill>
 				);
 			})}
 			<svg width={W} height={H} style={{position: 'absolute'}}>

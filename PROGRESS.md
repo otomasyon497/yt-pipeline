@@ -63,7 +63,10 @@ User feedback on 3A: "izledim güzel olmuş" + make it more attention-grabbing a
   1m58s, ~10.9 fps). suez-canal 41292641100: 173.1 s video (3A: 181.2 s), 26 units from 28 shots, 38 SFX,
   job 8m54s warm (prepare 45 s, render 6m11s for 4154 frames ~11.2 fps, thumbnails 14 s); cold TTS at speed 1.0 = 152 s
   (run 41291150896). Audio now: mix -> measured loudness -> one linear gain (+13.4 dB) + -1 dBFS limiter.
-  Found and fixed on the way: single-pass dynamic loudnorm boosted silent chapter cards (card hit ~7 dB over the voice).
+  Found and fixed on the way: SFX were placed at absolute levels while Kokoro's raw narration is -27.4 LUFS, so after
+  normalisation they sat ~13 dB too hot (card hit louder than the voice). Now sfx.build_track shifts them by the measured
+  narration loudness. Final renders 41293856270 / 41293861365 / 41293866811 (demo x3) and 41293872223 (suez): card hit
+  peaks about -25 dB (0.1 s RMS) vs speech about -15.7 dB RMS; true peak -0.9 dBFS. SFX_LEVEL_DB tunes the whole bed.
 - Delivered: C:\Users\MONSTER\Videos\yt-pipeline\suez-canal-3b\ (final.mp4, youtube.txt, credits.txt, thumbnails) and
   C:\Users\MONSTER\Videos\yt-pipeline\map-styles\ (satellite.mp4, atlas.mp4, midnight.mp4: same 53 s demo per style).
 - Next: user picks the default map style (and approves 3B), then 3C (music library + chapter crossfades).

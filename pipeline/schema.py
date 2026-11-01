@@ -116,7 +116,7 @@ class MapStep(BaseModel):
     focus: list[PlaceRef] = Field(default_factory=list)  # countries / places / regions to frame
     view: Optional[View] = None
     world: bool = False  # frame the whole world
-    highlight: list[str] = Field(default_factory=list)  # countries (or states/provinces) to fill
+    highlight: list[str] = Field(default_factory=list)  # countries, states/provinces, or "file:x.geojson" (episode geo/)
     dim: bool = False  # darken everything that is not highlighted
     places: list[Place] = Field(default_factory=list)
     routes: list[Route] = Field(default_factory=list)

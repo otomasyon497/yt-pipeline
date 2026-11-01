@@ -130,7 +130,8 @@ def prepare(slug: str) -> None:
             if u["kind"] == "map":
                 subs = [{"shot": s["src"], "startFrame": s["startFrame"] - u["startFrame"], "frames": s["frames"],
                          "steps": [round(x * FPS) - u["startFrame"] for x in s["steps"]]} for s in u["subs"]]
-                res = maps.build_block(u["id"], subs, style, script.captions, u["drawFrames"], PUBLIC_MEDIA)
+                res = maps.build_block(u["id"], subs, style, script.captions, u["drawFrames"], PUBLIC_MEDIA,
+                                       ROOT / "episodes" / slug)
                 media_files[u["id"]] = res["file"]
                 sfx_events += [((u["startFrame"] + f) / FPS, kind, gain) for f, kind, gain in res["events"]]
                 extra_credits |= res["credits"]

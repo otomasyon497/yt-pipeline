@@ -50,7 +50,7 @@ export const STYLES: Record<string, MapStyle> = {
 		riverWidth: 1,
 		border: 'rgba(255,255,255,0.72)',
 		borderWidth: 1.6,
-		rasterFilter: 'saturate(0.92) brightness(0.8) contrast(1.06)',
+		rasterFilter: 'none', // grade is baked into the images (pipeline/gibs.py)
 		reliefOpacity: 0,
 		label: '#ffffff',
 		labelHalo: 'rgba(4,10,22,0.88)',

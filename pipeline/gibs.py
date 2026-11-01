@@ -13,7 +13,7 @@ from pathlib import Path
 
 import numpy as np
 import requests
-from PIL import Image, ImageFilter
+from PIL import Image, ImageEnhance, ImageFilter
 
 from config import CACHE_DIR
 
@@ -89,6 +89,8 @@ def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, 
     url = (f"{WMS_3857}?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS={name}&STYLES=&CRS=EPSG:3857"
            f"&BBOX={bbox}&WIDTH={width}&HEIGHT={height}&FORMAT={fmt}" + (f"&TIME={when}" if when else ""))
     img = _get(url)
+    if layer == "day":  # baked-in grade (cheaper than a CSS filter on every frame): darker, so overlays pop
+        img = ImageEnhance.Color(ImageEnhance.Contrast(ImageEnhance.Brightness(img).enhance(0.8)).enhance(1.06)).enhance(0.92)
     img = _relief(img) if layer == "relief" else img.convert("RGBA")
     if feather:
         img = _feather(img)
@@ -106,5 +108,5 @@ def globe_texture(layer: str, out: Path, width: int = 4096) -> str:
     if layer == "relief":
         img = _relief(img)
     out.parent.mkdir(parents=True, exist_ok=True)
-    img.convert("RGB").save(out, "JPEG", quality=88)
+    img.convert("RGB").save(out, "JPEG", quality=88)  # globe keeps full brightness (it is lit by its own shading)
     return out.name

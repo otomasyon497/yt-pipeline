@@ -14,6 +14,7 @@ import requests
 import searoute
 import shapely
 from shapely import affinity
+from shapely.geometry import shape
 
 import geo
 import gibs
@@ -120,8 +121,24 @@ def prepare_geom(geom_ll, region, w_finest: float, polygons: bool):
 
 # ---------------------------------------------------------------- name resolution
 
-def resolve_area(name: str):
-    """('country', code, lon/lat geom, label, (lon, lat)) or ('admin1', ...) or None."""
+def resolve_area(name: str, episode_dir: Path | None = None):
+    """('country' | 'admin1' | 'custom', id, lon/lat geom, label, (lon, lat)) or None.
+
+    "file:<name>.geojson" loads your own polygons from episodes/<slug>/geo/ (historical borders, empires);
+    the label comes from a "name" property or the file name.
+    """
+    if name.startswith("file:"):
+        if episode_dir is None:
+            raise ValueError(f"{name!r}: custom GeoJSON needs the episode folder")
+        path = episode_dir / "geo" / name[5:]
+        if not path.exists():
+            raise ValueError(f"{name!r}: {path} does not exist")
+        data = json.loads(path.read_text(encoding="utf-8"))
+        feats = data["features"] if data.get("type") == "FeatureCollection" else [data]
+        g = shapely.union_all([shape(f["geometry"]) for f in feats if f.get("geometry")])
+        label = next((f.get("properties", {}).get("name") for f in feats if f.get("properties", {}).get("name")), None)
+        pt = g.representative_point()
+        return "custom", name, g, label or path.stem.replace("_", " ").title(), (pt.x, pt.y)
     code = geo.country_code(name)
     if code:
         c = geo.country(code)
@@ -224,6 +241,7 @@ class Plan:
     events: list = field(default_factory=list)  # (frame, kind, gain_db)
     credits: set = field(default_factory=set)
     warnings: list = field(default_factory=list)
+    episode_dir: Path | None = None
 
     @property
     def view(self):
@@ -282,9 +300,9 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
     frame_items = []
     highlights = []
     for name in step.highlight:
-        area = resolve_area(name)
+        area = resolve_area(name, plan.episode_dir)
         if area is None:
-            raise ValueError(f"map highlight {name!r} is not a country or state/province name")
+            raise ValueError(f"map highlight {name!r} is not a country, state/province or file:<name>.geojson")
         highlights.append(area)
         frame_items.append(("geom", geo.main_body(area[2]) if area[0] == "country" else area[2]))
     places = []
@@ -335,7 +353,7 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
                 items.append(("geom", geo.main_body(geo.country_geom(code, "10m"))))
             elif (p := _place_or_none(ref)) is not None:
                 items.append(("pt", (*unit_pt(p.lon, p.lat), p.kind)))
-            elif (area := resolve_area(ref)) is not None:
+            elif (area := resolve_area(ref, plan.episode_dir)) is not None:
                 items.append(("geom", area[2]))
             else:
                 raise ValueError(f"map focus {ref!r} is not a country, place or state/province")
@@ -496,12 +514,13 @@ def _choropleth(spec, cams: list[dict]) -> dict:
     return {"title": spec.title, "unit": spec.unit, "source": spec.source, "min": lo, "max": hi, "scale": spec.scale, "items": items}
 
 
-def build_block(block_id: str, subs: list[dict], style: str, captions: bool, frames: int, out_dir: Path) -> dict:
+def build_block(block_id: str, subs: list[dict], style: str, captions: bool, frames: int, out_dir: Path,
+                episode_dir: Path | None = None) -> dict:
     """subs: [{"shot": Shot, "startFrame": block-relative int, "frames": int, "steps": [block-relative step frame]}].
 
     Returns {"file", "events": [(block frame, kind, gain_db)], "credits": set, "warnings": list}.
     """
-    plan = Plan(style, captions, frames)
+    plan = Plan(style, captions, frames, episode_dir=episode_dir)
     for si, sub in enumerate(subs):
         spec = sub["shot"].map
         if si > 0 and not spec.keep:

@@ -155,9 +155,16 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 	const span = cam.w * 360;
 
 	// Level of detail: the finest one that covers the view at this zoom.
+	const halfH = (cam.w * H) / W / 2;
 	const lod =
-		lods.find((l) => span <= l.maxSpan * 1.3 && l.box[0] <= cam.x - cam.w / 2 + 1e-9 && l.box[2] >= cam.x + cam.w / 2 - 1e-9) ??
-		lods[lods.length - 1];
+		lods.find(
+			(l) =>
+				span <= l.maxSpan * 1.3 &&
+				l.box[0] <= cam.x - cam.w / 2 + 1e-9 &&
+				l.box[2] >= cam.x + cam.w / 2 - 1e-9 &&
+				l.box[1] <= Math.max(0, cam.y - halfH) + 1e-9 &&
+				l.box[3] >= Math.min(1, cam.y + halfH) - 1e-9,
+		) ?? lods[lods.length - 1];
 
 	// Night lights crossfade.
 	let night = 0;
@@ -227,7 +234,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 							width: x1 - x0,
 							height: y1 - y0,
 							opacity,
-							filter: r.layer === 'relief' ? undefined : style.rasterFilter,
+							filter: r.layer === 'relief' || style.rasterFilter === 'none' ? undefined : style.rasterFilter,
 							mixBlendMode: r.layer === 'relief' ? 'soft-light' : 'normal',
 						}}
 					/>

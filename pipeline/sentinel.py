@@ -18,7 +18,7 @@ import rasterio
 import rasterio.errors
 import requests
 import shapely
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, ImageFilter
 from rasterio.enums import Resampling
 from rasterio.transform import from_bounds
 from affine import Affine
@@ -71,11 +71,16 @@ def _search(lonlat_box, start: str, end: str, max_cloud: float) -> list[dict]:
     for tile in tiles:
         # Full scenes first: thin slivers at the edge of an orbit report ~0 % cloud but cover almost nothing.
         query = {"grid:code": {"eq": tile}, "eo:cloud_cover": {"lt": max_cloud}}
-        found = _post({**base, "limit": 2, "query": {**query, "s2:nodata_pixel_percentage": {"lt": 5}},
+        found = _post({**base, "limit": 5, "query": {**query, "s2:nodata_pixel_percentage": {"lt": 5}},
                        "sortby": [{"field": "properties.eo:cloud_cover", "direction": "asc"}]})
         items += found or _post({**base, "limit": 3, "query": query,
                                  "sortby": [{"field": "properties.eo:cloud_cover", "direction": "asc"}]})
-    return sorted(items, key=_rank)
+    # Scenes from the same day (same orbit pass) match in colour: put the days that cover most tiles first.
+    tiles_per_day: dict[str, set] = {}
+    for i in items:
+        tiles_per_day.setdefault(i["properties"]["datetime"][:10], set()).add(i["properties"].get("grid:code"))
+    return sorted(items, key=lambda i: (-len(tiles_per_day[i["properties"]["datetime"][:10]]),
+                                        i["properties"]["datetime"][:10], _rank(i)))
 
 
 def _rank(item: dict) -> tuple:
@@ -128,13 +133,23 @@ def _read(href: str, dst: np.ndarray, dst_transform, ground_res: float, nearest:
                   src_nodata=0, dst_nodata=0, resampling=Resampling.nearest if nearest else Resampling.bilinear)
 
 
-def _tone(rgb: np.ndarray) -> np.ndarray:
-    """Reflectance -> display: light haze removal, filmic shoulder (bright desert never clips), a bit more colour."""
+def _tone(rgb: np.ndarray, valid: np.ndarray, stretch: bool) -> np.ndarray:
+    """Reflectance -> display.
+
+    Clear mosaics: light haze removal and a filmic shoulder (bright desert never clips).
+    Event imagery (stretch=True, e.g. a dust storm day): percentile stretch on luminance, which brings the
+    contrast back without changing the colours' balance.
+    """
     out = np.empty_like(rgb)
+    if stretch and valid.any():
+        lum = rgb[..., 0] * 0.3 + rgb[..., 1] * 0.59 + rgb[..., 2] * 0.11
+        lo, hi = np.percentile(lum[valid], [0.8, 99.7])
+        out = np.clip((rgb - lo) / max(1e-6, hi - lo), 0, 1) ** (1 / 1.12)
+        return out
     for c in range(3):
         ch = rgb[..., c]
-        valid = ch[np.isfinite(ch)]
-        dark = min(float(np.percentile(valid, 0.5)), 0.05) if valid.size else 0.0
+        vals = ch[valid]
+        dark = min(float(np.percentile(vals, 0.5)), 0.05) if vals.size else 0.0
         v = np.clip(ch - dark * 0.8, 0, None)
         out[..., c] = (1 - np.exp(-v / 0.17)) / (1 - np.exp(-0.62 / 0.17))
     return np.clip(out, 0, 1)
@@ -152,7 +167,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
     lonlat = unit_box_to_lonlat((x0, y0, x1, y1))
     mid_lat = (lonlat[1] + lonlat[3]) / 2
     ground_res = (x1 - x0) * EARTH / width * math.cos(math.radians(mid_lat))  # metres per output pixel on the ground
-    key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when]).encode()).hexdigest()
+    key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, "v2"]).encode()).hexdigest()
     cache = CACHE_DIR / "s2" / f"{key}.png"
     meta = cache.with_suffix(".json")
     if not cache.exists():
@@ -167,7 +182,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         transform = from_bounds((x0 - 0.5) * EARTH, (0.5 - y1) * EARTH, (x1 - 0.5) * EARTH, (0.5 - y0) * EARTH, width, height)
         acc = np.full((height, width, 3), np.nan, dtype=np.float32)
         # Coarse check points: which ones any scene can cover (open sea has no Sentinel-2 data at all).
-        gx, gy = np.meshgrid(np.linspace(lonlat[0], lonlat[2], 32), np.linspace(lonlat[1], lonlat[3], 18))
+        gx, gy = np.meshgrid(np.linspace(lonlat[0], lonlat[2], 64), np.linspace(lonlat[1], lonlat[3], 36))
         gx, gy = gx.ravel(), gy.ravel()
         px = np.clip(((np.asarray(geo_mx(gx)) - x0) / (x1 - x0) * width).astype(int), 0, width - 1)
         py = np.clip(((np.asarray(geo_my(gy)) - y0) / (y1 - y0) * height).astype(int), 0, height - 1)
@@ -221,10 +236,11 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         valid = np.isfinite(acc[..., 0])
         if not valid.any():
             return None
-        disp = _tone(np.where(np.isfinite(acc), acc, 0))
+        disp = _tone(np.where(np.isfinite(acc), acc, 0), valid, stretch=when is not None)
         img = Image.fromarray((disp * 255).astype(np.uint8))
         img = ImageEnhance.Color(img).enhance(1.22)
-        img = ImageEnhance.Brightness(img).enhance(0.9)
+        img = ImageEnhance.Brightness(img).enhance(0.92)
+        img = img.filter(ImageFilter.UnsharpMask(radius=1.6, percent=55, threshold=2))
         alpha = Image.fromarray((valid * 255).astype(np.uint8))
         img.putalpha(alpha)
         cache.parent.mkdir(parents=True, exist_ok=True)

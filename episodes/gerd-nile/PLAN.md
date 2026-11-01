@@ -6,9 +6,9 @@ Working question (to be tested by the research, not assumed): Ethiopia finished 
 river Egypt cannot live without. Did the feared catastrophe happen, and what will the next long drought decide?
 
 ## Steps
-- [ ] 1. Research dossier (`research.md`): every number with a source; 2-3 own calculations, maths shown
-- [ ] 2. Visual inventory (in `research.md`): Sentinel-2 before/after dates, Commons PD/CC0/CC BY files, data series, stock queries
-- [ ] 3. Outline (`outline.md`), Turkish summary to the user (gate 1, non-blocking unless they object)
+- [x] 1. Research dossier (`research.md`): every number with a source; 2-3 own calculations, maths shown
+- [x] 2. Visual inventory (in `research.md`): Sentinel-2 before/after dates, Commons PD/CC0/CC BY files, data series, stock queries
+- [x] 3. Outline (`outline.md`), Turkish summary to the user (gate 1, non-blocking unless they object)
 - [ ] 4. Feature: Sentinel-2 before/after wipe on a map step
 - [ ] 5. Feature: animated chart scene (bar / line)
 - [ ] 6. Feature: "where are we" locator inset on stock and photo shots
@@ -20,3 +20,4 @@ river Egypt cannot live without. Did the feared catastrophe happen, and what wil
 
 ## Log
 - 2026-11-02: started. Claude Code auto-continue is on (`autoContinue: true`); a keep-awake process runs for this session.
+- 2026-11-02: research.md (sources, own calculations, visual inventory) and outline.md done; S2 before 2020-03-05, after 2026-03-09.

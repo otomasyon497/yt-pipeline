@@ -31,6 +31,22 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
+## Test episode 2: suez-v2 (2026-11-01, user: "more realistic, more watchable; Sentinel-2; redo everything")
+- New script written for retention (cold open on the real event, open question, human story, callbacks), 326 words.
+- Sentinel-2 (pipeline/sentinel.py): ESA Copernicus L2A 10 m from the AWS Open Data copy (Earth Search STAC,
+  collection sentinel-2-c1-l2a, public COGs, no account). Per view: per-tile best scenes (full scenes first: orbit-edge
+  slivers report ~0 % cloud), windowed + decimated COG reads, reprojected to Web Mercator, composited until the view is
+  filled; Sen2Cor cloud mask only on cloudy scenes and never on event dates (it flags bright sand and dust); filmic tone
+  curve; land-only on views wider than 1.5 degrees (sea from Blue Marble). Map steps take `date` for real-event imagery:
+  the Ever Given is visible on 24 Mar 2021 (S2A, tile 36RVU) and 29 Mar 2021; the queue of ships in Suez Bay too.
+  Credit: "Contains modified Copernicus Sentinel data <years>" (free incl. commercial use).
+- Archive photos (pipeline/commons.py, shot type `photo`): exact Wikimedia Commons files, licence read from the API,
+  only public domain / CC0 / CC BY accepted (BY-SA, NC, ND refused); framed over a blurred copy or full frame; credits
+  listed in credits.txt. Skipped a 1956 newsreel clip: labelled public domain but it is Movietone footage (Content ID risk).
+- Procedural music (pipeline/music.py, music "procedural" or "auto" with empty /music): one music_lab bed per chapter
+  mood, 2 s crossfades, bed 10 dB under the measured narration + sidechain ducking; mix is stereo now.
+- Map labels: place kind `label` (text-only callout, e.g. "EVER GIVEN" above the ship).
+
 ## Phase 3B - map engine v2 + "more attention, more flow" (2026-11-01)
 User feedback on 3A: "izledim güzel olmuş" + make it more attention-grabbing and fluid.
 - Data: Natural Earth 5.1.2 GeoJSON (public domain; pinned tag, cached in .cache/geo) for countries 10m/50m/110m, land,

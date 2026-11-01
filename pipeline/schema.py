@@ -24,7 +24,10 @@ class Chart(BaseModel):
     type: Literal["bar", "line"] = "bar"
     title: Optional[str] = None
     unit: str = ""
-    data: list[tuple[str, float]]
+    data: list[tuple[str, float]] = Field(min_length=1, max_length=10)
+    source: Optional[str] = None  # shown at the bottom, e.g. "World Bank; our calculation"
+    ref: Optional[tuple[float, str]] = None  # reference line: (value, label), e.g. (500, "absolute scarcity")
+    highlight: Optional[int] = None  # bar / point index drawn in the accent colour (bars: default the first)
 
 
 class MapPoint(BaseModel):  # v2 shorthand, still accepted

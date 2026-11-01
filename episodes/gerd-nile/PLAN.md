@@ -9,8 +9,8 @@ river Egypt cannot live without. Did the feared catastrophe happen, and what wil
 - [x] 1. Research dossier (`research.md`): every number with a source; 2-3 own calculations, maths shown
 - [x] 2. Visual inventory (in `research.md`): Sentinel-2 before/after dates, Commons PD/CC0/CC BY files, data series, stock queries
 - [x] 3. Outline (`outline.md`), Turkish summary to the user (gate 1, non-blocking unless they object)
-- [ ] 4. Feature: Sentinel-2 before/after wipe on a map step
-- [ ] 5. Feature: animated chart scene (bar / line)
+- [x] 4. Feature: Sentinel-2 before/after wipe on a map step
+- [x] 5. Feature: animated chart scene (bar / line)
 - [ ] 6. Feature: "where are we" locator inset on stock and photo shots
 - [ ] 7. Feature: one episode look (same grade on stock and archive; chapter cards over blurred satellite)
 - [ ] 8. Script (`script.json`): about 2,500 words, 16-18 min, each paragraph written to a visual we can show
@@ -21,3 +21,5 @@ river Egypt cannot live without. Did the feared catastrophe happen, and what wil
 ## Log
 - 2026-11-02: started. Claude Code auto-continue is on (`autoContinue: true`); a keep-awake process runs for this session.
 - 2026-11-02: research.md (sources, own calculations, visual inventory) and outline.md done; S2 before 2020-03-05, after 2026-03-09.
+- 2026-11-02: step 4 done (map step `compare`, commit af20fbd) and Nile / Blue Nile / White Nile lines in lines.json; step 5 done (chart: source line, `ref` threshold line, `highlight`, thousands separators, kept above the captions). Both type-check; not rendered yet (check them in the step 10 storyboard).
+- Next (step 6): new `pipeline/locator.py` drawing a small PIL mini map (ne_50m land, the country containing the point in accent, a dot) into PUBLIC_MEDIA; `Shot.where: PlaceRef` resolved with maps.resolve_point; timeline passes {src, label}; an Episode overlay at top right on stock / photo / ai_image shots.

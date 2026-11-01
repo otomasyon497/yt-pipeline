@@ -8,6 +8,9 @@ export type ChartSpec = {
 	title: string | null;
 	unit: string;
 	data: [string, number][];
+	source?: string | null;
+	ref?: [number, string] | null;
+	highlight?: number | null;
 };
 
 // Number inside an on-screen label that counts up ("About $9.6 billion"), decided by pipeline/timeline.py.

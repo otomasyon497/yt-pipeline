@@ -31,6 +31,16 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
+## Phase 3D - delivery and review (2026-11-02, approved by the user: "3D'ye geç")
+- Full renders publish a private pre-release `ep-<slug>-<run_id>` (video, youtube.txt, credits.txt, thumbnails) with the
+  PowerShell download command in the notes; artifacts only for stills/storyboard runs. tools/fetch_episode.ps1 downloads
+  the newest release of a slug (optionally deletes it). Tested: run 41355109348 (map-demo, 53 s, 42 MB, job ~5 min),
+  downloaded with gh, test release deleted.
+- Storyboard mode (render.yml input `storyboard`): one still per shot plus one per map camera stop, labelled contact
+  sheets (time, shot, narration). Tested: run 41355101323 (suez-v3): 38 frames on 3 sheets.
+- Minutes summary in every job summary (job time; prepare step timings).
+- Not done: parallel render chunks (only wall-clock gain; same billed minutes).
+
 ## Test episode 3: suez-v3 (2026-11-02, script rewritten with the user's CTA course; Pixabay added)
 - Script rules (memory: script-engagement): in-content two-sided questions with on-screen question cards (`ask`),
   retention bridges, one content-tied subscribe line, no generic end CTA, pinned comment in youtube.txt; facts unchanged.

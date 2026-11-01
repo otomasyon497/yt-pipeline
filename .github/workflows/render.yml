@@ -31,6 +31,7 @@ jobs:
       OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}
       YTP_CACHE_DIR: ${{ github.workspace }}/.cache
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       # Licence caution: hosted FLUX.2 klein terms are unclear for third-party hosts, so use schnell.

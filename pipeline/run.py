@@ -25,6 +25,7 @@ import maps
 import media
 import music
 import pexels
+import pixabay
 import pronounce
 import sfx
 import thumbnails
@@ -59,6 +60,22 @@ def pick_music(setting: str, slug: str) -> Path | None:
         print("  no tracks in /music -> narration only")
         return None
     return tracks[int(hashlib.sha1(slug.encode()).hexdigest(), 16) % len(tracks)]
+
+
+def stock_clip(src, seconds: float, used_ids: set) -> dict:
+    """Pexels first (or as requested); Pixabay as the second source when its key is set."""
+    order = {"pexels": ["pexels"], "pixabay": ["pixabay"], "auto": ["pexels", "pixabay"]}[src.source]
+    if "pixabay" in order and not os.environ.get("PIXABAY_API_KEY", "").strip():
+        order = [o for o in order if o != "pixabay"] or ["pexels"]
+    last_error = None
+    for name in order:
+        try:
+            clip = (pexels if name == "pexels" else pixabay).get_clip(src.query, seconds, used_ids)
+            clip.setdefault("source", name)
+            return clip
+        except RuntimeError as exc:
+            last_error = exc
+    raise last_error
 
 
 def reading_order(script) -> list[tuple[int, int, object]]:
@@ -143,7 +160,7 @@ def prepare(slug: str) -> None:
             elif src is None:
                 continue
             elif src.type == "stock":
-                clip = pexels.get_clip(src.query, seconds, used_ids)
+                clip = stock_clip(src, seconds, used_ids)
                 clips.append(clip)
                 media_files[u["id"]] = f"{u['id']}.mp4"
                 media.normalize_clip(clip["path"], PUBLIC_MEDIA / media_files[u["id"]], seconds)

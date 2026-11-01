@@ -17,10 +17,15 @@ def music_credit(track: Path | None) -> str | None:
 
 def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: bool, extra: list[str] = ()) -> None:
     lines = []
-    if clips:
-        lines += ["Videos provided by Pexels (https://www.pexels.com)", "", "Stock footage:"]
+    headers = {"pexels": "Videos provided by Pexels (https://www.pexels.com)",
+               "pixabay": "Videos from Pixabay (https://pixabay.com)"}
+    for source, header in headers.items():
+        group = [c for c in clips if c.get("source", "pexels") == source]
+        if not group:
+            continue
+        lines += [header, "", "Stock footage:"]
         seen = set()
-        for c in clips:
+        for c in group:
             if c["id"] in seen:
                 continue
             seen.add(c["id"])

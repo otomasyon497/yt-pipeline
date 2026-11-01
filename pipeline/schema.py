@@ -163,6 +163,7 @@ class Shot(BaseModel):
     type: ShotType
     at: Union[int, str] = 0  # word index in the paragraph, or the word/phrase the cut lands on
     query: Optional[str] = None  # stock
+    source: Literal["auto", "pexels", "pixabay"] = "auto"  # stock: auto = Pexels, then Pixabay if nothing fits
     prompt: Optional[str] = None  # ai_image
     photo: Optional[str] = None  # photo: Wikimedia Commons "File:..." (public domain / CC0 / CC BY only)
     on_screen_text: Optional[str] = None

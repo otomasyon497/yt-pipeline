@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-01: Phase 3B done in code, renders under review; waiting for the user's map style choice)
+## Status (2026-11-01: Phase 3B delivered; map style chosen = satellite; waiting for the user's notes / approval before 3C)
 
 ## Phase 1 (approved)
 - [x] Repo, pipeline, Remotion project, workflow; secrets set by user
@@ -12,6 +12,8 @@
 - Music: /music was still empty on 2026-10-31 (user said tracks were added, none found in the working tree); so the test video has narration only (ducking/mix path not yet exercised with a real track).
 
 ## Decisions
+- Map style: user chose `satellite` (NASA Blue Marble) as the channel default on 2026-11-01 (config.MAP_STYLE default).
+  `atlas` and `midnight` stay available per episode (`map_style` in script.json) or per run (render.yml `map_style`).
 - Voice: user chose `am_michael` as default for all episodes (config.DEFAULT_VOICE, schema default). Voice samples are now opt-in (`VOICE_SAMPLES=1`).
 - AI images: `CF_IMAGE_MODEL=@cf/black-forest-labs/flux-1-schnell` set in workflow (user chose licence caution over
   flux-2-klein-4b, whose hosted terms on Cloudflare are unclear). Klein code path remains (switch by changing env), unverified in practice.
@@ -69,7 +71,7 @@ User feedback on 3A: "izledim güzel olmuş" + make it more attention-grabbing a
   peaks about -25 dB (0.1 s RMS) vs speech about -15.7 dB RMS; true peak -0.9 dBFS. SFX_LEVEL_DB tunes the whole bed.
 - Delivered: C:\Users\MONSTER\Videos\yt-pipeline\suez-canal-3b\ (final.mp4, youtube.txt, credits.txt, thumbnails) and
   C:\Users\MONSTER\Videos\yt-pipeline\map-styles\ (satellite.mp4, atlas.mp4, midnight.mp4: same 53 s demo per style).
-- Next: user picks the default map style (and approves 3B), then 3C (music library + chapter crossfades).
+- Style decided: satellite. Next: user's notes on suez-canal-3b + approval, then 3C (music library + chapter crossfades).
 - Known limits: views crossing the antimeridian get vector wrap but only one imagery tile; satellite imagery is 500 m
   (soft below ~3 degree spans); historical borders need your own GeoJSON (OpenHistoricalMap import not automated).
 

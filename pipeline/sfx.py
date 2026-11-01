@@ -99,8 +99,13 @@ def sound(kind: str) -> np.ndarray:
     raise ValueError(f"unknown sound effect {kind!r}")
 
 
-def build_track(events: list[tuple[float, str, float]], total_sec: float, out_wav) -> int:
-    """events: (seconds, kind, extra gain dB). Returns how many effects were placed."""
+def build_track(events: list[tuple[float, str, float]], total_sec: float, out_wav, voice_lufs: float = -14.0) -> int:
+    """events: (seconds, kind, extra gain dB). Returns how many effects were placed.
+
+    Levels are designed against a voice at -14 LUFS; `voice_lufs` (the measured narration) shifts them so the
+    balance holds whatever level the TTS produced (Kokoro's raw narration is around -27 LUFS).
+    """
+    shift = voice_lufs + 14.0
     track = np.zeros(int(total_sec * SR) + 1, dtype=np.float64)
     last: dict[str, float] = {}
     placed = 0
@@ -108,7 +113,7 @@ def build_track(events: list[tuple[float, str, float]], total_sec: float, out_wa
         if t < 0 or t >= total_sec or t - last.get(kind, -1e9) < MIN_GAP.get(kind, 0.2):
             continue
         last[kind] = t
-        s = sound(kind) * 10 ** ((SFX_LEVEL_DB + BASE_DB[kind] + gain) / 20)
+        s = sound(kind) * 10 ** ((SFX_LEVEL_DB + BASE_DB[kind] + gain + shift) / 20)
         i = int(t * SR)
         seg = s[: len(track) - i]
         track[i:i + len(seg)] += seg

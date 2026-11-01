@@ -57,8 +57,16 @@ User feedback on 3A: "izledim güzel olmuş" + make it more attention-grabbing a
   Mixed under the voice (SFX_LEVEL_DB -17, not ducked). `SFX=0` disables.
 - Tooling: render.yml inputs `map_style`, `stills` (render chosen frames only, e.g. "0,12.5s"; ~1-3 s per frame) and
   `thumbnails`; remotion/stills.mjs. Removed unused world-atlas/topojson deps.
-- Evidence so far: stills runs 41290179584 (satellite) and 41290703460 / 41290708422 / 41290713167 (3 styles):
-  prepare 1m39s for the 53.5 s demo (tts 44 s, maps + imagery 51 s cold), 21 SFX placed, map block JSON 0.4-1.2 MB.
+- Evidence: stills runs 41290179584 (satellite) and 41290703460 / 41290708422 / 41290713167 (3 styles): prepare 1m39s
+  for the 53.5 s demo (tts 44 s, maps + imagery 51 s cold), map block JSON 0.4-1.2 MB, stills ~1-3 s each.
+  Full renders: map-demo x3 styles (41292624753 / 41292630139 / 41292635397; first pass 41291136970: 1284 frames in
+  1m58s, ~10.9 fps). suez-canal 41292641100: 173.1 s video (3A: 181.2 s), 26 units from 28 shots, 38 SFX,
+  job 8m54s warm (prepare 45 s, render 6m11s for 4154 frames ~11.2 fps, thumbnails 14 s); cold TTS at speed 1.0 = 152 s
+  (run 41291150896). Audio now: mix -> measured loudness -> one linear gain (+13.4 dB) + -1 dBFS limiter.
+  Found and fixed on the way: single-pass dynamic loudnorm boosted silent chapter cards (card hit ~7 dB over the voice).
+- Delivered: C:\Users\MONSTER\Videos\yt-pipeline\suez-canal-3b\ (final.mp4, youtube.txt, credits.txt, thumbnails) and
+  C:\Users\MONSTER\Videos\yt-pipeline\map-styles\ (satellite.mp4, atlas.mp4, midnight.mp4: same 53 s demo per style).
+- Next: user picks the default map style (and approves 3B), then 3C (music library + chapter crossfades).
 - Known limits: views crossing the antimeridian get vector wrap but only one imagery tile; satellite imagery is 500 m
   (soft below ~3 degree spans); historical borders need your own GeoJSON (OpenHistoricalMap import not automated).
 

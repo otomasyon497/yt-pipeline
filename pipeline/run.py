@@ -158,8 +158,9 @@ def prepare(slug: str) -> None:
         effects = None
         if os.environ.get("SFX", "1") != "0":
             effects = work / "sfx.wav"
-            n = sfx.build_track(sfx_events + tl.card_sfx(timeline), total_sec, effects)
-            print(f"  sound effects: {n} placed")
+            voice_lufs = media.loudness(work / "narration.wav")
+            n = sfx.build_track(sfx_events + tl.card_sfx(timeline), total_sec, effects, voice_lufs)
+            print(f"  sound effects: {n} placed (narration {voice_lufs:.1f} LUFS)")
         track = pick_music(script.music, slug)
         print(f"  music: {track.name if track else 'none'}")
         media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a", effects)

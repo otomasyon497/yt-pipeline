@@ -51,7 +51,8 @@ MAP_STYLES = ("satellite", "atlas", "midnight")
 MAP_SAFE = {"left": 130, "right": 130, "top": 110, "bottom": 250}  # px kept clear when framing (bottom: captions)
 MAP_DRIFT = 0.009  # slow push-in per second while the camera holds (keeps maps alive)
 
-# Sound effects (procedural, see sfx.py); level of the whole SFX bed relative to the narration
+# Sound effects (procedural, see sfx.py): peak level in dBFS when the voice sits at -14 LUFS
+# (sfx.build_track shifts it by the measured narration loudness, so the balance is independent of the TTS level).
 SFX_LEVEL_DB = -17.0
 
 # Pexels

@@ -64,7 +64,8 @@ def pick_music(setting: str, slug: str) -> Path | None:
 
 def stock_clip(src, seconds: float, used_ids: set) -> dict:
     """Pexels first (or as requested); Pixabay as the second source when its key is set."""
-    order = {"pexels": ["pexels"], "pixabay": ["pixabay"], "auto": ["pexels", "pixabay"]}[src.source]
+    # The requested source first, then the other one if it has nothing relevant (a missing clip should not stop a render).
+    order = {"pexels": ["pexels", "pixabay"], "pixabay": ["pixabay", "pexels"], "auto": ["pexels", "pixabay"]}[src.source]
     if "pixabay" in order and not os.environ.get("PIXABAY_API_KEY", "").strip():
         order = [o for o in order if o != "pixabay"] or ["pexels"]
     last_error = None

@@ -31,6 +31,16 @@
 - spaCy model is downloaded at runtime by Kokoro/misaki (adds ~seconds each run); could be pinned in requirements.
 - Remotion preview of stock `Video` from @remotion/media worked in SSR (no OffthreadVideo fallback needed so far).
 
+## Test episode 3: suez-v3 (2026-11-02, script rewritten with the user's CTA course; Pixabay added)
+- Script rules (memory: script-engagement): in-content two-sided questions with on-screen question cards (`ask`),
+  retention bridges, one content-tied subscribe line, no generic end CTA, pinned comment in youtube.txt; facts unchanged.
+- Pixabay = second stock source (PIXABAY_API_KEY set by the user); clips now ranked by tag/slug relevance after Pixabay
+  returned a cruise ship for "container ship" and a marina buoy for "cargo ship sailing" in this render.
+- Sentinel-2 views less than 90% filled are skipped (a half-filled mosaic showed as a pale patch on the 1956 map).
+- Run 41351345204: 201.8 s, 22 units from 26 shots, 3 question cards, 35 SFX; prepare ~4 min, render 7m16s.
+  Delivered to C:\Users\MONSTER\Videos\yt-pipeline\suez-v3\. The reference video was transcribed with
+  tools/transcribe.py (transcribe.yml; audio via the private "inputs" release, asset deleted afterwards).
+
 ## Test episode 2: suez-v2 (2026-11-01, user: "more realistic, more watchable; Sentinel-2; redo everything")
 - New script written for retention (cold open on the real event, open question, human story, callbacks), 326 words.
 - Sentinel-2 (pipeline/sentinel.py): ESA Copernicus L2A 10 m from the AWS Open Data copy (Earth Search STAC,

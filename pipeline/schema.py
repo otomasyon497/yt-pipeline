@@ -112,6 +112,26 @@ class View(BaseModel):
     span: float = Field(gt=0.03, le=360)  # degrees of longitude across the frame (Sentinel-2 holds up to ~0.05)
 
 
+class Compare(BaseModel):
+    """Sentinel-2 before/after of the step's view: a wipe line reveals the 'after' image over the 'before' one."""
+    before: str  # "YYYY-MM-DD/YYYY-MM-DD": least cloudy scenes in that window (or one "YYYY-MM-DD" day)
+    after: str
+    label_before: Optional[str] = None  # default: month and year of the scenes used, e.g. "MARCH 2020"
+    label_after: Optional[str] = None
+    hold: float = Field(1.8, ge=0, le=8)  # seconds on the 'before' image before the wipe starts
+    seconds: float = Field(3.6, gt=0.5, le=10)  # wipe duration
+
+    @model_validator(mode="after")
+    def _dates(self):
+        for d in (self.before, self.after):
+            parts = d.split("/")
+            if len(parts) > 2:
+                raise ValueError(f"compare date {d!r}: use YYYY-MM-DD or YYYY-MM-DD/YYYY-MM-DD")
+            for part in parts:
+                date.fromisoformat(part)
+        return self
+
+
 class MapStep(BaseModel):
     at: Optional[Union[int, str]] = None  # word index / phrase in the paragraph; None = when the shot starts
     focus: list[PlaceRef] = Field(default_factory=list)  # countries / places / regions to frame
@@ -126,12 +146,15 @@ class MapStep(BaseModel):
     true_size: Optional[TrueSize] = None
     layer: Optional[Literal["day", "night"]] = None  # night = VIIRS city lights
     date: Optional[str] = None  # "YYYY-MM-DD": Sentinel-2 imagery of that day for this view (real events)
+    compare: Optional[Compare] = None  # Sentinel-2 before/after wipe over this view
     clear: bool = False  # remove everything shown earlier in this shot first
 
     @model_validator(mode="after")
     def _camera(self):
         if sum([bool(self.focus), self.view is not None, self.world]) > 1:
             raise ValueError("a map step takes only one of focus / view / world")
+        if self.compare and not self.view:
+            raise ValueError("map step 'compare' needs a 'view' (the before/after imagery is fetched for it)")
         if self.date:
             if not (self.focus or self.view):
                 raise ValueError("map step 'date' needs a focus or view (the imagery is fetched for that view)")

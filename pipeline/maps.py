@@ -4,6 +4,7 @@ build_block() writes remotion/public/media/<block>.json (+ imagery) with everyth
 Mercator coordinates (see geo.py) and frames relative to the block start: camera keyframes, vector layers
 per level of detail, highlights, places, routes, arrows, choropleths and true-size outlines.
 """
+import calendar
 import json
 import math
 from dataclasses import dataclass, field
@@ -394,6 +395,14 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
     elif target is not None:
         appear = plan.move_to(target, f)
 
+    if step.compare:  # before/after wipe over the view the camera now holds
+        c, cam = step.compare, plan.view
+        plan.elements.append(Element("compare", {
+            "cam": {"x": cam["x"], "y": cam["y"], "w": cam["w"]}, "before": c.before, "after": c.after,
+            "labelBefore": c.label_before, "labelAfter": c.label_after,
+            "hold": round(c.hold * FPS), "wipe": round(c.seconds * FPS)}, appear, sub=sub))
+        plan.events.append((appear + round(c.hold * FPS), "swoosh", SFX_GAIN["swoosh"]))
+
     # Overlays, staggered so they land one after another.
     k = 0
     for code_kind, code, geom, label, pt in highlights:
@@ -617,6 +626,9 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             simple = e.geom.simplify(0.05)
             item["rings"] = [np.round(np.asarray(r.coords)[:, :2], 3).ravel().tolist()
                              for p in getattr(simple, "geoms", [simple]) for r in [p.exterior]]
+        elif e.kind == "compare":
+            if not _compare_images(item, block_id, len(out_elements), out_dir, plan):
+                continue
         out_elements.append(item)
 
     # Imagery: a world image under everything, plus a sharper one around each distinct camera view.
@@ -700,6 +712,35 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
     print(f"  {block_id}: {len(plan.cams)} camera moves, {len(out_elements)} overlays, {len(rasters)} images, "
           f"{out.stat().st_size / 1e6:.2f} MB json, lods {[l['lod'] for l in lods]}")
     return {"file": out.name, "events": plan.events, "credits": plan.credits, "warnings": plan.warnings}
+
+
+def _month_label(dates: list[str]) -> str:
+    """'MARCH 2020' for the month most of the scenes come from."""
+    if not dates:
+        return ""
+    months = [d[:7] for d in dates]
+    y, m = max(set(months), key=months.count).split("-")
+    return f"{calendar.month_name[int(m)].upper()} {y}"
+
+
+def _compare_images(item: dict, block_id: str, n: int, out_dir: Path, plan: Plan) -> bool:
+    """Fetch the before/after Sentinel-2 mosaics of a compare element (same box, same tone curve)."""
+    bx = view_box(item.pop("cam"), 1.5)
+    for side, label in (("before", "labelBefore"), ("after", "labelAfter")):
+        try:
+            r = sentinel.mosaic(bx, round(1.5 * WIDTH), out_dir / f"{block_id}_cmp{n}_{side}.webp", item[side],
+                                gibs._feather, None)
+        except Exception as exc:
+            r = None
+            plan.warnings.append(f"compare {side} image failed ({exc})")
+        if r is None:
+            plan.warnings.append(f"compare: no usable Sentinel-2 mosaic for {item[side]}; wipe dropped")
+            return False
+        item[label] = item[label] or _month_label(r.pop("dates", []))
+        item[side] = r
+    if sentinel.credit():
+        plan.credits.add(sentinel.credit())
+    return True
 
 
 def encode_lonlat_land() -> list[list[float]]:

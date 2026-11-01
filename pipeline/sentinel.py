@@ -156,8 +156,9 @@ def _tone(rgb: np.ndarray, valid: np.ndarray, stretch: bool) -> np.ndarray:
 
 
 def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=None, mask=None) -> dict | None:
-    """True-colour mosaic for a unit-Mercator box. `when` = "YYYY-MM-DD" for imagery of that day (events);
-    otherwise the least cloudy recent scenes. Returns a raster placement like gibs.backdrop, or None."""
+    """True-colour mosaic for a unit-Mercator box. `when` = "YYYY-MM-DD" for imagery of that day (events),
+    "YYYY-MM-DD/YYYY-MM-DD" for the least cloudy scenes in that window (before/after pairs); otherwise the
+    least cloudy recent scenes. Returns a raster placement like gibs.backdrop (plus scene "dates"), or None."""
     from geo import mx as geo_mx, my as geo_my
     from maps import unit_box_to_lonlat  # local import: maps imports this module
 
@@ -170,8 +171,11 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
     key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, "v2"]).encode()).hexdigest()
     cache = CACHE_DIR / "s2" / f"{key}.png"
     meta = cache.with_suffix(".json")
+    event = bool(when) and "/" not in when  # a single day: event imagery, no cloud mask, stretched tone
     if not cache.exists():
-        if when:
+        if when and not event:
+            items = _search(lonlat, *when.split("/"), 10)
+        elif when:
             d = date.fromisoformat(when)
             items = _search(lonlat, str(d - timedelta(days=1)), str(d + timedelta(days=1)), 70)
         else:
@@ -216,7 +220,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                     continue
                 # Cloud mask only for scenes with real clouds, never for event imagery: Sen2Cor flags
                 # bright desert and dust as cloud, which punched holes into otherwise clear scenes.
-                use_scl = when is None and float(it["properties"].get("eo:cloud_cover", 0)) >= 2.0
+                use_scl = not event and float(it["properties"].get("eo:cloud_cover", 0)) >= 2.0
                 names = BANDS if use_scl else BANDS[:3]
                 red, green, blue, *rest = pool.map(lambda b: read_band(it, b), names)
                 bands = []
@@ -240,7 +244,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         if filled < 0.9:  # a half-filled mosaic shows as a pale patch over Blue Marble: better none at all
             print(f"  sentinel-2: skipped, only {filled:.0%} of the view filled")
             return None
-        disp = _tone(np.where(np.isfinite(acc), acc, 0), valid, stretch=when is not None)
+        disp = _tone(np.where(np.isfinite(acc), acc, 0), valid, stretch=event)
         img = Image.fromarray((disp * 255).astype(np.uint8))
         img = ImageEnhance.Color(img).enhance(1.22)
         img = ImageEnhance.Brightness(img).enhance(0.92)
@@ -251,11 +255,12 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         img.save(cache)
         YEARS_USED.update(int(i["properties"]["datetime"][:4]) for i in scenes)
         meta.write_text(json.dumps({"years": sorted({int(i["properties"]["datetime"][:4]) for i in scenes}),
-                                    "scenes": [i["id"] for i in scenes]}), encoding="utf-8")
+                                    "scenes": [i["id"] for i in scenes],
+                                    "dates": sorted({i["properties"]["datetime"][:10] for i in scenes})}), encoding="utf-8")
         print(f"  sentinel-2: {len(scenes)} scene(s) for {width}x{height} px at {ground_res:.0f} m/px"
               f"{' on ' + when if when else ''}")
-    else:
-        YEARS_USED.update(json.loads(meta.read_text(encoding="utf-8"))["years"])
+    meta_d = json.loads(meta.read_text(encoding="utf-8"))
+    YEARS_USED.update(meta_d["years"])
     img = Image.open(cache).convert("RGBA")
     if mask is not None:  # e.g. land only on wide views: sea tiles from different days look patchy
         m = np.asarray(mask((x0, y0, x1, y1), img.size), dtype=np.float32) / 255.0
@@ -264,7 +269,8 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         img = feather(img)
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, "WEBP", quality=86, method=4)
-    return {"src": out.name, "x0": x0, "y0": y0, "x1": x1, "y1": y1, "layer": "s2", "px": width}
+    return {"src": out.name, "x0": x0, "y0": y0, "x1": x1, "y1": y1, "layer": "s2", "px": width,
+            "dates": meta_d.get("dates", [])}
 
 
 def credit() -> str | None:

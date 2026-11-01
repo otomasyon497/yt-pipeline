@@ -37,7 +37,9 @@ export type ChoroplethEl = Base & {
 };
 // rings here are lon/lat floats (re-projected every frame while the outline travels)
 export type TrueSizeEl = Base & {kind: 'truesize'; from: [number, number]; to: [number, number]; label: string; move: number; rings: number[][]};
-export type MapElement = HighlightEl | PlaceEl | RouteEl | ArrowEl | ChoroplethEl | TrueSizeEl;
+// Sentinel-2 before/after: `after` wipes in over `before` (frames relative to `in`).
+export type CompareEl = Base & {kind: 'compare'; before: Raster; after: Raster; labelBefore: string; labelAfter: string; hold: number; wipe: number};
+export type MapElement = HighlightEl | PlaceEl | RouteEl | ArrowEl | ChoroplethEl | TrueSizeEl | CompareEl;
 
 export type Raster = {src: string; x0: number; y0: number; x1: number; y1: number; layer: 'day' | 's2' | 'night' | 'relief'; px: number};
 

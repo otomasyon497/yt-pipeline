@@ -23,11 +23,56 @@ import {
 import {Globe} from './Globe';
 import {placeLabels, textWidth, type LabelReq, type Placement} from './labels';
 import {STYLES, rampColor, type MapStyle} from './styles';
-import type {ArrowEl, ChoroplethEl, HighlightEl, MapBlockData, MapElement, PlaceEl, RouteEl, TrueSizeEl} from './types';
+import type {ArrowEl, ChoroplethEl, CompareEl, HighlightEl, MapBlockData, MapElement, PlaceEl, Raster, RouteEl, TrueSizeEl} from './types';
 
 const clamp01 = (t: number) => Math.min(Math.max(t, 0), 1);
 const FADE = 8;
 const life = (e: {in: number; out: number}, f: number) => clamp01((f - e.in) / FADE) * clamp01((e.out - f) / FADE);
+// Before/after wipe: the line sweeps right to left, so the old image stays on the left (reading order).
+const PlacedImg: React.FC<{r: Raster; xf: Xf; filter?: string}> = ({r, xf, filter}) => {
+	const [x0, y0] = toScreen(xf, r.x0, r.y0);
+	const [x1, y1] = toScreen(xf, r.x1, r.y1);
+	return <Img src={staticFile(`media/${r.src}`)} style={{position: 'absolute', left: x0, top: y0, width: x1 - x0, height: y1 - y0, filter}} />;
+};
+const DateTag: React.FC<{text: string; side: 'left' | 'right'; opacity: number}> = ({text, side, opacity}) =>
+	text && opacity > 0 ? (
+		<div
+			style={{
+				position: 'absolute',
+				top: 58,
+				[side]: 64,
+				padding: '10px 22px',
+				borderRadius: 6,
+				background: 'rgba(8, 12, 18, 0.62)',
+				color: '#f4f1ea',
+				fontFamily: body,
+				fontWeight: 700,
+				fontSize: 34,
+				letterSpacing: 5,
+				opacity,
+			}}
+		>
+			{text}
+		</div>
+	) : null;
+const Compare: React.FC<{el: CompareEl; xf: Xf; frame: number; fade: number; filter?: string}> = ({el, xf, frame, fade, filter}) => {
+	const t = clamp01((frame - el.in - el.hold) / Math.max(el.wipe, 1));
+	const lineX = W * (1 - easeInOut(t));
+	return (
+		<AbsoluteFill style={{opacity: fade}}>
+			<PlacedImg r={el.before} xf={xf} filter={filter} />
+			<AbsoluteFill style={{clipPath: `inset(0 0 0 ${lineX.toFixed(1)}px)`}}>
+				<PlacedImg r={el.after} xf={xf} filter={filter} />
+			</AbsoluteFill>
+			{t > 0 && t < 1 ? (
+				<div style={{position: 'absolute', left: lineX - 2, top: 0, width: 4, height: H, background: 'rgba(255,255,255,0.92)', boxShadow: '0 0 16px rgba(0,0,0,0.6)'}} />
+			) : null}
+			<DateTag text={el.labelBefore} side="left" opacity={clamp01((lineX - W * 0.32) / (W * 0.08))} />
+			<DateTag text={el.labelAfter} side="right" opacity={clamp01((W * 0.86 - lineX) / (W * 0.08))} />
+		</AbsoluteFill>
+	);
+};
+
 const popIn = (age: number) => (age <= 0 ? 0 : age < 5 ? (age / 5) * 1.25 : age < 10 ? 1.25 - ((age - 5) / 5) * 0.25 : 1);
 const compact = (v: number) => {
 	const a = Math.abs(v);
@@ -251,6 +296,11 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					</AbsoluteFill>
 				);
 			})}
+			{data.elements.map((el, i) =>
+				el.kind === 'compare' && visible[i] > 0 ? (
+					<Compare key={`cmp${i}`} el={el} xf={xf} frame={frame} fade={visible[i]} filter={style.rasterFilter === 'none' ? undefined : style.rasterFilter} />
+				) : null,
+			)}
 			<svg width={W} height={H} style={{position: 'absolute'}}>
 				{style.vector ? (
 					<>

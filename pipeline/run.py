@@ -19,9 +19,11 @@ import soundfile as sf
 
 import captions
 import cf_images
+import commons
 import credits
 import maps
 import media
+import music
 import pexels
 import pronounce
 import sfx
@@ -46,7 +48,8 @@ def step(name: str):
 
 
 def pick_music(setting: str, slug: str) -> Path | None:
-    if setting == "none":
+    """A track from /music ("auto" picks one if any exist, or name a file); None -> procedural or silence."""
+    if setting in ("none", "procedural"):
         return None
     tracks = sorted(p for p in MUSIC_DIR.glob("*") if p.suffix.lower() in {".mp3", ".wav", ".m4a", ".ogg", ".flac"})
     if setting != "auto":
@@ -124,6 +127,7 @@ def prepare(slug: str) -> None:
         raise ValueError(f"unknown map style {style!r} (choose from {MAP_STYLES})")
     clips, media_files, used_ids, used_ai = [], {}, set(), False
     sfx_events, extra_credits, map_warnings = [], {"Map data: Natural Earth (public domain)."}, []
+    photo_fit, photo_credits = {}, []
     with step("media"):
         for u in lay["units"]:
             src, seconds = u["subs"][0]["src"], u["drawFrames"] / FPS
@@ -147,25 +151,37 @@ def prepare(slug: str) -> None:
                 used_ai = True
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 shutil.copyfile(cf_images.generate(src.prompt), PUBLIC_MEDIA / media_files[u["id"]])
+            elif src.type == "photo":
+                path, credit = commons.fetch(src.photo)
+                media_files[u["id"]] = f"{u['id']}.jpg"
+                photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg")
+                photo_credits.append(credit)
         for w in map_warnings:
             print(f"  map warning: {w}")
         print(f"  map style: {style}")
 
     with step("timeline+audio"):
-        timeline = tl.to_timeline(lay, script, media_files, style)
+        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit)
         (work / "timeline.json").write_text(json.dumps(timeline, indent=1), encoding="utf-8")
         total_sec = tl.build_narration_track(wavs, lay, work / "narration.wav")
+        voice_lufs = media.loudness(work / "narration.wav")
         effects = None
         if os.environ.get("SFX", "1") != "0":
             effects = work / "sfx.wav"
-            voice_lufs = media.loudness(work / "narration.wav")
             n = sfx.build_track(sfx_events + tl.card_sfx(timeline), total_sec, effects, voice_lufs)
             print(f"  sound effects: {n} placed (narration {voice_lufs:.1f} LUFS)")
         track = pick_music(script.music, slug)
-        print(f"  music: {track.name if track else 'none'}")
-        media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a", effects)
-        credits.write(work / "credits.txt", clips, track, used_ai,
-                      sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else [])
+        if track is None and script.music in ("auto", "procedural"):  # own music, one bed per chapter mood
+            track = work / "music.wav"
+            music.build([(c["startFrame"] / FPS, c["mood"]) for c in timeline["chapters"]], total_sec, track,
+                        int(hashlib.sha1(slug.encode()).hexdigest(), 16) % 1000)
+        gain = (voice_lufs - music.BED_UNDER_VOICE_DB - media.loudness(track)) if track else 0.0
+        print(f"  music: {track.name if track else 'none'}" + (f" ({gain:+.1f} dB, bed {music.BED_UNDER_VOICE_DB} dB under the voice)" if track else ""))
+        media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a", effects, music_gain_db=gain)
+        extra = sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else []
+        if photo_credits:
+            extra = ["Archive images (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra
+        credits.write(work / "credits.txt", clips, track, used_ai, extra)
         for warning in youtube_meta.write(work / "youtube.txt", script, timeline,
                                           (work / "credits.txt").read_text(encoding="utf-8")):
             print(f"  youtube.txt warning: {warning}")

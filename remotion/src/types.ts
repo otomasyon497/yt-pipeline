@@ -1,4 +1,4 @@
-export type Visual = 'stock' | 'ai_image' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card';
+export type Visual = 'stock' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card';
 
 // Absolute frames; `p` = paragraph index (caption phrases never cross paragraphs).
 export type Word = {text: string; start: number; end: number; p: number};
@@ -31,6 +31,7 @@ export type ShotData = {
 	author: string | null;
 	kenBurns: KenBurns;
 	chapterNumber: number | null;
+	photoFit: 'cover' | 'contain' | null; // archive photos: full frame, or framed over a blurred copy
 };
 
 export type ChapterMark = {title: string; startFrame: number; mood: string};

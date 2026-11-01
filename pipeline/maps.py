@@ -19,6 +19,7 @@ from shapely.geometry import shape
 
 import geo
 import gibs
+import sentinel
 from config import CACHE_DIR, FPS, HEIGHT, MAP_DRIFT, MAP_SAFE, WIDTH
 
 Q = 10_000_000  # unit Mercator -> int quantisation (0.07 px at a 1-degree view)
@@ -30,7 +31,9 @@ SFX_GAIN = {"whoosh": -2.0, "whoosh_long": 0.0, "pop": -6.0, "thump": -4.0, "swo
 WORLD_BANK = "https://api.worldbank.org/v2/country/all/indicator/{code}?date={year}&format=json&per_page=20000"
 WORLD_BANK_CREDIT = "Data: World Bank, World Development Indicators (CC BY 4.0)."
 _WORLD_IMAGES: dict[str, dict] = {}
-MIN_VISIBLE = 1.6  # seconds an overlay stays up even if the next shot starts sooner  # out_dir -> world image placements already written in this run
+MIN_VISIBLE = 1.6  # seconds an overlay stays up even if the next shot starts sooner
+S2_MAX_SPAN = 6.0  # views narrower than this (degrees) get Sentinel-2 10 m imagery on top of Blue Marble
+S2_SEA_SPAN = 1.5  # wider than this: Sentinel-2 on land only (sea from Blue Marble, no patchwork of days)  # out_dir -> world image placements already written in this run
 
 
 # ---------------------------------------------------------------- small geometry helpers
@@ -378,6 +381,8 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
     elif frame_items and not _inside_safe(_bounds_of(frame_items), plan.view, plan.captions):
         target = fit(_bounds_of(frame_items), plan.captions, _span_for(frame_items))  # camera follows the content
 
+    if target is not None and step.date:
+        target["date"] = step.date  # imagery of that day around this view (events)
     appear = f
     if globe and target is not None:
         g_frames = min(max(round(3.4 * FPS), 1), max(sub_end - f - 12, round(2.0 * FPS)))
@@ -401,7 +406,7 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
     for i, p in enumerate(places):
         start = appear + 4 + 6 * i
         plan.elements.append(Element("place", p, start, sub=sub))
-        if p["marker"] != "sea":
+        if p["marker"] not in ("sea", "label"):
             plan.events.append((start, "pop", SFX_GAIN["pop"]))
     for r, pts in routes:
         draw = round(r.seconds * FPS)
@@ -650,6 +655,27 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             r = add(layer, bx, round(need * (bx[2] - bx[0])), True, f"{block_id}_{len(rasters) + 1}_{layer}.webp")
             if r:
                 done.append(r)
+    if style == "satellite":
+        done_s2: list[tuple] = []
+        for c in plan.cams:
+            span = c["w"] * 360
+            if span > S2_MAX_SPAN:
+                continue
+            bx = view_box(c, 1.5)
+            key = (round(bx[0], 5), round(bx[1], 5), c.get("date"))
+            if key in done_s2:
+                continue
+            done_s2.append(key)
+            try:
+                r = sentinel.mosaic(bx, round(1.5 * WIDTH), out_dir / f"{block_id}_{len(rasters) + 1}_s2.webp", c.get("date"),
+                                    gibs._feather, land_mask if span > S2_SEA_SPAN else None)
+            except Exception as exc:  # imagery is decoration: fall back to Blue Marble
+                plan.warnings.append(f"Sentinel-2 image failed ({exc}); Blue Marble only for this view")
+                continue
+            if r:
+                rasters.append(r)
+        if sentinel.credit():
+            plan.credits.add(sentinel.credit())
     plan.credits.add(gibs.CREDIT)
 
     globe = None

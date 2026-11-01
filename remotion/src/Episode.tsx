@@ -6,6 +6,7 @@ import {MapBlock} from './map/MapBlock';
 import {ChapterCard} from './scenes/ChapterCard';
 import {ChartScene} from './scenes/ChartScene';
 import {ImageScene} from './scenes/ImageScene';
+import {PhotoScene} from './scenes/PhotoScene';
 import {QuoteScene} from './scenes/QuoteScene';
 import {StockScene} from './scenes/StockScene';
 import {TitleCard} from './scenes/TitleCard';
@@ -18,6 +19,8 @@ const ShotBody: React.FC<{shot: ShotData}> = ({shot}) => {
 			return <StockScene scene={shot} />;
 		case 'ai_image':
 			return <ImageScene scene={shot} />;
+		case 'photo':
+			return <PhotoScene scene={shot} />;
 		case 'chart':
 			return <ChartScene chart={shot.chart!} />;
 		case 'map':

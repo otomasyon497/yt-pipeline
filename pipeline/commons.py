@@ -1,0 +1,105 @@
+"""Archival images from Wikimedia Commons, licence-checked.
+
+The script names exact files ("File:..."). We read the licence metadata and accept only public domain,
+CC0 and CC BY (attribution); CC BY-SA, NC, ND, fair use and anything unclear are refused, so the episode
+fails loudly instead of using an image we may not be allowed to use. Credits go to credits.txt.
+"""
+import hashlib
+import html
+import io
+import json
+import re
+import time
+from pathlib import Path
+
+import requests
+from PIL import Image, ImageEnhance, ImageFilter
+
+from config import CACHE_DIR, HEIGHT, WIDTH
+
+API = "https://commons.wikimedia.org/w/api.php"
+# Wikimedia asks API clients for a descriptive User-Agent with a contact.
+UA = {"User-Agent": "yt-pipeline/1.0 (https://github.com/otomasyon497/yt-pipeline)"}
+OK_EXACT = {"pd", "cc0", "cc-pd", "public domain"}
+
+
+def _allowed(code: str, short: str) -> bool:
+    c, s = code.lower().strip(), short.lower().strip()
+    if c in OK_EXACT or s.startswith("public domain") or s == "cc0" or s == "no restrictions":
+        return True
+    # CC BY 1.0-4.0 only (attribution); reject share-alike, non-commercial and no-derivatives
+    return bool(re.fullmatch(r"cc-by-\d(\.\d)?", c)) or bool(re.fullmatch(r"cc by \d(\.\d)?", s))
+
+
+def _clean(value: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", value or ""))).strip()
+
+
+def fetch(title: str) -> tuple[Path, str]:
+    """Download a Commons file (2400 px rendition) and return (local path, credit line)."""
+    title = title if title.startswith("File:") else f"File:{title}"
+    key = hashlib.sha1(title.encode()).hexdigest()
+    img_path = CACHE_DIR / "commons" / f"{key}.jpg"
+    meta_path = img_path.with_suffix(".json")
+    if img_path.exists() and meta_path.exists():
+        return img_path, json.loads(meta_path.read_text(encoding="utf-8"))["credit"]
+    params = {"action": "query", "titles": title, "prop": "imageinfo", "iiprop": "url|extmetadata|mime|size",
+              "iiurlwidth": 2400, "format": "json"}
+    for attempt in range(4):
+        try:
+            r = requests.get(API, params=params, headers=UA, timeout=60)
+            r.raise_for_status()
+            break
+        except requests.RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(3 * (attempt + 1))
+    page = next(iter(r.json()["query"]["pages"].values()))
+    if "imageinfo" not in page:
+        raise ValueError(f"Commons file not found: {title}")
+    info = page["imageinfo"][0]
+    meta = info.get("extmetadata", {})
+    code = meta.get("License", {}).get("value", "")
+    short = _clean(meta.get("LicenseShortName", {}).get("value", ""))
+    if not _allowed(code, short):
+        raise ValueError(f"{title}: licence {short or code!r} is not public domain / CC0 / CC BY - choose another file")
+    artist = _clean(meta.get("Artist", {}).get("value", "")) or "unknown author"
+    url = info.get("thumburl") or info["url"]
+    for attempt in range(4):
+        try:
+            data = requests.get(url, headers=UA, timeout=120)
+            data.raise_for_status()
+            break
+        except requests.RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(3 * (attempt + 1))
+    img = Image.open(io.BytesIO(data.content))
+    img = img.convert("RGB")
+    img_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(img_path, "JPEG", quality=92)
+    name = re.sub(r"\.(jpe?g|png|tiff?|gif|webp)$", "", title[5:], flags=re.I)
+    credit = f"{name} - {artist} - {short or code} - {info.get('descriptionurl', '')}"
+    meta_path.write_text(json.dumps({"credit": credit, "licence": short or code}), encoding="utf-8")
+    print(f"  commons: {title} ({short or code})")
+    return img_path, credit
+
+
+def prepare(src: Path, out_main: Path, out_bg: Path) -> str:
+    """Write the photo (fit inside the frame, with headroom for a slow push-in) and a blurred, darkened
+    full-frame background from the same picture. Returns "cover" for near-16:9 pictures, else "contain"."""
+    img = Image.open(src).convert("RGB")
+    ratio = img.width / img.height
+    mode = "cover" if 1.55 <= ratio <= 2.0 and img.width >= 1400 else "contain"
+    main = img.copy()
+    main.thumbnail((int(WIDTH * 1.25), int(HEIGHT * 1.25)), Image.LANCZOS)
+    main.save(out_main, "JPEG", quality=90)
+    # background: cover-crop to 16:9, small blur radius on a downscaled copy (cheap), darker
+    bw, bh = 640, 360
+    scale = max(bw / img.width, bh / img.height)
+    bg = img.resize((max(bw, round(img.width * scale)), max(bh, round(img.height * scale))), Image.LANCZOS)
+    left, top = (bg.width - bw) // 2, (bg.height - bh) // 2
+    bg = bg.crop((left, top, left + bw, top + bh)).filter(ImageFilter.GaussianBlur(14))
+    bg = ImageEnhance.Brightness(bg).enhance(0.45).resize((WIDTH, HEIGHT), Image.BICUBIC)
+    bg.save(out_bg, "JPEG", quality=85)
+    return mode

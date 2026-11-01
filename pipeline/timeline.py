@@ -115,7 +115,7 @@ def group_units(shots: list[dict], total_frames: int) -> list[dict]:
     return units
 
 
-def to_timeline(lay: dict, script, media: dict, map_style: str) -> dict:
+def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict | None = None) -> dict:
     """JSON props for the Remotion `Episode` composition."""
     shots = []
     for i, u in enumerate(lay["units"]):
@@ -123,7 +123,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str) -> dict:
         src, kb = first["src"], _KB[i % len(_KB)]
         texts = []
         for s in u["subs"]:
-            text = s["src"].on_screen_text if s["src"] is not None and s["kind"] in ("stock", "ai_image", "map") else None
+            text = s["src"].on_screen_text if s["src"] is not None and s["kind"] in ("stock", "ai_image", "photo", "map") else None
             if text:
                 offset = s["startFrame"] - u["startFrame"]
                 texts.append({"text": text, "from": offset + (u["transitionIn"] if offset == 0 else 0) + TEXT_DELAY,
@@ -143,6 +143,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str) -> dict:
             "author": None if src is None else src.author,
             "kenBurns": {"z0": kb[0], "z1": kb[1], "x0": kb[2], "x1": kb[3], "y0": kb[4], "y1": kb[5]},
             "chapterNumber": first.get("chapter"),
+            "photoFit": (photo_fit or {}).get(u["id"]),
         })
     words = []
     for w in lay["words"]:

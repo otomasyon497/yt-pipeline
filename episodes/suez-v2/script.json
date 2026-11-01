@@ -1,0 +1,511 @@
+{
+  "title": "Six Days in March: How One Ship Exposed the World's Most Important Shortcut",
+  "voice": "am_michael",
+  "music": "procedural",
+  "map_style": "satellite",
+  "captions": true,
+  "sources": [
+    "Test episode 2 (built from scratch on 2026-11-01): Sentinel-2 imagery, archive images, procedural music.",
+    "Ever Given: grounded 23 March 2021 07:40 local time, about 400 m long, winds over 40 knots; at least 369 ships queuing by 28 March; refloated 29 March 15:05 local time after six days - https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction , https://www.aljazeera.com/news/2021/3/26/maritime-traffic-jam-grows-outside-blocked-suez-canal",
+    "About USD 9.6 billion of trade held up per day (Lloyd's List estimate as reported) - https://porteconomicsmanagement.org/suez-canal-blockage-2021/ , https://www.aljazeera.com/news/2021/3/26/maritime-traffic-jam-grows-outside-blocked-suez-canal",
+    "Empire State Building roof height 381 m - https://en.wikipedia.org/wiki/Empire_State_Building",
+    "Satellite images: Copernicus Sentinel-2 L2A, 24 March 2021 (S2A, tile 36RVU) and 29 March 2021 (S2B), via AWS Open Data / Earth Search; ISS photo 27 March 2021 (NASA, ISS064-E-48480).",
+    "Construction began 25 April 1859; forced labour (corvee) until 1864; tens of thousands of workers; death estimates vary widely (disputed); opened 17 November 1869; London to the Arabian Sea about 8,900 km shorter - https://en.wikipedia.org/wiki/Suez_Canal",
+    "Lesseps obtained the concession from Said Pasha, Egypt's ruler - https://en.wikipedia.org/wiki/Ferdinand_de_Lesseps",
+    "Nationalisation 26 July 1956 by Nasser; Suez Crisis invasion by Britain, France and Israel; withdrawal under US and Soviet pressure - https://en.wikipedia.org/wiki/Suez_Crisis",
+    "Closed 5 June 1967 to 5 June 1975; 15 ships trapped, known as the Yellow Fleet after the desert sand covering their decks - https://en.wikipedia.org/wiki/Yellow_Fleet",
+    "193.3 km long; about 20,600 vessels in 2021; about 12% of world trade - https://en.wikipedia.org/wiki/Suez_Canal , https://www.mfat.govt.nz/en/trade/mfat-market-reports/the-importance-of-the-suez-canal-to-global-trade-18-april-2021",
+    "Said Pasha photographed by Nadar, 1855 (public domain); Lesseps by Nadar (public domain, Rijksmuseum); work on the canal, wood engraving (Wellcome Collection, CC BY 4.0); inauguration by Edouard Riou (public domain); Al-Ahram front page, July 1956 (public domain on Commons)."
+  ],
+  "thumbnail": {
+    "text": "6 DAYS. 369 SHIPS.",
+    "prompt": "a giant container ship in a narrow canal cutting through a desert at sunset, aerial view, dramatic"
+  },
+  "youtube": {
+    "title": "Six Days in March: How One Ship Exposed the World's Most Important Shortcut",
+    "description": "In March 2021, one ship turned sideways in the Suez Canal and hundreds of ships stopped behind it. Real satellite images, archive pictures and maps tell the story of the desert shortcut the world cannot do without.\n\n(Test episode from the automated pipeline.)",
+    "tags": [
+      "suez canal",
+      "ever given",
+      "sentinel-2",
+      "satellite images",
+      "geography",
+      "geopolitics",
+      "shipping",
+      "egypt",
+      "history"
+    ]
+  },
+  "chapters": [
+    {
+      "title": "Six Days in March",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "On the morning of March 23rd, 2021, a ship about as long as the Empire State Building is tall turned sideways in the Suez Canal, and stopped.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite image · 24 March 2021",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.5795,
+                      "lat": 30.0175,
+                      "span": 0.09
+                    },
+                    "date": "2021-03-24"
+                  },
+                  {
+                    "at": "turned sideways",
+                    "places": [
+                      {
+                        "name": "EVER GIVEN",
+                        "lon": 32.5795,
+                        "lat": 30.0232,
+                        "kind": "label"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "This is a real satellite image of it, taken the next day. Four hundred meters of steel, wedged from bank to bank, and nothing could get past.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Ever Given, about 400 m",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "at": "nothing could get past",
+                    "view": {
+                      "lon": 32.575,
+                      "lat": 30.03,
+                      "span": 0.5
+                    },
+                    "date": "2021-03-24"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Astronauts on the International Space Station photographed it too.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Ever Given in Suez Canal viewed from ISS.jpg",
+              "on_screen_text": "Photo from the ISS · 27 March 2021"
+            }
+          ]
+        },
+        {
+          "text": "Within days, at least 369 ships were waiting at both ends of the canal, and around 9.6 billion dollars' worth of goods were stuck every single day.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "369 ships waiting",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.56,
+                      "lat": 29.865,
+                      "span": 0.38
+                    },
+                    "date": "2021-03-24",
+                    "places": [
+                      {
+                        "name": "SHIPS WAITING",
+                        "lon": 32.565,
+                        "lat": 29.835,
+                        "kind": "label"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "around",
+              "query": "container ship aerial ocean",
+              "on_screen_text": "About $9.6 billion of goods per day"
+            }
+          ]
+        },
+        {
+          "text": "So how did a ditch dug through the desert become powerful enough to shake the world economy?",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.4,
+                      "span": 3.2
+                    }
+                  },
+                  {
+                    "at": "shake the world",
+                    "world": true,
+                    "places": [
+                      {
+                        "name": "Suez Canal",
+                        "kind": "event",
+                        "label": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Shortcut",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "For centuries, ships sailing between Europe and Asia had to go all the way around Africa.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 3.5
+                      }
+                    ]
+                  },
+                  {
+                    "at": "around Africa",
+                    "places": [
+                      {
+                        "name": "Cape of Good Hope"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Then a French diplomat, Ferdinand de Lesseps, convinced Egypt's ruler to let him cut a canal straight through the desert.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Retrato de Ferdinand de Lesseps, por Felix Nadar.jpg",
+              "on_screen_text": "Ferdinand de Lesseps"
+            },
+            {
+              "type": "photo",
+              "at": "Egypt's ruler",
+              "photo": "File:Muhammad Said Pascha 1855 Nadar (edited).JPG",
+              "on_screen_text": "Said Pasha, ruler of Egypt"
+            }
+          ]
+        },
+        {
+          "text": "Digging began in 1859. Tens of thousands of Egyptian workers, many of them forced, moved the sand. How many of them died is still disputed.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Civil engineering; work on the Suez canal. Wood engraving by Wellcome V0024392.jpg",
+              "on_screen_text": "1859"
+            }
+          ]
+        },
+        {
+          "text": "On November 17th, 1869, the canal opened. The sea route from London to the Arabian Sea became almost 9,000 kilometers shorter.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:L'inauguration du canal de Suez, 17 November 1869 Gal18 riou 001f.jpg",
+              "on_screen_text": "17 November 1869"
+            },
+            {
+              "type": "map",
+              "at": "The sea route",
+              "on_screen_text": "About 8,900 km shorter",
+              "map": {
+                "steps": [
+                  {
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 1.2
+                      }
+                    ]
+                  },
+                  {
+                    "at": "almost",
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "label": "Via Suez",
+                        "seconds": 2.2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Fight for the Canal",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "But the canal was run by a European company, and in July 1956, Egypt's president, Gamal Abdel Nasser, took it back.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:Al-Ahram Newspaper Publish Suez Canal Nationalization.jpg",
+              "on_screen_text": "Al-Ahram · July 1956"
+            }
+          ]
+        },
+        {
+          "text": "Britain, France and Israel invaded. Within months, pressure from the United States and the Soviet Union forced them to pull out.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      "Egypt"
+                    ],
+                    "highlight": [
+                      "Egypt"
+                    ]
+                  },
+                  {
+                    "at": "invaded",
+                    "arrows": [
+                      {
+                        "from": [
+                          33.0,
+                          34.6
+                        ],
+                        "to": [
+                          32.35,
+                          31.35
+                        ],
+                        "label": "Britain & France"
+                      },
+                      {
+                        "from": [
+                          34.5,
+                          31.3
+                        ],
+                        "to": [
+                          33.0,
+                          30.4
+                        ],
+                        "label": "Israel",
+                        "bend": -0.25
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "In 1967, war closed the canal again, this time for eight years. Fifteen ships were trapped inside. They became known as the Yellow Fleet, after the desert sand that piled up on their decks.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Closed from 1967 to 1975",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.42,
+                      "lat": 30.33,
+                      "span": 0.9
+                    }
+                  },
+                  {
+                    "at": "Fifteen ships",
+                    "places": [
+                      {
+                        "name": "Great Bitter Lake",
+                        "kind": "sea"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Yellow Fleet",
+                    "view": {
+                      "lon": 32.38,
+                      "lat": 30.335,
+                      "span": 0.3
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Still the Shortcut",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "Today, the canal is 193 kilometers long. In 2021 alone, more than 20,000 ships passed through it, carrying about 12 percent of world trade.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "193 km",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.55,
+                      "span": 2.2
+                    },
+                    "routes": [
+                      {
+                        "path": "Suez Canal",
+                        "mode": "line",
+                        "seconds": 2.5
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Port Said",
+                        "kind": "port"
+                      },
+                      {
+                        "name": "Suez",
+                        "kind": "port"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "more than",
+              "query": "container ship sailing aerial",
+              "on_screen_text": "About 20,600 ships in 2021"
+            }
+          ]
+        },
+        {
+          "text": "On March 29th, after six days, tugs and dredgers finally pulled the Ever Given free.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "29 March 2021 · hours before it was freed",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.58,
+                      "lat": 30.02,
+                      "span": 0.12
+                    },
+                    "date": "2021-03-29"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "One ship, one week, one narrow ditch in the desert. That is how much the world still depends on the Suez Canal.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.5,
+                      "span": 4.0
+                    }
+                  },
+                  {
+                    "at": "how much the world",
+                    "world": true,
+                    "places": [
+                      {
+                        "name": "Suez Canal",
+                        "kind": "event",
+                        "label": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "title_card",
+              "at": "the Suez Canal",
+              "on_screen_text": "THE SUEZ CANAL",
+              "subtitle": "The shortcut the world runs on"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

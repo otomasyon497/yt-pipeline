@@ -11,7 +11,7 @@ export type HighlightEl = Base & {kind: 'highlight'; id: string; name: string; l
 export type PlaceEl = Base & {
 	kind: 'place';
 	label: string;
-	marker: 'city' | 'capital' | 'port' | 'site' | 'event' | 'sea';
+	marker: 'city' | 'capital' | 'port' | 'site' | 'event' | 'sea' | 'label';
 	x: number;
 	y: number;
 };
@@ -39,7 +39,7 @@ export type ChoroplethEl = Base & {
 export type TrueSizeEl = Base & {kind: 'truesize'; from: [number, number]; to: [number, number]; label: string; move: number; rings: number[][]};
 export type MapElement = HighlightEl | PlaceEl | RouteEl | ArrowEl | ChoroplethEl | TrueSizeEl;
 
-export type Raster = {src: string; x0: number; y0: number; x1: number; y1: number; layer: 'day' | 'night' | 'relief'; px: number};
+export type Raster = {src: string; x0: number; y0: number; x1: number; y1: number; layer: 'day' | 's2' | 'night' | 'relief'; px: number};
 
 export type Lod = {
 	lod: string;

@@ -1,12 +1,13 @@
 """script.json (v2) validation: chapters -> paragraphs (continuous narration) -> shots (visuals anchored to words)."""
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Literal, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-ShotType = Literal["stock", "ai_image", "chart", "map", "title_card", "quote"]
+ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote"]
 Mood = Literal["calm", "curious", "tension"]
 
 
@@ -44,7 +45,7 @@ class Place(BaseModel):
     lon: Optional[float] = None
     lat: Optional[float] = None
     label: Optional[str] = None  # None -> name, "" -> marker only
-    kind: Optional[Literal["city", "capital", "port", "site", "event", "sea"]] = None  # default from the gazetteer
+    kind: Optional[Literal["city", "capital", "port", "site", "event", "sea", "label"]] = None  # default from the gazetteer; label = text only
 
     @model_validator(mode="after")
     def _coords(self):
@@ -108,7 +109,7 @@ class TrueSize(BaseModel):
 class View(BaseModel):
     lon: float
     lat: float
-    span: float = Field(gt=0.2, le=360)  # degrees of longitude across the frame
+    span: float = Field(gt=0.03, le=360)  # degrees of longitude across the frame (Sentinel-2 holds up to ~0.05)
 
 
 class MapStep(BaseModel):
@@ -124,12 +125,17 @@ class MapStep(BaseModel):
     choropleth: Optional[Choropleth] = None
     true_size: Optional[TrueSize] = None
     layer: Optional[Literal["day", "night"]] = None  # night = VIIRS city lights
+    date: Optional[str] = None  # "YYYY-MM-DD": Sentinel-2 imagery of that day for this view (real events)
     clear: bool = False  # remove everything shown earlier in this shot first
 
     @model_validator(mode="after")
     def _camera(self):
         if sum([bool(self.focus), self.view is not None, self.world]) > 1:
             raise ValueError("a map step takes only one of focus / view / world")
+        if self.date:
+            if not (self.focus or self.view):
+                raise ValueError("map step 'date' needs a focus or view (the imagery is fetched for that view)")
+            date.fromisoformat(self.date)
         return self
 
 
@@ -158,6 +164,7 @@ class Shot(BaseModel):
     at: Union[int, str] = 0  # word index in the paragraph, or the word/phrase the cut lands on
     query: Optional[str] = None  # stock
     prompt: Optional[str] = None  # ai_image
+    photo: Optional[str] = None  # photo: Wikimedia Commons "File:..." (public domain / CC0 / CC BY only)
     on_screen_text: Optional[str] = None
     subtitle: Optional[str] = None
     chart: Optional[Chart] = None
@@ -170,6 +177,7 @@ class Shot(BaseModel):
         need = {
             "stock": self.query,
             "ai_image": self.prompt,
+            "photo": self.photo,
             "chart": self.chart,
             "map": self.map,
             "title_card": self.on_screen_text,
@@ -260,7 +268,7 @@ class YouTubeMeta(BaseModel):
 class Script(BaseModel):
     title: str
     voice: str = "am_michael"
-    music: str = "auto"  # "auto" | file name inside /music | "none"
+    music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | file in /music | "none"
     captions: bool = True
     map_style: Optional[Literal["satellite", "atlas", "midnight"]] = None  # None -> config.MAP_STYLE
     chapters: list[Chapter] = Field(min_length=1)

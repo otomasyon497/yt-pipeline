@@ -72,6 +72,9 @@ const labelsOf = (elements: MapElement[]): LabelEl[] => {
 		const id = `${el.kind}${i}`;
 		if (el.kind === 'highlight') {
 			out.push({id, el, text: el.name, size: 32, spacing: 5, upper: true, italic: false, x: el.lx, y: el.ly, r: 0, priority: 0});
+		} else if (el.kind === 'place' && el.label && el.marker === 'label') {
+			// text-only callout (e.g. a ship name above it): uppercase, centred, placed first
+			out.push({id, el, text: el.label, size: 34, spacing: 6, upper: true, italic: false, x: el.x, y: el.y, r: 0, priority: 0});
 		} else if (el.kind === 'place' && el.label) {
 			const sea = el.marker === 'sea';
 			out.push({id, el, text: el.label, size: sea ? 27 : 30, spacing: sea ? 3 : 0.5, upper: false, italic: sea, x: el.x, y: el.y, r: sea ? 0 : 11, priority: sea ? 3 : 1});
@@ -217,9 +220,10 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					<path d={pathOf(lod.landR, xf, offsets, true)} fill={style.land} />
 				</svg>
 			) : null}
-			{(['day', 'relief', 'night'] as const).map((layer) => {
+			{(['day', 's2', 'relief', 'night'] as const).map((layer) => {
 				// One opacity per layer (not per image): overlapping images must not add up while fading.
-				const layerOpacity = layer === 'night' ? night : layer === 'day' ? 1 : style.reliefOpacity;
+				// s2 = Sentinel-2 10 m imagery over the Blue Marble 'day' layer on close views.
+				const layerOpacity = layer === 'night' ? night : layer === 'day' || layer === 's2' ? 1 : style.reliefOpacity;
 				const imgs = rasters.filter((r) => r.layer === layer);
 				if (!imgs.length) return null;
 				return (
@@ -305,7 +309,9 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					el.kind === 'arrow' && visible[i] > 0 ? <Arrow key={i} el={el} xf={xf} style={style} frame={frame} fade={visible[i]} /> : null,
 				)}
 				{data.elements.map((el, i) =>
-					el.kind === 'place' && el.marker !== 'sea' && visible[i] > 0 ? <Marker key={i} el={el} xf={xf} style={style} frame={frame} fade={visible[i]} /> : null,
+					el.kind === 'place' && el.marker !== 'sea' && el.marker !== 'label' && visible[i] > 0 ? (
+						<Marker key={i} el={el} xf={xf} style={style} frame={frame} fade={visible[i]} />
+					) : null,
 				)}
 				{labelEls.map((l) => {
 					const i = data.elements.indexOf(l.el);

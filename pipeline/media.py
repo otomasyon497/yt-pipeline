@@ -33,29 +33,30 @@ def loudness(wav: Path) -> float:
 
 
 def mix_audio(narration_wav: Path, music: Path | None, total_sec: float, out_m4a: Path, sfx_wav: Path | None = None,
-              target_lufs: float = -14.0) -> None:
+              target_lufs: float = -14.0, music_gain_db: float = -6.9) -> None:
     """Narration (+ optional music ducked under it, + optional sound effects), fade-out, then one constant gain
     to about -14 LUFS with a -1 dBFS limiter. (Single-pass dynamic loudnorm pumped quiet passages up, so
     effects on silent chapter cards ended up louder than the voice.)
 
     Input order: 0 = narration, 1 = sfx (if any), then music (looped). Effects are not ducked: they are
-    short and placed on visual events, at a fixed level under the voice (see sfx.py).
+    short and placed on visual events, at a fixed level under the voice (see sfx.py). `music_gain_db` sets the
+    bed before ducking (run.py derives it from measured loudness; the default matches the old fixed 0.9 x 0.5).
     """
     fade = f"afade=t=out:st={max(total_sec - 2.5, 0):.2f}:d=2.5"
     inputs = ["-i", narration_wav]
-    parts = ["[0:a]aresample=48000[n0]"]
+    # Everything as stereo so a stereo music bed is not folded down to the mono voice's layout by amix.
+    parts = ["[0:a]aresample=48000,pan=stereo|c0=c0|c1=c0[n0]"]
     voice = "[n0]"
     if sfx_wav is not None:
         inputs += ["-i", sfx_wav]
-        parts.append("[1:a]aresample=48000[fx]")
+        parts.append("[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0[fx]")
     if music is not None:
         m = 2 if sfx_wav is not None else 1
         inputs += ["-stream_loop", "-1", "-i", music]
         parts += [
-            f"[{m}:a]aresample=48000,volume=0.9,afade=t=in:d=2[m0]",
+            f"[{m}:a]aresample=48000,volume={music_gain_db:.2f}dB,afade=t=in:d=2[m0]",
             "[n0]asplit=2[n][sc]",
-            "[m0][sc]sidechaincompress=threshold=0.02:ratio=10:attack=30:release=600[md]",
-            "[md]volume=0.5[mv]",
+            "[m0][sc]sidechaincompress=threshold=0.02:ratio=10:attack=30:release=600[mv]",
         ]
         voice = "[n]"
     beds = ([voice] + (["[fx]"] if sfx_wav is not None else []) + (["[mv]"] if music is not None else []))

@@ -271,6 +271,20 @@ class Plan:
         return start + round(frames * 0.55)
 
 
+def _inside_safe(bounds, view: dict, captions: bool, slack: float = 0.03) -> bool:
+    """True if unit-Mercator `bounds` sit inside the view's safe area (clear of edges and captions)."""
+    if bounds is None:
+        return True
+    k = view["w"] / WIDTH  # unit per pixel
+    bottom = MAP_SAFE["bottom"] if captions else MAP_SAFE["top"]
+    x0 = view["x"] + (MAP_SAFE["left"] - WIDTH / 2) * k
+    x1 = view["x"] + (WIDTH / 2 - MAP_SAFE["right"]) * k
+    y0 = view["y"] + (MAP_SAFE["top"] - HEIGHT / 2) * k
+    y1 = view["y"] + (HEIGHT / 2 - bottom) * k
+    pad = slack * view["w"]
+    return bounds[0] >= x0 - pad and bounds[2] <= x1 + pad and bounds[1] >= y0 - pad and bounds[3] <= y1 + pad
+
+
 def _bounds_of(items) -> tuple | None:
     boxes = []
     for kind, payload in items:
@@ -360,6 +374,8 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
         target = fit(_bounds_of(items), plan.captions, _span_for(items))
     elif plan.view is None:
         target = fit(_bounds_of(frame_items), plan.captions, _span_for(frame_items)) if frame_items else dict(WORLD)
+    elif frame_items and not _inside_safe(_bounds_of(frame_items), plan.view, plan.captions):
+        target = fit(_bounds_of(frame_items), plan.captions, _span_for(frame_items))  # camera follows the content
 
     appear = f
     if globe and target is not None:
@@ -555,6 +571,8 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
         item = {"kind": e.kind, "in": e.start, "out": e.end, **{k: v for k, v in e.data.items() if k != "spec"}}
         cams = _active_cams(plan, e.start, e.end)
         if e.kind == "highlight":
+            body = geo.main_body(e.geom) if e.geom.geom_type == "MultiPolygon" else e.geom
+            item["bb"] = [round(v, 7) for v in geo.to_unit(body).bounds]
             w = min(c["w"] for c in cams)
             lod = _lod_for(w)
             g = prepare_geom(geo.country_geom(e.data["id"], lod) if geo.country_code(e.data["id"]) else e.geom,

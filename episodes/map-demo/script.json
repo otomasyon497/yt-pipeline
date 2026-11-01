@@ -98,11 +98,6 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 42,
-                      "lat": 12,
-                      "span": 135
-                    },
                     "routes": [
                       {
                         "from": "Rotterdam",
@@ -151,9 +146,9 @@
                 "steps": [
                   {
                     "view": {
-                      "lon": 31.2,
-                      "lat": 27.2,
-                      "span": 15
+                      "lon": 31.0,
+                      "lat": 26.8,
+                      "span": 17
                     },
                     "layer": "night"
                   },
@@ -240,12 +235,10 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 32.8,
-                      "lat": 31.6,
-                      "span": 10
-                    },
                     "highlight": [
+                      "Egypt"
+                    ],
+                    "focus": [
                       "Egypt"
                     ]
                   },

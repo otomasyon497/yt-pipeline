@@ -260,16 +260,27 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 						opacity={dimLevel}
 					/>
 				) : null}
-				{highlights.map(({el, i}) => (
-					<path
-						key={`hf${i}`}
-						d={pathOf((decoded[i] as {rings: Ring[]}).rings, xf, offsets, true)}
-						fill={style.tints.accent}
-						fillOpacity={style.highlightFill * visible[i] * (0.8 + 0.2 * Math.sin((frame - el.in) / 9))}
-					/>
-				))}
+				{highlights.map(({el, i}) => {
+					// A country that fills the whole frame (close-ups) gets a lighter wash so the imagery shows.
+					const big = clamp01(((el.bb[2] - el.bb[0]) * xf.k) / W / 0.8 - 0.9 / 0.8);
+					return (
+						<path
+							key={`hf${i}`}
+							d={pathOf((decoded[i] as {rings: Ring[]}).rings, xf, offsets, true)}
+							fill={style.tints.accent}
+							fillOpacity={style.highlightFill * (1 - 0.75 * big) * visible[i] * (0.8 + 0.2 * Math.sin((frame - el.in) / 9))}
+						/>
+					);
+				})}
 				{style.vector ? <path d={pathOf(lod.coastR, xf, offsets, false)} fill="none" stroke={style.coast} strokeWidth={style.coastWidth} strokeLinejoin="round" /> : null}
-				<path d={pathOf(lod.bordersR, xf, offsets, false)} fill="none" stroke={style.border} strokeWidth={style.borderWidth} strokeLinejoin="round" />
+				<path
+					d={pathOf(lod.bordersR, xf, offsets, false)}
+					fill="none"
+					stroke={style.border}
+					strokeOpacity={1 - 0.45 * clamp01((span - 20) / 80)}
+					strokeWidth={style.borderWidth}
+					strokeLinejoin="round"
+				/>
 				{highlights.map(({el, i}) => (
 					<Outline key={`ho${i}`} rings={(decoded[i] as {rings: Ring[]}).rings} xf={xf} offsets={offsets} color={style.tints.accent} age={frame - el.in} fade={visible[i]} />
 				))}
@@ -452,10 +463,11 @@ const TrueSize: React.FC<{el: TrueSizeEl; mover: ReturnType<typeof sphereMover>;
 	const [clon, clat] = mover(el.from[0], el.from[1], t);
 	const [cx, cy] = toScreen(xf, ...merc(clon, clat));
 	const accent = style.tints.accent;
+	const labelIn = clamp01((t - 0.3) / 0.2); // the origin keeps its own label; this one follows the outline
 	return (
 		<g opacity={fade}>
 			<path d={d} fill={accent} fillOpacity={0.55} stroke="#ffffff" strokeWidth={2.5} strokeLinejoin="round" />
-			<text x={cx} y={cy + 10} textAnchor="middle" fontFamily={body} fontWeight={700} fontSize={30} letterSpacing={4} fill={style.label} stroke={style.labelHalo} strokeWidth={7} paintOrder="stroke">
+			<text x={cx} y={cy + 10} textAnchor="middle" fontFamily={body} fontWeight={700} fontSize={30} letterSpacing={4} fill={style.label} stroke={style.labelHalo} strokeWidth={7} paintOrder="stroke" opacity={labelIn}>
 				{el.label.toUpperCase()}
 			</text>
 		</g>

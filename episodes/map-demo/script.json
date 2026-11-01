@@ -1,0 +1,288 @@
+{
+  "title": "Map Engine Demo",
+  "voice": "am_michael",
+  "music": "none",
+  "captions": true,
+  "sources": [
+    "Phase 3B map engine demo / style reel (not for upload). Facts checked on 2026-11-01:",
+    "Africa about 30.4 million km2, Greenland about 2.17 million km2 (about 14x) - https://en.wikipedia.org/wiki/Africa , https://en.wikipedia.org/wiki/Greenland",
+    "Suez Crisis 1956: Israel invaded Sinai on 29 October; British and French forces landed at Port Said on 5-6 November - https://en.wikipedia.org/wiki/Suez_Crisis",
+    "Most Egyptians live in the Nile valley and delta - https://en.wikipedia.org/wiki/Demographics_of_Egypt",
+    "Population by country: World Bank SP.POP.TOTL, 2023 (CC BY 4.0)"
+  ],
+  "youtube": {
+    "title": "Map Engine Demo",
+    "description": "Internal test of the map engine (not for upload).",
+    "tags": [
+      "test"
+    ]
+  },
+  "chapters": [
+    {
+      "title": "Map Engine Demo",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "Every day, thousands of ships carry the world's goods between Asia and Europe.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "globe": true,
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 45,
+                      "lat": 24,
+                      "span": 120
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Many of them squeeze through one narrow channel in Egypt, the Suez Canal.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      "Egypt"
+                    ],
+                    "highlight": [
+                      "Egypt"
+                    ]
+                  },
+                  {
+                    "at": "narrow channel",
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.55,
+                      "span": 4.2
+                    },
+                    "routes": [
+                      {
+                        "path": "Suez Canal",
+                        "mode": "line",
+                        "seconds": 2.0
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Port Said",
+                        "kind": "port"
+                      },
+                      {
+                        "name": "Suez",
+                        "kind": "port"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "If the canal closes, ships must sail all the way around Africa, past the Cape of Good Hope.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 42,
+                      "lat": 12,
+                      "span": 135
+                    },
+                    "routes": [
+                      {
+                        "from": "Rotterdam",
+                        "to": "Singapore",
+                        "label": "Via Suez",
+                        "seconds": 2.2
+                      }
+                    ]
+                  },
+                  {
+                    "at": "around Africa",
+                    "routes": [
+                      {
+                        "from": "Rotterdam",
+                        "to": "Singapore",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 3.0
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Cape of Good Hope",
+                    "places": [
+                      {
+                        "name": "Cape of Good Hope"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "At night, satellites show where people really live. In Egypt, almost everyone lives along the Nile.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 31.2,
+                      "lat": 27.2,
+                      "span": 15
+                    },
+                    "layer": "night"
+                  },
+                  {
+                    "at": "along the Nile",
+                    "places": [
+                      {
+                        "name": "Cairo",
+                        "kind": "capital"
+                      },
+                      {
+                        "name": "Aswan"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Maps can also mislead. On this kind of map, Greenland looks almost as big as Africa. In reality, Africa is about fourteen times larger.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "layer": "day",
+                    "view": {
+                      "lon": -10,
+                      "lat": 45,
+                      "span": 330
+                    },
+                    "highlight": [
+                      "Greenland"
+                    ]
+                  },
+                  {
+                    "at": "In reality",
+                    "true_size": {
+                      "country": "Greenland",
+                      "to": [
+                        20,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Maps can show data too, like how many people live in each country.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "world": true,
+                    "choropleth": {
+                      "title": "Population, 2023",
+                      "world_bank": "SP.POP.TOTL",
+                      "year": 2023,
+                      "scale": "log",
+                      "source": "World Bank"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "And they can tell history. In 1956, Britain, France and Israel invaded Egypt over the canal.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.8,
+                      "lat": 31.6,
+                      "span": 10
+                    },
+                    "highlight": [
+                      "Egypt"
+                    ]
+                  },
+                  {
+                    "at": "Britain",
+                    "arrows": [
+                      {
+                        "from": [
+                          33.0,
+                          34.6
+                        ],
+                        "to": [
+                          32.35,
+                          31.35
+                        ],
+                        "label": "Britain & France"
+                      },
+                      {
+                        "from": [
+                          34.5,
+                          31.3
+                        ],
+                        "to": [
+                          33.0,
+                          30.4
+                        ],
+                        "label": "Israel",
+                        "bend": -0.25
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

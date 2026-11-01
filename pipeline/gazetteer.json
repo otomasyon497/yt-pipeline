@@ -1,0 +1,10 @@
+{
+  "_comment": "Curated places Natural Earth lacks or places imprecisely (coordinates from Wikipedia infoboxes). kind: city | capital | sea | site.",
+  "Suez Canal": {"lon": 32.344, "lat": 30.705, "kind": "site", "country": "Egypt"},
+  "Great Bitter Lake": {"lon": 32.383, "lat": 30.333, "kind": "sea", "country": "Egypt"},
+  "Lake Timsah": {"lon": 32.3, "lat": 30.567, "kind": "sea", "country": "Egypt"},
+  "Aswan High Dam": {"lon": 32.878, "lat": 23.971, "kind": "site", "country": "Egypt"},
+  "Strait of Hormuz": {"lon": 56.25, "lat": 26.567, "kind": "sea"},
+  "Strait of Malacca": {"lon": 100.0, "lat": 4.0, "kind": "sea"},
+  "Panama Canal": {"lon": -79.683, "lat": 9.133, "kind": "site", "country": "Panama"}
+}

@@ -18,12 +18,13 @@ WIDTH = 1920
 HEIGHT = 1080
 
 # Long-form layout. Narration flows paragraph by paragraph; shots cut on anchor words and each shot
-# is drawn TRANSITION_FRAMES longer so the next one can dissolve in over it.
-TRANSITION_FRAMES = 10
+# is drawn a few frames longer so the next one can dissolve in over it (3B: tighter pacing).
+TRANSITION_FRAMES = 8
+CARD_TRANSITION_FRAMES = 12  # chapter cards punch in (scale + fade)
 LEAD_IN = 0.4  # seconds of picture before the first word
-PARA_PAUSE = 0.55  # after every paragraph
-CHAPTER_PAUSE = 0.9  # extra pause at the end of a chapter
-CARD_SEC = 2.6  # chapter title card (no narration)
+PARA_PAUSE = 0.45  # after every paragraph
+CHAPTER_PAUSE = 0.75  # extra pause at the end of a chapter
+CARD_SEC = 2.4  # chapter title card (no narration)
 CUT_LEAD = 0.1  # cuts land slightly before their anchor word
 MIN_SHOT = 1.2  # shortest allowed shot (later anchors are pushed back if needed)
 END_PAD = 2.5  # after the last word (music fade-out)
@@ -38,11 +39,20 @@ MUSIC_DIR = ROOT / "music"
 DEFAULT_VOICE = "am_michael"
 SAMPLE_VOICES = ["bm_george", "am_michael", "am_onyx"]
 SAMPLE_MIN_SECONDS = 10.0
-TTS_SPEED = 0.95
+TTS_SPEED = 1.0
 TTS_SAMPLE_RATE = 24000
 
 # Captions
 WHISPER_MODEL = "base.en"
+
+# Maps (3B). Styles: satellite (NASA Blue Marble), atlas (light vector + relief), midnight (dark vector + relief).
+MAP_STYLE = os.environ.get("MAP_STYLE") or "satellite"
+MAP_STYLES = ("satellite", "atlas", "midnight")
+MAP_SAFE = {"left": 130, "right": 130, "top": 110, "bottom": 250}  # px kept clear when framing (bottom: captions)
+MAP_DRIFT = 0.009  # slow push-in per second while the camera holds (keeps maps alive)
+
+# Sound effects (procedural, see sfx.py); level of the whole SFX bed relative to the narration
+SFX_LEVEL_DB = -17.0
 
 # Pexels
 PEXELS_BASE = "https://api.pexels.com/v1/videos"

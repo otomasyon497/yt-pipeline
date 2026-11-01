@@ -15,7 +15,7 @@ def music_credit(track: Path | None) -> str | None:
     return table.get(track.name)
 
 
-def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: bool) -> None:
+def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: bool, extra: list[str] = ()) -> None:
     lines = ["Videos provided by Pexels (https://www.pexels.com)", ""]
     if clips:
         lines.append("Stock footage:")
@@ -31,6 +31,8 @@ def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: boo
         lines += ["Music:", f"- {mc}", ""]
     if used_ai_images:
         lines += ["Some images in this video were generated with AI (FLUX by Black Forest Labs, via Cloudflare Workers AI).", ""]
+    if extra:
+        lines += [*extra, ""]
     lines.append("Narration: synthetic voice (Kokoro TTS).")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

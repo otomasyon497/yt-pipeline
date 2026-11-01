@@ -3,6 +3,8 @@ import {loadFont as loadInter} from '@remotion/google-fonts/Inter';
 
 export const display = loadBebas().fontFamily;
 export const body = loadInter('normal', {weights: ['500', '700'], subsets: ['latin']}).fontFamily;
+// Same family, italic face (map sea labels).
+export const bodyItalic = loadInter('italic', {weights: ['500'], subsets: ['latin']}).fontFamily;
 
 export const colors = {
 	bg: '#0b0f1a',

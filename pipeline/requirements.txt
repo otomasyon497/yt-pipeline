@@ -5,3 +5,5 @@ soundfile
 Pillow>=10
 kokoro>=0.9.4
 faster-whisper>=1.0
+shapely>=2.0
+searoute>=1.4

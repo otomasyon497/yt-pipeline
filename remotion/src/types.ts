@@ -10,10 +10,9 @@ export type ChartSpec = {
 	data: [string, number][];
 };
 
-export type MapSpec = {
-	highlight: string[];
-	points: {label: string; lon: number; lat: number}[];
-};
+// Number inside an on-screen label that counts up ("About $9.6 billion"), decided by pipeline/timeline.py.
+export type CountUp = {prefix: string; value: number; decimals: number; commas: boolean; suffix: string};
+export type ScreenText = {text: string; from: number; countUp: CountUp | null};
 
 export type KenBurns = {z0: number; z1: number; x0: number; x1: number; y0: number; y1: number};
 
@@ -22,11 +21,12 @@ export type ShotData = {
 	visual: Visual;
 	startFrame: number;
 	durationFrames: number; // includes the overlap the next shot dissolves over
-	media: string | null;
-	onScreenText: string | null;
+	transitionIn: number; // frames this shot takes to appear over the previous one
+	media: string | null; // stock clip, AI image, or the map block JSON
+	texts: ScreenText[]; // lower-third labels, frames relative to the shot
+	onScreenText: string | null; // title of title / chapter cards
 	subtitle: string | null;
 	chart: ChartSpec | null;
-	map: MapSpec | null;
 	quote: string | null;
 	author: string | null;
 	kenBurns: KenBurns;
@@ -40,8 +40,8 @@ export type Timeline = {
 	width: number;
 	height: number;
 	totalFrames: number;
-	transitionFrames: number;
 	showCaptions: boolean;
+	mapStyle: string;
 	shots: ShotData[];
 	words: Word[];
 	chapters: ChapterMark[];

@@ -20,15 +20,17 @@ import soundfile as sf
 import captions
 import cf_images
 import credits
+import maps
 import media
 import pexels
 import pronounce
+import sfx
 import thumbnails
 import timeline as tl
 import tts
 import youtube_meta
-from config import (BUILD_DIR, DEFAULT_VOICE, FPS, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA, ROOT, SAMPLE_MIN_SECONDS,
-                    SAMPLE_VOICES, TTS_SAMPLE_RATE)
+from config import (BUILD_DIR, DEFAULT_VOICE, FPS, MAP_STYLE, MAP_STYLES, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA, ROOT,
+                    SAMPLE_MIN_SECONDS, SAMPLE_VOICES, TTS_SAMPLE_RATE)
 from schema import load_script
 
 _timings: dict[str, float] = {}
@@ -117,35 +119,56 @@ def prepare(slug: str) -> None:
 
     lay = tl.layout(script, per_chapter(durs), per_chapter(words))
 
+    style = os.environ.get("MAP_STYLE") or script.map_style or MAP_STYLE  # env wins (style reels)
+    if style not in MAP_STYLES:
+        raise ValueError(f"unknown map style {style!r} (choose from {MAP_STYLES})")
     clips, media_files, used_ids, used_ai = [], {}, set(), False
+    sfx_events, extra_credits, map_warnings = [], {"Map data: Natural Earth (public domain)."}, []
     with step("media"):
-        for s in lay["shots"]:
-            src, seconds = s["src"], s["drawFrames"] / FPS
-            if src is None:
+        for u in lay["units"]:
+            src, seconds = u["subs"][0]["src"], u["drawFrames"] / FPS
+            if u["kind"] == "map":
+                subs = [{"shot": s["src"], "startFrame": s["startFrame"] - u["startFrame"], "frames": s["frames"],
+                         "steps": [round(x * FPS) - u["startFrame"] for x in s["steps"]]} for s in u["subs"]]
+                res = maps.build_block(u["id"], subs, style, script.captions, u["drawFrames"], PUBLIC_MEDIA)
+                media_files[u["id"]] = res["file"]
+                sfx_events += [((u["startFrame"] + f) / FPS, kind, gain) for f, kind, gain in res["events"]]
+                extra_credits |= res["credits"]
+                map_warnings += res["warnings"]
+            elif src is None:
                 continue
-            if src.type == "stock":
+            elif src.type == "stock":
                 clip = pexels.get_clip(src.query, seconds, used_ids)
                 clips.append(clip)
-                media_files[s["id"]] = f"{s['id']}.mp4"
-                media.normalize_clip(clip["path"], PUBLIC_MEDIA / media_files[s["id"]], seconds)
+                media_files[u["id"]] = f"{u['id']}.mp4"
+                media.normalize_clip(clip["path"], PUBLIC_MEDIA / media_files[u["id"]], seconds)
             elif src.type == "ai_image":
                 used_ai = True
-                media_files[s["id"]] = f"{s['id']}.jpg"
-                shutil.copyfile(cf_images.generate(src.prompt), PUBLIC_MEDIA / media_files[s["id"]])
+                media_files[u["id"]] = f"{u['id']}.jpg"
+                shutil.copyfile(cf_images.generate(src.prompt), PUBLIC_MEDIA / media_files[u["id"]])
+        for w in map_warnings:
+            print(f"  map warning: {w}")
+        print(f"  map style: {style}")
 
     with step("timeline+audio"):
-        timeline = tl.to_timeline(lay, script, media_files)
+        timeline = tl.to_timeline(lay, script, media_files, style)
         (work / "timeline.json").write_text(json.dumps(timeline, indent=1), encoding="utf-8")
         total_sec = tl.build_narration_track(wavs, lay, work / "narration.wav")
+        effects = None
+        if os.environ.get("SFX", "1") != "0":
+            effects = work / "sfx.wav"
+            n = sfx.build_track(sfx_events + tl.card_sfx(timeline), total_sec, effects)
+            print(f"  sound effects: {n} placed")
         track = pick_music(script.music, slug)
         print(f"  music: {track.name if track else 'none'}")
-        media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a")
-        credits.write(work / "credits.txt", clips, track, used_ai)
+        media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a", effects)
+        credits.write(work / "credits.txt", clips, track, used_ai,
+                      sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else [])
         for warning in youtube_meta.write(work / "youtube.txt", script, timeline,
                                           (work / "credits.txt").read_text(encoding="utf-8")):
             print(f"  youtube.txt warning: {warning}")
         print(f"  total video length: {total_sec:.1f}s ({timeline['totalFrames']} frames, "
-              f"{len(timeline['shots'])} shots, {len(timeline['chapters'])} chapters)")
+              f"{len(timeline['shots'])} units from {len(lay['shots'])} shots, {len(timeline['chapters'])} chapters)")
 
     if os.environ.get("VOICE_SAMPLES") == "1":  # voice is decided (am_michael); samples are opt-in
         with step("voice-samples"):

@@ -4,13 +4,16 @@
   "music": "none",
   "captions": true,
   "sources": [
-    "Phase 3A engine test (about 3.5 min). Facts checked on 2026-10-31:",
+    "Phase 3B engine test (about 3 min). Facts checked on 2026-10-31; map shots added on 2026-11-01:",
     "Ever Given: about 400 m, grounded 23 March 2021, stuck six days; Lloyd's List estimate USD 9.6 bn of trade held up per day - https://porteconomicsmanagement.org/suez-canal-blockage-2021/ , https://www.aljazeera.com/news/2021/3/26/maritime-traffic-jam-grows-outside-blocked-suez-canal",
     "Opened 1869; about 164 km when built; about 193.3 km today including access channels - https://en.wikipedia.org/wiki/Suez_Canal , https://www.aljazeera.com/news/2021/3/24/egypts-suez-canal-a-history-of-the-key-route",
     "Convention of Constantinople, 29 Oct 1888, Article I (free passage in war and peace) - https://en.wikipedia.org/wiki/Convention_of_Constantinople",
     "Nasser nationalised the Suez Canal Company on 26 July 1956 to fund the Aswan High Dam after the US and Britain withdrew funding - https://novaonline.nvcc.edu/eli/evans/HIS135/Events/Suez56.htm",
     "Closed 1967-1975; 15 ships trapped (14 in the Great Bitter Lake) - https://en.wikipedia.org/wiki/Yellow_Fleet",
-    "About 12% of global trade in normal conditions; traffic fell more than 40% after Red Sea attacks - https://www.mfat.govt.nz/en/trade/mfat-market-reports/the-importance-of-the-suez-canal-to-global-trade-18-april-2021 , https://english.ahram.org.eg/News/574027.aspx"
+    "About 12% of global trade in normal conditions; traffic fell more than 40% after Red Sea attacks - https://www.mfat.govt.nz/en/trade/mfat-market-reports/the-importance-of-the-suez-canal-to-global-trade-18-april-2021 , https://english.ahram.org.eg/News/574027.aspx",
+    "London-Mumbai sea route around Africa vs via Suez: thousands of km shorter via Suez (searoute distances ~19,800 km vs ~11,600 km) - https://en.wikipedia.org/wiki/Suez_Canal",
+    "Suez Crisis: Israel invaded Sinai 29 Oct 1956; British and French landings at Port Said 5-6 Nov 1956 - https://en.wikipedia.org/wiki/Suez_Crisis",
+    "Aswan High Dam location - https://en.wikipedia.org/wiki/Aswan_Dam ; Yellow Fleet anchored in the Great Bitter Lake - https://en.wikipedia.org/wiki/Yellow_Fleet"
   ],
   "thumbnail": {
     "text": "The Desert Shortcut",
@@ -19,7 +22,16 @@
   "youtube": {
     "title": "How a Ditch in the Desert Became the World's Most Important Shortcut",
     "description": "In March 2021 a single ship blocked the Suez Canal for six days and held up billions of dollars of trade every day. This is the story of how a canal dug through the Egyptian desert became one of the most important places on Earth.\n\n(Test episode from the automated pipeline.)",
-    "tags": ["suez canal", "ever given", "geography", "geopolitics", "economic geography", "shipping", "egypt", "history"]
+    "tags": [
+      "suez canal",
+      "ever given",
+      "geography",
+      "geopolitics",
+      "economic geography",
+      "shipping",
+      "egypt",
+      "history"
+    ]
   },
   "chapters": [
     {
@@ -29,28 +41,152 @@
         {
           "text": "In March 2021, one of the largest container ships in the world turned sideways in a narrow channel in Egypt.",
           "shots": [
-            {"type": "stock", "at": 0, "query": "container ship aerial sea", "on_screen_text": "March 2021"},
-            {"type": "map", "at": "narrow channel", "map": {"highlight": ["Egypt"], "points": [{"label": "Suez Canal", "lon": 32.4, "lat": 30.6}]}}
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "container ship aerial sea",
+              "on_screen_text": "March 2021"
+            },
+            {
+              "type": "map",
+              "at": "narrow channel",
+              "map": {
+                "globe": true,
+                "steps": [
+                  {
+                    "focus": [
+                      "Egypt"
+                    ],
+                    "highlight": [
+                      "Egypt"
+                    ]
+                  }
+                ]
+              }
+            }
           ]
         },
         {
           "text": "The Ever Given was about 400 meters long. For six days, it blocked the Suez Canal, and hundreds of ships waited at both ends.",
           "shots": [
-            {"type": "stock", "at": 0, "query": "huge container ship", "on_screen_text": "Ever Given, about 400 m"},
-            {"type": "stock", "at": "hundreds", "query": "cargo ships anchored at sea"}
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "huge container ship",
+              "on_screen_text": "Ever Given, about 400 m"
+            },
+            {
+              "type": "map",
+              "at": "blocked",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.6,
+                      "span": 4.4
+                    },
+                    "routes": [
+                      {
+                        "path": "Suez Canal",
+                        "mode": "line",
+                        "seconds": 1.8
+                      }
+                    ]
+                  },
+                  {
+                    "at": "both ends",
+                    "places": [
+                      {
+                        "name": "Port Said",
+                        "kind": "port"
+                      },
+                      {
+                        "name": "Suez",
+                        "kind": "port"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
           ]
         },
         {
           "text": "Suddenly, the whole world was watching a narrow strip of water.",
-          "shots": [{"type": "stock", "at": 0, "query": "ship canal desert"}]
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "world": true,
+                    "places": [
+                      {
+                        "name": "Suez Canal",
+                        "kind": "event",
+                        "label": ""
+                      }
+                    ]
+                  },
+                  {
+                    "at": "narrow strip",
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.6,
+                      "span": 4.4
+                    },
+                    "routes": [
+                      {
+                        "path": "Suez Canal",
+                        "mode": "line",
+                        "seconds": 1.5
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "text": "By one estimate, around 9.6 billion dollars of goods were held up every single day.",
-          "shots": [{"type": "stock", "at": 0, "query": "shipping containers port aerial", "on_screen_text": "About $9.6 billion per day"}]
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "shipping containers port aerial",
+              "on_screen_text": "About $9.6 billion per day"
+            }
+          ]
         },
         {
           "text": "So how did a ditch in the desert become one of the most important places on Earth?",
-          "shots": [{"type": "map", "at": 0, "map": {"highlight": ["Egypt"], "points": [{"label": "Port Said", "lon": 32.3, "lat": 31.26}, {"label": "Suez", "lon": 32.55, "lat": 29.97}]}}]
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "globe": true,
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.4,
+                      "lat": 30.2,
+                      "span": 9
+                    },
+                    "places": [
+                      {
+                        "name": "Suez Canal",
+                        "kind": "event"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -60,26 +196,170 @@
       "paragraphs": [
         {
           "text": "For most of history, ships sailing between Europe and Asia had to go all the way around Africa.",
-          "shots": [{"type": "map", "at": 0, "map": {"highlight": ["South Africa", "Egypt"], "points": [{"label": "Cape of Good Hope", "lon": 18.47, "lat": -34.36}]}}]
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 38,
+                      "lat": 14,
+                      "span": 140
+                    },
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 3.5
+                      }
+                    ]
+                  },
+                  {
+                    "at": "around Africa",
+                    "places": [
+                      {
+                        "name": "Cape of Good Hope"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "text": "Then, in 1869, a French-led company opened a canal straight through Egypt, linking Port Said on the Mediterranean to the city of Suez on the Red Sea.",
           "shots": [
-            {"type": "ai_image", "at": 0, "prompt": "19th century oil painting of steamships entering a newly opened canal in the desert, flags and crowds on the banks", "on_screen_text": "1869"},
-            {"type": "map", "at": "linking", "map": {"highlight": ["Egypt"], "points": [{"label": "Port Said", "lon": 32.3, "lat": 31.26}, {"label": "Suez", "lon": 32.55, "lat": 29.97}]}}
+            {
+              "type": "ai_image",
+              "at": 0,
+              "prompt": "19th century oil painting of steamships entering a newly opened canal in the desert, flags and crowds on the banks",
+              "on_screen_text": "1869"
+            },
+            {
+              "type": "map",
+              "at": "linking",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.45,
+                      "lat": 30.6,
+                      "span": 4.4
+                    },
+                    "routes": [
+                      {
+                        "path": "Suez Canal",
+                        "mode": "line",
+                        "seconds": 2.0
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Port Said",
+                        "kind": "port"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Suez",
+                    "places": [
+                      {
+                        "name": "Suez",
+                        "kind": "port"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
           ]
         },
         {
           "text": "The project was driven by the French diplomat Ferdinand de Lesseps, and it took about ten years of digging.",
-          "shots": [{"type": "ai_image", "at": 0, "prompt": "19th century oil painting of thousands of workers digging a canal through the desert, steam dredgers, dust, wide view"}]
+          "shots": [
+            {
+              "type": "ai_image",
+              "at": 0,
+              "prompt": "19th century oil painting of thousands of workers digging a canal through the desert, steam dredgers, dust, wide view"
+            }
+          ]
         },
         {
           "text": "Overnight, the sea route between Europe and Asia became thousands of kilometers shorter.",
-          "shots": [{"type": "stock", "at": 0, "query": "cargo ship ocean aerial"}]
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 38,
+                      "lat": 14,
+                      "span": 140
+                    },
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 1.4
+                      }
+                    ]
+                  },
+                  {
+                    "at": "thousands",
+                    "routes": [
+                      {
+                        "from": "London",
+                        "to": "Mumbai",
+                        "label": "Via Suez",
+                        "seconds": 2.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "text": "When it opened, the canal was about 164 kilometers long. After later expansions, it now measures around 193 kilometers.",
-          "shots": [{"type": "chart", "at": 0, "chart": {"type": "bar", "title": "Suez Canal length", "unit": " km", "data": [["1869", 164], ["Today", 193]]}}]
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Suez Canal length",
+                "unit": " km",
+                "data": [
+                  [
+                    "1869",
+                    164
+                  ],
+                  [
+                    "Today",
+                    193
+                  ]
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -89,22 +369,123 @@
       "paragraphs": [
         {
           "text": "In 1888, the major powers signed an agreement that promised free passage to every ship, in war and in peace.",
-          "shots": [{"type": "quote", "at": 0, "quote": "The Suez Maritime Canal shall always be free and open, in time of war as in time of peace, to every vessel of commerce or of war, without distinction of flag.", "author": "Convention of Constantinople, 1888"}]
+          "shots": [
+            {
+              "type": "quote",
+              "at": 0,
+              "quote": "The Suez Maritime Canal shall always be free and open, in time of war as in time of peace, to every vessel of commerce or of war, without distinction of flag.",
+              "author": "Convention of Constantinople, 1888"
+            }
+          ]
         },
         {
           "text": "But in 1956, Egypt's president, Gamal Abdel Nasser, nationalized the canal company, partly to pay for a huge new dam on the Nile.",
           "shots": [
-            {"type": "title_card", "at": 0, "on_screen_text": "1956", "subtitle": "The canal company is nationalized"},
-            {"type": "stock", "at": "dam", "query": "large dam river aerial"}
+            {
+              "type": "title_card",
+              "at": 0,
+              "on_screen_text": "1956",
+              "subtitle": "The canal company is nationalized"
+            },
+            {
+              "type": "map",
+              "at": "dam",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      "Egypt"
+                    ],
+                    "places": [
+                      {
+                        "name": "Aswan High Dam"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
           ]
         },
         {
           "text": "Britain, France and Israel invaded. Pressure from the United States and the Soviet Union soon forced them to withdraw.",
-          "shots": [{"type": "map", "at": 0, "map": {"highlight": ["United Kingdom", "France", "Israel", "Egypt"]}}]
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.8,
+                      "lat": 31.6,
+                      "span": 10
+                    },
+                    "highlight": [
+                      "Egypt"
+                    ],
+                    "arrows": [
+                      {
+                        "from": [
+                          33.0,
+                          34.6
+                        ],
+                        "to": [
+                          32.35,
+                          31.35
+                        ],
+                        "label": "Britain & France"
+                      },
+                      {
+                        "from": [
+                          34.5,
+                          31.3
+                        ],
+                        "to": [
+                          33.0,
+                          30.4
+                        ],
+                        "label": "Israel",
+                        "bend": -0.25
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "text": "Then, after the Six-Day War in 1967, the canal closed for eight years. More than a dozen ships were trapped inside the whole time.",
-          "shots": [{"type": "ai_image", "at": 0, "prompt": "oil painting of a group of old cargo ships anchored together in a wide desert lake, dusty and abandoned, 1970s", "on_screen_text": "1967 to 1975"}]
+          "shots": [
+            {
+              "type": "ai_image",
+              "at": 0,
+              "prompt": "oil painting of a group of old cargo ships anchored together in a wide desert lake, dusty and abandoned, 1970s",
+              "on_screen_text": "1967 to 1975"
+            },
+            {
+              "type": "map",
+              "at": "trapped",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 32.42,
+                      "lat": 30.32,
+                      "span": 3.6
+                    },
+                    "places": [
+                      {
+                        "name": "Great Bitter Lake",
+                        "kind": "sea"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -115,25 +496,98 @@
         {
           "text": "In normal times, roughly 12 percent of global trade passes through the Suez Canal, from oil and gas to cars, clothes and electronics.",
           "shots": [
-            {"type": "stock", "at": 0, "query": "container port cranes aerial"},
-            {"type": "stock", "at": "cars", "query": "car carrier ship"}
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "container port cranes aerial",
+              "on_screen_text": "About 12% of global trade"
+            },
+            {
+              "type": "stock",
+              "at": "cars",
+              "query": "car carrier ship"
+            }
           ]
         },
         {
           "text": "When it closes, ships are forced onto the long route around Africa, which can add more than a week to a journey.",
-          "shots": [{"type": "map", "at": 0, "map": {"highlight": ["Egypt", "South Africa"], "points": [{"label": "Cape of Good Hope", "lon": 18.47, "lat": -34.36}, {"label": "Port Said", "lon": 32.3, "lat": 31.26}]}}]
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 45,
+                      "lat": 10,
+                      "span": 140
+                    },
+                    "routes": [
+                      {
+                        "from": "Rotterdam",
+                        "to": "Singapore",
+                        "label": "Via Suez",
+                        "seconds": 1.5
+                      }
+                    ]
+                  },
+                  {
+                    "at": "long route",
+                    "routes": [
+                      {
+                        "from": "Rotterdam",
+                        "to": "Singapore",
+                        "avoid": [
+                          "suez",
+                          "panama"
+                        ],
+                        "color": "red",
+                        "label": "Around Africa",
+                        "seconds": 3.0
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Cape of Good Hope"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "text": "For Egypt, the tolls are one of the country's most important sources of foreign currency.",
-          "shots": [{"type": "stock", "at": 0, "query": "cairo city skyline"}]
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "cairo city skyline"
+            }
+          ]
         },
         {
           "text": "A canal dug more than 150 years ago still decides how quickly the world gets its goods.",
-          "shots": [{"type": "stock", "at": 0, "query": "cargo ship sunset sea"}]
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "cargo ship sunset sea"
+            }
+          ]
         },
         {
           "text": "This is the story of the Suez Canal.",
-          "shots": [{"type": "title_card", "at": 0, "on_screen_text": "THE SUEZ CANAL", "subtitle": "How a shortcut shaped the world"}]
+          "shots": [
+            {
+              "type": "title_card",
+              "at": 0,
+              "on_screen_text": "THE SUEZ CANAL",
+              "subtitle": "How a shortcut shaped the world"
+            }
+          ]
         }
       ]
     }

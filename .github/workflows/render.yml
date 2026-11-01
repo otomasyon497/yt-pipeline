@@ -7,6 +7,18 @@ on:
         description: "Episode folder name under episodes/"
         required: true
         default: nokia-intro
+      map_style:
+        description: "Map style override: satellite | atlas | midnight (empty = script / default)"
+        required: false
+        default: ""
+      stills:
+        description: "Only render these frames as JPEG stills (e.g. 0,240,12.5s); empty = full video"
+        required: false
+        default: ""
+      thumbnails:
+        description: "Make the 3 thumbnail variants"
+        type: boolean
+        default: true
 
 jobs:
   render:
@@ -14,6 +26,9 @@ jobs:
     timeout-minutes: 150
     env:
       SLUG: ${{ inputs.slug }}
+      MAP_STYLE: ${{ inputs.map_style }}
+      STILLS: ${{ inputs.stills }}
+      OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}
       YTP_CACHE_DIR: ${{ github.workspace }}/.cache
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
@@ -71,7 +86,15 @@ jobs:
       - name: Prepare (TTS, captions, media, audio, timeline)
         run: python pipeline/run.py prepare "$SLUG"
 
+      - name: Render stills (Remotion)
+        if: inputs.stills != ''
+        working-directory: remotion
+        run: |
+          node stills.mjs "../build/$SLUG/timeline.json" "../out/$SLUG/stills" "$STILLS"
+          cp "../build/$SLUG/timeline.json" "../out/$SLUG/stills/"
+
       - name: Render video (Remotion)
+        if: inputs.stills == ''
         working-directory: remotion
         run: |
           npx remotion render src/index.ts Episode "../build/$SLUG/video.mp4" \
@@ -80,15 +103,17 @@ jobs:
             --concurrency=2 --image-format=jpeg --jpeg-quality=88 --muted --log=info
 
       - name: Thumbnails (3 variants)
+        if: inputs.stills == '' && inputs.thumbnails
         run: python pipeline/run.py thumbnails "$SLUG"
 
       - name: Finalize (mux audio, collect outputs)
+        if: inputs.stills == ''
         run: python pipeline/run.py finalize "$SLUG"
 
       - name: Upload artifact (2-day retention)
         uses: actions/upload-artifact@v7
         with:
-          name: ${{ env.SLUG }}
+          name: ${{ env.OUT_NAME }}
           path: out/${{ env.SLUG }}
           retention-days: 2
           if-no-files-found: error

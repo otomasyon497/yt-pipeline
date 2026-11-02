@@ -1,5 +1,6 @@
 """credits.txt - ready to paste into the YouTube description."""
 import json
+import re
 from pathlib import Path
 
 from config import MUSIC_DIR
@@ -13,6 +14,34 @@ def music_credit(track: Path | None) -> str | None:
     except Exception:
         return None
     return table.get(track.name)
+
+
+def compact(text: str) -> str:
+    """Shorter credits for the YouTube description (5,000-character limit); credits.txt keeps every link.
+
+    Stock clips (Pexels / Pixabay licences need no attribution) become one line of names; archive images keep
+    title, author and licence, and the link only where the licence asks for it (CC BY)."""
+    out, names = [], []
+    for line in text.splitlines():
+        stock = re.match(r"- (.+?) \(https?://[^)]*\) - https?://\S+$", line)
+        if stock:
+            names.append(stock.group(1))
+            continue
+        if names:
+            out.append("Footage by: " + ", ".join(dict.fromkeys(names)) + ".")
+            names = []
+        if line == "Stock footage:":
+            continue
+        photo = re.match(r"- (.+) - (.+?) - (.+?) - (https?://\S+)$", line)
+        if photo:
+            title, artist, licence, url = photo.groups()
+            title = title if len(title) <= 70 else title[:67].rstrip() + "..."
+            artist = artist if len(artist) <= 50 else artist[:47].rstrip() + "..."
+            line = f"- {title} - {artist} - {licence}" + (f" - {url}" if licence.upper().startswith("CC BY") else "")
+        out.append(line)
+    if names:
+        out.append("Footage by: " + ", ".join(dict.fromkeys(names)) + ".")
+    return "\n".join(out)
 
 
 def write(path: Path, clips: list[dict], track: Path | None, used_ai_images: bool, extra: list[str] = ()) -> None:

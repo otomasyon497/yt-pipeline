@@ -175,7 +175,6 @@
       {
        "type": "map",
        "at": 0,
-       "on_screen_text": "Half its water evaporates in the Sudd",
        "map": {
         "keep": true,
         "steps": [
@@ -259,9 +258,14 @@
        "where_label": "Blue Nile Falls, Ethiopia"
       },
       {
-       "type": "stock",
+       "type": "photo",
        "at": "The same Ethiopian rivers",
-       "query": "muddy brown river flowing"
+       "photo": "Blue Nile.jpg",
+       "where": [
+        37.39,
+        11.6
+       ],
+       "where_label": "Blue Nile, Ethiopia"
       }
      ]
     },
@@ -443,8 +447,7 @@
            "span": 28
           },
           "highlight": [
-           "Ethiopia",
-           "Egypt"
+           "Ethiopia"
           ],
           "routes": [
            {
@@ -647,7 +650,7 @@
       {
        "type": "stock",
        "at": "By 2024",
-       "query": "Cairo crowded street aerial",
+       "query": "Cairo aerial city view",
        "on_screen_text": "2024: over 116 million"
       }
      ]
@@ -862,10 +865,12 @@
      "text": "In May that year, President Hosni Mubarak warned that the turbines at the High Dam could stop completely by July if the water kept falling. Then that summer, the rains came back to the highlands, and with them the flood. Egypt had been rescued by the weather.",
      "shots": [
       {
-       "type": "stock",
+       "type": "photo",
        "at": 0,
-       "query": "hydroelectric power plant turbine hall",
-       "on_screen_text": "May 1988: a warning from the president"
+       "photo": "ISS-64 Aswan Dam and Lake Nasser, Egypt.jpg",
+       "on_screen_text": "May 1988: a warning from the president",
+       "where": "Aswan",
+       "where_label": "Aswan High Dam"
       },
       {
        "type": "stock",
@@ -1162,7 +1167,7 @@
           "view": {
            "lon": 35.4,
            "lat": 10.8,
-           "span": 3
+           "span": 1.4
           }
          }
         ]
@@ -1742,7 +1747,7 @@
       {
        "type": "map",
        "at": 0,
-       "on_screen_text": "Shortage risk for Egypt: below 7% a year",
+       "on_screen_text": "Shortage risk for Egypt: low, even in the worst case",
        "map": {
         "steps": [
          {
@@ -2042,7 +2047,7 @@
           "view": {
            "lon": 35.3,
            "lat": 10.8,
-           "span": 2.4
+           "span": 1.5
           }
          },
          {

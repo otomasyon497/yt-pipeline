@@ -1,6 +1,8 @@
 """youtube.txt: title, ready-to-paste description (intro + chapters + credits) and tags for a manual upload."""
 from pathlib import Path
 
+import credits
+
 
 def _stamp(sec: int, hours: bool) -> str:
     h, m, s = sec // 3600, sec % 3600 // 60, sec % 60
@@ -32,8 +34,9 @@ def write(path: Path, script, timeline: dict, credits_text: str) -> list[str]:
         parts.append(meta.description.strip())
     if chapters:
         parts.append("Chapters:\n" + "\n".join(chapters))
-    parts.append(credits_text.strip())
-    description = "\n\n".join(parts) + "\n"
+    full = "\n\n".join(parts + [credits_text.strip()]) + "\n"
+    # Over YouTube's limit: compact credits (names, licences; links only where CC BY asks for them).
+    description = full if len(full) <= 5000 else "\n\n".join(parts + [credits.compact(credits_text).strip()]) + "\n"
     for label, text in (("title", title), ("description", description)):
         if "<" in text or ">" in text:
             warnings.append(f"YouTube rejects '<' and '>' in the {label}")

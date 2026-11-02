@@ -33,7 +33,7 @@ WORLD_BANK = "https://api.worldbank.org/v2/country/all/indicator/{code}?date={ye
 WORLD_BANK_CREDIT = "Data: World Bank, World Development Indicators (CC BY 4.0)."
 _WORLD_IMAGES: dict[str, dict] = {}
 MIN_VISIBLE = 1.6  # seconds an overlay stays up even if the next shot starts sooner
-S2_MAX_SPAN = 6.0  # views narrower than this (degrees) get Sentinel-2 10 m imagery on top of Blue Marble
+S2_MAX_SPAN = 2.0  # views narrower than this (degrees) get Sentinel-2 10 m imagery; wider mosaics mixed dates into a patchwork
 S2_SEA_SPAN = 1.5  # wider than this: Sentinel-2 on land only (sea from Blue Marble, no patchwork of days)  # out_dir -> world image placements already written in this run
 
 
@@ -311,7 +311,8 @@ def _span_for(items) -> float:
     return min((DEFAULT_SPAN.get(k, 5.0) for k in kinds), default=5.0)
 
 
-def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f: int | None = None) -> None:
+def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f: int | None = None,
+          first: bool = False) -> None:
     if step.clear:
         plan.clear(f, sub)
 
@@ -397,13 +398,17 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
 
     if step.compare:  # before/after wipe over the view the camera now holds
         c, cam = step.compare, plan.view
-        # hold: given seconds, else until the shot's next step (the narration cue), else 1.8 s
-        hold = round(c.hold * FPS) if c.hold is not None else max(0, next_f - appear) if next_f is not None else round(1.8 * FPS)
+        # On the block's first step the 'before' image is there from frame 0, so the present-day imagery
+        # underneath never shows before the wipe. hold: given seconds, else until the shot's next step
+        # (the narration cue), else 1.8 s; frames counted from the element's start.
+        start = 0 if first else max(0, appear - 8)
+        hold = (round(c.hold * FPS) + appear - start if c.hold is not None
+                else max(0, next_f - start) if next_f is not None else round(1.8 * FPS) + appear - start)
         plan.elements.append(Element("compare", {
             "cam": {"x": cam["x"], "y": cam["y"], "w": cam["w"]}, "before": c.before, "after": c.after,
             "labelBefore": c.label_before, "labelAfter": c.label_after,
-            "hold": hold, "wipe": round(c.seconds * FPS)}, appear, sub=sub))
-        plan.events.append((appear + hold, "swoosh", SFX_GAIN["swoosh"]))
+            "hold": hold, "wipe": round(c.seconds * FPS)}, start, sub=sub))
+        plan.events.append((start + hold, "swoosh", SFX_GAIN["swoosh"]))
 
     # Overlays, staggered so they land one after another.
     k = 0
@@ -588,7 +593,7 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
         sub_end = sub["startFrame"] + sub["frames"]
         for j, (step, f) in enumerate(zip(spec.steps, sub["steps"])):
             nxt = sub["steps"][j + 1] if j + 1 < len(sub["steps"]) else None
-            _step(plan, step, f, si, sub_end, globe=(si == 0 and j == 0 and spec.globe), next_f=nxt)
+            _step(plan, step, f, si, sub_end, globe=(si == 0 and j == 0 and spec.globe), next_f=nxt, first=(si == 0 and j == 0))
     if not plan.cams:
         plan.move_to(dict(WORLD), 0, instant=True)
 

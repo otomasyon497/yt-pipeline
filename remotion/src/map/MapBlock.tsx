@@ -39,7 +39,7 @@ const DateTag: React.FC<{text: string; side: 'left' | 'right'; opacity: number}>
 		<div
 			style={{
 				position: 'absolute',
-				top: 58,
+				top: 196, // below the lower-third labels
 				[side]: 64,
 				padding: '10px 22px',
 				borderRadius: 6,
@@ -268,7 +268,10 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 			{(['day', 's2', 'relief', 'night'] as const).map((layer) => {
 				// One opacity per layer (not per image): overlapping images must not add up while fading.
 				// s2 = Sentinel-2 10 m imagery over the Blue Marble 'day' layer on close views.
-				const layerOpacity = layer === 'night' ? night : layer === 'day' || layer === 's2' ? 1 : style.reliefOpacity;
+				// Sentinel-2 belongs to close views: fade it out as the camera pulls back (span 2.6-4.5 degrees), or its
+				// patches show as pale rectangles over Blue Marble.
+				const s2Fade = clamp01((4.5 - span) / (4.5 - 2.6));
+				const layerOpacity = layer === 'night' ? night : layer === 's2' ? s2Fade : layer === 'day' ? 1 : style.reliefOpacity;
 				const imgs = rasters.filter((r) => r.layer === layer);
 				if (!imgs.length) return null;
 				return (

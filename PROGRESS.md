@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-02: pilot episode gerd-nile delivered to the PC for review (gate 2); next: user's notes, one fix re-render, then upload)
+## Status (2026-11-02: gerd-nile v2 delivered after the user's review round 1 (framing + context labels); next: user's OK, then upload)
 
 ## Pilot episode: gerd-nile (2026-11-02, user: "make it original and watchable; you decide the process")
 - Process (decided with the user): research dossier with sources and own calculations -> visual inventory (Sentinel-2
@@ -21,6 +21,14 @@
   scene per tile over two years). Fix ready to apply with the user's notes: allow date windows in MapStep.date and give
   those views the compare's "after" window.
 - Actions minutes for the pilot: about 80 (storyboard + render); a fix re-render with warm caches is about 40.
+- Review round 1 (user, screenshot görsel1): arrows, routes and highlighted areas were cut at the frame edges, and maps
+  should name the surrounding countries and cities. Engine fixes (all episodes): explicit views zoom out until every
+  overlay of the step fits (arrow bulge included); auto-framing keeps the overlays that are on screen; fit margin 1.16 and
+  bottom safe 200 px; context labels (ISO-coded countries, the biggest on screen; cities by Natural Earth scale rank and
+  zoom; lowest label priority, never next to a story marker); map steps take Sentinel-2 date windows (the 1.4-1.5 deg
+  lake views now use the compare's 'after' scenes: no tile blocks). Storyboard 41382000745, render 41383490424
+  (release ep-gerd-nile-41383490424, 15:54, 418 MB), downloaded over the first version. The first release
+  (ep-gerd-nile-41370991970) is superseded and can be deleted.
 
 ## Phase 1 (approved)
 - [x] Repo, pipeline, Remotion project, workflow; secrets set by user

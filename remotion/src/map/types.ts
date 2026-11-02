@@ -39,7 +39,9 @@ export type ChoroplethEl = Base & {
 export type TrueSizeEl = Base & {kind: 'truesize'; from: [number, number]; to: [number, number]; label: string; move: number; rings: number[][]};
 // Sentinel-2 before/after: `after` wipes in over `before` (frames relative to `in`).
 export type CompareEl = Base & {kind: 'compare'; before: Raster; after: Raster; labelBefore: string; labelAfter: string; hold: number; wipe: number};
-export type MapElement = HighlightEl | PlaceEl | RouteEl | ArrowEl | ChoroplethEl | TrueSizeEl | CompareEl;
+// Quiet orientation labels (neighbouring countries, big cities) placed after every story label.
+export type ContextEl = Base & {kind: 'context'; text: string; x: number; y: number; level: 'country' | 'city'};
+export type MapElement = HighlightEl | PlaceEl | RouteEl | ArrowEl | ChoroplethEl | TrueSizeEl | CompareEl | ContextEl;
 
 export type Raster = {src: string; x0: number; y0: number; x1: number; y1: number; layer: 'day' | 's2' | 'night' | 'relief'; px: number};
 

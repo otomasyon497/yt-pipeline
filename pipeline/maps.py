@@ -68,7 +68,7 @@ def fit(bounds, captions: bool, min_span: float = 2.0) -> dict:
     bottom = MAP_SAFE["bottom"] if captions else MAP_SAFE["top"]
     sw = WIDTH - MAP_SAFE["left"] - MAP_SAFE["right"]
     sh = HEIGHT - MAP_SAFE["top"] - bottom
-    w = max((x1 - x0) * WIDTH / sw, (y1 - y0) * WIDTH / sh) * 1.12
+    w = max((x1 - x0) * WIDTH / sw, (y1 - y0) * WIDTH / sh) * 1.16  # margin: the slow push-in eats ~10 % on long holds
     w = min(max(w, min_span / 360.0), 1.0)
     sx, sy = MAP_SAFE["left"] + sw / 2, MAP_SAFE["top"] + sh / 2
     return {"x": (x0 + x1) / 2 - (sx - WIDTH / 2) * w / WIDTH, "y": (y0 + y1) / 2 - (sy - HEIGHT / 2) * w / WIDTH, "w": w}
@@ -232,6 +232,7 @@ class Element:
     end: int = 10 ** 9
     geom: object = None  # lon/lat geometry, built into the JSON at the end (needs the final camera plan)
     sub: int = 0
+    bounds: tuple | None = None  # unit-Mercator box the camera keeps in frame while the element is on screen
 
 
 @dataclass
@@ -345,7 +346,7 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     for a in step.arrows:
         p0, p1 = resolve_point(a.from_), resolve_point(a.to)
         arrows.append((a, unit_pt(*p0[:2]), unit_pt(*p1[:2])))
-        frame_items.append(("line", [unit_pt(*p0[:2]), unit_pt(*p1[:2])]))
+        frame_items.append(("line", _arrow_hull(unit_pt(*p0[:2]), unit_pt(*p1[:2]), a.bend)))
     true_size = None
     if step.true_size:
         code = geo.country_code(step.true_size.country)
@@ -362,6 +363,10 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     target = None
     if step.view:
         target = {"x": float(geo.mx(step.view.lon)), "y": float(geo.my(step.view.lat)), "w": step.view.span / 360.0}
+        if frame_items and not _inside_safe(_bounds_of(frame_items), target, plan.captions, slack=0.0):
+            # Content wins over a hand-picked view: every arrow, route, area and marker of this step must show from
+            # start to end, so zoom out around them and keep the middle of the requested view.
+            target = fit(union_box([_bounds_of(frame_items), view_box(target, 0.4)]), plan.captions, _span_for(frame_items))
     elif step.world:
         target = dict(WORLD)
     elif step.focus:
@@ -381,7 +386,9 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     elif plan.view is None:
         target = fit(_bounds_of(frame_items), plan.captions, _span_for(frame_items)) if frame_items else dict(WORLD)
     elif frame_items and not _inside_safe(_bounds_of(frame_items), plan.view, plan.captions):
-        target = fit(_bounds_of(frame_items), plan.captions, _span_for(frame_items))  # camera follows the content
+        # The camera follows the new content and keeps what is still on screen from earlier steps in frame.
+        still = [e.bounds for e in plan.elements if e.end > f and e.bounds]
+        target = fit(union_box([_bounds_of(frame_items), *still]), plan.captions, _span_for(frame_items))
 
     if target is not None and step.date:
         target["date"] = step.date  # imagery of that day around this view (events)
@@ -414,24 +421,27 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     k = 0
     for code_kind, code, geom, label, pt in highlights:
         x, y = unit_pt(*pt)
+        body = geo.main_body(geom) if code_kind == "country" else geom
         plan.elements.append(Element("highlight", {"id": code, "name": label, "lx": x, "ly": y, "dim": step.dim},
-                                     appear + 3 * k, geom=geom, sub=sub))
+                                     appear + 3 * k, geom=geom, sub=sub, bounds=_bounds_of([("geom", body)])))
         k += 1
     if highlights:
         plan.events.append((appear, "thump", SFX_GAIN["thump"]))
     for i, p in enumerate(places):
         start = appear + 4 + 6 * i
-        plan.elements.append(Element("place", p, start, sub=sub))
+        plan.elements.append(Element("place", p, start, sub=sub, bounds=(p["x"], p["y"], p["x"], p["y"])))
         if p["marker"] not in ("sea", "label"):
             plan.events.append((start, "pop", SFX_GAIN["pop"]))
     for r, pts in routes:
         draw = round(r.seconds * FPS)
         plan.elements.append(Element("route", {"pts": [round(v * Q) for xy in pts for v in xy], "mode": r.mode,
-                                               "tint": r.color, "label": r.label, "draw": draw}, appear, sub=sub))
+                                               "tint": r.color, "label": r.label, "draw": draw}, appear, sub=sub,
+                                     bounds=_bounds_of([("line", pts)])))
         plan.events.append((appear, "swoosh", SFX_GAIN["swoosh"]))
     for a, p0, p1 in arrows:
         plan.elements.append(Element("arrow", {"from": p0, "to": p1, "tint": a.color, "label": a.label, "bend": a.bend,
-                                               "draw": round(0.9 * FPS)}, appear, sub=sub))
+                                               "draw": round(0.9 * FPS)}, appear, sub=sub,
+                                     bounds=_bounds_of([("line", _arrow_hull(p0, p1, a.bend))])))
         plan.events.append((appear, "swoosh", SFX_GAIN["swoosh"] - 2))
     if step.choropleth:
         plan.elements.append(Element("choropleth", {"spec": step.choropleth}, appear, sub=sub))
@@ -446,6 +456,70 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
         plan.events.append((appear + 6, "swoosh", SFX_GAIN["swoosh"]))
     if step.layer:
         plan.layers.append({"f": appear, "layer": step.layer})
+
+
+def _arrow_hull(p0, p1, bend: float) -> list[tuple[float, float]]:
+    """Ends plus the bulge of a bent arrow (control point of its curve), for framing."""
+    (x0, y0), (x1, y1) = p0, p1
+    dx, dy = x1 - x0, y1 - y0
+    cx, cy = (x0 + x1) / 2 - dy * bend, (y0 + y1) / 2 + dx * bend
+    return [(x0, y0), ((x0 + cx) / 2, (y0 + cy) / 2), ((cx + x1) / 2, (cy + y1) / 2), (x1, y1)]
+
+
+def _context_labels(plan: Plan, frames: int) -> list[dict]:
+    """Quiet names of the countries and big cities around each camera stop, so viewers know where they are.
+
+    Countries: label point inside the view and wide enough on screen for the name; not when the story already labels
+    them (highlights). Cities: Natural Earth scale rank by zoom, at most 8 per view, never next to a story marker.
+    Placed with the lowest priority: story labels always win the space."""
+    out = []
+    countries = [(p, g) for p, g in geo.ne_geoms("ne_50m_admin_0_countries")]
+    cities = [(p, g) for p, g in geo.ne_geoms("ne_10m_populated_places")]
+    cams = plan.cams
+    for i, c in enumerate(cams):
+        start = c["start"] + round(c["frames"] * 0.7)
+        end = cams[i + 1]["start"] + 6 if i + 1 < len(cams) else frames + 1
+        if end - start < round(1.2 * FPS):
+            continue  # gone before anyone could read it
+        span = c["w"] * 360
+        k = WIDTH / c["w"]  # px per unit
+        x0, y0, x1, y1 = view_box(c, 0.84)
+        story = [e for e in plan.elements if e.start < end and e.end > start]
+        named = {e.data.get("id") for e in story if e.kind == "highlight"}
+        marks = [(e.data["x"], e.data["y"]) for e in story if e.kind == "place"]
+        shown = []
+        for p, g in countries:
+            code = p.get("ADM0_A3")
+            if code in named or span > 140 or str(p.get("ISO_N3", "-99")) in ("-99", "-099"):
+                continue  # story labels win; only places with an ISO code (not e.g. Somaliland, N. Cyprus)
+            lx, ly = float(geo.mx(p.get("LABEL_X", g.centroid.x))), float(geo.my(p.get("LABEL_Y", g.centroid.y)))
+            if not (x0 < lx < x1 and y0 < ly < y1):
+                continue
+            name = p.get("NAME_EN") or p.get("NAME") or ""
+            name = name if len(name) <= 16 else (p.get("NAME") or name)
+            bx = geo.to_unit(geo.main_body(g)).bounds
+            if (bx[2] - bx[0]) * k < len(name) * 15 + 40:
+                continue  # too small on screen for its name
+            shown.append(((bx[2] - bx[0]) * (bx[3] - bx[1]), name, lx, ly))
+        for _, name, lx, ly in sorted(shown, reverse=True)[:10 if span > 40 else 8]:  # the biggest on screen
+            out.append({"kind": "context", "in": start, "out": end, "text": name, "x": round(lx, 7), "y": round(ly, 7),
+                        "level": "country"})
+        rank = 1 if span > 25 else 3 if span > 10 else 5 if span > 4 else 6 if span > 1.5 else 8
+        if span > 60:
+            continue
+        picked = []
+        for p, g in sorted(cities, key=lambda pg: (pg[0].get("SCALERANK", 10), -(pg[0].get("POP_MAX") or 0))):
+            if p.get("SCALERANK", 10) > rank or len(picked) >= 8:
+                break
+            ux, uy = float(geo.mx(g.x)), float(geo.my(g.y))
+            if not (x0 < ux < x1 and y0 < uy < y1):
+                continue
+            if any(math.hypot((ux - mx_) * k, (uy - my_) * k) < 60 for mx_, my_ in marks + picked):
+                continue  # a story marker (or another city) is already there
+            picked.append((ux, uy))
+            out.append({"kind": "context", "in": start, "out": end, "text": p.get("NAME_EN") or p.get("NAME") or "", "x": round(ux, 7),
+                        "y": round(uy, 7), "level": "city"})
+    return out
 
 
 def _place_or_none(name: str):
@@ -638,6 +712,8 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             if not _compare_images(item, block_id, len(out_elements), out_dir, plan):
                 continue
         out_elements.append(item)
+
+    out_elements += _context_labels(plan, frames)
 
     # Imagery: a world image under everything, plus a sharper one around each distinct camera view.
     raster_layer = "day" if style == "satellite" else "relief"

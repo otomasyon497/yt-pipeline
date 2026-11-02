@@ -148,7 +148,7 @@ class MapStep(BaseModel):
     choropleth: Optional[Choropleth] = None
     true_size: Optional[TrueSize] = None
     layer: Optional[Literal["day", "night"]] = None  # night = VIIRS city lights
-    date: Optional[str] = None  # "YYYY-MM-DD": Sentinel-2 imagery of that day for this view (real events)
+    date: Optional[str] = None  # "YYYY-MM-DD": imagery of that day (events); "YYYY-MM-DD/YYYY-MM-DD": clearest in window
     compare: Optional[Compare] = None  # Sentinel-2 before/after wipe over this view
     clear: bool = False  # remove everything shown earlier in this shot first
 
@@ -161,7 +161,8 @@ class MapStep(BaseModel):
         if self.date:
             if not (self.focus or self.view):
                 raise ValueError("map step 'date' needs a focus or view (the imagery is fetched for that view)")
-            date.fromisoformat(self.date)
+            for part in self.date.split("/"):
+                date.fromisoformat(part)
         return self
 
 

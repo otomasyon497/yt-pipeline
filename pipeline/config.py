@@ -48,7 +48,7 @@ WHISPER_MODEL = "base.en"
 # Maps (3B). Styles: satellite (NASA Blue Marble), atlas (light vector + relief), midnight (dark vector + relief).
 MAP_STYLE = os.environ.get("MAP_STYLE") or "satellite"
 MAP_STYLES = ("satellite", "atlas", "midnight")
-MAP_SAFE = {"left": 130, "right": 130, "top": 110, "bottom": 250}  # px kept clear when framing (bottom: captions)
+MAP_SAFE = {"left": 130, "right": 130, "top": 110, "bottom": 200}  # px kept clear when framing (bottom: captions)
 MAP_DRIFT = 0.009  # slow push-in per second while the camera holds (keeps maps alive)
 
 # Sound effects (procedural, see sfx.py): peak level in dBFS when the voice sits at -14 LUFS

@@ -23,7 +23,7 @@ import {
 import {Globe} from './Globe';
 import {placeLabels, textWidth, type LabelReq, type Placement} from './labels';
 import {STYLES, rampColor, type MapStyle} from './styles';
-import type {ArrowEl, ChoroplethEl, CompareEl, HighlightEl, MapBlockData, MapElement, PlaceEl, Raster, RouteEl, TrueSizeEl} from './types';
+import type {ArrowEl, ChoroplethEl, CompareEl, ContextEl, HighlightEl, MapBlockData, MapElement, PlaceEl, Raster, RouteEl, TrueSizeEl} from './types';
 
 const clamp01 = (t: number) => Math.min(Math.max(t, 0), 1);
 const FADE = 8;
@@ -128,6 +128,9 @@ const labelsOf = (elements: MapElement[]): LabelEl[] => {
 			out.push({id, el, text: el.label, size: 27, spacing: 0.5, upper: false, italic: false, x: el.pts[n - 2], y: el.pts[n - 1], r: 9, priority: 2});
 		} else if (el.kind === 'arrow' && el.label) {
 			out.push({id, el, text: el.label, size: 27, spacing: 0.5, upper: false, italic: false, x: el.from[0], y: el.from[1], r: 10, priority: 2});
+		} else if (el.kind === 'context') {
+			const country = el.level === 'country';
+			out.push({id, el, text: el.text, size: country ? 23 : 22, spacing: country ? 4 : 0.3, upper: country, italic: false, x: el.x, y: el.y, r: country ? 0 : 5, priority: country ? 6 : 5});
 		}
 	});
 	return out;
@@ -379,6 +382,30 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					if (!p || vis <= 0) return null;
 					const [sx, sy] = toScreen(xf, l.x, l.y);
 					const color = l.el.kind === 'place' && (l.el as PlaceEl).marker === 'sea' ? style.seaLabel : style.label;
+					if (l.el.kind === 'context') {
+						const city = (l.el as ContextEl).level === 'city';
+						return (
+							<g key={l.id} opacity={fade * vis * 0.82}>
+								{city ? <circle cx={sx} cy={sy} r={4.5} fill={style.label} stroke={style.labelHalo} strokeWidth={2} /> : null}
+								<text
+									x={sx + p.dx}
+									y={sy + p.dy}
+									textAnchor={p.anchor}
+									fontFamily={body}
+									fontWeight={city ? 600 : 700}
+									fontSize={l.size}
+									letterSpacing={l.spacing}
+									fill={color}
+									stroke={style.labelHalo}
+									strokeWidth={5}
+									strokeLinejoin="round"
+									paintOrder="stroke"
+								>
+									{l.upper ? l.text.toUpperCase() : l.text}
+								</text>
+							</g>
+						);
+					}
 					return (
 						<text
 							key={l.id}

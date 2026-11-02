@@ -118,7 +118,8 @@ def group_units(shots: list[dict], total_frames: int) -> list[dict]:
     return units
 
 
-def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict | None = None) -> dict:
+def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict | None = None,
+                locs: dict | None = None, card_bg: dict | None = None) -> dict:
     """JSON props for the Remotion `Episode` composition."""
     shots = []
     for i, u in enumerate(lay["units"]):
@@ -153,6 +154,8 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             "kenBurns": {"z0": kb[0], "z1": kb[1], "x0": kb[2], "x1": kb[3], "y0": kb[4], "y1": kb[5]},
             "chapterNumber": first.get("chapter"),
             "photoFit": (photo_fit or {}).get(u["id"]),
+            "where": (locs or {}).get(u["id"]),
+            "cardBg": (card_bg or {}).get(u["id"]),
         })
     words = []
     for w in lay["words"]:
@@ -163,6 +166,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
         "totalFrames": lay["total_frames"],
         "showCaptions": script.captions,
         "mapStyle": map_style,
+        "look": getattr(script, "look", "none"),
         "shots": shots,
         "words": words,
         "chapters": [{"title": c["title"], "startFrame": round(c["start"] * FPS), "mood": c["mood"]} for c in lay["chapters"]],

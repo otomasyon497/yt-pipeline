@@ -198,6 +198,8 @@ class Shot(BaseModel):
     map: Optional[MapSpec] = None
     quote: Optional[str] = None
     author: Optional[str] = None
+    where: Optional[PlaceRef] = None  # stock / photo / ai_image: "where are we" mini map in the corner
+    where_label: Optional[str] = None  # default: the place name
 
     @model_validator(mode="after")
     def _required(self):
@@ -212,6 +214,8 @@ class Shot(BaseModel):
         }[self.type]
         if not need:
             raise ValueError(f"shot type '{self.type}' is missing its required field")
+        if self.where is not None and self.type not in ("stock", "photo", "ai_image"):
+            raise ValueError("'where' (locator inset) is for stock, photo and ai_image shots")
         return self
 
 
@@ -310,6 +314,7 @@ class Script(BaseModel):
     music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | file in /music | "none"
     captions: bool = True
     map_style: Optional[Literal["satellite", "atlas", "midnight"]] = None  # None -> config.MAP_STYLE
+    look: Literal["none", "warm", "cool"] = "none"  # one colour grade + vignette on every stock / photo / AI shot
     chapters: list[Chapter] = Field(min_length=1)
     sources: list[str] = Field(default_factory=list)  # fact-check notes, not rendered
     thumbnail: Optional[Thumbnail] = None

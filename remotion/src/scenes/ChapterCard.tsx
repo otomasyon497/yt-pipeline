@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Img, staticFile, useCurrentFrame} from 'remotion';
 import {body, colors, display, easeOut} from '../theme';
 import type {ShotData} from '../types';
 
@@ -14,7 +14,21 @@ export const ChapterCard: React.FC<{shot: ShotData}> = ({shot}) => {
 	const lineP = easeOut((frame - 18) / 24);
 	return (
 		<AbsoluteFill style={{backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center'}}>
-			<div style={{textAlign: 'center'}}>
+			{shot.cardBg ? (
+				// What the chapter opens on, blurred and dark, slowly pushing in behind the title.
+				<AbsoluteFill style={{filter: 'blur(14px) brightness(0.42) saturate(0.85)', transform: `scale(${1.08 + frame * 0.0012})`}}>
+					<Img
+						src={staticFile(`media/${shot.cardBg.src}`)}
+						style={
+							shot.cardBg.cover
+								? {width: '100%', height: '100%', objectFit: 'cover'}
+								: {position: 'absolute', left: shot.cardBg.left, top: shot.cardBg.top, width: shot.cardBg.width, height: shot.cardBg.height}
+						}
+					/>
+				</AbsoluteFill>
+			) : null}
+			{shot.cardBg ? <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, rgba(11,15,26,0.25) 0%, rgba(11,15,26,0.8) 100%)'}} /> : null}
+			<div style={{textAlign: 'center', position: 'relative'}}>
 				<div style={{fontFamily: body, fontWeight: 700, fontSize: 38, letterSpacing: 12, color: colors.accent, opacity: labelP}}>
 					CHAPTER {shot.chapterNumber}
 				</div>

@@ -21,6 +21,7 @@ import captions
 import cf_images
 import commons
 import credits
+import locator
 import maps
 import media
 import music
@@ -145,7 +146,7 @@ def prepare(slug: str) -> None:
         raise ValueError(f"unknown map style {style!r} (choose from {MAP_STYLES})")
     clips, media_files, used_ids, used_ai = [], {}, set(), False
     sfx_events, extra_credits, map_warnings = [], {"Map data: Natural Earth (public domain)."}, []
-    photo_fit, photo_credits = {}, []
+    photo_fit, photo_credits, locs = {}, [], {}
     with step("media"):
         for u in lay["units"]:
             src, seconds = u["subs"][0]["src"], u["drawFrames"] / FPS
@@ -174,12 +175,24 @@ def prepare(slug: str) -> None:
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg")
                 photo_credits.append(credit)
+            if src is not None and src.where is not None:
+                lon, lat, label, _ = maps.resolve_point(src.where)
+                locs[u["id"]] = {"src": f"{u['id']}_loc.png", "label": src.where_label or label or ""}
+                locator.make(lon, lat, PUBLIC_MEDIA / locs[u["id"]]["src"])
+        card_bg = {}
+        for u, nxt in zip(lay["units"], lay["units"][1:]):  # chapter cards over a blurred look at what comes next
+            if u["kind"] != "chapter_card" or nxt["id"] not in media_files:
+                continue
+            if nxt["kind"] == "map":
+                card_bg[u["id"]] = locator.card_background(json.loads((PUBLIC_MEDIA / media_files[nxt["id"]]).read_text(encoding="utf-8")))
+            elif nxt["kind"] in ("photo", "ai_image"):
+                card_bg[u["id"]] = {"src": media_files[nxt["id"]], "left": 0, "top": 0, "width": 1920, "height": 1080, "cover": True}
         for w in map_warnings:
             print(f"  map warning: {w}")
         print(f"  map style: {style}")
 
     with step("timeline+audio"):
-        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit)
+        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit, locs, card_bg)
         (work / "timeline.json").write_text(json.dumps(timeline, indent=1), encoding="utf-8")
         total_sec = tl.build_narration_track(wavs, lay, work / "narration.wav")
         voice_lufs = media.loudness(work / "narration.wav")

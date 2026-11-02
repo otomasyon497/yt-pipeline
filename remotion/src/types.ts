@@ -35,7 +35,12 @@ export type ShotData = {
 	kenBurns: KenBurns;
 	chapterNumber: number | null;
 	photoFit: 'cover' | 'contain' | null; // archive photos: full frame, or framed over a blurred copy
+	where?: {src: string; label: string} | null; // locator inset (stock / photo / AI shots)
+	cardBg?: CardBg | null; // chapter cards: blurred image of what comes next
 };
+
+// Screen placement of the chapter card backdrop (a map block's image around its first view, or a photo).
+export type CardBg = {src: string; left: number; top: number; width: number; height: number; cover?: boolean};
 
 export type ChapterMark = {title: string; startFrame: number; mood: string};
 
@@ -46,6 +51,7 @@ export type Timeline = {
 	totalFrames: number;
 	showCaptions: boolean;
 	mapStyle: string;
+	look?: 'none' | 'warm' | 'cool';
 	shots: ShotData[];
 	words: Word[];
 	chapters: ChapterMark[];

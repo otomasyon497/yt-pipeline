@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-03: the user created the channel and uploaded gerd-nile, the first video; release ep-gerd-nile-41383490424 deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\; the final channel name and handle are not confirmed to me yet; next: the user unlocks advanced features so the pinned comment and chapters work (see notes); Shorts from the episode under discussion, no code yet)
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Phase S1 done: vertical Shorts format plus the first Short gerd-nile-short-lake (41.1 s, release ep-gerd-nile-short-lake-41536930350, downloaded to C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile-short-lake\), waiting for the user's review; delete that release after the upload. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters, Related Video))
 
 ## Shorts (2026-11-03, phase S1: vertical format + first Short, waiting for the user's review)
 - The user chose native vertical Shorts (maps redrawn for a phone screen) over YouTube's clip tool or a letterboxed crop
@@ -13,6 +13,15 @@
   (Bebas headline near the top; the first one is the hook, on screen from frame 0), captions (4 words, 64 px, above
   YouTube's UI) and the question card; map labels stay inside a per-block labelBox.
 - Limits: a Short takes map shots only for now (charts, photos, stock and cards have no vertical layout yet).
+- Render 1 review (frames pulled from the MP4 on the PC) found: frame 0 showed the 2026 lake under the hook "no lake
+  here" (overlays faded in from frame 0), the last frames faded back to the lake (loop broken), a map label behind the
+  captions, and captions that stranded words. Fixed: overlays present at a block's first frame / lasting to its end no
+  longer fade (MapBlock life()), the Short label box ends above the captions (y 1250), and Short captions split each
+  clause into even pieces of up to 4 words. Also a shorter opening line and a 2.0 s wipe (lake complete at about 4.6 s).
+- Render 2: 41.1 s, -14.5 LUFS, clean first and last frame (2020 valley, so the loop is seamless). Known: while the
+  camera dives back to the lake (about 34.6 s) the Sentinel-2 mosaic shows as a soft-edged rectangle for about 0.25 s
+  (same as in the long video). A fix (fade S2 in only once a mosaic covers the frame) needs testing on long-form pans.
+- Actions: about 6 min per Short render (both runs; the second one reused the cached Sentinel-2 mosaics).
 - Plan per episode: 2-3 Shorts (a satellite surprise, an own calculation, a two-sided debate), one every 2-3 days,
   each pointing to the long video (Related Video link once advanced features are on).
 

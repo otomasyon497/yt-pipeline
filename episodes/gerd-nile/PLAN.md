@@ -13,8 +13,8 @@ river Egypt cannot live without. Did the feared catastrophe happen, and what wil
 - [x] 5. Feature: animated chart scene (bar / line)
 - [x] 6. Feature: "where are we" locator inset on stock and photo shots
 - [x] 7. Feature: one episode look (same grade on stock and archive; chapter cards over blurred satellite)
-- [ ] 8. Script (`script.json`): about 2,500 words, 16-18 min, each paragraph written to a visual we can show
-- [ ] 9. Fact-check pass: every claim against `research.md`
+- [x] 8. Script (`script.json`): about 2,500 words, 16-18 min, each paragraph written to a visual we can show
+- [x] 9. Fact-check pass: every claim against `research.md`
 - [ ] 10. Storyboard run, self-review of every frame, fixes
 - [ ] 11. Full render, download to `Videos\yt-pipeline\gerd-nile`, user review (gate 2)
 
@@ -24,3 +24,4 @@ river Egypt cannot live without. Did the feared catastrophe happen, and what wil
 - 2026-11-02: step 4 done (map step `compare`, commit af20fbd) and Nile / Blue Nile / White Nile lines in lines.json; step 5 done (chart: source line, `ref` threshold line, `highlight`, thousands separators, kept above the captions). Both type-check; not rendered yet (check them in the step 10 storyboard).
 - Next (step 6): new `pipeline/locator.py` drawing a small PIL mini map (ne_50m land, the country containing the point in accent, a dot) into PUBLIC_MEDIA; `Shot.where: PlaceRef` resolved with maps.resolve_point; timeline passes {src, label}; an Episode overlay at top right on stock / photo / ai_image shots.
 - 2026-11-02: steps 6-7 done: `Shot.where` locator inset (pipeline/locator.py, PIL mini map with the Nile lines), `Script.look` warm|cool grade + vignette on footage, chapter cards over a blurred image of what comes next (`cardBg`). Type-check and py_compile pass; first real test in the storyboard.
+- 2026-11-02: steps 8-9 done: script.json (2,198 words, 52 paragraphs, about 16 min, 4 asks, 1 subscribe line), every claim checked against research.md; 3 wordings tightened. Next: storyboard run (step 10).

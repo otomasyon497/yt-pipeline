@@ -121,7 +121,7 @@ class Compare(BaseModel):
     after: str
     label_before: Optional[str] = None  # default: month and year of the scenes used, e.g. "MARCH 2020"
     label_after: Optional[str] = None
-    hold: float = Field(1.8, ge=0, le=8)  # seconds on the 'before' image before the wipe starts
+    hold: Optional[float] = Field(None, ge=0, le=12)  # seconds on 'before'; None = until the shot's next map step
     seconds: float = Field(3.6, gt=0.5, le=10)  # wipe duration
 
     @model_validator(mode="after")

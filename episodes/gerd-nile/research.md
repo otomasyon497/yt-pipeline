@@ -128,3 +128,17 @@ Data: World Bank electricity access choropleth (EG.ELC.ACCS.ZS); own per-person 
 Maps: Nile, Blue Nile, White Nile drawn as curated lines (to build from Natural Earth river centerlines).
 Stock (check in storyboard): Addis Ababa street, Ethiopian highlands farming, Cairo traffic / Nile felucca, power lines,
 water treatment plant, desert farming, Khartoum.
+
+## Added during the script (fact-check pass, 2026-11-02)
+- Sudd: one of the largest wetlands in the world. https://en.wikipedia.org/wiki/Sudd
+- About 97 % of the Nile's transported sediment comes from the Atbara and the Blue Nile (Ethiopia). [NILE]
+- 1956: the US and Britain withdrew their offer to finance the High Dam (19 July); Nasser nationalised the Suez Canal (26 July), saying its revenue would pay for the dam; the Soviet Union then helped build it. https://en.wikipedia.org/wiki/Aswan_Dam ; https://en.wikipedia.org/wiki/Suez_Crisis
+- After the High Dam the annual flood no longer reached Egypt's fields downstream; flow became far more constant. [NILE] ; https://en.wikipedia.org/wiki/Aswan_Dam
+- Kosygin and Nasser, 16 May 1966 (Dutch National Archives, CC0): Commons "Kosykin (links) bezoekt Egyptes historische schatten, Kosykin (linkls) en Nasser, Bestanddeelnr 919-1605.jpg"
+- 1980s drought in the Ethiopian highlands and the lake regions: https://csmonitor.com/1984/0905/090521.html
+- Absolute water scarcity: below 500 m3 per person per year (Falkenmark water stress indicator; also used by UN-Water).
+- September 2020: the US suspended part of its aid to Ethiopia; 2021: an adviser to Sudan's leader spoke of a "water war"; early 2023: Egypt and Sudan held joint military drills. [GERD]
+- First power 20 February 2022; more turbines August 2022, August 2024, February 2025. [GERD]
+- Cooperative rules suggested by the modellers: information sharing and pre-agreed releases at critical times in a prolonged drought (Wheeler et al. 2019 working paper, https://swopec.hhs.se/gunefd/abs/gunefd2019_005.htm); compromise policy with concurrent refill. [W25]
+- Quote on screen (exact, abstract): "Management of multi-year droughts will require careful coordination if risks of harmful impacts are to be minimized." [W20]
+- Wording kept to the sources: "biggest hydropower plant in Africa" (not "biggest power plant"); the refill period is "one of the most delicate moments" in the modellers' scenarios (our summary of W25 slides 16-20, 33).

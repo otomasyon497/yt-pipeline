@@ -72,8 +72,10 @@ const Line: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 	const n = chart.data.length;
 	const xs = chart.data.map((_, i) => 260 + (i * 1400) / Math.max(n - 1, 1));
 	const vals = chart.data.map((d) => d[1]);
-	const lo = Math.min(...vals, chart.ref ? chart.ref[0] : vals[0], 0);
+	const minV = Math.min(...vals, chart.ref ? chart.ref[0] : vals[0]);
 	const hi = Math.max(...vals, chart.ref ? chart.ref[0] : vals[0]);
+	// Lines show change: values far from zero (e.g. lake levels 540-640 m) get a baseline just under the minimum.
+	const lo = minV < 0.4 * hi ? Math.min(minV, 0) : minV - 0.15 * (hi - minV);
 	const yOf = (v: number) => 780 - ((v - lo) / Math.max(hi - lo, 1e-9)) * 430;
 	const ys = vals.map(yOf);
 	const pts = xs.map((x, i) => `${x},${ys[i]}`).join(' ');

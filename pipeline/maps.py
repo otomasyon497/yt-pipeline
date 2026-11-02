@@ -311,7 +311,7 @@ def _span_for(items) -> float:
     return min((DEFAULT_SPAN.get(k, 5.0) for k in kinds), default=5.0)
 
 
-def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None:
+def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f: int | None = None) -> None:
     if step.clear:
         plan.clear(f, sub)
 
@@ -397,11 +397,13 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool) -> None
 
     if step.compare:  # before/after wipe over the view the camera now holds
         c, cam = step.compare, plan.view
+        # hold: given seconds, else until the shot's next step (the narration cue), else 1.8 s
+        hold = round(c.hold * FPS) if c.hold is not None else max(0, next_f - appear) if next_f is not None else round(1.8 * FPS)
         plan.elements.append(Element("compare", {
             "cam": {"x": cam["x"], "y": cam["y"], "w": cam["w"]}, "before": c.before, "after": c.after,
             "labelBefore": c.label_before, "labelAfter": c.label_after,
-            "hold": round(c.hold * FPS), "wipe": round(c.seconds * FPS)}, appear, sub=sub))
-        plan.events.append((appear + round(c.hold * FPS), "swoosh", SFX_GAIN["swoosh"]))
+            "hold": hold, "wipe": round(c.seconds * FPS)}, appear, sub=sub))
+        plan.events.append((appear + hold, "swoosh", SFX_GAIN["swoosh"]))
 
     # Overlays, staggered so they land one after another.
     k = 0
@@ -585,7 +587,8 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             plan.clear(sub["startFrame"], grace=round(MIN_VISIBLE * FPS))
         sub_end = sub["startFrame"] + sub["frames"]
         for j, (step, f) in enumerate(zip(spec.steps, sub["steps"])):
-            _step(plan, step, f, si, sub_end, globe=(si == 0 and j == 0 and spec.globe))
+            nxt = sub["steps"][j + 1] if j + 1 < len(sub["steps"]) else None
+            _step(plan, step, f, si, sub_end, globe=(si == 0 and j == 0 and spec.globe), next_f=nxt)
     if not plan.cams:
         plan.move_to(dict(WORLD), 0, instant=True)
 

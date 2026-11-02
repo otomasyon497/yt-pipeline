@@ -152,6 +152,17 @@
            "lat": 13.0,
            "span": 42
           }
+         },
+         {
+          "at": "you have to see the Nile",
+          "routes": [
+           {
+            "path": "Nile",
+            "color": "accent",
+            "label": "Nile",
+            "seconds": 4
+           }
+          ]
          }
         ]
        }
@@ -246,6 +257,11 @@
         11.488
        ],
        "where_label": "Blue Nile Falls, Ethiopia"
+      },
+      {
+       "type": "stock",
+       "at": "The same Ethiopian rivers",
+       "query": "muddy brown river flowing"
       }
      ]
     },
@@ -306,8 +322,31 @@
      "text": "Now here is the number that explains everything. Add the Blue Nile to two smaller rivers that also come down from the Ethiopian highlands, and you get around eighty-five percent of all the water that reaches Egypt.",
      "shots": [
       {
-       "type": "chart",
+       "type": "map",
        "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 37.0,
+           "lat": 10.5,
+           "span": 14
+          },
+          "highlight": [
+           "Ethiopia"
+          ],
+          "places": [
+           {
+            "name": "Ethiopian Highlands"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "chart",
+       "at": "and you get around",
        "chart": {
         "type": "bar",
         "title": "Where Egypt's Nile water starts",
@@ -419,6 +458,12 @@
             "seconds": 2.5
            }
           ]
+         },
+         {
+          "at": "or the country that has lived",
+          "highlight": [
+           "Egypt"
+          ]
          }
         ]
        }
@@ -467,8 +512,28 @@
      "text": "Thirty years later, in 1959, Egypt and Sudan divided the river between themselves. Of roughly eighty-four billion cubic metres a year, Egypt would take fifty-five and a half, Sudan eighteen and a half, and about ten would be lost to evaporation. Ethiopia got nothing. Ethiopia wasn't in the room.",
      "shots": [
       {
-       "type": "chart",
+       "type": "map",
        "at": 0,
+       "on_screen_text": "1959: Egypt and Sudan split the Nile",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.0,
+           "lat": 21.0,
+           "span": 22
+          },
+          "highlight": [
+           "Egypt",
+           "Sudan"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Of roughly",
        "chart": {
         "type": "bar",
         "title": "The 1959 split",
@@ -497,7 +562,7 @@
       },
       {
        "type": "map",
-       "at": "Ethiopia wasn't",
+       "at": "Ethiopia got nothing",
        "map": {
         "steps": [
          {
@@ -539,6 +604,18 @@
            "Tanzania",
            "South Sudan"
           ]
+         },
+         {
+          "at": "But the 1959 numbers",
+          "view": {
+           "lon": 31.0,
+           "lat": 22.0,
+           "span": 22
+          },
+          "highlight": [
+           "Egypt",
+           "Sudan"
+          ]
          }
         ]
        }
@@ -547,6 +624,36 @@
     },
     {
      "text": "In 1960, Egypt had about twenty-seven million people. Its fifty-five and a half billion cubic metres came to over two thousand cubic metres of Nile water per person, per year. By 2024, Egypt had more than a hundred and sixteen million people, and the very same share came to about four hundred and seventy-six.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "on_screen_text": "1960: about 27 million people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.5,
+           "lat": 27.0,
+           "span": 14
+          },
+          "highlight": [
+           "Egypt"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stock",
+       "at": "By 2024",
+       "query": "Cairo crowded street aerial",
+       "on_screen_text": "2024: over 116 million"
+      }
+     ]
+    },
+    {
+     "text": "That is below five hundred, the line water experts use for absolute scarcity. The number on paper never changed. The country did. And Egypt had already learned once what happens when the river simply doesn't come.",
      "shots": [
       {
        "type": "chart",
@@ -596,12 +703,7 @@
         "source": "World Bank population; our calculation",
         "highlight": 7
        }
-      }
-     ]
-    },
-    {
-     "text": "That is below five hundred, the line water experts use for absolute scarcity. The number on paper never changed. The country did. And Egypt had already learned once what happens when the river simply doesn't come.",
-     "shots": [
+      },
       {
        "type": "stock",
        "at": "The country did",
@@ -646,9 +748,22 @@
         "steps": [
          {
           "view": {
-           "lon": 32.2,
-           "lat": 29.6,
-           "span": 6
+           "lon": 32.6,
+           "lat": 26.5,
+           "span": 12
+          },
+          "places": [
+           {
+            "name": "Aswan"
+           }
+          ]
+         },
+         {
+          "at": "nationalised the Suez Canal",
+          "view": {
+           "lon": 32.3,
+           "lat": 30.6,
+           "span": 3.5
           },
           "routes": [
            {
@@ -673,6 +788,17 @@
     {
      "text": "The new lake swallowed more than four hundred and eighty kilometres of the Nile valley, and the river's yearly flood, which had shaped Egyptian life for thousands of years, stopped reaching the fields downstream. Whole temples had to be cut into blocks and carried uphill, Abu Simbel among them.",
      "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "Egypt’s Nile River turns into Lake Nasser at the Aswan High Dam (iss074e0315952).jpg",
+       "on_screen_text": "480 km of the valley flooded"
+      },
+      {
+       "type": "stock",
+       "at": "and the river's yearly flood",
+       "query": "Nile river farmland Egypt fields"
+      },
       {
        "type": "photo",
        "at": "Whole temples",
@@ -983,6 +1109,32 @@
        "at": 0,
        "query": "high voltage power lines towers",
        "on_screen_text": "5,150 MW"
+      },
+      {
+       "type": "map",
+       "at": "and Ethiopia has signed deals",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 38.5,
+           "lat": 4.5,
+           "span": 20
+          },
+          "highlight": [
+           "Kenya"
+          ],
+          "arrows": [
+           {
+            "from": "Addis Ababa",
+            "to": "Nairobi",
+            "color": "accent",
+            "label": "Power exports"
+           }
+          ]
+         }
+        ]
+       }
       }
      ]
     },
@@ -1003,6 +1155,14 @@
            "lon": 35.12,
            "lat": 11.1,
            "span": 0.6
+          }
+         },
+         {
+          "at": "or waited for one",
+          "view": {
+           "lon": 35.4,
+           "lat": 10.8,
+           "span": 3
           }
          }
         ]
@@ -1076,6 +1236,23 @@
             "name": "Khartoum"
            }
           ]
+         },
+         {
+          "at": "Then came the hard part",
+          "view": {
+           "lon": 35.3,
+           "lat": 11.0,
+           "span": 4
+          },
+          "places": [
+           {
+            "name": "GERD",
+            "lon": 35.093,
+            "lat": 11.215,
+            "kind": "site",
+            "label": "GERD"
+           }
+          ]
          }
         ]
        }
@@ -1130,6 +1307,24 @@
         ],
         "source": "Washington talks, 2019-2020",
         "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "In February 2020",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 39.0,
+           "lat": 9.0,
+           "span": 14
+          },
+          "highlight": [
+           "Ethiopia"
+          ]
+         }
+        ]
        }
       }
      ]
@@ -1198,6 +1393,22 @@
           "places": [
            {
             "name": "Washington"
+           }
+          ]
+         },
+         {
+          "at": "Ethiopia's prime minister replied",
+          "places": [
+           {
+            "name": "Addis Ababa"
+           }
+          ]
+         },
+         {
+          "at": "an adviser to Sudan's leader",
+          "places": [
+           {
+            "name": "Khartoum"
            }
           ]
          },
@@ -1293,6 +1504,21 @@
         ],
         "source": "Reported reservoir levels",
         "highlight": 4
+       }
+      },
+      {
+       "type": "map",
+       "at": "completely full",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.13,
+           "lat": 11.02,
+           "span": 0.9
+          }
+         }
+        ]
        }
       }
      ]
@@ -1441,6 +1667,18 @@
             "label": "Releases"
            }
           ]
+         },
+         {
+          "at": "Ethiopia said the floods",
+          "highlight": [
+           "Ethiopia"
+          ]
+         },
+         {
+          "at": "Sudan called for",
+          "highlight": [
+           "Sudan"
+          ]
          }
         ]
        }
@@ -1452,7 +1690,25 @@
      "ask": {
       "at": "Did the dam",
       "text": "Did the dam cause the 2025 floods, or soften them?"
-     }
+     },
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "on_screen_text": "Khartoum: where the two Niles meet",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.52,
+           "lat": 15.62,
+           "span": 0.5
+          }
+         }
+        ]
+       }
+      }
+     ]
     },
     {
      "text": "We'll keep following this river into the dry years, so if you want to see how this story ends, subscribe.",
@@ -1544,6 +1800,21 @@
        "type": "stock",
        "at": 0,
        "query": "hydroelectric dam water flowing"
+      },
+      {
+       "type": "map",
+       "at": "which is why the researchers found",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.093,
+           "lat": 11.212,
+           "span": 0.14
+          }
+         }
+        ]
+       }
       }
      ]
     },
@@ -1714,6 +1985,30 @@
        "on_screen_text": "5.6 million m³ a day"
       },
       {
+       "type": "map",
+       "at": "to farm the desert in Sinai",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 33.4,
+           "lat": 30.3,
+           "span": 5
+          },
+          "places": [
+           {
+            "name": "Sinai",
+            "lon": 33.8,
+            "lat": 29.9,
+            "kind": "label",
+            "label": "SINAI"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
        "type": "photo",
        "at": "a project called the New Delta",
        "photo": "A “New Delta” in the Desert (153752 - 20181128 lrg).jpg",
@@ -1740,6 +2035,14 @@
            "lon": 35.13,
            "lat": 11.02,
            "span": 0.9
+          }
+         },
+         {
+          "at": "Did it change the Nile forever",
+          "view": {
+           "lon": 35.3,
+           "lat": 10.8,
+           "span": 2.4
           }
          },
          {

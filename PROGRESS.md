@@ -1,6 +1,26 @@
 # PROGRESS
 
-## Status (2026-11-01: Phase 3B delivered; map style chosen = satellite; waiting for the user's notes / approval before 3C)
+## Status (2026-11-02: pilot episode gerd-nile delivered to the PC for review (gate 2); next: user's notes, one fix re-render, then upload)
+
+## Pilot episode: gerd-nile (2026-11-02, user: "make it original and watchable; you decide the process")
+- Process (decided with the user): research dossier with sources and own calculations -> visual inventory (Sentinel-2
+  dates, licence-checked Commons, data) -> outline (gate 1, non-blocking) -> script written to the visuals we can show ->
+  fact-check against research.md -> pacing check (layout notes: no hold over ~14 s) -> storyboard self-review -> render.
+  Files: episodes/gerd-nile/{PLAN.md, research.md, outline.md, script.json}.
+- New features: map step `compare` (Sentinel-2 before/after wipe, date windows, month labels from the scenes used);
+  Nile / Blue Nile / White Nile lines; charts with source line, threshold line, highlight, data-driven decimals;
+  `Shot.where` locator inset (pipeline/locator.py); `Script.look` grade + vignette on footage; chapter cards over a
+  blurred image of what comes next; compact credits when the description passes 5,000 characters.
+- Fixes found by the storyboard: S2 mosaics wider than ~2 deg mixed dates into a patchwork, and S2 patches stayed visible
+  as pale rectangles when the camera pulled back (S2_MAX_SPAN 6 -> 2; S2 layer fades out between 2.6 and 4.5 deg;
+  this was also the "pale patch" of suez-v3). Wipe now starts from frame 0 on the before image.
+- Runs: storyboard 41366768916 (40.8 min, 9 sheets), render 41370991970 (38.8 min). Result: 15:54, 1080p24, 424 MB,
+  91 shots / 75 units, 4 question cards, 1 subscribe line; release ep-gerd-nile-41370991970; downloaded to
+  Videos\yt-pipeline\gerd-nile (video, youtube.txt 3.8 kB, credits.txt, 3 thumbnails).
+- Known flaw: two lake views at 1.4-1.5 deg still show darker S2 tile blocks ("recent" mosaics pick the least cloudy
+  scene per tile over two years). Fix ready to apply with the user's notes: allow date windows in MapStep.date and give
+  those views the compare's "after" window.
+- Actions minutes for the pilot: about 80 (storyboard + render); a fix re-render with warm caches is about 40.
 
 ## Phase 1 (approved)
 - [x] Repo, pipeline, Remotion project, workflow; secrets set by user

@@ -773,9 +773,7 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
                 continue
             if r:
                 rasters.append(r)
-        if sentinel.credit():
-            plan.credits.add(sentinel.credit())
-    plan.credits.add(gibs.CREDIT)
+    plan.credits.add(gibs.CREDIT)  # the Sentinel-2 line is added once by run.py, with the years of every block
 
     globe = None
     if plan.globe:
@@ -825,8 +823,6 @@ def _compare_images(item: dict, block_id: str, n: int, out_dir: Path, plan: Plan
             return False
         item[label] = item[label] or _month_label(r.pop("dates", []))
         item[side] = r
-    if sentinel.credit():
-        plan.credits.add(sentinel.credit())
     return True
 
 

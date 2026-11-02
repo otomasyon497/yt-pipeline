@@ -28,6 +28,7 @@ import music
 import pexels
 import pixabay
 import pronounce
+import sentinel
 import sfx
 import thumbnails
 import timeline as tl
@@ -209,6 +210,8 @@ def prepare(slug: str) -> None:
         gain = (voice_lufs - music.BED_UNDER_VOICE_DB - media.loudness(track)) if track else 0.0
         print(f"  music: {track.name if track else 'none'}" + (f" ({gain:+.1f} dB, bed {music.BED_UNDER_VOICE_DB} dB under the voice)" if track else ""))
         media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a", effects, music_gain_db=gain)
+        if sentinel.credit():  # once, after all map blocks (per-block lines repeated it with fewer years)
+            extra_credits.add(sentinel.credit())
         extra = sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else []
         if photo_credits:
             extra = ["Archive images (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra

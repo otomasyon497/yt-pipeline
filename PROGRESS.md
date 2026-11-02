@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-02: gerd-nile v2 delivered after the user's review round 1 (framing + context labels); next: user's OK, then upload)
+## Status (2026-11-02: gerd-nile v2 approved by the user ("izledim güzel olmuş"); next: manual YouTube upload by the user (video 15:54, so the channel must be phone-verified), pinned comment from youtube.txt, then delete release ep-gerd-nile-41383490424)
 
 ## Pilot episode: gerd-nile (2026-11-02, user: "make it original and watchable; you decide the process")
 - Process (decided with the user): research dossier with sources and own calculations -> visual inventory (Sentinel-2
@@ -28,7 +28,10 @@
   zoom; lowest label priority, never next to a story marker); map steps take Sentinel-2 date windows (the 1.4-1.5 deg
   lake views now use the compare's 'after' scenes: no tile blocks). Storyboard 41382000745, render 41383490424
   (release ep-gerd-nile-41383490424, 15:54, 418 MB), downloaded over the first version. The first release
-  (ep-gerd-nile-41370991970) is superseded and can be deleted.
+  (ep-gerd-nile-41370991970) and its tag were deleted at the user's request.
+- Verdict on v2: approved by the user. Found on delivery: youtube.txt and credits.txt listed the Sentinel-2 credit twice
+  ("2020, 2026" and "2020, 2023, 2024, 2026") because each map block added it while the set of years was still growing.
+  run.py now adds it once after all blocks; the delivered files and the release copies were corrected.
 
 ## Phase 1 (approved)
 - [x] Repo, pipeline, Remotion project, workflow; secrets set by user

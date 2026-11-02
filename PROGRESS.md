@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-02: gerd-nile v2 approved by the user ("izledim güzel olmuş"); channel brand "Ink & Orbit" proposed (waiting for the user's OK); next: the user creates the channel, uploads gerd-nile manually (video 15:54, so the channel must be phone-verified), pins the comment from youtube.txt, then delete release ep-gerd-nile-41383490424)
+## Status (2026-11-03: the user created the channel and uploaded gerd-nile, the first video; release ep-gerd-nile-41383490424 deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\; the final channel name and handle are not confirmed to me yet; next: the user unlocks advanced features so the pinned comment and chapters work (see notes); Shorts from the episode under discussion, no code yet)
 
 ## Channel brand (2026-11-02, proposed)
 - Brief from the user: an original, memorable, evergreen name (not tied to today's format) whose profile picture and banner
@@ -78,6 +78,10 @@
 - Test script facts are illustrative (see `sources`) - fact-check before real use.
 
 ## Known issues / notes for later phases
+- New channels lack YouTube "advanced features" (YouTube Help 9890437, checked 2026-11-03): pinning comments, chapters,
+  a Related Video link on Shorts, A/B thumbnail tests and clickable description links all need them. Unlock with ID or
+  video verification (review usually 24 h, not offered everywhere) or wait for channel history. Phone verification only
+  gives intermediate features (videos over 15 min, custom thumbnails).
 - Kokoro runs ~1x real time on CPU: a 15-min video needs ~15 min TTS + ~30 min render + captions ~3 min -> close to the
   workflow `timeout-minutes: 60`; raise it (job limit is 6 h) or split TTS/render jobs for long episodes.
 - Narration pace is ~2.05 words/s at speed 0.95; budget ~125 words per 60 s plus ~0.9 s per scene overhead.

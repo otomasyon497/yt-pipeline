@@ -1,7 +1,15 @@
 import type {View} from './camera';
 
-export const W = 1920;
-export const H = 1080;
+// Frame size and UI scale (labels, markers, lines) of the current render: 1920x1080 at 1 for long videos, 1080x1920 at
+// 1.4 for Shorts. Episode sets them from the timeline before anything draws; each render tab runs one composition.
+export let W = 1920;
+export let H = 1080;
+export let S = 1;
+export const setFrame = (width: number, height: number, uiScale: number) => {
+	W = width;
+	H = height;
+	S = uiScale;
+};
 
 // Decoded ring / polyline in unit Mercator with its bounding box (for culling).
 export type Ring = {pts: Float64Array; x0: number; y0: number; x1: number; y1: number};

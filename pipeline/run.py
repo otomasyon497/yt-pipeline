@@ -14,6 +14,13 @@ import time
 from contextlib import contextmanager
 from pathlib import Path
 
+# The format (16:9 long / 9:16 short) sets frame size and pacing in config.py, which every module below reads at
+# import time, so take it from the episode's script.json first. An explicit YTP_FORMAT wins; prepare() checks both agree.
+if __name__ == "__main__" and len(sys.argv) > 2:
+    _script = Path(__file__).resolve().parent.parent / "episodes" / sys.argv[2] / "script.json"
+    if _script.exists():
+        os.environ.setdefault("YTP_FORMAT", json.loads(_script.read_text(encoding="utf-8")).get("format", "long"))
+
 import numpy as np
 import soundfile as sf
 
@@ -34,8 +41,8 @@ import thumbnails
 import timeline as tl
 import tts
 import youtube_meta
-from config import (BUILD_DIR, DEFAULT_VOICE, FPS, MAP_STYLE, MAP_STYLES, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA, ROOT,
-                    SAMPLE_MIN_SECONDS, SAMPLE_VOICES, TTS_SAMPLE_RATE)
+from config import (BUILD_DIR, DEFAULT_VOICE, FORMAT, FPS, MAP_STYLE, MAP_STYLES, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA,
+                    ROOT, SAMPLE_MIN_SECONDS, SAMPLE_VOICES, SHORT, SHORT_MAX_SEC, TTS_SAMPLE_RATE)
 from schema import load_script
 
 _timings: dict[str, float] = {}
@@ -105,6 +112,8 @@ def voice_samples(script, out_dir: Path) -> None:
 
 def prepare(slug: str) -> None:
     script = load_script(ROOT / "episodes" / slug / "script.json")
+    if script.format != FORMAT:
+        raise RuntimeError(f"script.json says format {script.format!r} but YTP_FORMAT is {FORMAT!r}")
     work = BUILD_DIR / slug
     shutil.rmtree(work, ignore_errors=True)
     shutil.rmtree(PUBLIC_MEDIA, ignore_errors=True)
@@ -141,6 +150,12 @@ def prepare(slug: str) -> None:
         return [[v for (c, _, _), v in zip(flat, values) if c == ci] for ci in range(len(script.chapters))]
 
     lay = tl.layout(script, per_chapter(durs), per_chapter(words))
+    if SHORT:
+        seconds = lay["total_frames"] / FPS
+        if seconds > SHORT_MAX_SEC:
+            raise ValueError(f"a Short may last {SHORT_MAX_SEC} s at most (longer vertical videos are not Shorts); "
+                             f"this one runs {seconds:.1f} s")
+        print(f"  short: {seconds:.1f} s")
 
     style = os.environ.get("MAP_STYLE") or script.map_style or MAP_STYLE  # env wins (style reels)
     if style not in MAP_STYLES:
@@ -230,6 +245,9 @@ def prepare(slug: str) -> None:
 
 
 def make_thumbnails(slug: str) -> None:
+    if SHORT:
+        print("short: no custom thumbnail (YouTube shows a frame of the Short)")
+        return
     script = load_script(ROOT / "episodes" / slug / "script.json")
     with step("thumbnails"):
         thumbnails.make(script, BUILD_DIR / slug / "thumbnails")

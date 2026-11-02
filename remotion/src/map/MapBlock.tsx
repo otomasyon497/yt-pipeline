@@ -4,6 +4,7 @@ import {body, bodyItalic} from '../theme';
 import {easeInOut, makeCamera, type View} from './camera';
 import {
 	H,
+	S,
 	W,
 	cumulative,
 	decode,
@@ -39,7 +40,7 @@ const DateTag: React.FC<{text: string; side: 'left' | 'right'; opacity: number}>
 		<div
 			style={{
 				position: 'absolute',
-				top: 196, // below the lower-third labels
+				top: H > W ? 410 : 196, // below the on-screen text (a Short's hook line sits higher and runs to two lines)
 				[side]: 64,
 				padding: '10px 22px',
 				borderRadius: 6,
@@ -133,7 +134,7 @@ const labelsOf = (elements: MapElement[]): LabelEl[] => {
 			out.push({id, el, text: el.text, size: country ? 23 : 22, spacing: country ? 4 : 0.3, upper: country, italic: false, x: el.x, y: el.y, r: country ? 0 : 5, priority: country ? 6 : 5});
 		}
 	});
-	return out;
+	return out.map((l) => ({...l, size: l.size * S, spacing: l.spacing * S, r: l.r * S}));
 };
 
 // ------------------------------------------------------------------ the map
@@ -195,7 +196,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					const [sx, sy] = toScreen(xf, l.x, l.y);
 					return {id: l.id, x: sx, y: sy, w: textWidth(l.text, l.size, l.spacing, l.upper), h: l.size, r: l.r, priority: l.priority};
 				});
-			prev = placeLabels(reqs, data.safeBottom, prev);
+			prev = placeLabels(reqs, data.labelBox ?? [24, 24, W - 24, H - data.safeBottom + 40], prev);
 			return {f, placements: prev};
 		});
 	}, [camera, labelEls, data]);
@@ -386,7 +387,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 						const city = (l.el as ContextEl).level === 'city';
 						return (
 							<g key={l.id} opacity={fade * vis * 0.82}>
-								{city ? <circle cx={sx} cy={sy} r={4.5} fill={style.label} stroke={style.labelHalo} strokeWidth={2} /> : null}
+								{city ? <circle cx={sx} cy={sy} r={4.5 * S} fill={style.label} stroke={style.labelHalo} strokeWidth={2} /> : null}
 								<text
 									x={sx + p.dx}
 									y={sy + p.dy}
@@ -397,7 +398,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 									letterSpacing={l.spacing}
 									fill={color}
 									stroke={style.labelHalo}
-									strokeWidth={5}
+									strokeWidth={5 * S}
 									strokeLinejoin="round"
 									paintOrder="stroke"
 								>
@@ -419,7 +420,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 							letterSpacing={l.spacing}
 							fill={color}
 							stroke={style.labelHalo}
-							strokeWidth={7}
+							strokeWidth={7 * S}
 							strokeLinejoin="round"
 							paintOrder="stroke"
 							opacity={fade * vis}
@@ -447,8 +448,8 @@ const Outline: React.FC<{rings: Ring[]; xf: Xf; offsets: number[]; color: string
 		<g opacity={fade}>
 			{ringPaths(rings, xf, offsets).map((r, k) => (
 				<g key={k}>
-					<path d={r.d} fill="none" stroke={color} strokeOpacity={0.28} strokeWidth={9} strokeLinejoin="round" strokeDasharray={`${r.len} ${r.len}`} strokeDashoffset={r.len * (1 - p)} />
-					<path d={r.d} fill="none" stroke={color} strokeWidth={3} strokeLinejoin="round" strokeDasharray={`${r.len} ${r.len}`} strokeDashoffset={r.len * (1 - p)} />
+					<path d={r.d} fill="none" stroke={color} strokeOpacity={0.28} strokeWidth={9 * S} strokeLinejoin="round" strokeDasharray={`${r.len} ${r.len}`} strokeDashoffset={r.len * (1 - p)} />
+					<path d={r.d} fill="none" stroke={color} strokeWidth={3 * S} strokeLinejoin="round" strokeDasharray={`${r.len} ${r.len}`} strokeDashoffset={r.len * (1 - p)} />
 				</g>
 			))}
 		</g>
@@ -457,7 +458,7 @@ const Outline: React.FC<{rings: Ring[]; xf: Xf; offsets: number[]; color: string
 
 const Marker: React.FC<{el: PlaceEl; xf: Xf; style: MapStyle; frame: number; fade: number}> = ({el, xf, style, frame, fade}) => {
 	const [x, y] = toScreen(xf, el.x, el.y);
-	const s = popIn(frame - el.in);
+	const s = popIn(frame - el.in) * S;
 	const accent = style.tints.accent;
 	if (el.marker === 'event') {
 		const pulse = ((frame - el.in) % 40) / 40;
@@ -491,13 +492,13 @@ const Route: React.FC<{el: RouteEl; line: {line: Float64Array; cum: Float64Array
 	const d = linePath(part.pts, xf);
 	const color = style.tints[el.tint];
 	const [hx, hy] = toScreen(xf, part.head[0], part.head[1]);
-	const dash = el.mode === 'air' ? '16 11' : undefined;
+	const dash = el.mode === 'air' ? `${16 * S} ${11 * S}` : undefined;
 	return (
 		<g opacity={fade}>
-			<path d={d} fill="none" stroke={style.labelHalo} strokeOpacity={0.55} strokeWidth={10} strokeLinecap="round" strokeLinejoin="round" />
-			<path d={d} fill="none" stroke={color} strokeOpacity={0.3} strokeWidth={14} strokeLinecap="round" strokeLinejoin="round" />
-			<path d={d} fill="none" stroke={color} strokeWidth={5} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={dash} />
-			<circle cx={hx} cy={hy} r={p < 1 ? 9 : 8} fill={color} stroke="#ffffff" strokeWidth={3} />
+			<path d={d} fill="none" stroke={style.labelHalo} strokeOpacity={0.55} strokeWidth={10 * S} strokeLinecap="round" strokeLinejoin="round" />
+			<path d={d} fill="none" stroke={color} strokeOpacity={0.3} strokeWidth={14 * S} strokeLinecap="round" strokeLinejoin="round" />
+			<path d={d} fill="none" stroke={color} strokeWidth={5 * S} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={dash} />
+			<circle cx={hx} cy={hy} r={(p < 1 ? 9 : 8) * S} fill={color} stroke="#ffffff" strokeWidth={3} />
 		</g>
 	);
 };
@@ -514,7 +515,7 @@ const Arrow: React.FC<{el: ArrowEl; xf: Xf; style: MapStyle; frame: number; fade
 		(1 - t) * (1 - t) * ax + 2 * (1 - t) * t * cx + t * t * bx,
 		(1 - t) * (1 - t) * ay + 2 * (1 - t) * t * cy + t * t * by,
 	];
-	const head = Math.min(34, len * 0.3);
+	const head = Math.min(34 * S, len * 0.3);
 	const tEnd = Math.max(0.001, p * (1 - head / len / 1.2));
 	let d = '';
 	for (let k = 0; k <= 32; k++) {
@@ -534,8 +535,8 @@ const Arrow: React.FC<{el: ArrowEl; xf: Xf; style: MapStyle; frame: number; fade
 		.join(' ');
 	return (
 		<g opacity={fade}>
-			<path d={d} fill="none" stroke={style.labelHalo} strokeWidth={19} strokeLinecap="round" />
-			<path d={d} fill="none" stroke={color} strokeWidth={13} strokeLinecap="round" />
+			<path d={d} fill="none" stroke={style.labelHalo} strokeWidth={19 * S} strokeLinecap="round" />
+			<path d={d} fill="none" stroke={color} strokeWidth={13 * S} strokeLinecap="round" />
 			<polygon points={tri} fill={color} stroke={style.labelHalo} strokeWidth={3} strokeLinejoin="round" />
 		</g>
 	);
@@ -560,7 +561,7 @@ const TrueSize: React.FC<{el: TrueSizeEl; mover: ReturnType<typeof sphereMover>;
 	return (
 		<g opacity={fade}>
 			<path d={d} fill={accent} fillOpacity={0.55} stroke="#ffffff" strokeWidth={2.5} strokeLinejoin="round" />
-			<text x={cx} y={cy + 10} textAnchor="middle" fontFamily={body} fontWeight={700} fontSize={30} letterSpacing={4} fill={style.label} stroke={style.labelHalo} strokeWidth={7} paintOrder="stroke" opacity={labelIn}>
+			<text x={cx} y={cy + 10 * S} textAnchor="middle" fontFamily={body} fontWeight={700} fontSize={30 * S} letterSpacing={4 * S} fill={style.label} stroke={style.labelHalo} strokeWidth={7 * S} paintOrder="stroke" opacity={labelIn}>
 				{el.label.toUpperCase()}
 			</text>
 		</g>

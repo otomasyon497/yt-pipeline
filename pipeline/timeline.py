@@ -9,7 +9,7 @@ import numpy as np
 import soundfile as sf
 
 from config import (CARD_SEC, CARD_TRANSITION_FRAMES, CHAPTER_PAUSE, CUT_LEAD, END_PAD, FPS, HEIGHT, LEAD_IN,
-                    MIN_SHOT, PARA_PAUSE, TRANSITION_FRAMES, TTS_SAMPLE_RATE, WIDTH)
+                    MIN_SHOT, PARA_PAUSE, SHORT, TRANSITION_FRAMES, TTS_SAMPLE_RATE, UI_SCALE, WIDTH)
 
 # Deterministic Ken Burns variations: (zoom_from, zoom_to, pan_x_from, pan_x_to, pan_y_from, pan_y_to) in % of frame.
 _KB = [
@@ -130,6 +130,9 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             text = s["src"].on_screen_text if s["src"] is not None and s["kind"] in ("stock", "ai_image", "photo", "map") else None
             if text:
                 offset = s["startFrame"] - u["startFrame"]
+                if SHORT and i == 0 and offset == 0:  # a Short's hook line is on screen from the very first frame
+                    texts.append({"text": text, "from": 0, "countUp": None, "instant": True})
+                    continue
                 texts.append({"text": text, "from": offset + (u["transitionIn"] if offset == 0 else 0) + TEXT_DELAY,
                               "countUp": count_up(text)})
         for a in lay.get("asks", []):
@@ -162,7 +165,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
         start = round(w["s"] * FPS)
         words.append({"text": w["text"], "start": start, "end": max(round(w["e"] * FPS), start + 1), "p": w["p"]})
     return {
-        "fps": FPS, "width": WIDTH, "height": HEIGHT,
+        "fps": FPS, "width": WIDTH, "height": HEIGHT, "uiScale": UI_SCALE,
         "totalFrames": lay["total_frames"],
         "showCaptions": script.captions,
         "mapStyle": map_style,

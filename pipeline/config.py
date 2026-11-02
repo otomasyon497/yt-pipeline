@@ -12,22 +12,30 @@ def secret(name: str) -> str:
         raise RuntimeError(f"{name} is not set")
     return value
 
-# Video format. 24 fps is a deliberate render-time optimisation (20% fewer frames than 30 fps).
-FPS = 24
-WIDTH = 1920
-HEIGHT = 1080
+# Video format: "long" (16:9 documentary) or "short" (9:16 YouTube Short). run.py sets YTP_FORMAT from the
+# episode's script.json before any module imports the values below.
+FORMAT = os.environ.get("YTP_FORMAT") or "long"
+if FORMAT not in ("long", "short"):
+    raise ValueError(f"YTP_FORMAT must be 'long' or 'short', not {FORMAT!r}")
+SHORT = FORMAT == "short"
+SHORT_MAX_SEC = 180  # YouTube files square / vertical uploads up to 3 minutes as Shorts
 
-# Long-form layout. Narration flows paragraph by paragraph; shots cut on anchor words and each shot
+# 24 fps is a deliberate render-time optimisation (20% fewer frames than 30 fps).
+FPS = 24
+WIDTH, HEIGHT = (1080, 1920) if SHORT else (1920, 1080)
+UI_SCALE = 1.4 if SHORT else 1.0  # map labels, markers and lines: a Short is watched on a phone held upright
+
+# Layout. Narration flows paragraph by paragraph; shots cut on anchor words and each shot
 # is drawn a few frames longer so the next one can dissolve in over it (3B: tighter pacing).
 TRANSITION_FRAMES = 8
 CARD_TRANSITION_FRAMES = 12  # chapter cards punch in (scale + fade)
-LEAD_IN = 0.4  # seconds of picture before the first word
-PARA_PAUSE = 0.45  # after every paragraph
+LEAD_IN = 0.15 if SHORT else 0.4  # seconds of picture before the first word
+PARA_PAUSE = 0.25 if SHORT else 0.45  # after every paragraph
 CHAPTER_PAUSE = 0.75  # extra pause at the end of a chapter
 CARD_SEC = 2.4  # chapter title card (no narration)
 CUT_LEAD = 0.1  # cuts land slightly before their anchor word
 MIN_SHOT = 1.2  # shortest allowed shot (later anchors are pushed back if needed)
-END_PAD = 2.5  # after the last word (music fade-out)
+END_PAD = 1.6 if SHORT else 2.5  # after the last word (long: music fade-out; short: room for a closing loop wipe)
 
 CACHE_DIR = Path(os.environ.get("YTP_CACHE_DIR", ROOT / ".cache"))
 BUILD_DIR = ROOT / "build"
@@ -39,7 +47,7 @@ MUSIC_DIR = ROOT / "music"
 DEFAULT_VOICE = "am_michael"
 SAMPLE_VOICES = ["bm_george", "am_michael", "am_onyx"]
 SAMPLE_MIN_SECONDS = 10.0
-TTS_SPEED = 1.0
+TTS_SPEED = 1.06 if SHORT else 1.0
 TTS_SAMPLE_RATE = 24000
 
 # Captions
@@ -48,7 +56,11 @@ WHISPER_MODEL = "base.en"
 # Maps (3B). Styles: satellite (NASA Blue Marble), atlas (light vector + relief), midnight (dark vector + relief).
 MAP_STYLE = os.environ.get("MAP_STYLE") or "satellite"
 MAP_STYLES = ("satellite", "atlas", "midnight")
-MAP_SAFE = {"left": 130, "right": 130, "top": 110, "bottom": 200}  # px kept clear when framing (bottom: captions)
+# px kept clear when framing. Long: the bottom holds the captions. Short: the hook line sits on top, and YouTube's own
+# title and buttons cover the bottom and the right edge.
+MAP_SAFE = ({"left": 60, "right": 150, "top": 300, "bottom": 480} if SHORT else
+            {"left": 130, "right": 130, "top": 110, "bottom": 200})
+LABEL_INSET = {"left": 40, "top": 400, "right": 150} if SHORT else {"left": 24, "top": 24, "right": 24}  # map label area
 MAP_DRIFT = 0.009  # slow push-in per second while the camera holds (keeps maps alive)
 
 # Sound effects (procedural, see sfx.py): peak level in dBFS when the voice sits at -14 LUFS

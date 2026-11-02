@@ -25,17 +25,21 @@ def main() -> None:
     stills, out = Path(sys.argv[2]), Path(sys.argv[3])
     out.mkdir(parents=True, exist_ok=True)
     f_big, f_small = font(17), font(14)
-    per = COLS * ROWS
+    first = next((p for it in items if (p := stills / f"frame_{it['frame']:05d}.jpg").exists()), None)
+    portrait = first is not None and Image.open(first).height > Image.open(first).width  # a Short (9:16)
+    cols, rows, w, h = (6, 2, 270, 480) if portrait else (COLS, ROWS, W, H)
+    chars = 28 if portrait else 52
+    per = cols * rows
     for page in range(0, len(items), per):
-        sheet = Image.new("RGB", (COLS * W, ROWS * (H + BAR)), (18, 20, 28))
+        sheet = Image.new("RGB", (cols * w, rows * (h + BAR)), (18, 20, 28))
         draw = ImageDraw.Draw(sheet)
         for k, it in enumerate(items[page:page + per]):
-            x, y = (k % COLS) * W, (k // COLS) * (H + BAR)
+            x, y = (k % cols) * w, (k // cols) * (h + BAR)
             p = stills / f"frame_{it['frame']:05d}.jpg"
             if p.exists():
-                sheet.paste(Image.open(p).convert("RGB").resize((W, H)), (x, y))
-            draw.text((x + 6, y + H + 3), it["label"][:52], fill=(245, 166, 35), font=f_big)
-            draw.text((x + 6, y + H + 24), it["words"][:62], fill=(220, 220, 220), font=f_small)
+                sheet.paste(Image.open(p).convert("RGB").resize((w, h)), (x, y))
+            draw.text((x + 6, y + h + 3), it["label"][:chars], fill=(245, 166, 35), font=f_big)
+            draw.text((x + 6, y + h + 24), it["words"][:chars + 6], fill=(220, 220, 220), font=f_small)
         sheet.save(out / f"storyboard_{page // per + 1:02d}.jpg", quality=82)
     print(f"{len(items)} frames on {(len(items) + per - 1) // per} sheets")
 

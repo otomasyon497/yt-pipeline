@@ -1,5 +1,3 @@
-import {H, W} from './geometry';
-
 // Deterministic text widths (Inter, em units) so label placement is identical in every render tab.
 const NARROW = new Set('ijl.,:;\'|!');
 const SEMI = new Set('frtI1 ()-');
@@ -60,11 +58,10 @@ const boxOf = (req: LabelReq, p: Placement): Box => {
 	return [x0 - 6, yb - req.h * 0.9 - 4, x0 + req.w + 6, yb + req.h * 0.25 + 4];
 };
 
-// Greedy placement. `previous` keeps a label where it was if that spot is still free (no jumping).
-export const placeLabels = (reqs: LabelReq[], safeBottom: number, previous: Map<string, Placement>): Map<string, Placement> => {
+// Greedy placement inside `bounds` (screen px). `previous` keeps a label where it was if that spot is still free (no jumping).
+export const placeLabels = (reqs: LabelReq[], bounds: Box, previous: Map<string, Placement>): Map<string, Placement> => {
 	const out = new Map<string, Placement>();
 	const taken: Box[] = [];
-	const bounds: Box = [24, 24, W - 24, H - safeBottom + 40];
 	const inside = (b: Box) => b[0] >= bounds[0] && b[1] >= bounds[1] && b[2] <= bounds[2] && b[3] <= bounds[3];
 	// Markers are obstacles for every label but their own.
 	const markers = reqs.filter((r) => r.r > 0).map((r) => ({id: r.id, box: [r.x - r.r - 2, r.y - r.r - 2, r.x + r.r + 2, r.y + r.r + 2] as Box}));

@@ -74,6 +74,7 @@ export type MapBlockData = {
 	rho: number;
 	q: number;
 	safeBottom: number;
+	labelBox?: [number, number, number, number]; // screen px map labels stay inside
 	cams: CamKey[];
 	globe: GlobeSpec | null;
 	layers: {f: number; layer: 'day' | 'night'}[];

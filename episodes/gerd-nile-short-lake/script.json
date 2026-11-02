@@ -1,0 +1,117 @@
+{
+  "title": "This Lake Didn't Exist in Early 2020",
+  "format": "short",
+  "voice": "am_michael",
+  "music": "procedural",
+  "map_style": "satellite",
+  "captions": true,
+  "sources": [
+    "Every fact comes from episodes/gerd-nile (fact-checked there, see its research.md and script.json).",
+    "Before/after: Copernicus Sentinel-2 L2A, least cloudy scenes 2020-01-15..2020-03-31 vs 2026-02-01..2026-03-31 (same windows as the long episode). The first filling began in July 2020, so early 2020 had no reservoir.",
+    "Reservoir about 1,874 km2 at full supply level; Greater London 1,572 km2. Main dam 145 m tall. GERD is Africa's biggest hydropower plant (5,150 MW).",
+    "Egypt: 'existential threat'. Ethiopia: 'not a threat, but a shared opportunity' (prime minister at the inauguration, 9 Sep 2025).",
+    "About 85% of the Nile water that reaches Egypt comes from the Ethiopian highlands (Blue Nile plus Atbara and Sobat; FAO, Nile Basin research).",
+    "The lake reached its full level (640 m) in late 2024 and was full at the inauguration; the Feb-Mar 2026 Sentinel-2 scenes show it full."
+  ],
+  "chapters": [
+    {
+      "title": "A Lake Appears",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "Western Ethiopia, early 2020. Now, the same valley six years later.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Early 2020: no lake here",
+              "map": {
+                "steps": [
+                  {
+                    "view": {"lon": 35.31, "lat": 10.86, "span": 0.82},
+                    "date": "2026-02-01/2026-03-31",
+                    "compare": {"before": "2020-01-15/2020-03-31", "after": "2026-02-01/2026-03-31", "seconds": 2.4}
+                  },
+                  {"at": "Now,"}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "A brand-new lake, bigger than all of Greater London. Holding it back, a concrete wall a hundred and forty-five metres tall: the Grand Ethiopian Renaissance Dam.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Bigger than Greater London",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {"at": "Holding it back,", "places": [{"name": "GERD", "lon": 35.093, "lat": 11.215, "kind": "site", "label": "THE DAM"}]}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Downstream, Egypt has called this dam an existential threat. Ethiopia calls it a shared opportunity.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {"routes": [{"path": "Nile from GERD", "color": "accent", "seconds": 3.5}], "highlight": ["Egypt"]},
+                  {"at": "Ethiopia calls", "highlight": ["Ethiopia"]}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Why does that worry Egypt? About eighty-five percent of the Nile water that reaches Egypt starts in the Ethiopian highlands.",
+          "shots": [
+            {
+              "type": "map",
+              "at": "About",
+              "on_screen_text": "About 85% of Egypt's Nile water starts in Ethiopia",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {"arrows": [{"from": [37.8, 10.6], "to": [33.4, 23.6], "color": "accent", "bend": 0.25}]}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The lake is full now. So, which is it: a threat, or an opportunity? Tell me what you think.",
+          "ask": {"at": "So,", "text": "A threat, or an opportunity?"},
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {"view": {"lon": 35.31, "lat": 10.86, "span": 0.82}, "date": "2026-02-01/2026-03-31"},
+                  {
+                    "at": "think.",
+                    "view": {"lon": 35.31, "lat": 10.86, "span": 0.82},
+                    "compare": {"before": "2026-02-01/2026-03-31", "after": "2020-01-15/2020-03-31", "hold": 0.2, "seconds": 1.3}
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "title": "This Lake Didn't Exist in Early 2020",
+    "description": "The same valley in western Ethiopia, early 2020 and six years later, in real Copernicus Sentinel-2 satellite images: the new lake behind the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile.\n\nFull documentary: https://youtu.be/bR4wVyHqct4\n\n#geography #nile #satellite",
+    "tags": ["GERD", "Grand Ethiopian Renaissance Dam", "Nile", "Blue Nile", "Ethiopia", "Egypt", "satellite images", "Sentinel-2", "before and after", "geography", "geopolitics", "shorts"],
+    "pinned_comment": "A threat, or an opportunity? Egypt calls this dam an existential threat, Ethiopia calls it a shared opportunity. Where do you stand? The full story: https://youtu.be/bR4wVyHqct4"
+  }
+}

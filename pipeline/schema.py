@@ -311,6 +311,7 @@ class YouTubeMeta(BaseModel):
 
 class Script(BaseModel):
     title: str
+    format: Literal["long", "short"] = "long"  # short: 9:16 YouTube Short, up to 3 minutes
     voice: str = "am_michael"
     music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | file in /music | "none"
     captions: bool = True
@@ -330,6 +331,18 @@ class Script(BaseModel):
         first = self.chapters[0].paragraphs[0]
         if not self.has_card(0) and not (first.shots and first.anchor_indices()[0] == 0):
             raise ValueError("the video must open with a visual: give the first paragraph a shot at word 0 or a chapter card")
+        return self
+
+    @model_validator(mode="after")
+    def _short(self):
+        if self.format != "short":
+            return self
+        if len(self.chapters) != 1 or self.has_card(0):
+            raise ValueError("a short has one chapter and no chapter card")
+        for p in self.chapters[0].paragraphs:
+            for s in p.shots:
+                if s.type != "map":
+                    raise ValueError(f"short format: only map shots have a vertical layout so far, not {s.type!r}")
         return self
 
 

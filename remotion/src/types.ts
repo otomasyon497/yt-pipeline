@@ -15,7 +15,8 @@ export type ChartSpec = {
 
 // Number inside an on-screen label that counts up ("About $9.6 billion"), decided by pipeline/timeline.py.
 export type CountUp = {prefix: string; value: number; decimals: number; commas: boolean; suffix: string};
-export type ScreenText = {text: string; from: number; countUp: CountUp | null; kind?: 'label' | 'question'; hold?: number};
+// instant: a Short's hook line, fully on screen from the first frame (no slide-in).
+export type ScreenText = {text: string; from: number; countUp: CountUp | null; kind?: 'label' | 'question'; hold?: number; instant?: boolean};
 
 export type KenBurns = {z0: number; z1: number; x0: number; x1: number; y0: number; y1: number};
 
@@ -48,6 +49,7 @@ export type Timeline = {
 	fps: number;
 	width: number;
 	height: number;
+	uiScale?: number; // map labels / markers / lines (1.4 in Shorts)
 	totalFrames: number;
 	showCaptions: boolean;
 	mapStyle: string;

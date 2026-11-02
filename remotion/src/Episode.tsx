@@ -4,6 +4,7 @@ import {Captions} from './components/Captions';
 import {Locator} from './components/Locator';
 import {OnScreenText} from './components/OnScreenText';
 import {QuestionCard} from './components/QuestionCard';
+import {setFrame} from './map/geometry';
 import {MapBlock} from './map/MapBlock';
 import {ChapterCard} from './scenes/ChapterCard';
 import {ChartScene} from './scenes/ChartScene';
@@ -73,7 +74,7 @@ const ShotFrame: React.FC<{shot: ShotData; index: number; look: string}> = ({sho
 				const hold = Math.min(96, (next ? next.from : shot.durationFrames) - t.from - 14);
 				return hold > 20 ? (
 					<Sequence key={k} from={t.from} layout="none">
-						<OnScreenText text={t.text} countUp={t.countUp} delay={0} hold={hold} />
+						<OnScreenText text={t.text} countUp={t.countUp} delay={0} hold={hold} instant={t.instant} />
 					</Sequence>
 				) : null;
 			})}
@@ -81,13 +82,16 @@ const ShotFrame: React.FC<{shot: ShotData; index: number; look: string}> = ({sho
 	);
 };
 
-export const Episode: React.FC<Timeline> = ({shots, words, showCaptions, look}) => (
-	<AbsoluteFill style={{backgroundColor: colors.bg}}>
-		{shots.map((shot, i) => (
-			<Sequence key={shot.id} from={shot.startFrame} durationInFrames={shot.durationFrames} layout="none">
-				<ShotFrame shot={shot} index={i} look={look ?? 'none'} />
-			</Sequence>
-		))}
-		{showCaptions ? <Captions words={words} /> : null}
-	</AbsoluteFill>
-);
+export const Episode: React.FC<Timeline> = ({shots, words, showCaptions, look, width, height, uiScale}) => {
+	setFrame(width, height, uiScale ?? 1); // before any map draws (see map/geometry.ts)
+	return (
+		<AbsoluteFill style={{backgroundColor: colors.bg}}>
+			{shots.map((shot, i) => (
+				<Sequence key={shot.id} from={shot.startFrame} durationInFrames={shot.durationFrames} layout="none">
+					<ShotFrame shot={shot} index={i} look={look ?? 'none'} />
+				</Sequence>
+			))}
+			{showCaptions ? <Captions words={words} /> : null}
+		</AbsoluteFill>
+	);
+};

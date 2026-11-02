@@ -21,7 +21,7 @@ from shapely.geometry import shape
 import geo
 import gibs
 import sentinel
-from config import CACHE_DIR, FPS, HEIGHT, MAP_DRIFT, MAP_SAFE, WIDTH
+from config import CACHE_DIR, FPS, HEIGHT, LABEL_INSET, MAP_DRIFT, MAP_SAFE, UI_SCALE, WIDTH
 
 Q = 10_000_000  # unit Mercator -> int quantisation (0.07 px at a 1-degree view)
 RHO = 1.25  # flight curvature (van Wijk & Nuij); sqrt(2) is d3's default, lower = less zoom-out mid-flight
@@ -501,7 +501,7 @@ def _context_labels(plan: Plan, frames: int) -> list[dict]:
             name = p.get("NAME_EN") or p.get("NAME") or ""
             name = name if len(name) <= 16 else (p.get("NAME") or name)
             bx = geo.to_unit(geo.main_body(g)).bounds
-            if (bx[2] - bx[0]) * k < len(name) * 15 + 40:
+            if (bx[2] - bx[0]) * k < len(name) * 15 * UI_SCALE + 40:
                 continue  # too small on screen for its name
             shown.append(((bx[2] - bx[0]) * (bx[3] - bx[1]), name, lx, ly))
         for _, name, lx, ly in sorted(shown, reverse=True)[:10 if span > 40 else 8]:  # the biggest on screen
@@ -517,7 +517,7 @@ def _context_labels(plan: Plan, frames: int) -> list[dict]:
             ux, uy = float(geo.mx(g.x)), float(geo.my(g.y))
             if not (x0 < ux < x1 and y0 < uy < y1):
                 continue
-            if any(math.hypot((ux - mx_) * k, (uy - my_) * k) < 60 for mx_, my_ in marks + picked):
+            if any(math.hypot((ux - mx_) * k, (uy - my_) * k) < 60 * UI_SCALE for mx_, my_ in marks + picked):
                 continue  # a story marker (or another city) is already there
             picked.append((ux, uy))
             out.append({"kind": "context", "in": start, "out": end, "text": p.get("NAME_EN") or p.get("NAME") or "", "x": round(ux, 7),
@@ -786,9 +786,12 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
                 plan.warnings.append(f"globe texture failed ({exc}); vector globe instead")
         globe["land"] = encode_lonlat_land()
 
+    safe_bottom = MAP_SAFE["bottom"] if captions else MAP_SAFE["top"]
     data = {
         "style": style, "frames": frames, "fps": FPS, "drift": MAP_DRIFT, "rho": RHO, "q": Q,
-        "safeBottom": MAP_SAFE["bottom"] if captions else MAP_SAFE["top"],
+        "safeBottom": safe_bottom,
+        # screen box map labels must stay inside (clear of captions, and in a Short of the hook line and YouTube's buttons)
+        "labelBox": [LABEL_INSET["left"], LABEL_INSET["top"], WIDTH - LABEL_INSET["right"], HEIGHT - safe_bottom + 40],
         "cams": plan.cams, "globe": globe, "layers": plan.layers, "rasters": rasters, "lods": lods,
         "elements": out_elements,
     }

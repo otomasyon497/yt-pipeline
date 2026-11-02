@@ -386,8 +386,11 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     elif plan.view is None:
         target = fit(_bounds_of(frame_items), plan.captions, _span_for(frame_items)) if frame_items else dict(WORLD)
     elif frame_items and not _inside_safe(_bounds_of(frame_items), plan.view, plan.captions):
-        # The camera follows the new content and keeps what is still on screen from earlier steps in frame.
-        still = [e.bounds for e in plan.elements if e.end > f and e.bounds]
+        # The camera follows the new content and keeps what is on screen right now from earlier steps in frame
+        # (overlays that are already out of view, e.g. a city from a world view, do not pull it back out).
+        cur = view_box(plan.view)
+        still = [e.bounds for e in plan.elements if e.end > f and e.bounds and e.bounds[0] < cur[2] and cur[0] < e.bounds[2]
+                 and e.bounds[1] < cur[3] and cur[1] < e.bounds[3]]
         target = fit(union_box([_bounds_of(frame_items), *still]), plan.captions, _span_for(frame_items))
 
     if target is not None and step.date:

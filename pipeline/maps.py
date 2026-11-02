@@ -791,7 +791,8 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
         "style": style, "frames": frames, "fps": FPS, "drift": MAP_DRIFT, "rho": RHO, "q": Q,
         "safeBottom": safe_bottom,
         # screen box map labels must stay inside (clear of captions, and in a Short of the hook line and YouTube's buttons)
-        "labelBox": [LABEL_INSET["left"], LABEL_INSET["top"], WIDTH - LABEL_INSET["right"], HEIGHT - safe_bottom + 40],
+        "labelBox": [LABEL_INSET["left"], LABEL_INSET["top"], WIDTH - LABEL_INSET["right"],
+                     HEIGHT - LABEL_INSET.get("bottom", safe_bottom - 40)],
         "cams": plan.cams, "globe": globe, "layers": plan.layers, "rasters": rasters, "lods": lods,
         "elements": out_elements,
     }

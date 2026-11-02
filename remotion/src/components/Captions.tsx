@@ -5,20 +5,47 @@ import type {Word} from '../types';
 
 type Chunk = {words: Word[]; start: number; end: number};
 
-// Short on-screen phrases: at most `max` words, break after punctuation, never across paragraphs.
-const chunkWords = (words: Word[], max: number): Chunk[] => {
+const chunkOf = (ws: Word[]): Chunk => ({words: ws, start: ws[0].start, end: ws[ws.length - 1].end});
+
+// Short on-screen phrases: at most 6 words, break after punctuation, never across paragraphs.
+const chunkWords = (words: Word[]): Chunk[] => {
 	const chunks: Chunk[] = [];
 	let cur: Word[] = [];
 	const flush = () => {
-		if (cur.length) chunks.push({words: cur, start: cur[0].start, end: cur[cur.length - 1].end});
+		if (cur.length) chunks.push(chunkOf(cur));
 		cur = [];
 	};
 	for (const w of words) {
 		if (cur.length && w.p !== cur[0].p) flush();
 		cur.push(w);
-		if (cur.length >= max || (cur.length >= Math.min(3, max - 2) && /[.,;:!?]$/.test(w.text))) flush();
+		if (cur.length >= 6 || (cur.length >= 3 && /[.,;:!?]$/.test(w.text))) flush();
 	}
 	flush();
+	return chunks;
+};
+
+// Shorts: every clause (up to a punctuation mark, never across paragraphs) split into even pieces of at most `max`
+// words, so a sentence never leaves one word stranded ("Why does that" / "worry Egypt?").
+const chunkClauses = (words: Word[], max: number): Chunk[] => {
+	const clauses: Word[][] = [];
+	let cur: Word[] = [];
+	for (const w of words) {
+		if (cur.length && w.p !== cur[0].p) {
+			clauses.push(cur);
+			cur = [];
+		}
+		cur.push(w);
+		if (/[.,;:!?]$/.test(w.text)) {
+			clauses.push(cur);
+			cur = [];
+		}
+	}
+	if (cur.length) clauses.push(cur);
+	const chunks: Chunk[] = [];
+	for (const c of clauses) {
+		const k = Math.ceil(c.length / max);
+		for (let i = 0; i < k; i++) chunks.push(chunkOf(c.slice(Math.round((i * c.length) / k), Math.round(((i + 1) * c.length) / k))));
+	}
 	return chunks;
 };
 
@@ -28,7 +55,7 @@ export const Captions: React.FC<{words: Word[]}> = ({words}) => {
 	const frame = useCurrentFrame();
 	const {width, height} = useVideoConfig();
 	const vertical = height > width;
-	const chunks = useMemo(() => chunkWords(words, vertical ? 4 : 6), [words, vertical]);
+	const chunks = useMemo(() => (vertical ? chunkClauses(words, 4) : chunkWords(words)), [words, vertical]);
 	const idx = chunks.findIndex((c, i) => {
 		const next = chunks[i + 1];
 		const until = next && next.words[0].p === c.words[0].p ? next.start : c.end + 8;

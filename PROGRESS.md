@@ -2,11 +2,28 @@
 
 ## Status (2026-11-03: the user created the channel and uploaded gerd-nile, the first video; release ep-gerd-nile-41383490424 deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\; the final channel name and handle are not confirmed to me yet; next: the user unlocks advanced features so the pinned comment and chapters work (see notes); Shorts from the episode under discussion, no code yet)
 
-## Channel brand (2026-11-02, proposed)
+## Shorts (2026-11-03, phase S1: vertical format + first Short, waiting for the user's review)
+- The user chose native vertical Shorts (maps redrawn for a phone screen) over YouTube's clip tool or a letterboxed crop
+  of the long video. First Short: "Göl beliriyor" (episodes/gerd-nile-short-lake), facts from the fact-checked gerd-nile.
+- Format switch: script.json `"format": "short"`. run.py reads it before the modules import config, so YTP_FORMAT=short
+  gives 1080x1920, UI scale 1.4 (map labels, markers, lines), lead-in 0.15 s, paragraph pause 0.25 s, end pad 1.6 s
+  (closing loop wipe), TTS speed 1.06, Shorts safe areas (hook line on top; YouTube's title and buttons at the bottom
+  and right). Shorts get no custom thumbnail; prepare() refuses Shorts over 180 s.
+- Remotion: geometry.setFrame(width, height, uiScale) from the timeline; vertical layouts for the on-screen text
+  (Bebas headline near the top; the first one is the hook, on screen from frame 0), captions (4 words, 64 px, above
+  YouTube's UI) and the question card; map labels stay inside a per-block labelBox.
+- Limits: a Short takes map shots only for now (charts, photos, stock and cards have no vertical layout yet).
+- Plan per episode: 2-3 Shorts (a satellite surprise, an own calculation, a two-sided debate), one every 2-3 days,
+  each pointing to the long video (Related Video link once advanced features are on).
+
+## Channel brand (2026-11-02, adopted by the user 2026-11-03)
 - Brief from the user: an original, memorable, evergreen name (not tied to today's format) whose profile picture and banner
   evoke it. Proposed **Ink & Orbit**, tagline "Drawn in ink. Checked from orbit.": the map drawn in ink plus the view from
-  orbit, which is the method of every video. Searches found no YouTube channel with this name. Rejected: Map Verdict
-  (tied to the format), The Why of Where (too close to Geography by Geoff's tagline), Watershed (name taken by others).
+  orbit, which is the method of every video. Rejected: Map Verdict (tied to the format), The Why of Where (too close to
+  Geography by Geoff's tagline), Watershed (name taken by others).
+- Correction (2026-11-03): web searches had missed @InkOrbit ("Ink Orbit", empty) and @InkandOrbit (a small art Shorts
+  channel); both are unrelated to our topics. The user's channel: id UC1h2p6x09doXZRvG4d4M0Sg, handle typed as
+  `@ınkorbııt` (Turkish dotless ı; `/@inkorbiit` redirects to it). Suggested a Latin handle, e.g. @InkOrbitMaps (free).
 - tools/channel_art.py renders three files:
   - profile_800.png: an orthographic globe, one half drawn in ink on paper with waterlining, the other half NASA Blue
     Marble, with the amber wipe line, an amber orbit ring and a satellite.

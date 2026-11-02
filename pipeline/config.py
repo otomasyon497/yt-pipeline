@@ -60,7 +60,8 @@ MAP_STYLES = ("satellite", "atlas", "midnight")
 # title and buttons cover the bottom and the right edge.
 MAP_SAFE = ({"left": 60, "right": 150, "top": 300, "bottom": 480} if SHORT else
             {"left": 130, "right": 130, "top": 110, "bottom": 200})
-LABEL_INSET = {"left": 40, "top": 400, "right": 150} if SHORT else {"left": 24, "top": 24, "right": 24}  # map label area
+# Map label area. Long: down to just under the framing area. Short: above the captions band (y ~1290-1400 of 1920).
+LABEL_INSET = {"left": 40, "top": 400, "right": 150, "bottom": 670} if SHORT else {"left": 24, "top": 24, "right": 24}
 MAP_DRIFT = 0.009  # slow push-in per second while the camera holds (keeps maps alive)
 
 # Sound effects (procedural, see sfx.py): peak level in dBFS when the voice sits at -14 LUFS

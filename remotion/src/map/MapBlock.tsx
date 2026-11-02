@@ -28,7 +28,11 @@ import type {ArrowEl, ChoroplethEl, CompareEl, ContextEl, HighlightEl, MapBlockD
 
 const clamp01 = (t: number) => Math.min(Math.max(t, 0), 1);
 const FADE = 8;
-const life = (e: {in: number; out: number}, f: number) => clamp01((f - e.in) / FADE) * clamp01((e.out - f) / FADE);
+// Overlays fade in and out over FADE frames, except at the block's edges: what is there from frame 0 is there on the
+// first frame (a before/after's 'before' image must hide the present-day imagery under it), and what lasts to the end
+// stays to the last frame (a Short loops straight back to its first frame).
+const life = (e: {in: number; out: number}, f: number, frames: number) =>
+	(e.in <= 0 ? 1 : clamp01((f - e.in) / FADE)) * (e.out >= frames ? 1 : clamp01((e.out - f) / FADE));
 // Before/after wipe: the line sweeps right to left, so the old image stays on the left (reading order).
 const PlacedImg: React.FC<{r: Raster; xf: Xf; filter?: string}> = ({r, xf, filter}) => {
 	const [x0, y0] = toScreen(xf, r.x0, r.y0);
@@ -246,7 +250,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 		return {p: cur ?? prev, vis: before + (now - before) * blend};
 	};
 
-	const visible = data.elements.map((el) => life(el, frame));
+	const visible = data.elements.map((el) => life(el, frame, data.frames));
 	const highlights = data.elements
 		.map((el, i) => ({el, i}))
 		.filter((x): x is {el: HighlightEl; i: number} => x.el.kind === 'highlight' && visible[x.i] > 0);

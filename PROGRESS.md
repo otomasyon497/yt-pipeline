@@ -1,6 +1,23 @@
 # PROGRESS
 
-## Status (2026-11-02: gerd-nile v2 approved by the user ("izledim güzel olmuş"); next: manual YouTube upload by the user (video 15:54, so the channel must be phone-verified), pinned comment from youtube.txt, then delete release ep-gerd-nile-41383490424)
+## Status (2026-11-02: gerd-nile v2 approved by the user ("izledim güzel olmuş"); channel brand "Ink & Orbit" proposed (waiting for the user's OK); next: the user creates the channel, uploads gerd-nile manually (video 15:54, so the channel must be phone-verified), pins the comment from youtube.txt, then delete release ep-gerd-nile-41383490424)
+
+## Channel brand (2026-11-02, proposed)
+- Brief from the user: an original, memorable, evergreen name (not tied to today's format) whose profile picture and banner
+  evoke it. Proposed **Ink & Orbit**, tagline "Drawn in ink. Checked from orbit.": the map drawn in ink plus the view from
+  orbit, which is the method of every video. Searches found no YouTube channel with this name. Rejected: Map Verdict
+  (tied to the format), The Why of Where (too close to Geography by Geoff's tagline), Watershed (name taken by others).
+- tools/channel_art.py renders three files:
+  - profile_800.png: an orthographic globe, one half drawn in ink on paper with waterlining, the other half NASA Blue
+    Marble, with the amber wipe line, an amber orbit ring and a satellite.
+  - banner_2560x1440.jpg: a Mediterranean band. One side is an engraved ink map with a compass rose and hand-lettered sea
+    names, the other is Blue Marble. INK sits on the paper, ORBIT on the satellite image, and the amber "&" on the wipe
+    line. Text stays inside the 1546 x 423 safe area.
+  - preview.png: desktop, phone and TV views, and the avatar at 240/98/48/32 px on dark and light backgrounds.
+- Palette and fonts follow remotion/src/theme.ts (navy, cream and amber; Bebas Neue and Inter). EB Garamond Italic is used
+  for the map lettering. Data: Natural Earth and NASA GIBS. Fonts are under the OFL. The script runs locally in seconds.
+- Files are in C:\Users\MONSTER\Videos\yt-pipeline\channel\, including channel.txt (name, handles, an 887-character
+  description and 341 characters of keywords).
 
 ## Pilot episode: gerd-nile (2026-11-02, user: "make it original and watchable; you decide the process")
 - Process (decided with the user): research dossier with sources and own calculations -> visual inventory (Sentinel-2

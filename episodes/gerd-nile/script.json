@@ -21,7 +21,7 @@
    "mood": "tension",
    "paragraphs": [
     {
-     "text": "In March 2020, this was a quiet river valley in western Ethiopia: forest, small farms, and the Blue Nile winding through the middle. Now watch the same valley, six years later.",
+     "text": "At the start of 2020, this was a quiet river valley in western Ethiopia: dry woodland, low hills, and the Blue Nile winding through the middle. Now watch the same valley, six years later.",
      "shots": [
       {
        "type": "map",
@@ -31,9 +31,9 @@
         "steps": [
          {
           "view": {
-           "lon": 35.13,
-           "lat": 11.02,
-           "span": 0.9
+           "lon": 35.2,
+           "lat": 11.0,
+           "span": 1.05
           },
           "compare": {
            "before": "2020-01-15/2020-03-31",
@@ -1513,9 +1513,9 @@
         "steps": [
          {
           "view": {
-           "lon": 35.13,
-           "lat": 11.02,
-           "span": 0.9
+           "lon": 35.2,
+           "lat": 11.0,
+           "span": 1.05
           }
          }
         ]
@@ -2032,9 +2032,9 @@
         "steps": [
          {
           "view": {
-           "lon": 35.13,
-           "lat": 11.02,
-           "span": 0.9
+           "lon": 35.2,
+           "lat": 11.0,
+           "span": 1.05
           }
          },
          {

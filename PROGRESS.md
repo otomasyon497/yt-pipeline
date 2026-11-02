@@ -52,6 +52,11 @@
 - 24 fps; render concurrency 2, jpeg frames, x264 veryfast crf 20; audio muted in Remotion, mixed + muxed by ffmpeg.
 - Secrets are sanitised (pasted curly quotes broke the Pexels header once) via `config.secret()`.
 - Remotion licence: free for individuals / companies up to 3 people.
+- YouTube "altered content" question (YouTube Help 14328491, checked 2026-11-02): answer "No" for our usual episode. A
+  synthetic narrator that imitates no real person, real (tone-mapped) satellite imagery, procedural background music and
+  AI thumbnails do not need disclosure. Answer "Yes" if a video shows a realistic AI scene, alters footage of a real
+  place or event, or makes AI music the main focus. Disclosure alone does not limit reach or monetisation.
+  The description already says "Narration: synthetic voice".
 - Cache: actions/cache `assets-<run_id>` + prefix restore; HF models separate.
 - Test script facts are illustrative (see `sources`) - fact-check before real use.
 

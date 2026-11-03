@@ -1,0 +1,1585 @@
+{
+  "title": "The Caspian Sea Is Leaving",
+  "voice": "am_michael",
+  "music": "procedural",
+  "map_style": "satellite",
+  "look": "cool",
+  "captions": true,
+  "sources": [
+    "Every claim is checked against episodes/caspian-sea/research.md (sources, own calculations, both sides of contested points).",
+    "Levels: Kazhydromet bulletin 30.07.2021 (1900 -25.74, 1977 -29.01, 1995 -26.62, 2020 -28.23 m BS); Kazakh Research Institute of the Caspian Sea via Euronews 7 Oct 2026 (Kazakh sector -26.82 m in 1996, -29.27 m in 2025); report.az (9 Jan 2026, -29.11 m).",
+    "Area: Shirshov Institute (28,644 km2 since 1996, 7.4 %); Kazakh institute (about 16,384 km2, NE study area, 2000-2025); own MODIS count (research.md, own calculation 1).",
+    "Causes: Chen et al. 2017 GRL (evaporation dominant, about half 1996-2015); Shokri & AghaKouchak, UNU-INWEH, 22 Jun 2026 (evaporation about 40 %); Koriche via Euronews (human use up to 7 m more).",
+    "Projections: Samant & Prange 2023 (about 8 m SSP2-4.5, about 14 m SSP5-8.5, northern basin dries); Court et al. 2025 (5-10 m below 2 C; 81 % of seal breeding ice at 5 m; Kashagan and Filanovsky landlocked at 5-15 m; sturgeon habitat 25-45 %).",
+    "History: Pechora-Kama canal / Taiga test (Wikipedia, Nordyke 1998); Garabogazkol dam 1980, dry by 1984, opened 1992 (Wikipedia, Kosarev 2008, Micklin 1994); 1978-1995 rise and flooding (Kazhydromet; PSMSL/UNESCO).",
+    "Seals: Kaspika 17 Jan 2019 (Durneva about 30,000 in 2011, none found in 2018); Euronews 7 Oct 2026.",
+    "Response: Caspian Environmental Summit, Avaza, 9 Oct 2026 (APA, Trend, Astana Times); Kazakhstan's water minister, Times of Central Asia 8 Jun 2026 (about 35 billion m3 in 2.5 years)."
+  ],
+  "chapters": [
+    {
+      "title": "A Sea in Retreat",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "This is the north-eastern corner of the Caspian Sea in September 2000, seen by a NASA satellite. The water is shallow and green, and a long bay reaches far into the desert. Seals come ashore on the low islands. Now watch the same coast in August 2025.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite images · NASA MODIS",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.7,
+                      "lat": 45.6,
+                      "span": 7.6
+                    },
+                    "compare": {
+                      "source": "modis",
+                      "before": "2000-09-05",
+                      "after": "2025-08-24",
+                      "seconds": 4.0
+                    }
+                  },
+                  {
+                    "at": "Now watch"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The bay has become a salt flat, and the seal islands are joined to the shore. Along this coast, Kazakhstan's new Caspian research institute counts about sixteen thousand square kilometres of water that turned into land between 2000 and 2025. That is more than the whole of Montenegro.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "places": [
+                      {
+                        "name": "Kaydak",
+                        "lon": 54.05,
+                        "lat": 45.05,
+                        "kind": "label",
+                        "label": "KAYDAK BAY"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "the seal islands",
+                    "places": [
+                      {
+                        "name": "Durneva Island",
+                        "lon": 52.75,
+                        "lat": 45.467,
+                        "kind": "site",
+                        "label": "Durneva Island"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "Along this coast",
+              "on_screen_text": "About 16,000 km² of water became land, 2000-2025",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The Caspian is the largest lake on Earth. In January 2026 its level fell below the lowest point on record, set back in 1977. In October, the leaders of the five countries around it met at their first summit on the sea's environment, and agreed to find out why it is shrinking.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "January 2026: below the 1977 record",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    },
+                    "places": [
+                      {
+                        "name": "Caspian Sea",
+                        "lon": 50.6,
+                        "lat": 42.4,
+                        "kind": "sea",
+                        "label": "CASPIAN SEA"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "In October",
+                    "places": [
+                      {
+                        "name": "Avaza",
+                        "lon": 52.86,
+                        "lat": 40.02,
+                        "kind": "event",
+                        "label": "Avaza summit, Oct 2026"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The last time this sea fell so far, the Soviet Union set off nuclear explosions to help save it. Then the sea did something nobody had planned for. To know whether it could do that again, you need to know how this sea works.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Perm region, Russia: a crater from 1971",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 56.599,
+                      "lat": 61.306,
+                      "span": 0.09
+                    },
+                    "date": "2025-06-15/2025-08-31"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "title_card",
+              "at": "To know whether",
+              "on_screen_text": "THE SEA THAT IS LEAVING",
+              "subtitle": "Five countries, one shrinking sea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A Sea With No Exit",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "The Caspian is shared by Russia, Kazakhstan, Turkmenistan, Iran and Azerbaijan. It covers about three hundred and seventy thousand square kilometres, a little more than Germany, and its surface sits about twenty-nine metres below the level of the world's oceans. Its water is about a third as salty as the ocean.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "globe": true,
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    },
+                    "places": [
+                      {
+                        "name": "Caspian Sea",
+                        "lon": 50.6,
+                        "lat": 42.4,
+                        "kind": "sea",
+                        "label": "CASPIAN SEA"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "a little more than Germany",
+                    "true_size": {
+                      "country": "Germany",
+                      "to": [
+                        50.8,
+                        42.0
+                      ],
+                      "label": "Germany"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Whether it counts as a sea or a lake affects how its seabed and oil are shared. In 2018 the five leaders signed a convention in Aktau that gives the Caspian a status of its own, neither sea nor lake, and keeps out the warships of outside countries.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "In 2018",
+              "photo": "Heads of State of Caspian littoral states made press statements at Aktau Summit 6.jpg",
+              "where": [
+                51.17,
+                43.65
+              ],
+              "where_label": "Aktau, Kazakhstan, August 2018"
+            }
+          ]
+        },
+        {
+          "text": "Inside, it is really three seas. The southern basin is more than a thousand metres deep. The middle one averages about a hundred and ninety. And the north, where the Volga flows in, is a vast shallow shelf, five or six metres deep on average. It holds less than one percent of the Caspian's water.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "at": "The southern basin",
+                    "places": [
+                      {
+                        "name": "South basin",
+                        "lon": 51.2,
+                        "lat": 38.9,
+                        "kind": "label",
+                        "label": "SOUTH: OVER 1,000 M"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "The middle one",
+                    "places": [
+                      {
+                        "name": "Middle basin",
+                        "lon": 50.6,
+                        "lat": 41.9,
+                        "kind": "label",
+                        "label": "MIDDLE: ABOUT 190 M"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "And the north",
+                    "places": [
+                      {
+                        "name": "North basin",
+                        "lon": 50.2,
+                        "lat": 45.5,
+                        "kind": "label",
+                        "label": "NORTH: 5-6 M"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "And it has no exit. Rivers pour water in, about four fifths of it from the Volga, and the sun takes it back out. Nothing flows on to the ocean. So the height of the whole sea comes down to one balance: what the rivers bring against what evaporates.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Volga: about 80% of the inflow",
+              "map": {
+                "steps": [
+                  {
+                    "routes": [
+                      {
+                        "path": "Volga",
+                        "color": "blue",
+                        "label": "Volga",
+                        "seconds": 5
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "So the height",
+              "query": "sun shining over calm sea water surface"
+            }
+          ]
+        },
+        {
+          "text": "That balance matters most in the north. When the level drops by a metre, the deep south hardly shows it, but the flat northern shore can retreat by kilometres. The north is also where seals give birth on the winter ice and sturgeon swim up the rivers to spawn, and where Kazakhstan pumps oil from the Kashagan field.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.2,
+                      "lat": 45.4,
+                      "span": 7.0
+                    },
+                    "date": "2025-08-24"
+                  },
+                  {
+                    "at": "where Kazakhstan pumps",
+                    "places": [
+                      {
+                        "name": "Kashagan",
+                        "lon": 52.454,
+                        "lat": 46.636,
+                        "kind": "site",
+                        "label": "Kashagan oil field"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The Caspian has risen and fallen for as long as anyone has measured it, and the last time it fell this far, the Soviet government tried to stop it.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "grey sea waves on empty shore overcast"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Soviet Panic",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "In 1900 the sea stood at about minus twenty-five point seven metres. Over the next seventy-seven years it fell by more than three metres, down to minus twenty-nine in 1977, the lowest level on record.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "line",
+                "title": "Caspian Sea level",
+                "unit": "metres",
+                "data": [
+                  [
+                    "1900",
+                    -25.7
+                  ],
+                  [
+                    "1977",
+                    -29.0
+                  ]
+                ],
+                "source": "Kazhydromet (Baltic height system)"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Soviet planners wanted to bring in more water. Rivers in the north of Russia flow away to the Arctic. The idea was to turn part of that flow south, through a canal into the Kama, then the Volga, and on to the Caspian.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 52.0,
+                      "lat": 55.5,
+                      "span": 30
+                    }
+                  },
+                  {
+                    "at": "The idea was",
+                    "arrows": [
+                      {
+                        "from": [
+                          57.4,
+                          63.2
+                        ],
+                        "to": [
+                          56.0,
+                          59.6
+                        ],
+                        "color": "blue",
+                        "label": "Pechora to Kama canal",
+                        "bend": 0.15
+                      }
+                    ]
+                  },
+                  {
+                    "at": "then the Volga",
+                    "routes": [
+                      {
+                        "path": "Volga",
+                        "color": "blue",
+                        "label": "Volga",
+                        "seconds": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "To dig the canal, they used nuclear explosives. On the twenty-third of March 1971, in the forest of the Perm region, three nuclear charges of fifteen kilotons each went off together underground. The blast tore open a crater about seven hundred metres long. It is still there, filled with water.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "The Taiga test, 23 March 1971",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 56.599,
+                      "lat": 61.306,
+                      "span": 0.09
+                    },
+                    "date": "2025-06-15/2025-08-31"
+                  },
+                  {
+                    "at": "It is still there",
+                    "places": [
+                      {
+                        "name": "Taiga crater",
+                        "lon": 56.599,
+                        "lat": 61.306,
+                        "kind": "site",
+                        "label": "Crater lake"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "But a whole canal would have needed hundreds of blasts, and the idea was dropped. A cheaper plan targeted a lagoon on the east coast, the Kara-Bogaz-Gol. It is huge and shallow, about eighteen thousand square kilometres, and it takes in Caspian water through a narrow strait and lets the sun evaporate it. To the planners it looked like a drain. So in March 1980 they dammed the strait.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "aerial view of empty forest lake"
+            },
+            {
+              "type": "photo",
+              "at": "A cheaper plan",
+              "photo": "Earth observation (iss068e026829).jpeg",
+              "where": [
+                53.4,
+                41.3
+              ],
+              "where_label": "Kara-Bogaz-Gol, Turkmenistan"
+            },
+            {
+              "type": "map",
+              "at": "To the planners",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 53.2,
+                      "lat": 41.3,
+                      "span": 4.5
+                    },
+                    "places": [
+                      {
+                        "name": "Kara-Bogaz-Gol",
+                        "lon": 53.5,
+                        "lat": 41.3,
+                        "kind": "label",
+                        "label": "KARA-BOGAZ-GOL"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "It worked all too well. By 1984 the lagoon had dried out completely, and salt from its bed blew across the steppe, damaging the soil and people's health far downwind.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "white salt flat dust wind desert"
+            }
+          ]
+        },
+        {
+          "text": "Then the sea turned around. From 1978 the level rose year after year, about two and a half metres in all, and by 1995 it was back at minus twenty-six point six. The water flooded more than four hundred thousand hectares of coast. It destroyed roads, power lines and fish farms, and people had to be moved. In 1992 Turkmenistan opened the dam and the lagoon filled up again. The Soviet river plan had already been abandoned in 1986.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "line",
+                "title": "Caspian Sea level",
+                "unit": "metres",
+                "data": [
+                  [
+                    "1900",
+                    -25.7
+                  ],
+                  [
+                    "1977",
+                    -29.0
+                  ],
+                  [
+                    "1995",
+                    -26.6
+                  ]
+                ],
+                "source": "Kazhydromet (Baltic height system)",
+                "highlight": 2
+              }
+            },
+            {
+              "type": "stock",
+              "at": "The water flooded",
+              "query": "flooded coastal road sea water"
+            },
+            {
+              "type": "photo",
+              "at": "In 1992",
+              "photo": "Garabogazköl Basin (MODIS 2021-11-20).jpg",
+              "where": [
+                53.4,
+                41.3
+              ],
+              "where_label": "Kara-Bogaz-Gol, refilled (2021)"
+            }
+          ]
+        },
+        {
+          "text": "The planners of the 1970s had prepared for a sea that would keep falling, and it went the other way. Is today's fall one more swing of a sea that has always come back, or is something different this time? What's your guess?",
+          "ask": {
+            "at": "is today's fall",
+            "text": "Today's fall: one more swing, or something different?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "Is today's fall",
+              "photo": "ISS-44 Night view of the Caspian Sea.jpg",
+              "where": [
+                50.5,
+                41.5
+              ],
+              "where_label": "The Caspian at night, from the ISS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Fall",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "That rise ended in the mid-1990s, and the sea has been falling ever since. In the Kazakh sector the level dropped from minus twenty-six point eight in 1996 to minus twenty-nine point three in 2025, close to two and a half metres. And in January 2026 it slipped below the record low of 1977.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "line",
+                "title": "Caspian Sea level",
+                "unit": "metres",
+                "data": [
+                  [
+                    "1900",
+                    -25.7
+                  ],
+                  [
+                    "1977",
+                    -29.0
+                  ],
+                  [
+                    "1995",
+                    -26.6
+                  ],
+                  [
+                    "2020",
+                    -28.2
+                  ],
+                  [
+                    "2025",
+                    -29.3
+                  ]
+                ],
+                "source": "Kazhydromet; Kazakh Research Institute of the Caspian Sea",
+                "ref": [
+                  -29.0,
+                  "1977 record low"
+                ],
+                "highlight": 4
+              }
+            },
+            {
+              "type": "map",
+              "at": "close to two and a half metres",
+              "on_screen_text": "1996 to 2025: almost 2.5 metres lower",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.2,
+                      "lat": 45.4,
+                      "span": 7.0
+                    },
+                    "date": "2025-08-24"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "And in January 2026",
+              "on_screen_text": "9 January 2026: −29.11 m",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "And it is speeding up. In just five years, from 2020 to 2025, the level fell by about a metre, roughly twenty centimetres a year.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "2020 to 2025: about 1 metre lower",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.2,
+                      "lat": 45.4,
+                      "span": 7.0
+                    },
+                    "date": "2025-08-24"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "We wanted to check the loss ourselves. We took NASA's daily images of the north-eastern corner you saw at the start, picked the clear days in August and September, three summers at the start of the century and the last three summers, and counted the water. In the early 2000s there were about fifty-eight thousand square kilometres of open water in this box. In the last three summers, about forty-five thousand.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Our count · NASA MODIS",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.7,
+                      "lat": 45.6,
+                      "span": 7.6
+                    },
+                    "compare": {
+                      "source": "modis",
+                      "before": "2000-09-05",
+                      "after": "2025-08-24",
+                      "hold": 1.5,
+                      "seconds": 3.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "picked the clear days",
+              "photo": "ISS-31 Sor Kaydak near the northeast Caspian Sea in Kazakhstan.jpg",
+              "where": [
+                53.9,
+                45.1
+              ],
+              "where_label": "Sor Kaydak, Kazakhstan, from the ISS"
+            },
+            {
+              "type": "chart",
+              "at": "In the early 2000s",
+              "chart": {
+                "type": "bar",
+                "title": "Open water in this box",
+                "unit": " km²",
+                "data": [
+                  [
+                    "Summers 2000-2002",
+                    58000
+                  ],
+                  [
+                    "Summers 2023-2025",
+                    44600
+                  ]
+                ],
+                "source": "NASA MODIS Terra; our pixel count, median of clear days",
+                "highlight": 1
+              }
+            }
+          ]
+        },
+        {
+          "text": "So the box lost about thirteen thousand square kilometres of water. Kazakhstan's institute, measuring its own study area from 2000 to 2025, found about sixteen thousand. For the whole sea, the Shirshov Institute of Oceanology in Moscow counts twenty-eight thousand six hundred square kilometres of water surface lost since 1996, about seven percent, or roughly the area of Albania.",
+          "shots": [
+            {
+              "type": "map",
+              "at": "For the whole sea",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  },
+                  {
+                    "at": "roughly the area",
+                    "true_size": {
+                      "country": "Albania",
+                      "to": [
+                        50.0,
+                        45.3
+                      ],
+                      "label": "Albania"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Those numbers also tell us how much water is gone. A sea of this size that drops nearly two and a half metres loses more than nine hundred cubic kilometres. Ethiopia's giant Nile dam, the one we followed in our last video, holds seventy-four. The Caspian has lost twelve times that.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "How much water is that?",
+                "unit": " km³",
+                "data": [
+                  [
+                    "Caspian, lost since 1996",
+                    913
+                  ],
+                  [
+                    "Ethiopia's GERD reservoir",
+                    74
+                  ]
+                ],
+                "source": "Our calculation: Shirshov Institute area, Kazakh level data; GERD reservoir 74 km³",
+                "highlight": 0
+              }
+            },
+            {
+              "type": "map",
+              "at": "Ethiopia's giant Nile dam",
+              "on_screen_text": "GERD reservoir, Ethiopia: 74 km³",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 35.31,
+                      "lat": 10.86,
+                      "span": 0.82
+                    },
+                    "date": "2026-02-01/2026-03-31"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Where all that water went is the part scientists still argue about.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "heat haze over sea horizon sunlight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Who Is Draining It?",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "The first explanation is a warmer climate. In 2017, researchers at the University of Texas rebuilt the Caspian's water budget from climate data and river records. They found that more evaporation, from warmer air over the sea, was the main reason the rise of the eighties and nineties turned into a fall. Their numbers match the record: a rise of about thirteen centimetres a year until 1995, then a fall of almost seven centimetres a year. By their estimate it explains about half of the decline between 1996 and 2015.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "sunlight over sea water evaporation mist",
+              "on_screen_text": "Explanation one: a warmer climate"
+            },
+            {
+              "type": "map",
+              "at": "They found",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    },
+                    "places": [
+                      {
+                        "name": "Caspian Sea",
+                        "lon": 50.6,
+                        "lat": 42.4,
+                        "kind": "sea",
+                        "label": "CASPIAN SEA"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "Their numbers match the record",
+              "chart": {
+                "type": "bar",
+                "title": "The sea's speed",
+                "unit": " cm a year",
+                "data": [
+                  [
+                    "Rise, 1979-1995",
+                    12.7
+                  ],
+                  [
+                    "Fall, 1996-2015",
+                    6.7
+                  ]
+                ],
+                "source": "Chen et al. 2017, Geophysical Research Letters",
+                "highlight": 1
+              }
+            }
+          ]
+        },
+        {
+          "text": "The second explanation is people. In June 2026 two researchers writing for the United Nations University argued that evaporation explains only about forty percent of the water lost since the mid-1990s. The rest, they wrote, points overwhelmingly toward human activity. Rainfall over the Volga basin has even gone up a little.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "irrigation canal through farm fields aerial",
+              "on_screen_text": "Explanation two: people"
+            },
+            {
+              "type": "chart",
+              "at": "argued that evaporation",
+              "chart": {
+                "type": "bar",
+                "title": "How much is evaporation?",
+                "unit": "%",
+                "data": [
+                  [
+                    "Chen et al. 2017 (about half)",
+                    50
+                  ],
+                  [
+                    "UN University 2026",
+                    40
+                  ]
+                ],
+                "source": "Share of the decline explained by evaporation: Chen et al. 2017 (1996-2015); Shokri & AghaKouchak, UNU-INWEH 2026 (since the mid-1990s)",
+                "highlight": 1
+              }
+            }
+          ]
+        },
+        {
+          "text": "The obvious suspect is the Volga. Around four fifths of the river water reaching the Caspian comes down this one river, and on the way it passes a long chain of dams and reservoirs inside Russia. A University of Alabama researcher told Euronews that in some scenarios, human water use could add as much as seven metres to the sea's decline.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "routes": [
+                      {
+                        "path": "Volga",
+                        "color": "blue",
+                        "label": "Volga",
+                        "seconds": 5
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "A University of Alabama",
+              "query": "hydroelectric dam river reservoir aerial"
+            }
+          ]
+        },
+        {
+          "text": "Even the governments around the sea have not settled this. As we'll see, the commission they set up in October has one main job: to find the causes.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "So what do you think is draining the Caspian: a warmer sky, or the dams and fields upstream? Both sides have real science behind them, so I'd like to hear where you come down.",
+          "ask": {
+            "at": "So what do you think",
+            "text": "Warmer skies or thirsty dams: what is draining the Caspian?"
+          },
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "river flowing through dry plain aerial"
+            }
+          ]
+        },
+        {
+          "text": "We check stories like this one from orbit, with real satellite images. If you want to see what this coast looks like next year, subscribe.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.7,
+                      "lat": 45.6,
+                      "span": 7.6
+                    },
+                    "date": "2025-08-24"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What a Smaller Sea Costs",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "Whatever the cause, the countries are already paying for it. Kazakhstan is deepening its two main Caspian ports, Aktau and Kuryk, at a cost of about forty and fifty-seven million dollars, and Azerbaijan is dredging around Baku. These ports are part of the Middle Corridor, the trade route between China and Europe that crosses the Caspian by ship.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 50.6,
+                      "lat": 42.0,
+                      "span": 7.5
+                    }
+                  },
+                  {
+                    "at": "Aktau and Kuryk",
+                    "places": [
+                      {
+                        "name": "Aktau",
+                        "lon": 51.17,
+                        "lat": 43.65,
+                        "kind": "port"
+                      },
+                      {
+                        "name": "Kuryk",
+                        "lon": 51.66,
+                        "lat": 43.17,
+                        "kind": "port"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "and Azerbaijan",
+                    "places": [
+                      {
+                        "name": "Baku",
+                        "lon": 49.87,
+                        "lat": 40.41,
+                        "kind": "port"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "These ports",
+                    "arrows": [
+                      {
+                        "from": [
+                          51.17,
+                          43.65
+                        ],
+                        "to": [
+                          49.87,
+                          40.41
+                        ],
+                        "color": "accent",
+                        "label": "Middle Corridor",
+                        "bend": 0.2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Further north, oil is at stake. Kazakhstan's offshore Kashagan oil field lies in the shallow north and is supplied by ship, like Russia's Filanovsky field. A 2025 study led by the University of Leeds found that both would end up on dry land if the sea fell by five to fifteen metres.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.5,
+                      "lat": 46.0,
+                      "span": 5.0
+                    },
+                    "date": "2025-08-24",
+                    "places": [
+                      {
+                        "name": "Kashagan",
+                        "lon": 52.454,
+                        "lat": 46.636,
+                        "kind": "site",
+                        "label": "Kashagan oil field"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "A 2025 study",
+              "query": "offshore oil platform supply ship"
+            }
+          ]
+        },
+        {
+          "text": "The seals are already feeling it. The Caspian seal lives nowhere else on Earth. A century ago there were more than a million of them. Today there are around a hundred thousand. They give birth on the winter ice of the shallow north and rest on low islands.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Caspian seal: found nowhere else",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 50.8,
+                      "lat": 45.3,
+                      "span": 6.5
+                    },
+                    "date": "2025-08-24"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "They give birth",
+              "photo": "North Caspian Ice-up (MODIS).jpg",
+              "where": [
+                50.5,
+                45.8
+              ],
+              "where_label": "North Caspian ice, December 2022"
+            }
+          ]
+        },
+        {
+          "text": "This is the coast around Durneva Island from space. In 2011, Kazakh scientists counted about thirty thousand seals on the island. In 2018 they could not find a single one. Researchers told Euronews that another island nearby, where thousands of seals still gathered in 2021, could be reached by car two years later.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Durneva Island · Copernicus Sentinel-2",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 52.75,
+                      "lat": 45.45,
+                      "span": 0.6
+                    },
+                    "compare": {
+                      "before": "2019-06-01/2019-09-30",
+                      "after": "2026-05-15/2026-09-30",
+                      "seconds": 4.0
+                    }
+                  },
+                  {
+                    "at": "In 2011"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "A fall of just five metres could wipe out up to eighty-one percent of the ice where the seals breed, the Leeds team estimates, and cut them off from every place they haul out today. Sturgeon, the source of the Caspian's famous caviar, could lose a quarter to almost half of their shallow summer habitat.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "Area reductions under Caspian Sea level decline for Caspian seal breeding and sturgeon habitats.png"
+            },
+            {
+              "type": "photo",
+              "at": "Sturgeon",
+              "photo": "FMIB 46066 Huso.jpeg"
+            }
+          ]
+        },
+        {
+          "text": "On the Iranian coast, Gorgan Bay is drying out. Iran dredged a channel to let the sea back in, and when it opened in 2023 the bay rose by forty centimetres. In late 2025, an Iranian watchdog warned that only three to five years were left to save it.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Gorgan Bay, Iran · Copernicus Sentinel-2",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 53.75,
+                      "lat": 36.83,
+                      "span": 0.75
+                    },
+                    "compare": {
+                      "before": "2019-06-01/2019-09-30",
+                      "after": "2025-06-01/2025-09-30",
+                      "seconds": 3.6
+                    }
+                  },
+                  {
+                    "at": "Iran dredged"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "All of this is happening at today's level, and the forecasts for this century go much lower.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "cracked dry mud close up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Shore of 2100",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "In 2023, two climate scientists at the University of Bremen ran fifteen climate models to the end of the century. Their best estimate is that the Caspian falls about eight metres by 2100 if emissions follow a middle path, and about fourteen metres if they keep rising fast. The Leeds team found that even if warming stays below two degrees, a drop of five to ten metres is likely.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "Their best estimate",
+              "chart": {
+                "type": "bar",
+                "title": "Projected fall by 2100",
+                "unit": " m",
+                "data": [
+                  [
+                    "Middle path (SSP2-4.5)",
+                    8
+                  ],
+                  [
+                    "High emissions (SSP5-8.5)",
+                    14
+                  ]
+                ],
+                "source": "Samant & Prange 2023, 15 climate models (CC BY 4.0)",
+                "highlight": 0
+              }
+            },
+            {
+              "type": "map",
+              "at": "The Leeds team found",
+              "on_screen_text": "Even below 2 °C: 5 to 10 metres (Leeds, 2025)",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "To see what that means on the map, we took NOAA's chart of the sea floor and drew the coast the Caspian would have after each drop. Five metres lower, most of the northern shelf is already dry. A University of Alabama researcher puts the seabed exposed by that first five metres at about seventy-seven thousand square kilometres, roughly the size of Czechia. Ten metres lower, the northern basin, more than sixty thousand square kilometres of water today, is almost gone. In our calculation, less than four thousand are left. At fourteen metres, almost nothing remains of it.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Our map · NOAA seafloor data",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 50.4,
+                      "lat": 43.6,
+                      "span": 13
+                    },
+                    "date": "2025-08-24"
+                  },
+                  {
+                    "at": "Five metres lower",
+                    "highlight": [
+                      "seafloor:caspian:5"
+                    ]
+                  },
+                  {
+                    "at": "Ten metres lower",
+                    "clear": true,
+                    "highlight": [
+                      "seafloor:caspian:10"
+                    ]
+                  },
+                  {
+                    "at": "At fourteen metres",
+                    "clear": true,
+                    "highlight": [
+                      "seafloor:caspian:14"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The Bremen study comes to the same conclusion: the whole northern Caspian dries out, including the ice where the seals breed and the waters around Kashagan.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "at": "around Kashagan",
+                    "places": [
+                      {
+                        "name": "Kashagan",
+                        "lon": 52.454,
+                        "lat": 46.636,
+                        "kind": "site",
+                        "label": "Kashagan oil field"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "The five countries now face a hard choice. They can keep dredging and adapt to a smaller sea, or spend billions trying to bring in water from somewhere else, the kind of plan the Soviets once tried. Which would you choose?",
+          "ask": {
+            "at": "They can keep",
+            "text": "Adapt to a smaller sea, or try to bring water in?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "or spend billions",
+              "query": "excavator digging large canal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Five Countries, One Commission",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "On the ninth of October 2026, the leaders of the five countries signed a joint decision at a summit in Avaza, on Turkmenistan's coast. It sets up a commission whose first job is to find out why the sea is falling. Its first meeting is planned for the first half of 2027, in Azerbaijan. They also presented an action plan for the ten years to 2036.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.5,
+                      "lat": 40.6,
+                      "span": 7.0
+                    },
+                    "places": [
+                      {
+                        "name": "Avaza",
+                        "lon": 52.86,
+                        "lat": 40.02,
+                        "kind": "event",
+                        "label": "Avaza summit, 9 Oct 2026"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "in Azerbaijan",
+                    "places": [
+                      {
+                        "name": "Baku",
+                        "lon": 49.87,
+                        "lat": 40.41,
+                        "kind": "capital"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Kazakhstan's water minister says the country has sent around thirty-five billion cubic metres of river water into the sea over the past two and a half years. Compared with what the Caspian has lost since 1996, that is less than four percent.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "river delta flowing into sea aerial"
+            },
+            {
+              "type": "chart",
+              "at": "Compared with what",
+              "chart": {
+                "type": "bar",
+                "title": "Water in, water out",
+                "unit": " km³",
+                "data": [
+                  [
+                    "Caspian, lost since 1996",
+                    913
+                  ],
+                  [
+                    "Sent in by Kazakhstan, 2.5 years",
+                    35
+                  ]
+                ],
+                "source": "Our calculation; Kazakhstan's water ministry, June 2026",
+                "highlight": 1
+              }
+            }
+          ]
+        },
+        {
+          "text": "Meanwhile, near Kulaly Island, new land keeps appearing. A volunteer flying over the area this autumn photographed an island so new that it has no name. Kazakh scientists expect more to come, though not all of it will last. It depends on the wind, the waves and the level of a sea that has surprised people before.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Kulaly Island · Copernicus Sentinel-2",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 50.15,
+                      "lat": 44.93,
+                      "span": 0.9
+                    },
+                    "compare": {
+                      "before": "2021-06-01/2021-09-30",
+                      "after": "2026-05-15/2026-09-30",
+                      "seconds": 4.0
+                    }
+                  },
+                  {
+                    "at": "A volunteer"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "If the forecasts are right, the north of the Caspian will be gone by the end of this century. So whose problem is that: the five countries on its shore, or the whole warming world? Tell me in the comments.",
+          "ask": {
+            "at": "So whose problem",
+            "text": "Whose problem is it: the five shore states, or the warming world?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 50.4,
+                      "lat": 43.6,
+                      "span": 13
+                    },
+                    "date": "2025-08-24",
+                    "highlight": [
+                      "seafloor:caspian:14"
+                    ]
+                  },
+                  {
+                    "at": "So whose problem",
+                    "view": {
+                      "lon": 51.0,
+                      "lat": 41.9,
+                      "span": 25
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "text": "GONE BY 2100?",
+    "prompt": "satellite view of a shrinking inland sea coast, white salt flats and turquoise shallow water meeting brown desert, dramatic contrast"
+  },
+  "youtube": {
+    "title": "The Caspian Sea Just Broke Its 1977 Record Low",
+    "description": "In January 2026 the Caspian, the world's largest lake, fell below its 1977 record low, and new islands keep appearing off Kazakhstan. In 1971 the Soviet Union set off nuclear explosions to help save this sea, and then the sea surprised everyone. We measured the retreat ourselves from NASA satellite images and mapped where the shore could be by 2100.\n\nReal NASA MODIS and Copernicus Sentinel-2 images, NOAA seafloor data and our own calculations.",
+    "tags": [
+      "Caspian Sea",
+      "Caspian Sea shrinking",
+      "Caspian Sea level",
+      "Kazakhstan",
+      "Volga",
+      "Kara-Bogaz-Gol",
+      "Caspian seal",
+      "satellite images",
+      "before and after",
+      "geography",
+      "climate change",
+      "environment"
+    ],
+    "pinned_comment": "Whose problem is the Caspian: the five countries on its shore, or the whole warming world? The scientists still disagree on how much of the fall is climate and how much is people using the water. Where do you stand?"
+  }
+}

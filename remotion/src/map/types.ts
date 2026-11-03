@@ -43,7 +43,7 @@ export type CompareEl = Base & {kind: 'compare'; before: Raster; after: Raster; 
 export type ContextEl = Base & {kind: 'context'; text: string; x: number; y: number; level: 'country' | 'city'};
 export type MapElement = HighlightEl | PlaceEl | RouteEl | ArrowEl | ChoroplethEl | TrueSizeEl | CompareEl | ContextEl;
 
-export type Raster = {src: string; x0: number; y0: number; x1: number; y1: number; layer: 'day' | 's2' | 'night' | 'relief'; px: number};
+export type Raster = {src: string; x0: number; y0: number; x1: number; y1: number; layer: 'day' | 'modis' | 's2' | 'night' | 'relief'; px: number};
 
 export type Lod = {
 	lod: string;

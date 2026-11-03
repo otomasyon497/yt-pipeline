@@ -116,9 +116,12 @@ class View(BaseModel):
 
 
 class Compare(BaseModel):
-    """Sentinel-2 before/after of the step's view: a wipe line reveals the 'after' image over the 'before' one."""
+    """Before/after of the step's view: a wipe line reveals the 'after' image over the 'before' one."""
     before: str  # "YYYY-MM-DD/YYYY-MM-DD": least cloudy scenes in that window (or one "YYYY-MM-DD" day)
     after: str
+    # sentinel-2: 10 m, from 2016, close views (up to ~2 degrees). modis: NASA MODIS Terra, 250 m, any day since
+    # 2000, wide views (a whole bay or coast); give one hand-checked cloud-free day per side.
+    source: Literal["sentinel-2", "modis"] = "sentinel-2"
     label_before: Optional[str] = None  # default: month and year of the scenes used, e.g. "MARCH 2020"
     label_after: Optional[str] = None
     hold: Optional[float] = Field(None, ge=0, le=12)  # seconds on 'before'; None = until the shot's next map step
@@ -128,8 +131,8 @@ class Compare(BaseModel):
     def _dates(self):
         for d in (self.before, self.after):
             parts = d.split("/")
-            if len(parts) > 2:
-                raise ValueError(f"compare date {d!r}: use YYYY-MM-DD or YYYY-MM-DD/YYYY-MM-DD")
+            if len(parts) > 2 or (self.source == "modis" and len(parts) > 1):
+                raise ValueError(f"compare date {d!r}: use YYYY-MM-DD or YYYY-MM-DD/YYYY-MM-DD (modis: one day)")
             for part in parts:
                 date.fromisoformat(part)
         return self
@@ -140,7 +143,9 @@ class MapStep(BaseModel):
     focus: list[PlaceRef] = Field(default_factory=list)  # countries / places / regions to frame
     view: Optional[View] = None
     world: bool = False  # frame the whole world
-    highlight: list[str] = Field(default_factory=list)  # countries, states/provinces, or "file:x.geojson" (episode geo/)
+    # countries, states/provinces, "file:x.geojson" (episode geo/), or "seafloor:<basin>:<metres>": the bed a lake
+    # or inland sea would lose if its level fell that far (NOAA ETOPO 2022; basins in bathy.BASINS)
+    highlight: list[str] = Field(default_factory=list)
     dim: bool = False  # darken everything that is not highlighted
     places: list[Place] = Field(default_factory=list)
     routes: list[Route] = Field(default_factory=list)
@@ -148,7 +153,9 @@ class MapStep(BaseModel):
     choropleth: Optional[Choropleth] = None
     true_size: Optional[TrueSize] = None
     layer: Optional[Literal["day", "night"]] = None  # night = VIIRS city lights
-    date: Optional[str] = None  # "YYYY-MM-DD": imagery of that day (events); "YYYY-MM-DD/YYYY-MM-DD": clearest in window
+    # "YYYY-MM-DD": imagery of that day (events; on views wider than 2 degrees a MODIS image of that day, so the
+    # backdrop shows today's coast instead of Blue Marble's 2004 one); "YYYY-MM-DD/YYYY-MM-DD": clearest in window
+    date: Optional[str] = None
     compare: Optional[Compare] = None  # Sentinel-2 before/after wipe over this view
     clear: bool = False  # remove everything shown earlier in this shot first
 

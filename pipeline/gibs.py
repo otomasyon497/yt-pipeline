@@ -4,6 +4,7 @@ Layers (all NASA data, free to reuse with acknowledgement):
   day    - Blue Marble shaded relief + bathymetry (500 m)
   night  - VIIRS Black Marble 2016 (500 m)
   relief - ASTER GDEM greyscale shaded relief (NASA/METI, ~30 m; no redistribution limits since v3)
+  modis  - MODIS Terra true colour of one chosen day (250 m, daily since 2000): wide before/after views over decades
 Requests are cached by URL in CACHE_DIR/gibs, so re-renders do not hit NASA again.
 """
 import hashlib
@@ -25,9 +26,12 @@ LAYERS = {
     "day": ("BlueMarble_ShadedRelief_Bathymetry", None, "image/jpeg", 2 ** 8 * 256),
     "night": ("VIIRS_Black_Marble", "2016-01-01", "image/jpeg", 2 ** 8 * 256),
     "relief": ("ASTER_GDEM_Greyscale_Shaded_Relief", None, "image/png", 2 ** 12 * 256),
+    "modis": ("MODIS_Terra_CorrectedReflectance_TrueColor", None, "image/jpeg", 2 ** 9 * 256),  # TIME per request
 }
 CREDIT = ("Map imagery: NASA Blue Marble, NASA VIIRS Black Marble and ASTER GDEM (NASA/METI), via NASA's Global "
           "Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS).")
+MODIS_CREDIT = ("Dated satellite views: NASA MODIS Terra Corrected Reflectance, via NASA's Global Imagery Browse "
+                "Services (GIBS).")
 MAX_PX = 4096
 
 
@@ -76,12 +80,16 @@ def _feather(img: Image.Image, frac: float = 0.07) -> Image.Image:
 
 
 def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, out: Path, feather: bool = True,
-             mask=None) -> dict | None:
+             mask=None, when: str | None = None) -> dict | None:
     """Fetch `layer` for a unit-Mercator box (x0, y0, x1, y1), save as WebP, return its placement.
 
     `mask(box, (w, h))` may return an L image; its values scale the alpha (e.g. land only for relief).
+    `when` ("YYYY-MM-DD") picks the day of a daily layer (modis).
     """
-    name, when, fmt, finest = LAYERS[layer]
+    name, default_when, fmt, finest = LAYERS[layer]
+    when = when or default_when
+    if layer == "modis" and not when:
+        raise ValueError("the modis layer needs a day")
     x0, y0, x1, y1 = max(0.0, box[0]), max(0.0, box[1]), min(1.0, box[2]), min(1.0, box[3])
     if x1 - x0 <= 1e-6 or y1 - y0 <= 1e-6:
         return None

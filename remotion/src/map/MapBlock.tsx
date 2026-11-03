@@ -273,13 +273,14 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 					<path d={pathOf(lod.landR, xf, offsets, true)} fill={style.land} />
 				</svg>
 			) : null}
-			{(['day', 's2', 'relief', 'night'] as const).map((layer) => {
+			{(['day', 'modis', 's2', 'relief', 'night'] as const).map((layer) => {
 				// One opacity per layer (not per image): overlapping images must not add up while fading.
+				// modis = one dated MODIS day over Blue Marble on wide views (a present-day coast instead of 2004's).
 				// s2 = Sentinel-2 10 m imagery over the Blue Marble 'day' layer on close views.
 				// Sentinel-2 belongs to close views: fade it out as the camera pulls back (span 2.6-4.5 degrees), or its
 				// patches show as pale rectangles over Blue Marble.
 				const s2Fade = clamp01((4.5 - span) / (4.5 - 2.6));
-				const layerOpacity = layer === 'night' ? night : layer === 's2' ? s2Fade : layer === 'day' ? 1 : style.reliefOpacity;
+				const layerOpacity = layer === 'night' ? night : layer === 's2' ? s2Fade : layer === 'day' || layer === 'modis' ? 1 : style.reliefOpacity;
 				const imgs = rasters.filter((r) => r.layer === layer);
 				if (!imgs.length) return null;
 				return (

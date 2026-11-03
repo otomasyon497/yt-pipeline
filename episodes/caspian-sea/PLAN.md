@@ -9,10 +9,11 @@ fallen, or the start of a decline it will not recover from, and who pays first?
 ## Steps
 - [x] 1. Research dossier (`research.md`): every number with a source (two where possible); 2-3 own calculations, maths shown
 - [x] 2. Visual inventory (in `research.md`): Sentinel-2 before/after sites and dates, GIBS MODIS years, Commons PD/CC0/CC BY files, data series, stock queries (S2 dates are picked in step 4)
-- [x] 3. Outline (`outline.md`), Turkish summary to the user (gate 1: waiting)
-- [ ] 4. Features the outline needs (decided after step 3)
-- [ ] 5. Script (`script.json`): about 2,300-2,500 words, 16-18 min, each paragraph written to a visual we can show; humanizer pass on the narration
-- [ ] 6. Fact-check pass: every claim against `research.md`
+- [x] 3. Outline (`outline.md`), Turkish summary to the user (gate 1: approved 2026-11-03)
+- [x] 4. Features the outline needs: MODIS compare + dated MODIS backdrops (gibs.py, maps.py, schema Compare.source),
+      seafloor highlights "seafloor:<basin>:<m>" (bathy.py), Volga line (lines.json), year time axis in line charts
+- [x] 5. Script (`script.json`): 2,160 words, 44 paragraphs, about 15.6 min; humanizer pass on the narration
+- [x] 6. Fact-check pass: every claim against `research.md`
 - [ ] 7. Storyboard run, self-review of every frame, fixes
 - [ ] 8. Full render, download to `Videos\yt-pipeline\caspian-sea`, user review (gate 2)
 
@@ -22,3 +23,9 @@ fallen, or the start of a decline it will not recover from, and who pays first?
   first Caspian Environmental Summit (Avaza, 9 Oct 2026). Own checks: MODIS 2000 vs 2025 water count (about 15,700 km2
   lost in the NE box), ETOPO 2022 future shorelines (northern basin about 96 % gone at -10 m), about 913 km3 lost
   since 1996 (12 GERD reservoirs). Scratch scripts (session scratchpad: gibs_screen.py, water_area.py, ETOPO probe) move into tools/ in step 4. Waiting for gate 1.
+- 2026-11-03: gate 1 approved. Steps 4-6 done. Features type-check / py_compile, not rendered yet (storyboard tests
+  them). Script 2,160 words; humanizer pass (staged openers, "That is" chains, a forced triad, vague attributions).
+  Fact-check fixed: "every clear day" (we sampled every third day), the 5 m shelf wording (84 % of the north gone),
+  the -10 m remainder (full 1-arc-minute grid: under 4,000 km2, not 2,000). Own numbers reproducible with
+  tools/caspian_numbers.py (MODIS medians 57,982 -> 44,606 km2; seafloor table in research.md). Title chosen with
+  yt-package: "The Caspian Sea Just Broke Its 1977 Record Low" (94/100). Next: storyboard run (step 7).

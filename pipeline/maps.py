@@ -18,6 +18,7 @@ import shapely
 from shapely import affinity
 from shapely.geometry import shape
 
+import bathy
 import geo
 import gibs
 import sentinel
@@ -130,8 +131,19 @@ def resolve_area(name: str, episode_dir: Path | None = None):
     """('country' | 'admin1' | 'custom', id, lon/lat geom, label, (lon, lat)) or None.
 
     "file:<name>.geojson" loads your own polygons from episodes/<slug>/geo/ (historical borders, empires);
-    the label comes from a "name" property or the file name.
+    the label comes from a "name" property or the file name. "seafloor:<basin>:<metres>" is the bed a lake or
+    inland sea would lose if its level fell that far (bathy.py), labelled "-10 METRES".
     """
+    if name.startswith("seafloor:"):
+        try:
+            _, basin, metres = name.split(":")
+            drop = float(metres)
+        except ValueError:
+            raise ValueError(f"{name!r}: use seafloor:<basin>:<metres>, e.g. seafloor:caspian:10") from None
+        g = bathy.exposed(basin, drop)
+        biggest = max(getattr(g, "geoms", [g]), key=lambda p: p.area)
+        pt = biggest.representative_point()
+        return "custom", name, g, f"−{drop:g} metres", (pt.x, pt.y)
     if name.startswith("file:"):
         if episode_dir is None:
             raise ValueError(f"{name!r}: custom GeoJSON needs the episode folder")
@@ -323,7 +335,9 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     for name in step.highlight:
         area = resolve_area(name, plan.episode_dir)
         if area is None:
-            raise ValueError(f"map highlight {name!r} is not a country, state/province or file:<name>.geojson")
+            raise ValueError(f"map highlight {name!r} is not a country, state/province, file:<name>.geojson or seafloor:<basin>:<m>")
+        if name.startswith("seafloor:"):
+            plan.credits.add(bathy.CREDIT)
         highlights.append(area)
         frame_items.append(("geom", geo.main_body(area[2]) if area[0] == "country" else area[2]))
     places = []
@@ -416,7 +430,7 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
                 else max(0, next_f - start) if next_f is not None else round(1.8 * FPS) + appear - start)
         plan.elements.append(Element("compare", {
             "cam": {"x": cam["x"], "y": cam["y"], "w": cam["w"]}, "before": c.before, "after": c.after,
-            "labelBefore": c.label_before, "labelAfter": c.label_after,
+            "source": c.source, "labelBefore": c.label_before, "labelAfter": c.label_after,
             "hold": hold, "wipe": round(c.seconds * FPS)}, start, sub=sub))
         plan.events.append((start + hold, "swoosh", SFX_GAIN["swoosh"]))
 
@@ -755,6 +769,26 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             if r:
                 done.append(r)
     if style == "satellite":
+        # A single-day date on a wide view: that day's MODIS image over Blue Marble (whose coasts date from 2004),
+        # e.g. a shrinking sea's present shoreline. Windows and close views stay with Sentinel-2 below.
+        done_modis: list[tuple] = []
+        for c in plan.cams:
+            day = c.get("date")
+            if not day or "/" in day or c["w"] * 360 <= S2_MAX_SPAN:
+                continue
+            bx = view_box(c, 1.6)
+            if any(d == day and b[0] <= bx[0] and b[1] <= bx[1] and b[2] >= bx[2] and b[3] >= bx[3] for b, d in done_modis):
+                continue
+            try:
+                r = gibs.backdrop("modis", bx, round(1.6 * WIDTH * 1.1), out_dir / f"{block_id}_{len(rasters) + 1}_modis.webp",
+                                  True, None, when=day)
+            except Exception as exc:  # imagery is decoration: Blue Marble stays
+                plan.warnings.append(f"MODIS image for {day} failed ({exc}); Blue Marble only for this view")
+                continue
+            if r:
+                rasters.append(r)
+                done_modis.append((bx, day))
+                plan.credits.add(gibs.MODIS_CREDIT)
         done_s2: list[tuple] = []
         for c in plan.cams:
             span = c["w"] * 360
@@ -813,17 +847,24 @@ def _month_label(dates: list[str]) -> str:
 
 
 def _compare_images(item: dict, block_id: str, n: int, out_dir: Path, plan: Plan) -> bool:
-    """Fetch the before/after Sentinel-2 mosaics of a compare element (same box, same tone curve)."""
+    """Fetch the before/after images of a compare element (same box; Sentinel-2 mosaics share one tone curve)."""
     bx = view_box(item.pop("cam"), 1.5)
+    source = item.pop("source", "sentinel-2")
     for side, label in (("before", "labelBefore"), ("after", "labelAfter")):
+        out = out_dir / f"{block_id}_cmp{n}_{side}.webp"
         try:
-            r = sentinel.mosaic(bx, round(1.5 * WIDTH), out_dir / f"{block_id}_cmp{n}_{side}.webp", item[side],
-                                gibs._feather, None)
+            if source == "modis":
+                r = gibs.backdrop("modis", bx, round(1.5 * WIDTH), out, True, None, when=item[side])
+                if r:
+                    r["dates"] = [item[side]]
+                    plan.credits.add(gibs.MODIS_CREDIT)
+            else:
+                r = sentinel.mosaic(bx, round(1.5 * WIDTH), out, item[side], gibs._feather, None)
         except Exception as exc:
             r = None
             plan.warnings.append(f"compare {side} image failed ({exc})")
         if r is None:
-            plan.warnings.append(f"compare: no usable Sentinel-2 mosaic for {item[side]}; wipe dropped")
+            plan.warnings.append(f"compare: no usable {source} image for {item[side]}; wipe dropped")
             return False
         item[label] = item[label] or _month_label(r.pop("dates", []))
         item[side] = r

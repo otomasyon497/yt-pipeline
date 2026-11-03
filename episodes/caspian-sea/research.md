@@ -115,24 +115,54 @@ shore states set up a commission to find out. [SP23] [C25] [UNU26] [CH17] [SUM26
 - Kazakhstan says it has directed about 6.16 km3 of river water into the sea in 2026 (verify). 2018 Aktau convention
   on the sea's legal status (verify date and wording).
 
+## Added during the script (2026-11-03, verified)
+- Level series for the charts, one source: Kazhydromet bulletin 30.07.2021 (https://kazhydromet.kz/en/post/1057):
+  1900 -25.74 m BS, 1977 -29.01 m (lowest in the 1900-2020 record), 1995 -26.62 m, 2020 -28.23 m (average).
+  2025: -29.27 m, Kazakh sector mean [EN26]. 2020 -> 2025: 1.04 m, about 21 cm a year (our calculation).
+- Chen et al. 2017 rates: about +12.74 cm/yr 1979-1995 and -6.72 cm/yr 1996-2015 [CH17].
+- Durneva Island (45.467 N, 52.75 E, at the mouth of Kaydak Bay): "In 2011, about 30 thousand Caspian seals were
+  observed"; in 2018 "we did not meet a single seal there" (Mirgaliy Baimukanov, Institute of Hydrobiology and
+  Ecology; https://kaspika.org/en/2019/01/17/caspian-seal-rookeries-are-disappearing-in-the-caspian-2/ ; coordinates
+  Wikidata Q4740645). The island that "could be reached by car" by 2023 is a different, new one in the group [EN26].
+- Kazakhstan: about 35 billion m3 of river water diverted into the sea in the past two and a half years (6.16 billion
+  in 2026 so far), water minister Nurzhan Nurzhigitov, Times of Central Asia, 8 Jun 2026
+  (https://timesca.com/kazakhstan-channels-billions-cubic-meters-water-caspian-sea/). 35 / 913 = 3.8 % (our calculation).
+- Convention on the legal status of the Caspian Sea: signed by the five states in Aktau on 12 August 2018; a status of
+  its own (neither sea nor lake); bars the armed forces of non-shore states; the seabed and its oil were the reason the
+  status mattered (https://en.wikipedia.org/wiki/Convention_on_the_legal_status_of_the_Caspian_Sea ;
+  https://en.radiofarda.com/a/russia-ratifies-caspian-convention-with-iran-still-holding-out/30195078.html). Do not
+  claim a current ratification status.
+- Volga: "extensively dammed and diverted inside Russia for reservoir creation" (Hudson Institute, Luke Coffey, 2025).
+  The script says "a long chain of dams and reservoirs inside Russia".
+- Kashagan coordinates 46.636 N, 52.454 E (Wikidata Q1734853). Filanovsky: no reliable coordinates, no marker.
+- Comparison areas (Wikipedia): Germany 357,600 km2; Montenegro 13,812 km2; Albania 28,748 km2; Czechia 78,871 km2.
+- Gorgan Bay: "Only three to five years left to save Gorgan Gulf, watchdog warns" (Iran International, Nov 2025).
+- Leeds port distances (Turkmenbashi 16 km, Lagan 115 km) are in the press release without a scenario: not used.
+- National positions ("Russia blames the climate, Azerbaijan the dams") could not be traced to primary statements:
+  not used. The script says the governments have not settled the cause, which the commission's mandate shows [SUM26].
+
 ## Own calculations (show on screen as our analysis)
 1. NE Caspian from orbit, MODIS Terra, same box (44.4-47.7 N, 49.6-54.6 E), water = dark in bands 7-2-1:
    5 Sep 2000: about 60,400 km2 of open water; 24 Aug 2025: about 44,700 km2. About 15,700 km2 turned to land,
    close to the Kazakh institute's 16,384 km2 [EN26]. Caveat: one day per year; 13 Sep 2001 gave 55,600 km2 (wind
    and murky water move the shallow edge), so the final figure uses the median of several clear days per year.
+   FINAL (used in the script): every clear Aug-Sep day (cloud < 1 %, no swath gap), 0.008-degree grid:
+   2000-2002: 17 days, median 57,982 km2 (54,900-60,860); 2023-2025: 13 days, median 44,606 km2 (41,881-47,855).
+   Loss about 13,400 km2 (23 %). Script: "about fifty-eight thousand", "about forty-five thousand", "about thirteen
+   thousand"; the Kazakh institute's 16,384 km2 is quoted next to it as its own study area and period, not as a match.
 2. Water lost since 1996: area 1996 about 387,100 km2 (28,644 / 0.074), 2025 about 358,400 km2, mean about 372,800
    km2 x 2.45 m = about 913 km3. That is about 12 times the GERD reservoir (74 km3, our first video) [GERD]. Also
    about 3.6 years of the Volga's flow if the Volga carries about 254 km3/yr (verify the Volga figure).
-3. Future shore from the seafloor map (ETOPO 2022, 2-arc-minute sampling; sea = cells below the level connected to
-   the middle basin):
-   - today (-29.3 m): 353,400 km2 (published 2025 figure about 358,000: within 1.5 %); north of 44.5 N: 61,100 km2
-   - -5 m: 64,500 km2 becomes land (18 %); northern basin left: 10,100 km2
-   - -8 m: 76,400 km2 (22 %); north left: 6,300 km2
-   - -10 m: 87,500 km2 (25 %); north left: 2,200 km2 (96 % of the northern basin gone)
-   - -14 m: 102,100 km2 (29 %); north left: 1,000 km2
-   - -21 m: 119,700 km2 (34 %)
+3. Future shore from the seafloor map (ETOPO 2022 at its full 1-arc-minute grid, the grid pipeline/bathy.py draws;
+   sea = cells below the level connected to the middle basin; tools/caspian_numbers.py seafloor):
+   - today (-29.3 m): 353,200 km2 (published 2025 figure about 358,000: within 1.5 %); north of 44.5 N: 60,800 km2
+   - -5 m: 64,200 km2 falls dry (18 %); northern basin left: 9,900 km2 (84 % gone)
+   - -8 m: 76,100 km2 (22 %); north left: 6,100 km2 (90 % gone)
+   - -10 m: 85,400 km2 (24 %); north left: 3,900 km2 (94 % gone). Script: "less than four thousand are left"
+   - -14 m: 101,800 km2 (29 %); north left: 900 km2 (98 % gone). Script: "almost nothing remains"
+   (A first pass on a 2-arc-minute sample gave 2,200 km2 left at -10 m; the script uses the full grid.)
    Our totals are lower than the studies (77,000 km2 at 5 m, 112,000 at 10 m, 143,000 at 18 m), so the script quotes
-   the studies for areas and uses our map for the shape and for "almost nothing left of the northern basin at 10 m".
+   the studies for areas and uses our map for the shape and for how much of the northern basin is left.
    Do not use this grid for past rises: flat coastal land in the DEM makes 1995 look 62,000 km2 bigger, against
    28,644 km2 measured.
 

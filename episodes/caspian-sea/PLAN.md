@@ -14,7 +14,7 @@ fallen, or the start of a decline it will not recover from, and who pays first?
       seafloor highlights "seafloor:<basin>:<m>" (bathy.py), Volga line (lines.json), year time axis in line charts
 - [x] 5. Script (`script.json`): 2,160 words, 44 paragraphs, about 15.6 min; humanizer pass on the narration
 - [x] 6. Fact-check pass: every claim against `research.md`
-- [ ] 7. Storyboard run, self-review of every frame, fixes
+- [x] 7. Storyboard run, self-review of every frame, fixes (2 rounds)
 - [ ] 8. Full render, download to `Videos\yt-pipeline\caspian-sea`, user review (gate 2)
 
 ## Log
@@ -38,3 +38,7 @@ fallen, or the start of a decline it will not recover from, and who pays first?
   (camera move down the Volga), dated MODIS backdrop patchwork when the camera went wider than its image (future-shore
   map in its own block, framed on the whole sea; no zoom-out in the last shot), length under 15 min (about 150 words of
   sourced material added: est. 15:55). Next: storyboard 2.
+- 2026-11-03: storyboard 2 (run 41713319434): 15:51, 63 units from 79 shots. Earlier fixes confirmed (Iran in frame,
+  bar labels, level chart, question card, Volga camera move, Ural map, Kulaly 2026 after-image clean). Last fix: the
+  MODIS day 2025-08-24 is clear over the sea but cloudy over the Caucasus with a swath edge in the east, so the
+  whole-sea future-shore map and the closing shot use Blue Marble (no date). Step 7 done; next: full render (step 8).

@@ -29,3 +29,12 @@ fallen, or the start of a decline it will not recover from, and who pays first?
   the -10 m remainder (full 1-arc-minute grid: under 4,000 km2, not 2,000). Own numbers reproducible with
   tools/caspian_numbers.py (MODIS medians 57,982 -> 44,606 km2; seafloor table in research.md). Title chosen with
   yt-package: "The Caspian Sea Just Broke Its 1977 Record Low" (94/100). Next: storyboard run (step 7).
+- 2026-11-03: storyboard 1 (run 41707278080, about 32 min, 105 frames on 7 sheets): 14:57, 61 units from 76 shots.
+  New features work: MODIS wipe with month labels, seafloor highlights (-5 m 66,900 km2, -10 m 88,700, -14 m
+  105,500 with smoothing), Volga line, chart time axis, all Commons files PD / CC BY 4.0. Fixed: bar labels ran off
+  the left edge (ChartScene sizes the label column from the longest label), whole-sea views cut off Iran (focus on the
+  sea's corners), basin labels zoomed into open water (frame the sea first), 2020 / 2025 labels collided on the level
+  chart (2020 dropped; the next shot gives 2020-2025), question card over a locator inset, an off-topic dam clip
+  (camera move down the Volga), dated MODIS backdrop patchwork when the camera went wider than its image (future-shore
+  map in its own block, framed on the whole sea; no zoom-out in the last shot), length under 15 min (about 150 words of
+  sourced material added: est. 15:55). Next: storyboard 2.

@@ -137,6 +137,17 @@ shore states set up a commission to find out. [SP23] [C25] [UNU26] [CH17] [SUM26
 - Kashagan coordinates 46.636 N, 52.454 E (Wikidata Q1734853). Filanovsky: no reliable coordinates, no marker.
 - Comparison areas (Wikipedia): Germany 357,600 km2; Montenegro 13,812 km2; Albania 28,748 km2; Czechia 78,871 km2.
 - Gorgan Bay: "Only three to five years left to save Gorgan Gulf, watchdog warns" (Iran International, Nov 2025).
+- Added after storyboard 1 (length 14:57, under the 15-minute floor), all from sources above:
+  - more than 15 million people on the coasts [C25];
+  - dust from the exposed seabed may carry salt and industrial pollution [C25] (script links it to the Kara-Bogaz-Gol
+    salt of the 1980s [KBG]);
+  - Prange et al. 2020: 9-18 m; at 18 m about 143,000 km2, 37 % of the sea, becomes land [P20 via CS];
+  - Leeds 10 m scenario: about 112,000 km2 dries, four of ten Caspian-only ecosystem types likely vanish [C25];
+  - of Kazakhstan's 35 billion m3, over 17 billion were Ural (Zhaiyk) floodwater from spring 2024 (water minister,
+    Times of Central Asia, 8 Jun 2026);
+  - the volunteer (Daniyar Akimzhanov) has documented several new islands near Kulaly over the past four to five
+    years, some about 1 km long and 200-300 m wide; he saw a wild boar on one, and wolves reach them across the ice
+    [EN26].
 - Leeds port distances (Turkmenbashi 16 km, Lagan 115 km) are in the press release without a scenario: not used.
 - National positions ("Russia blames the climate, Azerbaijan the dams") could not be traced to primary statements:
   not used. The script says the governments have not settled the cause, which the commission's mandate shows [SUM26].

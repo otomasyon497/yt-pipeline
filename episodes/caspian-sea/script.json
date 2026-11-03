@@ -108,11 +108,6 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    },
                     "places": [
                       {
                         "name": "Caspian Sea",
@@ -121,6 +116,16 @@
                         "kind": "sea",
                         "label": "CASPIAN SEA"
                       }
+                    ],
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
                     ]
                   },
                   {
@@ -153,7 +158,7 @@
                     "view": {
                       "lon": 56.599,
                       "lat": 61.306,
-                      "span": 0.09
+                      "span": 0.14
                     },
                     "date": "2025-06-15/2025-08-31"
                   }
@@ -175,7 +180,7 @@
       "mood": "calm",
       "paragraphs": [
         {
-          "text": "The Caspian is shared by Russia, Kazakhstan, Turkmenistan, Iran and Azerbaijan. It covers about three hundred and seventy thousand square kilometres, a little more than Germany, and its surface sits about twenty-nine metres below the level of the world's oceans. Its water is about a third as salty as the ocean.",
+          "text": "The Caspian is shared by Russia, Kazakhstan, Turkmenistan, Iran and Azerbaijan. It covers about three hundred and seventy thousand square kilometres, a little more than Germany, and its surface sits about twenty-nine metres below the level of the world's oceans. Its water is about a third as salty as the ocean. More than fifteen million people live on its coasts.",
           "shots": [
             {
               "type": "map",
@@ -184,11 +189,6 @@
                 "globe": true,
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    },
                     "places": [
                       {
                         "name": "Caspian Sea",
@@ -197,6 +197,16 @@
                         "kind": "sea",
                         "label": "CASPIAN SEA"
                       }
+                    ],
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
                     ]
                   },
                   {
@@ -224,11 +234,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
                   }
                 ]
               }
@@ -252,8 +267,19 @@
               "type": "map",
               "at": 0,
               "map": {
-                "keep": true,
                 "steps": [
+                  {
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
+                  },
                   {
                     "at": "The southern basin",
                     "places": [
@@ -460,7 +486,7 @@
                     "view": {
                       "lon": 56.599,
                       "lat": 61.306,
-                      "span": 0.09
+                      "span": 0.14
                     },
                     "date": "2025-06-15/2025-08-31"
                   },
@@ -593,11 +619,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
                   }
                 ]
               }
@@ -605,12 +636,7 @@
             {
               "type": "photo",
               "at": "Is today's fall",
-              "photo": "ISS-44 Night view of the Caspian Sea.jpg",
-              "where": [
-                50.5,
-                41.5
-              ],
-              "where_label": "The Caspian at night, from the ISS"
+              "photo": "ISS-44 Night view of the Caspian Sea.jpg"
             }
           ]
         }
@@ -644,10 +670,6 @@
                     -26.6
                   ],
                   [
-                    "2020",
-                    -28.2
-                  ],
-                  [
                     "2025",
                     -29.3
                   ]
@@ -657,7 +679,7 @@
                   -29.0,
                   "1977 record low"
                 ],
-                "highlight": 4
+                "highlight": 3
               }
             },
             {
@@ -684,11 +706,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
                   }
                 ]
               }
@@ -758,15 +785,15 @@
               "at": "In the early 2000s",
               "chart": {
                 "type": "bar",
-                "title": "Open water in this box",
+                "title": "Open water in this box, Aug-Sep",
                 "unit": " km²",
                 "data": [
                   [
-                    "Summers 2000-2002",
+                    "2000-2002",
                     58000
                   ],
                   [
-                    "Summers 2023-2025",
+                    "2023-2025",
                     44600
                   ]
                 ],
@@ -785,11 +812,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
                   },
                   {
                     "at": "roughly the area",
@@ -881,11 +913,6 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    },
                     "places": [
                       {
                         "name": "Caspian Sea",
@@ -894,6 +921,16 @@
                         "kind": "sea",
                         "label": "CASPIAN SEA"
                       }
+                    ],
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
                     ]
                   }
                 ]
@@ -940,7 +977,7 @@
                 "unit": "%",
                 "data": [
                   [
-                    "Chen et al. 2017 (about half)",
+                    "Chen et al. 2017",
                     50
                   ],
                   [
@@ -948,7 +985,7 @@
                     40
                   ]
                 ],
-                "source": "Share of the decline explained by evaporation: Chen et al. 2017 (1996-2015); Shokri & AghaKouchak, UNU-INWEH 2026 (since the mid-1990s)",
+                "source": "Share of the decline explained by evaporation: Chen et al. 2017; Shokri & AghaKouchak, UNU-INWEH 2026",
                 "highlight": 1
               }
             }
@@ -971,14 +1008,17 @@
                         "seconds": 5
                       }
                     ]
+                  },
+                  {
+                    "at": "A University of Alabama",
+                    "view": {
+                      "lon": 47.8,
+                      "lat": 47.2,
+                      "span": 9
+                    }
                   }
                 ]
               }
-            },
-            {
-              "type": "stock",
-              "at": "A University of Alabama",
-              "query": "hydroelectric dam river reservoir aerial"
             }
           ]
         },
@@ -991,11 +1031,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
                   }
                 ]
               }
@@ -1250,6 +1295,16 @@
           ]
         },
         {
+          "text": "Dry seabed also means dust. The Leeds team warns that wind blowing over the exposed floor could carry salt and industrial pollution inland, as the salt from Kara-Bogaz-Gol did in the 1980s.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "dust storm blowing over dry land"
+            }
+          ]
+        },
+        {
           "text": "All of this is happening at today's level, and the forecasts for this century go much lower.",
           "shots": [
             {
@@ -1266,7 +1321,7 @@
       "mood": "tension",
       "paragraphs": [
         {
-          "text": "In 2023, two climate scientists at the University of Bremen ran fifteen climate models to the end of the century. Their best estimate is that the Caspian falls about eight metres by 2100 if emissions follow a middle path, and about fourteen metres if they keep rising fast. The Leeds team found that even if warming stays below two degrees, a drop of five to ten metres is likely.",
+          "text": "In 2023, two climate scientists at the University of Bremen ran fifteen climate models to the end of the century. Their best estimate is that the Caspian falls about eight metres by 2100 if emissions follow a middle path, and about fourteen metres if they keep rising fast. A 2020 study had put the range at nine to eighteen metres; at eighteen, more than a third of today's sea would turn to land. The Leeds team found that even if warming stays below two degrees, a drop of five to ten metres is likely.",
           "shots": [
             {
               "type": "map",
@@ -1274,11 +1329,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ]
                   }
                 ]
               }
@@ -1305,20 +1365,16 @@
               }
             },
             {
-              "type": "map",
+              "type": "stock",
+              "at": "A 2020 study",
+              "query": "dry lake bed aerial view",
+              "on_screen_text": "A 2020 study: 9 to 18 metres"
+            },
+            {
+              "type": "photo",
               "at": "The Leeds team found",
-              "on_screen_text": "Even below 2 °C: 5 to 10 metres (Leeds, 2025)",
-              "map": {
-                "steps": [
-                  {
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
-                  }
-                ]
-              }
+              "photo": "Area reductions under Caspian Sea level decline for Caspian Sea region protected areas.png",
+              "on_screen_text": "Even below 2 °C: 5 to 10 metres (Leeds, 2025)"
             }
           ]
         },
@@ -1332,11 +1388,16 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 50.4,
-                      "lat": 43.6,
-                      "span": 13
-                    },
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ],
                     "date": "2025-08-24"
                   },
                   {
@@ -1383,6 +1444,26 @@
                         "kind": "site",
                         "label": "Kashagan oil field"
                       }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "In the Leeds team's ten-metre scenario, about a hundred and twelve thousand square kilometres would dry up, and four of the ten types of ecosystem found only in the Caspian would likely disappear.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "clear": true,
+                    "highlight": [
+                      "seafloor:caspian:10"
                     ]
                   }
                 ]
@@ -1461,12 +1542,43 @@
           ]
         },
         {
-          "text": "Kazakhstan's water minister says the country has sent around thirty-five billion cubic metres of river water into the sea over the past two and a half years. Compared with what the Caspian has lost since 1996, that is less than four percent.",
+          "text": "Kazakhstan's water minister says the country has sent around thirty-five billion cubic metres of river water into the sea over the past two and a half years. Nearly half of that came from the Ural River's floods in the spring of 2024. Compared with what the Caspian has lost since 1996, that is less than four percent.",
           "shots": [
             {
               "type": "stock",
               "at": 0,
               "query": "river delta flowing into sea aerial"
+            },
+            {
+              "type": "map",
+              "at": "Nearly half of that",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": 51.8,
+                      "lat": 46.95,
+                      "span": 3.0
+                    },
+                    "date": "2025-08-24",
+                    "places": [
+                      {
+                        "name": "Ural River",
+                        "lon": 51.75,
+                        "lat": 47.25,
+                        "kind": "label",
+                        "label": "URAL RIVER"
+                      },
+                      {
+                        "name": "Atyrau",
+                        "lon": 51.92,
+                        "lat": 47.11,
+                        "kind": "city"
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               "type": "chart",
@@ -1481,7 +1593,7 @@
                     913
                   ],
                   [
-                    "Sent in by Kazakhstan, 2.5 years",
+                    "Kazakhstan, 2.5 years",
                     35
                   ]
                 ],
@@ -1492,7 +1604,7 @@
           ]
         },
         {
-          "text": "Meanwhile, near Kulaly Island, new land keeps appearing. A volunteer flying over the area this autumn photographed an island so new that it has no name. Kazakh scientists expect more to come, though not all of it will last. It depends on the wind, the waves and the level of a sea that has surprised people before.",
+          "text": "Meanwhile, near Kulaly Island, new land keeps appearing. A volunteer flying over the area this autumn photographed an island so new that it has no name. He has found several new islands here over the past five years, some about a kilometre long. On one he saw a wild boar, and in winter wolves cross the ice to reach them. Kazakh scientists expect more to come, though not all of it will last. It depends on the wind, the waves and the level of a sea that has surprised people before.",
           "shots": [
             {
               "type": "map",
@@ -1514,6 +1626,14 @@
                   },
                   {
                     "at": "A volunteer"
+                  },
+                  {
+                    "at": "He has found several",
+                    "view": {
+                      "lon": 50.3,
+                      "lat": 44.95,
+                      "span": 0.5
+                    }
                   }
                 ]
               }
@@ -1533,23 +1653,20 @@
               "map": {
                 "steps": [
                   {
-                    "view": {
-                      "lon": 50.4,
-                      "lat": 43.6,
-                      "span": 13
-                    },
+                    "focus": [
+                      [
+                        46.5,
+                        47.3
+                      ],
+                      [
+                        54.9,
+                        36.5
+                      ]
+                    ],
                     "date": "2025-08-24",
                     "highlight": [
                       "seafloor:caspian:14"
                     ]
-                  },
-                  {
-                    "at": "So whose problem",
-                    "view": {
-                      "lon": 51.0,
-                      "lat": 41.9,
-                      "span": 25
-                    }
                   }
                 ]
               }

@@ -35,9 +35,13 @@ const Source: React.FC<{text?: string | null; p: number}> = ({text, p}) =>
 const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 	const refV = chart.ref ? chart.ref[0] : 0;
 	const max = Math.max(...chart.data.map((d) => d[1]), refV, 1e-9);
-	const left = 470;
 	const n = chart.data.length;
 	const rowH = Math.min(120, 500 / n);
+	const labelSize = Math.min(44, rowH * 0.36);
+	// Labels sit right-aligned before the bars: make room for the longest one (Inter bold, ~0.56 em per glyph),
+	// so "Caspian, lost since 1996" does not run off the left edge.
+	const longestLabel = Math.max(...chart.data.map(([label]) => label.length));
+	const left = Math.min(860, Math.max(470, 180 + longestLabel * labelSize * 0.56));
 	const dec = decimalsOf(chart);
 	// Leave room for the longest value label after the longest bar (display font ~0.5 em per glyph).
 	const longest = Math.max(...chart.data.map(([, v]) => fmt(v, chart.unit, dec).length));
@@ -53,7 +57,7 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 				const y = top + i * rowH;
 				return (
 					<g key={`${label}${i}`} opacity={clamp01((frame - 16 - i * 10) / 10)}>
-						<text x={left - 30} y={y + barH * 0.72} fontFamily={body} fontWeight={700} fontSize={Math.min(44, rowH * 0.36)} fill={colors.text} textAnchor="end">
+						<text x={left - 30} y={y + barH * 0.72} fontFamily={body} fontWeight={700} fontSize={labelSize} fill={colors.text} textAnchor="end">
 							{label}
 						</text>
 						<rect x={left} y={y} width={barMax} height={barH} fill={colors.panel} />

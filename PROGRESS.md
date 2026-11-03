@@ -1,11 +1,16 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). Episode 2 caspian-sea: research phase, plan and log in episodes/caspian-sea/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). Episode 2 caspian-sea rendered (15:51, release ep-caspian-sea-41715843282, downloaded to C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\), waiting for the user's review; delete the release after the upload. Plan and log in episodes/caspian-sea/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
 ## Episode 2: caspian-sea (started 2026-11-03)
 - The user picked "the shrinking Caspian" from three proposals: Antelope Reef (China's new island in the Paracels, my
   recommendation), Afghanistan's Qosh Tepa canal on the Amu Darya, and the Caspian (record low in 2026, the lowest
   political risk of the three). Same process as gerd-nile: research -> outline (gate 1) -> script -> storyboard -> render.
+- New engine features: Compare.source "modis" (NASA MODIS Terra, day vs day, wide views, since 2000); a MODIS backdrop
+  for a single-day date on views wider than 2 degrees (avoid it on whole-sea views: clouds and swath edges); highlight
+  "seafloor:<basin>:<m>" (pipeline/bathy.py, NOAA ETOPO 2022); Volga line; line charts on a true time axis; bar charts
+  size the label column from the longest label. tools/caspian_numbers.py reproduces the episode's own calculations.
+- Actions: storyboards about 30 min each (2 rounds), final render about 50 min.
 
 ## Shorts (2026-11-03, phase S1; dropped by the user the same day)
 - Outcome: the user did not like the first Short much and dropped Shorts altogether. Its release is deleted (the local

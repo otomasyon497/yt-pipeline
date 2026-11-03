@@ -42,3 +42,8 @@ fallen, or the start of a decline it will not recover from, and who pays first?
   bar labels, level chart, question card, Volga camera move, Ural map, Kulaly 2026 after-image clean). Last fix: the
   MODIS day 2025-08-24 is clear over the sea but cloudy over the Caucasus with a swath edge in the east, so the
   whole-sea future-shore map and the closing shot use Blue Marble (no date). Step 7 done; next: full render (step 8).
+- 2026-11-04: final render 41715843282 (release ep-caspian-sea-41715843282): 15:51, 354 MB, -14.0 LUFS; downloaded to
+  Videos\yt-pipeline\caspian-sea (video, youtube.txt, credits.txt, thumbnails A/B/C "GONE BY 2100?"). Key frames
+  checked: Durneva Aug 2026 and Gorgan Aug 2025 after-images clean, -5/-10/-14 m rings on Blue Marble, closing card.
+  Known: the Leeds ten-metre paragraph shows the -10 m ring with the -14 m ring still on (keep + clear only clears
+  its own shot); fix with keep off on that shot in the next render. Waiting for the user's review (gate 2).

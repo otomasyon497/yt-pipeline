@@ -1,8 +1,15 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Phase S1 done: vertical Shorts format plus the first Short gerd-nile-short-lake (41.1 s, release ep-gerd-nile-short-lake-41536930350, downloaded to C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile-short-lake\), waiting for the user's review; delete that release after the upload. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters, Related Video))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). Episode 2 caspian-sea: research phase, plan and log in episodes/caspian-sea/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
-## Shorts (2026-11-03, phase S1: vertical format + first Short, waiting for the user's review)
+## Episode 2: caspian-sea (started 2026-11-03)
+- The user picked "the shrinking Caspian" from three proposals: Antelope Reef (China's new island in the Paracels, my
+  recommendation), Afghanistan's Qosh Tepa canal on the Amu Darya, and the Caspian (record low in 2026, the lowest
+  political risk of the three). Same process as gerd-nile: research -> outline (gate 1) -> script -> storyboard -> render.
+
+## Shorts (2026-11-03, phase S1; dropped by the user the same day)
+- Outcome: the user did not like the first Short much and dropped Shorts altogether. Its release is deleted (the local
+  copy stays in Videos\yt-pipeline\gerd-nile-short-lake\); the vertical mode stays in the code, unused.
 - The user chose native vertical Shorts (maps redrawn for a phone screen) over YouTube's clip tool or a letterboxed crop
   of the long video. First Short: "Göl beliriyor" (episodes/gerd-nile-short-lake), facts from the fact-checked gerd-nile.
 - Format switch: script.json `"format": "short"`. run.py reads it before the modules import config, so YTP_FORMAT=short
@@ -22,8 +29,8 @@
   camera dives back to the lake (about 34.6 s) the Sentinel-2 mosaic shows as a soft-edged rectangle for about 0.25 s
   (same as in the long video). A fix (fade S2 in only once a mosaic covers the frame) needs testing on long-form pans.
 - Actions: about 6 min per Short render (both runs; the second one reused the cached Sentinel-2 mosaics).
-- Plan per episode: 2-3 Shorts (a satellite surprise, an own calculation, a two-sided debate), one every 2-3 days,
-  each pointing to the long video (Related Video link once advanced features are on).
+- Dropped plan: 2-3 Shorts per episode (a satellite surprise, an own calculation, a two-sided debate), one every 2-3
+  days, each pointing to the long video.
 
 ## Channel brand (2026-11-02, adopted by the user 2026-11-03)
 - Brief from the user: an original, memorable, evergreen name (not tied to today's format) whose profile picture and banner

@@ -713,6 +713,8 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
         sub_end = sub["startFrame"] + sub["frames"]
         for j, (step, f) in enumerate(zip(spec.steps, sub["steps"])):
             nxt = sub["steps"][j + 1] if j + 1 < len(sub["steps"]) else None
+            if step.compare and step.compare.until is not None:  # 'before' holds through the steps up to that one
+                nxt = next(sub["steps"][k] for k in range(j + 1, len(spec.steps)) if spec.steps[k].at == step.compare.until)
             _step(plan, step, f, si, sub_end, globe=(si == 0 and j == 0 and spec.globe), next_f=nxt, first=(si == 0 and j == 0))
     if not plan.cams:
         plan.move_to(dict(WORLD), 0, instant=True)

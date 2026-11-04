@@ -28,6 +28,15 @@ class Chart(BaseModel):
     source: Optional[str] = None  # shown at the bottom, e.g. "World Bank; our calculation"
     ref: Optional[tuple[float, str]] = None  # reference line: (value, label), e.g. (500, "absolute scarcity")
     highlight: Optional[int] = None  # bar / point index drawn in the accent colour (bars: default the first)
+    # Build the chart with the narration: one anchor (word index / phrase in the paragraph) for each of the LAST
+    # len(reveal) items, which appear when it is spoken; the items before them are there from the start.
+    reveal: list[Union[int, str]] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def _reveal(self):
+        if len(self.reveal) >= len(self.data):
+            raise ValueError("chart.reveal: at most len(data) - 1 anchors (the first item is there from the start)")
+        return self
 
 
 class Stat(BaseModel):
@@ -165,6 +174,9 @@ class Compare(BaseModel):
     label_before: Optional[str] = None  # default: month and year of the scenes used, e.g. "MARCH 2020"
     label_after: Optional[str] = None
     hold: Optional[float] = Field(None, ge=0, le=12)  # seconds on 'before'; None = until the shot's next map step
+    # The 'at' of a later step in the same map shot: 'before' holds through the steps in between (labels, icons)
+    # and the wipe starts there. None = the next step.
+    until: Optional[str] = None
     seconds: float = Field(3.6, gt=0.5, le=10)  # wipe duration
 
     @model_validator(mode="after")
@@ -220,6 +232,14 @@ class MapSpec(BaseModel):
     # v2 shorthand (one step): countries to highlight + labelled points
     highlight: list[str] = Field(default_factory=list)
     points: list[MapPoint] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def _until(self):
+        for j, step in enumerate(self.steps):
+            u = step.compare.until if step.compare else None
+            if u is not None and not any(later.at == u for later in self.steps[j + 1:]):
+                raise ValueError(f"compare.until {u!r} must be the 'at' of a later step in the same map shot")
+        return self
 
     @model_validator(mode="after")
     def _shorthand(self):
@@ -311,7 +331,7 @@ class Paragraph(BaseModel):
         return out
 
     def step_indices(self) -> list[list[int]]:
-        """For every shot: the word index of each map step (empty for non-map shots).
+        """For every shot: the word index of each map step, or of each chart reveal (empty for other shots).
 
         Steps live inside their shot: from the shot's anchor up to (not including) the next shot's anchor.
         """
@@ -321,6 +341,14 @@ class Paragraph(BaseModel):
         for k, (shot, start) in enumerate(zip(self.shots, anchors)):
             end = anchors[k + 1] if k + 1 < len(anchors) else n_words
             idxs: list[int] = []
+            if shot.type == "chart" and shot.chart and shot.chart.reveal:
+                for at in shot.chart.reveal:
+                    idx = self._find(at, idxs[-1] + 1 if idxs else start + 1)
+                    if not start < idx < end:
+                        raise ValueError(f"chart reveal anchor {at!r} is outside its shot (words {start + 1}-{end - 1}): {self.text[:60]!r}")
+                    idxs.append(idx)
+                out.append(idxs)
+                continue
             for j, step in enumerate(shot.map.steps if shot.type == "map" and shot.map else []):
                 if step.at is None:
                     if j:

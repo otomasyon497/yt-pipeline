@@ -169,7 +169,8 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             "texts": texts,
             "onScreenText": first["title"] if src is None else src.on_screen_text,
             "subtitle": None if src is None else src.subtitle,
-            "chart": src.chart.model_dump() if src is not None and src.chart else None,
+            "chart": ({**src.chart.model_dump(), "reveal": [round(x * FPS) - u["startFrame"] for x in first["steps"]]}
+                      if src is not None and src.chart else None),
             "stat": ({**src.stat.model_dump(), "countUp": count_up(src.stat.value, any_unit=True)}
                      if src is not None and src.stat else None),
             "document": (docs or {}).get(u["id"]),
@@ -212,6 +213,8 @@ def card_sfx(timeline: dict) -> list[tuple[float, str, float]]:
             events.append((t + 0.15, "hit", -3.0))
             if s["stat"] and s["stat"]["countUp"]:
                 events.append((t + 0.45, "ticks", 0.0))
+        elif s["visual"] == "chart" and s["chart"]:  # each item revealed with the narration grows with a soft pop
+            events += [(t + f / FPS + 0.1, "pop", -6.0) for f in s["chart"]["reveal"]]
         for text in s["texts"]:
             if text.get("kind") == "question":
                 events.append(((s["startFrame"] + text["from"]) / FPS, "pop", -1.0))

@@ -25,6 +25,8 @@ export type ChartSpec = {
 	source?: string | null;
 	ref?: [number, string] | null;
 	highlight?: number | null;
+	// Shot frames at which the last reveal.length items appear (spoken in the narration); the rest are there at once.
+	reveal?: number[];
 };
 
 // Number inside an on-screen label that counts up ("About $9.6 billion"), decided by pipeline/timeline.py.

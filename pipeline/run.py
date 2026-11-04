@@ -338,6 +338,8 @@ def storyboard(slug: str) -> None:
         if s["visual"] == "map" and s["media"]:
             block = json.loads((PUBLIC_MEDIA / s["media"]).read_text(encoding="utf-8"))
             frames |= {start + c["start"] + c["frames"] + 6 for c in block["cams"] if c["start"] + c["frames"] + 6 < n}
+        if s["visual"] == "chart" and s["chart"] and s["chart"].get("reveal"):  # each revealed item once it has grown
+            frames |= {start + f + 32 for f in s["chart"]["reveal"] if f + 32 < n}
         for f in sorted(frames):
             if f < tlj["totalFrames"]:
                 t = f / tlj["fps"]

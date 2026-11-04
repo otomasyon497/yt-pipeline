@@ -49,14 +49,17 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 	const barH = rowH * 0.66;
 	const top = 320 + (500 - rowH * n) / 2;
 	const hi = chart.highlight ?? 0;
+	const reveal = chart.reveal ?? [];
+	const n0 = n - reveal.length; // items on screen from the start
+	const t0 = (i: number) => (i < n0 ? 22 + i * 10 : reveal[i - n0]);
 	return (
 		<>
 			{chart.data.map(([label, value], i) => {
-				const p = easeOut((frame - 22 - i * 10) / 36);
+				const p = easeOut((frame - t0(i)) / (i < n0 ? 36 : 28));
 				const w = (value / max) * barMax * p;
 				const y = top + i * rowH;
 				return (
-					<g key={`${label}${i}`} opacity={clamp01((frame - 16 - i * 10) / 10)}>
+					<g key={`${label}${i}`} opacity={clamp01((frame - t0(i) + 6) / 10)}>
 						<text x={left - 30} y={y + barH * 0.72} fontFamily={body} fontWeight={700} fontSize={labelSize} fill={colors.text} textAnchor="end">
 							{label}
 						</text>
@@ -74,7 +77,7 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 				// the line when it would run out of the frame (Inter bold, ~0.56 em per glyph).
 				const flip = rx + 14 + chart.ref[1].length * 32 * 0.56 > W - 60;
 				return (
-					<g opacity={clamp01((frame - 40 - n * 10) / 14)}>
+					<g opacity={clamp01((frame - 40 - n0 * 10) / 14)}>
 						<line x1={rx} y1={top - 30} x2={rx} y2={top + rowH * n} stroke={REF} strokeWidth={4} strokeDasharray="14 10" />
 						<text x={flip ? rx - 14 : rx + 14} y={top - 40} fontFamily={body} fontWeight={700} fontSize={32} fill={REF} textAnchor={flip ? 'end' : 'start'}>
 							{chart.ref[1]}
@@ -103,9 +106,16 @@ const Line: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 	const yOf = (v: number) => 780 - ((v - lo) / Math.max(hi - lo, 1e-9)) * 430;
 	const ys = vals.map(yOf);
 	const pts = xs.map((x, i) => `${x},${ys[i]}`).join(' ');
-	let len = 0;
-	for (let i = 1; i < n; i++) len += Math.hypot(xs[i] - xs[i - 1], ys[i] - ys[i - 1]);
-	const p = easeOut((frame - 20) / (40 + 10 * n));
+	const seg = xs.slice(1).map((x, i) => Math.hypot(x - xs[i], ys[i + 1] - ys[i]));
+	const len = seg.reduce((a, b) => a + b, 0);
+	const reveal = chart.reveal ?? [];
+	const n0 = n - reveal.length; // points drawn by the opening animation
+	let q = easeOut((frame - 20) / (40 + 10 * n0)) * (n0 - 1);
+	reveal.forEach((f) => {
+		q += easeOut((frame - f) / 24);
+	});
+	const whole = Math.min(Math.floor(q), n - 1);
+	const drawn = seg.slice(0, whole).reduce((a, b) => a + b, 0) + (whole < n - 1 ? (q - whole) * seg[whole] : 0);
 	const hiIdx = chart.highlight ?? n - 1;
 	const valueSize = n > 6 ? 44 : 56;
 	const dec = decimalsOf(chart);
@@ -125,9 +135,9 @@ const Line: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 					</text>
 				</g>
 			) : null}
-			<polyline points={pts} fill="none" stroke={colors.accent} strokeWidth={9} strokeLinejoin="round" strokeLinecap="round" strokeDasharray={len} strokeDashoffset={len * (1 - p)} />
+			<polyline points={pts} fill="none" stroke={colors.accent} strokeWidth={9} strokeLinejoin="round" strokeLinecap="round" strokeDasharray={len} strokeDashoffset={len - drawn} />
 			{chart.data.map(([label, value], i) => {
-				const shown = clamp01((p * (n - 1) - (i - 0.2)) / 0.4);
+				const shown = clamp01((q - (i - 0.2)) / 0.4);
 				const big = i === hiIdx;
 				return (
 					<g key={`${label}${i}`} opacity={shown}>

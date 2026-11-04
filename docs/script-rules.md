@@ -25,6 +25,19 @@ end CTA, the closing question as the pinned comment, never bend facts).
   short quote from a copyrighted source. Never screenshot a news page.
 - `film`: public-domain archival film from Wikimedia Commons (NARA, NASA, Reclamation), checked like photos.
 - Map places take `icon` (22 Lucide icons); routes glow.
+- `chart.reveal`: anchors for the last items of a chart, so each bar / point appears when the narration says its
+  number (each reveal counts as a beat). Order the data in narration order when the chart is built this way.
+- `compare.until`: the 'at' of a later step in the same map shot; the 'before' image holds through the steps in
+  between (labels, icons, no camera moves) and the wipe starts there. Use it to put a label on the before image
+  without starting the wipe early.
+
+## Beats, as the Colorado River remake did them (2026-11-05)
+- Write a beat where the narration names something: a place appears on its word, a bar on its number, a quote card
+  when the quote is spoken, a stat card for a number the chapter turns on.
+- Long quotes: start the clipping card a few words before the highlighted phrase (the marker sweeps about 2 s in).
+- Questions to the viewer: one or two quick cuts under the question card.
+- `holds` notes come from prepare; while writing, an estimate at about 0.4 s a word (150 words/min) keeps every
+  stretch under about 16 words.
 
 ## Packaging
 - Title 35-50 characters: a question or stakes, plus a name or a number; yt-package scores the pairing.

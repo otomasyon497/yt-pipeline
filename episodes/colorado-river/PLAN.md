@@ -19,7 +19,7 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
       canal and river lines (lines.json), basin outlines (geo/), credits for file: areas and NHD lines, tools/colorado_numbers.py
 - [x] 5. Script (`script.json`), humanizer pass on the narration
 - [x] 6. Fact-check pass: every claim against `research.md`
-- [ ] 7. Storyboard run, self-review of every frame, fixes
+- [x] 7. Storyboard run, self-review of every frame, fixes (2 rounds)
 - [ ] 8. Full render, download to `Videos\yt-pipeline\colorado-river`, user review (gate 2)
 
 ## Log
@@ -50,3 +50,8 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   whole-lake Powell views need about 3.1 degrees for every overlay, so they use the MODIS day 2026-09-10 instead of
   Sentinel-2; the dead-pool layer stayed on in the next paragraph (keep + clear): keep off; the 1.25 MAF bar read "1.3"
   (now acre-feet). Next: storyboard 2.
+- 2026-11-04: storyboard 2 (run 41774639045): 17:04, 71 units from 85 shots, no map warnings. Confirmed: July 2019
+  cold-open wipe, reference label inside the frame, Mead chart labels apart, MODIS snow comparison, NARA canal and
+  Imperial Valley photos, Hoover / Yuma / delta close-ups, cuts chart in acre-feet, cameras no longer pulled out by
+  labels. The Powell lower-level steps add overlays without a camera stop, so the storyboard has no still of them
+  (storyboard 1 showed both layers drawing correctly); check them in the final MP4. Next: full render (step 8).

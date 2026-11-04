@@ -108,3 +108,10 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   read its "holds ... (add a beat by 8s)" notes and add beats (map steps, stat cards, cuts) until none remain; then
   review the sheets, final-render checklist, full render, gate 2. Great Salt Lake (episode 4) paused at the script
   skeleton (episodes/great-salt-lake/PLAN.md).
+- 2026-11-05: storyboard 41914961990 (v2): 16:08 (from 17:04), 150 words/min while speaking, 75 units from 89 shots,
+  but 45 units held one picture past 8 s. Every long stretch now has a beat on the word it shows (commit 16ab000):
+  places and icons on their names, chart bars on their numbers (new `chart.reveal`), 13 stat cards, quote cards
+  started just before the quote, quick cuts under the viewer questions, a label on the cold open's 2019 image
+  (new `compare.until`). New public-domain sources: the Compact's signed page and Article III (DPLA), Hoover Dam's
+  spillways in July 1983 (Reclamation), Secretary Burgum's DOI portrait, USGS SIR 2022-5017 (its sentence on the 2017
+  survey marked). Narration unchanged. Estimated longest stretch 7.6 s (0.4 s a word). Storyboard run 41924305495.

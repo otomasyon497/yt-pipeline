@@ -74,8 +74,8 @@
                       },
                       {
                         "name": "West Desert pumps",
-                        "lon": -113.03,
-                        "lat": 41.43,
+                        "lon": -113.07,
+                        "lat": 41.25,
                         "kind": "site",
                         "icon": "water"
                       }

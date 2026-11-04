@@ -2,6 +2,18 @@
 
 ## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; script, fact-check and two storyboards done; the first full render's review found flaws between storyboard stops, fixed (see below); final render 41789861885 (17:04) delivered to Videos\yt-pipeline\colorado-river, waiting for the user's review (gate 2); plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
+## Channel research (2026-11-04, waiting for approval of the plan)
+- The user asked for an analysis of similar channels (videos, transitions, materials, methods, thumbnails), skills to
+  install, and production changes that keep viewers watching. Evidence and plan: docs/channel-analysis-2026-11.md.
+- Measured: our pictures change in 71-83 % of 10-s steps against 89-98 % in the sample, narration about 136 words/min
+  against 165-185; their thumbnails are template maps with 1-3 words, ours AI images; their materials add archival
+  film, highlighted documents, diagrams, map icons and tilted 3D maps.
+- Thumbnail D for colorado-river: our own 2019 | 2026 split from the cold-open wipe (in the episode folder).
+- Skills: youtube-scriptwriting and thumbnail-design chosen after reading them; the install was blocked by the
+  session's permission check, so the user runs the two `npx skills add` commands in the analysis file.
+- Next: phases R1 (packaging, hook and pace rules, 8-s picture-change warning), R2 (document cards, public-domain
+  archival film, stat cards, glowing lines, map icons), R3 (tilted maps, profile diagrams, "ink" style, terrain test).
+
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the
   Outer Banks house collapses, sinking US cities and Greenland, with "start now".

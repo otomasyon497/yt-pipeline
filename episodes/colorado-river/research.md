@@ -160,9 +160,18 @@ court and may reach the Supreme Court, because the Upper and Lower Basin read th
    84 % of Arizona's 760,000 AF cut, 51 % of the whole 1.25 MAF Lower Basin cut, 2.1 times Nevada's entire allocation.
 4. Ten-year flow past Glen Canyon Dam [R8]: 80.0 MAF for WY 2017-2026, below the Lower Basin's 82.5 MAF reading
    and above the Upper Basin's 75 MAF.
-5. (Step 4) Future shoreline of Lake Powell at 3,490 ft (power stops) and 3,370 ft (dead pool) from the USGS
-   topobathymetric DEM [R13], areas from the 2018 EAC tables [R12]; datum: NAVD88 = NGVD29 + 2.91 ft at Powell.
-Scratch scripts (session scratchpad, levels.py): move into tools/colorado_numbers.py in step 4.
+5. Lake Powell at lower levels (tools/powell_shoreline.py on Actions, run 41767796012; USGS 2017 multibeam
+   bathymetry [R13] read at 20 m; NAVD88 = NGVD29 + 2.91 ft). Our polygons vs the USGS 2018 EAC table [R12]:
+   - record low 3,516.62 ft: 225.1 km2 (55,631 acres); EAC 54,856 acres, 6.82 MAF total storage
+   - 3,490 ft (turbines stop): 188.5 km2 (46,590 acres); EAC 45,864 acres, 5.49 MAF
+   - 3,370 ft (dead pool): 77.7 km2 (19,190 acres); EAC 18,915 acres, 1.73 MAF that cannot leave by gravity
+   Our areas are within 2 % of the published table. At the record low, 1.34 MAF stood between the lake and the
+   turbine line: less than three months of 2026's release rate (6.0 MAF a year). At 3,490 ft the lake loses only
+   about 16 % of its record-low surface (the San Juan arm and side canyons), so from orbit it would look almost the
+   same; at dead pool about 65 % is gone: the lake would end just below Bullfrog Bay (37.48 N; the record-low lake
+   reached 37.80 N, about 43 km further in a straight line), and the San Juan arm would be dry.
+   Map layers: episodes/colorado-river/geo/powell_*.geojson ("file:" highlights), powell_summary.json.
+Reproducible: tools/colorado_numbers.py (calculations 1-4 from Reclamation's CSVs).
 
 ## Added in the research pass (2026-11-04, verified unless marked)
 - Hoover Dam: 726.4 ft; first concrete 6 Jun 1933, last concrete 29 May 1935, all features complete 1 Mar 1936

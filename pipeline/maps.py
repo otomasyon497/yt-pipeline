@@ -127,6 +127,9 @@ def prepare_geom(geom_ll, region, w_finest: float, polygons: bool):
 
 # ---------------------------------------------------------------- name resolution
 
+FILE_CREDITS: dict[str, str] = {}  # "file:<name>.geojson" -> its "credit" property
+
+
 def resolve_area(name: str, episode_dir: Path | None = None):
     """('country' | 'admin1' | 'custom', id, lon/lat geom, label, (lon, lat)) or None.
 
@@ -154,6 +157,10 @@ def resolve_area(name: str, episode_dir: Path | None = None):
         feats = data["features"] if data.get("type") == "FeatureCollection" else [data]
         g = shapely.union_all([shape(f["geometry"]) for f in feats if f.get("geometry")])
         label = next((f.get("properties", {}).get("name") for f in feats if f.get("properties", {}).get("name")), None)
+        # A "credit" property (data source and licence) goes into the video's credits when the area is shown.
+        credit = next((f.get("properties", {}).get("credit") for f in feats if f.get("properties", {}).get("credit")), None)
+        if credit:
+            FILE_CREDITS[name] = credit
         pt = g.representative_point()
         return "custom", name, g, label or path.stem.replace("_", " ").title(), (pt.x, pt.y)
     code = geo.country_code(name)
@@ -200,6 +207,11 @@ def great_circle(p0, p1, n: int = 72):
 
 
 LINES = Path(__file__).with_name("lines.json")
+
+
+def line_credit(path: str) -> str | None:
+    """Credit line for a curated polyline whose source is not Natural Earth (lines.json "_credits")."""
+    return json.loads(LINES.read_text(encoding="utf-8")).get("_credits", {}).get(path)
 
 
 def route_coords(route) -> list[tuple[float, float]]:
@@ -338,6 +350,8 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
             raise ValueError(f"map highlight {name!r} is not a country, state/province, file:<name>.geojson or seafloor:<basin>:<m>")
         if name.startswith("seafloor:"):
             plan.credits.add(bathy.CREDIT)
+        if name in FILE_CREDITS:
+            plan.credits.add(FILE_CREDITS[name])
         highlights.append(area)
         frame_items.append(("geom", geo.main_body(area[2]) if area[0] == "country" else area[2]))
     places = []
@@ -354,6 +368,8 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     routes = []
     for r in step.routes:
         pts = lonlat_line_to_unit(route_coords(r))
+        if r.path and (credit := line_credit(r.path)):
+            plan.credits.add(credit)
         routes.append((r, pts))
         frame_items.append(("line", pts))
     arrows = []

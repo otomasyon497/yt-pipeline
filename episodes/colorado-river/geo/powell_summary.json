@@ -1,0 +1,109 @@
+{
+  "source": "USGS 2017 multibeam bathymetry of Lake Powell, doi:10.5066/P90BU2VS",
+  "levels": {
+    "3516.62": {
+      "label": "Record low, 15 Sep 2026",
+      "navd88_ft": 3519.5299999999997,
+      "area_km2": 225.1,
+      "area_acres": 55631,
+      "parts": 1,
+      "raw_km2": 219.8
+    },
+    "3490.0": {
+      "label": "3,490 ft: turbines stop",
+      "navd88_ft": 3492.91,
+      "area_km2": 188.5,
+      "area_acres": 46590,
+      "parts": 1,
+      "raw_km2": 183.8,
+      "dry_km2": 28.9
+    },
+    "3370.0": {
+      "label": "3,370 ft: dead pool",
+      "navd88_ft": 3372.91,
+      "area_km2": 77.7,
+      "area_acres": 19190,
+      "parts": 1,
+      "raw_km2": 75.5,
+      "dry_km2": 145.9
+    }
+  },
+  "eac_2018": {
+    "Lake_Powell_2018_ElevAreaCap_calc.csv": {
+      "columns": [
+        "elevation_ft_navd88",
+        "elevation_ft_ngvd29",
+        "area_acres",
+        "capacity_acrefeet"
+      ],
+      "rows": 1821,
+      "3519.53": {
+        "elevation": 3519.69,
+        "area": 54909.54,
+        "capacity": 6830856.91
+      },
+      "3492.91": {
+        "elevation": 3492.78,
+        "area": 45822.28,
+        "capacity": 5479225.43
+      },
+      "3372.91": {
+        "elevation": 3373.03,
+        "area": 18932.06,
+        "capacity": 1733586.22
+      }
+    },
+    "Lake_Powell_2018_ElevAreaCap_interp.csv": {
+      "columns": [
+        "elevation_ft_navd88",
+        "elevation_ft_ngvd29",
+        "area_acres",
+        "capacity_acrefeet"
+      ],
+      "rows": 59721,
+      "3519.53": {
+        "elevation": 3519.53,
+        "area": 54855.62,
+        "capacity": 6822338.07
+      },
+      "3492.91": {
+        "elevation": 3492.91,
+        "area": 45864.2,
+        "capacity": 5485084.18
+      },
+      "3372.91": {
+        "elevation": 3372.91,
+        "area": 18914.51,
+        "capacity": 1731287.44
+      }
+    },
+    "Lake_Powell_2018_ElevAreaCap_errchk.csv": {
+      "columns": [
+        "elevation_ft_navd88",
+        "elevation_ft_ngvd29",
+        "area_acres_01",
+        "capacity_acrefeet_01",
+        "area_acres_int",
+        "capacity_acrefeet_int",
+        "area_percent_dif",
+        "capacity_percent_dif"
+      ],
+      "rows": 1303,
+      "3519.53": {
+        "elevation": 3401.0,
+        "area": 24614.91,
+        "capacity": 2330729.48
+      },
+      "3492.91": {
+        "elevation": 3401.0,
+        "area": 24614.91,
+        "capacity": 2330729.48
+      },
+      "3372.91": {
+        "elevation": 3400.0,
+        "area": 24410.15,
+        "capacity": 2306215.85
+      }
+    }
+  }
+}

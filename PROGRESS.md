@@ -1,6 +1,17 @@
 # PROGRESS
 
-## Status (2026-11-05: episode 4 great-salt-lake started (research); R1 + R2 built and reviewed. 2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; script, fact-check and two storyboards done; the first full render's review found flaws between storyboard stops, fixed (see below); final render 41789861885 (17:04) delivered to Videos\yt-pipeline\colorado-river, waiting for the user's review (gate 2); plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-05: episode 3 colorado-river remade as v2 at the user's request (v1's transitions felt heavy; the feature-demo's pace was better): 16:08, a beat every few seconds, final render 41929673758 in Videos\yt-pipeline\colorado-river (v1 kept in its v1\ subfolder), waiting for the user's review (gate 2); log in episodes/colorado-river/PLAN.md. Episode 4 great-salt-lake paused at the script skeleton (open checks resolved, see its PLAN.md). Earlier: gerd-nile live (https://youtu.be/bR4wVyHqct4), caspian-sea uploaded; Shorts dropped. Open for the user: a Latin handle instead of @ınkorbııt, the two `npx skills add` commands, advanced features (pinned comment, chapters))
+
+## Colorado River v2 (2026-11-05)
+- Why: the user found v1's transitions heavy and preferred the feature-demo's pace.
+- Done: narration 1.08 with shorter pauses, flights 0.7-1.9 s, 1.8-s chapter cards; every stretch over 8 s got a beat
+  on the word it shows (places and icons on their names, chart bars on their numbers, stat cards, quote cards started
+  just before the quote, quick cuts under the viewer questions). 45 long holds -> 0; 89 -> 162 shots; 17:04 -> 16:08.
+- New engine features: `chart.reveal` (bars / points appear with the narration, counted as beats, own storyboard
+  stills) and `compare.until` (the before image holds through label steps). Fixed: line charts drew their last point
+  at half opacity (every episode so far).
+- Lessons: spoken numbers run longer than 0.4 s a word (estimate them generously); stock queries naming a place
+  still return other countries (prefer Commons photos, maps or our own cards where a viewer could misread the place).
 
 ## Channel research (2026-11-04; the user approved R1 and R2 together, and thumbnail D for colorado-river)
 - The user asked for an analysis of similar channels (videos, transitions, materials, methods, thumbnails), skills to

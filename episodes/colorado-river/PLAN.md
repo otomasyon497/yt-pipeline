@@ -124,3 +124,14 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   CC BY 2.0), Hoover Dam's generator hall (CC BY 2.0), Interior on the map and sharper queries. Found on the way:
   every line chart drew its last point at half opacity (since the first episode); fixed (f94e674). Full render
   41929673758 (thumbnails on).
+- 2026-11-05: final render 41929673758 (v2): 16:08.1, 1080p24, -14.5 LUFS, true peak -0.4 dBTP, 147 units from 162
+  shots, no hold notes. Release ep-colorado-river-41929673758 downloaded to Videos\yt-pipeline\colorado-river (v1's
+  files moved to its v1\ subfolder; release ep-colorado-river-41789861885 still exists). Checked in the MP4 (frames
+  at 55 points): the 2019 image holds through the Bullfrog Bay label and wipes on "September 2026"; the Lake Mead
+  MODIS compare holds through its label and wipes on "still had Lake Mead"; every new place, icon, route and layer
+  step lands (pumps badge, Santa Fe, Rocky Mountains, Imperial Valley, intakes 1-3 texts, 3,490 / dead-pool layers,
+  the closing farms / cities / upper states); line charts end on a fully drawn point; the new photos and stock picks
+  show the right places; seam scan on the mixed-day Sentinel-2 views: steps 7-12 (rivers and shores, below the
+  13-16 of real seams). Known and kept: in "The Promise of 1922" the state highlights sit on top of the basin
+  outlines kept from the paragraph before (clear only removes the current shot's overlays). Credits list the CC BY
+  photos with author and link, the USGS report and the archive film. Waiting for the user (gate 2).

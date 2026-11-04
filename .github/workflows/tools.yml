@@ -1,0 +1,36 @@
+name: Data tools
+
+# One-off data preparation that is too heavy for the user's PC (large rasters, GIS libraries).
+# Each tool writes its results to out/, uploaded as an artifact for a few days.
+on:
+  workflow_dispatch:
+    inputs:
+      tool:
+        description: "Tool in tools/ to run"
+        type: choice
+        options:
+          - powell_shoreline
+        required: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TOOL: ${{ inputs.tool }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install numpy shapely rasterio requests
+      - name: Run
+        run: |
+          mkdir -p out
+          python "tools/$TOOL.py" out
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ inputs.tool }}
+          path: out/
+          retention-days: 3

@@ -62,7 +62,7 @@ def _search(lonlat_box, start: str, end: str, max_cloud: float) -> list[dict]:
     """
     base = {"collections": ["sentinel-2-c1-l2a"], "bbox": list(lonlat_box), "datetime": f"{start}T00:00:00Z/{end}T23:59:59Z"}
     if start == end or (date.fromisoformat(end) - date.fromisoformat(start)).days <= 7:  # event imagery: few items
-        return sorted(_post({**base, "limit": 200}), key=_rank)
+        return _by_pass(_post({**base, "limit": 200}), lonlat_box)
     one_day = _covering_day(base, lonlat_box, max_cloud)
     probe_end = date.fromisoformat(end)
     probe = _post({**base, "datetime": f"{probe_end - timedelta(days=45)}T00:00:00Z/{probe_end}T23:59:59Z", "limit": 250,
@@ -114,8 +114,23 @@ def _covering_day(base: dict, lonlat_box, max_cloud: float) -> list[dict]:
         return []
     day = best[1]
     print(f"  sentinel-2: {day} covers the whole view in one day")
-    return sorted(_post({**base, "datetime": f"{day}T00:00:00Z/{day}T23:59:59Z", "limit": 50,
-                         "query": {"eo:cloud_cover": {"lt": max_cloud}}}), key=_rank)
+    return _by_pass(_post({**base, "datetime": f"{day}T00:00:00Z/{day}T23:59:59Z", "limit": 50,
+                           "query": {"eo:cloud_cover": {"lt": max_cloud}}}), lonlat_box)
+
+
+def _by_pass(items: list[dict], lonlat_box) -> list[dict]:
+    """Scenes, the satellite pass (satellite and day) that covers most of the box first, then by _rank.
+
+    Since 2025 two satellites can pass on the same day minutes apart, and their colours differ (Lake Powell, 20 Sep
+    2026: blue +20 across the tile boundary where S2A and S2B alternated). Filled pass by pass, a mosaic has one seam
+    at most, at the edge of the first pass's swath.
+    """
+    target = shp_box(*lonlat_box)
+    feet: dict[str, list] = {}
+    for it in items:
+        feet.setdefault(it["id"][:3] + it["properties"]["datetime"][:10], []).append(shape(it["geometry"]))
+    share = {k: shapely.union_all(v).intersection(target).area for k, v in feet.items()}
+    return sorted(items, key=lambda it: (-share[it["id"][:3] + it["properties"]["datetime"][:10]], _rank(it)))
 
 
 def _rank(item: dict) -> tuple:
@@ -208,6 +223,9 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
     cache = CACHE_DIR / "s2" / f"{key}.png"
     meta = cache.with_suffix(".json")
     event = bool(when) and "/" not in when  # a single day: event imagery, no cloud mask, stretched tone
+    # A one-day window "D/D" is a clear day picked by hand: normal tone, and no cloud mask either (Sen2Cor's false
+    # cloud on bright ground would be filled from the other satellite's pass, in its colours).
+    picked_day = bool(when) and "/" in when and len(set(when.split("/"))) == 1
     if not cache.exists():
         if when and not event:
             items = _search(lonlat, *when.split("/"), 10)
@@ -257,7 +275,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                     continue
                 # Cloud mask only for scenes with real clouds, never for event imagery: Sen2Cor flags
                 # bright desert and dust as cloud, which punched holes into otherwise clear scenes.
-                use_scl = not event and float(it["properties"].get("eo:cloud_cover", 0)) >= 2.0
+                use_scl = not event and not picked_day and float(it["properties"].get("eo:cloud_cover", 0)) >= 2.0
                 names = BANDS if use_scl else BANDS[:3]
                 red, green, blue, *rest = pool.map(lambda b: read_band(it, b), names)
                 bands = []

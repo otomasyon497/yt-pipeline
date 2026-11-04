@@ -65,3 +65,25 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   cover its whole box. Pipeline: window mosaics now start from the clearest day that covers the whole box (then the
   highest sun), and maps.py notes S2 images stitched from several days. The Flaming Gorge route now starts at the dam
   (it ran from the Green River's source in Wyoming). Stills run 41784500831 to check, full render 41784506403.
+- 2026-11-04: stills 41784500831 confirmed both fixes (no rectangle at 09:00-09:25, the delta in one piece) and the
+  route from the dam. Its new map notes listed 8 S2 images stitched from several days; checking those views and the
+  moments between storyboard stops in the MP4 found three more flaws, so render 41784506403 was cancelled:
+  P5.7 (10:36-10:49) showed Lake Powell's bed as a blurred band (first read as Sen2Cor's cloud mask; see the next
+  entry for the real cause; view on 2026-09-20); the 2023 backdrop under the cold-open compare showed a
+  fuller lake for a moment as the compare faded (00:16; the step now uses the after month), and the same at the Powell
+  MODIS compare (06:56; 2.05 degrees + the after day, so the backdrop is that MODIS image); and the chart cut in before
+  the snow wipe reached March 2026 (wipe 2.4 s, chart at "the runoff headed"). Mexicali, Flaming Gorge, Yuma and the
+  July 2019 image mix days without a visible seam. Stills 41786439077, full render 41786443194.
+- 2026-11-04: stills 41786439077 confirmed the cold-open and P4.3 fades (the backdrop now matches the after image) and
+  the snow wipe (March 2026 whole for about 2.5 s), but P5.7 still had the band, so render 41786443194 was cancelled.
+  Real cause: S2 views wider than 1.5 degrees are cut to Natural Earth land minus lakes, and Natural Earth draws Lake
+  Powell at full pool, so Blue Marble's 2004 lake showed inside the full-pool outline (the mask over P5.7's box has
+  exactly the band's shape). S2 now keeps lakes (land_mask(lakes=False)); the first-observation fill for cloud-masked
+  holes stays as a safeguard. Stills 41788062439, full render 41788066410.
+- 2026-11-04: stills 41788062439: P5.7 shows the real lake now, but measuring the frame found a straight seam at
+  -111.0 degrees (luminance +9, blue +20 across the 12SVG/12SWG boundary: S2A and S2B passes 11 minutes apart, filled
+  tile by tile in cloud order); the delta has a fainter one (blue +10). Render 41788066410 cancelled. One-day and
+  covering-day mosaics now fill pass by pass, the pass covering most of the box first (_by_pass), and a hand-picked
+  one-day window skips the cloud mask. P5.7 (-111.06, 37.32, 1.55) and the delta (-114.90, 31.92, 0.9) moved slightly
+  so that S2A's pass covers 99.7-99.9 % of the frame (the new boxes also mean fresh mosaics). Stills and full render
+  dispatched next.

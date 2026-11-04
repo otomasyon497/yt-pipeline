@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; features, script and fact-check done; storyboard run 41769780405 in progress; plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; script, fact-check and two storyboards done; the first full render's review found flaws between storyboard stops, fixed (see below); final render 41788066410 in progress, then gate 2; plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the
@@ -18,6 +18,20 @@
   All-American Canal (USGS NHD, chained with a pure-Python script). tools/colorado_numbers.py reproduces the own numbers.
 - Gate 1 approved 2026-11-04 ("Onaylıyorum, devam et"); script 2,310 words, title "Lake Mead and Lake Powell Both Hit
   Record Lows in 2026" (yt-package 98/100). Voice profile for yt-package written to ~/.claude/youtube/voice.md.
+- Final-render review (2026-11-04), frames pulled from the MP4 on the PC: five flaws, two of them visible on the
+  storyboard too and missed there. Engine fixes for all episodes:
+  - MapBlock: where a dated MODIS image covers the frame, Sentinel-2 fades out at 2.0-2.6 degrees (it sat on the
+    3.1-degree Lake Powell view as a sharp rectangle); blended by MODIS's share of the frame.
+  - sentinel.py: window mosaics start from the clearest day whose passes cover the whole box (then the highest sun;
+    two satellites minutes apart count as one day), so tiles of two dates no longer meet in a seam (the delta, March
+    vs May); one scene per tile and acquisition; pixels the cloud mask removed that nothing else filled keep their
+    first observation (Sen2Cor flags bright ground as cloud; a safeguard, not the cause of anything seen here).
+  - maps.py: S2 views wider than 1.5 degrees keep lakes (land_mask(lakes=False)). Natural Earth draws reservoirs at
+    full pool, so the "land minus lakes" cut showed Blue Marble's 2004 Lake Powell inside the full-pool outline.
+  - maps.py: "map warning: ... Sentinel-2 scenes of N days" for every S2 image stitched from several days.
+  - Script rules learned: date a compare step with its "after" window (the backdrop shows when the compare fades);
+    give a wipe time to finish before the next cut; a one-day window "D/D" picks one clear day with the normal tone.
+- Actions: storyboards about 17 min, full render about 56 min, stills runs about 12 min.
 
 ## Episode 2: caspian-sea (started 2026-11-03)
 - The user picked "the shrinking Caspian" from three proposals: Antelope Reef (China's new island in the Paracels, my
@@ -134,6 +148,11 @@
 - Test script facts are illustrative (see `sources`) - fact-check before real use.
 
 ## Known issues / notes for later phases
+- Final-render checklist (the storyboard has one still per stop and cannot show these): what is under a compare when
+  it fades; whether each wipe and route finishes before the next cut; overlay-only steps (no camera stop); the S2
+  images named in the "Sentinel-2 scenes of N days" map warnings. Pull frames with Remotion's ffmpeg and check them.
+- Inside a window mosaic, pixels the mask flags as cloud on bright ground can still be filled from another day (only
+  when the best day's scene reports 2 % cloud or more). If that shows up: mask only SCL 3/9/10, not 8.
 - true_size: the moved country's label can land under a water or region label at the destination (caspian-sea
   1:36-1:46: CASPIAN SEA over GERMANY), and the user could not tell the move was a size comparison. Before the next
   true_size shot: hide labels under the moved shape while it is on screen and add a short "<country>, to scale" tag.

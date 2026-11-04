@@ -145,7 +145,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
         src, kb = first["src"], _KB[i % len(_KB)]
         texts = []
         for s in u["subs"]:
-            text = s["src"].on_screen_text if s["src"] is not None and s["kind"] in ("stock", "ai_image", "photo", "map") else None
+            text = s["src"].on_screen_text if s["src"] is not None and s["kind"] in ("stock", "film", "ai_image", "photo", "map") else None
             if text:
                 offset = s["startFrame"] - u["startFrame"]
                 if SHORT and i == 0 and offset == 0:  # a Short's hook line is on screen from the very first frame

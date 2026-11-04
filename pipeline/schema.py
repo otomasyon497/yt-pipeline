@@ -7,7 +7,7 @@ from typing import Literal, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote", "stat", "document"]
+ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote", "stat", "document", "film"]
 Mood = Literal["calm", "curious", "tension"]
 
 
@@ -240,6 +240,10 @@ class Shot(BaseModel):
     source: Literal["auto", "pexels", "pixabay"] = "auto"  # stock: auto = Pexels, then Pixabay if nothing fits
     prompt: Optional[str] = None  # ai_image
     photo: Optional[str] = None  # photo: Wikimedia Commons "File:..." (public domain / CC0 / CC BY only)
+    # film: a Commons video "File:....webm" (archival film: NARA, NASA, Reclamation...; same licence rules), from
+    # `film_start` seconds in, as long as the shot lasts
+    film: Optional[str] = None
+    film_start: float = Field(0.0, ge=0)
     on_screen_text: Optional[str] = None
     subtitle: Optional[str] = None
     chart: Optional[Chart] = None
@@ -263,11 +267,12 @@ class Shot(BaseModel):
             "quote": self.quote,
             "stat": self.stat,
             "document": self.document,
+            "film": self.film,
         }[self.type]
         if not need:
             raise ValueError(f"shot type '{self.type}' is missing its required field")
-        if self.where is not None and self.type not in ("stock", "photo", "ai_image"):
-            raise ValueError("'where' (locator inset) is for stock, photo and ai_image shots")
+        if self.where is not None and self.type not in ("stock", "photo", "ai_image", "film"):
+            raise ValueError("'where' (locator inset) is for stock, photo, film and ai_image shots")
         return self
 
 

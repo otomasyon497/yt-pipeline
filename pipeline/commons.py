@@ -85,6 +85,61 @@ def fetch(title: str) -> tuple[Path, str]:
     return img_path, credit
 
 
+def fetch_video(title: str) -> tuple[Path, str]:
+    """Download a Commons video (archival film): same licence rules as images; a transcode of 480-1080 lines
+    (720 preferred) when Commons has one, else the original. Returns (local path, credit line)."""
+    title = title if title.startswith("File:") else f"File:{title}"
+    key = hashlib.sha1(title.encode()).hexdigest()
+    meta_path = CACHE_DIR / "commons" / f"{key}.video.json"
+    if meta_path.exists():
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        if Path(meta["path"]).exists():
+            return Path(meta["path"]), meta["credit"]
+    params = {"action": "query", "titles": title, "prop": "videoinfo", "viprop": "url|extmetadata|derivatives|mime",
+              "format": "json"}
+    for attempt in range(4):
+        try:
+            r = requests.get(API, params=params, headers=UA, timeout=60)
+            r.raise_for_status()
+            break
+        except requests.RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(3 * (attempt + 1))
+    page = next(iter(r.json()["query"]["pages"].values()))
+    if "videoinfo" not in page:
+        raise ValueError(f"Commons video not found: {title}")
+    info = page["videoinfo"][0]
+    meta = info.get("extmetadata", {})
+    code = meta.get("License", {}).get("value", "")
+    short = _clean(meta.get("LicenseShortName", {}).get("value", ""))
+    if not _allowed(code, short):
+        raise ValueError(f"{title}: licence {short or code!r} is not public domain / CC0 / CC BY - choose another film")
+    artist = _clean(meta.get("Artist", {}).get("value", "")) or "unknown author"
+    derivs = [d for d in info.get("derivatives", []) if 480 <= int(d.get("height") or 0) <= 1080]
+    url = min(derivs, key=lambda d: abs(int(d["height"]) - 720))["src"] if derivs else info["url"]
+    ext = Path(url.split("?")[0]).suffix or ".webm"
+    path = CACHE_DIR / "commons" / f"{key}{ext}"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    for attempt in range(4):
+        try:
+            with requests.get(url, headers=UA, timeout=300, stream=True) as resp:
+                resp.raise_for_status()
+                with open(path, "wb") as fh:
+                    for chunk in resp.iter_content(1 << 20):
+                        fh.write(chunk)
+            break
+        except requests.RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(5 * (attempt + 1))
+    name = re.sub(r"\.(webm|ogv|ogg|mpe?g|mp4|mov)$", "", title[5:], flags=re.I)
+    credit = f"{name} - {artist} - {short or code} - {info.get('descriptionurl', '')}"
+    meta_path.write_text(json.dumps({"credit": credit, "licence": short or code, "path": str(path)}), encoding="utf-8")
+    print(f"  commons film: {title} ({short or code}), {path.stat().st_size / 1e6:.1f} MB")
+    return path, credit
+
+
 def prepare(src: Path, out_main: Path, out_bg: Path) -> str:
     """Write the photo (fit inside the frame, with headroom for a slow push-in) and a blurred, darkened
     full-frame background from the same picture. Returns "cover" for near-16:9 pictures, else "contain"."""

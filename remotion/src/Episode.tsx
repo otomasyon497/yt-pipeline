@@ -21,6 +21,7 @@ import type {ShotData, Timeline} from './types';
 const ShotBody: React.FC<{shot: ShotData}> = ({shot}) => {
 	switch (shot.visual) {
 		case 'stock':
+		case 'film': // archival film: a pre-trimmed clip like stock
 			return <StockScene scene={shot} />;
 		case 'ai_image':
 			return <ImageScene scene={shot} />;
@@ -48,7 +49,7 @@ const LOOKS: Record<string, string> = {
 	warm: 'contrast(1.07) saturate(0.86) sepia(0.14) brightness(0.96)',
 	cool: 'contrast(1.06) saturate(0.84) hue-rotate(-8deg) brightness(0.96)',
 };
-const FOOTAGE = new Set(['stock', 'photo', 'ai_image']);
+const FOOTAGE = new Set(['stock', 'film', 'photo', 'ai_image']);
 
 // Every shot after the first appears over the previous one, which stays drawn for exactly that long
 // (see timeline.py). Chapter cards punch in (scale down into place); everything else dissolves.

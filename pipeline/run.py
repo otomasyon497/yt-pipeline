@@ -193,7 +193,7 @@ def prepare(slug: str) -> None:
     clips, media_files, used_ids, used_ai = [], {}, set(), False
     sfx_events, extra_credits, map_warnings = [], {"Map data: Natural Earth (public domain)."}, []
     photo_fit, photo_credits, locs = {}, [], {}
-    docs, doc_credits = {}, []
+    docs, doc_credits, film_credits = {}, [], []
     with step("media"):
         for u in lay["units"]:
             src, seconds = u["subs"][0]["src"], u["drawFrames"] / FPS
@@ -222,6 +222,11 @@ def prepare(slug: str) -> None:
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg")
                 photo_credits.append(credit)
+            elif src.type == "film":
+                path, credit = commons.fetch_video(src.film)
+                media_files[u["id"]] = f"{u['id']}.mp4"
+                media.normalize_clip(path, PUBLIC_MEDIA / media_files[u["id"]], seconds, start=src.film_start)
+                film_credits.append(credit)
             elif src.type == "document":
                 d = src.document
                 spec = {"title": d.title, "source": d.source}
@@ -273,6 +278,8 @@ def prepare(slug: str) -> None:
         extra = sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else []
         if doc_credits:
             extra = ["Documents shown (public domain):", *[f"- {c}" for c in dict.fromkeys(doc_credits)], ""] + extra
+        if film_credits:
+            extra = ["Archive films (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(film_credits)], ""] + extra
         if photo_credits:
             extra = ["Archive images (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra
         credits.write(work / "credits.txt", clips, track, used_ai, extra)

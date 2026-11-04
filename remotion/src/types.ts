@@ -1,4 +1,4 @@
-export type Visual = 'stock' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card' | 'stat' | 'document';
+export type Visual = 'stock' | 'film' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card' | 'stat' | 'document';
 
 // A public-domain page with its key lines marked (rects: page fractions, top-left origin), or a clipping card.
 export type DocSpec = {

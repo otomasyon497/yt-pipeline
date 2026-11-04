@@ -12,14 +12,15 @@ def run(cmd: list) -> None:
         raise RuntimeError(f"ffmpeg failed ({r.returncode}):\n{r.stderr[-1500:]}")
 
 
-def normalize_clip(src: Path, dst: Path, seconds: float) -> None:
-    """Trim/loop `src` to exactly `seconds`, cover-crop to 1920x1080 at project fps, strip audio.
+def normalize_clip(src: Path, dst: Path, seconds: float, start: float = 0.0) -> None:
+    """Trim/loop `src` to exactly `seconds` (from `start` s in), cover-crop to 1920x1080 at project fps, strip audio.
 
-    Looping (-stream_loop) is only exercised when the stock clip is shorter than the scene.
+    Looping (-stream_loop) is only exercised when the clip is shorter than the scene.
     """
     dst.parent.mkdir(parents=True, exist_ok=True)
     vf = f"scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=increase,crop={WIDTH}:{HEIGHT},fps={FPS},setsar=1"
-    run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", src, "-t", f"{seconds:.3f}",
+    seek = ["-ss", f"{start:.3f}"] if start > 0 else []
+    run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", *seek, "-i", src, "-t", f"{seconds:.3f}",
          "-vf", vf, "-an", "-c:v", "libx264", "-preset", "ultrafast", "-crf", "18", "-pix_fmt", "yuv420p", dst])
 
 

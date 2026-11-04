@@ -7,7 +7,7 @@ from typing import Literal, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote"]
+ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote", "stat"]
 Mood = Literal["calm", "curious", "tension"]
 
 
@@ -28,6 +28,14 @@ class Chart(BaseModel):
     source: Optional[str] = None  # shown at the bottom, e.g. "World Bank; our calculation"
     ref: Optional[tuple[float, str]] = None  # reference line: (value, label), e.g. (500, "absolute scarcity")
     highlight: Optional[int] = None  # bar / point index drawn in the accent colour (bars: default the first)
+
+
+class Stat(BaseModel):
+    """One big number on its own screen (a full-screen card): the figure counts up, then label, note and source."""
+    value: str = Field(max_length=24)  # as shown: "1.25 million", "74%", "$3.6 billion", "3,490 ft"
+    label: str = Field(max_length=80)  # what it measures, one line
+    note: Optional[str] = Field(None, max_length=110)  # context or comparison, muted
+    source: Optional[str] = None
 
 
 class MapPoint(BaseModel):  # v2 shorthand, still accepted
@@ -203,6 +211,7 @@ class Shot(BaseModel):
     on_screen_text: Optional[str] = None
     subtitle: Optional[str] = None
     chart: Optional[Chart] = None
+    stat: Optional[Stat] = None
     map: Optional[MapSpec] = None
     quote: Optional[str] = None
     author: Optional[str] = None
@@ -219,6 +228,7 @@ class Shot(BaseModel):
             "map": self.map,
             "title_card": self.on_screen_text,
             "quote": self.quote,
+            "stat": self.stat,
         }[self.type]
         if not need:
             raise ValueError(f"shot type '{self.type}' is missing its required field")

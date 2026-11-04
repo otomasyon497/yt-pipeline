@@ -1,14 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
-import {body, clamp01, colors, display, easeOut} from '../theme';
+import {body, clamp01, colors, display, easeOut, formatNumber} from '../theme';
 import type {CountUp} from '../types';
-
-const formatNumber = (v: number, c: CountUp) => {
-	const fixed = v.toFixed(c.decimals);
-	if (!c.commas) return fixed;
-	const [int, dec] = fixed.split('.');
-	return int.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + (dec ? `.${dec}` : '');
-};
 
 // Lower-third label: slides in, holds, fades out. Numbers marked by the pipeline count up while it appears.
 // In a Short (vertical frame) it is a big headline near the top; `instant` = the hook line, fully there from frame 0.

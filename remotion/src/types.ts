@@ -1,4 +1,7 @@
-export type Visual = 'stock' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card';
+export type Visual = 'stock' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card' | 'stat';
+
+// Full-screen number card: `value` counts up when the pipeline found a number in it (never a bare year).
+export type StatSpec = {value: string; label: string; note?: string | null; source?: string | null; countUp: CountUp | null};
 
 // Absolute frames; `p` = paragraph index (caption phrases never cross paragraphs).
 export type Word = {text: string; start: number; end: number; p: number};
@@ -31,6 +34,7 @@ export type ShotData = {
 	onScreenText: string | null; // title of title / chapter cards
 	subtitle: string | null;
 	chart: ChartSpec | null;
+	stat?: StatSpec | null;
 	quote: string | null;
 	author: string | null;
 	kenBurns: KenBurns;

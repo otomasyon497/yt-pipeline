@@ -11,6 +11,7 @@ import {ChartScene} from './scenes/ChartScene';
 import {ImageScene} from './scenes/ImageScene';
 import {PhotoScene} from './scenes/PhotoScene';
 import {QuoteScene} from './scenes/QuoteScene';
+import {StatScene} from './scenes/StatScene';
 import {StockScene} from './scenes/StockScene';
 import {TitleCard} from './scenes/TitleCard';
 import {colors, easeOut} from './theme';
@@ -34,6 +35,8 @@ const ShotBody: React.FC<{shot: ShotData}> = ({shot}) => {
 			return <QuoteScene scene={shot} />;
 		case 'chapter_card':
 			return <ChapterCard shot={shot} />;
+		case 'stat':
+			return <StatScene stat={shot.stat!} />;
 	}
 };
 

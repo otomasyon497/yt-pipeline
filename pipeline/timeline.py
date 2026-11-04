@@ -28,8 +28,12 @@ _UNIT = re.compile(r"^\s?(%|percent|per cent|billion|million|trillion|thousand|b
                    r"tons?|tonnes?|ships?|people|times|x\b)", re.IGNORECASE)
 
 
-def count_up(text: str | None) -> dict | None:
-    """Animate a number in an on-screen label ("About $9.6 billion" counts up), but never a bare year."""
+def count_up(text: str | None, any_unit: bool = False) -> dict | None:
+    """Animate a number in an on-screen label ("About $9.6 billion" counts up), but never a bare year.
+
+    Labels count only with a currency or a known unit after the number; a stat card (`any_unit`) counts any
+    number except a year on its own ("1963").
+    """
     if not text:
         return None
     m = _NUM.match(text)
@@ -37,7 +41,11 @@ def count_up(text: str | None) -> dict | None:
         return None
     num, cur, post = m["num"], m["cur"], m["post"]
     value = float(num.replace(",", ""))
-    if not cur and not _UNIT.match(post):
+    if any_unit:
+        year = not cur and "," not in num and value.is_integer() and 1000 <= value <= 2100
+        if year and not post.strip(" .,;:!?"):  # "1963", "since 1963": a year, not an amount
+            return None
+    elif not cur and not _UNIT.match(post):
         return None
     if value <= 0:
         return None
@@ -162,6 +170,8 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             "onScreenText": first["title"] if src is None else src.on_screen_text,
             "subtitle": None if src is None else src.subtitle,
             "chart": src.chart.model_dump() if src is not None and src.chart else None,
+            "stat": ({**src.stat.model_dump(), "countUp": count_up(src.stat.value, any_unit=True)}
+                     if src is not None and src.stat else None),
             "quote": None if src is None else src.quote,
             "author": None if src is None else src.author,
             "kenBurns": {"z0": kb[0], "z1": kb[1], "x0": kb[2], "x1": kb[3], "y0": kb[4], "y1": kb[5]},
@@ -195,6 +205,10 @@ def card_sfx(timeline: dict) -> list[tuple[float, str, float]]:
             events += [(max(0.0, t - 0.3), "whoosh", -2.0), (t + 0.05, "hit", 0.0)]
         elif s["visual"] == "title_card":
             events.append((t + 0.1, "hit", -3.0))
+        elif s["visual"] == "stat":
+            events.append((t + 0.15, "hit", -3.0))
+            if s["stat"] and s["stat"]["countUp"]:
+                events.append((t + 0.45, "ticks", 0.0))
         for text in s["texts"]:
             if text.get("kind") == "question":
                 events.append(((s["startFrame"] + text["from"]) / FPS, "pop", -1.0))

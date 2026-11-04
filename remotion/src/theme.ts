@@ -18,3 +18,11 @@ export const colors = {
 // Soft ease used by most animations.
 export const easeOut = (t: number) => 1 - Math.pow(1 - Math.min(Math.max(t, 0), 1), 3);
 export const clamp01 = (t: number) => Math.min(Math.max(t, 0), 1);
+
+// A counting number with the decimals and thousands commas the pipeline found in the text.
+export const formatNumber = (v: number, c: {decimals: number; commas: boolean}) => {
+	const fixed = v.toFixed(c.decimals);
+	if (!c.commas) return fixed;
+	const [int, dec] = fixed.split('.');
+	return int.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + (dec ? `.${dec}` : '');
+};

@@ -332,6 +332,34 @@
                 "highlight": 2,
                 "source": "Reclamation natural flow data, via Kuhn and Fleck"
               }
+            },
+            {
+              "type": "map",
+              "at": "The deal divided",
+              "on_screen_text": "Promised: 16.5 million acre-feet a year",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -117.6,
+                        43.4
+                      ],
+                      [
+                        -104.4,
+                        31.2
+                      ]
+                    ],
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 3.0
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -639,6 +667,34 @@
               "type": "stock",
               "at": 0,
               "query": "Las Vegas strip aerial view"
+            },
+            {
+              "type": "map",
+              "at": "Southern Nevada now uses",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.85,
+                      "lat": 36.12,
+                      "span": 0.9
+                    },
+                    "date": "2026-09-01/2026-10-31",
+                    "places": [
+                      {
+                        "name": "Las Vegas"
+                      },
+                      {
+                        "name": "Lake Mead",
+                        "lon": -114.55,
+                        "lat": 36.12,
+                        "kind": "label",
+                        "label": "LAKE MEAD"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -723,6 +779,11 @@
                 "highlight": 8,
                 "source": "Bureau of Reclamation daily data"
               }
+            },
+            {
+              "type": "stock",
+              "at": "In 2021 the government declared",
+              "query": "Lake Mead low water level drought"
             }
           ]
         },
@@ -939,15 +1000,10 @@
                 36.937
               ],
               "where_label": "Glen Canyon Dam, Arizona, 1972"
-            }
-          ]
-        },
-        {
-          "text": "Below that line, the only way to move water downstream is through four smaller tunnels called the river outlet works. The Bureau of Reclamation says the dam was never meant to run on those tunnels alone for long, and it is studying how to limit cavitation damage inside them. At 3,370 feet, water cannot leave through the dam at all. Engineers call that dead pool.",
-          "shots": [
+            },
             {
               "type": "map",
-              "at": 0,
+              "at": "If the lake falls below",
               "map": {
                 "steps": [
                   {
@@ -965,6 +1021,35 @@
                         "kind": "site"
                       }
                     ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Below that line, the only way to move water downstream is through four smaller tunnels called the river outlet works. The Bureau of Reclamation says the dam was never meant to run on those tunnels alone for long, and it is studying how to limit cavitation damage inside them. At 3,370 feet, water cannot leave through the dam at all. Engineers call that dead pool.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -111.47,
+                      "lat": 36.95,
+                      "span": 0.25
+                    }
+                  },
+                  {
+                    "at": "At 3,370 feet",
+                    "view": {
+                      "lon": -111.4,
+                      "lat": 37.0,
+                      "span": 0.6
+                    }
                   }
                 ]
               }
@@ -1034,8 +1119,29 @@
           "text": "At the record low, about 1.3 million acre-feet stood between the lake and the turbine line, less than three months of this year's releases. To protect that line, the government had already cut the 2026 release from Glen Canyon Dam to 6 million acre-feet, the smallest in sixty years. It also ordered up to a million acre-feet sent down from Flaming Gorge Reservoir, on the Wyoming-Utah line.",
           "shots": [
             {
-              "type": "chart",
+              "type": "map",
               "at": 0,
+              "on_screen_text": "1.3 million acre-feet above the turbine line",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "clear": true,
+                    "view": {
+                      "lon": -110.98,
+                      "lat": 37.34,
+                      "span": 1.45
+                    },
+                    "highlight": [
+                      "file:powell_dry_3490.geojson"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "To protect that line",
               "chart": {
                 "type": "bar",
                 "title": "Released from Glen Canyon Dam, million acre-feet",
@@ -1068,6 +1174,24 @@
               "map": {
                 "steps": [
                   {
+                    "view": {
+                      "lon": -109.55,
+                      "lat": 41.05,
+                      "span": 0.9
+                    },
+                    "date": "2026-09-01/2026-10-31",
+                    "places": [
+                      {
+                        "name": "Flaming Gorge Reservoir",
+                        "lon": -109.55,
+                        "lat": 41.15,
+                        "kind": "label",
+                        "label": "FLAMING GORGE"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "sent down from",
                     "focus": [
                       [
                         -111.2,
@@ -1079,13 +1203,6 @@
                       ]
                     ],
                     "places": [
-                      {
-                        "name": "Flaming Gorge Reservoir",
-                        "lon": -109.55,
-                        "lat": 41.15,
-                        "kind": "label",
-                        "label": "FLAMING GORGE"
-                      },
                       {
                         "name": "Lake Powell",
                         "lon": -110.95,
@@ -1199,6 +1316,35 @@
               "type": "stock",
               "at": 0,
               "query": "Lake Powell aerial red rock water"
+            },
+            {
+              "type": "map",
+              "at": "Talks between the seven states",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -120.5,
+                        42.2
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ],
+                    "highlight": [
+                      "Arizona",
+                      "California",
+                      "Nevada",
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1235,6 +1381,58 @@
                 ],
                 "highlight": 0,
                 "source": "Interior Department, Aug 2026; IBWC Minute 334"
+              }
+            },
+            {
+              "type": "map",
+              "at": "Under a new agreement",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -117.2,
+                        33.2
+                      ],
+                      [
+                        -113.8,
+                        31.2
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Morelos Dam",
+                        "lon": -114.728,
+                        "lat": 32.705,
+                        "kind": "site"
+                      },
+                      {
+                        "name": "Mexicali"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "The four upper states",
+                    "clear": true,
+                    "focus": [
+                      [
+                        -114.2,
+                        43.4
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ],
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true
+                  }
+                ]
               }
             }
           ]
@@ -1276,9 +1474,20 @@
                         "name": "Tucson"
                       }
                     ]
+                  },
+                  {
+                    "at": "so in a shortage",
+                    "highlight": [
+                      "California"
+                    ]
                   }
                 ]
               }
+            },
+            {
+              "type": "stock",
+              "at": "Tom Buschatzke",
+              "query": "Arizona farmland irrigation canal"
             }
           ]
         },
@@ -1331,8 +1540,7 @@
                       ]
                     ],
                     "highlight": [
-                      "file:upper_basin.geojson",
-                      "file:lower_basin.geojson"
+                      "file:upper_basin.geojson"
                     ],
                     "places": [
                       {
@@ -1340,6 +1548,24 @@
                         "lon": -111.588,
                         "lat": 36.865,
                         "kind": "site"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "The Lower Basin says",
+                    "highlight": [
+                      "file:lower_basin.geojson"
+                    ]
+                  },
+                  {
+                    "at": "because the upper states also owe",
+                    "places": [
+                      {
+                        "name": "Mexico",
+                        "lon": -114.9,
+                        "lat": 31.6,
+                        "kind": "label",
+                        "label": "MEXICO"
                       }
                     ]
                   }
@@ -1368,6 +1594,30 @@
                 ],
                 "highlight": 1,
                 "source": "Bureau of Reclamation daily data; our calculation"
+              }
+            },
+            {
+              "type": "map",
+              "at": "Eric Kuhn",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -111.6,
+                      "lat": 36.87,
+                      "span": 0.2
+                    },
+                    "date": "2026-09-01/2026-10-31",
+                    "places": [
+                      {
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
               }
             }
           ]
@@ -1422,6 +1672,39 @@
               "type": "stock",
               "at": 0,
               "query": "Las Vegas skyline daytime aerial"
+            },
+            {
+              "type": "map",
+              "at": "On August 24th",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -120.2,
+                        42.1
+                      ],
+                      [
+                        -113.9,
+                        35.0
+                      ]
+                    ],
+                    "highlight": [
+                      "Nevada"
+                    ],
+                    "places": [
+                      {
+                        "name": "Las Vegas"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "Nevada also argues",
+              "query": "Las Vegas strip at night aerial"
             }
           ]
         },
@@ -1453,6 +1736,12 @@
               "type": "stock",
               "at": 0,
               "query": "Supreme Court building Washington"
+            },
+            {
+              "type": "quote",
+              "at": "Experts told Colorado Public Radio",
+              "quote": "Everybody loses.",
+              "author": "Experts on a Supreme Court Compact case, via Colorado Public Radio"
             }
           ]
         },
@@ -1483,6 +1772,35 @@
               "type": "stock",
               "at": 0,
               "query": "storm clouds rain over desert canyon"
+            },
+            {
+              "type": "chart",
+              "at": "By November 2nd",
+              "chart": {
+                "type": "line",
+                "title": "Lake Powell, autumn 2026",
+                "unit": "feet above sea level",
+                "data": [
+                  [
+                    "Sep 15",
+                    3516.6
+                  ],
+                  [
+                    "Oct 1",
+                    3518.3
+                  ],
+                  [
+                    "Oct 15",
+                    3519.8
+                  ],
+                  [
+                    "Nov 2",
+                    3533.5
+                  ]
+                ],
+                "highlight": 3,
+                "source": "Bureau of Reclamation daily data"
+              }
             }
           ]
         },
@@ -1521,6 +1839,26 @@
               "at": 0,
               "quote": "Today's framework does not represent a final solution.",
               "author": "Upper Basin governors, July 2026"
+            },
+            {
+              "type": "chart",
+              "at": "It runs until 2036",
+              "chart": {
+                "type": "bar",
+                "title": "Lower Basin cuts, million acre-feet a year",
+                "data": [
+                  [
+                    "2027 and 2028",
+                    1.25
+                  ],
+                  [
+                    "Allowed after 2028, up to",
+                    3.6
+                  ]
+                ],
+                "highlight": 1,
+                "source": "Interior Department; The Nevada Independent"
+              }
             }
           ]
         },
@@ -1557,6 +1895,26 @@
                         "lat": 31.62,
                         "kind": "sea",
                         "label": "GULF OF CALIFORNIA"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "So who should give up",
+                    "focus": [
+                      [
+                        -117.6,
+                        43.4
+                      ],
+                      [
+                        -104.4,
+                        31.2
+                      ]
+                    ],
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 5.0
                       }
                     ]
                   }

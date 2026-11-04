@@ -155,7 +155,16 @@ def resolve_area(name: str, episode_dir: Path | None = None):
             raise ValueError(f"{name!r}: {path} does not exist")
         data = json.loads(path.read_text(encoding="utf-8"))
         feats = data["features"] if data.get("type") == "FeatureCollection" else [data]
-        g = shapely.union_all([shape(f["geometry"]) for f in feats if f.get("geometry")])
+        # Simplified or reprojected polygons (rounded coordinates) can self-touch; repair them before the union, and
+        # keep only the polygonal parts make_valid returns.
+        parts = []
+        for f in feats:
+            if f.get("geometry"):
+                fixed = shapely.make_valid(shape(f["geometry"]))
+                parts += [p for p in getattr(fixed, "geoms", [fixed]) if p.geom_type in ("Polygon", "MultiPolygon")]
+        if not parts:
+            raise ValueError(f"{name!r}: no polygons in {path}")
+        g = shapely.union_all(parts)
         label = next((f.get("properties", {}).get("name") for f in feats if f.get("properties", {}).get("name")), None)
         # A "credit" property (data source and licence) goes into the video's credits when the area is shown.
         credit = next((f.get("properties", {}).get("credit") for f in feats if f.get("properties", {}).get("credit")), None)

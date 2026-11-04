@@ -82,7 +82,18 @@ Caution: R2's "4,190.40 in mid-August" and R1 agree (August 2026 readings ~4,190
   shore and Bear River Bay; one-day windows covering each box (sentinel._covering_day or a hand-picked "D/D").
 - The railroad causeway (1959) splitting the pink north arm from the blue-green south arm: one S2 view.
 - Documents (public domain): USGS WRI 91-4117 (the West Desert Pumping Project); USGS lake-level fact sheets.
-- Archival: search Commons for the 1983-1987 flooding and the pumping station (photos / films, licence-checked).
+- Archival, found on Commons 2026-11-05 (all public domain per their licence metadata):
+  - NARA / EPA DOCUMERICA, July 1972, 3000 px: "THE UNION PACIFIC RAILROAD'S CAUSEWAY ACROSS THE GREAT SALT LAKE
+    THREATENS THE ECOLOGICAL..." and "NEAR THE UNION PACIFIC RAILROAD CAUSEWAY..." (chapter 4 photos).
+  - USACE PDF "Proposed West Desert pumping project, Great Salt Lake, Utah" (USACE-p16021coll7-23679) and
+    "Final environmental impact statement for the West Desert Pumping Project" (IA): document-shot candidates (chapter 2;
+    check the text layer, else rects by hand). Also USACE "Annual report, 1986".
+  - NASA Earth Observatory "A 'New Delta' in the Desert" (153752; 2018-11-28 and 2024-11-20): the pumped water's trace
+    in the desert from orbit (chapter 2).
+  - NASA MODIS stills (EO): "Rapidly Shrinking Great Salt Lake (MODIS 2022-06-16)", "Great Salt Lake at Highest Level in
+    Years (MODIS 2024-05-20)": cross-checks for our own GIBS days.
+  - CC BY 2.0: "Antelope Island State Park, Great Salt Lake" (2019, Flickr 49408253886 / 49414807576).
+  Still to find: 1983-1987 flood photos (USGS / NOAA / Utah archives with a PD or CC BY licence) and film.
 
 ## To research next (step 1 continues)
 - Causes: share of the decline from upstream water use (Wurtsbaugh et al. 2017: ~11 ft from consumptive use), the

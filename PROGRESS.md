@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; script, fact-check and two storyboards done; the first full render's review found flaws between storyboard stops, fixed (see below); final render 41788066410 in progress, then gate 2; plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; script, fact-check and two storyboards done; the first full render's review found flaws between storyboard stops, fixed (see below); final render 41789861885 (17:04) delivered to Videos\yt-pipeline\colorado-river, waiting for the user's review (gate 2); plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the
@@ -150,7 +150,9 @@
 ## Known issues / notes for later phases
 - Final-render checklist (the storyboard has one still per stop and cannot show these): what is under a compare when
   it fades; whether each wipe and route finishes before the next cut; overlay-only steps (no camera stop); the S2
-  images named in the "Sentinel-2 scenes of N days" map warnings. Pull frames with Remotion's ffmpeg and check them.
+  images named in the "Sentinel-2 scenes of N days" map warnings. Pull frames with Remotion's ffmpeg and check them;
+  `tools/seam_scan.py VIDEO --at s1,s2,...` measures straight colour steps (real seams: 13-16 in blue; rivers, shores
+  and border lines fire too, so look at every hit).
 - Inside a window mosaic, pixels the mask flags as cloud on bright ground can still be filled from another day (only
   when the best day's scene reports 2 % cloud or more). If that shows up: mask only SCL 3/9/10, not 8.
 - true_size: the moved country's label can land under a water or region label at the destination (caspian-sea

@@ -91,3 +91,9 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   the first render, checked by eye where it fired: the only other seam is the cold open's July 2019 image (blue +13 at
   x 208, 17 vs 29 July); the rest were rivers, shores, the border line, wipes and crossfades. Render 41789553487
   cancelled; the compare's before is now 2019-07-17 (one S2A pass covers the box; label and narration unchanged).
+- 2026-11-04: final render 41789861885 (17:03.7, 328 MB, -14.5 LUFS, true peak -0.3 dBTP), release
+  ep-colorado-river-41789861885 downloaded to Videos\yt-pipeline\colorado-river (the first release deleted). Checked in
+  the MP4: cold-open wipe July 2019 -> September 2026 from one pass each, no refill at the 00:16 and 06:56 fades, March
+  2026 whole before the chart, Powell views without the rectangle, route from Flaming Gorge Dam, P5.7 and the delta
+  in one pass; tools/seam_scan.py finds no seam (only rivers, shores, the border line). Waiting for the user (gate 2).
+  Actions this month: about 426 min.

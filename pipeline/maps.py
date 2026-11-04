@@ -301,7 +301,8 @@ class Plan:
             self.cams.append({"start": f, "frames": 0, **target})
             return f
         s = flight_length(cur, target)
-        seconds = min(max(0.75 + 0.42 * s, 0.9), 2.8)
+        # 2026-11-05: about 30 % quicker (was 0.75 + 0.42 s, 0.9-2.8 s): the user found the moves heavy next to the feature demo
+        seconds = min(max(0.6 + 0.3 * s, 0.7), 1.9)
         start = max(f - round(0.25 * FPS), self.cams[-1]["start"] + 1, 0)
         frames = round(seconds * FPS)
         self.cams.append({"start": start, "frames": frames, **target})

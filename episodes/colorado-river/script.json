@@ -40,9 +40,21 @@
                     "compare": {
                       "before": "2019-07-17/2019-07-17",
                       "after": "2026-09-01/2026-09-30",
-                      "seconds": 4.0
+                      "seconds": 4.0,
+                      "until": "Now watch"
                     },
                     "date": "2026-09-01/2026-09-30"
+                  },
+                  {
+                    "at": "It is the second largest",
+                    "places": [
+                      {
+                        "name": "Bullfrog Bay",
+                        "lon": -110.73,
+                        "lat": 37.53,
+                        "kind": "label"
+                      }
+                    ]
                   },
                   {
                     "at": "Now watch"
@@ -98,6 +110,39 @@
                         "lat": 36.016,
                         "kind": "site",
                         "icon": "power"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Together the two lakes",
+                    "focus": [
+                      [
+                        -115.0,
+                        38.0
+                      ],
+                      [
+                        -110.3,
+                        35.8
+                      ]
+                    ]
+                  },
+                  {
+                    "at": "The river they store",
+                    "focus": [
+                      [
+                        -117.9,
+                        41.4
+                      ],
+                      [
+                        -104.6,
+                        31.9
+                      ]
+                    ],
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 3.0
                       }
                     ]
                   },
@@ -159,16 +204,41 @@
                       "Wyoming",
                       "New Mexico"
                     ]
-                  },
+                  }
+                ]
+              }
+            },
+            {
+              "type": "document",
+              "at": "could not agree",
+              "document": {
+                "text": "Consensus on long-term operations did not materialize.",
+                "highlight": "did not materialize",
+                "source": "U.S. Bureau of Reclamation, 2026"
+              }
+            },
+            {
+              "type": "map",
+              "at": "Arizona, California and Nevada",
+              "map": {
+                "steps": [
                   {
-                    "at": "Arizona, California and Nevada",
-                    "clear": true,
                     "highlight": [
                       "Arizona",
                       "California",
                       "Nevada"
                     ],
-                    "dim": true
+                    "dim": true,
+                    "focus": [
+                      [
+                        -120.5,
+                        42.2
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ]
                   },
                   {
                     "at": "The four states upstream",
@@ -208,8 +278,14 @@
               "query": "Colorado River canyon aerial drone"
             },
             {
-              "type": "title_card",
+              "type": "photo",
               "at": "The answer goes back",
+              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 1).jpg",
+              "on_screen_text": "The Colorado River Compact, 1922"
+            },
+            {
+              "type": "title_card",
+              "at": "for a river that turned out",
               "on_screen_text": "THE RIVER THAT RAN SHORT",
               "subtitle": "Seven states, two lakes and a promise from 1922"
             }
@@ -249,6 +325,29 @@
                     ]
                   },
                   {
+                    "at": "Rocky Mountains",
+                    "places": [
+                      {
+                        "name": "Rocky Mountains",
+                        "lon": -105.85,
+                        "lat": 40.4,
+                        "kind": "site",
+                        "icon": "mountain"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "deep canyons",
+                    "places": [
+                      {
+                        "name": "Grand Canyon",
+                        "lon": -112.11,
+                        "lat": 36.1,
+                        "kind": "label"
+                      }
+                    ]
+                  },
+                  {
                     "at": "Its basin",
                     "highlight": [
                       "file:upper_basin.geojson",
@@ -270,6 +369,18 @@
                 "keep": true,
                 "steps": [
                   {
+                    "at": "met in Santa Fe",
+                    "places": [
+                      {
+                        "name": "Santa Fe",
+                        "lon": -105.94,
+                        "lat": 35.687,
+                        "kind": "city",
+                        "icon": "government"
+                      }
+                    ]
+                  },
+                  {
                     "at": "Lee Ferry,",
                     "places": [
                       {
@@ -279,14 +390,60 @@
                         "kind": "site"
                       }
                     ]
+                  },
+                  {
+                    "at": "Colorado, Utah, Wyoming",
+                    "clear": true,
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true,
+                    "places": [
+                      {
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Arizona, California and Nevada became",
+                    "clear": true,
+                    "highlight": [
+                      "Arizona",
+                      "California",
+                      "Nevada"
+                    ],
+                    "dim": true,
+                    "places": [
+                      {
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865
+                      }
+                    ]
                   }
                 ]
               }
             },
             {
-              "type": "photo",
+              "type": "stat",
               "at": "Each half got",
-              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 1).jpg"
+              "stat": {
+                "value": "7.5 million",
+                "label": "acre-feet a year for each basin",
+                "note": "Colorado River Compact, 1922, Article III",
+                "source": "Colorado River Compact"
+              }
+            },
+            {
+              "type": "stock",
+              "at": "One acre-foot is",
+              "query": "american football field aerial",
+              "on_screen_text": "1 acre-foot = about 326,000 gallons"
             }
           ]
         },
@@ -304,6 +461,48 @@
               "where_label": "Lees Ferry, Arizona, about 1870"
             },
             {
+              "type": "stat",
+              "at": "fall below 75 million",
+              "stat": {
+                "value": "75 million",
+                "label": "acre-feet past Lee Ferry in any ten years",
+                "note": "the upper states' promise, Article III(d)",
+                "source": "Colorado River Compact"
+              }
+            },
+            {
+              "type": "map",
+              "at": "In 1944, a treaty",
+              "on_screen_text": "1944 treaty: 1.5 million acre-feet a year for Mexico",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -118.5,
+                        37.5
+                      ],
+                      [
+                        -108.5,
+                        29.0
+                      ]
+                    ],
+                    "highlight": [
+                      "Mexico"
+                    ],
+                    "dim": true,
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 2.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
               "type": "stock",
               "at": "Keep that",
               "query": "Colorado River flowing through red rock canyon"
@@ -314,8 +513,14 @@
           "text": "The negotiators counted on about 16.4 million acre-feet a year, based on the short gauge record they had, and those early years were wet. Over the full record since 1906, the river has averaged about 14.8 million. From 2000 to 2018 it averaged about 12.5 million. The deal divided more water than the river carries.",
           "shots": [
             {
-              "type": "chart",
+              "type": "photo",
               "at": 0,
+              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 13).jpg",
+              "on_screen_text": "Signed at Santa Fe, November 24, 1922"
+            },
+            {
+              "type": "chart",
+              "at": "based on the short gauge record",
               "chart": {
                 "type": "bar",
                 "title": "River flow, million acre-feet a year",
@@ -338,7 +543,11 @@
                   "Promised: 7.5 + 7.5 + 1.5"
                 ],
                 "highlight": 2,
-                "source": "Reclamation natural flow data, via Kuhn and Fleck"
+                "source": "Reclamation natural flow data, via Kuhn and Fleck",
+                "reveal": [
+                  "Over the full record",
+                  "From 2000 to 2018"
+                ]
               }
             },
             {
@@ -456,6 +665,16 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "stat",
+              "at": "about three and a half years",
+              "stat": {
+                "value": "3.5 years",
+                "label": "of the river's average flow, held in the two lakes",
+                "note": "52.5 million acre-feet at the peak, July 1983",
+                "source": "Bureau of Reclamation daily data"
+              }
             }
           ]
         },
@@ -483,14 +702,24 @@
           "text": "Those two lakes are only half of the system. The other half carries the river hundreds of miles from its banks, to cities that grew up far away from it.",
           "shots": [
             {
-              "type": "photo",
+              "type": "stock",
               "at": 0,
+              "query": "Lake Powell aerial canyon water"
+            },
+            {
+              "type": "photo",
+              "at": "The other half carries",
               "photo": "ALL-AMERICAN CANAL CARRIES COLORADO RIVER WATER THROUGH SAND-SWEPT AREA OF THE IMPERIAL VALLEY - NARA - 549076.jpg",
               "where": [
                 -114.9,
                 32.75
               ],
               "where_label": "All-American Canal, California, 1972"
+            },
+            {
+              "type": "stock",
+              "at": "to cities that grew up",
+              "query": "Los Angeles aerial city sprawl"
             }
           ]
         }
@@ -526,13 +755,6 @@
                         "lat": 36.016,
                         "kind": "site",
                         "icon": "power"
-                      },
-                      {
-                        "name": "Lake Havasu",
-                        "lon": -114.25,
-                        "lat": 34.42,
-                        "kind": "label",
-                        "label": "LAKE HAVASU"
                       }
                     ],
                     "routes": [
@@ -544,6 +766,31 @@
                     ]
                   },
                   {
+                    "at": "to Lake Havasu",
+                    "places": [
+                      {
+                        "name": "Lake Havasu",
+                        "lon": -114.3,
+                        "lat": 34.5,
+                        "kind": "label",
+                        "label": "LAKE HAVASU"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "There, two pumping plants",
+                    "places": [
+                      {
+                        "name": "Pumping plants",
+                        "lon": -114.17,
+                        "lat": 34.31,
+                        "kind": "site",
+                        "icon": "water",
+                        "label": ""
+                      }
+                    ]
+                  },
+                  {
                     "at": "One sends it west",
                     "routes": [
                       {
@@ -551,7 +798,10 @@
                         "seconds": 4.0,
                         "label": "Colorado River Aqueduct"
                       }
-                    ],
+                    ]
+                  },
+                  {
+                    "at": "to the Los Angeles area",
                     "places": [
                       {
                         "name": "Los Angeles",
@@ -567,7 +817,10 @@
                         "seconds": 5.0,
                         "label": "Central Arizona Project"
                       }
-                    ],
+                    ]
+                  },
+                  {
+                    "at": "pumped nearly three thousand",
                     "places": [
                       {
                         "name": "Phoenix",
@@ -602,12 +855,26 @@
                         "kind": "site",
                         "icon": "water"
                       }
-                    ],
+                    ]
+                  },
+                  {
+                    "at": "the All-American Canal turns",
                     "routes": [
                       {
                         "path": "All-American Canal",
                         "seconds": 3.5,
                         "label": "All-American Canal"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "to the Imperial Valley",
+                    "places": [
+                      {
+                        "name": "Imperial Valley",
+                        "lon": -115.45,
+                        "lat": 32.85,
+                        "kind": "label"
                       }
                     ]
                   }
@@ -638,18 +905,23 @@
                     "date": "2026-03-01/2026-05-31",
                     "places": [
                       {
-                        "name": "Morelos Dam",
-                        "lon": -114.728,
-                        "lat": 32.705,
-                        "kind": "site",
-                        "icon": "water"
-                      },
-                      {
                         "name": "Mexico",
                         "lon": -114.88,
                         "lat": 32.66,
                         "kind": "label",
                         "label": "MEXICO"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "where Morelos Dam",
+                    "places": [
+                      {
+                        "name": "Morelos Dam",
+                        "lon": -114.728,
+                        "lat": 32.705,
+                        "kind": "site",
+                        "icon": "water"
                       }
                     ]
                   }
@@ -665,6 +937,15 @@
               "type": "stock",
               "at": 0,
               "query": "alfalfa field irrigation sprinkler"
+            },
+            {
+              "type": "document",
+              "at": "A 2024 study",
+              "document": {
+                "text": "New water accounting reveals why the Colorado River no longer reaches the sea",
+                "highlight": "no longer reaches the sea",
+                "source": "Richter et al., Communications Earth & Environment, 2024"
+              }
             },
             {
               "type": "chart",
@@ -688,8 +969,16 @@
                   ]
                 ],
                 "highlight": 0,
-                "source": "Richter et al. 2024, direct human use 2000-2019 (CC BY 4.0)"
+                "source": "Richter et al. 2024, direct human use 2000-2019 (CC BY 4.0)",
+                "reveal": [
+                  "three times as much"
+                ]
               }
+            },
+            {
+              "type": "stock",
+              "at": "Hay and alfalfa grown",
+              "query": "cattle feedlot aerial"
             }
           ]
         },
@@ -699,11 +988,26 @@
             {
               "type": "stock",
               "at": 0,
+              "query": "drought tolerant landscaping desert yard"
+            },
+            {
+              "type": "stock",
+              "at": "Las Vegas gets",
               "query": "Las Vegas strip aerial view"
             },
             {
-              "type": "map",
+              "type": "stat",
               "at": "Southern Nevada now uses",
+              "stat": {
+                "value": "40% less",
+                "label": "Colorado River water used by Southern Nevada than 25 years ago",
+                "note": "while adding more than 800,000 people",
+                "source": "Southern Nevada Water Authority"
+              }
+            },
+            {
+              "type": "map",
+              "at": "while adding more than",
               "map": {
                 "steps": [
                   {
@@ -717,7 +1021,12 @@
                       {
                         "name": "Las Vegas",
                         "icon": "city"
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "at": "In 2025 it used",
+                    "places": [
                       {
                         "name": "Lake Mead",
                         "lon": -114.55,
@@ -748,6 +1057,26 @@
               "type": "stock",
               "at": "Cities hold",
               "query": "Phoenix Arizona suburbs aerial"
+            },
+            {
+              "type": "stock",
+              "at": "When there is not enough",
+              "query": "dry cracked riverbed drought"
+            },
+            {
+              "type": "stock",
+              "at": "Is hay grown",
+              "query": "alfalfa field irrigation desert"
+            },
+            {
+              "type": "stock",
+              "at": "or exactly what those old rights",
+              "query": "irrigation canal farmland aerial"
+            },
+            {
+              "type": "stock",
+              "at": "I want to know",
+              "query": "farmer field sunset"
             }
           ]
         }
@@ -761,8 +1090,13 @@
           "text": "Lake Mead's history fits in one line. It began filling in 1935 and rose and fell with wet and dry years for decades. In 1983 it never dropped below 1,200 feet. Since 2000 it has mostly gone down. In 2021 the government declared the first official shortage on the river. In July 2022 the lake hit a record low just above 1,040 feet, and this October it went lower, to 1,037.",
           "shots": [
             {
-              "type": "chart",
+              "type": "stock",
               "at": 0,
+              "query": "Lake Mead aerial view"
+            },
+            {
+              "type": "chart",
+              "at": "It began filling",
               "chart": {
                 "type": "line",
                 "title": "Lake Mead, lowest level each year",
@@ -806,9 +1140,34 @@
               }
             },
             {
+              "type": "photo",
+              "at": "In 1983 it never",
+              "photo": "Hoover Dam and Arizona Spillway, 1983.jpg",
+              "where": [
+                -114.737,
+                36.016
+              ],
+              "where_label": "Hoover Dam spillways, July 1983"
+            },
+            {
               "type": "stock",
               "at": "In 2021 the government declared",
               "query": "Lake Mead low water level drought"
+            },
+            {
+              "type": "stock",
+              "at": "In July 2022",
+              "query": "Lake Mead dry boat ramp"
+            },
+            {
+              "type": "stat",
+              "at": "and this October it went lower",
+              "stat": {
+                "value": "1,037 ft",
+                "label": "Lake Mead's record low, October 22, 2026",
+                "note": "the old record: 1,040.6 ft in July 2022",
+                "source": "Bureau of Reclamation daily data"
+              }
             }
           ]
         },
@@ -861,7 +1220,10 @@
                   ]
                 ],
                 "highlight": 8,
-                "source": "Bureau of Reclamation daily data"
+                "source": "Bureau of Reclamation daily data",
+                "reveal": [
+                  "We added up"
+                ]
               }
             },
             {
@@ -885,7 +1247,10 @@
                   ]
                 ],
                 "highlight": 2,
-                "source": "Bureau of Reclamation daily data; our calculation"
+                "source": "Bureau of Reclamation daily data; our calculation",
+                "reveal": [
+                  "On September 16th"
+                ]
               }
             },
             {
@@ -919,14 +1284,36 @@
                       "source": "modis",
                       "before": "2000-09-09",
                       "after": "2026-09-10",
-                      "seconds": 4.0
+                      "seconds": 4.0,
+                      "until": "and here it is"
                     },
                     "date": "2026-09-10"
+                  },
+                  {
+                    "at": "This is Lake Powell",
+                    "places": [
+                      {
+                        "name": "Lake Powell",
+                        "lon": -110.73,
+                        "lat": 37.5,
+                        "kind": "label"
+                      }
+                    ]
                   },
                   {
                     "at": "and here it is"
                   }
                 ]
+              }
+            },
+            {
+              "type": "stat",
+              "at": "its surface has shrunk",
+              "stat": {
+                "value": "63% smaller",
+                "label": "Lake Powell's surface, September 2026 against January 2000",
+                "note": "146,563 acres then, 54,620 acres on September 15, 2026",
+                "source": "Bureau of Reclamation area data; our calculation"
               }
             }
           ]
@@ -937,6 +1324,30 @@
             {
               "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -117.6,
+                        43.4
+                      ],
+                      [
+                        -104.4,
+                        31.2
+                      ]
+                    ],
+                    "highlight": [
+                      "file:upper_basin.geojson"
+                    ],
+                    "dim": true
+                  }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "Here are Colorado's mountains",
               "on_screen_text": "Colorado's Rocky Mountains · NASA MODIS",
               "map": {
                 "steps": [
@@ -977,8 +1388,16 @@
                   ]
                 ],
                 "highlight": 1,
-                "source": "Bureau of Reclamation, October 2026 24-Month Study"
+                "source": "Bureau of Reclamation, October 2026 24-Month Study",
+                "reveal": [
+                  "was 18 percent"
+                ]
               }
+            },
+            {
+              "type": "stock",
+              "at": "In August, apart from",
+              "query": "dry river bed desert drought"
             }
           ]
         },
@@ -986,14 +1405,34 @@
           "text": "Lake Powell had been this low once before. In April 2023 it set what was then a record, and a snowy winter lifted it almost 65 feet by July. Three years later it was lower than ever. The white band on the canyon walls marks where the water used to stand.",
           "shots": [
             {
-              "type": "photo",
+              "type": "stock",
               "at": 0,
+              "query": "Lake Powell houseboat marina low water"
+            },
+            {
+              "type": "photo",
+              "at": "In April 2023",
               "photo": "Lake Powell near Bullfrog, March 15, 2022. (e8ba8a85-e962-492c-9890-f46b995abcaa).jpeg",
               "where": [
                 -110.73,
                 37.52
               ],
               "where_label": "Lake Powell near Bullfrog, March 2022"
+            },
+            {
+              "type": "stat",
+              "at": "and a snowy winter lifted",
+              "stat": {
+                "value": "64.8 ft",
+                "label": "Lake Powell's rise from April to July 2023",
+                "note": "after a snowy winter",
+                "source": "Bureau of Reclamation daily data"
+              }
+            },
+            {
+              "type": "stock",
+              "at": "Three years later",
+              "query": "Lake Powell low water canyon"
             },
             {
               "type": "photo",
@@ -1035,6 +1474,16 @@
               "type": "stock",
               "at": "But the number",
               "query": "Glen Canyon Dam Lake Powell"
+            },
+            {
+              "type": "stat",
+              "at": "In September, Lake Powell was just",
+              "stat": {
+                "value": "27 ft",
+                "label": "between Lake Powell and the turbine line, September 2026",
+                "note": "the turbines stop at 3,490 ft",
+                "source": "Bureau of Reclamation daily data"
+              }
             }
           ]
         }
@@ -1081,6 +1530,15 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "stat",
+              "at": "That line is called",
+              "stat": {
+                "value": "3,490 ft",
+                "label": "minimum power pool: below it, Glen Canyon Dam's turbines stop",
+                "source": "Bureau of Reclamation"
+              }
             }
           ]
         },
@@ -1091,14 +1549,32 @@
               "type": "map",
               "at": 0,
               "map": {
-                "keep": true,
+                "keep": false,
                 "steps": [
                   {
                     "view": {
                       "lon": -111.47,
                       "lat": 36.95,
                       "span": 0.25
-                    }
+                    },
+                    "date": "2026-09-01/2026-09-30",
+                    "places": [
+                      {
+                        "name": "Glen Canyon Dam",
+                        "lon": -111.484,
+                        "lat": 36.937,
+                        "icon": "power"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "through four smaller tunnels",
+                    "view": {
+                      "lon": -111.484,
+                      "lat": 36.937,
+                      "span": 0.09
+                    },
+                    "date": "2026-09-01/2026-09-30"
                   }
                 ]
               }
@@ -1113,6 +1589,11 @@
                 "title": "Technical Decision Memorandum, 26 March 2024",
                 "source": "U.S. Bureau of Reclamation (public domain)"
               }
+            },
+            {
+              "type": "stock",
+              "at": "and it is studying",
+              "query": "dam outlet water release tunnel"
             },
             {
               "type": "map",
@@ -1137,6 +1618,33 @@
             {
               "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -110.98,
+                      "lat": 37.34,
+                      "span": 3.1
+                    },
+                    "date": "2026-09-10"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "document",
+              "at": "In 2017 the U.S. Geological Survey",
+              "document": {
+                "pdf": "https://pubs.usgs.gov/sir/2022/5017/sir20225017.pdf",
+                "page": 11,
+                "highlight": "Beginning in 2017, the U.S. Geological Survey, in cooperation with the Bureau of Reclamation, completed topobathymetric surveys of Lake Powell",
+                "title": "Scientific Investigations Report 2022-5017",
+                "source": "U.S. Geological Survey (public domain)"
+              }
+            },
+            {
+              "type": "map",
+              "at": "and we used that survey",
               "on_screen_text": "Our map · from the USGS sonar survey of the lakebed",
               "map": {
                 "steps": [
@@ -1146,21 +1654,16 @@
                       "lat": 37.34,
                       "span": 3.1
                     },
-                    "date": "2026-09-10",
+                    "date": "2026-09-10"
+                  },
+                  {
+                    "at": "This is the lake at",
                     "places": [
                       {
                         "name": "Glen Canyon Dam",
                         "lon": -111.484,
                         "lat": 36.937,
-                        "kind": "site",
                         "icon": "power"
-                      },
-                      {
-                        "name": "Bullfrog Bay",
-                        "lon": -110.73,
-                        "lat": 37.53,
-                        "kind": "label",
-                        "label": "BULLFROG BAY"
                       }
                     ]
                   },
@@ -1178,11 +1681,21 @@
                     ],
                     "places": [
                       {
+                        "name": "Glen Canyon Dam",
+                        "lon": -111.484,
+                        "lat": 36.937,
+                        "icon": "power"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "and the lake would end",
+                    "places": [
+                      {
                         "name": "Bullfrog Bay",
                         "lon": -110.73,
                         "lat": 37.53,
-                        "kind": "label",
-                        "label": "BULLFROG BAY"
+                        "kind": "label"
                       }
                     ]
                   }
@@ -1195,29 +1708,18 @@
           "text": "At the record low, about 1.3 million acre-feet stood between the lake and the turbine line, less than three months of this year's releases. To protect that line, the government had already cut the 2026 release from Glen Canyon Dam to 6 million acre-feet, the smallest in sixty years. It also ordered up to a million acre-feet sent down from Flaming Gorge Reservoir, on the Wyoming-Utah line.",
           "shots": [
             {
-              "type": "map",
+              "type": "stat",
               "at": 0,
-              "on_screen_text": "1.3 million acre-feet above the turbine line",
-              "map": {
-                "keep": false,
-                "steps": [
-                  {
-                    "view": {
-                      "lon": -110.98,
-                      "lat": 37.34,
-                      "span": 3.1
-                    },
-                    "highlight": [
-                      "file:powell_dry_3490.geojson"
-                    ],
-                    "date": "2026-09-10"
-                  }
-                ]
+              "stat": {
+                "value": "1.3 million",
+                "label": "acre-feet between Lake Powell and the turbine line",
+                "note": "at the record low, September 15, 2026",
+                "source": "USGS lakebed survey; our calculation"
               }
             },
             {
               "type": "chart",
-              "at": "To protect that line",
+              "at": "less than three months",
               "chart": {
                 "type": "bar",
                 "title": "Released from Glen Canyon Dam, million acre-feet",
@@ -1240,7 +1742,11 @@
                   ]
                 ],
                 "highlight": 3,
-                "source": "Bureau of Reclamation daily data (water years); our calculation"
+                "source": "Bureau of Reclamation daily data (water years); our calculation",
+                "reveal": [
+                  "To protect that line",
+                  "to 6 million acre-feet"
+                ]
               }
             },
             {
@@ -1318,13 +1824,6 @@
                     "date": "2026-10-01/2026-10-31",
                     "places": [
                       {
-                        "name": "Las Vegas intakes",
-                        "lon": -114.795,
-                        "lat": 36.062,
-                        "kind": "site",
-                        "label": "Las Vegas's intakes"
-                      },
-                      {
                         "name": "Hoover Dam",
                         "lon": -114.737,
                         "lat": 36.016,
@@ -1338,7 +1837,60 @@
             },
             {
               "type": "map",
+              "at": "Its first intake",
+              "on_screen_text": "Intake 1: dry below 1,050 ft",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "places": [
+                      {
+                        "name": "Las Vegas intakes",
+                        "lon": -114.795,
+                        "lat": 36.062,
+                        "kind": "site",
+                        "label": "Las Vegas's intakes"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "A second works",
+              "on_screen_text": "Intake 2: works down to 1,000 ft",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "with a pumping station added",
+              "on_screen_text": "Intake 3 and its pumps: below Hoover's dead pool",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
+                ]
+              }
+            },
+            {
+              "type": "map",
               "at": "Reclamation's October forecasts",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "falling to between",
               "on_screen_text": "Forecast for summer 2027: about 1,008-1,016 ft",
               "map": {
                 "keep": true,
@@ -1376,6 +1928,21 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "stat",
+              "at": "Its turbines stop",
+              "stat": {
+                "value": "950 ft",
+                "label": "Hoover Dam's turbines stop below this level",
+                "note": "at 895 ft no water can pass the dam",
+                "source": "Bureau of Reclamation"
+              }
+            },
+            {
+              "type": "stock",
+              "at": "Reclamation already lowers",
+              "query": "Hoover Dam generators"
             }
           ]
         },
@@ -1394,6 +1961,23 @@
                       "span": 1.55
                     },
                     "date": "2026-09-20/2026-09-20"
+                  },
+                  {
+                    "at": "If you want to see",
+                    "places": [
+                      {
+                        "name": "Bullfrog Bay",
+                        "lon": -110.73,
+                        "lat": 37.53,
+                        "kind": "label"
+                      },
+                      {
+                        "name": "Lake Powell",
+                        "lon": -111.15,
+                        "lat": 37.12,
+                        "kind": "label"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1439,9 +2023,37 @@
                       "Wyoming",
                       "New Mexico"
                     ]
+                  },
+                  {
+                    "at": "On July 31st the Interior",
+                    "focus": [
+                      [
+                        -80.5,
+                        40.6
+                      ],
+                      [
+                        -74.0,
+                        37.3
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Interior Department",
+                        "lon": -77.0425,
+                        "lat": 38.8945,
+                        "kind": "site",
+                        "icon": "government",
+                        "label": "U.S. Department of the Interior"
+                      }
+                    ]
                   }
                 ]
               }
+            },
+            {
+              "type": "stock",
+              "at": "and on August 21st it signed",
+              "query": "signing official document pen"
             }
           ]
         },
@@ -1449,8 +2061,34 @@
           "text": "For 2027 and 2028 the cuts fall on the Lower Basin. Arizona loses 760,000 acre-feet a year, 27 percent of its share. California loses 440,000, ten percent. Nevada loses 50,000. Under a new agreement signed in September, Mexico gives up 250,000 acre-feet a year. The four upper states have voluntary conservation goals and no required cuts.",
           "shots": [
             {
-              "type": "chart",
+              "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -120.5,
+                        42.2
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ],
+                    "highlight": [
+                      "Arizona",
+                      "California",
+                      "Nevada"
+                    ],
+                    "dim": true
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "Arizona loses",
               "chart": {
                 "type": "bar",
                 "title": "Cuts in 2027, acre-feet a year",
@@ -1464,58 +2102,30 @@
                     440000
                   ],
                   [
-                    "Mexico",
-                    250000
-                  ],
-                  [
                     "Nevada",
                     50000
                   ],
                   [
-                    "Upper Basin",
-                    0
+                    "Mexico",
+                    250000
                   ]
                 ],
                 "highlight": 0,
-                "source": "Interior Department, Aug 2026; IBWC Minute 334"
+                "source": "Interior Department, Aug 2026; IBWC Minute 334",
+                "reveal": [
+                  "California loses",
+                  "Nevada loses",
+                  "Mexico gives up"
+                ]
               }
             },
             {
               "type": "map",
-              "at": "Under a new agreement",
+              "at": "The four upper states",
+              "on_screen_text": "Upper Basin: no required cuts",
               "map": {
                 "steps": [
                   {
-                    "focus": [
-                      [
-                        -117.2,
-                        33.2
-                      ],
-                      [
-                        -113.8,
-                        31.2
-                      ]
-                    ],
-                    "places": [
-                      {
-                        "name": "Morelos Dam",
-                        "lon": -114.728,
-                        "lat": 32.705,
-                        "kind": "site",
-                        "icon": "water"
-                      },
-                      {
-                        "name": "Mexicali",
-                        "lon": -115.4545,
-                        "lat": 32.6245,
-                        "kind": "city",
-                        "icon": "city"
-                      }
-                    ]
-                  },
-                  {
-                    "at": "The four upper states",
-                    "clear": true,
                     "focus": [
                       [
                         -114.2,
@@ -1560,7 +2170,10 @@
                     ],
                     "highlight": [
                       "Arizona"
-                    ],
+                    ]
+                  },
+                  {
+                    "at": "To get Congress",
                     "routes": [
                       {
                         "path": "Central Arizona Project",
@@ -1589,6 +2202,15 @@
               }
             },
             {
+              "type": "stat",
+              "at": "In 2026 the canal",
+              "stat": {
+                "value": "943,000",
+                "label": "acre-feet the Central Arizona Project was to divert in 2026",
+                "source": "Bureau of Reclamation 24-Month Study"
+              }
+            },
+            {
               "type": "map",
               "at": "Tom Buschatzke",
               "map": {
@@ -1611,6 +2233,11 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "stock",
+              "at": "cities and farms along the river",
+              "query": "lettuce field harvest Arizona"
             }
           ]
         },
@@ -1618,27 +2245,36 @@
           "text": "We compared the cuts with Reclamation's own numbers. In 2026, Lake Mead and Lake Powell lost 638,000 acre-feet to evaporation alone. That is 84 percent of Arizona's cut, and more than twice Nevada's entire share of the river.",
           "shots": [
             {
-              "type": "chart",
+              "type": "stock",
               "at": 0,
+              "query": "Lake Mead shoreline aerial"
+            },
+            {
+              "type": "chart",
+              "at": "In 2026, Lake Mead",
               "chart": {
                 "type": "bar",
                 "title": "Water per year, acre-feet",
                 "data": [
                   [
-                    "Arizona's cut",
-                    760000
-                  ],
-                  [
                     "Evaporation, Mead and Powell",
                     638000
+                  ],
+                  [
+                    "Arizona's cut",
+                    760000
                   ],
                   [
                     "Nevada's whole share",
                     300000
                   ]
                 ],
-                "highlight": 1,
-                "source": "Reclamation 24-Month Study, Oct 2026; our calculation"
+                "highlight": 0,
+                "source": "Reclamation 24-Month Study, Oct 2026; our calculation",
+                "reveal": [
+                  "That is 84 percent",
+                  "and more than twice"
+                ]
               }
             }
           ]
@@ -1669,26 +2305,118 @@
                       {
                         "name": "Lee Ferry",
                         "lon": -111.588,
-                        "lat": 36.865,
-                        "kind": "site"
+                        "lat": 36.865
                       }
                     ]
                   },
                   {
-                    "at": "The Lower Basin says",
-                    "highlight": [
-                      "file:lower_basin.geojson"
+                    "at": "Washington runs the two",
+                    "places": [
+                      {
+                        "name": "Lake Powell",
+                        "lon": -110.95,
+                        "lat": 37.25,
+                        "label": "LAKE POWELL"
+                      },
+                      {
+                        "name": "Lake Mead",
+                        "lon": -114.35,
+                        "lat": 36.25,
+                        "label": "LAKE MEAD"
+                      }
                     ]
                   },
                   {
-                    "at": "because the upper states also owe",
+                    "at": "but water rights upstream",
+                    "clear": true,
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "And there is the ten-year",
+              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 11).jpg",
+              "on_screen_text": "Colorado River Compact, Article III(d)"
+            },
+            {
+              "type": "map",
+              "at": "The upper states read",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -111.6,
+                      "lat": 36.87,
+                      "span": 0.2
+                    },
+                    "date": "2026-09-01/2026-10-31",
                     "places": [
                       {
-                        "name": "Mexico",
-                        "lon": -114.9,
-                        "lat": 31.6,
-                        "kind": "label",
-                        "label": "MEXICO"
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "fall below 75 million",
+              "chart": {
+                "type": "bar",
+                "title": "The ten-year line at Lee Ferry, million acre-feet",
+                "data": [
+                  [
+                    "Upper Basin's line",
+                    75.0
+                  ],
+                  [
+                    "Lower Basin's line",
+                    82.5
+                  ]
+                ],
+                "highlight": 0,
+                "source": "Colorado River Compact; Kuhn and Fleck",
+                "reveal": [
+                  "The Lower Basin says"
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "because the upper states also owe",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -118.5,
+                        37.5
+                      ],
+                      [
+                        -108.5,
+                        29.0
+                      ]
+                    ],
+                    "highlight": [
+                      "Mexico"
+                    ],
+                    "dim": true,
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 2.0
                       }
                     ]
                   }
@@ -1707,41 +2435,25 @@
                     82.5
                   ],
                   [
-                    "Released, Oct 2016 - Sep 2026",
-                    80.0
-                  ],
-                  [
                     "Upper Basin's line",
                     75.0
+                  ],
+                  [
+                    "Released, Oct 2016 - Sep 2026",
+                    80.0
                   ]
                 ],
-                "highlight": 1,
-                "source": "Bureau of Reclamation daily data; our calculation"
+                "highlight": 2,
+                "source": "Bureau of Reclamation daily data; our calculation",
+                "reveal": [
+                  "80 million acre-feet passed"
+                ]
               }
             },
             {
-              "type": "map",
+              "type": "stock",
               "at": "Eric Kuhn",
-              "map": {
-                "steps": [
-                  {
-                    "view": {
-                      "lon": -111.6,
-                      "lat": 36.87,
-                      "span": 0.2
-                    },
-                    "date": "2026-09-01/2026-10-31",
-                    "places": [
-                      {
-                        "name": "Lee Ferry",
-                        "lon": -111.588,
-                        "lat": 36.865,
-                        "kind": "site"
-                      }
-                    ]
-                  }
-                ]
-              }
+              "query": "Horseshoe Bend Colorado River"
             }
           ]
         },
@@ -1749,12 +2461,111 @@
           "text": "Both sides have a case. In April, the four upper governors said their states are already enforcing mandatory, uncompensated cuts on water rights that go back to the 1800s, and their states are sending stored water down from Flaming Gorge. Nevada's governor, Joe Lombardo, says Southern Nevada could lose more than 70 percent of its allocation after 2028. Arizona's governor, Katie Hobbs, calls the cuts draconian.",
           "shots": [
             {
-              "type": "document",
+              "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -114.2,
+                        43.4
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ],
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true,
+                    "places": [
+                      {
+                        "name": "Denver",
+                        "lon": -104.99,
+                        "lat": 39.74,
+                        "kind": "city",
+                        "icon": "government"
+                      },
+                      {
+                        "name": "Salt Lake City",
+                        "lon": -111.89,
+                        "lat": 40.76,
+                        "kind": "city",
+                        "icon": "government"
+                      },
+                      {
+                        "name": "Cheyenne",
+                        "lon": -104.82,
+                        "lat": 41.14,
+                        "kind": "city",
+                        "icon": "government"
+                      },
+                      {
+                        "name": "Santa Fe",
+                        "lon": -105.94,
+                        "lat": 35.687,
+                        "kind": "city",
+                        "icon": "government"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "document",
+              "at": "their states are already enforcing",
               "document": {
                 "text": "Mandatory, uncompensated, and will have significant impacts on water users.",
                 "highlight": "Mandatory, uncompensated",
                 "source": "Upper Basin governors, April 2026"
+              }
+            },
+            {
+              "type": "map",
+              "at": "and their states are sending",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -111.2,
+                        41.7
+                      ],
+                      [
+                        -108.9,
+                        36.8
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Flaming Gorge Reservoir",
+                        "lon": -109.55,
+                        "lat": 41.15,
+                        "label": "FLAMING GORGE"
+                      },
+                      {
+                        "name": "Lake Powell",
+                        "lon": -110.95,
+                        "lat": 37.25,
+                        "label": "LAKE POWELL"
+                      }
+                    ],
+                    "routes": [
+                      {
+                        "path": "Green River from Flaming Gorge",
+                        "color": "blue",
+                        "seconds": 3.0,
+                        "label": "Green River"
+                      }
+                    ]
+                  }
+                ]
               }
             },
             {
@@ -1788,6 +2599,16 @@
               "type": "stock",
               "at": 0,
               "query": "snowy Rocky Mountains river valley Colorado"
+            },
+            {
+              "type": "photo",
+              "at": "Or is a deal from 1922",
+              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 13).jpg"
+            },
+            {
+              "type": "stock",
+              "at": "Tell me which side",
+              "query": "river valley farmland mountains"
             }
           ]
         }
@@ -1836,8 +2657,27 @@
             },
             {
               "type": "stock",
-              "at": "Nevada also argues",
+              "at": "sued the Interior Department",
+              "query": "judge gavel courtroom"
+            },
+            {
+              "type": "stock",
+              "at": "They say Interior broke",
+              "query": "law books legal documents"
+            },
+            {
+              "type": "stock",
+              "at": "and they want the decision",
               "query": "Las Vegas strip at night aerial"
+            },
+            {
+              "type": "stat",
+              "at": "what deep cuts would do",
+              "stat": {
+                "value": "$180 billion",
+                "label": "Southern Nevada's economy, which Nevada says Interior never studied",
+                "source": "Nevada's lawsuit, via The Nevada Independent"
+              }
             }
           ]
         },
@@ -1845,8 +2685,39 @@
           "text": "On October 16th, Arizona's Department of Water Resources asked to join the case, and the Central Arizona Project filed its own request. Interior Secretary Doug Burgum says the lawsuit will be thrown out, because, as he put it, you can't be injured in theory. Interior's formal answer to Nevada's complaint was due at the end of October.",
           "shots": [
             {
-              "type": "photo",
+              "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -115.0,
+                        37.2
+                      ],
+                      [
+                        -108.8,
+                        31.2
+                      ]
+                    ],
+                    "highlight": [
+                      "Arizona"
+                    ],
+                    "dim": true,
+                    "places": [
+                      {
+                        "name": "Phoenix",
+                        "kind": "city",
+                        "icon": "government"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "and the Central Arizona Project filed",
               "photo": "Central Arizona Project Aqueduct.JPG",
               "where": [
                 -112.1,
@@ -1855,13 +2726,24 @@
               "where_label": "Central Arizona Project canal, Arizona"
             },
             {
+              "type": "photo",
+              "at": "Interior Secretary Doug Burgum",
+              "photo": "Doug Burgum 2025 DOI cropped portrait.jpg",
+              "on_screen_text": "Doug Burgum, Secretary of the Interior"
+            },
+            {
               "type": "document",
-              "at": "Interior Secretary",
+              "at": "because, as he put it",
               "document": {
                 "text": "You can't be injured in theory.",
                 "highlight": null,
                 "source": "Doug Burgum, Secretary of the Interior"
               }
+            },
+            {
+              "type": "stock",
+              "at": "Interior's formal answer",
+              "query": "federal courthouse exterior"
             }
           ]
         },
@@ -1869,8 +2751,55 @@
           "text": "Behind the lawsuit is a bigger threat. If the ten-year flow keeps falling, the Lower Basin could take the Compact itself to the Supreme Court, which hears disputes between states. Experts told Colorado Public Radio that such a case could take years, and that everybody loses.",
           "shots": [
             {
-              "type": "stock",
+              "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -111.6,
+                      "lat": 36.87,
+                      "span": 0.2
+                    },
+                    "date": "2026-09-01/2026-10-31",
+                    "places": [
+                      {
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "If the ten-year flow",
+              "chart": {
+                "type": "bar",
+                "title": "Ten years past the dam, million acre-feet",
+                "data": [
+                  [
+                    "Lower Basin's line",
+                    82.5
+                  ],
+                  [
+                    "Upper Basin's line",
+                    75.0
+                  ],
+                  [
+                    "Released, Oct 2016 - Sep 2026",
+                    80.0
+                  ]
+                ],
+                "highlight": 2,
+                "source": "Bureau of Reclamation daily data; our calculation"
+              }
+            },
+            {
+              "type": "stock",
+              "at": "to the Supreme Court",
               "query": "Supreme Court building Washington"
             },
             {
@@ -1895,6 +2824,16 @@
               "type": "stock",
               "at": 0,
               "query": "Colorado River sunset canyon"
+            },
+            {
+              "type": "stock",
+              "at": "or should the states be forced",
+              "query": "negotiation meeting table"
+            },
+            {
+              "type": "stock",
+              "at": "What would you do",
+              "query": "river canyon dusk aerial"
             }
           ]
         }
@@ -1911,6 +2850,21 @@
               "type": "stock",
               "at": 0,
               "query": "storm clouds rain over desert canyon"
+            },
+            {
+              "type": "stat",
+              "at": "sent 65,000 cubic feet",
+              "stat": {
+                "value": "65,000 cfs",
+                "label": "flowing into Lake Powell in the late-October storms",
+                "note": "the second highest October flow since 1963",
+                "source": "Bureau of Reclamation"
+              }
+            },
+            {
+              "type": "stock",
+              "at": "the second highest October",
+              "query": "flash flood canyon muddy water"
             },
             {
               "type": "chart",
@@ -1938,7 +2892,10 @@
                   ]
                 ],
                 "highlight": 3,
-                "source": "Bureau of Reclamation daily data"
+                "source": "Bureau of Reclamation daily data",
+                "reveal": [
+                  "had risen almost 17 feet"
+                ]
               }
             }
           ]
@@ -1962,11 +2919,36 @@
                       "source": "modis",
                       "before": "2000-09-09",
                       "after": "2026-08-22",
-                      "seconds": 4.0
+                      "seconds": 4.0,
+                      "until": "still had Lake Mead"
                     }
+                  },
+                  {
+                    "at": "Reclamation's October forecasts",
+                    "places": [
+                      {
+                        "name": "Lake Mead",
+                        "lon": -114.35,
+                        "lat": 36.25,
+                        "label": "LAKE MEAD"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "still had Lake Mead"
                   }
                 ]
               }
+            },
+            {
+              "type": "stock",
+              "at": "A wet winter would",
+              "query": "snowfall mountains forest winter"
+            },
+            {
+              "type": "photo",
+              "at": "but it would not make",
+              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 1).jpg"
             }
           ]
         },
@@ -1974,8 +2956,70 @@
           "text": "Even the upper states call this a stopgap. In July their four governors wrote that the basin is seeing the lowest reservoir levels in its history, and that the new framework does not represent a final solution. It runs until 2036, and after 2028 it allows cuts in the Lower Basin of up to 3.6 million acre-feet a year.",
           "shots": [
             {
-              "type": "document",
+              "type": "map",
               "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -114.2,
+                        43.4
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ],
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true,
+                    "places": [
+                      {
+                        "name": "Denver",
+                        "lon": -104.99,
+                        "lat": 39.74,
+                        "kind": "city",
+                        "icon": "government"
+                      },
+                      {
+                        "name": "Salt Lake City",
+                        "lon": -111.89,
+                        "lat": 40.76,
+                        "kind": "city",
+                        "icon": "government"
+                      },
+                      {
+                        "name": "Cheyenne",
+                        "lon": -104.82,
+                        "lat": 41.14,
+                        "kind": "city",
+                        "icon": "government"
+                      },
+                      {
+                        "name": "Santa Fe",
+                        "lon": -105.94,
+                        "lat": 35.687,
+                        "kind": "city",
+                        "icon": "government"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "that the basin is seeing",
+              "query": "reservoir low water drought aerial"
+            },
+            {
+              "type": "document",
+              "at": "and that the new framework",
               "document": {
                 "text": "Today's framework does not represent a final solution.",
                 "highlight": "does not represent a final solution",
@@ -1999,7 +3043,10 @@
                   ]
                 ],
                 "highlight": 1,
-                "source": "Interior Department; The Nevada Independent"
+                "source": "Interior Department; The Nevada Independent",
+                "reveal": [
+                  "and after 2028 it allows"
+                ]
               }
             }
           ]
@@ -2032,9 +3079,26 @@
                         "label": "COLORADO RIVER DELTA"
                       }
                     ]
-                  },
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "Under the new agreement",
+              "query": "river delta wetland aerial"
+            },
+            {
+              "type": "stock",
+              "at": "to look after the habitat",
+              "query": "egret wading bird wetland"
+            },
+            {
+              "type": "map",
+              "at": "So who should give up",
+              "map": {
+                "steps": [
                   {
-                    "at": "So who should give up",
                     "focus": [
                       [
                         -117.6,
@@ -2052,6 +3116,50 @@
                         "seconds": 5.0
                       }
                     ]
+                  },
+                  {
+                    "at": "the farms,",
+                    "places": [
+                      {
+                        "name": "Imperial Valley",
+                        "lon": -115.45,
+                        "lat": 32.85,
+                        "kind": "site",
+                        "icon": "crops",
+                        "label": "Imperial Valley farms"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "the cities,",
+                    "places": [
+                      {
+                        "name": "Denver",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Las Vegas",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Phoenix",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Los Angeles",
+                        "icon": "city"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "or the states upstream",
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true
                   }
                 ]
               }

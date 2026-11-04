@@ -55,6 +55,18 @@ Sources are numbered R1... Every number in the script must trace to a line here.
   Impact Statement", Salt Lake District Office, July 1986, 92 pages, public domain; on Commons as "Proposed West Desert
   pumping project , Great Salt Lake, Utah - USACE-p16021coll7-23679.pdf" (OCR text layer usable: document shot).
 
+- R14 Utah Geological Survey on the 1983-1987 flood (geology.utah.gov: "A Lake Divided", the Southern Pacific causeway;
+  "What is the Boxcar Seawall?"; public information PI-8 "The Great Salt Lake"): the south arm rose 5 ft in 1983, over
+  4 ft in 1984 and nearly 3 ft more by 1987 to 4,211.85 ft; roads, farms and wildlife areas flooded; sections of
+  Interstate 80 raised as much as 8 ft (to 4,214 ft); the railroad raised its whole causeway in 1983-1987 with millions
+  of tons of stone and in August-September 1983 lined it with 1,430 surplus boxcars, hoppers and gondolas against the
+  waves; the causeway was breached near Lakeside in 1984 to lower the south arm; damages over $240 million (1985
+  dollars). West Desert Pumping Project: pumping from 10 Apr 1987 to 30 Jun 1989, 2.7 million acre-feet, "some
+  $65 million" (R6, the state's water division: $60 million; the script says "about 60 million": settle in the
+  fact-check). Pump station: south end of Hogup Ridge, a few miles along the causeway north-west of Lakeside, 6.5 miles
+  of canals (CLUI land use database), about 41 deg 15' N, 113 deg 4' W (University of Utah record). Utah state
+  publications are not public domain: quote as clipping cards, no page shots.
+
 ## Levels (R1, south arm, daily means; own reading of the USGS series)
 | | Level (ft) | Date |
 |---|---|---|

@@ -29,3 +29,6 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   (my recommendation). Leads from the topic search: level 4,190.40 ft in mid-August 2026 against the 2021 low of
   4,190.20 and the all-time low of 4,188.5 ft (November 2022, Salt Lake Tribune); state officials: no new record
   expected in 2026, but a 2027 record "unavoidable" after another dry winter; arsenic in the exposed lakebed's dust.
+- 2026-11-05: research started. USGS gauge (south arm, provisional): 2026 low 4,189.4 ft on 10 Oct, below the 2021
+  low and 0.9 ft above the all-time 4,188.5 (Nov 2022); 22.2 ft below the 1986 peak (4,211.6). research.md lists the
+  open research items.

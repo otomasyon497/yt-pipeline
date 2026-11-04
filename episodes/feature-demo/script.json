@@ -1,0 +1,145 @@
+{
+  "title": "Feature demo (R1 + R2)",
+  "voice": "am_michael",
+  "voice_speed": 1.08,
+  "music": "procedural",
+  "map_style": "satellite",
+  "look": "warm",
+  "sources": [
+    "Internal review episode for the R1 + R2 features, not for upload. Facts from episodes/colorado-river/research.md:",
+    "combined storage 46.45 MAF (1 Jan 2000) -> 11.95 MAF (16 Sep 2026), -74 % (own calculation, Reclamation daily data);",
+    "Reclamation Technical Decision Memorandum, 26 March 2024 (usbr.gov, public domain); Hoover Dam built 1931-1936;",
+    "Upper Basin governors' statement, July 2026 ('Today's framework does not represent a final solution.')."
+  ],
+  "chapters": [
+    {
+      "title": "Feature demo",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "This is Lake Powell in July 2019. Now the same bays in September 2026.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {"lon": -110.72, "lat": 37.52, "span": 0.45},
+                    "date": "2026-09-01/2026-09-30",
+                    "compare": {"before": "2019-07-17/2019-07-17", "after": "2026-09-01/2026-09-30", "seconds": 2.4}
+                  },
+                  {"at": "Now the same"}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Lake Powell and Lake Mead together held 74 percent less water in September 2026 than at the start of 2000.",
+          "shots": [
+            {
+              "type": "stat",
+              "at": 0,
+              "stat": {
+                "value": "74%",
+                "label": "less water in Lake Powell and Lake Mead than in January 2000",
+                "note": "46.5 million acre-feet then, 12.0 million on 16 September 2026",
+                "source": "Bureau of Reclamation daily data; our calculation"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Reclamation saw it coming. In March 2024 its engineers set out how they would run Glen Canyon Dam if the lake kept falling.",
+          "shots": [
+            {
+              "type": "document",
+              "at": 0,
+              "document": {
+                "pdf": "https://www.usbr.gov/uc/DocLibrary/Memos/20240326-EstablishmentInterimOperatingGuidanceGlenCanyonDamLowReservoirLevels-TechnicalDecisionMemo-508-TSC.pdf",
+                "page": 1,
+                "highlight": "Establishment of Interim Operating Guidance for Glen Canyon Dam during Low Reservoir Levels at Lake Powell",
+                "title": "Technical Decision Memorandum, 26 March 2024",
+                "source": "U.S. Bureau of Reclamation (public domain)"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Downstream, Hoover Dam went up in the 1930s, built for a fuller river.",
+          "shots": [
+            {
+              "type": "film",
+              "at": 0,
+              "film": "File:The Story of Hoover Dam.webm",
+              "film_start": 240,
+              "on_screen_text": "Hoover Dam under construction, 1930s",
+              "where": [-114.737, 36.016],
+              "where_label": "Hoover Dam"
+            }
+          ]
+        },
+        {
+          "text": "From Lake Havasu, the Central Arizona Project pumps water to Phoenix and Tucson. The Colorado River Aqueduct carries it west toward Los Angeles.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {"lon": -114.6, "lat": 33.5, "span": 7.5},
+                    "places": [
+                      {"name": "Lake Havasu", "lon": -114.3, "lat": 34.45, "icon": "water"}
+                    ]
+                  },
+                  {
+                    "at": "Central Arizona Project",
+                    "routes": [{"path": "Central Arizona Project", "color": "accent", "seconds": 3.0, "label": "Central Arizona Project"}],
+                    "places": [
+                      {"name": "Phoenix", "icon": "city"},
+                      {"name": "Tucson", "icon": "city"}
+                    ]
+                  },
+                  {
+                    "at": "Colorado River Aqueduct",
+                    "routes": [{"path": "Colorado River Aqueduct", "color": "blue", "seconds": 3.0, "label": "Colorado River Aqueduct"}],
+                    "places": [
+                      {"name": "Los Angeles", "icon": "city"}
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Even the four upper states call the new rules a stopgap. So who should give up water first?",
+          "ask": {"at": "So who should", "text": "Who should give up water first?"},
+          "shots": [
+            {
+              "type": "document",
+              "at": 0,
+              "document": {
+                "text": "Today's framework does not represent a final solution.",
+                "highlight": "does not represent a final solution",
+                "title": "Upper Basin governors, July 2026",
+                "source": "Governors of Colorado, New Mexico, Utah and Wyoming"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "text": "WHO GETS CUT?",
+    "prompt": "aerial view of a shrinking desert reservoir in red rock canyons, white bathtub ring on the cliffs, low blue water, dramatic light"
+  },
+  "youtube": {
+    "title": "Feature demo: stat, document, film, icons",
+    "description": "Internal review render of the R1 + R2 features.",
+    "tags": []
+  }
+}

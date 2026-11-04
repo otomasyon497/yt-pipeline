@@ -115,3 +115,12 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   (new `compare.until`). New public-domain sources: the Compact's signed page and Article III (DPLA), Hoover Dam's
   spillways in July 1983 (Reclamation), Secretary Burgum's DOI portrait, USGS SIR 2022-5017 (its sentence on the 2017
   survey marked). Narration unchanged. Estimated longest stretch 7.6 s (0.4 s a word). Storyboard run 41924305495.
+- 2026-11-05: storyboard 41924305495: 16:08, 146 units from 160 shots, two holds left (9.0 s and 8.5 s: spoken
+  numbers run longer than the 0.4 s-a-word estimate). The sheets confirmed the chart reveals, stat and quote cards,
+  DC map, USGS page, Burgum portrait and Compact pages. Fixed (commit 5668c3b): the two holds (an on-screen line on
+  "1.25 million", a 3,370 ft stat); stock that showed another place (a foreign dam's gates for Glen Canyon's tunnels,
+  a European power house for Hoover's generators, a foreign courthouse, an Alpine valley, a plane for "cities", a
+  marina under trees) replaced by the 2018 high-flow release at Glen Canyon Dam's outlet works (Grand Canyon NPS,
+  CC BY 2.0), Hoover Dam's generator hall (CC BY 2.0), Interior on the map and sharper queries. Found on the way:
+  every line chart drew its last point at half opacity (since the first episode); fixed (f94e674). Full render
+  41929673758 (thumbnails on).

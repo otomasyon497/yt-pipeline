@@ -13,6 +13,12 @@
   session's permission check, so the user runs the two `npx skills add` commands in the analysis file.
 - Next: phases R1 (packaging, hook and pace rules, 8-s picture-change warning), R2 (document cards, public-domain
   archival film, stat cards, glowing lines, map icons), R3 (tilted maps, profile diagrams, "ink" style, terrain test).
+- R1 + R2 built 2026-11-04 (commits 15d8715..f38a9bb): 8-s hold warning, title length warning, `voice_speed` + pace
+  samples (render.yml `pace_samples`), shot types `stat`, `document` (pypdfium2 page + marked lines, or a clipping
+  card in EB Garamond) and `film` (Commons archival video), map place `icon` (22 Lucide icons, ISC), glowing routes,
+  thumbnail D (before | after split from the episode's first compare), docs/script-rules.md. Review episode
+  episodes/feature-demo: storyboard + pace samples run 41818951663, full render 41818957292. GitHub had a Git/Actions
+  incident that day (pushes failed for a while).
 
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the

@@ -51,6 +51,10 @@ Sources are numbered R1... Every number in the script must trace to a line here.
   urban water use as the largest gap (KSL, "2026 session was good for Great Salt Lake, but it could have been great").
   A "$60 million federal settlement" appears in one headline: verify before use.
 
+- R13 Bureau of Land Management (U.S. Department of the Interior), "West Desert Pumping Project, Final Environmental
+  Impact Statement", Salt Lake District Office, July 1986, 92 pages, public domain; on Commons as "Proposed West Desert
+  pumping project , Great Salt Lake, Utah - USACE-p16021coll7-23679.pdf" (OCR text layer usable: document shot).
+
 ## Levels (R1, south arm, daily means; own reading of the USGS series)
 | | Level (ft) | Date |
 |---|---|---|

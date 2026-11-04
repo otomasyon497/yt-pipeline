@@ -151,11 +151,11 @@
               "type": "document",
               "at": 0,
               "document": {
-                "pdf": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Proposed_West_Desert_pumping_project_%2C_Great_Salt_Lake%2C_Utah_-_USACE-p16021coll7-23679.pdf",
+                "pdf": "https://upload.wikimedia.org/wikipedia/commons/4/47/Proposed_West_Desert_pumping_project_%2C_Great_Salt_Lake%2C_Utah_-_USACE-p16021coll7-23679.pdf",
                 "page": 1,
-                "highlight": "West Desert",
-                "title": "Proposed West Desert pumping project",
-                "source": "U.S. Army Corps of Engineers (public domain)"
+                "highlight": "WEST DESERT PUMPING PROJECT",
+                "title": "West Desert Pumping Project, Final Environmental Impact Statement, July 1986",
+                "source": "Bureau of Land Management, U.S. Department of the Interior (public domain)"
               }
             }
           ]

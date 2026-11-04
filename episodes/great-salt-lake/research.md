@@ -59,6 +59,17 @@ Own calculations:
 Caution: R2's "4,190.40 in mid-August" and R1 agree (August 2026 readings ~4,190.4); the 2026 October low below the
 2021 low happened after R3 was written (R3 expected no 2026 record; still true: 4,189.4 > 4,188.5).
 
+## Visual inventory (step 2, preliminary)
+- Levels for compare dates (R1): 2000-09-15 4,201.2 ft; 2017-06-09 4,195.5 (the highest since Sentinel-2 began in
+  2015); 2022-11-07 4,188.5 (record); 2026-10-10 4,189.4.
+- MODIS compare (whole lake, about 1.5-2 degrees): a clear day around Sep 2000 vs Oct 2026 (11.8 ft lower); pick the
+  days by eye in GIBS like colorado-river.
+- Sentinel-2 compares (close views): June 2017 vs October 2026 (6.1 ft lower) on Farmington Bay, Antelope Island's
+  shore and Bear River Bay; one-day windows covering each box (sentinel._covering_day or a hand-picked "D/D").
+- The railroad causeway (1959) splitting the pink north arm from the blue-green south arm: one S2 view.
+- Documents (public domain): USGS WRI 91-4117 (the West Desert Pumping Project); USGS lake-level fact sheets.
+- Archival: search Commons for the 1983-1987 flooding and the pumping station (photos / films, licence-checked).
+
 ## To research next (step 1 continues)
 - Causes: share of the decline from upstream water use (Wurtsbaugh et al. 2017: ~11 ft from consumptive use), the
   2025-2026 record-low snowpack (links to colorado-river), evaporation.

@@ -32,3 +32,8 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
 - 2026-11-05: research started. USGS gauge (south arm, provisional): 2026 low 4,189.4 ft on 10 Oct, below the 2021
   low and 0.9 ft above the all-time 4,188.5 (Nov 2022); 22.2 ft below the 1986 peak (4,211.6). research.md lists the
   open research items.
+- 2026-11-05: research R5-R9 written (Wurtsbaugh 2017: ~11 ft from water development; 1987-1989 pumps $60 million;
+  800 sq mi of exposed bed, arsenic, and the state's PM10 view; economy $1.3-1.9 billion a year; 2024 strategic plan
+  4,198-4,205 ft). Visual inventory started (MODIS Sep 2000 vs Oct 2026; S2 Jun 2017 vs Oct 2026; causeway). Next:
+  the causeway and its colours, birds, the 2025-26 snowpack link, 2026 policy, Commons archival search, GIBS days,
+  then outline.md and the gate-1 summary to the user.

@@ -197,6 +197,32 @@ Reproducible: tools/colorado_numbers.py (calculations 1-4 from Reclamation's CSV
   single user; Upper Basin consumptive use; Interior's court response (due end of October 2026); first Lake Mead
   shortage (declared Aug 2021 for 2022) and the 2023 paid conservation deals (verify before use).
 
+## Added during the script (2026-11-04, verified)
+- Compact assumption: negotiators believed the Lees Ferry average was about 16.4 MAF, "based on the 20 years of gage
+  records available in 1922"; 1906-2004 mean about 15.1 MAF (TreeFlow, Western Water Assessment / University of
+  Colorado / University of Arizona: https://www.treeflow.info/node/23).
+- First-ever Lower Basin shortage declared 16 Aug 2021 for 2022 (Tier 1; Lake Mead projected 1,065.85 ft on
+  1 Jan 2022) (WaterOnline 16 Aug 2021; Colorado Politics; Las Vegas Sun).
+- Las Vegas relies on Lake Mead for about 90 % of its water (NPS, "The Third Straw":
+  https://www.nps.gov/lake/learn/the-third-straw.htm); Intake No. 3 completed 2015 (SNWA); Low Lake Level Pumping
+  Station completed 2020.
+- Lake Powell 2023 rebound (Reclamation data): 3,519.92 ft on 13 Apr 2023 -> 3,584.68 ft on 8 Jul 2023 (+64.8 ft).
+- Arizona's junior priority dates to the 1968 law authorising the CAP (KTAR / ABC15 coverage, Oct 2026); Tom
+  Buschatzke (ADWR director): cities and farms along the river with the same priority as CAP will share some of the
+  cuts (KTAR). CAP's projected CY 2026 diversion 0.943 MAF [R9].
+- Interior and Reclamation had until the end of October 2026 to answer Nevada's complaint (newsfromthestates, Oct
+  2026).
+- All-American Canal about 80 miles (our NHD chain, 129 km); Colorado River Aqueduct about 240 miles (our NHD chain,
+  391 km; MWD gives 242).
+- More than 4 million visitors a year at Lake Powell [R12]. Hoover: power stops at 950 ft, no releases at 895 ft
+  (NPS); Reclamation adjusts Hoover's generator capacity to the lake elevation [R9].
+- Wording fixed in the fact-check: "18 % of average" and the near-zero August figure are unregulated inflow (upstream
+  reservoir releases still reached the lake: regulated inflow 239,000 AF in August); the WY 2026 release cut (6.0
+  MAF) came before the September record low, so it is framed as protecting the line, not as a response to the low.
+- Packaging (yt-package, 2026-11-04): title "Lake Mead and Lake Powell Both Hit Record Lows in 2026" (98/100, 54
+  chars), thumbnail "WHO GETS CUT?"; runners-up "Arizona Loses 27% of Its Colorado River Water in 2027" (98) and
+  "The Colorado River's 1922 Deal Just Hit Its First Tripwire" (98, jargon).
+
 ## Visual inventory
 Dates for every Sentinel-2 pair are picked in step 4 (clear days, same season), as in caspian-sea.
 

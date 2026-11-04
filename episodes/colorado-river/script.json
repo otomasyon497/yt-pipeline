@@ -1,0 +1,1596 @@
+{
+  "title": "The River That Ran Short",
+  "voice": "am_michael",
+  "music": "procedural",
+  "map_style": "satellite",
+  "look": "warm",
+  "captions": true,
+  "sources": [
+    "Every claim is checked against episodes/colorado-river/research.md (sources, own calculations, both sides of contested points).",
+    "Decision: Interior press release 21 Aug 2026 [R1]; Greenberg Traurig [R3]; cuts AZ 760,000 (-27.1 %), CA 440,000 (-10 %), NV 50,000; Minute 334 signed 2 Sep 2026, Mexico -250,000 a year [R7].",
+    "Levels and storage: Reclamation daily CSVs (Powell 919, Mead 921) via tools/colorado_numbers.py: Powell 3,516.62 ft on 15 Sep 2026, Mead 1,037.16 ft on 22 Oct 2026; combined 46.45 MAF (1 Jan 2000) -> 11.95 MAF (16 Sep 2026); Powell area -63 %; WY 2026 release 6.0 MAF; ten years WY 2017-2026 = 80.0 MAF.",
+    "Snow and inflow: Interior (lowest observed snowpack on record); Reclamation October 2026 24-Month Study (April-July 18 % of average; August about 0; evaporation Mead 457,000 + Powell 181,000 AF; Mead lows 1,007.73 ft (6 maf run) and 1,015.68 ft (7 maf run)).",
+    "Compact: text [R19]; 16.4 MAF assumption, 14.76 (1906-2018), 12.47 (2000-2018) [R20]; 75 vs 82.5 MAF readings and Kuhn's 'first tripwire' [R16].",
+    "Dam: Reclamation memo 2024 [R14] (1,320 MW, 3,490 ft minimum power pool, four river outlet works, cavitation, not envisioned to run solely on them); 710 ft (Reclamation Quick Facts); dead pool 3,370 ft; USGS SIR 2022-5017 [R12].",
+    "Own map: tools/powell_shoreline.py (USGS 2017 multibeam bathymetry): 225.1 / 188.5 / 77.7 km2 at the record low / 3,490 / 3,370 ft, within 2 % of the USGS 2018 EAC table; 1.34 MAF between the record low and 3,490 ft.",
+    "Use: Richter et al. 2024 (74 % of direct human use, three times all other direct uses, cattle feed 46 %); SNWA via The Nevada Independent (198,000 AF in 2025, -40 % in 25 years, +800,000 people); NPS (Las Vegas 90 % from Lake Mead); SNWA (intakes 1,050 / 1,000 ft, Intake No. 3 2015, pumping station 2020).",
+    "Lawsuit: Nevada 24 Aug 2026 [R3][R4]; Arizona DWR and CAP 16 Oct 2026, Burgum quote [R6]; Lombardo quote [R4]; Hobbs 'draconian' [R6]; Upper Basin governors 9 Apr 2026 (coyotegulch); CPR 9 Sep 2026 [R16].",
+    "October storm: ABC15 [R11] (65,000 cfs, second-highest October daily inflow since 1963); Reclamation data (Powell +16.84 ft from 15 Sep to 2 Nov)."
+  ],
+  "chapters": [
+    {
+      "title": "Two Record Lows",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "This is Lake Powell, on the border of Utah and Arizona, in the summer of 2017. It is the second largest reservoir in the United States. Now watch the same bays in September 2026.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite images · Copernicus Sentinel-2",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -110.72,
+                      "lat": 37.52,
+                      "span": 0.45
+                    },
+                    "compare": {
+                      "before": "2017-07-01/2017-09-30",
+                      "after": "2026-09-01/2026-09-30",
+                      "seconds": 4.0
+                    }
+                  },
+                  {
+                    "at": "Now watch"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "On September 15th, Lake Powell fell to its lowest level since it first filled. Five weeks later, Lake Mead, behind Hoover Dam, set a record low of its own. Together the two lakes held less water than at any time since 1963. The river they store supplies more than forty million people, from Denver to Los Angeles, and about five million acres of farmland.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Lake Powell: 3,516.6 ft on Sept 15, 2026",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -117.9,
+                        41.4
+                      ],
+                      [
+                        -104.6,
+                        31.9
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Lake Powell",
+                        "lon": -110.95,
+                        "lat": 37.25,
+                        "kind": "label",
+                        "label": "LAKE POWELL"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Five weeks later",
+                    "places": [
+                      {
+                        "name": "Lake Mead",
+                        "lon": -114.35,
+                        "lat": 36.25,
+                        "kind": "label",
+                        "label": "LAKE MEAD"
+                      },
+                      {
+                        "name": "Hoover Dam",
+                        "lon": -114.737,
+                        "lat": 36.016,
+                        "kind": "site"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "from Denver",
+                    "places": [
+                      {
+                        "name": "Denver"
+                      },
+                      {
+                        "name": "Las Vegas"
+                      },
+                      {
+                        "name": "Phoenix"
+                      },
+                      {
+                        "name": "Los Angeles"
+                      },
+                      {
+                        "name": "San Diego"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "After three years of talks, the seven states that share the river could not agree on new rules, so on August 21st the federal government wrote them itself. Arizona, California and Nevada must use 1.25 million acre-feet less water a year in 2027 and 2028. The four states upstream face no required cuts. Three days later, Nevada sued.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -120.5,
+                        42.2
+                      ],
+                      [
+                        -102.0,
+                        31.3
+                      ]
+                    ],
+                    "highlight": [
+                      "Arizona",
+                      "California",
+                      "Nevada",
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ]
+                  },
+                  {
+                    "at": "Arizona, California and Nevada",
+                    "clear": true,
+                    "highlight": [
+                      "Arizona",
+                      "California",
+                      "Nevada"
+                    ],
+                    "dim": true
+                  },
+                  {
+                    "at": "The four states upstream",
+                    "clear": true,
+                    "highlight": [
+                      "Colorado",
+                      "Utah",
+                      "Wyoming",
+                      "New Mexico"
+                    ],
+                    "dim": true
+                  },
+                  {
+                    "at": "Nevada sued",
+                    "clear": true,
+                    "highlight": [
+                      "Nevada"
+                    ],
+                    "places": [
+                      {
+                        "name": "Las Vegas"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "So when a river runs short, who should give up water first? The answer goes back to a deal struck in 1922, for a river that turned out to be smaller than its negotiators believed.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Colorado River canyon aerial drone"
+            },
+            {
+              "type": "title_card",
+              "at": "The answer goes back",
+              "on_screen_text": "THE RIVER THAT RAN SHORT",
+              "subtitle": "Seven states, two lakes and a promise from 1922"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Promise of 1922",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "The Colorado starts as snowmelt high in the Rocky Mountains and runs south-west through deep canyons to the Gulf of California. Its basin reaches into seven American states and into Mexico.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -117.6,
+                        43.4
+                      ],
+                      [
+                        -104.4,
+                        31.2
+                      ]
+                    ],
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 6.0
+                      }
+                    ]
+                  },
+                  {
+                    "at": "Its basin",
+                    "highlight": [
+                      "file:upper_basin.geojson",
+                      "file:lower_basin.geojson"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "In November 1922, delegates from the seven states met in Santa Fe and split the river in two at Lee Ferry, a crossing in northern Arizona. Colorado, Utah, Wyoming and New Mexico became the Upper Basin. Arizona, California and Nevada became the Lower Basin. Each half got the right to use seven and a half million acre-feet a year. One acre-foot is about 326,000 gallons, enough to flood a football field a foot deep.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "at": "Lee Ferry,",
+                    "places": [
+                      {
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "Each half got",
+              "photo": "Colorado River Compact. Signed at Santa Fe, New Mexico, November 24, 1922 - DPLA - 5f58da61d22c5517da996253ca29cdf2 (page 1).jpg"
+            }
+          ]
+        },
+        {
+          "text": "The upper states also promised not to let the flow at Lee Ferry fall below 75 million acre-feet over any ten years. In 1944, a treaty added one and a half million acre-feet a year for Mexico. Keep that ten-year number in mind, because the states are now fighting over it.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "Lees Ferry Colorado River 1870, C.R. Savage.jpg",
+              "where": [
+                -111.588,
+                36.865
+              ],
+              "where_label": "Lees Ferry, Arizona, about 1870"
+            },
+            {
+              "type": "stock",
+              "at": "Keep that",
+              "query": "Colorado River flowing through red rock canyon"
+            }
+          ]
+        },
+        {
+          "text": "The negotiators counted on about 16.4 million acre-feet a year, based on the short gauge record they had, and those early years were wet. Over the full record since 1906, the river has averaged about 14.8 million. From 2000 to 2018 it averaged about 12.5 million. The deal divided more water than the river carries.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "River flow, million acre-feet a year",
+                "data": [
+                  [
+                    "Assumed in 1922",
+                    16.4
+                  ],
+                  [
+                    "Average 1906-2018",
+                    14.8
+                  ],
+                  [
+                    "Average 2000-2018",
+                    12.5
+                  ]
+                ],
+                "ref": [
+                  16.5,
+                  "Promised: 7.5 + 7.5 + 1.5"
+                ],
+                "highlight": 2,
+                "source": "Reclamation natural flow data, via Kuhn and Fleck"
+              }
+            }
+          ]
+        },
+        {
+          "text": "For decades, two giant reservoirs covered the gap. Hoover Dam was finished in 1936 and filled Lake Mead. Glen Canyon Dam began storing water in 1963, and Lake Powell first filled in 1980. At their peak in July 1983, the two lakes held 52.5 million acre-feet, about three and a half years of the river's average flow.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "Construction Intake Towers Hoover Dam 1934.jpg",
+              "where": [
+                -114.737,
+                36.016
+              ],
+              "where_label": "Hoover Dam, 1934"
+            },
+            {
+              "type": "photo",
+              "at": "Glen Canyon Dam began",
+              "photo": "GRCA 33720 1958 Hidden Passage Canyon in Glen Canyon Mile 76.jpg",
+              "where": [
+                -110.9,
+                37.25
+              ],
+              "where_label": "Glen Canyon before the dam, 1958"
+            },
+            {
+              "type": "map",
+              "at": "At their peak",
+              "on_screen_text": "July 1983: 52.5 million acre-feet in the two lakes",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -115.0,
+                        38.0
+                      ],
+                      [
+                        -110.3,
+                        35.8
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Lake Mead",
+                        "lon": -114.35,
+                        "lat": 36.25,
+                        "kind": "label",
+                        "label": "LAKE MEAD"
+                      },
+                      {
+                        "name": "Lake Powell",
+                        "lon": -110.95,
+                        "lat": 37.25,
+                        "kind": "label",
+                        "label": "LAKE POWELL"
+                      },
+                      {
+                        "name": "Hoover Dam",
+                        "lon": -114.737,
+                        "lat": 36.016,
+                        "kind": "site"
+                      },
+                      {
+                        "name": "Glen Canyon Dam",
+                        "lon": -111.484,
+                        "lat": 36.937,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Lake Powell drowned Glen Canyon, a maze of side canyons, photographed here in the 1950s. Today more than four million people a year visit the lake.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "GRCA 117031 1954 Tapestry Wall in Glen Canyon Mile 136.2.jpg",
+              "where": [
+                -111.2,
+                37.05
+              ],
+              "where_label": "Glen Canyon before the dam, 1954"
+            },
+            {
+              "type": "stock",
+              "at": "Today more than",
+              "query": "Lake Powell houseboat"
+            }
+          ]
+        },
+        {
+          "text": "Those two lakes are only half of the system. The other half carries the river hundreds of miles from its banks, to cities that grew up far away from it.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "concrete water canal through desert aerial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where the Water Goes",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "Follow the water past Hoover Dam to Lake Havasu, on the Arizona-California line. There, two pumping plants lift it out of the river. One sends it west through the Colorado River Aqueduct, about 240 miles to the Los Angeles area. The other sends it east through the Central Arizona Project, 336 miles of canal, pumped nearly three thousand feet uphill to Phoenix and Tucson.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -118.6,
+                        36.3
+                      ],
+                      [
+                        -110.6,
+                        31.7
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Hoover Dam",
+                        "lon": -114.737,
+                        "lat": 36.016,
+                        "kind": "site"
+                      },
+                      {
+                        "name": "Lake Havasu",
+                        "lon": -114.25,
+                        "lat": 34.42,
+                        "kind": "label",
+                        "label": "LAKE HAVASU"
+                      }
+                    ],
+                    "routes": [
+                      {
+                        "path": "Colorado River",
+                        "color": "blue",
+                        "seconds": 2.0
+                      }
+                    ]
+                  },
+                  {
+                    "at": "One sends it west",
+                    "routes": [
+                      {
+                        "path": "Colorado River Aqueduct",
+                        "seconds": 4.0,
+                        "label": "Colorado River Aqueduct"
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Los Angeles"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "The other sends",
+                    "routes": [
+                      {
+                        "path": "Central Arizona Project",
+                        "seconds": 5.0,
+                        "label": "Central Arizona Project"
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Phoenix"
+                      },
+                      {
+                        "name": "Tucson"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Farther south, at Imperial Dam, the All-American Canal turns it west, about 80 miles to the Imperial Valley in California, desert that the canal turned into farmland. What is left of the river crosses into Mexico, where Morelos Dam diverts most of it to farms and cities there.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "keep": true,
+                "steps": [
+                  {
+                    "places": [
+                      {
+                        "name": "Imperial Dam",
+                        "lon": -114.465,
+                        "lat": 32.883,
+                        "kind": "site"
+                      }
+                    ],
+                    "routes": [
+                      {
+                        "path": "All-American Canal",
+                        "seconds": 3.5,
+                        "label": "All-American Canal"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "photo",
+              "at": "desert that the canal",
+              "photo": "THE ALL-AMERICAN CANAL CARRIES COLORADO RIVER WATER THROUGH THE SAND DUNES OF THE WESTERN PART OF THE IMPERIAL VALLEY - NARA - 548906.jpg",
+              "where": [
+                -115.05,
+                32.72
+              ],
+              "where_label": "All-American Canal, California, 1972"
+            },
+            {
+              "type": "map",
+              "at": "What is left",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.72,
+                      "lat": 32.66,
+                      "span": 0.5
+                    },
+                    "date": "2026-03-01/2026-05-31",
+                    "places": [
+                      {
+                        "name": "Morelos Dam",
+                        "lon": -114.728,
+                        "lat": 32.705,
+                        "kind": "site"
+                      },
+                      {
+                        "name": "Mexico",
+                        "lon": -114.85,
+                        "lat": 32.52,
+                        "kind": "label",
+                        "label": "MEXICO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "So who uses all this water? A 2024 study led by Brian Richter added up every use from 2000 to 2019. Irrigated farming takes 74 percent of the water people use directly, three times as much as all the cities, homes and industries combined. Hay and alfalfa grown to feed cattle take 46 percent on their own.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "alfalfa field irrigation sprinkler"
+            },
+            {
+              "type": "chart",
+              "at": "Irrigated farming",
+              "chart": {
+                "type": "bar",
+                "title": "Who uses the river's water",
+                "unit": "%",
+                "data": [
+                  [
+                    "Cattle feed crops",
+                    46
+                  ],
+                  [
+                    "Other crops",
+                    28
+                  ],
+                  [
+                    "Cities, homes, industry",
+                    26
+                  ]
+                ],
+                "highlight": 0,
+                "source": "Richter et al. 2024, direct human use 2000-2019 (CC BY 4.0)"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Cities have been cutting back. Las Vegas gets about 90 percent of its water from Lake Mead. Southern Nevada now uses about 40 percent less river water than it did 25 years ago, while adding more than 800,000 people. In 2025 it used 198,000 acre-feet, about two thirds of its share.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Las Vegas strip aerial view"
+            }
+          ]
+        },
+        {
+          "text": "Farms hold many of the oldest water rights on the river. Cities hold most of the people. When there is not enough for both, which should give way first? Is hay grown in the desert a waste of the river, or exactly what those old rights were meant to protect? I want to know where you stand.",
+          "ask": {
+            "at": "Is hay grown",
+            "text": "Desert hay: a waste of the river, or what old rights protect?"
+          },
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "IRRIGATED FIELD OF THE IMPERIAL VALLEY - NARA - 548820.jpg",
+              "where": [
+                -115.5,
+                32.85
+              ],
+              "where_label": "Imperial Valley, California, 1972"
+            },
+            {
+              "type": "stock",
+              "at": "Cities hold",
+              "query": "Phoenix Arizona suburbs aerial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Twenty-Six Dry Years",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "Lake Mead's history fits in one line. It began filling in 1935 and rose and fell with wet and dry years for decades. In 1983 it never dropped below 1,200 feet. Since 2000 it has mostly gone down. In 2021 the government declared the first official shortage on the river. In July 2022 the lake hit a record low just above 1,040 feet, and this October it went lower, to 1,037.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "line",
+                "title": "Lake Mead, lowest level each year",
+                "unit": "feet above sea level",
+                "data": [
+                  [
+                    "1956",
+                    1083.2
+                  ],
+                  [
+                    "1965",
+                    1088.1
+                  ],
+                  [
+                    "1983",
+                    1206.8
+                  ],
+                  [
+                    "2000",
+                    1195.7
+                  ],
+                  [
+                    "2005",
+                    1130.1
+                  ],
+                  [
+                    "2010",
+                    1081.9
+                  ],
+                  [
+                    "2016",
+                    1071.6
+                  ],
+                  [
+                    "2022",
+                    1040.6
+                  ],
+                  [
+                    "2026",
+                    1037.2
+                  ]
+                ],
+                "highlight": 8,
+                "source": "Bureau of Reclamation daily data"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Lake Powell followed the same path. We added up the Bureau of Reclamation's daily records for both lakes. In January 2000 they held 46.5 million acre-feet together. On September 16th this year they held 12 million. About three quarters of the water was gone.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "line",
+                "title": "Lake Powell, lowest level each year",
+                "unit": "feet above sea level",
+                "data": [
+                  [
+                    "1983",
+                    3682.0
+                  ],
+                  [
+                    "1993",
+                    3612.5
+                  ],
+                  [
+                    "2000",
+                    3669.9
+                  ],
+                  [
+                    "2005",
+                    3555.1
+                  ],
+                  [
+                    "2011",
+                    3609.7
+                  ],
+                  [
+                    "2014",
+                    3574.2
+                  ],
+                  [
+                    "2019",
+                    3568.5
+                  ],
+                  [
+                    "2022",
+                    3522.2
+                  ],
+                  [
+                    "2026",
+                    3516.6
+                  ]
+                ],
+                "highlight": 8,
+                "source": "Bureau of Reclamation daily data"
+              }
+            },
+            {
+              "type": "chart",
+              "at": "In January 2000",
+              "chart": {
+                "type": "bar",
+                "title": "Water in Powell and Mead, million acre-feet",
+                "data": [
+                  [
+                    "Peak, July 1983",
+                    52.5
+                  ],
+                  [
+                    "January 2000",
+                    46.5
+                  ],
+                  [
+                    "September 2026",
+                    12.0
+                  ]
+                ],
+                "highlight": 2,
+                "source": "Bureau of Reclamation daily data; our calculation"
+              }
+            }
+          ]
+        },
+        {
+          "text": "From orbit, the change is plain. This is Lake Powell in September 2000, seen by NASA's Terra satellite, and here it is in September 2026. By Reclamation's measurements, its surface has shrunk by almost two thirds.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite images · NASA MODIS",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -110.95,
+                      "lat": 37.38,
+                      "span": 2.0
+                    },
+                    "compare": {
+                      "source": "modis",
+                      "before": "2000-09-09",
+                      "after": "2026-09-10",
+                      "seconds": 4.0
+                    }
+                  },
+                  {
+                    "at": "and here it is"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Then came the winter of 2025 to 2026, with the smallest snowpack ever recorded in the basin. From April through July, when the snowmelt should pour in, the runoff headed for Lake Powell was 18 percent of average. In August, apart from water let out of reservoirs upstream, almost nothing flowed in.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Rocky Mountains little snow dry winter"
+            },
+            {
+              "type": "chart",
+              "at": "From April through July",
+              "chart": {
+                "type": "bar",
+                "title": "Snowmelt into Lake Powell, April-July",
+                "unit": "%",
+                "data": [
+                  [
+                    "Average year",
+                    100
+                  ],
+                  [
+                    "2026",
+                    18
+                  ]
+                ],
+                "highlight": 1,
+                "source": "Bureau of Reclamation, October 2026 24-Month Study"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Lake Powell had been this low once before. In April 2023 it set what was then a record, and a snowy winter lifted it almost 65 feet by July. Three years later it was lower than ever. The white band on the canyon walls marks where the water used to stand.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "Lake Powell near Bullfrog, March 15, 2022. (e8ba8a85-e962-492c-9890-f46b995abcaa).jpeg",
+              "where": [
+                -110.73,
+                37.52
+              ],
+              "where_label": "Lake Powell near Bullfrog, March 2022"
+            },
+            {
+              "type": "photo",
+              "at": "The white band",
+              "photo": "3.15.2022 Halls Crossing Marina (17265a52-e71c-4da0-89b5-3cae80f07d83).jpeg",
+              "where": [
+                -110.71,
+                37.46
+              ],
+              "where_label": "Halls Crossing, Lake Powell, March 2022"
+            }
+          ]
+        },
+        {
+          "text": "On Lake Mead's northern arm, coves that held water in the spring of 2020 are now dry land. But the number engineers fear most is upstream, at Glen Canyon Dam. In September, Lake Powell was just 27 feet above it.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Lake Mead, Overton Arm",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.4,
+                      "lat": 36.36,
+                      "span": 0.5
+                    },
+                    "compare": {
+                      "before": "2020-03-01/2020-05-15",
+                      "after": "2026-09-15/2026-10-31",
+                      "seconds": 3.6
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stock",
+              "at": "But the number",
+              "query": "Glen Canyon Dam Lake Powell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Line at 3,490",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "Glen Canyon Dam is 710 feet tall, and its power plant can generate 1,320 megawatts. If the lake falls below 3,490 feet above sea level, the turbines can no longer run. That line is called the minimum power pool.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "GLEN CANYON DAM - NARA - 544151.jpg",
+              "where": [
+                -111.484,
+                36.937
+              ],
+              "where_label": "Glen Canyon Dam, Arizona, 1972"
+            }
+          ]
+        },
+        {
+          "text": "Below that line, the only way to move water downstream is through four smaller tunnels called the river outlet works. The Bureau of Reclamation says the dam was never meant to run on those tunnels alone for long, and it is studying how to limit cavitation damage inside them. At 3,370 feet, water cannot leave through the dam at all. Engineers call that dead pool.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -111.484,
+                      "lat": 36.937,
+                      "span": 0.09
+                    },
+                    "date": "2026-09-01/2026-09-30",
+                    "places": [
+                      {
+                        "name": "Glen Canyon Dam",
+                        "lon": -111.484,
+                        "lat": 36.937,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "We wanted to see those lines on the map. In 2017 the U.S. Geological Survey mapped the bottom of Lake Powell with sonar, and we used that survey to find where the water would stand. This is the lake at its record low in September. At 3,490 feet it would look almost the same from space, about 16 percent smaller. At dead pool, about two thirds of it would be gone, and the lake would end just below Bullfrog Bay.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Our map · from the USGS sonar survey of the lakebed",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -110.98,
+                      "lat": 37.34,
+                      "span": 1.45
+                    },
+                    "date": "2026-09-01/2026-09-30",
+                    "places": [
+                      {
+                        "name": "Glen Canyon Dam",
+                        "lon": -111.484,
+                        "lat": 36.937,
+                        "kind": "site"
+                      },
+                      {
+                        "name": "Bullfrog Bay",
+                        "lon": -110.73,
+                        "lat": 37.53,
+                        "kind": "label",
+                        "label": "BULLFROG BAY"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "At 3,490 feet",
+                    "highlight": [
+                      "file:powell_dry_3490.geojson"
+                    ]
+                  },
+                  {
+                    "at": "At dead pool",
+                    "clear": true,
+                    "highlight": [
+                      "file:powell_dry_3370.geojson"
+                    ],
+                    "places": [
+                      {
+                        "name": "Bullfrog Bay",
+                        "lon": -110.73,
+                        "lat": 37.53,
+                        "kind": "label",
+                        "label": "BULLFROG BAY"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "At the record low, about 1.3 million acre-feet stood between the lake and the turbine line, less than three months of this year's releases. To protect that line, the government had already cut the 2026 release from Glen Canyon Dam to 6 million acre-feet, the smallest in sixty years. It also ordered up to a million acre-feet sent down from Flaming Gorge Reservoir, on the Wyoming-Utah line.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Released from Glen Canyon Dam, million acre-feet",
+                "data": [
+                  [
+                    "2019",
+                    9.0
+                  ],
+                  [
+                    "2022",
+                    7.0
+                  ],
+                  [
+                    "2025",
+                    7.48
+                  ],
+                  [
+                    "2026",
+                    6.0
+                  ]
+                ],
+                "highlight": 3,
+                "source": "Bureau of Reclamation daily data (water years); our calculation"
+              }
+            },
+            {
+              "type": "map",
+              "at": "It also ordered",
+              "on_screen_text": "Up to 1 million acre-feet from Flaming Gorge",
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -111.2,
+                        41.7
+                      ],
+                      [
+                        -108.9,
+                        36.8
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Flaming Gorge Reservoir",
+                        "lon": -109.55,
+                        "lat": 41.15,
+                        "kind": "label",
+                        "label": "FLAMING GORGE"
+                      },
+                      {
+                        "name": "Lake Powell",
+                        "lon": -110.95,
+                        "lat": 37.25,
+                        "kind": "label",
+                        "label": "LAKE POWELL"
+                      }
+                    ],
+                    "routes": [
+                      {
+                        "path": "Green River",
+                        "color": "blue",
+                        "seconds": 5.0,
+                        "label": "Green River"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Downstream, Las Vegas prepared years ago. Its first intake in Lake Mead stopped working when the lake fell below 1,050 feet. A second works down to 1,000. A third, finished in 2015, with a pumping station added in 2020, can keep drawing water even below Hoover Dam's dead pool. Reclamation's October forecasts show Lake Mead falling to between about 1,008 and 1,016 feet by next summer.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.77,
+                      "lat": 36.08,
+                      "span": 0.4
+                    },
+                    "date": "2026-10-01/2026-10-31",
+                    "places": [
+                      {
+                        "name": "Las Vegas intakes",
+                        "lon": -114.795,
+                        "lat": 36.062,
+                        "kind": "site",
+                        "label": "Las Vegas's intakes"
+                      },
+                      {
+                        "name": "Hoover Dam",
+                        "lon": -114.737,
+                        "lat": 36.016,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "Reclamation's October forecasts",
+              "on_screen_text": "Forecast for summer 2027: about 1,008-1,016 ft",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Hoover Dam has its own lines. Its turbines stop at 950 feet, and at 895 feet no water can pass the dam. Reclamation already lowers its estimate of Hoover's generating capacity as the lake drops.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Hoover Dam aerial"
+            }
+          ]
+        },
+        {
+          "text": "We check stories like this one from orbit, with real satellite images and survey data. If you want to see where Lake Powell's shoreline stands after next spring's snowmelt, subscribe.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -110.98,
+                      "lat": 37.34,
+                      "span": 1.6
+                    },
+                    "date": "2026-09-01/2026-09-30"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Washington Steps In",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "The rules that have run the river since 2007 expire at the end of 2026. Talks between the seven states on what comes next began years ago and missed one deadline after another. On July 31st the Interior Department published its final environmental study, and on August 21st it signed the decision.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Lake Powell aerial red rock water"
+            }
+          ]
+        },
+        {
+          "text": "For 2027 and 2028 the cuts fall on the Lower Basin. Arizona loses 760,000 acre-feet a year, 27 percent of its share. California loses 440,000, ten percent. Nevada loses 50,000. Under a new agreement signed in September, Mexico gives up 250,000 acre-feet a year. The four upper states have voluntary conservation goals and no required cuts.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Cuts in 2027, acre-feet a year",
+                "data": [
+                  [
+                    "Arizona",
+                    760000
+                  ],
+                  [
+                    "California",
+                    440000
+                  ],
+                  [
+                    "Mexico",
+                    250000
+                  ],
+                  [
+                    "Nevada",
+                    50000
+                  ],
+                  [
+                    "Upper Basin",
+                    0
+                  ]
+                ],
+                "highlight": 0,
+                "source": "Interior Department, Aug 2026; IBWC Minute 334"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Arizona takes the biggest cut because of a deal it made in 1968. To get Congress to build the Central Arizona Project, the state accepted a junior priority, so in a shortage the canal's water is cut before California's. In 2026 the canal was expected to divert about 943,000 acre-feet. Tom Buschatzke, who runs Arizona's Department of Water Resources, says cities and farms along the river with the same priority will share some of the cut.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -114.6,
+                        35.3
+                      ],
+                      [
+                        -110.6,
+                        31.7
+                      ]
+                    ],
+                    "highlight": [
+                      "Arizona"
+                    ],
+                    "routes": [
+                      {
+                        "path": "Central Arizona Project",
+                        "seconds": 4.0,
+                        "label": "Central Arizona Project"
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Phoenix"
+                      },
+                      {
+                        "name": "Tucson"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "We compared the cuts with Reclamation's own numbers. In 2026, Lake Mead and Lake Powell lost 638,000 acre-feet to evaporation alone. That is 84 percent of Arizona's cut, and more than twice Nevada's entire share of the river.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Water per year, acre-feet",
+                "data": [
+                  [
+                    "Arizona's cut",
+                    760000
+                  ],
+                  [
+                    "Evaporation, Mead and Powell",
+                    638000
+                  ],
+                  [
+                    "Nevada's whole share",
+                    300000
+                  ]
+                ],
+                "highlight": 1,
+                "source": "Reclamation 24-Month Study, Oct 2026; our calculation"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Why are the upper states left out? Washington runs the two big reservoirs, but water rights upstream are run by the states. And there is the ten-year number from 1922. The upper states read the Compact as a promise not to let the flow at Lee Ferry fall below 75 million acre-feet in ten years. The Lower Basin says the real line is 82.5 million, because the upper states also owe half of Mexico's water. We added up Reclamation's release records. In the ten years through September 2026, 80 million acre-feet passed Glen Canyon Dam, below the Lower Basin's line and above the Upper Basin's. Eric Kuhn, a former Colorado water manager, calls it the Compact's first tripwire.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -117.6,
+                        43.4
+                      ],
+                      [
+                        -104.4,
+                        31.2
+                      ]
+                    ],
+                    "highlight": [
+                      "file:upper_basin.geojson",
+                      "file:lower_basin.geojson"
+                    ],
+                    "places": [
+                      {
+                        "name": "Lee Ferry",
+                        "lon": -111.588,
+                        "lat": 36.865,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "chart",
+              "at": "We added up",
+              "chart": {
+                "type": "bar",
+                "title": "Ten years past the dam, million acre-feet",
+                "data": [
+                  [
+                    "Lower Basin's line",
+                    82.5
+                  ],
+                  [
+                    "Released, Oct 2016 - Sep 2026",
+                    80.0
+                  ],
+                  [
+                    "Upper Basin's line",
+                    75.0
+                  ]
+                ],
+                "highlight": 1,
+                "source": "Bureau of Reclamation daily data; our calculation"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Both sides have a case. In April, the four upper governors said their states are already enforcing mandatory, uncompensated cuts on water rights that go back to the 1800s, and their states are sending stored water down from Flaming Gorge. Nevada's governor, Joe Lombardo, says Southern Nevada could lose more than 70 percent of its allocation after 2028. Arizona's governor, Katie Hobbs, calls the cuts draconian.",
+          "shots": [
+            {
+              "type": "quote",
+              "at": 0,
+              "quote": "Mandatory, uncompensated, and will have significant impacts on water users.",
+              "author": "Upper Basin governors, April 2026"
+            },
+            {
+              "type": "quote",
+              "at": "Nevada's governor",
+              "quote": "Southern Nevada could lose more than 70 percent of its already meager Colorado River allocation.",
+              "author": "Gov. Joe Lombardo, Nevada"
+            },
+            {
+              "type": "quote",
+              "at": "Arizona's governor",
+              "quote": "Draconian.",
+              "author": "Gov. Katie Hobbs, Arizona, on the cuts"
+            }
+          ]
+        },
+        {
+          "text": "So should the four upper states share the cuts, even if the Compact may not require it? Or is a deal from 1922 still a deal? Tell me which side you are on.",
+          "ask": {
+            "at": "should the four upper states",
+            "text": "Should the four upper states share the cuts?"
+          },
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "snowy Rocky Mountains river valley Colorado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Into Court",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "Nevada did not wait. On August 24th, the state, its Colorado River Commission and the Southern Nevada Water Authority sued the Interior Department in federal court in Nevada. They say Interior broke federal environmental and administrative law and misread the Law of the River, and they want the decision thrown out. Nevada also argues that Interior never studied what deep cuts would do to Southern Nevada's $180 billion economy.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Las Vegas skyline daytime aerial"
+            }
+          ]
+        },
+        {
+          "text": "On October 16th, Arizona's Department of Water Resources asked to join the case, and the Central Arizona Project filed its own request. Interior Secretary Doug Burgum says the lawsuit will be thrown out, because, as he put it, you can't be injured in theory. Interior's formal answer to Nevada's complaint was due at the end of October.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "Central Arizona Project Aqueduct.JPG",
+              "where": [
+                -112.1,
+                33.7
+              ],
+              "where_label": "Central Arizona Project canal, Arizona"
+            },
+            {
+              "type": "quote",
+              "at": "Interior Secretary",
+              "quote": "You can't be injured in theory.",
+              "author": "Doug Burgum, Secretary of the Interior"
+            }
+          ]
+        },
+        {
+          "text": "Behind the lawsuit is a bigger threat. If the ten-year flow keeps falling, the Lower Basin could take the Compact itself to the Supreme Court, which hears disputes between states. Experts told Colorado Public Radio that such a case could take years, and that everybody loses.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Supreme Court building Washington"
+            }
+          ]
+        },
+        {
+          "text": "Should judges decide how this river is shared, or should the states be forced back to the table until they agree? What would you do?",
+          "ask": {
+            "at": "Should judges decide",
+            "text": "Judges, or the states back at the table?"
+          },
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Colorado River sunset canyon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rain in October",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "Then, in late October, it rained. Storms over northern Arizona and southern Utah sent 65,000 cubic feet of water per second into Lake Powell, the second highest October flow since 1963. By November 2nd the lake had risen almost 17 feet from its record low.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "storm clouds rain over desert canyon"
+            }
+          ]
+        },
+        {
+          "text": "The storms helped. Reclamation's October forecasts, made just before them, still had Lake Mead heading for a new low next summer. A wet winter would buy time, but it would not make the river carry what was promised in 1922.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Lake Mead · NASA MODIS",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.42,
+                      "lat": 36.25,
+                      "span": 1.3
+                    },
+                    "compare": {
+                      "source": "modis",
+                      "before": "2000-09-09",
+                      "after": "2026-08-22",
+                      "seconds": 4.0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Even the upper states call this a stopgap. In July their four governors wrote that the basin is seeing the lowest reservoir levels in its history, and that the new framework does not represent a final solution. It runs until 2036, and after 2028 it allows cuts in the Lower Basin of up to 3.6 million acre-feet a year.",
+          "shots": [
+            {
+              "type": "quote",
+              "at": 0,
+              "quote": "Today's framework does not represent a final solution.",
+              "author": "Upper Basin governors, July 2026"
+            }
+          ]
+        },
+        {
+          "text": "At the end of the line, the river that carved the Grand Canyon now rarely reaches the sea. Under the new agreement, the United States and Mexico keep a joint program to look after the habitat that is left in the delta. So who should give up water first: the farms, the cities, or the states upstream? Tell me what you think.",
+          "ask": {
+            "at": "who should give up",
+            "text": "Who should give up water first?"
+          },
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.85,
+                      "lat": 31.9,
+                      "span": 0.9
+                    },
+                    "date": "2026-03-01/2026-05-31",
+                    "places": [
+                      {
+                        "name": "Colorado River Delta",
+                        "lon": -114.9,
+                        "lat": 31.95,
+                        "kind": "label",
+                        "label": "COLORADO RIVER DELTA"
+                      },
+                      {
+                        "name": "Gulf of California",
+                        "lon": -114.75,
+                        "lat": 31.62,
+                        "kind": "sea",
+                        "label": "GULF OF CALIFORNIA"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "text": "WHO GETS CUT?",
+    "prompt": "aerial view of a shrinking desert reservoir in red rock canyons, white bathtub ring on the cliffs, low blue water, dramatic light"
+  },
+  "youtube": {
+    "title": "Lake Mead and Lake Powell Both Hit Record Lows in 2026",
+    "description": "In September 2026 Lake Powell fell to its lowest level since it filled, and in October Lake Mead followed. After three years of failed talks, Washington wrote the river's new rules itself: Arizona, California and Nevada lose 1.25 million acre-feet a year, the four states upstream face no required cuts, and Nevada sued. We mapped Lake Powell at the line where Glen Canyon Dam's turbines stop and at dead pool from the USGS sonar survey of the lakebed, and checked the 1922 Compact's ten-year test against Reclamation's own records.\n\nReal Copernicus Sentinel-2 and NASA MODIS images, USGS and Bureau of Reclamation data, and our own calculations.",
+    "tags": [
+      "Colorado River",
+      "Lake Powell",
+      "Lake Mead",
+      "Colorado River drought",
+      "water shortage",
+      "Hoover Dam",
+      "Glen Canyon Dam",
+      "Colorado River Compact",
+      "Arizona water",
+      "Nevada lawsuit",
+      "dead pool",
+      "satellite images",
+      "before and after",
+      "geography"
+    ],
+    "pinned_comment": "Who should give up water first when the Colorado runs short: the farms with the oldest rights, the cities with the most people, or the four states upstream? The 1922 Compact may now be headed for court. Where do you stand?"
+  }
+}

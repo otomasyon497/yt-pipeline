@@ -246,7 +246,8 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                     time.sleep(3 * (attempt + 1))
             return buf
 
-        used = []
+        used, read = [], []
+        raw = np.full_like(acc, np.nan)  # each pixel's first observation, before the cloud mask
         with ThreadPoolExecutor(max_workers=4) as pool:
             for it, foot in zip(scenes, feet):
                 missing = coverable & np.isnan(acc[py, px, 0])
@@ -265,6 +266,9 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                     bands.append(np.where(buf > 0, buf * scale + offset, np.nan))
                 rgb = np.stack(bands, -1)
                 ok = np.isfinite(rgb).all(-1)
+                first = ok & np.isnan(raw[..., 0])
+                raw[first] = rgb[first]
+                read.append(it)
                 if rest:
                     scl = rest[0]
                     ok &= ~np.isin(scl.astype(np.int32), list(CLOUD_SCL))
@@ -272,6 +276,13 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                 if fill.any():
                     acc[fill] = rgb[fill]
                     used.append(it)
+        # Pixels the cloud mask removed and no other scene filled keep their first observation: Sen2Cor flags bright
+        # ground (salt, sand, a lake's freshly exposed bed) as cloud, and the hole would show Blue Marble's 2004
+        # coast through it (Lake Powell's bed in September 2026 came out as a blurred 2004 lake).
+        holes = np.isnan(acc[..., 0]) & np.isfinite(raw[..., 0])
+        if holes.any():
+            acc[holes] = raw[holes]
+            used += [it for it in read if it not in used]
         scenes = used
         valid = np.isfinite(acc[..., 0])
         if not valid.any():

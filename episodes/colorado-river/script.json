@@ -41,7 +41,8 @@
                       "before": "2019-07-10/2019-08-31",
                       "after": "2026-09-01/2026-09-30",
                       "seconds": 4.0
-                    }
+                    },
+                    "date": "2026-09-01/2026-09-30"
                   },
                   {
                     "at": "Now watch"
@@ -874,14 +875,15 @@
                     "view": {
                       "lon": -110.95,
                       "lat": 37.38,
-                      "span": 2.0
+                      "span": 2.05
                     },
                     "compare": {
                       "source": "modis",
                       "before": "2000-09-09",
                       "after": "2026-09-10",
                       "seconds": 4.0
-                    }
+                    },
+                    "date": "2026-09-10"
                   },
                   {
                     "at": "and here it is"
@@ -910,7 +912,7 @@
                       "source": "modis",
                       "before": "2023-03-19",
                       "after": "2026-03-25",
-                      "seconds": 3.6
+                      "seconds": 2.4
                     }
                   },
                   {
@@ -921,7 +923,7 @@
             },
             {
               "type": "chart",
-              "at": "From April through July",
+              "at": "the runoff headed",
               "chart": {
                 "type": "bar",
                 "title": "Snowmelt into Lake Powell, April-July",
@@ -1331,7 +1333,7 @@
                       "lat": 37.34,
                       "span": 1.6
                     },
-                    "date": "2026-09-01/2026-09-30"
+                    "date": "2026-09-20/2026-09-20"
                   }
                 ]
               }

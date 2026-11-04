@@ -55,3 +55,13 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   Imperial Valley photos, Hoover / Yuma / delta close-ups, cuts chart in acre-feet, cameras no longer pulled out by
   labels. The Powell lower-level steps add overlays without a camera stop, so the storyboard has no still of them
   (storyboard 1 showed both layers drawing correctly); check them in the final MP4. Next: full render (step 8).
+- 2026-11-04: render 41776212017 (17:04, 328 MB, -14.5 LUFS, true peak -0.3 dBTP) reviewed from frames pulled out of
+  the MP4. Fine: the Powell lower-level steps (3,490 ft layer at 09:08, dead pool at 09:14, P5.4 with the 3,490 layer
+  only), the cold-open wipe, the MODIS / snow / Overton compares, the canal lines, charts, closing card. Found (both
+  were on storyboard 2 as well, missed in that review): a sharp Sentinel-2 rectangle around Glen Canyon Dam on the
+  3.1-degree MODIS views (08:52-09:30; S2 only faded out from 2.6 degrees) and a straight seam down the delta close-up
+  (16:40-16:52; the eastern tiles from 6 May, the western from 10 March). Fixes: MapBlock fades S2 out at 2.0-2.6
+  degrees where a MODIS image covers the frame; the delta view uses 2026-10-03, when S2A and S2B (10 minutes apart)
+  cover its whole box. Pipeline: window mosaics now start from the clearest day that covers the whole box (then the
+  highest sun), and maps.py notes S2 images stitched from several days. The Flaming Gorge route now starts at the dam
+  (it ran from the Green River's source in Wyoming). Stills run 41784500831 to check, full render 41784506403.

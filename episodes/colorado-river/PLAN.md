@@ -38,3 +38,15 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   fixed six wordings (unregulated inflow, release-cut timing, houseboats, "dry years", Flaming Gorge, "by next
   summer"). Title by yt-package: "Lake Mead and Lake Powell Both Hit Record Lows in 2026" + "WHO GETS CUT?". Next:
   storyboard (step 7).
+- 2026-11-04: storyboard run 41769780405 failed in prepare (GEOS "side location conflict": powell_dry_3490 and
+  lower_basin had self-touching rings); maps.py now repairs file: areas with make_valid. Also added visual beats where
+  a shot held 20-35 s (prepare notes). Storyboard 1 (run 41772809879): 16:58, 75 units from 85 shots. Fixed: no usable
+  Sentinel-2 scene in summer 2017 (cold open now summer 2019, about 3,620 ft); bar-chart reference label ran off the
+  right edge (ChartScene puts it left of the line near the edge); Lake Mead chart 2022/2026 labels collided (axis
+  from 1983); off-topic stock (desert power lines for canals, snowy peaks for the record-low snowpack, another dam for
+  Hoover, rice paddies for Arizona) replaced by NARA canal / Imperial Valley photos, a MODIS snow comparison of
+  Colorado's mountains (19 Mar 2023 vs 25 Mar 2026, picked by eye from GIBS), Sentinel-2 close-ups of Hoover Dam and
+  Yuma; labels or markers in the caption band zoomed cameras out (Morelos, Las Vegas intakes, the delta): moved; the
+  whole-lake Powell views need about 3.1 degrees for every overlay, so they use the MODIS day 2026-09-10 instead of
+  Sentinel-2; the dead-pool layer stayed on in the next paragraph (keep + clear): keep off; the 1.25 MAF bar read "1.3"
+  (now acre-feet). Next: storyboard 2.

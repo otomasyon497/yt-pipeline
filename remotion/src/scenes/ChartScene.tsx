@@ -68,14 +68,20 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 					</g>
 				);
 			})}
-			{chart.ref ? (
-				<g opacity={clamp01((frame - 40 - n * 10) / 14)}>
-					<line x1={left + (refV / max) * barMax} y1={top - 30} x2={left + (refV / max) * barMax} y2={top + rowH * n} stroke={REF} strokeWidth={4} strokeDasharray="14 10" />
-					<text x={left + (refV / max) * barMax + 14} y={top - 40} fontFamily={body} fontWeight={700} fontSize={32} fill={REF}>
-						{chart.ref[1]}
-					</text>
-				</g>
-			) : null}
+			{chart.ref ? (() => {
+				const rx = left + (refV / max) * barMax;
+				// A reference line near the longest bar sits close to the right edge: put its label on the left side of
+				// the line when it would run out of the frame (Inter bold, ~0.56 em per glyph).
+				const flip = rx + 14 + chart.ref[1].length * 32 * 0.56 > W - 60;
+				return (
+					<g opacity={clamp01((frame - 40 - n * 10) / 14)}>
+						<line x1={rx} y1={top - 30} x2={rx} y2={top + rowH * n} stroke={REF} strokeWidth={4} strokeDasharray="14 10" />
+						<text x={flip ? rx - 14 : rx + 14} y={top - 40} fontFamily={body} fontWeight={700} fontSize={32} fill={REF} textAnchor={flip ? 'end' : 'start'}>
+							{chart.ref[1]}
+						</text>
+					</g>
+				);
+			})() : null}
 		</>
 	);
 };

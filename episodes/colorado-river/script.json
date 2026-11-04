@@ -23,7 +23,7 @@
       "mood": "tension",
       "paragraphs": [
         {
-          "text": "This is Lake Powell, on the border of Utah and Arizona, in the summer of 2017. It is the second largest reservoir in the United States. Now watch the same bays in September 2026.",
+          "text": "This is Lake Powell, on the border of Utah and Arizona, in the summer of 2019. It is the second largest reservoir in the United States. Now watch the same bays in September 2026.",
           "shots": [
             {
               "type": "map",
@@ -38,7 +38,7 @@
                       "span": 0.45
                     },
                     "compare": {
-                      "before": "2017-07-01/2017-09-30",
+                      "before": "2019-07-10/2019-08-31",
                       "after": "2026-09-01/2026-09-30",
                       "seconds": 4.0
                     }
@@ -461,9 +461,14 @@
           "text": "Those two lakes are only half of the system. The other half carries the river hundreds of miles from its banks, to cities that grew up far away from it.",
           "shots": [
             {
-              "type": "stock",
+              "type": "photo",
               "at": 0,
-              "query": "concrete water canal through desert aerial"
+              "photo": "ALL-AMERICAN CANAL CARRIES COLORADO RIVER WATER THROUGH SAND-SWEPT AREA OF THE IMPERIAL VALLEY - NARA - 549076.jpg",
+              "where": [
+                -114.9,
+                32.75
+              ],
+              "where_label": "All-American Canal, California, 1972"
             }
           ]
         }
@@ -585,12 +590,12 @@
             {
               "type": "photo",
               "at": "desert that the canal",
-              "photo": "THE ALL-AMERICAN CANAL CARRIES COLORADO RIVER WATER THROUGH THE SAND DUNES OF THE WESTERN PART OF THE IMPERIAL VALLEY - NARA - 548906.jpg",
+              "photo": "IRRIGATED FIELDS OF THE IMPERIAL VALLEY, NEAR EL CENTRO - NARA - 548813.jpg",
               "where": [
-                -115.05,
-                32.72
+                -115.56,
+                32.79
               ],
-              "where_label": "All-American Canal, California, 1972"
+              "where_label": "Imperial Valley near El Centro, California, 1972"
             },
             {
               "type": "map",
@@ -613,8 +618,8 @@
                       },
                       {
                         "name": "Mexico",
-                        "lon": -114.85,
-                        "lat": 32.52,
+                        "lon": -114.88,
+                        "lat": 32.66,
                         "kind": "label",
                         "label": "MEXICO"
                       }
@@ -706,14 +711,9 @@
           },
           "shots": [
             {
-              "type": "photo",
+              "type": "stock",
               "at": 0,
-              "photo": "IRRIGATED FIELD OF THE IMPERIAL VALLEY - NARA - 548820.jpg",
-              "where": [
-                -115.5,
-                32.85
-              ],
-              "where_label": "Imperial Valley, California, 1972"
+              "query": "hay bales in a field aerial"
             },
             {
               "type": "stock",
@@ -740,16 +740,12 @@
                 "unit": "feet above sea level",
                 "data": [
                   [
-                    "1956",
-                    1083.2
-                  ],
-                  [
-                    "1965",
-                    1088.1
-                  ],
-                  [
                     "1983",
                     1206.8
+                  ],
+                  [
+                    "1990",
+                    1177.9
                   ],
                   [
                     "2000",
@@ -776,7 +772,7 @@
                     1037.2
                   ]
                 ],
-                "highlight": 8,
+                "highlight": 7,
                 "source": "Bureau of Reclamation daily data"
               }
             },
@@ -896,12 +892,32 @@
           ]
         },
         {
-          "text": "Then came the winter of 2025 to 2026, with the smallest snowpack ever recorded in the basin. From April through July, when the snowmelt should pour in, the runoff headed for Lake Powell was 18 percent of average. In August, apart from water let out of reservoirs upstream, almost nothing flowed in.",
+          "text": "Then came the winter of 2025 to 2026, with the smallest snowpack ever recorded in the basin. Here are Colorado's mountains in March 2023, a big snow year, and in March 2026. From April through July, when the snowmelt should pour in, the runoff headed for Lake Powell was 18 percent of average. In August, apart from water let out of reservoirs upstream, almost nothing flowed in.",
           "shots": [
             {
-              "type": "stock",
+              "type": "map",
               "at": 0,
-              "query": "Rocky Mountains little snow dry winter"
+              "on_screen_text": "Colorado's Rocky Mountains · NASA MODIS",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -106.75,
+                      "lat": 39.25,
+                      "span": 3.7
+                    },
+                    "compare": {
+                      "source": "modis",
+                      "before": "2023-03-19",
+                      "after": "2026-03-25",
+                      "seconds": 3.6
+                    }
+                  },
+                  {
+                    "at": "and in March 2026"
+                  }
+                ]
+              }
             },
             {
               "type": "chart",
@@ -1069,9 +1085,9 @@
                     "view": {
                       "lon": -110.98,
                       "lat": 37.34,
-                      "span": 1.45
+                      "span": 3.1
                     },
-                    "date": "2026-09-01/2026-09-30",
+                    "date": "2026-09-10",
                     "places": [
                       {
                         "name": "Glen Canyon Dam",
@@ -1123,18 +1139,18 @@
               "at": 0,
               "on_screen_text": "1.3 million acre-feet above the turbine line",
               "map": {
-                "keep": true,
+                "keep": false,
                 "steps": [
                   {
-                    "clear": true,
                     "view": {
                       "lon": -110.98,
                       "lat": 37.34,
-                      "span": 1.45
+                      "span": 3.1
                     },
                     "highlight": [
                       "file:powell_dry_3490.geojson"
-                    ]
+                    ],
+                    "date": "2026-09-10"
                   }
                 ]
               }
@@ -1235,8 +1251,8 @@
                 "steps": [
                   {
                     "view": {
-                      "lon": -114.77,
-                      "lat": 36.08,
+                      "lon": -114.76,
+                      "lat": 36.03,
                       "span": 0.4
                     },
                     "date": "2026-10-01/2026-10-31",
@@ -1276,9 +1292,28 @@
           "text": "Hoover Dam has its own lines. Its turbines stop at 950 feet, and at 895 feet no water can pass the dam. Reclamation already lowers its estimate of Hoover's generating capacity as the lake drops.",
           "shots": [
             {
-              "type": "stock",
+              "type": "map",
               "at": 0,
-              "query": "Hoover Dam aerial"
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.737,
+                      "lat": 36.016,
+                      "span": 0.06
+                    },
+                    "date": "2026-10-01/2026-10-31",
+                    "places": [
+                      {
+                        "name": "Hoover Dam",
+                        "lon": -114.737,
+                        "lat": 36.016,
+                        "kind": "site"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1407,7 +1442,10 @@
                         "kind": "site"
                       },
                       {
-                        "name": "Mexicali"
+                        "name": "Mexicali",
+                        "lon": -115.4545,
+                        "lat": 32.6245,
+                        "kind": "city"
                       }
                     ]
                   },
@@ -1485,9 +1523,28 @@
               }
             },
             {
-              "type": "stock",
+              "type": "map",
               "at": "Tom Buschatzke",
-              "query": "Arizona farmland irrigation canal"
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -114.62,
+                      "lat": 32.7,
+                      "span": 0.35
+                    },
+                    "date": "2026-03-01/2026-04-30",
+                    "places": [
+                      {
+                        "name": "Yuma",
+                        "lon": -114.6277,
+                        "lat": 32.6927,
+                        "kind": "city"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1845,15 +1902,15 @@
               "at": "It runs until 2036",
               "chart": {
                 "type": "bar",
-                "title": "Lower Basin cuts, million acre-feet a year",
+                "title": "Lower Basin cuts, acre-feet a year",
                 "data": [
                   [
                     "2027 and 2028",
-                    1.25
+                    1250000
                   ],
                   [
                     "Allowed after 2028, up to",
-                    3.6
+                    3600000
                   ]
                 ],
                 "highlight": 1,
@@ -1888,13 +1945,6 @@
                         "lat": 31.95,
                         "kind": "label",
                         "label": "COLORADO RIVER DELTA"
-                      },
-                      {
-                        "name": "Gulf of California",
-                        "lon": -114.75,
-                        "lat": 31.62,
-                        "kind": "sea",
-                        "label": "GULF OF CALIFORNIA"
                       }
                     ]
                   },

@@ -137,7 +137,8 @@ const Line: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 			) : null}
 			<polyline points={pts} fill="none" stroke={colors.accent} strokeWidth={9} strokeLinejoin="round" strokeLinecap="round" strokeDasharray={len} strokeDashoffset={len - drawn} />
 			{chart.data.map(([label, value], i) => {
-				const shown = clamp01((q - (i - 0.2)) / 0.4);
+				// A point fades in as the line reaches it and stays fully drawn (the last one used to stop at half opacity).
+				const shown = clamp01((q - (i - 0.2)) / 0.2) * clamp01((frame - 16) / 10);
 				const big = i === hiIdx;
 				return (
 					<g key={`${label}${i}`} opacity={shown}>

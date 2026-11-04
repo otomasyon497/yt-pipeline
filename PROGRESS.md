@@ -25,7 +25,9 @@
   clipping card touched the question card (lower), film shots lacked their label. Final demo render 41820302063 in
   Videos\yt-pipeline\feature-demo (with pace_samples\: 1.00 / 1.08 / 1.15 = 122 / 128 / 133 words/min incl. pauses).
   Wikimedia rate-limits ffmpeg's default user agent (429): sample remote films with -user_agent.
-- Waiting for the user: the narration speed (by ear) and the go for episode 4 with the new rules (or R3 first).
+- 2026-11-04/05: the user chose narration 1.08 (config: TTS_SPEED 1.08, paragraph pause 0.38 s, chapter pause 0.6 s)
+  and episode 4 with the new rules; topic: the Great Salt Lake (over Central Valley subsidence, the Outer Banks
+  houses and Greenland). Plan: episodes/great-salt-lake/PLAN.md. Colorado-river release waits for the user's upload.
 
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the

@@ -22,6 +22,7 @@ import {
 	type Xf,
 } from './geometry';
 import {Globe} from './Globe';
+import {ICONS} from './icons';
 import {placeLabels, textWidth, type LabelReq, type Placement} from './labels';
 import {STYLES, rampColor, type MapStyle} from './styles';
 import type {ArrowEl, ChoroplethEl, CompareEl, ContextEl, HighlightEl, MapBlockData, MapElement, PlaceEl, Raster, RouteEl, TrueSizeEl} from './types';
@@ -127,7 +128,8 @@ const labelsOf = (elements: MapElement[]): LabelEl[] => {
 			out.push({id, el, text: el.label, size: 34, spacing: 6, upper: true, italic: false, x: el.x, y: el.y, r: 0, priority: 0});
 		} else if (el.kind === 'place' && el.label) {
 			const sea = el.marker === 'sea';
-			out.push({id, el, text: el.label, size: sea ? 27 : 30, spacing: sea ? 3 : 0.5, upper: false, italic: sea, x: el.x, y: el.y, r: sea ? 0 : 11, priority: sea ? 3 : 1});
+			const r = sea ? 0 : el.icon ? 29 : 11; // icon badges are 27 px across the halo
+			out.push({id, el, text: el.label, size: sea ? 27 : 30, spacing: sea ? 3 : 0.5, upper: false, italic: sea, x: el.x, y: el.y, r, priority: sea ? 3 : 1});
 		} else if (el.kind === 'route' && el.label) {
 			const n = el.pts.length;
 			out.push({id, el, text: el.label, size: 27, spacing: 0.5, upper: false, italic: false, x: el.pts[n - 2], y: el.pts[n - 1], r: 9, priority: 2});
@@ -481,6 +483,24 @@ const Marker: React.FC<{el: PlaceEl; xf: Xf; style: MapStyle; frame: number; fad
 	const [x, y] = toScreen(xf, el.x, el.y);
 	const s = popIn(frame - el.in) * S;
 	const accent = style.tints.accent;
+	if (el.icon && ICONS[el.icon]) {
+		// Badge: accent disc with a white Lucide icon (24 x 24 viewBox, stroke-drawn), dark ring for contrast.
+		return (
+			<g opacity={fade} transform={`translate(${x} ${y}) scale(${s})`}>
+				<circle r={27} fill={style.labelHalo} opacity={0.55} />
+				<circle r={23} fill={accent} stroke="#ffffff" strokeWidth={3} />
+				<g
+					transform="translate(-14 -14) scale(1.1667)"
+					fill="none"
+					stroke="#ffffff"
+					strokeWidth={2.2}
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					dangerouslySetInnerHTML={{__html: ICONS[el.icon]}}
+				/>
+			</g>
+		);
+	}
 	if (el.marker === 'event') {
 		const pulse = ((frame - el.in) % 40) / 40;
 		return (
@@ -517,8 +537,11 @@ const Route: React.FC<{el: RouteEl; line: {line: Float64Array; cum: Float64Array
 	return (
 		<g opacity={fade}>
 			<path d={d} fill="none" stroke={style.labelHalo} strokeOpacity={0.55} strokeWidth={10 * S} strokeLinecap="round" strokeLinejoin="round" />
-			<path d={d} fill="none" stroke={color} strokeOpacity={0.3} strokeWidth={14 * S} strokeLinecap="round" strokeLinejoin="round" />
+			{/* Glow without an SVG blur filter (cheap on CPU renderers): two wide translucent strokes, then a bright core. */}
+			<path d={d} fill="none" stroke={color} strokeOpacity={0.12} strokeWidth={30 * S} strokeLinecap="round" strokeLinejoin="round" />
+			<path d={d} fill="none" stroke={color} strokeOpacity={0.24} strokeWidth={17 * S} strokeLinecap="round" strokeLinejoin="round" />
 			<path d={d} fill="none" stroke={color} strokeWidth={5 * S} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={dash} />
+			<path d={d} fill="none" stroke="#ffffff" strokeOpacity={0.55} strokeWidth={1.6 * S} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={dash} />
 			<circle cx={hx} cy={hy} r={(p < 1 ? 9 : 8) * S} fill={color} stroke="#ffffff" strokeWidth={3} />
 		</g>
 	);

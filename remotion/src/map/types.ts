@@ -14,6 +14,7 @@ export type PlaceEl = Base & {
 	marker: 'city' | 'capital' | 'port' | 'site' | 'event' | 'sea' | 'label';
 	x: number;
 	y: number;
+	icon?: string | null; // key of map/icons.ts: a round badge with the icon instead of the dot
 };
 export type RouteEl = Base & {kind: 'route'; pts: number[]; mode: 'sea' | 'air' | 'line'; tint: Tint; label: string | null; draw: number};
 export type ArrowEl = Base & {

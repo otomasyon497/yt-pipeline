@@ -372,7 +372,7 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
             label = p.name
             kind = p.kind or ("site" if kind == "country" else kind)
         x, y = unit_pt(lon, lat)
-        places.append({"label": p.name if p.label is None else p.label, "marker": kind, "x": x, "y": y})
+        places.append({"label": p.name if p.label is None else p.label, "marker": kind, "x": x, "y": y, "icon": p.icon})
         frame_items.append(("pt", (x, y, kind)))
     routes = []
     for r in step.routes:

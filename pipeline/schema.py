@@ -51,12 +51,19 @@ SeaPassage = Literal["babalmandab", "bosporus", "gibraltar", "suez", "panama", "
 Tint = Literal["accent", "alt", "red", "blue", "neutral"]
 
 
+# Map marker icons (Lucide, ISC; remotion/src/map/icons.ts): a round badge instead of the dot, popping in.
+IconName = Literal["city", "conflict", "crops", "factory", "farm", "fire", "government", "military", "mine", "money",
+                   "mountain", "oil", "people", "plane", "port", "power", "refugees", "sea", "ship", "train", "warning",
+                   "water"]
+
+
 class Place(BaseModel):
     name: str  # gazetteer lookup key and default label
     lon: Optional[float] = None
     lat: Optional[float] = None
     label: Optional[str] = None  # None -> name, "" -> marker only
     kind: Optional[Literal["city", "capital", "port", "site", "event", "sea", "label"]] = None  # default from the gazetteer; label = text only
+    icon: Optional[IconName] = None  # badge with an icon instead of the dot (not for sea / label kinds)
 
     @model_validator(mode="after")
     def _coords(self):

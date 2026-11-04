@@ -37,6 +37,20 @@ Sources are numbered R1... Every number in the script must trace to a line here.
   by 2055 with 800,000 extra acre-feet a year (Fox13); a resolution for a 4,198-ft goal was rejected by the legislature;
   the lake ended water year 2025 at its third-lowest level in over 120 years, about 7 ft below 4,198 (Fox13).
 
+- R10 Railroad causeway: Union Pacific, built 1956-1959 ($53 million, Utah Geological Survey "A lake divided"),
+  splits the lake into north and south arms; the Bear, Weber and Jordan rivers enter the south arm, so the north arm is
+  far saltier: 317 g/L on average since 1966 against 142 g/L (PMC4671733); the north arm is pink-red from salt-loving
+  microbes (USU Today; Salt Lake Tribune 2016); culverts closed 2013, breach opened 2016 (180-ft bridge).
+- R11 Birds (Utah DWR Great Salt Lake Ecosystem Program, wildlife.utah.gov/gslep): over 12 million birds of 339 species;
+  over 600,000 Wilson's phalaropes, the world's largest staging concentration, over a third of the world population
+  (Audubon: 33-40 %); up to 5 million eared grebes, at times half to 90 % of North America's.
+- R12 2026: Utah's snowpack set a record low on 1 February 2026; snowpack supplies about 95 % of the state's water; by
+  mid-February 93 % of the state was in drought and 31 of 140 stations at record-low snow water (Utah News Dispatch
+  2026-02-15; Deseret News 2026-01-31). The 2026 legislative session gave the lake close to $100 million in new funding
+  and passed bills that speed water transfers to the lake and let cities and counties send it excess water; critics name
+  urban water use as the largest gap (KSL, "2026 session was good for Great Salt Lake, but it could have been great").
+  A "$60 million federal settlement" appears in one headline: verify before use.
+
 ## Levels (R1, south arm, daily means; own reading of the USGS series)
 | | Level (ft) | Date |
 |---|---|---|

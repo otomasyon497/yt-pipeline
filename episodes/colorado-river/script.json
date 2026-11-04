@@ -96,7 +96,8 @@
                         "name": "Hoover Dam",
                         "lon": -114.737,
                         "lat": 36.016,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       }
                     ]
                   },
@@ -104,19 +105,24 @@
                     "at": "from Denver",
                     "places": [
                       {
-                        "name": "Denver"
+                        "name": "Denver",
+                        "icon": "city"
                       },
                       {
-                        "name": "Las Vegas"
+                        "name": "Las Vegas",
+                        "icon": "city"
                       },
                       {
-                        "name": "Phoenix"
+                        "name": "Phoenix",
+                        "icon": "city"
                       },
                       {
-                        "name": "Los Angeles"
+                        "name": "Los Angeles",
+                        "icon": "city"
                       },
                       {
-                        "name": "San Diego"
+                        "name": "San Diego",
+                        "icon": "city"
                       }
                     ]
                   }
@@ -183,7 +189,8 @@
                     ],
                     "places": [
                       {
-                        "name": "Las Vegas"
+                        "name": "Las Vegas",
+                        "icon": "city"
                       }
                     ]
                   }
@@ -378,6 +385,18 @@
               "where_label": "Hoover Dam, 1934"
             },
             {
+              "type": "film",
+              "at": "Hoover Dam was finished",
+              "film": "File:The Story of Hoover Dam.webm",
+              "film_start": 615,
+              "on_screen_text": "Hoover Dam under construction, 1930s",
+              "where": [
+                -114.737,
+                36.016
+              ],
+              "where_label": "Hoover Dam"
+            },
+            {
               "type": "photo",
               "at": "Glen Canyon Dam began",
               "photo": "GRCA 33720 1958 Hidden Passage Canyon in Glen Canyon Mile 76.jpg",
@@ -423,13 +442,15 @@
                         "name": "Hoover Dam",
                         "lon": -114.737,
                         "lat": 36.016,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       },
                       {
                         "name": "Glen Canyon Dam",
                         "lon": -111.484,
                         "lat": 36.937,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       }
                     ]
                   }
@@ -503,7 +524,8 @@
                         "name": "Hoover Dam",
                         "lon": -114.737,
                         "lat": 36.016,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       },
                       {
                         "name": "Lake Havasu",
@@ -532,7 +554,8 @@
                     ],
                     "places": [
                       {
-                        "name": "Los Angeles"
+                        "name": "Los Angeles",
+                        "icon": "city"
                       }
                     ]
                   },
@@ -547,10 +570,12 @@
                     ],
                     "places": [
                       {
-                        "name": "Phoenix"
+                        "name": "Phoenix",
+                        "icon": "city"
                       },
                       {
-                        "name": "Tucson"
+                        "name": "Tucson",
+                        "icon": "city"
                       }
                     ]
                   }
@@ -574,7 +599,8 @@
                         "name": "Imperial Dam",
                         "lon": -114.465,
                         "lat": 32.883,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "water"
                       }
                     ],
                     "routes": [
@@ -615,7 +641,8 @@
                         "name": "Morelos Dam",
                         "lon": -114.728,
                         "lat": 32.705,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "water"
                       },
                       {
                         "name": "Mexico",
@@ -688,7 +715,8 @@
                     "date": "2026-09-01/2026-10-31",
                     "places": [
                       {
-                        "name": "Las Vegas"
+                        "name": "Las Vegas",
+                        "icon": "city"
                       },
                       {
                         "name": "Lake Mead",
@@ -857,6 +885,16 @@
                   ]
                 ],
                 "highlight": 2,
+                "source": "Bureau of Reclamation daily data; our calculation"
+              }
+            },
+            {
+              "type": "stat",
+              "at": "About three quarters",
+              "stat": {
+                "value": "74%",
+                "label": "of the water in Lake Powell and Lake Mead gone since January 2000",
+                "note": "46.5 million acre-feet then, 12.0 million on September 16, 2026",
                 "source": "Bureau of Reclamation daily data; our calculation"
               }
             }
@@ -1036,7 +1074,8 @@
                         "name": "Glen Canyon Dam",
                         "lon": -111.484,
                         "lat": 36.937,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       }
                     ]
                   }
@@ -1060,9 +1099,27 @@
                       "lat": 36.95,
                       "span": 0.25
                     }
-                  },
+                  }
+                ]
+              }
+            },
+            {
+              "type": "document",
+              "at": "The Bureau of Reclamation says",
+              "document": {
+                "pdf": "https://www.usbr.gov/uc/DocLibrary/Memos/20240326-EstablishmentInterimOperatingGuidanceGlenCanyonDamLowReservoirLevels-TechnicalDecisionMemo-508-TSC.pdf",
+                "page": 1,
+                "highlight": "Establishment of Interim Operating Guidance for Glen Canyon Dam during Low Reservoir Levels at Lake Powell",
+                "title": "Technical Decision Memorandum, 26 March 2024",
+                "source": "U.S. Bureau of Reclamation (public domain)"
+              }
+            },
+            {
+              "type": "map",
+              "at": "At 3,370 feet",
+              "map": {
+                "steps": [
                   {
-                    "at": "At 3,370 feet",
                     "view": {
                       "lon": -111.4,
                       "lat": 37.0,
@@ -1095,7 +1152,8 @@
                         "name": "Glen Canyon Dam",
                         "lon": -111.484,
                         "lat": 36.937,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       },
                       {
                         "name": "Bullfrog Bay",
@@ -1270,7 +1328,8 @@
                         "name": "Hoover Dam",
                         "lon": -114.737,
                         "lat": 36.016,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       }
                     ]
                   }
@@ -1310,7 +1369,8 @@
                         "name": "Hoover Dam",
                         "lon": -114.737,
                         "lat": 36.016,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "power"
                       }
                     ]
                   }
@@ -1441,13 +1501,15 @@
                         "name": "Morelos Dam",
                         "lon": -114.728,
                         "lat": 32.705,
-                        "kind": "site"
+                        "kind": "site",
+                        "icon": "water"
                       },
                       {
                         "name": "Mexicali",
                         "lon": -115.4545,
                         "lat": 32.6245,
-                        "kind": "city"
+                        "kind": "city",
+                        "icon": "city"
                       }
                     ]
                   },
@@ -1508,10 +1570,12 @@
                     ],
                     "places": [
                       {
-                        "name": "Phoenix"
+                        "name": "Phoenix",
+                        "icon": "city"
                       },
                       {
-                        "name": "Tucson"
+                        "name": "Tucson",
+                        "icon": "city"
                       }
                     ]
                   },
@@ -1685,22 +1749,31 @@
           "text": "Both sides have a case. In April, the four upper governors said their states are already enforcing mandatory, uncompensated cuts on water rights that go back to the 1800s, and their states are sending stored water down from Flaming Gorge. Nevada's governor, Joe Lombardo, says Southern Nevada could lose more than 70 percent of its allocation after 2028. Arizona's governor, Katie Hobbs, calls the cuts draconian.",
           "shots": [
             {
-              "type": "quote",
+              "type": "document",
               "at": 0,
-              "quote": "Mandatory, uncompensated, and will have significant impacts on water users.",
-              "author": "Upper Basin governors, April 2026"
+              "document": {
+                "text": "Mandatory, uncompensated, and will have significant impacts on water users.",
+                "highlight": "Mandatory, uncompensated",
+                "source": "Upper Basin governors, April 2026"
+              }
             },
             {
-              "type": "quote",
+              "type": "document",
               "at": "Nevada's governor",
-              "quote": "Southern Nevada could lose more than 70 percent of its already meager Colorado River allocation.",
-              "author": "Gov. Joe Lombardo, Nevada"
+              "document": {
+                "text": "Southern Nevada could lose more than 70 percent of its already meager Colorado River allocation.",
+                "highlight": "more than 70 percent",
+                "source": "Gov. Joe Lombardo, Nevada"
+              }
             },
             {
-              "type": "quote",
+              "type": "document",
               "at": "Arizona's governor",
-              "quote": "Draconian.",
-              "author": "Gov. Katie Hobbs, Arizona, on the cuts"
+              "document": {
+                "text": "Draconian.",
+                "highlight": null,
+                "source": "Gov. Katie Hobbs, Arizona, on the cuts"
+              }
             }
           ]
         },
@@ -1753,7 +1826,8 @@
                     ],
                     "places": [
                       {
-                        "name": "Las Vegas"
+                        "name": "Las Vegas",
+                        "icon": "city"
                       }
                     ]
                   }
@@ -1781,10 +1855,13 @@
               "where_label": "Central Arizona Project canal, Arizona"
             },
             {
-              "type": "quote",
+              "type": "document",
               "at": "Interior Secretary",
-              "quote": "You can't be injured in theory.",
-              "author": "Doug Burgum, Secretary of the Interior"
+              "document": {
+                "text": "You can't be injured in theory.",
+                "highlight": null,
+                "source": "Doug Burgum, Secretary of the Interior"
+              }
             }
           ]
         },
@@ -1797,10 +1874,13 @@
               "query": "Supreme Court building Washington"
             },
             {
-              "type": "quote",
+              "type": "document",
               "at": "Experts told Colorado Public Radio",
-              "quote": "Everybody loses.",
-              "author": "Experts on a Supreme Court Compact case, via Colorado Public Radio"
+              "document": {
+                "text": "Everybody loses.",
+                "highlight": null,
+                "source": "Experts on a Supreme Court Compact case, via Colorado Public Radio"
+              }
             }
           ]
         },
@@ -1894,10 +1974,13 @@
           "text": "Even the upper states call this a stopgap. In July their four governors wrote that the basin is seeing the lowest reservoir levels in its history, and that the new framework does not represent a final solution. It runs until 2036, and after 2028 it allows cuts in the Lower Basin of up to 3.6 million acre-feet a year.",
           "shots": [
             {
-              "type": "quote",
+              "type": "document",
               "at": 0,
-              "quote": "Today's framework does not represent a final solution.",
-              "author": "Upper Basin governors, July 2026"
+              "document": {
+                "text": "Today's framework does not represent a final solution.",
+                "highlight": "does not represent a final solution",
+                "source": "Upper Basin governors, July 2026"
+              }
             },
             {
               "type": "chart",

@@ -239,7 +239,18 @@
                         31.3
                       ]
                     ]
-                  },
+                  }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "must use 1.25 million",
+              "on_screen_text": "1.25 million acre-feet a year less, in 2027 and 2028",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {},
                   {
                     "at": "The four states upstream",
                     "clear": true,
@@ -988,7 +999,7 @@
             {
               "type": "stock",
               "at": 0,
-              "query": "drought tolerant landscaping desert yard"
+              "query": "Las Vegas suburb aerial"
             },
             {
               "type": "stock",
@@ -1056,7 +1067,7 @@
             {
               "type": "stock",
               "at": "Cities hold",
-              "query": "Phoenix Arizona suburbs aerial"
+              "query": "Phoenix Arizona skyline"
             },
             {
               "type": "stock",
@@ -1071,7 +1082,7 @@
             {
               "type": "stock",
               "at": "or exactly what those old rights",
-              "query": "irrigation canal farmland aerial"
+              "query": "alfalfa farm aerial"
             },
             {
               "type": "stock",
@@ -1407,7 +1418,7 @@
             {
               "type": "stock",
               "at": 0,
-              "query": "Lake Powell houseboat marina low water"
+              "query": "Lake Powell aerial low water"
             },
             {
               "type": "photo",
@@ -1591,9 +1602,14 @@
               }
             },
             {
-              "type": "stock",
+              "type": "photo",
               "at": "and it is studying",
-              "query": "dam outlet water release tunnel"
+              "photo": "High-flow Release - Glen Canyon Dam (2018) (52831879122).jpg",
+              "where": [
+                -111.484,
+                36.937
+              ],
+              "where_label": "Glen Canyon Dam's river outlet works, 2018"
             },
             {
               "type": "map",
@@ -1608,6 +1624,15 @@
                     }
                   }
                 ]
+              }
+            },
+            {
+              "type": "stat",
+              "at": "Engineers call that dead pool",
+              "stat": {
+                "value": "3,370 ft",
+                "label": "dead pool: below it, no water can leave Glen Canyon Dam",
+                "source": "Bureau of Reclamation"
               }
             }
           ]
@@ -1940,9 +1965,14 @@
               }
             },
             {
-              "type": "stock",
+              "type": "photo",
               "at": "Reclamation already lowers",
-              "query": "Hoover Dam generators"
+              "photo": "Generators Inside Hoover Dam, The Tour (3467682551).jpg",
+              "where": [
+                -114.737,
+                36.016
+              ],
+              "where_label": "Hoover Dam's generators"
             }
           ]
         },
@@ -2608,7 +2638,7 @@
             {
               "type": "stock",
               "at": "Tell me which side",
-              "query": "river valley farmland mountains"
+              "query": "Colorado River aerial"
             }
           ]
         }
@@ -2741,9 +2771,34 @@
               }
             },
             {
-              "type": "stock",
+              "type": "map",
               "at": "Interior's formal answer",
-              "query": "federal courthouse exterior"
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -80.5,
+                        40.6
+                      ],
+                      [
+                        -74.0,
+                        37.3
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Interior Department",
+                        "lon": -77.0425,
+                        "lat": 38.8945,
+                        "kind": "site",
+                        "icon": "government",
+                        "label": "U.S. Department of the Interior"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },

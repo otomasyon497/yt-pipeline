@@ -19,6 +19,13 @@
   thumbnail D (before | after split from the episode's first compare), docs/script-rules.md. Review episode
   episodes/feature-demo: storyboard + pace samples run 41818951663, full render 41818957292. GitHub had a Git/Actions
   incident that day (pushes failed for a while).
+- Demo review: thumbnail D came out automatically like the hand-made one; stat, document (both lines of Reclamation's
+  memo found), clipping, icons and glowing routes work. Fixed after the first render: the film started on a government
+  building (now 615 s, dam construction), the zoomed page hid the source panel (bottom gradient, less zoom), the
+  clipping card touched the question card (lower), film shots lacked their label. Final demo render 41820302063 in
+  Videos\yt-pipeline\feature-demo (with pace_samples\: 1.00 / 1.08 / 1.15 = 122 / 128 / 133 words/min incl. pauses).
+  Wikimedia rate-limits ffmpeg's default user agent (429): sample remote films with -user_agent.
+- Waiting for the user: the narration speed (by ear) and the go for episode 4 with the new rules (or R3 first).
 
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the

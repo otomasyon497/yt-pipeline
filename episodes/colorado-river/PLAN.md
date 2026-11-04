@@ -103,3 +103,8 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   transitions felt heavy and the feature-demo's pace was better. Plan v2: faster narration (1.08 + shorter pauses,
   now default), shorter / fewer map camera flights, every hold under 8 s, stat / document / film / clipping shots and
   map icons; same fact-checked narration where possible; storyboard, final-render checklist, full render, gate 2.
+- 2026-11-05: v2 step 1: script with clipping cards, Hoover film, 74 % stat, March 2024 memo document, 25 map icons
+  (commit 3ca2daf); quicker flights (0.7-1.9 s) and 1.8-s chapter cards (bd7fd3e). Storyboard run 41914961990: next,
+  read its "holds ... (add a beat by 8s)" notes and add beats (map steps, stat cards, cuts) until none remain; then
+  review the sheets, final-render checklist, full render, gate 2. Great Salt Lake (episode 4) paused at the script
+  skeleton (episodes/great-salt-lake/PLAN.md).

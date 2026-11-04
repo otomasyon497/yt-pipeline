@@ -30,8 +30,8 @@ UI_SCALE = 1.4 if SHORT else 1.0  # map labels, markers and lines: a Short is wa
 TRANSITION_FRAMES = 8
 CARD_TRANSITION_FRAMES = 12  # chapter cards punch in (scale + fade)
 LEAD_IN = 0.15 if SHORT else 0.4  # seconds of picture before the first word
-PARA_PAUSE = 0.25 if SHORT else 0.45  # after every paragraph
-CHAPTER_PAUSE = 0.75  # extra pause at the end of a chapter
+PARA_PAUSE = 0.25 if SHORT else 0.38  # after every paragraph (0.45 until 2026-11-04: tighter pace, user)
+CHAPTER_PAUSE = 0.6  # extra pause at the end of a chapter (0.75 until 2026-11-04)
 CARD_SEC = 2.4  # chapter title card (no narration)
 CUT_LEAD = 0.1  # cuts land slightly before their anchor word
 MIN_SHOT = 1.2  # shortest allowed shot (later anchors are pushed back if needed)
@@ -49,7 +49,7 @@ SAMPLE_VOICES = ["bm_george", "am_michael", "am_onyx"]
 SAMPLE_MIN_SECONDS = 10.0
 PACE_SPEEDS = [1.0, 1.08, 1.15]  # pace samples: the opening narration at each speed (PACE_SAMPLES=1)
 PACE_SAMPLE_SECONDS = 40.0
-TTS_SPEED = 1.06 if SHORT else 1.0
+TTS_SPEED = 1.06 if SHORT else 1.08  # long form: 1.08 chosen by ear from the pace samples (2026-11-04)
 TTS_SAMPLE_RATE = 24000
 
 # Captions

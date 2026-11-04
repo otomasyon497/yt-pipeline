@@ -99,3 +99,7 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   Actions this month: about 426 min.
 - 2026-11-04: the user picked thumbnail D (our own 2019 | 2026 Sentinel-2 split from the cold-open wipe, "WHO GETS
   CUT?", made after the channel analysis) for the upload. Release to delete after the user's upload.
+- 2026-11-05: the user asked to remake this video with the new logic (R1 + R2 rules and shot types), because its
+  transitions felt heavy and the feature-demo's pace was better. Plan v2: faster narration (1.08 + shorter pauses,
+  now default), shorter / fewer map camera flights, every hold under 8 s, stat / document / film / clipping shots and
+  map icons; same fact-checked narration where possible; storyboard, final-render checklist, full render, gate 2.

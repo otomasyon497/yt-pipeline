@@ -14,6 +14,29 @@ Sources are numbered R1... Every number in the script must trace to a line here.
 - R4 Utah Public Radio, "Will the Great Salt Lake hit a new record low this year?" (2026-05-15): University of Utah
   atmospheric scientist Derek Mallia on dust events from the exposed lakebed.
 
+- R5 Wurtsbaugh et al. 2017, "Decline of the world's saline lakes", Nature Geoscience, doi:10.1038/ngeo3052 (press:
+  ScienceDaily 2017-10-23, USU Today): water development since the 1850s lowered the lake about 11 ft and cut its area
+  by nearly half (water balance); agriculture over 60 % (one account 63 %) of the basin's water use; about 29 % more
+  water needed for a healthy lake. Same 11 ft in the 2016 white paper "Impacts of Water Development on Great Salt Lake
+  and the Wasatch Front" (lake down 48 %, 11 ft since 1847). Verify the DOI page before citing on screen.
+- R6 Utah Division of Water Resources (water.utah.gov/?p=11): West Desert Pumping Project cost $60 million; pumps ran
+  April 1987 to June 1989, 26 months (Deseret News 2011 / KSL); New York Times 1987-04-11, "Pumping is begun to create a
+  second Great Salt Lake". USGS WRI 91-4117 report on the project (pubs.usgs.gov/wri/1991/4117/report.pdf, public domain:
+  candidate document shot).
+- R7 Dust: about 800 square miles of lakebed exposed (Salt Lake Tribune 2024-10-16; University of Utah survey 2018);
+  arsenic among the elements of concern; Grineski et al. (U of U): dust hits disadvantaged communities hardest; Putman
+  et al. (USGS, GeoHealth): arsenic a contaminant of concern by ingestion; Kevin Perry (U of U) told lawmakers dust
+  concentrations have on occasion violated national air standards. Other side: Utah Division of Air Quality says the
+  Wasatch Front meets the PM10 standard and a decade of monitoring shows no rise in airborne arsenic (deq.utah.gov).
+- R8 Economy: 2012 study for the Great Salt Lake Advisory Council: $1.32 billion annual output, 7,706 jobs; state
+  materials: $1.9 billion a year; brine shrimp about $57 million (2012), 35-40 % of the world's brine shrimp eggs; the
+  lake adds 5-8 % of Utah's snowfall (lake effect); ECONorthwest 2019: the lake's demise could cost $1.7-2.2 billion a
+  year and 5,368 jobs. Magnesium: one source says all U.S. magnesium for aluminium comes from the lake (verify).
+- R9 Great Salt Lake Commissioner, Strategic Plan (2024-01-15, greatsaltlake.utah.gov): target range 4,198-4,205 ft;
+  about 1 million acre-feet a year of extra water in drought, 471,000 in normal years; strike team: healthy (4,198 ft)
+  by 2055 with 800,000 extra acre-feet a year (Fox13); a resolution for a 4,198-ft goal was rejected by the legislature;
+  the lake ended water year 2025 at its third-lowest level in over 120 years, about 7 ft below 4,198 (Fox13).
+
 ## Levels (R1, south arm, daily means; own reading of the USGS series)
 | | Level (ft) | Date |
 |---|---|---|
@@ -31,6 +54,8 @@ Own calculations:
 1. 2026 low vs the record: 4,189.4 - 4,188.5 = 0.9 ft, so "less than a foot above the all-time low".
 2. Drop since the 1986 peak: 4,211.6 - 4,189.4 = 22.2 ft.
 3. Spring rise in 2026: 4,192.6 - lowest before it (to compute from the series: winter 2025-26 low) - to do.
+4. Below the healthy range (R9): 4,198 - 4,189.4 = 8.6 ft under its lower edge in October 2026.
+5. Pumping irony (R6): $60 million spent in 1987-1989 to lower the lake; it now sits 22.2 ft below its 1986 peak.
 Caution: R2's "4,190.40 in mid-August" and R1 agree (August 2026 readings ~4,190.4); the 2026 October low below the
 2021 low happened after R3 was written (R3 expected no 2026 record; still true: 4,189.4 > 4,188.5).
 

@@ -164,9 +164,9 @@
           "text": "The pumps ran for twenty-six months and cost about 60 million dollars. Then the wet years ended, and they were switched off. They still stand there today, a long way from the water.",
           "shots": [
             {
-              "type": "photo",
+              "type": "stock",
               "at": 0,
-              "photo": "File:A “New Delta” in the Desert (153752 - 20181128 lrg).jpg"
+              "query": "large water pumping station pipes"
             },
             {
               "type": "stat",
@@ -385,7 +385,7 @@
             {
               "type": "photo",
               "at": 0,
-              "photo": "File:THE UNION PACIFIC RAILROAD'S CAUSEWAY ACROSS THE GREAT SALT LAKE THREATENS THE ECOLOGICAL BALANCE OF THE LAKE. THE SOUTH SIDE OF THE LAKE IS LIGHTER COLORED AND LESS SALINE THAN THE NORTH SIDE - NARA - 545107.jpg"
+              "photo": "File:THE UNION PACIFIC RAILROAD'S CAUSEWAY ACROSS THE GREAT SALT LAKE THREATENS THE ECOLOGICAL BALANCE OF THE LAKE - NARA - 544761.jpg"
             }
           ]
         },

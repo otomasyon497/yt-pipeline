@@ -52,3 +52,6 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
      the level chart (mixes peaks and lows: label or restrict to yearly lows/highs);
   3. humanizer pass, fact-check (step 6), yt-package pairing (title draft "The Great Salt Lake Is a Foot From Its
      Record Low", 49 chars; thumbnail D from the opening compare), storyboard (step 7).
+- 2026-11-05: verified: NASA EO "A New Delta in the Desert" is Egypt's New Delta farm project, not the pumps: removed
+  (placeholder stock until a public-domain photo of the pumps turns up); NARA causeway photo = "... BALANCE OF THE LAKE
+  - NARA - 544761.jpg" (fixed). Still open: pump location, "roads and rail lines" source, USACE text layer, chart.

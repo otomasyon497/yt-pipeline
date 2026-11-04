@@ -1,0 +1,654 @@
+{
+  "title": "A Foot From the Bottom",
+  "voice": "am_michael",
+  "music": "procedural",
+  "map_style": "satellite",
+  "look": "warm",
+  "sources": [
+    "All facts: episodes/great-salt-lake/research.md (R1-R12). Levels: USGS 10010000 daily means (provisional after mid-2025)."
+  ],
+  "chapters": [
+    {
+      "title": "A Foot From the Bottom",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "This is the Great Salt Lake in June 2017. Now watch the same shore in October 2026.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite images · Copernicus Sentinel-2",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.12,
+                      "lat": 41.0,
+                      "span": 0.55
+                    },
+                    "date": "2026-10-01/2026-10-31",
+                    "compare": {
+                      "before": "2017-06-01/2017-06-30",
+                      "after": "2026-10-01/2026-10-31",
+                      "seconds": 2.6
+                    }
+                  },
+                  {
+                    "at": "Now watch"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "On October 10th the lake fell to 4,189.4 feet above sea level. That is less than a foot above the lowest level ever recorded. And yet forty years ago, Utah spent 60 million dollars pumping this same lake into the desert, because it was flooding.",
+          "shots": [
+            {
+              "type": "stat",
+              "at": 0,
+              "stat": {
+                "value": "0.9 ft",
+                "label": "above the all-time low, on October 10, 2026",
+                "note": "4,189.4 ft against 4,188.5 ft in November 2022",
+                "source": "USGS gauge at Saltair (provisional)"
+              }
+            },
+            {
+              "type": "map",
+              "at": "And yet",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.6,
+                      "lat": 41.15,
+                      "span": 2.4
+                    },
+                    "date": "2026-10-10",
+                    "places": [
+                      {
+                        "name": "Salt Lake City",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "West Desert pumps",
+                        "lon": -113.03,
+                        "lat": 41.43,
+                        "kind": "site",
+                        "icon": "water"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "So how does a lake go from flooding to failing in one lifetime? And who pays when its dry bed starts to blow?",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "dust storm desert lake bed aerial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Flood",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "In the early 1980s the snow kept coming. The lake rose year after year, and on June 3rd, 1986, it stood at 4,211.6 feet, more than twenty-two feet higher than today.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "line",
+                "title": "Great Salt Lake, feet above sea level",
+                "unit": "ft",
+                "data": [
+                  [
+                    "1963",
+                    4191.35
+                  ],
+                  [
+                    "1986",
+                    4211.6
+                  ],
+                  [
+                    "2000",
+                    4201.2
+                  ],
+                  [
+                    "2017",
+                    4195.5
+                  ],
+                  [
+                    "2022",
+                    4188.5
+                  ],
+                  [
+                    "2026",
+                    4189.4
+                  ]
+                ],
+                "highlight": 5,
+                "source": "USGS gauge at Saltair; daily means, 2026 provisional"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Water reached roads and rail lines along the shore. So Utah built a pumping station on the far side of the lake and pushed water west into the desert, starting in April 1987.",
+          "shots": [
+            {
+              "type": "document",
+              "at": 0,
+              "document": {
+                "pdf": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Proposed_West_Desert_pumping_project_%2C_Great_Salt_Lake%2C_Utah_-_USACE-p16021coll7-23679.pdf",
+                "page": 1,
+                "highlight": "West Desert",
+                "title": "Proposed West Desert pumping project",
+                "source": "U.S. Army Corps of Engineers (public domain)"
+              }
+            }
+          ]
+        },
+        {
+          "text": "The pumps ran for twenty-six months and cost about 60 million dollars. Then the wet years ended, and they were switched off. They still stand there today, a long way from the water.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:A “New Delta” in the Desert (153752 - 20181128 lrg).jpg"
+            },
+            {
+              "type": "stat",
+              "at": "They still stand",
+              "stat": {
+                "value": "22.2 ft",
+                "label": "lower than at the 1986 peak",
+                "note": "4,211.6 ft on June 3, 1986; 4,189.4 ft on October 10, 2026",
+                "source": "USGS gauge at Saltair; our calculation"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where the Water Went",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "The lake has no outlet. Three rivers feed it, the Bear, the Weber and the Jordan, and it loses water only by evaporation. So its level is a simple sum: what the rivers bring, minus what the sun takes.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.25,
+                      "lat": 41.15,
+                      "span": 2.6
+                    },
+                    "date": "2026-10-10"
+                  },
+                  {
+                    "at": "the Bear",
+                    "arrows": [
+                      {
+                        "from": [
+                          -112.05,
+                          41.75
+                        ],
+                        "to": [
+                          -112.2,
+                          41.45
+                        ],
+                        "color": "blue",
+                        "label": "Bear River"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "the Weber",
+                    "arrows": [
+                      {
+                        "from": [
+                          -111.85,
+                          41.2
+                        ],
+                        "to": [
+                          -112.1,
+                          41.15
+                        ],
+                        "color": "blue",
+                        "label": "Weber River"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "the Jordan",
+                    "arrows": [
+                      {
+                        "from": [
+                          -111.9,
+                          40.45
+                        ],
+                        "to": [
+                          -112.0,
+                          40.75
+                        ],
+                        "color": "blue",
+                        "label": "Jordan River"
+                      }
+                    ],
+                    "places": [
+                      {
+                        "name": "Salt Lake City",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Ogden",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Provo",
+                        "icon": "city"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Before those rivers reach the lake, farms and cities take their share. A 2017 study in Nature Geoscience estimated that water use since the 1850s has lowered the lake by about 11 feet, and that agriculture accounts for more than 60 percent of that use.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "irrigated alfalfa field sprinkler Utah"
+            },
+            {
+              "type": "stat",
+              "at": "lowered the lake",
+              "stat": {
+                "value": "11 ft",
+                "label": "lower because of water use since the 1850s",
+                "note": "Agriculture: more than 60 percent of the basin's water use",
+                "source": "Wurtsbaugh et al., Nature Geoscience, 2017"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Then came the winter of 2025 to 2026. On February 1st, Utah's snowpack hit a record low, and snow supplies about 95 percent of the state's water. It was the same dry winter that sent Lake Powell to its record low.",
+          "ask": {
+            "at": "It was the same",
+            "text": "Farm water or lake water: who should give first?"
+          },
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "thin snow mountains Utah winter drought"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Two Lakes in One",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "From orbit, the lake shows two colors. In 1959 a railroad causeway cut it in two. The rivers flow into the southern part, so the north arm turned far saltier, and salt-loving microbes now tint it pink.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Union Pacific causeway, 1959",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.68,
+                      "lat": 41.24,
+                      "span": 0.75
+                    },
+                    "date": "2026-09-01/2026-10-31"
+                  },
+                  {
+                    "at": "the north arm",
+                    "places": [
+                      {
+                        "name": "North arm",
+                        "lon": -112.7,
+                        "lat": 41.36,
+                        "kind": "label",
+                        "label": "NORTH ARM"
+                      },
+                      {
+                        "name": "South arm",
+                        "lon": -112.62,
+                        "lat": 41.1,
+                        "kind": "label",
+                        "label": "SOUTH ARM"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Since 1966, the north arm has averaged 317 grams of salt per liter, close to saturation. The south arm averages 142.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Salt, grams per liter",
+                "unit": " g/L",
+                "data": [
+                  [
+                    "North arm",
+                    317
+                  ],
+                  [
+                    "South arm",
+                    142
+                  ]
+                ],
+                "highlight": 0,
+                "source": "Average since 1966 (PMC4671733)"
+              }
+            }
+          ]
+        },
+        {
+          "text": "In 1972 a federal photographer documented the causeway for the EPA. Even then, scientists warned that it was upsetting the lake's balance.",
+          "shots": [
+            {
+              "type": "photo",
+              "at": 0,
+              "photo": "File:THE UNION PACIFIC RAILROAD'S CAUSEWAY ACROSS THE GREAT SALT LAKE THREATENS THE ECOLOGICAL BALANCE OF THE LAKE. THE SOUTH SIDE OF THE LAKE IS LIGHTER COLORED AND LESS SALINE THAN THE NORTH SIDE - NARA - 545107.jpg"
+            }
+          ]
+        },
+        {
+          "text": "That salty water is also an industry. The lake supplies a large share of the world's brine shrimp eggs, which fish and shrimp farms buy as feed, and its brine yields magnesium and potash.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "salt evaporation ponds aerial colorful"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Dust",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "Here is the whole lake in September 2000, seen by NASA's Terra satellite, and here it is in October 2026. About 800 square miles of lakebed now lie exposed.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "on_screen_text": "Real satellite images · NASA MODIS",
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.55,
+                      "lat": 41.15,
+                      "span": 2.2
+                    },
+                    "compare": {
+                      "source": "modis",
+                      "before": "2000-09-15",
+                      "after": "2026-10-10",
+                      "seconds": 2.6
+                    }
+                  },
+                  {
+                    "at": "and here it is"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "That bed holds arsenic and other metals, some natural, some from industry and mining. When the wind lifts it, the dust can blow toward the Wasatch Front, where most Utahns live. Atmospheric scientist Kevin Perry has told lawmakers that dust levels have, on occasion, broken national air standards.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "dust storm city haze mountains"
+            },
+            {
+              "type": "stat",
+              "at": "Atmospheric scientist",
+              "stat": {
+                "value": "800 sq mi",
+                "label": "of lakebed exposed",
+                "note": "Arsenic is among the elements of concern in its dust",
+                "source": "University of Utah; Salt Lake Tribune, 2024"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Utah's Division of Air Quality reads the record differently. It says the Wasatch Front meets the federal standard for coarse dust, and that a decade of monitoring shows no rise in airborne arsenic as the lake has dropped. The disagreement is about exposure: how much dust people actually breathe, and how often.",
+          "ask": {
+            "at": "The disagreement",
+            "text": "Pay to refill the lake, or wait for proof of harm?"
+          },
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "air quality monitoring station"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Birds and Snow",
+      "mood": "calm",
+      "paragraphs": [
+        {
+          "text": "The lake feeds more than 12 million birds of 339 species. Over 600,000 Wilson's phalaropes stop here on their way south, more than a third of the world's population, and up to five million eared grebes come in the fall.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "flock of shorebirds salt lake"
+            },
+            {
+              "type": "stat",
+              "at": "Over 600,000",
+              "stat": {
+                "value": "12 million",
+                "label": "birds of 339 species use the lake",
+                "note": "A third of the world's Wilson's phalaropes stop here",
+                "source": "Utah Division of Wildlife Resources"
+              }
+            }
+          ]
+        },
+        {
+          "text": "The lake also makes snow. Storms that cross it pick up moisture, and that adds an estimated 5 to 8 percent of Utah's snowfall, the snow its ski resorts sell to the world. If you want to see where the shoreline stands after next spring's runoff, subscribe: we will check it again from orbit.",
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "ski resort Utah powder snow aerial"
+            }
+          ]
+        },
+        {
+          "text": "Put together, a 2012 study for the state counted about 1.3 billion dollars of yearly output and 7,700 jobs tied to the lake. A 2019 report estimated that losing it could cost Utah 1.7 to 2.2 billion dollars a year.",
+          "shots": [
+            {
+              "type": "chart",
+              "at": 0,
+              "chart": {
+                "type": "bar",
+                "title": "Great Salt Lake economy, billion dollars a year",
+                "unit": "",
+                "data": [
+                  [
+                    "Output tied to the lake (2012)",
+                    1.32
+                  ],
+                  [
+                    "Yearly cost if it dries (2019, low)",
+                    1.7
+                  ],
+                  [
+                    "Yearly cost if it dries (2019, high)",
+                    2.2
+                  ]
+                ],
+                "highlight": 2,
+                "source": "Bioeconomics 2012; ECONorthwest 2019"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What Would Refill It",
+      "mood": "curious",
+      "paragraphs": [
+        {
+          "text": "In 2024 the state's Great Salt Lake commissioner set a goal: keep the lake between 4,198 and 4,205 feet. From October's low, that is 8.6 feet up.",
+          "shots": [
+            {
+              "type": "stat",
+              "at": 0,
+              "stat": {
+                "value": "8.6 ft",
+                "label": "to climb to the low end of the healthy range",
+                "note": "Target 4,198-4,205 ft (2024 strategic plan); 4,189.4 ft on October 10, 2026",
+                "source": "Great Salt Lake Commissioner; USGS; our calculation"
+              }
+            }
+          ]
+        },
+        {
+          "text": "The plan's own estimate is steep: about one million extra acre-feet a year in drought years, and 471,000 in normal ones. The 2026 legislature put close to 100 million dollars toward the lake and made it easier to send water there, but a resolution to make 4,198 feet a legal goal had already failed.",
+          "ask": {
+            "at": "but a resolution",
+            "text": "Should Utah set a legal minimum for the lake?"
+          },
+          "shots": [
+            {
+              "type": "stock",
+              "at": 0,
+              "query": "Utah State Capitol building"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Winter Ahead",
+      "mood": "tension",
+      "paragraphs": [
+        {
+          "text": "State officials did not expect a new record this year, and so far the lake has stayed just above it. But they have said that another dry winter would make a record in 2027 unavoidable.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.12,
+                      "lat": 41.0,
+                      "span": 0.55
+                    },
+                    "date": "2026-10-01/2026-10-31"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "So the lake's future depends on two things: the snow that falls this winter, and the water people choose to let reach it. Who should give up water first: the farms, the cities, or no one at all? Tell me what you think.",
+          "shots": [
+            {
+              "type": "map",
+              "at": 0,
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.4,
+                      "lat": 41.0,
+                      "span": 6.0
+                    },
+                    "date": "2026-10-10",
+                    "places": [
+                      {
+                        "name": "Salt Lake City",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Ogden",
+                        "icon": "city"
+                      },
+                      {
+                        "name": "Logan",
+                        "icon": "farm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "text": "A FOOT LEFT",
+    "prompt": "aerial view of a shrinking salt lake with white salt crust and pink water, mountains behind, dramatic light"
+  },
+  "youtube": {
+    "title": "The Great Salt Lake Is a Foot From Its Record Low",
+    "description": "Draft.",
+    "tags": [
+      "Great Salt Lake",
+      "Utah",
+      "drought",
+      "satellite images",
+      "before and after"
+    ],
+    "pinned_comment": "Who should give up water first so the Great Salt Lake can recover: the farms, the cities, or no one at all? Where do you stand?"
+  }
+}

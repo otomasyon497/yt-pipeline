@@ -42,3 +42,13 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
 - 2026-11-05: gate 1 approved ("Onaylıyorum, devam et"). Next: finish step 2 (Commons archival search for the
   1983-1987 flood and the pumps, GIBS MODIS days around Sep 2000 and Oct 2026, S2 one-day windows for Jun 2017 and
   Oct 2026 on Farmington Bay / Antelope Island / the causeway, the area at today's level), then the script (step 5).
+- 2026-11-05: script skeleton (8 chapters, 843 words, valid). Step 5 continues:
+  1. expand to ~2,200 words with sourced detail (1983-87 flood damage, the water balance, Grineski / Putman dust
+     studies, brine shrimp 35-40 % of the world's eggs and $57 million, magnesium, birds, lake-effect snow, strike team
+     2055 / 800,000 AF, the November reading), a re-hook at every chapter turn, a new picture every 8 s;
+  2. verify before the storyboard: the exact NARA causeway file name (search titles were cut), what NASA EO's "A New
+     Delta in the Desert" shows (assumed: the pumped water's trace), the pumping station's location (-113.03, 41.43
+     assumed), "water reached roads and rail lines" (no source yet), the USACE PDF's text layer for the highlight, and
+     the level chart (mixes peaks and lows: label or restrict to yearly lows/highs);
+  3. humanizer pass, fact-check (step 6), yt-package pairing (title draft "The Great Salt Lake Is a Foot From Its
+     Record Low", 49 chars; thumbnail D from the opening compare), storyboard (step 7).

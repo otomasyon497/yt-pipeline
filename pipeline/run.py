@@ -41,8 +41,9 @@ import thumbnails
 import timeline as tl
 import tts
 import youtube_meta
-from config import (BUILD_DIR, DEFAULT_VOICE, FORMAT, FPS, MAP_STYLE, MAP_STYLES, MUSIC_DIR, OUT_DIR, PUBLIC_MEDIA,
-                    ROOT, SAMPLE_MIN_SECONDS, SAMPLE_VOICES, SHORT, SHORT_MAX_SEC, TTS_SAMPLE_RATE)
+from config import (BUILD_DIR, DEFAULT_VOICE, FORMAT, FPS, MAP_STYLE, MAP_STYLES, MUSIC_DIR, OUT_DIR,
+                    PACE_SAMPLE_SECONDS, PACE_SPEEDS, PUBLIC_MEDIA, ROOT, SAMPLE_MIN_SECONDS, SAMPLE_VOICES, SHORT,
+                    SHORT_MAX_SEC, TTS_SAMPLE_RATE, TTS_SPEED)
 from schema import load_script
 
 _timings: dict[str, float] = {}
@@ -110,6 +111,31 @@ def voice_samples(script, out_dir: Path) -> None:
         print(f"  sample {voice}: {total:.1f}s")
 
 
+def pace_samples(script, voice: str, table: dict, out_dir: Path) -> None:
+    """The opening narration (whole paragraphs, about PACE_SAMPLE_SECONDS at 1.0) at each speed in PACE_SPEEDS,
+    with the episode's paragraph pause, so the pace can be chosen by ear. Words per minute in the file names."""
+    from config import PARA_PAUSE
+    out_dir.mkdir(parents=True, exist_ok=True)
+    texts, total = [], 0.0
+    for _, _, p in reading_order(script):
+        texts.append(pronounce.apply(p.text, table)[0])
+        total += len(p.text.split()) / 2.3  # ~2.3 words/s at 1.0
+        if total >= PACE_SAMPLE_SECONDS:
+            break
+    words = sum(len(t.split()) for t in texts)
+    gap = np.zeros(int(PARA_PAUSE * TTS_SAMPLE_RATE), dtype=np.float32)
+    for speed in PACE_SPEEDS:
+        parts, seconds = [], 0.0
+        for k, text in enumerate(texts):
+            tmp = out_dir / f"_{k}.wav"
+            seconds += tts.synth(text, voice, tmp, speed=speed)[0] + PARA_PAUSE
+            parts += [sf.read(tmp, dtype="float32")[0], gap]
+            tmp.unlink()
+        wpm = words / (seconds / 60)
+        sf.write(out_dir / f"pace_{speed:.2f}_{wpm:.0f}wpm.wav", np.concatenate(parts), TTS_SAMPLE_RATE, subtype="PCM_16")
+        print(f"  pace {speed:.2f}: {seconds:.1f}s, {wpm:.0f} words/min")
+
+
 def prepare(slug: str) -> None:
     script = load_script(ROOT / "episodes" / slug / "script.json")
     if script.format != FORMAT:
@@ -120,6 +146,7 @@ def prepare(slug: str) -> None:
     (work / "audio").mkdir(parents=True)
     PUBLIC_MEDIA.mkdir(parents=True)
     voice = script.voice or DEFAULT_VOICE
+    speed = script.voice_speed or TTS_SPEED
     table = pronounce.load(slug)
     flat = reading_order(script)
 
@@ -128,7 +155,7 @@ def prepare(slug: str) -> None:
         for ci, pi, para in flat:
             text, used = pronounce.apply(para.text, table)
             wav = work / "audio" / f"c{ci + 1:02d}p{pi + 1:02d}.wav"
-            dur, words, phonemes = tts.synth(text, voice, wav)
+            dur, words, phonemes = tts.synth(text, voice, wav, speed=speed)
             wavs.append(wav)
             durs.append(dur)
             tts_words.append(words)
@@ -136,7 +163,9 @@ def prepare(slug: str) -> None:
                 ipa = table[key].get("ipa")
                 status = "respelled" if ipa is None else "applied" if ipa in phonemes else "NOT applied"
                 print(f"  pronunciation {key!r}: {status}")
-        print(f"  {len(flat)} paragraphs, {sum(durs):.1f}s of narration")
+        n_words = sum(len(p.text.split()) for _, _, p in flat)
+        print(f"  {len(flat)} paragraphs, {sum(durs):.1f}s of narration at speed {speed:.2f} "
+              f"({n_words / (sum(durs) / 60):.0f} words/min while speaking)")
 
     with step("word-timings"):
         words, sources = [], {}
@@ -240,6 +269,9 @@ def prepare(slug: str) -> None:
     if os.environ.get("VOICE_SAMPLES") == "1":  # voice is decided (am_michael); samples are opt-in
         with step("voice-samples"):
             voice_samples(script, work / "voice_samples")
+    if os.environ.get("PACE_SAMPLES") == "1":  # into out/<slug>/ so the stills / storyboard artifact carries them
+        with step("pace-samples"):
+            pace_samples(script, voice, table, OUT_DIR / slug / "pace_samples")
 
     (work / "timings_prepare.json").write_text(json.dumps(_timings), encoding="utf-8")
 

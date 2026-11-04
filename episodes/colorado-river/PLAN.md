@@ -97,3 +97,5 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   2026 whole before the chart, Powell views without the rectangle, route from Flaming Gorge Dam, P5.7 and the delta
   in one pass; tools/seam_scan.py finds no seam (only rivers, shores, the border line). Waiting for the user (gate 2).
   Actions this month: about 426 min.
+- 2026-11-04: the user picked thumbnail D (our own 2019 | 2026 Sentinel-2 split from the cold-open wipe, "WHO GETS
+  CUT?", made after the channel analysis) for the upload. Release to delete after the user's upload.

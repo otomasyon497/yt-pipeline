@@ -3,6 +3,8 @@ from pathlib import Path
 
 import credits
 
+TITLE_SOFT_MAX = 50  # characters: a warning, not an error (yt-package scores the pairing)
+
 
 def _stamp(sec: int, hours: bool) -> str:
     h, m, s = sec // 3600, sec % 3600 // 60, sec % 60
@@ -40,6 +42,10 @@ def write(path: Path, script, timeline: dict, credits_text: str) -> list[str]:
     for label, text in (("title", title), ("description", description)):
         if "<" in text or ">" in text:
             warnings.append(f"YouTube rejects '<' and '>' in the {label}")
+    # Similar channels' titles run 32-46 characters (median); desktop search cuts near 60, a phone feed near 40.
+    if len(title) > TITLE_SOFT_MAX:
+        warnings.append(f"title is {len(title)} characters; similar channels use 32-46 and search cuts near 60 "
+                        f"(docs/channel-analysis-2026-11.md)")
     if len(description) > 5000:
         warnings.append(f"description is {len(description)} characters (limit 5000)")
     tags = meta.tags if meta else []

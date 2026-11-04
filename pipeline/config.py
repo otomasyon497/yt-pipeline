@@ -47,6 +47,8 @@ MUSIC_DIR = ROOT / "music"
 DEFAULT_VOICE = "am_michael"
 SAMPLE_VOICES = ["bm_george", "am_michael", "am_onyx"]
 SAMPLE_MIN_SECONDS = 10.0
+PACE_SPEEDS = [1.0, 1.08, 1.15]  # pace samples: the opening narration at each speed (PACE_SAMPLES=1)
+PACE_SAMPLE_SECONDS = 40.0
 TTS_SPEED = 1.06 if SHORT else 1.0
 TTS_SAMPLE_RATE = 24000
 

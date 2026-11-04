@@ -19,7 +19,9 @@ _KB = [
     (1.12, 1.02, -2, 0, 1, 0),
 ]
 TEXT_DELAY = 6  # frames after the transition before an on-screen label slides in
-LONG_HOLD = 12.0  # seconds: warn when nothing changes on screen for longer
+# Seconds without a cut, a map step or a question card before prepare warns. Similar channels change the picture in
+# 89-98 % of 10-s steps, ours did in 71-83 % (docs/channel-analysis-2026-11.md), so the bar is 8 s (was 12).
+LONG_HOLD = 8.0
 
 _NUM = re.compile(r"^(?P<pre>.*?)(?P<cur>[$€£]?)(?P<num>\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)(?P<post>.*)$")
 _UNIT = re.compile(r"^\s?(%|percent|per cent|billion|million|trillion|thousand|bn|km|kilomet|mile|metre|meter|m\b|"
@@ -90,13 +92,16 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
         s["startFrame"] = round(s["start"] * FPS)
     for i, s in enumerate(shots):
         s["frames"] = max(1, (total_frames if i + 1 == len(shots) else shots[i + 1]["startFrame"]) - s["startFrame"])
-    units = group_units(shots, total_frames)
+    units = group_units(shots, total_frames, [round(a["t"] * FPS) for a in asks])
     return {"shots": shots, "units": units, "paragraphs": paras, "words": all_words, "chapters": chapters,
             "total_frames": total_frames, "asks": asks}
 
 
-def group_units(shots: list[dict], total_frames: int) -> list[dict]:
-    """Consecutive map shots -> one map block (a new block starts on `globe`). Adds transitions and draw lengths."""
+def group_units(shots: list[dict], total_frames: int, beats: list[int] | None = None) -> list[dict]:
+    """Consecutive map shots -> one map block (a new block starts on `globe`). Adds transitions and draw lengths.
+
+    `beats`: extra frames where the picture changes inside a unit (question cards), for the hold check.
+    """
     units: list[dict] = []
     for s in shots:
         if s["kind"] == "map" and units and units[-1]["kind"] == "map" and not s["src"].map.globe:
@@ -107,14 +112,19 @@ def group_units(shots: list[dict], total_frames: int) -> list[dict]:
     for i, u in enumerate(units):
         u["frames"] = (units[i + 1]["startFrame"] if i + 1 < len(units) else total_frames) - u["startFrame"]
         u["transitionIn"] = 0 if i == 0 else CARD_TRANSITION_FRAMES if u["kind"] == "chapter_card" else TRANSITION_FRAMES
+    long_holds = 0
     for i, u in enumerate(units):
         u["drawFrames"] = u["frames"] + (units[i + 1]["transitionIn"] if i + 1 < len(units) else 0)
-        # Longest stretch without a cut or a map step.
+        # Longest stretch without a cut, a map step or a question card.
+        end = u["startFrame"] + u["frames"]
         marks = sorted({u["startFrame"]} | {round(x * FPS) for s in u["subs"] for x in s["steps"]} |
-                       {s["startFrame"] for s in u["subs"]}) + [u["startFrame"] + u["frames"]]
+                       {s["startFrame"] for s in u["subs"]} | {b for b in beats or [] if u["startFrame"] < b < end}) + [end]
         hold = max(b - a for a, b in zip(marks, marks[1:])) / FPS
         if hold > LONG_HOLD:
-            print(f"  note: {u['id']} holds {hold:.1f}s without a cut or map step (consider another beat)")
+            long_holds += 1
+            print(f"  note: {u['id']} holds {hold:.1f}s without a cut, map step or question (add a beat by {LONG_HOLD:.0f}s)")
+    if long_holds:
+        print(f"  note: {long_holds} unit(s) hold one picture longer than {LONG_HOLD:.0f}s")
     return units
 
 

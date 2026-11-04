@@ -2,7 +2,7 @@
 
 ## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; script, fact-check and two storyboards done; the first full render's review found flaws between storyboard stops, fixed (see below); final render 41789861885 (17:04) delivered to Videos\yt-pipeline\colorado-river, waiting for the user's review (gate 2); plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
-## Channel research (2026-11-04, waiting for approval of the plan)
+## Channel research (2026-11-04; the user approved R1 and R2 together, and thumbnail D for colorado-river)
 - The user asked for an analysis of similar channels (videos, transitions, materials, methods, thumbnails), skills to
   install, and production changes that keep viewers watching. Evidence and plan: docs/channel-analysis-2026-11.md.
 - Measured: our pictures change in 71-83 % of 10-s steps against 89-98 % in the sample, narration about 136 words/min

@@ -23,6 +23,10 @@ on:
         description: "Only a storyboard: one still per shot / map stop on contact sheets (no video)"
         type: boolean
         default: false
+      pace_samples:
+        description: "Also write the opening narration at three speeds (pace_samples/) to the stills / storyboard artifact"
+        type: boolean
+        default: false
 
 jobs:
   render:
@@ -35,6 +39,7 @@ jobs:
       SLUG: ${{ inputs.slug }}
       MAP_STYLE: ${{ inputs.map_style }}
       STILLS: ${{ inputs.stills }}
+      PACE_SAMPLES: ${{ inputs.pace_samples && '1' || '0' }}
       OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}${{ inputs.storyboard && '-storyboard' || '' }}
       YTP_CACHE_DIR: ${{ github.workspace }}/.cache
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}

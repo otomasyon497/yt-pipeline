@@ -320,6 +320,9 @@ class Script(BaseModel):
     title: str
     format: Literal["long", "short"] = "long"  # short: 9:16 YouTube Short, up to 3 minutes
     voice: str = "am_michael"
+    # Kokoro speed; None -> config.TTS_SPEED. Similar channels narrate at 165-185 words/min, ours ran ~136 at 1.0
+    # (docs/channel-analysis-2026-11.md); pick by ear from the pace samples (render.yml pace_samples).
+    voice_speed: Optional[float] = Field(None, ge=0.85, le=1.3)
     music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | file in /music | "none"
     captions: bool = True
     map_style: Optional[Literal["satellite", "atlas", "midnight"]] = None  # None -> config.MAP_STYLE

@@ -80,6 +80,32 @@ Sources are numbered R1... Every number in the script must trace to a line here.
 | Latest reading | 4,190.0 (provisional) | 3 Nov 2026 |
 | 2026 spring high | 4,192.6 | 2 Apr 2026 |
 
+Yearly extremes (R1, south arm, read 2026-11-05; before 1989 the gauge has about two readings a month), for charts
+that do not mix peaks and lows:
+| Year | Highest (ft) | Lowest (ft) |
+|---|---|---|
+| 1963 | 4,192.95 | 4,191.35 |
+| 1970 | 4,196.40 | 4,194.85 |
+| 1976 | 4,202.25 | 4,200.30 |
+| 1983 | 4,205.40 | 4,201.45 |
+| 1984 | 4,209.10 | 4,205.90 |
+| 1985 | 4,209.80 | 4,208.10 |
+| 1986 | 4,211.60 (3 Jun) | 4,208.70 |
+| 1987 | 4,211.50 | 4,208.90 |
+| 1990 | 4,204.00 | 4,201.50 |
+| 2000 | 4,203.60 | 4,200.90 |
+| 2005 | 4,197.45 | 4,194.49 |
+| 2010 | 4,195.78 | 4,193.48 |
+| 2017 | 4,195.50 | 4,192.10 |
+| 2021 | 4,193.00 | 4,190.20 |
+| 2022 | 4,191.40 | 4,188.50 (7 Nov) |
+| 2023 | 4,194.00 | 4,189.20 |
+| 2024 | 4,195.20 | 4,192.10 |
+| 2025 | 4,193.70 | 4,191.00 |
+| 2026 | 4,192.60 (2 Apr) | 4,189.40 (10 Oct, provisional) |
+Chart plan: the flood chapter uses the yearly highs 1963-1986 (the rise, built point by point with chart.reveal);
+the decline uses the yearly lows 1987-2026; "22.2 ft below the 1986 peak" stays a stat card.
+
 Own calculations:
 1. 2026 low vs the record: 4,189.4 - 4,188.5 = 0.9 ft, so "less than a foot above the all-time low".
 2. Drop since the 1986 peak: 4,211.6 - 4,189.4 = 22.2 ft.

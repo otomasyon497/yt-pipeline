@@ -34,7 +34,7 @@ const Page: React.FC<{doc: DocSpec}> = ({doc}) => {
 		const uy1 = Math.max(...rects.map((r) => r[3])) * PH;
 		fx = (ux0 + ux1) / 2;
 		fy = (uy0 + uy1) / 2;
-		s1 = Math.max(s0, Math.min(3.0, 1250 / Math.max(ux1 - ux0, 1), 420 / Math.max(uy1 - uy0, 1)));
+		s1 = Math.max(s0, Math.min(3.0, 1150 / Math.max(ux1 - ux0, 1), 420 / Math.max(uy1 - uy0, 1)));
 	}
 	const z = easeOut((frame - 14) / 40);
 	const s = s0 + (s1 - s0) * z;
@@ -75,6 +75,8 @@ const Page: React.FC<{doc: DocSpec}> = ({doc}) => {
 					/>
 				))}
 			</div>
+			{/* The page fills the frame once zoomed: darken its lower part so the source panel and captions sit clear. */}
+			<AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(8,10,18,0) 62%, rgba(8,10,18,0.88) 82%)', opacity: z}} />
 			<SourcePanel doc={doc} p={easeOut((frame - 20) / 14)} />
 		</AbsoluteFill>
 	);
@@ -88,7 +90,8 @@ const Clipping: React.FC<{doc: DocSpec}> = ({doc}) => {
 	const at = text.indexOf(hi);
 	const mark = easeOut((frame - 30) / 30);
 	return (
-		<AbsoluteFill style={{backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center', paddingBottom: 140}}>
+		// Centre about 580 px down: clear of a question card (top right) and of the captions (below ~880).
+		<AbsoluteFill style={{backgroundColor: colors.bg, justifyContent: 'center', alignItems: 'center', paddingTop: 140, paddingBottom: 60}}>
 			<div
 				style={{
 					width: 1360,

@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): research and outline done, waiting for gate 1; plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): gate 1 approved; features, script and fact-check done; storyboard run 41769780405 in progress; plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
 ## Episode 3: colorado-river (started 2026-11-04)
 - The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the
@@ -9,6 +9,15 @@
   and leaves the Upper Basin uncut; Nevada sued, Arizona and CAP joined; both reservoirs hit record lows.
 - Data: Reclamation daily CSVs (usbr.gov/uc/water/hydrodata, public domain) and the October 2026 24-Month Study
   (PDF text via pypdf installed in the session scratchpad, not in the repo).
+- New: `.github/workflows/tools.yml` ("Data tools", workflow_dispatch with an allowlisted tool) runs one-off data
+  preparation on Actions and uploads out/ as an artifact; first tool tools/powell_shoreline.py (USGS 2017 Lake Powell
+  bathymetry -> lake extent and dry bed at given elevations). ScienceBase blocks curl from the PC (Cloudflare) but
+  works from Actions.
+- New engine bits: a "credit" property in an episode's geo/*.geojson and lines.json "_credits" go into the video
+  credits; lines.json gained Colorado River, Green River (Natural Earth) and CAP, Colorado River Aqueduct,
+  All-American Canal (USGS NHD, chained with a pure-Python script). tools/colorado_numbers.py reproduces the own numbers.
+- Gate 1 approved 2026-11-04 ("Onaylıyorum, devam et"); script 2,310 words, title "Lake Mead and Lake Powell Both Hit
+  Record Lows in 2026" (yt-package 98/100). Voice profile for yt-package written to ~/.claude/youtube/voice.md.
 
 ## Episode 2: caspian-sea (started 2026-11-03)
 - The user picked "the shrinking Caspian" from three proposals: Antelope Reef (China's new island in the Paracels, my

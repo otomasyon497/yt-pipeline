@@ -7,7 +7,7 @@ from typing import Literal, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote", "stat"]
+ShotType = Literal["stock", "ai_image", "photo", "chart", "map", "title_card", "quote", "stat", "document"]
 Mood = Literal["calm", "curious", "tension"]
 
 
@@ -36,6 +36,31 @@ class Stat(BaseModel):
     label: str = Field(max_length=80)  # what it measures, one line
     note: Optional[str] = Field(None, max_length=110)  # context or comparison, muted
     source: Optional[str] = None
+
+
+class Document(BaseModel):
+    """A page of a public-domain document with its key line marked, or our own clipping card (pipeline/documents.py).
+
+    `pdf`: U.S. federal works and other public-domain PDFs only; never a screenshot of a news page. For copyrighted
+    sources use `text`: a short quoted line set on our own card, with its source.
+    """
+    pdf: Optional[str] = None  # URL
+    page: int = Field(1, ge=1)
+    highlight: Optional[str] = None  # exact text on that page, found in its text layer
+    rects: list[tuple[float, float, float, float]] = Field(default_factory=list)  # scanned pages: line boxes (page fractions)
+    text: Optional[str] = Field(None, max_length=320)  # clipping card
+    title: Optional[str] = None  # document name, shown with the source
+    source: str
+
+    @model_validator(mode="after")
+    def _kind(self):
+        if (self.pdf is None) == (self.text is None):
+            raise ValueError("document: give either 'pdf' (a public-domain page) or 'text' (a clipping card)")
+        if self.pdf is None and self.rects:
+            raise ValueError("document: 'rects' only mark lines on a pdf page")
+        if self.text is not None and self.highlight and self.highlight not in self.text:
+            raise ValueError("document: the clipping's 'highlight' must be part of its 'text'")
+        return self
 
 
 class MapPoint(BaseModel):  # v2 shorthand, still accepted
@@ -219,6 +244,7 @@ class Shot(BaseModel):
     subtitle: Optional[str] = None
     chart: Optional[Chart] = None
     stat: Optional[Stat] = None
+    document: Optional[Document] = None
     map: Optional[MapSpec] = None
     quote: Optional[str] = None
     author: Optional[str] = None
@@ -236,6 +262,7 @@ class Shot(BaseModel):
             "title_card": self.on_screen_text,
             "quote": self.quote,
             "stat": self.stat,
+            "document": self.document,
         }[self.type]
         if not need:
             raise ValueError(f"shot type '{self.type}' is missing its required field")

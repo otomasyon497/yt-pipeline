@@ -1,4 +1,15 @@
-export type Visual = 'stock' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card' | 'stat';
+export type Visual = 'stock' | 'ai_image' | 'photo' | 'chart' | 'map' | 'title_card' | 'quote' | 'chapter_card' | 'stat' | 'document';
+
+// A public-domain page with its key lines marked (rects: page fractions, top-left origin), or a clipping card.
+export type DocSpec = {
+	src?: string | null;
+	aspect?: number | null; // page height / width
+	rects?: [number, number, number, number][] | null;
+	text?: string | null;
+	highlight?: string | null;
+	title?: string | null;
+	source: string;
+};
 
 // Full-screen number card: `value` counts up when the pipeline found a number in it (never a bare year).
 export type StatSpec = {value: string; label: string; note?: string | null; source?: string | null; countUp: CountUp | null};
@@ -35,6 +46,7 @@ export type ShotData = {
 	subtitle: string | null;
 	chart: ChartSpec | null;
 	stat?: StatSpec | null;
+	document?: DocSpec | null;
 	quote: string | null;
 	author: string | null;
 	kenBurns: KenBurns;

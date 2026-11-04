@@ -28,6 +28,7 @@ import captions
 import cf_images
 import commons
 import credits
+import documents
 import locator
 import maps
 import media
@@ -192,6 +193,7 @@ def prepare(slug: str) -> None:
     clips, media_files, used_ids, used_ai = [], {}, set(), False
     sfx_events, extra_credits, map_warnings = [], {"Map data: Natural Earth (public domain)."}, []
     photo_fit, photo_credits, locs = {}, [], {}
+    docs, doc_credits = {}, []
     with step("media"):
         for u in lay["units"]:
             src, seconds = u["subs"][0]["src"], u["drawFrames"] / FPS
@@ -220,6 +222,18 @@ def prepare(slug: str) -> None:
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg")
                 photo_credits.append(credit)
+            elif src.type == "document":
+                d = src.document
+                spec = {"title": d.title, "source": d.source}
+                if d.pdf:
+                    page = documents.page_with_highlight(d.pdf, d.page, None if d.rects else d.highlight,
+                                                         PUBLIC_MEDIA / f"{u['id']}_doc.jpg")
+                    spec |= {"src": f"{u['id']}_doc.jpg", "aspect": page["aspect"],
+                             "rects": [list(r) for r in d.rects] or page["rects"]}
+                    doc_credits.append(f"{d.title or 'Document'}: {d.source}, page {d.page} ({d.pdf})")
+                else:
+                    spec |= {"text": d.text, "highlight": d.highlight}
+                docs[u["id"]] = spec
             if src is not None and src.where is not None:
                 lon, lat, label, _ = maps.resolve_point(src.where)
                 locs[u["id"]] = {"src": f"{u['id']}_loc.png", "label": src.where_label or label or ""}
@@ -237,7 +251,7 @@ def prepare(slug: str) -> None:
         print(f"  map style: {style}")
 
     with step("timeline+audio"):
-        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit, locs, card_bg)
+        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit, locs, card_bg, docs)
         (work / "timeline.json").write_text(json.dumps(timeline, indent=1), encoding="utf-8")
         total_sec = tl.build_narration_track(wavs, lay, work / "narration.wav")
         voice_lufs = media.loudness(work / "narration.wav")
@@ -257,6 +271,8 @@ def prepare(slug: str) -> None:
         if sentinel.credit():  # once, after all map blocks (per-block lines repeated it with fewer years)
             extra_credits.add(sentinel.credit())
         extra = sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else []
+        if doc_credits:
+            extra = ["Documents shown (public domain):", *[f"- {c}" for c in dict.fromkeys(doc_credits)], ""] + extra
         if photo_credits:
             extra = ["Archive images (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra
         credits.write(work / "credits.txt", clips, track, used_ai, extra)

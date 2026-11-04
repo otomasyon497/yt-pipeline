@@ -8,6 +8,7 @@ import {setFrame} from './map/geometry';
 import {MapBlock} from './map/MapBlock';
 import {ChapterCard} from './scenes/ChapterCard';
 import {ChartScene} from './scenes/ChartScene';
+import {DocumentScene} from './scenes/DocumentScene';
 import {ImageScene} from './scenes/ImageScene';
 import {PhotoScene} from './scenes/PhotoScene';
 import {QuoteScene} from './scenes/QuoteScene';
@@ -37,6 +38,8 @@ const ShotBody: React.FC<{shot: ShotData}> = ({shot}) => {
 			return <ChapterCard shot={shot} />;
 		case 'stat':
 			return <StatScene stat={shot.stat!} />;
+		case 'document':
+			return <DocumentScene doc={shot.document!} />;
 	}
 };
 

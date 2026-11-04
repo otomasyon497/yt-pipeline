@@ -137,7 +137,7 @@ def group_units(shots: list[dict], total_frames: int, beats: list[int] | None = 
 
 
 def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict | None = None,
-                locs: dict | None = None, card_bg: dict | None = None) -> dict:
+                locs: dict | None = None, card_bg: dict | None = None, docs: dict | None = None) -> dict:
     """JSON props for the Remotion `Episode` composition."""
     shots = []
     for i, u in enumerate(lay["units"]):
@@ -172,6 +172,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             "chart": src.chart.model_dump() if src is not None and src.chart else None,
             "stat": ({**src.stat.model_dump(), "countUp": count_up(src.stat.value, any_unit=True)}
                      if src is not None and src.stat else None),
+            "document": (docs or {}).get(u["id"]),
             "quote": None if src is None else src.quote,
             "author": None if src is None else src.author,
             "kenBurns": {"z0": kb[0], "z1": kb[1], "x0": kb[2], "x1": kb[3], "y0": kb[4], "y1": kb[5]},
@@ -205,6 +206,8 @@ def card_sfx(timeline: dict) -> list[tuple[float, str, float]]:
             events += [(max(0.0, t - 0.3), "whoosh", -2.0), (t + 0.05, "hit", 0.0)]
         elif s["visual"] == "title_card":
             events.append((t + 0.1, "hit", -3.0))
+        elif s["visual"] == "document":  # the page slides in, the marker sweeps once the camera has closed in
+            events += [(t + 0.05, "whoosh", -6.0), (t + 2.1, "swoosh", -6.0)]
         elif s["visual"] == "stat":
             events.append((t + 0.15, "hit", -3.0))
             if s["stat"] and s["stat"]["countUp"]:

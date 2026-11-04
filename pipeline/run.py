@@ -305,7 +305,7 @@ def make_thumbnails(slug: str) -> None:
         return
     script = load_script(ROOT / "episodes" / slug / "script.json")
     with step("thumbnails"):
-        thumbnails.make(script, BUILD_DIR / slug / "thumbnails")
+        thumbnails.make(script, BUILD_DIR / slug / "thumbnails", slug)
 
 
 def finalize(slug: str) -> None:

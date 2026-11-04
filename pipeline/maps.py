@@ -591,8 +591,11 @@ def _active_cams(plan: Plan, start: int, end: int, min_overlap: int = 12) -> lis
     return out or ([best[1]] if best else plan.cams[:1])
 
 
-def land_mask(box, size) -> Image.Image:
-    """Natural Earth land (minus lakes) rasterised over a unit-Mercator box: relief shading stays on land."""
+def land_mask(box, size, lakes: bool = True) -> Image.Image:
+    """Natural Earth land rasterised over a unit-Mercator box, minus its lakes unless lakes=False: relief shading
+    stays on land. Sentinel-2 keeps the lakes (lakes=False): Natural Earth draws reservoirs at full pool, and a
+    shrunken lake is often the point of the view (Lake Powell at 1.6 degrees showed Blue Marble's 2004 lake inside
+    the full-pool outline)."""
     w, h = size
     img = Image.new("L", (w, h), 0)
     draw = ImageDraw.Draw(img)
@@ -603,7 +606,7 @@ def land_mask(box, size) -> Image.Image:
         a = np.asarray(ring.coords)[:, :2]
         return list(zip(((geo.mx(a[:, 0]) - box[0]) * sx).tolist(), ((geo.my(a[:, 1]) - box[1]) * sy).tolist()))
 
-    for layer, value in (("ne_10m_land", 255), ("ne_10m_lakes", 0)):
+    for layer, value in (("ne_10m_land", 255), ("ne_10m_lakes", 0))[:2 if lakes else 1]:
         for _, g in geo.ne_geoms(layer):
             b = g.bounds
             if b[2] < lon0 or b[0] > lon1 or b[3] < lat0 or b[1] > lat1:
@@ -826,7 +829,8 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             done_s2.append(key)
             try:
                 r = sentinel.mosaic(bx, round(1.5 * WIDTH), out_dir / f"{block_id}_{len(rasters) + 1}_s2.webp", c.get("date"),
-                                    gibs._feather, land_mask if span > S2_SEA_SPAN else None)
+                                    gibs._feather,
+                                    (lambda b, s: land_mask(b, s, lakes=False)) if span > S2_SEA_SPAN else None)
             except Exception as exc:  # imagery is decoration: fall back to Blue Marble
                 plan.warnings.append(f"Sentinel-2 image failed ({exc}); Blue Marble only for this view")
                 continue

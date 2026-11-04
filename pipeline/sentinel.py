@@ -277,8 +277,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                     acc[fill] = rgb[fill]
                     used.append(it)
         # Pixels the cloud mask removed and no other scene filled keep their first observation: Sen2Cor flags bright
-        # ground (salt, sand, a lake's freshly exposed bed) as cloud, and the hole would show Blue Marble's 2004
-        # coast through it (Lake Powell's bed in September 2026 came out as a blurred 2004 lake).
+        # ground (salt, sand, dust) as cloud, and the hole would show Blue Marble's blurred 2004 image through it.
         holes = np.isnan(acc[..., 0]) & np.isfinite(raw[..., 0])
         if holes.any():
             acc[holes] = raw[holes]

@@ -59,3 +59,7 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   Lakeside"; 6.5 miles of canals) and a University of Utah record (about 41 deg 15' N, 113 deg 4' W) agree, so the
   script uses (-113.07, 41.25) instead of the guess (-113.03, 41.43); confirm the station and canals on the
   Sentinel-2 close-up at the storyboard. Still open: "roads and rail lines" source, USACE text layer, level chart.
+- 2026-11-05: the BLM West Desert Pumping Project FEIS on Commons (92 pages) has an OCR text layer and page 1 holds
+  "WEST DESERT PUMPING PROJECT" exactly: the document shot works as written. Roads and rail lines: UGS (R14) has
+  I-80 raised up to 8 ft, the railroad causeway raised in 1983-87 and lined with 1,430 boxcars. Level chart: yearly
+  highs 1963-1986 for the flood (research.md table). Open: $60 vs $65 million (R6 vs R14) in the fact-check.

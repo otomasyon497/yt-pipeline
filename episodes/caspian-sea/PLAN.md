@@ -15,7 +15,7 @@ fallen, or the start of a decline it will not recover from, and who pays first?
 - [x] 5. Script (`script.json`): 2,160 words, 44 paragraphs, about 15.6 min; humanizer pass on the narration
 - [x] 6. Fact-check pass: every claim against `research.md`
 - [x] 7. Storyboard run, self-review of every frame, fixes (2 rounds)
-- [ ] 8. Full render, download to `Videos\yt-pipeline\caspian-sea`, user review (gate 2)
+- [x] 8. Full render, download to `Videos\yt-pipeline\caspian-sea`, user review (gate 2: approved and uploaded 2026-11-04)
 
 ## Log
 - 2026-11-03: topic chosen by the user (over Antelope Reef and the Qosh Tepa canal). Research started.
@@ -47,3 +47,7 @@ fallen, or the start of a decline it will not recover from, and who pays first?
   checked: Durneva Aug 2026 and Gorgan Aug 2025 after-images clean, -5/-10/-14 m rings on Blue Marble, closing card.
   Known: the Leeds ten-metre paragraph shows the -10 m ring with the -14 m ring still on (keep + clear only clears
   its own shot); fix with keep off on that shot in the next render. Waiting for the user's review (gate 2).
+- 2026-11-04: the user watched it ("güzel olmuş") and uploaded it; release and tag deleted, the local copy stays. They
+  asked whether the moving Germany at 1:44 was a bug: it is the true-size comparison ("a little more than Germany"),
+  but the CASPIAN SEA label sat on top of the moved GERMANY label (about 1:36-1:46), so the move did not read as a
+  comparison. Engine note in PROGRESS.md. Episode done.

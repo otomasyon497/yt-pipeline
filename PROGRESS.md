@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). Episode 2 caspian-sea rendered (15:51, release ep-caspian-sea-41715843282, downloaded to C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\), waiting for the user's review; delete the release after the upload. Plan and log in episodes/caspian-sea/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Next: episode 3, a topic that grabs American viewers (user, 2026-11-04); candidates proposed, waiting for the user's pick. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
 
 ## Episode 2: caspian-sea (started 2026-11-03)
 - The user picked "the shrinking Caspian" from three proposals: Antelope Reef (China's new island in the Paracels, my
@@ -11,6 +11,7 @@
   "seafloor:<basin>:<m>" (pipeline/bathy.py, NOAA ETOPO 2022); Volga line; line charts on a true time axis; bar charts
   size the label column from the longest label. tools/caspian_numbers.py reproduces the episode's own calculations.
 - Actions: storyboards about 30 min each (2 rounds), final render about 50 min.
+- 2026-11-04: approved ("güzel olmuş") and uploaded by the user; release ep-caspian-sea-41715843282 and its tag deleted.
 
 ## Shorts (2026-11-03, phase S1; dropped by the user the same day)
 - Outcome: the user did not like the first Short much and dropped Shorts altogether. Its release is deleted (the local
@@ -116,6 +117,12 @@
 - Test script facts are illustrative (see `sources`) - fact-check before real use.
 
 ## Known issues / notes for later phases
+- true_size: the moved country's label can land under a water or region label at the destination (caspian-sea
+  1:36-1:46: CASPIAN SEA over GERMANY), and the user could not tell the move was a size comparison. Before the next
+  true_size shot: hide labels under the moved shape while it is on screen and add a short "<country>, to scale" tag.
+- `keep: true` carries the previous shot's overlays and `clear` only removes overlays from the shot's own steps, so a
+  carried ring cannot be cleared (caspian-sea 13:44-13:56, -14 m ring next to -10 m). Turn `keep` off on that shot,
+  or let `clear` also drop carried overlays.
 - New channels lack YouTube "advanced features" (YouTube Help 9890437, checked 2026-11-03): pinning comments, chapters,
   a Related Video link on Shorts, A/B thumbnail tests and clickable description links all need them. Unlock with ID or
   video verification (review usually 24 h, not offered everywhere) or wait for channel history. Phone verification only

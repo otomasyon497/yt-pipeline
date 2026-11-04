@@ -5,8 +5,10 @@ Runs on Actions (tools.yml, tool "powell_shoreline"); usage: python tools/powell
   reads it at about 20 m.
 - For each level, every surveyed cell below the level counts as water (a pool cut off from the lake keeps its water).
   The survey covers the bed that was under water in autumn 2017 (lake at about 3,630 ft), enough for levels below that.
-- Writes powell_<level>.geojson (lon/lat, one feature, "name" = the label) and summary.json (areas), and tries the
-  2018 elevation-area-capacity tables (doi:10.5066/P9O3IPG3) for the published areas at the same levels.
+- Writes powell_<level>.geojson (lon/lat, one feature, "name" = the label), powell_dry_<level>.geojson (the part of
+  the record-low lake that falls dry at a lower level, for map highlights like caspian-sea's seafloor rings) and
+  summary.json (areas), and reads the 2018 elevation-area-capacity tables (doi:10.5066/P9O3IPG3) for the published
+  areas at the same levels.
 Levels are Reclamation's operating elevations (NGVD29 feet); the survey is in NAVD88 metres. At Lake Powell
 NAVD88 = NGVD29 + 2.91 ft (USGS SIR 2022-5017: full pool 3,700 ft = 3,702.91 ft NAVD88).
 """
@@ -32,6 +34,7 @@ LEVELS_FT = {  # NGVD29 feet -> label
     3490.0: "3,490 ft: turbines stop",
     3370.0: "3,370 ft: dead pool",
 }
+DRY_LABELS = {3490.0: "Dry at 3,490 ft", 3370.0: "Dry at dead pool"}
 DATUM_SHIFT_FT = 2.91
 TARGET_RES_M = 20
 SMOOTH_M = 30
@@ -124,6 +127,17 @@ def eac_areas(levels_navd_ft: list[float]) -> dict:
     return out
 
 
+def write(path: Path, g, crs, label: str, level_ft: float) -> None:
+    """One-feature GeoJSON in lon/lat; "name" becomes the map label."""
+    g = g.simplify(SIMPLIFY_M, preserve_topology=True)
+    ll = transform_geom(crs, "EPSG:4326", mapping(g), precision=5)
+    props = {"name": label, "level_ft_ngvd29": level_ft, "area_km2": round(g.area / 1e6, 1),
+             "area_acres": round(g.area / 1e6 * 247.105)}
+    path.write_text(json.dumps({"type": "FeatureCollection", "features": [
+        {"type": "Feature", "geometry": ll, "properties": props}]}, separators=(",", ":")))
+    print(f"  wrote {path.name}: {path.stat().st_size / 1e3:,.0f} KB")
+
+
 def main(out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     work = Path("work")
@@ -143,6 +157,7 @@ def main(out_dir: Path) -> None:
         cell_m2 = abs(transform.a * transform.e)
     valid = ~np.ma.getmaskarray(z)
     zz = np.ma.filled(z, np.inf)
+    lakes = {}
     # Elevations in metres (NAVD88) unless the values look like feet.
     in_feet = float(np.median(zz[valid])) > 2000
     print(f"  values look like {'feet' if in_feet else 'metres'} (median {float(np.median(zz[valid])):.1f})")
@@ -157,18 +172,22 @@ def main(out_dir: Path) -> None:
         if not polys:
             print(f"  {level_ft} ft: no water left in the survey (raw {raw_km2:,.2f} km2)")
             continue
-        g = shapely.MultiPolygon(polys).simplify(SIMPLIFY_M, preserve_topology=True)
+        g = shapely.MultiPolygon(polys)
+        lakes[level_ft] = g
         km2 = g.area / 1e6
-        ll = transform_geom(crs, "EPSG:4326", mapping(g), precision=5)
-        name = f"powell_{int(round(level_ft))}"
-        fc = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": ll, "properties": {
-            "name": label, "level_ft_ngvd29": level_ft, "area_km2": round(km2, 1), "area_acres": round(km2 * 247.105)}}]}
-        (out_dir / f"{name}.geojson").write_text(json.dumps(fc, separators=(",", ":")))
-        size_kb = (out_dir / f"{name}.geojson").stat().st_size / 1e3
-        print(f"  {level_ft} ft: {km2:,.1f} km2 ({km2 * 247.105:,.0f} acres) in {len(polys)} parts "
-              f"(raw {raw_km2:,.1f} km2), {size_kb:,.0f} KB")
+        write(out_dir / f"powell_{int(round(level_ft))}.geojson", g, crs, label, level_ft)
+        print(f"  {level_ft} ft: {km2:,.1f} km2 ({km2 * 247.105:,.0f} acres) in {len(polys)} parts (raw {raw_km2:,.1f} km2)")
         summary["levels"][str(level_ft)] = {"label": label, "navd88_ft": navd_ft, "area_km2": round(km2, 1),
                                            "area_acres": round(km2 * 247.105), "parts": len(polys), "raw_km2": round(raw_km2, 1)}
+    top = lakes[max(lakes)]
+    for level_ft, label in DRY_LABELS.items():
+        if level_ft not in lakes:
+            continue
+        dry = top.difference(lakes[level_ft])
+        dry = shapely.MultiPolygon([p for p in getattr(dry, "geoms", [dry]) if p.geom_type == "Polygon" and p.area >= MIN_PART_M2])
+        write(out_dir / f"powell_dry_{int(round(level_ft))}.geojson", dry, crs, label, level_ft)
+        print(f"  dry at {level_ft} ft: {dry.area / 1e6:,.1f} km2 in {len(dry.geoms)} parts")
+        summary["levels"][str(level_ft)]["dry_km2"] = round(dry.area / 1e6, 1)
     summary["eac_2018"] = eac_areas([lv + DATUM_SHIFT_FT for lv in LEVELS_FT])
     (out_dir / "summary.json").write_text(json.dumps(summary, indent=2))
     print(json.dumps(summary, indent=2))

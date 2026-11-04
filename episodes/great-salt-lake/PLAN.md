@@ -12,12 +12,12 @@ turns, a new picture every 8 s, stat / document / film shots and map icons, titl
 narration at 1.08 with the shorter pauses (config, 2026-11-04).
 
 ## Steps
-- [ ] 1. Research dossier (`research.md`): every number with a source (two where possible); current level (fall 2026)
+- [x] 1. Research dossier (`research.md`): every number with a source (two where possible); current level (fall 2026)
       from USGS gauges (public domain); 2-3 own calculations, maths shown
 - [ ] 2. Visual inventory (in `research.md`): Sentinel-2 / MODIS before-after dates (high 2017?, low Nov 2022, 2026),
       the railroad causeway's two colours, public-domain US documents (USGS, federal) for document shots, archival
       film or photos on Commons (1980s flood, West Desert Pumping Project), data series, stock queries
-- [ ] 3. Outline (`outline.md`), Turkish summary to the user (gate 1)
+- [ ] 3. Outline (`outline.md`) written; Turkish summary to the user (gate 1) sent, waiting
 - [ ] 4. Features the outline needs
 - [ ] 5. Script (`script.json`), humanizer pass on the narration
 - [ ] 6. Fact-check pass: every claim against `research.md`
@@ -37,3 +37,5 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   4,198-4,205 ft). Visual inventory started (MODIS Sep 2000 vs Oct 2026; S2 Jun 2017 vs Oct 2026; causeway). Next:
   the causeway and its colours, birds, the 2025-26 snowpack link, 2026 policy, Commons archival search, GIBS days,
   then outline.md and the gate-1 summary to the user.
+- 2026-11-05: research R10-R12 (causeway, birds, 2026 snowpack and session) and outline.md (8 chapters, new rules).
+  Waiting for gate 1. Still open in step 2: Commons archival search, GIBS days, the area at today's level (verify).

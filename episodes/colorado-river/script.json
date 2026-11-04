@@ -1229,9 +1229,9 @@
                     ],
                     "routes": [
                       {
-                        "path": "Green River",
+                        "path": "Green River from Flaming Gorge",
                         "color": "blue",
-                        "seconds": 5.0,
+                        "seconds": 3.5,
                         "label": "Green River"
                       }
                     ]
@@ -1937,7 +1937,7 @@
                       "lat": 31.9,
                       "span": 0.9
                     },
-                    "date": "2026-03-01/2026-05-31",
+                    "date": "2026-10-03/2026-10-03",
                     "places": [
                       {
                         "name": "Colorado River Delta",

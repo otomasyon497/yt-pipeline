@@ -266,6 +266,25 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 		return <Globe spec={globe} style={style} frame={frame} endW={camera.at(globe.frames).w} fade={1} />;
 	}
 
+	// Sentinel-2 belongs to close views: fade it out as the camera pulls back (span 2.6-4.5 degrees), or its
+	// patches show as pale rectangles over Blue Marble. A dated MODIS image is the picture of a wide view (it is
+	// only fetched for views wider than 2 degrees), so where one covers the frame the patches of the close views
+	// around it (another day, another tone) go sooner, at 2.0-2.6 degrees: at 3.1 degrees Lake Powell showed
+	// a sharp rectangle around Glen Canyon Dam. Blended by the share of the frame MODIS covers, so nothing jumps
+	// when its edge comes into view during a move.
+	const modisCover = Math.max(
+		0,
+		...rasters
+			.filter((r) => r.layer === 'modis')
+			.map((r) => {
+				const [x0, y0] = toScreen(xf, r.x0, r.y0);
+				const [x1, y1] = toScreen(xf, r.x1, r.y1);
+				return (Math.max(0, Math.min(x1, W) - Math.max(x0, 0)) * Math.max(0, Math.min(y1, H) - Math.max(y0, 0))) / (W * H);
+			}),
+	);
+	const s2FadeWide = clamp01((4.5 - span) / (4.5 - 2.6));
+	const s2Fade = s2FadeWide + (clamp01((2.6 - span) / (2.6 - 2.0)) - s2FadeWide) * modisCover;
+
 	return (
 		<AbsoluteFill style={{backgroundColor: style.ocean, overflow: 'hidden'}}>
 			{style.vector ? (
@@ -276,10 +295,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 			{(['day', 'modis', 's2', 'relief', 'night'] as const).map((layer) => {
 				// One opacity per layer (not per image): overlapping images must not add up while fading.
 				// modis = one dated MODIS day over Blue Marble on wide views (a present-day coast instead of 2004's).
-				// s2 = Sentinel-2 10 m imagery over the Blue Marble 'day' layer on close views.
-				// Sentinel-2 belongs to close views: fade it out as the camera pulls back (span 2.6-4.5 degrees), or its
-				// patches show as pale rectangles over Blue Marble.
-				const s2Fade = clamp01((4.5 - span) / (4.5 - 2.6));
+				// s2 = Sentinel-2 10 m imagery over the Blue Marble 'day' layer on close views (s2Fade above).
 				const layerOpacity = layer === 'night' ? night : layer === 's2' ? s2Fade : layer === 'day' || layer === 'modis' ? 1 : style.reliefOpacity;
 				const imgs = rasters.filter((r) => r.layer === layer);
 				if (!imgs.length) return null;

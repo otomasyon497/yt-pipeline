@@ -63,6 +63,7 @@ def _search(lonlat_box, start: str, end: str, max_cloud: float) -> list[dict]:
     base = {"collections": ["sentinel-2-c1-l2a"], "bbox": list(lonlat_box), "datetime": f"{start}T00:00:00Z/{end}T23:59:59Z"}
     if start == end or (date.fromisoformat(end) - date.fromisoformat(start)).days <= 7:  # event imagery: few items
         return sorted(_post({**base, "limit": 200}), key=_rank)
+    one_day = _covering_day(base, lonlat_box, max_cloud)
     probe_end = date.fromisoformat(end)
     probe = _post({**base, "datetime": f"{probe_end - timedelta(days=45)}T00:00:00Z/{probe_end}T23:59:59Z", "limit": 250,
                    "fields": {"include": ["id", "properties.grid:code"], "exclude": ["assets", "links", "geometry"]}})
@@ -79,8 +80,42 @@ def _search(lonlat_box, start: str, end: str, max_cloud: float) -> list[dict]:
     tiles_per_day: dict[str, set] = {}
     for i in items:
         tiles_per_day.setdefault(i["properties"]["datetime"][:10], set()).add(i["properties"].get("grid:code"))
-    return sorted(items, key=lambda i: (-len(tiles_per_day[i["properties"]["datetime"][:10]]),
-                                        i["properties"]["datetime"][:10], _rank(i)))
+    return one_day + sorted(items, key=lambda i: (-len(tiles_per_day[i["properties"]["datetime"][:10]]),
+                                                  i["properties"]["datetime"][:10], _rank(i)))
+
+
+def _covering_day(base: dict, lonlat_box, max_cloud: float) -> list[dict]:
+    """The scenes of the clearest day whose passes cover the whole box, best first ([] if no day does).
+
+    The least cloudy scenes of each tile usually come from different days, and different days rarely match:
+    tides on mudflats, wet ground, snow, crops (the Colorado delta split down the middle between a March and a
+    May tile). The scenes of one day match, even when two satellites took them minutes apart.
+    """
+    target = shp_box(*lonlat_box)
+    found = _post({**base, "limit": 300, "query": {"eo:cloud_cover": {"lt": max_cloud}},
+                   "sortby": [{"field": "properties.eo:cloud_cover", "direction": "asc"}],
+                   "fields": {"include": ["id", "geometry", "properties.datetime", "properties.eo:cloud_cover",
+                                          "properties.view:sun_elevation"], "exclude": ["assets", "links"]}})
+    days: dict[str, list[dict]] = {}
+    for f in found:
+        days.setdefault(f["properties"]["datetime"][:10], []).append(f)
+    best = None
+    for day, feats in days.items():
+        cover = shapely.union_all([shape(f["geometry"]) for f in feats]).intersection(target).area / target.area
+        if cover < 0.995:
+            continue
+        # Clear first (under 1 % counts as clear), then the highest sun: short shadows in canyons, no winter snow
+        # (the clearest day of a two-year window at Hoover Dam was a January one).
+        key = (int(max(f["properties"]["eo:cloud_cover"] for f in feats)),
+               -min(f["properties"].get("view:sun_elevation", 0) for f in feats))
+        if best is None or key < best[0]:
+            best = (key, day)
+    if best is None:
+        return []
+    day = best[1]
+    print(f"  sentinel-2: {day} covers the whole view in one day")
+    return sorted(_post({**base, "datetime": f"{day}T00:00:00Z/{day}T23:59:59Z", "limit": 50,
+                         "query": {"eo:cloud_cover": {"lt": max_cloud}}}), key=_rank)
 
 
 def _rank(item: dict) -> tuple:
@@ -90,13 +125,14 @@ def _rank(item: dict) -> tuple:
 
 
 def _candidates(items: list[dict], lonlat_box) -> list[dict]:
-    """Public COG scenes touching the box, least cloudy first, one per tile and day."""
+    """Public COG scenes touching the box, least cloudy first, one per tile and acquisition (two satellites can
+    pass on the same day, each covering part of a tile)."""
     out, seen = [], set()
     target = shp_box(*lonlat_box)
     for it in items:
         if not all(it["assets"].get(b, {}).get("href", "").startswith("https://") for b in BANDS[:3]):
             continue  # requester-pays JP2 copies are not readable without an AWS account
-        key = (it["properties"].get("grid:code") or it["id"][4:10], it["properties"]["datetime"][:10])
+        key = (it["properties"].get("grid:code") or it["id"][4:10], it["properties"]["datetime"][:16])
         if key in seen or not shape(it["geometry"]).intersects(target):
             continue
         seen.add(key)

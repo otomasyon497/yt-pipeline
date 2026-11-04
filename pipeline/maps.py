@@ -831,6 +831,7 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
                 plan.warnings.append(f"Sentinel-2 image failed ({exc}); Blue Marble only for this view")
                 continue
             if r:
+                _note_mixed_days(r, f"{block_id} view ({span:.2f} degrees, {c.get('date') or 'recent'})", plan)
                 rasters.append(r)
     plan.credits.add(gibs.CREDIT)  # the Sentinel-2 line is added once by run.py, with the years of every block
 
@@ -862,6 +863,15 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
     return {"file": out.name, "events": plan.events, "credits": plan.credits, "warnings": plan.warnings}
 
 
+def _note_mixed_days(r: dict, what: str, plan: Plan) -> None:
+    """Flag a Sentinel-2 image stitched from several days: tiles of different days can meet in a straight seam
+    (tides, wet ground, snow). The storyboard review then knows where to look."""
+    dates = r.get("dates", [])
+    if len(dates) > 1:
+        plan.warnings.append(f"{what}: Sentinel-2 scenes of {len(dates)} days ({', '.join(dates)}); check for a seam, "
+                             f"or give the view a one-day window 'YYYY-MM-DD/YYYY-MM-DD'")
+
+
 def _month_label(dates: list[str]) -> str:
     """'MARCH 2020' for the month most of the scenes come from."""
     if not dates:
@@ -885,6 +895,8 @@ def _compare_images(item: dict, block_id: str, n: int, out_dir: Path, plan: Plan
                     plan.credits.add(gibs.MODIS_CREDIT)
             else:
                 r = sentinel.mosaic(bx, round(1.5 * WIDTH), out, item[side], gibs._feather, None)
+                if r:
+                    _note_mixed_days(r, f"{block_id} compare {side} ({item[side]})", plan)
         except Exception as exc:
             r = None
             plan.warnings.append(f"compare {side} image failed ({exc})")

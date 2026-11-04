@@ -85,5 +85,9 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
   tile by tile in cloud order); the delta has a fainter one (blue +10). Render 41788066410 cancelled. One-day and
   covering-day mosaics now fill pass by pass, the pass covering most of the box first (_by_pass), and a hand-picked
   one-day window skips the cloud mask. P5.7 (-111.06, 37.32, 1.55) and the delta (-114.90, 31.92, 0.9) moved slightly
-  so that S2A's pass covers 99.7-99.9 % of the frame (the new boxes also mean fresh mosaics). Stills and full render
-  dispatched next.
+  so that S2A's pass covers 99.7-99.9 % of the frame (the new boxes also mean fresh mosaics). Stills 41789549539,
+  render 41789553487.
+- 2026-11-04: a column-step scan (same colour step at one column in three bands of the frame) over every S2 view of
+  the first render, checked by eye where it fired: the only other seam is the cold open's July 2019 image (blue +13 at
+  x 208, 17 vs 29 July); the rest were rivers, shores, the border line, wipes and crossfades. Render 41789553487
+  cancelled; the compare's before is now 2019-07-17 (one S2A pass covers the box; label and narration unchanged).

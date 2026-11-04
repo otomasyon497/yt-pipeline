@@ -164,12 +164,74 @@ court and may reach the Supreme Court, because the Upper and Lower Basin read th
    topobathymetric DEM [R13], areas from the 2018 EAC tables [R12]; datum: NAVD88 = NGVD29 + 2.91 ft at Powell.
 Scratch scripts (session scratchpad, levels.py): move into tools/colorado_numbers.py in step 4.
 
-## Still to verify / research
-- Hoover Dam and Lake Mead basics (completion 1936, height, 2,080 MW, capacity), Glen Canyon Dam basics (gates
-  closed 1963, completed 1966, height), Mead and Powell dead pools, the Compact's 16.4 MAF assumption (primary).
-- CAP canal length and lift, Imperial Irrigation District (largest single user), Upper Basin consumptive use.
-- A direct Upper Basin quote after the ROD (UCRC or a governor).
-- Whether the 7 maf scenario changes the Mead outlook; Interior's court response (due end of October 2026).
+## Added in the research pass (2026-11-04, verified unless marked)
+- Hoover Dam: 726.4 ft; first concrete 6 Jun 1933, last concrete 29 May 1935, all features complete 1 Mar 1936
+  (Reclamation FAQ https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html). Lake Mead: top of dam 1,229 ft, full pool
+  1,219 ft, minimum power 950 ft, dead pool 895 ft (NPS https://www.nps.gov/lake/learn/nature/storage-capacity-of-lake-mead.htm).
+- Glen Canyon Dam: 710 ft above bedrock (Reclamation Quick Facts https://www.usbr.gov/uc/rm/crsp/gc/gcFacts.html);
+  storage began 13 Mar 1963 (USGS); dead pool 3,370 ft (Reclamation project data; Grand Canyon Trust).
+- CAP: 336 miles from Lake Havasu to south of Tucson, substantially complete 1993 (Reclamation); lift about 2,900 to
+  3,000 ft (sources differ: say "nearly 3,000 feet" only after checking CAP).
+- Mead outlook, both October 2026 Most Probable runs [R9]: low of 1,007.73 ft (July 2027, 6 maf Powell release) or
+  1,015.68 ft (May 2027, 7 maf). Say "between about 1,008 and 1,016 feet next summer", made before the late-October
+  storms.
+- Upper Basin governors (Polis, Cox, Gordon, Lujan Grisham):
+  - 9 Apr 2026, on the Flaming Gorge releases: the Upper Division states are "actively and strictly regulating water
+    uses"; state law requires cuts to water rights dating to the 1800s, cuts that are "mandatory, uncompensated, and
+    will have significant impacts on water users"; they expect released water to be "fully recovered"
+    (https://coyotegulch.blog/2026/04/10/upper-coloradoriver-basin-states-governors-release-statement-on-proposed-draw-down-of-flaminggorge-and-upper-basin-reservoirs/).
+  - 31 Jul 2026, on the Final EIS: "We are witnessing the lowest reservoir levels in the Colorado River System's
+    history"; "Today's framework does not represent a final solution"
+    (https://www.sweetwaternow.com/upper-basin-governors-encouraged-by-colorado-river-eis/). After the ROD they
+    welcomed it and asked for continued talks (Center Square).
+- Still open: the Compact's 16.4 MAF assumption from a primary source; Imperial Irrigation District as the largest
+  single user; Upper Basin consumptive use; Interior's court response (due end of October 2026); first Lake Mead
+  shortage (declared Aug 2021 for 2022) and the 2023 paid conservation deals (verify before use).
 
 ## Visual inventory
-(step 2)
+Dates for every Sentinel-2 pair are picked in step 4 (clear days, same season), as in caspian-sea.
+
+Satellite, before/after
+- S2 1. Lake Powell, Bullfrog Bay / Halls Crossing (37.52 N, 110.73 W): summer 2019 (about 3,620 ft) vs Sep 2026.
+- S2 2. Lake Powell, upper end at Hite / Narrow Canyon (37.88 N, 110.40 W): the lake's tail retreats; the river runs
+  over old lakebed.
+- S2 3. Lake Powell, Wahweap Bay, Glen Canyon Dam and Page (36.95 N, 111.48 W).
+- S2 4. Lake Mead, Overton Arm (36.40 N, 114.37 W): 2019 (about 1,085 ft) vs Oct 2026 (1,037 ft).
+- S2 5. Lake Mead, Boulder Basin and Saddle Island, Las Vegas's intakes (36.07 N, 114.80 W).
+- S2 6 (optional). Flaming Gorge Reservoir (41.0 N, 109.55 W), 2025 vs Oct 2026: is the drawdown visible?
+- MODIS (GIBS, 250 m): Lake Powell whole and Lake Mead whole, Sep 2000 vs Sep 2026.
+
+Satellite, single scenes for map shots
+- Imperial Valley with the All-American Canal (32.7 N, 115.2 W); Yuma and Morelos Dam (32.7 N, 114.73 W); the dry
+  delta at the Gulf of California (31.8 N, 114.8 W); Phoenix with the CAP canal; Las Vegas next to Lake Mead.
+
+Maps
+- Basin outline: USGS Watershed Boundary Dataset regions 14 (Upper) and 15 (Lower), public domain, as a "file:"
+  GeoJSON; the seven states as admin1 highlights; Mexico's delta.
+- Lines: Colorado River (Natural Earth rivers), Green River; canals CAP, Colorado River Aqueduct and All-American
+  Canal from USGS NHD (public domain), fetched in step 4.
+- Points: Lees Ferry (36.865 N, 111.588 W), Glen Canyon Dam (36.937 N, 111.484 W), Hoover Dam (36.016 N,
+  114.737 W), Parker Dam / Lake Havasu, Imperial Dam, Morelos Dam, Flaming Gorge Dam; cities Las Vegas, Phoenix,
+  Tucson, Los Angeles, San Diego, Denver, Salt Lake City, Mexicali, Yuma.
+- OWN MAP: Lake Powell's shoreline at 3,490 ft (power stops) and 3,370 ft (dead pool) from the USGS topobathymetric
+  DEM [R13].
+
+Charts (Reclamation data, public domain, unless noted)
+- Lake Mead elevation 1935-2026; Lake Powell elevation 1980-2026 with the 3,490 ft line; combined storage 2000-2026.
+- Promised vs flowing: 16.4 (Compact assumption) / 14.76 (1906-2018) / 12.47 MAF (2000-2018) [R20].
+- The 2027 cuts: Arizona 760,000 AF, California 440,000, Mexico 250,000, Nevada 50,000, Upper Basin 0.
+- Where the water goes [R15, CC BY 4.0]: agriculture 74 % of direct human use; cattle feed 46 %.
+- Evaporation vs cuts: 638,000 AF vs 760,000 (Arizona's cut) vs 300,000 (Nevada's whole allocation).
+- Ten years past the dam: 80.0 MAF vs the 82.5 and 75 MAF readings.
+- April-July 2026 inflow: 18 % of average.
+
+Archive photos (public domain US government works; check each Commons file: PD-USGov-Interior-BOR, PD-USGov-NPS,
+Library of Congress)
+- Signing of the Colorado River Compact, Santa Fe, 24 Nov 1922; Hoover Dam under construction (1930s); Glen Canyon
+  before the dam and Glen Canyon Dam under construction (1950s-60s); Lake Mead's "bathtub ring" (2021-22); Lake
+  Powell launch ramps and Hite at low water (NPS); the All-American Canal and Imperial Valley; the CAP canal; a
+  Glen Canyon Dam river outlet works release (high-flow experiment photos).
+
+Stock (Pexels / Pixabay, licence checked per clip, at most about 25 % of screen time)
+- Las Vegas Strip aerial, Phoenix suburbs aerial, Los Angeles aerial, hay bales and alfalfa irrigation, Hoover Dam,
+  Lake Powell houseboats, Grand Canyon rafting.

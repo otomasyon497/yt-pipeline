@@ -1,6 +1,14 @@
 # PROGRESS
 
-## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Next: episode 3, a topic that grabs American viewers (user, 2026-11-04); candidates proposed, waiting for the user's pick. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+## Status (2026-11-03: gerd-nile is live on "Ink & Orbit" (https://youtu.be/bR4wVyHqct4); its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\gerd-nile\. Shorts are dropped (see below). 2026-11-04: episode 2 caspian-sea (15:51) approved and uploaded by the user; its release is deleted, the local copy stays in C:\Users\MONSTER\Videos\yt-pipeline\caspian-sea\. Episode 3 colorado-river (the user's pick for American viewers): research and outline done, waiting for gate 1; plan and log in episodes/colorado-river/PLAN.md. Open for the user: a Latin handle instead of @ınkorbııt, and checking advanced features (pinned comment, chapters))
+
+## Episode 3: colorado-river (started 2026-11-04)
+- The user asked for a topic that grabs American viewers and picked the Colorado River (my recommendation) over the
+  Outer Banks house collapses, sinking US cities and Greenland, with "start now".
+- Hook: Interior's Record of Decision (21 Aug 2026) cuts the Lower Basin 1.25 million acre-feet a year in 2027-2028
+  and leaves the Upper Basin uncut; Nevada sued, Arizona and CAP joined; both reservoirs hit record lows.
+- Data: Reclamation daily CSVs (usbr.gov/uc/water/hydrodata, public domain) and the October 2026 24-Month Study
+  (PDF text via pypdf installed in the session scratchpad, not in the repo).
 
 ## Episode 2: caspian-sea (started 2026-11-03)
 - The user picked "the shrinking Caspian" from three proposals: Antelope Reef (China's new island in the Paracels, my

@@ -11,8 +11,8 @@ Audience: American viewers first (user, 2026-11-04). Familiar places (Las Vegas,
 Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, acre-feet), metric where it helps.
 
 ## Steps
-- [ ] 1. Research dossier (`research.md`): every number with a source (two where possible); 2-3 own calculations, maths shown
-- [ ] 2. Visual inventory (in `research.md`): Sentinel-2 before/after sites and dates, GIBS MODIS years, public-domain
+- [x] 1. Research dossier (`research.md`): every number with a source (two where possible); 2-3 own calculations, maths shown
+- [x] 2. Visual inventory (in `research.md`): Sentinel-2 before/after sites and dates, GIBS MODIS years, public-domain
       US government photos (USBR, NPS, USGS, NASA, Library of Congress), Commons PD/CC0/CC BY files, data series, stock queries
 - [ ] 3. Outline (`outline.md`), Turkish summary to the user (gate 1)
 - [ ] 4. Features the outline needs
@@ -25,3 +25,8 @@ Grand Canyon, Hoover Dam) carry the hook; every number in US units first (feet, 
 - 2026-11-04: topic chosen by the user (over the Outer Banks house collapses, sinking US cities and Greenland), with
   "start now". Research started. Hook: Interior's Record of Decision (21 Aug 2026), 1.25 million acre-feet Lower
   Basin cut in 2027 and 2028, Nevada's lawsuit (24 Aug 2026).
+- 2026-11-04: research.md and outline.md done. Fresh facts: both record lows from Reclamation's daily data (Powell
+  3,516.62 ft on 15 Sep, Mead 1,037.16 ft on 22 Oct), Arizona and CAP joined the suit (16 Oct), Minute 334 with
+  Mexico (2 Sep), the late-October storm, the Compact's ten-year "tripwire". Own numbers: combined storage -74 %
+  since 2000, Powell's surface -63 %, evaporation 638,000 AF vs the cuts, 80.0 MAF past the dam in ten years.
+  Scratch script: session scratchpad colorado/levels.py (moves into tools/ in step 4). Waiting for gate 1.

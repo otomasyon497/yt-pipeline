@@ -72,6 +72,8 @@ def mosaic(unit_box, px_width: int, out: Path, when: str, feather=None) -> dict 
     meta = cache.with_suffix(".json")
     if not cache.exists():
         start, end = when.split("/") if "/" in when else (when, when)
+        # A bare date range "D/D" is a zero-length instant for STAC: make it span whole days.
+        start, end = (start if "T" in start else f"{start}T00:00:00Z"), (end if "T" in end else f"{end}T23:59:59Z")
         platforms = ["landsat-4", "landsat-5", "landsat-8", "landsat-9"] + (["landsat-7"] if start < "2003-05-31" else [])
         items = _post({"collections": ["landsat-c2-l2"], "bbox": list(lonlat), "datetime": f"{start}/{end}", "limit": 250,
                        "query": {"eo:cloud_cover": {"lt": 40}, "platform": {"in": platforms}}})

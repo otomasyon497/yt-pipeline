@@ -11,10 +11,10 @@
   "Landsat days used: 2001-05-22, 2003-05-28, 2008-05-17, 2008-10-08, 2022-10-23, 2026-09-24 (tested 2026-11-06)."
  ],
  "thumbnail": {
-  "text": "OUT OF THE SEA"
+  "text": "IS IT SINKING?"
  },
  "youtube": {
-  "title": "How Dubai Built a Manhattan Out of the Sea",
+  "title": "In 25 Years, Dubai Built a Manhattan in the Sea",
   "description": "In May 2001 the coast of Dubai was a straight line of sand. By September 2026 it had two palm-shaped islands, a map of the world made of about 300 islands, and a fourth archipelago. We measured the new land ourselves from Landsat images: about 58 square kilometres, roughly the size of Manhattan. How it was built, the 2009 debt crisis that froze it, whether it is sinking, and why the building has started again.\n\nReal Landsat and Copernicus Sentinel-2 images, NASA astronaut photographs and our own measurements.",
   "tags": [
    "Dubai",
@@ -278,6 +278,23 @@
         "note": "Another source gives 450,000 in 1995",
         "source": "Gulf News, Dubai oil timeline"
        }
+      },
+      {
+       "type": "map",
+       "at": "and it has been falling",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "Oil output falling since the early 1990s"
       }
      ]
     },
@@ -638,6 +655,12 @@
         "note": "92.2 million m³ ÷ (105 m × 68 m)",
         "source": "Our calculation"
        }
+      },
+      {
+       "type": "photo",
+       "at": "higher than airliners",
+       "photo": "nasa:iss022e024940",
+       "on_screen_text": "Dubai from orbit, January 2010"
       }
      ]
     },
@@ -1176,6 +1199,14 @@
        "at": 0,
        "photo": "File:Palm Islands, Dubai, UAE (ASTER).jpg",
        "on_screen_text": "Palm Jebel Ali and Palm Jumeirah, November 2008 (ASTER)"
+      },
+      {
+       "type": "stat",
+       "at": "Then the global",
+       "stat": {
+        "value": "2008",
+        "label": "global financial crisis: buyers vanish"
+       }
       }
      ]
     },
@@ -1371,7 +1402,7 @@
            "lat": 24.99,
            "span": 0.16
           },
-          "date": "2022-10-01/2022-11-30",
+          "date": "2022-06-01/2022-12-31",
           "compare": {
            "before": "2008-05-17",
            "after": "2022-10-23",
@@ -1747,7 +1778,7 @@
            "lat": 24.99,
            "span": 0.16
           },
-          "date": "2022-10-01/2022-11-30",
+          "date": "2022-06-01/2022-12-31",
           "places": [
            {
             "name": "Palm Jebel Ali",
@@ -1805,7 +1836,7 @@
      ]
     },
     {
-     "text": "Compare October 2022 with September 2026, and you can see the work spreading along the fronds.",
+     "text": "Compare December 2022 with September 2026, and you can see the work spreading along the fronds.",
      "shots": [
       {
        "type": "map",
@@ -1820,7 +1851,7 @@
           },
           "date": "2026-09-01/2026-10-20",
           "compare": {
-           "before": "2022-10-01/2022-11-30",
+           "before": "2022-06-01/2022-12-31",
            "after": "2026-09-01/2026-10-20",
            "source": "sentinel-2",
            "seconds": 3.0,

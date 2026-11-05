@@ -19,11 +19,19 @@ const Title: React.FC<{text: string | null | undefined; p: number}> = ({text, p}
 // 2,063 / 55.5 / 0.7: whole numbers from 100 up, one decimal below.
 // Decimals follow the data: 150.6 stays 150.6, whole-number series stay whole while they count up.
 const decimalsOf = (chart: ChartSpec) => (chart.data.some(([, v]) => !Number.isInteger(v)) ? 1 : 0);
-const num = (v: number, dec = 0) => {
-	const d = Math.abs(v) >= 1000 ? 0 : dec;
+// Large values usually lose their decimals (2,063 not 2,063.0), but a narrow series of large values (lake levels such
+// as 4,189.4 and 4,211.6 ft) keeps them: rounding would hide the change the chart is about.
+const keepsDecimals = (chart: ChartSpec) => {
+	const vals = chart.data.map(([, v]) => v);
+	const lo = Math.min(...vals);
+	const hi = Math.max(...vals);
+	return lo > 0 && hi - lo < 0.05 * hi;
+};
+const num = (v: number, dec = 0, keep = false) => {
+	const d = Math.abs(v) >= 1000 && !keep ? 0 : dec;
 	return (d ? Math.round(v * 10) / 10 : Math.round(v)).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d});
 };
-const fmt = (v: number, unit: string, dec = 0) => `${num(v, dec)}${unit}`;
+const fmt = (v: number, unit: string, dec = 0, keep = false) => `${num(v, dec, keep)}${unit}`;
 
 const Source: React.FC<{text?: string | null; p: number}> = ({text, p}) =>
 	text ? (
@@ -43,8 +51,9 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 	const longestLabel = Math.max(...chart.data.map(([label]) => label.length));
 	const left = Math.min(860, Math.max(470, 180 + longestLabel * labelSize * 0.56));
 	const dec = decimalsOf(chart);
+	const keep = keepsDecimals(chart);
 	// Leave room for the longest value label after the longest bar (display font ~0.5 em per glyph).
-	const longest = Math.max(...chart.data.map(([, v]) => fmt(v, chart.unit, dec).length));
+	const longest = Math.max(...chart.data.map(([, v]) => fmt(v, chart.unit, dec, keep).length));
 	const barMax = Math.min(1180, W - 120 - left - 24 - longest * Math.min(74, rowH * 0.6) * 0.5);
 	const barH = rowH * 0.66;
 	const top = 320 + (500 - rowH * n) / 2;
@@ -66,7 +75,7 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 						<rect x={left} y={y} width={barMax} height={barH} fill={colors.panel} />
 						<rect x={left} y={y} width={w} height={barH} fill={i === hi ? colors.accent : OTHER} />
 						<text x={left + w + 24} y={y + barH * 0.74} fontFamily={display} fontSize={Math.min(74, rowH * 0.6)} fill={colors.text}>
-							{fmt(value * p, chart.unit, dec)}
+							{fmt(value * p, chart.unit, dec, keep)}
 						</text>
 					</g>
 				);
@@ -119,6 +128,7 @@ const Line: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 	const hiIdx = chart.highlight ?? n - 1;
 	const valueSize = n > 6 ? 44 : 56;
 	const dec = decimalsOf(chart);
+	const keep = keepsDecimals(chart);
 	return (
 		<>
 			{chart.unit.trim() ? (
@@ -144,7 +154,7 @@ const Line: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 					<g key={`${label}${i}`} opacity={shown}>
 						<circle cx={xs[i]} cy={ys[i]} r={big ? 17 : 12} fill={big ? colors.accent : colors.text} />
 						<text x={xs[i]} y={ys[i] - 34} fontFamily={display} fontSize={big ? valueSize + 14 : valueSize} fill={colors.text} textAnchor="middle">
-							{num(value, dec)}
+							{num(value, dec, keep)}
 						</text>
 						<text x={xs[i]} y={850} fontFamily={body} fontWeight={500} fontSize={34} fill={colors.muted} textAnchor="middle">
 							{label}

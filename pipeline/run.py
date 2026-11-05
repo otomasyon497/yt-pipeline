@@ -33,6 +33,7 @@ import locator
 import maps
 import media
 import music
+import nasa_media
 import pexels
 import pixabay
 import pronounce
@@ -218,12 +219,12 @@ def prepare(slug: str) -> None:
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 shutil.copyfile(cf_images.generate(src.prompt), PUBLIC_MEDIA / media_files[u["id"]])
             elif src.type == "photo":
-                path, credit = commons.fetch(src.photo)
+                path, credit = (nasa_media.fetch if src.photo.lower().startswith("nasa:") else commons.fetch)(src.photo)
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg")
                 photo_credits.append(credit)
             elif src.type == "film":
-                path, credit = commons.fetch_video(src.film)
+                path, credit = (nasa_media.fetch_video if src.film.lower().startswith("nasa:") else commons.fetch_video)(src.film)
                 media_files[u["id"]] = f"{u['id']}.mp4"
                 media.normalize_clip(path, PUBLIC_MEDIA / media_files[u["id"]], seconds, start=src.film_start)
                 film_credits.append(credit)
@@ -279,9 +280,9 @@ def prepare(slug: str) -> None:
         if doc_credits:
             extra = ["Documents shown (public domain):", *[f"- {c}" for c in dict.fromkeys(doc_credits)], ""] + extra
         if film_credits:
-            extra = ["Archive films (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(film_credits)], ""] + extra
+            extra = ["Archive films:", *[f"- {c}" for c in dict.fromkeys(film_credits)], ""] + extra
         if photo_credits:
-            extra = ["Archive images (Wikimedia Commons):", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra
+            extra = ["Archive images:", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra
         credits.write(work / "credits.txt", clips, track, used_ai, extra)
         for warning in youtube_meta.write(work / "youtube.txt", script, timeline,
                                           (work / "credits.txt").read_text(encoding="utf-8")):

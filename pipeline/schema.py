@@ -259,8 +259,8 @@ class Shot(BaseModel):
     query: Optional[str] = None  # stock
     source: Literal["auto", "pexels", "pixabay"] = "auto"  # stock: auto = Pexels, then Pixabay if nothing fits
     prompt: Optional[str] = None  # ai_image
-    photo: Optional[str] = None  # photo: Wikimedia Commons "File:..." (public domain / CC0 / CC BY only)
-    # film: a Commons video "File:....webm" (archival film: NARA, NASA, Reclamation...; same licence rules), from
+    photo: Optional[str] = None  # photo: Wikimedia Commons "File:..." (public domain / CC0 / CC BY only) or "nasa:<nasa_id>"
+    # film: a Commons video "File:....webm" or "nasa:<nasa_id>" (archival film; same licence rules), from
     # `film_start` seconds in, as long as the shot lasts
     film: Optional[str] = None
     film_start: float = Field(0.0, ge=0)

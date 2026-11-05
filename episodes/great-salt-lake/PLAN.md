@@ -63,3 +63,11 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   "WEST DESERT PUMPING PROJECT" exactly: the document shot works as written. Roads and rail lines: UGS (R14) has
   I-80 raised up to 8 ft, the railroad causeway raised in 1983-87 and lined with 1,430 boxcars. Level chart: yearly
   highs 1963-1986 for the flood (research.md table). Open: $60 vs $65 million (R6 vs R14) in the fact-check.
+- 2026-11-05: step 5 (script) written to the new rules: 1,431 words in 8 chapters, 106 shots with beats from the
+  start (chart reveals, stat and quote cards, map steps on their words), estimated longest stretch 7.7 s. New sources:
+  USGS WRI 99-4189 (Lake Bonneville, 1963 vs 1986-87 size, 2.9 MAF inflow, killifish 1986, phalaropes 1991; R15) and
+  Owens Lake (R16). GIBS: 2026-10-10 is under cloud, the script uses 2026-10-15. Fact-check fixes: the causeway was
+  built by the Southern Pacific (R10 corrected), "diluted enough" for the 1986 killifish, "estimated" 600,000
+  phalaropes, Lake Bonneville "poured out" (not drained), the 1984 breach "during the flood". Shorter than the outline
+  (about 12 min instead of 15-16): no unsourced padding. Packaging draft (yt-package): "How the Great Salt Lake Lost
+  22 Feet" (36 chars, 100/100) + thumbnail "WHO DRAINED IT?" (98/100); the user decides at gate 2. Next: storyboard.

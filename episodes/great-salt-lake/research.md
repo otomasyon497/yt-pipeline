@@ -37,7 +37,7 @@ Sources are numbered R1... Every number in the script must trace to a line here.
   by 2055 with 800,000 extra acre-feet a year (Fox13); a resolution for a 4,198-ft goal was rejected by the legislature;
   the lake ended water year 2025 at its third-lowest level in over 120 years, about 7 ft below 4,198 (Fox13).
 
-- R10 Railroad causeway: Union Pacific, built 1956-1959 ($53 million, Utah Geological Survey "A lake divided"),
+- R10 Railroad causeway: built 1956-1959 by the Southern Pacific (Union Pacific since the 1996 merger; corrected 2026-11-05) ($53 million, Utah Geological Survey "A lake divided"),
   splits the lake into north and south arms; the Bear, Weber and Jordan rivers enter the south arm, so the north arm is
   far saltier: 317 g/L on average since 1966 against 142 g/L (PMC4671733); the north arm is pink-red from salt-loving
   microbes (USU Today; Salt Lake Tribune 2016); culverts closed 2013, breach opened 2016 (180-ft bridge).

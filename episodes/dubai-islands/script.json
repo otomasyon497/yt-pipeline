@@ -59,17 +59,6 @@
           }
          },
          {
-          "at": "a straight line",
-          "places": [
-           {
-            "name": "Dubai",
-            "lon": 55.3,
-            "lat": 25.255,
-            "kind": "city"
-           }
-          ]
-         },
-         {
           "at": "Now watch"
          }
         ]
@@ -87,50 +76,70 @@
        "map": {
         "steps": [
          {
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.15
+          },
+          "date": "2026-09-01/2026-10-20",
           "places": [
            {
             "name": "Palm Jumeirah",
-            "lon": 55.128,
-            "lat": 25.118,
+            "lon": 55.13,
+            "lat": 25.12,
             "kind": "label"
            }
           ]
          },
          {
           "at": "each several",
+          "view": {
+           "lon": 55.0,
+           "lat": 24.995,
+           "span": 0.18
+          },
           "places": [
            {
             "name": "Palm Jebel Ali",
-            "lon": 54.995,
-            "lat": 24.99,
+            "lon": 55.0,
+            "lat": 24.995,
             "kind": "label"
            }
           ]
          },
          {
           "at": "A map of the world",
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.17
+          },
           "places": [
            {
             "name": "The World",
             "lon": 55.17,
-            "lat": 25.226,
+            "lat": 25.225,
             "kind": "label"
            }
           ]
          },
          {
           "at": "to the north",
+          "view": {
+           "lon": 55.285,
+           "lat": 25.29,
+           "span": 0.15
+          },
           "places": [
            {
             "name": "Dubai Islands",
-            "lon": 55.292,
-            "lat": 25.296,
+            "lon": 55.285,
+            "lat": 25.29,
             "kind": "label"
            }
           ]
          }
-        ],
-        "keep": true
+        ]
        }
       }
      ]
@@ -147,7 +156,12 @@
           "clear": true,
           "highlight": [
            "file:newland.geojson"
-          ]
+          ],
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          }
          }
         ],
         "keep": true
@@ -391,9 +405,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          },
@@ -407,7 +421,12 @@
             "kind": "label",
             "label": "trunk"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          },
          {
           "at": "sixteen fronds",
@@ -419,23 +438,38 @@
             "kind": "label",
             "label": "16 fronds"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          },
          {
           "at": "a crescent",
           "places": [
            {
             "name": "Crescent",
-            "lon": 55.112,
-            "lat": 25.138,
+            "lon": 55.108,
+            "lat": 25.125,
             "kind": "label",
             "label": "crescent"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          },
          {
           "at": "Every frond is",
-          "clear": true
+          "clear": true,
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          },
          {
           "at": "waterfront property"
@@ -465,7 +499,12 @@
           "at": "We traced the edges",
           "highlight": [
            "file:newland.geojson"
-          ]
+          ],
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          }
          }
         ]
        },
@@ -525,9 +564,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20",
           "compare": {
@@ -551,7 +590,12 @@
             "kind": "label",
             "label": "sand sprayed into place"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          }
         ]
        },
@@ -613,16 +657,16 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20",
           "places": [
            {
             "name": "Seabed",
-            "lon": 55.1,
-            "lat": 25.15,
+            "lon": 55.105,
+            "lat": 25.13,
             "kind": "label",
             "label": "seabed sand"
            }
@@ -680,9 +724,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20",
           "places": [
@@ -725,9 +769,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          },
@@ -736,12 +780,17 @@
           "places": [
            {
             "name": "Crescent",
-            "lon": 55.112,
-            "lat": 25.138,
+            "lon": 55.108,
+            "lat": 25.125,
             "kind": "label",
             "label": "breakwater"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          }
         ]
        },
@@ -774,9 +823,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20",
           "places": [
@@ -809,9 +858,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          }
@@ -840,9 +889,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          },
@@ -857,7 +906,12 @@
             "label": "Atlantis, 2008",
             "icon": "city"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          },
          {
           "at": "a monorail",
@@ -869,7 +923,12 @@
             "kind": "label",
             "label": "monorail, 2009"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
+          }
          }
         ]
        }
@@ -915,7 +974,12 @@
             "lat": 25.226,
             "kind": "label"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          }
          }
         ]
        }
@@ -954,16 +1018,7 @@
           "at": "about three hundred"
          },
          {
-          "at": "four to six",
-          "places": [
-           {
-            "name": "Coast",
-            "lon": 55.215,
-            "lat": 25.19,
-            "kind": "label",
-            "label": "4-6 km to the coast"
-           }
-          ]
+          "at": "four to six"
          }
         ]
        },
@@ -1103,20 +1158,11 @@
        "at": "a showpiece island",
        "map": {
         "steps": [
-         {
-          "places": [
-           {
-            "name": "Greenland",
-            "lon": 55.145,
-            "lat": 25.255,
-            "kind": "label",
-            "label": "Greenland"
-           }
-          ]
-         }
+         {}
         ],
         "keep": true
-       }
+       },
+       "on_screen_text": "2011 reports: the one inhabited island, Greenland"
       }
      ]
     },
@@ -1197,8 +1243,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Palm Islands, Dubai, UAE (ASTER).jpg",
-       "on_screen_text": "Palm Jebel Ali and Palm Jumeirah, November 2008 (ASTER)"
+       "photo": "nasa:iss022e024940",
+       "on_screen_text": "Dubai's islands from orbit, January 2010"
       },
       {
        "type": "stat",
@@ -1358,7 +1404,12 @@
             "kind": "site",
             "label": "Burj Dubai"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.274,
+           "lat": 25.197,
+           "span": 0.08
+          }
          }
         ]
        }
@@ -1420,7 +1471,12 @@
             "lat": 24.99,
             "kind": "label"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.0,
+           "lat": 24.99,
+           "span": 0.16
+          }
          },
          {
           "at": "Now look"
@@ -1488,7 +1544,12 @@
             "lat": 25.296,
             "kind": "label"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.29,
+           "lat": 25.29,
+           "span": 0.12
+          }
          }
         ]
        },
@@ -1552,9 +1613,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          }
@@ -1592,9 +1653,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          }
@@ -1629,9 +1690,9 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20"
          }
@@ -1703,16 +1764,16 @@
         "steps": [
          {
           "view": {
-           "lon": 55.135,
-           "lat": 25.115,
-           "span": 0.1
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.11
           },
           "date": "2026-09-01/2026-10-20",
           "places": [
            {
             "name": "Crescent",
-            "lon": 55.112,
-            "lat": 25.138,
+            "lon": 55.108,
+            "lat": 25.125,
             "kind": "label",
             "label": "new habitat on the rocks"
            }
@@ -1917,7 +1978,12 @@
             "kind": "label",
             "label": "Heart of Europe"
            }
-          ]
+          ],
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.14
+          }
          }
         ]
        },
@@ -1995,7 +2061,12 @@
           "at": "Here is every patch",
           "highlight": [
            "file:newland.geojson"
-          ]
+          ],
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          }
          }
         ]
        },
@@ -2012,35 +2083,14 @@
        "map": {
         "steps": [
          {
-          "places": [
-           {
-            "name": "Palm Jumeirah",
-            "lon": 55.128,
-            "lat": 25.118,
-            "kind": "label"
-           },
-           {
-            "name": "Palm Jebel Ali",
-            "lon": 54.995,
-            "lat": 24.99,
-            "kind": "label"
-           },
-           {
-            "name": "The World",
-            "lon": 55.17,
-            "lat": 25.226,
-            "kind": "label"
-           },
-           {
-            "name": "Dubai Islands",
-            "lon": 55.292,
-            "lat": 25.296,
-            "kind": "label"
-           }
-          ]
+          "view": {
+           "lon": 55.13,
+           "lat": 25.12,
+           "span": 0.15
+          },
+          "date": "2026-09-01/2026-10-20"
          }
-        ],
-        "keep": true
+        ]
        }
       },
       {

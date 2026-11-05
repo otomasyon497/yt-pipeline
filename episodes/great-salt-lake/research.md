@@ -67,6 +67,31 @@ Sources are numbered R1... Every number in the script must trace to a line here.
   of canals (CLUI land use database), about 41 deg 15' N, 113 deg 4' W (University of Utah record). Utah state
   publications are not public domain: quote as clipping cards, no page shots.
 
+- R15 USGS Water-Resources Investigations Report 1999-4189, "Great Salt Lake, Utah" (fact sheet, revised April 2007),
+  public domain, https://pubs.usgs.gov/wri/wri994189/PDF/WRI99-4189.pdf (page 1 text layer usable: document shot):
+  "Great Salt Lake, the shrunken remnant of prehistoric Lake Bonneville, has no outlet."; at its average altitude
+  (4,200 ft) about 1,700 sq mi and about 33 ft deep at most; "At its lowest altitude in 1963 (4,191 feet), it was less
+  than one-half the size it reached at its historic high peak during 1986-87 (4,211 feet)"; Lake Bonneville covered
+  about 20,000 sq mi ("slightly smaller than West Virginia"), 325 by 135 miles, up to 1,000 ft deep, from about 30,000 to
+  16,000 years ago, when it cut an outlet at its northern end and flooded out; its shorelines are visible on the Wasatch
+  Mountains (Bonneville level 5,090 ft); on average 2.9 million acre-feet of water enters the lake each year; south of
+  the causeway salinity ranged 6-27 % (2 to 7 times saltier than the ocean); historic maximum 4,211.60 ft (3 Jun 1986,
+  1 and 15 Apr 1987), minimum 4,191.35 ft (15 Oct and 1 Nov 1963); 600,000 Wilson's phalaropes on one day in July 1991;
+  Western Hemisphere Shorebird Reserve Network site since 1992. Also USGS WSP 2332, "Hydrologic characteristics of the
+  Great Salt Lake, Utah: 1847-1986" (Arnow and Stephens 1990), https://pubs.usgs.gov/wsp/2332/report.pdf.
+- R16 Owens Lake, California (the comparison for dust): LADWP says its dust controls cost ratepayers more than $2.5 billion
+  and cover 48.6 sq mi, with dust emissions down 99.4 % (ladwp.com, Owens Lake page); National Academies (2020): $2.1
+  billion as of May 2019, and no method in use met the mandated air quality on its own; Salt Lake Tribune (2022-10-10):
+  until recently the lake, dried by Los Angeles's diversions, was the nation's largest source of human-caused PM10.
+  Own comparison: the Great Salt Lake's exposed bed (about 800 sq mi, R7) is about 16 times Owens Lake's controlled area
+  (800 / 48.6 = 16.5); do not scale the cost by area on screen (different soils, methods and rules).
+
+Own calculations added 2026-11-05 (R1 daily values): from 4,201.45 ft on 1 Jan 1983 to 4,211.6 ft on 3 Jun 1986 the lake
+rose 10.15 ft; in 2023 it rose from 4,189.2 ft (3 Jan) to 4,194.0 ft (20 Jun), 4.8 ft; the plan's extra million acre-feet a
+year in drought years (R9) is about a third of the average inflow (1.0 / 2.9 = 34 %, R15).
+GIBS MODIS days checked 2026-11-05 over the whole lake: 2000-09-15 clear; 2026-10-10 covered by cloud (do not use);
+2026-10-15 clear; 2026-10-08 clear over the lake.
+
 ## Levels (R1, south arm, daily means; own reading of the USGS series)
 | | Level (ft) | Date |
 |---|---|---|

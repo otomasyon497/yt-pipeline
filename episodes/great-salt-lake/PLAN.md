@@ -71,3 +71,11 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   phalaropes, Lake Bonneville "poured out" (not drained), the 1984 breach "during the flood". Shorter than the outline
   (about 12 min instead of 15-16): no unsourced padding. Packaging draft (yt-package): "How the Great Salt Lake Lost
   22 Feet" (36 chars, 100/100) + thumbnail "WHO DRAINED IT?" (98/100); the user decides at gate 2. Next: storyboard.
+- 2026-11-05: storyboard 41939995135: 10:15, 113 shots, 4 holds (8.1-9.5 s). Found: no usable Sentinel-2 day in June
+  2017, so the cold-open wipe was dropped (window now 15 May-31 Jul 2017, narration "the summer of 2017"); arrows and
+  a label in the caption band pulled two cameras out of their views (onto a 2023 Sentinel-2 mosaic and Blue Marble):
+  views widened, label moved, the canal step has its own dated view; chart values over 1,000 lost their decimals
+  (4,212 for 4,211.6: Remotion fix) and the 2025 / 2026 labels collided (the goal chart now ends on 2025); stock that
+  showed deep snow for a record-low winter, a garden hose for the pumps, a red-rock river for the lake's inflow, other
+  countries' streets, a great crested grebe for eared grebes: replaced, some by maps (the Bonneville flood, the pumps,
+  the inflow arrows). Holds fixed with a stock cut, a $240 million stat and an on-screen line. Storyboard 2 next.

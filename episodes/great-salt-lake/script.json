@@ -37,7 +37,7 @@
       "mood": "tension",
       "paragraphs": [
         {
-          "text": "This is the Great Salt Lake in June 2017: Antelope Island, and Farmington Bay to its right. Now watch the same shore in October 2026.",
+          "text": "This is the Great Salt Lake in the summer of 2017: Antelope Island, and Farmington Bay to its right. Now watch the same shore in October 2026.",
           "shots": [
             {
               "type": "map",
@@ -53,7 +53,7 @@
                     },
                     "date": "2026-10-01/2026-10-31",
                     "compare": {
-                      "before": "2017-06-01/2017-06-30",
+                      "before": "2017-05-15/2017-07-31",
                       "after": "2026-10-01/2026-10-31",
                       "seconds": 3.0,
                       "until": "Now watch"
@@ -253,9 +253,50 @@
               }
             },
             {
-              "type": "stock",
+              "type": "map",
               "at": "About 16,000 years ago",
-              "query": "waterfall canyon flood water"
+              "map": {
+                "steps": [
+                  {
+                    "focus": [
+                      [
+                        -114.4,
+                        43.3
+                      ],
+                      [
+                        -110.6,
+                        40.3
+                      ]
+                    ],
+                    "places": [
+                      {
+                        "name": "Great Salt Lake",
+                        "lon": -112.5,
+                        "lat": 41.15,
+                        "label": "GREAT SALT LAKE"
+                      }
+                    ]
+                  },
+                  {
+                    "at": "and poured out",
+                    "arrows": [
+                      {
+                        "from": [
+                          -112.1,
+                          41.95
+                        ],
+                        "to": [
+                          -112.15,
+                          42.95
+                        ],
+                        "color": "blue",
+                        "label": "about 16,000 years ago",
+                        "bend": 0.1
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               "type": "stock",
@@ -276,6 +317,11 @@
                 "note": "the record until 2021",
                 "source": "USGS gauge at Saltair (10010000)"
               }
+            },
+            {
+              "type": "stock",
+              "at": "a record low that stood",
+              "query": "dry lakeshore salt crust"
             },
             {
               "type": "chart",
@@ -319,12 +365,12 @@
             {
               "type": "stock",
               "at": 0,
-              "query": "flooded road water"
+              "query": "flooded farmland aerial"
             },
             {
               "type": "stock",
               "at": "Stretches of Interstate 80",
-              "query": "interstate highway Utah desert"
+              "query": "interstate highway salt flats"
             },
             {
               "type": "map",
@@ -370,8 +416,16 @@
             {
               "type": "stock",
               "at": "By one estimate",
-              "query": "storm waves lake shore",
-              "on_screen_text": "Flood damage 1983-87: over $240 million (1985 dollars)"
+              "query": "storm waves lake shore"
+            },
+            {
+              "type": "stat",
+              "at": "more than 240 million",
+              "stat": {
+                "value": "$240 million",
+                "label": "flood damage, 1983-87, in 1985 dollars (one estimate)",
+                "source": "Utah Geological Survey"
+              }
             }
           ]
         },
@@ -379,9 +433,30 @@
           "text": "So Utah decided to pump the lake into the desert. A federal study from July 1986 laid out the plan: a pumping station on the lake's far western shore, and canals to carry the water into a desert basin around the Newfoundland Mountains. Pumping began on April 10th, 1987.",
           "shots": [
             {
-              "type": "stock",
+              "type": "map",
               "at": 0,
-              "query": "large water pumping station pipes"
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.55,
+                      "lat": 41.15,
+                      "span": 2.4
+                    },
+                    "date": "2026-10-15",
+                    "places": [
+                      {
+                        "name": "West Desert pumps",
+                        "lon": -113.07,
+                        "lat": 41.25,
+                        "kind": "site",
+                        "icon": "water",
+                        "label": "Pumping station, 1987"
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               "type": "document",
@@ -397,7 +472,6 @@
             {
               "type": "map",
               "at": "a pumping station on",
-              "on_screen_text": "Pumping began April 10, 1987",
               "map": {
                 "steps": [
                   {
@@ -433,6 +507,17 @@
                         "color": "blue",
                         "bend": 0.15
                       }
+                    ],
+                    "date": "2026-09-01/2026-10-31",
+                    "focus": [
+                      [
+                        -113.62,
+                        41.33
+                      ],
+                      [
+                        -112.98,
+                        41.07
+                      ]
                     ]
                   },
                   {
@@ -457,6 +542,17 @@
                     ],
                     "date": "2026-09-01/2026-10-31"
                   }
+                ]
+              }
+            },
+            {
+              "type": "map",
+              "at": "Pumping began on April",
+              "on_screen_text": "Pumping began April 10, 1987",
+              "map": {
+                "keep": true,
+                "steps": [
+                  {}
                 ]
               }
             }
@@ -542,9 +638,9 @@
                 "steps": [
                   {
                     "view": {
-                      "lon": -112.25,
-                      "lat": 41.15,
-                      "span": 2.6
+                      "lon": -112.15,
+                      "lat": 41.1,
+                      "span": 3.2
                     },
                     "date": "2026-10-15"
                   },
@@ -553,12 +649,12 @@
                     "arrows": [
                       {
                         "from": [
-                          -112.05,
-                          41.75
+                          -112.1,
+                          41.62
                         ],
                         "to": [
                           -112.2,
-                          41.45
+                          41.42
                         ],
                         "color": "blue",
                         "label": "Bear River"
@@ -570,11 +666,11 @@
                     "arrows": [
                       {
                         "from": [
-                          -111.85,
+                          -111.88,
                           41.2
                         ],
                         "to": [
-                          -112.1,
+                          -112.08,
                           41.15
                         ],
                         "color": "blue",
@@ -587,12 +683,12 @@
                     "arrows": [
                       {
                         "from": [
-                          -111.9,
-                          40.45
+                          -111.93,
+                          40.66
                         ],
                         "to": [
                           -112.0,
-                          40.75
+                          40.8
                         ],
                         "color": "blue",
                         "label": "Jordan River"
@@ -720,12 +816,12 @@
             {
               "type": "stock",
               "at": 0,
-              "query": "thin snow mountains Utah winter drought"
+              "query": "brown dry hills winter"
             },
             {
               "type": "stock",
               "at": "On February 1st",
-              "query": "bare mountain slopes little snow"
+              "query": "dry cracked ground drought"
             },
             {
               "type": "stock",
@@ -876,8 +972,8 @@
                     "places": [
                       {
                         "name": "South arm",
-                        "lon": -112.62,
-                        "lat": 41.1,
+                        "lon": -112.6,
+                        "lat": 41.16,
                         "kind": "label",
                         "label": "SOUTH ARM"
                       }
@@ -1165,12 +1261,17 @@
             {
               "type": "stock",
               "at": "and a U.S. Geological",
-              "query": "dust particles in sunlight"
+              "query": "hazy air pollution city"
             },
             {
               "type": "stock",
               "at": "Atmospheric scientist Kevin Perry",
               "query": "Utah State Capitol building"
+            },
+            {
+              "type": "stock",
+              "at": "that dust levels have",
+              "query": "hazy air over city mountains"
             }
           ]
         },
@@ -1313,7 +1414,7 @@
             {
               "type": "stock",
               "at": "or wait for clearer",
-              "query": "dust storm city"
+              "query": "dust storm desert highway"
             }
           ],
           "ask": {
@@ -1363,7 +1464,7 @@
             {
               "type": "stock",
               "at": "and up to five million",
-              "query": "grebe swimming lake"
+              "query": "flock of water birds on lake"
             },
             {
               "type": "stock",
@@ -1529,21 +1630,16 @@
                   [
                     "2025",
                     4191.0
-                  ],
-                  [
-                    "2026",
-                    4189.4
                   ]
                 ],
                 "source": "USGS gauge at Saltair; 2026 provisional",
-                "highlight": 6,
+                "highlight": 5,
                 "ref": [
                   4198,
                   "4,198 ft: the low end of the goal"
                 ],
                 "reveal": [
-                  "at its third-lowest level",
-                  "From October's low"
+                  "at its third-lowest level"
                 ]
               }
             },
@@ -1573,9 +1669,58 @@
               }
             },
             {
-              "type": "stock",
+              "type": "map",
               "at": "a third on top of",
-              "query": "river flowing into lake Utah"
+              "map": {
+                "steps": [
+                  {
+                    "view": {
+                      "lon": -112.15,
+                      "lat": 41.1,
+                      "span": 3.2
+                    },
+                    "date": "2026-10-15",
+                    "arrows": [
+                      {
+                        "from": [
+                          -112.1,
+                          41.62
+                        ],
+                        "to": [
+                          -112.2,
+                          41.42
+                        ],
+                        "color": "blue",
+                        "label": "Bear River"
+                      },
+                      {
+                        "from": [
+                          -111.88,
+                          41.2
+                        ],
+                        "to": [
+                          -112.08,
+                          41.15
+                        ],
+                        "color": "blue",
+                        "label": "Weber River"
+                      },
+                      {
+                        "from": [
+                          -111.93,
+                          40.66
+                        ],
+                        "to": [
+                          -112.0,
+                          40.8
+                        ],
+                        "color": "blue",
+                        "label": "Jordan River"
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               "type": "chart",
@@ -1601,7 +1746,7 @@
             {
               "type": "stock",
               "at": "A strike team of",
-              "query": "scientists field work lake shore"
+              "query": "scientist taking water sample"
             },
             {
               "type": "stat",
@@ -1640,7 +1785,7 @@
             {
               "type": "stock",
               "at": "Critics told KSL",
-              "query": "lawn sprinklers suburb"
+              "query": "lawn sprinkler watering grass"
             },
             {
               "type": "stock",

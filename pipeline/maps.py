@@ -407,7 +407,10 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
         if frame_items and not _inside_safe(_bounds_of(frame_items), target, plan.captions, slack=0.0):
             # Content wins over a hand-picked view: every arrow, route, area and marker of this step must show from
             # start to end, so zoom out around them and keep the middle of the requested view.
-            target = fit(union_box([_bounds_of(frame_items), view_box(target, 0.4)]), plan.captions, _span_for(frame_items))
+            # The hand-picked span is the zoom floor: _span_for's 2-degree floor (meant for countries) would throw
+            # away a close view of a small area that only just misses the safe box.
+            target = fit(union_box([_bounds_of(frame_items), view_box(target, 0.4)]), plan.captions,
+                         min(_span_for(frame_items), step.view.span))
     elif step.world:
         target = dict(WORLD)
     elif step.focus:

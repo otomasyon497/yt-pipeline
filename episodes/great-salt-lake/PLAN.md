@@ -79,3 +79,7 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   showed deep snow for a record-low winter, a garden hose for the pumps, a red-rock river for the lake's inflow, other
   countries' streets, a great crested grebe for eared grebes: replaced, some by maps (the Bonneville flood, the pumps,
   the inflow arrows). Holds fixed with a stock cut, a $240 million stat and an on-screen line. Storyboard 2 next.
+- 2026-11-05: storyboard 41951394514: 10:16, no holds, no mixed-day notes; chart decimals, river arrows, causeway
+  labels and the new maps confirmed. The cold-open wipe was dropped again (no usable Sentinel-2 day in 15 May-31 Jul
+  2017 either, one satellite then): the before image is now spring 2024 (lake high 4,195.2 ft on 7 May 2024, close to
+  2017's 4,195.5), narration "in the spring of 2024". Full render next (thumbnails on).

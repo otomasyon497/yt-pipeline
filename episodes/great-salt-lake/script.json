@@ -9,7 +9,8 @@
     "Levels: USGS 10010000 daily means [R1] (provisional after mid-2025): 4,189.4 ft on 10 Oct 2026, 4,188.5 ft on 7 Nov 2022, 4,190.0 ft on 3 Nov 2026, 4,211.6 ft on 3 Jun 1986, 4,191.35 ft on 15 Oct 1963; mid-August 4,190.4 [R2].",
     "Own calculations: 0.9 ft above the record; +10.15 ft from 1 Jan 1983 to 3 Jun 1986; +4.8 ft Jan-Jun 2023; 8.6 ft to 4,198; a million acre-feet = a third of the 2.9 MAF average inflow [R15]; 800 / 48.6 = 16.5 [R7][R16].",
     "Flood and pumps: UGS [R14] (I-80 up to 8 ft, 1,430 railroad cars, >$240 million in 1985 dollars, 2.7 MAF pumped 10 Apr 1987-30 Jun 1989, 1984 breach near Lakeside); cost about $60 million [R6] (UGS: some $65 million); BLM FEIS July 1986 [R13]; killifish from Timpie Springs 1986 and Lake Bonneville [R15].",
-    "Causes: Wurtsbaugh et al. 2017 [R5]; 2026 snowpack [R12]. Causeway and salinity [R10]. Economy [R8]. Birds [R11][R15]. Dust: [R7] both sides; Owens Lake [R16]. Policy: [R9][R12]. 2027 'unavoidable' [R3]."
+    "Causes: Wurtsbaugh et al. 2017 [R5]; 2026 snowpack [R12]. Causeway and salinity [R10]. Economy [R8]. Birds [R11][R15]. Dust: [R7] both sides; Owens Lake [R16]. Policy: [R9][R12]. 2027 'unavoidable' [R3].",
+    "Cold open: no usable Sentinel-2 day over the Farmington Bay box in June or 15 May-31 Jul 2017 (one satellite then); spring 2024 instead (high 4,195.2 ft on 7 May 2024 [R1], close to 2017's 4,195.5 ft)."
   ],
   "thumbnail": {
     "text": "WHO DRAINED IT?",
@@ -37,7 +38,7 @@
       "mood": "tension",
       "paragraphs": [
         {
-          "text": "This is the Great Salt Lake in the summer of 2017: Antelope Island, and Farmington Bay to its right. Now watch the same shore in October 2026.",
+          "text": "This is the Great Salt Lake in the spring of 2024: Antelope Island, and Farmington Bay to its right. Now watch the same shore in October 2026.",
           "shots": [
             {
               "type": "map",
@@ -53,7 +54,7 @@
                     },
                     "date": "2026-10-01/2026-10-31",
                     "compare": {
-                      "before": "2017-05-15/2017-07-31",
+                      "before": "2024-04-15/2024-06-10",
                       "after": "2026-10-01/2026-10-31",
                       "seconds": 3.0,
                       "until": "Now watch"

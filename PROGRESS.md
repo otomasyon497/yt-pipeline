@@ -18,7 +18,9 @@
   5. 3D terrain flyover (DEM + satellite texture, three.js in Remotion).
   6. Demo episode exercising all of them, then the user's review (gate).
 - Log: step 1 done (commit 50750be): schema rejects stock / ai_image unless `legacy_stock` (set on the 8 older
-  episodes that used them); docs/script-rules.md "Real pictures only". Next: step 2 (tools/find_media.py).
+  episodes that used them); docs/script-rules.md "Real pictures only".
+- Log: step 2 done: tools/find_media.py (Commons, NASA, Internet Archive; the Library of Congress API answers 403
+  from the PC) and `nasa:<id>` photo / film sources (pipeline/nasa_media.py). Next: step 3 (Landsat compare).
 
 ## Colorado River v2 (2026-11-05)
 - Why: the user found v1's transitions heavy and preferred the feature-demo's pace.

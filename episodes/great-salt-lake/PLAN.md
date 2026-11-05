@@ -83,3 +83,11 @@ narration at 1.08 with the shorter pauses (config, 2026-11-04).
   labels and the new maps confirmed. The cold-open wipe was dropped again (no usable Sentinel-2 day in 15 May-31 Jul
   2017 either, one satellite then): the before image is now spring 2024 (lake high 4,195.2 ft on 7 May 2024, close to
   2017's 4,195.5), narration "in the spring of 2024". Full render next (thumbnails on).
+- 2026-11-05: final render 41954095729: 10:15.7, 1080p24, -14.5 LUFS, true peak -0.4 dBTP, 117 shots, no hold or map
+  notes; release ep-great-salt-lake-41954095729 downloaded to Videos\yt-pipeline\great-salt-lake (thumbnail D: the
+  2024 | 2026 split with "WHO DRAINED IT?"). Checked in the MP4: the June 2024 image holds through the Antelope Island
+  and Farmington Bay labels and wipes on "October 2026"; pumps, canal and Newfoundland steps, river arrows (camera
+  stays put), causeway labels, Owens Lake aqueduct arrow, closing map; replaced stock shows the right things. Known
+  small flaws: in the closing map the Cache Valley farms badge sits under the question card (move it to the Bear River
+  Valley), and in the goal chart the 4,198-ft reference label touches the 2005 value label. Waiting for the user
+  (gate 2); fix the two with any feedback in one more render.

@@ -20,7 +20,10 @@
 - Log: step 1 done (commit 50750be): schema rejects stock / ai_image unless `legacy_stock` (set on the 8 older
   episodes that used them); docs/script-rules.md "Real pictures only".
 - Log: step 2 done: tools/find_media.py (Commons, NASA, Internet Archive; the Library of Congress API answers 403
-  from the PC) and `nasa:<id>` photo / film sources (pipeline/nasa_media.py). Next: step 3 (Landsat compare).
+  from the PC) and `nasa:<id>` photo / film sources (pipeline/nasa_media.py).
+- Log: step 3 done: compare source "landsat" (pipeline/landsat.py); test: Great Salt Lake on 2 Aug 1986 (Landsat 5,
+  the flood: Antelope Island ringed by water, Farmington Bay full) against 27 Oct 2026 (Landsat 9, the bay a salt
+  flat). Next: step 4 (profile shot).
 
 ## Colorado River v2 (2026-11-05)
 - Why: the user found v1's transitions heavy and preferred the feature-demo's pace.

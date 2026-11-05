@@ -29,6 +29,7 @@ import cf_images
 import commons
 import credits
 import documents
+import landsat
 import locator
 import maps
 import media
@@ -276,6 +277,8 @@ def prepare(slug: str) -> None:
         media.mix_audio(work / "narration.wav", track, total_sec, work / "audio_mix.m4a", effects, music_gain_db=gain)
         if sentinel.credit():  # once, after all map blocks (per-block lines repeated it with fewer years)
             extra_credits.add(sentinel.credit())
+        if landsat.credit():
+            extra_credits.add(landsat.credit())
         extra = sorted(extra_credits) if any(u["kind"] == "map" for u in lay["units"]) else []
         if doc_credits:
             extra = ["Documents shown (public domain):", *[f"- {c}" for c in dict.fromkeys(doc_credits)], ""] + extra

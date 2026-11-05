@@ -170,7 +170,8 @@ class Compare(BaseModel):
     after: str
     # sentinel-2: 10 m, from 2016, close views (up to ~2 degrees). modis: NASA MODIS Terra, 250 m, any day since
     # 2000, wide views (a whole bay or coast); give one hand-checked cloud-free day per side.
-    source: Literal["sentinel-2", "modis"] = "sentinel-2"
+    # landsat: 30 m, 1982 on (Landsat 4-9), one clear day per side: for wipes back to the 1980s and 1990s.
+    source: Literal["sentinel-2", "modis", "landsat"] = "sentinel-2"
     label_before: Optional[str] = None  # default: month and year of the scenes used, e.g. "MARCH 2020"
     label_after: Optional[str] = None
     hold: Optional[float] = Field(None, ge=0, le=12)  # seconds on 'before'; None = until the shot's next map step

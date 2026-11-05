@@ -21,6 +21,7 @@ from shapely.geometry import shape
 import bathy
 import geo
 import gibs
+import landsat
 import sentinel
 from config import CACHE_DIR, FPS, HEIGHT, LABEL_INSET, MAP_DRIFT, MAP_SAFE, UI_SCALE, WIDTH
 
@@ -900,6 +901,8 @@ def _compare_images(item: dict, block_id: str, n: int, out_dir: Path, plan: Plan
                 if r:
                     r["dates"] = [item[side]]
                     plan.credits.add(gibs.MODIS_CREDIT)
+            elif source == "landsat":  # 30 m, back to 1982: one day per side
+                r = landsat.mosaic(bx, round(1.5 * WIDTH), out, item[side], gibs._feather)
             else:
                 r = sentinel.mosaic(bx, round(1.5 * WIDTH), out, item[side], gibs._feather, None)
                 if r:

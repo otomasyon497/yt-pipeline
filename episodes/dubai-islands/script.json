@@ -1,0 +1,2078 @@
+{
+ "title": "Out of the Sea",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "Every claim is checked against episodes/dubai-islands/research.md (R1-R7).",
+  "Own measurement R1: Landsat 7 22 May 2001 vs Landsat 8 24 Sep 2026, NDWI > 0 water; 62.7 km2 became land, 4.9 km2 water, net ~58 km2 (tools/dubai_numbers.py). Manhattan ~59 km2 land.",
+  "Own calculation: 92,234,000 m3 / (105 m x 68 m) = 12.9 km.",
+  "Landsat days used: 2001-05-22, 2003-05-28, 2008-05-17, 2008-10-08, 2022-10-23, 2026-09-24 (tested 2026-11-06)."
+ ],
+ "thumbnail": {
+  "text": "OUT OF THE SEA"
+ },
+ "youtube": {
+  "title": "How Dubai Built a Manhattan Out of the Sea",
+  "description": "In May 2001 the coast of Dubai was a straight line of sand. By September 2026 it had two palm-shaped islands, a map of the world made of about 300 islands, and a fourth archipelago. We measured the new land ourselves from Landsat images: about 58 square kilometres, roughly the size of Manhattan. How it was built, the 2009 debt crisis that froze it, whether it is sinking, and why the building has started again.\n\nReal Landsat and Copernicus Sentinel-2 images, NASA astronaut photographs and our own measurements.",
+  "tags": [
+   "Dubai",
+   "Palm Jumeirah",
+   "Palm Jebel Ali",
+   "The World islands",
+   "artificial islands",
+   "land reclamation",
+   "satellite images",
+   "before and after",
+   "Landsat",
+   "Dubai World debt crisis"
+  ],
+  "pinned_comment": "Would you live on land that was open sea 25 years ago? Yes, no, or only on the first palm?"
+ },
+ "chapters": [
+  {
+   "title": "Land From the Sea",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This is the coast of Dubai on May 22nd, 2001: a straight line of sand, and open sea. Now watch the same coast in September 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20",
+          "compare": {
+           "before": "2001-05-22",
+           "after": "2026-09-24",
+           "source": "landsat",
+           "seconds": 3.2,
+           "until": "Now watch"
+          }
+         },
+         {
+          "at": "a straight line",
+          "places": [
+           {
+            "name": "Dubai",
+            "lon": 55.3,
+            "lat": 25.255,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": "Now watch"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Landsat 7 and Landsat 8"
+      }
+     ]
+    },
+    {
+     "text": "Two palm trees, each several kilometres across. A map of the world, made of about three hundred islands. And to the north, a fourth group of islands, still mostly empty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Palm Jumeirah",
+            "lon": 55.128,
+            "lat": 25.118,
+            "kind": "label"
+           }
+          ]
+         },
+         {
+          "at": "each several",
+          "places": [
+           {
+            "name": "Palm Jebel Ali",
+            "lon": 54.995,
+            "lat": 24.99,
+            "kind": "label"
+           }
+          ]
+         },
+         {
+          "at": "A map of the world",
+          "places": [
+           {
+            "name": "The World",
+            "lon": 55.17,
+            "lat": 25.226,
+            "kind": "label"
+           }
+          ]
+         },
+         {
+          "at": "to the north",
+          "places": [
+           {
+            "name": "Dubai Islands",
+            "lon": 55.292,
+            "lat": 25.296,
+            "kind": "label"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "We measured it ourselves. Comparing the two satellite images, about 58 square kilometres of new land has appeared off this coast in 25 years. That is roughly the land area of Manhattan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "clear": true,
+          "highlight": [
+           "file:newland.geojson"
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "New land since May 2001 · our measurement"
+      },
+      {
+       "type": "stat",
+       "at": "about 58",
+       "stat": {
+        "value": "≈ 58 km²",
+        "label": "of new land off Dubai, May 2001 to September 2026",
+        "note": "Roughly the land area of Manhattan (about 59 km²)",
+        "source": "Our measurement: Landsat 7 and 8 water masks, ±10 %"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "roughly the land area",
+       "stat": {
+        "value": "≈ Manhattan",
+        "label": "about 59 km² of land, for comparison",
+        "source": "US Census Bureau"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It was built from sand pumped off the seabed and rock from sixteen quarries. It survived a debt crisis that nearly broke the city. And now, after more than a decade of silence, the second palm is being built again.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss006e35516",
+       "on_screen_text": "March 2003: the first palm, still bare sand"
+      },
+      {
+       "type": "photo",
+       "at": "It survived",
+       "photo": "nasa:iss069e084252",
+       "on_screen_text": "Dubai at night, 2023"
+      },
+      {
+       "type": "map",
+       "at": "And now",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.0,
+           "lat": 24.99,
+           "span": 0.16
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Palm Jebel Ali",
+            "lon": 54.995,
+            "lat": 24.99,
+            "kind": "label"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So is this the boldest engineering of the century, or the most expensive sandcastle ever built? To answer that, you have to start with what Dubai was running out of.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss074e0825656",
+       "on_screen_text": "July 2026, from the International Space Station"
+      },
+      {
+       "type": "title_card",
+       "at": "To answer that",
+       "on_screen_text": "OUT OF THE SEA",
+       "subtitle": "How Dubai built new land, and what it cost"
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Boldest engineering of the century, or a very expensive sandcastle?"
+     }
+    }
+   ],
+   "card": false
+  },
+  {
+   "title": "Seventy-Two Kilometres of Beach",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "It was not sand. It was oil. Dubai's oil output peaked in the early 1990s, at roughly 410,000 barrels a day, and it has been falling ever since.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "focus": [
+           "United Arab Emirates"
+          ],
+          "places": [
+           {
+            "name": "Dubai",
+            "lon": 55.3,
+            "lat": 25.255,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Dubai, United Arab Emirates"
+      },
+      {
+       "type": "stat",
+       "at": "peaked in",
+       "stat": {
+        "value": "410,000",
+        "label": "barrels a day: Dubai's oil output at its peak, around 1991",
+        "note": "Another source gives 450,000 in 1995",
+        "source": "Gulf News, Dubai oil timeline"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One estimate puts it at 50 to 70 thousand barrels a day today. By 2016, oil and gas made up only about one percent of the emirate's economy.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "50-70,000",
+        "label": "barrels a day today (estimate)",
+        "source": "MEED"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By 2016",
+       "stat": {
+        "value": "about 1.3 %",
+        "label": "of Dubai's economy came from oil and gas in 2016",
+        "source": "Oxford Business Group"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Dubai had bet its future on trade, flights and tourists instead. But a tourist city needs beaches, and Dubai had only about 72 kilometres of natural shoreline.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss022e024940",
+       "on_screen_text": "Dubai from orbit, January 2010"
+      },
+      {
+       "type": "map",
+       "at": "But a tourist city",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Natural shoreline",
+            "lon": 55.205,
+            "lat": 25.16,
+            "kind": "label",
+            "label": "72 km of natural coast"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "About 72 km of natural shoreline"
+      }
+     ]
+    },
+    {
+     "text": "And the city was filling up fast. In 2000, Dubai had fewer than a million residents. On September 8th, 2025, its official population clock passed four million.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "under 1 million",
+        "label": "Dubai residents in 2000",
+        "source": "Dubai Statistics Center, via Gulf News / Khaleej Times"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On September 8th",
+       "stat": {
+        "value": "4,006,656",
+        "label": "residents on 8 September 2025: the four-million mark",
+        "source": "Dubai Statistics Center population clock, via Gulf News"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The answer was to draw new coastline in the shape of a palm tree. A trunk, sixteen fronds and a crescent around them. Every frond is a long, thin beach, and every beach is waterfront property.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "A trunk",
+          "places": [
+           {
+            "name": "Trunk",
+            "lon": 55.142,
+            "lat": 25.105,
+            "kind": "label",
+            "label": "trunk"
+           }
+          ]
+         },
+         {
+          "at": "sixteen fronds",
+          "places": [
+           {
+            "name": "Fronds",
+            "lon": 55.128,
+            "lat": 25.124,
+            "kind": "label",
+            "label": "16 fronds"
+           }
+          ]
+         },
+         {
+          "at": "a crescent",
+          "places": [
+           {
+            "name": "Crescent",
+            "lon": 55.112,
+            "lat": 25.138,
+            "kind": "label",
+            "label": "crescent"
+           }
+          ]
+         },
+         {
+          "at": "Every frond is",
+          "clear": true
+         },
+         {
+          "at": "waterfront property"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "How much beach does that shape buy? We traced the edges of all the new islands in the 2026 satellite image. Around their edges, they add more than 500 kilometres of shoreline. Dubai started with 72.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "We traced the edges",
+          "highlight": [
+           "file:newland.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Our measurement: the outlines of the new land"
+      },
+      {
+       "type": "stat",
+       "at": "they add",
+       "stat": {
+        "value": "500+ km",
+        "label": "of new shoreline around the islands, by our rough count",
+        "note": "Pixel-traced outlines (657 km) overstate a little; the natural coast is about 72 km",
+        "source": "Our measurement, Landsat 8, 24 Sep 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Construction started in June 2001. In March 2003, an astronaut on the International Space Station photographed the palm while it was still bare sand.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "June 2001",
+        "label": "Palm Jumeirah's land reclamation begins",
+        "source": "Nakheel"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In March 2003",
+       "photo": "nasa:iss006e35516",
+       "on_screen_text": "Palm Jumeirah, 5 March 2003"
+      },
+      {
+       "type": "photo",
+       "at": "while it was still",
+       "photo": "File:Palm Island Resort.jpg",
+       "on_screen_text": "Palm Jumeirah under construction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How to Build an Island",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Every grain of it came from the bottom of the Gulf. Dredging ships sucked the sand up offshore and sprayed it towards the shape in high arcs, a technique engineers call rainbowing.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20",
+          "compare": {
+           "before": "2001-05-22",
+           "after": "2003-05-28",
+           "source": "landsat",
+           "seconds": 3.0,
+           "until": "Dredging ships"
+          }
+         },
+         {
+          "at": "Dredging ships"
+         },
+         {
+          "at": "sprayed it towards",
+          "places": [
+           {
+            "name": "Sand",
+            "lon": 55.13,
+            "lat": 25.135,
+            "kind": "label",
+            "label": "sand sprayed into place"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "May 2001 to May 2003"
+      },
+      {
+       "type": "stat",
+       "at": "rainbowing",
+       "stat": {
+        "value": "rainbowing",
+        "label": "dredgers spraying sand into place in high arcs",
+        "source": "Memorial University, engineering review"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Why not use the desert, which is right next door? Because wind-blown desert sand is the wrong kind. Its grains are worn round by the wind, and round grains do not lock together. Builders need the angular sand found underwater.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.4,
+           "lat": 25.0,
+           "span": 0.6
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Desert",
+            "lon": 55.55,
+            "lat": 24.95,
+            "kind": "label",
+            "label": "desert sand"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Desert sand: grains rounded by the wind"
+      },
+      {
+       "type": "stat",
+       "at": "Its grains are worn",
+       "stat": {
+        "value": "rounded grains",
+        "label": "don't lock together, so desert sand is poor for building",
+        "source": "UNEP 2014 sand report, as reported; geologists quoted there"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Builders need",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Seabed",
+            "lon": 55.1,
+            "lat": 25.15,
+            "kind": "label",
+            "label": "seabed sand"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "More than ninety million cubic metres went into this one island. Piled on a football pitch, that sand would make a column about thirteen kilometres high, higher than airliners fly.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "92 million m³",
+        "label": "of sand in Palm Jumeirah (developer's figure)",
+        "note": "Other sources: 94 to 120 million",
+        "source": "Archived Palm Jumeirah website"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Piled on",
+       "stat": {
+        "value": "about 13 km",
+        "label": "high: that sand piled on one football pitch",
+        "note": "92.2 million m³ ÷ (105 m × 68 m)",
+        "source": "Our calculation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Loose sand under water is not ground you can build a villa on. So the engineers pushed vibrating probes into it and jetted water through, shaking the grains until they packed tightly together. The method is called vibro-compaction.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Palm Island Resort.jpg",
+       "on_screen_text": "Palm Jumeirah under construction"
+      },
+      {
+       "type": "map",
+       "at": "So the engineers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Fronds",
+            "lon": 55.128,
+            "lat": 25.124,
+            "kind": "label",
+            "label": "compacted sand"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "shaking the grains",
+       "photo": "nasa:iss006e35516",
+       "on_screen_text": "Palm Jumeirah, March 2003"
+      },
+      {
+       "type": "stat",
+       "at": "The method",
+       "stat": {
+        "value": "vibro-compaction",
+        "label": "vibrating probes and water jets pack the sand",
+        "source": "Memorial University, engineering review"
+       }
+      }
+     ]
+    },
+    {
+     "text": "To protect the palm from waves, they wrapped it in a crescent breakwater, built from roughly seven million tonnes of rock brought in from sixteen quarries.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "a crescent breakwater",
+          "places": [
+           {
+            "name": "Crescent",
+            "lon": 55.112,
+            "lat": 25.138,
+            "kind": "label",
+            "label": "breakwater"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "About 7 million tonnes of rock"
+      },
+      {
+       "type": "stat",
+       "at": "seven million tonnes",
+       "stat": {
+        "value": "7 million t",
+        "label": "of rock in the breakwater, from 16 quarries",
+        "source": "Engineering and press summaries"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then the first big problem appeared. The crescent was built as one closed wall, and inside it the water stopped moving. The lagoons between the fronds began to go stagnant.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss040e125332",
+       "on_screen_text": "Palm Jumeirah from orbit, 2014"
+      },
+      {
+       "type": "map",
+       "at": "inside it the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Lagoons",
+            "lon": 55.13,
+            "lat": 25.122,
+            "kind": "label",
+            "label": "stagnant lagoons"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The lagoons",
+       "photo": "nasa:iss040e125332"
+      }
+     ]
+    },
+    {
+     "text": "The fix was to cut two openings into the crescent, each about a hundred metres wide. With the tide flowing through them, the water inside is now renewed in about two weeks.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "Two ~100 m openings in the breakwater"
+      },
+      {
+       "type": "stat",
+       "at": "With the tide",
+       "stat": {
+        "value": "13-14 days",
+        "label": "for the water inside the crescent to renew",
+        "source": "Memorial University, engineering review"
+       }
+      }
+     ]
+    },
+    {
+     "text": "At the top of the palm, a resort called Atlantis opened in September 2008. In April 2009, a monorail started carrying passengers up the trunk, the first in the Middle East.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "a resort called Atlantis",
+          "places": [
+           {
+            "name": "Atlantis",
+            "lon": 55.117,
+            "lat": 25.131,
+            "kind": "site",
+            "label": "Atlantis, 2008",
+            "icon": "city"
+           }
+          ]
+         },
+         {
+          "at": "a monorail",
+          "places": [
+           {
+            "name": "Monorail",
+            "lon": 55.137,
+            "lat": 25.112,
+            "kind": "label",
+            "label": "monorail, 2009"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "By the end of 2006, five years after the first sand was pumped, the first residents moved in. But the palm was only the opening act. A few kilometres further out, Dubai had started something far larger.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Palm Jumeirah from Dubai Marina.jpg",
+       "on_screen_text": "Palm Jumeirah from Dubai Marina, 2016"
+      },
+      {
+       "type": "map",
+       "at": "But the palm",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Palm Jumeirah",
+            "lon": 55.128,
+            "lat": 25.118,
+            "kind": "label"
+           }
+          ]
+         },
+         {
+          "at": "A few kilometres",
+          "places": [
+           {
+            "name": "The World",
+            "lon": 55.17,
+            "lat": 25.226,
+            "kind": "label"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The World",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Work on The World began in 2003: about three hundred islands, arranged as a map of the continents, four to six kilometres off the coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.14
+          },
+          "compare": {
+           "before": "2003-05-28",
+           "after": "2008-05-17",
+           "source": "landsat",
+           "seconds": 3.2,
+           "until": "about three hundred"
+          }
+         },
+         {
+          "at": "about three hundred"
+         },
+         {
+          "at": "four to six",
+          "places": [
+           {
+            "name": "Coast",
+            "lon": 55.215,
+            "lat": 25.19,
+            "kind": "label",
+            "label": "4-6 km to the coast"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "May 2003 to May 2008"
+      }
+     ]
+    },
+    {
+     "text": "It took about three hundred and twenty million cubic metres of sand, three and a half times as much as the first palm.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Sand used",
+        "unit": "million m³",
+        "data": [
+         [
+          "Palm Jumeirah",
+          92
+         ],
+         [
+          "The World",
+          320
+         ]
+        ],
+        "reveal": [
+         "three hundred and twenty"
+        ],
+        "source": "Palm Jumeirah website (archived); NASA Earth Observatory / Nakheel",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "stat",
+       "at": "three and a half times",
+       "stat": {
+        "value": "3.5×",
+        "label": "as much sand as Palm Jumeirah",
+        "note": "320 ÷ 92",
+        "source": "Our calculation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Around it runs a breakwater about twenty-seven kilometres long, made of some thirty-seven million tonnes of rock, according to NASA. The last stone was laid on January 10th, 2008.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Artificial Archipelagos, Dubai, United Arab Emirates ISS022-E-024940 lrg (cropped to The World).jpg",
+       "on_screen_text": "The World from orbit, January 2010"
+      },
+      {
+       "type": "stat",
+       "at": "thirty-seven million",
+       "stat": {
+        "value": "37 million t",
+        "label": "of rock in a 27-km breakwater",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The last stone",
+       "stat": {
+        "value": "10 January 2008",
+        "label": "the last stone of The World's breakwater",
+        "source": "Nakheel; NASA Earth Observatory"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The plan was to sell the islands one by one, to developers and to the very rich: your own island, a short boat ride from the city.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dubai 2011-03-23 – The World – Artificial Islands – America, Atlantic and Africa - العالم - الجزر الاصطناعية - الأمريكية ، والمحيط الأطلسي وأفريقيا - panoramio.jpg",
+       "on_screen_text": "The World, 2011"
+      },
+      {
+       "type": "photo",
+       "at": "your own island",
+       "photo": "File:Looking out over Dubais The World artificial islands (5373745497).jpg",
+       "on_screen_text": "Looking out over The World, 2010"
+      }
+     ],
+     "ask": {
+      "at": "your own island",
+      "text": "Would you buy your own empty island a boat ride from Dubai?"
+     }
+    },
+    {
+     "text": "By 2011, Nakheel said about seventy percent of the islands had been sold. But reports at the time said that all but one were still uninhabited, and that one was a showpiece island owned by the ruler of Dubai: Greenland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.14
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "2011: about 70 % sold"
+      },
+      {
+       "type": "stat",
+       "at": "about seventy percent",
+       "stat": {
+        "value": "about 70 %",
+        "label": "of The World's islands sold by 2011, Nakheel said",
+        "source": "Nakheel, via 2011 reports"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "all but one",
+       "stat": {
+        "value": "1 of 300",
+        "label": "islands inhabited, according to 2011 reports",
+        "source": "2011 press reports (TravelMole, The National)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "a showpiece island",
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Greenland",
+            "lon": 55.145,
+            "lat": 25.255,
+            "kind": "label",
+            "label": "Greenland"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "That same year, a company with a contract on the islands told a Dubai tribunal that The World was eroding, slowly falling back into the sea. The tribunal rejected the claim. Nakheel said its own surveys had found no erosion that needed new sand.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dubai 2011-03-23 – The World – Artificial Islands – America, Atlantic and Africa - العالم - الجزر الاصطناعية - الأمريكية ، والمحيط الأطلسي وأفريقيا - panoramio.jpg",
+       "on_screen_text": "The World, 2011"
+      },
+      {
+       "type": "map",
+       "at": "told a Dubai tribunal",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.14
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "The claim: the islands are eroding"
+      },
+      {
+       "type": "stat",
+       "at": "The tribunal rejected",
+       "stat": {
+        "value": "Jan 2011",
+        "label": "a tribunal rejects the claim that The World is eroding",
+        "source": "The National; Nakheel statement"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Nakheel said",
+       "photo": "File:Looking out over Dubais The World artificial islands (5373745497).jpg",
+       "on_screen_text": "The World, 2010"
+      }
+     ]
+    },
+    {
+     "text": "Most of them are still empty today. And the reason has very little to do with sand.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.14
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "The World, September 2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Crash",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "By 2008, Dubai's developers had borrowed heavily to build. Then the global financial crisis hit, and buyers vanished.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Palm Islands, Dubai, UAE (ASTER).jpg",
+       "on_screen_text": "Palm Jebel Ali and Palm Jumeirah, November 2008 (ASTER)"
+      }
+     ]
+    },
+    {
+     "text": "On November 25th, 2009, the state-owned group Dubai World asked its creditors for a standstill: a pause on about 26 billion dollars of debt, most of it linked to Nakheel, the company building the islands.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Dubai World",
+        "label": "asks creditors to pause its debts, 25 November 2009",
+        "source": "MEED; Euromoney"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about 26 billion",
+       "stat": {
+        "value": "$26 billion",
+        "label": "of debt Dubai World asked to pause",
+        "note": "Some reports: $25 billion",
+        "source": "MEED; Euromoney"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "most of it linked",
+       "stat": {
+        "value": "Nakheel",
+        "label": "the state-owned developer of the islands, part of Dubai World"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nakheel had an Islamic bond worth three and a half billion dollars falling due on December 14th. Markets waited to see whether Dubai would default.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$3.52 billion",
+        "label": "Nakheel's Islamic bond, due 14 December 2009",
+        "source": "Euromoney; MEED"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Markets waited",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "14 December 2009: default or rescue?"
+      }
+     ]
+    },
+    {
+     "text": "On that same day, neighbouring Abu Dhabi stepped in with 10 billion dollars. About four billion of it went straight to repay Nakheel's bond.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "focus": [
+           "United Arab Emirates"
+          ],
+          "places": [
+           {
+            "name": "Abu Dhabi",
+            "lon": 54.37,
+            "lat": 24.45,
+            "kind": "capital"
+           },
+           {
+            "name": "Dubai",
+            "lon": 55.3,
+            "lat": 25.255,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": "10 billion",
+          "arrows": [
+           {
+            "from": [
+             54.37,
+             24.45
+            ],
+            "to": [
+             55.25,
+             25.2
+            ],
+            "color": "accent",
+            "label": "$10 billion",
+            "bend": 0.2
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "About four billion",
+       "stat": {
+        "value": "$4.1 billion",
+        "label": "of Abu Dhabi's $10 billion repaid the bond that day",
+        "source": "Reuters, via contemporary reports"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Three weeks later, Dubai opened the tallest building in the world. Until the ceremony it was called Burj Dubai. On the day, it was renamed Burj Khalifa, after the ruler of Abu Dhabi.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.274,
+           "lat": 25.197,
+           "span": 0.08
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "Until the ceremony",
+          "places": [
+           {
+            "name": "Burj Dubai",
+            "lon": 55.2744,
+            "lat": 25.1972,
+            "kind": "site",
+            "label": "Burj Dubai"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "renamed",
+       "stat": {
+        "value": "4 January 2010",
+        "label": "Burj Dubai opens as Burj Khalifa",
+        "source": "NBC News; Christian Science Monitor"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In parts of the city, property prices had fallen by nearly half in a year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "nearly half",
+        "label": "fall in property prices in parts of Dubai, 2009",
+        "source": "Reports at the time (Mail & Guardian, AP)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Dubai was rescued. Its islands were not. Work on the second palm, Palm Jebel Ali, stopped. Its sand was already in place in May 2008. Now look at the same palm in October 2022.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.0,
+           "lat": 24.99,
+           "span": 0.16
+          },
+          "date": "2022-10-01/2022-11-30",
+          "compare": {
+           "before": "2008-05-17",
+           "after": "2022-10-23",
+           "source": "landsat",
+           "seconds": 3.0,
+           "until": "Now look"
+          }
+         },
+         {
+          "at": "Palm Jebel Ali",
+          "places": [
+           {
+            "name": "Palm Jebel Ali",
+            "lon": 54.995,
+            "lat": 24.99,
+            "kind": "label"
+           }
+          ]
+         },
+         {
+          "at": "Now look"
+         }
+        ]
+       },
+       "on_screen_text": "Palm Jebel Ali"
+      }
+     ]
+    },
+    {
+     "text": "Fourteen years, and almost nothing had changed: bare fronds, and no houses.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {}
+        ],
+        "keep": true
+       },
+       "on_screen_text": "May 2008 → October 2022"
+      }
+     ]
+    },
+    {
+     "text": "The third palm, Palm Deira, had been planned at roughly eight times the size of the first. It was redesigned in 2008, shrunk and renamed Deira Islands in 2013, and renamed again in 2022: Dubai Islands.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "about 8×",
+        "label": "Palm Deira's planned size against Palm Jumeirah",
+        "source": "Wikipedia (Palm Islands), from Nakheel plans"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was redesigned",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.29,
+           "lat": 25.29,
+           "span": 0.12
+          },
+          "date": "2026-09-01/2026-10-20",
+          "compare": {
+           "before": "2008-10-08",
+           "after": "2026-09-24",
+           "source": "landsat",
+           "seconds": 3.0,
+           "until": "shrunk and renamed"
+          }
+         },
+         {
+          "at": "shrunk and renamed",
+          "places": [
+           {
+            "name": "Dubai Islands",
+            "lon": 55.292,
+            "lat": 25.296,
+            "kind": "label"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "October 2008 → September 2026"
+      },
+      {
+       "type": "stat",
+       "at": "renamed again",
+       "stat": {
+        "value": "3 names",
+        "label": "Palm Deira → Deira Islands (2013) → Dubai Islands (2022)",
+        "source": "Nakheel; Hotelier Middle East"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And while the projects stood still, a rumour spread around the world: the islands were sinking.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss022e024940",
+       "on_screen_text": "Dubai's islands from orbit, January 2010"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Is It Sinking?",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In 2009, newspapers reported that a satellite study had found the first palm sinking by five millimetres a year.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss040e125332",
+       "on_screen_text": "Palm Jumeirah, 2014"
+      },
+      {
+       "type": "stat",
+       "at": "sinking by five",
+       "stat": {
+        "value": "5 mm a year",
+        "label": "the sinking rate reported in 2009",
+        "source": "2009 press reports of a Fugro NPA study"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The company behind the measurements, Fugro NPA, said its findings had been taken out of context. Early movements, it said, were under a centimetre a year: the normal settling of new ground.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "Fugro NPA: the company behind the measurements"
+      },
+      {
+       "type": "stat",
+       "at": "taken out of context",
+       "stat": {
+        "value": "out of context",
+        "label": "Fugro NPA on the 2009 reports",
+        "source": "Fugro NPA statement, 2009"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "under a centimetre",
+       "stat": {
+        "value": "under 1 cm a year",
+        "label": "early settling, normal for new land, according to Fugro NPA",
+        "source": "Fugro NPA statement, 2009"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The developer went further. Nakheel said the island would settle by at most 25 millimetres over a whole century.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "Nakheel: at most 25 mm in 100 years"
+      },
+      {
+       "type": "stat",
+       "at": "at most 25",
+       "stat": {
+        "value": "25 mm",
+        "label": "at most, in 100 years: Nakheel's settlement estimate",
+        "source": "The National, 2009"
+       }
+      }
+     ]
+    },
+    {
+     "text": "We looked for a published, peer-reviewed measurement of how fast the palms are moving today, and we did not find one. Some settling is normal for reclaimed land, and we could not find public data showing more than that.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss040e125332",
+       "on_screen_text": "Palm Jumeirah, 2014"
+      },
+      {
+       "type": "map",
+       "at": "Some settling",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "No peer-reviewed sinking rate found"
+      }
+     ]
+    },
+    {
+     "text": "The bigger cost may be underwater. Reports at the time described dredging that clouded the water and buried reefs and oyster beds. Nakheel acknowledged that its projects had covered reefs, and said it would build artificial ones.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.15,
+           "lat": 25.17,
+           "span": 0.22
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "Turbidity and buried reefs (reports, 2005)"
+      },
+      {
+       "type": "stat",
+       "at": "buried reefs",
+       "stat": {
+        "value": "reefs and oyster beds",
+        "label": "buried under dredged sediment, reports said in 2005",
+        "source": "Mongabay; NBC News, 2005"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Nakheel acknowledged",
+       "photo": "nasa:iss006e35516",
+       "on_screen_text": "Palm Jumeirah under construction, March 2003"
+      }
+     ]
+    },
+    {
+     "text": "A 2006 study at Duke University found both sides. The island buried marine life and changed how sand moves along the shore. But its rock breakwater also became a new habitat.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss006e35516",
+       "on_screen_text": "Palm Jumeirah under construction, March 2003"
+      },
+      {
+       "type": "stat",
+       "at": "changed how sand",
+       "stat": {
+        "value": "both sides",
+        "label": "buried habitat and changed sand drift, but new life on the rocks",
+        "source": "Duke University master's project, 2006"
+       }
+      },
+      {
+       "type": "map",
+       "at": "But its rock",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.115,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-20",
+          "places": [
+           {
+            "name": "Crescent",
+            "lon": 55.112,
+            "lat": 25.138,
+            "kind": "label",
+            "label": "new habitat on the rocks"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": "But its rock",
+      "text": "Is new life on the rocks worth the reefs buried under the sand?"
+     }
+    },
+    {
+     "text": "Fifteen years after the crash, the money came back.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss069e084252",
+       "on_screen_text": "Dubai at night, August 2023"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Comeback",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Today the first palm is one of the most expensive addresses in the city. In the first eight months of 2026, it led Dubai in home sales above ten million dollars.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Palm Jumeirah from Dubai Marina.jpg",
+       "on_screen_text": "Palm Jumeirah"
+      },
+      {
+       "type": "stat",
+       "at": "In the first eight",
+       "stat": {
+        "value": "#1",
+        "label": "area for Dubai home sales above $10 million, January-August 2026",
+        "source": "Khaleej Times"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2023, Palm Jebel Ali was relaunched. Its first villas sold out within hours.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.0,
+           "lat": 24.99,
+           "span": 0.16
+          },
+          "date": "2022-10-01/2022-11-30",
+          "places": [
+           {
+            "name": "Palm Jebel Ali",
+            "lon": 54.995,
+            "lat": 24.99,
+            "kind": "label"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Relaunched in 2023"
+      },
+      {
+       "type": "stat",
+       "at": "sold out",
+       "stat": {
+        "value": "within hours",
+        "label": "the first Palm Jebel Ali villas sold out, September 2023",
+        "source": "Gulf Today"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2024, the state-owned Dubai Holding took over Nakheel. And in April 2026, Nakheel awarded contracts worth 3.5 billion dirhams, about 950 million dollars, to build 544 villas on the palm.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Dubai Holding",
+        "label": "took over Nakheel in 2024"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "And in April",
+       "stat": {
+        "value": "$950 million",
+        "label": "of contracts for 544 villas, April 2026",
+        "note": "AED 3.5 billion",
+        "source": "WAM; Dubai Media Office"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "544 villas",
+       "stat": {
+        "value": "544 villas",
+        "label": "on Palm Jebel Ali, contracts April 2026",
+        "source": "WAM; Dubai Media Office"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Compare October 2022 with September 2026, and you can see the work spreading along the fronds.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.0,
+           "lat": 24.99,
+           "span": 0.12
+          },
+          "date": "2026-09-01/2026-10-20",
+          "compare": {
+           "before": "2022-10-01/2022-11-30",
+           "after": "2026-09-01/2026-10-20",
+           "source": "sentinel-2",
+           "seconds": 3.0,
+           "until": "you can see"
+          }
+         },
+         {
+          "at": "you can see"
+         }
+        ]
+       },
+       "on_screen_text": "Copernicus Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "The first homes are due from late 2026 into 2027. Finished, Palm Jebel Ali will be about twice the size of the first palm, with more than 100 kilometres of coastline.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "late 2026",
+        "label": "first handovers, continuing into 2027",
+        "source": "AGBI; The National"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about twice",
+       "stat": {
+        "value": "2×",
+        "label": "Palm Jumeirah's size, with more than 100 km of coastline",
+        "note": "Sources give 110 to 120 km",
+        "source": "AGBI; Khaleej Times"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The World is a different story. Its most advanced project, the Heart of Europe, was meant to be finished in 2026. The target has slipped to the end of 2027, and most of the other islands are still bare sand.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.17,
+           "lat": 25.225,
+           "span": 0.14
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "the Heart of Europe",
+          "places": [
+           {
+            "name": "Heart of Europe",
+            "lon": 55.155,
+            "lat": 25.235,
+            "kind": "label",
+            "label": "Heart of Europe"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Target: end of 2027"
+      },
+      {
+       "type": "stat",
+       "at": "has slipped",
+       "stat": {
+        "value": "end of 2027",
+        "label": "the new target for the Heart of Europe",
+        "note": "It was 2026",
+        "source": "Gulf News; The National"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "most of the other",
+       "photo": "nasa:iss073e0247372",
+       "on_screen_text": "The World, June 2025"
+      }
+     ]
+    },
+    {
+     "text": "And Dubai isn't finished. In April 2026, Semafor reported that the city is betting on even more artificial coastline.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss074e0825656",
+       "on_screen_text": "Dubai's coast, July 2026"
+      },
+      {
+       "type": "map",
+       "at": "betting on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20"
+         }
+        ]
+       },
+       "on_screen_text": "More artificial coastline planned (Semafor, April 2026)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The New Coast",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Back to where we started. Here is every patch of land that did not exist in May 2001: about 58 square kilometres of it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20"
+         },
+         {
+          "at": "Here is every patch",
+          "highlight": [
+           "file:newland.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "New land since May 2001 · our measurement"
+      }
+     ]
+    },
+    {
+     "text": "It was built for beaches and waterfront homes. For a while it looked as if it would sink a city, not the islands. Now the money is back, and the building has started again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Palm Jumeirah",
+            "lon": 55.128,
+            "lat": 25.118,
+            "kind": "label"
+           },
+           {
+            "name": "Palm Jebel Ali",
+            "lon": 54.995,
+            "lat": 24.99,
+            "kind": "label"
+           },
+           {
+            "name": "The World",
+            "lon": 55.17,
+            "lat": 25.226,
+            "kind": "label"
+           },
+           {
+            "name": "Dubai Islands",
+            "lon": 55.292,
+            "lat": 25.296,
+            "kind": "label"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "For a while",
+       "photo": "nasa:iss022e024940",
+       "on_screen_text": "January 2010"
+      },
+      {
+       "type": "photo",
+       "at": "Now the money",
+       "photo": "nasa:iss069e084252",
+       "on_screen_text": "Dubai at night"
+      }
+     ]
+    },
+    {
+     "text": "We measure changes like this from orbit in every episode, so if you want to see the next coast we measure, subscribe.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 55.135,
+           "lat": 25.125,
+           "span": 0.37
+          },
+          "date": "2026-09-01/2026-10-20",
+          "compare": {
+           "before": "2001-05-22",
+           "after": "2026-09-24",
+           "source": "landsat",
+           "seconds": 3.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So, would you live on land that was open sea twenty-five years ago?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {}
+        ],
+        "keep": true
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Would you live on land that was open sea 25 years ago?"
+     }
+    }
+   ]
+  }
+ ]
+}

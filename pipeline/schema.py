@@ -384,7 +384,7 @@ class Chapter(BaseModel):
 
 class Thumbnail(BaseModel):
     text: str  # 2-4 words, rendered large on the thumbnail
-    prompt: str  # background image prompt (objects/places/symbols, no real people)
+    prompt: Optional[str] = None  # AI background for variants A-C; None = own imagery only (variant D)
 
 
 class YouTubeMeta(BaseModel):

@@ -98,3 +98,27 @@ script uses them. Numbers in the script come only from this file.
 - https://dukespace.lib.duke.edu/items/7547a60d-a78d-42fe-a389-f90601f297ee
 - https://news.mongabay.com/2005/08/dubais-artificial-islands-have-high-environmental-cost/
 - https://www.khaleejtimes.com/business/dubia-records-335-homes-deals-of-10-million-in-8-months-palm-jumeirah-leads
+
+## R8 Added for the script (2026-11-06)
+- Own measurement: outlines of the new-land polygons (geo/newland.geojson, simplified ~12 m) total 657 km
+  (Palm Jumeirah 99, Palm Jebel Ali 203, The World 163, Dubai Islands 38). Pixel-traced outlines overstate shoreline,
+  so the script says "more than 500 km" against the ~72 km natural coast. Secondary sources give 520 km for the Palm
+  Islands alone (unverified).
+- Own calculation: 92,234,000 m3 / (105 m x 68 m football pitch) = 12.9 km.
+- Population: about 0.86-0.92 million in 2000; 4,006,656 on 8 Sep 2025 (Dubai Statistics Centre clock, Gulf News /
+  Khaleej Times).
+- Desert sand: wind-rounded grains do not lock together (UNEP 2014 "Sand, rarer than one thinks", as reported with a
+  quoted geologist). Australia import claims not used (unverified).
+- Atlantis, The Palm opened 24 Sep 2008 (grand opening 20 Nov 2008); Palm Monorail opened 30 Apr 2009, first in the
+  Middle East (Nakheel release, Wikipedia).
+- The World 2011: Penguin Marine told a Dubai tribunal the islands were eroding; tribunal rejected it; Nakheel: its
+  monitoring found no substantial erosion needing sand; Nakheel said ~70 % of islands sold; reports: all but one
+  uninhabited, Greenland (owned by the ruler) (The National, TravelMole, Al Arabiya, Jan 2011).
+- 4 Jan 2010: Burj Dubai opened and was renamed Burj Khalifa after Abu Dhabi's ruler (NBC News, CS Monitor);
+  property prices in parts of Dubai fell by nearly half in a year (Mail & Guardian / AP, Jan 2010).
+- Manhattan land area about 59 km2 (22.7 sq mi, US Census).
+- Sources: https://www.thenationalnews.com/business/property/nakheel-insists-the-world-is-stable-1.400137 ;
+  https://travelmole.com/news/the-end-of-the-world ; https://www.csmonitor.com/World/2010/0104/World-s-tallest-building-opens-in-Dubai-with-a-new-name ;
+  https://mg.co.za/article/2010-01-05-indebted-dubai-puts-on-brave-face-for-tower-opening ;
+  https://en.wikipedia.org/wiki/Palm_Monorail ; https://en.wikipedia.org/wiki/Atlantis,_The_Palm ;
+  https://www.khaleejtimes.com/uae/dubai-population-4-million-residents ; https://impakter.com/sand-risk-resource-earth-water

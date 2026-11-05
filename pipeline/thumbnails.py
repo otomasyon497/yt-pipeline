@@ -82,7 +82,8 @@ def make(script, out_dir: Path, slug: str | None = None) -> list[Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
     PUBLIC_MEDIA.mkdir(parents=True, exist_ok=True)
     results = []
-    for vid, layout, direction in VARIANTS:
+    # No prompt: our own imagery only (the user's no-AI decision, 2026-11-06); A-C need an AI background.
+    for vid, layout, direction in (VARIANTS if script.thumbnail.prompt else []):
         bg_name = f"thumb_{vid}.jpg"
         shutil.copyfile(cf_images.generate(f"{script.thumbnail.prompt}, {direction}", style=THUMB_STYLE), PUBLIC_MEDIA / bg_name)
         dest = out_dir / f"thumbnail_{vid}.jpg"

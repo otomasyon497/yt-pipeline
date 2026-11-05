@@ -4,7 +4,7 @@ import numpy as np
 import rasterio, requests
 from rasterio.transform import from_bounds
 from PIL import Image
-sys.path.insert(0, r"C:\projeler\yt-pipeline\pipeline")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "pipeline"))
 import landsat
 from sentinel import EARTH, _read
 

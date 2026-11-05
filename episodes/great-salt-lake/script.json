@@ -1,5 +1,6 @@
 {
   "title": "A Foot From the Bottom",
+  "legacy_stock": true,
   "voice": "am_michael",
   "music": "procedural",
   "map_style": "satellite",

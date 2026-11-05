@@ -404,11 +404,25 @@ class Script(BaseModel):
     captions: bool = True
     map_style: Optional[Literal["satellite", "atlas", "midnight"]] = None  # None -> config.MAP_STYLE
     look: Literal["none", "warm", "cool"] = "none"  # one colour grade + vignette on every stock / photo / AI shot
+    # Episodes made before 2026-11-05 may keep their stock and AI shots when re-rendered; new ones may not.
+    legacy_stock: bool = False
     chapters: list[Chapter] = Field(min_length=1)
     sources: list[str] = Field(default_factory=list)  # fact-check notes, not rendered
     thumbnail: Optional[Thumbnail] = None
     youtube: Optional[YouTubeMeta] = None
 
+
+    @model_validator(mode="after")
+    def _no_stock(self):
+        """No stock footage and no AI images (the user's decision, 2026-11-05): every shot shows the real place, thing
+        or data: archive photos and film, satellite views, maps, charts, documents and cards."""
+        if not self.legacy_stock:
+            bad = [f"chapter {ci + 1}, paragraph {pi + 1}" for ci, ch in enumerate(self.chapters)
+                   for pi, p in enumerate(ch.paragraphs) for s in p.shots if s.type in ("stock", "ai_image")]
+            if bad:
+                raise ValueError("no stock or AI shots (docs/script-rules.md): use real photos or film, satellite views, "
+                                 "maps, charts or cards. Found in " + "; ".join(bad[:6]) + (" ..." if len(bad) > 6 else ""))
+        return self
     def has_card(self, i: int) -> bool:
         card = self.chapters[i].card
         return i > 0 if card is None else card

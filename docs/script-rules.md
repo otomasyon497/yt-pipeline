@@ -19,6 +19,16 @@ end CTA, the closing question as the pinned comment, never bend facts).
   shot type. prepare prints "holds ... without a cut, map step or question" for every longer stretch; fix them all
   before the storyboard.
 
+## Real pictures only (the user's decision, 2026-11-05)
+- No stock footage or images and no AI images in episodes: every shot shows the real place, thing, person or data.
+  The schema rejects `stock` and `ai_image` shots unless a script carries `legacy_stock` (episodes made before).
+- Sources, in this order: our own satellite views (Sentinel-2, Landsat back to the 1980s, MODIS), maps, charts and
+  cards; public-domain photos and film of the subject itself (US federal agencies, NARA, the Library of Congress,
+  Commons PD / CC0 / CC BY; tools/find_media.py); documents.
+- A sentence that cannot be shown with a real picture gets rewritten around something that can be shown.
+- Gate 1 shows the visual inventory with counts (archive photos and film, satellite views, own graphics) and the word
+  budget: 15-20 minutes is 2,300-3,000 words at our pace; say so when the research cannot carry that.
+
 ## Shot types to mix in (R2)
 - `stat`: one big number on its own screen, for the two or three figures the video turns on.
 - `document`: a public-domain page (U.S. federal PDFs) with the key line marked, or a `text` clipping card for a

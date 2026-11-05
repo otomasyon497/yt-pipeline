@@ -2,6 +2,22 @@
 
 ## Status (2026-11-05: episode 3 colorado-river remade as v2 at the user's request (v1's transitions felt heavy; the feature-demo's pace was better): 16:08, a beat every few seconds, final render 41929673758 in Videos\yt-pipeline\colorado-river (v1 kept in its v1\ subfolder), waiting for the user's review (gate 2); log in episodes/colorado-river/PLAN.md. Episode 4 great-salt-lake (10:16) rendered (41954095729) to Videos\yt-pipeline\great-salt-lake, also waiting for the user's review (gate 2); log in episodes/great-salt-lake/PLAN.md. Earlier: gerd-nile live (https://youtu.be/bR4wVyHqct4), caspian-sea uploaded; Shorts dropped. Open for the user: a Latin handle instead of @ınkorbııt, the two `npx skills add` commands, advanced features (pinned comment, chapters))
 
+## Stock-free phase (approved 2026-11-05: "kesin %0 olsun, araçları kurmaya başla")
+- Decision: no stock video or images (and no AI images) in episodes from now on; every shot shows the real place,
+  thing or data. Also: 15-20 min per episode, so gate 1 shows the research's word budget (2,300-3,000 words).
+- Measured before: stock was 28 % of colorado-river v2's shots, 44 % of great-salt-lake's.
+- Steps (each committed and logged here):
+  1. Ban `stock` and `ai_image` shots in new scripts (legacy flag for old episodes); script rules updated.
+  2. tools/find_media.py: public-domain / CC0 / CC BY candidates for a query from Wikimedia Commons, the NASA Image and
+     Video Library, the Internet Archive and the Library of Congress, with a thumbnail contact sheet; the pipeline
+     takes NASA images and videos as `photo` / `film` sources with credits.
+  3. Landsat before/after (Collection 2 Level-2 via Microsoft Planetary Computer's free STAC; 1982 on): compare
+     source "landsat", so wipes can go back to the 1980s.
+  4. `profile` shot: an elevation cross-section (Copernicus DEM GLO-30, AWS open data) with level lines and water
+     filling to them (lake levels, dead pool lines).
+  5. 3D terrain flyover (DEM + satellite texture, three.js in Remotion).
+  6. Demo episode exercising all of them, then the user's review (gate).
+
 ## Colorado River v2 (2026-11-05)
 - Why: the user found v1's transitions heavy and preferred the feature-demo's pace.
 - Done: narration 1.08 with shorter pauses, flights 0.7-1.9 s, 1.8-s chapter cards; every stretch over 8 s got a beat

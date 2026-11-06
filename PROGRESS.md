@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-06: episode 5 dubai-islands (universal topic, 0 % stock, own NDWI measurement: ~58 km2 of new land) rendered: 11:13, run 42132606067 in Videos\yt-pipeline\dubai-islands, thumbnail D only (own imagery), waiting for the user's review (gate 2); log in episodes/dubai-islands/PLAN.md. Decisions 2026-11-06: renders stay on private-repo Actions (no Oracle, no public repo), universal topics, no AI thumbnails. Colorado-river uploaded 5 Nov (CTR 1.8 %); great-salt-lake still at gate 2. Earlier: gerd-nile live, caspian-sea uploaded.)
+## Status (2026-11-06: episode 5 dubai-islands (universal topic, 0 % stock, own NDWI measurement: ~58 km2 of new land) rendered: 11:13, run 42132606067 in Videos\yt-pipeline\dubai-islands, thumbnail D only (own imagery), approved by the user and uploaded by them 2026-11-06; log in episodes/dubai-islands/PLAN.md. Decisions 2026-11-06: renders stay on private-repo Actions (no Oracle, no public repo), universal topics, no AI thumbnails. Colorado-river uploaded 5 Nov (CTR 1.8 %); great-salt-lake still at gate 2. Earlier: gerd-nile live, caspian-sea uploaded.)
 
 ## Stock-free phase (approved 2026-11-05: "kesin %0 olsun, araçları kurmaya başla")
 - Decision: no stock video or images (and no AI images) in episodes from now on; every shot shows the real place,

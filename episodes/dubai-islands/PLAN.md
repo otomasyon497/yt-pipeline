@@ -21,3 +21,4 @@ storyboard -> render -> gate 2.
   frame edges, steps without a view, Landsat one-day STAC query). Full render 42124129732: the new-land highlights
   showed from 2 degrees (patchy sea) because _span_for's country floor overrode the view; fixed in maps.py (the
   view's span is the floor). Re-render 42132606067: 11:13, highlights fill the frame. Waiting for gate 2.
+- 2026-11-06: gate 2 approved ("izledim, onaylıyorum, yüklüyorum"); the user uploads.

@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-05: episode 3 colorado-river remade as v2 at the user's request (v1's transitions felt heavy; the feature-demo's pace was better): 16:08, a beat every few seconds, final render 41929673758 in Videos\yt-pipeline\colorado-river (v1 kept in its v1\ subfolder), waiting for the user's review (gate 2); log in episodes/colorado-river/PLAN.md. Episode 4 great-salt-lake (10:16) rendered (41954095729) to Videos\yt-pipeline\great-salt-lake, also waiting for the user's review (gate 2); log in episodes/great-salt-lake/PLAN.md. Earlier: gerd-nile live (https://youtu.be/bR4wVyHqct4), caspian-sea uploaded; Shorts dropped. Open for the user: a Latin handle instead of @ınkorbııt, the two `npx skills add` commands, advanced features (pinned comment, chapters))
+## Status (2026-11-06: episode 5 dubai-islands (universal topic, 0 % stock, own NDWI measurement: ~58 km2 of new land) rendered: 11:13, run 42132606067 in Videos\yt-pipeline\dubai-islands, thumbnail D only (own imagery), waiting for the user's review (gate 2); log in episodes/dubai-islands/PLAN.md. Decisions 2026-11-06: renders stay on private-repo Actions (no Oracle, no public repo), universal topics, no AI thumbnails. Colorado-river uploaded 5 Nov (CTR 1.8 %); great-salt-lake still at gate 2. Earlier: gerd-nile live, caspian-sea uploaded.)
 
 ## Stock-free phase (approved 2026-11-05: "kesin %0 olsun, araçları kurmaya başla")
 - Decision: no stock video or images (and no AI images) in episodes from now on; every shot shows the real place,

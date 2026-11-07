@@ -1,17 +1,26 @@
 # neom-the-line - research
 
-Status 2026-11-06: first pass. Items marked VERIFY need a primary source (or get cut). Numbers in the script come
+Status 2026-11-07: research pass done for gate 1. Items marked VERIFY need a primary source (or get cut). Numbers in the script come
 only from this file.
 
-## R1 Our own imagery and measurement (preliminary)
-- Sentinel-2 L2A: 6 Jun 2020 vs 9 Aug 2026 over 35.45-35.75 E, 28.02-28.13 N: an empty wadi in 2020; a ruler-
-  straight works corridor (roads, pads, plants, cut) in 2026. Works as the cold-open wipe.
-- Full corridor 34.95-36.25 E, 27.95-28.20 N (2020-09/10 vs 2026-08-24), change image: a straight disturbed line
-  from about 35.06 E / 28.12 N (near the Gulf of Aqaba coast) to about 35.93 E / 28.06 N (~86 km), and a separate
-  eastern segment about 36.04-36.22 E (~18 km) with large pads. Rough total ~100 km of visible works, to be traced
-  properly (tools/neom_numbers.py, TODO) before any number goes in the script.
-- Compare: NEOM-shared aerial photos (2024) reportedly showed ~120 km excavated (secondary report, VERIFY); Soar
-  Earth, Dec 2022: activity on about half the 170 km (MIT Technology Review, 9 Dec 2022).
+## R1 Our own imagery and measurements (tools/neom_numbers.py; Copernicus Sentinel-2 L2A)
+- Cold-open wipe: 6 Jun 2020 vs 9 Aug 2026 over 35.45-35.75 E, 28.02-28.13 N: an empty wadi in 2020, a ruler-
+  straight works corridor (roads, pads, plants, trench sections) in 2026.
+- Length of works (traced on 24 Aug 2026, ~31 m/px, checked against 2020-09/10): a continuous straight strip from
+  about 35.00 E near the Gulf of Aqaba coast to 35.95 E (93.5 km), a 3 km gap in the dunes, and an eastern section
+  35.98-36.17 E (18.7 km): about 112 km, roughly two-thirds of the planned 170 km. Most of it is graded ground and
+  pads, not buildings. Script: "about 110 km". An automatic colour-change trace was tried and dropped (mountain
+  shadows and season differences missed visible stretches). Map line: geo/works.geojson.
+  Fits outside reports: Soar Earth, Dec 2022: activity on about half the length (MIT Technology Review); NEOM aerial
+  photos 2024 reportedly ~120 km excavated (secondary).
+- Yearly sequence over the deepest works, 35.13-35.30 E, 28.085-28.15 N (July scenes; Dec for 2022): 2021 empty;
+  2022 straight strip and a new road; 2023 broad works; 2024 a long dark pit appears (shadow / water) about 1.4 km;
+  Jul 2025 about 1.6 km; Jul 2026 about 2.2 km, ~60-70 m wide (dark-pixel count at 12 m/px; rough). So the pit grew
+  between July 2025 and July 2026, after the reported autumn-2025 halt: say "the pit kept growing into 2026", no
+  claim about why.
+- Own calculations: 170 km x 200 m = 34 km2 footprint (Arabian Business also gives 34 km2); 9 million people on it =
+  about 265,000 per km2; Manhattan 1,694,251 people (2020 Census) on ~59 km2 = ~28,700 per km2 -> about 9x
+  Manhattan's density (links to episode 5). 170 km in 20 minutes = an average of 510 km/h.
 
 ## R2 The plan (2021-2022)
 - Announced 10 Jan 2021 by Crown Prince Mohammed bin Salman on state TV. Design shown July 2022: two mirrored
@@ -44,11 +53,36 @@ only from this file.
   circular city of the same area. Paul Oldfield (Dezeen 2022): ~1.8 Gt CO2e embodied; mirrored walls a barrier and
   bird hazard. Defence: NEOM's car-free, 20-minute end-to-end high-speed rail claim (VERIFY official wording).
 
+## R6 Verified additions (2026-11-07)
+- Gulf News, 21 Jul 2025: WSJ saw an internal report: $8.8 trn and an "end-state" in 2080; first phase $370 bn by
+  2035; Bloomberg: 2.4 km by 2030, 2030 population target 300,000 (from 1.5 m); still "100 km" eventually per Saudi
+  authorities; CNBC: active construction workers down 35 % since April 2025; NEOM confirmed a strategic review
+  ("common practice"); PIF hired consultants (Bloomberg).
+- Work halt: Swiss newspaper Blick reported construction stopped (autumn 2025) and the PIF wrote down about $8 bn on
+  giga-projects (cash.ch / Travelbook citing Blick). Script attributes it: "a Swiss newspaper reported".
+- MEED, 16 Mar 2026: NEOM cancelled The Line's tunnel contracts on 29 Dec 2025 (Hyundai E&C filing 13 Mar 2026;
+  its 35 % share $483 m; packages awarded June 2022).
+- Rail claim (July 2022 reveal, Reuters / Business Traveller): end to end in 20 minutes.
+- NEOM / Vision 2030: 95 % of NEOM's land to be conserved (official claim, NEOM region not The Line; no independent
+  check). The Line's footprint 34 km2.
+- People: death sentences 5 Aug 2022 (Shadli, Ibrahim and Atallah al-Huwaiti), upheld 23 Jan 2023; UN experts
+  alarmed May 2023 (UN News). No later status found: say "as of the latest reports we found". BBC May 2024: exiled
+  colonel Rabih Alenezi said he was told lethal force was allowed; BBC could not verify; Saudi government and NEOM
+  declined to comment; Saudi security said in 2020 that al-Huwaiti opened fire first.
+- Sindalah: opened Oct 2024, invitation-only, max 2,400 guests a day by 2028 (secondary; minor, may cut).
+
+## Visual inventory (gate 1)
+- Own satellite: 2020 vs 2026 wipe (tested); yearly pit sequence 2021-2026 (tested, 6 dates); full corridor with
+  the 112 km trace as a map line; wide view of NW Saudi Arabia / Gulf of Aqaba (Sentinel-2 at 78 m works).
+- Archive (public domain): ISS photos of the Gulf of Aqaba and the NEOM coast (nasa:iss071e183804, iss072e660964,
+  iss072e404443, ISS031-E-30419 "Neom Bay", ISS036-E-48658); Commons "Neom city.jpg" (CC BY 4.0, 2024, check what
+  it shows). No free photo of The Line itself; NEOM renders are not free -> none used.
+- Own graphics: stat cards (170 km, 500 m, 9 m people, 265,000 / km2 vs Manhattan, $8.8 trn, 2.4 km), timeline,
+  scale bar comparisons on the map, question cards.
+- Gap: no ground photos; the episode leans on the satellite story (that is its point: what is actually there).
+
 ## Open
-- Trace the corridor length and the cleared area ourselves (Sentinel-2 change, 10 m).
-- Sindalah island (opened 2024?) and OXAGON port: satellite check, sources.
-- Archive pictures: Commons PD / CC0 / CC BY photos of the site; NASA ISS photos of the Gulf of Aqaba.
-- Length comparisons for a universal audience (170 km vs a famous distance), our own calculation.
+- OXAGON port satellite check (optional, at storyboard).
 
 ## Sources
 - https://en.wikipedia.org/wiki/The_Line,_Saudi_Arabia
@@ -60,3 +94,12 @@ only from this file.
 - https://www.euronews.com/2026/01/26/neom-no-more-saudi-arabia-reduces-ambitious-plans-for-the-line-and-futuristic-megacity
 - https://www.technologyreview.com/2022/12/09/1064544/satellite-images-line-megacity-google/
 - https://www.newarab.com/news/saudis-neom-bill-skyrockets-500-billion-88-trillion
+- https://gulfnews.com/business/property/saudi-arabias-neom-hits-reset-are-costs-for-the-line-spiraling-out-of-control-1.500205617
+- https://guest.meed.com/neom-officially-cancels-the-line-tunnels-contracts/
+- https://www.travelbook.de/orte/saudi-arabien-stoppt-bau-the-line-neom ; https://www.cash.ch/news/top-news/saudi-arabien-baustopps-bei-giga-projekt-864656
+- https://news.un.org/en/story/2023/05/1136322
+- https://www.dezeen.com/2024/05/09/neom-lethal-force-the-line-bbc/
+- https://www.businesstraveller.com/business-travel/2022/07/26/saudi-arabia-reveals-details-of-the-line-project-in-neom/
+- https://www.vision2030.gov.sa/en/projects/the-line/
+- https://www.arabianbusiness.com/gcc/saudi-arabia/inside-neoms-the-line
+- https://www.dawn.com/news/1867983

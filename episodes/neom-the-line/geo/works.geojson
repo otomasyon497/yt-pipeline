@@ -1,0 +1,47 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "what": "continuous strip from near the Gulf of Aqaba coast through the mountains",
+    "km": 93.5,
+    "credit": "Our trace on Copernicus Sentinel-2 imagery, 24 Aug 2026"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      35.0,
+      28.1224
+     ],
+     [
+      35.95,
+      28.0528
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "what": "eastern section in the red dunes: graded strip and large pads",
+    "km": 18.7,
+    "credit": "Our trace on Copernicus Sentinel-2 imagery, 24 Aug 2026"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      35.98,
+      28.0506
+     ],
+     [
+      36.17,
+      28.0367
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -77,3 +77,14 @@ end CTA, the closing question as the pinned comment, never bend facts).
 - Fact-check before the storyboard: `python tools/claim_log.py <slug>` lists every claim into
   episodes/<slug>/factcheck.md; each gets verified / attributed / own, none may stay FIX (skill: fact-check,
   adapted from jamditis/claude-skills-journalism, MIT).
+
+## From the retention curves (read 2026-11-08: episodes/gerd-nile/retention.md, colorado-river/retention.md)
+- After the hook, no background lecture: in gerd-nile half of the viewers still there at 0:30 left by 2:34, during
+  a geography chapter; colorado-river lost 43 % -> 14 % at the same kind of turn. The first two minutes after the
+  hook carry the conflict or a measured surprise; geography comes later, one fact at a time.
+- No spec dumps: a paragraph of five dimensions in a row (gerd-nile 7:42) lost a third of the remaining viewers.
+  One number per point, always with what it means.
+- Viewers who pass the middle stay to the end (gerd-nile flat from 8:30): the fight is the first 3 minutes.
+- Episodes with fewer than ~50 views give no usable curve; reach (title and thumbnail) is the bigger problem
+  while views stay that low.
+

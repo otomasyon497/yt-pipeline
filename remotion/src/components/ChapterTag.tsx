@@ -3,7 +3,8 @@ import {AbsoluteFill, useCurrentFrame} from 'remotion';
 import {clamp01, colors, display, easeOut} from '../theme';
 
 // Chapter title over the chapter's first picture (instead of a full-screen chapter card, which stopped the video for
-// a second and a half): top centre, an accent line draws under it, then it fades. YouTube's chapters come from the
+// a second and a half): centred above the captions (the top holds on-screen labels and date tags), an accent line
+// draws under it, then it fades. YouTube's chapters come from the
 // description's timestamps.
 export const ChapterTag: React.FC<{text: string; hold?: number}> = ({text, hold = 84}) => {
 	const frame = useCurrentFrame();
@@ -12,8 +13,8 @@ export const ChapterTag: React.FC<{text: string; hold?: number}> = ({text, hold 
 	const opacity = inP * (1 - out);
 	if (opacity <= 0) return null;
 	return (
-		<AbsoluteFill style={{justifyContent: 'flex-start', alignItems: 'center', paddingTop: 54}}>
-			<div style={{opacity, transform: `translateY(${(1 - inP) * -18}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+		<AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 150}}>
+			<div style={{opacity, transform: `translateY(${(1 - inP) * 18}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
 				<div
 					style={{
 						fontFamily: display,

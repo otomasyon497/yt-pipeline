@@ -1,0 +1,2677 @@
+{
+ "title": "The Line",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "Every claim is checked against episodes/neom-the-line/research.md (R1-R6).",
+  "Own trace R1: tools/neom_numbers.py, Sentinel-2 24 Aug 2026: 93.5 km + 18.7 km = ~112 km ('about 110 km').",
+  "Own pit measurement R1: dark pixels at 12 m/px, July 2024 1.4 km, July 2025 1.6 km, July 2026 2.2 km, ~60-70 m wide (rough).",
+  "Own calculations: 170 km x 200 m = 34 km2; 9,000,000 / 34 = ~265,000 per km2; Manhattan 1,694,251 / ~59 km2 = ~28,700 (2020 Census); 170 km / (20/60 h) = 510 km/h.",
+  "Saudi GDP 2025: World Bank NY.GDP.MKTP.CD = $1.277 trn; 8.8 / 1.277 = 6.9 ('about seven times')."
+ ],
+ "thumbnail": {
+  "text": "NO CITY YET"
+ },
+ "youtube": {
+  "title": "What Happened to Saudi Arabia's 170 km Megacity?",
+  "description": "In 2021 Saudi Arabia announced The Line: one building 170 kilometres long, for nine million people. We traced the works on Copernicus Sentinel-2 satellite images from 2020 to 2026 and found about 110 kilometres of graded ground, and a pit that kept growing after the work was reported to have stopped. The promise, the Howeitat families who lived there, the costs that rose to 8.8 trillion dollars, and why work is now on hold until after 2030.\n\nReal Copernicus Sentinel-2 images, NASA astronaut photographs and our own measurements.",
+  "tags": [
+   "The Line",
+   "NEOM",
+   "Saudi Arabia",
+   "megaproject",
+   "satellite images",
+   "before and after",
+   "Sentinel-2",
+   "Mohammed bin Salman",
+   "Howeitat",
+   "OXAGON"
+  ],
+  "pinned_comment": "If they restart after 2030, should Saudi Arabia build The Line as planned, a smaller city, or nothing at all?"
+ },
+ "chapters": [
+  {
+   "title": "A Line in the Desert",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In June 2020, this valley in north-west Saudi Arabia was empty desert. Watch the same ground in August 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.6,
+           "lat": 28.075,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "2020-06-06",
+           "after": "2026-08-09",
+           "source": "sentinel-2",
+           "seconds": 3.2,
+           "until": "Watch the same"
+          }
+         },
+         {
+          "at": "Watch the same"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Copernicus Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "A straight line has been cut across it. It runs through mountains and red dunes, from near the Gulf of Aqaba far inland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.6,
+           "lat": 28.075,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "It runs through",
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "from near the Gulf",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "This is the start of The Line: one building 170 kilometres long, more than twice the length of the Panama Canal, planned for nine million people.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "170 km",
+        "label": "one building, end to end",
+        "source": "NEOM, July 2022"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "more than twice",
+       "stat": {
+        "value": "2×",
+        "label": "the length of the Panama Canal (about 80 km)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "planned for nine",
+       "stat": {
+        "value": "9 million",
+        "label": "people planned to live in it",
+        "source": "NEOM, July 2022"
+       }
+      }
+     ]
+    },
+    {
+     "text": "We traced the works on the satellite images ourselves, and found about 110 kilometres of them. From orbit, most of it is bare graded ground.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Our trace on Sentinel-2 · 24 August 2026"
+      },
+      {
+       "type": "stat",
+       "at": "From orbit",
+       "stat": {
+        "value": "≈ 110 km",
+        "label": "of works traced, out of 170 km planned",
+        "source": "Our trace on Copernicus Sentinel-2"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And near the coast there is a pit more than two kilometres long. It kept growing after the work was reported to have stopped.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-07-31",
+          "places": [
+           {
+            "name": "Pit",
+            "lon": 35.215,
+            "lat": 28.112,
+            "kind": "label",
+            "label": "the pit"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "July 2026"
+      },
+      {
+       "type": "map",
+       "at": "It kept growing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2025-07-01/2025-07-31",
+          "compare": {
+           "before": "2025-07-01/2025-07-31",
+           "after": "2026-07-01/2026-07-31",
+           "source": "sentinel-2",
+           "seconds": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So is The Line a bold vision, or a vanity project? Here is what was promised, and what is really out there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ],
+        "keep": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Here is what",
+       "photo": "nasa:iss072e660964",
+       "on_screen_text": "The northern Gulf of Aqaba from the International Space Station, February 2025"
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "The Line: a bold vision, or a vanity project?"
+     }
+    }
+   ],
+   "card": false
+  },
+  {
+   "title": "The Promise",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In January 2021, Crown Prince Mohammed bin Salman announced The Line on state television. It would be the heart of NEOM, a new region on the Gulf of Aqaba.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss071e183804",
+       "on_screen_text": "The Gulf of Aqaba from the International Space Station, June 2024"
+      },
+      {
+       "type": "map",
+       "at": "It would be the heart",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.55,
+           "lat": 28.15,
+           "span": 3.0
+          },
+          "date": "2026-08-09",
+          "places": [
+           {
+            "name": "Gulf of Aqaba",
+            "lon": 34.75,
+            "lat": 28.55,
+            "kind": "sea"
+           },
+           {
+            "name": "Saudi Arabia",
+            "lon": 36.3,
+            "lat": 27.75,
+            "kind": "label"
+           },
+           {
+            "name": "Tabuk",
+            "lon": 36.57,
+            "lat": 28.38,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": "a new region",
+          "places": [
+           {
+            "name": "NEOM",
+            "lon": 35.4,
+            "lat": 28.35,
+            "kind": "label",
+            "label": "NEOM"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In July 2022 came the design. Two mirrored walls, 500 metres high and 170 kilometres long, with the city between them in a strip just 200 metres wide.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "500 m",
+        "label": "high: two mirrored walls",
+        "source": "NEOM design, July 2022"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "170 kilometres long",
+       "stat": {
+        "value": "200 m",
+        "label": "wide, for 170 km",
+        "source": "NEOM design, July 2022"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Inside, there would be homes, offices and parks for nine million people, and no cars. A high-speed train underneath would take you from one end to the other in twenty minutes.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "9 million",
+        "label": "residents planned",
+        "source": "NEOM design, July 2022"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and no cars",
+       "stat": {
+        "value": "no cars",
+        "label": "in the whole city, NEOM said",
+        "source": "NEOM, July 2022"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A high-speed train",
+       "stat": {
+        "value": "20 minutes",
+        "label": "end to end by train, NEOM said",
+        "source": "NEOM, July 2022"
+       }
+      },
+      {
+       "type": "map",
+       "at": "from one end",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Early estimates of the cost ranged from 100 billion dollars to a trillion. The crown prince put the cost of the first phase alone at 1.2 trillion riyals, about 320 billion dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.55,
+           "lat": 28.15,
+           "span": 3.0
+          },
+          "date": "2026-08-09",
+          "places": [
+           {
+            "name": "Gulf of Aqaba",
+            "lon": 34.75,
+            "lat": 28.55,
+            "kind": "sea"
+           },
+           {
+            "name": "NEOM",
+            "lon": 35.4,
+            "lat": 28.35,
+            "kind": "label",
+            "label": "NEOM"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "ranged from",
+       "stat": {
+        "value": "$100 bn to $1 trn",
+        "label": "early estimates of the cost",
+        "source": "Press reports, 2021-2022"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The crown prince",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "1.2 trillion riyals",
+       "stat": {
+        "value": "$320 billion",
+        "label": "for the first phase, the crown prince said in 2022",
+        "note": "SAR 1.2 trillion",
+        "source": "Bloomberg"
+       }
+      }
+     ]
+    },
+    {
+     "text": "We did the sums. A strip 170 kilometres long and 200 metres wide covers 34 square kilometres. Put nine million people on it, and that is about 265,000 people per square kilometre.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "170 km × 200 m"
+      },
+      {
+       "type": "stat",
+       "at": "covers 34",
+       "stat": {
+        "value": "34 km²",
+        "label": "the whole footprint of the city",
+        "note": "170 km × 200 m",
+        "source": "Our calculation"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Put nine million",
+       "stat": {
+        "value": "265,000",
+        "label": "people per km²",
+        "note": "9 million ÷ 34 km²",
+        "source": "Our calculation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In our last episode we looked at Dubai, which built a Manhattan's worth of land in the sea. The Line would be about nine times as crowded as Manhattan.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss022e024940",
+       "on_screen_text": "Dubai's islands from orbit, January 2010"
+      },
+      {
+       "type": "stat",
+       "at": "a Manhattan's worth",
+       "stat": {
+        "value": "≈ 58 km²",
+        "label": "of new land off Dubai, our measurement in episode 5",
+        "note": "Manhattan: about 59 km² of land",
+        "source": "Our measurement on Landsat"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "The Line would be",
+       "chart": {
+        "type": "bar",
+        "title": "People per km²",
+        "unit": "",
+        "data": [
+         [
+          "Manhattan",
+          28700
+         ],
+         [
+          "The Line (plan)",
+          265000
+         ]
+        ],
+        "source": "US Census Bureau 2020; our calculation",
+        "reveal": [
+         "about nine times"
+        ],
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the twenty-minute train would have to average 510 kilometres an hour.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "510 km/h",
+        "label": "average speed for 170 km in 20 minutes",
+        "source": "Our calculation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "NEOM said the design would leave most of the region untouched, with 95 percent of its land kept as nature. But that land was not empty. People lived here.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.55,
+           "lat": 28.15,
+           "span": 3.0
+          },
+          "date": "2026-08-09",
+          "places": [
+           {
+            "name": "Gulf of Aqaba",
+            "lon": 34.75,
+            "lat": 28.55,
+            "kind": "sea"
+           },
+           {
+            "name": "NEOM",
+            "lon": 35.4,
+            "lat": 28.35,
+            "kind": "label",
+            "label": "NEOM"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "95 percent",
+       "stat": {
+        "value": "95 %",
+        "label": "of NEOM's land to be kept as nature, NEOM says",
+        "note": "An official pledge for the whole region; we found no independent check",
+        "source": "NEOM; Vision 2030"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But that land",
+       "photo": "File:ISS031-E-30419 - View of Saudi Arabia - Straits of Tiran - Tiran Island - Sanafir Island - Sharm Mujawwa Bay - coast of Tabuk Province - Neom Bay - Neom Peninsula - Neom Coral Reef Island - Jazirat Abu Shushah (cropped).jpg",
+       "on_screen_text": "The coast of Tabuk Province from orbit, May 2012"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The People Who Lived Here",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This coast was home to families of the Howeitat tribe, in villages such as al-Khuraybah. In 2020 they were told to leave to make way for NEOM.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.15,
+           "lat": 28.05,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Howeitat villages near the coast"
+      },
+      {
+       "type": "photo",
+       "at": "In 2020",
+       "photo": "File:ISS036-E-48658 - View of Saudi Arabia.jpg",
+       "on_screen_text": "North-west Saudi Arabia from orbit, September 2013"
+      }
+     ]
+    },
+    {
+     "text": "One man, Abdul Rahim al-Huwaiti, spoke out against the evictions. In April 2020, he was shot dead by Saudi security forces at his home.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "al-Huwaiti",
+        "label": "Abdul Rahim al-Huwaiti spoke out against the evictions",
+        "source": "Al Jazeera, April 2020"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In April 2020",
+       "stat": {
+        "value": "April 2020",
+        "label": "al-Huwaiti is shot dead at his home in al-Khuraybah",
+        "source": "Al Jazeera"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Saudi security officials said he had opened fire on them first.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Saudi security",
+        "label": "said al-Huwaiti opened fire on them first",
+        "source": "Saudi state security, 2020"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In August 2022, three men from his tribe were sentenced to death for refusing to leave. The sentences were upheld in January 2023, and UN human rights experts said they were alarmed.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3 death sentences",
+        "label": "for Howeitat men who refused to leave, August 2022",
+        "source": "BBC; UN News"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The sentences were upheld",
+       "stat": {
+        "value": "Jan 2023",
+        "label": "the death sentences are upheld",
+        "source": "UN News"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and UN human",
+       "stat": {
+        "value": "UN experts",
+        "label": "said they were alarmed, May 2023",
+        "source": "UN News, May 2023"
+       }
+      }
+     ]
+    },
+    {
+     "text": "As of the latest reports we could find, we do not know what has happened to them since.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.15,
+           "lat": 28.05,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "No later report found"
+      },
+      {
+       "type": "photo",
+       "at": "we do not know",
+       "photo": "File:ISS031-E-30419 - View of Saudi Arabia - Straits of Tiran - Tiran Island - Sanafir Island - Sharm Mujawwa Bay - coast of Tabuk Province - Neom Bay - Neom Peninsula - Neom Coral Reef Island - Jazirat Abu Shushah (cropped).jpg",
+       "on_screen_text": "The coast of Tabuk Province, May 2012"
+      }
+     ]
+    },
+    {
+     "text": "In 2024, the BBC reported that thousands of people had been moved and villages razed. An exiled Saudi colonel, Rabih Alenezi, told the BBC he had been told that lethal force was allowed against people who would not move.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "thousands",
+        "label": "of people moved, villages razed, the BBC reported in 2024",
+        "source": "BBC, May 2024"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "An exiled Saudi colonel",
+       "stat": {
+        "value": "Col. Rabih Alenezi",
+        "label": "an exiled Saudi colonel, spoke to the BBC",
+        "source": "BBC, May 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "he had been told",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.15,
+           "lat": 28.05,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "The coast cleared for NEOM"
+      },
+      {
+       "type": "stat",
+       "at": "that lethal force",
+       "stat": {
+        "value": "lethal force",
+        "label": "was allowed against people who would not move, he said",
+        "source": "BBC, May 2024"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The BBC could not verify his account. The Saudi government and NEOM declined to comment.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Not verified",
+        "label": "the BBC could not verify his account",
+        "note": "The Saudi government and NEOM declined to comment",
+        "source": "BBC, May 2024"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Can a project like this ever justify moving people off their land? Or is that a line no government should cross?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.15,
+           "lat": 28.05,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Or is that",
+       "photo": "File:ISS036-E-48658 - View of Saudi Arabia.jpg",
+       "on_screen_text": "North-west Saudi Arabia, September 2013"
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Can a project like this ever justify moving people?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "What Got Built",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The earthworks began in October 2021. To see what happened next, we pulled a satellite image of the same spot near the coast for every year since.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "To see what",
+          "view": {
+           "lon": 35.15,
+           "lat": 28.05,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "we pulled",
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "for every year",
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2021-07-01/2021-07-31"
+         }
+        ]
+       },
+       "on_screen_text": "Copernicus Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "July 2021: desert.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2021-07-01/2021-07-31"
+         }
+        ]
+       },
+       "on_screen_text": "July 2021"
+      }
+     ]
+    },
+    {
+     "text": "By the end of 2022, a straight strip and a new road.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2022-03-01/2022-12-31"
+         }
+        ]
+       },
+       "on_screen_text": "December 2022"
+      }
+     ]
+    },
+    {
+     "text": "By July 2023, the works covered the whole width of the strip.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2023-07-01/2023-07-31"
+         }
+        ]
+       },
+       "on_screen_text": "July 2023"
+      }
+     ]
+    },
+    {
+     "text": "Then in 2024, something new appears: a long, dark pit, about 1.4 kilometres long.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2024-07-01/2024-07-31"
+         },
+         {
+          "at": "a long, dark pit",
+          "places": [
+           {
+            "name": "Pit",
+            "lon": 35.215,
+            "lat": 28.112,
+            "kind": "label",
+            "label": "the pit"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "July 2024"
+      }
+     ]
+    },
+    {
+     "text": "By July 2025, it had grown to about 1.6 kilometres. By July 2026, about 2.2 kilometres, and some 60 metres wide.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2025-07-01/2025-07-31",
+          "places": [
+           {
+            "name": "Pit",
+            "lon": 35.215,
+            "lat": 28.112,
+            "kind": "label",
+            "label": "the pit"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "July 2025"
+      },
+      {
+       "type": "map",
+       "at": "By July 2026",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-07-31",
+          "places": [
+           {
+            "name": "Pit",
+            "lon": 35.215,
+            "lat": 28.112,
+            "kind": "label",
+            "label": "the pit"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "July 2026"
+      }
+     ]
+    },
+    {
+     "text": "We measured it by counting dark pixels, so take those numbers as rough. The growth itself is plain to see.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Length of the pit, July each year",
+        "unit": "km",
+        "data": [
+         [
+          "2024",
+          1.4
+         ],
+         [
+          "2025",
+          1.6
+         ],
+         [
+          "2026",
+          2.2
+         ]
+        ],
+        "source": "Our measurement on Copernicus Sentinel-2 (rough)",
+        "highlight": 2
+       }
+      },
+      {
+       "type": "map",
+       "at": "The growth itself",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2024-07-01/2024-07-31",
+          "compare": {
+           "before": "2024-07-01/2024-07-31",
+           "after": "2026-07-01/2026-07-31",
+           "source": "sentinel-2",
+           "seconds": 2.8
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Now zoom out. The works run in a straight line from near the coast, through the mountains, and deep into the red dunes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "The works run",
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "through the mountains",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           }
+          ]
+         },
+         {
+          "at": "deep into the red dunes",
+          "routes": [
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Near the coast, the strip crosses the plain with roads, pads and work sites along it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.07,
+           "lat": 28.118,
+           "span": 0.16
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near the coast · August 2026"
+      },
+      {
+       "type": "map",
+       "at": "with roads",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.07,
+           "lat": 28.118,
+           "span": 0.16
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "2020-06-01/2020-10-31",
+           "after": "2026-07-01/2026-08-31",
+           "source": "sentinel-2",
+           "seconds": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the mountains, it keeps the same straight course. It does not bend around the peaks.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.45,
+           "lat": 28.09,
+           "span": 0.2
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "In the mountains · August 2026"
+      },
+      {
+       "type": "map",
+       "at": "It does not bend",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.45,
+           "lat": 28.09,
+           "span": 0.2
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "2020-06-01/2020-10-31",
+           "after": "2026-07-01/2026-08-31",
+           "source": "sentinel-2",
+           "seconds": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Far inland, in the red dunes, there is a second section, graded flat, with large pads beside it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 36.07,
+           "lat": 28.044,
+           "span": 0.2
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "In the dunes · August 2026"
+      },
+      {
+       "type": "map",
+       "at": "graded flat",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 36.07,
+           "lat": 28.044,
+           "span": 0.2
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "2020-06-01/2020-10-31",
+           "after": "2026-07-01/2026-08-31",
+           "source": "sentinel-2",
+           "seconds": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "We traced it all end to end. There are about 93 kilometres in one unbroken strip, then a short gap, then another 19.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "There are about 93",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           }
+          ]
+         },
+         {
+          "at": "then another 19.",
+          "routes": [
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Our trace on Sentinel-2 · 24 August 2026"
+      }
+     ]
+    },
+    {
+     "text": "That is about 110 kilometres, roughly two-thirds of the planned length.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "≈ 110 km",
+        "label": "of works, about two-thirds of the 170 km planned",
+        "note": "93.5 km + 18.7 km",
+        "source": "Our trace on Copernicus Sentinel-2"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That fits what others have seen. In December 2022, satellite analysts at Soar found activity along about half the route.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2022-03-01/2022-12-31"
+         }
+        ]
+       },
+       "on_screen_text": "December 2022"
+      },
+      {
+       "type": "stat",
+       "at": "found activity",
+       "stat": {
+        "value": "about half",
+        "label": "of the route showed activity, December 2022",
+        "source": "Soar, via MIT Technology Review"
+       }
+      }
+     ]
+    },
+    {
+     "text": "From orbit, most of it looks like graded ground, concrete pads and work camps. Not a city, at least not yet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.7,
+           "lat": 28.07,
+           "span": 0.16
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "August 2026"
+      },
+      {
+       "type": "map",
+       "at": "Not a city",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.6,
+           "lat": 28.075,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "We measure places like this from orbit in every episode, so if you want to see the next one, subscribe.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.6,
+           "lat": 28.075,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "2020-06-06",
+           "after": "2026-08-09",
+           "source": "sentinel-2",
+           "seconds": 3.0,
+           "until": "so if you"
+          }
+         },
+         {
+          "at": "so if you"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Numbers Stop Adding Up",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "While the pit grew, the plan shrank. In April 2024, the Wall Street Journal and Bloomberg reported that only 2.4 kilometres would be finished by 2030.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In April 2024",
+       "stat": {
+        "value": "April 2024",
+        "label": "two newspapers report a much smaller first phase",
+        "source": "Wall Street Journal; Bloomberg"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "only 2.4",
+       "stat": {
+        "value": "2.4 km",
+        "label": "to be finished by 2030",
+        "note": "Of 170 km",
+        "source": "Wall Street Journal; Bloomberg"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Saudi officials denied that the project was being scaled back. In October 2024, AGBI reported a new timetable: five kilometres by 2030, and the full length by 2045.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Denied",
+        "label": "Saudi officials denied the project was being scaled back",
+        "source": "CNBC, April 2024"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In October 2024",
+       "stat": {
+        "value": "October 2024",
+        "label": "AGBI reports a new timetable",
+        "source": "AGBI"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "five kilometres",
+       "stat": {
+        "value": "5 km",
+        "label": "by 2030, under a new timetable",
+        "source": "AGBI, October 2024"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and the full length",
+       "stat": {
+        "value": "2045",
+        "label": "for the full length",
+        "source": "AGBI, October 2024"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then came the money. By 2025, the first phase was reported at 370 billion dollars, to be finished by 2035.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss072e404443",
+       "on_screen_text": "The northern Gulf of Aqaba, December 2024"
+      },
+      {
+       "type": "stat",
+       "at": "the first phase was",
+       "stat": {
+        "value": "$370 billion",
+        "label": "for the first phase, by 2035",
+        "note": "It was $320 billion in 2022",
+        "source": "Wall Street Journal, via Gulf News"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And an internal report seen by the Wall Street Journal put the whole design at 8.8 trillion dollars, finished in 2080.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "put the whole design",
+       "stat": {
+        "value": "$8.8 trillion",
+        "label": "for the whole design, finished in 2080",
+        "source": "Wall Street Journal, via Gulf News, July 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is about seven times Saudi Arabia's entire economy in 2025.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Trillion US dollars",
+        "unit": "",
+        "data": [
+         [
+          "Saudi GDP, 2025",
+          1.28
+         ],
+         [
+          "The Line, full design",
+          8.8
+         ]
+        ],
+        "source": "World Bank; Wall Street Journal via Gulf News",
+        "reveal": [
+         "seven times"
+        ],
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "The resident target for 2030 fell from 1.5 million to 300,000, Bloomberg reported. Saudi authorities still said that about 100 kilometres would be built in the end.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Residents by 2030 (millions)",
+        "unit": "",
+        "data": [
+         [
+          "Old target",
+          1.5
+         ],
+         [
+          "New target",
+          0.3
+         ]
+        ],
+        "source": "Bloomberg, via Gulf News",
+        "reveal": [
+         "to 300,000"
+        ],
+        "highlight": 1
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Saudi authorities",
+       "stat": {
+        "value": "100 km",
+        "label": "to be built in the end, Saudi authorities said",
+        "source": "Gulf News, July 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "CNBC reported that the number of workers on active construction had dropped by 35 percent since April 2025.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.7,
+           "lat": 28.07,
+           "span": 0.16
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "dropped by 35",
+       "stat": {
+        "value": "−35 %",
+        "label": "workers on active construction since April 2025",
+        "source": "CNBC, via Gulf News"
+       }
+      }
+     ]
+    },
+    {
+     "text": "NEOM confirmed a strategic review, and called it common practice. The state fund behind it hired consultants.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Strategic review",
+        "label": "confirmed by NEOM, which called it \"common practice\"",
+        "source": "Gulf News, July 2025"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The state fund",
+       "photo": "nasa:iss071e183804",
+       "on_screen_text": "The Gulf of Aqaba, June 2024"
+      }
+     ]
+    },
+    {
+     "text": "If it were your money, would you have kept building, or stopped and cut the losses?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "or stopped",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-07-31",
+          "places": [
+           {
+            "name": "Pit",
+            "lon": 35.215,
+            "lat": 28.112,
+            "kind": "label",
+            "label": "the pit"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Would you have kept building The Line, or stopped?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Stop",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In autumn 2025, a Swiss newspaper, Blick, reported that construction had been stopped.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Stopped?",
+        "label": "construction of The Line halted, a Swiss newspaper reported",
+        "source": "Blick, via Travelbook and cash.ch"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It also reported that the Public Investment Fund had written down about eight billion dollars on its giga-projects.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about eight billion",
+       "stat": {
+        "value": "$8 billion",
+        "label": "written down on the giga-projects",
+        "source": "Blick, via cash.ch"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On December 29th, 2025, NEOM cancelled The Line's tunnel contracts. A filing by the South Korean builder Hyundai showed its share alone had been worth 483 million dollars.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "29 Dec 2025",
+        "label": "The Line's tunnel contracts cancelled",
+        "note": "Awarded in June 2022",
+        "source": "MEED; Hyundai E&C filing"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A filing by",
+       "stat": {
+        "value": "Hyundai E&C",
+        "label": "filed the cancellation in March 2026",
+        "source": "MEED, March 2026"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "483 million",
+       "stat": {
+        "value": "$483 million",
+        "label": "Hyundai E&C's share of the tunnel work",
+        "source": "MEED, March 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In January 2026, the 2029 Asian Winter Games were postponed. They were to be held at NEOM's mountain resort, Trojena.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Postponed",
+        "label": "the 2029 Asian Winter Games at Trojena, January 2026",
+        "source": "The National; AGBI; MEED"
+       }
+      },
+      {
+       "type": "map",
+       "at": "They were to be held",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.55,
+           "lat": 28.15,
+           "span": 3.0
+          },
+          "date": "2026-08-09",
+          "places": [
+           {
+            "name": "Gulf of Aqaba",
+            "lon": 34.75,
+            "lat": 28.55,
+            "kind": "sea"
+           },
+           {
+            "name": "Tabuk",
+            "lon": 36.57,
+            "lat": 28.38,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "NEOM's region, north-west Saudi Arabia"
+      }
+     ]
+    },
+    {
+     "text": "Then in May 2026, Semafor reported that further work on The Line would wait until after 2030. The review was led by NEOM's chief executive, Aiman al-Mudaifer.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "would wait until",
+       "stat": {
+        "value": "after 2030",
+        "label": "further work on The Line, Semafor reported",
+        "source": "Semafor, 22 May 2026"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The review was led",
+       "stat": {
+        "value": "the review",
+        "label": "led by NEOM's chief executive, Aiman al-Mudaifer",
+        "source": "Semafor, May 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The target for 2030 was cut to at most 100,000 residents. About three billion dollars would go to keep building OXAGON, NEOM's port and industrial city.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Residents (millions)",
+        "unit": "",
+        "data": [
+         [
+          "2022 plan",
+          9.0
+         ],
+         [
+          "2025 target",
+          0.3
+         ],
+         [
+          "2026 target",
+          0.1
+         ]
+        ],
+        "source": "NEOM; Bloomberg; Semafor",
+        "highlight": 2
+       }
+      },
+      {
+       "type": "stat",
+       "at": "About three billion",
+       "stat": {
+        "value": "$3 billion",
+        "label": "to continue OXAGON, the port and industrial city",
+        "source": "Semafor, May 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Officially, The Line has not been cancelled.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And yet, back at the pit, the satellite images show it kept growing into 2026. From orbit, we cannot tell why.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2025-07-01/2025-07-31",
+          "compare": {
+           "before": "2025-07-01/2025-07-31",
+           "after": "2026-07-01/2026-07-31",
+           "source": "sentinel-2",
+           "seconds": 3.0,
+           "until": "show it kept"
+          }
+         },
+         {
+          "at": "show it kept"
+         }
+        ]
+       },
+       "on_screen_text": "July 2025 → July 2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Case For and Against",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "The critics' first point is the shape. A city in a line puts its people far apart.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "A city in a line",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A 2023 study by the Complexity Science Hub found that the average distance between two residents would be 57 kilometres. In a round city of the same area, it would be 2.9.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ],
+        "keep": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "the average distance",
+       "chart": {
+        "type": "bar",
+        "title": "Average distance between two residents",
+        "unit": "km",
+        "data": [
+         [
+          "The Line",
+          57
+         ],
+         [
+          "Round city, same area",
+          2.9
+         ]
+        ],
+        "source": "Complexity Science Hub, npj Urban Sustainability, 2023",
+        "reveal": [
+         "In a round city"
+        ],
+        "highlight": 0
+       }
+      }
+     ]
+    },
+    {
+     "text": "NEOM's answer to the distance was the train, twenty minutes from end to end.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "20 minutes",
+        "label": "end to end by train, NEOM's answer to the distance",
+        "source": "NEOM, July 2022"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Researcher Paul Oldfield estimated that building it would release about 1.8 billion tonnes of carbon dioxide. He also warned that the mirrored walls could kill migrating birds.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1.8 billion t",
+        "label": "of CO₂ to build it, Paul Oldfield estimated",
+        "source": "Dezeen, 2022"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "He also warned",
+       "stat": {
+        "value": "birds",
+        "label": "the mirrored walls could kill migrating birds, Oldfield warned",
+        "source": "Dezeen, 2022"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Supporters point to what the design promised: no cars, a small footprint, most of the region left as nature, and a new economy for a country that wants to depend less on oil.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "no cars",
+        "label": "in the whole city, NEOM said",
+        "source": "NEOM"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "a small footprint",
+       "stat": {
+        "value": "34 km²",
+        "label": "for nine million people",
+        "source": "Our calculation"
+       }
+      },
+      {
+       "type": "map",
+       "at": "most of the region",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.55,
+           "lat": 28.15,
+           "span": 3.0
+          },
+          "date": "2026-08-09",
+          "places": [
+           {
+            "name": "Gulf of Aqaba",
+            "lon": 34.75,
+            "lat": 28.55,
+            "kind": "sea"
+           },
+           {
+            "name": "NEOM",
+            "lon": 35.4,
+            "lat": 28.35,
+            "kind": "label",
+            "label": "NEOM"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and a new economy",
+       "photo": "nasa:iss072e660964",
+       "on_screen_text": "The northern Gulf of Aqaba, February 2025"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Stands Today",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "In 2021, The Line was a promise of a city for nine million people. In 2026, it is a line you can see from space.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss071e183804",
+       "on_screen_text": "The Gulf of Aqaba, June 2024"
+      },
+      {
+       "type": "map",
+       "at": "In 2026",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "About 110 kilometres of graded ground, a pit 2.2 kilometres long, and no city yet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "routes": [
+           {
+            "from": [
+             35.0,
+             28.1224
+            ],
+            "to": [
+             35.95,
+             28.0528
+            ],
+            "mode": "line",
+            "label": "93.5 km",
+            "seconds": 3.5
+           },
+           {
+            "from": [
+             35.98,
+             28.0506
+            ],
+            "to": [
+             36.17,
+             28.0367
+            ],
+            "mode": "line",
+            "label": "18.7 km",
+            "seconds": 1.5
+           }
+          ]
+         },
+         {
+          "at": "a pit",
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-07-31",
+          "places": [
+           {
+            "name": "Pit",
+            "lon": 35.215,
+            "lat": 28.112,
+            "kind": "label",
+            "label": "the pit"
+           }
+          ]
+         },
+         {
+          "at": "and no city",
+          "view": {
+           "lon": 35.6,
+           "lat": 28.075,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "2026-08-09",
+           "after": "2020-06-06",
+           "source": "sentinel-2",
+           "seconds": 3.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "If they restart after 2030, should Saudi Arabia build The Line as planned, build a smaller city, or build nothing at all?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.62,
+           "lat": 28.075,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "build a smaller",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.215,
+           "lat": 28.118,
+           "span": 0.17
+          },
+          "date": "2026-07-01/2026-07-31"
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Restart after 2030: as planned, smaller, or nothing?"
+     }
+    }
+   ]
+  }
+ ]
+}

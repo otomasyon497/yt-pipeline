@@ -14,3 +14,7 @@ research.md -> visual inventory -> outline + word budget (gate 1, user) -> scrip
   Sentinel-2 24 Aug 2026; automatic colour-change trace dropped (shadows / season gave 35-51 km, missing visible
   stretches). Yearly pit sequence 2021-2026 (1.4 -> 2.2 km). Facts verified (Gulf News / WSJ, MEED, UN News, BBC via
   Dezeen, Semafor). outline.md for gate 1 (~1,650 words).
+- 2026-11-07: gate 1 approved. script.json: 1,354 words (~9.5-10 min at our pace; the sourced material is shorter than
+  the outline's 1,650), 8 chapters, 123 shots, 0 holds over 6.5 s. Quote cards replaced by our own attributed stat
+  cards (no verbatim quotes we have not seen). Package: "What Happened to Saudi Arabia's 170 km Megacity?" +
+  "NO CITY YET" (yt-package 100/100). Next: storyboard.

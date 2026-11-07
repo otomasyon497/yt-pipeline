@@ -71,6 +71,10 @@ only from this file.
   declined to comment; Saudi security said in 2020 that al-Huwaiti opened fire first.
 - Sindalah: opened Oct 2024, invitation-only, max 2,400 guests a day by 2028 (secondary; minor, may cut).
 
+## R7 Scale anchors for the script (2026-11-07)
+- Saudi GDP 2025: World Bank NY.GDP.MKTP.CD = $1.277 trn; $8.8 trn / 1.277 = 6.9 -> "about seven times".
+- Panama Canal about 80 km long (common figure 77-82 km): 170 km is "more than twice" its length.
+
 ## Visual inventory (gate 1)
 - Own satellite: 2020 vs 2026 wipe (tested); yearly pit sequence 2021-2026 (tested, 6 dates); full corridor with
   the 112 km trace as a map line; wide view of NW Saudi Arabia / Gulf of Aqaba (Sentinel-2 at 78 m works).

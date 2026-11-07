@@ -18,3 +18,7 @@ research.md -> visual inventory -> outline + word budget (gate 1, user) -> scrip
   the outline's 1,650), 8 chapters, 123 shots, 0 holds over 6.5 s. Quote cards replaced by our own attributed stat
   cards (no verbatim quotes we have not seen). Package: "What Happened to Saudi Arabia's 170 km Megacity?" +
   "NO CITY YET" (yt-package 100/100). Next: storyboard.
+- 2026-11-07: storyboard 42356896717: MODIS 2026-08-09 had a swath gap (black band) -> 2026-08-07; trace line off the pit
+  at close zoom -> cleared there. Stills 42381693779 showed every yearly view with the 2026 image: map rasters stack by
+  size, not date, so the year sequence became chained Sentinel-2 wipes (2021->2022->...->2026); checked in stills
+  42382417508. Full render 42383197072: ~10:10, thumbnail D. Waiting for gate 2.

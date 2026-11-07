@@ -394,6 +394,7 @@ class YouTubeMeta(BaseModel):
     description: str  # intro text; chapters and credits are appended automatically
     tags: list[str] = Field(default_factory=list)
     pinned_comment: Optional[str] = None  # posted and pinned by hand after upload
+    video_id: Optional[str] = None  # the uploaded video's id (tools/yt_analytics.py; else matched by title)
 
 
 class Script(BaseModel):

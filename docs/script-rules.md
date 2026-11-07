@@ -74,4 +74,6 @@ end CTA, the closing question as the pinned comment, never bend facts).
   full card back for one chapter).
 - Photos: soft or upscaled files are refused (detail ratio < 0.65, or under 1,400 px); hazy astronaut photos get
   a levels stretch; NASA images are taken from the original file, not the 1,920 px rendition.
-
+- Fact-check before the storyboard: `python tools/claim_log.py <slug>` lists every claim into
+  episodes/<slug>/factcheck.md; each gets verified / attributed / own, none may stay FIX (skill: fact-check,
+  adapted from jamditis/claude-skills-journalism, MIT).

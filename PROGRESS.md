@@ -1,6 +1,6 @@
 # PROGRESS
 
-## Status (2026-11-07: episode 6 neom-the-line (The Line, Saudi Arabia; own Sentinel-2 trace ~112 km of 170 km, pit 1.4 -> 2.2 km) rendered: ~10:10, run 42383197072 in Videos\yt-pipeline
+## Status (2026-11-08: episode 6 neom-the-line rendered (10:10, run 42383197072); the user uploads it as is. Their review led to pipeline fixes, no new video until they land: subpixel map imagery (jitter), chained wipes cut cleanly, chapter cards replaced by a title tag above the captions, prepare stops long episodes outside 15-20 min and cut-off wipes (old episodes: legacy_length), photo quality filter (soft refused, hazy stretched, NASA originals), tools/episode_check.py and tools/claim_log.py; skills episode-plan and fact-check (local, .claude/skills). Next topic must carry 2,000-2,700 words. Episode 5 dubai-islands uploaded 2026-11-06 (check CTR). Great-salt-lake still at gate 2.)
 eom-the-line, thumbnail D "NO CITY YET"; waiting for gate 2; log in episodes/neom-the-line/PLAN.md. Lesson: map rasters stack by size, not date, so dated views of one place must be compare wipes. Episode 5 dubai-islands uploaded 2026-11-06 (check CTR). Decisions 2026-11-06: renders on private-repo Actions, universal topics, no AI thumbnails. Great-salt-lake still at gate 2.)
 
 ## Stock-free phase (approved 2026-11-05: "kesin %0 olsun, araçları kurmaya başla")

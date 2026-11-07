@@ -35,11 +35,31 @@ const FADE = 8;
 const life = (e: {in: number; out: number}, f: number, frames: number) =>
 	(e.in <= 0 ? 1 : clamp01((f - e.in) / FADE)) * (e.out >= frames ? 1 : clamp01((e.out - f) / FADE));
 // Before/after wipe: the line sweeps right to left, so the old image stays on the left (reading order).
-const PlacedImg: React.FC<{r: Raster; xf: Xf; filter?: string}> = ({r, xf, filter}) => {
+// Satellite images are placed with a transform at their own pixel size, not with left/top/width/height: layout boxes
+// snap to whole pixels, so a slow camera drift made every image jump a pixel now and then (visible jitter).
+const placeStyle = (r: Raster, xf: Xf): React.CSSProperties => {
 	const [x0, y0] = toScreen(xf, r.x0, r.y0);
 	const [x1, y1] = toScreen(xf, r.x1, r.y1);
-	return <Img src={staticFile(`media/${r.src}`)} style={{position: 'absolute', left: x0, top: y0, width: x1 - x0, height: y1 - y0, filter}} />;
+	const w0 = r.px || 2048;
+	const h0 = (w0 * (r.y1 - r.y0)) / (r.x1 - r.x0);
+	return {
+		position: 'absolute',
+		left: 0,
+		top: 0,
+		width: w0,
+		height: h0,
+		transformOrigin: '0 0',
+		transform: `translate(${x0.toFixed(3)}px, ${y0.toFixed(3)}px) scale(${((x1 - x0) / w0).toFixed(6)}, ${((y1 - y0) / h0).toFixed(6)})`,
+	} as React.CSSProperties;
 };
+const onScreenOf = (r: Raster, xf: Xf) => {
+	const [x0, y0] = toScreen(xf, r.x0, r.y0);
+	const [x1, y1] = toScreen(xf, r.x1, r.y1);
+	return x1 > 0 && x0 < W && y1 > 0 && y0 < H;
+};
+const PlacedImg: React.FC<{r: Raster; xf: Xf; filter?: string}> = ({r, xf, filter}) => (
+	<Img src={staticFile(`media/${r.src}`)} style={{...placeStyle(r, xf), filter}} />
+);
 const DateTag: React.FC<{text: string; side: 'left' | 'right'; opacity: number}> = ({text, side, opacity}) =>
 	text && opacity > 0 ? (
 		<div
@@ -252,7 +272,18 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 		return {p: cur ?? prev, vis: before + (now - before) * blend};
 	};
 
-	const visible = data.elements.map((el) => life(el, frame, data.frames));
+	// Chained before/after wipes (one ends as the next begins, e.g. 2021 -> 2022, then 2022 -> 2023) cut straight from one
+	// to the next: fading them would let the present-day imagery underneath show through for a few frames.
+	const chainedAt = (f: number, self: number, edge: 'in' | 'out') =>
+		data.elements.some((o, j) => j !== self && o.kind === 'compare' && Math.abs((edge === 'in' ? o.out : o.in) - f) <= 2);
+	const visible = data.elements.map((el, i) => {
+		if (el.kind !== 'compare') return life(el, frame, data.frames);
+		const fromChain = el.in > 0 && chainedAt(el.in, i, 'in');
+		const toChain = el.out < data.frames && chainedAt(el.out, i, 'out');
+		const fadeIn = fromChain ? (frame >= el.in ? 1 : 0) : el.in <= 0 ? 1 : clamp01((frame - el.in) / FADE);
+		const fadeOut = toChain ? (frame < el.out ? 1 : 0) : el.out >= data.frames ? 1 : clamp01((el.out - frame) / FADE);
+		return fadeIn * fadeOut;
+	});
 	const highlights = data.elements
 		.map((el, i) => ({el, i}))
 		.filter((x): x is {el: HighlightEl; i: number} => x.el.kind === 'highlight' && visible[x.i] > 0);
@@ -304,19 +335,13 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 				return (
 					<AbsoluteFill key={layer} style={{opacity: layerOpacity, mixBlendMode: layer === 'relief' ? 'soft-light' : 'normal'}}>
 						{imgs.map((r, i) => {
-							const [x0, y0] = toScreen(xf, r.x0, r.y0);
-							const [x1, y1] = toScreen(xf, r.x1, r.y1);
-							const onScreen = x1 > 0 && x0 < W && y1 > 0 && y0 < H;
+							const onScreen = onScreenOf(r, xf);
 							return (
 								<Img
 									key={`${r.src}-${i}`}
 									src={staticFile(`media/${r.src}`)}
 									style={{
-										position: 'absolute',
-										left: x0,
-										top: y0,
-										width: x1 - x0,
-										height: y1 - y0,
+										...placeStyle(r, xf),
 										opacity: onScreen ? 1 : 0,
 										filter: layer === 'relief' || style.rasterFilter === 'none' ? undefined : style.rasterFilter,
 									}}

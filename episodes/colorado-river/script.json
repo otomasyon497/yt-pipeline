@@ -1,5 +1,6 @@
 {
-  "title": "The River That Ran Short",
+ "legacy_length": true,
+"title": "The River That Ran Short",
   "legacy_stock": true,
   "voice": "am_michael",
   "music": "procedural",

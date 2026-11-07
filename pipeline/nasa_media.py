@@ -69,14 +69,15 @@ def _cached(kind: str, nasa_id: str, suffix: str) -> tuple[Path, Path]:
 
 
 def fetch(ref: str) -> tuple[Path, str]:
-    """A NASA image (the large rendition, else the original, at most 3,000 px): (local JPEG, credit line)."""
+    """A NASA image (the original, else the large rendition, at most 3,000 px): (local JPEG, credit line).
+    The original first: the large rendition is only 1,920 px wide, which leaves no room for a push-in."""
     nasa_id = _id(ref)
-    img_path, meta_path = _cached("img", nasa_id, ".jpg")
+    img_path, meta_path = _cached("img2", nasa_id, ".jpg")  # img2: originals (2026-11-08)
     if img_path.exists() and meta_path.exists():
         return img_path, json.loads(meta_path.read_text(encoding="utf-8"))["credit"]
     title, center = _meta(nasa_id)
     hrefs = _assets(nasa_id)
-    pick = next((h for suf in ("~large.jpg", "~orig.jpg", "~medium.jpg") for h in hrefs if h.lower().endswith(suf)), None)
+    pick = next((h for suf in ("~orig.jpg", "~large.jpg", "~medium.jpg") for h in hrefs if h.lower().endswith(suf)), None)
     if pick is None:
         raise ValueError(f"nasa:{nasa_id}: no JPEG rendition in its asset list")
     img = Image.open(io.BytesIO(_get(pick, timeout=180).content)).convert("RGB")

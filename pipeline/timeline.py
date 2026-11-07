@@ -5,9 +5,6 @@ grouped into one map block ("unit") so the camera flies continuously from one pa
 """
 import re
 
-import numpy as np
-import soundfile as sf
-
 from config import (CARD_SEC, CARD_TRANSITION_FRAMES, CHAPTER_PAUSE, CUT_LEAD, END_PAD, FPS, HEIGHT, LEAD_IN,
                     MIN_SHOT, PARA_PAUSE, SHORT, TRANSITION_FRAMES, TTS_SAMPLE_RATE, UI_SCALE, WIDTH)
 
@@ -19,6 +16,7 @@ _KB = [
     (1.12, 1.02, -2, 0, 1, 0),
 ]
 TEXT_DELAY = 6  # frames after the transition before an on-screen label slides in
+CHAPTER_TAG_FRAMES = 84  # the chapter title tag over a chapter's first picture (3.5 s)
 # Seconds without a cut, a map step or a question card before prepare warns. Similar channels change the picture in
 # 89-98 % of 10-s steps, ours did in 71-83 % (docs/channel-analysis-2026-11.md), so the bar is 8 s (was 12).
 LONG_HOLD = 8.0
@@ -62,7 +60,8 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
     t, last_end = 0.0, 0.0
     shots, paras, all_words, chapters, asks = [], [], [], [], []
     for ci, ch in enumerate(script.chapters):
-        chapters.append({"title": ch.title, "mood": ch.mood, "start": t})
+        chapters.append({"title": ch.title, "mood": ch.mood, "start": t, "card": script.has_card(ci)})
+        first_shot = len(shots)
         if script.has_card(ci):
             shots.append({"id": f"c{ci + 1:02d}card", "src": None, "kind": "chapter_card",
                           "title": ch.title, "chapter": ci + 1, "start": t, "steps": []})
@@ -84,6 +83,7 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
                              "text": para.ask.text})
             last_end = start + durations[ci][pi]
             t = last_end + PARA_PAUSE
+        chapters[-1]["first_id"] = shots[first_shot]["id"] if len(shots) > first_shot else None
         t += CHAPTER_PAUSE
 
     shots.sort(key=lambda s: s["start"])
@@ -98,11 +98,44 @@ def layout(script, durations: list[list[float]], words: list[list[list[dict]]]) 
     total_frames = round((last_end + END_PAD) * FPS)
     for s in shots:
         s["startFrame"] = round(s["start"] * FPS)
+    by_id = {s["id"]: s for s in shots}
+    for ch in chapters:
+        ch["firstFrame"] = by_id[ch["first_id"]]["startFrame"] if ch.get("first_id") in by_id else None
     for i, s in enumerate(shots):
         s["frames"] = max(1, (total_frames if i + 1 == len(shots) else shots[i + 1]["startFrame"]) - s["startFrame"])
     units = group_units(shots, total_frames, [round(a["t"] * FPS) for a in asks])
     return {"shots": shots, "units": units, "paragraphs": paras, "words": all_words, "chapters": chapters,
             "total_frames": total_frames, "asks": asks}
+
+
+def wipe_problems(lay: dict, clear_sec: float) -> list[str]:
+    """Before/after wipes that the next cut would interrupt: each must end `clear_sec` before the next shot starts
+    (a following map shot with `keep` continues the same picture and does not count as a cut)."""
+    shots, out = lay["shots"], []
+    end_of_video = lay["total_frames"] / FPS
+    for k, s in enumerate(shots):
+        if s["kind"] != "map":
+            continue
+        steps = s["src"].map.steps
+        nxt = next((o for o in shots[k + 1:] if not (o["kind"] == "map" and o["src"].map.keep)), None)
+        cut = nxt["start"] if nxt is not None else end_of_video
+        for j, step in enumerate(steps):
+            c = step.compare
+            if c is None or j >= len(s["steps"]):
+                continue
+            t = s["steps"][j]
+            if c.until is not None:
+                begin = next((s["steps"][i] for i in range(j + 1, len(steps)) if steps[i].at == c.until and i < len(s["steps"])), t)
+            elif c.hold is not None:
+                begin = t + c.hold
+            else:
+                begin = s["steps"][j + 1] if j + 1 < len(s["steps"]) else t + 1.8
+            done = begin + c.seconds
+            if done + clear_sec > cut:
+                out.append(f"{s['id']}: the wipe ends at {done:.1f}s but the next cut comes at {cut:.1f}s "
+                           f"(needs {done + clear_sec - cut:.1f}s more: move the next shot's anchor later, start the wipe "
+                           f"earlier or shorten 'seconds')")
+    return out
 
 
 def group_units(shots: list[dict], total_frames: int, beats: list[int] | None = None) -> list[dict]:
@@ -158,6 +191,14 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             if u["startFrame"] <= f < u["startFrame"] + u["frames"]:
                 texts.append({"text": a["text"], "from": f - u["startFrame"], "countUp": None, "kind": "question",
                               "hold": max(48, round(a["end"] * FPS) - f)})
+        for ci, ch in enumerate(lay["chapters"]):
+            first_f = ch.get("firstFrame")
+            if ci == 0 or ch.get("card") or first_f is None:
+                continue
+            if u["startFrame"] <= first_f < u["startFrame"] + u["frames"]:
+                off = first_f - u["startFrame"]
+                texts.append({"text": ch["title"], "from": off + (u["transitionIn"] if off == 0 else 0), "countUp": None,
+                              "kind": "chapter", "hold": CHAPTER_TAG_FRAMES})
         texts.sort(key=lambda x: x["from"])
         shots.append({
             "id": u["id"],
@@ -225,6 +266,8 @@ def card_sfx(timeline: dict) -> list[tuple[float, str, float]]:
 
 def build_narration_track(wavs: list, lay: dict, out_wav) -> float:
     """Place every paragraph's narration at its start time on one continuous mono track."""
+    import numpy as np  # here, not at the top: tools/episode_check.py runs the layout on the PC without them
+    import soundfile as sf
     total_sec = lay["total_frames"] / FPS
     track = np.zeros(int(total_sec * TTS_SAMPLE_RATE) + 1, dtype=np.float32)
     for wav, para in zip(wavs, lay["paragraphs"]):

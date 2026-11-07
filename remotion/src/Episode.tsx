@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Sequence, useCurrentFrame} from 'remotion';
 import {Captions} from './components/Captions';
+import {ChapterTag} from './components/ChapterTag';
 import {Locator} from './components/Locator';
 import {OnScreenText} from './components/OnScreenText';
 import {QuestionCard} from './components/QuestionCard';
@@ -77,7 +78,14 @@ const ShotFrame: React.FC<{shot: ShotData; index: number; look: string}> = ({sho
 						</Sequence>
 					);
 				}
-				const next = shot.texts.slice(k + 1).find((x) => x.kind !== 'question');
+				if (t.kind === 'chapter') {
+					return (
+						<Sequence key={k} from={t.from} layout="none">
+							<ChapterTag text={t.text} hold={t.hold ?? 84} />
+						</Sequence>
+					);
+				}
+				const next = shot.texts.slice(k + 1).find((x) => x.kind !== 'question' && x.kind !== 'chapter');
 				const hold = Math.min(96, (next ? next.from : shot.durationFrames) - t.from - 14);
 				return hold > 20 ? (
 					<Sequence key={k} from={t.from} layout="none">

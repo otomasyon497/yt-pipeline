@@ -1,5 +1,6 @@
 {
-  "title": "Feature demo (R1 + R2)",
+ "legacy_length": true,
+"title": "Feature demo (R1 + R2)",
   "voice": "am_michael",
   "voice_speed": 1.08,
   "music": "procedural",

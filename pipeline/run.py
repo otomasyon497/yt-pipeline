@@ -46,7 +46,7 @@ import tts
 import youtube_meta
 from config import (BUILD_DIR, DEFAULT_VOICE, FORMAT, FPS, MAP_STYLE, MAP_STYLES, MUSIC_DIR, OUT_DIR,
                     PACE_SAMPLE_SECONDS, PACE_SPEEDS, PUBLIC_MEDIA, ROOT, SAMPLE_MIN_SECONDS, SAMPLE_VOICES, SHORT,
-                    SHORT_MAX_SEC, TTS_SAMPLE_RATE, TTS_SPEED)
+                    SHORT_MAX_SEC, TTS_SAMPLE_RATE, TTS_SPEED, LONG_MIN_SEC, LONG_MAX_SEC, WIPE_CLEAR_SEC)
 from schema import load_script
 
 _timings: dict[str, float] = {}
@@ -182,6 +182,18 @@ def prepare(slug: str) -> None:
         return [[v for (c, _, _), v in zip(flat, values) if c == ci] for ci in range(len(script.chapters))]
 
     lay = tl.layout(script, per_chapter(durs), per_chapter(words))
+    wipes = tl.wipe_problems(lay, WIPE_CLEAR_SEC)
+    if wipes and script.legacy_length:  # episodes made before 2026-11-08 still render, with a note
+        print("  note: wipes cut off by the next shot:\n    " + "\n    ".join(wipes))
+    elif wipes:
+        raise ValueError("before/after wipes cut off by the next shot:\n  " + "\n  ".join(wipes))
+    if not SHORT and not script.legacy_length:
+        seconds = lay["total_frames"] / FPS
+        if not LONG_MIN_SEC <= seconds <= LONG_MAX_SEC:
+            raise ValueError(f"the episode runs {seconds / 60:.1f} min; long form must be {LONG_MIN_SEC // 60}-"
+                             f"{LONG_MAX_SEC / 60:.0f} min (the user's rule). Change the script (research, chapters), "
+                             f"not the pace. tools/episode_check.py estimates it before rendering.")
+        print(f"  length: {seconds / 60:.1f} min")
     if SHORT:
         seconds = lay["total_frames"] / FPS
         if seconds > SHORT_MAX_SEC:
@@ -222,7 +234,7 @@ def prepare(slug: str) -> None:
             elif src.type == "photo":
                 path, credit = (nasa_media.fetch if src.photo.lower().startswith("nasa:") else commons.fetch)(src.photo)
                 media_files[u["id"]] = f"{u['id']}.jpg"
-                photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg")
+                photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg", src.photo)
                 photo_credits.append(credit)
             elif src.type == "film":
                 path, credit = (nasa_media.fetch_video if src.film.lower().startswith("nasa:") else commons.fetch_video)(src.film)

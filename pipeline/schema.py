@@ -378,7 +378,9 @@ class Paragraph(BaseModel):
 class Chapter(BaseModel):
     title: str
     mood: Mood = "calm"
-    card: Optional[bool] = None  # chapter title card; default: every chapter except the first
+    # Full-screen chapter card only when set to true (the user's decision, 2026-11-08: no "CHAPTER N" cards; the title
+    # shows as a small tag over the chapter's first picture instead, and YouTube chapters come from the description)
+    card: Optional[bool] = None
     paragraphs: list[Paragraph] = Field(min_length=1)
 
 
@@ -407,6 +409,8 @@ class Script(BaseModel):
     look: Literal["none", "warm", "cool"] = "none"  # one colour grade + vignette on every stock / photo / AI shot
     # Episodes made before 2026-11-05 may keep their stock and AI shots when re-rendered; new ones may not.
     legacy_stock: bool = False
+    # Episodes made before 2026-11-08 may stay outside 15-20 minutes when re-rendered; new ones may not (run.prepare).
+    legacy_length: bool = False
     chapters: list[Chapter] = Field(min_length=1)
     sources: list[str] = Field(default_factory=list)  # fact-check notes, not rendered
     thumbnail: Optional[Thumbnail] = None
@@ -425,8 +429,7 @@ class Script(BaseModel):
                                  "maps, charts or cards. Found in " + "; ".join(bad[:6]) + (" ..." if len(bad) > 6 else ""))
         return self
     def has_card(self, i: int) -> bool:
-        card = self.chapters[i].card
-        return i > 0 if card is None else card
+        return bool(self.chapters[i].card)
 
     @model_validator(mode="after")
     def _opening_shot(self):

@@ -1,5 +1,6 @@
 {
- "title": "The Line",
+ "legacy_length": true,
+"title": "The Line",
  "voice": "am_michael",
  "music": "procedural",
  "map_style": "satellite",

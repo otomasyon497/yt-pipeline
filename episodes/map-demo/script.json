@@ -1,5 +1,6 @@
 {
-  "title": "Map Engine Demo",
+ "legacy_length": true,
+"title": "Map Engine Demo",
   "voice": "am_michael",
   "music": "none",
   "captions": true,

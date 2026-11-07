@@ -13,7 +13,7 @@ import time
 from pathlib import Path
 
 import requests
-from PIL import Image, ImageEnhance, ImageFilter
+from PIL import Image, ImageEnhance, ImageFilter, ImageOps, ImageStat
 
 from config import CACHE_DIR, HEIGHT, WIDTH
 
@@ -140,10 +140,48 @@ def fetch_video(title: str) -> tuple[Path, str]:
     return path, credit
 
 
-def prepare(src: Path, out_main: Path, out_bg: Path) -> str:
+# Photo quality (measured 2026-11-08 on the photos of episodes 5 and 6): sharp NASA renditions keep 0.71-0.85 of their
+# edge detail when shown at 1600 px instead of 800 px; soft or upscaled ones keep about 0.53 and looked blurry on
+# screen. Hazy astronaut photos (luminance spread under ~26) looked washed out: they get an automatic levels stretch.
+MIN_DETAIL = 0.65
+MIN_LONG_SIDE = 1400
+HAZY = 26
+
+
+def quality(img: Image.Image) -> dict:
+    """{"long": px, "detail": fine/coarse edge ratio, "contrast": luminance spread} of a picture."""
+    g = img.convert("L")
+
+    def edges(w: int) -> float:
+        s = g.resize((w, max(1, round(g.height * w / g.width))), Image.LANCZOS)
+        return ImageStat.Stat(s.filter(ImageFilter.FIND_EDGES)).mean[0]
+
+    coarse = edges(800)
+    small = g.resize((400, max(1, round(g.height * 400 / g.width))))
+    return {"long": max(img.size), "detail": edges(1600) / coarse if coarse > 0 else 0.0,
+            "contrast": ImageStat.Stat(small).stddev[0]}
+
+
+def check_quality(img: Image.Image, ref: str) -> dict:
+    """Raise for a photo that would look blurry on screen; returns its measurements."""
+    q = quality(img)
+    if q["long"] < MIN_LONG_SIDE:
+        raise ValueError(f"{ref}: {img.width}x{img.height} px is too small for a 1080p frame - choose a larger file")
+    if q["detail"] < MIN_DETAIL:
+        raise ValueError(f"{ref}: soft or upscaled (detail ratio {q['detail']:.2f} < {MIN_DETAIL}) - it looks blurry "
+                         f"on screen; choose a sharper file (NASA originals are usually best)")
+    return q
+
+
+def prepare(src: Path, out_main: Path, out_bg: Path, ref: str = "") -> str:
     """Write the photo (fit inside the frame, with headroom for a slow push-in) and a blurred, darkened
-    full-frame background from the same picture. Returns "cover" for near-16:9 pictures, else "contain"."""
+    full-frame background from the same picture. Returns "cover" for near-16:9 pictures, else "contain".
+    Blurry photos are refused (check_quality); hazy ones get a levels stretch."""
     img = Image.open(src).convert("RGB")
+    q = check_quality(img, ref or src.name)
+    if q["contrast"] < HAZY:
+        img = ImageOps.autocontrast(img, cutoff=0.5)
+        print(f"  photo {ref or src.name}: hazy (spread {q['contrast']:.0f}), levels stretched")
     ratio = img.width / img.height
     mode = "cover" if 1.55 <= ratio <= 2.0 and img.width >= 1400 else "contain"
     main = img.copy()

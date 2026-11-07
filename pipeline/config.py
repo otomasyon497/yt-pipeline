@@ -19,6 +19,14 @@ if FORMAT not in ("long", "short"):
     raise ValueError(f"YTP_FORMAT must be 'long' or 'short', not {FORMAT!r}")
 SHORT = FORMAT == "short"
 SHORT_MAX_SEC = 180  # YouTube files square / vertical uploads up to 3 minutes as Shorts
+# Long-form length (the user's requirement, 2026-11-08: 15-20 minutes, consistently). prepare stops outside it.
+LONG_MIN_SEC = 15 * 60
+LONG_MAX_SEC = 20 * 60 + 30
+# Effective pace of a finished long-form episode, pauses and beats included (neom-the-line: 1,354 words in 610 s).
+# tools/episode_check.py uses it to estimate the length from a script or an outline before any rendering.
+WORDS_PER_SEC = 2.22
+# A before/after wipe must finish this long before the next cut (neom 05:38: a stat card cut a wipe in half).
+WIPE_CLEAR_SEC = 1.0
 
 # 24 fps is a deliberate render-time optimisation (20% fewer frames than 30 fps).
 FPS = 24

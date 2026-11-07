@@ -61,3 +61,17 @@ end CTA, the closing question as the pinned comment, never bend facts).
 ## After each upload
 - Export the Studio retention report; yt-retention finds the dips; "Intro" (share still watching at 30 s) is the
   first number to watch.
+
+## Length, transitions and photos (the user's review of episode 6, 2026-11-08)
+- Every long episode runs 15-20 minutes: about 2,000-2,700 words at our pace. The topic is chosen with that
+  estimate (`tools/episode_check.py --words N`); a subject that cannot carry it gets a wider scope, never filler.
+  prepare stops a render outside 15-20 min (episodes made before carry `legacy_length`).
+- `python tools/episode_check.py <slug>` before every storyboard or render: length, wipes cut off by the next
+  shot, holds over 6.5 s, photo quality. prepare repeats the length and wipe checks on the real narration.
+- Dated views of one place are chained `compare` wipes; consecutive wipes cut straight from one to the next.
+- A wipe needs its `seconds` + 1 s before the next cut.
+- No "CHAPTER N" cards: the title shows as a small tag over the chapter's first picture (`card: true` brings a
+  full card back for one chapter).
+- Photos: soft or upscaled files are refused (detail ratio < 0.65, or under 1,400 px); hazy astronaut photos get
+  a levels stretch; NASA images are taken from the original file, not the 1,920 px rendition.
+

@@ -1,5 +1,6 @@
 {
- "title": "Out of the Sea",
+ "legacy_length": true,
+"title": "Out of the Sea",
  "voice": "am_michael",
  "music": "procedural",
  "map_style": "satellite",

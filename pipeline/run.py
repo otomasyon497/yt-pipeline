@@ -300,8 +300,7 @@ def prepare(slug: str) -> None:
         if photo_credits:
             extra = ["Archive images:", *[f"- {c}" for c in dict.fromkeys(photo_credits)], ""] + extra
         credits.write(work / "credits.txt", clips, track, used_ai, extra)
-        for warning in youtube_meta.write(work / "youtube.txt", script, timeline,
-                                          (work / "credits.txt").read_text(encoding="utf-8")):
+        for warning in youtube_meta.write(work / "youtube.txt", script, timeline):
             print(f"  youtube.txt warning: {warning}")
         print(f"  total video length: {total_sec:.1f}s ({timeline['totalFrames']} frames, "
               f"{len(timeline['shots'])} units from {len(lay['shots'])} shots, {len(timeline['chapters'])} chapters)")

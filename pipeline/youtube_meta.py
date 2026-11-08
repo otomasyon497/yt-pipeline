@@ -1,7 +1,5 @@
-"""youtube.txt: title, ready-to-paste description (intro + chapters + credits) and tags for a manual upload."""
+"""youtube.txt: title, ready-to-paste description (intro + chapters) and tags for an upload."""
 from pathlib import Path
-
-import credits
 
 TITLE_SOFT_MAX = 50  # characters: a warning, not an error (yt-package scores the pairing)
 
@@ -23,7 +21,7 @@ def chapter_lines(chapters: list[dict], fps: int, total_frames: int) -> list[str
     return [f"{_stamp(s, hours)} {c['title']}" for s, c in zip(starts, chapters)]
 
 
-def write(path: Path, script, timeline: dict, credits_text: str) -> list[str]:
+def write(path: Path, script, timeline: dict) -> list[str]:
     """Write youtube.txt and return a list of warnings (empty when everything is within YouTube's limits)."""
     warnings = []
     meta = script.youtube
@@ -36,9 +34,9 @@ def write(path: Path, script, timeline: dict, credits_text: str) -> list[str]:
         parts.append(meta.description.strip())
     if chapters:
         parts.append("Chapters:\n" + "\n".join(chapters))
-    full = "\n\n".join(parts + [credits_text.strip()]) + "\n"
-    # Over YouTube's limit: compact credits (names, licences; links only where CC BY asks for them).
-    description = full if len(full) <= 5000 else "\n\n".join(parts + [credits.compact(credits_text).strip()]) + "\n"
+    # No source list: the user's decision (2026-11-09), taken knowing CC BY and Copernicus ask for credit. credits.txt
+    # still records every source for each episode.
+    description = "\n\n".join(parts) + "\n"
     for label, text in (("title", title), ("description", description)):
         if "<" in text or ">" in text:
             warnings.append(f"YouTube rejects '<' and '>' in the {label}")

@@ -387,6 +387,9 @@ class Chapter(BaseModel):
 class Thumbnail(BaseModel):
     text: str  # 2-4 words, rendered large on the thumbnail
     prompt: Optional[str] = None  # AI background for variants A-C; None = own imagery only (variant D)
+    # Shorts cover: both panels show this same spot [lon, lat, span in degrees] instead of two halves of the view.
+    # Use it when the change sits off-centre and would miss the "after" half.
+    focus: Optional[tuple[float, float, float]] = None
 
 
 class YouTubeMeta(BaseModel):

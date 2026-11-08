@@ -10,9 +10,10 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageFilter, ImageOps
 
 import cf_images
+import geo
 from config import BUILD_DIR, PUBLIC_MEDIA, ROOT, THUMB_STYLE
 
 # (id, text layout, background direction added to the prompt)
@@ -61,11 +62,42 @@ def _split_background(el: dict, out: Path, size=(1280, 720)) -> tuple[str, str]:
     else:
         split.paste(halves[1].crop((0, H // 2, W, H)), (0, H // 2))
     split.save(out, quality=92)
+    return _year_labels(el)
+
+
+def _year_labels(el: dict) -> tuple[str, str]:
     years = []
     for key in ("labelBefore", "labelAfter"):
         m = re.search(r"\b(1[89]\d\d|20\d\d)\b", el.get(key) or "")
         years.append(m.group(1) if m else (el.get(key) or ""))
     return years[0], years[1]
+
+
+def _stacked_background(el: dict, focus: tuple[float, float, float], out: Path, size=(1080, 1920)) -> tuple[str, str]:
+    """Portrait cover whose two panels show the SAME spot: before on top, after below. `focus` = lon, lat, span.
+    The crop stays inside the images' opaque part (their outer 7 % is feathered)."""
+    W, H = size
+    panel_h = H // 2
+    fx, fy = float(geo.mx(focus[0])), float(geo.my(focus[1]))
+    panels = []
+    for side in ("before", "after"):
+        r = el[side]
+        img = Image.open(PUBLIC_MEDIA / r["src"]).convert("RGB")
+        px = img.width / (r["x1"] - r["x0"])  # image pixels per Mercator unit
+        cw = min(focus[2] / 360.0 * px, img.width * 0.86)
+        ch = cw * panel_h / W
+        mx, my = img.width * 0.07, img.height * 0.07
+        x0 = min(max((fx - r["x0"]) * px - cw / 2, mx), img.width - mx - cw)
+        y0 = min(max((fy - r["y0"]) * img.height / (r["y1"] - r["y0"]) - ch / 2, my), img.height - my - ch)
+        panel = img.crop((round(x0), round(y0), round(x0 + cw), round(y0 + ch))).resize((W, panel_h), Image.LANCZOS)
+        # Small on a phone: lift the shadows and sharpen, the picture stays the real one.
+        panel = ImageOps.autocontrast(panel, cutoff=0.5, preserve_tone=True).point(lambda v: round(255 * (v / 255) ** 0.8))
+        panels.append(panel.filter(ImageFilter.UnsharpMask(radius=3, percent=70, threshold=2)))
+    stack = Image.new("RGB", (W, H))
+    stack.paste(panels[0], (0, 0))
+    stack.paste(panels[1], (0, panel_h))
+    stack.save(out, quality=92)
+    return _year_labels(el)
 
 
 def _render(props: dict, dest: Path, out_dir: Path, vid: str, comp: str = "Thumbnail") -> None:
@@ -118,7 +150,10 @@ def make_short_cover(script, out_dir: Path, slug: str) -> list[Path]:
         print("short: no compare in the episode, no cover")
         return []
     out_dir.mkdir(parents=True, exist_ok=True)
-    before, after = _split_background(el, PUBLIC_MEDIA / "thumb_V.jpg", size=(1080, 1920))
+    if script.thumbnail.focus:
+        before, after = _stacked_background(el, script.thumbnail.focus, PUBLIC_MEDIA / "thumb_V.jpg")
+    else:
+        before, after = _split_background(el, PUBLIC_MEDIA / "thumb_V.jpg", size=(1080, 1920))
     dest = out_dir / "cover_short.jpg"
     _render({"text": script.thumbnail.text, "background": "thumb_V.jpg", "layout": "vsplit", "labels": [before, after]},
             dest, out_dir, "V", comp="ThumbnailVertical")

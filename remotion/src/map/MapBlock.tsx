@@ -28,7 +28,39 @@ import {STYLES, rampColor, type MapStyle} from './styles';
 import type {ArrowEl, ChoroplethEl, CompareEl, ContextEl, HighlightEl, MapBlockData, MapElement, PlaceEl, Raster, RouteEl, TrueSizeEl} from './types';
 
 const clamp01 = (t: number) => Math.min(Math.max(t, 0), 1);
+const smooth = (a: number, b: number, t: number) => {
+	const u = clamp01((t - a) / (b - a));
+	return u * u * (3 - 2 * u);
+};
 const FADE = 8;
+// Sentinel-2 images are 1.5 x the view they were fetched for, with feathered edges (gibs._feather, 7 %).
+const S2_FEATHER = 0.07;
+// An image narrower than the frame is a patch, whatever is under it: a close view's image must not sit on a wider view.
+const s2ImageOpacity = (r: Raster, camW: number) => smooth(0.95, 1.25, (r.x1 - r.x0) / camW);
+// Share of the frame inside the opaque part of a usable image, on a coarse grid (edges included). Below full cover the
+// image's rectangle would show against the coarser imagery under it, during a flight or a pan.
+const s2FrameCover = (images: Raster[], xf: Xf, camW: number) => {
+	const boxes = images
+		.filter((r) => s2ImageOpacity(r, camW) > 0)
+		.map((r) => {
+			const [x0, y0] = toScreen(xf, r.x0, r.y0);
+			const [x1, y1] = toScreen(xf, r.x1, r.y1);
+			const dx = (x1 - x0) * S2_FEATHER;
+			const dy = (y1 - y0) * S2_FEATHER;
+			return [x0 + dx, y0 + dy, x1 - dx, y1 - dy];
+		});
+	if (!boxes.length) return 0;
+	const N = 12;
+	let hit = 0;
+	for (let i = 0; i < N; i++) {
+		for (let j = 0; j < N; j++) {
+			const x = (i * W) / (N - 1);
+			const y = (j * H) / (N - 1);
+			if (boxes.some((b) => x >= b[0] && x <= b[2] && y >= b[1] && y <= b[3])) hit++;
+		}
+	}
+	return hit / (N * N);
+};
 // Overlays fade in and out over FADE frames, except at the block's edges: what is there from frame 0 is there on the
 // first frame (a before/after's 'before' image must hide the present-day imagery under it), and what lasts to the end
 // stays to the last frame (a Short loops straight back to its first frame).
@@ -316,7 +348,9 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 			}),
 	);
 	const s2FadeWide = clamp01((4.5 - span) / (4.5 - 2.6));
-	const s2Fade = s2FadeWide + (clamp01((2.6 - span) / (2.6 - 2.0)) - s2FadeWide) * modisCover;
+	const s2Span = s2FadeWide + (clamp01((2.6 - span) / (2.6 - 2.0)) - s2FadeWide) * modisCover;
+	// ...and it only shows once it fills the frame (Kashmir Short: a 0.09-degree image sat on the 2.2-degree view).
+	const s2Fade = s2Span * smooth(0.8, 1, s2FrameCover(rasters.filter((r) => r.layer === 's2'), xf, cam.w));
 
 	return (
 		<AbsoluteFill style={{backgroundColor: style.ocean, overflow: 'hidden'}}>
@@ -342,7 +376,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 									src={staticFile(`media/${r.src}`)}
 									style={{
 										...placeStyle(r, xf),
-										opacity: onScreen ? 1 : 0,
+										opacity: !onScreen ? 0 : layer === 's2' ? s2ImageOpacity(r, cam.w) : 1,
 										filter: layer === 'relief' || style.rasterFilter === 'none' ? undefined : style.rasterFilter,
 									}}
 								/>

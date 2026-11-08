@@ -24,9 +24,9 @@
         "steps": [
          {
           "view": {
-           "lon": 66.97,
-           "lat": 37.11,
-           "span": 0.3
+           "lon": 67.0,
+           "lat": 37.095,
+           "span": 0.2
           },
           "date": "2026-07-01/2026-09-30",
           "compare": {
@@ -42,7 +42,7 @@
          }
         ]
        },
-       "on_screen_text": "Afghanistan is digging a new river"
+       "on_screen_text": "Afghanistan's new 285 km canal"
       }
      ]
     },
@@ -144,9 +144,9 @@
         "steps": [
          {
           "view": {
-           "lon": 66.97,
-           "lat": 37.11,
-           "span": 0.3
+           "lon": 67.0,
+           "lat": 37.095,
+           "span": 0.2
           },
           "date": "2026-07-01/2026-09-30"
          }
@@ -263,9 +263,9 @@
         "steps": [
          {
           "view": {
-           "lon": 66.97,
-           "lat": 37.11,
-           "span": 0.3
+           "lon": 67.0,
+           "lat": 37.095,
+           "span": 0.2
           },
           "date": "2026-07-01/2026-09-30",
           "places": [

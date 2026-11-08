@@ -82,12 +82,17 @@
        "map": {
         "steps": [
          {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "date": "2026-08-25",
           "highlight": [
            "file:aral1960.geojson"
           ]
          }
-        ],
-        "keep": true
+        ]
        },
        "on_screen_text": "The 1960 shoreline"
       }

@@ -362,29 +362,59 @@ DUST = [pic("File:Dust Bowl Oklahoma.jpg", "Oklahoma, the Dust Bowl years"), pic
         pic("File:Dust bowl, Texas Panhandle, TX fsa.8b27276 edit.jpg", "Texas Panhandle"), pic("File:Dust Bowl in Texas County, Oklahoma.jpg", "Texas County, Oklahoma")]
 TX = [sat(-102.7, 36.2, 0.14, "Near Dalhart, Texas"), sat(-102.07, 36.34, 0.2, "Near Stratford, Texas"), sat(-102.0, 35.95, 0.16, "Near Dumas, Texas"), sat(-102.4, 34.8, 0.18, "Near Hereford, Texas"),
       sat(-101.7, 34.2, 0.2, "Near Plainview, Texas"), sat(-101.9, 33.8, 0.16, "North of Lubbock, Texas"), sat(-102.4, 33.6, 0.18, "Near Levelland, Texas"), sat(-102.75, 34.05, 0.16, "Near Muleshoe, Texas"),
-      sat(-102.45, 35.95, 0.14, "The Texas Panhandle"), sat(-101.9, 36.15, 0.18, "The Texas Panhandle"), sat(-102.1, 34.5, 0.16, "Near Dimmitt, Texas"), sat(-101.4, 34.6, 0.18, "Near Tulia, Texas")]
+      sat(-102.45, 35.95, 0.14, "The Texas Panhandle"), sat(-101.9, 36.15, 0.18, "The Texas Panhandle"), sat(-102.1, 34.5, 0.16, "Near Dimmitt, Texas"), sat(-101.75, 34.55, 0.18, "Near Tulia, Texas")]
 KS = [sat(-100.72, 37.72, 0.16, "Southwest Kansas"), sat(-100.9, 38.5, 0.18, "Near Scott City, Kansas"), sat(-101.35, 37.6, 0.18, "Near Ulysses, Kansas"), sat(-100.85, 37.5, 0.14, "Near Sublette, Kansas"),
       sat(-100.25, 37.8, 0.16, "Near Dodge City, Kansas"), sat(-100.9, 37.1, 0.18, "Near Liberal, Kansas"), sat(-101.35, 38.48, 0.16, "Near Leoti, Kansas"), sat(-101.25, 37.95, 0.16, "Near Lakin, Kansas"),
-      sat(-100.55, 37.9, 0.14, "Southwest Kansas"), sat(-101.0, 38.1, 0.16, "Finney County, Kansas"), sat(-100.6, 37.45, 0.16, "Southwest Kansas"), sat(-101.75, 37.75, 0.18, "Near Syracuse, Kansas")]
+      sat(-100.55, 37.9, 0.14, "Southwest Kansas"), sat(-101.0, 38.1, 0.16, "Finney County, Kansas"), sat(-100.6, 37.45, 0.16, "Southwest Kansas"), sat(-101.75, 37.95, 0.18, "Near Syracuse, Kansas")]
 KSN = [sat(-100.6, 39.35, 0.14, "Sheridan County, Kansas"), sat(-100.3, 39.45, 0.14, "Sheridan County, Kansas"), sat(-101.05, 39.4, 0.16, "Near Colby, Kansas"), sat(-100.85, 39.1, 0.16, "Near Oakley, Kansas"),
        sat(-101.6, 39.25, 0.15, "Near Goodland, Kansas"), sat(-100.75, 39.25, 0.12, "Northwest Kansas")]
 NE = [m(0, v({"lon": -100, "lat": 41.6, "span": 8}, highlight=["Nebraska"])), sat(-99.5, 41.0, 0.2, "Central Nebraska"), sat(-101.2, 40.9, 0.18, "Western Nebraska"), sat(-98.2, 40.9, 0.18, "Eastern Nebraska")]
-GROUPS = {"tx": TX, "ks": KS, "ksn": KSN, "ne": NE, "dust": DUST, "pivot": PIVOTS}
+GUYMON = [sat(-101.48, 36.68, 0.2, "Guymon, Oklahoma"), sat(-101.3, 36.75, 0.16, "Near Guymon, Oklahoma"), sat(-101.65, 36.6, 0.16, "Near Guymon, Oklahoma")]
+CLOVIS = [sat(-103.2, 34.4, 0.2, "Clovis, New Mexico"), sat(-103.35, 34.3, 0.16, "Near Clovis, New Mexico"), sat(-103.05, 34.5, 0.16, "Near Clovis, New Mexico")]
+GROUPS = {"tx": TX, "ks": KS, "ksn": KSN, "ne": NE, "dust": DUST, "pivot": PIVOTS, "guymon": GUYMON, "clovis": CLOVIS}
 counters = dict.fromkeys(GROUPS, 0)
 
 
-def topic(text, chapter):
+def topic_of(text, chapter):
+    if "Guymon" in text or "interim city manager" in text:
+        return "guymon"
+    if "Clovis" in text or "water authority" in text:
+        return "clovis"
     if chapter == "The Same Land in 1935":
-        return "pivot" if re.search(r"Zybach|machine|arm of pipe|pivot|Pivot|well\\b|He built", text) else ("ks" if "Kansas" in text else "dust")
+        if re.search(r"Zybach|machine|arm of pipe|[Pp]ivot|a well|He built|round", text):
+            return "pivot"
+        if "Pumps" in text:
+            return "tx"
+        if "Kansas" in text or "green share" in text:
+            return "ks"
+        if re.search(r"1935|Plows|Sand|Dust Bowl|farm north|Families", text):
+            return "dust"
+        return None
     if re.search(r"Sheridan|northwest|north,|They capped|twenty percent cut|aquifer answered|Farm income", text):
         return "ksn"
     if "Nebraska" in text and "Texas" not in text and "Kansas" not in text:
         return "ne"
     tx = len(re.findall(r"Texas|Panhandle|Muleshoe|Amarillo|Dalhart|Stratford|Pickens|rule of capture|Black|Grotegrut", text))
-    ks = len(re.findall(r"Kansas|District|Garden City|Holmes|Lewis|Holcomb|Dodge|Gigot|Wichita County|Griggs|Kelly|chief engineer|Bureau", text))
+    ks = len(re.findall(r"Kansas|District|district|Garden City|Holmes|Lewis|Holcomb|Dodge|Gigot|Wichita County|Griggs|Kelly|chief engineer|Bureau", text))
     if tx or ks:
         return "tx" if tx > ks else "ks"
-    return {"It Looks Like Success": "tx", "The Biggest Pump Wins": "tx", "What Running Out Looks Like": "tx", "The Farmers Who Cut Anyway": "ksn"}.get(chapter, "ks")
+    return None
+
+
+CHAPTER_DEFAULT = {"It Looks Like Success": "tx", "The Same Land in 1935": "dust", "The Biggest Pump Wins": "tx", "What Running Out Looks Like": "tx", "The Farmers Who Cut Anyway": "ksn"}
+
+
+def topic(para_text, at, chapter):
+    """The sentence under the new picture decides; failing that the paragraph, then the chapter."""
+    seen, sentence = 0, para_text
+    for part in re.split(r"(?<=[.?!])\s+", para_text):
+        k = len(part.split())
+        if seen <= at < seen + k:
+            sentence = part
+            break
+        seen += k
+    return topic_of(sentence, chapter) or topic_of(para_text, chapter) or CHAPTER_DEFAULT.get(chapter, "ks")
+
 
 
 for ch in chapters:
@@ -398,11 +428,11 @@ for ch in chapters:
         n = len(para["text"].split())
         stops = sorted(marks | {0}) + [n]
         new = []
-        group = topic(para["text"], ch["title"])
         for a, b in zip(stops, stops[1:]):
             parts = (b - a - 1) // MAX_WORDS
             for j in range(1, parts + 1):
                 at = a + (b - a) * j // (parts + 1)
+                group = topic(para["text"], at, ch["title"])
                 shot = json.loads(json.dumps(GROUPS[group][counters[group] % len(GROUPS[group])]))
                 counters[group] += 1
                 shot["at"] = at

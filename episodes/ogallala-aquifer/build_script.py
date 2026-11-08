@@ -161,15 +161,15 @@ chapters = [
           stat("by 1951", "50+ feet", "Water-level declines in parts of Texas, 1938 to 1951", USGS)),
         P("Then came a machine. In 1947 a Colorado farmer named Frank Zybach watched workers hauling irrigation pipe by hand, and thought a sprinkler could walk by itself.",
           m(0, v({"lon": -103.2, "lat": 39.2, "span": 5}, places=[STRASBURG])),
-          photo("workers hauling", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "A center pivot in Morton, Texas")),
+          photo("workers hauling", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "A center pivot today")),
         P("He built one in 1948, near Strasburg, and patented it in 1952: a long arm of pipe on wheels, turning around a well. That is why the fields are round.",
           stat("patented", "July 22, 1952", "Frank Zybach's self-propelled sprinkler is patented", "ASABE; National Inventors Hall of Fame"),
-          photo("a long arm", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg", "The arm turns around a well"),
+          photo("a long arm", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "The arm turns around a well"),
           m("That is why", v(DALLAM, date=W24))),
         P("A pivot does not need flat ground or a canal. It needs a well. Watch what that did to western Kansas, from 1986 to this summer. Here the green share went from about ten percent to thirty-eight.",
-          photo(0, "File:Irrigation drop nozzle on center pivot sprinkler in Morton, Texas (25021127761).jpg", "It only needs a well"),
-          m("Watch what", v(GOODLAND, date="2026-07-01/2026-08-31", compare={"before": "1986-07-16", "after": "2026-07-06", "source": "landsat", "seconds": 2.2, "until": "from 1986"}),
-            step("from 1986"), text="Near Goodland, Kansas")),
+          photo(0, "File:Circular irrigation sprinklers 01.jpg", "It only needs a well"),
+          m("Watch what", v(GOODLAND, date="2026-07-01/2026-08-31", compare={"before": "1986-07-16", "after": "2026-07-06", "source": "landsat", "seconds": 2.2, "until": "Here the"}),
+            step("Here the"), text="Near Goodland, Kansas")),
     ]},
     {"title": "A Sea With No Surface", "mood": "curious", "paragraphs": [
         P("So what is under there? Not an underground lake. It is sand and gravel washed off the Rockies, with water in the gaps.",
@@ -187,8 +187,9 @@ chapters = [
     ]},
     {"title": "Two States, One Hole", "mood": "tension", "paragraphs": [
         P("Because that average hides nearly everything. This is the government's own map of the change, about 1950 to 2019. Gray means almost nothing happened.",
-          {"type": "document", "at": "This is", "document": {"pdf": PDF, "page": 10, "rects": [[0.27, 0.46, 0.5, 0.78]], "source": USGS, "title": "Water-level change, about 1950 to 2019"}}),
-        P("Most of Nebraska is gray. Its average fell less than half a foot, and one well there rose eighty-six feet.",
+          {"type": "document", "at": "This is", "document": {"pdf": PDF, "page": 10, "rects": [[0.27, 0.46, 0.5, 0.78]], "source": USGS, "title": "Water-level change, about 1950 to 2019"}},
+          {"type": "document", "at": "Gray means", "document": {"pdf": PDF, "page": 10, "rects": [[0.3, 0.13, 0.66, 0.3]], "source": USGS, "title": "Gray: almost no change"}}),
+        P("Most of Nebraska is gray on this map. Its average fell less than half a foot, and one well there rose eighty-six feet.",
           m(0, v({"lon": -100, "lat": 41.6, "span": 8}, highlight=["Nebraska"])),
           chart("Its average", "Average water-level decline since about 1950", " ft", [["Nebraska", 0.4], ["Kansas", 27.3], ["Texas", 44.1]], USGS, highlight=0)),
         P("Now go south. Kansas fell an average of twenty-seven feet. Texas, forty-four.",
@@ -280,7 +281,7 @@ chapters = [
           stat(0, "40%", "Pumping cut in Wichita County, Kansas", KGS),
           m("Outside Garden", v(GARDEN, date=W24, places=[GARDEN_CITY]))),
         P("Garden City planned to send them treated wastewater, so they could switch off some wells next to the city's own. Yet they say the state must force others to cut back. Even the Farm Bureau's president said in 2024, \"we don't have decades.\"",
-          photo(0, "File:Irrigation drop nozzle on center pivot sprinkler in Morton, Texas (25021127761).jpg", "Saving water, one nozzle at a time"),
+          m(0, v(GARDEN, places=[GARDEN_CITY])),
           clip("Yet they say", "we don't have decades to fix this problem", "Joe Newland, Kansas Farm Bureau president, to Stateline, 2024", "decades")),
         P("Towns are moving too. Dodge City, about twenty-eight thousand people, sends about 1.8 billion gallons of treated wastewater to irrigate three thousand acres of crops. A sixty million dollar project there aims to push treated water back into the aquifer.",
           m(0, v({"lon": -100.02, "lat": 37.76, "span": 0.3}, date=W24, places=[place("Dodge City", -100.02, 37.76, "Dodge City, Kansas", "city")])),
@@ -297,7 +298,7 @@ chapters = [
           stat(0, "1972", "Kansas creates groundwater management districts", LEWIS),
           clip("Burke Griggs", "None of them have achieved much.", "Burke Griggs, Washburn University, to Stateline, 2024", "achieved much")),
         P("In 2024 Governor Laura Kelly said some communities were a generation away from running out of water. She still preferred local agreement, \"rather than the state wielding that heavy hammer.\" Two years earlier, a bigger water bill had sunk on an amendment from Joe Newland, the same Farm Bureau president.",
-          m(0, v({"lon": -98.4, "lat": 38.5, "span": 7}, highlight=["Kansas"], places=[TOPEKA])),
+          m(0, v({"lon": -95.68, "lat": 39.05, "span": 0.3}, places=[TOPEKA])),
           clip("She still", "rather than the state wielding that heavy hammer", "Gov. Laura Kelly to Stateline, 2024", "heavy hammer"),
           stat("Two years", "2022", "A larger Kansas water bill sinks on an amendment", STATELINE)),
         P("In February, more than two hundred farmers came to hear District 3's plan: cut pumping five percent a year for twenty years, 27.7 percent in all, according to its engineer.",
@@ -343,7 +344,7 @@ chapters = [
 sys.path.insert(0, str(HERE.parent.parent / "pipeline"))
 from schema import Paragraph  # noqa: E402
 
-MAX_WORDS = 13
+MAX_WORDS = 10
 
 
 def sat(lon, lat, span, label=None):
@@ -354,11 +355,10 @@ def pic(name, label=None):
     return photo(0, name, label)
 
 
-PIVOTS = [pic("File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "A center pivot in Morton, Texas"),
-          pic("File:Circular irrigation sprinklers 01.jpg", "A center pivot"),
-          pic("File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg", "Morton, Texas"),
-          pic("File:Circular irrigation sprinklers 02.jpg", "A center pivot")]
-DUST = [pic("File:Dust Bowl Oklahoma.jpg", "Oklahoma, the Dust Bowl years"), pic("File:Dust Bowl winds pile up against barn in Kansas.jpg", "Kansas, the Dust Bowl years"),
+PIVOTS = [pic("File:Circular irrigation sprinklers 02.jpg", "A center pivot"),
+          pic("File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg", "A center pivot today"),
+          sat(-102.7, 36.2, 0.08, "Round, because the arm turns around a well"), sat(-101.6, 39.3, 0.08, "Round fields, seen from orbit")]
+DUST = [pic("File:Dust storm descends over the Texas Panhandle town of Stratford in 1935. (24490688603).jpg", "Stratford, Texas, 1935"), pic("File:Dust Bowl Oklahoma.jpg", "Oklahoma, the Dust Bowl years"), pic("File:Dust Bowl winds pile up against barn in Kansas.jpg", "Kansas, the Dust Bowl years"),
         pic("File:Dust bowl, Texas Panhandle, TX fsa.8b27276 edit.jpg", "Texas Panhandle"), pic("File:Dust Bowl in Texas County, Oklahoma.jpg", "Texas County, Oklahoma")]
 TX = [sat(-102.7, 36.2, 0.14, "Near Dalhart, Texas"), sat(-102.07, 36.34, 0.2, "Near Stratford, Texas"), sat(-102.0, 35.95, 0.16, "Near Dumas, Texas"), sat(-102.4, 34.8, 0.18, "Near Hereford, Texas"),
       sat(-101.7, 34.2, 0.2, "Near Plainview, Texas"), sat(-101.9, 33.8, 0.16, "North of Lubbock, Texas"), sat(-102.4, 33.6, 0.18, "Near Levelland, Texas"), sat(-102.75, 34.05, 0.16, "Near Muleshoe, Texas"),
@@ -427,9 +427,28 @@ for ch in chapters:
             marks.add(pm.ask_index())
         n = len(para["text"].split())
         stops = sorted(marks | {0}) + [n]
+        no_fill = para["text"].startswith("Because that average")
+        blocks = [(min(idx), max(idx)) for idx in pm.step_indices() if len(idx) > 1]
+        para_words = para["text"].split()
+        for sh in para["shots"]:  # a wipe keeps the screen until it has finished
+            for st in (sh.get("map") or {}).get("steps", []):
+                until = (st.get("compare") or {}).get("until")
+                if until:
+                    want = until.split()
+                    bare = [w.strip('.,;:!?"') for w in para_words]
+                    hits = [i for i in range(len(bare)) if bare[i:i + len(want)] == want]
+                    if hits:
+                        blocks.append((hits[0], len(para_words)))
+        for sh, start in zip(para["shots"], pm.anchor_indices()):
+            for phrase in (sh.get("chart") or {}).get("reveal", []):
+                want = phrase.split()
+                hits = [i for i in range(len(para_words)) if para_words[i:i + len(want)] == want]
+                if hits:
+                    blocks.append((start, hits[0]))
         new = []
         for a, b in zip(stops, stops[1:]):
-            parts = (b - a - 1) // MAX_WORDS
+            inside = any(lo <= a and b <= hi for lo, hi in blocks)  # a shot still running its own steps or chart reveal
+            parts = 0 if (no_fill or inside) else (b - a - 1) // MAX_WORDS
             for j in range(1, parts + 1):
                 at = a + (b - a) * j // (parts + 1)
                 group = topic(para["text"], at, ch["title"])

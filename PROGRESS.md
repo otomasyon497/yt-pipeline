@@ -12,9 +12,10 @@
   reservoir); text "RIVER TAKEN?" (the video's own question) replaced the overstated "RIVER GONE?".
 - Long episode re-rendered at a923430 (the first render had the patch at 465.5 s, Ratle dive): release
   ep-indus-waters-42520507017, 16:10, 469 MB, in Videos\yt-pipeline\indus-waters; frames checked. Audio not checked.
-- API upload: the token is read-only and the upload code was removed in Phase 3A (old version: git show bebdb66).
-  YouTube's revision history, 2 Nov 2026: uploads from unverified API projects are no longer locked private, so it
-  is now possible; videos.insert has its own bucket (1 unit, 100 calls a day). Not built; the user decides.
+- API upload built at the user's request (2026-11-09): tools/yt_upload.py, private only (fixed in the code), reads the
+  privacy back after the upload; the user reviews and publishes in Studio. Own write token token_upload.json; the
+  analytics token stays read-only. YouTube's revision history, 2 Nov 2026: uploads from unverified API projects are no
+  longer locked private; videos.insert has its own bucket (1 unit, 100 calls a day).
 - Watermark: tools/watermark.py -> Videos\yt-pipeline\channel\watermark.png (600 x 600, transparent, flat shapes; the
   profile picture turns to mud at watermark size). The user adds it in Studio > Customization > Branding.
 - Analytics API set up 2026-11-08 (API instead of Chrome as videos grow): Google Cloud project ink-orbit-analytics,

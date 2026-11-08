@@ -392,5 +392,74 @@
    "green": 35.0,
    "clear": 1.0
   }
+ },
+ "Sheridan KS": {
+  "1986": null,
+  "1990": {
+   "date": "1990-08-21",
+   "platform": "landsat-5",
+   "green": 39.7,
+   "clear": 1.0
+  },
+  "1995": {
+   "date": "1995-07-25",
+   "platform": "landsat-5",
+   "green": 39.6,
+   "clear": 0.903
+  },
+  "2000": {
+   "date": "2000-08-07",
+   "platform": "landsat-5",
+   "green": 38.2,
+   "clear": 0.997
+  },
+  "2005": {
+   "date": "2005-07-29",
+   "platform": "landsat-5",
+   "green": 36.1,
+   "clear": 1.0
+  },
+  "2010": {
+   "date": "2010-07-27",
+   "platform": "landsat-5",
+   "green": 51.6,
+   "clear": 1.0
+  },
+  "2015": {
+   "date": "2015-08-01",
+   "platform": "landsat-8",
+   "green": 54.5,
+   "clear": 0.996
+  },
+  "2020": {
+   "date": "2020-08-07",
+   "platform": "landsat-8",
+   "green": 66.4,
+   "clear": 1.0
+  },
+  "2022": {
+   "date": "2022-08-12",
+   "platform": "landsat-9",
+   "green": 28.6,
+   "clear": 0.998
+  },
+  "2024": {
+   "date": "2024-07-25",
+   "platform": "landsat-9",
+   "green": 34.1,
+   "clear": 1.0
+  },
+  "2025": {
+   "date": "2025-08-04",
+   "platform": "landsat-9",
+   "green": 54.8,
+   "clear": 1.0
+  },
+  "2026": {
+   "date": "2026-07-06",
+   "platform": "landsat-9",
+   "green": 46.7,
+   "clear": 1.0
+  }
  }
 }

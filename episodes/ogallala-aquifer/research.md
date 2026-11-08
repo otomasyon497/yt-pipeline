@@ -72,6 +72,8 @@ Status: first pass from searches and the pages noted below. Read the primary PDF
 - Green share, tools/ogallala_green.py, green_shares.json (best of up to 3 clear July-August days, NDVI over 0.5, box 0.5 x 0.4 deg): Dalhart 17.0 (1986-08-17), 45.6 (2010), 58.5 (2024-08-17), 14.8 (2026-07-30, one day). Stratford 9.0 -> 55.1, 18.8 in 2026.
   This overturned the first idea for the hook (fields drying): the pale 2026 image was one late-July day. Landsat 5 against 8/9 differ a little, so the Landsat 5 run 1986-2010 is said too.
 
+- All seven boxes (green_shares.json), 2025 -> 2026: Dalhart 55.2 -> 14.8, Stratford 46.6 -> 18.8, Hale 42.5 -> 10.7, Goodland 47.1 -> 38.1, Leoti 53.7 -> 23.3, Garden City 57.2 -> 35.0, Sheridan 54.8 -> 46.7. Single years swing a lot with the dates available (Garden City 83.0 in 2020, 26.5 in 2022), so use long comparisons and say the limits. Goodland 10.0 (1986) -> 38.1 (2026).
+
 ## Visual inventory
 - Landsat, metadata checked 2026-11-09 (Planetary Computer, under 5 % cloud, June-Sept): Garden City KS 10 scenes 1984-86 (1985-08-30, 1986-07-16), 11 in 2000, 22 in
   2025-26 (2026-08-07). Sherman/Dallam TX 5 / 4 / 13 (1986-08-17, 2026-08-07). Lubbock TX 2 / 4 / 12 (1986-09-11, 2026-08-16). Images not yet looked at.

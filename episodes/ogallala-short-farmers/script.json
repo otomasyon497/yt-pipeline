@@ -11,7 +11,7 @@
  "thumbnail": {
   "text": "IT WORKED",
   "focus": [
-   -101.7,
+   -100.45,
    39.35,
    0.09
   ]
@@ -23,7 +23,7 @@
    "card": false,
    "paragraphs": [
     {
-     "text": "Northwest Kansas, 1986. Now, the same land, in 2026.",
+     "text": "Northwest Kansas, 1990. Now, the same land, in 2026.",
      "shots": [
       {
        "type": "map",
@@ -32,13 +32,13 @@
         "steps": [
          {
           "view": {
-           "lon": -101.7,
+           "lon": -100.45,
            "lat": 39.35,
            "span": 0.16
           },
           "date": "2026-07-01/2026-08-31",
           "compare": {
-           "before": "1986-07-16",
+           "before": "1990-08-21",
            "after": "2026-07-06",
            "source": "landsat",
            "seconds": 1.6,
@@ -50,12 +50,12 @@
          }
         ]
        },
-       "on_screen_text": "More circles, more wells"
+       "on_screen_text": "Sheridan County, Kansas, from orbit"
       }
      ]
     },
     {
-     "text": "Every new circle pumps from the same aquifer.",
+     "text": "Every circle pumps from the same aquifer.",
      "shots": [
       {
        "type": "map",
@@ -64,10 +64,11 @@
         "steps": [
          {
           "view": {
-           "lon": -100.45,
+           "lon": -100.6,
            "lat": 39.3,
-           "span": 2.4
-          }
+           "span": 0.1
+          },
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        },
@@ -210,7 +211,7 @@
            "lat": 37.85,
            "span": 0.16
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2024-08-02/2024-08-02"
          }
         ]
        }
@@ -244,7 +245,7 @@
  ],
  "youtube": {
   "title": "These Kansas Farmers Cut Their Own Water",
-  "description": "Northwest Kansas from orbit, 1986 and 2026. In 2013 farmers in Sheridan County capped their own pumping, and the decline of the aquifer slowed from two feet a year to half a foot. Southwest Kansas is now fighting over how far to follow.\n\nFull documentary on the channel: the Ogallala aquifer\n\n#geography #kansas #water",
+  "description": "Sheridan County, Kansas from orbit, 1990 and 2026. In 2013 farmers in Sheridan County capped their own pumping, and the decline of the aquifer slowed from two feet a year to half a foot. Southwest Kansas is now fighting over how far to follow.\n\nFull documentary on the channel: the Ogallala aquifer\n\n#geography #kansas #water",
   "tags": [
    "Ogallala aquifer",
    "Kansas",

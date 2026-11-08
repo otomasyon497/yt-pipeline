@@ -64,16 +64,16 @@ build("ogallala-short-orbit", "From Space, These Farms Look Fine",
 ])
 
 build("ogallala-short-farmers", "These Kansas Farmers Cut Their Own Water",
-      "Northwest Kansas from orbit, 1986 and 2026. In 2013 farmers in Sheridan County capped their own pumping, and the decline of the aquifer slowed from two feet a year to half a foot. Southwest Kansas is now fighting over how far to follow.\n\nFull documentary on the channel: the Ogallala aquifer\n\n#geography #kansas #water",
+      "Sheridan County, Kansas from orbit, 1990 and 2026. In 2013 farmers in Sheridan County capped their own pumping, and the decline of the aquifer slowed from two feet a year to half a foot. Southwest Kansas is now fighting over how far to follow.\n\nFull documentary on the channel: the Ogallala aquifer\n\n#geography #kansas #water",
       ["Ogallala aquifer", "Kansas", "Sheridan County", "groundwater", "water conservation", "satellite images", "before and after", "shorts"],
       "Would you cut your own water before anyone made you?",
-      "IT WORKED", [-101.7, 39.35, 0.09], "Sheridan 6", [
-    {"text": "Northwest Kansas, 1986. Now, the same land, in 2026.", "shots": [map_shot(0, [{"view": GOODLAND, "date": W26, "compare": {"before": "1986-07-16", "after": "2026-07-06", "source": "landsat", "seconds": 1.6, "until": "Now,"}}, {"at": "Now,"}], "More circles, more wells")]},
-    {"text": "Every new circle pumps from the same aquifer.", "shots": [map_shot(0, [{"view": SHER_W}], "One aquifer under eight states")]},
+      "IT WORKED", [-100.45, 39.35, 0.09], "Sheridan 6", [
+    {"text": "Northwest Kansas, 1990. Now, the same land, in 2026.", "shots": [map_shot(0, [{"view": HOXIE, "date": W26, "compare": {"before": "1990-08-21", "after": "2026-07-06", "source": "landsat", "seconds": 1.6, "until": "Now,"}}, {"at": "Now,"}], "Sheridan County, Kansas, from orbit")]},
+    {"text": "Every circle pumps from the same aquifer.", "shots": [map_shot(0, [{"view": {"lon": -100.6, "lat": 39.3, "span": 0.1}, "date": W24}], "One aquifer under eight states")]},
     {"text": "But in 2013, farmers in Sheridan County did something nobody made them do.", "shots": [map_shot(0, [{"view": SHER_W, "places": [SHERIDAN]}], "Sheridan County, Kansas")]},
     {"text": "They capped their own pumping. The target was twenty percent.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Target: a 20% cut")]},
     {"text": "They cut about twenty-three.", "shots": [map_shot(0, [{"view": {"lon": -100.6, "lat": 39.35, "span": 0.08}, "date": W24}], "They reached 23%")]},
     {"text": "The water level had been falling two feet a year. It slowed to half a foot.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "2 feet a year, then half a foot")]},
-    {"text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.", "shots": [map_shot(0, [{"view": {"lon": -100.9, "lat": 38.3, "span": 3.4}, "places": [GC]}], "Rejected, Sept 30, 2026"), map_shot("The state", [{"view": GARDEN, "date": W24}])]},
+    {"text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.", "shots": [map_shot(0, [{"view": {"lon": -100.9, "lat": 38.3, "span": 3.4}, "places": [GC]}], "Rejected, Sept 30, 2026"), map_shot("The state", [{"view": GARDEN, "date": "2024-08-02/2024-08-02"}])]},
     {"text": "Would you cut your own water before anyone made you?", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Would you cut first?")]},
 ])

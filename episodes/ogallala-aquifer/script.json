@@ -371,6 +371,61 @@
      ]
     },
     {
+     "text": "Why push so hard? Parts of that district have lost up to thirty feet of water in ten years. At its thickest, the aquifer under Kansas is only a little over three hundred feet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "up to thirty",
+       "stat": {
+        "value": "Up to 30 feet",
+        "label": "Lost in ten years in parts of District 3",
+        "source": "Kansas Public Radio, Oct 19, 2026",
+        "note": "The aquifer's maximum thickness in Kansas: just over 300 feet"
+       }
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "text": "Kansas had set the rules three years earlier. In 2023 the legislature passed a law, 34 to 6 in the Senate and 116 to 6 in the House: every district must file a plan by July 1, 2026.",
      "shots": [
       {
@@ -407,19 +462,11 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -441,14 +488,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -471,15 +519,16 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
           },
-          "date": "2024-07-01/2024-08-31"
+          "highlight": [
+           "Kansas"
+          ]
          }
         ]
-       },
-       "on_screen_text": "Southwest Kansas"
+       }
       }
      ]
     },
@@ -527,13 +576,11 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.18
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -559,9 +606,9 @@
         "steps": [
          {
           "view": {
-           "lon": -101.0,
-           "lat": 38.1,
-           "span": 0.18
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
@@ -589,8 +636,8 @@
         "steps": [
          {
           "view": {
-           "lon": -100.55,
-           "lat": 37.9,
+           "lon": -100.72,
+           "lat": 37.72,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
@@ -629,11 +676,19 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
-           "span": 0.16
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
           },
-          "date": "2024-07-01/2024-08-31"
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
          }
         ]
        }
@@ -807,7 +862,7 @@
      ]
     },
     {
-     "text": "A pivot does not need flat ground or a canal. It needs a well. Watch what that did to western Kansas, from 1986 to this summer. Here the circles are still multiplying, not fading.",
+     "text": "A pivot does not need flat ground or a canal. It needs a well. Watch what that did to western Kansas, from 1986 to this summer. Here the green share went from about ten percent to thirty-eight.",
      "shots": [
       {
        "type": "photo",
@@ -836,7 +891,7 @@
            "before": "1986-07-16",
            "after": "2026-07-06",
            "source": "landsat",
-           "seconds": 2.6,
+           "seconds": 2.2,
            "until": "from 1986"
           },
           "date": "2026-07-01/2026-08-31"
@@ -847,6 +902,12 @@
         ]
        },
        "on_screen_text": "Near Goodland, Kansas"
+      },
+      {
+       "type": "photo",
+       "at": 29,
+       "photo": "File:Son of farmer in dust bowl area, Cimarron County, Oklahoma, 8b38282.jpg",
+       "on_screen_text": "Cimarron County, Oklahoma"
       }
      ]
     }
@@ -2367,11 +2428,11 @@
      ]
     },
     {
-     "text": "And here is something we cannot explain yet. This July our measurement near Dalhart fell to about fifteen percent, from one clear day. One day is not a trend. It might just be a planting calendar. We will keep measuring it.",
+     "text": "And here is something we cannot explain yet. All seven areas we measured came in less green this summer than last. Near Dalhart, about fifteen percent. One summer is not a trend. It could be drought, or a planting calendar. We will keep measuring.",
      "shots": [
       {
        "type": "map",
-       "at": 7,
+       "at": 10,
        "map": {
         "steps": [
          {
@@ -2387,17 +2448,17 @@
       },
       {
        "type": "stat",
-       "at": "fell to",
+       "at": "Near Dalhart,",
        "stat": {
         "value": "15%",
         "label": "Land actively green near Dalhart, July 30, 2026",
         "source": "Our measurement, Landsat 8",
-        "note": "One clear day, not a trend"
+        "note": "All seven areas measured were down on 2025"
        }
       },
       {
        "type": "map",
-       "at": "One day",
+       "at": "One summer",
        "map": {
         "steps": [
          {
@@ -2413,7 +2474,7 @@
       },
       {
        "type": "map",
-       "at": 32,
+       "at": 35,
        "map": {
         "steps": [
          {
@@ -2751,6 +2812,67 @@
      ]
     },
     {
+     "text": "Towns are moving too. Dodge City, about twenty-eight thousand people, sends about 1.8 billion gallons of treated wastewater to irrigate three thousand acres of crops. A sixty million dollar project there aims to push treated water back into the aquifer.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.02,
+           "lat": 37.76,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Dodge City",
+            "lon": -100.02,
+            "lat": 37.76,
+            "kind": "city",
+            "label": "Dodge City, Kansas"
+           }
+          ],
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 12,
+       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
+       "on_screen_text": "Checking a center pivot, Morton, Texas"
+      },
+      {
+       "type": "stat",
+       "at": "A sixty",
+       "stat": {
+        "value": "$60 million",
+        "label": "Dodge City's project to recharge the aquifer",
+        "source": "Stateline, Feb 1, 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.35,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "text": "So the fix exists, and farmers proved it. Why not everywhere? Because a cut that looks fine on a map hits people one field at a time.",
      "shots": [
       {
@@ -2785,10 +2907,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 19,
-       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
-       "on_screen_text": "Checking a center pivot, Morton, Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.3,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
       }
      ],
      "ask": {
@@ -2896,6 +3036,91 @@
      ]
     },
     {
+     "text": "In 2024 Governor Laura Kelly said some communities were a generation away from running out of water. She still preferred local agreement, \"rather than the state wielding that heavy hammer.\" Two years earlier, a bigger water bill had sunk on an amendment from Joe Newland, the same Farm Bureau president.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -98.4,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ],
+          "places": [
+           {
+            "name": "Topeka",
+            "lon": -95.68,
+            "lat": 39.05,
+            "kind": "capital",
+            "label": "Topeka"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Southwest Kansas"
+      },
+      {
+       "type": "document",
+       "at": "She still",
+       "document": {
+        "text": "rather than the state wielding that heavy hammer",
+        "source": "Gov. Laura Kelly to Stateline, 2024",
+        "highlight": "heavy hammer"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Two years",
+       "stat": {
+        "value": "2022",
+        "label": "A larger Kansas water bill sinks on an amendment",
+        "source": "Stateline, Feb 1, 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "text": "In February, more than two hundred farmers came to hear District 3's plan: cut pumping five percent a year for twenty years, 27.7 percent in all, according to its engineer.",
      "shots": [
       {
@@ -2929,15 +3154,14 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       },
-       "on_screen_text": "Southwest Kansas"
+       }
       },
       {
        "type": "stat",
@@ -2960,13 +3184,11 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.16
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2992,9 +3214,9 @@
         "steps": [
          {
           "view": {
-           "lon": -101.0,
-           "lat": 38.1,
-           "span": 0.18
+           "lon": -100.6,
+           "lat": 39.35,
+           "span": 0.15
           },
           "date": "2024-07-01/2024-08-31"
          }
@@ -3008,6 +3230,84 @@
         "text": "It's going to affect my son.",
         "source": "Roger Holmes, farmer, to KCUR, 2026",
         "highlight": "my son"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the district has been cutting. The Kansas survey found use there since 2019 running nearly thirteen percent below the years before. For the district, that is progress. For the chief engineer, it is not enough.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.3,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "nearly thirteen",
+       "stat": {
+        "value": "13% less",
+        "label": "Water use in District 3 since 2019, against 2005-2018",
+        "source": "Kansas Geological Survey, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.3,
+           "lat": 39.45,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
        }
       }
      ]
@@ -3038,14 +3338,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.55,
-           "lat": 37.9,
-           "span": 0.16
+           "lon": -101.6,
+           "lat": 39.25,
+           "span": 0.15
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Northwest Kansas"
       },
       {
        "type": "stat",
@@ -3077,9 +3378,9 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.35,
-           "span": 0.15
+           "lon": -100.75,
+           "lat": 39.25,
+           "span": 0.12
           },
           "date": "2024-07-01/2024-08-31"
          }
@@ -3122,19 +3423,11 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.3,
-           "span": 2.6
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Hoxie",
-            "lon": -100.44,
-            "lat": 39.35,
-            "kind": "site",
-            "label": "Sheridan County, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -3146,11 +3439,19 @@
         "steps": [
          {
           "view": {
-           "lon": -100.3,
-           "lat": 39.45,
-           "span": 0.15
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
           },
-          "date": "2024-07-01/2024-08-31"
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
          }
         ]
        }
@@ -3185,15 +3486,14 @@
         "steps": [
          {
           "view": {
-           "lon": -101.6,
-           "lat": 39.25,
-           "span": 0.15
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       },
-       "on_screen_text": "Northwest Kansas"
+       }
       },
       {
        "type": "map",
@@ -3202,14 +3502,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.75,
-           "lat": 39.25,
-           "span": 0.12
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -3254,11 +3555,13 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
-           "span": 0.16
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
           },
-          "date": "2024-07-01/2024-08-31"
+          "highlight": [
+           "Kansas"
+          ]
          }
         ]
        }
@@ -3412,7 +3715,7 @@
      ]
     },
     {
-     "text": "From orbit you will not see it being made. The circles will stay green right up until they don't. That is the trap in this picture: it looks the same, year after year, until the pump runs dry.",
+     "text": "From orbit you will not see it being made. The circles will stay green right up until they don't. That is the trap: it looks the same, until the pump runs dry.",
      "shots": [
       {
        "type": "map",
@@ -3436,24 +3739,6 @@
          },
          {
           "at": "That is the trap"
-         }
-        ]
-       }
-      },
-      {
-       "type": "map",
-       "at": 28,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
-          },
-          "highlight": [
-           "Kansas"
-          ]
          }
         ]
        }
@@ -3488,11 +3773,13 @@
         "steps": [
          {
           "view": {
-           "lon": -101.0,
-           "lat": 38.1,
-           "span": 0.18
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
           },
-          "date": "2024-07-01/2024-08-31"
+          "highlight": [
+           "Kansas"
+          ]
          }
         ]
        }

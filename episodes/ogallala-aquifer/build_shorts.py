@@ -59,7 +59,7 @@ build("ogallala-short-orbit", "From Space, These Farms Look Fine",
     {"text": "But the water comes from one aquifer under eight states.", "shots": [map_shot(0, [{"view": WHOLE, "highlight": [AQ]}], "The High Plains aquifer")]},
     {"text": "Here in Texas, it has fallen forty-four feet on average since about 1950.", "shots": [map_shot(0, [{"view": PANHANDLE, "places": [DALHART]}], "Texas: down 44 feet on average")]},
     {"text": "One well dropped two hundred sixty-five.", "shots": [map_shot(0, [{"view": DAL_CLOSE, "date": W24}], "One Texas well: down 265 feet")]},
-    {"text": "A Kansas official now warns that land there could become nearly unusable within fifty years.", "shots": [map_shot(0, [{"view": KS, "places": [GC]}], "Kansas chief engineer, Nov 2026")]},
+    {"text": "In Kansas, the state's chief engineer warns that in one district the groundwater could be near unusable within fifty years.", "shots": [map_shot(0, [{"view": KS, "places": [GC]}], "Kansas chief engineer, Nov 2026")]},
     {"text": "So how long can the circles stay green?", "shots": [map_shot(0, [{"view": DALLAM, "date": W24}], "How long can they stay green?")]},
 ])
 

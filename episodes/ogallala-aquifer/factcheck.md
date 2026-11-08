@@ -30,7 +30,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 24 | c02p06 | stat card | 3 years: How long the state sat in on the meetings, the district's engineer says | Kansas Public Radio, Oct 19, 2026 | attributed |
 | 25 | c03p01 | narration | This is Stratford, Texas, in 1935. | Commons, NOAA photo | verified |
 | 26 | c03p01 | on screen | Stratford, Texas, 1935 | Commons, NOAA photo | verified |
-| 27 | c03p03 | on screen | Buried machinery, 1936 |  |  |
+| 27 | c03p03 | on screen | Buried machinery, 1936 | Commons, Dust Bowl - Dallas, South Dakota 1936 | verified |
 | 28 | c03p04 | narration | Pumps were reaching water in Texas so quickly that by 1951 wells had already dropped more than fifty feet in places. | R15 | verified |
 | 29 | c03p04 | stat card | 50+ feet: Water-level declines in parts of Texas, 1938 to 1951 | USGS, SIR 2023-5143 | verified |
 | 30 | c03p05 | narration | In 1947 a Colorado farmer named Frank Zybach watched workers hauling irrigation pipe by hand, and thought a sprinkler could walk by itself. | R11 | attributed |

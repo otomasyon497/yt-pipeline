@@ -24,6 +24,7 @@ LONG_HOLD = 8.0
 _NUM = re.compile(r"^(?P<pre>.*?)(?P<cur>[$€£]?)(?P<num>\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)(?P<post>.*)$")
 _UNIT = re.compile(r"^\s?(%|percent|per cent|billion|million|trillion|thousand|bn|km|kilomet|mile|metre|meter|m\b|"
                    r"tons?|tonnes?|ships?|people|times|x\b)", re.IGNORECASE)
+_RANGE = re.compile(r"\d\s*[-\u2013]\s*[$\u20ac\u00a3]?\d")
 _DATE = re.compile(r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d", re.IGNORECASE)
 
 
@@ -33,7 +34,7 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     Labels count only with a currency or a known unit after the number; a stat card (`any_unit`) counts any
     number except a year on its own ("1963").
     """
-    if not text or _DATE.search(text):  # "May 15, 2026" would pass through "May 0, 2026"
+    if not text or _DATE.search(text) or _RANGE.search(text):  # "May 15, 2026" would pass through "May 0, 2026"; "500-1,300" through "499-1,300"
         return None
     m = _NUM.match(text)
     if not m:

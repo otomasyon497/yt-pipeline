@@ -1,5 +1,6 @@
 """Builds script.json for ogallala-aquifer (beats are easier to review here than in the JSON).  python build_script.py"""
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -8,8 +9,10 @@ PDF = "https://pubs.usgs.gov/sir/2023/5143/sir20235143.pdf"
 AQ = "file:aquifer.geojson"
 W24 = "2024-07-01/2024-08-31"  # the summer of the hook's "after" image, so close views match it
 WHOLE = {"lon": -100.8, "lat": 37.8, "span": 26}
-PANHANDLE = {"lon": -102.2, "lat": 35.9, "span": 3.6}
-KANSAS_W = {"lon": -100.9, "lat": 38.4, "span": 4.2}
+PANHANDLE = {"lon": -102.2, "lat": 36.0, "span": 1.9}
+KANSAS_W = {"lon": -100.9, "lat": 38.0, "span": 1.9}
+KSN_W = {"lon": -100.45, "lat": 39.3, "span": 1.9}
+KANSAS_ALL = {"lon": -100.7, "lat": 38.65, "span": 4.4}
 DALLAM = {"lon": -102.6, "lat": 36.1, "span": 0.28}
 GOODLAND = {"lon": -101.7, "lat": 39.35, "span": 0.28}
 GARDEN = {"lon": -100.95, "lat": 37.85, "span": 0.3}
@@ -43,6 +46,8 @@ def m(at, *steps, text=None, keep=False):
 
 
 def v(view, at=None, date=None, **kw):
+    if date is None and view["span"] <= 2:  # undated close views use multi-day mosaics with seams
+        date = W24
     d = {"view": view, **kw}
     if at is not None:
         d["at"] = at
@@ -171,7 +176,7 @@ chapters = [
           m(0, v(WHOLE, highlight=[AQ]), text="Ogallala / High Plains aquifer"),
           m("washed off", v({"lon": -103.5, "lat": 39, "span": 9}))),
         P("It lies under parts of eight states, about 175,000 square miles, from South Dakota to Texas.",
-          m(0, v(WHOLE, highlight=[AQ]), step("eight states", highlight=[AQ, "South Dakota", "Nebraska", "Wyoming", "Colorado", "Kansas", "Oklahoma", "New Mexico", "Texas"]))),
+          m(0, v(WHOLE, highlight=[AQ]), text="Parts of eight states")),
         P("That water supplies about thirty percent of the groundwater used for irrigation in the United States.",
           stat("thirty percent", "30%", "Of US irrigation groundwater", "Steward et al., PNAS, 2013")),
         P("In 2019 it still held about 2.9 billion acre-feet. That sounds like plenty, and across the whole aquifer it nearly is. We added up the federal figures: about nine percent has gone since 1950.",
@@ -182,10 +187,10 @@ chapters = [
     ]},
     {"title": "Two States, One Hole", "mood": "tension", "paragraphs": [
         P("Because that average hides nearly everything. This is the government's own map of the change, about 1950 to 2019. Gray means almost nothing happened.",
-          doc("This is", 10, USGS, "Water-level change, about 1950 to 2019")),
+          {"type": "document", "at": "This is", "document": {"pdf": PDF, "page": 10, "rects": [[0.27, 0.46, 0.5, 0.78]], "source": USGS, "title": "Water-level change, about 1950 to 2019"}}),
         P("Most of Nebraska is gray. Its average fell less than half a foot, and one well there rose eighty-six feet.",
           m(0, v({"lon": -100, "lat": 41.6, "span": 8}, highlight=["Nebraska"])),
-          chart("Its average", "Average water-level change since about 1950", " ft", [["Nebraska", 0.4], ["Kansas", 27.3], ["Texas", 44.1]], USGS, highlight=0)),
+          chart("Its average", "Average water-level decline since about 1950", " ft", [["Nebraska", 0.4], ["Kansas", 27.3], ["Texas", 44.1]], USGS, highlight=0)),
         P("Now go south. Kansas fell an average of twenty-seven feet. Texas, forty-four.",
           chart(0, "Average water-level decline since about 1950", " ft", [["Nebraska", 0.4], ["Kansas", 27.3], ["Texas", 44.1]], USGS, reveal=["twenty-seven", "forty-four"], highlight=2)),
         P("One Texas well dropped two hundred sixty-five feet: sixteen times the average for the whole aquifer.",
@@ -217,11 +222,11 @@ chapters = [
         P("And it runs the towns. In Kansas, this aquifer supplies seventy to eighty percent of the water residents use each day.",
           stat("seventy", "70-80%", "Of the water Kansas residents use each day", STATELINE)),
         P("Guymon, Oklahoma has about thirteen thousand people and eighteen wells. It has committed some four and a half million dollars to find new ones, with no guarantee of water.",
-          m(0, v({"lon": -101.48, "lat": 36.68, "span": 3}, places=[place("Guymon", -101.48, 36.68, "Guymon, Oklahoma", "city")]))),
+          m(0, v({"lon": -101.48, "lat": 36.68, "span": 1.4}, places=[place("Guymon", -101.48, 36.68, "Guymon, Oklahoma", "city")]))),
         P("Its interim city manager said it plainly in 2024: \"We're running out of water.\"",
           clip(0, "We're running out of water.", "Micheal Shannon, Guymon interim city manager, to Stateline, 2024", "running out")),
         P("Farther southwest, Clovis, New Mexico and its neighbors are building a pipeline of more than eight hundred million dollars, to bring in river water from a reservoir. The head of their water authority says these towns could not last long without it.",
-          m(0, v({"lon": -103.2, "lat": 34.4, "span": 3}, places=[place("Clovis", -103.2, 34.4, "Clovis, New Mexico", "city")])),
+          m(0, v({"lon": -103.2, "lat": 34.4, "span": 1.4}, places=[place("Clovis", -103.2, 34.4, "Clovis, New Mexico", "city")])),
           stat("more than eight", "$800 million+", "A pipeline to replace groundwater in eastern New Mexico", STATELINE)),
         P("The researchers behind those Landsat maps looked ahead too. On current trends, about a quarter of today's irrigated land on the aquifer could not be irrigated by 2100, and thirteen percent of that land may not suit dryland crops either.",
           m(0, v(WHOLE, highlight=[AQ])),
@@ -235,7 +240,7 @@ chapters = [
           m(0, v({"lon": -101.5, "lat": 34.4, "span": 7}, highlight=["Texas"]), text="The rule of capture"),
           stat("In 1999", "1999", "Texas Supreme Court keeps the rule of capture", "Sipriano v. Great Spring Waters of America")),
         P("In 2001 the oilman T. Boone Pickens saw what that could mean. His company leased about 150,000 acres in the Panhandle, and planned to sell water to Dallas-Fort Worth through a 385-mile pipeline.",
-          m(0, v({"lon": -100.8, "lat": 35.8, "span": 3.2}, places=[place("Roberts County", -100.8, 35.84, "Roberts County, Texas", "site")])),
+          m(0, v({"lon": -100.8, "lat": 35.84, "span": 1.5}, places=[place("Roberts County", -100.8, 35.84, "Roberts County, Texas", "site")])),
           m("through a 385-mile", v({"lon": -98.8, "lat": 34.2, "span": 7}, routes=[{"from": [-100.8, 35.84], "to": [-96.8, 32.78], "mode": "line", "label": "385 miles", "seconds": 1.6}]))),
         P("He had no city buyer at the time, and the project was later suspended. Still, it showed how Texas treats this water: as something a landowner can sell.",
           stat(0, "200,000", "Acre-feet a year Pickens planned to sell", "AAPG Explorer, July 2001")),
@@ -247,7 +252,7 @@ chapters = [
     ]},
     {"title": "What Running Out Looks Like", "mood": "calm", "paragraphs": [
         P("So what does the end look like? Go south to Muleshoe, Texas. Wells around there once drew about a thousand gallons a minute. In 2021 Tim Black's gave about fifty.",
-          m(0, v({"lon": -102.6, "lat": 34.5, "span": 3}, places=[MULE])),
+          m(0, v({"lon": -102.6, "lat": 34.3, "span": 1.6}, places=[MULE])),
           stat("about a thousand", "1,000 to 50", "Gallons a minute, wells near Muleshoe, Texas", "Associated Press, 2021")),
         P("He stopped growing mostly corn and turned to cattle on native grass. His verdict on the old days, to the Associated Press: \"We wasted the hell out of the water.\"",
           m(0, v(MULESHOE, date=W24)),
@@ -263,7 +268,7 @@ chapters = [
     ]},
     {"title": "The Farmers Who Cut Anyway", "mood": "curious", "paragraphs": [
         P("But there is a place where the story turned. In 2013, farmers in Sheridan County, northwest Kansas, did something nobody made them do. They capped their own pumping for five years.",
-          m(0, v({"lon": -100.45, "lat": 39.3, "span": 3.6}, places=[SHERIDAN])),
+          m(0, v({"lon": -100.45, "lat": 39.3, "span": 1.9}, places=[SHERIDAN])),
           m("They capped", v(HOXIE, date=W24))),
         P("The target was a twenty percent cut. They reached about twenty-three.",
           stat(0, "23%", "Average cut, first five years, Sheridan 6", STATELINE, "Target: 20%")),
@@ -281,7 +286,7 @@ chapters = [
           m(0, v({"lon": -100.02, "lat": 37.76, "span": 0.3}, date=W24, places=[place("Dodge City", -100.02, 37.76, "Dodge City, Kansas", "city")])),
           stat("A sixty", "$60 million", "Dodge City's project to recharge the aquifer", STATELINE)),
         P("So the fix exists, and farmers proved it. Why not everywhere? Because a cut that looks fine on a map hits people one field at a time.",
-          m(0, v({"lon": -100.45, "lat": 39.3, "span": 3.6})),
+          m(0, v({"lon": -100.45, "lat": 39.3, "span": 1.9})),
           m("Because a cut", v(GARDEN, date=W24)),
           ask=("Why not", "Would you cut your own water first?")),
     ]},
@@ -311,12 +316,12 @@ chapters = [
         P("That is what Lewis rejected. He says that in most of the district, after fifty years, groundwater would be on the verge of unusable, even under the district's own plan.",
           stat("He says", "50 years", "Then groundwater near unusable in most of the district, Lewis says", LEWIS)),
         P("Now go north, to the district around Sheridan County. There the complaint runs the other way. Farmers and the Kansas Farm Bureau say the cuts go too far, some as deep as forty-four percent, and that they violate water rights.",
-          m(0, v(KANSAS_W, places=[SHERIDAN])),
+          m(0, v(KSN_W, places=[SHERIDAN])),
           stat("forty-four", "44%", "Pumping cuts in some areas of northwest Kansas", KRPS)),
         P("Their case is not small. Irrigation rights can make land worth almost twice as much, by the district's own testimony. So a cut in water is also a cut in what a family owns. The state denied the Bureau's request.",
           stat("almost twice", "Nearly 2x", "What irrigation rights can add to the value of land", KRPS)),
         P("So one Kansas district is told it does too little, and another that it does too much. Both are looking at the same falling water.",
-          m(0, v(KANSAS_W, places=[GARDEN_CITY, SHERIDAN]))),
+          m(0, v(KANSAS_ALL, places=[GARDEN_CITY, SHERIDAN]))),
     ]},
     {"title": "What Happens Next", "mood": "calm", "paragraphs": [
         P("District 3 will appeal to the Kansas Secretary of Agriculture, and hopes to start parts of its plan meanwhile.",
@@ -330,7 +335,7 @@ chapters = [
           m("The circles", v(DALLAM, date=W24, compare={"before": "1986-08-17", "after": "2024-08-17", "source": "landsat", "seconds": 2.6, "until": "That is the trap"}),
             step("That is the trap"))),
         P("So who should decide how fast it goes: the farmers who own the wells, or a state thinking about the people who come after them?",
-          m(0, v(WHOLE, highlight=[AQ])), ask=(0, "Farmers, or the state: who decides?")),
+          m(0, v(GARDEN)), ask=(0, "Farmers, or the state: who decides?")),
     ]},
 ]
 
@@ -345,39 +350,44 @@ def sat(lon, lat, span, label=None):
     return m(0, v({"lon": lon, "lat": lat, "span": span}, date=W24), text=label)
 
 
-def wide(lon, lat, span, highlight=None, places=None):
-    kw = {}
-    if highlight:
-        kw["highlight"] = highlight
-    if places:
-        kw["places"] = places
-    return m(0, v({"lon": lon, "lat": lat, "span": span}, **kw))
-
-
 def pic(name, label=None):
     return photo(0, name, label)
 
 
-PIVOTS = [pic("File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "Morton, Texas"),
-          pic("File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg", "Checking a center pivot, Morton, Texas"),
-          pic("File:Irrigation drop nozzle on center pivot sprinkler in Morton, Texas (25088071046).jpg", "Morton, Texas"),
-          pic("File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg", "Morton, Texas")]
-TX = [sat(-102.7, 36.2, 0.12), sat(-102.07, 36.34, 0.2, "Near Stratford, Texas"), wide(-102.2, 35.9, 2.4, places=[DALHART, STRATFORD]), sat(-102.45, 35.95, 0.14),
-      sat(-101.9, 33.95, 0.25, "Near Plainview, Texas"), sat(-101.9, 36.15, 0.2), wide(-101.9, 34.2, 3, highlight=["Texas"])]
-KS = [sat(-100.72, 37.72, 0.16), wide(-100.9, 38.0, 2.6, places=[GARDEN_CITY]), sat(-101.15, 37.6, 0.2), sat(-100.87, 37.58, 0.14, "Southwest Kansas"),
-      wide(-99, 38.5, 7, highlight=["Kansas"]), sat(-101.0, 38.1, 0.18), sat(-100.55, 37.9, 0.16)]
-KSN = [sat(-100.6, 39.35, 0.15), wide(-100.6, 39.3, 2.6, places=[SHERIDAN]), sat(-100.3, 39.45, 0.15), sat(-101.6, 39.25, 0.15, "Northwest Kansas"), sat(-100.75, 39.25, 0.12)]
+PIVOTS = [pic("File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "A center pivot in Morton, Texas"),
+          pic("File:Circular irrigation sprinklers 01.jpg", "A center pivot"),
+          pic("File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg", "Morton, Texas"),
+          pic("File:Circular irrigation sprinklers 02.jpg", "A center pivot")]
 DUST = [pic("File:Dust Bowl Oklahoma.jpg", "Oklahoma, the Dust Bowl years"), pic("File:Dust Bowl winds pile up against barn in Kansas.jpg", "Kansas, the Dust Bowl years"),
-        pic("File:Dust bowl, Texas Panhandle, TX fsa.8b27276 edit.jpg", "Texas Panhandle"), pic("File:Dust Bowl in Texas County, Oklahoma.jpg", "Texas County, Oklahoma"),
-        pic("File:Son of farmer in dust bowl area, Cimarron County, Oklahoma, 8b38282.jpg", "Cimarron County, Oklahoma")]
-STATES = [wide(-100.8, 37.8, 26, highlight=[AQ, st]) for st in ("Texas", "Kansas", "Nebraska", "Colorado", "Oklahoma", "New Mexico")]
-POOLS = {"It Looks Like Success": TX, "The Rejection": KS, "The Same Land in 1935": DUST + PIVOTS, "A Sea With No Surface": STATES + KS[:1] + TX[:1],
-         "Two States, One Hole": [wide(-101.9, 34.2, 3, highlight=["Texas"]), sat(-101.9, 33.95, 0.25, "Near Plainview, Texas"), wide(-99, 38.5, 7, highlight=["Kansas"]), sat(-101.15, 37.6, 0.2), wide(-100, 41.6, 8, highlight=["Nebraska"]), sat(-102.7, 36.2, 0.12)],
-         "What the Water Built": KS + PIVOTS[:2], "The Biggest Pump Wins": TX + PIVOTS[1:2], "What Running Out Looks Like": TX[::-1] + PIVOTS[2:],
-         "The Farmers Who Cut Anyway": KSN + PIVOTS[:2], "Too Much, Too Little": KS + KSN, "What Happens Next": KS + TX[:3]}
+        pic("File:Dust bowl, Texas Panhandle, TX fsa.8b27276 edit.jpg", "Texas Panhandle"), pic("File:Dust Bowl in Texas County, Oklahoma.jpg", "Texas County, Oklahoma")]
+TX = [sat(-102.7, 36.2, 0.14, "Near Dalhart, Texas"), sat(-102.07, 36.34, 0.2, "Near Stratford, Texas"), sat(-102.0, 35.95, 0.16, "Near Dumas, Texas"), sat(-102.4, 34.8, 0.18, "Near Hereford, Texas"),
+      sat(-101.7, 34.2, 0.2, "Near Plainview, Texas"), sat(-101.9, 33.8, 0.16, "North of Lubbock, Texas"), sat(-102.4, 33.6, 0.18, "Near Levelland, Texas"), sat(-102.75, 34.05, 0.16, "Near Muleshoe, Texas"),
+      sat(-102.45, 35.95, 0.14, "The Texas Panhandle"), sat(-101.9, 36.15, 0.18, "The Texas Panhandle"), sat(-102.1, 34.5, 0.16, "Near Dimmitt, Texas"), sat(-101.4, 34.6, 0.18, "Near Tulia, Texas")]
+KS = [sat(-100.72, 37.72, 0.16, "Southwest Kansas"), sat(-100.9, 38.5, 0.18, "Near Scott City, Kansas"), sat(-101.35, 37.6, 0.18, "Near Ulysses, Kansas"), sat(-100.85, 37.5, 0.14, "Near Sublette, Kansas"),
+      sat(-100.25, 37.8, 0.16, "Near Dodge City, Kansas"), sat(-100.9, 37.1, 0.18, "Near Liberal, Kansas"), sat(-101.35, 38.48, 0.16, "Near Leoti, Kansas"), sat(-101.25, 37.95, 0.16, "Near Lakin, Kansas"),
+      sat(-100.55, 37.9, 0.14, "Southwest Kansas"), sat(-101.0, 38.1, 0.16, "Finney County, Kansas"), sat(-100.6, 37.45, 0.16, "Southwest Kansas"), sat(-101.75, 37.75, 0.18, "Near Syracuse, Kansas")]
+KSN = [sat(-100.6, 39.35, 0.14, "Sheridan County, Kansas"), sat(-100.3, 39.45, 0.14, "Sheridan County, Kansas"), sat(-101.05, 39.4, 0.16, "Near Colby, Kansas"), sat(-100.85, 39.1, 0.16, "Near Oakley, Kansas"),
+       sat(-101.6, 39.25, 0.15, "Near Goodland, Kansas"), sat(-100.75, 39.25, 0.12, "Northwest Kansas")]
+NE = [m(0, v({"lon": -100, "lat": 41.6, "span": 8}, highlight=["Nebraska"])), sat(-99.5, 41.0, 0.2, "Central Nebraska"), sat(-101.2, 40.9, 0.18, "Western Nebraska"), sat(-98.2, 40.9, 0.18, "Eastern Nebraska")]
+GROUPS = {"tx": TX, "ks": KS, "ksn": KSN, "ne": NE, "dust": DUST, "pivot": PIVOTS}
+counters = dict.fromkeys(GROUPS, 0)
+
+
+def topic(text, chapter):
+    if chapter == "The Same Land in 1935":
+        return "pivot" if re.search(r"Zybach|machine|arm of pipe|pivot|Pivot|well\\b|He built", text) else ("ks" if "Kansas" in text else "dust")
+    if re.search(r"Sheridan|northwest|north,|They capped|twenty percent cut|aquifer answered|Farm income", text):
+        return "ksn"
+    if "Nebraska" in text and "Texas" not in text and "Kansas" not in text:
+        return "ne"
+    tx = len(re.findall(r"Texas|Panhandle|Muleshoe|Amarillo|Dalhart|Stratford|Pickens|rule of capture|Black|Grotegrut", text))
+    ks = len(re.findall(r"Kansas|District|Garden City|Holmes|Lewis|Holcomb|Dodge|Gigot|Wichita County|Griggs|Kelly|chief engineer|Bureau", text))
+    if tx or ks:
+        return "tx" if tx > ks else "ks"
+    return {"It Looks Like Success": "tx", "The Biggest Pump Wins": "tx", "What Running Out Looks Like": "tx", "The Farmers Who Cut Anyway": "ksn"}.get(chapter, "ks")
+
 
 for ch in chapters:
-    pool, k = POOLS[ch["title"]], 0
     for para in ch["paragraphs"]:
         pm = Paragraph.model_validate(para)
         marks = set(pm.anchor_indices())
@@ -388,12 +398,13 @@ for ch in chapters:
         n = len(para["text"].split())
         stops = sorted(marks | {0}) + [n]
         new = []
+        group = topic(para["text"], ch["title"])
         for a, b in zip(stops, stops[1:]):
             parts = (b - a - 1) // MAX_WORDS
             for j in range(1, parts + 1):
                 at = a + (b - a) * j // (parts + 1)
-                shot = json.loads(json.dumps(pool[k % len(pool)]))
-                k += 1
+                shot = json.loads(json.dumps(GROUPS[group][counters[group] % len(GROUPS[group])]))
+                counters[group] += 1
                 shot["at"] = at
                 new.append(shot)
         if new:

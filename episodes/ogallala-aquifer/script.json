@@ -81,12 +81,13 @@
           "view": {
            "lon": -102.7,
            "lat": 36.2,
-           "span": 0.12
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Dalhart, Texas"
       }
      ]
     },
@@ -146,29 +147,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.2,
-           "lat": 35.9,
-           "span": 2.4
+           "lon": -102.0,
+           "lat": 35.95,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Dalhart",
-            "lon": -102.52,
-            "lat": 36.06,
-            "kind": "city",
-            "label": "Dalhart, Texas"
-           },
-           {
-            "name": "Stratford",
-            "lon": -102.07,
-            "lat": 36.34,
-            "kind": "city",
-            "label": "Stratford, Texas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Dumas, Texas"
       },
       {
        "type": "map",
@@ -196,14 +183,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.45,
-           "lat": 35.95,
-           "span": 0.14
+           "lon": -102.4,
+           "lat": 34.8,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Hereford, Texas"
       }
      ]
     },
@@ -258,15 +246,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 33.95,
-           "span": 0.25
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Near Plainview, Texas"
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -281,9 +269,10 @@
          {
           "view": {
            "lon": -102.2,
-           "lat": 35.9,
-           "span": 3.6
-          }
+           "lat": 36.0,
+           "span": 1.9
+          },
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -295,14 +284,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 36.15,
+           "lon": -101.7,
+           "lat": 34.2,
            "span": 0.2
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Plainview, Texas"
       }
      ],
      "ask": {
@@ -335,14 +325,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
-           "span": 0.16
+           "lon": -100.9,
+           "lat": 38.5,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Scott City, Kansas"
       },
       {
        "type": "map",
@@ -352,8 +343,8 @@
          {
           "view": {
            "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
+           "lat": 38.0,
+           "span": 1.9
           },
           "places": [
            {
@@ -363,7 +354,8 @@
             "kind": "city",
             "label": "Garden City, Kansas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -406,22 +398,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -101.35,
+           "lat": 37.6,
+           "span": 0.18
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Ulysses, Kansas"
       }
      ]
     },
@@ -462,14 +447,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -100.85,
+           "lat": 37.5,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Sublette, Kansas"
       },
       {
        "type": "stat",
@@ -488,15 +474,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -100.25,
+           "lat": 37.8,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Southwest Kansas"
+       "on_screen_text": "Near Dodge City, Kansas"
       }
      ]
     },
@@ -519,16 +505,15 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -100.9,
+           "lat": 37.1,
+           "span": 0.18
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Liberal, Kansas"
       }
      ]
     },
@@ -576,14 +561,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.0,
-           "lat": 38.1,
-           "span": 0.18
+           "lon": -101.35,
+           "lat": 38.48,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Leoti, Kansas"
       }
      ]
     },
@@ -606,14 +592,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.55,
-           "lat": 37.9,
+           "lon": -101.25,
+           "lat": 37.95,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Lakin, Kansas"
       }
      ]
     },
@@ -636,14 +623,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
+           "lon": -101.9,
+           "lat": 33.8,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "North of Lubbock, Texas"
       },
       {
        "type": "map",
@@ -653,8 +641,8 @@
          {
           "view": {
            "lon": -102.2,
-           "lat": 35.9,
-           "span": 3.6
+           "lat": 36.0,
+           "span": 1.9
           },
           "places": [
            {
@@ -664,7 +652,8 @@
             "kind": "city",
             "label": "Stratford, Texas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -676,22 +665,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -102.4,
+           "lat": 33.6,
+           "span": 0.18
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Levelland, Texas"
       }
      ]
     }
@@ -820,8 +802,8 @@
       {
        "type": "photo",
        "at": 20,
-       "photo": "File:Dust bowl, Texas Panhandle, TX fsa.8b27276 edit.jpg",
-       "on_screen_text": "Texas Panhandle"
+       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg",
+       "on_screen_text": "A center pivot in Morton, Texas"
       }
      ]
     },
@@ -873,8 +855,8 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Dust Bowl in Texas County, Oklahoma.jpg",
-       "on_screen_text": "Texas County, Oklahoma"
+       "photo": "File:Circular irrigation sprinklers 01.jpg",
+       "on_screen_text": "A center pivot"
       },
       {
        "type": "map",
@@ -906,8 +888,8 @@
       {
        "type": "photo",
        "at": 29,
-       "photo": "File:Son of farmer in dust bowl area, Cimarron County, Oklahoma, 8b38282.jpg",
-       "on_screen_text": "Cimarron County, Oklahoma"
+       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg",
+       "on_screen_text": "Morton, Texas"
       }
      ]
     }
@@ -946,17 +928,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.8,
-           "lat": 37.8,
-           "span": 26
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.14
           },
-          "highlight": [
-           "file:aquifer.geojson",
-           "Texas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       },
       {
        "type": "map",
@@ -992,23 +972,27 @@
           "highlight": [
            "file:aquifer.geojson"
           ]
-         },
-         {
-          "at": "eight states",
-          "highlight": [
-           "file:aquifer.geojson",
-           "South Dakota",
-           "Nebraska",
-           "Wyoming",
-           "Colorado",
-           "Kansas",
-           "Oklahoma",
-           "New Mexico",
-           "Texas"
-          ]
          }
         ]
-       }
+       },
+       "on_screen_text": "Parts of eight states"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.75,
+           "lat": 34.05,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Muleshoe, Texas"
       }
      ]
     },
@@ -1045,17 +1029,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.8,
-           "lat": 37.8,
-           "span": 26
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.16
           },
-          "highlight": [
-           "file:aquifer.geojson",
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Finney County, Kansas"
       },
       {
        "type": "stat",
@@ -1080,9 +1062,10 @@
          {
           "view": {
            "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
-          }
+           "lat": 38.0,
+           "span": 1.9
+          },
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -1094,17 +1077,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.8,
-           "lat": 37.8,
-           "span": 26
+           "lon": -100.6,
+           "lat": 37.45,
+           "span": 0.16
           },
-          "highlight": [
-           "file:aquifer.geojson",
-           "Nebraska"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ],
      "ask": {
@@ -1127,6 +1108,14 @@
        "document": {
         "pdf": "https://pubs.usgs.gov/sir/2023/5143/sir20235143.pdf",
         "page": 10,
+        "rects": [
+         [
+          0.27,
+          0.46,
+          0.5,
+          0.78
+         ]
+        ],
         "source": "USGS, SIR 2023-5143",
         "title": "Water-level change, about 1950 to 2019"
        }
@@ -1138,16 +1127,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 34.2,
-           "span": 3
+           "lon": -101.75,
+           "lat": 37.75,
+           "span": 0.18
           },
-          "highlight": [
-           "Texas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Syracuse, Kansas"
       }
      ]
     },
@@ -1177,7 +1165,7 @@
        "at": "Its average",
        "chart": {
         "type": "bar",
-        "title": "Average water-level change since about 1950",
+        "title": "Average water-level decline since about 1950",
         "unit": " ft",
         "data": [
          [
@@ -1204,15 +1192,16 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 33.95,
-           "span": 0.25
+           "lon": -100,
+           "lat": 41.6,
+           "span": 8
           },
-          "date": "2024-07-01/2024-08-31"
+          "highlight": [
+           "Nebraska"
+          ]
          }
         ]
-       },
-       "on_screen_text": "Near Plainview, Texas"
+       }
       }
      ]
     },
@@ -1270,16 +1259,15 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -102.45,
+           "lat": 35.95,
+           "span": 0.14
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "The Texas Panhandle"
       }
      ]
     },
@@ -1336,14 +1324,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -101.9,
+           "lat": 36.15,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "The Texas Panhandle"
       },
       {
        "type": "chart",
@@ -1400,9 +1389,10 @@
          {
           "view": {
            "lon": -102.2,
-           "lat": 35.9,
-           "span": 3.6
-          }
+           "lat": 36.0,
+           "span": 1.9
+          },
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -1414,16 +1404,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100,
-           "lat": 41.6,
-           "span": 8
+           "lon": -99.5,
+           "lat": 41.0,
+           "span": 0.2
           },
-          "highlight": [
-           "Nebraska"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Central Nebraska"
       }
      ]
     },
@@ -1455,14 +1444,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.7,
-           "lat": 36.2,
-           "span": 0.12
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -1486,16 +1476,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 34.2,
-           "span": 3
+           "lon": -100.9,
+           "lat": 38.5,
+           "span": 0.18
           },
-          "highlight": [
-           "Texas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Scott City, Kansas"
       },
       {
        "type": "map",
@@ -1504,15 +1493,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 33.95,
-           "span": 0.25
+           "lon": -101.35,
+           "lat": 37.6,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Near Plainview, Texas"
+       "on_screen_text": "Near Ulysses, Kansas"
       }
      ]
     },
@@ -1579,14 +1568,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
-           "span": 0.16
+           "lon": -100.85,
+           "lat": 37.5,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Sublette, Kansas"
       },
       {
        "type": "photo",
@@ -1631,22 +1621,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -100.25,
+           "lat": 37.8,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Dodge City, Kansas"
       },
       {
        "type": "stat",
@@ -1665,14 +1648,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -100.9,
+           "lat": 37.1,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Liberal, Kansas"
       }
      ]
     },
@@ -1702,7 +1686,7 @@
           "view": {
            "lon": -101.48,
            "lat": 36.68,
-           "span": 3
+           "span": 1.4
           },
           "places": [
            {
@@ -1712,7 +1696,8 @@
             "kind": "city",
             "label": "Guymon, Oklahoma"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -1724,15 +1709,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -101.35,
+           "lat": 38.48,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Southwest Kansas"
+       "on_screen_text": "Near Leoti, Kansas"
       },
       {
        "type": "map",
@@ -1741,16 +1726,15 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -101.25,
+           "lat": 37.95,
+           "span": 0.16
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Lakin, Kansas"
       }
      ]
     },
@@ -1773,14 +1757,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.0,
-           "lat": 38.1,
-           "span": 0.18
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -1796,7 +1781,7 @@
           "view": {
            "lon": -103.2,
            "lat": 34.4,
-           "span": 3
+           "span": 1.4
           },
           "places": [
            {
@@ -1806,7 +1791,8 @@
             "kind": "city",
             "label": "Clovis, New Mexico"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -1827,20 +1813,32 @@
         "steps": [
          {
           "view": {
-           "lon": -100.55,
-           "lat": 37.9,
+           "lon": -101.0,
+           "lat": 38.1,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Finney County, Kansas"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 32,
-       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg",
-       "on_screen_text": "Morton, Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 37.45,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -1876,10 +1874,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 21,
-       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
-       "on_screen_text": "Checking a center pivot, Morton, Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.75,
+           "lat": 37.75,
+           "span": 0.18
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Syracuse, Kansas"
       },
       {
        "type": "map",
@@ -1895,7 +1904,8 @@
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     }
@@ -1933,14 +1943,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.7,
-           "lat": 36.2,
-           "span": 0.12
+           "lon": -102.1,
+           "lat": 34.5,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Dimmitt, Texas"
       },
       {
        "type": "stat",
@@ -1958,15 +1969,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.07,
-           "lat": 36.34,
-           "span": 0.2
+           "lon": -101.4,
+           "lat": 34.6,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Near Stratford, Texas"
+       "on_screen_text": "Near Tulia, Texas"
       }
      ]
     },
@@ -2008,29 +2019,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.2,
-           "lat": 35.9,
-           "span": 2.4
+           "lon": -102.7,
+           "lat": 36.2,
+           "span": 0.14
           },
-          "places": [
-           {
-            "name": "Dalhart",
-            "lon": -102.52,
-            "lat": 36.06,
-            "kind": "city",
-            "label": "Dalhart, Texas"
-           },
-           {
-            "name": "Stratford",
-            "lon": -102.07,
-            "lat": 36.34,
-            "kind": "city",
-            "label": "Stratford, Texas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Dalhart, Texas"
       },
       {
        "type": "map",
@@ -2039,14 +2036,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.45,
-           "lat": 35.95,
-           "span": 0.14
+           "lon": -102.07,
+           "lat": 36.34,
+           "span": 0.2
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Stratford, Texas"
       }
      ]
     },
@@ -2061,8 +2059,8 @@
          {
           "view": {
            "lon": -100.8,
-           "lat": 35.8,
-           "span": 3.2
+           "lat": 35.84,
+           "span": 1.5
           },
           "places": [
            {
@@ -2072,7 +2070,8 @@
             "kind": "site",
             "label": "Roberts County, Texas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2084,15 +2083,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 33.95,
-           "span": 0.25
+           "lon": -102.0,
+           "lat": 35.95,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Near Plainview, Texas"
+       "on_screen_text": "Near Dumas, Texas"
       },
       {
        "type": "map",
@@ -2101,14 +2100,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 36.15,
-           "span": 0.2
+           "lon": -102.4,
+           "lat": 34.8,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Hereford, Texas"
       },
       {
        "type": "map",
@@ -2161,22 +2161,32 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
+           "lon": -101.7,
            "lat": 34.2,
-           "span": 3
+           "span": 0.2
           },
-          "highlight": [
-           "Texas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Plainview, Texas"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 18,
-       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
-       "on_screen_text": "Checking a center pivot, Morton, Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 33.8,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "North of Lubbock, Texas"
       }
      ]
     },
@@ -2191,8 +2201,8 @@
          {
           "view": {
            "lon": -102.2,
-           "lat": 35.9,
-           "span": 3.6
+           "lat": 36.0,
+           "span": 1.9
           },
           "places": [
            {
@@ -2202,7 +2212,8 @@
             "kind": "city",
             "label": "Dalhart, Texas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2224,14 +2235,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.7,
-           "lat": 36.2,
-           "span": 0.12
+           "lon": -102.4,
+           "lat": 33.6,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Levelland, Texas"
       }
      ]
     },
@@ -2261,15 +2273,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.07,
-           "lat": 36.34,
-           "span": 0.2
+           "lon": -102.75,
+           "lat": 34.05,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Near Stratford, Texas"
+       "on_screen_text": "Near Muleshoe, Texas"
       }
      ]
     }
@@ -2290,8 +2302,8 @@
          {
           "view": {
            "lon": -102.6,
-           "lat": 34.5,
-           "span": 3
+           "lat": 34.3,
+           "span": 1.6
           },
           "places": [
            {
@@ -2301,7 +2313,8 @@
             "kind": "city",
             "label": "Muleshoe, Texas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2313,16 +2326,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 34.2,
-           "span": 3
+           "lon": -102.45,
+           "lat": 35.95,
+           "span": 0.14
           },
-          "highlight": [
-           "Texas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "The Texas Panhandle"
       },
       {
        "type": "stat",
@@ -2372,12 +2384,13 @@
           "view": {
            "lon": -101.9,
            "lat": 36.15,
-           "span": 0.2
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "The Texas Panhandle"
       }
      ]
     },
@@ -2392,9 +2405,10 @@
          {
           "view": {
            "lon": -102.2,
-           "lat": 35.9,
-           "span": 3.6
-          }
+           "lat": 36.0,
+           "span": 1.9
+          },
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2415,15 +2429,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.9,
-           "lat": 33.95,
-           "span": 0.25
+           "lon": -102.1,
+           "lat": 34.5,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Near Plainview, Texas"
+       "on_screen_text": "Near Dimmitt, Texas"
       }
      ]
     },
@@ -2437,14 +2451,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.45,
-           "lat": 35.95,
-           "span": 0.14
+           "lon": -101.4,
+           "lat": 34.6,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Tulia, Texas"
       },
       {
        "type": "stat",
@@ -2479,29 +2494,15 @@
         "steps": [
          {
           "view": {
-           "lon": -102.2,
-           "lat": 35.9,
-           "span": 2.4
+           "lon": -102.7,
+           "lat": 36.2,
+           "span": 0.14
           },
-          "places": [
-           {
-            "name": "Dalhart",
-            "lon": -102.52,
-            "lat": 36.06,
-            "kind": "city",
-            "label": "Dalhart, Texas"
-           },
-           {
-            "name": "Stratford",
-            "lon": -102.07,
-            "lat": 36.34,
-            "kind": "city",
-            "label": "Stratford, Texas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Dalhart, Texas"
       }
      ]
     },
@@ -2561,7 +2562,7 @@
           "view": {
            "lon": -100.45,
            "lat": 39.3,
-           "span": 3.6
+           "span": 1.9
           },
           "places": [
            {
@@ -2571,7 +2572,8 @@
             "kind": "site",
             "label": "Sheridan County, Kansas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2585,12 +2587,13 @@
           "view": {
            "lon": -100.6,
            "lat": 39.35,
-           "span": 0.15
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Sheridan County, Kansas"
       },
       {
        "type": "map",
@@ -2656,22 +2659,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.3,
-           "span": 2.6
+           "lon": -100.3,
+           "lat": 39.45,
+           "span": 0.14
           },
-          "places": [
-           {
-            "name": "Hoxie",
-            "lon": -100.44,
-            "lat": 39.35,
-            "kind": "site",
-            "label": "Sheridan County, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Sheridan County, Kansas"
       }
      ]
     },
@@ -2702,14 +2698,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.3,
-           "lat": 39.45,
-           "span": 0.15
+           "lon": -101.05,
+           "lat": 39.4,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Colby, Kansas"
       }
      ]
     },
@@ -2757,15 +2754,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.6,
-           "lat": 39.25,
-           "span": 0.15
+           "lon": -100.9,
+           "lat": 38.5,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Northwest Kansas"
+       "on_screen_text": "Near Scott City, Kansas"
       }
      ]
     },
@@ -2785,14 +2782,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.75,
-           "lat": 39.25,
-           "span": 0.12
+           "lon": -101.35,
+           "lat": 37.6,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Ulysses, Kansas"
       },
       {
        "type": "document",
@@ -2804,10 +2802,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 31,
-       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg",
-       "on_screen_text": "Morton, Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.85,
+           "lat": 37.5,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Sublette, Kansas"
       }
      ]
     },
@@ -2840,10 +2849,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 12,
-       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
-       "on_screen_text": "Checking a center pivot, Morton, Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.25,
+           "lat": 37.8,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Dodge City, Kansas"
       },
       {
        "type": "stat",
@@ -2861,14 +2881,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.35,
-           "span": 0.15
+           "lon": -100.9,
+           "lat": 37.1,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Liberal, Kansas"
       }
      ]
     },
@@ -2884,8 +2905,9 @@
           "view": {
            "lon": -100.45,
            "lat": 39.3,
-           "span": 3.6
-          }
+           "span": 1.9
+          },
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -2913,22 +2935,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.3,
-           "span": 2.6
+           "lon": -100.85,
+           "lat": 39.1,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Hoxie",
-            "lon": -100.44,
-            "lat": 39.35,
-            "kind": "site",
-            "label": "Sheridan County, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Oakley, Kansas"
       }
      ],
      "ask": {
@@ -2952,14 +2967,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
+           "lon": -101.35,
+           "lat": 38.48,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Leoti, Kansas"
       },
       {
        "type": "document",
@@ -2991,22 +3007,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -101.25,
+           "lat": 37.95,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Lakin, Kansas"
       },
       {
        "type": "document",
@@ -3024,14 +3033,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -3072,15 +3082,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Southwest Kansas"
+       "on_screen_text": "Finney County, Kansas"
       },
       {
        "type": "document",
@@ -3107,16 +3117,15 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -100.6,
+           "lat": 37.45,
+           "span": 0.16
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     },
@@ -3131,8 +3140,8 @@
          {
           "view": {
            "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
+           "lat": 38.0,
+           "span": 1.9
           },
           "places": [
            {
@@ -3142,7 +3151,8 @@
             "kind": "city",
             "label": "Garden City, Kansas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -3154,14 +3164,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.0,
-           "lat": 38.1,
+           "lon": -101.75,
+           "lat": 37.75,
            "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Syracuse, Kansas"
       },
       {
        "type": "stat",
@@ -3184,14 +3195,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.55,
-           "lat": 37.9,
+           "lon": -100.72,
+           "lat": 37.72,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       },
       {
        "type": "stat",
@@ -3214,14 +3226,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.35,
-           "span": 0.15
+           "lon": -100.9,
+           "lat": 38.5,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Scott City, Kansas"
       },
       {
        "type": "document",
@@ -3245,8 +3258,8 @@
          {
           "view": {
            "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
+           "lat": 38.0,
+           "span": 1.9
           },
           "places": [
            {
@@ -3256,7 +3269,8 @@
             "kind": "city",
             "label": "Garden City, Kansas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -3268,22 +3282,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.6,
-           "lat": 39.3,
-           "span": 2.6
+           "lon": -101.35,
+           "lat": 37.6,
+           "span": 0.18
           },
-          "places": [
-           {
-            "name": "Hoxie",
-            "lon": -100.44,
-            "lat": 39.35,
-            "kind": "site",
-            "label": "Sheridan County, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Ulysses, Kansas"
       },
       {
        "type": "stat",
@@ -3301,14 +3308,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.3,
-           "lat": 39.45,
-           "span": 0.15
+           "lon": -100.85,
+           "lat": 37.5,
+           "span": 0.14
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Sublette, Kansas"
       }
      ]
     },
@@ -3338,15 +3346,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.6,
-           "lat": 39.25,
-           "span": 0.15
+           "lon": -100.25,
+           "lat": 37.8,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Northwest Kansas"
+       "on_screen_text": "Near Dodge City, Kansas"
       },
       {
        "type": "stat",
@@ -3378,14 +3386,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.75,
-           "lat": 39.25,
-           "span": 0.12
+           "lon": -100.9,
+           "lat": 37.1,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Liberal, Kansas"
       }
      ]
     },
@@ -3399,9 +3408,9 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
+           "lon": -100.45,
+           "lat": 39.3,
+           "span": 1.9
           },
           "places": [
            {
@@ -3411,7 +3420,8 @@
             "kind": "site",
             "label": "Sheridan County, Kansas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -3423,14 +3433,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
-           "span": 0.16
+           "lon": -101.6,
+           "lat": 39.25,
+           "span": 0.15
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Goodland, Kansas"
       },
       {
        "type": "map",
@@ -3439,22 +3450,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -100.75,
+           "lat": 39.25,
+           "span": 0.12
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Northwest Kansas"
       },
       {
        "type": "stat",
@@ -3486,14 +3490,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -101.35,
+           "lat": 38.48,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Leoti, Kansas"
       },
       {
        "type": "map",
@@ -3502,15 +3507,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -101.25,
+           "lat": 37.95,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
        },
-       "on_screen_text": "Southwest Kansas"
+       "on_screen_text": "Near Lakin, Kansas"
       }
      ]
     },
@@ -3524,9 +3529,9 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
+           "lon": -100.7,
+           "lat": 38.65,
+           "span": 4.4
           },
           "places": [
            {
@@ -3555,16 +3560,15 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
-           "lat": 38.5,
-           "span": 7
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.14
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       }
      ]
     }
@@ -3585,8 +3589,8 @@
          {
           "view": {
            "lon": -100.9,
-           "lat": 38.4,
-           "span": 4.2
+           "lat": 38.0,
+           "span": 1.9
           },
           "places": [
            {
@@ -3596,7 +3600,8 @@
             "kind": "city",
             "label": "Garden City, Kansas"
            }
-          ]
+          ],
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -3608,14 +3613,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.72,
-           "lat": 37.72,
+           "lon": -101.0,
+           "lat": 38.1,
            "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Finney County, Kansas"
       }
      ]
     },
@@ -3638,22 +3644,15 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.0,
-           "span": 2.6
+           "lon": -100.6,
+           "lat": 37.45,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "Garden City, Kansas"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Southwest Kansas"
       },
       {
        "type": "map",
@@ -3662,14 +3661,15 @@
         "steps": [
          {
           "view": {
-           "lon": -101.15,
-           "lat": 37.6,
-           "span": 0.2
+           "lon": -101.75,
+           "lat": 37.75,
+           "span": 0.18
           },
           "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Syracuse, Kansas"
       },
       {
        "type": "stat",
@@ -3693,9 +3693,9 @@
         "steps": [
          {
           "view": {
-           "lon": -100.87,
-           "lat": 37.58,
-           "span": 0.14
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
           },
           "date": "2024-07-01/2024-08-31"
          }
@@ -3755,13 +3755,11 @@
         "steps": [
          {
           "view": {
-           "lon": -100.8,
-           "lat": 37.8,
-           "span": 26
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
           },
-          "highlight": [
-           "file:aquifer.geojson"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
        }
@@ -3773,16 +3771,15 @@
         "steps": [
          {
           "view": {
-           "lon": -99,
+           "lon": -100.9,
            "lat": 38.5,
-           "span": 7
+           "span": 0.18
           },
-          "highlight": [
-           "Kansas"
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
         ]
-       }
+       },
+       "on_screen_text": "Near Scott City, Kansas"
       }
      ],
      "ask": {

@@ -914,8 +914,8 @@ def _compare_images(item: dict, block_id: str, n: int, out_dir: Path, plan: Plan
             r = None
             plan.warnings.append(f"compare {side} image failed ({exc})")
         if r is None:
-            plan.warnings.append(f"compare: no usable {source} image for {item[side]}; wipe dropped")
-            return False
+            # The narration is written to this picture ("1990. Now, 2026."): a silent drop leaves it talking over nothing.
+            raise RuntimeError(f"compare: no usable {source} image for {item[side]} in {block_id}; pick another date")
         item[label] = item[label] or _month_label(r.pop("dates", []))
         item[side] = r
     return True

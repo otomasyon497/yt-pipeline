@@ -68,7 +68,7 @@ build("ogallala-short-farmers", "These Kansas Farmers Cut Their Own Water",
       ["Ogallala aquifer", "Kansas", "Sheridan County", "groundwater", "water conservation", "satellite images", "before and after", "shorts"],
       "Would you cut your own water before anyone made you?",
       "IT WORKED", [-100.45, 39.35, 0.09], "Sheridan 6", [
-    {"text": "Northwest Kansas, 1990. Now, the same land, in 2026.", "shots": [map_shot(0, [{"view": HOXIE, "date": W26, "compare": {"before": "1990-08-21", "after": "2026-07-06", "source": "landsat", "seconds": 1.6, "until": "Now,"}}, {"at": "Now,"}], "Sheridan County, Kansas, from orbit")]},
+    {"text": "Northwest Kansas, 1990. Now, the same land, in 2026.", "shots": [map_shot(0, [{"view": HOXIE, "date": W26, "compare": {"before": "1990-08-21", "after": "2026-07-01/2026-08-31", "source": "landsat", "seconds": 1.6, "until": "Now,"}}, {"at": "Now,"}], "Sheridan County, Kansas, from orbit")]},
     {"text": "Every circle pumps from the same aquifer.", "shots": [map_shot(0, [{"view": {"lon": -100.6, "lat": 39.3, "span": 0.1}, "date": W24}], "One aquifer under eight states")]},
     {"text": "But in 2013, farmers in Sheridan County did something nobody made them do.", "shots": [map_shot(0, [{"view": SHER_W, "places": [SHERIDAN]}], "Sheridan County, Kansas")]},
     {"text": "They capped their own pumping. The target was twenty percent.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Target: a 20% cut")]},

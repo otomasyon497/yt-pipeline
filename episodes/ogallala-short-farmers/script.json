@@ -39,7 +39,7 @@
           "date": "2026-07-01/2026-08-31",
           "compare": {
            "before": "1990-08-21",
-           "after": "2026-07-06",
+           "after": "2026-07-01/2026-08-31",
            "source": "landsat",
            "seconds": 1.6,
            "until": "Now,"

@@ -1,7 +1,24 @@
 # PROGRESS
 
-## Status (2026-11-08: episode 7 aral-sea produced end to end without gates at the user's request ("bana hiçbir şey sorma"): research R1-R8, own Landsat measurement (water inside the 1960s outline: 40,453 km2 1989, 21,960 2002, 4,797 2026 = 7.1 %), script 2,031 words (15.1 min real), factcheck.md, two Shorts (aral-sea-short-desert, aral-sea-short-canal, ~49 s each). Waiting for the user's review (gate 2). Episode 6 neom-the-line uploaded by the user as is. Pipeline after the ep-6 review: subpixel maps, clean chained wipes, chapter tags, 15-20 min + wipe checks in prepare, photo quality filter, tools/episode_check.py, claim_log.py, yt_analytics.py; retention read from Studio via Chrome. Lesson ep 7: country highlights pull the camera out to cloudy wide MODIS views; use labels. Great-salt-lake still at gate 2.)
-eom-the-line, thumbnail D "NO CITY YET"; waiting for gate 2; log in episodes/neom-the-line/PLAN.md. Lesson: map rasters stack by size, not date, so dated views of one place must be compare wipes. Episode 5 dubai-islands uploaded 2026-11-06 (check CTR). Decisions 2026-11-06: renders on private-repo Actions, universal topics, no AI thumbnails. Great-salt-lake still at gate 2.)
+## Status (2026-11-08, end of session)
+- Episode 8 indus-waters (Indus Waters Treaty, India's "abeyance", Hague award 31 Aug 2026) produced without gates at
+  the user's request. Script 2,114 words, 16.2 min real (storyboard log); factcheck.md complete (no FIX); research
+  R1-R20; package "India Froze a 65-Year-Old Water Treaty With Pakistan" + "ACT OF WAR?"; log in
+  episodes/indus-waters/PLAN.md. Shorts rendered: releases ep-indus-waters-short-dam-42514172243 and
+  ep-indus-waters-short-tunnel-42514175494 (each with cover_short.jpg). Long render run 42514168881 was still running.
+- Half done / next step: when run 42514168881 succeeds, `tools/fetch_episode.ps1` the three slugs to
+  Videos\yt-pipeline, open thumbnail_D.jpg and both cover_short.jpg, pull frames around transitions, then tell the
+  user (they asked for everything downloaded; they upload by hand). If it fails: `gh run view 42514168881 --log-failed`.
+- New this session: vertical Shorts covers (thumbnails.make_short_cover, Remotion ThumbnailVertical 1080x1920);
+  render.yml `thumbs_only`; Indus river lines in pipeline/lines.json; legacy episodes' photo check is a note only;
+  Studio analytics -> docs/analytics-2026-11-08.md (conflict titles win; search viewers leave at 0:25); caspian,
+  great-salt-lake and colorado repackaged (old titles in youtube.title_v1), the user updated Studio 2026-11-08.
+- Lessons ep 8: undated views under ~2 degrees use multi-day "recent" Sentinel mosaics with seams, so give them a date
+  or keep them over 2 degrees; a close dated raster shows as a patch on wider views in the same map block; country
+  labels duplicate the basemap's own; check Commons photos for promo text. The scratchpad venv was eaten by Temp
+  cleanup: heavy local tools now use %USERPROFILE%\.yt-pipelineenv (run with -I).
+- Waiting: aral-sea uploaded (check CTR at 48 h ~10 Nov; Test & Compare titles in its PLAN.md); recheck repackaged
+  videos' CTR ~15 Nov. Great-salt-lake old gate-2 item is moot (uploaded).
 
 ## Stock-free phase (approved 2026-11-05: "kesin %0 olsun, araçları kurmaya başla")
 - Decision: no stock video or images (and no AI images) in episodes from now on; every shot shows the real place,

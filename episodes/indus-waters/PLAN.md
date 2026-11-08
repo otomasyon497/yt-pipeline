@@ -14,3 +14,7 @@ two countries, a threat (docs/analytics-2026-11-08.md).
 - Shorts: indus-waters-short-dam ("India's New Dam, From Space", cover "ACT OF WAR?") and indus-waters-short-tunnel
   ("This Dam Sends a River Into a Mountain", cover "RIVER GONE?"). New: vertical Shorts covers (cover_short.jpg,
   1080x1920, the first compare split top | bottom).
+- 2026-11-08: storyboards 42511050116 (long), 42511053152, 42511056666 reviewed. Fixed: wide views kept over 2 deg or
+  dated (recent-mosaic seams), Lahore close-up removed (patch on wider views), duplicate INDIA/PAKISTAN labels removed,
+  Tarbela photo with USAID promo text replaced, chart units spaced. Final renders: 42514168881 (long, running at
+  session end), 42514172243 and 42514175494 (Shorts, done).

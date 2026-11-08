@@ -155,15 +155,7 @@
             "seconds": 1.6
            }
           ],
-          "places": [
-           {
-            "name": "India",
-            "lon": 76.4,
-            "lat": 30.6,
-            "kind": "label",
-            "label": "INDIA"
-           }
-          ]
+          "places": []
          }
         ]
        },
@@ -202,15 +194,7 @@
             "seconds": 1.6
            }
           ],
-          "places": [
-           {
-            "name": "Pakistan",
-            "lon": 71.2,
-            "lat": 30.0,
-            "kind": "label",
-            "label": "PAKISTAN"
-           }
-          ]
+          "places": []
          }
         ]
        },
@@ -232,22 +216,7 @@
            "lat": 30.5,
            "span": 11.0
           },
-          "places": [
-           {
-            "name": "India",
-            "lon": 76.4,
-            "lat": 30.6,
-            "kind": "label",
-            "label": "INDIA"
-           },
-           {
-            "name": "Pakistan",
-            "lon": 71.2,
-            "lat": 30.0,
-            "kind": "label",
-            "label": "PAKISTAN"
-           }
-          ]
+          "places": []
          }
         ]
        },
@@ -269,15 +238,7 @@
            "lat": 32.3,
            "span": 4.5
           },
-          "places": [
-           {
-            "name": "Pakistan",
-            "lon": 71.2,
-            "lat": 30.0,
-            "kind": "label",
-            "label": "PAKISTAN"
-           }
-          ]
+          "places": []
          }
         ]
        },
@@ -297,7 +258,7 @@
           "view": {
            "lon": 75.1,
            "lat": 33.15,
-           "span": 1.0
+           "span": 2.1
           },
           "routes": [
            {
@@ -391,15 +352,7 @@
             "seconds": 1.6
            }
           ],
-          "places": [
-           {
-            "name": "Pakistan",
-            "lon": 71.2,
-            "lat": 30.0,
-            "kind": "label",
-            "label": "PAKISTAN"
-           }
-          ]
+          "places": []
          }
         ]
        },
@@ -421,15 +374,7 @@
            "lat": 32.3,
            "span": 4.5
           },
-          "places": [
-           {
-            "name": "India",
-            "lon": 76.4,
-            "lat": 30.6,
-            "kind": "label",
-            "label": "INDIA"
-           }
-          ]
+          "places": []
          }
         ]
        },

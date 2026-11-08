@@ -19,6 +19,7 @@
 - Topic radar: tools/topic_radar.py (34 search calls a run; first output docs/topic-radar-2026-11-08.md). Leads offered to
   the user with a first source check: Ogallala aquifer (recommended, Landsat pivots), Kansai airport, Medog / Siang
   dams. Word estimates are from one search each, not a research dossier; do that after the user picks.
+- Next episode: ogallala-aquifer, the user's pick from the radar. research.md, PLAN.md (gate 1, 2,400 words) written, waiting for approval. Test the Landsat wipes first: the hook needs fields that visibly dried.
 - Descriptions now hold intro + chapters + tags only (the user's decision; credits.txt keeps the sources).
 - API upload built at the user's request (2026-11-09): tools/yt_upload.py, private only (fixed in the code), reads the
   privacy back after the upload; the user reviews and publishes in Studio. Own write token token_upload.json; the

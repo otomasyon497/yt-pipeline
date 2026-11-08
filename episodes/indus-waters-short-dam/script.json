@@ -1,0 +1,489 @@
+{
+ "title": "India's New Dam, From Space",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/indus-waters research.md (R1, R3, R6, R7, R11) and factcheck.md."
+ ],
+ "thumbnail": {
+  "text": "ACT OF WAR?"
+ },
+ "chapters": [
+  {
+   "title": "Indus",
+   "mood": "tension",
+   "card": false,
+   "paragraphs": [
+    {
+     "text": "A river in northern India, 2018. Now, 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.7,
+           "lat": 32.41,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-31",
+          "compare": {
+           "before": "2018-10-01/2018-12-31",
+           "after": "2026-09-01/2026-10-31",
+           "source": "sentinel-2",
+           "seconds": 1.8,
+           "until": "Now,"
+          }
+         },
+         {
+          "at": "Now,"
+         }
+        ]
+       },
+       "on_screen_text": "The Ravi river, from space"
+      }
+     ]
+    },
+    {
+     "text": "A brand new dam, finished in 2024.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Shahpurkandi",
+            "lon": 75.678,
+            "lat": 32.392,
+            "kind": "site",
+            "label": "NEW DAM"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "Shahpurkandi dam"
+      }
+     ]
+    },
+    {
+     "text": "India built it to keep water that used to flow on into Pakistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.3,
+           "span": 4.5
+          },
+          "places": [
+           {
+            "name": "Shahpurkandi",
+            "lon": 75.678,
+            "lat": 32.392,
+            "kind": "site",
+            "label": "NEW DAM"
+           }
+          ]
+         },
+         {
+          "at": "into Pakistan",
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ],
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city",
+            "label": "LAHORE"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Water that used to reach Pakistan"
+      }
+     ]
+    },
+    {
+     "text": "Under a 1960 treaty, that's India's right.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.3,
+           "span": 4.5
+          },
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.2
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 76.4,
+            "lat": 30.6,
+            "kind": "label",
+            "label": "INDIA"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "India's rivers by treaty"
+      }
+     ]
+    },
+    {
+     "text": "But Pakistan's own rivers start in India too.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.5,
+           "lat": 30.5,
+           "span": 11.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 1.8
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 1.4
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 1.6
+           }
+          ],
+          "places": [
+           {
+            "name": "Pakistan",
+            "lon": 71.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Pakistan's rivers"
+      }
+     ]
+    },
+    {
+     "text": "And in April 2025, India put that whole treaty on hold.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.5,
+           "lat": 30.5,
+           "span": 11.0
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 76.4,
+            "lat": 30.6,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 71.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "April 2025: treaty \"in abeyance\""
+      }
+     ]
+    },
+    {
+     "text": "Pakistan said stopping its water would be an act of war.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.3,
+           "span": 4.5
+          },
+          "places": [
+           {
+            "name": "Pakistan",
+            "lon": 71.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "\"An act of war\""
+      }
+     ]
+    },
+    {
+     "text": "Weeks later, India flushed its dams on the Chenab,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.0
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 1.4
+           }
+          ],
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "SALAL"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "BAGLIHAR"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Dams on the Chenab"
+      }
+     ]
+    },
+    {
+     "text": "and Pakistani officials said the river at their border fell by nine tenths overnight.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.47,
+           "lat": 32.67,
+           "span": 0.12
+          },
+          "date": "2025-04-15/2025-04-30",
+          "places": [
+           {
+            "name": "Marala",
+            "lon": 74.464,
+            "lat": 32.673,
+            "kind": "site",
+            "label": "MARALA"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "−90% overnight, Pakistani officials said"
+      }
+     ]
+    },
+    {
+     "text": "A court in The Hague says the treaty still stands.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.5,
+           "lat": 30.5,
+           "span": 11.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 1.8
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 1.4
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 1.6
+           }
+          ],
+          "places": [
+           {
+            "name": "Pakistan",
+            "lon": 71.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The Hague: treaty still in force"
+      }
+     ]
+    },
+    {
+     "text": "India says that court is illegal.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.3,
+           "span": 4.5
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 76.4,
+            "lat": 30.6,
+            "kind": "label",
+            "label": "INDIA"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "India: \"illegally constituted\""
+      }
+     ]
+    },
+    {
+     "text": "So who should decide: a court, or the country upstream?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.7,
+           "lat": 32.41,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Shahpurkandi",
+            "lon": 75.678,
+            "lat": 32.392,
+            "kind": "site",
+            "label": "NEW DAM"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "A court, or the country upstream?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "India's New Dam, From Space",
+  "description": "The Ravi river in 2018 and October 2026, in real Copernicus Sentinel-2 images: India's new Shahpurkandi dam. Then the bigger story: India put the 1960 Indus Waters Treaty on hold, Pakistan called stopping its water an act of war, and a court in The Hague says the treaty still stands.\n\nFull documentary on the channel: the Indus Waters Treaty\n\n#geography #india #pakistan #satellite",
+  "tags": [
+   "Indus Waters Treaty",
+   "India",
+   "Pakistan",
+   "Shahpurkandi dam",
+   "Ravi river",
+   "satellite images",
+   "before and after",
+   "shorts"
+  ],
+  "pinned_comment": "Who should decide what happens to a river: a court, or the country upstream?"
+ }
+}

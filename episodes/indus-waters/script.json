@@ -1,0 +1,4952 @@
+{
+ "title": "The Indus Waters Treaty",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/indus-waters/research.md"
+ ],
+ "thumbnail": {
+  "text": "ACT OF WAR?"
+ },
+ "chapters": [
+  {
+   "title": "A Dam on the Border",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This is the Ravi river in northern India, in the autumn of 2018. Now watch the same bend in October 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.7,
+           "lat": 32.41,
+           "span": 0.14
+          },
+          "date": "2026-09-01/2026-10-31",
+          "compare": {
+           "before": "2018-10-01/2018-12-31",
+           "after": "2026-09-01/2026-10-31",
+           "source": "sentinel-2",
+           "seconds": 2.6,
+           "until": "Now watch"
+          }
+         },
+         {
+          "at": "Now watch"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Copernicus Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "A new dam, Shahpurkandi, finished in 2024.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.7,
+           "lat": 32.41,
+           "span": 0.14
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Shahpurkandi",
+            "lon": 75.678,
+            "lat": 32.392,
+            "kind": "site",
+            "label": "Shahpurkandi dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India built it to keep water that used to flow on, downstream, into Pakistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "places": [
+           {
+            "name": "Shahpurkandi",
+            "lon": 75.678,
+            "lat": 32.392,
+            "kind": "site",
+            "label": "Shahpurkandi dam"
+           }
+          ]
+         },
+         {
+          "at": "into Pakistan",
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.4
+           }
+          ],
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Under a treaty from 1960, that is India's right. The Ravi is one of three rivers the treaty gave to India.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ],
+          "places": [
+           {
+            "name": "Ravi",
+            "lon": 75.3,
+            "lat": 32.05,
+            "kind": "label",
+            "label": "Ravi"
+           }
+          ]
+         },
+         {
+          "at": "one of three",
+          "routes": [
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Beas",
+            "lon": 75.9,
+            "lat": 31.55,
+            "kind": "label",
+            "label": "Beas"
+           },
+           {
+            "name": "Sutlej",
+            "lon": 74.9,
+            "lat": 30.75,
+            "kind": "label",
+            "label": "Sutlej"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The eastern rivers"
+      }
+     ]
+    },
+    {
+     "text": "Three bigger rivers went to Pakistan. And in April 2025, India said it would hold that whole treaty in abeyance.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Indus",
+            "lon": 71.2,
+            "lat": 31.6,
+            "kind": "label",
+            "label": "Indus"
+           },
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The western rivers"
+      },
+      {
+       "type": "stat",
+       "at": "And in April",
+       "stat": {
+        "value": "April 23, 2025",
+        "label": "India puts the Indus Waters Treaty \"in abeyance\"",
+        "source": "Government of India statement"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistan answered the next day. Any attempt to stop or divert its water, it said, would be an act of war.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:India-Pakistan Border at Night.jpg",
+       "on_screen_text": "The India-Pakistan border at night, from the Space Station"
+      },
+      {
+       "type": "quote",
+       "at": "Any attempt",
+       "quote": "Any attempt to stop or divert the flow of water belonging to Pakistan … will be considered as an Act of War.",
+       "author": "National Security Committee of Pakistan, April 24, 2025"
+      },
+      {
+       "type": "map",
+       "at": 13,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In August 2026, a court in The Hague ruled that the treaty is still fully in force.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg",
+       "on_screen_text": "The Peace Palace, The Hague"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India rejected the ruling within hours, and called the court illegal.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Null and void",
+        "label": "India's answer to the court's award",
+        "note": "India has not taken part in the case",
+        "source": "Ministry of External Affairs, Aug 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So can one country really turn off another country's rivers?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Can one country turn off another's rivers?"
+     }
+    },
+    {
+     "text": "And why did a deal that survived three wars break now? It starts with a single morning in 1948.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Marala shutters (1915).jpg",
+       "on_screen_text": "Canal headworks in the Punjab, 1915"
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Day the Water Stopped",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "When British India was split in 1947, the new border cut straight through the Punjab.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Punjab means the land of five rivers, and the new line cut across them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           },
+           {
+            "name": "Ravi",
+            "lon": 75.3,
+            "lat": 32.05,
+            "kind": "label",
+            "label": "Ravi"
+           },
+           {
+            "name": "Beas",
+            "lon": 75.9,
+            "lat": 31.55,
+            "kind": "label",
+            "label": "Beas"
+           },
+           {
+            "name": "Sutlej",
+            "lon": 74.9,
+            "lat": 30.75,
+            "kind": "label",
+            "label": "Sutlej"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Most of the rivers rose in India, or ran through it first.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Many of the farms they watered ended up in Pakistan, fed by canals that began on the Indian side.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": "fed by canals",
+          "places": [
+           {
+            "name": "Ferozepur",
+            "lon": 74.547,
+            "lat": 30.998,
+            "kind": "site",
+            "label": "Ferozepur headworks"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "For a few months, a standstill agreement kept the canals running.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Marala shutters (1915).jpg",
+       "on_screen_text": "Canal headworks in the Punjab, 1915"
+      }
+     ]
+    },
+    {
+     "text": "It had been signed in December 1947. It ran out on March 31st, 1948.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "March 31, 1948",
+        "label": "the canal standstill agreement runs out",
+        "source": "Wikipedia, India-Pakistan water dispute of 1948"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The next morning, East Punjab, now in India, shut the water off.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Ferozepur",
+            "lon": 74.547,
+            "lat": 30.998,
+            "kind": "site",
+            "label": "Ferozepur headworks"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "April 1, 1948"
+      }
+     ]
+    },
+    {
+     "text": "Canals fed from the Indian side, like the Dipalpur canal from Ferozepur, went dry in Pakistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Ferozepur",
+            "lon": 74.547,
+            "lat": 30.998,
+            "kind": "site",
+            "label": "Ferozepur headworks"
+           },
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ],
+          "routes": [
+           {
+            "path": "Sutlej",
+            "color": "blue",
+            "seconds": 1.8
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 2.24
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Lahore, a city that drew its water from those canals, felt it at once.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.34,
+           "lat": 31.52,
+           "span": 0.3
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Lahore today"
+      }
+     ]
+    },
+    {
+     "text": "About five and a half percent of Pakistan's cropland faced a growing season with no water.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "5.5 %",
+        "label": "of Pakistan's cropland facing a season without water",
+        "source": "Wikipedia, India-Pakistan water dispute of 1948"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The water came back after about five weeks, once Pakistan agreed to talks.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "routes": [
+           {
+            "path": "Sutlej",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Ferozepur",
+            "lon": 74.547,
+            "lat": 30.998,
+            "kind": "site",
+            "label": "Ferozepur headworks"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It agreed to pay for the water, and later said it had signed under duress.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Under duress",
+        "label": "how Pakistan later described the May 1948 deal",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Under that deal, East Punjab would slowly reduce the canal water, so that Pakistan could find other sources.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Ferozepur",
+            "lon": 74.547,
+            "lat": 30.998,
+            "kind": "site",
+            "label": "Ferozepur headworks"
+           },
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 2.24
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistan never forgot that its rivers could be shut off from upstream.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Keep that morning in mind, because it is the fear behind everything that follows.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:India-Pakistan Border at Night.jpg",
+       "on_screen_text": "The India-Pakistan border at night"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Splitting Six Rivers",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In 1951, David Lilienthal, who had run America's Tennessee Valley Authority, toured both countries.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 3.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Indus",
+            "lon": 71.2,
+            "lat": 31.6,
+            "kind": "label",
+            "label": "Indus"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "He proposed that the two countries develop the Indus together, with the World Bank's help.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Sharing one river system turned out to be impossible.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Indus River above Hyderabad photographed during MA-9 flight (S63-06455).jpg",
+       "on_screen_text": "The Indus above Hyderabad, from Mercury-Atlas 9, May 1963"
+      }
+     ]
+    },
+    {
+     "text": "So in 1954, the World Bank proposed something simpler: split it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1954",
+        "label": "the World Bank proposes splitting the rivers",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The three eastern rivers, the Ravi, the Beas and the Sutlej, would go to India.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Ravi",
+            "lon": 75.3,
+            "lat": 32.05,
+            "kind": "label",
+            "label": "Ravi"
+           },
+           {
+            "name": "Beas",
+            "lon": 75.9,
+            "lat": 31.55,
+            "kind": "label",
+            "label": "Beas"
+           },
+           {
+            "name": "Sutlej",
+            "lon": 74.9,
+            "lat": 30.75,
+            "kind": "label",
+            "label": "Sutlej"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Eastern rivers: India"
+      }
+     ]
+    },
+    {
+     "text": "The three western ones, the Indus, the Jhelum and the Chenab, would go to Pakistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Indus",
+            "lon": 71.2,
+            "lat": 31.6,
+            "kind": "label",
+            "label": "Indus"
+           },
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Western rivers: Pakistan"
+      }
+     ]
+    },
+    {
+     "text": "It took six more years of talks. The two leaders met at Windsor Castle in May 1960.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The two leaders",
+       "photo": "File:Queen Elizabeth II and the Prime Ministers of the Commonwealth Nations, at Windsor Castle (1960 Commonwealth Prime Minister's Conference).jpg",
+       "on_screen_text": "Nehru (front row) and Ayub Khan (back row) at Windsor Castle, May 1960"
+      }
+     ]
+    },
+    {
+     "text": "On September 19th, 1960, in Karachi, they signed it: India's prime minister Jawaharlal Nehru and Pakistan's president Ayub Khan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "places": [
+           {
+            "name": "Karachi",
+            "lon": 67.0,
+            "lat": 24.86,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "they signed it",
+       "stat": {
+        "value": "Sept 19, 1960",
+        "label": "the Indus Waters Treaty is signed in Karachi",
+        "note": "With W. A. B. Iliff for the World Bank",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The split was not even. The eastern rivers carry about 33 million acre-feet of water in an average year.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Average yearly flow",
+        "unit": "million acre-feet",
+        "data": [
+         [
+          "Eastern rivers (India)",
+          33
+         ],
+         [
+          "Western rivers (Pakistan)",
+          135
+         ]
+        ],
+        "source": "Indus Waters Treaty figures, via Wikipedia",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The western rivers carry about 135 million. So Pakistan got roughly four fifths of the water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 10.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India got the rivers closest to its farms, and full use of them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the western rivers, India kept some rights. It may build hydropower plants in Kashmir,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "as long as they let the river flow through, and it may store only a limited amount.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 0.98
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It may also irrigate up to about 701,000 acres of farmland from them.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "701,000",
+        "label": "acres India may irrigate from the western rivers",
+        "source": "Indus Waters Treaty, via Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That limit is about 3.6 million acre-feet in total, for storage, power and floods. Remember that number.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3.6 million",
+        "label": "acre-feet: the most India may store on the western rivers",
+        "note": "1.25 general + 1.6 power + 0.75 flood",
+        "source": "Indus Waters Treaty, via Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who Paid for It",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Pakistan now had to build canals to replace the eastern rivers it lost.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India agreed to pay about 62 million pounds toward that, over ten years.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "£62 million",
+        "label": "paid by India toward Pakistan's new works",
+        "note": "£62,060,000, in ten yearly instalments",
+        "source": "Indus Waters Treaty, Article V"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And for a ten-year transition, while the new canals were dug, India kept sending eastern water across.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "routes": [
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 2.24
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The rest came from abroad. On the same day, six countries and the World Bank signed a fund to pay for it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "places": [
+           {
+            "name": "Karachi",
+            "lon": 67.0,
+            "lat": 24.86,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "signed a fund",
+       "stat": {
+        "value": "$177 million",
+        "label": "pledged by the United States in 1960",
+        "note": "With Australia, Canada, West Germany, New Zealand, the UK and the World Bank",
+        "source": "Indus Basin Development Fund Agreement"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The money built two of the biggest dams of the age. Mangla, on the Jhelum, opened in 1967.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Mangla-Panorama.jpg",
+       "on_screen_text": "Mangla reservoir on the Jhelum"
+      },
+      {
+       "type": "map",
+       "at": "Mangla, on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 73.65,
+           "lat": 33.17,
+           "span": 0.45
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Mangla",
+            "lon": 73.645,
+            "lat": 33.142,
+            "kind": "site",
+            "label": "Mangla Dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And Tarbela, on the Indus itself, was finished in 1976.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.7,
+           "lat": 34.15,
+           "span": 0.5
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Tarbela",
+            "lon": 72.698,
+            "lat": 34.09,
+            "kind": "site",
+            "label": "Tarbela Dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It is one of the largest earth-filled dams in the world.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tarbela Dam (30120240523).jpg",
+       "on_screen_text": "Tarbela Dam, Pakistan"
+      }
+     ]
+    },
+    {
+     "text": "Link canals now carry western water east, to the farms that had lost the eastern rivers.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         },
+         {
+          "at": "to the farms",
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Most of Pakistan's farm output depends on this one irrigation system.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Indus River above Hyderabad photographed during MA-9 flight (S63-06455).jpg",
+       "on_screen_text": "The Indus above Hyderabad, 1963"
+      }
+     ]
+    },
+    {
+     "text": "Pakistan's government calls the rivers a lifeline for 240 million people.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "240 million",
+        "label": "people Pakistan says depend on these rivers",
+        "source": "National Security Committee of Pakistan, April 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "We map rivers like this from orbit in every episode. If you want to see which river we follow next, subscribe.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ]
+         },
+         {
+          "at": "If you want",
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Three Wars, One Treaty",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The treaty set up a Permanent Indus Commission, one commissioner from each side.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "They meet at least once a year, swap river data and inspect each other's works.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Rockfill Dam, Salal Hydroelectric Power Station, Jammu.jpg",
+       "on_screen_text": "Salal dam on the Chenab"
+      }
+     ]
+    },
+    {
+     "text": "India and Pakistan went to war in 1965, again in 1971, and fought in Kargil in 1999.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3 wars",
+        "label": "the Indus Commission kept working through",
+        "note": "1965, 1971 and 1999",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The water kept flowing, and the commission kept meeting, 118 times in all.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The fights moved to the drawing board instead: how India designs its dams on Pakistan's rivers.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ]
+         },
+         {
+          "at": "how India designs",
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Salal, on the Chenab, was settled by agreement in 1978.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.81,
+           "lat": 33.14,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The bigger Baglihar dam, upstream, went to a neutral expert, who cleared it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Baglihar Dam Chenab River J&K India.jpg",
+       "on_screen_text": "Baglihar dam on the Chenab"
+      }
+     ]
+    },
+    {
+     "text": "Then came Kishanganga. This is the Gurez valley in Kashmir in 2014. Now watch the same valley in 2026.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tranquil Beauty of Gurez Valley.jpg",
+       "on_screen_text": "The Kishanganga river in the Gurez valley"
+      },
+      {
+       "type": "map",
+       "at": "This is the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.76,
+           "lat": 34.645,
+           "span": 0.13
+          },
+          "compare": {
+           "before": "2014-09-26",
+           "after": "2026-09-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 2.0,
+           "until": "Now watch"
+          }
+         },
+         {
+          "at": "Now watch"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Landsat"
+      }
+     ]
+    },
+    {
+     "text": "A dam, and a lake behind it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.76,
+           "lat": 34.645,
+           "span": 0.13
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "Kishanganga dam"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Sentinel-2, October 2026"
+      }
+     ]
+    },
+    {
+     "text": "The dam sends the river into a 23-kilometre tunnel, through the mountains,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "Kishanganga dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "to a power plant that drains into Wular Lake, on the Jhelum.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "Kishanganga dam"
+           },
+           {
+            "name": "Wular",
+            "lon": 74.56,
+            "lat": 34.37,
+            "kind": "label",
+            "label": "Wular Lake"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Downstream, the same river crosses into Pakistan as the Neelum.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "Kishanganga dam"
+           },
+           {
+            "name": "Neelum-Jhelum",
+            "lon": 73.72,
+            "lat": 34.39,
+            "kind": "site",
+            "label": "Neelum-Jhelum plant"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistan had built a 969 megawatt plant of its own there, and needed that water.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "969 MW",
+        "label": "Pakistan's Neelum-Jhelum plant, downstream",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Experts estimated that Kishanganga would cost that plant about a tenth of its water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Neelum-Jhelum",
+            "lon": 73.72,
+            "lat": 34.39,
+            "kind": "site",
+            "label": "Neelum-Jhelum plant"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India's prime minister Narendra Modi opened Kishanganga in May 2018.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.76,
+           "lat": 34.645,
+           "span": 0.13
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "Kishanganga dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "By then a court of arbitration had ruled. India could divert water for power,",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg",
+       "on_screen_text": "The Peace Palace, The Hague"
+      }
+     ]
+    },
+    {
+     "text": "but must always leave at least nine cubic metres a second in the river.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "9 m³/s",
+        "label": "the least Kishanganga must always leave in the river",
+        "source": "Court of Arbitration, 2013 award"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Look at the river below the dam: a thin thread.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.71,
+           "lat": 34.648,
+           "span": 0.06
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That was the system working as designed. Each side won a little, and the treaty held.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.76,
+           "lat": 34.645,
+           "span": 0.13
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "Kishanganga dam"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 74.76,
+           "lat": 34.645,
+           "span": 0.091
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Long Freeze",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "By 2016, the disputes were piling up again, over Kishanganga and over a new dam on the Chenab, at Ratle.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ]
+         },
+         {
+          "at": "over a new",
+          "places": [
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Ratle is an 850 megawatt plant behind a 133-metre dam.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.805,
+           "lat": 33.182,
+           "span": 0.12
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Ratle, October 2026"
+      }
+     ]
+    },
+    {
+     "text": "Pakistan objects to its design: how much water it can hold back, and where its gates sit.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "850 MW",
+        "label": "Ratle hydroelectric plant on the Chenab",
+        "note": "133 m gravity dam",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That September, militants attacked an Indian army base at Uri, in Kashmir.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "September 2016"
+      }
+     ]
+    },
+    {
+     "text": "Narendra Modi told officials that blood and water cannot flow together.",
+     "shots": [
+      {
+       "type": "quote",
+       "at": 0,
+       "quote": "Blood and water cannot flow together.",
+       "author": "Narendra Modi, September 2016, as reported"
+      }
+     ]
+    },
+    {
+     "text": "India suspended the commission's meetings for a time.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Suspended",
+        "label": "Indus Commission meetings, after the Uri attack",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistan asked for a court of arbitration. India asked for a neutral expert instead.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg",
+       "on_screen_text": "The Peace Palace, The Hague"
+      }
+     ]
+    },
+    {
+     "text": "The World Bank could not choose between them, so it paused both, for six years.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2016 to 2022",
+        "label": "the World Bank pauses both processes",
+        "source": "PCA, 31 August 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "When the process restarted in 2022, it ran on two tracks at once.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "places": [
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India boycotted the court. It argued that running a court alongside the expert broke the treaty's step-by-step dispute process.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.805,
+           "lat": 33.182,
+           "span": 0.12
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It argued",
+       "stat": {
+        "value": "Jan 2023",
+        "label": "India asks Pakistan to modify the treaty",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2024, it went further, and asked for a full review, citing population growth, clean energy needs and terrorism.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Sept 2024",
+        "label": "India asks for a review of the whole treaty",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The commission met for the last time in May 2022. Even before 2025, the treaty was barely breathing.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "May 2022",
+        "label": "the last meeting of the Permanent Indus Commission",
+        "source": "Wikipedia; Al Jazeera"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then came a single attack. And what came next is the part most people outside the region missed.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Pahalgam",
+            "lon": 75.19,
+            "lat": 34.01,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 1.82
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Abeyance",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "On April 22nd, 2025, gunmen killed 26 people near Pahalgam, in Indian-administered Kashmir. Most were tourists.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Pahalgam",
+            "lon": 75.19,
+            "lat": 34.01,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "April 22, 2025"
+      },
+      {
+       "type": "stat",
+       "at": "Most were tourists",
+       "stat": {
+        "value": "26",
+        "label": "people killed near Pahalgam",
+        "source": "Widely reported"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The next day, India held the treaty in abeyance, with immediate effect.",
+     "shots": [
+      {
+       "type": "quote",
+       "at": 0,
+       "quote": "The Indus Waters Treaty of 1960 will be held in abeyance with immediate effect …",
+       "author": "Government of India, April 23, 2025"
+      }
+     ]
+    },
+    {
+     "text": "It would last, India said, until Pakistan credibly and irrevocably abjures support for cross-border terrorism. Pakistan denied any role in the attack.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:India-Pakistan Border at Night.jpg",
+       "on_screen_text": "The India-Pakistan border at night"
+      },
+      {
+       "type": "stat",
+       "at": "Pakistan denied",
+       "stat": {
+        "value": "Denied",
+        "label": "Pakistan rejects any role in the attack",
+        "source": "Government of Pakistan"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Within days, India flushed silt from its Salal reservoir,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.81,
+           "lat": 33.14,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "and from Baglihar, out of season and without telling Pakistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.328,
+           "lat": 33.162,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "To flush a reservoir you first empty it, and then you refill it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Baglihar Dam Chenab River J&K India.jpg",
+       "on_screen_text": "Baglihar dam on the Chenab"
+      }
+     ]
+    },
+    {
+     "text": "Downstream, at Pakistan's Marala headworks, the Chenab enters the country.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.47,
+           "lat": 32.67,
+           "span": 0.18
+          },
+          "date": "2025-04-15/2025-04-30",
+          "places": [
+           {
+            "name": "Marala",
+            "lon": 74.464,
+            "lat": 32.673,
+            "kind": "site",
+            "label": "Marala headworks"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Marala, April 2025"
+      }
+     ]
+    },
+    {
+     "text": "Pakistani officials said the river fell from about 35,600 cubic feet a second to about 3,200, overnight.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Chenab at Marala",
+        "unit": "cubic feet a second",
+        "data": [
+         [
+          "May 4, 2025",
+          35600
+         ],
+         [
+          "May 5, 2025",
+          3177
+         ]
+        ],
+        "source": "Pakistani officials, quoted by Dawn",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Other readings that week were higher, and the flow came back.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           },
+           {
+            "name": "Marala",
+            "lon": 74.464,
+            "lat": 32.673,
+            "kind": "site",
+            "label": "Marala headworks"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "But Pakistan had seen what a switch upstream could do.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.47,
+           "lat": 32.67,
+           "span": 0.18
+          },
+          "date": "2025-04-15/2025-04-30",
+          "places": [
+           {
+            "name": "Marala",
+            "lon": 74.464,
+            "lat": 32.673,
+            "kind": "site",
+            "label": "Marala headworks"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Reuters reported that India had started work to get more out of its Chenab plants.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "On May 7th the two countries went to war for four days, with missiles and drones,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 4.55
+          }
+         }
+        ]
+       },
+       "on_screen_text": "May 7 to 10, 2025"
+      }
+     ]
+    },
+    {
+     "text": "until a ceasefire on May 10th. The treaty stayed in abeyance.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "4 days",
+        "label": "of fighting between India and Pakistan",
+        "note": "May 7 to 10, 2025",
+        "source": "Widely reported"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Bilawal Bhutto Zardari, a former foreign minister, warned that Pakistan would secure its water from all six rivers.",
+     "shots": [
+      {
+       "type": "quote",
+       "at": 0,
+       "quote": "Either India shares water fairly or we will secure it from all six rivers.",
+       "author": "Bilawal Bhutto Zardari, June 2025, as reported by Dawn"
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That August, Pakistan's army chief, Asim Munir, was reported to say that Pakistan would destroy any Indian dam built to block the Indus.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tarbela Dam (30120240523).jpg",
+       "on_screen_text": "Tarbela Dam, Pakistan"
+      },
+      {
+       "type": "stat",
+       "at": "was reported",
+       "stat": {
+        "value": "\"Ten missiles\"",
+        "label": "Asim Munir's reported threat against any such dam",
+        "source": "ThePrint; Dawn, August 2025"
+       }
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India stopped sharing river data.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Yet that August, when the Tawi river was about to flood, it warned Pakistan anyway,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.85,
+           "lat": 32.75,
+           "span": 0.9
+          },
+          "places": [
+           {
+            "name": "Tawi",
+            "lon": 74.85,
+            "lat": 32.72,
+            "kind": "label",
+            "label": "Tawi"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "through its High Commission, on humanitarian grounds.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Aug 24, 2025",
+        "label": "India warns Pakistan of a Tawi flood, outside the treaty",
+        "source": "Tribune India; Pakistan Foreign Office"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistan said even that broke the treaty, because the warning should have come through the Indus commission.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "routes": [
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 4.55
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Hague Rules",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Pakistan took the fight to the court of arbitration that India was boycotting.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg",
+       "on_screen_text": "The Peace Palace, The Hague"
+      }
+     ]
+    },
+    {
+     "text": "In June 2025, the court said India's abeyance could not take away its power to hear the case.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "June 27, 2025",
+        "label": "the court keeps the case despite the abeyance",
+        "source": "Court of Arbitration, supplemental award"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That August, it set the general rule. India shall let the western rivers flow, for Pakistan's unrestricted use.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Indus",
+            "lon": 71.2,
+            "lat": 31.6,
+            "kind": "label",
+            "label": "Indus"
+           },
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "quote",
+       "at": "India shall",
+       "quote": "India shall \"let flow\" the waters of the Western Rivers for Pakistan's unrestricted use.",
+       "author": "Court of Arbitration, August 8, 2025, as summarised"
+      }
+     ]
+    },
+    {
+     "text": "Exceptions, like hydropower, must be read strictly.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           },
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In May 2026, it ruled on how much water India's plants may hold back each day.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "May 15, 2026",
+        "label": "the court's award on maximum pondage",
+        "source": "PCA"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then Pakistan asked the big question: is the treaty still alive at all?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg",
+       "on_screen_text": "The Peace Palace, The Hague"
+      }
+     ]
+    },
+    {
+     "text": "Hearings ran for three days in April 2026. India did not take part.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "April 26-28, 2026",
+        "label": "hearings at the Peace Palace, without India",
+        "source": "PCA, 31 August 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistan's case was led by Sir Daniel Bethlehem, a British lawyer. The court is chaired by an American professor, Sean Murphy.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg",
+       "on_screen_text": "The Peace Palace, The Hague"
+      },
+      {
+       "type": "stat",
+       "at": "The court is",
+       "stat": {
+        "value": "5 judges",
+        "label": "chaired by Prof. Sean D. Murphy",
+        "note": "Belgium, the US, Jordan and Australia",
+        "source": "PCA"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On August 31st, 2026, five judges answered, unanimously.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Aug 31, 2026",
+        "label": "\"The Indus Waters Treaty remains fully in force\"",
+        "note": "Unanimous, five members",
+        "source": "Court of Arbitration, PCA press release"
+       }
+      }
+     ]
+    },
+    {
+     "text": "None of India's reasons could suspend or end the treaty. It remains fully in force.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The same day, the court ordered India not to raise the Ratle dam wall above certain levels,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.805,
+           "lat": 33.182,
+           "span": 0.12
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 75.805,
+           "lat": 33.182,
+           "span": 0.084
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Ratle, October 2026"
+      }
+     ]
+    },
+    {
+     "text": "until 90 days after the neutral expert decides, which is expected in July 2027.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "July 2027",
+        "label": "the neutral expert's decision on Ratle and Kishanganga",
+        "source": "PCA, 31 August 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "India rejected it within hours. It calls the court illegally constituted.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Rejected",
+        "label": "India calls the court \"illegally constituted\"",
+        "source": "Ministry of External Affairs; Al Jazeera"
+       }
+      }
+     ]
+    },
+    {
+     "text": "For India, the treaty stays in abeyance.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And there is no police force for this ruling. No one can make India comply.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Den Haag, het Vredespaleis RM333074 IMG 4317 2024-08-05 10.02.jpg"
+      }
+     ]
+    },
+    {
+     "text": "So who is right, a court that India never agreed to appear before,",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:India-Pakistan Border at Night.jpg"
+      }
+     ]
+    },
+    {
+     "text": "or a government that says the other side broke the deal first?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "The court, or India's government: who is right?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Can India Turn Off the Indus?",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Here is the physical answer, for now. The western rivers are huge in summer, when Himalayan snow melts.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Indus",
+            "lon": 71.2,
+            "lat": 31.6,
+            "kind": "label",
+            "label": "Indus"
+           },
+           {
+            "name": "Jhelum",
+            "lon": 73.55,
+            "lat": 33.0,
+            "kind": "label",
+            "label": "Jhelum"
+           },
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 10.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And India's dams on them were built to let water through, not to hold it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.81,
+           "lat": 33.14,
+           "span": 0.1
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistani hydrologist Hassan Abbas puts India's built storage on the Chenab at roughly one million acre-feet.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~1 million",
+        "label": "acre-feet of storage India has built on the Chenab",
+        "note": "Estimate by hydrologist Hassan Abbas",
+        "source": "Al Jazeera, Sept 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is small against what Pakistan's farms take in a season.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.4,
+           "lat": 31.4,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Lahore",
+            "lon": 74.34,
+            "lat": 31.55,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "If India held the river back behind dams that small, he says, it would end up flooding itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 1.4
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Salal",
+            "lon": 74.81,
+            "lat": 33.1425,
+            "kind": "site",
+            "label": "Salal dam"
+           },
+           {
+            "name": "Baglihar",
+            "lon": 75.328,
+            "lat": 33.162,
+            "kind": "site",
+            "label": "Baglihar dam"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 75.1,
+           "lat": 33.15,
+           "span": 0.98
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "For now, he argues, Pakistan's rivers are protected less by the treaty than by geography.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tranquil Beauty of Gurez Valley.jpg",
+       "on_screen_text": "The mountains of Kashmir"
+      }
+     ]
+    },
+    {
+     "text": "But timing is another matter. In the dry months the rivers run low.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.47,
+           "lat": 32.67,
+           "span": 0.18
+          },
+          "date": "2025-04-15/2025-04-30",
+          "places": [
+           {
+            "name": "Marala",
+            "lon": 74.464,
+            "lat": 32.673,
+            "kind": "site",
+            "label": "Marala headworks"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Even a few days of holding back, or a sudden release, can hit Pakistani farms at sowing time.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Indus River above Hyderabad photographed during MA-9 flight (S63-06455).jpg",
+       "on_screen_text": "The Indus valley, 1963"
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And India is building. Pakistani reporting says the hydropower planned in India's Chenab basin",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Chenab",
+            "lon": 74.1,
+            "lat": 32.3,
+            "kind": "label",
+            "label": "Chenab"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "rose from about 3,300 megawatts to about 7,600 in eighteen months.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Hydropower planned in India's Chenab basin",
+        "unit": "MW",
+        "data": [
+         [
+          "Before April 2025",
+          3263
+         ],
+         [
+          "About 18 months later",
+          7620
+         ]
+        ],
+        "source": "Dawn, November 2026",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "That includes Sawalkot, an 1,856 megawatt plant.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1,856 MW",
+        "label": "Sawalkot, planned on the Chenab",
+        "source": "Dawn; ISSI, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The same reports say India tendered a tunnel in March 2026, to link the Chenab to the Beas, an eastern river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          },
+          "routes": [
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.0
+           }
+          ]
+         },
+         {
+          "at": "to the Beas",
+          "routes": [
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ],
+          "places": [
+           {
+            "name": "Beas",
+            "lon": 75.9,
+            "lat": 31.55,
+            "kind": "label",
+            "label": "Beas"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pakistani analysts say that link could move up to 1.9 million acre-feet a year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1.9 million",
+        "label": "acre-feet a year the Chenab-Beas link could divert",
+        "note": "Pakistani estimate; not confirmed by India",
+        "source": "Dawn; ISSI, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "India has not published those figures, and none of it can be built quickly in these mountains.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tranquil Beauty of Gurez Valley.jpg",
+       "on_screen_text": "The mountains of Kashmir"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India has also sent plans to rebuild the Ranbir canal, which draws on the Chenab near Jammu.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.75,
+           "lat": 32.85,
+           "span": 0.8
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Jammu",
+            "lon": 74.86,
+            "lat": 32.73,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 74.75,
+           "lat": 32.85,
+           "span": 0.56
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The treaty's limit was 3.6 million acre-feet of storage. Out of the treaty, India would have no limit at all.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3.6 million",
+        "label": "acre-feet: the treaty's storage limit for India",
+        "source": "Indus Waters Treaty"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 33.6,
+           "span": 2.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is why Pakistan fears tomorrow more than today.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Happens Next",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Pakistan's prime minister, Shehbaz Sharif, has called every drop of its water a red line.",
+     "shots": [
+      {
+       "type": "quote",
+       "at": 0,
+       "quote": "Every single drop of Pakistan's water is our red line.",
+       "author": "Shehbaz Sharif, August 13, 2026"
+      }
+     ]
+    },
+    {
+     "text": "India's foreign minister says the treaty stays suspended until Pakistan stops cross-border terrorism.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 32.6,
+           "span": 6.5
+          },
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In June 2026, Pakistan's defence minister, Khawaja Asif, threatened war over it. India's foreign ministry dismissed the remarks.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "June 2026",
+        "label": "Pakistan's defence minister threatens war over the water",
+        "source": "The Independent; New Indian Express"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India argues a treaty from 1960 never planned for today's populations, or for clean energy.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Rockfill Dam, Salal Hydroelectric Power Station, Jammu.jpg",
+       "on_screen_text": "Salal dam on the Chenab"
+      }
+     ]
+    },
+    {
+     "text": "Pakistan says India must first return to the treaty, which can only be changed if both sides agree.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 10.5
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the meantime, the rivers keep running, past dams on one side and canals on the other,",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Indus River above Hyderabad photographed during MA-9 flight (S63-06455).jpg",
+       "on_screen_text": "The Indus, from Mercury-Atlas 9, 1963"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "on to the Arabian Sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 3.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Karachi",
+            "lon": 67.0,
+            "lat": 24.86,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The next real date is July 2027, when the neutral expert rules on Ratle and Kishanganga.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "July 2027",
+        "label": "the neutral expert's final decision",
+        "source": "PCA work programme"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "India asked for that expert in 2016. Whether it accepts his ruling now is the next test.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.805,
+           "lat": 33.182,
+           "span": 0.12
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Ratle",
+            "lon": 75.805,
+            "lat": 33.182,
+            "kind": "site",
+            "label": "Ratle dam site"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 75.805,
+           "lat": 33.182,
+           "span": 0.084
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So here is our question for you. Should a water treaty be untouchable, even in war,",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:India-Pakistan Border at Night.jpg",
+       "on_screen_text": "The India-Pakistan border at night"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Untouchable treaty, or the right to walk away?"
+     }
+    },
+    {
+     "text": "or can a country walk away when it believes its neighbour is attacking it?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 72.0,
+           "lat": 30.2,
+           "span": 15.0
+          },
+          "routes": [
+           {
+            "path": "Indus",
+            "color": "blue",
+            "seconds": 2.5
+           },
+           {
+            "path": "Jhelum",
+            "color": "blue",
+            "seconds": 2.0
+           },
+           {
+            "path": "Chenab",
+            "color": "blue",
+            "seconds": 2.2
+           },
+           {
+            "path": "Ravi",
+            "color": "accent",
+            "seconds": 2.0
+           },
+           {
+            "path": "Beas",
+            "color": "accent",
+            "seconds": 1.6
+           },
+           {
+            "path": "Sutlej",
+            "color": "accent",
+            "seconds": 2.2
+           }
+          ],
+          "places": [
+           {
+            "name": "India",
+            "lon": 77.2,
+            "lat": 30.0,
+            "kind": "label",
+            "label": "INDIA"
+           },
+           {
+            "name": "Pakistan",
+            "lon": 69.5,
+            "lat": 28.6,
+            "kind": "label",
+            "label": "PAKISTAN"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "India Froze a 65-Year-Old Water Treaty With Pakistan",
+  "description": "In April 2025 India put the Indus Waters Treaty \"in abeyance\". Pakistan said stopping its water would be an act of war. In August 2026 a court in The Hague ruled the treaty is still fully in force, and India rejected the ruling within hours. We follow the six rivers from the day the canals ran dry in 1948 to the new dams on the Chenab, with real satellite images, and ask whether India could actually turn off Pakistan's water.\n\nReal Copernicus Sentinel-2 images, NASA photographs, Natural Earth river maps and the court's own documents.",
+  "tags": [
+   "Indus Waters Treaty",
+   "India",
+   "Pakistan",
+   "Indus River",
+   "Chenab",
+   "Kishanganga",
+   "Ratle",
+   "water war",
+   "Hague court of arbitration",
+   "satellite images",
+   "geopolitics",
+   "Kashmir"
+  ],
+  "pinned_comment": "Should a water treaty be untouchable, even in war, or can a country walk away when it believes its neighbour is attacking it?"
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "title": "This Dam Sends a River Into a Mountain",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/indus-waters research.md (R3, R9) and factcheck.md."
+ ],
+ "thumbnail": {
+  "text": "RIVER GONE?"
+ },
+ "chapters": [
+  {
+   "title": "Kishanganga",
+   "mood": "tension",
+   "card": false,
+   "paragraphs": [
+    {
+     "text": "A valley in Kashmir, 2014. Now, 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.755,
+           "lat": 34.645,
+           "span": 0.09
+          },
+          "compare": {
+           "before": "2014-09-26",
+           "after": "2026-09-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 1.8,
+           "until": "Now,"
+          }
+         },
+         {
+          "at": "Now,"
+         }
+        ]
+       },
+       "on_screen_text": "Kashmir, from space"
+      }
+     ]
+    },
+    {
+     "text": "That's the Kishanganga dam.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "THE DAM"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "Kishanganga dam, India"
+      }
+     ]
+    },
+    {
+     "text": "It sends the river into a tunnel, twenty-three kilometres through the mountains,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 34.0,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "THE DAM"
+           }
+          ]
+         },
+         {
+          "at": "twenty-three",
+          "arrows": [
+           {
+            "from": [
+             74.75,
+             34.64
+            ],
+            "to": [
+             74.62,
+             34.4
+            ],
+            "color": "accent",
+            "label": "23 km tunnel"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Into a 23 km tunnel"
+      }
+     ]
+    },
+    {
+     "text": "and out into a different river valley.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 34.0,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Wular",
+            "lon": 74.56,
+            "lat": 34.37,
+            "kind": "label",
+            "label": "WULAR LAKE"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "Out at Wular Lake, on the Jhelum"
+      }
+     ]
+    },
+    {
+     "text": "Now look at the old river below the dam.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.755,
+           "lat": 34.645,
+           "span": 0.09
+          },
+          "date": "2026-09-01/2026-10-31"
+         },
+         {
+          "at": "below the dam",
+          "view": {
+           "lon": 74.715,
+           "lat": 34.648,
+           "span": 0.04
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Below the dam"
+      }
+     ]
+    },
+    {
+     "text": "A thin thread.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.715,
+           "lat": 34.648,
+           "span": 0.04
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "A thin thread"
+      }
+     ]
+    },
+    {
+     "text": "Downstream it flows into Pakistan, which built its own power plant on it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 34.0,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "THE DAM"
+           },
+           {
+            "name": "Neelum-Jhelum",
+            "lon": 73.72,
+            "lat": 34.39,
+            "kind": "site",
+            "label": "PAKISTAN'S PLANT"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Pakistan's 969 MW plant downstream"
+      }
+     ]
+    },
+    {
+     "text": "Pakistan took India to court. The judges let India divert the water,",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 34.0,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "THE DAM"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "2013: a court of arbitration"
+      }
+     ]
+    },
+    {
+     "text": "but said at least nine cubic metres a second must always stay in the river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.715,
+           "lat": 34.648,
+           "span": 0.04
+          },
+          "date": "2026-09-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "At least 9 m³ every second"
+      }
+     ]
+    },
+    {
+     "text": "Now India has put the whole water treaty on hold.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.6,
+           "lat": 34.0,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "THE DAM"
+           },
+           {
+            "name": "Neelum-Jhelum",
+            "lon": 73.72,
+            "lat": 34.39,
+            "kind": "site",
+            "label": "PAKISTAN'S PLANT"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "2025: treaty \"in abeyance\""
+      }
+     ]
+    },
+    {
+     "text": "Fair engineering, or a river taken?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 74.755,
+           "lat": 34.645,
+           "span": 0.09
+          },
+          "date": "2026-09-01/2026-10-31",
+          "places": [
+           {
+            "name": "Kishanganga",
+            "lon": 74.751,
+            "lat": 34.649,
+            "kind": "site",
+            "label": "THE DAM"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Fair engineering, or a river taken?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "This Dam Sends a River Into a Mountain",
+  "description": "The Gurez valley in Kashmir in 2014 (Landsat) and 2026 (Copernicus Sentinel-2): India's Kishanganga dam sends the river into a 23 km tunnel. Downstream, Pakistan's own plant needs the same water. A court ruled in 2013; now India has put the whole Indus Waters Treaty on hold.\n\nFull documentary on the channel: the Indus Waters Treaty\n\n#geography #kashmir #satellite",
+  "tags": [
+   "Kishanganga",
+   "Indus Waters Treaty",
+   "India",
+   "Pakistan",
+   "Kashmir",
+   "dam",
+   "satellite images",
+   "before and after",
+   "shorts"
+  ],
+  "pinned_comment": "Fair engineering, or a river taken? The court said both sides had a point. Where do you stand?"
+ }
+}

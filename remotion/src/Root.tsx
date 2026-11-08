@@ -19,6 +19,15 @@ export const RemotionRoot: React.FC = () => (
 		defaultProps={{text: 'Sample Title', background: 'thumb_A.jpg', layout: 'left' as const}}
 	/>
 	<Composition
+		id="ThumbnailVertical"
+		component={Thumbnail}
+		durationInFrames={1}
+		fps={30}
+		width={1080}
+		height={1920}
+		defaultProps={{text: 'Sample Title', background: 'thumb_V.jpg', layout: 'vsplit' as const}}
+	/>
+	<Composition
 		id="Episode"
 		component={Episode}
 		durationInFrames={emptyTimeline.totalFrames}

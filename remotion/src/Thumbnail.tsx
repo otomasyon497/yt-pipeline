@@ -3,7 +3,7 @@ import {AbsoluteFill, Img, staticFile} from 'remotion';
 import {colors, display} from './theme';
 
 // split: our own before | after imagery (pipeline/thumbnails.py), `labels` = the two years.
-export type ThumbProps = {text: string; background: string; layout: 'left' | 'center' | 'right' | 'split'; labels?: [string, string]};
+export type ThumbProps = {text: string; background: string; layout: 'left' | 'center' | 'right' | 'split' | 'vsplit'; labels?: [string, string]};
 
 const SHADOW = '0 6px 24px rgba(0,0,0,0.6)';
 
@@ -36,10 +36,41 @@ const Split: React.FC<ThumbProps> = ({text, background, labels}) => {
 	);
 };
 
+// Shorts cover (1080 x 1920): before on top, after below, the amber line between them, years in the corners and
+// the headline stacked in the middle (one word per line) so it survives the Shorts shelf crop.
+const VSplit: React.FC<ThumbProps> = ({text, background, labels}) => {
+	const words = text.toUpperCase().split(/\s+/).filter(Boolean);
+	const year = (s: string, color: string, pos: React.CSSProperties) => (
+		<div style={{position: 'absolute', ...pos, fontFamily: display, fontSize: 170, lineHeight: 1, letterSpacing: 3, color, textShadow: SHADOW, WebkitTextStroke: `3px ${colors.bg}`}}>
+			{s}
+		</div>
+	);
+	return (
+		<AbsoluteFill style={{backgroundColor: colors.bg}}>
+			<Img src={staticFile(`media/${background}`)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+			<AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(8,10,18,0) 30%, rgba(8,10,18,0.55) 50%, rgba(8,10,18,0) 70%)'}} />
+			<div style={{position: 'absolute', left: 0, top: 956, width: 1080, height: 8, backgroundColor: colors.accent}} />
+			{labels ? year(labels[0], colors.text, {top: 150, left: 60}) : null}
+			{labels ? year(labels[1], colors.accent, {bottom: 260, right: 60}) : null}
+			<AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
+				<div style={{textAlign: 'center'}}>
+					{words.map((w, i) => (
+						<div key={i} style={{fontFamily: display, fontSize: words.length > 2 ? 210 : 250, lineHeight: 0.95, letterSpacing: 4,
+							color: i === words.length - 1 ? colors.accent : colors.text, textShadow: SHADOW, WebkitTextStroke: `4px ${colors.bg}`}}>
+							{w}
+						</div>
+					))}
+				</div>
+			</AbsoluteFill>
+		</AbsoluteFill>
+	);
+};
+
 // Stills are rendered once, so gradients/shadows are fine here (unlike in the video compositions).
 export const Thumbnail: React.FC<ThumbProps> = (props) => {
 	const {text, background, layout} = props;
 	if (layout === 'split') return <Split {...props} />;
+	if (layout === 'vsplit') return <VSplit {...props} />;
 	const words = text.toUpperCase().split(/\s+/).filter(Boolean);
 	// Short headlines: one word per line; longer ones split in two balanced lines.
 	const lines = words.length <= 3 ? words : [words.slice(0, Math.ceil(words.length / 2)).join(' '), words.slice(Math.ceil(words.length / 2)).join(' ')];

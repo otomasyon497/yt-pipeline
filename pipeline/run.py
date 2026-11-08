@@ -317,12 +317,12 @@ def prepare(slug: str) -> None:
 
 
 def make_thumbnails(slug: str) -> None:
-    if SHORT:
-        print("short: no custom thumbnail (YouTube shows a frame of the Short)")
-        return
     script = load_script(ROOT / "episodes" / slug / "script.json")
     with step("thumbnails"):
-        thumbnails.make(script, BUILD_DIR / slug / "thumbnails", slug)
+        if SHORT:  # a vertical cover from our own before | after imagery
+            thumbnails.make_short_cover(script, BUILD_DIR / slug / "thumbnails", slug)
+        else:
+            thumbnails.make(script, BUILD_DIR / slug / "thumbnails", slug)
 
 
 def finalize(slug: str) -> None:

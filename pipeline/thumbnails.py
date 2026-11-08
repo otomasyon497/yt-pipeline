@@ -39,18 +39,27 @@ def _first_compare(slug: str) -> dict | None:
     return None
 
 
-def _split_background(el: dict, out: Path) -> tuple[str, str]:
+def _split_background(el: dict, out: Path, size=(1280, 720)) -> tuple[str, str]:
     """Left half of the 'before' image, right half of the 'after' one, both cropped to the view the camera showed
-    (the compare images cover 1.5 x the view). Returns the two year labels."""
+    (the compare images cover 1.5 x the view). A portrait size (Shorts cover) splits top | bottom instead.
+    Returns the two year labels."""
+    W, H = size
     halves = []
     for side in ("before", "after"):
         img = Image.open(PUBLIC_MEDIA / el[side]["src"]).convert("RGB")
         w, h = img.size
         cw, ch = w / 1.5, h / 1.5
+        if cw / ch > W / H:  # crop the view to the target aspect
+            cw = ch * W / H
+        else:
+            ch = cw * H / W
         img = img.crop((round((w - cw) / 2), round((h - ch) / 2), round((w + cw) / 2), round((h + ch) / 2)))
-        halves.append(img.resize((1280, 720), Image.LANCZOS))
+        halves.append(img.resize((W, H), Image.LANCZOS))
     split = halves[0].copy()
-    split.paste(halves[1].crop((640, 0, 1280, 720)), (640, 0))
+    if W >= H:
+        split.paste(halves[1].crop((W // 2, 0, W, H)), (W // 2, 0))
+    else:
+        split.paste(halves[1].crop((0, H // 2, W, H)), (0, H // 2))
     split.save(out, quality=92)
     years = []
     for key in ("labelBefore", "labelAfter"):
@@ -59,12 +68,12 @@ def _split_background(el: dict, out: Path) -> tuple[str, str]:
     return years[0], years[1]
 
 
-def _render(props: dict, dest: Path, out_dir: Path, vid: str) -> None:
+def _render(props: dict, dest: Path, out_dir: Path, vid: str, comp: str = "Thumbnail") -> None:
     path = out_dir / f"props_{vid}.json"
     path.write_text(json.dumps(props), encoding="utf-8")
     for quality in (90, 80, 70):  # lower quality until it fits the size limit
         r = subprocess.run(
-            ["npx", "remotion", "still", "src/index.ts", "Thumbnail", str(dest), f"--props={path}",
+            ["npx", "remotion", "still", "src/index.ts", comp, str(dest), f"--props={path}",
              "--image-format=jpeg", f"--jpeg-quality={quality}", "--log=warn"],
             cwd=ROOT / "remotion", capture_output=True, text=True,
         )
@@ -97,3 +106,20 @@ def make(script, out_dir: Path, slug: str | None = None) -> list[Path]:
                 dest, out_dir, "D")
         results.append(dest)
     return results
+
+
+def make_short_cover(script, out_dir: Path, slug: str) -> list[Path]:
+    """Shorts cover, 1080 x 1920: the first compare split top (before) | bottom (after) with the headline.
+    YouTube shows it where the app lets the creator pick a cover image; otherwise it is a frame to match."""
+    if script.thumbnail is None:
+        return []
+    el = _first_compare(slug)
+    if el is None:
+        print("short: no compare in the episode, no cover")
+        return []
+    out_dir.mkdir(parents=True, exist_ok=True)
+    before, after = _split_background(el, PUBLIC_MEDIA / "thumb_V.jpg", size=(1080, 1920))
+    dest = out_dir / "cover_short.jpg"
+    _render({"text": script.thumbnail.text, "background": "thumb_V.jpg", "layout": "vsplit", "labels": [before, after]},
+            dest, out_dir, "V", comp="ThumbnailVertical")
+    return [dest]

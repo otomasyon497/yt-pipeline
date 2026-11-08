@@ -16,3 +16,4 @@ threat visible on Sentinel-2.
   2021, present Jul 2026, overflow pond at ~66.9 E 37.13 N). Script 2,031 words, 10 chapters, ~15.4 min by
   tools/episode_check.py (all checks pass); factcheck.md complete (no FIX). Package: "The Aral Sea Shrank 93%.
   Then One Part Came Back" + "NOW A DESERT" (yt-package 98/100). Shorts: aral-sea-short-desert, aral-sea-short-canal.
+- 2026-11-08: storyboard 42433676420 fixed (country highlights -> labels, Siberia on Blue Marble, Baltic card, clearer photos); full render 42436027345 (15.1 min) + Shorts 42434424798 / 42434427069; all three in Videos\yt-pipeline. Waiting for the user's review.

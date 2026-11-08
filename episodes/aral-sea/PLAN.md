@@ -17,3 +17,5 @@ threat visible on Sentinel-2.
   tools/episode_check.py (all checks pass); factcheck.md complete (no FIX). Package: "The Aral Sea Shrank 93%.
   Then One Part Came Back" + "NOW A DESERT" (yt-package 98/100). Shorts: aral-sea-short-desert, aral-sea-short-canal.
 - 2026-11-08: storyboard 42433676420 fixed (country highlights -> labels, Siberia on Blue Marble, Baltic card, clearer photos); full render 42436027345 (15.1 min) + Shorts 42434424798 / 42434427069; all three in Videos\yt-pipeline. Waiting for the user's review.
+- 2026-11-08: uploaded by the user. Check CTR at 48 h / 7 days (docs/analytics-2026-11-08.md). If under 3 %, Test & Compare
+  titles: "The Soviets Drained a Sea to Grow Cotton" (40) and "Why the Aral Sea Became a Desert" (32).

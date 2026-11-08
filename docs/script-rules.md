@@ -51,6 +51,10 @@ end CTA, the closing question as the pinned comment, never bend facts).
 
 ## Packaging
 - Title 35-50 characters: a question or stakes, plus a name or a number; yt-package scores the pairing.
+- Lead the title with actors and conflict (a country, a threat, a turn). Our record-number titles got 0-1.8 % CTR;
+  the conflict title (GERD) got 3.0 % and 83 % of all views (docs/analytics-2026-11-08.md). Numbers go to the
+  thumbnail or the hook.
+- Search viewers leave at about 0:25: the first 20 s must show what the title promised.
 - Thumbnail: our own imagery first (variant D, the before | after split when the episode has a compare), 1-3 words,
   a consistent template (amber wipe line). AI variants A-C are the fallback.
 

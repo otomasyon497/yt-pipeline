@@ -1,0 +1,304 @@
+{
+ "title": "Afghanistan's New Canal, From Space",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/aral-sea research.md R6 (Qosh Tepa canal) and factcheck.md."
+ ],
+ "chapters": [
+  {
+   "title": "Qosh Tepa",
+   "mood": "tension",
+   "card": false,
+   "paragraphs": [
+    {
+     "text": "Northern Afghanistan, summer 2021. Now, July 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "compare": {
+           "before": "2021-06-01/2021-09-30",
+           "after": "2026-07-01/2026-09-30",
+           "source": "sentinel-2",
+           "seconds": 2.0,
+           "until": "Now,"
+          }
+         },
+         {
+          "at": "Now,"
+         }
+        ]
+       },
+       "on_screen_text": "Afghanistan is digging a new river"
+      }
+     ]
+    },
+    {
+     "text": "That line is a canal, two hundred and eighty-five kilometres long.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.03,
+            "lat": 37.08,
+            "kind": "label",
+            "label": "THE CANAL"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "Qosh Tepa canal: 285 km planned"
+      }
+     ]
+    },
+    {
+     "text": "It takes water from the Amu Darya, right here.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 67.25,
+           "lat": 37.15,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 67.3,
+            "lat": 37.2,
+            "kind": "label",
+            "label": "AMU DARYA"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Water from the Amu Darya"
+      }
+     ]
+    },
+    {
+     "text": "See this patch beside it? In December 2023, water spread nine kilometres along its bank.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.9,
+           "lat": 37.13,
+           "span": 0.12
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Pond",
+            "lon": 66.9,
+            "lat": 37.14,
+            "kind": "label",
+            "label": "OVERFLOW"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Dec 2023: water along the bank"
+      }
+     ]
+    },
+    {
+     "text": "Afghan officials denied a breach.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       },
+       "on_screen_text": "Officials: not a breach"
+      }
+     ]
+    },
+    {
+     "text": "The goal: five hundred and fifty thousand hectares of new farmland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.6,
+           "lat": 37.0,
+           "span": 1.2
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       },
+       "on_screen_text": "550,000 ha of new farms planned"
+      }
+     ]
+    },
+    {
+     "text": "But this river once fed most of the Aral Sea, which has already lost most of its water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 63.5,
+           "lat": 41.5,
+           "span": 9.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 62.2,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "AMU DARYA"
+           },
+           {
+            "name": "Aral Sea",
+            "lon": 60.0,
+            "lat": 45.6,
+            "kind": "label",
+            "label": "ARAL SEA"
+           }
+          ]
+         },
+         {
+          "at": "which has already",
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The Amu Darya fed the Aral Sea"
+      }
+     ]
+    },
+    {
+     "text": "Estimates say the canal could take a fifth to a quarter of the river's flow.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "1/5 to 1/4 of the flow (estimates)"
+      }
+     ]
+    },
+    {
+     "text": "Afghanistan says it is only taking its fair share. Is it?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.03,
+            "lat": 37.08,
+            "kind": "label",
+            "label": "THE CANAL"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Its fair share?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Afghanistan's New Canal, From Space",
+  "description": "The Qosh Tepa canal in northern Afghanistan, summer 2021 and July 2026, in real Copernicus Sentinel-2 images. It takes water from the Amu Darya, the river that once fed most of the Aral Sea.\n\nFull documentary on the channel: The Aral Sea\n\n#geography #afghanistan #satellite",
+  "tags": [
+   "Qosh Tepa canal",
+   "Afghanistan",
+   "Amu Darya",
+   "Aral Sea",
+   "satellite images",
+   "before and after",
+   "shorts"
+  ],
+  "pinned_comment": "Afghanistan says it is only taking its fair share of the Amu Darya. Is it? Full story on the channel: The Aral Sea."
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "title": "This Sea Turned Into a Desert",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/aral-sea (research.md, factcheck.md).",
+  "Own measurement: summer 2026 water inside the 1960s outline 4797 km2 = 7 % of 67,190 km2."
+ ],
+ "chapters": [
+  {
+   "title": "Aral",
+   "mood": "tension",
+   "card": false,
+   "paragraphs": [
+    {
+     "text": "This was the fourth-largest lake on Earth. August 2000. Now, August 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "date": "2026-08-25",
+          "compare": {
+           "before": "2000-08-25",
+           "after": "2026-08-25",
+           "source": "modis",
+           "seconds": 2.2,
+           "until": "Now,"
+          }
+         },
+         {
+          "at": "Now,"
+         }
+        ]
+       },
+       "on_screen_text": "A sea that became a desert"
+      }
+     ]
+    },
+    {
+     "text": "All of this was water. Now it's a desert with its own name.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Aralkum",
+            "lon": 60.2,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "NOW A DESERT"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "The Aralkum Desert"
+      }
+     ]
+    },
+    {
+     "text": "In 1960 the shoreline was here.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "The 1960 shoreline"
+      }
+     ]
+    },
+    {
+     "text": "We measured what's left this summer. About 7 percent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "Only ~7% left (our measurement)"
+      }
+     ]
+    },
+    {
+     "text": "Where did it go? Soviet canals sent the rivers to cotton fields.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 63.5,
+           "lat": 41.5,
+           "span": 9.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 62.2,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "AMU DARYA"
+           },
+           {
+            "name": "Aral Sea",
+            "lon": 60.0,
+            "lat": 45.6,
+            "kind": "label",
+            "label": "ARAL SEA"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Rivers diverted for cotton"
+      }
+     ]
+    },
+    {
+     "text": "Fishing ports were left in the sand, about a hundred kilometres from the water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.05,
+           "lat": 43.8,
+           "span": 0.35
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Muynak",
+            "lon": 59.02,
+            "lat": 43.77,
+            "kind": "site",
+            "label": "MUYNAK",
+            "icon": "ship"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Muynak: ~100 km to the water"
+      }
+     ]
+    },
+    {
+     "text": "Then Kazakhstan built a thirteen-kilometre dam in the north.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.8,
+           "lat": 46.2,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "THE DAM"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Kokaral dam, 2005"
+      }
+     ]
+    },
+    {
+     "text": "Behind it, the northern sea filled up within about a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 61.0,
+           "lat": 46.4,
+           "span": 0.9
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "NORTH ARAL"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Filled within about a year"
+      }
+     ]
+    },
+    {
+     "text": "The water rose twelve metres. Twenty-two kinds of fish came back.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "NORTH ARAL"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       },
+       "on_screen_text": "+12 m · 22 fish species back"
+      }
+     ]
+    },
+    {
+     "text": "Should they have tried to save the whole sea, or just the part they could?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Whole sea, or the part you can save?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "This Sea Turned Into a Desert",
+  "description": "The Aral Sea in August 2000 and August 2026, in real NASA MODIS images, and the North Aral before and after the Kokaral dam on Landsat. We measured what is left inside the 1960s shoreline.\n\nFull documentary on the channel: The Aral Sea\n\n#geography #aralsea #satellite",
+  "tags": [
+   "Aral Sea",
+   "Aralkum",
+   "Kokaral dam",
+   "satellite images",
+   "before and after",
+   "geography",
+   "shorts"
+  ],
+  "pinned_comment": "Save the whole sea, or the part you can? Kazakhstan chose the north. What would you have done?"
+ }
+}

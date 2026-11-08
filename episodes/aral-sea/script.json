@@ -1,0 +1,4074 @@
+{
+ "title": "The Aral Sea",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "Every claim is checked against episodes/aral-sea/research.md (R1-R7) and episodes/aral-sea/factcheck.md.",
+  "Own measurement R1 (tools/aral_numbers.py, Landsat NDWI > 0.05 inside the Natural Earth 1960s outline): summer 2026 4797 km2 (7.1 % of 67190 km2); North Aral 2002 2882 km2 -> 2026 2888 km2.",
+  "MODIS Terra 2000-08-25 and 2026-08-25 (GIBS), checked cloud-free 2026-11-08."
+ ],
+ "thumbnail": {
+  "text": "NOW A DESERT"
+ },
+ "youtube": {
+  "title": "The Aral Sea Shrank 93%. Then One Part Came Back",
+  "description": "In 1960 the Aral Sea was the fourth-largest lake on Earth. We measured what is left on Landsat images from the summer of 2026, inside the 1960s shoreline. How Soviet cotton drained it, the anthrax island it exposed, the dust desert it left behind, the dam that brought the northern half back, and the new canal in Afghanistan that may take more of its river.\n\nReal NASA MODIS, Landsat and Copernicus Sentinel-2 images, astronaut photographs and our own measurements.",
+  "tags": [
+   "Aral Sea",
+   "Aralkum",
+   "Kokaral dam",
+   "Amu Darya",
+   "Syr Darya",
+   "Qosh Tepa canal",
+   "Uzbekistan",
+   "Kazakhstan",
+   "satellite images",
+   "before and after",
+   "environmental disaster"
+  ],
+  "pinned_comment": "Should Afghanistan be free to take Amu Darya water for its farms, even if the countries downstream lose some of theirs?"
+ },
+ "chapters": [
+  {
+   "title": "A Sea That Vanished",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This is the Aral Sea in August 2000, seen by a NASA satellite. Now watch the same place in August 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "compare": {
+           "before": "2000-08-25",
+           "after": "2026-08-25",
+           "source": "modis",
+           "seconds": 2.6,
+           "until": "Now watch"
+          }
+         },
+         {
+          "at": "Now watch"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · NASA MODIS"
+      }
+     ]
+    },
+    {
+     "text": "Most of what just disappeared was water. It is now a desert with its own name, the Aralkum.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "It is now",
+          "places": [
+           {
+            "name": "Aralkum",
+            "lon": 60.3,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Aralkum Desert"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And in 1960, the sea was bigger still. This was its shoreline, about 68,000 square kilometres.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "This was its shoreline",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Shoreline in the 1960s"
+      },
+      {
+       "type": "stat",
+       "at": "about 68,000",
+       "stat": {
+        "value": "68,000 km²",
+        "label": "the Aral Sea in 1960",
+        "source": "Published figure; outline from Natural Earth"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That made it the fourth-largest lake on Earth, a little bigger than Sri Lanka.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "#4",
+        "label": "largest lake on Earth in 1960",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a little bigger",
+       "photo": "File:Aral Sea, 1964 NASA space image.jpg",
+       "on_screen_text": "The Aral Sea from space, August 1964"
+      }
+     ]
+    },
+    {
+     "text": "We measured what is left on Landsat images from this summer. Inside the old shoreline, we found about 4,800 square kilometres of open water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Our measurement · Landsat, summer 2026"
+      },
+      {
+       "type": "stat",
+       "at": "Inside the old",
+       "stat": {
+        "value": "≈ 4,800 km²",
+        "label": "of open water inside the 1960s shoreline, summer 2026",
+        "source": "Our measurement on Landsat 8 and 9"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is about 7 percent of the sea that was here in 1960.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Aral Sea water area",
+        "unit": "km²",
+        "data": [
+         [
+          "1960",
+          67190
+         ],
+         [
+          "2026",
+          4797
+         ]
+        ],
+        "source": "Natural Earth 1960s outline; our Landsat measurement",
+        "reveal": [
+         "percent"
+        ],
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "And yet one part of it is coming back. In the north, the water rose by about twelve metres after 2003.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The North Aral, 2026"
+      },
+      {
+       "type": "stat",
+       "at": "In the north",
+       "stat": {
+        "value": "+12 m",
+        "label": "rise of the North Aral's level, 2003 to 2008",
+        "source": "Wikipedia, citing Kazakh data"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the fish returned.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss067e090063",
+       "on_screen_text": "The North Aral from the International Space Station, May 2022"
+      }
+     ]
+    },
+    {
+     "text": "Meanwhile, far to the south, a new canal in Afghanistan is about to start drawing water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 62.2,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "Amu Darya"
+           }
+          ]
+         },
+         {
+          "at": "a new canal",
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It draws from the river that once fed most of this sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 62.2,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "Amu Darya"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So who should get a river's water: the farms along it, or the sea at its end?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "or the sea",
+       "photo": "File:Aral Sea 1997 from STS cropped.jpg",
+       "on_screen_text": "The Aral Sea from the Space Shuttle, 1997"
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "A river's water: for the farms, or for the sea?"
+     }
+    },
+    {
+     "text": "Here is how a sea that size disappeared, and how part of it came back.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "compare": {
+           "before": "2000-08-25",
+           "after": "2026-08-25",
+           "source": "modis",
+           "seconds": 2.4
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Port Without a Sea",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Start in Muynak, in western Uzbekistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.05,
+           "lat": 43.85,
+           "span": 0.55
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Muynak",
+            "lon": 59.02,
+            "lat": 43.77,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Muynak, Uzbekistan · summer 2026"
+      }
+     ]
+    },
+    {
+     "text": "In the 1960s it was a fishing port, with a cannery and boats on the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Moynaq, Aral Sea (6226807306).jpg",
+       "on_screen_text": "Muynak's old harbour, 2008"
+      },
+      {
+       "type": "map",
+       "at": "and boats",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.05,
+           "lat": 43.85,
+           "span": 0.55
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Muynak",
+            "lon": 59.02,
+            "lat": 43.77,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Today its boats rest on sand. The water is now around a hundred kilometres away.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Graveyard of Ships (Aral sea).jpg",
+       "on_screen_text": "Muynak, August 2025"
+      },
+      {
+       "type": "stat",
+       "at": "The water is now",
+       "stat": {
+        "value": "~100 km",
+        "label": "from Muynak to the water today",
+        "note": "Sources give 90 to 130 km",
+        "source": "Press and travel reports"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Across the whole sea, fishing once employed about forty thousand people.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aralship1-2.jpg",
+       "on_screen_text": "A stranded ship on the old seabed, 2005"
+      },
+      {
+       "type": "stat",
+       "at": "employed about",
+       "stat": {
+        "value": "40,000",
+        "label": "people in the Aral's fishing industry at its peak",
+        "source": "Wikipedia, citing studies"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Aral was reported to supply a sixth of all the fish caught in the Soviet Union.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1/6",
+        "label": "of the Soviet Union's fish catch came from the Aral, reportedly",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "caught in the Soviet",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "By 1987, commercial fishing here had stopped.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1987",
+        "label": "commercial fishing ends",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Muynak's cannery kept going for a while anyway, on frozen fish brought in from the Baltic Sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 42.0,
+           "lat": 50.0,
+           "span": 50.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Muynak",
+            "lon": 59.02,
+            "lat": 43.77,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": "from the Baltic",
+          "places": [
+           {
+            "name": "Baltic Sea",
+            "lon": 20.0,
+            "lat": 57.5,
+            "kind": "sea"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Fish from the Baltic, by rail and truck"
+      }
+     ]
+    },
+    {
+     "text": "That was more than three thousand kilometres away, by rail and truck.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3,200+ km",
+        "label": "from the Baltic to Muynak's cannery",
+        "note": "Over 2,000 miles",
+        "source": "James Rupert, 1990s reporting"
+       }
+      }
+     ]
+    },
+    {
+     "text": "When the Soviet Union broke up, the shipments stopped.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.05,
+           "lat": 43.85,
+           "span": 0.55
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Muynak",
+            "lon": 59.02,
+            "lat": 43.77,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 1993, the cannery made four million cans. It was built for twenty-seven million.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Muynak cannery (million cans a year)",
+        "unit": "",
+        "data": [
+         [
+          "Capacity",
+          27
+         ],
+         [
+          "1993",
+          4
+         ]
+        ],
+        "source": "James Rupert, 1990s reporting",
+        "reveal": [
+         "It was built"
+        ],
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "Even the muskrats went. Trappers in the river deltas once took up to half a million pelts a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.4,
+           "lat": 43.6,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       },
+       "on_screen_text": "The Amu Darya delta, 2026"
+      },
+      {
+       "type": "stat",
+       "at": "Trappers in",
+       "stat": {
+        "value": "500,000",
+        "label": "muskrat pelts a year, at the peak",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Up in the north, the Kazakh port of Aralsk lost its sea too.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 61.62,
+           "lat": 46.7,
+           "span": 0.7
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralsk",
+            "lon": 61.67,
+            "lat": 46.8,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Aralsk, Kazakhstan"
+      }
+     ]
+    },
+    {
+     "text": "At its worst, the shoreline was reported to be about a hundred kilometres from the town.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 61.62,
+           "lat": 46.7,
+           "span": 0.7
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralsk",
+            "lon": 61.67,
+            "lat": 46.8,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Aralsk and its old harbour, 2026"
+      },
+      {
+       "type": "stat",
+       "at": "about a hundred",
+       "stat": {
+        "value": "~100 km",
+        "label": "from Aralsk to the shore at the worst, reportedly",
+        "note": "Other reports give about 40 km in 2005",
+        "source": "Wikipedia; Global Voices"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Ships were left where the water had been.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Graveyard of Ships (Aral sea).jpg",
+       "on_screen_text": "Muynak, August 2025"
+      }
+     ]
+    },
+    {
+     "text": "So where did all that water go? It was sent somewhere on purpose, to grow one crop.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "to grow one crop",
+          "highlight": [
+           "Uzbekistan"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cotton",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Two rivers feed the Aral. The Amu Darya comes down from the Pamir mountains in the south.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "The Amu Darya",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 62.2,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "Amu Darya"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Central Asia, August 2026"
+      }
+     ]
+    },
+    {
+     "text": "The Syr Darya comes from the Tien Shan, in the east.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "Syr Darya",
+            "lon": 65.4,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Syr Darya"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Amu Darya once brought about seventy percent of the sea's water.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "70 %",
+        "label": "of the Aral's water came from the Amu Darya",
+        "source": "Global Voices, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the 1960s, Soviet planners turned both rivers into irrigation water for cotton and other crops.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "Uzbekistan",
+           "Turkmenistan",
+           "Kazakhstan"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Soviet irrigation, from the 1960s"
+      },
+      {
+       "type": "photo",
+       "at": "for cotton",
+       "photo": "nasa:sts059-l22-140",
+       "on_screen_text": "The Aral Sea from the Space Shuttle, April 1994"
+      }
+     ]
+    },
+    {
+     "text": "The fields spread across what are now Uzbekistan, Kazakhstan and Turkmenistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "Uzbekistan"
+          ]
+         },
+         {
+          "at": "Kazakhstan",
+          "highlight": [
+           "Kazakhstan"
+          ]
+         },
+         {
+          "at": "Turkmenistan",
+          "highlight": [
+           "Turkmenistan"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "One canal, the Karakum, carries Amu Darya water hundreds of kilometres across the Turkmen desert.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "the Karakum",
+          "places": [
+           {
+            "name": "Karakum Canal",
+            "lon": 61.8,
+            "lat": 37.6,
+            "kind": "label",
+            "label": "Karakum Canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A large share of its water never reaches a field.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "30 to 75 %",
+        "label": "of the Karakum Canal's water lost on the way, estimates say",
+        "source": "Wikipedia, citing studies"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It leaks into the sand or evaporates on the way.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Karakum Canal",
+            "lon": 61.8,
+            "lat": 37.6,
+            "kind": "label",
+            "label": "Karakum Canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "With less water arriving, the sea began to fall, about twenty centimetres a year in the 1960s.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The 1960s shoreline"
+      },
+      {
+       "type": "stat",
+       "at": "about twenty centimetres",
+       "stat": {
+        "value": "20 cm",
+        "label": "a year: the fall in the 1960s",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "By the 1980s it was dropping eighty to ninety centimetres every year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "80-90 cm",
+        "label": "a year: the fall in the 1980s",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The water that stayed behind grew saltier.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:sts059-l22-140",
+       "on_screen_text": "April 1994"
+      }
+     ]
+    },
+    {
+     "text": "By 1990 it was nearly as salty as the ocean.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~30 g/L",
+        "label": "salt in the Aral by 1990",
+        "note": "About 10 g/L before; seawater about 35",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 1987, the sea broke in two. A small northern sea stayed in Kazakhstan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "A small northern",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A large southern sea was shared with Uzbekistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "We measured how fast it went. In the summer of 1989, Landsat shows about 40,500 square kilometres of water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Our measurement · Landsat 5, summer 1989"
+      },
+      {
+       "type": "stat",
+       "at": "Landsat shows",
+       "stat": {
+        "value": "≈ 40,500 km²",
+        "label": "of water inside the 1960s shoreline, summer 1989",
+        "source": "Our measurement on Landsat 5"
+       }
+      }
+     ]
+    },
+    {
+     "text": "By the summer of 2002, it was down to about 22,000.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Aral Sea water area",
+        "unit": "km²",
+        "data": [
+         [
+          "1960",
+          67190
+         ],
+         [
+          "1989",
+          40453
+         ],
+         [
+          "2002",
+          21960
+         ]
+        ],
+        "source": "Natural Earth 1960s outline; our Landsat measurements",
+        "reveal": [
+         "2002,"
+        ],
+        "highlight": 2
+       }
+      }
+     ]
+    },
+    {
+     "text": "Between 1960 and 1998, the Aral lost about sixty percent of its area, and eighty percent of its water.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "-60 %",
+        "label": "of the area lost, 1960 to 1998",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and eighty",
+       "stat": {
+        "value": "-80 %",
+        "label": "of the water lost, 1960 to 1998",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Rescue That Never Came",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "By the 1970s, the sea's decline was impossible to miss. Moscow's answer was bigger still.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:sts059-l22-140",
+       "on_screen_text": "The Aral Sea from the Space Shuttle, 1994"
+      },
+      {
+       "type": "map",
+       "at": "Moscow's answer",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 52.0,
+           "span": 34.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Ob",
+            "lon": 73.0,
+            "lat": 58.5,
+            "kind": "label",
+            "label": "Siberian rivers"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The plan was to turn some of Siberia's rivers around, and send their water south.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 52.0,
+           "span": 34.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Ob",
+            "lon": 73.0,
+            "lat": 58.5,
+            "kind": "label",
+            "label": "Siberian rivers"
+           }
+          ]
+         },
+         {
+          "at": "and send their water",
+          "places": [
+           {
+            "name": "Aral",
+            "lon": 60.0,
+            "lat": 45.2,
+            "kind": "label",
+            "label": "Aral Sea"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The northern river reversal plan"
+      }
+     ]
+    },
+    {
+     "text": "In 1976, a Communist Party congress approved it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1976",
+        "label": "the Party congress approves the river plan",
+        "source": "Wikipedia, Northern river reversal"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One version would have moved up to forty cubic kilometres of water a year toward Central Asia.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "40 km³",
+        "label": "a year southward, in one version of the plan",
+        "source": "Reported plan figures"
+       }
+      },
+      {
+       "type": "map",
+       "at": "toward Central Asia",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 52.0,
+           "span": 34.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Aral",
+            "lon": 60.0,
+            "lat": 45.2,
+            "kind": "label",
+            "label": "Aral Sea"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Ten years later, in August 1986, the plan was dropped, over its cost and strong opposition.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Aug 1986",
+        "label": "the river plan is cancelled",
+        "source": "Wikipedia, Northern river reversal"
+       }
+      },
+      {
+       "type": "map",
+       "at": "over its cost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 52.0,
+           "span": 34.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Ob",
+            "lon": 73.0,
+            "lat": 58.5,
+            "kind": "label",
+            "label": "Siberian rivers"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Siberian communities and scientists had fought it. Almost nothing had been built.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 52.0,
+           "span": 34.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Ob",
+            "lon": 73.0,
+            "lat": 58.5,
+            "kind": "label",
+            "label": "Siberian rivers"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Some Central Asian officials still talk about reviving the idea. Russian officials have said they have no such plans.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Russian officials",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 52.0,
+           "span": 34.0
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So nothing came to refill the Aral. And as the water drew back, it uncovered something the Soviet Union had kept secret.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And as the water",
+       "photo": "nasa:STS106-704-092",
+       "on_screen_text": "The Aral Sea from the Space Shuttle, September 2000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rebirth Island",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In the middle of the sea lay an island called Vozrozhdeniya. The name means rebirth.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.3,
+           "lat": 45.15,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Vozrozhdeniya",
+            "lon": 59.3,
+            "lat": 45.12,
+            "kind": "label",
+            "label": "Vozrozhdeniya"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Vozrozhdeniya, summer 2026"
+      }
+     ]
+    },
+    {
+     "text": "When a Russian naval expedition first surveyed the sea, in 1848 and 1849, the island was named after Tsar Nicholas the First.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.3,
+           "lat": 45.15,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Vozrozhdeniya",
+            "lon": 59.3,
+            "lat": 45.12,
+            "kind": "label",
+            "label": "Vozrozhdeniya"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the island was named",
+       "photo": "File:1848 09 13 (circa) - Shevchenko, Butakov and others on the shore of the Nicholas I Island (Vozrozhdeniya).jpg",
+       "on_screen_text": "On the island, 1848: drawing by Taras Shevchenko"
+      }
+     ]
+    },
+    {
+     "text": "The Ukrainian poet Taras Shevchenko sailed with that expedition as its artist.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1848-49",
+        "label": "Butakov's expedition: the first survey of the Aral",
+        "note": "Taras Shevchenko drew for it",
+        "source": "Taras Shevchenko Museum; Russian Geographical Society records"
+       }
+      }
+     ]
+    },
+    {
+     "text": "For decades, the Soviet military used it as an open-air test site for biological weapons.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aral Sea, Vozrozhdeniya Island and Komsomolsky, Konstantin, Bellinsgauzena, Lazareva islands, LandSat-1 satellite image, 20-SEP-1972.jpg",
+       "on_screen_text": "Vozrozhdeniya and its neighbours, Landsat 1, September 1972"
+      }
+     ]
+    },
+    {
+     "text": "In 1988, anthrax was buried there.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1988",
+        "label": "anthrax buried on the island",
+        "source": "Arms Control Association; press reports"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Estimates of the amount range from a hundred to two hundred tonnes.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "100-200 t",
+        "label": "of anthrax, by different estimates",
+        "source": "Press reports, 2001-2003"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then the island stopped being an island. Around 2001, the shrinking sea joined it to the mainland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.3,
+           "lat": 45.15,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Vozrozhdeniya",
+            "lon": 59.3,
+            "lat": 45.12,
+            "kind": "label",
+            "label": "Vozrozhdeniya"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Around 2001",
+       "stat": {
+        "value": "~2001",
+        "label": "the island joins the mainland",
+        "note": "Sources give 2001 or 2002",
+        "source": "Press reports"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The United States paid for a cleanup.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.3,
+           "lat": 45.15,
+           "span": 1.3
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Vozrozhdeniya",
+            "lon": 59.3,
+            "lat": 45.12,
+            "kind": "label",
+            "label": "Vozrozhdeniya"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Teams dug up eleven burial pits and decontaminated them.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "11 pits",
+        "label": "of buried anthrax dug up and decontaminated",
+        "note": "US-funded cleanup, early 2000s",
+        "source": "Arms Control Association; DTRA"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Kantubek, the island's small town, was left empty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.3,
+           "lat": 45.15,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       },
+       "on_screen_text": "Vozrozhdeniya, 2026"
+      }
+     ]
+    },
+    {
+     "text": "The bigger danger from the old seabed lies on its surface, and the wind carries it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.2,
+           "lat": 44.9,
+           "span": 1.9
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralkum",
+            "lon": 60.3,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Aralkum Desert"
+           }
+          ]
+         },
+         {
+          "at": "and the wind",
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       },
+       "on_screen_text": "The dry seabed, summer 2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Aralkum",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In the summer of 2014, NASA reported that the eastern basin of the southern sea had dried up completely.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "eastern basin",
+          "view": {
+           "lon": 60.2,
+           "lat": 44.9,
+           "span": 1.9
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralkum",
+            "lon": 60.3,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Aralkum Desert"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The eastern basin, summer 2026"
+      }
+     ]
+    },
+    {
+     "text": "It was the first time in modern history.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2014",
+        "label": "the eastern basin dries up completely",
+        "source": "NASA Earth Observatory"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In wet years some water has spread back over it for a while. On our August 2026 image, it is dry.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       },
+       "on_screen_text": "MODIS, 25 August 2026"
+      },
+      {
+       "type": "photo",
+       "at": "On our August",
+       "photo": "nasa:iss073e0423939",
+       "on_screen_text": "The southern tip of the South Aral, August 2025"
+      }
+     ]
+    },
+    {
+     "text": "What is left is a plain of salt, which researchers say is mixed with residue from decades of cotton farming.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.9,
+           "lat": 44.6,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         },
+         {
+          "at": "mixed with residue",
+          "view": {
+           "lon": 59.9,
+           "lat": 44.6,
+           "span": 0.3
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       },
+       "on_screen_text": "Salt flats on the old seabed"
+      }
+     ]
+    },
+    {
+     "text": "That farming used heavy doses of pesticide and fertiliser.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss071e462182",
+       "on_screen_text": "The old seabed near Barsakelmes, August 2024"
+      }
+     ]
+    },
+    {
+     "text": "Storms lift tens of millions of tonnes of salt, sand and dust off the seabed every year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "tens of millions",
+        "label": "of tonnes of salt and dust blown off the seabed each year",
+        "note": "Sources give 80 to over 100 million t",
+        "source": "Global Voices; Times of Central Asia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "off the seabed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.2,
+           "lat": 44.9,
+           "span": 1.9
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Researchers have linked the crisis to poor health around the sea. One study found that a quarter of the children were born underweight.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.05,
+           "lat": 43.85,
+           "span": 0.55
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Muynak",
+            "lon": 59.02,
+            "lat": 43.77,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "One study found",
+       "stat": {
+        "value": "26 %",
+        "label": "of children in the region born with low birth weight",
+        "source": "Wikipedia, citing studies"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One study put child mortality in the region at seventy-five per thousand births in 2009.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "75 per 1,000",
+        "label": "child mortality in the Aral region, 2009",
+        "source": "Wikipedia, citing studies"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Studies count at least four point four million people affected around the sea.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "4.4 million",
+        "label": "people affected by the crisis, at least",
+        "source": "Wikipedia, citing studies"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Losing the water changed the weather too.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Without a big lake to soften it, the region's winters became colder and its summers hotter.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "colder",
+        "label": "winters, and hotter summers, after the sea shrank",
+        "source": "NASA; Micklin, 2007"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and its summers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "For years the Aral was taught as a lost cause. Then, in 2005, Kazakhstan finished a wall across it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Then, in 2005",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wall",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This is the Kokaral dam, a thirteen-kilometre wall of earth.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Kokaral dam · Sentinel-2, 2026"
+      },
+      {
+       "type": "stat",
+       "at": "a thirteen-kilometre",
+       "stat": {
+        "value": "13 km",
+        "label": "of dam across the old channel",
+        "source": "Wikipedia; Global Voices"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It runs across the channel where the northern sea used to drain south.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It cost about eighty-six million dollars, much of it lent by the World Bank.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$86 million",
+        "label": "for the dam and river works",
+        "note": "Including a $64.5 million World Bank loan",
+        "source": "Eurasianet; Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It was finished in August 2005.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Aug 2005",
+        "label": "the dam is finished",
+        "source": "Wikipedia; NASA"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The idea was simple: keep the Syr Darya's water in the north, where it could fill a smaller sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         },
+         {
+          "at": "where it could fill",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It filled faster than expected, within about a year, according to the World Bank.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~1 year",
+        "label": "for the North Aral to fill behind the dam",
+        "source": "World Bank, via Eurasianet"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Most of the change was in depth. The sea rose behind the dam, and the water freshened.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         },
+         {
+          "at": "and the water",
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       },
+       "on_screen_text": "Sentinel-2, summer 2026"
+      }
+     ]
+    },
+    {
+     "text": "We measured the northern sea on this summer's Landsat images: about 2,900 square kilometres.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "≈ 2,900 km²",
+        "label": "the North Aral, summer 2026",
+        "note": "Kazakhstan reported 3,065 km² for February 2025",
+        "source": "Our measurement on Landsat"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is close to Kazakhstan's own figure of 3,065 square kilometres, for February 2025.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "By 2008 its level stood twelve metres higher than in 2003.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "+12 m",
+        "label": "North Aral level, 2003 to 2008",
+        "source": "Wikipedia, citing Kazakh data"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the water became far less salty, from about thirty grams of salt per litre to eight.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "30 → 8 g/L",
+        "label": "salt in the North Aral before and after the dam",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "to eight",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The fish came back. In 2004, the catch here was fifty-two tonnes.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "52 t",
+        "label": "of fish caught in the North Aral in 2004",
+        "source": "World Bank project record"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In recent years it has been around eight thousand tonnes a year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~8,000 t",
+        "label": "of fish a year in recent years",
+        "source": "Times of Central Asia; Global Voices"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Twenty-two species have returned.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss067e090063",
+       "on_screen_text": "The North Aral from the ISS, May 2022"
+      }
+     ]
+    },
+    {
+     "text": "The shore has moved back toward Aralsk too. It is now about twenty-five kilometres from the town.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 61.62,
+           "lat": 46.7,
+           "span": 0.7
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralsk",
+            "lon": 61.67,
+            "lat": 46.8,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Aralsk, summer 2026"
+      },
+      {
+       "type": "stat",
+       "at": "It is now",
+       "stat": {
+        "value": "~25 km",
+        "label": "from Aralsk to the shore now",
+        "note": "About 100 km before the dam",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2012, the northern sea and the Syr Darya delta were listed as wetlands of international importance.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2012",
+        "label": "the North Aral and the Syr Darya delta become a Ramsar site",
+        "source": "Times of Central Asia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and the Syr Darya delta",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 61.4,
+           "lat": 46.15,
+           "span": 0.9
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Kazakhstan's ministry says the northern sea held 23.4 billion cubic metres of water in August 2026.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "North Aral volume (billion m³)",
+        "unit": "",
+        "data": [
+         [
+          "2022",
+          18.9
+         ],
+         [
+          "Aug 2026",
+          23.4
+         ]
+        ],
+        "source": "Kazakhstan's Ministry of Water Resources",
+        "reveal": [
+         "23.4"
+        ],
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "More than six billion cubic metres have flowed in over the past three years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "To send more water downstream, it now pays farmers up to eighty percent of the cost of water-saving equipment.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Syr Darya",
+            "lon": 65.4,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Syr Darya"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "up to eighty",
+       "stat": {
+        "value": "80 %",
+        "label": "of water-saving equipment paid for farmers",
+        "note": "Up from 50 %",
+        "source": "Times of Central Asia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "There is a cost. The dam keeps the northern water in the north.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That also cut off the flow that used to reach the southern sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           },
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the fishing boom is not guaranteed. In 2025, the catch was reported to have halved.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": "In 2025",
+       "chart": {
+        "type": "bar",
+        "title": "North Aral fish catch (thousand t)",
+        "unit": "",
+        "data": [
+         [
+          "Before 2025",
+          7.8
+         ],
+         [
+          "2025",
+          3.9
+         ]
+        ],
+        "source": "Global Voices, citing reports",
+        "reveal": [
+         "halved."
+        ],
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "We measure places like this from orbit in every episode, so if you want to see where we look next, subscribe.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "compare": {
+           "before": "2000-08-25",
+           "after": "2026-08-25",
+           "source": "modis",
+           "seconds": 2.4,
+           "until": "so if you"
+          }
+         },
+         {
+          "at": "so if you"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Kazakhstan saved the part it could. Was that the right call, or should the whole sea have been the goal?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           },
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "or should the whole",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Save the part you can, or fight for the whole sea?"
+     }
+    },
+    {
+     "text": "Now Kazakhstan wants more. A second phase, planned for 2026 to 2029, would raise the dam.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         },
+         {
+          "at": "would raise the dam",
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Phase 2: 2026 to 2029, awaiting funding"
+      }
+     ]
+    },
+    {
+     "text": "It would lift the sea to forty-four metres above sea level, and grow it to about 3,900 square kilometres.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "44 m",
+        "label": "the level the second phase aims for",
+        "note": "Baltic height system",
+        "source": "Kazakhstan's water ministry, via Astana Times"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and grow it",
+       "stat": {
+        "value": "3,913 km²",
+        "label": "the area planned after the second phase",
+        "source": "Kazakhstan's water ministry, via Astana Times"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That depends on the money being approved.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.78,
+           "lat": 46.2,
+           "span": 0.45
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Kazakhstan's water minister has called the project a social and strategic task for all of Central Asia.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 61.62,
+           "lat": 46.7,
+           "span": 0.7
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralsk",
+            "lon": 61.67,
+            "lat": 46.8,
+            "kind": "city"
+           }
+          ]
+         },
+         {
+          "at": "for all of",
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Forests on a Seabed",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "On the Uzbek side, the big effort is on the dry seabed itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.2,
+           "lat": 44.9,
+           "span": 1.9
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Aralkum",
+            "lon": 60.3,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Aralkum Desert"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The Aralkum, Uzbekistan"
+      }
+     ]
+    },
+    {
+     "text": "Uzbekistan's government says it has planted protective forests on two million hectares since 2018.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2 million ha",
+        "label": "of the dry seabed planted, 2018 to 2025, Uzbekistan says",
+        "source": "Government of Uzbekistan, March 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One of the main plants is saxaul, a tough desert shrub that can live on salty ground.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.6,
+           "lat": 44.3,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30"
+         },
+         {
+          "at": "a tough desert",
+          "view": {
+           "lon": 59.6,
+           "lat": 44.3,
+           "span": 0.25
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Kazakhstan reports about one point one million hectares planted on its side.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1.1 million ha",
+        "label": "planted on the Kazakh side, 2021 to 2025",
+        "source": "Times of Central Asia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The idea is to hold down the salt and dust with roots before the wind takes it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Aralkum",
+            "lon": 60.3,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "Aralkum Desert"
+           }
+          ]
+         },
+         {
+          "at": "before the wind",
+          "view": {
+           "lon": 60.2,
+           "lat": 44.9,
+           "span": 1.9
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the ground, the results are uneven.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.2,
+           "lat": 44.9,
+           "span": 1.9
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A 2025 report found one planting where more than half the trees had survived. At other sites, almost none had.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "uneven",
+        "label": "survival of the seabed plantings",
+        "note": "Over half alive at one site, almost none at others",
+        "source": "Times of Central Asia, 2025"
+       }
+      },
+      {
+       "type": "map",
+       "at": "At other sites",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.9,
+           "lat": 44.6,
+           "span": 0.6
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Experts quoted in that reporting argue that one species alone will not be enough, and suggest mixing plants.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss073e0423939",
+       "on_screen_text": "The southern Aral seabed, August 2025"
+      },
+      {
+       "type": "map",
+       "at": "and suggest mixing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 59.6,
+           "lat": 44.3,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "What remains of the southern sea is the long western basin.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 58.4,
+           "lat": 45.0,
+           "span": 1.4
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The western basin, 2026"
+      }
+     ]
+    },
+    {
+     "text": "Its water is now too salty for the fish that once lived there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 58.4,
+           "lat": 45.0,
+           "span": 1.4
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "But one tiny animal thrives in it: the brine shrimp.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "brine shrimp",
+        "label": "thrive in the salty western basin",
+        "source": "Dialogue Earth"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It was first found here in 1998, probably carried in by migrating birds.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1998",
+        "label": "brine shrimp first found in the Uzbek Aral",
+        "source": "Dialogue Earth"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Since 2010, its eggs have been harvested commercially.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2010",
+        "label": "first big commercial harvest of brine shrimp eggs",
+        "source": "Dialogue Earth"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Workers spend the winter in small cabins on the shore, in temperatures that can fall to minus forty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 58.4,
+           "lat": 45.0,
+           "span": 1.4
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "in temperatures",
+       "stat": {
+        "value": "-40°",
+        "label": "winter temperatures for the harvesters",
+        "note": "Celsius and Fahrenheit meet at -40",
+        "source": "Dialogue Earth"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A biologist told Dialogue Earth it may be only a matter of years before the Uzbek side is too salty even for them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 58.4,
+           "lat": 45.0,
+           "span": 1.4
+          },
+          "date": "2026-07-01/2026-09-30"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "before the Uzbek side",
+       "photo": "nasa:iss073e0423939",
+       "on_screen_text": "The South Aral, August 2025"
+      }
+     ]
+    },
+    {
+     "text": "Uzbekistan is also moving toward oil exploration on the drying seabed.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 58.6,
+           "lat": 44.9,
+           "span": 1.2
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A New Canal",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Now follow the Amu Darya upstream, all the way to Uzbekistan's border with Afghanistan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.6,
+           "lat": 42.6,
+           "span": 15.0
+          },
+          "date": "2026-08-25",
+          "places": [
+           {
+            "name": "Amu Darya",
+            "lon": 62.2,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "Amu Darya"
+           }
+          ]
+         },
+         {
+          "at": "all the way",
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "Afghanistan"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "This is the desert near the border in the summer of 2021. And this is the same place in July 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "compare": {
+           "before": "2021-06-01/2021-09-30",
+           "after": "2026-07-01/2026-09-30",
+           "source": "sentinel-2",
+           "seconds": 3.2,
+           "until": "And this is"
+          }
+         },
+         {
+          "at": "And this is"
+         }
+        ]
+       },
+       "on_screen_text": "Copernicus Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "That line is the Qosh Tepa canal. Afghanistan began building it in 2022, to take water from the Amu Darya.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         },
+         {
+          "at": "to take water",
+          "places": [
+           {
+            "name": "Termez",
+            "lon": 67.28,
+            "lat": 37.22,
+            "kind": "city"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It went fast. Planet Labs satellite images showed more than a hundred kilometres dug between April 2022 and February 2023.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.6,
+           "lat": 37.0,
+           "span": 1.2
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "more than a hundred",
+       "stat": {
+        "value": "100+ km",
+        "label": "of canal dug between April 2022 and February 2023",
+        "source": "Planet Labs imagery, via Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The first phase was finished in October 2023.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Oct 2023",
+        "label": "phase one of the canal finished",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It is planned to run two hundred and eighty-five kilometres.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "285 km",
+        "label": "the planned length of the canal",
+        "source": "Wikipedia, citing Afghan officials"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The goal is to turn five hundred and fifty thousand hectares of desert into farmland.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "550,000 ha",
+        "label": "of new farmland planned in northern Afghanistan",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In March 2026, Afghan officials said the second phase was ninety-eight percent complete.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "98 %",
+        "label": "of phase two complete, Afghan officials said in March 2026",
+        "source": "Afghan National Development Company, reported"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The whole canal is expected to be finished by the end of this year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "How much water will it take? Estimates vary. The most cited range is six to ten cubic kilometres a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The most cited",
+       "stat": {
+        "value": "6-10 km³",
+        "label": "a year: the most cited estimate of what the canal may take",
+        "source": "Analysts' estimates, reported"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is roughly a fifth to a quarter of the river's average flow.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1/5 to 1/4",
+        "label": "of the Amu Darya's average flow",
+        "note": "Estimates vary with the baseline used",
+        "source": "Analysts' estimates, reported"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Uzbekistan has said it is worried about its farms downstream.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "Uzbekistan",
+           "Turkmenistan"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Environmental experts warn the canal could make the Aral's situation worse.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Afghanistan's Taliban government says the country has the right to use the river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "Afghanistan"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It says it is only taking its fair share.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Look at this patch of water beside the canal.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.9,
+           "lat": 37.13,
+           "span": 0.2
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Pond",
+            "lon": 66.9,
+            "lat": 37.14,
+            "kind": "label",
+            "label": "overflow"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Beside the canal, July 2026"
+      }
+     ]
+    },
+    {
+     "text": "In December 2023, satellite images showed water spreading about nine kilometres along its northern bank.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~9 km",
+        "label": "of water along the canal bank, December 2023",
+        "source": "Wikipedia, citing Sentinel-2 analysis"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Afghan officials denied the canal had breached, and said the water had been sent there on purpose.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.9,
+           "lat": 37.13,
+           "span": 0.2
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Pond",
+            "lon": 66.9,
+            "lat": 37.14,
+            "kind": "label",
+            "label": "overflow"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "and said the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Is Left",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Back to the whole sea. Here is the shoreline of 1960.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         },
+         {
+          "at": "Here is the shoreline",
+          "highlight": [
+           "file:aral1960.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "1960s shoreline · water in August 2026"
+      }
+     ]
+    },
+    {
+     "text": "And here is the water this summer: about 4,800 square kilometres.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "places": [
+           {
+            "name": "North Aral",
+            "lon": 61.0,
+            "lat": 46.55,
+            "kind": "label",
+            "label": "North Aral"
+           },
+           {
+            "name": "South Aral",
+            "lon": 58.45,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "South Aral"
+           }
+          ]
+         }
+        ],
+        "keep": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "From about 40,500 in 1989, to 22,000 in 2002, to 4,800 now.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Water inside the 1960s shoreline",
+        "unit": "km²",
+        "data": [
+         [
+          "1989",
+          40453
+         ],
+         [
+          "2002",
+          21960
+         ],
+         [
+          "2026",
+          4797
+         ]
+        ],
+        "source": "Our Landsat measurements",
+        "reveal": [
+         "in 2002,",
+         "now."
+        ],
+        "highlight": 2
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the north, a dam brought the water back, metre by metre.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.95,
+           "lat": 46.42,
+           "span": 1.6
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Kokaral dam",
+            "lon": 60.8,
+            "lat": 46.17,
+            "kind": "site",
+            "label": "Kokaral dam"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the south, people are planting forests where boats used to sail.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Graveyard of Ships (Aral sea).jpg",
+       "on_screen_text": "Muynak, August 2025"
+      }
+     ]
+    },
+    {
+     "text": "And upstream, a new canal is about to start taking its share of the river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 66.97,
+           "lat": 37.11,
+           "span": 0.5
+          },
+          "date": "2026-07-01/2026-09-30",
+          "places": [
+           {
+            "name": "Qosh Tepa",
+            "lon": 67.1,
+            "lat": 37.075,
+            "kind": "label",
+            "label": "Qosh Tepa canal"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So should Afghanistan be free to take Amu Darya water for its farms, even if the countries downstream lose some of theirs?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.6,
+           "lat": 39.0,
+           "span": 7.0
+          },
+          "date": "2026-08-25",
+          "highlight": [
+           "Afghanistan"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "even if the countries",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 60.0,
+           "lat": 45.2,
+           "span": 7.2
+          },
+          "date": "2026-08-25"
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Should Afghanistan take Amu Darya water for its farms?"
+     }
+    }
+   ]
+  }
+ ]
+}

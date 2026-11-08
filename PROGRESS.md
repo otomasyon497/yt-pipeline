@@ -16,7 +16,7 @@
 - Lessons ep 8: undated views under ~2 degrees use multi-day "recent" Sentinel mosaics with seams, so give them a date
   or keep them over 2 degrees; a close dated raster shows as a patch on wider views in the same map block; country
   labels duplicate the basemap's own; check Commons photos for promo text. The scratchpad venv was eaten by Temp
-  cleanup: heavy local tools now use %USERPROFILE%\.yt-pipelineenv (run with -I).
+  cleanup: heavy local tools now use %USERPROFILE%\.yt-pipeline\venv (run with -I).
 - Waiting: aral-sea uploaded (check CTR at 48 h ~10 Nov; Test & Compare titles in its PLAN.md); recheck repackaged
   videos' CTR ~15 Nov. Great-salt-lake old gate-2 item is moot (uploaded).
 

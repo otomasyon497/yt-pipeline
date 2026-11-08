@@ -24,6 +24,7 @@ LONG_HOLD = 8.0
 _NUM = re.compile(r"^(?P<pre>.*?)(?P<cur>[$€£]?)(?P<num>\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)(?P<post>.*)$")
 _UNIT = re.compile(r"^\s?(%|percent|per cent|billion|million|trillion|thousand|bn|km|kilomet|mile|metre|meter|m\b|"
                    r"tons?|tonnes?|ships?|people|times|x\b)", re.IGNORECASE)
+_DATE = re.compile(r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d", re.IGNORECASE)
 
 
 def count_up(text: str | None, any_unit: bool = False) -> dict | None:
@@ -32,7 +33,7 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     Labels count only with a currency or a known unit after the number; a stat card (`any_unit`) counts any
     number except a year on its own ("1963").
     """
-    if not text:
+    if not text or _DATE.search(text):  # "May 15, 2026" would pass through "May 0, 2026"
         return None
     m = _NUM.match(text)
     if not m:
@@ -41,7 +42,9 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     value = float(num.replace(",", ""))
     if any_unit:
         year = not cur and "," not in num and value.is_integer() and 1000 <= value <= 2100
-        if year and not post.strip(" .,;:!?"):  # "1963", "since 1963": a year, not an amount
+        if year and not _UNIT.match(post):  # "1963", "since 1963", "2016 to 2022": years, not an amount
+            return None
+        if not cur and value.is_integer() and value < 10:  # "3 wars" would pass through "1 wars"
             return None
     elif not cur and not _UNIT.match(post):
         return None

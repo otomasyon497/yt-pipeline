@@ -61,6 +61,14 @@ const s2FrameCover = (images: Raster[], xf: Xf, camW: number) => {
 	}
 	return hit / (N * N);
 };
+// Blue Marble (500 m) under a camera diving to a close view: its pixels would show as blocks until Sentinel-2 takes
+// over. Blur in the image's own pixels (a filter runs before the element's transform), from 2 x stretch up.
+const stretchBlur = (r: Raster, xf: Xf) => {
+	const [x0] = toScreen(xf, r.x0, r.y0);
+	const [x1] = toScreen(xf, r.x1, r.y1);
+	return clamp01(((x1 - x0) / (r.px || 2048) - 2) / 3) * 1.2;
+};
+const rasterFilterOf = (base: string, blur: number) => [base, blur > 0 ? `blur(${blur.toFixed(2)}px)` : ''].filter(Boolean).join(' ') || undefined;
 // Overlays fade in and out over FADE frames, except at the block's edges: what is there from frame 0 is there on the
 // first frame (a before/after's 'before' image must hide the present-day imagery under it), and what lasts to the end
 // stays to the last frame (a Short loops straight back to its first frame).
@@ -377,7 +385,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 									style={{
 										...placeStyle(r, xf),
 										opacity: !onScreen ? 0 : layer === 's2' ? s2ImageOpacity(r, cam.w) : 1,
-										filter: layer === 'relief' || style.rasterFilter === 'none' ? undefined : style.rasterFilter,
+										filter: rasterFilterOf(layer === 'relief' || style.rasterFilter === 'none' ? '' : style.rasterFilter, (layer === 'day' || layer === 'modis') && s2Fade < 1 ? stretchBlur(r, xf) : 0),
 									}}
 								/>
 							);

@@ -12,6 +12,10 @@
   reservoir); text "RIVER TAKEN?" (the video's own question) replaced the overstated "RIVER GONE?".
 - Long episode re-rendered at a923430 (the first render had the patch at 465.5 s, Ratle dive): release
   ep-indus-waters-42520507017, 16:10, 469 MB, in Videos\yt-pipeline\indus-waters; frames checked. Audio not checked.
+- Uploaded 2026-11-09, private: long nbB4DKNWp7Y; Shorts PqqVvJZd_18 (tunnel), 9P8EDcca-bY (dam), which carry a
+  publishAt of 15:00 UTC 9 Nov that our tool did not send. Descriptions cleaned in Studio. Still to do when the long
+  video is public or unlisted: Related video on both Shorts (Studio; needs advanced features), pinned comments.
+- Descriptions now hold intro + chapters + tags only (the user's decision; credits.txt keeps the sources).
 - API upload built at the user's request (2026-11-09): tools/yt_upload.py, private only (fixed in the code), reads the
   privacy back after the upload; the user reviews and publishes in Studio. Own write token token_upload.json; the
   analytics token stays read-only. YouTube's revision history, 2 Nov 2026: uploads from unverified API projects are no

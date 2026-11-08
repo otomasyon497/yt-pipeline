@@ -1,0 +1,256 @@
+{
+ "title": "From Space, These Farms Look Fine",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/ogallala-aquifer research.md and factcheck.md."
+ ],
+ "thumbnail": {
+  "text": "LOOKS FINE?",
+  "focus": [
+   -102.6,
+   36.1,
+   0.09
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Dalhart",
+   "mood": "tension",
+   "card": false,
+   "paragraphs": [
+    {
+     "text": "The Texas Panhandle, 1986. Now, 2024.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31",
+          "compare": {
+           "before": "1986-08-17",
+           "after": "2024-08-17",
+           "source": "landsat",
+           "seconds": 1.8,
+           "until": "Now,"
+          }
+         },
+         {
+          "at": "Now,"
+         }
+        ]
+       },
+       "on_screen_text": "The same day, 38 years apart"
+      }
+     ]
+    },
+    {
+     "text": "We measured it. Land actively green went from seventeen percent to fifty-eight.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.68,
+           "lat": 36.18,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "17% to 58% green, our measurement"
+      }
+     ]
+    },
+    {
+     "text": "From orbit, a triumph. Every circle is a well.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31",
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "DALHART"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Every circle is a well"
+      }
+     ]
+    },
+    {
+     "text": "But the water comes from one aquifer under eight states.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 15
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The High Plains aquifer"
+      }
+     ]
+    },
+    {
+     "text": "Here in Texas, it has fallen forty-four feet on average since about 1950.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 2.4
+          },
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "DALHART"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Texas: down 44 feet on average"
+      }
+     ]
+    },
+    {
+     "text": "One well dropped two hundred sixty-five.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.68,
+           "lat": 36.18,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "One Texas well: down 265 feet"
+      }
+     ]
+    },
+    {
+     "text": "A Kansas official now warns that land there could become nearly unusable within fifty years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.3,
+           "span": 3.4
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "GARDEN CITY"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Kansas chief engineer, Nov 2026"
+      }
+     ]
+    },
+    {
+     "text": "So how long can the circles stay green?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "How long can they stay green?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "From Space, These Farms Look Fine",
+  "description": "The Texas Panhandle in 1986 and 2024, from orbit: we measured green land near Dalhart go from 17 percent to 58. Below it, the water tells another story.\n\nFull documentary on the channel: the Ogallala aquifer\n\n#geography #water #satellite",
+  "tags": [
+   "Ogallala aquifer",
+   "Texas Panhandle",
+   "groundwater",
+   "irrigation",
+   "center pivot",
+   "satellite images",
+   "before and after",
+   "shorts"
+  ],
+  "pinned_comment": "Who should decide how fast the water goes: the farmers who own the wells, or the state?"
+ }
+}

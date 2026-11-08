@@ -1,0 +1,260 @@
+{
+ "title": "These Kansas Farmers Cut Their Own Water",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/ogallala-aquifer research.md and factcheck.md."
+ ],
+ "thumbnail": {
+  "text": "IT WORKED",
+  "focus": [
+   -101.7,
+   39.35,
+   0.09
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Sheridan 6",
+   "mood": "tension",
+   "card": false,
+   "paragraphs": [
+    {
+     "text": "Northwest Kansas, 1986. Now, 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.7,
+           "lat": 39.35,
+           "span": 0.16
+          },
+          "date": "2026-07-01/2026-08-31",
+          "compare": {
+           "before": "1986-07-16",
+           "after": "2026-07-06",
+           "source": "landsat",
+           "seconds": 1.8,
+           "until": "Now,"
+          }
+         },
+         {
+          "at": "Now,"
+         }
+        ]
+       },
+       "on_screen_text": "More circles, more wells"
+      }
+     ]
+    },
+    {
+     "text": "Every new circle pumps from the same aquifer.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.3,
+           "span": 2.4
+          }
+         }
+        ]
+       },
+       "on_screen_text": "One aquifer under eight states"
+      }
+     ]
+    },
+    {
+     "text": "But in 2013, farmers in Sheridan County did something nobody made them do.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.3,
+           "span": 2.4
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "SHERIDAN COUNTY"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Sheridan County, Kansas"
+      }
+     ]
+    },
+    {
+     "text": "They capped their own pumping. The target was twenty percent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.35,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Target: a 20% cut"
+      }
+     ]
+    },
+    {
+     "text": "They cut about twenty-three.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.35,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "They reached 23%"
+      }
+     ]
+    },
+    {
+     "text": "The water level had been falling two feet a year. It slowed to half a foot.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.35,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "2 feet a year, then half a foot"
+      }
+     ]
+    },
+    {
+     "text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.3,
+           "span": 3.4
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "GARDEN CITY"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Rejected, Sept 30, 2026"
+      },
+      {
+       "type": "map",
+       "at": "The state",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Would you cut your own water before anyone made you?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.35,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Would you cut first?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "These Kansas Farmers Cut Their Own Water",
+  "description": "Northwest Kansas from orbit, 1986 and 2026. In 2013 farmers in Sheridan County capped their own pumping, and the decline of the aquifer slowed from two feet a year to half a foot. Southwest Kansas is now fighting over how far to follow.\n\nFull documentary on the channel: the Ogallala aquifer\n\n#geography #kansas #water",
+  "tags": [
+   "Ogallala aquifer",
+   "Kansas",
+   "Sheridan County",
+   "groundwater",
+   "water conservation",
+   "satellite images",
+   "before and after",
+   "shorts"
+  ],
+  "pinned_comment": "Would you cut your own water before anyone made you?"
+ }
+}

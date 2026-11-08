@@ -1,0 +1,3528 @@
+{
+ "title": "The Ogallala Aquifer",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/ogallala-aquifer/research.md and factcheck.md; own numbers: tools/ogallala_numbers.py, tools/ogallala_green.py"
+ ],
+ "thumbnail": {
+  "text": "UNUSABLE?"
+ },
+ "chapters": [
+  {
+   "title": "It Looks Like Success",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This is the Texas Panhandle on August 17, 1986. Each dark circle is one irrigated field. Now the same place, on the same day of the year, in 2024.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "compare": {
+           "before": "1986-08-17",
+           "after": "2024-08-17",
+           "source": "landsat",
+           "seconds": 2.6,
+           "until": "Now the same"
+          },
+          "date": "2024-07-01/2024-08-31"
+         },
+         {
+          "at": "Each dark",
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "Dalhart, Texas"
+           }
+          ]
+         },
+         {
+          "at": "Now the same"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Landsat"
+      }
+     ]
+    },
+    {
+     "text": "We measured it. In 1986 about one sixth of this land was actively green. In 2024, more than half.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "We measured",
+       "stat": {
+        "value": "17% to 58%",
+        "label": "Land actively green near Dalhart, Texas, 1986 and 2024",
+        "source": "Our measurement, Landsat 5 and 9",
+        "note": "Share of a 28-mile-wide box with NDVI over 0.5"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.7,
+           "lat": 36.2,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Thirty miles away, near Stratford, nine percent became fifty-five. Those two pairs compare different satellites, but the older one alone shows the climb: near Dalhart, seventeen percent by 2010 had already reached forty-six. Researchers who mapped the whole Landsat record found the same pattern: irrigation grew across this aquifer, even where water was already short.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Land actively green, summer",
+        "unit": "%",
+        "data": [
+         [
+          "Stratford 1986",
+          9
+         ],
+         [
+          "Stratford 2024",
+          55.1
+         ],
+         [
+          "Dalhart 1986",
+          17
+         ],
+         [
+          "Dalhart 2024",
+          58.5
+         ]
+        ],
+        "source": "Our measurement, Landsat 5 and 9",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.07,
+           "lat": 36.34,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Stratford, Texas"
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 2.4
+          },
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "Dalhart, Texas"
+           },
+           {
+            "name": "Stratford",
+            "lon": -102.07,
+            "lat": 36.34,
+            "kind": "city",
+            "label": "Stratford, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Researchers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Deines et al., 2019: 34 years of Landsat maps"
+      },
+      {
+       "type": "map",
+       "at": 44,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.45,
+           "lat": 35.95,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "From orbit, this is a triumph. But the water for those circles comes from below, and on September 30, the state of Kansas told the farmers above it that their rescue plan was not good enough.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "But the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         },
+         {
+          "at": "the state of Kansas",
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The High Plains aquifer"
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 33.95,
+           "span": 0.25
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Plainview, Texas"
+      }
+     ]
+    },
+    {
+     "text": "So how can land look this healthy while its water runs out? And who gets to decide when to stop?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 3.6
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 36.15,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": "So how",
+      "text": "How long can green circles stay green?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Rejection",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The man who said no is Earl Lewis, the chief engineer of Kansas's water division. The plan came from Groundwater Management District 3, around Garden City.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Sept 30, 2026",
+        "label": "Earl Lewis, Kansas chief engineer, says no",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "The plan came",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Kansas had set the rules three years earlier. In 2023 the legislature passed a law, 34 to 6 in the Senate and 116 to 6 in the House: every district must file a plan by July 1, 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -98.4,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ],
+          "places": [
+           {
+            "name": "Topeka",
+            "lon": -95.68,
+            "lat": 39.05,
+            "kind": "capital",
+            "label": "Topeka"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "34 to 6",
+       "stat": {
+        "value": "HB 2279",
+        "label": "Every Kansas groundwater district must file a plan",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026",
+        "note": "Senate 34 to 6, House 116 to 6"
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Lewis had said what he wanted, in a letter the November before: groundwater levels that stop falling within twenty years.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "20 years",
+        "label": "What the chief engineer asked for",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Southwest Kansas"
+      }
+     ]
+    },
+    {
+     "text": "District 3 filed on time. Lewis read it, and his answer was blunt: under this plan, levels would not stabilize at any point in the next sixty years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ],
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "his answer",
+       "stat": {
+        "value": "60 years",
+        "label": "Levels still falling under the district's plan",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "He added that continued depletion \"is not in the public interest\", and that without cuts the harm would be \"brutal and irreversible in our lifetimes.\"",
+     "shots": [
+      {
+       "type": "document",
+       "at": 0,
+       "document": {
+        "text": "brutal and irreversible in our lifetimes",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026",
+        "highlight": "brutal and irreversible"
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.18
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The district's engineer says the state objected too late, and the district is appealing. To see why both sides are this dug in, we need to go back to this same corner of Texas, ninety years ago.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3 years",
+        "label": "How long the state sat in on the meetings, the district's engineer says",
+        "source": "Kansas Public Radio, Oct 19, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "To see why",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 3.6
+          },
+          "places": [
+           {
+            "name": "Stratford",
+            "lon": -102.07,
+            "lat": 36.34,
+            "kind": "city",
+            "label": "Stratford, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Same Land in 1935",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This is Stratford, Texas, in 1935. Stratford is about thirty miles from the circles you just saw.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dust storm approaching Stratford, Texas.jpg",
+       "on_screen_text": "Stratford, Texas, 1935"
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Dust Bowl Oklahoma.jpg",
+       "on_screen_text": "Oklahoma, the Dust Bowl years"
+      }
+     ]
+    },
+    {
+     "text": "Plows had stripped the grass, the rain failed, and the soil took off. Here is a farm north of Dalhart in those years.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": "Here is",
+       "photo": "File:Dust Bowl farm. Coldwater District, north of Dalhart, Texas.jpg",
+       "on_screen_text": "North of Dalhart, Texas"
+      }
+     ]
+    },
+    {
+     "text": "Sand buried fences and machinery. Families walked away. This land was the Dust Bowl.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dust Bowl - Dallas, South Dakota 1936.jpg",
+       "on_screen_text": "Buried machinery, 1936"
+      },
+      {
+       "type": "photo",
+       "at": "Families",
+       "photo": "File:Abandoned Dust Bowl Home - Dorothea Lange.jpg",
+       "on_screen_text": "Abandoned farmhouse"
+      }
+     ]
+    },
+    {
+     "text": "Yet the answer was already underneath it. Pumps were reaching water in Texas so quickly that by 1951 wells had already dropped more than fifty feet in places.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Dust Bowl winds pile up against barn in Kansas.jpg",
+       "on_screen_text": "Kansas, the Dust Bowl years"
+      },
+      {
+       "type": "stat",
+       "at": "by 1951",
+       "stat": {
+        "value": "50+ feet",
+        "label": "Water-level declines in parts of Texas, 1938 to 1951",
+        "source": "USGS, SIR 2023-5143"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then came a machine. In 1947 a Colorado farmer named Frank Zybach watched workers hauling irrigation pipe by hand, and thought a sprinkler could walk by itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.2,
+           "lat": 39.2,
+           "span": 5
+          },
+          "places": [
+           {
+            "name": "Strasburg",
+            "lon": -104.32,
+            "lat": 39.74,
+            "kind": "site",
+            "label": "Strasburg, Colorado"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "workers hauling",
+       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg",
+       "on_screen_text": "A center pivot in Morton, Texas"
+      },
+      {
+       "type": "photo",
+       "at": 20,
+       "photo": "File:Dust bowl, Texas Panhandle, TX fsa.8b27276 edit.jpg",
+       "on_screen_text": "Texas Panhandle"
+      }
+     ]
+    },
+    {
+     "text": "He built one in 1948, near Strasburg, and patented it in 1952: a long arm of pipe on wheels, turning around a well. That is why the fields are round.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "patented",
+       "stat": {
+        "value": "July 22, 1952",
+        "label": "Frank Zybach's self-propelled sprinkler is patented",
+        "source": "ASABE; National Inventors Hall of Fame"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a long arm",
+       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg",
+       "on_screen_text": "The arm turns around a well"
+      },
+      {
+       "type": "map",
+       "at": "That is why",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A pivot does not need flat ground or a canal. It needs a well. Watch what that did to western Kansas, from 1986 to this summer. Here the circles are still multiplying, not fading.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Irrigation drop nozzle on center pivot sprinkler in Morton, Texas (25021127761).jpg",
+       "on_screen_text": "It only needs a well"
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Dust Bowl in Texas County, Oklahoma.jpg",
+       "on_screen_text": "Texas County, Oklahoma"
+      },
+      {
+       "type": "map",
+       "at": "Watch what",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.7,
+           "lat": 39.35,
+           "span": 0.28
+          },
+          "compare": {
+           "before": "1986-07-16",
+           "after": "2026-07-06",
+           "source": "landsat",
+           "seconds": 2.6,
+           "until": "from 1986"
+          },
+          "date": "2026-07-01/2026-08-31"
+         },
+         {
+          "at": "from 1986"
+         }
+        ]
+       },
+       "on_screen_text": "Near Goodland, Kansas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Sea With No Surface",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "So what is under there? Not an underground lake. It is sand and gravel washed off the Rockies, with water in the gaps.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Ogallala / High Plains aquifer"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson",
+           "Texas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "washed off",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.5,
+           "lat": 39,
+           "span": 9
+          }
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "It lies under parts of eight states, about 175,000 square miles, from South Dakota to Texas.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         },
+         {
+          "at": "eight states",
+          "highlight": [
+           "file:aquifer.geojson",
+           "South Dakota",
+           "Nebraska",
+           "Wyoming",
+           "Colorado",
+           "Kansas",
+           "Oklahoma",
+           "New Mexico",
+           "Texas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That water supplies about thirty percent of the groundwater used for irrigation in the United States.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "thirty percent",
+       "stat": {
+        "value": "30%",
+        "label": "Of US irrigation groundwater",
+        "source": "Steward et al., PNAS, 2013"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2019 it still held about 2.9 billion acre-feet. That sounds like plenty, and across the whole aquifer it nearly is. We added up the federal figures: about nine percent has gone since 1950.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2.91 billion",
+        "label": "Acre-feet of recoverable water in 2019",
+        "source": "USGS, SIR 2023-5143"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson",
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "We added",
+       "stat": {
+        "value": "9%",
+        "label": "Of the aquifer's water gone since about 1950",
+        "source": "Our calculation from USGS, SIR 2023-5143",
+        "note": "286.4 of about 3,196 million acre-feet"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nine percent. If that were the whole story, nobody in Kansas would be fighting. So why is a state engineer talking about land becoming unusable?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson",
+           "Nebraska"
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": "Nine percent",
+      "text": "Is 9% a crisis, or a false alarm?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Two States, One Hole",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Because that average hides nearly everything. This is the government's own map of the change, about 1950 to 2019. Gray means almost nothing happened.",
+     "shots": [
+      {
+       "type": "document",
+       "at": "This is",
+       "document": {
+        "pdf": "https://pubs.usgs.gov/sir/2023/5143/sir20235143.pdf",
+        "page": 10,
+        "source": "USGS, SIR 2023-5143",
+        "title": "Water-level change, about 1950 to 2019"
+       }
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 34.2,
+           "span": 3
+          },
+          "highlight": [
+           "Texas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Most of Nebraska is gray. Its average fell less than half a foot, and one well there rose eighty-six feet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100,
+           "lat": 41.6,
+           "span": 8
+          },
+          "highlight": [
+           "Nebraska"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Its average",
+       "chart": {
+        "type": "bar",
+        "title": "Average water-level change since about 1950",
+        "unit": " ft",
+        "data": [
+         [
+          "Nebraska",
+          0.4
+         ],
+         [
+          "Kansas",
+          27.3
+         ],
+         [
+          "Texas",
+          44.1
+         ]
+        ],
+        "source": "USGS, SIR 2023-5143",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 33.95,
+           "span": 0.25
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Plainview, Texas"
+      }
+     ]
+    },
+    {
+     "text": "Now go south. Kansas fell an average of twenty-seven feet. Texas, forty-four.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Average water-level decline since about 1950",
+        "unit": " ft",
+        "data": [
+         [
+          "Nebraska",
+          0.4
+         ],
+         [
+          "Kansas",
+          27.3
+         ],
+         [
+          "Texas",
+          44.1
+         ]
+        ],
+        "source": "USGS, SIR 2023-5143",
+        "highlight": 2,
+        "reveal": [
+         "twenty-seven",
+         "forty-four"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "One Texas well dropped two hundred sixty-five feet: sixteen times the average for the whole aquifer.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "265 feet",
+        "label": "The largest decline at one well, in Texas",
+        "source": "USGS, SIR 2023-5143",
+        "note": "Sixteen times the aquifer's 16.5-foot average"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Add up the lost water by state and it gets sharper. Of 286 million acre-feet gone, Texas accounts for about fifty-nine percent. Kansas, twenty-five. Nebraska, under one.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": "Of 286",
+       "chart": {
+        "type": "bar",
+        "title": "Water lost since about 1950",
+        "unit": " million acre-feet",
+        "data": [
+         [
+          "Texas",
+          169.6
+         ],
+         [
+          "Kansas",
+          72
+         ],
+         [
+          "Nebraska",
+          2.7
+         ]
+        ],
+        "source": "USGS, SIR 2023-5143; shares are our calculation",
+        "highlight": 0,
+        "reveal": [
+         "Kansas, twenty-five",
+         "Nebraska, under"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Even the good news can mislead. From 2017 to 2019 the aquifer as a whole gained water: 1.6 million acre-feet. But Nebraska gained 4.3 million, while Texas lost 2.7 million.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "+1.6 million",
+        "label": "Acre-feet, the whole aquifer, 2017 to 2019",
+        "source": "USGS, SIR 2023-5143"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "chart",
+       "at": "But Nebraska",
+       "chart": {
+        "type": "bar",
+        "title": "Change in stored water, 2017 to 2019",
+        "unit": " million acre-feet",
+        "data": [
+         [
+          "Nebraska gained",
+          4.3
+         ],
+         [
+          "Texas lost",
+          2.7
+         ]
+        ],
+        "source": "USGS, SIR 2023-5143",
+        "highlight": 1,
+        "reveal": [
+         "Texas lost"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Part of the gap is simple geology. The aquifer is thickest under Nebraska. In the south it is thinner, and what comes back each year is small.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100,
+           "lat": 41.6,
+           "span": 8
+          },
+          "highlight": [
+           "Nebraska"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the south",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 3.6
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100,
+           "lat": 41.6,
+           "span": 8
+          },
+          "highlight": [
+           "Nebraska"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A Kansas study put numbers on that: recharge replaces about fifteen percent of what is pumped. If you drained the aquifer there, refilling it would take five hundred to thirteen hundred years.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "recharge",
+       "stat": {
+        "value": "15%",
+        "label": "Of current pumping is replaced by recharge, Kansas",
+        "source": "Steward et al., PNAS, 2013"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "If you drained",
+       "stat": {
+        "value": "500-1,300 years",
+        "label": "To refill a depleted aquifer in Kansas, on average",
+        "source": "Steward et al., PNAS, 2013"
+       }
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.7,
+           "lat": 36.2,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "That study also projected, in 2013, that nearly seventy percent of the water under Kansas would be gone in fifty years on existing trends. That was a model, not a measurement.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "69%",
+        "label": "Of Kansas's groundwater gone by about 2063 on 2013 trends",
+        "source": "Steward et al., PNAS, 2013",
+        "note": "A projection"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 34.2,
+           "span": 3
+          },
+          "highlight": [
+           "Texas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 33.95,
+           "span": 0.25
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Plainview, Texas"
+      }
+     ]
+    },
+    {
+     "text": "And depth is what matters to a farmer. In some parts of Kansas, less than forty percent of the aquifer's original thickness remains. A well gets weaker long before it is empty.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "less than",
+       "stat": {
+        "value": "Under 40%",
+        "label": "Of the original thickness left in some Kansas areas",
+        "source": "Kansas Geological Survey, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A well gets",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What the Water Built",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This water does not stop at the field. Water that costs little more than the fuel to pump it grows cheap cattle feed, and cheap feed drew the feedlots to southwest Kansas.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Garden City, Kansas"
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "cheap feed",
+       "photo": "File:Garden City, Kansas (5638320394).jpg",
+       "on_screen_text": "Garden City, Kansas, from orbit"
+      }
+     ]
+    },
+    {
+     "text": "In 1980 what was described as the world's largest beef plant opened at Holcomb, just outside Garden City. A 2021 Associated Press count put Kansas feedlots at 2.5 million cattle, eating more than 6.5 billion pounds of corn a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.99,
+           "lat": 37.99,
+           "span": 0.2
+          },
+          "places": [
+           {
+            "name": "Holcomb",
+            "lon": -100.99,
+            "lat": 37.99,
+            "kind": "city",
+            "label": "Holcomb, Kansas"
+           }
+          ],
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A 2021",
+       "stat": {
+        "value": "2.5 million",
+        "label": "Cattle in Kansas feedlots",
+        "source": "Associated Press, 2021",
+        "note": "Eating more than 6.5 billion pounds of corn a year"
+       }
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "And it runs the towns. In Kansas, this aquifer supplies seventy to eighty percent of the water residents use each day.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "seventy",
+       "stat": {
+        "value": "70-80%",
+        "label": "Of the water Kansas residents use each day",
+        "source": "Stateline, Feb 1, 2024"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Guymon, Oklahoma has about thirteen thousand people and eighteen wells. It has committed some four and a half million dollars to find new ones, with no guarantee of water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.48,
+           "lat": 36.68,
+           "span": 3
+          },
+          "places": [
+           {
+            "name": "Guymon",
+            "lon": -101.48,
+            "lat": 36.68,
+            "kind": "city",
+            "label": "Guymon, Oklahoma"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Southwest Kansas"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Its interim city manager said it plainly in 2024: \"We're running out of water.\"",
+     "shots": [
+      {
+       "type": "document",
+       "at": 0,
+       "document": {
+        "text": "We're running out of water.",
+        "source": "Micheal Shannon, Guymon interim city manager, to Stateline, 2024",
+        "highlight": "running out"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.18
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Farther southwest, Clovis, New Mexico and its neighbors are building a pipeline of more than eight hundred million dollars, to bring in river water from a reservoir. The head of their water authority says these towns could not last long without it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.2,
+           "lat": 34.4,
+           "span": 3
+          },
+          "places": [
+           {
+            "name": "Clovis",
+            "lon": -103.2,
+            "lat": 34.4,
+            "kind": "city",
+            "label": "Clovis, New Mexico"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "more than eight",
+       "stat": {
+        "value": "$800 million+",
+        "label": "A pipeline to replace groundwater in eastern New Mexico",
+        "source": "Stateline, Feb 1, 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 32,
+       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg",
+       "on_screen_text": "Morton, Texas"
+      }
+     ]
+    },
+    {
+     "text": "The researchers behind those Landsat maps looked ahead too. On current trends, about a quarter of today's irrigated land on the aquifer could not be irrigated by 2100, and thirteen percent of that land may not suit dryland crops either.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about a quarter",
+       "stat": {
+        "value": "24%",
+        "label": "Of irrigated land may lose irrigation by 2100",
+        "source": "Deines et al., Agricultural Water Management, 2020",
+        "note": "A projection"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 21,
+       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
+       "on_screen_text": "Checking a center pivot, Morton, Texas"
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Biggest Pump Wins",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Texas holds the largest share of the loss, and Texas has an unusual law. Since 1904, a landowner there may pump as much groundwater as they like, even if a neighbor's well runs dry.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.5,
+           "lat": 34.4,
+           "span": 7
+          },
+          "highlight": [
+           "Texas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.7,
+           "lat": 36.2,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Since 1904",
+       "stat": {
+        "value": "1904",
+        "label": "Texas adopts the rule of capture for groundwater",
+        "source": "Houston & T.C. Ry. v. East"
+       }
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.07,
+           "lat": 36.34,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Stratford, Texas"
+      }
+     ]
+    },
+    {
+     "text": "It is called the rule of capture. In 1999 landowners whose wells had gone dry took a bottled-water company to the Texas Supreme Court. The court left the rule standing, and said changing it was a job for the legislature.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.5,
+           "lat": 34.4,
+           "span": 7
+          },
+          "highlight": [
+           "Texas"
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The rule of capture"
+      },
+      {
+       "type": "stat",
+       "at": "In 1999",
+       "stat": {
+        "value": "1999",
+        "label": "Texas Supreme Court keeps the rule of capture",
+        "source": "Sipriano v. Great Spring Waters of America"
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 2.4
+          },
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "Dalhart, Texas"
+           },
+           {
+            "name": "Stratford",
+            "lon": -102.07,
+            "lat": 36.34,
+            "kind": "city",
+            "label": "Stratford, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.45,
+           "lat": 35.95,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2001 the oilman T. Boone Pickens saw what that could mean. His company leased about 150,000 acres in the Panhandle, and planned to sell water to Dallas-Fort Worth through a 385-mile pipeline.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 35.8,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Roberts County",
+            "lon": -100.8,
+            "lat": 35.84,
+            "kind": "site",
+            "label": "Roberts County, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 33.95,
+           "span": 0.25
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Plainview, Texas"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 36.15,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "through a 385-mile",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -98.8,
+           "lat": 34.2,
+           "span": 7
+          },
+          "routes": [
+           {
+            "from": [
+             -100.8,
+             35.84
+            ],
+            "to": [
+             -96.8,
+             32.78
+            ],
+            "mode": "line",
+            "label": "385 miles",
+            "seconds": 1.6
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "He had no city buyer at the time, and the project was later suspended. Still, it showed how Texas treats this water: as something a landowner can sell.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "200,000",
+        "label": "Acre-feet a year Pickens planned to sell",
+        "source": "AAPG Explorer, July 2001"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 34.2,
+           "span": 3
+          },
+          "highlight": [
+           "Texas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
+       "on_screen_text": "Checking a center pivot, Morton, Texas"
+      }
+     ]
+    },
+    {
+     "text": "Texas does have local groundwater districts, which can limit pumping. But look at the target for four Panhandle counties here: forty percent of the water left, after fifty years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 3.6
+          },
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "Dalhart, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "But look",
+       "stat": {
+        "value": "40% left",
+        "label": "After 50 years: the district's goal for four Panhandle counties",
+        "source": "Texas Water Journal, on North Plains GCD",
+        "note": "Dallam, Sherman, Hartley and Moore"
+       }
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.7,
+           "lat": 36.2,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So in that target, most of the water can go, as long as it goes on schedule.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.07,
+           "lat": 36.34,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Stratford, Texas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Running Out Looks Like",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So what does the end look like? Go south to Muleshoe, Texas. Wells around there once drew about a thousand gallons a minute. In 2021 Tim Black's gave about fifty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 34.5,
+           "span": 3
+          },
+          "places": [
+           {
+            "name": "Muleshoe",
+            "lon": -102.72,
+            "lat": 34.23,
+            "kind": "city",
+            "label": "Muleshoe, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 34.2,
+           "span": 3
+          },
+          "highlight": [
+           "Texas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about a thousand",
+       "stat": {
+        "value": "1,000 to 50",
+        "label": "Gallons a minute, wells near Muleshoe, Texas",
+        "source": "Associated Press, 2021"
+       }
+      }
+     ]
+    },
+    {
+     "text": "He stopped growing mostly corn and turned to cattle on native grass. His verdict on the old days, to the Associated Press: \"We wasted the hell out of the water.\"",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.72,
+           "lat": 34.23,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "document",
+       "at": "His verdict",
+       "document": {
+        "text": "We wasted the hell out of the water.",
+        "source": "Tim Black, farmer, to the Associated Press, 2021",
+        "highlight": "wasted"
+       }
+      },
+      {
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 36.15,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "An hour southwest of Amarillo, Chris Grotegrut has put about three quarters of his family's 11,000 acres back into native grass. That is the land's old cover, the one the plows removed before the Dust Bowl.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 3.6
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "three quarters",
+       "stat": {
+        "value": "75%",
+        "label": "Of one family's 11,000 acres, back in native grass",
+        "source": "Associated Press, 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 33.95,
+           "span": 0.25
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Plainview, Texas"
+      }
+     ]
+    },
+    {
+     "text": "And here is something we cannot explain yet. This July our measurement near Dalhart fell to about fifteen percent, from one clear day. One day is not a trend. It might just be a planting calendar. We will keep measuring it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.45,
+           "lat": 35.95,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "fell to",
+       "stat": {
+        "value": "15%",
+        "label": "Land actively green near Dalhart, July 30, 2026",
+        "source": "Our measurement, Landsat 8",
+        "note": "One clear day, not a trend"
+       }
+      },
+      {
+       "type": "map",
+       "at": "One day",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 35.9,
+           "span": 2.4
+          },
+          "places": [
+           {
+            "name": "Dalhart",
+            "lon": -102.52,
+            "lat": 36.06,
+            "kind": "city",
+            "label": "Dalhart, Texas"
+           },
+           {
+            "name": "Stratford",
+            "lon": -102.07,
+            "lat": 36.34,
+            "kind": "city",
+            "label": "Stratford, Texas"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "If you want to see the next measurement, subscribe. We come back to these places from orbit.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "date": "2026-07-01/2026-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.07,
+           "lat": 36.34,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Stratford, Texas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Farmers Who Cut Anyway",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "But there is a place where the story turned. In 2013, farmers in Sheridan County, northwest Kansas, did something nobody made them do. They capped their own pumping for five years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.3,
+           "span": 3.6
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.35,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "They capped",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.35,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The target was a twenty percent cut. They reached about twenty-three.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "23%",
+        "label": "Average cut, first five years, Sheridan 6",
+        "source": "Stateline, Feb 1, 2024",
+        "note": "Target: 20%"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the aquifer answered. From 2002 to 2012 levels fell about two feet a year. From 2013 to 2022, about half a foot.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": "From 2002",
+       "chart": {
+        "type": "bar",
+        "title": "Average yearly water-level decline, Sheridan 6",
+        "unit": " ft",
+        "data": [
+         [
+          "2002-2012",
+          2.0
+         ],
+         [
+          "2013-2022",
+          0.5
+         ]
+        ],
+        "source": "Kansas Geological Survey, 2023",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": 13,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.3,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Farm income held up, say the reports on the program: they swapped some corn for wheat and sorghum, and spent less on pumping.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.35,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Sheridan County, Kansas"
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.3,
+           "lat": 39.45,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Others followed. Wichita County has cut pumping by about forty percent. Outside Garden City, Gina and Marc Gigot, whose father dug the well more than fifty years ago, had stopped growing corn on their farm by 2024.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "40%",
+        "label": "Pumping cut in Wichita County, Kansas",
+        "source": "Kansas Geological Survey, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Outside Garden",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ],
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.6,
+           "lat": 39.25,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Northwest Kansas"
+      }
+     ]
+    },
+    {
+     "text": "Garden City planned to send them treated wastewater, so they could switch off some wells next to the city's own. Yet they say the state must force others to cut back. Even the Farm Bureau's president said in 2024, \"we don't have decades.\"",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Irrigation drop nozzle on center pivot sprinkler in Morton, Texas (25021127761).jpg",
+       "on_screen_text": "Saving water, one nozzle at a time"
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.75,
+           "lat": 39.25,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "document",
+       "at": "Yet they say",
+       "document": {
+        "text": "we don't have decades to fix this problem",
+        "source": "Joe Newland, Kansas Farm Bureau president, to Stateline, 2024",
+        "highlight": "decades"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 31,
+       "photo": "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg",
+       "on_screen_text": "Morton, Texas"
+      }
+     ]
+    },
+    {
+     "text": "So the fix exists, and farmers proved it. Why not everywhere? Because a cut that looks fine on a map hits people one field at a time.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.3,
+           "span": 3.6
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Because a cut",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 19,
+       "photo": "File:Landon Kerby, NRCS district conservationist spot checks new drop nozzles on a center pivot sprinkler system in Morton, Texas. (24746745149).jpg",
+       "on_screen_text": "Checking a center pivot, Morton, Texas"
+      }
+     ],
+     "ask": {
+      "at": "Why not",
+      "text": "Would you cut your own water first?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Too Much, Too Little",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Kansas has known for a long time. A report to its legislature warned in 1955: \"Ground-water mining is a serious problem.\"",
+     "shots": [
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "document",
+       "at": "Ground-water",
+       "document": {
+        "text": "Ground-water mining is a serious problem.",
+        "source": "Kansas legislature report, 1955, via Stateline",
+        "highlight": "serious problem"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The state created its groundwater districts in 1972, and for decades its answer stayed local and voluntary, a policy often called planned depletion. Burke Griggs, a former state water lawyer, on those local efforts: \"None of them have achieved much.\"",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1972",
+        "label": "Kansas creates groundwater management districts",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "document",
+       "at": "Burke Griggs",
+       "document": {
+        "text": "None of them have achieved much.",
+        "source": "Burke Griggs, Washburn University, to Stateline, 2024",
+        "highlight": "achieved much"
+       }
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In February, more than two hundred farmers came to hear District 3's plan: cut pumping five percent a year for twenty years, 27.7 percent in all, according to its engineer.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Southwest Kansas"
+      },
+      {
+       "type": "stat",
+       "at": "27.7",
+       "stat": {
+        "value": "27.7%",
+        "label": "The district's first proposal, over twenty years",
+        "source": "KCUR / HPPR, Feb 2, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Roger Holmes, a longtime farmer there, did the math on his own land. Three inches less water could mean about fifty fewer bushels of corn an acre, up to two hundred dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about fifty",
+       "stat": {
+        "value": "$200 an acre",
+        "label": "One farmer's estimate of the cost of three inches less",
+        "source": "KCUR / HPPR, Feb 2, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "He said he would be dead in ten years. His concern was who comes next. His words: \"It's going to affect my son.\"",
+     "shots": [
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.18
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "document",
+       "at": "His words",
+       "document": {
+        "text": "It's going to affect my son.",
+        "source": "Roger Holmes, farmer, to KCUR, 2026",
+        "highlight": "my son"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The plan filed in July gave some areas with deep water fifty years to cut thirty percent. The district also asked the state for ten million dollars a year to pay landowners for saving water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.55,
+           "lat": 37.9,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "ten million",
+       "stat": {
+        "value": "$10 million",
+        "label": "A year: what the district asked of the state",
+        "source": "Kansas Public Radio, Oct 19, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is what Lewis rejected. He says that in most of the district, after fifty years, groundwater would be on the verge of unusable, even under the district's own plan.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "He says",
+       "stat": {
+        "value": "50 years",
+        "label": "Then groundwater near unusable in most of the district, Lewis says",
+        "source": "Earl Lewis, Kansas chief engineer, High Plains Journal, Nov 7, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.35,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Now go north, to the district around Sheridan County. There the complaint runs the other way. Farmers and the Kansas Farm Bureau say the cuts go too far, some as deep as forty-four percent, and that they violate water rights.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.3,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.3,
+           "lat": 39.45,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "forty-four",
+       "stat": {
+        "value": "44%",
+        "label": "Pumping cuts in some areas of northwest Kansas",
+        "source": "Kansas Public Radio, Oct 19, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Their case is not small. Irrigation rights can make land worth almost twice as much, by the district's own testimony. So a cut in water is also a cut in what a family owns. The state denied the Bureau's request.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "almost twice",
+       "stat": {
+        "value": "Nearly 2x",
+        "label": "What irrigation rights can add to the value of land",
+        "source": "Kansas Public Radio, Oct 19, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.6,
+           "lat": 39.25,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Northwest Kansas"
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.75,
+           "lat": 39.25,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So one Kansas district is told it does too little, and another that it does too much. Both are looking at the same falling water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           },
+           {
+            "name": "Hoxie",
+            "lon": -100.44,
+            "lat": 39.35,
+            "kind": "site",
+            "label": "Sheridan County, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Happens Next",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "District 3 will appeal to the Kansas Secretary of Agriculture, and hopes to start parts of its plan meanwhile.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Every January, crews drive back out to about fourteen hundred wells. One of them, Brownie Wilson of the Kansas survey, feeds a steel tape down each well, and the wet part of the tape gives him the water level. Some of his wells have dropped more than a hundred feet since 2001.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1,400 wells",
+        "label": "Measured each January across western Kansas",
+        "source": "Kansas Geological Survey, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": 13,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.9,
+           "lat": 38.0,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "Garden City, Kansas"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.15,
+           "lat": 37.6,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Some of his",
+       "stat": {
+        "value": "100+ feet",
+        "label": "Drop in some Kansas wells since 2001",
+        "source": "Stateline, Feb 1, 2024",
+        "note": "Brownie Wilson, Kansas Geological Survey"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Kansas survey says levels in the worst areas could hold steady for a decade or two, with pumping cuts of eighteen to thirty-two percent. So this is still a choice.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.87,
+           "lat": 37.58,
+           "span": 0.14
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Southwest Kansas"
+      },
+      {
+       "type": "stat",
+       "at": "eighteen",
+       "stat": {
+        "value": "18-32%",
+        "label": "Cuts that could hold levels for one to two decades",
+        "source": "Kansas Geological Survey, 2023"
+       }
+      }
+     ]
+    },
+    {
+     "text": "From orbit you will not see it being made. The circles will stay green right up until they don't. That is the trap in this picture: it looks the same, year after year, until the pump runs dry.",
+     "shots": [
+      {
+       "type": "map",
+       "at": "The circles",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 36.1,
+           "span": 0.28
+          },
+          "compare": {
+           "before": "1986-08-17",
+           "after": "2024-08-17",
+           "source": "landsat",
+           "seconds": 2.6,
+           "until": "That is the trap"
+          },
+          "date": "2024-07-01/2024-08-31"
+         },
+         {
+          "at": "That is the trap"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99,
+           "lat": 38.5,
+           "span": 7
+          },
+          "highlight": [
+           "Kansas"
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So who should decide how fast it goes: the farmers who own the wells, or a state thinking about the people who come after them?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.8,
+           "lat": 37.8,
+           "span": 26
+          },
+          "highlight": [
+           "file:aquifer.geojson"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.18
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": 0,
+      "text": "Farmers, or the state: who decides?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Kansas Rejected Farmers' Plan to Save Their Water",
+  "description": "From orbit, the circles of the High Plains look like a triumph: we measured far more green land near Dalhart, Texas in 2024 than in 1986. Below them, the water under eight states is falling, and on September 30, 2026 the Kansas chief engineer rejected the plan of the farmers around Garden City, saying levels would not stabilize in sixty years. We follow it from the Dust Bowl to the wells, the Texas law that lets the biggest pump win, and the Kansas farmers who cut their own water and proved it works.",
+  "tags": [
+   "Ogallala aquifer",
+   "High Plains aquifer",
+   "Kansas water",
+   "groundwater",
+   "irrigation",
+   "center pivot",
+   "Dust Bowl",
+   "Texas Panhandle",
+   "rule of capture",
+   "satellite images",
+   "Garden City Kansas",
+   "water crisis"
+  ],
+  "pinned_comment": "Who should decide how fast the water goes: the farmers who own the wells, or the state?"
+ }
+}

@@ -28,7 +28,7 @@ Status: first pass from searches and the pages noted below. Read the primary PDF
 - [R6] KCUR / HPPR, 2 Feb 2026: GMD3 (Garden City) proposes cutting pumping 5 % a year for 20 years, 27.7 % in total per engineer
   Trevor Ahring, inside a 25-year legally binding LEMA, to stabilize the aquifer. More than 200 farmers heard it. Roger Holmes: three inches
   less water could mean about 50 fewer bushels of corn an acre, up to $200 an acre; "It's going to affect my son." State deadline July 2026, or the state may order cuts.
-- [R7] Kansas 2024 law (Kansas Reflector, KCUR): Gov. Laura Kelly signed; all five districts must submit plans by 1 July 2026.
+- [R7] Kansas law: HB 2279, 2023 per Lewis (R13), plans by 1 July 2026. KCUR and Kansas Reflector call it the 2024 law; use Lewis, the primary.
   Kansas long pursued "planned depletion" (KCUR, 2023). SW Kansas GMD fell 1.52 ft Jan 2024 to Jan 2025, preliminary (blue-community.net; find the KGS original).
 - [R8] Sipriano v. Great Spring Waters of America, 1 S.W.3d 75 (Tex. 1999), from case summaries and FindLaw: Texas's rule of capture dates from
   Houston & Texas Central Railway v. East (1904): a landowner may pump as much as they choose without liability to neighbours whose wells
@@ -42,9 +42,35 @@ Status: first pass from searches and the pages noted below. Read the primary PDF
   the number 2,604,359 at the USPTO). Licensed to Valley 1954 (Valmont today), 5 % royalty until the patent ended in 1969; commercial spread from the 1960s.
 - [R12] Newsweek, May 2026: about 30 % of US irrigation groundwater, about a fifth of US agricultural output. Press figures; find USGS or USDA originals.
 
+- [R13] Earl Lewis, Kansas chief engineer, "Groundwater level declines impact state's future", High Plains Journal, 7 Nov 2026 (primary): Groundwater Management
+  District Act 1972; HB 2279 in 2023, Senate 34-6, House 116-6; plans due 1 July 2026; Nov 2025 letter: stabilize within 20 years; 1 July GMD3 filed; early Aug returned;
+  30 Sept water-quality part approved, whole district high priority, level-decline parts rejected: no stabilization at any point in 60 years; after 50 years in most of the
+  district groundwater on the verge of unusable; "is not in the public interest"; "brutal and irreversible in our lifetimes".
+- [R14] Kansas Public Radio (KRPS), 19 Oct 2026: Lewis rejected twice; 50 years and at least 30 % for areas with about 300 ft; $10 million a year asked; engineer Ahring: state present three
+  years, objected too late; appeal to the Secretary of Agriculture; northwest (GMD4) LEMA up to 44 % in some areas; Kansas Farm Bureau: violates water rights; DWR denied its request;
+  irrigation rights make land worth almost twice as much (GMD4 testimony).
+- [R15] USGS SIR 2023-5143, Tables 2-3, p. 8-12 (PDF read): average change by state since predevelopment: TX -44.1 ft, KS -27.3, NM -19.1, OK -14.2, CO -14.0, WY -0.8, NE -0.4, SD +0.5.
+  Storage: TX -169.6 MAF, KS -72.0, CO -18.3, OK -12.1, NM -11.4, NE -2.7, WY -0.5, SD +0.2. 2017-2019: NE +4.3, TX -2.7, all +1.6. Largest fall 265 ft in Texas, largest rise 86 ft in Nebraska.
+  1938-1951 declines over 50 ft in parts of Texas. Figure 1 (PDF page 10): the map shown in the episode.
+- [R16] Stateline, Hardy and Kite, 1 Feb 2024 (via phys.org): Brownie Wilson, KGS, steel tape, January, wells down more than 100 ft since 2001; Guymon OK: about 13,000 people, 18 wells, $4.5 million,
+  Micheal Shannon "We're running out of water"; Eastern NM pipeline over $800 million from Ute Reservoir, Orlando Ortega; 70-80 % of Kansans' daily water; cheap feed, feedlots, water free but fuel; 1955
+  report "Ground-water mining is a serious problem"; Burke Griggs "None of them have achieved much"; Gigot siblings, 9,000 acres, no corn, father's well over 50 years ago, Garden City wastewater; Newland "we don't
+  have decades to fix this problem"; Sheridan: 23.1 % over the first five years, 2 ft a year to under half a foot.
+- [R17] Associated Press, Webber, Sep 2021 (PBS): Muleshoe, Tim Black, about 1,000 to about 50 gallons a minute, "We wasted the hell out of the water"; Chris Grotegrut, about an hour SW of Amarillo, 75 % of 11,000 acres in native grass.
+- [R18] Deines et al., Remote Sensing of Environment 2019 and Agricultural Water Management 2020 (NASA Landsat article; abstract): 34 years of annual irrigation maps; irrigation grew across the aquifer incl. water-stressed
+  areas, some regions lost it; 24 % of irrigated land may lose irrigation by 2100; 13 % of that unsuited to dryland crops.
+- [R19] AAPG Explorer, July 2001 (replaces R9 for the plan): Mesa Water, about 150,000 acres leased, 200,000 acre-feet a year, 385-mile pipeline to Dallas-Fort Worth, no city offer yet. Suspension: Texas Observer, NewsChannel10. The $103 million sale stays out.
+- [R20] Texas Water Journal, on North Plains GCD: at least 40 % left after 50 years in Dallam, Sherman, Hartley, Moore. [R21] IBP Holcomb 1980: Wikipedia, Golden Triangle of Meat-packing. AP via Washington Times snippet, May 2021: 2.5 million cattle, over 6.5 billion pounds of corn.
+- [R22] UNL Digital Commons (USGS item): the aquifer is thickest under Nebraska. Michigan State thesis: low recharge in the Southern High Plains.
+
+- [R23] Scene dates from Planetary Computer: Landsat 5 1986-08-17 and Landsat 9 2024-08-17, both Dallam County TX box; Landsat 5 1986-07-16 and Landsat 9 2026-07-06 near Goodland KS.
+
 ## Own numbers (tools/ogallala_numbers.py)
 - About 9 % of the whole aquifer's water gone, 286.4 of about 3,196 million acre-feet: the honest aquifer-wide figure, and the reason for the chapter below.
 - The worst well fell 16 times the average: the average hides where it happens.
+
+- Green share, tools/ogallala_green.py, green_shares.json (best of up to 3 clear July-August days, NDVI over 0.5, box 0.5 x 0.4 deg): Dalhart 17.0 (1986-08-17), 45.6 (2010), 58.5 (2024-08-17), 14.8 (2026-07-30, one day). Stratford 9.0 -> 55.1, 18.8 in 2026.
+  This overturned the first idea for the hook (fields drying): the pale 2026 image was one late-July day. Landsat 5 against 8/9 differ a little, so the Landsat 5 run 1986-2010 is said too.
 
 ## Visual inventory
 - Landsat, metadata checked 2026-11-09 (Planetary Computer, under 5 % cloud, June-Sept): Garden City KS 10 scenes 1984-86 (1985-08-30, 1986-07-16), 11 in 2000, 22 in
@@ -54,6 +80,6 @@ Status: first pass from searches and the pages noted below. Read the primary PDF
 
 ## Open before the script
 1. Look at real wipes first: pivots may have GROWN in Kansas since 1985. Find fields that visibly dried (Texas Panhandle likely), otherwise the hook must change. No story without the picture.
-2. What happened at the 1 July 2026 deadline: GMD3's plan and the state's answer. Not found yet; it is the ending.
+2. Done: R13, R14.
 3. Read SIR 2023-5143 for state totals, and the PNAS paper.
 4. Recent Texas reporting and a better source for Pickens, or drop him.

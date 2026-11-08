@@ -23,7 +23,7 @@
    "card": false,
    "paragraphs": [
     {
-     "text": "The Texas Panhandle, 1986. Now, 2024.",
+     "text": "The Texas Panhandle, 1986. Now, 2024, on the same day of the year.",
      "shots": [
       {
        "type": "map",
@@ -41,7 +41,7 @@
            "before": "1986-08-17",
            "after": "2024-08-17",
            "source": "landsat",
-           "seconds": 1.8,
+           "seconds": 1.6,
            "until": "Now,"
           }
          },

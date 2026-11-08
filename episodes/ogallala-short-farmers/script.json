@@ -23,7 +23,7 @@
    "card": false,
    "paragraphs": [
     {
-     "text": "Northwest Kansas, 1986. Now, 2026.",
+     "text": "Northwest Kansas, 1986. Now, the same land, in 2026.",
      "shots": [
       {
        "type": "map",
@@ -41,7 +41,7 @@
            "before": "1986-07-16",
            "after": "2026-07-06",
            "source": "landsat",
-           "seconds": 1.8,
+           "seconds": 1.6,
            "until": "Now,"
           }
          },

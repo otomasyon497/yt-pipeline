@@ -254,5 +254,143 @@
    "green": 38.1,
    "clear": 1.0
   }
+ },
+ "Leoti KS": {
+  "1986": {
+   "date": "1986-07-16",
+   "platform": "landsat-5",
+   "green": 9.2,
+   "clear": 1.0
+  },
+  "1990": {
+   "date": "1990-08-28",
+   "platform": "landsat-5",
+   "green": 12.2,
+   "clear": 1.0
+  },
+  "1995": {
+   "date": "1995-08-10",
+   "platform": "landsat-5",
+   "green": 17.1,
+   "clear": 1.0
+  },
+  "2000": {
+   "date": "2000-08-23",
+   "platform": "landsat-5",
+   "green": 19.7,
+   "clear": 1.0
+  },
+  "2005": {
+   "date": "2005-07-20",
+   "platform": "landsat-5",
+   "green": 17.1,
+   "clear": 1.0
+  },
+  "2010": {
+   "date": "2010-08-03",
+   "platform": "landsat-5",
+   "green": 22.6,
+   "clear": 1.0
+  },
+  "2015": {
+   "date": "2015-08-01",
+   "platform": "landsat-8",
+   "green": 40.9,
+   "clear": 1.0
+  },
+  "2020": {
+   "date": "2020-07-13",
+   "platform": "landsat-8",
+   "green": 23.9,
+   "clear": 1.0
+  },
+  "2022": {
+   "date": "2022-08-12",
+   "platform": "landsat-9",
+   "green": 31.2,
+   "clear": 1.0
+  },
+  "2024": {
+   "date": "2024-07-24",
+   "platform": "landsat-8",
+   "green": 33.0,
+   "clear": 1.0
+  },
+  "2025": {
+   "date": "2025-08-04",
+   "platform": "landsat-9",
+   "green": 53.7,
+   "clear": 1.0
+  },
+  "2026": {
+   "date": "2026-07-30",
+   "platform": "landsat-8",
+   "green": 23.3,
+   "clear": 1.0
+  }
+ },
+ "Garden City KS": {
+  "1986": null,
+  "1990": {
+   "date": "1990-08-21",
+   "platform": "landsat-5",
+   "green": 41.7,
+   "clear": 0.942
+  },
+  "1995": null,
+  "2000": {
+   "date": "2000-08-16",
+   "platform": "landsat-5",
+   "green": 48.9,
+   "clear": 1.0
+  },
+  "2005": {
+   "date": "2005-08-30",
+   "platform": "landsat-5",
+   "green": 47.8,
+   "clear": 1.0
+  },
+  "2010": {
+   "date": "2010-07-27",
+   "platform": "landsat-5",
+   "green": 39.6,
+   "clear": 1.0
+  },
+  "2015": {
+   "date": "2015-08-26",
+   "platform": "landsat-8",
+   "green": 62.8,
+   "clear": 0.984
+  },
+  "2020": {
+   "date": "2020-08-07",
+   "platform": "landsat-8",
+   "green": 83.0,
+   "clear": 1.0
+  },
+  "2022": {
+   "date": "2022-07-04",
+   "platform": "landsat-9",
+   "green": 26.5,
+   "clear": 1.0
+  },
+  "2024": {
+   "date": "2024-08-26",
+   "platform": "landsat-9",
+   "green": 53.4,
+   "clear": 1.0
+  },
+  "2025": {
+   "date": "2025-07-28",
+   "platform": "landsat-9",
+   "green": 57.2,
+   "clear": 1.0
+  },
+  "2026": {
+   "date": "2026-08-08",
+   "platform": "landsat-8",
+   "green": 35.0,
+   "clear": 1.0
+  }
  }
 }

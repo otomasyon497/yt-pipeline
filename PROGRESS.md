@@ -10,8 +10,11 @@
   ep-indus-waters-short-dam-42519639578, in Videos\yt-pipeline. Older Shorts releases of these slugs are superseded.
 - Tunnel Short cover: new `thumbnail.focus` [lon, lat, span] shows one spot in both panels (a plain split missed the
   reservoir); text "RIVER TAKEN?" (the video's own question) replaced the overstated "RIVER GONE?".
-- Long render restarted at a923430 because run 42514168881 has the patch (465.5 s, Ratle dive). Until the new one is
-  checked, the MP4 in Videos\yt-pipeline\indus-waters is the flawed one: do not upload it.
+- Long episode re-rendered at a923430 (the first render had the patch at 465.5 s, Ratle dive): release
+  ep-indus-waters-42520507017, 16:10, 469 MB, in Videos\yt-pipeline\indus-waters; frames checked. Audio not checked.
+- API upload: the token is read-only and the upload code was removed in Phase 3A (old version: git show bebdb66).
+  YouTube's revision history, 2 Nov 2026: uploads from unverified API projects are no longer locked private, so it
+  is now possible; videos.insert has its own bucket (1 unit, 100 calls a day). Not built; the user decides.
 - Watermark: tools/watermark.py -> Videos\yt-pipeline\channel\watermark.png (600 x 600, transparent, flat shapes; the
   profile picture turns to mud at watermark size). The user adds it in Studio > Customization > Branding.
 - Analytics API set up 2026-11-08 (API instead of Chrome as videos grow): Google Cloud project ink-orbit-analytics,

@@ -13,8 +13,12 @@
 - Long episode re-rendered at a923430 (the first render had the patch at 465.5 s, Ratle dive): release
   ep-indus-waters-42520507017, 16:10, 469 MB, in Videos\yt-pipeline\indus-waters; frames checked. Audio not checked.
 - Uploaded 2026-11-09, private: long nbB4DKNWp7Y; Shorts PqqVvJZd_18 (tunnel), 9P8EDcca-bY (dam), which carry a
-  publishAt of 15:00 UTC 9 Nov that our tool did not send. Descriptions cleaned in Studio. Still to do when the long
-  video is public or unlisted: Related video on both Shorts (Studio; needs advanced features), pinned comments.
+  all three scheduled by the user for 15:00 UTC 9 Nov (18:00 TR). Descriptions cleaned in Studio. Still to do once the
+  long video is public or unlisted: Related video on both Shorts (Studio only, no documented API) and pinned comments.
+  Blocker: Related video opens "one-time verification required" (advanced features); only the user can complete it.
+- Topic radar: tools/topic_radar.py (34 search calls a run; first output docs/topic-radar-2026-11-08.md). Leads offered to
+  the user with a first source check: Ogallala aquifer (recommended, Landsat pivots), Kansai airport, Medog / Siang
+  dams. Word estimates are from one search each, not a research dossier; do that after the user picks.
 - Descriptions now hold intro + chapters + tags only (the user's decision; credits.txt keeps the sources).
 - API upload built at the user's request (2026-11-09): tools/yt_upload.py, private only (fixed in the code), reads the
   privacy back after the upload; the user reviews and publishes in Studio. Own write token token_upload.json; the

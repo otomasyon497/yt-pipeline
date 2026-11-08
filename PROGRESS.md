@@ -1,6 +1,30 @@
 # PROGRESS
 
-## Status (2026-11-08, end of session)
+## Status (2026-11-08, late session)
+- Render review of ep 8 found map flaws, all fixed in the engine (MapBlock.tsx, so every later episode gets them):
+  a close view's Sentinel-2 image sat as a rectangle on wider views and during flights (now each image fades by its
+  width against the camera's, and the layer by how much of the frame it fills), and Blue Marble's 500 m pixels showed
+  as blocks under dives (now blurred by the data's pixels on screen; judging by file pixels left close tiles sharp).
+  Stat cards no longer count dates, year ranges or whole numbers under 10 ("May 0, 2026", "1 wars").
+- Shorts re-rendered and checked by frames at a923430: releases ep-indus-waters-short-tunnel-42519635849 and
+  ep-indus-waters-short-dam-42519639578, in Videos\yt-pipeline. Older Shorts releases of these slugs are superseded.
+- Tunnel Short cover: new `thumbnail.focus` [lon, lat, span] shows one spot in both panels (a plain split missed the
+  reservoir); text "RIVER TAKEN?" (the video's own question) replaced the overstated "RIVER GONE?".
+- Long render restarted at a923430 because run 42514168881 has the patch (465.5 s, Ratle dive). Until the new one is
+  checked, the MP4 in Videos\yt-pipeline\indus-waters is the flawed one: do not upload it.
+- Watermark: tools/watermark.py -> Videos\yt-pipeline\channel\watermark.png (600 x 600, transparent, flat shapes; the
+  profile picture turns to mud at watermark size). The user adds it in Studio > Customization > Branding.
+- Analytics API set up 2026-11-08 (API instead of Chrome as videos grow): Google Cloud project ink-orbit-analytics,
+  OAuth app in production (privacy policy: a secret gist on otomasyon497; unverified-app warning is expected), read-only
+  token in %USERPROFILE%\.yt-pipeline, tested on the real channel. `auth` now refuses any channel but Ink & Orbit.
+  The account holds several channels: the chooser lists Ink & Orbit as "Echoes of Revenge" (its older name, it seems).
+- CTR: the Analytics API answers 400 to videoThumbnail* metrics, so tools/yt_analytics.py shows none. It is in the
+  Reporting API; jobs channel_reach_basic_a1 and channel_reach_combined_a1 were created 2026-11-08 21:02 UTC (backfill
+  30 days, within about 2 days; reports kept 60 days, 30 for backfill, so store the downloads).
+- Next for analytics: from ~10 Nov read the reach reports, compare CTR with Studio, then add the download and the
+  one-page weekly report (48 h / 7 d / 28 d checks, outliers only) to tools/yt_analytics.py.
+
+## Status (2026-11-08, earlier)
 - Episode 8 indus-waters (Indus Waters Treaty, India's "abeyance", Hague award 31 Aug 2026) produced without gates at
   the user's request. Script 2,114 words, 16.2 min real (storyboard log); factcheck.md complete (no FIX); research
   R1-R20; package "India Froze a 65-Year-Old Water Treaty With Pakistan" + "ACT OF WAR?"; log in

@@ -30,6 +30,7 @@ TOKEN = HOME / "token.json"
 SCOPES = ["https://www.googleapis.com/auth/yt-analytics.readonly",
           "https://www.googleapis.com/auth/youtube.readonly"]
 LESSONS = "## Lessons for the next script"
+CHANNEL_ID = "UC1h2p6x09doXZRvG4d4M0Sg"  # Ink & Orbit
 
 
 def creds():
@@ -50,10 +51,16 @@ def auth():
     if not SECRET.exists():
         sys.exit(f"Put the OAuth client file (Desktop app) from Google Cloud at {SECRET}")
     flow = InstalledAppFlow.from_client_secrets_file(str(SECRET), SCOPES)
-    c = flow.run_local_server(port=0, prompt="consent", access_type="offline")
+    # select_account: one Google account can hold several channels, and each is a choice of its own on this screen.
+    c = flow.run_local_server(port=0, prompt="select_account consent", access_type="offline")
+    from googleapiclient.discovery import build
+    items = build("youtube", "v3", credentials=c, cache_discovery=False).channels().list(part="snippet", mine=True).execute().get("items", [])
+    if not items or items[0]["id"] != CHANNEL_ID:
+        got = items[0]["snippet"]["title"] if items else "no channel"
+        sys.exit(f"Signed in as '{got}', not Ink & Orbit ({CHANNEL_ID}); token not saved. Run auth again and pick that channel.")
     HOME.mkdir(exist_ok=True)
     TOKEN.write_text(c.to_json(), encoding="utf-8")
-    print(f"Token saved to {TOKEN} (read-only access to YouTube data and analytics).")
+    print(f"Token for '{items[0]['snippet']['title']}' saved to {TOKEN} (read-only access to YouTube data and analytics).")
 
 
 def services():

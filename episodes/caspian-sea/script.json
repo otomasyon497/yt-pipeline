@@ -1,6 +1,6 @@
 {
- "legacy_length": true,
-"title": "The Caspian Sea Is Leaving",
+  "legacy_length": true,
+  "title": "The Caspian Sea Is Leaving",
   "legacy_stock": true,
   "voice": "am_michael",
   "music": "procedural",
@@ -1677,11 +1677,10 @@
     }
   ],
   "thumbnail": {
-    "text": "GONE BY 2100?",
-    "prompt": "satellite view of a shrinking inland sea coast, white salt flats and turquoise shallow water meeting brown desert, dramatic contrast"
+    "text": "NEW LAND"
   },
   "youtube": {
-    "title": "The Caspian Sea Just Broke Its 1977 Record Low",
+    "title": "The USSR Used Nukes to Save This Sea. It's Falling Again",
     "description": "In January 2026 the Caspian, the world's largest lake, fell below its 1977 record low, and new islands keep appearing off Kazakhstan. In 1971 the Soviet Union set off nuclear explosions to help save this sea, and then the sea surprised everyone. We measured the retreat ourselves from NASA satellite images and mapped where the shore could be by 2100.\n\nReal NASA MODIS and Copernicus Sentinel-2 images, NOAA seafloor data and our own calculations.",
     "tags": [
       "Caspian Sea",
@@ -1697,6 +1696,7 @@
       "climate change",
       "environment"
     ],
-    "pinned_comment": "Whose problem is the Caspian: the five countries on its shore, or the whole warming world? The scientists still disagree on how much of the fall is climate and how much is people using the water. Where do you stand?"
+    "pinned_comment": "Whose problem is the Caspian: the five countries on its shore, or the whole warming world? The scientists still disagree on how much of the fall is climate and how much is people using the water. Where do you stand?",
+    "title_v1": "The Caspian Sea Just Broke Its 1977 Record Low"
   }
 }

@@ -1,6 +1,6 @@
 {
- "legacy_length": true,
-"title": "The River That Ran Short",
+  "legacy_length": true,
+  "title": "The River That Ran Short",
   "legacy_stock": true,
   "voice": "am_michael",
   "music": "procedural",
@@ -3227,11 +3227,10 @@
     }
   ],
   "thumbnail": {
-    "text": "WHO GETS CUT?",
-    "prompt": "aerial view of a shrinking desert reservoir in red rock canyons, white bathtub ring on the cliffs, low blue water, dramatic light"
+    "text": "RECORD LOW"
   },
   "youtube": {
-    "title": "Lake Mead and Lake Powell Both Hit Record Lows in 2026",
+    "title": "The US Cut Arizona's Water. Now Arizona Is Suing",
     "description": "In September 2026 Lake Powell fell to its lowest level since it filled, and in October Lake Mead followed. After three years of failed talks, Washington wrote the river's new rules itself: Arizona, California and Nevada lose 1.25 million acre-feet a year, the four states upstream face no required cuts, and Nevada sued. We mapped Lake Powell at the line where Glen Canyon Dam's turbines stop and at dead pool from the USGS sonar survey of the lakebed, and checked the 1922 Compact's ten-year test against Reclamation's own records.\n\nReal Copernicus Sentinel-2 and NASA MODIS images, USGS and Bureau of Reclamation data, and our own calculations.",
     "tags": [
       "Colorado River",
@@ -3249,6 +3248,7 @@
       "before and after",
       "geography"
     ],
-    "pinned_comment": "Who should give up water first when the Colorado runs short: the farms with the oldest rights, the cities with the most people, or the four states upstream? The 1922 Compact may now be headed for court. Where do you stand?"
+    "pinned_comment": "Who should give up water first when the Colorado runs short: the farms with the oldest rights, the cities with the most people, or the four states upstream? The 1922 Compact may now be headed for court. Where do you stand?",
+    "title_v1": "Lake Mead and Lake Powell Both Hit Record Lows in 2026"
   }
 }

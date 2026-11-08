@@ -23,6 +23,10 @@ on:
         description: "Only a storyboard: one still per shot / map stop on contact sheets (no video)"
         type: boolean
         default: false
+      thumbs_only:
+        description: "Only the thumbnails (own-imagery variant D) to an artifact: no video, no release"
+        type: boolean
+        default: false
       pace_samples:
         description: "Also write the opening narration at three speeds (pace_samples/) to the stills / storyboard artifact"
         type: boolean
@@ -40,7 +44,7 @@ jobs:
       MAP_STYLE: ${{ inputs.map_style }}
       STILLS: ${{ inputs.stills }}
       PACE_SAMPLES: ${{ inputs.pace_samples && '1' || '0' }}
-      OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}${{ inputs.storyboard && '-storyboard' || '' }}
+      OUT_NAME: ${{ inputs.slug }}${{ inputs.map_style != '' && format('-{0}', inputs.map_style) || '' }}${{ inputs.stills != '' && '-stills' || '' }}${{ inputs.storyboard && '-storyboard' || '' }}${{ inputs.thumbs_only && '-thumbs' || '' }}
       YTP_CACHE_DIR: ${{ github.workspace }}/.cache
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -117,7 +121,7 @@ jobs:
           python tools/contact_sheet.py "build/$SLUG/storyboard.json" "build/$SLUG/sb" "out/$SLUG/storyboard"
 
       - name: Render video (Remotion)
-        if: inputs.stills == '' && !inputs.storyboard
+        if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
         working-directory: remotion
         run: |
           npx remotion render src/index.ts Episode "../build/$SLUG/video.mp4" \
@@ -126,15 +130,17 @@ jobs:
             --concurrency=2 --image-format=jpeg --jpeg-quality=88 --muted --log=info
 
       - name: Thumbnails (3 variants)
-        if: inputs.stills == '' && !inputs.storyboard && inputs.thumbnails
-        run: python pipeline/run.py thumbnails "$SLUG"
+        if: inputs.thumbs_only || (inputs.stills == '' && !inputs.storyboard && inputs.thumbnails)
+        run: |
+          python pipeline/run.py thumbnails "$SLUG"
+          if [ "${{ inputs.thumbs_only }}" = "true" ]; then mkdir -p "out/$SLUG" && cp -r "build/$SLUG/thumbnails" "out/$SLUG/"; fi
 
       - name: Finalize (mux audio, collect outputs)
-        if: inputs.stills == '' && !inputs.storyboard
+        if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
         run: python pipeline/run.py finalize "$SLUG"
 
       - name: Publish private release (the PC downloads it from there)
-        if: inputs.stills == '' && !inputs.storyboard
+        if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
         run: |
           TAG="ep-$SLUG-$GITHUB_RUN_ID"
           OUT="out/$SLUG"
@@ -152,7 +158,7 @@ jobs:
           echo "Release: $TAG (${DUR} s, ${SIZE} MB)" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifact (stills / storyboard, 2-day retention)
-        if: inputs.stills != '' || inputs.storyboard
+        if: inputs.stills != '' || inputs.storyboard || inputs.thumbs_only
         uses: actions/upload-artifact@v7
         with:
           name: ${{ env.OUT_NAME }}

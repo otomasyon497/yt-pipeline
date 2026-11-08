@@ -234,7 +234,8 @@ def prepare(slug: str) -> None:
             elif src.type == "photo":
                 path, credit = (nasa_media.fetch if src.photo.lower().startswith("nasa:") else commons.fetch)(src.photo)
                 media_files[u["id"]] = f"{u['id']}.jpg"
-                photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg", src.photo)
+                photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg", src.photo,
+                                                             strict=not script.legacy_length)
                 photo_credits.append(credit)
             elif src.type == "film":
                 path, credit = (nasa_media.fetch_video if src.film.lower().startswith("nasa:") else commons.fetch_video)(src.film)

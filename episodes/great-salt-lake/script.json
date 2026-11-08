@@ -1,6 +1,6 @@
 {
- "legacy_length": true,
-"title": "A Foot From the Bottom",
+  "legacy_length": true,
+  "title": "A Foot From the Bottom",
   "legacy_stock": true,
   "voice": "am_michael",
   "music": "procedural",
@@ -15,11 +15,10 @@
     "Cold open: no usable Sentinel-2 day over the Farmington Bay box in June or 15 May-31 Jul 2017 (one satellite then); spring 2024 instead (high 4,195.2 ft on 7 May 2024 [R1], close to 2017's 4,195.5 ft)."
   ],
   "thumbnail": {
-    "text": "WHO DRAINED IT?",
-    "prompt": "aerial view of a shrinking salt lake with white salt crust and pink water, mountains behind, dramatic light"
+    "text": "NEAR RECORD LOW"
   },
   "youtube": {
-    "title": "How the Great Salt Lake Lost 22 Feet",
+    "title": "Utah Once Pumped This Lake Into the Desert",
     "description": "On October 10, 2026, the Great Salt Lake fell to 4,189.4 feet, less than a foot above its all-time low, and Utah's officials say one more dry winter would make a new record in 2027 unavoidable. Forty years ago the same lake was flooding, and the state pumped it into the desert. We follow the water from the 1980s flood to today's exposed lakebed: what drained it, what its dust may mean for the Wasatch Front, and what it would take to refill it.\n\nReal Copernicus Sentinel-2 and NASA MODIS images, USGS lake-level data and our own calculations.",
     "tags": [
       "Great Salt Lake",
@@ -32,7 +31,8 @@
       "dust",
       "water rights"
     ],
-    "pinned_comment": "Who should give up water first so the Great Salt Lake can recover: the farms, the cities, or no one at all? Where do you stand?"
+    "pinned_comment": "Who should give up water first so the Great Salt Lake can recover: the farms, the cities, or no one at all? Where do you stand?",
+    "title_v1": "How the Great Salt Lake Lost 22 Feet"
   },
   "chapters": [
     {

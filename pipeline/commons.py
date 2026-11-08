@@ -173,12 +173,19 @@ def check_quality(img: Image.Image, ref: str) -> dict:
     return q
 
 
-def prepare(src: Path, out_main: Path, out_bg: Path, ref: str = "") -> str:
+def prepare(src: Path, out_main: Path, out_bg: Path, ref: str = "", strict: bool = True) -> str:
     """Write the photo (fit inside the frame, with headroom for a slow push-in) and a blurred, darkened
     full-frame background from the same picture. Returns "cover" for near-16:9 pictures, else "contain".
-    Blurry photos are refused (check_quality); hazy ones get a levels stretch."""
+    Blurry photos are refused (check_quality; only a note when not strict, for episodes made before the check);
+    hazy ones get a levels stretch."""
     img = Image.open(src).convert("RGB")
-    q = check_quality(img, ref or src.name)
+    try:
+        q = check_quality(img, ref or src.name)
+    except ValueError as e:
+        if strict:
+            raise
+        print(f"  note: {e}")
+        q = quality(img)
     if q["contrast"] < HAZY:
         img = ImageOps.autocontrast(img, cutoff=0.5)
         print(f"  photo {ref or src.name}: hazy (spread {q['contrast']:.0f}), levels stretched")

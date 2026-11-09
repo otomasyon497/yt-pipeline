@@ -39,7 +39,8 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 33 | c03p04 | stat card | 50+ feet: Water-level declines in parts of Texas, 1938 to 1951 | USGS, SIR 2023-5143 | verified |
 | 34 | c03p05 | narration | In 1947 a Colorado farmer named Frank Zybach watched workers hauling irrigation pipe by hand, and thought a sprinkler could walk by itself. | R11 | attributed |
 | 35 | c03p06 | narration | He built one in 1948, near Strasburg, and patented it in 1952: a long arm of pipe on wheels, turning around a well. | R11 | verified |
-| 36 | c03p06 | stat card | July 22, 1952: Frank Zybach's self-propelled sprinkler is patented | ASABE; National Inventors Hall of Fame | attributed |
+| 36 | c03p06 | stat card | July 22, 1952: Frank Zybach's self-propelled sprinkler is patented | ASABE; National Inventors Hall of Fame | verified (patent page 1: "July 22, 1952", filed June 27, 1949) |
+| 36a | c03p05, c03p06 | document | U.S. Patent 2,604,359 pages 1 and 4: "Frank L. Zybach, Strasburg", "Self-propelled sprinkling irrigating apparatus" (added 2026-11-09) | US2604359 PDF, U.S. Patent Office (public domain) | verified |
 | 37 | c03p06 | on screen | Round, because the arm turns around a well | R11 | verified |
 | 38 | c03p07 | narration | Watch what that did to western Kansas, from 1986 to this summer. | Landsat scenes, Goodland; green_shares.json if complete | own |
 | 39 | c03p07 | narration | Here the green share went from about ten percent to thirty-eight. | Landsat scenes, Goodland; green_shares.json if complete | own |

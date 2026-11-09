@@ -6,6 +6,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 PDF = "https://pubs.usgs.gov/sir/2023/5143/sir20235143.pdf"
+PATENT = "https://patentimages.storage.googleapis.com/70/bc/59/aef70234ffb83e/US2604359.pdf"  # US 2,604,359, public domain
 AQ = "file:aquifer.geojson"
 W24 = "2024-07-01/2024-08-31"  # the summer of the hook's "after" image, so close views match it
 WHOLE = {"lon": -100.8, "lat": 37.8, "span": 26}
@@ -81,8 +82,8 @@ def clip(at, text, source, highlight=None):
     return {"type": "document", "at": at, "document": d}
 
 
-def doc(at, page, source, title=None, highlight=None):
-    d = {"pdf": PDF, "page": page, "source": source}
+def doc(at, page, source, title=None, highlight=None, pdf=PDF):
+    d = {"pdf": pdf, "page": page, "source": source}
     if title:
         d["title"] = title
     if highlight:
@@ -143,7 +144,7 @@ chapters = [
           m(0, v(GARDEN, date=W24, places=[GARDEN_CITY])),
           stat("his answer", "60 years", "Levels still falling under the district's plan", LEWIS)),
         P("He added that continued depletion \"is not in the public interest\", and that without cuts the harm would be \"brutal and irreversible in our lifetimes.\"",
-          clip(0, "brutal and irreversible in our lifetimes", LEWIS, "brutal and irreversible")),
+          clip("and that without", "brutal and irreversible in our lifetimes", LEWIS, "brutal and irreversible")),
         P("The district's engineer says the state objected too late, and the district is appealing. To see why both sides are this dug in, we need to go back to this same corner of Texas, ninety years ago.",
           stat(0, "3 years", "How long the state sat in on the meetings, the district's engineer says", KRPS),
           m("To see why", v(PANHANDLE, places=[STRATFORD]))),
@@ -161,10 +162,11 @@ chapters = [
           stat("by 1951", "50+ feet", "Water-level declines in parts of Texas, 1938 to 1951", USGS)),
         P("Then came a machine. In 1947 a Colorado farmer named Frank Zybach watched workers hauling irrigation pipe by hand, and thought a sprinkler could walk by itself.",
           m(0, v({"lon": -103.2, "lat": 39.2, "span": 5}, places=[STRASBURG])),
-          photo("workers hauling", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "A center pivot today")),
+          doc("Frank Zybach", 4, "U.S. Patent 2,604,359, 1952", "Frank L. Zybach: self-propelled sprinkling irrigating apparatus", "Frank L. Zybach, Strasburg", pdf=PATENT),
+          photo("thought a sprinkler", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24996240242).jpg", "A center pivot today")),
         P("He built one in 1948, near Strasburg, and patented it in 1952: a long arm of pipe on wheels, turning around a well. That is why the fields are round.",
           stat("patented", "July 22, 1952", "Frank Zybach's self-propelled sprinkler is patented", "ASABE; National Inventors Hall of Fame"),
-          photo("a long arm", "File:Center pivot sprinkler irrigation system located on a winter wheat cover crop in Morton, Texas (24746749699).jpg", "The arm turns around a well"),
+          doc("a long arm", 1, "U.S. Patent 2,604,359, 1952", "Frank L. Zybach: self-propelled sprinkling irrigating apparatus", "SELF-PROPELLED SPRINKLING IRRIGATING APPARATUS", pdf=PATENT),
           m("That is why", v(DALLAM, date=W24))),
         P("A pivot does not need flat ground or a canal. It needs a well. Watch what that did to western Kansas, from 1986 to this summer. Here the green share went from about ten percent to thirty-eight.",
           photo(0, "File:Circular irrigation sprinklers 01.jpg", "It only needs a well"),
@@ -225,7 +227,7 @@ chapters = [
         P("Guymon, Oklahoma has about thirteen thousand people and eighteen wells. It has committed some four and a half million dollars to find new ones, with no guarantee of water.",
           m(0, v({"lon": -101.48, "lat": 36.68, "span": 1.4}, places=[place("Guymon", -101.48, 36.68, "Guymon, Oklahoma", "city")]))),
         P("Its interim city manager said it plainly in 2024: \"We're running out of water.\"",
-          clip(0, "We're running out of water.", "Micheal Shannon, Guymon interim city manager, to Stateline, 2024", "running out")),
+          clip("said it plainly", "We're running out of water.", "Micheal Shannon, Guymon interim city manager, to Stateline, 2024", "running out")),
         P("Farther southwest, Clovis, New Mexico and its neighbors are building a pipeline of more than eight hundred million dollars, to bring in river water from a reservoir. The head of their water authority says these towns could not last long without it.",
           m(0, v({"lon": -103.2, "lat": 34.4, "span": 1.4}, places=[place("Clovis", -103.2, 34.4, "Clovis, New Mexico", "city")])),
           stat("more than eight", "$800 million+", "A pipeline to replace groundwater in eastern New Mexico", STATELINE)),
@@ -257,7 +259,7 @@ chapters = [
           stat("about a thousand", "1,000 to 50", "Gallons a minute, wells near Muleshoe, Texas", "Associated Press, 2021")),
         P("He stopped growing mostly corn and turned to cattle on native grass. His verdict on the old days, to the Associated Press: \"We wasted the hell out of the water.\"",
           m(0, v(MULESHOE, date=W24)),
-          clip("His verdict", "We wasted the hell out of the water.", "Tim Black, farmer, to the Associated Press, 2021", "wasted")),
+          clip("to the Associated", "We wasted the hell out of the water.", "Tim Black, farmer, to the Associated Press, 2021", "wasted")),
         P("An hour southwest of Amarillo, Chris Grotegrut has put about three quarters of his family's 11,000 acres back into native grass. That is the land's old cover, the one the plows removed before the Dust Bowl.",
           m(0, v(PANHANDLE)),
           stat("three quarters", "75%", "Of one family's 11,000 acres, back in native grass", "Associated Press, 2021")),
@@ -282,7 +284,7 @@ chapters = [
           m("Outside Garden", v(GARDEN, date=W24, places=[GARDEN_CITY]))),
         P("Garden City planned to send them treated wastewater, so they could switch off some wells next to the city's own. Yet they say the state must force others to cut back. Even the Farm Bureau's president said in 2024, \"we don't have decades.\"",
           m(0, v(GARDEN, places=[GARDEN_CITY])),
-          clip("Yet they say", "we don't have decades to fix this problem", "Joe Newland, Kansas Farm Bureau president, to Stateline, 2024", "decades")),
+          clip("Even the Farm", "we don't have decades to fix this problem", "Joe Newland, Kansas Farm Bureau president, to Stateline, 2024", "decades")),
         P("Towns are moving too. Dodge City, about twenty-eight thousand people, sends about 1.8 billion gallons of treated wastewater to irrigate three thousand acres of crops. A sixty million dollar project there aims to push treated water back into the aquifer.",
           m(0, v({"lon": -100.02, "lat": 37.76, "span": 0.3}, date=W24, places=[place("Dodge City", -100.02, 37.76, "Dodge City, Kansas", "city")])),
           stat("A sixty", "$60 million", "Dodge City's project to recharge the aquifer", STATELINE)),
@@ -296,7 +298,7 @@ chapters = [
           clip("Ground-water", "Ground-water mining is a serious problem.", "Kansas legislature report, 1955, via Stateline", "serious problem")),
         P("The state created its groundwater districts in 1972, and for decades its answer stayed local and voluntary, a policy often called planned depletion. Burke Griggs, a former state water lawyer, on those local efforts: \"None of them have achieved much.\"",
           stat(0, "1972", "Kansas creates groundwater management districts", LEWIS),
-          clip("Burke Griggs", "None of them have achieved much.", "Burke Griggs, Washburn University, to Stateline, 2024", "achieved much")),
+          clip("on those local", "None of them have achieved much.", "Burke Griggs, Washburn University, to Stateline, 2024", "achieved much")),
         P("In 2024 Governor Laura Kelly said some communities were a generation away from running out of water. She still preferred local agreement, \"rather than the state wielding that heavy hammer.\" Two years earlier, a bigger water bill had sunk on an amendment from Joe Newland, the same Farm Bureau president.",
           m(0, v({"lon": -95.68, "lat": 39.05, "span": 0.3}, places=[TOPEKA])),
           clip("She still", "rather than the state wielding that heavy hammer", "Gov. Laura Kelly to Stateline, 2024", "heavy hammer"),
@@ -307,7 +309,7 @@ chapters = [
         P("Roger Holmes, a longtime farmer there, did the math on his own land. Three inches less water could mean about fifty fewer bushels of corn an acre, up to two hundred dollars.",
           stat("about fifty", "$200 an acre", "One farmer's estimate of the cost of three inches less", KCUR)),
         P("He said he would be dead in ten years. His concern was who comes next. His words: \"It's going to affect my son.\"",
-          clip("His words", "It's going to affect my son.", "Roger Holmes, farmer, to KCUR, 2026", "my son")),
+          clip("His concern", "It's going to affect my son.", "Roger Holmes, farmer, to KCUR, 2026", "my son")),
         P("And the district has been cutting. The Kansas survey found use there since 2019 running nearly thirteen percent below the years before. For the district, that is progress. For the chief engineer, it is not enough.",
           m(0, v(KANSAS_W, places=[GARDEN_CITY])),
           stat("nearly thirteen", "13% less", "Water use in District 3 since 2019, against 2005-2018", KGS)),
@@ -445,6 +447,11 @@ for ch in chapters:
                 hits = [i for i in range(len(para_words)) if para_words[i:i + len(want)] == want]
                 if hits:
                     blocks.append((start, hits[0]))
+        anchors = pm.anchor_indices()
+        for sh, start in zip(para["shots"], anchors):  # a document holds until the next hand-placed shot
+            if sh["type"] == "document":
+                later = [x for x in anchors if x > start]
+                blocks.append((start, min(later) if later else n))
         new = []
         for a, b in zip(stops, stops[1:]):
             inside = any(lo <= a and b <= hi for lo, hi in blocks)  # a shot still running its own steps or chart reveal

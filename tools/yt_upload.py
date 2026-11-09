@@ -6,6 +6,7 @@
     python tools/yt_upload.py ogallala-aquifer --publish-at 2026-11-10T15:00:00Z   # private, goes public at that time
 
 Reads %USERPROFILE%\\Videos\\yt-pipeline\\<slug>\\ (<slug>.mp4, youtube.txt, thumbnail_D.jpg or cover_short.jpg).
+A video goes up only with an approved second-by-second audit of that exact render (tools/frame_audit.py).
 Private is fixed in the code on purpose, there is no option for anything else; --publish-at only schedules a private
 video for a time the user chose (used to replace a scheduled upload). Left for Studio: publishing, the pinned
 comment (the API cannot pin), end screens, a Short's cover if YouTube refuses it here.
@@ -68,6 +69,22 @@ def parse_youtube_txt(path: Path) -> dict:
         sys.exit(f"{path}: not in the expected format")
     return {"title": m["title"].strip(), "description": m["description"].strip(),
             "tags": [t.strip() for t in m["tags"].split(",") if t.strip()], "pinned": (m["pinned"] or "").strip()}
+
+
+def audit_status(folder: Path, video: Path) -> str | None:
+    """None when tools/frame_audit.py approved this exact file; otherwise the reason (the user's rule, 2026-11-09:
+    every render is checked second by second, start to end, before it goes to YouTube)."""
+    rep_path = folder / "audit" / "audit.json"
+    if not rep_path.exists():
+        return f"no frame audit: run tools/frame_audit.py {folder.name}, review every sheet, then --approve"
+    rep = json.loads(rep_path.read_text(encoding="utf-8"))
+    sys.path.insert(0, str(ROOT / "tools"))
+    from video_fingerprint import fingerprint  # the same fingerprint the audit recorded
+    if rep.get("fingerprint") != fingerprint(video):
+        return "the audit belongs to another render of this video: audit the new file"
+    if not rep.get("approved"):
+        return f"the audit is not approved yet ({len(rep.get('flags', []))} automatic flag(s), {len(rep.get('sheets', []))} sheets to review)"
+    return None
 
 
 def check(meta: dict) -> None:
@@ -188,6 +205,10 @@ def main() -> None:
     print(f"  description: {len(meta['description'].encode('utf-8'))} bytes, {len(meta['tags'])} tags, category {body['snippet']['categoryId']}")
     print(f"  thumbnail: {thumb.name if thumb.exists() else 'NONE FOUND'}")
     print(f"  by hand in Studio: {'pin: ' + meta['pinned'] if meta['pinned'] else 'no pinned comment'}")
+    blocked = audit_status(folder, video)
+    print(f"  frame audit: {'approved' if blocked is None else 'NOT OK: ' + blocked}")
+    if blocked and not a.dry_run:
+        sys.exit("Not uploading: " + blocked)
     if a.dry_run and not TOKEN.exists():
         print("Dry run: no upload token yet, so duplicates were not checked. Nothing was sent.")
         return

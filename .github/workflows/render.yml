@@ -119,6 +119,7 @@ jobs:
           python pipeline/run.py storyboard "$SLUG"
           (cd remotion && node stills.mjs "../build/$SLUG/timeline.json" "../build/$SLUG/sb" "$(cat ../build/$SLUG/storyboard_frames.txt)")
           python tools/contact_sheet.py "build/$SLUG/storyboard.json" "build/$SLUG/sb" "out/$SLUG/storyboard"
+          cp "build/$SLUG/timeline.json" "out/$SLUG/storyboard/"
 
       - name: Render video (Remotion)
         if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
@@ -154,7 +155,8 @@ jobs:
             echo
             echo "Download (PowerShell): gh release download $TAG -R $GITHUB_REPOSITORY -D \"\$env:USERPROFILE\Videos\yt-pipeline\\$SLUG\""
           } > notes.md
-          gh release create "$TAG" "$OUT/$OUT_NAME.mp4" "$OUT/youtube.txt" "$OUT/credits.txt" $(ls "$OUT"/thumbnails/*.jpg 2>/dev/null)             --prerelease --title "$OUT_NAME $(date -u +%F)" --notes-file notes.md
+          cp "build/$SLUG/timeline.json" "$OUT/timeline.json"
+          gh release create "$TAG" "$OUT/$OUT_NAME.mp4" "$OUT/youtube.txt" "$OUT/credits.txt" "$OUT/timeline.json" $(ls "$OUT"/thumbnails/*.jpg 2>/dev/null)             --prerelease --title "$OUT_NAME $(date -u +%F)" --notes-file notes.md
           echo "Release: $TAG (${DUR} s, ${SIZE} MB)" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifact (stills / storyboard, 2-day retention)

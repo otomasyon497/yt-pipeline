@@ -460,6 +460,19 @@ for ch in chapters:
             pos = dict(zip(map(id, para["shots"]), pm.anchor_indices()))
             para["shots"] = sorted(para["shots"] + new, key=lambda sh: pos.get(id(sh), sh["at"] if isinstance(sh["at"], int) else 0))
 
+# Between close views a flight passes through coarse imagery for a second: cut instead. Wide-to-wide moves still fly.
+prev_span = None
+for ch in chapters:
+    for para in ch["paragraphs"]:
+        for sh in para["shots"]:
+            if sh["type"] != "map":
+                prev_span = None
+                continue
+            views = [st["view"]["span"] for st in sh["map"]["steps"] if st.get("view")]
+            if views and prev_span is not None and (views[0] <= 2 or prev_span <= 2) and not sh["map"].get("keep"):
+                sh["map"]["cut"] = True
+            prev_span = views[-1] if views else prev_span
+
 script = {
     "title": "The Ogallala Aquifer",
     "voice": "am_michael",

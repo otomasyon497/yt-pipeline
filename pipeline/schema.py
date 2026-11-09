@@ -229,6 +229,7 @@ class MapStep(BaseModel):
 class MapSpec(BaseModel):
     globe: bool = False  # open on a spinning globe that dives into the first view
     keep: bool = False  # keep the previous map shot's overlays instead of clearing them
+    cut: bool = False  # start a new map block: a straight cut, no camera flight through coarse imagery
     steps: list[MapStep] = Field(default_factory=list)
     # v2 shorthand (one step): countries to highlight + labelled points
     highlight: list[str] = Field(default_factory=list)

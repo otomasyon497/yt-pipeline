@@ -149,7 +149,7 @@ def group_units(shots: list[dict], total_frames: int, beats: list[int] | None = 
     """
     units: list[dict] = []
     for s in shots:
-        if s["kind"] == "map" and units and units[-1]["kind"] == "map" and not s["src"].map.globe:
+        if s["kind"] == "map" and units and units[-1]["kind"] == "map" and not s["src"].map.globe and not s["src"].map.cut:
             units[-1]["subs"].append(s)
             continue
         units.append({"id": ("m" + s["id"]) if s["kind"] == "map" else s["id"], "kind": s["kind"], "subs": [s],

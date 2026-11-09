@@ -153,7 +153,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dumas, Texas"
       },
@@ -170,7 +171,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Hereford, Texas"
       },
@@ -189,7 +191,8 @@
            "file:aquifer.geojson"
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Deines et al., 2019: 34 years of Landsat maps"
       },
@@ -206,7 +209,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Plainview, Texas"
       },
@@ -223,7 +227,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "North of Lubbock, Texas"
       }
@@ -245,7 +250,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -269,7 +275,8 @@
            "Kansas"
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The High Plains aquifer"
       },
@@ -286,7 +293,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       }
@@ -308,7 +316,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -324,7 +333,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Levelland, Texas"
       }
@@ -391,7 +401,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -407,7 +418,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Ulysses, Kansas"
       }
@@ -429,7 +441,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -472,7 +485,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       }
@@ -505,7 +519,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -521,7 +536,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Liberal, Kansas"
       },
@@ -565,7 +581,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Lakin, Kansas"
       }
@@ -627,7 +644,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -700,7 +718,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Syracuse, Kansas"
       }
@@ -757,7 +776,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -773,7 +793,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Muleshoe, Texas"
       },
@@ -790,7 +811,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The Texas Panhandle"
       }
@@ -887,7 +909,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The Texas Panhandle"
       },
@@ -943,7 +966,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -1014,7 +1038,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       }
      ]
@@ -1068,7 +1093,8 @@
          {
           "at": "Here the"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Goodland, Kansas"
       }
@@ -1098,7 +1124,8 @@
            "file:aquifer.geojson"
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Ogallala / High Plains aquifer"
       },
@@ -1115,7 +1142,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Scott City, Kansas"
       },
@@ -1131,7 +1159,8 @@
            "span": 9
           }
          }
-        ]
+        ],
+        "cut": true
        }
       }
      ]
@@ -1171,7 +1200,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Tulia, Texas"
       }
@@ -1250,7 +1280,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       },
@@ -1299,7 +1330,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -1315,7 +1347,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Leoti, Kansas"
       },
@@ -1332,7 +1365,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Lakin, Kansas"
       }
@@ -1537,7 +1571,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -1661,7 +1696,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Central Nebraska"
       },
@@ -1678,7 +1714,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -1694,7 +1731,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Western Nebraska"
       }
@@ -1783,7 +1821,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Syracuse, Kansas"
       },
@@ -1800,7 +1839,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       }
@@ -1822,7 +1862,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Scott City, Kansas"
       },
@@ -1875,7 +1916,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Garden City, Kansas"
       },
@@ -1892,7 +1934,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Ulysses, Kansas"
       },
@@ -1909,7 +1952,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Sublette, Kansas"
       },
@@ -1962,7 +2006,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       },
@@ -2006,7 +2051,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Leoti, Kansas"
       }
@@ -2068,7 +2114,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2084,7 +2131,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Guymon, Oklahoma"
       },
@@ -2101,7 +2149,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Guymon, Oklahoma"
       }
@@ -2163,7 +2212,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2179,7 +2229,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Clovis, New Mexico"
       },
@@ -2222,7 +2273,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Clovis, New Mexico"
       }
@@ -2246,7 +2298,8 @@
            "file:aquifer.geojson"
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2262,7 +2315,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -2306,7 +2360,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       }
@@ -2336,7 +2391,8 @@
            "Texas"
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2352,7 +2408,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dumas, Texas"
       },
@@ -2402,7 +2459,8 @@
            "Texas"
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The rule of capture"
       },
@@ -2445,7 +2503,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "North of Lubbock, Texas"
       },
@@ -2462,7 +2521,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Levelland, Texas"
       }
@@ -2493,7 +2553,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2509,7 +2570,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Muleshoe, Texas"
       },
@@ -2526,7 +2588,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The Texas Panhandle"
       },
@@ -2557,7 +2620,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       }
      ]
@@ -2604,7 +2668,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dimmitt, Texas"
       }
@@ -2635,7 +2700,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2683,7 +2749,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2699,7 +2766,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dalhart, Texas"
       }
@@ -2736,7 +2804,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2752,7 +2821,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Stratford, Texas"
       },
@@ -2800,7 +2870,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2816,7 +2887,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Hereford, Texas"
       },
@@ -2864,7 +2936,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2906,7 +2979,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Levelland, Texas"
       }
@@ -2928,7 +3002,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Muleshoe, Texas"
       },
@@ -2945,7 +3020,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The Texas Panhandle"
       },
@@ -2988,7 +3064,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The Texas Panhandle"
       }
@@ -3010,7 +3087,8 @@
           },
           "date": "2026-07-01/2026-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3026,7 +3104,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dimmitt, Texas"
       }
@@ -3063,7 +3142,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3079,7 +3159,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Sheridan County, Kansas"
       },
@@ -3096,7 +3177,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Sheridan County, Kansas"
       },
@@ -3113,7 +3195,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       }
      ]
@@ -3209,7 +3292,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Sheridan County, Kansas"
       },
@@ -3226,7 +3310,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Goodland, Kansas"
       },
@@ -3243,7 +3328,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Northwest Kansas"
       }
@@ -3300,7 +3386,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3316,7 +3403,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -3333,7 +3421,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Scott City, Kansas"
       }
@@ -3364,7 +3453,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3380,7 +3470,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Ulysses, Kansas"
       },
@@ -3423,7 +3514,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       }
@@ -3454,7 +3546,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3470,7 +3563,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Liberal, Kansas"
       },
@@ -3487,7 +3581,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Leoti, Kansas"
       },
@@ -3535,7 +3630,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3551,7 +3647,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3567,7 +3664,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Sheridan County, Kansas"
       }
@@ -3599,7 +3697,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -3656,7 +3755,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -3713,7 +3813,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3729,7 +3830,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -3812,7 +3914,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3828,7 +3931,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Sublette, Kansas"
       },
@@ -3845,7 +3949,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       },
@@ -3924,7 +4029,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Lakin, Kansas"
       },
@@ -3980,7 +4086,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -4023,7 +4130,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       }
@@ -4045,7 +4153,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4061,7 +4170,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Syracuse, Kansas"
       },
@@ -4078,7 +4188,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       },
@@ -4152,7 +4263,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Sublette, Kansas"
       }
@@ -4183,7 +4295,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4199,7 +4312,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Sheridan County, Kansas"
       },
@@ -4216,7 +4330,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       },
@@ -4233,7 +4348,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Liberal, Kansas"
       },
@@ -4307,7 +4423,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       }
@@ -4344,7 +4461,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4360,7 +4478,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Finney County, Kansas"
       },
@@ -4377,7 +4496,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Southwest Kansas"
       }
@@ -4414,7 +4534,8 @@
           ],
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4430,7 +4551,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Syracuse, Kansas"
       }
@@ -4478,7 +4600,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Scott City, Kansas"
       },
@@ -4495,7 +4618,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Ulysses, Kansas"
       },
@@ -4544,7 +4668,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Dodge City, Kansas"
       },
@@ -4561,7 +4686,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Liberal, Kansas"
       },
@@ -4623,7 +4749,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4639,7 +4766,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Leoti, Kansas"
       },
@@ -4656,7 +4784,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Lakin, Kansas"
       }

@@ -1,12 +1,18 @@
 # PROGRESS
 
-## Status (2026-11-09, 21:20 UTC; start here)
-- Ogallala fix: the full-frame scan found every quote card cut off or early (the filler ignored documents) and the
-  repeated pivot photo; fixed (filler blocks documents; cards start before their quote; Zybach patent pages US 2,604,359).
-  Commit 8bf48f6. Re-render run 42694905414 (in progress). Then: fetch_episode.ps1, frame check, then
-  `python tools/yt_upload.py ogallala-aquifer --force --publish-at 2026-11-10T15:00:00Z` (new flag, private + scheduled),
-  verify publishAt, then delete the old 903F5prq9EM in Studio via Chrome (user approved deletion 2026-11-09).
-  The two Ogallala Shorts are unchanged (no quote cards) and stay scheduled.
+## Status (2026-11-09, ~22:00 UTC; start here)
+- NEW RULE (user, 2026-11-09): every render is audited second by second before upload: tools/frame_audit.py
+  (venv python -I) -> look at EVERY sheet -> fix -> re-render -> audit -> `--approve "note"`. yt_upload refuses
+  files without an approved audit of that exact render. Releases now carry timeline.json.
+- Ogallala replacement, all three videos (user approved re-upload of long + both Shorts and deleting the old ones
+  903F5prq9EM, CLGm0e1-SFY, LBTVfQGwVYA, 2026-11-09). Old ones are private, scheduled 2026-11-10T15:00Z.
+  Audit of render 42694905414 found: count-ups through ranges ("10% to 58%", "704 to 50") and IDs ("HB 795"),
+  patent Fig. 1 out of frame, decline chart shown/cut/restarted, 27.7 % and 18-32 % cards held 7-8 s. All fixed
+  (timeline.py count_up; build_script.py). Long v3 render run 42703344451; Shorts v3 runs 42703523429 (orbit),
+  42703530084 (farmers): earlier Short v2 audit found hazy Garden City / SW Kansas views -> clear day 2024-08-02.
+  Next per video: fetch_episode.ps1 -> frame_audit -> review all sheets -> --approve ->
+  `python tools/yt_upload.py <slug> --force --publish-at 2026-11-10T15:00:00Z` -> verify publishAt via API ->
+  delete the old video in Studio (Chrome) -> report.
 - Episode 10 langtang-collapse (Nepal-Tibet flood of 26 Aug 2026): topic from the radar, gate 1 approved by the user
   2026-11-09. Script 2,229 words (~16.4 min), episode_check OK, factcheck.md complete (no FIX). Storyboard run
   42700740718 in progress; next: look at the contact sheets, fix, full render, gate 2 with the user.

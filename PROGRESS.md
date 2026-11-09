@@ -19,7 +19,10 @@
 - Topic radar: tools/topic_radar.py (34 search calls a run; first output docs/topic-radar-2026-11-08.md). Leads offered to
   the user with a first source check: Ogallala aquifer (recommended, Landsat pivots), Kansai airport, Medog / Siang
   dams. Word estimates are from one search each, not a research dossier; do that after the user picks.
-- Next episode: ogallala-aquifer, the user's pick from the radar. research.md, PLAN.md (gate 1, 2,400 words) written, waiting for approval. Test the Landsat wipes first: the hook needs fields that visibly dried.
+- Episode 9 ogallala-aquifer made overnight at the user's request (2026-11-09) and uploaded PRIVATE, not scheduled: long 903F5prq9EM (15:40, run 42543077201), Shorts CLGm0e1-SFY (orbit), LBTVfQGwVYA (farmers). The user reviews them; publishing, pinned comments and Related video are still to do. Sound not checked.
+  Package: "Kansas Rejected Farmers' Plan to Save Their Water" + UNUSABLE?. Own measurement (tools/ogallala_green.py) overturned the first hook: green land grew near Dalhart (17 to 58 %), it did not shrink; all seven boxes were down in 2026, unexplained, said so in the video. Scripts come from build_script.py and build_shorts.py.
+  Engine: `map.cut` (a straight cut, no flight through coarse imagery between close views), a compare that cannot be built now stops the render, ranges like 500-1,300 do not count up. Lessons: check real pictures and measure before writing a hook; automatic filler must follow the sentence and never interrupt a document, wipe or chart.
+- Advanced features verified by the user 2026-11-09: docs/youtube-feature-access.md.
 - Descriptions now hold intro + chapters + tags only (the user's decision; credits.txt keeps the sources).
 - API upload built at the user's request (2026-11-09): tools/yt_upload.py, private only (fixed in the code), reads the
   privacy back after the upload; the user reviews and publishes in Studio. Own write token token_upload.json; the

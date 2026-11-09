@@ -1,5 +1,16 @@
 # PROGRESS
 
+## Check (2026-11-09, 20:30 UTC)
+- API: Indus long nbB4DKNWp7Y and both Shorts went PUBLIC at 15:00Z (long not moved to 14:50Z). Views at 20:20Z:
+  long 3, tunnel Short 200, dam Short 20; 0 comments, so pinned comments are not posted; Related video still to do.
+- Ogallala three videos: private, publishAt 2026-11-10T15:00Z, processed.
+- Sound checked on all six local files (first time; tools: Remotion's ffmpeg has no ebur128/s16le, so WAV -> numpy):
+  speech RMS about -18 dBFS, peaks -0.7 to -0.9 dBFS, no clipping, no silent gap over 1.6 s, mono in stereo. Levels
+  only; nobody listened for voice errors.
+- Ogallala frames 3:06-3:51: "Near Dimmitt" no longer sits over the Colorado map (fixed). Still there: the same
+  pivot photo "A center pivot today" holds 3:15-3:22 and comes back at 3:27 after the date card, while the narration
+  is about Zybach in 1947-52 (minor; would need a re-render and re-upload before 10 Nov 15:00Z).
+
 ## Status (2026-11-09, 04:04 UTC / 07:04 TR; start here)
 Checked through the API at that time; nothing below has been published by Claude. Uploads stay private; the user schedules.
 

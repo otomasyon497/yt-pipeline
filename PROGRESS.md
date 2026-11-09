@@ -10,7 +10,9 @@
   patent Fig. 1 out of frame, decline chart shown/cut/restarted, 27.7 % and 18-32 % cards held 7-8 s. All fixed
   (timeline.py count_up; build_script.py). Long v3 render run 42703344451; Shorts v3 runs 42703523429 (orbit),
   42703530084 (farmers): earlier Short v2 audit found hazy Garden City / SW Kansas views -> clear day 2024-08-02.
-  Next per video: fetch_episode.ps1 -> frame_audit -> review all sheets -> --approve ->
+  DONE Shorts (2026-11-09 ~22:00Z): audited + approved; uploaded private, publishAt 2026-11-10T15:00Z:
+  orbit CBB6a3OKlv4, farmers YIkaJyUoHAQ; old CLGm0e1-SFY and LBTVfQGwVYA permanently deleted in Studio.
+  Long video still to do (run 42703344451). Next per video: fetch_episode.ps1 -> frame_audit -> review all sheets -> --approve ->
   `python tools/yt_upload.py <slug> --force --publish-at 2026-11-10T15:00:00Z` -> verify publishAt via API ->
   delete the old video in Studio (Chrome) -> report.
 - Episode 10 langtang-collapse (Nepal-Tibet flood of 26 Aug 2026): topic from the radar, gate 1 approved by the user

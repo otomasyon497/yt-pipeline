@@ -59,7 +59,7 @@ build("ogallala-short-orbit", "From Space, These Farms Look Fine",
     {"text": "But the water comes from one aquifer under eight states.", "shots": [map_shot(0, [{"view": WHOLE, "highlight": [AQ]}], "The High Plains aquifer")]},
     {"text": "Here in Texas, it has fallen forty-four feet on average since about 1950.", "shots": [map_shot(0, [{"view": {"lon": -102.07, "lat": 36.34, "span": 0.16}, "date": W24}], "Texas: down 44 feet on average")]},
     {"text": "One well dropped two hundred sixty-five.", "shots": [map_shot(0, [{"view": DAL_CLOSE, "date": W24}], "One Texas well: down 265 feet")]},
-    {"text": "In Kansas, the state's chief engineer warns that in one district the groundwater could be near unusable within fifty years.", "shots": [map_shot(0, [{"view": GARDEN, "date": W24, "places": [GC]}], "Kansas chief engineer, Nov 2026"), map_shot("could be near", [{"view": {"lon": -101.25, "lat": 37.95, "span": 0.16}, "date": W24}], "Near Lakin, Kansas")]},
+    {"text": "In Kansas, the state's chief engineer warns that in one district the groundwater could be near unusable within fifty years.", "shots": [map_shot(0, [{"view": GARDEN, "date": "2024-08-02/2024-08-02", "places": [GC]}], "Kansas chief engineer, Nov 2026"), map_shot("could be near", [{"view": {"lon": -101.25, "lat": 37.95, "span": 0.16}, "date": W24}], "Near Lakin, Kansas")]},
     {"text": "So how long can the circles stay green?", "shots": [map_shot(0, [{"view": DALLAM, "date": W24}], "How long can they stay green?")]},
 ])
 
@@ -74,6 +74,6 @@ build("ogallala-short-farmers", "These Kansas Farmers Cut Their Own Water",
     {"text": "They capped their own pumping. The target was twenty percent.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Target: a 20% cut")]},
     {"text": "They cut about twenty-three.", "shots": [map_shot(0, [{"view": {"lon": -100.6, "lat": 39.35, "span": 0.08}, "date": W24}], "They reached 23%")]},
     {"text": "The water level had been falling two feet a year. It slowed to half a foot.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "2 feet a year, then half a foot"), map_shot("It slowed", [{"view": {"lon": -100.6, "lat": 39.35, "span": 0.1}, "date": W24}])]},
-    {"text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.", "shots": [map_shot(0, [{"view": {"lon": -100.72, "lat": 37.72, "span": 0.16}, "date": W24}], "Southwest Kansas"), map_shot("The state", [{"view": GARDEN, "date": "2024-08-02/2024-08-02", "places": [GC]}], "Rejected, Sept 30, 2026")]},
+    {"text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.", "shots": [map_shot(0, [{"view": {"lon": -100.72, "lat": 37.72, "span": 0.16}, "date": "2024-08-02/2024-08-02"}], "Southwest Kansas"), map_shot("The state", [{"view": GARDEN, "date": "2024-08-02/2024-08-02", "places": [GC]}], "Rejected, Sept 30, 2026")]},
     {"text": "Would you cut your own water before anyone made you?", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Would you cut first?")]},
 ])

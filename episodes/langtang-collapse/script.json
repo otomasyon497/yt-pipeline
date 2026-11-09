@@ -1,0 +1,4780 @@
+{
+ "title": "The Langtang Collapse",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/langtang-collapse/research.md and factcheck.md"
+ ],
+ "thumbnail": {
+  "text": "38 MINUTES"
+ },
+ "chapters": [
+  {
+   "title": "Not an Earthquake",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "At 8:37 on the morning of August 26, seismographs recorded a magnitude 5.2 shock in the mountains of Nepal, near the border with Tibet. The US Geological Survey first listed it as an earthquake. It was not one.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.6,
+           "lat": 28.3,
+           "span": 8.5
+          },
+          "highlight": [
+           "Nepal"
+          ],
+          "places": [
+           {
+            "name": "Kathmandu",
+            "lon": 85.324,
+            "lat": 27.7172,
+            "kind": "capital",
+            "label": "Kathmandu"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "a magnitude",
+       "stat": {
+        "value": "M 5.2",
+        "label": "The shock recorded at 08:37, 26 August 2026",
+        "source": "USGS; EarthSky, Aug 27, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": "near the border",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.35,
+           "lat": 28.1,
+           "span": 2.2
+          },
+          "places": [
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           },
+           {
+            "name": "Kathmandu",
+            "lon": 85.324,
+            "lat": 27.7172,
+            "kind": "capital",
+            "label": "Kathmandu"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The US",
+       "stat": {
+        "value": "\"Earthquake\"",
+        "label": "How the US Geological Survey first listed it",
+        "source": "USGS; EarthSky, Aug 27, 2026",
+        "note": "M 4.4 in its first report"
+       }
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      }
+     ]
+    },
+    {
+     "text": "This is the valley below it last October. And this is the same valley this October. That grey line running down the mountain was not there a year ago.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "And this"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "And this"
+         },
+         {
+          "at": "That grey",
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "Where the ice broke"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Real satellite images · Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "What the instruments heard was a piece of mountain falling. A block of ice and rock broke off the north side of Langtang Lirung, a peak of 7,227 metres, and dropped more than a kilometre.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": "What the",
+       "photo": "File:Le Langtang Lirung (Himalaya, Népal) (8448200379).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": "A block",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "Where the ice broke"
+           },
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende river"
+      }
+     ]
+    },
+    {
+     "text": "It became a flood that ran about a hundred kilometres into Nepal. By mid-October, police counted 1,456 dead and 5,285 still missing.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.32,
+           "lat": 28.1,
+           "span": 0.75
+          },
+          "routes": [
+           {
+            "from": [
+             85.5252,
+             28.2853
+            ],
+            "to": [
+             85.1101,
+             27.86
+            ],
+            "mode": "line",
+            "seconds": 6,
+            "label": "The flood's path",
+            "via": [
+             [
+              85.505,
+              28.315
+             ],
+             [
+              85.481,
+              28.338
+             ],
+             [
+              85.43,
+              28.335
+             ],
+             [
+              85.395,
+              28.322
+             ],
+             [
+              85.3778,
+              28.2778
+             ],
+             [
+              85.3667,
+              28.2528
+             ],
+             [
+              85.345,
+              28.2
+             ],
+             [
+              85.343,
+              28.16
+             ],
+             [
+              85.3,
+              28.1
+             ],
+             [
+              85.207,
+              28.0718
+             ],
+             [
+              85.219,
+              28.0326
+             ],
+             [
+              85.186,
+              27.9731
+             ],
+             [
+              85.148,
+              27.9232
+             ]
+            ]
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 6,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "stat",
+       "at": "By mid-October",
+       "stat": {
+        "value": "1,456 dead",
+        "label": "And 5,285 still missing in Nepal",
+        "source": "Nepal Police, Oct 14, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A preliminary study says the ice had been moving unusually fast for two years, and satellites recorded it. So why did the warning reach phones thirty-eight minutes after the collapse? And why was this the third time in eleven years that this valley was destroyed?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "stat",
+       "at": "thirty-eight",
+       "stat": {
+        "value": "38 minutes",
+        "label": "From the collapse to the text alerts",
+        "source": "Kathmandu Post, Sep 2, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 37,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Lhende river"
+      }
+     ],
+     "ask": {
+      "at": "And why",
+      "text": "Could anyone have seen it coming?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Within Minutes",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The ice and rock fell about eight kilometres down a side valley into the Lhende river, on the Tibetan side of the border. On the way it picked up loose rock, mud and water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "down a side",
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "Where the ice broke"
+           }
+          ]
+         },
+         {
+          "at": "the Tibetan",
+          "highlight": [
+           "China"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 25,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      }
+     ]
+    },
+    {
+     "text": "Then the flood turned west, toward the border crossing at Rasuwagadhi, about thirteen kilometres downstream. On the Chinese side stands Gyirong Port, which handled close to a third of Nepal's trade with China, by Chinese figures.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "toward the border",
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "Rasuwagadhi"
+           }
+          ]
+         },
+         {
+          "at": "On the Chinese",
+          "places": [
+           {
+            "name": "Gyirong Port",
+            "lon": 85.383,
+            "lat": 28.284,
+            "kind": "port",
+            "label": "Gyirong Port (China)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi"
+      }
+     ]
+    },
+    {
+     "text": "Cameras there filmed the water arriving within minutes. Chinese state television showed it hitting the customs and immigration building. Some experts put its speed at more than a hundred kilometres an hour.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "hold": 0.6
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "Chinese state",
+          "places": [
+           {
+            "name": "Gyirong Port",
+            "lon": 85.383,
+            "lat": 28.284,
+            "kind": "port",
+            "label": "Gyirong Port (China)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Some experts",
+       "stat": {
+        "value": "100+ km/h",
+        "label": "The flood's speed, by some experts' estimates",
+        "source": "OnlineKhabar, Sep 2, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      }
+     ]
+    },
+    {
+     "text": "After a flood here the year before, the Chinese side had built a new flood wall and dikes and held an evacuation drill. The water went through them in minutes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Toward the border"
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      }
+     ]
+    },
+    {
+     "text": "China's premier, Li Qiang, was in Gyirong the same day. A makeshift road to the port was finished a week later, and trade moved to the Korala crossing, far to the west.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Gyirong",
+            "lon": 85.3276,
+            "lat": 28.3961,
+            "kind": "city",
+            "label": "Gyirong town"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Toward the border"
+      }
+     ]
+    },
+    {
+     "text": "On the Nepali side it took the customs office and the dry port, with its containers and trucks. More than three hundred vehicles were swept away.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      },
+      {
+       "type": "stat",
+       "at": "More than",
+       "stat": {
+        "value": "300+",
+        "label": "Vehicles swept away at Rasuwagadhi",
+        "source": "Government of Nepal, via Wikipedia summary"
+       }
+      }
+     ]
+    },
+    {
+     "text": "From here the river is called the Bhotekoshi. It runs south through a narrow gorge, past Timure, to Syafrubesi, where trekkers start the walk into Langtang.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.365,
+           "lat": 28.245,
+           "span": 0.07
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "through a narrow"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "through a narrow"
+         },
+         {
+          "at": "past Timure",
+          "places": [
+           {
+            "name": "Timure",
+            "lon": 85.3667,
+            "lat": 28.2528,
+            "kind": "site",
+            "label": "Timure"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "where trekkers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Syafrubesi",
+            "lon": 85.343,
+            "lat": 28.16,
+            "kind": "site",
+            "label": "Syafrubesi"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In places the water rose about eighty metres above the normal river, high enough to reach houses built on terraces well above it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "high enough"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "high enough"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then the Trishuli: below the hill town of Dhunche, past Mailung and Betrawati, down to Trishuli and Devighat, about a hundred kilometres from where the ice fell.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.32,
+           "lat": 28.1,
+           "span": 0.75
+          },
+          "routes": [
+           {
+            "from": [
+             85.5252,
+             28.2853
+            ],
+            "to": [
+             85.1101,
+             27.86
+            ],
+            "mode": "line",
+            "seconds": 6,
+            "label": "The flood's path",
+            "via": [
+             [
+              85.505,
+              28.315
+             ],
+             [
+              85.481,
+              28.338
+             ],
+             [
+              85.43,
+              28.335
+             ],
+             [
+              85.395,
+              28.322
+             ],
+             [
+              85.3778,
+              28.2778
+             ],
+             [
+              85.3667,
+              28.2528
+             ],
+             [
+              85.345,
+              28.2
+             ],
+             [
+              85.343,
+              28.16
+             ],
+             [
+              85.3,
+              28.1
+             ],
+             [
+              85.207,
+              28.0718
+             ],
+             [
+              85.219,
+              28.0326
+             ],
+             [
+              85.186,
+              27.9731
+             ],
+             [
+              85.148,
+              27.9232
+             ]
+            ]
+           }
+          ],
+          "places": [
+           {
+            "name": "Dhunche",
+            "lon": 85.2961,
+            "lat": 28.1128,
+            "kind": "site",
+            "label": "Dhunche"
+           },
+           {
+            "name": "Mailung",
+            "lon": 85.207,
+            "lat": 28.0718,
+            "kind": "site",
+            "label": "Mailung"
+           },
+           {
+            "name": "Betrawati",
+            "lon": 85.186,
+            "lat": 27.9731,
+            "kind": "site",
+            "label": "Betrawati"
+           },
+           {
+            "name": "Trishuli",
+            "lon": 85.148,
+            "lat": 27.9232,
+            "kind": "city",
+            "label": "Trishuli"
+           },
+           {
+            "name": "Devighat",
+            "lon": 85.1101,
+            "lat": 27.86,
+            "kind": "site",
+            "label": "Devighat"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mailung"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Betrawati"
+      }
+     ]
+    },
+    {
+     "text": "And the danger did not end that morning. The debris dammed the river in Tibet, and two lakes formed behind it. Two days later, Chinese authorities warned that one of them, holding about two million cubic metres, could burst. Rescue work in Nepal stopped while it overflowed. It drained over the next two days without a second disaster.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.46,
+           "lat": 28.335,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "Where the ice broke"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley, Tibet"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      },
+      {
+       "type": "stat",
+       "at": "Two days later",
+       "stat": {
+        "value": "2 million m³",
+        "label": "Water held by one barrier lake in Tibet, 28 August",
+        "source": "Chinese authorities, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Toward the border"
+      },
+      {
+       "type": "map",
+       "at": 39,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi"
+      }
+     ]
+    },
+    {
+     "text": "Bodies were later recovered about two hundred and fifty kilometres away, across the border in India. So who was warned, and when?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.4,
+           "lat": 27.3,
+           "span": 3.2
+          },
+          "highlight": [
+           "Nepal",
+           "India"
+          ],
+          "places": [
+           {
+            "name": "Trishuli",
+            "lon": 85.148,
+            "lat": 27.9232,
+            "kind": "city",
+            "label": "Trishuli"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trishuli"
+      }
+     ],
+     "ask": {
+      "at": "So who",
+      "text": "Who should have sounded the alarm?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Thirty-Eight Minutes",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Nepal does have a flood warning system on this river. It was built for the monsoon: rain that swells a river over hours, watched by gauges upstream.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Devighat"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.219,
+           "lat": 28.033,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ramche"
+      }
+     ]
+    },
+    {
+     "text": "This flood started above all of them. The stations nearest the border were swept away before they could warn anyone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "Rasuwagadhi"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      }
+     ]
+    },
+    {
+     "text": "A fellow at the Stimson Center, a research institute in Washington, called this stretch of the border a monitoring blind spot. Nothing on either side was watching the ice in real time.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "Rasuwagadhi"
+           },
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "Where the ice broke"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Toward the border"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      }
+     ]
+    },
+    {
+     "text": "Officials in Rasuwa called the Department of Hydrology and Meteorology at about nine. Text alerts went out at about 9:15, more than six hundred thousand of them. That was thirty-eight minutes after the collapse.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Morning of 26 August 2026, Nepal time",
+        "unit": " min",
+        "data": [
+         [
+          "08:37 collapse",
+          0
+         ],
+         [
+          "09:00 call",
+          23
+         ],
+         [
+          "09:15 alerts",
+          38
+         ]
+        ],
+        "source": "Kathmandu Post, Sep 2, 2026",
+        "highlight": 2,
+        "reveal": [
+         "about nine.",
+         "Text alerts"
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "more than six",
+       "stat": {
+        "value": "600,000+",
+        "label": "Text alerts sent around 9:15",
+        "source": "Kathmandu Post, Sep 2, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Mailung"
+      }
+     ]
+    },
+    {
+     "text": "Once it started, the system was fast: almost 680,000 messages went out within a minute. A former environment minister still called the delay a failure of communication.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "679,295",
+        "label": "Text alerts sent within one minute",
+        "source": "Government of Nepal, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Betrawati"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trishuli"
+      }
+     ]
+    },
+    {
+     "text": "For Rasuwagadhi and Timure it came far too late. Farther down the river, every minute counted.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.365,
+           "lat": 28.245,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Farther down",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.18,
+           "lat": 27.965,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Betrawati",
+            "lon": 85.186,
+            "lat": 27.9731,
+            "kind": "site",
+            "label": "Betrawati"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In Trishuli, a headteacher named Rajendra Dawadi moved about nine hundred children out of his school. Local reports say the flood reached it ten minutes later.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.145,
+           "lat": 27.915,
+           "span": 0.08
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "Local reports"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "moved about",
+          "places": [
+           {
+            "name": "Trishuli",
+            "lon": 85.148,
+            "lat": 27.9232,
+            "kind": "city",
+            "label": "Trishuli"
+           }
+          ]
+         },
+         {
+          "at": "Local reports"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Across the border, Tibetan officials said about twenty minutes passed between the collapse and the surge, and that a warning in that window could have saved lives.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "places": [
+           {
+            "name": "Gyirong",
+            "lon": 85.3276,
+            "lat": 28.3961,
+            "kind": "city",
+            "label": "Gyirong town"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about twenty",
+       "stat": {
+        "value": "~20 minutes",
+        "label": "From collapse to surge, Tibetan officials said",
+        "source": "Chinese officials via Asianet, Sep 2026",
+        "note": "Not independently verified"
+       }
+      },
+      {
+       "type": "map",
+       "at": 13,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Rasuwagadhi"
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      }
+     ]
+    },
+    {
+     "text": "The Kathmandu Post summed it up in its headline: the alert went out thirty-eight minutes after the collapse, and it was not enough.",
+     "shots": [
+      {
+       "type": "document",
+       "at": "the alert went",
+       "document": {
+        "text": "Nepal sent its disaster alert 38 minutes after the glacier collapse. It wasn't enough",
+        "source": "Kathmandu Post, Sep 2, 2026",
+        "highlight": "It wasn't enough"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Valley Remembers",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "None of this was new to this valley. On April 25, 2015, at 11:56 in the morning, a magnitude 7.8 earthquake shook Nepal, about seventy kilometres west of here.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.6,
+           "lat": 28.3,
+           "span": 8.5
+          },
+          "places": [
+           {
+            "name": "Epicentre",
+            "lon": 84.73,
+            "lat": 28.23,
+            "kind": "event",
+            "label": "Epicentre, 25 April 2015"
+           },
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Langtang Khola Rasuwa District.jpg",
+       "on_screen_text": "The Langtang river"
+      },
+      {
+       "type": "stat",
+       "at": "a magnitude",
+       "stat": {
+        "value": "M 7.8",
+        "label": "The Gorkha earthquake, 25 April 2015, 11:56",
+        "source": "Himal Southasian, 2025"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 23,
+       "photo": "File:Kyanjin Gompa Village Rasuwa.jpg",
+       "on_screen_text": "Kyanjin Gompa, up the valley"
+      }
+     ]
+    },
+    {
+     "text": "On the south side of the same mountain, a hanging block of glacier broke loose. Within minutes, the debris buried almost all of Langtang village.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.51,
+           "lat": 28.215,
+           "span": 0.14
+          },
+          "date": "2014-10-20/2014-11-21"
+         },
+         {
+          "at": "a hanging",
+          "places": [
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ]
+         },
+         {
+          "at": "Within minutes",
+          "places": [
+           {
+            "name": "Langtang",
+            "lon": 85.509,
+            "lat": 28.2158,
+            "kind": "site",
+            "label": "Langtang village"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "ICIMOD found that the eight highest villages of the valley were destroyed, not just Langtang.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.51,
+           "lat": 28.215,
+           "span": 0.14
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.509,
+           "lat": 28.2158,
+           "span": 0.08
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang village"
+      }
+     ]
+    },
+    {
+     "text": "Langtang was a trekking village, with fifty-five guesthouses. Its people call the valley a beyul, a hidden sacred refuge, and Langtang Lirung its protector.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Langtang Khola Rasuwa District.jpg",
+       "on_screen_text": "The Langtang valley"
+      },
+      {
+       "type": "photo",
+       "at": "Its people",
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "photo",
+       "at": 16,
+       "photo": "File:Langtang Khola Rasuwa Jilla.jpg",
+       "on_screen_text": "Langtang valley"
+      }
+     ]
+    },
+    {
+     "text": "The blast of air in front of it flattened buildings that had survived and knocked down a forest of grown trees. Here is the village from orbit, the autumn before and the autumn after.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Langtang Khola Rasuwa District.jpg",
+       "on_screen_text": "The Langtang river"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:Kyanjin Gompa Village Rasuwa.jpg",
+       "on_screen_text": "Kyanjin Gompa, up the valley"
+      },
+      {
+       "type": "map",
+       "at": "Here is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.51,
+           "lat": 28.215,
+           "span": 0.14
+          },
+          "compare": {
+           "before": "2014-10-20",
+           "after": "2015-10-07",
+           "source": "landsat",
+           "seconds": 2.0
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Landsat 8"
+      }
+     ]
+    },
+    {
+     "text": "Officially 306 people died: at least 175 of about 370 villagers who were there, 82 other Nepalis and 49 foreign trekkers. The villagers say it was closer to five hundred.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Langtang, 25 April 2015: official toll",
+        "unit": "",
+        "data": [
+         [
+          "Villagers",
+          175
+         ],
+         [
+          "Other Nepalis",
+          82
+         ],
+         [
+          "Foreign trekkers",
+          49
+         ]
+        ],
+        "source": "Himal Southasian, 2025",
+        "highlight": 0,
+        "reveal": [
+         "82 other",
+         "49 foreign"
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The villagers",
+       "stat": {
+        "value": "~500",
+        "label": "The villagers' own count of the dead",
+        "source": "Himal Southasian, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "They rebuilt it themselves, about a hundred metres up the valley. This is Langtang last February.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Langtang Village, February 2026.jpg",
+       "on_screen_text": "Langtang village, February 2026"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.509,
+           "lat": 28.2158,
+           "span": 0.08
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang village"
+      }
+     ]
+    },
+    {
+     "text": "Then, last year, the danger came from the other side of the border. On July 8, 2025, a lake on top of a glacier in Tibet burst, about thirty-six kilometres above Rasuwagadhi.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "highlight": [
+           "China"
+          ],
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "Rasuwagadhi"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Toward the border"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley, autumn 2025"
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi, autumn 2025"
+      }
+     ]
+    },
+    {
+     "text": "It sat at 5,150 metres and had grown quickly from December to June. The Kathmandu Post called it previously unnoticed. After it burst, it still covered 0.61 square kilometres.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "0.75 km²",
+        "label": "The lake before it burst, at 5,150 metres",
+        "source": "Kathmandu Post, Jul 11, 2025"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ]
+       },
+       "on_screen_text": "Timure, autumn 2025"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley, autumn 2025"
+      }
+     ]
+    },
+    {
+     "text": "The flood took the Friendship Bridge at Rasuwagadhi, wrecked the dry port and hit hydropower plants down the river. Police counted nine dead and nineteen missing.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "compare": {
+           "before": "2024-10-15/2024-11-30",
+           "after": "2025-10-15/2025-11-10",
+           "seconds": 2.0,
+           "until": "Police counted"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "wrecked the",
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "Rasuwagadhi"
+           }
+          ]
+         },
+         {
+          "at": "Police counted"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "A disaster specialist at ICIMOD, the regional mountain research centre, told the paper: \"The acceleration of these types of events is completely unprecedented.\"",
+     "shots": [
+      {
+       "type": "document",
+       "at": "told the paper",
+       "document": {
+        "text": "The acceleration of these types of events is completely unprecedented in the Hindu Kush Himalayan region.",
+        "source": "Saswata Sanyal, ICIMOD, to the Kathmandu Post, 2025",
+        "highlight": "completely unprecedented"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The road along the river was still being repaired when this summer's flood came down it. So what exactly broke this time, and why?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.365,
+           "lat": 28.245,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi, autumn 2025"
+      },
+      {
+       "type": "map",
+       "at": "So what",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Fell",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This is the source, around five thousand two hundred metres up on the north face. A year before. And after: a scar where the ice and rock used to be.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "And after"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "on the north",
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "Where the ice broke"
+           }
+          ]
+         },
+         {
+          "at": "And after"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "How much fell is still argued. The geologist Ranjan Kumar Dahal gives a conservative satellite estimate of twenty-five million cubic metres. Others put it at forty, a hundred, or a hundred and forty-two million.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "chart",
+       "at": "a conservative",
+       "chart": {
+        "type": "bar",
+        "title": "How much fell? Estimates, million m³",
+        "unit": "",
+        "data": [
+         [
+          "Dahal, conservative",
+          25
+         ],
+         [
+          "Upper estimates",
+          40
+         ],
+         [
+          "Other experts",
+          100
+         ],
+         [
+          "HiRISK, preliminary",
+          142
+         ]
+        ],
+        "source": "Ranjan Kumar Dahal, Tribhuvan University, via OnlineKhabar, Sep 2, 2026; HiRISK",
+        "highlight": 0,
+        "reveal": [
+         "forty,",
+         "a hundred,",
+         "a hundred and"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "His team describes the main avalanche as about 1.3 kilometres long and sixty to seventy metres thick. Two days later, a smaller slide fell from the same place.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "60-70 m",
+        "label": "Thickness of the main avalanche, about 1.3 km long",
+        "source": "Ranjan Kumar Dahal, Tribhuvan University, via OnlineKhabar, Sep 2, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Lhende river"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      }
+     ]
+    },
+    {
+     "text": "Even the smallest figure, Dahal says, is about ten times the volume of the Great Pyramid.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~10×",
+        "label": "The Great Pyramid's volume, in the smallest estimate",
+        "source": "Ranjan Kumar Dahal, Tribhuvan University, via OnlineKhabar, Sep 2, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      }
+     ]
+    },
+    {
+     "text": "The Chamoli disaster in northern India in 2021, which left about two hundred people dead or missing, was around twenty-seven million cubic metres.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "Chamoli",
+            "lon": 79.73,
+            "lat": 30.38,
+            "kind": "event",
+            "label": "Chamoli, India, 2021"
+           },
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "Why did it fall? A preliminary study from the Chinese Academy of Sciences used Sentinel-2 images and found that the glacier's upper and middle parts had been moving relatively fast for the past two years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-08-12"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "12 August 2026, two weeks before"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende river"
+      },
+      {
+       "type": "photo",
+       "at": 26,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      }
+     ]
+    },
+    {
+     "text": "It found no rain trigger: 8.8 millimetres in the three days before. Winter had been 0.38 degrees above average, summer 0.58.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "8.8 mm",
+        "label": "Rain in the 72 hours before: not the trigger",
+        "source": "Institute of Tibetan Plateau Research (CAS), preliminary, via OnlineKhabar, Sep 3, 2026",
+        "note": "Winter +0.38 °C, summer +0.58 °C above average"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
+      }
+     ]
+    },
+    {
+     "text": "The same study found something else. Seismic instruments picked up unusual signals that morning, at about 6:04, 6:50 and again from 8:15. Some matched dust and small slides that local people reported. The researchers say that is not enough to call them a warning.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-08-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "unusual signals",
+       "chart": {
+        "type": "bar",
+        "title": "Unusual signals, morning of 26 August",
+        "unit": " min before",
+        "data": [
+         [
+          "06:04",
+          153
+         ],
+         [
+          "06:50",
+          107
+         ],
+         [
+          "08:15",
+          22
+         ]
+        ],
+        "source": "Institute of Tibetan Plateau Research (CAS), preliminary, via OnlineKhabar, Sep 3, 2026",
+        "highlight": 2,
+        "reveal": [
+         "6:50",
+         "8:15."
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Some matched",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende river"
+      }
+     ]
+    },
+    {
+     "text": "The researchers list several processes working together, from freezing and thawing inside the rock to damage left by the 2015 earthquake.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.51,
+           "lat": 28.215,
+           "span": 0.14
+          },
+          "places": [
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      }
+     ]
+    },
+    {
+     "text": "The glaciers here have been shrinking for decades. A 2026 study found that Langtang's glaciers retreated one and a half times faster after 2000 than before it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lirung.jpg",
+       "on_screen_text": "Lirung glacier"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "stat",
+       "at": "one and a half",
+       "stat": {
+        "value": "1.5×",
+        "label": "Faster retreat of Langtang glaciers, 2000-2023 against 1964-2000",
+        "source": "Silwal et al., 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Lhende river"
+      }
+     ]
+    },
+    {
+     "text": "As the lower ice melted away, the glaciologist Bethan Davies notes, some glaciers were left hanging on steep rock, without the ice that used to hold them from below.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Le Langtang Lirung (Himalaya, Népal) (8448200379).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      }
+     ]
+    },
+    {
+     "text": "Scientists say warming likely made a collapse like this more probable. They do not say it caused this one on its own.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende river"
+      }
+     ]
+    },
+    {
+     "text": "Most of the people the flood reached were nowhere near the ice. Many were at work, some of them inside the mountain.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Chilime",
+            "lon": 85.3319,
+            "lat": 28.1573,
+            "kind": "site",
+            "label": "Chilime power station",
+            "icon": "factory"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Power in the Path",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "These two rivers are some of Nepal's most important power lines. Hydropower plants and their tunnels sit all along the Bhotekoshi and the Trishuli.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.32,
+           "lat": 28.1,
+           "span": 0.75
+          },
+          "places": [
+           {
+            "name": "Chilime",
+            "lon": 85.3319,
+            "lat": 28.1573,
+            "kind": "site",
+            "label": "Chilime power station",
+            "icon": "factory"
+           },
+           {
+            "name": "Trishuli",
+            "lon": 85.148,
+            "lat": 27.9232,
+            "kind": "city",
+            "label": "Trishuli"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             85.5252,
+             28.2853
+            ],
+            "to": [
+             85.1101,
+             27.86
+            ],
+            "mode": "line",
+            "seconds": 6,
+            "label": "The flood's path",
+            "via": [
+             [
+              85.505,
+              28.315
+             ],
+             [
+              85.481,
+              28.338
+             ],
+             [
+              85.43,
+              28.335
+             ],
+             [
+              85.395,
+              28.322
+             ],
+             [
+              85.3778,
+              28.2778
+             ],
+             [
+              85.3667,
+              28.2528
+             ],
+             [
+              85.345,
+              28.2
+             ],
+             [
+              85.343,
+              28.16
+             ],
+             [
+              85.3,
+              28.1
+             ],
+             [
+              85.207,
+              28.0718
+             ],
+             [
+              85.219,
+              28.0326
+             ],
+             [
+              85.186,
+              27.9731
+             ],
+             [
+              85.148,
+              27.9232
+             ]
+            ]
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Timure"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Devighat"
+      }
+     ]
+    },
+    {
+     "text": "Twelve hydropower projects were damaged. About 430 megawatts went offline, roughly a tenth of the country's hydro and solar output.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~430 MW",
+        "label": "Offline after the flood, about 10.6 % of Nepal's hydro and solar output",
+        "source": "Ministry of Energy, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
+      }
+     ]
+    },
+    {
+     "text": "Many of these plants send the river through tunnels cut into the rock. When the flood came, people were working inside them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.343,
+           "lat": 28.16,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Syafrubesi"
+      },
+      {
+       "type": "map",
+       "at": "When the flood",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.365,
+           "lat": 28.245,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the first weeks, officials said more than nine hundred people at these projects were missing, some of them believed trapped underground.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "900+",
+        "label": "Missing at 12 hydropower projects, first weeks",
+        "source": "Government of Nepal, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.3,
+           "lat": 28.1,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Below Dhunche"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
+      }
+     ]
+    },
+    {
+     "text": "On September 17, the disaster authority reported that teams had dug through 250 metres of tunnel at the Chilime plant and found five bodies. At Upper Trishuli-1, five more were still trapped, waiting for cutting equipment.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Timure"
+      },
+      {
+       "type": "document",
+       "at": "250 metres",
+       "document": {
+        "text": "Five bodies were recovered after teams broke through the 250-metre tunnel and cleared access to the control room.",
+        "source": "NDRRMA Situation Report 16, Sep 17, 2026",
+        "highlight": "250-metre tunnel"
+       }
+      },
+      {
+       "type": "document",
+       "at": "At Upper",
+       "document": {
+        "text": "At Upper Trishuli-1, five bodies remain trapped inside the tunnel, with recovery pending the availability of cutting equipment.",
+        "source": "NDRRMA Situation Report 16, Sep 17, 2026",
+        "highlight": "cutting equipment"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On August 31, the army set off a controlled blast inside a tunnel at Upper Trishuli 3A to reach the workers missing there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.25,
+           "lat": 28.0,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Trishuli valley"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.219,
+           "lat": 28.033,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ramche"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mailung"
+      }
+     ]
+    },
+    {
+     "text": "There were survivors. On September 4, nine days after the flood, rescuers pulled two people out alive from a tunnel, and a Chinese worker the next day.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Chilime",
+            "lon": 85.3319,
+            "lat": 28.1573,
+            "kind": "site",
+            "label": "Chilime power station",
+            "icon": "factory"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.343,
+           "lat": 28.16,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Syafrubesi"
+      }
+     ]
+    },
+    {
+     "text": "Projects still under construction were hit as well, about 3,800 megawatts of planned capacity.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3,795 MW",
+        "label": "Planned capacity at hit projects under construction",
+        "source": "Ministry of Energy, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.3,
+           "lat": 28.1,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Below Dhunche"
+      }
+     ]
+    },
+    {
+     "text": "Some of these plants had only just been repaired after the 2025 flood.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 6,
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
+      }
+     ]
+    },
+    {
+     "text": "Nepal sells electricity to India and counts on its rivers to grow. Should it keep building in valleys like this one?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.4,
+           "lat": 27.3,
+           "span": 3.2
+          },
+          "highlight": [
+           "Nepal",
+           "India"
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Betrawati"
+      }
+     ],
+     "ask": {
+      "at": "Should it",
+      "text": "Keep building dams in these valleys?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Missing",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Nepal's police counted 1,456 dead and 5,285 missing by October 14. The number of dead kept climbing for seven weeks.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "line",
+        "title": "Confirmed dead in Nepal",
+        "unit": "",
+        "data": [
+         [
+          "Aug 31",
+          903
+         ],
+         [
+          "Sep 12",
+          1386
+         ],
+         [
+          "Oct 14",
+          1456
+         ]
+        ],
+        "source": "NDRRMA; Kathmandu Post; Nepal Police",
+        "highlight": 0,
+        "reveal": [
+         "kept climbing"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Missing does not always mean dead. Officials say the lists include unidentified bodies and people who have since been found.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.145,
+           "lat": 27.915,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trishuli"
+      }
+     ]
+    },
+    {
+     "text": "Search and rescue ended on October 5, with more than 13,000 people rescued. Then came identification. By October 1, DNA had been taken from 1,334 bodies, and 112 had been identified.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "13,795",
+        "label": "People rescued by the end of search and rescue, 5 October",
+        "source": "Government of Nepal, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Devighat"
+      },
+      {
+       "type": "stat",
+       "at": "By October",
+       "stat": {
+        "value": "112 of 1,334",
+        "label": "Bodies identified by DNA, by 1 October",
+        "source": "Kathmandu Post, Oct 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.219,
+           "lat": 28.033,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Ramche"
+      }
+     ]
+    },
+    {
+     "text": "UNICEF counted about 84,000 people affected, 32,000 of them children. More than a hundred children lost both parents.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "84,000",
+        "label": "People affected, about 32,000 of them children",
+        "source": "UNICEF, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": "More than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.145,
+           "lat": 27.915,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In September the disaster authority counted 636 foreign nationals among the missing: trekkers, pilgrims and workers.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "636",
+        "label": "Foreign nationals among the missing, 20 September",
+        "source": "NDRRMA, via Asianet"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Mailung"
+      }
+     ]
+    },
+    {
+     "text": "Nepal's law made families wait twelve years before a missing person could be declared dead. In October the cabinet proposed cutting that to forty-five days.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Betrawati"
+      },
+      {
+       "type": "stat",
+       "at": "In October",
+       "stat": {
+        "value": "12 years → 45 days",
+        "label": "Before a missing person can be declared dead (proposed)",
+        "source": "Kathmandu Post, Oct 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the Chinese side the official figures were 43 dead and 519 missing by mid-September. Videos and eyewitness posts from Tibet were removed from Chinese social media, according to the BBC and the New York Times, and police punished at least ten people for what they called misleading posts.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "highlight": [
+           "China"
+          ],
+          "places": [
+           {
+            "name": "Gyirong",
+            "lon": 85.3276,
+            "lat": 28.3961,
+            "kind": "city",
+            "label": "Gyirong town"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi"
+      },
+      {
+       "type": "stat",
+       "at": "Videos",
+       "stat": {
+        "value": "43 dead, 519 missing",
+        "label": "Tibet, official figures, mid-September",
+        "source": "Chinese authorities, via Wikipedia summary"
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Toward the border"
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lhende valley"
+      }
+     ]
+    },
+    {
+     "text": "At first Nepal turned down rescue teams from several countries, pointing to the crowded response after the 2015 earthquake. Later it let in experts from India, China, Australia and South Korea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.6,
+           "lat": 28.3,
+           "span": 8.5
+          },
+          "highlight": [
+           "Nepal"
+          ],
+          "places": [
+           {
+            "name": "Kathmandu",
+            "lon": 85.324,
+            "lat": 27.7172,
+            "kind": "capital",
+            "label": "Kathmandu"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trishuli"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Devighat"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.219,
+           "lat": 28.033,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ramche"
+      }
+     ]
+    },
+    {
+     "text": "Aid came from India, China, the United States, Australia, the Gulf states and others. The Loss and Damage Fund, set up for climate disasters, gave twenty million dollars.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$20 million",
+        "label": "From the Loss and Damage Fund",
+        "source": "Wikipedia summary of donor announcements"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Mailung"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Betrawati"
+      }
+     ]
+    },
+    {
+     "text": "In Nepal, the first rumours blamed a Chinese dam. The satellite images showed the mountain itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "The satellite"
+          },
+          "date": "2026-10-18/2026-10-27"
+         },
+         {
+          "at": "The satellite"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The government counts 7,570 houses destroyed and puts reconstruction at about 4.8 billion dollars, for a country whose whole economy is around forty billion.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$4.8 billion",
+        "label": "To rebuild, by the government's assessment",
+        "source": "Government of Nepal, Rapid Damage and Needs Assessment, 2026",
+        "note": "7,570 houses destroyed"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Trishuli"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Devighat"
+      }
+     ]
+    },
+    {
+     "text": "Langtang is one valley. How many more look like it?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Next Valley",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "In February 2021, a rock and ice avalanche in Chamoli, India, sent a flood through two hydropower projects.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "Chamoli",
+            "lon": 79.73,
+            "lat": 30.38,
+            "kind": "event",
+            "label": "Chamoli, India, 2021"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "In October 2023, a glacial lake in Sikkim burst and destroyed the 1,200 megawatt Teesta III dam.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "South Lhonak",
+            "lon": 88.19,
+            "lat": 27.91,
+            "kind": "event",
+            "label": "Sikkim, India, 2023"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "A year and a half later, the government approved rebuilding it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "South Lhonak",
+            "lon": 88.19,
+            "lat": 27.91,
+            "kind": "event",
+            "label": "Sikkim, India, 2023"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 5,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "In August 2024, floods from glacial lakes wiped out much of Thame, a village near Everest. It came in daylight, and no one died.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "Thame",
+            "lon": 86.65,
+            "lat": 27.83,
+            "kind": "event",
+            "label": "Thame, Nepal, 2024"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "photo",
+       "at": 16,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "ICIMOD counts five significant glacial lake floods in the Everest region in less than fifty years.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "5",
+        "label": "Major glacial lake floods near Everest in under 50 years",
+        "source": "ICIMOD, Oct 2025"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "In July 2025, Rasuwagadhi. In August 2026, Rasuwagadhi again, and worse than all of them together.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          },
+          "places": [
+           {
+            "name": "Langtang Lirung",
+            "lon": 85.5197,
+            "lat": 28.2558,
+            "kind": "site",
+            "label": "Langtang Lirung, 7,227 m"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "In August",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "hold": 0.3
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2023, ICIMOD projected that the region's glaciers could lose thirty to fifty percent of their volume by 2100, even if warming is held to one and a half or two degrees. At three degrees, glaciers in the eastern Himalaya, which includes Nepal, could lose up to three quarters.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.0,
+           "lat": 29.2,
+           "span": 15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Hindu Kush Himalaya"
+      },
+      {
+       "type": "stat",
+       "at": "thirty to fifty",
+       "stat": {
+        "value": "30-50 %",
+        "label": "Glacier volume the region could lose by 2100 at 1.5-2 °C",
+        "source": "ICIMOD, HI-WISE report, 2023"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "even if",
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa.jpg",
+       "on_screen_text": "Glaciers above Kyanjin Gompa, Langtang"
+      },
+      {
+       "type": "photo",
+       "at": 25,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "stat",
+       "at": "At three",
+       "stat": {
+        "value": "Up to 75 %",
+        "label": "Eastern Himalaya glacier volume lost by 2100 at 3 °C",
+        "source": "ICIMOD, HI-WISE report, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "which includes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 84.6,
+           "lat": 28.3,
+           "span": 8.5
+          },
+          "highlight": [
+           "Nepal"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The same report found that the region's glaciers lost mass sixty-five percent faster in the 2010s than in the decade before.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "65 %",
+        "label": "Faster glacier loss in 2011-2020 than in the decade before",
+        "source": "ICIMOD, HI-WISE report, 2023"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "Shrinking ice does not mean every glacier will fall. But it leaves more ice hanging on steeper rock, and more lakes behind loose walls, above valleys where people live and work.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "photo",
+       "at": 16,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "map",
+       "at": "above valleys",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.345,
+           "lat": 28.165,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nepal says it will rebuild its warning system on the border with China. In September its disaster authority and ICIMOD published a list of ten points for action.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "Rasuwagadhi"
+           },
+           {
+            "name": "Gyirong Port",
+            "lon": 85.383,
+            "lat": 28.284,
+            "kind": "port",
+            "label": "Gyirong Port (China)"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ]
+    },
+    {
+     "text": "This flood showed the hard part. The danger started on one side of a border and above every station, and it moved faster than an alert could travel. Yet the glacier's movement was visible from space before it fell.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "date": "2026-08-12"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gyirong, Tibet"
+      },
+      {
+       "type": "map",
+       "at": "and it moved",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Yet the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "hold": 0.3
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "We will keep following these valleys from orbit. So who should watch the ice above a river that two countries share, and who should have the power to pull the alarm?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.32,
+           "lat": 28.1,
+           "span": 0.75
+          },
+          "routes": [
+           {
+            "from": [
+             85.5252,
+             28.2853
+            ],
+            "to": [
+             85.1101,
+             27.86
+            ],
+            "mode": "line",
+            "seconds": 6,
+            "label": "The flood's path",
+            "via": [
+             [
+              85.505,
+              28.315
+             ],
+             [
+              85.481,
+              28.338
+             ],
+             [
+              85.43,
+              28.335
+             ],
+             [
+              85.395,
+              28.322
+             ],
+             [
+              85.3778,
+              28.2778
+             ],
+             [
+              85.3667,
+              28.2528
+             ],
+             [
+              85.345,
+              28.2
+             ],
+             [
+              85.343,
+              28.16
+             ],
+             [
+              85.3,
+              28.1
+             ],
+             [
+              85.207,
+              28.0718
+             ],
+             [
+              85.219,
+              28.0326
+             ],
+             [
+              85.186,
+              27.9731
+             ],
+             [
+              85.148,
+              27.9232
+             ]
+            ]
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      },
+      {
+       "type": "photo",
+       "at": 23,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
+      }
+     ],
+     "ask": {
+      "at": "So who",
+      "text": "Who should watch the ice?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Nepal's Flood Warning Came 38 Minutes Too Late",
+  "description": "On 26 August 2026 a block of ice and rock broke off Langtang Lirung, on Nepal's border with Tibet, and became a flood that ran about 100 km down the Bhotekoshi and Trishuli rivers. We follow it from orbit with Sentinel-2 and Landsat images: the scar on the mountain, the border crossing at Rasuwagadhi, the 38 minutes before the text alerts, the same valley's disasters in 2015 and 2025, the hydropower tunnels in its path, and what the shrinking glaciers of the Himalaya mean for the next valley.",
+  "tags": [
+   "Nepal flood",
+   "Langtang",
+   "Langtang Lirung",
+   "glacier collapse",
+   "Rasuwa",
+   "Bhotekoshi",
+   "Trishuli",
+   "Himalaya",
+   "satellite images",
+   "Sentinel-2",
+   "Nepal Tibet",
+   "early warning"
+  ],
+  "pinned_comment": "Who should watch the ice above a river two countries share, and who should have the power to pull the alarm?"
+ }
+}

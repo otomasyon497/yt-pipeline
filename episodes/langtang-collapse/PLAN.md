@@ -1,7 +1,7 @@
 # langtang-collapse: plan and log
 
 Episode 10 candidate, found 2026-11-09 by the topic radar at the user's request ("find a potentially viral topic and start
-research"). Gate 1 (this outline) waits for the user's choice.
+research"). Gate 1: outline approved by the user 2026-11-09 ("Langtang konusuyla devam et, outline'ı onaylıyorum").
 
 Frame: one Himalayan valley hit three times in eleven years (2015, 2025, 2026). In 2026 a block of ice and rock on Langtang
 Lirung fell about 1,200 m and the flood ran 100 km into Nepal within the hour. Satellites saw the glacier speeding up first.

@@ -48,7 +48,8 @@
          {
           "at": "Now,"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The same day, 38 years apart"
       }
@@ -70,7 +71,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "17% to 58% green, our measurement"
       }
@@ -101,7 +103,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Every circle is a well"
       }
@@ -125,7 +128,8 @@
            "file:aquifer.geojson"
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The High Plains aquifer"
       }
@@ -141,21 +145,14 @@
         "steps": [
          {
           "view": {
-           "lon": -102.2,
-           "lat": 35.9,
-           "span": 2.4
+           "lon": -102.07,
+           "lat": 36.34,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Dalhart",
-            "lon": -102.52,
-            "lat": 36.06,
-            "kind": "city",
-            "label": "DALHART"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Texas: down 44 feet on average"
       }
@@ -177,7 +174,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "One Texas well: down 265 feet"
       }
@@ -193,10 +191,11 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.3,
-           "span": 3.4
+           "lon": -100.95,
+           "lat": 37.85,
+           "span": 0.16
           },
+          "date": "2024-07-01/2024-08-31",
           "places": [
            {
             "name": "Garden City",
@@ -207,9 +206,28 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Kansas chief engineer, Nov 2026"
+      },
+      {
+       "type": "map",
+       "at": "could be near",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.25,
+           "lat": 37.95,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Near Lakin, Kansas"
       }
      ]
     },
@@ -229,7 +247,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "How long can they stay green?"
       }

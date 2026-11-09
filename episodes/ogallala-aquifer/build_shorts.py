@@ -9,7 +9,7 @@ AQ = "file:aquifer.geojson"
 
 
 def map_shot(at, steps, text=None):
-    s = {"type": "map", "at": at, "map": {"steps": steps}}
+    s = {"type": "map", "at": at, "map": {"steps": steps, "cut": True}}  # straight cuts: no flights through coarse imagery
     if text:
         s["on_screen_text"] = text
     return s
@@ -57,9 +57,9 @@ build("ogallala-short-orbit", "From Space, These Farms Look Fine",
     {"text": "We measured it. Land actively green went from seventeen percent to fifty-eight.", "shots": [map_shot(0, [{"view": DAL_CLOSE, "date": W24}], "17% to 58% green, our measurement")]},
     {"text": "From orbit, a triumph. Every circle is a well.", "shots": [map_shot(0, [{"view": DALLAM, "date": W24, "places": [DALHART]}], "Every circle is a well")]},
     {"text": "But the water comes from one aquifer under eight states.", "shots": [map_shot(0, [{"view": WHOLE, "highlight": [AQ]}], "The High Plains aquifer")]},
-    {"text": "Here in Texas, it has fallen forty-four feet on average since about 1950.", "shots": [map_shot(0, [{"view": PANHANDLE, "places": [DALHART]}], "Texas: down 44 feet on average")]},
+    {"text": "Here in Texas, it has fallen forty-four feet on average since about 1950.", "shots": [map_shot(0, [{"view": {"lon": -102.07, "lat": 36.34, "span": 0.16}, "date": W24}], "Texas: down 44 feet on average")]},
     {"text": "One well dropped two hundred sixty-five.", "shots": [map_shot(0, [{"view": DAL_CLOSE, "date": W24}], "One Texas well: down 265 feet")]},
-    {"text": "In Kansas, the state's chief engineer warns that in one district the groundwater could be near unusable within fifty years.", "shots": [map_shot(0, [{"view": KS, "places": [GC]}], "Kansas chief engineer, Nov 2026")]},
+    {"text": "In Kansas, the state's chief engineer warns that in one district the groundwater could be near unusable within fifty years.", "shots": [map_shot(0, [{"view": GARDEN, "date": W24, "places": [GC]}], "Kansas chief engineer, Nov 2026"), map_shot("could be near", [{"view": {"lon": -101.25, "lat": 37.95, "span": 0.16}, "date": W24}], "Near Lakin, Kansas")]},
     {"text": "So how long can the circles stay green?", "shots": [map_shot(0, [{"view": DALLAM, "date": W24}], "How long can they stay green?")]},
 ])
 
@@ -70,10 +70,10 @@ build("ogallala-short-farmers", "These Kansas Farmers Cut Their Own Water",
       "IT WORKED", [-100.45, 39.35, 0.09], "Sheridan 6", [
     {"text": "Northwest Kansas, 1990. Now, the same land, in 2026.", "shots": [map_shot(0, [{"view": HOXIE, "date": W26, "compare": {"before": "1990-08-21", "after": "2026-07-01/2026-08-31", "source": "landsat", "seconds": 1.6, "until": "Now,"}}, {"at": "Now,"}], "Sheridan County, Kansas, from orbit")]},
     {"text": "Every circle pumps from the same aquifer.", "shots": [map_shot(0, [{"view": {"lon": -100.6, "lat": 39.3, "span": 0.1}, "date": W24}], "One aquifer under eight states")]},
-    {"text": "But in 2013, farmers in Sheridan County did something nobody made them do.", "shots": [map_shot(0, [{"view": SHER_W, "places": [SHERIDAN]}], "Sheridan County, Kansas")]},
+    {"text": "But in 2013, farmers in Sheridan County did something nobody made them do.", "shots": [map_shot(0, [{"view": {"lon": -100.3, "lat": 39.45, "span": 0.16}, "date": W24}], "Sheridan County, Kansas"), map_shot("did something", [{"view": HOXIE, "date": W24, "places": [SHERIDAN]}])]},
     {"text": "They capped their own pumping. The target was twenty percent.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Target: a 20% cut")]},
     {"text": "They cut about twenty-three.", "shots": [map_shot(0, [{"view": {"lon": -100.6, "lat": 39.35, "span": 0.08}, "date": W24}], "They reached 23%")]},
-    {"text": "The water level had been falling two feet a year. It slowed to half a foot.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "2 feet a year, then half a foot")]},
-    {"text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.", "shots": [map_shot(0, [{"view": {"lon": -100.9, "lat": 38.3, "span": 3.4}, "places": [GC]}], "Rejected, Sept 30, 2026"), map_shot("The state", [{"view": GARDEN, "date": "2024-08-02/2024-08-02"}])]},
+    {"text": "The water level had been falling two feet a year. It slowed to half a foot.", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "2 feet a year, then half a foot"), map_shot("It slowed", [{"view": {"lon": -100.6, "lat": 39.35, "span": 0.1}, "date": W24}])]},
+    {"text": "Now southwest Kansas is fighting about it. The state just rejected the plan from around Garden City as too weak.", "shots": [map_shot(0, [{"view": {"lon": -100.72, "lat": 37.72, "span": 0.16}, "date": W24}], "Southwest Kansas"), map_shot("The state", [{"view": GARDEN, "date": "2024-08-02/2024-08-02", "places": [GC]}], "Rejected, Sept 30, 2026")]},
     {"text": "Would you cut your own water before anyone made you?", "shots": [map_shot(0, [{"view": HOXIE, "date": W24}], "Would you cut first?")]},
 ])

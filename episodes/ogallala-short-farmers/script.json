@@ -48,7 +48,8 @@
          {
           "at": "Now,"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Sheridan County, Kansas, from orbit"
       }
@@ -70,7 +71,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "One aquifer under eight states"
       }
@@ -86,10 +88,29 @@
         "steps": [
          {
           "view": {
-           "lon": -100.45,
-           "lat": 39.3,
-           "span": 2.4
+           "lon": -100.3,
+           "lat": 39.45,
+           "span": 0.16
           },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sheridan County, Kansas"
+      },
+      {
+       "type": "map",
+       "at": "did something",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.45,
+           "lat": 39.35,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31",
           "places": [
            {
             "name": "Hoxie",
@@ -100,9 +121,9 @@
            }
           ]
          }
-        ]
-       },
-       "on_screen_text": "Sheridan County, Kansas"
+        ],
+        "cut": true
+       }
       }
      ]
     },
@@ -122,7 +143,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Target: a 20% cut"
       }
@@ -144,7 +166,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "They reached 23%"
       }
@@ -166,9 +189,27 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "2 feet a year, then half a foot"
+      },
+      {
+       "type": "map",
+       "at": "It slowed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.6,
+           "lat": 39.35,
+           "span": 0.1
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
@@ -182,23 +223,16 @@
         "steps": [
          {
           "view": {
-           "lon": -100.9,
-           "lat": 38.3,
-           "span": 3.4
+           "lon": -100.72,
+           "lat": 37.72,
+           "span": 0.16
           },
-          "places": [
-           {
-            "name": "Garden City",
-            "lon": -100.87,
-            "lat": 37.97,
-            "kind": "city",
-            "label": "GARDEN CITY"
-           }
-          ]
+          "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rejected, Sept 30, 2026"
+       "on_screen_text": "Southwest Kansas"
       },
       {
        "type": "map",
@@ -211,10 +245,21 @@
            "lat": 37.85,
            "span": 0.16
           },
-          "date": "2024-08-02/2024-08-02"
+          "date": "2024-08-02/2024-08-02",
+          "places": [
+           {
+            "name": "Garden City",
+            "lon": -100.87,
+            "lat": 37.97,
+            "kind": "city",
+            "label": "GARDEN CITY"
+           }
+          ]
          }
-        ]
-       }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rejected, Sept 30, 2026"
       }
      ]
     },
@@ -234,7 +279,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Would you cut first?"
       }

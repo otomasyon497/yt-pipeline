@@ -24,7 +24,9 @@ LONG_HOLD = 8.0
 _NUM = re.compile(r"^(?P<pre>.*?)(?P<cur>[$€£]?)(?P<num>\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)(?P<post>.*)$")
 _UNIT = re.compile(r"^\s?(%|percent|per cent|billion|million|trillion|thousand|bn|km|kilomet|mile|metre|meter|m\b|"
                    r"tons?|tonnes?|ships?|people|times|x\b)", re.IGNORECASE)
-_RANGE = re.compile(r"\d\s*[-\u2013]\s*[$\u20ac\u00a3]?\d")
+# Ranges and comparisons ("500-1,300", "17% to 58%", "12 years -> 45 days") never count: counting only the first
+# number puts a false figure on screen ("8% to 58%").
+_RANGE = re.compile(r"\d\s*(?:%|[a-z]+)?\s*(?:[-\u2013\u2192]|to)\s*[$\u20ac\u00a3]?\d", re.IGNORECASE)
 _DATE = re.compile(r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d", re.IGNORECASE)
 
 

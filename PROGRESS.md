@@ -1,5 +1,27 @@
 # PROGRESS
 
+## Status (2026-11-09, 04:04 UTC / 07:04 TR; start here)
+Checked through the API at that time; nothing below has been published by Claude. Uploads stay private; the user schedules.
+
+**Indus Waters (episode 8): finished, uploaded, waiting to go public today.**
+- Long nbB4DKNWp7Y, Shorts PqqVvJZd_18 (tunnel), 9P8EDcca-bY (dam): private, processed, publishAt 2026-11-09T15:00Z (18:00 TR).
+- The user planned to move the long one to 17:50 TR (14:50Z) so the Shorts can link to it. Not moved yet: still 15:00Z.
+- Half done: when the user says "yayında", add Related video on both Shorts -> nbB4DKNWp7Y (Studio via Chrome, no documented API; needs the long video public or unlisted), then post and pin the three comments (text in each youtube.txt). A session does not wake by itself at that hour.
+
+**Ogallala (episode 9): finished, uploaded, scheduled.**
+- Long 903F5prq9EM (15:40), Shorts CLGm0e1-SFY (orbit), LBTVfQGwVYA (farmers): private, processed, publishAt 2026-11-10T15:00Z (18:00 TR). Claude uploaded them unscheduled, so the schedule is the user's own; confirm that with them.
+- Half done: the same Related video and pinned comment work after they go public.
+- Not verified: sound (on no video so far); the final long render had a blur measurement and a look at its softest frames, while the full picture review (checks A-G) ran on the render before it. That review's leftovers are not rechecked: pivot photo holding about 11 s at 3:16-3:27, "Near Dimmitt" over a Colorado map at 3:09. The two Shorts predate `map.cut` and keep a few flights. Gate 1 was skipped at the user's overnight request.
+
+**Next steps, in order**
+1. Indus today, as above; ask whether the user reviewed the Ogallala videos and wants changes before 10 Nov 15:00Z.
+2. ~10-11 Nov: read the reach reports, compare CTR with Studio, add download/storage and the weekly report to tools/yt_analytics.py. Aral 48 h check (Chrome if the reports are not ready). Find out why Shorts show 0.0 % watched in `videos`.
+3. ~15 Nov: recheck CTR of the repackaged videos.
+
+**Open questions for the user:** remove credits from older videos' descriptions too? (offered, no answer). Old superseded releases remain; the user deletes them.
+
+**Corrections to the section below:** the Related video "Blocker" is gone (verification done 2026-11-09); Ogallala is no longer "not scheduled".
+
 ## Status (2026-11-08, late session)
 - Render review of ep 8 found map flaws, all fixed in the engine (MapBlock.tsx, so every later episode gets them):
   a close view's Sentinel-2 image sat as a rectangle on wider views and during flights (now each image fades by its
@@ -12,7 +34,7 @@
   reservoir); text "RIVER TAKEN?" (the video's own question) replaced the overstated "RIVER GONE?".
 - Long episode re-rendered at a923430 (the first render had the patch at 465.5 s, Ratle dive): release
   ep-indus-waters-42520507017, 16:10, 469 MB, in Videos\yt-pipeline\indus-waters; frames checked. Audio not checked.
-- Uploaded 2026-11-09, private: long nbB4DKNWp7Y; Shorts PqqVvJZd_18 (tunnel), 9P8EDcca-bY (dam), which carry a
+- Uploaded 2026-11-09, private: long nbB4DKNWp7Y; Shorts PqqVvJZd_18 (tunnel), 9P8EDcca-bY (dam),
   all three scheduled by the user for 15:00 UTC 9 Nov (18:00 TR). Descriptions cleaned in Studio. Still to do once the
   long video is public or unlisted: Related video on both Shorts (Studio only, no documented API) and pinned comments.
   Blocker: Related video opens "one-time verification required" (advanced features); only the user can complete it.

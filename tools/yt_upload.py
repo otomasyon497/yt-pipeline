@@ -3,9 +3,11 @@
     python tools/yt_upload.py auth                     # once: sign in, pick the channel (a separate write token)
     python tools/yt_upload.py indus-waters --dry-run   # show what would be sent, change nothing
     python tools/yt_upload.py indus-waters             # upload video and thumbnail, then read the privacy back
+    python tools/yt_upload.py ogallala-aquifer --publish-at 2026-11-10T15:00:00Z   # private, goes public at that time
 
 Reads %USERPROFILE%\\Videos\\yt-pipeline\\<slug>\\ (<slug>.mp4, youtube.txt, thumbnail_D.jpg or cover_short.jpg).
-Private is fixed in the code on purpose, there is no option for anything else. Left for Studio: publishing, the pinned
+Private is fixed in the code on purpose, there is no option for anything else; --publish-at only schedules a private
+video for a time the user chose (used to replace a scheduled upload). Left for Studio: publishing, the pinned
 comment (the API cannot pin), end screens, a Short's cover if YouTube refuses it here.
 The write token is its own file, so the read-only analytics token stays read-only. Quota: 1 unit per upload in the
 upload bucket (100 a day), about 50 for a thumbnail.
@@ -85,13 +87,27 @@ def check(meta: dict) -> None:
         sys.exit("Not uploading: " + "; ".join(errors))
 
 
-def body_of(meta: dict) -> dict:
-    return {
+def body_of(meta: dict, publish_at: str | None = None) -> dict:
+    body = {
         "snippet": {"title": meta["title"], "description": meta["description"], "tags": meta["tags"],
                     "categoryId": CATEGORY_EDUCATION, "defaultLanguage": "en", "defaultAudioLanguage": "en"},
         # containsSyntheticMedia False: the channel's checked answer for our usual episode (PROGRESS.md, Decisions).
         "status": {"privacyStatus": PRIVACY, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
     }
+    if publish_at:  # YouTube keeps the video private until then; publishAt is only allowed on private videos
+        body["status"]["publishAt"] = publish_at
+    return body
+
+
+def future_utc(text: str) -> str:
+    import datetime as dt
+    t = dt.datetime.fromisoformat(text.replace("Z", "+00:00"))
+    if t.tzinfo is None:
+        sys.exit("--publish-at needs a time zone, e.g. 2026-11-10T15:00:00Z")
+    t = t.astimezone(dt.timezone.utc)
+    if t <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=30):
+        sys.exit(f"--publish-at {t:%Y-%m-%dT%H:%M}Z is not at least 30 minutes ahead")
+    return t.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 
 def existing_with_title(yt, title: str) -> list[str]:
@@ -148,6 +164,7 @@ def main() -> None:
     ap.add_argument("slug", help="episode folder name, or `auth`")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true", help="upload even if a video with this title exists")
+    ap.add_argument("--publish-at", help="schedule the private video, e.g. 2026-11-10T15:00:00Z (the user's chosen time)")
     a = ap.parse_args()
     if a.slug == "auth":
         return auth()
@@ -163,8 +180,10 @@ def main() -> None:
     thumb = folder / ("cover_short.jpg" if short else "thumbnail_D.jpg")
     meta = parse_youtube_txt(txt)
     check(meta)
-    body = body_of(meta)
-    print(f"{a.slug}: {video.stat().st_size / 1e6:.0f} MB, {'Short' if short else 'long'}, privacy {PRIVACY}")
+    publish_at = future_utc(a.publish_at) if a.publish_at else None
+    body = body_of(meta, publish_at)
+    print(f"{a.slug}: {video.stat().st_size / 1e6:.0f} MB, {'Short' if short else 'long'}, privacy {PRIVACY}"
+          f"{', public at ' + publish_at if publish_at else ''}")
     print(f"  title: {meta['title']}")
     print(f"  description: {len(meta['description'].encode('utf-8'))} bytes, {len(meta['tags'])} tags, category {body['snippet']['categoryId']}")
     print(f"  thumbnail: {thumb.name if thumb.exists() else 'NONE FOUND'}")
@@ -190,7 +209,10 @@ def main() -> None:
     print(f"Uploaded: https://studio.youtube.com/video/{vid}/edit")
     thumb_ok = thumb.exists() and set_thumbnail(yt, vid, thumb)
     got = yt.videos().list(part="status", id=vid).execute()["items"][0]["status"]
-    print(f"  thumbnail set: {thumb_ok}; YouTube says: privacy {got['privacyStatus']}, processing {got.get('uploadStatus')}")
+    print(f"  thumbnail set: {thumb_ok}; YouTube says: privacy {got['privacyStatus']}, processing {got.get('uploadStatus')}, "
+          f"publishAt {got.get('publishAt')}")
+    if publish_at and not got.get("publishAt"):
+        print("WARNING: YouTube did not keep the schedule; set it in Studio.")
     if got["privacyStatus"] != PRIVACY:
         sys.exit(f"WARNING: the video is {got['privacyStatus']}, not {PRIVACY}. Check it in Studio now.")
 

@@ -1,5 +1,17 @@
 # PROGRESS
 
+## Status (2026-11-09, 21:20 UTC; start here)
+- Ogallala fix: the full-frame scan found every quote card cut off or early (the filler ignored documents) and the
+  repeated pivot photo; fixed (filler blocks documents; cards start before their quote; Zybach patent pages US 2,604,359).
+  Commit 8bf48f6. Re-render run 42694905414 (in progress). Then: fetch_episode.ps1, frame check, then
+  `python tools/yt_upload.py ogallala-aquifer --force --publish-at 2026-11-10T15:00:00Z` (new flag, private + scheduled),
+  verify publishAt, then delete the old 903F5prq9EM in Studio via Chrome (user approved deletion 2026-11-09).
+  The two Ogallala Shorts are unchanged (no quote cards) and stay scheduled.
+- Episode 10 langtang-collapse (Nepal-Tibet flood of 26 Aug 2026): topic from the radar, gate 1 approved by the user
+  2026-11-09. Script 2,229 words (~16.4 min), episode_check OK, factcheck.md complete (no FIX). Storyboard run
+  42700740718 in progress; next: look at the contact sheets, fix, full render, gate 2 with the user.
+- Indus went public 9 Nov 15:00Z; pinned comments and Related video still not done (needs the user's go-ahead).
+
 ## Check (2026-11-09, 20:30 UTC)
 - API: Indus long nbB4DKNWp7Y and both Shorts went PUBLIC at 15:00Z (long not moved to 14:50Z). Views at 20:20Z:
   long 3, tunnel Short 200, dam Short 20; 0 comments, so pinned comments are not posted; Related video still to do.

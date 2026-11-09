@@ -42,6 +42,8 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     if not m:
         return None
     num, cur, post = m["num"], m["cur"], m["post"]
+    if not cur and re.search(r"(?:^|\s)[A-Z]{1,4}\.?\s?$", m["pre"]):  # an identifier, not an amount: "HB 2279", "M 5.2", "No. 7"
+        return None
     value = float(num.replace(",", ""))
     if any_unit:
         year = not cur and "," not in num and value.is_integer() and 1000 <= value <= 2100

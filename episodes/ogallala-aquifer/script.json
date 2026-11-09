@@ -991,8 +991,7 @@
         "pdf": "https://patentimages.storage.googleapis.com/70/bc/59/aef70234ffb83e/US2604359.pdf",
         "page": 1,
         "source": "U.S. Patent 2,604,359, 1952",
-        "title": "Frank L. Zybach: self-propelled sprinkling irrigating apparatus",
-        "highlight": "SELF-PROPELLED SPRINKLING IRRIGATING APPARATUS"
+        "title": "Frank L. Zybach: self-propelled sprinkling irrigating apparatus"
        }
       },
       {
@@ -1402,28 +1401,13 @@
        }
       },
       {
-       "type": "chart",
+       "type": "stat",
        "at": "Its average",
-       "chart": {
-        "type": "bar",
-        "title": "Average water-level decline since about 1950",
-        "unit": " ft",
-        "data": [
-         [
-          "Nebraska",
-          0.4
-         ],
-         [
-          "Kansas",
-          27.3
-         ],
-         [
-          "Texas",
-          44.1
-         ]
-        ],
+       "stat": {
+        "value": "0.4 ft",
+        "label": "Average decline in Nebraska since about 1950",
         "source": "USGS, SIR 2023-5143",
-        "highlight": 0
+        "note": "One well there rose 86 feet"
        }
       },
       {
@@ -3856,6 +3840,23 @@
      "shots": [
       {
        "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.0,
+           "lat": 38.1,
+           "span": 0.16
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Finney County, Kansas"
+      },
+      {
+       "type": "map",
        "at": 9,
        "map": {
         "steps": [
@@ -3867,7 +3868,8 @@
           },
           "date": "2024-07-01/2024-08-31"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Near Ulysses, Kansas"
       },
@@ -4575,6 +4577,23 @@
      "shots": [
       {
        "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.4,
+           "lat": 34.8,
+           "span": 0.18
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ]
+       },
+       "on_screen_text": "Near Hereford, Texas"
+      },
+      {
+       "type": "map",
        "at": "The circles",
        "map": {
         "steps": [
@@ -4596,7 +4615,8 @@
          {
           "at": "That is the trap"
          }
-        ]
+        ],
+        "cut": true
        }
       }
      ]

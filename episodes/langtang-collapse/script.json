@@ -240,7 +240,7 @@
      ]
     },
     {
-     "text": "It became a flood that ran about a hundred kilometres into Nepal. By mid-October, police counted 1,456 dead and 5,285 still missing.",
+     "text": "It became a flood that ran about a hundred kilometres into Nepal. When the search ended on October 5, Nepal counted 1,455 dead and 5,285 still missing.",
      "shots": [
       {
        "type": "map",
@@ -336,12 +336,29 @@
       },
       {
        "type": "stat",
-       "at": "By mid-October",
+       "at": "When the search",
        "stat": {
-        "value": "1,456 dead",
-        "label": "And 5,285 still missing in Nepal",
-        "source": "Nepal Police, Oct 14, 2026"
+        "value": "1,455 dead",
+        "label": "And 5,285 still missing in Nepal, 5 October 2026",
+        "source": "Reuters, Oct 5, 2026"
        }
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
       }
      ]
     },
@@ -361,30 +378,13 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "map",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Langtang Lirung, north face"
-      },
-      {
-       "type": "map",
-       "at": 16,
        "map": {
         "steps": [
          {
@@ -401,17 +401,8 @@
        "on_screen_text": "The debris track"
       },
       {
-       "type": "stat",
-       "at": "thirty-eight",
-       "stat": {
-        "value": "38 minutes",
-        "label": "From the collapse to the text alerts",
-        "source": "Kathmandu Post, Sep 2, 2026"
-       }
-      },
-      {
        "type": "map",
-       "at": 37,
+       "at": 16,
        "map": {
         "steps": [
          {
@@ -422,9 +413,25 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The Lhende river"
+      },
+      {
+       "type": "stat",
+       "at": "thirty-eight",
+       "stat": {
+        "value": "38 minutes",
+        "label": "From the collapse to the text alerts",
+        "source": "Kathmandu Post, Sep 2, 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 37,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
       }
      ],
      "ask": {
@@ -477,10 +484,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 25,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang Lirung, north face"
       }
      ]
     },
@@ -802,7 +821,7 @@
        "stat": {
         "value": "300+",
         "label": "Vehicles swept away at Rasuwagadhi",
-        "source": "Government of Nepal, via Wikipedia summary"
+        "source": "Kathmandu Post, Aug 27, 2026"
        }
       }
      ]
@@ -877,7 +896,7 @@
      ]
     },
     {
-     "text": "In places the water rose about eighty metres above the normal river, high enough to reach houses built on terraces well above it.",
+     "text": "The road through this gorge was the main truck route to China. The Kathmandu Post wrote that the all-weather route to Kerung was no more.",
      "shots": [
       {
        "type": "map",
@@ -894,12 +913,12 @@
            "before": "2025-10-15/2025-11-10",
            "after": "2026-10-18/2026-10-27",
            "seconds": 2.0,
-           "until": "high enough"
+           "until": "The Kathmandu"
           },
           "date": "2026-10-18/2026-10-27"
          },
          {
-          "at": "high enough"
+          "at": "The Kathmandu"
          }
         ],
         "cut": true
@@ -1143,7 +1162,7 @@
        "stat": {
         "value": "2 million m³",
         "label": "Water held by one barrier lake in Tibet, 28 August",
-        "source": "Chinese authorities, via Wikipedia summary"
+        "source": "BBC News; Chinese authorities, Aug 28, 2026"
        }
       },
       {
@@ -1202,7 +1221,7 @@
      ]
     },
     {
-     "text": "Bodies were later recovered about two hundred and fifty kilometres away, across the border in India. So who was warned, and when?",
+     "text": "Bodies were later recovered far downstream, some across the border in India. So who was warned, and when?",
      "shots": [
       {
        "type": "map",
@@ -1235,7 +1254,7 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 6,
        "map": {
         "steps": [
          {
@@ -1449,8 +1468,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.52,
-           "lat": 28.3,
+           "lon": 85.5,
+           "lat": 28.32,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
@@ -1458,7 +1477,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "The debris track"
       }
      ]
     },
@@ -1523,7 +1542,7 @@
      ]
     },
     {
-     "text": "Once it started, the system was fast: almost 680,000 messages went out within a minute. A former environment minister still called the delay a failure of communication.",
+     "text": "Once it started, the system was fast: almost 680,000 messages went out within a minute. A former environment minister still flagged the delay and called for better communication.",
      "shots": [
       {
        "type": "stat",
@@ -1531,7 +1550,7 @@
        "stat": {
         "value": "679,295",
         "label": "Text alerts sent within one minute",
-        "source": "Government of Nepal, via Wikipedia summary"
+        "source": "Nepali Times, Aug 31, 2026"
        }
       },
       {
@@ -1620,7 +1639,7 @@
      ]
     },
     {
-     "text": "In Trishuli, a headteacher named Rajendra Dawadi moved about nine hundred children out of his school. Local reports say the flood reached it ten minutes later.",
+     "text": "In Trishuli, a headteacher named Rajendra Dawadi moved about nine hundred children out of his school. The BBC and the Guardian reported that the flood reached it ten minutes later.",
      "shots": [
       {
        "type": "map",
@@ -1637,7 +1656,7 @@
            "before": "2025-10-15/2025-11-10",
            "after": "2026-10-18/2026-10-27",
            "seconds": 2.0,
-           "until": "Local reports"
+           "until": "The BBC"
           },
           "date": "2026-10-18/2026-10-27"
          },
@@ -1654,7 +1673,7 @@
           ]
          },
          {
-          "at": "Local reports"
+          "at": "The BBC"
          }
         ],
         "cut": true
@@ -2363,8 +2382,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
+           "lon": 85.48,
+           "lat": 28.335,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
@@ -2372,7 +2391,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "The Lhende river"
       },
       {
        "type": "chart",
@@ -2423,27 +2442,27 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.48,
-           "lat": 28.335,
+           "lon": 85.52,
+           "lat": 28.3,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "The Lhende river"
-      },
-      {
-       "type": "photo",
-       "at": 18,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
+       "on_screen_text": "Langtang Lirung, north face"
       }
      ]
     },
@@ -2466,15 +2485,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.52,
-           "lat": 28.3,
+           "lon": 85.5,
+           "lat": 28.32,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "The debris track"
       }
      ]
     },
@@ -2555,24 +2574,6 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The debris track"
-      },
-      {
-       "type": "map",
-       "at": 17,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": 85.48,
            "lat": 28.335,
            "span": 0.08
@@ -2586,9 +2587,26 @@
       },
       {
        "type": "photo",
-       "at": 26,
+       "at": 17,
        "photo": "File:Lirung (3to4).jpg",
        "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung, north face"
       }
      ]
     },
@@ -2612,15 +2630,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.52,
-           "lat": 28.3,
+           "lon": 85.5,
+           "lat": 28.32,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "The debris track"
       },
       {
        "type": "map",
@@ -2629,8 +2647,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
+           "lon": 85.48,
+           "lat": 28.335,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
@@ -2638,7 +2656,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "The Lhende river"
       }
      ]
     },
@@ -2727,22 +2745,10 @@
        "on_screen_text": "The Lhende valley"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 36,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.48,
-           "lat": 28.335,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The Lhende river"
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2771,19 +2777,12 @@
           ],
           "date": "2026-10-18/2026-10-27"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
-       "type": "photo",
-       "at": 7,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
-      },
-      {
        "type": "map",
-       "at": 14,
+       "at": 7,
        "map": {
         "steps": [
          {
@@ -2794,9 +2793,28 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Langtang Lirung, north face"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
       }
      ]
     },
@@ -2816,15 +2834,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
+           "lon": 85.48,
+           "lat": 28.335,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "The Lhende river"
       },
       {
        "type": "stat",
@@ -2836,21 +2854,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 21,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.48,
-           "lat": 28.335,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ]
-       },
-       "on_screen_text": "The Lhende river"
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2864,14 +2871,8 @@
        "on_screen_text": "Langtang Lirung"
       },
       {
-       "type": "photo",
-       "at": 9,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
-      },
-      {
        "type": "map",
-       "at": 19,
+       "at": 9,
        "map": {
         "steps": [
          {
@@ -2885,6 +2886,24 @@
         ]
        },
        "on_screen_text": "Langtang Lirung, north face"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
       }
      ]
     },
@@ -2915,24 +2934,6 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The debris track"
-      },
-      {
-       "type": "map",
-       "at": 14,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": 85.48,
            "lat": 28.335,
            "span": 0.08
@@ -2943,6 +2944,12 @@
         "cut": true
        },
        "on_screen_text": "The Lhende river"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2977,14 +2984,8 @@
        }
       },
       {
-       "type": "photo",
-       "at": 7,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
-      },
-      {
        "type": "map",
-       "at": 14,
+       "at": 7,
        "map": {
         "steps": [
          {
@@ -2995,9 +2996,28 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Langtang Lirung, north face"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The debris track"
       }
      ]
     }
@@ -3160,7 +3180,7 @@
        "stat": {
         "value": "~430 MW",
         "label": "Offline after the flood, about 10.6 % of Nepal's hydro and solar output",
-        "source": "Ministry of Energy, via Wikipedia summary"
+        "source": "Ministry of Energy, via Kathmandu Post, Oct 6, 2026"
        }
       },
       {
@@ -3248,7 +3268,7 @@
        "stat": {
         "value": "900+",
         "label": "Missing at 12 hydropower projects, first weeks",
-        "source": "Government of Nepal, via Wikipedia summary"
+        "source": "AP; ABC News (Australia), Sep 2026"
        }
       },
       {
@@ -3375,7 +3395,7 @@
      ]
     },
     {
-     "text": "There were survivors. On September 4, nine days after the flood, rescuers pulled two people out alive from a tunnel, and a Chinese worker the next day.",
+     "text": "There were survivors. On September 4, nine days after the flood, two hydropower workers came out alive after nine days trapped underground. The next day rescuers found two more people alive.",
      "shots": [
       {
        "type": "map",
@@ -3406,7 +3426,7 @@
       },
       {
        "type": "map",
-       "at": 9,
+       "at": 7,
        "map": {
         "steps": [
          {
@@ -3424,7 +3444,7 @@
       },
       {
        "type": "map",
-       "at": 18,
+       "at": 15,
        "map": {
         "steps": [
          {
@@ -3439,6 +3459,24 @@
         "cut": true
        },
        "on_screen_text": "Syafrubesi"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.3,
+           "lat": 28.1,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Below Dhunche"
       }
      ]
     },
@@ -3451,25 +3489,14 @@
        "stat": {
         "value": "3,795 MW",
         "label": "Planned capacity at hit projects under construction",
-        "source": "Ministry of Energy, via Wikipedia summary"
+        "source": "Ministry of Energy, via Kathmandu Post, 2026"
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.3,
-           "lat": 28.1,
-           "span": 0.06
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ]
-       },
-       "on_screen_text": "Below Dhunche"
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
       }
      ]
     },
@@ -3489,15 +3516,26 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 6,
-       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
-       "on_screen_text": "The road to Syafrubesi, 2024"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Timure"
       }
      ]
     },
@@ -3520,7 +3558,8 @@
            "India"
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3554,7 +3593,7 @@
    "mood": "calm",
    "paragraphs": [
     {
-     "text": "Nepal's police counted 1,456 dead and 5,285 missing by October 14. The number of dead kept climbing for seven weeks.",
+     "text": "By October 5, Nepal counted 1,455 dead and 5,285 missing. The number of dead had kept climbing for six weeks.",
      "shots": [
       {
        "type": "chart",
@@ -3573,11 +3612,11 @@
           1386
          ],
          [
-          "Oct 14",
-          1456
+          "Oct 5",
+          1455
          ]
         ],
-        "source": "NDRRMA; Kathmandu Post; Nepal Police",
+        "source": "NDRRMA via Himalayan Times; Kathmandu Post; Reuters",
         "highlight": 0,
         "reveal": [
          "kept climbing"
@@ -3626,7 +3665,7 @@
      ]
     },
     {
-     "text": "Search and rescue ended on October 5, with more than 13,000 people rescued. Then came identification. By October 1, DNA had been taken from 1,334 bodies, and 112 had been identified.",
+     "text": "Search and rescue ended on October 5, with more than 13,000 people rescued. Then came identification. By the end of September, DNA had been taken from 1,334 bodies to put names to them.",
      "shots": [
       {
        "type": "stat",
@@ -3634,7 +3673,7 @@
        "stat": {
         "value": "13,795",
         "label": "People rescued by the end of search and rescue, 5 October",
-        "source": "Government of Nepal, via Wikipedia summary"
+        "source": "Reuters, Oct 5, 2026"
        }
       },
       {
@@ -3656,16 +3695,16 @@
       },
       {
        "type": "stat",
-       "at": "By October",
+       "at": "By the end",
        "stat": {
-        "value": "112 of 1,334",
-        "label": "Bodies identified by DNA, by 1 October",
-        "source": "Kathmandu Post, Oct 2026"
+        "value": "1,334",
+        "label": "Bodies sampled for DNA by 30 September",
+        "source": "OnlineKhabar, Sep 30, 2026"
        }
       },
       {
        "type": "map",
-       "at": 23,
+       "at": 24,
        "map": {
         "steps": [
          {
@@ -3683,20 +3722,20 @@
      ]
     },
     {
-     "text": "UNICEF counted about 84,000 people affected, 32,000 of them children. More than a hundred children lost both parents.",
+     "text": "UNICEF counted about 84,000 people affected, 32,000 of them children. 102 children were orphaned.",
      "shots": [
       {
        "type": "stat",
        "at": 0,
        "stat": {
         "value": "84,000",
-        "label": "People affected, about 32,000 of them children",
-        "source": "UNICEF, via Wikipedia summary"
+        "label": "People affected, 32,021 of them children",
+        "source": "UNICEF, via Kathmandu Post, Oct 17, 2026"
        }
       },
       {
        "type": "map",
-       "at": "More than",
+       "at": "102 children",
        "map": {
         "steps": [
          {
@@ -3831,7 +3870,7 @@
        "stat": {
         "value": "43 dead, 519 missing",
         "label": "Tibet, official figures, mid-September",
-        "source": "Chinese authorities, via Wikipedia summary"
+        "source": "Chinese authorities, via Reuters"
        }
       },
       {
@@ -3890,7 +3929,7 @@
      ]
     },
     {
-     "text": "At first Nepal turned down rescue teams from several countries, pointing to the crowded response after the 2015 earthquake. Later it let in experts from India, China, Australia and South Korea.",
+     "text": "At first Nepal turned down rescue teams from several countries, saying its own forces could handle the operation. Under diplomatic pressure it later let in experts from India, China, Australia and South Korea.",
      "shots": [
       {
        "type": "map",
@@ -3922,7 +3961,7 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 8,
        "map": {
         "steps": [
          {
@@ -3940,7 +3979,7 @@
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 16,
        "map": {
         "steps": [
          {
@@ -3958,7 +3997,7 @@
       },
       {
        "type": "map",
-       "at": 23,
+       "at": 24,
        "map": {
         "steps": [
          {
@@ -3985,7 +4024,7 @@
        "stat": {
         "value": "$20 million",
         "label": "From the Loss and Damage Fund",
-        "source": "Wikipedia summary of donor announcements"
+        "source": "Kathmandu Post, Sep 9, 2026"
        }
       },
       {

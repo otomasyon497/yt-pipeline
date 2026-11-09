@@ -89,3 +89,21 @@ official figure, and say it is dated.
 3. Pictures: NASA EO (PD), US government photos (USAID / State Department, PD), Commons PD / CC BY of Langtang village before
    2015, Gyirong port, Rasuwagadhi bridge. No victims' faces, no graphic images (Press Council Nepal ordered such posts removed).
 4. Tone: 1,400+ dead. No hype, no blame beyond what sources say; the climate link only as the scientists phrase it ("likely").
+
+## Named outlets behind the Wikipedia figures (mapped from the article's references, 2026-11-09)
+- [R11] Toll: Reuters 5 Oct 2026, "Nepal ends search and rescue after flood" (1,455 dead, 5,285 missing; 13,795 rescued).
+  Earlier: NDRRMA via Himalayan Times 31 Aug (903); Kathmandu Post 12 Sep (1,386). Tibet 43 / 519: Chinese authorities via Reuters.
+- [R12] Warning: Kathmandu Post 2 Sep 2026 (38 minutes; 09:00 call; 09:15 alerts); Nepali Times 31 Aug (679,295 messages in one minute);
+  NYT 27 Aug (speed overwhelmed the system; Stimson senior fellow, "blind spot"). Dawadi: BBC and Guardian 30 Aug.
+- [R13] Border: AP 28 Aug (Gyirong 30 % of Nepal-China trade); NRC 31 Aug (camera: wave within seven minutes); NYT 31 Aug
+  (China's flood wall, dikes, drill); Xinhua 27 Aug (Li Qiang in Gyirong 26 Aug); AP 2 Sep (makeshift road by 2 Sep);
+  Kathmandu Post 31 Aug and 15 Sep (Korala the only open crossing); Kathmandu Post 27 Aug (customs office, 300+ vehicles);
+  Kathmandu Post 30 Aug ("The all-weather Rasuwa-Kerung route is no more"); BBC live 28 Aug (barrier lake, China suspends rescue).
+- [R14] Hydropower: Kathmandu Post 6 Oct, My Republica 23 Sep (430.7 MW, 10.6 %); AP 31 Aug / 1 Sep, ABC News 2 Sep
+  (900+ missing at 12 projects); BBC live 31 Aug (controlled explosion, Upper Trishuli 3A); Kathmandu Post 4 and 5 Sep (survivors).
+- [R15] Aftermath: OnlineKhabar 30 Sep (1,334 bodies sampled for DNA); UNICEF via Kathmandu Post 17 Oct (84,000 affected, 32,021
+  children); Nepali Times 18 Sep (102 orphaned); Kathmandu Post 27-28 Aug, NPR 31 Aug (foreign teams declined, then admitted);
+  Kathmandu Post 9 Sep (Loss and Damage Fund US$20 m); Kathmandu Post 1 Oct (7,570 houses) and 10 Sep (Rs723 bn rebuild);
+  SCMP 28 Aug (anti-China misinformation); NYT 27 Aug, 1 Sep, BBC 28 Aug (censorship); CNA, Guardian 31 Aug (10 penalised);
+  Nepali Times 26 Sep (Kathmandu 10 Actions). USGS event us7000tbwb ("M 5.2 Landslide - 55 km NW of Kodari"): primary.
+- Dropped for lack of a primary: water 80 m above the river (Prasai 2026), bodies carried 250 km, 112 identified by 1 Oct.

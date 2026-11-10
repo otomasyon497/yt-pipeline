@@ -475,8 +475,14 @@
          },
          {
           "at": "the Tibetan",
-          "highlight": [
-           "China"
+          "places": [
+           {
+            "name": "Tibet",
+            "lon": 85.47,
+            "lat": 28.345,
+            "kind": "label",
+            "label": "Tibet, China"
+           }
           ]
          }
         ],
@@ -1230,14 +1236,10 @@
         "steps": [
          {
           "view": {
-           "lon": 84.4,
-           "lat": 27.3,
-           "span": 3.2
+           "lon": 84.9,
+           "lat": 27.6,
+           "span": 2.4
           },
-          "highlight": [
-           "Nepal",
-           "India"
-          ],
           "places": [
            {
             "name": "Trishuli",
@@ -1245,6 +1247,13 @@
             "lat": 27.9232,
             "kind": "city",
             "label": "Trishuli"
+           },
+           {
+            "name": "India",
+            "lon": 84.6,
+            "lat": 26.9,
+            "kind": "label",
+            "label": "INDIA"
            }
           ]
          }
@@ -1945,7 +1954,7 @@
      ]
     },
     {
-     "text": "The blast of air in front of it flattened buildings that had survived and knocked down a forest of grown trees. Here is the village from orbit, the autumn before and the autumn after.",
+     "text": "The blast of air in front of it flattened buildings that had survived and knocked down a forest of grown trees. Here is the valley from orbit that October.",
      "shots": [
       {
        "type": "photo",
@@ -1970,18 +1979,21 @@
            "lat": 28.215,
            "span": 0.14
           },
-          "compare": {
-           "before": "2014-10-20",
-           "after": "2015-10-07",
-           "source": "landsat",
-           "seconds": 2.0
-          },
-          "date": "2026-10-18/2026-10-27"
+          "places": [
+           {
+            "name": "Langtang",
+            "lon": 85.509,
+            "lat": 28.2158,
+            "kind": "site",
+            "label": "Langtang village"
+           }
+          ],
+          "date": "2015-10-07/2015-10-07"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Landsat 8"
+       "on_screen_text": "Landsat 8, October 2015"
       }
      ]
     },
@@ -2070,9 +2082,6 @@
            "lat": 28.3,
            "span": 0.4
           },
-          "highlight": [
-           "China"
-          ],
           "places": [
            {
             "name": "Rasuwagadhi",
@@ -2080,6 +2089,13 @@
             "lat": 28.2778,
             "kind": "site",
             "label": "Rasuwagadhi"
+           },
+           {
+            "name": "Tibet",
+            "lon": 85.47,
+            "lat": 28.345,
+            "kind": "label",
+            "label": "Tibet, China"
            }
           ],
           "date": "2026-10-18/2026-10-27"
@@ -2990,16 +3006,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "Timure"
       },
       {
        "type": "map",
@@ -3008,16 +3024,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "The Bhotekoshi gorge"
       }
      ]
     }
@@ -3140,8 +3156,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.367,
-           "lat": 28.253,
+           "lon": 85.343,
+           "lat": 28.16,
            "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
@@ -3149,7 +3165,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Timure"
+       "on_screen_text": "Syafrubesi"
       },
       {
        "type": "map",
@@ -3190,15 +3206,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.35,
-           "lat": 28.2,
+           "lon": 85.3,
+           "lat": 28.1,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "The Bhotekoshi gorge"
+       "on_screen_text": "Below Dhunche"
       }
      ]
     },
@@ -3223,22 +3239,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 6,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.343,
-           "lat": 28.16,
-           "span": 0.05
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Syafrubesi"
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
       },
       {
        "type": "map",
@@ -3278,21 +3282,33 @@
         "steps": [
          {
           "view": {
-           "lon": 85.3,
-           "lat": 28.1,
-           "span": 0.06
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Below Dhunche"
+       "on_screen_text": "Timure"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 14,
-       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
-       "on_screen_text": "The road to Syafrubesi, 2024"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
       }
      ]
     },
@@ -3306,15 +3322,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.367,
-           "lat": 28.253,
+           "lon": 85.343,
+           "lat": 28.16,
            "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Timure"
+       "on_screen_text": "Syafrubesi"
       },
       {
        "type": "document",
@@ -3431,42 +3448,6 @@
         "steps": [
          {
           "view": {
-           "lon": 85.35,
-           "lat": 28.2,
-           "span": 0.06
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The Bhotekoshi gorge"
-      },
-      {
-       "type": "map",
-       "at": 15,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.343,
-           "lat": 28.16,
-           "span": 0.05
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Syafrubesi"
-      },
-      {
-       "type": "map",
-       "at": 23,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": 85.3,
            "lat": 28.1,
            "span": 0.06
@@ -3477,6 +3458,29 @@
         "cut": true
        },
        "on_screen_text": "Below Dhunche"
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Timure"
       }
      ]
     },
@@ -3493,10 +3497,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 7,
-       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
-       "on_screen_text": "The road to Syafrubesi, 2024"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
       }
      ]
     },
@@ -3516,7 +3531,8 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3526,8 +3542,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.367,
-           "lat": 28.253,
+           "lon": 85.343,
+           "lat": 28.16,
            "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
@@ -3535,7 +3551,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Timure"
+       "on_screen_text": "Syafrubesi"
       }
      ]
     },
@@ -3828,9 +3844,6 @@
            "lat": 28.3,
            "span": 0.4
           },
-          "highlight": [
-           "China"
-          ],
           "places": [
            {
             "name": "Gyirong",
@@ -3838,6 +3851,13 @@
             "lat": 28.3961,
             "kind": "city",
             "label": "Gyirong town"
+           },
+           {
+            "name": "Tibet",
+            "lon": 85.47,
+            "lat": 28.345,
+            "kind": "label",
+            "label": "Tibet, China"
            }
           ],
           "date": "2026-10-18/2026-10-27"

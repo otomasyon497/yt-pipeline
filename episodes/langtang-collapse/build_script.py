@@ -158,7 +158,7 @@ chapters = [
     ]},
     {"title": "Within Minutes", "mood": "tension", "paragraphs": [
         P("The ice and rock fell about eight kilometres down a side valley into the Lhende river, on the Tibetan side of the border. On the way it picked up loose rock, mud and water.",
-          m(0, v(VALLEY), step("down a side", places=[SRC]), step("the Tibetan", highlight=["China"]), cut=True)),
+          m(0, v(VALLEY), step("down a side", places=[SRC]), step("the Tibetan", places=[place("Tibet", 85.47, 28.345, "Tibet, China", "label")]), cut=True)),
         P("Then the flood turned west, toward the border crossing at Rasuwagadhi, about thirteen kilometres downstream. On the Chinese side stands Gyirong Port, which handled close to a third of Nepal's trade with China, by Chinese figures.",
           m(0, v(RASUWA_V), step("toward the border", places=[RASUWAGADHI]), step("On the Chinese", places=[GYIRONG_PORT]), cut=True)),
         P("Cameras there filmed the water arriving within minutes. Chinese state television showed it hitting the customs and immigration building. Some experts put its speed at more than a hundred kilometres an hour.",
@@ -181,7 +181,7 @@ chapters = [
           m(0, v(near(85.46, 28.335, 0.1), places=[SRC]), cut=True, text="The Lhende valley, Tibet"),
           stat("Two days later", "2 million m³", "Water held by one barrier lake in Tibet, 28 August", "BBC News; Chinese authorities, Aug 28, 2026")),
         P("Bodies were later recovered far downstream, some across the border in India. So who was warned, and when?",
-          m(0, v({"lon": 84.4, "lat": 27.3, "span": 3.2}, highlight=["Nepal", "India"], places=[TRISHULI])),
+          m(0, v({"lon": 84.9, "lat": 27.6, "span": 2.4}, places=[TRISHULI, place("India", 84.6, 26.9, "INDIA", "label")])),
           ask=("So who", "Who should have sounded the alarm?")),
     ]},
     {"title": "Thirty-Eight Minutes", "mood": "tension", "paragraphs": [
@@ -218,15 +218,15 @@ chapters = [
         P("Langtang was a trekking village, with fifty-five guesthouses. Its people call the valley a beyul, a hidden sacred refuge, and Langtang Lirung its protector.",
           photo(0, "File:Langtang Khola Rasuwa District.jpg", "The Langtang valley"),
           photo("Its people", "File:Lirung (3to4).jpg", "Langtang Lirung")),
-        P("The blast of air in front of it flattened buildings that had survived and knocked down a forest of grown trees. Here is the village from orbit, the autumn before and the autumn after.",
-          m("Here is", v(LANGTANG_V, compare={"before": "2014-10-20", "after": "2015-10-07", "source": "landsat", "seconds": 2.0}), cut=True, text="Landsat 8")),
+        P("The blast of air in front of it flattened buildings that had survived and knocked down a forest of grown trees. Here is the valley from orbit that October.",
+          m("Here is", v(LANGTANG_V, date="2015-10-07/2015-10-07", places=[LANGTANG]), cut=True, text="Landsat 8, October 2015")),
         P("Officially 306 people died: at least 175 of about 370 villagers who were there, 82 other Nepalis and 49 foreign trekkers. The villagers say it was closer to five hundred.",
           chart(0, "Langtang, 25 April 2015: official toll", "", [["Villagers", 175], ["Other Nepalis", 82], ["Foreign trekkers", 49]], HIMAL, reveal=["82 other", "49 foreign"]),
           stat("The villagers", "~500", "The villagers' own count of the dead", HIMAL)),
         P("They rebuilt it themselves, about a hundred metres up the valley. This is Langtang last February.",
           photo(0, "File:Langtang Village, February 2026.jpg", "Langtang village, February 2026")),
         P("Then, last year, the danger came from the other side of the border. On July 8, 2025, a lake on top of a glacier in Tibet burst, about thirty-six kilometres above Rasuwagadhi.",
-          m(0, v(VALLEY, highlight=["China"], places=[RASUWAGADHI]), cut=True)),
+          m(0, v(VALLEY, places=[RASUWAGADHI, place("Tibet", 85.47, 28.345, "Tibet, China", "label")]), cut=True)),
         P("It sat at 5,150 metres and had grown quickly from December to June. The Kathmandu Post called it previously unnoticed. After it burst, it still covered 0.61 square kilometres.",
           stat(0, "0.75 km²", "The lake before it burst, at 5,150 metres", KP25)),
         P("The flood took the Friendship Bridge at Rasuwagadhi, wrecked the dry port and hit hydropower plants down the river. Police counted nine dead and nineteen missing.",
@@ -310,7 +310,7 @@ chapters = [
         P("Nepal's law made families wait twelve years before a missing person could be declared dead. In October the cabinet proposed cutting that to forty-five days.",
           stat("In October", "12 years → 45 days", "Before a missing person can be declared dead (proposed)", "Kathmandu Post, Oct 2026")),
         P("On the Chinese side the official figures were 43 dead and 519 missing by mid-September. Videos and eyewitness posts from Tibet were removed from Chinese social media, according to the BBC and the New York Times, and police punished at least ten people for what they called misleading posts.",
-          m(0, v(VALLEY, highlight=["China"], places=[GYIRONG]), cut=True),
+          m(0, v(VALLEY, places=[GYIRONG, place("Tibet", 85.47, 28.345, "Tibet, China", "label")]), cut=True),
           stat("Videos", "43 dead, 519 missing", "Tibet, official figures, mid-September", "Chinese authorities, via Reuters")),
         P("At first Nepal turned down rescue teams from several countries, saying its own forces could handle the operation. Under diplomatic pressure it later let in experts from India, China, Australia and South Korea.",
           m(0, v(NEPAL_V, highlight=["Nepal"], places=[KATHMANDU]), cut=True)),
@@ -400,6 +400,8 @@ counters = dict.fromkeys(POOLS, 0)
 
 
 def topic_of(text, chapter):
+    if re.search(r"nowhere near the ice|at work|inside the mountain", text):  # about the people downstream, not the ice
+        return "gorge"
     if chapter == "Not an Earthquake" and not re.search(r"flood|kilometres into Nepal", text):
         return "source"
     if re.search(r"Chamoli|Sikkim|Thame|Everest|region's glaciers|ICIMOD projected|Shrinking ice|the region", text):

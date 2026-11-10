@@ -28,6 +28,8 @@ _UNIT = re.compile(r"^\s?(%|percent|per cent|billion|million|trillion|thousand|b
 # number puts a false figure on screen ("8% to 58%").
 _RANGE = re.compile(r"\d\s*(?:%|[a-z]+)?\s*(?:[-\u2013\u2192]|to)\s*[$\u20ac\u00a3]?\d", re.IGNORECASE)
 _DATE = re.compile(r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d", re.IGNORECASE)
+# Tolls never count: a death toll running up through wrong numbers ("1,443 dead") is false on screen and grim.
+_TOLL = re.compile(r"\b(?:dead|deaths?|died|killed|missing|victims?|injured|bodies)\b", re.IGNORECASE)
 
 
 def count_up(text: str | None, any_unit: bool = False) -> dict | None:
@@ -36,7 +38,7 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     Labels count only with a currency or a known unit after the number; a stat card (`any_unit`) counts any
     number except a year on its own ("1963").
     """
-    if not text or _DATE.search(text) or _RANGE.search(text):  # "May 15, 2026" would pass through "May 0, 2026"; "500-1,300" through "499-1,300"
+    if not text or _DATE.search(text) or _RANGE.search(text) or _TOLL.search(text):  # "May 15, 2026" would pass through "May 0, 2026"; "500-1,300" through "499-1,300"
         return None
     m = _NUM.match(text)
     if not m:
@@ -220,7 +222,7 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             "subtitle": None if src is None else src.subtitle,
             "chart": ({**src.chart.model_dump(), "reveal": [round(x * FPS) - u["startFrame"] for x in first["steps"]]}
                       if src is not None and src.chart else None),
-            "stat": ({**src.stat.model_dump(), "countUp": count_up(src.stat.value, any_unit=True)}
+            "stat": ({**src.stat.model_dump(), "countUp": None if _TOLL.search(src.stat.label or "") else count_up(src.stat.value, any_unit=True)}
                      if src is not None and src.stat else None),
             "document": (docs or {}).get(u["id"]),
             "quote": None if src is None else src.quote,

@@ -90,7 +90,20 @@ TODO: quotes above come from a summary of the page; before any quote card, re-re
 - 24 Sep 2026 high tide breached the dune near the Pea Island Visitor Center, road closed; reopened ~3 Oct after emergency
   repairs; mid-Oct Dare County ordered visitors off Rodanthe-Hatteras Village; emergency ferry route used for the first time
   since 2013 — A (Spectrum, ABC11, watchers.news). TODO confirm "first since 2013" with NCDOT/Dare.
-- TODO: current status of NC 12 (reopened?) as of the script date.
+- CORRECTED timeline (NCDOT releases, V via search summaries; ABC11/WTKR): 24 Sep 2026 nor'easter washed out ~1,000 ft
+  near the Pea Island Visitor Center; 26 Sep NCDOT: the Stumpy Point-Rodanthe emergency ferry route goes into service for
+  the first time since December 2013 (when scour at the old Bonner Bridge closed it for 10 days); ferry from 27 Sep 11 a.m.;
+  NC 12 fully reopened 3 Oct; closed again 19 Oct by overwash (>1,200 ft of pavement damaged); ferry again 22 Oct ("for the
+  second time in a month"); reopened 29 Oct 4 p.m. with a one-lane detour, 11 days after the closure. NCDOT is discussing
+  with federal partners moving a 1-mile section of NC 12 west (Oct 29 release). Status after 29 Oct: open with a one-lane
+  detour (no later report found) -> script says "as of early November". URLs:
+  https://www.ncdot.gov/news/press-releases/Pages/2026/2026-09-26-emergency-ferry-service.aspx
+  https://www.ncdot.gov/news/press-releases/Pages/2026/2026-10-22-ncdot-ferry-emergency-service.aspx
+  https://www.ncdot.gov/news/press-releases/Pages/2026/2026-10-29-ncdot-nc-12-reopens.aspx
+- Buxton nourishment #1: 21 Jun 2017 - 27 Feb 2018, 2.6 million cubic yards on 2.9 miles (Haulover to the old lighthouse
+  site), ~$22.1 million (secondary); 2022 Avon/Buxton project 1.2 million cy in Buxton, $25.8M contract (Great Lakes) —
+  Dare County report / Island Free Press / obxtoday (A). Our Landsat: Buxton shoreline 2014 -> 2018 moved ~33 m seaward,
+  and by 2024 was ~10 m behind its 2014 line again. That is the "sand that lasted a few years" picture.
 - Rodanthe "Jug Handle" Bridge: opened 28 Jul 2022 (NCDOT release), 2.4 mi over Pamlico Sound, bypasses the S-curves that
   overwash; ~$145 million (reports) — V date; A cost (TODO NCDOT figure).
 - Hurricane Irene, Aug 2011: breached NC 12 near Rodanthe (S-curves) and on Pea Island — A (ASCE). TODO date of reopening (Oct 2011).

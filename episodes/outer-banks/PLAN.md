@@ -2,7 +2,7 @@
 
 Episode 11, chosen by the user 2026-11-10 ("Outer Banks, başla") from a YouTube scan: coastal-erosion videos at 50-290x
 views per subscriber (e.g. "America Built a Highway That Disappears Into the Atlantic", 288k on 263 subs; Hatteras/Rodanthe,
-Dana Point, Laguna). Langtang stays episode 10. Gate 1 pending.
+Dana Point, Laguna). Langtang stays episode 10. Gate 1 approved by the user 2026-11-10 ("Onaylıyorum, senaryoya geç").
 
 Frame: on Hatteras Island the ocean keeps coming and three things stand in its way: a lighthouse (moved in 1999), a road
 (NC 12, rebuilt, bridged, closed again in Oct 2026) and the houses (32 collapsed since 2020). The lighthouse got out of the

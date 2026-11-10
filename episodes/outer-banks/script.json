@@ -1,0 +1,3894 @@
+{
+ "title": "The Outer Banks",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/outer-banks/research.md and factcheck.md",
+  "Landsat data courtesy of the U.S. Geological Survey"
+ ],
+ "thumbnail": {
+  "text": "500 FEET"
+ },
+ "chapters": [
+  {
+   "title": "The Front Row",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Sometime in the night of June 2, 2026, a beach house on Ocean Drive in Buxton, North Carolina, fell into the Atlantic. It was the thirty-second house lost on this national seashore since 2020.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.5,
+           "lat": 35.4,
+           "span": 9
+          },
+          "places": [
+           {
+            "name": "Raleigh",
+            "lon": -78.64,
+            "lat": 35.78,
+            "kind": "capital",
+            "label": "Raleigh"
+           }
+          ]
+         },
+         {
+          "at": "in Buxton",
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It was the",
+       "stat": {
+        "value": "32 houses",
+        "label": "Collapsed on Cape Hatteras National Seashore beaches since 2020",
+        "source": "National Park Service, Cape Hatteras National Seashore, Aug 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 28,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "Twenty of them stood in Buxton and twelve in Rodanthe. Six went on a single day in September 2025. Five more went on one day that October. And four more fell in two days this February.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           },
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Six went",
+       "stat": {
+        "value": "6, then 5",
+        "label": "Buxton houses lost on 30 September and 28 October 2025",
+        "source": "National Park Service, Cape Hatteras National Seashore, Aug 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Five more",
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 27,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "This is the shore at Rodanthe in August 1985. And this is the same shore this October. We measured where the water line sits in Landsat images, year by year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "compare": {
+           "before": "1985-08-16",
+           "after": "2026-10-27",
+           "source": "landsat",
+           "seconds": 2.6,
+           "until": "And this"
+          },
+          "date": "2026-10-20/2026-11-08"
+         },
+         {
+          "at": "And this"
+         },
+         {
+          "at": "We measured",
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Real satellite images · Landsat"
+      }
+     ]
+    },
+    {
+     "text": "Since 1985 it has moved about a hundred and fifty-five metres inland. That is about five hundred feet, or roughly twelve feet a year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~155 m",
+        "label": "How far the shoreline at Rodanthe moved inland, 1985 to 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9",
+        "note": "About 510 feet; tides move a single day's line by tens of metres"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 6,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": "That is about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "These islands have always moved. What is new is what we built on them that cannot move: a lighthouse, a road, and the houses along it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": "a lighthouse",
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      }
+     ]
+    },
+    {
+     "text": "One of the three was moved out of the way. The other two are still waiting, and the rules tell them to wait. Why does the government pay for a house only after the ocean has taken it?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "Cape Hatteras Lighthouse"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 30,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      }
+     ],
+     "ask": {
+      "at": "Why does",
+      "text": "Would you wait for your house to fall?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Islands That Walk",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Outer Banks are barrier islands: narrow ribbons of sand between the Atlantic and the shallow sounds behind them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.75,
+           "lat": 35.55,
+           "span": 2.2
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           },
+           {
+            "name": "Stumpy Point",
+            "lon": -75.771,
+            "lat": 35.698,
+            "kind": "port",
+            "label": "Stumpy Point"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "The Outer Banks, North Carolina"
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.3
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island"
+      }
+     ]
+    },
+    {
+     "text": "The US Geological Survey describes how they move. In a storm, waves push sand over the dunes and drop it on the far side. Storm after storm, the island rolls toward the mainland. Geologists call it barrier island rollover. Wind moves sand as well, and inlets open, close and wander along the coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.49,
+           "lat": 35.68,
+           "span": 0.1
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.4,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island, Avon"
+      },
+      {
+       "type": "map",
+       "at": "drop it on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.63,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.7,
+           "lat": 35.22,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Village"
+      },
+      {
+       "type": "stat",
+       "at": "Geologists call",
+       "stat": {
+        "value": "Rollover",
+        "label": "How a barrier island moves toward the mainland",
+        "source": "US Geological Survey"
+       }
+      },
+      {
+       "type": "map",
+       "at": 43,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.62,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe and Pea Island"
+      }
+     ]
+    },
+    {
+     "text": "Sometimes a storm cuts straight through. In September 2003, Hurricane Isabel opened a new inlet north of Hatteras Village, where an old inlet had closed in the 1930s.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.715,
+           "lat": 35.215,
+           "span": 0.09
+          },
+          "compare": {
+           "before": "2003-07-01/2003-09-15",
+           "after": "2003-09-19/2003-11-20",
+           "source": "landsat",
+           "seconds": 2.2,
+           "label_before": "SUMMER 2003",
+           "label_after": "AFTER ISABEL, 2003",
+           "until": "Hurricane Isabel"
+          },
+          "date": "2026-10-20/2026-11-08"
+         },
+         {
+          "at": "Hurricane Isabel"
+         },
+         {
+          "at": "where an old",
+          "places": [
+           {
+            "name": "Hatteras",
+            "lon": -75.69,
+            "lat": 35.219,
+            "kind": "city",
+            "label": "Hatteras Village"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "It was about two thousand feet wide. The village was cut off for two months. The Army Corps of Engineers pumped sand into the gap, and the road reopened on November 22. Elsewhere Isabel buried Highway 12 under as much as three feet of sand.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~2,000 ft",
+        "label": "Width of the inlet Hurricane Isabel cut in September 2003",
+        "source": "NPS; NC records"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The village",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.69,
+           "lat": 35.22,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Hatteras",
+            "lon": -75.69,
+            "lat": 35.219,
+            "kind": "city",
+            "label": "Hatteras Village"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.3
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.4,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island, Avon"
+      },
+      {
+       "type": "stat",
+       "at": "Elsewhere",
+       "stat": {
+        "value": "Up to ~3 ft",
+        "label": "Sand Isabel left on parts of Highway 12, 2003",
+        "source": "US Geological Survey"
+       }
+      },
+      {
+       "type": "map",
+       "at": 38,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.7,
+           "lat": 35.22,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Hatteras Village"
+      }
+     ]
+    },
+    {
+     "text": "For an island, moving is how it survives a rising sea. For a road, a lighthouse or a house on pilings, it is a disaster. And the first building here to face that choice was the tallest.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "photo",
+       "at": "And the first",
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": 31,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Lighthouse That Moved",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Cape Hatteras Lighthouse was finished in 1870, about fifteen hundred feet from the ocean. The National Park Service calls it the tallest brick lighthouse in the United States.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "stat",
+       "at": "about fifteen",
+       "stat": {
+        "value": "1,500 ft",
+        "label": "From the ocean when the lighthouse was finished, 1870",
+        "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      }
+     ]
+    },
+    {
+     "text": "By 1970 the ocean was a hundred and twenty feet away. The tower before it, built in 1803 about a mile from the shore, was finally lost to a storm in 1980.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "120 ft",
+        "label": "From the ocean in 1970",
+        "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 5,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "map",
+       "at": "The tower",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "Cape Hatteras Lighthouse"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      }
+     ]
+    },
+    {
+     "text": "People tried to hold the line. In 1936 the Coast Guard built groins, then gave up and moved the light to a steel tower in the woods. In the 1960s and 70s came new sand and three more groins. In 1980 the Park Service studied a seawall.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.255,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1936",
+       "stat": {
+        "value": "1936",
+        "label": "The Coast Guard builds groins, then moves the light inland",
+        "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 13,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": 20,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": "In the 1960s",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "stat",
+       "at": "In 1980",
+       "stat": {
+        "value": "1980",
+        "label": "A seawall is studied to hold the old site",
+        "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Moving it was first rejected as impractical. In 1988 the National Academy of Sciences looked at ten options and recommended moving it. It took almost another decade before Congress paid for it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg"
+      },
+      {
+       "type": "stat",
+       "at": "In 1988",
+       "stat": {
+        "value": "10 options",
+        "label": "Reviewed by the National Academy of Sciences, 1988: move it",
+        "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": 23,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      }
+     ]
+    },
+    {
+     "text": "In June 1999, crews lifted 4,830 tons of brick onto rails and pushed it five feet at a time. Sixty sensors watched the tower as it rolled. Twenty-three days later it stood 2,900 feet to the southwest. It cost 11.8 million dollars, and it was lit again on November 13. The keepers' houses had gone first, between February and April.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "4,830 tons of brick"
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "stat",
+       "at": "Twenty-three",
+       "stat": {
+        "value": "2,900 ft",
+        "label": "Moved southwest in 23 days, June-July 1999",
+        "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It cost",
+       "stat": {
+        "value": "$11.8 million",
+        "label": "Cost of the move",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 44,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 52,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "Today it stands about fifteen hundred feet from the ocean again. Here is that corner of Buxton in April 1985, and this March. Just north of the old site runs Old Lighthouse Road. One of the houses that fell this February stood on it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "After Hurricane Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "map",
+       "at": "Here is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "compare": {
+           "before": "1985-04-26",
+           "after": "2026-03-01",
+           "source": "landsat",
+           "seconds": 2.4,
+           "until": "and this"
+          },
+          "date": "2026-10-20/2026-11-08"
+         },
+         {
+          "at": "and this",
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "Cape Hatteras Lighthouse"
+           }
+          ]
+         },
+         {
+          "at": "Just north",
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "One of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 38,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "The lighthouse got out of the way. The road beside it could not, or not easily.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "Cape Hatteras Lighthouse"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Only Road",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Highway 12 is the only road onto Hatteras Island. Its northern gate is Oregon Inlet. The Bonner Bridge crossed it from 1963. It was designed to last about thirty years and stayed in service for fifty-six. In December 2013 the current scoured the sand around its supports so badly that it was closed for ten days, and the state ran an emergency ferry instead.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its northern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Bonner",
+       "photo": "File:Outer Banks Scenic Byway - Herbert C. Bonner Bridge and Oregon Inlet - NARA - 7720871.jpg",
+       "on_screen_text": "The Bonner Bridge over Oregon Inlet"
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.49,
+           "lat": 35.73,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Pea Island"
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, NC 12"
+      },
+      {
+       "type": "map",
+       "at": "In December",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Stumpy Point",
+            "lon": -75.771,
+            "lat": 35.698,
+            "kind": "port",
+            "label": "Stumpy Point"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 45,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.485,
+           "lat": 35.705,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, the dune line"
+      },
+      {
+       "type": "map",
+       "at": 54,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oregon Inlet"
+      }
+     ]
+    },
+    {
+     "text": "Its replacement, the Marc Basnight Bridge, opened in February 2019: 2.8 miles long, built to last a hundred years, at a reported cost of about 252 million dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.49,
+           "lat": 35.73,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island"
+      },
+      {
+       "type": "stat",
+       "at": "at a reported",
+       "stat": {
+        "value": "$252 million",
+        "label": "The Marc Basnight Bridge, opened February 2019",
+        "source": "NCDOT; news reports"
+       }
+      }
+     ]
+    },
+    {
+     "text": "South of the bridge the road runs along Pea Island, a wildlife refuge, with the ocean on one side and the sound on the other. In August 2011, Hurricane Irene cut through it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.7,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, NC 12"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.485,
+           "lat": 35.705,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, the dune line"
+      },
+      {
+       "type": "map",
+       "at": "In August",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.495,
+           "lat": 35.716,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Near Rodanthe the road followed an eroding stretch called the S-curves. The fix was to leave the island. Since July 2022, a 2.4-mile bridge has carried the road out over Pamlico Sound and back. Reports put its cost at about 145 million dollars. The bridge skipped the S-curves, but not the rest of the road.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.475,
+           "lat": 35.618,
+           "span": 0.06
+          },
+          "compare": {
+           "before": "2021-09-01/2021-11-30",
+           "after": "2023-09-01/2023-11-30",
+           "seconds": 2.2,
+           "until": "The fix"
+          },
+          "date": "2026-10-20/2026-11-08"
+         },
+         {
+          "at": "The fix"
+         },
+         {
+          "at": "Since July",
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ]
+         },
+         {
+          "at": "out over"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Reports put",
+       "stat": {
+        "value": "2.4 miles",
+        "label": "The Rodanthe 'Jug Handle' Bridge, opened July 2022",
+        "source": "NCDOT",
+        "note": "About $145 million, as reported"
+       }
+      },
+      {
+       "type": "map",
+       "at": 41,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe, north end"
+      }
+     ]
+    },
+    {
+     "text": "This autumn showed what is left. On September 24 a nor'easter washed out about a thousand feet of road near the Pea Island Visitor Center. For the first time since December 2013, the state ran an emergency ferry from Rodanthe to Stumpy Point on the mainland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.495,
+           "lat": 35.716,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Pea Island Visitor Center",
+            "lon": -75.493,
+            "lat": 35.7167,
+            "kind": "site",
+            "label": "Pea Island Visitor Center"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oregon Inlet"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.49,
+           "lat": 35.73,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island"
+      },
+      {
+       "type": "map",
+       "at": "For the first",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.62,
+           "lat": 35.65,
+           "span": 0.45
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           },
+           {
+            "name": "Stumpy Point",
+            "lon": -75.771,
+            "lat": 35.698,
+            "kind": "port",
+            "label": "Stumpy Point"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -75.468,
+             35.594
+            ],
+            "to": [
+             -75.771,
+             35.698
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "Emergency ferry"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, NC 12"
+      },
+      {
+       "type": "map",
+       "at": 39,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.485,
+           "lat": 35.705,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, the dune line"
+      }
+     ]
+    },
+    {
+     "text": "The road reopened on October 3. On October 19 the ocean closed it again, this time damaging more than twelve hundred feet of pavement. The ferry came back, and by October 26 it had carried 1,451 vehicles. Visitors were ordered off the island.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.495,
+           "lat": 35.716,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Pea Island Visitor Center",
+            "lon": -75.493,
+            "lat": 35.7167,
+            "kind": "site",
+            "label": "Pea Island Visitor Center"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oregon Inlet"
+      },
+      {
+       "type": "stat",
+       "at": "damaging",
+       "stat": {
+        "value": "1,200+ ft",
+        "label": "Pavement damaged near the Pea Island Visitor Center, October 2026",
+        "source": "NCDOT, Oct 2026"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The ferry",
+       "stat": {
+        "value": "1,451 vehicles",
+        "label": "Carried by the emergency ferry by October 26",
+        "source": "NCDOT, Oct 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.49,
+           "lat": 35.73,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Pea Island"
+      }
+     ]
+    },
+    {
+     "text": "It reopened on October 29 with one lane, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this February. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.495,
+           "lat": 35.716,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, NC 12"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.485,
+           "lat": 35.705,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, the dune line"
+      },
+      {
+       "type": "map",
+       "at": "Here is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.495,
+           "lat": 35.716,
+           "span": 0.045
+          },
+          "compare": {
+           "before": "1985-08-16",
+           "after": "2026-02-13",
+           "source": "landsat",
+           "seconds": 2.4,
+           "until": "and this"
+          },
+          "date": "2026-10-20/2026-11-08"
+         },
+         {
+          "at": "and this",
+          "places": [
+           {
+            "name": "Pea Island Visitor Center",
+            "lon": -75.493,
+            "lat": 35.7167,
+            "kind": "site",
+            "label": "Pea Island Visitor Center"
+           }
+          ]
+         },
+         {
+          "at": "We measured"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On an island",
+       "stat": {
+        "value": "~100 m",
+        "label": "Shoreline retreat at the Pea Island Visitor Center, 1985 to 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9",
+        "note": "About 330 feet"
+       }
+      },
+      {
+       "type": "map",
+       "at": 49,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Oregon Inlet"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Two Villages",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In December 2024 the Park Service sent Congress a report on its erosion hotspots. Rodanthe and Buxton are where the houses have fallen.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "A Park Service scientist put the average loss at Rodanthe at nine to twelve feet a year between 1998 and 2022. Our own measurement since 1985 lands in the same range.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "9-12 ft",
+        "label": "Average yearly shoreline loss at Rodanthe, 1998-2022",
+        "source": "Cape Hatteras National Seashore scientist, via WRAL"
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.465,
+           "lat": 35.58,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe and Waves"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.475,
+           "lat": 35.618,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The S-curves"
+      },
+      {
+       "type": "map",
+       "at": "Our own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In Rodanthe, Richard Foreman's house stands about twenty feet up on stilts. It was a rental. Now it stands in the middle of the beach. Four neighbouring houses have fallen in the last two years, NPR reported in September. Inside, he said, it looked as if they had just left for dinner, with everything still there. NPR counted at least half a dozen homes here in imminent danger.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 16,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": "Four",
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "Rodanthe, the morning after a collapse, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 33,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 42,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 50,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 59,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "In Buxton, Michael McDaniel bought his house in 2011 for about half a million dollars. When he bought it, there were about two hundred and fifty feet of dune in front of it, NPR reported. If it falls, his flood insurance would pay up to 250,000 dollars for the house and up to 100,000 for what is inside. More than ninety percent of the houses that fell in Dare County since 2020 were assessed at over 250,000 dollars, NPR found.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "stat",
+       "at": "about two",
+       "stat": {
+        "value": "~250 ft",
+        "label": "Dune in front of one Buxton house when it was bought in 2011",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": "If it falls",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 44,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 53,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 62,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 71,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "The Park Service keeps the list by address. In two days this February it was 46201, 46215 and 46219 Tower Circle Road and 46285 Old Lighthouse Road, all in Buxton. In June it was 46000 Ocean Drive.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 10,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "stat",
+       "at": "In June",
+       "stat": {
+        "value": "46000 Ocean Drive",
+        "label": "Buxton, collapsed overnight, 2 June 2026",
+        "source": "National Park Service, Cape Hatteras National Seashore, Aug 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "When a house falls, the debris spreads along the beach. The Park Service says owners' cleanups have not always restored the beach, so it cleans up and seeks the cost back. NPR counted more than 480 tons of debris collected in eighteen months.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Park Service crews collect debris, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 23,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "stat",
+       "at": "NPR counted",
+       "stat": {
+        "value": "480+ tons",
+        "label": "Debris the Park Service collected in 18 months",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 37,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "So why are these houses left standing until they fall?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Paid to Wait",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Most flood insurance for American homes comes from one place: FEMA's National Flood Insurance Program. And it pays when a house collapses, not before.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "After, not before",
+        "label": "When federal flood insurance pays for a house on a collapsing shore",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 16,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "Foreman told NPR that if the insurer settled with him now, he would have the house torn down tomorrow. Waiting, he said, means it will fall in a storm and be scattered for miles.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": "Waiting",
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "Tearing a house down costs at least thirty thousand dollars. Moving one can cost hundreds of thousands. A collapse can pay up to two hundred and fifty thousand dollars for the building and up to a hundred thousand for what is inside.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$30,000+",
+        "label": "The least it costs to tear a threatened house down",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Moving one",
+       "chart": {
+        "type": "bar",
+        "title": "One threatened house, in dollars",
+        "unit": "",
+        "data": [
+         [
+          "Owner pays to tear it down",
+          30000
+         ],
+         [
+          "Insurance pays on collapse: house",
+          250000
+         ],
+         [
+          "Insurance pays on collapse: contents",
+          100000
+         ]
+        ],
+        "source": "NPR, Sep 17, 2026",
+        "highlight": 1,
+        "reveal": [
+         "A collapse",
+         "and up to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A policy analyst at the Coastal States Organization told NPR the homeowner is incentivized to wait for collapse and get a payout. In Buxton, McDaniel put it this way: if it is teetering, you have to sit and wait for it to fall in the ocean.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 27,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "It was not always like this. From 1988 to 1994, a rule called Upton-Jones paid owners to move or demolish houses that were about to fall. More than four hundred homes in twenty-seven states were moved or torn down under it. Congress repealed it in 1994. Lawmakers worried about the cost; one said that policyholder benefits come at the government's expense.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 17,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "stat",
+       "at": "More than",
+       "stat": {
+        "value": "400+ homes",
+        "label": "Moved or demolished under Upton-Jones, 1988-1994, in 27 states",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 33,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": "Congress",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.5,
+           "lat": 35.4,
+           "span": 9
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 51,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "At a 1990 hearing, the man who handled those claims in North Carolina said many owners had repaired their houses instead, to rent them out another season. He saw no particular incentive for early action.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 17,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 26,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "A bipartisan bill introduced in 2025 would bring a version of it back, capped at two hundred and fifty thousand dollars. As of September it was stalled in the House. FEMA says it cannot change the rule without Congress, and it did not answer NPR's question about what the waiting costs taxpayers.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Since 2025",
+        "label": "A bill to pay before collapse, stalled in the House",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 20,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "map",
+       "at": "FEMA says",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.5,
+           "lat": 35.4,
+           "span": 9
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 37,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 44,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "Dare County's manager put the arithmetic simply. It is money they are going to spend either way, he told NPR, and it is cheaper to tear it down.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "The waiting has a public cost too. NPR counted more than half a million dollars of federal and county cleanup spending since 2020. A longtime flood insurance agent told NPR that collapses leave a legacy of hazard on the beach, and that it is almost impossible to get everything.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$500,000+",
+        "label": "Federal and county cleanup spending since 2020",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 15,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": "A longtime",
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 40,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "Chellie Pingree, a congresswoman from Maine, told NPR that people should not have to wait for their home to collapse into the water before they can get help.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.5,
+           "lat": 35.4,
+           "span": 9
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Sand or Retreat",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "There is another answer: bring the beach back. Between June 2017 and February 2018, Dare County pumped 2.6 million cubic yards of sand onto 2.9 miles of Buxton's shore. NPR reported that the earlier sand lasted less than three years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton, the oceanfront"
+      },
+      {
+       "type": "stat",
+       "at": "Dare County",
+       "stat": {
+        "value": "2.6 million yd³",
+        "label": "Sand pumped onto 2.9 miles of Buxton beach, 2017-2018",
+        "source": "Dare County; Island Free Press"
+       }
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.53,
+           "lat": 35.27,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.25,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Hatteras"
+      }
+     ]
+    },
+    {
+     "text": "Our measurement shows it. Buxton's shoreline jumped about thirty metres out to sea. By 2024 the gain was gone, and the shore sat behind its 2014 line again.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Buxton shoreline, metres inland of 1985",
+        "unit": " m",
+        "data": [
+         [
+          "2014",
+          72
+         ],
+         [
+          "2018",
+          39
+         ],
+         [
+          "2022",
+          59
+         ],
+         [
+          "2024",
+          81
+         ],
+         [
+          "2026",
+          86
+         ]
+        ],
+        "source": "Our measurement, Landsat 5, 8 and 9",
+        "highlight": 1,
+        "reveal": [
+         "By 2024"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "A second round followed in 2022, with 1.2 million more cubic yards in Buxton, under a contract of about 26 million dollars for Buxton and Avon together. Now the county plans a bigger one for Buxton and Avon: up to about sixty-five million dollars if FEMA pays its share of about thirty million, or about forty-five million without it. Most of the money comes from two percent of the county's six percent tax on vacation stays, and the county wants a reserve of one and a half times a year of that tax.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.51,
+           "lat": 35.31,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           },
+           {
+            "name": "Avon",
+            "lon": -75.51,
+            "lat": 35.352,
+            "kind": "city",
+            "label": "Avon"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.3,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Between Avon and Buxton"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton, the oceanfront"
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "stat",
+       "at": "up to about",
+       "stat": {
+        "value": "$45-65 million",
+        "label": "Planned Buxton and Avon beach nourishment, 2026",
+        "source": "Island Free Press; Dare County, 2026",
+        "note": "About $30.4 million of it expected from FEMA"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 47,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 56,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 65,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 74,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 83,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "Rodanthe has no such project. A study put its cost at about forty million dollars, and the county says the village's tax base is too small to carry it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A study",
+       "stat": {
+        "value": "~$40 million",
+        "label": "Estimated cost of nourishing Rodanthe's beach",
+        "source": "Island Free Press; Dare County, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 13,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe, north end"
+      }
+     ]
+    },
+    {
+     "text": "A scientist at East Carolina University told NPR that beach nourishment is temporary: you are buying sand to buy time. There is no way to maintain homes where they currently are, he said. The only solution is to back off the front line.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.53,
+           "lat": 35.27,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.25,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Hatteras"
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.3,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Between Avon and Buxton"
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton, the oceanfront"
+      }
+     ]
+    },
+    {
+     "text": "That has started, house by house. In 2023 the Park Service bought two houses on East Beacon Road in Rodanthe, with conservation money and no taxpayer dollars, and paid 72,500 dollars to remove them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "stat",
+       "at": "and paid",
+       "stat": {
+        "value": "$72,500",
+        "label": "To remove two houses the Park Service bought in Rodanthe, 2023",
+        "source": "National Park Service, Cape Hatteras National Seashore, Aug 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On October 30, more than a million dollars from FEMA and the state was approved to buy three more houses in Rodanthe, if the owners agree. One is a local landmark called the Black Pearl, threatened by erosion for more than a decade. If the sales go through, the land will stay open beach.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$1 million+",
+        "label": "To buy and demolish three Rodanthe houses: FEMA $793,000, state $258,000",
+        "source": "Public Radio East, Oct 30, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 17,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 25,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 34,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": "If the sales",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ]
+    },
+    {
+     "text": "Not every stretch is retreating. At Avon, between the two villages, our measurement shows the shoreline about where it was in 1985.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.352,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Avon",
+            "lon": -75.51,
+            "lat": 35.352,
+            "kind": "city",
+            "label": "Avon"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.53,
+           "lat": 35.27,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "stat",
+       "at": "our measurement",
+       "stat": {
+        "value": "~0 m",
+        "label": "Shoreline change at Avon, 1985 to 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9"
+       }
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.25,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Cape Hatteras"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who Decides",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "In 1999 the lighthouse question ended with one decision: move it. From the Academy's report to the move took eleven years. A quarter of a century later it still stands, about fifteen hundred feet from the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg"
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": "A quarter",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "Cape Hatteras Lighthouse"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lighthouse today"
+      }
+     ]
+    },
+    {
+     "text": "The road and the houses face the same question, asked again after every storm: hold the line with sand and sandbags, or move back while there is still somewhere to go.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.495,
+           "lat": 35.716,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Pea Island Visitor Center",
+            "lon": -75.493,
+            "lat": 35.7167,
+            "kind": "site",
+            "label": "Pea Island Visitor Center"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": "or move back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Moving back is not free either. It means buying out owners, paying for demolition, and losing a beach town's tax base one lot at a time. Holding the line means pumping sand every few years, and the county's own finance chief says those projects will cost more as they go.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.62,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe and Pea Island"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.3
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island"
+      },
+      {
+       "type": "map",
+       "at": "Holding the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.522,
+           "lat": 35.258,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.4,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island, Avon"
+      },
+      {
+       "type": "map",
+       "at": 42,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.7,
+           "lat": 35.22,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Village"
+      }
+     ]
+    },
+    {
+     "text": "The Park Service expects more than a hundred homes on these islands to be at risk within a decade. We will keep measuring this shore from orbit, year after year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "100+ homes",
+        "label": "At risk on North Carolina barrier islands within a decade (Park Service)",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.62,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe and Pea Island"
+      },
+      {
+       "type": "map",
+       "at": "We will keep",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "compare": {
+           "before": "1985-08-16",
+           "after": "2026-10-27",
+           "source": "landsat",
+           "seconds": 2.6,
+           "hold": 0.4
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "So who should decide when a house comes down: the owner, the county, or an insurer that pays only after the ocean has decided?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.75,
+           "lat": 35.55,
+           "span": 2.2
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "Buxton"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 8,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
+      }
+     ],
+     "ask": {
+      "at": "So who",
+      "text": "Owner, county or insurer: who decides?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "32 Houses Fell Into the Atlantic. Insurance Paid Only After",
+  "description": "Since 2020, 32 houses have collapsed into the Atlantic on Cape Hatteras National Seashore, 20 in Buxton and 12 in Rodanthe. We measured the shoreline in Landsat images from 1985 to 2026: at Rodanthe it moved about 155 metres inland. We follow the lighthouse that was moved in 1999, Highway 12 and its bridges and closures in autumn 2026, the flood-insurance rule that pays only after a house falls, and the choice between pumping sand and moving back.",
+  "tags": [
+   "Outer Banks",
+   "Rodanthe",
+   "Buxton",
+   "Hatteras Island",
+   "coastal erosion",
+   "houses collapse",
+   "NC 12",
+   "Cape Hatteras Lighthouse",
+   "flood insurance",
+   "FEMA",
+   "beach nourishment",
+   "satellite images",
+   "Landsat"
+  ],
+  "pinned_comment": "Owner, county or insurer: who should decide when a house on a collapsing shore comes down?"
+ }
+}

@@ -182,3 +182,16 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
   story); all quotes are said as paraphrase with attribution, no quote cards. Bridge costs ($252M, $145M) are "reported".
 - Own measurement: single Landsat days move the wet line by tens of metres (tides, run-up); the script uses decades and
   rounds (~155 m, ~100 m, ~0 m), and the card says so.
+
+## Added 2026-11-10 after the first storyboard ran 14.6 min (real narration)
+| # | Where | Kind | Claim | Source | Status |
+|---|---|---|---|---|---|
+| A1 | c01p05 | narration+chart | Rodanthe line: ~100 m by 2000, slow for twenty years, ~30 m more since 2022; chart 1990 37, 2000 99, 2010 121, 2018 118, 2022 127, 2026 155 | shoreline.json (OWN) | own |
+| A2 | c02p02 | narration | Dorian 2019 flooded North Core Banks from the sound side; USGS-led study: ~18 % of its sand above water lost | USGS pubs 70242151 (JGR Earth Surface 2023), research.md | attributed |
+| A3 | c02p03 | narration | Isabel inlet about 15 ft deep, three channels | NPS Isabel page / Wikipedia 'Isabel Inlet' | attributed |
+| A4 | c03p04 | narration | Jan 1997 NC State University review endorsed the move; funds the next year (FY1998); floating foundation of yellow pine timbers in fresh water | NPS 'Moving the Cape Hatteras Lighthouse' | verified |
+| A5 | c04p02 | narration | Basnight Bridge rises 90 ft above the inlet at its highest | HDR / news (research search summary) | attributed |
+| A6 | c04p06 | narration | 2,416 passengers by Oct 26; 24/7; few vehicles per ferry, drivers asked for patience; park-and-ride at both ends | NCDOT 26 Oct 2026 release | verified |
+| A7 | c04p07 | narration | one-lane detour controlled by flaggers | NCDOT 26/29 Oct 2026 releases | verified |
+| A8 | c05p05 | narration | March 2025 Rodanthe collapse: ~70 truckloads of debris removed in three days | news citing NPS (research.md) | attributed |
+| A9 | c08p03 | narration | Rodanthe line moved ~30 m since 2022 | shoreline.json (OWN: 127 -> 155 m) | own |

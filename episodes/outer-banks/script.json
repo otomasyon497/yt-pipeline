@@ -246,6 +246,78 @@
      ]
     },
     {
+     "text": "It did not move evenly. By 2000 the line had already gone about a hundred metres. Then it slowed for twenty years, and since 2022 it has picked up again: about thirty metres more in four years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.595,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "Rodanthe"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "By 2000",
+       "chart": {
+        "type": "bar",
+        "title": "Rodanthe shoreline, metres inland of 1985",
+        "unit": " m",
+        "data": [
+         [
+          "1990",
+          37
+         ],
+         [
+          "2000",
+          99
+         ],
+         [
+          "2010",
+          121
+         ],
+         [
+          "2018",
+          118
+         ],
+         [
+          "2022",
+          127
+         ],
+         [
+          "2026",
+          155
+         ]
+        ],
+        "source": "Our measurement, Landsat 5, 8 and 9",
+        "highlight": 5,
+        "reveal": [
+         "Then it slowed",
+         "and since 2022"
+        ]
+       }
+      }
+     ]
+    },
+    {
      "text": "These islands have always moved. What is new is what we built on them that cannot move: a lighthouse, a road, and the houses along it.",
      "shots": [
       {
@@ -261,8 +333,7 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -400,7 +471,7 @@
      ]
     },
     {
-     "text": "The US Geological Survey describes how they move. In a storm, waves push sand over the dunes and drop it on the far side. Storm after storm, the island rolls toward the mainland. Geologists call it barrier island rollover. Wind moves sand as well, and inlets open, close and wander along the coast.",
+     "text": "The US Geological Survey describes how they move. In a storm, waves push sand over the dunes and drop it on the far side. Storm after storm, the island rolls toward the mainland. Geologists call it barrier island rollover. Wind moves sand as well, and inlets open, close and wander along the coast. Storms can also hit from behind. In 2019 Hurricane Dorian flooded North Core Banks, farther south, from the sound side, and a study led by the USGS found the island lost about eighteen percent of its sand above water.",
      "shots": [
       {
        "type": "map",
@@ -483,7 +554,7 @@
       },
       {
        "type": "map",
-       "at": 43,
+       "at": 42,
        "map": {
         "steps": [
          {
@@ -495,6 +566,78 @@
           "date": "2026-10-20/2026-11-08"
          }
         ]
+       },
+       "on_screen_text": "Rodanthe and Pea Island"
+      },
+      {
+       "type": "map",
+       "at": 52,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.3
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island"
+      },
+      {
+       "type": "map",
+       "at": 62,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.4,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island, Avon"
+      },
+      {
+       "type": "map",
+       "at": 72,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.7,
+           "lat": 35.22,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Village"
+      },
+      {
+       "type": "map",
+       "at": 82,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.62,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
        },
        "on_screen_text": "Rodanthe and Pea Island"
       }
@@ -547,7 +690,7 @@
      ]
     },
     {
-     "text": "It was about two thousand feet wide. The village was cut off for two months. The Army Corps of Engineers pumped sand into the gap, and the road reopened on November 22. Elsewhere Isabel buried Highway 12 under as much as three feet of sand.",
+     "text": "It was about two thousand feet wide and fifteen feet deep, in three channels. The village was cut off for two months. The Army Corps of Engineers pumped sand into the gap, and the road reopened on November 22. Elsewhere Isabel buried Highway 12 under as much as three feet of sand.",
      "shots": [
       {
        "type": "stat",
@@ -557,6 +700,23 @@
         "label": "Width of the inlet Hurricane Isabel cut in September 2003",
         "source": "NPS; NC records"
        }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.3
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Hatteras Island"
       },
       {
        "type": "map",
@@ -586,25 +746,7 @@
       },
       {
        "type": "map",
-       "at": 15,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.6,
-           "lat": 35.45,
-           "span": 0.3
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Hatteras Island"
-      },
-      {
-       "type": "map",
-       "at": 23,
+       "at": 22,
        "map": {
         "steps": [
          {
@@ -621,17 +763,8 @@
        "on_screen_text": "Hatteras Island, Avon"
       },
       {
-       "type": "stat",
-       "at": "Elsewhere",
-       "stat": {
-        "value": "Up to ~3 ft",
-        "label": "Sand Isabel left on parts of Highway 12, 2003",
-        "source": "US Geological Survey"
-       }
-      },
-      {
        "type": "map",
-       "at": 38,
+       "at": 30,
        "map": {
         "steps": [
          {
@@ -642,9 +775,36 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Hatteras Village"
+      },
+      {
+       "type": "stat",
+       "at": "Elsewhere",
+       "stat": {
+        "value": "Up to ~3 ft",
+        "label": "Sand Isabel left on parts of Highway 12, 2003",
+        "source": "US Geological Survey"
+       }
+      },
+      {
+       "type": "map",
+       "at": 45,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.62,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe and Pea Island"
       }
      ]
     },
@@ -911,7 +1071,7 @@
      ]
     },
     {
-     "text": "Moving it was first rejected as impractical. In 1988 the National Academy of Sciences looked at ten options and recommended moving it. It took almost another decade before Congress paid for it.",
+     "text": "Moving it was first rejected as impractical. In 1988 the National Academy of Sciences looked at ten options and recommended moving it. It took almost another decade before Congress paid for it. In January 1997 a review by North Carolina State University endorsed the move, and money followed the next year. The tower had stood since 1870 on a floating foundation of yellow pine timbers, laid in fresh water under the sand.",
      "shots": [
       {
        "type": "photo",
@@ -929,30 +1089,19 @@
       },
       {
        "type": "photo",
-       "at": 15,
+       "at": 16,
        "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "photo",
-       "at": 23,
+       "at": 25,
        "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
        "on_screen_text": "Safe from Isabel, September 2003"
-      }
-     ]
-    },
-    {
-     "text": "In June 1999, crews lifted 4,830 tons of brick onto rails and pushed it five feet at a time. Sixty sensors watched the tower as it rolled. Twenty-three days later it stood 2,900 feet to the southwest. It cost 11.8 million dollars, and it was lit again on November 13. The keepers' houses had gone first, between February and April.",
-     "shots": [
-      {
-       "type": "photo",
-       "at": 0,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "4,830 tons of brick"
       },
       {
        "type": "map",
-       "at": 9,
+       "at": 34,
        "map": {
         "steps": [
          {
@@ -969,9 +1118,55 @@
       },
       {
        "type": "photo",
-       "at": 18,
+       "at": 44,
        "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": 53,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 62,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
+      }
+     ]
+    },
+    {
+     "text": "In June 1999, crews lifted 4,830 tons of brick onto rails and pushed it five feet at a time. Sixty sensors watched the tower as it rolled. Twenty-three days later it stood 2,900 feet to the southwest. It cost 11.8 million dollars, and it was lit again on November 13. The keepers' houses had gone first, between February and April.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "4,830 tons of brick"
+      },
+      {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
       },
       {
        "type": "stat",
@@ -992,10 +1187,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 44,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
       },
       {
        "type": "map",
@@ -1010,7 +1216,8 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Rodanthe"
       }
@@ -1026,21 +1233,10 @@
        "on_screen_text": "After Hurricane Isabel, September 2003"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 5,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "map",
@@ -1153,8 +1349,8 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
+       "on_screen_text": "Safe from Isabel, September 2003"
       }
      ]
     }
@@ -1306,7 +1502,7 @@
      ]
     },
     {
-     "text": "Its replacement, the Marc Basnight Bridge, opened in February 2019: 2.8 miles long, built to last a hundred years, at a reported cost of about 252 million dollars.",
+     "text": "Its replacement, the Marc Basnight Bridge, opened in February 2019: 2.8 miles long, built to last a hundred years, at a reported cost of about 252 million dollars. At its highest it rises ninety feet above the inlet.",
      "shots": [
       {
        "type": "map",
@@ -1351,6 +1547,23 @@
         "label": "The Marc Basnight Bridge, opened February 2019",
         "source": "NCDOT; news reports"
        }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Pea Island, NC 12"
       }
      ]
     },
@@ -1370,30 +1583,13 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "map",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.05
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Pea Island, NC 12"
-      },
-      {
-       "type": "map",
-       "at": 16,
        "map": {
         "steps": [
          {
@@ -1408,6 +1604,24 @@
         "cut": true
        },
        "on_screen_text": "Pea Island, the dune line"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oregon Inlet"
       },
       {
        "type": "map",
@@ -1555,24 +1769,6 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Oregon Inlet"
-      },
-      {
-       "type": "map",
-       "at": 16,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -75.49,
            "lat": 35.73,
            "span": 0.04
@@ -1583,6 +1779,24 @@
         "cut": true
        },
        "on_screen_text": "Pea Island"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, NC 12"
       },
       {
        "type": "map",
@@ -1639,24 +1853,6 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.05
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Pea Island, NC 12"
-      },
-      {
-       "type": "map",
-       "at": 39,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -75.485,
            "lat": 35.705,
            "span": 0.035
@@ -1667,11 +1863,29 @@
         "cut": true
        },
        "on_screen_text": "Pea Island, the dune line"
+      },
+      {
+       "type": "map",
+       "at": 39,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oregon Inlet"
       }
      ]
     },
     {
-     "text": "The road reopened on October 3. On October 19 the ocean closed it again, this time damaging more than twelve hundred feet of pavement. The ferry came back, and by October 26 it had carried 1,451 vehicles. Visitors were ordered off the island.",
+     "text": "The road reopened on October 3. On October 19 the ocean closed it again, this time damaging more than twelve hundred feet of pavement. The ferry came back, and by October 26 it had carried 1,451 vehicles and 2,416 passengers, around the clock. Each ferry takes only a few vehicles, and the state asked drivers for patience. The county ran park-and-ride buses at both ends. Visitors were ordered off the island.",
      "shots": [
       {
        "type": "map",
@@ -1706,16 +1920,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.49,
+           "lat": 35.73,
+           "span": 0.04
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Oregon Inlet"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "stat",
@@ -1742,20 +1956,74 @@
         "steps": [
          {
           "view": {
+           "lon": -75.5,
+           "lat": 35.69,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Pea Island, NC 12"
+      },
+      {
+       "type": "map",
+       "at": 42,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.485,
+           "lat": 35.705,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island, the dune line"
+      },
+      {
+       "type": "map",
+       "at": 52,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.535,
+           "lat": 35.775,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oregon Inlet"
+      },
+      {
+       "type": "map",
+       "at": 61,
+       "map": {
+        "steps": [
+         {
+          "view": {
            "lon": -75.49,
            "lat": 35.73,
            "span": 0.04
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Pea Island"
       }
      ]
     },
     {
-     "text": "It reopened on October 29 with one lane, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this February. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
+     "text": "It reopened on October 29 with one lane, controlled by flaggers, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this February. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
      "shots": [
       {
        "type": "map",
@@ -1776,7 +2044,7 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 8,
        "map": {
         "steps": [
          {
@@ -1794,7 +2062,7 @@
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 17,
        "map": {
         "steps": [
          {
@@ -1861,7 +2129,7 @@
       },
       {
        "type": "map",
-       "at": 49,
+       "at": 52,
        "map": {
         "steps": [
          {
@@ -2246,14 +2514,8 @@
        }
       },
       {
-       "type": "photo",
-       "at": 10,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
-      },
-      {
        "type": "map",
-       "at": 20,
+       "at": 10,
        "map": {
         "steps": [
          {
@@ -2264,9 +2526,16 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "photo",
+       "at": 20,
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "stat",
@@ -2280,7 +2549,7 @@
      ]
     },
     {
-     "text": "When a house falls, the debris spreads along the beach. The Park Service says owners' cleanups have not always restored the beach, so it cleans up and seeks the cost back. NPR counted more than 480 tons of debris collected in eighteen months.",
+     "text": "When a house falls, the debris spreads along the beach. The Park Service says owners' cleanups have not always restored the beach, so it cleans up and seeks the cost back. NPR counted more than 480 tons of debris collected in eighteen months. After one Rodanthe house fell in March 2025, crews hauled about seventy truckloads off the beach in three days.",
      "shots": [
       {
        "type": "photo",
@@ -2317,7 +2586,7 @@
       },
       {
        "type": "map",
-       "at": 37,
+       "at": 38,
        "map": {
         "steps": [
          {
@@ -2331,6 +2600,18 @@
         ]
        },
        "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 46,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 54,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       }
      ]
     },
@@ -2350,8 +2631,7 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       }
      ]
@@ -2377,14 +2657,25 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 16,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -2413,14 +2704,15 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
       },
       {
        "type": "photo",
@@ -2428,21 +2720,10 @@
        "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 26,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       }
      ]
     },
@@ -2511,24 +2792,12 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
-      },
-      {
-       "type": "photo",
-       "at": 18,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 27,
        "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
        "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "map",
-       "at": 36,
+       "at": 18,
        "map": {
         "steps": [
          {
@@ -2542,6 +2811,18 @@
         ]
        },
        "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 27,
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 36,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       }
      ]
     },
@@ -2551,14 +2832,25 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 17,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "stat",
@@ -2572,8 +2864,8 @@
       {
        "type": "photo",
        "at": 33,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
       },
       {
        "type": "map",
@@ -2591,22 +2883,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 51,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       }
      ]
     },
@@ -2626,45 +2906,18 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
-      },
-      {
-       "type": "photo",
-       "at": 17,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 26,
        "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
        "on_screen_text": "Collecting debris, Rodanthe"
-      }
-     ]
-    },
-    {
-     "text": "A bipartisan bill introduced in 2025 would bring a version of it back, capped at two hundred and fifty thousand dollars. As of September it was stalled in the House. FEMA says it cannot change the rule without Congress, and it did not answer NPR's question about what the waiting costs taxpayers.",
-     "shots": [
-      {
-       "type": "stat",
-       "at": 0,
-       "stat": {
-        "value": "Since 2025",
-        "label": "A bill to pay before collapse, stalled in the House",
-        "source": "NPR, Sep 17, 2026"
-       }
       },
       {
        "type": "map",
-       "at": 10,
+       "at": 17,
        "map": {
         "steps": [
          {
@@ -2681,9 +2934,35 @@
       },
       {
        "type": "photo",
-       "at": 20,
+       "at": 26,
        "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
        "on_screen_text": "Rodanthe, March 2023"
+      }
+     ]
+    },
+    {
+     "text": "A bipartisan bill introduced in 2025 would bring a version of it back, capped at two hundred and fifty thousand dollars. As of September it was stalled in the House. FEMA says it cannot change the rule without Congress, and it did not answer NPR's question about what the waiting costs taxpayers.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Since 2025",
+        "label": "A bill to pay before collapse, stalled in the House",
+        "source": "NPR, Sep 17, 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 10,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 20,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "map",
@@ -2701,16 +2980,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 37,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "photo",
        "at": 44,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
       }
      ]
     },
@@ -2743,28 +3034,16 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       },
       {
        "type": "photo",
        "at": 18,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       }
      ]
     },
@@ -2781,26 +3060,8 @@
        }
       },
       {
-       "type": "photo",
-       "at": 7,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 15,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": "A longtime",
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 31,
+       "at": 7,
        "map": {
         "steps": [
          {
@@ -2817,9 +3078,27 @@
       },
       {
        "type": "photo",
-       "at": 40,
+       "at": 15,
        "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
        "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": "A longtime",
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 31,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 40,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       }
      ]
     },
@@ -2842,16 +3121,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "photo",
        "at": 18,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
       }
      ]
     }
@@ -3057,22 +3348,10 @@
        "on_screen_text": "Buxton, the oceanfront"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 28,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       },
       {
        "type": "stat",
@@ -3087,24 +3366,12 @@
       {
        "type": "photo",
        "at": 47,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
-      },
-      {
-       "type": "photo",
-       "at": 56,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 65,
        "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
        "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "map",
-       "at": 74,
+       "at": 56,
        "map": {
         "steps": [
          {
@@ -3121,9 +3388,21 @@
       },
       {
        "type": "photo",
-       "at": 83,
+       "at": 65,
        "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
        "on_screen_text": "Rodanthe, March 2023"
+      },
+      {
+       "type": "photo",
+       "at": 74,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 83,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       }
      ]
     },
@@ -3316,16 +3595,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "photo",
        "at": 18,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
       },
       {
        "type": "stat",
@@ -3351,8 +3642,20 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 17,
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 25,
        "map": {
         "steps": [
          {
@@ -3369,21 +3672,9 @@
       },
       {
        "type": "photo",
-       "at": 17,
+       "at": 34,
        "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
        "on_screen_text": "Rodanthe, March 2023"
-      },
-      {
-       "type": "photo",
-       "at": 25,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 34,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "map",
@@ -3412,22 +3703,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 48,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       }
      ]
     },
@@ -3456,8 +3735,7 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -3523,14 +3801,25 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
-      },
-      {
-       "type": "photo",
-       "at": 14,
        "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
        "on_screen_text": "Safe from Isabel, September 2003"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
       },
       {
        "type": "map",
@@ -3559,22 +3848,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 29,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       }
      ]
     },
@@ -3603,21 +3880,31 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 14,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3665,24 +3952,6 @@
         "steps": [
          {
           "view": {
-           "lon": -75.48,
-           "lat": 35.62,
-           "span": 0.12
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe and Pea Island"
-      },
-      {
-       "type": "map",
-       "at": 17,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -75.6,
            "lat": 35.45,
            "span": 0.3
@@ -3693,6 +3962,24 @@
         "cut": true
        },
        "on_screen_text": "Hatteras Island"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.4,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hatteras Island, Avon"
       },
       {
        "type": "map",
@@ -3718,24 +4005,6 @@
         "steps": [
          {
           "view": {
-           "lon": -75.52,
-           "lat": 35.4,
-           "span": 0.12
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Hatteras Island, Avon"
-      },
-      {
-       "type": "map",
-       "at": 42,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -75.7,
            "lat": 35.22,
            "span": 0.08
@@ -3746,11 +4015,29 @@
         "cut": true
        },
        "on_screen_text": "Hatteras Village"
+      },
+      {
+       "type": "map",
+       "at": 42,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.62,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe and Pea Island"
       }
      ]
     },
     {
-     "text": "The Park Service expects more than a hundred homes on these islands to be at risk within a decade. We will keep measuring this shore from orbit, year after year.",
+     "text": "The Park Service expects more than a hundred homes on these islands to be at risk within a decade. At Rodanthe, our line has moved about thirty metres since 2022 alone. We will keep measuring this shore from orbit, year after year.",
      "shots": [
       {
        "type": "stat",
@@ -3763,20 +4050,56 @@
       },
       {
        "type": "map",
-       "at": 9,
+       "at": 7,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.48,
-           "lat": 35.62,
-           "span": 0.12
+           "lon": -75.465,
+           "lat": 35.58,
+           "span": 0.04
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Rodanthe and Pea Island"
+       "on_screen_text": "Rodanthe and Waves"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.475,
+           "lat": 35.618,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The S-curves"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3842,25 +4165,14 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
+       "on_screen_text": "Rodanthe, March 2023"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 16,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
+       "on_screen_text": "The day after a collapse, Rodanthe"
       }
      ],
      "ask": {

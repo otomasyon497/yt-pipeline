@@ -32,3 +32,11 @@ Feet of This Island" / "They Moved a Lighthouse. Now It's the Town's Turn". Thum
 
 Risks: crowded topic on small channels (often low-quality); our edge is own measurement + the insurance story. Quotes come
 from NPR via a summary: re-read exact words before any quote card. Sea-level rate unresolved (do not use).
+
+## Thumbnail (2026-11-10, after the Studio check: long-form CTR 1.5-3 %, few impressions)
+- Chosen: A "PAID TO WAIT" on the NPS photo of the collapsed house at 23228 East Point Dr., Rodanthe, 13 Mar 2023
+  (public domain). Shows what the title tells; the text is the twist (insurance pays only after collapse), not a repeat.
+- Test & Compare in Studio: A vs B ("32 GONE. WHO'S NEXT?" — B repeats the title's number, so it is the weaker control).
+- Rejected: the own-Landsat split (the pipeline's variant D): at 30 m the 155 m retreat is a few blurry pixels on a phone.
+- Files: Videos\yt-pipeline\outer-banks\thumbnails\ (made by make_thumbs.py, Bebas Neue, 1280x720). At upload copy
+  thumb_A_paid_to_wait.jpg over thumbnail_D.jpg so tools/yt_upload.py sets it.

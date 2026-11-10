@@ -454,7 +454,7 @@ script = {
     "map_style": "satellite",
     "look": "none",
     "sources": ["episodes/outer-banks/research.md and factcheck.md", "Landsat data courtesy of the U.S. Geological Survey"],
-    "thumbnail": {"text": "500 FEET"},
+    "thumbnail": {"text": "PAID TO WAIT"},  # final cover: hand-made from the NPS photo, see PLAN.md
     "chapters": chapters,
     "youtube": {
         "title": "32 Houses Fell Into the Atlantic. Insurance Paid Only After",

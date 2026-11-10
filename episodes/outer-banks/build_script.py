@@ -14,11 +14,14 @@ LS = "landsat"
 
 OBX = {"lon": -75.75, "lat": 35.55, "span": 2.2}
 HATTERAS = {"lon": -75.6, "lat": 35.45, "span": 0.75}
-RODANTHE_V = {"lon": -75.468, "lat": 35.595, "span": 0.045}
+RODANTHE_V = {"lon": -75.468, "lat": 35.595, "span": 0.07}
 SCURVES_V = {"lon": -75.475, "lat": 35.618, "span": 0.06}
-PEA_V = {"lon": -75.495, "lat": 35.716, "span": 0.045}
-BUXTON_V = {"lon": -75.522, "lat": 35.258, "span": 0.045}
-AVON_V = {"lon": -75.50, "lat": 35.352, "span": 0.045}
+PEA_V = {"lon": -75.495, "lat": 35.716, "span": 0.07}
+BUXTON_V = {"lon": -75.522, "lat": 35.258, "span": 0.07}
+AVON_V = {"lon": -75.50, "lat": 35.352, "span": 0.07}
+RODANTHE_W = {"lon": -75.47, "lat": 35.60, "span": 0.11}  # Landsat wipes: 30 m pixels need a wider frame
+PEA_W = {"lon": -75.49, "lat": 35.715, "span": 0.11}
+BUXTON_W = {"lon": -75.525, "lat": 35.26, "span": 0.11}
 ISABEL_V = {"lon": -75.715, "lat": 35.215, "span": 0.09}
 OREGON_V = {"lon": -75.535, "lat": 35.775, "span": 0.06}
 FERRY_V = {"lon": -75.62, "lat": 35.65, "span": 0.45}
@@ -130,6 +133,13 @@ PH_DEBRIS = "File:National Park Service employees collect house collapse debris 
 PH_LH_BEFORE = "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg"  # NPS, PD; the 1999 pre-move aerials on Commons are too soft
 PH_LH_NOW = "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg"  # 2004, NPS
 PH_LH_PATH = "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg"  # after Isabel, 20 Sep 2003
+PH_DEBRIS2 = "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg"
+PH_DEBRIS3 = "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg"
+PH_DEBRIS4 = "File:National Park Service employees collect house collapse debris - 52749539471.jpg"
+PH_DEBRIS5 = "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg"
+PH_DEBRIS6 = "File:Collected debris associated with March 13 house collapse.jpg"
+PH_LH_2020 = "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg"
+PH_LH_SHADOW = "File:Cape Hatteras Lighthouse shadow (50068811063).jpg"
 PH_BONNER = "File:Outer Banks Scenic Byway - Herbert C. Bonner Bridge and Oregon Inlet - NARA - 7720871.jpg"
 
 chapters = [
@@ -142,7 +152,7 @@ chapters = [
           stat("Six went", "6, then 5", "Buxton houses lost on 30 September and 28 October 2025", NPS),
           photo("Five more", PH_COLLAPSE, "Rodanthe, March 2023")),
         P("This is the shore at Rodanthe in August 1985. And this is the same shore this October. We measured where the water line sits in Landsat images, year by year.",
-          m(0, v(RODANTHE_V, compare={**CMP_RODANTHE, "until": "And this"}), step("And this"), step("We measured", places=[RODANTHE]),
+          m(0, v(RODANTHE_W, compare={**CMP_RODANTHE, "until": "And this"}), step("And this"), step("We measured", places=[RODANTHE]),
             text="Real satellite images · Landsat", cut=True)),
         P("Since 1985 it has moved about a hundred and fifty-five metres inland. That is about five hundred feet, or roughly twelve feet a year.",
           stat(0, "~155 m", "How far the shoreline at Rodanthe moved inland, 1985 to 2026", OWN, "About 510 feet; tides move a single day's line by tens of metres"),
@@ -183,9 +193,9 @@ chapters = [
           stat(0, "120 ft", "From the ocean in 1970", NPS_LH),
           m("The tower", v(BUXTON_V, places=[LIGHTHOUSE]), cut=True)),
         P("People tried to hold the line. In 1936 the Coast Guard built groins, then gave up and moved the light to a steel tower in the woods. In the 1960s and 70s came new sand and three more groins. In 1980 the Park Service studied a seawall.",
-          m(0, v(near(-75.52, 35.255, 0.035))),
+          m(0, v(near(-75.52, 35.255, 0.06))),
           stat("In 1936", "1936", "The Coast Guard builds groins, then moves the light inland", NPS_LH),
-          m("In the 1960s", v(near(-75.515, 35.262, 0.035)), cut=True),
+          m("In the 1960s", v(near(-75.515, 35.262, 0.06)), cut=True),
           stat("In 1980", "1980", "A seawall is studied to hold the old site", NPS_LH)),
         P("Moving it was first rejected as impractical. In 1988 the National Academy of Sciences looked at ten options and recommended moving it. It took almost another decade before Congress paid for it. In January 1997 a review by North Carolina State University endorsed the move, and money followed the next year. The tower had stood since 1870 on a floating foundation of yellow pine timbers, laid in fresh water under the sand.",
           photo(0, PH_LH_BEFORE),
@@ -196,8 +206,8 @@ chapters = [
           stat("It cost", "$11.8 million", "Cost of the move", "National Park Service")),
         P("Today it stands about fifteen hundred feet from the ocean again. Here is that corner of Buxton in April 1985, and this March. Just north of the old site runs Old Lighthouse Road. One of the houses that fell this February stood on it.",
           photo(0, PH_LH_PATH, "After Hurricane Isabel, September 2003"),
-          m("Here is", v(BUXTON_V, compare={**CMP_BUXTON, "until": "and this"}), step("and this", places=[LIGHTHOUSE]), step("Just north", places=[BUXTON]), cut=True),
-          m("One of the", v(near(-75.515, 35.262, 0.035)), cut=True)),
+          m("Here is", v(BUXTON_W, compare={**CMP_BUXTON, "until": "and this"}), step("and this", places=[LIGHTHOUSE]), step("Just north", places=[BUXTON]), cut=True),
+          m("One of the", v(near(-75.515, 35.262, 0.06)), cut=True)),
         P("The lighthouse got out of the way. The road beside it could not, or not easily.",
           m(0, v(BUXTON_V, places=[LIGHTHOUSE, BUXTON]))),
     ]},
@@ -214,7 +224,7 @@ chapters = [
           m(0, v(near(-75.50, 35.70, 0.12))),
           m("In August", v(PEA_V), cut=True)),
         P("Near Rodanthe the road followed an eroding stretch called the S-curves. The fix was to leave the island. Since July 2022, a 2.4-mile bridge has carried the road out over Pamlico Sound and back. Reports put its cost at about 145 million dollars. The bridge skipped the S-curves, but not the rest of the road.",
-          m(0, v(SCURVES_V, compare={**CMP_BRIDGE, "until": "The fix"}), step("The fix"), step("Since July", places=[RODANTHE]), step("out over"), cut=True),
+          m(0, v(SCURVES_V, compare={**CMP_BRIDGE, "until": "The fix"}), step("The fix", view=SCURVES_V), step("Since July", view=SCURVES_V, places=[RODANTHE]), step("out over", view=SCURVES_V), cut=True),
           stat("Reports put", "2.4 miles", "The Rodanthe 'Jug Handle' Bridge, opened July 2022", "NCDOT", "About $145 million, as reported")),
         P("This autumn showed what is left. On September 24 a nor'easter washed out about a thousand feet of road near the Pea Island Visitor Center. For the first time since December 2013, the state ran an emergency ferry from Rodanthe to Stumpy Point on the mainland.",
           m(0, v(PEA_V, places=[VISITOR])),
@@ -225,7 +235,7 @@ chapters = [
           stat("The ferry", "1,451 vehicles", "Carried by the emergency ferry by October 26", NCDOT)),
         P("It reopened on October 29 with one lane, controlled by flaggers, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this February. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
           m(0, v(PEA_V)),
-          m("Here is", v(PEA_V, compare={**CMP_PEA, "until": "and this"}), step("and this", places=[VISITOR]), step("We measured"), cut=True),
+          m("Here is", v(PEA_W, compare={**CMP_PEA, "until": "and this"}), step("and this", places=[VISITOR]), step("We measured"), cut=True),
           stat("On an island", "~100 m", "Shoreline retreat at the Pea Island Visitor Center, 1985 to 2026", OWN, "About 330 feet")),
     ]},
     {"title": "Two Villages", "mood": "tension", "paragraphs": [
@@ -240,7 +250,7 @@ chapters = [
         P("In Buxton, Michael McDaniel bought his house in 2011 for about half a million dollars. When he bought it, there were about two hundred and fifty feet of dune in front of it, NPR reported. If it falls, his flood insurance would pay up to 250,000 dollars for the house and up to 100,000 for what is inside. More than ninety percent of the houses that fell in Dare County since 2020 were assessed at over 250,000 dollars, NPR found.",
           m(0, v(BUXTON_V, places=[BUXTON])),
           stat("about two", "~250 ft", "Dune in front of one Buxton house when it was bought in 2011", NPR),
-          m("If it falls", v(near(-75.515, 35.262, 0.035)), cut=True)),
+          m("If it falls", v(near(-75.515, 35.262, 0.06)), cut=True)),
         P("The Park Service keeps the list by address. In two days this February it was 46201, 46215 and 46219 Tower Circle Road and 46285 Old Lighthouse Road, all in Buxton. In June it was 46000 Ocean Drive.",
           m(0, v(BUXTON_V, places=[BUXTON])),
           stat("In June", "46000 Ocean Drive", "Buxton, collapsed overnight, 2 June 2026", NPS)),
@@ -315,7 +325,7 @@ chapters = [
           m("Holding the", v(BUXTON_V), cut=True)),
         P("The Park Service expects more than a hundred homes on these islands to be at risk within a decade. At Rodanthe, our line has moved about thirty metres since 2022 alone. We will keep measuring this shore from orbit, year after year.",
           stat(0, "100+ homes", "At risk on North Carolina barrier islands within a decade (Park Service)", NPR),
-          m("We will keep", v(RODANTHE_V, compare={**CMP_RODANTHE, "hold": 0.4}), cut=True)),
+          m("We will keep", v(RODANTHE_W, compare={**CMP_RODANTHE, "hold": 0.4}), cut=True)),
         P("So who should decide when a house comes down: the owner, the county, or an insurer that pays only after the ocean has decided?",
           m(0, v(OBX, places=[RODANTHE, BUXTON])),
           ask=("So who", "Owner, county or insurer: who decides?")),
@@ -338,24 +348,27 @@ def pic(name, label=None):
 
 
 POOLS = {
-    "rodanthe": [sat(near(-75.466, 35.588, 0.035), "Rodanthe"), sat(near(-75.470, 35.602, 0.035), "Rodanthe, north end"),
-                 sat(near(-75.465, 35.580, 0.04), "Rodanthe and Waves"), sat(SCURVES_V, "The S-curves")],
-    "buxton": [sat(near(-75.515, 35.262, 0.035), "Buxton, the oceanfront"), sat(near(-75.53, 35.27, 0.05), "Buxton"),
-               sat(near(-75.525, 35.25, 0.035), "Cape Hatteras"), sat(near(-75.50, 35.30, 0.05), "Between Avon and Buxton")],
-    "pea": [sat(near(-75.49, 35.73, 0.04), "Pea Island"), sat(near(-75.50, 35.69, 0.05), "Pea Island, NC 12"),
-            sat(near(-75.485, 35.705, 0.035), "Pea Island, the dune line"), sat(OREGON_V, "Oregon Inlet")],
+    "rodanthe": [sat(near(-75.466, 35.588, 0.06), "Rodanthe"), sat(near(-75.470, 35.602, 0.06), "Rodanthe, north end"),
+                 sat(near(-75.465, 35.580, 0.06), "Rodanthe and Waves"), sat(SCURVES_V, "The S-curves")],
+    "buxton": [sat(near(-75.515, 35.262, 0.06), "Buxton, the oceanfront"), sat(near(-75.53, 35.27, 0.06), "Buxton"),
+               sat(near(-75.525, 35.25, 0.06), "Cape Hatteras"), sat(near(-75.50, 35.30, 0.06), "Between Avon and Buxton")],
+    "pea": [sat(near(-75.49, 35.73, 0.06), "Pea Island"), sat(near(-75.50, 35.69, 0.06), "Pea Island, NC 12"),
+            sat(near(-75.485, 35.705, 0.06), "Pea Island, the dune line"), sat(OREGON_V, "Oregon Inlet")],
     "island": [sat(near(-75.60, 35.45, 0.3), "Hatteras Island"), sat(near(-75.52, 35.40, 0.12), "Hatteras Island, Avon"),
                sat(near(-75.70, 35.22, 0.08), "Hatteras Village"), sat(near(-75.48, 35.62, 0.12), "Rodanthe and Pea Island")],
-    "houses": [pic(PH_COLLAPSE, "Rodanthe, March 2023"), pic(PH_SITE, "The day after a collapse, Rodanthe"),
-               pic(PH_DEBRIS, "Collecting debris, Rodanthe"), sat(near(-75.466, 35.588, 0.035), "Rodanthe")],
-    "lighthouse": [pic(PH_LH_BEFORE, "Cape Hatteras Lighthouse"), pic(PH_LH_PATH, "Safe from Isabel, September 2003"),
-                   sat(near(-75.525, 35.252, 0.035), "The lighthouse today")],
+    "houses": [pic(PH_DEBRIS2, "Debris after a collapse, Ocean Drive, Rodanthe"), sat(near(-75.466, 35.588, 0.06), "Rodanthe"),
+               pic(PH_DEBRIS4, "Park Service crews, Rodanthe"), sat(near(-75.515, 35.262, 0.06), "Buxton, the oceanfront"),
+               pic(PH_DEBRIS5, "Searching for debris north of the Rodanthe Pier"), sat(near(-75.47, 35.602, 0.06), "Rodanthe, north end"),
+               pic(PH_DEBRIS6, "Collected debris, Rodanthe"), pic(PH_DEBRIS3, "Ocean Drive, Rodanthe")],
+    "lighthouse": [pic(PH_LH_NOW, "Cape Hatteras Lighthouse"), pic(PH_LH_2020, "Cape Hatteras Lighthouse, 2020"),
+                   pic(PH_LH_SHADOW, "Cape Hatteras Lighthouse"), pic(PH_LH_BEFORE, "Cape Hatteras Lighthouse"),
+                   sat(near(-75.525, 35.252, 0.06), "The lighthouse today")],
 }
 counters = dict.fromkeys(POOLS, 0)
 
 
 def topic_of(text, chapter):
-    if re.search(r"lighthouse|Lighthouse|tower|groin|seawall|Academy|brick|1870|1999", text):
+    if re.search(r"lighthouse|Lighthouse(?! Road)|tower|groin|seawall|Academy|brick|1870|1999", text):
         return "lighthouse"
     if re.search(r"debris|collapse|fall|fell|insur|payout|FEMA|torn down|tear|stilts|rental|house", text):
         return "houses"

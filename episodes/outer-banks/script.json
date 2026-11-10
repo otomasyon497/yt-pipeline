@@ -45,7 +45,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -72,8 +72,8 @@
       {
        "type": "photo",
        "at": 28,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -128,10 +128,21 @@
        "on_screen_text": "Rodanthe, March 2023"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 27,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -145,9 +156,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
-           "lat": 35.595,
-           "span": 0.045
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.11
           },
           "compare": {
            "before": "1985-08-16",
@@ -196,8 +207,8 @@
       {
        "type": "photo",
        "at": 6,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
        "type": "map",
@@ -208,7 +219,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -232,16 +243,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Buxton, the oceanfront"
       }
      ]
     },
@@ -257,7 +268,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -339,7 +350,7 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
@@ -362,7 +373,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -381,20 +392,31 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 15,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe, north end"
       },
       {
        "type": "photo",
        "at": 30,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       }
      ],
      "ask": {
@@ -831,25 +853,14 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 16,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "photo",
@@ -890,27 +901,27 @@
        }
       },
       {
-       "type": "photo",
-       "at": 15,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
-      },
-      {
        "type": "map",
-       "at": 22,
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.525,
            "lat": 35.252,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
        "on_screen_text": "The lighthouse today"
+      },
+      {
+       "type": "photo",
+       "at": 22,
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       }
      ]
     },
@@ -929,8 +940,8 @@
       {
        "type": "photo",
        "at": 5,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       },
       {
        "type": "map",
@@ -941,7 +952,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -961,25 +972,14 @@
       {
        "type": "photo",
        "at": 18,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 25,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       }
      ]
     },
@@ -995,12 +995,11 @@
           "view": {
            "lon": -75.52,
            "lat": 35.255,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -1013,16 +1012,27 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 13,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
       },
       {
        "type": "photo",
        "at": 20,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "map",
@@ -1033,7 +1043,7 @@
           "view": {
            "lon": -75.515,
            "lat": 35.262,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1042,22 +1052,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 33,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       },
       {
        "type": "stat",
@@ -1090,14 +1088,14 @@
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "photo",
        "at": 25,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "map",
@@ -1108,7 +1106,7 @@
           "view": {
            "lon": -75.525,
            "lat": 35.252,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1119,31 +1117,20 @@
       {
        "type": "photo",
        "at": 44,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "photo",
        "at": 53,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 62,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       }
      ]
     },
@@ -1163,10 +1150,21 @@
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 18,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "The lighthouse today"
       },
       {
        "type": "stat",
@@ -1187,39 +1185,16 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 44,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 52,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -1235,8 +1210,8 @@
       {
        "type": "photo",
        "at": 5,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
        "type": "map",
@@ -1245,9 +1220,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
-           "lat": 35.258,
-           "span": 0.045
+           "lon": -75.525,
+           "lat": 35.26,
+           "span": 0.11
           },
           "compare": {
            "before": "1985-04-26",
@@ -1295,7 +1270,7 @@
           "view": {
            "lon": -75.515,
            "lat": 35.262,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1304,10 +1279,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 38,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -1323,7 +1310,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -1343,14 +1330,15 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       }
      ]
     }
@@ -1411,7 +1399,7 @@
           "view": {
            "lon": -75.49,
            "lat": 35.73,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1428,7 +1416,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.69,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1472,7 +1460,7 @@
           "view": {
            "lon": -75.485,
            "lat": 35.705,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1530,7 +1518,7 @@
           "view": {
            "lon": -75.49,
            "lat": 35.73,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1557,7 +1545,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.69,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1596,7 +1584,7 @@
           "view": {
            "lon": -75.485,
            "lat": 35.705,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1632,7 +1620,7 @@
           "view": {
            "lon": -75.495,
            "lat": 35.716,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1665,10 +1653,20 @@
           "date": "2026-10-20/2026-11-08"
          },
          {
-          "at": "The fix"
+          "at": "The fix",
+          "view": {
+           "lon": -75.475,
+           "lat": 35.618,
+           "span": 0.06
+          }
          },
          {
           "at": "Since July",
+          "view": {
+           "lon": -75.475,
+           "lat": 35.618,
+           "span": 0.06
+          },
           "places": [
            {
             "name": "Rodanthe",
@@ -1680,7 +1678,12 @@
           ]
          },
          {
-          "at": "out over"
+          "at": "out over",
+          "view": {
+           "lon": -75.475,
+           "lat": 35.618,
+           "span": 0.06
+          }
          }
         ],
         "cut": true
@@ -1705,7 +1708,7 @@
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1722,7 +1725,7 @@
           "view": {
            "lon": -75.47,
            "lat": 35.602,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1745,7 +1748,7 @@
           "view": {
            "lon": -75.495,
            "lat": 35.716,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -1771,7 +1774,7 @@
           "view": {
            "lon": -75.49,
            "lat": 35.73,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1789,7 +1792,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.69,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1855,7 +1858,7 @@
           "view": {
            "lon": -75.485,
            "lat": 35.705,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1896,7 +1899,7 @@
           "view": {
            "lon": -75.495,
            "lat": 35.716,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -1922,7 +1925,7 @@
           "view": {
            "lon": -75.49,
            "lat": 35.73,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1958,7 +1961,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.69,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1975,7 +1978,7 @@
           "view": {
            "lon": -75.485,
            "lat": 35.705,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2011,7 +2014,7 @@
           "view": {
            "lon": -75.49,
            "lat": 35.73,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2034,7 +2037,7 @@
           "view": {
            "lon": -75.495,
            "lat": 35.716,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2051,7 +2054,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.69,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2069,7 +2072,7 @@
           "view": {
            "lon": -75.485,
            "lat": 35.705,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2085,9 +2088,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.495,
-           "lat": 35.716,
-           "span": 0.045
+           "lon": -75.49,
+           "lat": 35.715,
+           "span": 0.11
           },
           "compare": {
            "before": "1985-08-16",
@@ -2191,14 +2194,25 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 15,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton, the oceanfront"
       }
      ]
     },
@@ -2223,7 +2237,7 @@
           "view": {
            "lon": -75.465,
            "lat": 35.58,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2258,7 +2272,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -2289,7 +2303,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2298,28 +2312,27 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+      },
+      {
+       "type": "map",
+       "at": 16,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 16,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "on_screen_text": "Rodanthe, north end"
       },
       {
        "type": "photo",
@@ -2330,37 +2343,37 @@
       {
        "type": "photo",
        "at": 33,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 42,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 50,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
        "type": "map",
-       "at": 50,
+       "at": 59,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
        "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 59,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
       }
      ]
     },
@@ -2376,7 +2389,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -2389,20 +2402,32 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 14,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton, the oceanfront"
       },
       {
        "type": "stat",
@@ -2414,21 +2439,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 28,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
        "type": "map",
@@ -2439,7 +2453,7 @@
           "view": {
            "lon": -75.515,
            "lat": 35.262,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2448,39 +2462,40 @@
        }
       },
       {
-       "type": "photo",
-       "at": 44,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
-      },
-      {
-       "type": "photo",
-       "at": 53,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 62,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 71,
+       "at": 44,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Rodanthe, north end"
+      },
+      {
+       "type": "photo",
+       "at": 53,
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 62,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 71,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -2496,7 +2511,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -2509,8 +2524,7 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -2520,22 +2534,22 @@
         "steps": [
          {
           "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The lighthouse today"
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "photo",
        "at": 20,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
        "type": "stat",
@@ -2558,22 +2572,44 @@
        "on_screen_text": "Park Service crews collect debris, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 7,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton, the oceanfront"
       },
       {
        "type": "photo",
        "at": 15,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 23,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe, north end"
       },
       {
        "type": "stat",
@@ -2585,33 +2621,22 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 38,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 46,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 54,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -2627,7 +2652,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2655,27 +2680,27 @@
        }
       },
       {
-       "type": "photo",
-       "at": 8,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 16,
+       "at": 8,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
        "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 16,
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       }
      ]
     },
@@ -2691,7 +2716,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -2704,15 +2729,26 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton, the oceanfront"
       },
       {
        "type": "photo",
@@ -2722,8 +2758,8 @@
       {
        "type": "photo",
        "at": 26,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       }
      ]
     },
@@ -2782,7 +2818,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2790,39 +2826,40 @@
        }
       },
       {
-       "type": "photo",
-       "at": 9,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 18,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Rodanthe, north end"
+      },
+      {
+       "type": "photo",
+       "at": 18,
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 27,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 36,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -2830,27 +2867,27 @@
      "text": "It was not always like this. From 1988 to 1994, a rule called Upton-Jones paid owners to move or demolish houses that were about to fall. More than four hundred homes in twenty-seven states were moved or torn down under it. Congress repealed it in 1994. Lawmakers worried about the cost; one said that policyholder benefits come at the government's expense.",
      "shots": [
       {
-       "type": "photo",
-       "at": 8,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 17,
+       "at": 8,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
        "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 17,
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
        "type": "stat",
@@ -2862,10 +2899,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 33,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton, the oceanfront"
       },
       {
        "type": "map",
@@ -2879,14 +2927,15 @@
            "span": 9
           }
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 51,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       }
      ]
     },
@@ -2910,33 +2959,34 @@
        }
       },
       {
-       "type": "photo",
-       "at": 8,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 17,
+       "at": 8,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Rodanthe, north end"
+      },
+      {
+       "type": "photo",
+       "at": 17,
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 26,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -2955,14 +3005,25 @@
       {
        "type": "photo",
        "at": 10,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 20,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -2976,32 +3037,32 @@
            "span": 9
           }
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 37,
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 44,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 44,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "on_screen_text": "Buxton, the oceanfront"
       }
      ]
     },
@@ -3017,7 +3078,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -3030,20 +3091,32 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 18,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe, north end"
       }
      ]
     },
@@ -3060,27 +3133,16 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 15,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
@@ -3091,14 +3153,25 @@
       {
        "type": "photo",
        "at": 31,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 40,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.588,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3117,32 +3190,32 @@
            "span": 9
           }
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 18,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "on_screen_text": "Buxton, the oceanfront"
       }
      ]
     }
@@ -3164,11 +3237,12 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3180,7 +3254,7 @@
           "view": {
            "lon": -75.515,
            "lat": 35.262,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3207,7 +3281,7 @@
           "view": {
            "lon": -75.53,
            "lat": 35.27,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3224,7 +3298,7 @@
           "view": {
            "lon": -75.525,
            "lat": 35.25,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3320,7 +3394,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.3,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3338,7 +3412,7 @@
           "view": {
            "lon": -75.515,
            "lat": 35.262,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3350,8 +3424,8 @@
       {
        "type": "photo",
        "at": 28,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
        "type": "stat",
@@ -3364,45 +3438,56 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 47,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe, north end"
+      },
+      {
+       "type": "photo",
+       "at": 56,
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 65,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 74,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
        "type": "map",
-       "at": 56,
+       "at": 83,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
        "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 65,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
-      },
-      {
-       "type": "photo",
-       "at": 74,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 83,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
       }
      ]
     },
@@ -3418,7 +3503,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -3431,7 +3516,8 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3452,7 +3538,7 @@
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3469,7 +3555,7 @@
           "view": {
            "lon": -75.47,
            "lat": 35.602,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3492,7 +3578,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3509,7 +3595,7 @@
           "view": {
            "lon": -75.53,
            "lat": 35.27,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3527,7 +3613,7 @@
           "view": {
            "lon": -75.525,
            "lat": 35.25,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3545,7 +3631,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.3,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3563,7 +3649,7 @@
           "view": {
            "lon": -75.515,
            "lat": 35.262,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3586,7 +3672,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3595,28 +3681,27 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 18,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "on_screen_text": "Buxton, the oceanfront"
       },
       {
        "type": "stat",
@@ -3644,37 +3729,37 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 17,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
        "type": "map",
-       "at": 25,
+       "at": 17,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.035
+           "lon": -75.47,
+           "lat": 35.602,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Rodanthe, north end"
+      },
+      {
+       "type": "photo",
+       "at": 25,
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 34,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "map",
@@ -3685,7 +3770,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -3705,8 +3790,8 @@
       {
        "type": "photo",
        "at": 48,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -3722,7 +3807,7 @@
           "view": {
            "lon": -75.5,
            "lat": 35.352,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -3747,7 +3832,7 @@
           "view": {
            "lon": -75.53,
            "lat": 35.27,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3774,7 +3859,7 @@
           "view": {
            "lon": -75.525,
            "lat": 35.25,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3801,25 +3886,14 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:FEMA - 8383 - Photograph by Mark Wolfe taken on 09-20-2003 in North Carolina.jpg",
-       "on_screen_text": "Safe from Isabel, September 2003"
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 14,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.035
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "map",
@@ -3830,7 +3904,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -3848,10 +3922,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 29,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.252,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lighthouse today"
       }
      ]
     },
@@ -3867,7 +3953,7 @@
           "view": {
            "lon": -75.495,
            "lat": 35.716,
-           "span": 0.045
+           "span": 0.07
           },
           "places": [
            {
@@ -3880,31 +3966,33 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
-       "type": "photo",
-       "at": 7,
-       "photo": "File:National Park Service employees collect house collapse debris - 52750036938.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
-      },
-      {
        "type": "map",
-       "at": 14,
+       "at": 7,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 14,
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
        "type": "map",
@@ -3937,7 +4025,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3990,7 +4078,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.045
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4057,7 +4145,7 @@
           "view": {
            "lon": -75.465,
            "lat": 35.58,
-           "span": 0.04
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4092,7 +4180,7 @@
           "view": {
            "lon": -75.466,
            "lat": 35.588,
-           "span": 0.035
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4108,9 +4196,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
-           "lat": 35.595,
-           "span": 0.045
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.11
           },
           "compare": {
            "before": "1985-08-16",
@@ -4163,16 +4251,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Photo of March 13, 2023, collapsed house at 23228 East Point Dr., Rodanthe.jpg",
-       "on_screen_text": "Rodanthe, March 2023"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton, the oceanfront"
       },
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:Site of the 23228 East Point Dr., Rodanthe, house collapse on March 14, 2023--less than 24 hours after collapse.jpg",
-       "on_screen_text": "The day after a collapse, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       }
      ],
      "ask": {

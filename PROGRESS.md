@@ -1,6 +1,10 @@
 # PROGRESS
 
 ## Status (2026-11-10, ~19:45 UTC; start here)
+- 2026-11-11: Studio check (lifetime to 9 Nov): long videos got only ~2,400 impressions in total, CTR 1.5-3 %.
+  New thumbnails set via the API (thumbnails.set) on all 9 long videos: public-domain NASA/ISS images + 2-3 words
+  (files + generator in Videos\yt-pipeline	humbnails-2026-11-11). Outer Banks cover: NPS collapse photo, "PAID TO WAIT".
+  Re-check CTR/impressions in Studio around 2026-11-18.
 - Ogallala long: old 903F5prq9EM went PUBLIC 10 Nov 15:00Z with the old errors (1 view at 19:00Z); Shorts CBB6a3OKlv4,
   YIkaJyUoHAQ public too. v3 (run 42703344451) audited sheet by sheet and approved (audit.json), but the user chose
   "Eskisi kalsın": v3 is NOT uploaded, the old one stays. Do not re-offer unless asked.

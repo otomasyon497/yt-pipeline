@@ -6,7 +6,9 @@
   "Eskisi kalsın": v3 is NOT uploaded, the old one stays. Do not re-offer unless asked.
 - Episode 11 outer-banks (user chose 2026-11-10 from a YouTube scan; coastal erosion): research.md + PLAN.md (gate-1 draft,
   ~2,420 words / ~18.2 min). Own measurement tools/outer_banks_shoreline.py -> episodes/outer-banks/shoreline.json
-  (Landsat MNDWI shoreline; Rodanthe ~155 m retreat 1985-2026). Next: finish TODO sources, show gate 1 to the user.
+  (Landsat MNDWI shoreline; Rodanthe ~155 m, Pea Island ~100 m, Buxton ~85 m, Avon ~0, 1985-2026). Gate 1 approved
+  2026-11-10. Script built (build_script.py, 2,160 words, ~15.8 min, episode_check OK), factcheck.md complete (0 FIX).
+  Next: storyboard render (after the public-repo switch, Actions minutes), frame check, full render, audit, gate 2.
 - Still pending from before: public-repo switch (delete old releases, OUT_REPO_TOKEN, render.yml -> yt-pipeline-out,
   make repo public), Langtang storyboard review (run 42700740718 succeeded) and full render, Indus pinned comments.
 

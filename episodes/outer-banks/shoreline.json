@@ -1,0 +1,1469 @@
+{
+ "Rodanthe": {
+  "box": [
+   -75.49,
+   35.575,
+   -75.43,
+   35.605
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-08-16",
+      "platform": "landsat-5",
+      "from_east_m": 2788.2
+     },
+     {
+      "date": "1985-04-26",
+      "platform": "landsat-5",
+      "from_east_m": 2791.3
+     },
+     {
+      "date": "1985-02-28",
+      "platform": "landsat-5",
+      "from_east_m": 2796.7
+     },
+     {
+      "date": "1985-01-27",
+      "platform": "landsat-5",
+      "from_east_m": 2791.7
+     }
+    ],
+    "from_east_m": 2791.5,
+    "spread_m": 8.5,
+    "retreat_m": 0.0,
+    "rows_retreat_p10_p90": [
+     0.0,
+     0.0
+    ]
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-12-11",
+      "platform": "landsat-5",
+      "from_east_m": 2831.5
+     },
+     {
+      "date": "1990-04-24",
+      "platform": "landsat-5",
+      "from_east_m": 2810.6
+     },
+     {
+      "date": "1990-09-06",
+      "platform": "landsat-5",
+      "from_east_m": 2825.0
+     },
+     {
+      "date": "1990-10-17",
+      "platform": "landsat-5",
+      "from_east_m": 2836.1
+     }
+    ],
+    "from_east_m": 2828.2,
+    "spread_m": 25.5,
+    "retreat_m": 36.7,
+    "rows_retreat_p10_p90": [
+     -15.0,
+     88.5
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-10-22",
+      "platform": "landsat-5",
+      "from_east_m": 2853.6
+     },
+     {
+      "date": "1995-09-04",
+      "platform": "landsat-5",
+      "from_east_m": 2852.8
+     },
+     {
+      "date": "1995-08-12",
+      "platform": "landsat-5",
+      "from_east_m": 2855.7
+     },
+     {
+      "date": "1995-04-22",
+      "platform": "landsat-5",
+      "from_east_m": 2828.5
+     }
+    ],
+    "from_east_m": 2853.2,
+    "spread_m": 27.2,
+    "retreat_m": 61.7,
+    "rows_retreat_p10_p90": [
+     15.0,
+     90.0
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-19",
+      "platform": "landsat-5",
+      "from_east_m": 2900.2
+     },
+     {
+      "date": "2000-10-12",
+      "platform": "landsat-5",
+      "from_east_m": 2880.7
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-5",
+      "from_east_m": 2902.5
+     },
+     {
+      "date": "2000-08-16",
+      "platform": "landsat-5",
+      "from_east_m": 2871.9
+     }
+    ],
+    "from_east_m": 2890.4,
+    "spread_m": 30.6,
+    "retreat_m": 98.9,
+    "rows_retreat_p10_p90": [
+     54.0,
+     135.0
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-02-19",
+      "platform": "landsat-5",
+      "from_east_m": 2893.1
+     },
+     {
+      "date": "2005-07-06",
+      "platform": "landsat-5",
+      "from_east_m": 2890.0
+     },
+     {
+      "date": "2005-04-17",
+      "platform": "landsat-5",
+      "from_east_m": 2911.4
+     },
+     {
+      "date": "2005-10-17",
+      "platform": "landsat-5",
+      "from_east_m": 2895.8
+     }
+    ],
+    "from_east_m": 2894.4,
+    "spread_m": 21.4,
+    "retreat_m": 102.9,
+    "rows_retreat_p10_p90": [
+     82.5,
+     135.0
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-08",
+      "platform": "landsat-5",
+      "from_east_m": 2922.2
+     },
+     {
+      "date": "2010-04-15",
+      "platform": "landsat-5",
+      "from_east_m": 2911.1
+     },
+     {
+      "date": "2010-04-06",
+      "platform": "landsat-5",
+      "from_east_m": 2899.8
+     },
+     {
+      "date": "2010-02-17",
+      "platform": "landsat-5",
+      "from_east_m": 2913.1
+     }
+    ],
+    "from_east_m": 2912.1,
+    "spread_m": 22.4,
+    "retreat_m": 120.6,
+    "rows_retreat_p10_p90": [
+     90.0,
+     150.0
+    ]
+   },
+   "2014": {
+    "days": [
+     {
+      "date": "2014-11-20",
+      "platform": "landsat-8",
+      "from_east_m": 2893.2
+     },
+     {
+      "date": "2014-10-26",
+      "platform": "landsat-8",
+      "from_east_m": 2903.1
+     },
+     {
+      "date": "2014-01-20",
+      "platform": "landsat-8",
+      "from_east_m": 2914.3
+     },
+     {
+      "date": "2014-04-10",
+      "platform": "landsat-8",
+      "from_east_m": 2916.3
+     }
+    ],
+    "from_east_m": 2908.7,
+    "spread_m": 23.1,
+    "retreat_m": 117.2,
+    "rows_retreat_p10_p90": [
+     75.0,
+     150.0
+    ]
+   },
+   "2018": {
+    "days": [
+     {
+      "date": "2018-10-05",
+      "platform": "landsat-8",
+      "from_east_m": 2914.4
+     },
+     {
+      "date": "2018-06-24",
+      "platform": "landsat-8",
+      "from_east_m": 2904.6
+     }
+    ],
+    "from_east_m": 2909.5,
+    "spread_m": 9.8,
+    "retreat_m": 118.0,
+    "rows_retreat_p10_p90": [
+     90.0,
+     157.5
+    ]
+   },
+   "2022": {
+    "days": [
+     {
+      "date": "2022-04-08",
+      "platform": "landsat-9",
+      "from_east_m": 2911.9
+     },
+     {
+      "date": "2022-05-18",
+      "platform": "landsat-8",
+      "from_east_m": 2925.9
+     }
+    ],
+    "from_east_m": 2918.9,
+    "spread_m": 14.0,
+    "retreat_m": 127.4,
+    "rows_retreat_p10_p90": [
+     105.0,
+     172.5
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-03-12",
+      "platform": "landsat-9",
+      "from_east_m": 2936.8
+     },
+     {
+      "date": "2024-03-11",
+      "platform": "landsat-8",
+      "from_east_m": 2909.9
+     },
+     {
+      "date": "2024-04-29",
+      "platform": "landsat-9",
+      "from_east_m": 2937.8
+     }
+    ],
+    "from_east_m": 2936.8,
+    "spread_m": 27.9,
+    "retreat_m": 145.3,
+    "rows_retreat_p10_p90": [
+     120.0,
+     180.0
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-04-16",
+      "platform": "landsat-9",
+      "from_east_m": 2928.7
+     },
+     {
+      "date": "2025-11-01",
+      "platform": "landsat-9",
+      "from_east_m": 2910.1
+     },
+     {
+      "date": "2025-01-01",
+      "platform": "landsat-9",
+      "from_east_m": 2936.8
+     },
+     {
+      "date": "2025-08-29",
+      "platform": "landsat-9",
+      "from_east_m": 2933.5
+     }
+    ],
+    "from_east_m": 2931.1,
+    "spread_m": 26.7,
+    "retreat_m": 139.6,
+    "rows_retreat_p10_p90": [
+     120.0,
+     172.5
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-01-13",
+      "platform": "landsat-9",
+      "from_east_m": 2886.1
+     },
+     {
+      "date": "2026-02-13",
+      "platform": "landsat-8",
+      "from_east_m": 2946.9
+     },
+     {
+      "date": "2026-10-27",
+      "platform": "landsat-8",
+      "from_east_m": 2965.0
+     }
+    ],
+    "from_east_m": 2946.9,
+    "spread_m": 78.9,
+    "retreat_m": 155.4,
+    "rows_retreat_p10_p90": [
+     127.5,
+     195.0
+    ]
+   }
+  }
+ },
+ "Pea Island (visitor center)": {
+  "box": [
+   -75.51,
+   35.7,
+   -75.46,
+   35.73
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-08-16",
+      "platform": "landsat-5",
+      "from_east_m": 2779.8
+     },
+     {
+      "date": "1985-04-26",
+      "platform": "landsat-5",
+      "from_east_m": 2783.6
+     },
+     {
+      "date": "1985-02-28",
+      "platform": "landsat-5",
+      "from_east_m": 2794.3
+     },
+     {
+      "date": "1985-01-27",
+      "platform": "landsat-5",
+      "from_east_m": 2790.2
+     }
+    ],
+    "from_east_m": 2786.9,
+    "spread_m": 14.5,
+    "retreat_m": 0.0,
+    "rows_retreat_p10_p90": [
+     0.0,
+     0.0
+    ]
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-12-11",
+      "platform": "landsat-5",
+      "from_east_m": 2831.6
+     },
+     {
+      "date": "1990-04-24",
+      "platform": "landsat-5",
+      "from_east_m": 2792.5
+     },
+     {
+      "date": "1990-09-06",
+      "platform": "landsat-5",
+      "from_east_m": 2820.5
+     },
+     {
+      "date": "1990-10-17",
+      "platform": "landsat-5",
+      "from_east_m": 2825.9
+     }
+    ],
+    "from_east_m": 2823.2,
+    "spread_m": 39.1,
+    "retreat_m": 36.3,
+    "rows_retreat_p10_p90": [
+     15.0,
+     60.0
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-10-22",
+      "platform": "landsat-5",
+      "from_east_m": 2860.3
+     },
+     {
+      "date": "1995-09-04",
+      "platform": "landsat-5",
+      "from_east_m": 2858.3
+     },
+     {
+      "date": "1995-04-29",
+      "platform": "landsat-5",
+      "from_east_m": 2761.3
+     },
+     {
+      "date": "1995-02-01",
+      "platform": "landsat-5",
+      "from_east_m": 2869.2
+     }
+    ],
+    "from_east_m": 2859.3,
+    "spread_m": 107.9,
+    "retreat_m": 72.4,
+    "rows_retreat_p10_p90": [
+     22.5,
+     112.5
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-19",
+      "platform": "landsat-5",
+      "from_east_m": 2866.7
+     },
+     {
+      "date": "2000-10-12",
+      "platform": "landsat-5",
+      "from_east_m": 2835.5
+     },
+     {
+      "date": "2000-08-16",
+      "platform": "landsat-5",
+      "from_east_m": 2829.1
+     },
+     {
+      "date": "2000-01-21",
+      "platform": "landsat-5",
+      "from_east_m": 2882.4
+     }
+    ],
+    "from_east_m": 2851.1,
+    "spread_m": 53.3,
+    "retreat_m": 64.2,
+    "rows_retreat_p10_p90": [
+     7.5,
+     112.5
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-02-19",
+      "platform": "landsat-5",
+      "from_east_m": 2841.7
+     },
+     {
+      "date": "2005-07-06",
+      "platform": "landsat-5",
+      "from_east_m": 2832.6
+     },
+     {
+      "date": "2005-04-17",
+      "platform": "landsat-5",
+      "from_east_m": 2875.8
+     },
+     {
+      "date": "2005-10-17",
+      "platform": "landsat-5",
+      "from_east_m": 2849.0
+     }
+    ],
+    "from_east_m": 2845.3,
+    "spread_m": 43.2,
+    "retreat_m": 58.4,
+    "rows_retreat_p10_p90": [
+     15.0,
+     97.5
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-08",
+      "platform": "landsat-5",
+      "from_east_m": 2870.7
+     },
+     {
+      "date": "2010-04-15",
+      "platform": "landsat-5",
+      "from_east_m": 2860.5
+     },
+     {
+      "date": "2010-02-17",
+      "platform": "landsat-5",
+      "from_east_m": 2871.6
+     },
+     {
+      "date": "2010-07-04",
+      "platform": "landsat-5",
+      "from_east_m": 2841.1
+     }
+    ],
+    "from_east_m": 2865.6,
+    "spread_m": 30.5,
+    "retreat_m": 78.7,
+    "rows_retreat_p10_p90": [
+     30.0,
+     120.0
+    ]
+   },
+   "2014": {
+    "days": [
+     {
+      "date": "2014-11-20",
+      "platform": "landsat-8",
+      "from_east_m": 2853.8
+     },
+     {
+      "date": "2014-10-26",
+      "platform": "landsat-8",
+      "from_east_m": 2872.2
+     },
+     {
+      "date": "2014-01-20",
+      "platform": "landsat-8",
+      "from_east_m": 2854.9
+     },
+     {
+      "date": "2014-04-10",
+      "platform": "landsat-8",
+      "from_east_m": 2858.7
+     }
+    ],
+    "from_east_m": 2856.8,
+    "spread_m": 18.4,
+    "retreat_m": 69.9,
+    "rows_retreat_p10_p90": [
+     45.0,
+     118.5
+    ]
+   },
+   "2018": {
+    "days": [
+     {
+      "date": "2018-10-05",
+      "platform": "landsat-8",
+      "from_east_m": 2882.4
+     },
+     {
+      "date": "2018-04-21",
+      "platform": "landsat-8",
+      "from_east_m": 2887.7
+     }
+    ],
+    "from_east_m": 2885.1,
+    "spread_m": 5.3,
+    "retreat_m": 98.2,
+    "rows_retreat_p10_p90": [
+     45.0,
+     150.0
+    ]
+   },
+   "2022": {
+    "days": [
+     {
+      "date": "2022-04-08",
+      "platform": "landsat-9",
+      "from_east_m": 2903.1
+     },
+     {
+      "date": "2022-05-18",
+      "platform": "landsat-8",
+      "from_east_m": 2905.7
+     },
+     {
+      "date": "2022-11-26",
+      "platform": "landsat-8",
+      "from_east_m": 2931.3
+     },
+     {
+      "date": "2022-11-17",
+      "platform": "landsat-8",
+      "from_east_m": 2917.1
+     }
+    ],
+    "from_east_m": 2911.4,
+    "spread_m": 28.2,
+    "retreat_m": 124.5,
+    "rows_retreat_p10_p90": [
+     84.0,
+     172.5
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-10-13",
+      "platform": "landsat-9",
+      "from_east_m": 2888.3
+     },
+     {
+      "date": "2024-03-19",
+      "platform": "landsat-9",
+      "from_east_m": 2898.5
+     }
+    ],
+    "from_east_m": 2893.4,
+    "spread_m": 10.2,
+    "retreat_m": 106.5,
+    "rows_retreat_p10_p90": [
+     75.0,
+     150.0
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-04-16",
+      "platform": "landsat-9",
+      "from_east_m": 2895.9
+     },
+     {
+      "date": "2025-11-01",
+      "platform": "landsat-9",
+      "from_east_m": 2895.4
+     },
+     {
+      "date": "2025-01-01",
+      "platform": "landsat-9",
+      "from_east_m": 2901.2
+     },
+     {
+      "date": "2025-08-29",
+      "platform": "landsat-9",
+      "from_east_m": 2891.7
+     }
+    ],
+    "from_east_m": 2895.7,
+    "spread_m": 9.5,
+    "retreat_m": 108.8,
+    "rows_retreat_p10_p90": [
+     75.0,
+     150.0
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-01-13",
+      "platform": "landsat-9",
+      "from_east_m": 2882.9
+     },
+     {
+      "date": "2026-02-13",
+      "platform": "landsat-8",
+      "from_east_m": 2899.4
+     },
+     {
+      "date": "2026-01-12",
+      "platform": "landsat-8",
+      "from_east_m": 2894.4
+     },
+     {
+      "date": "2026-09-10",
+      "platform": "landsat-9",
+      "from_east_m": 2867.7
+     }
+    ],
+    "from_east_m": 2888.7,
+    "spread_m": 31.7,
+    "retreat_m": 101.8,
+    "rows_retreat_p10_p90": [
+     67.5,
+     142.5
+    ]
+   }
+  }
+ },
+ "Avon": {
+  "box": [
+   -75.52,
+   35.34,
+   -75.47,
+   35.365
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-04-26",
+      "platform": "landsat-5",
+      "from_east_m": 2650.5
+     },
+     {
+      "date": "1985-04-26",
+      "platform": "landsat-5",
+      "from_east_m": 2632.2
+     },
+     {
+      "date": "1985-02-28",
+      "platform": "landsat-5",
+      "from_east_m": 2655.8
+     },
+     {
+      "date": "1985-01-27",
+      "platform": "landsat-5",
+      "from_east_m": 2656.0
+     }
+    ],
+    "from_east_m": 2653.2,
+    "spread_m": 23.8,
+    "retreat_m": 0.0,
+    "rows_retreat_p10_p90": [
+     0.0,
+     0.0
+    ]
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-12-11",
+      "platform": "landsat-5",
+      "from_east_m": 2649.2
+     },
+     {
+      "date": "1990-04-24",
+      "platform": "landsat-5",
+      "from_east_m": 2619.1
+     },
+     {
+      "date": "1990-04-24",
+      "platform": "landsat-5",
+      "from_east_m": 2626.5
+     },
+     {
+      "date": "1990-09-06",
+      "platform": "landsat-5",
+      "from_east_m": 2646.9
+     }
+    ],
+    "from_east_m": 2636.7,
+    "spread_m": 30.1,
+    "retreat_m": -16.5,
+    "rows_retreat_p10_p90": [
+     -15.0,
+     7.5
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-10-22",
+      "platform": "landsat-5",
+      "from_east_m": 2640.5
+     },
+     {
+      "date": "1995-09-04",
+      "platform": "landsat-5",
+      "from_east_m": 2659.6
+     },
+     {
+      "date": "1995-08-12",
+      "platform": "landsat-5",
+      "from_east_m": 2681.4
+     },
+     {
+      "date": "1995-05-08",
+      "platform": "landsat-5",
+      "from_east_m": 2676.3
+     }
+    ],
+    "from_east_m": 2667.9,
+    "spread_m": 40.9,
+    "retreat_m": 14.7,
+    "rows_retreat_p10_p90": [
+     -7.5,
+     37.5
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-12",
+      "platform": "landsat-5",
+      "from_east_m": 2648.5
+     },
+     {
+      "date": "2000-10-12",
+      "platform": "landsat-5",
+      "from_east_m": 2661.6
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-5",
+      "from_east_m": 2669.8
+     },
+     {
+      "date": "2000-08-16",
+      "platform": "landsat-5",
+      "from_east_m": 2645.0
+     }
+    ],
+    "from_east_m": 2655.1,
+    "spread_m": 24.8,
+    "retreat_m": 1.9,
+    "rows_retreat_p10_p90": [
+     -22.5,
+     22.5
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-02-19",
+      "platform": "landsat-5",
+      "from_east_m": 2642.4
+     },
+     {
+      "date": "2005-07-06",
+      "platform": "landsat-5",
+      "from_east_m": 2638.3
+     }
+    ],
+    "from_east_m": 2640.4,
+    "spread_m": 4.1,
+    "retreat_m": -12.8,
+    "rows_retreat_p10_p90": [
+     -52.5,
+     37.5
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-08",
+      "platform": "landsat-5",
+      "from_east_m": 2621.3
+     },
+     {
+      "date": "2010-04-15",
+      "platform": "landsat-5",
+      "from_east_m": 2653.9
+     },
+     {
+      "date": "2010-04-06",
+      "platform": "landsat-5",
+      "from_east_m": 2643.0
+     },
+     {
+      "date": "2010-02-17",
+      "platform": "landsat-5",
+      "from_east_m": 2651.4
+     }
+    ],
+    "from_east_m": 2647.2,
+    "spread_m": 32.6,
+    "retreat_m": -6.0,
+    "rows_retreat_p10_p90": [
+     -45.0,
+     60.0
+    ]
+   },
+   "2014": {
+    "days": [
+     {
+      "date": "2014-11-20",
+      "platform": "landsat-8",
+      "from_east_m": 2650.6
+     },
+     {
+      "date": "2014-10-26",
+      "platform": "landsat-8",
+      "from_east_m": 2659.8
+     },
+     {
+      "date": "2014-01-20",
+      "platform": "landsat-8",
+      "from_east_m": 2664.1
+     },
+     {
+      "date": "2014-04-10",
+      "platform": "landsat-8",
+      "from_east_m": 2650.1
+     }
+    ],
+    "from_east_m": 2655.2,
+    "spread_m": 14.0,
+    "retreat_m": 2.0,
+    "rows_retreat_p10_p90": [
+     -52.5,
+     60.0
+    ]
+   },
+   "2018": {
+    "days": [
+     {
+      "date": "2018-10-05",
+      "platform": "landsat-8",
+      "from_east_m": 2651.4
+     },
+     {
+      "date": "2018-12-24",
+      "platform": "landsat-8",
+      "from_east_m": 2653.6
+     },
+     {
+      "date": "2018-02-16",
+      "platform": "landsat-8",
+      "from_east_m": 2648.4
+     },
+     {
+      "date": "2018-09-19",
+      "platform": "landsat-8",
+      "from_east_m": 2648.1
+     }
+    ],
+    "from_east_m": 2649.9,
+    "spread_m": 5.5,
+    "retreat_m": -3.3,
+    "rows_retreat_p10_p90": [
+     -86.2,
+     75.0
+    ]
+   },
+   "2022": {
+    "days": [
+     {
+      "date": "2022-02-10",
+      "platform": "landsat-9",
+      "from_east_m": 2650.8
+     },
+     {
+      "date": "2022-04-08",
+      "platform": "landsat-9",
+      "from_east_m": 2663.4
+     },
+     {
+      "date": "2022-05-18",
+      "platform": "landsat-8",
+      "from_east_m": 2658.3
+     },
+     {
+      "date": "2022-11-26",
+      "platform": "landsat-8",
+      "from_east_m": 2660.9
+     }
+    ],
+    "from_east_m": 2659.6,
+    "spread_m": 12.6,
+    "retreat_m": 6.4,
+    "rows_retreat_p10_p90": [
+     -90.0,
+     82.5
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-03-12",
+      "platform": "landsat-9",
+      "from_east_m": 2654.5
+     },
+     {
+      "date": "2024-03-20",
+      "platform": "landsat-8",
+      "from_east_m": 2644.1
+     },
+     {
+      "date": "2024-03-12",
+      "platform": "landsat-9",
+      "from_east_m": 2653.3
+     },
+     {
+      "date": "2024-03-11",
+      "platform": "landsat-8",
+      "from_east_m": 2662.0
+     }
+    ],
+    "from_east_m": 2653.9,
+    "spread_m": 17.9,
+    "retreat_m": 0.7,
+    "rows_retreat_p10_p90": [
+     -82.5,
+     75.0
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-04-16",
+      "platform": "landsat-9",
+      "from_east_m": 2632.8
+     },
+     {
+      "date": "2025-11-01",
+      "platform": "landsat-9",
+      "from_east_m": 2647.0
+     },
+     {
+      "date": "2025-03-22",
+      "platform": "landsat-9",
+      "from_east_m": 2644.4
+     },
+     {
+      "date": "2025-01-01",
+      "platform": "landsat-9",
+      "from_east_m": 2647.4
+     }
+    ],
+    "from_east_m": 2645.7,
+    "spread_m": 14.6,
+    "retreat_m": -7.5,
+    "rows_retreat_p10_p90": [
+     -97.5,
+     48.8
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-01-13",
+      "platform": "landsat-9",
+      "from_east_m": 2635.9
+     },
+     {
+      "date": "2026-02-13",
+      "platform": "landsat-8",
+      "from_east_m": 2649.7
+     },
+     {
+      "date": "2026-01-12",
+      "platform": "landsat-8",
+      "from_east_m": 2646.5
+     },
+     {
+      "date": "2026-10-27",
+      "platform": "landsat-8",
+      "from_east_m": 2670.9
+     }
+    ],
+    "from_east_m": 2648.1,
+    "spread_m": 35.0,
+    "retreat_m": -5.1,
+    "rows_retreat_p10_p90": [
+     -90.0,
+     67.5
+    ]
+   }
+  }
+ },
+ "Buxton": {
+  "box": [
+   -75.545,
+   35.255,
+   -75.49,
+   35.285
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-04-26",
+      "platform": "landsat-5",
+      "from_east_m": 2442.4
+     },
+     {
+      "date": "1985-02-28",
+      "platform": "landsat-5",
+      "from_east_m": 2446.6
+     },
+     {
+      "date": "1985-01-27",
+      "platform": "landsat-5",
+      "from_east_m": 2446.4
+     },
+     {
+      "date": "1985-04-01",
+      "platform": "landsat-5",
+      "from_east_m": 2405.0
+     }
+    ],
+    "from_east_m": 2444.4,
+    "spread_m": 41.6,
+    "retreat_m": 0.0,
+    "rows_retreat_p10_p90": [
+     0.0,
+     0.0
+    ]
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-12-11",
+      "platform": "landsat-5",
+      "from_east_m": 2491.6
+     },
+     {
+      "date": "1990-12-11",
+      "platform": "landsat-5",
+      "from_east_m": 2461.3
+     },
+     {
+      "date": "1990-04-24",
+      "platform": "landsat-5",
+      "from_east_m": 2459.5
+     },
+     {
+      "date": "1990-09-06",
+      "platform": "landsat-5",
+      "from_east_m": 2464.6
+     }
+    ],
+    "from_east_m": 2462.9,
+    "spread_m": 32.1,
+    "retreat_m": 18.5,
+    "rows_retreat_p10_p90": [
+     7.5,
+     30.0
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-09-04",
+      "platform": "landsat-5",
+      "from_east_m": 2469.3
+     },
+     {
+      "date": "1995-05-08",
+      "platform": "landsat-5",
+      "from_east_m": 2475.3
+     },
+     {
+      "date": "1995-04-22",
+      "platform": "landsat-5",
+      "from_east_m": 2464.7
+     },
+     {
+      "date": "1995-03-12",
+      "platform": "landsat-5",
+      "from_east_m": 2457.9
+     }
+    ],
+    "from_east_m": 2467.0,
+    "spread_m": 17.4,
+    "retreat_m": 22.6,
+    "rows_retreat_p10_p90": [
+     7.5,
+     37.5
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-12",
+      "platform": "landsat-5",
+      "from_east_m": 2486.4
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-5",
+      "from_east_m": 2514.1
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-5",
+      "from_east_m": 2513.5
+     },
+     {
+      "date": "2000-08-16",
+      "platform": "landsat-5",
+      "from_east_m": 2457.8
+     }
+    ],
+    "from_east_m": 2499.9,
+    "spread_m": 56.3,
+    "retreat_m": 55.5,
+    "rows_retreat_p10_p90": [
+     45.0,
+     75.0
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-10-17",
+      "platform": "landsat-5",
+      "from_east_m": 2523.0
+     },
+     {
+      "date": "2005-02-19",
+      "platform": "landsat-5",
+      "from_east_m": 2490.2
+     },
+     {
+      "date": "2005-07-06",
+      "platform": "landsat-5",
+      "from_east_m": 2486.8
+     }
+    ],
+    "from_east_m": 2490.2,
+    "spread_m": 36.2,
+    "retreat_m": 45.8,
+    "rows_retreat_p10_p90": [
+     30.0,
+     60.0
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-04-06",
+      "platform": "landsat-5",
+      "from_east_m": 2496.9
+     },
+     {
+      "date": "2010-03-05",
+      "platform": "landsat-5",
+      "from_east_m": 2539.1
+     },
+     {
+      "date": "2010-02-17",
+      "platform": "landsat-5",
+      "from_east_m": 2505.3
+     },
+     {
+      "date": "2010-10-31",
+      "platform": "landsat-5",
+      "from_east_m": 2496.1
+     }
+    ],
+    "from_east_m": 2501.1,
+    "spread_m": 43.0,
+    "retreat_m": 56.7,
+    "rows_retreat_p10_p90": [
+     37.5,
+     82.5
+    ]
+   },
+   "2014": {
+    "days": [
+     {
+      "date": "2014-10-26",
+      "platform": "landsat-8",
+      "from_east_m": 2511.0
+     },
+     {
+      "date": "2014-10-26",
+      "platform": "landsat-8",
+      "from_east_m": 2510.4
+     },
+     {
+      "date": "2014-01-20",
+      "platform": "landsat-8",
+      "from_east_m": 2521.3
+     },
+     {
+      "date": "2014-12-13",
+      "platform": "landsat-8",
+      "from_east_m": 2525.3
+     }
+    ],
+    "from_east_m": 2516.2,
+    "spread_m": 14.9,
+    "retreat_m": 71.8,
+    "rows_retreat_p10_p90": [
+     54.0,
+     90.0
+    ]
+   },
+   "2018": {
+    "days": [
+     {
+      "date": "2018-10-05",
+      "platform": "landsat-8",
+      "from_east_m": 2480.7
+     },
+     {
+      "date": "2018-10-05",
+      "platform": "landsat-8",
+      "from_east_m": 2480.9
+     },
+     {
+      "date": "2018-09-19",
+      "platform": "landsat-8",
+      "from_east_m": 2484.9
+     },
+     {
+      "date": "2018-12-24",
+      "platform": "landsat-8",
+      "from_east_m": 2491.5
+     }
+    ],
+    "from_east_m": 2482.9,
+    "spread_m": 10.8,
+    "retreat_m": 38.5,
+    "rows_retreat_p10_p90": [
+     30.0,
+     67.5
+    ]
+   },
+   "2022": {
+    "days": [
+     {
+      "date": "2022-02-10",
+      "platform": "landsat-9",
+      "from_east_m": 2505.6
+     },
+     {
+      "date": "2022-02-10",
+      "platform": "landsat-9",
+      "from_east_m": 2525.8
+     },
+     {
+      "date": "2022-12-27",
+      "platform": "landsat-9",
+      "from_east_m": 2501.4
+     },
+     {
+      "date": "2022-12-19",
+      "platform": "landsat-8",
+      "from_east_m": 2496.7
+     }
+    ],
+    "from_east_m": 2503.5,
+    "spread_m": 29.1,
+    "retreat_m": 59.1,
+    "rows_retreat_p10_p90": [
+     45.0,
+     90.0
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-03-12",
+      "platform": "landsat-9",
+      "from_east_m": 2522.4
+     },
+     {
+      "date": "2024-03-11",
+      "platform": "landsat-8",
+      "from_east_m": 2530.6
+     },
+     {
+      "date": "2024-03-11",
+      "platform": "landsat-8",
+      "from_east_m": 2529.2
+     },
+     {
+      "date": "2024-03-20",
+      "platform": "landsat-8",
+      "from_east_m": 2507.0
+     }
+    ],
+    "from_east_m": 2525.8,
+    "spread_m": 23.6,
+    "retreat_m": 81.4,
+    "rows_retreat_p10_p90": [
+     60.0,
+     120.0
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-11-01",
+      "platform": "landsat-9",
+      "from_east_m": 2523.8
+     },
+     {
+      "date": "2025-11-17",
+      "platform": "landsat-9",
+      "from_east_m": 2521.8
+     },
+     {
+      "date": "2025-03-22",
+      "platform": "landsat-9",
+      "from_east_m": 2521.1
+     },
+     {
+      "date": "2025-01-01",
+      "platform": "landsat-9",
+      "from_east_m": 2522.1
+     }
+    ],
+    "from_east_m": 2521.9,
+    "spread_m": 2.7,
+    "retreat_m": 77.5,
+    "rows_retreat_p10_p90": [
+     45.0,
+     120.0
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-02-13",
+      "platform": "landsat-8",
+      "from_east_m": 2527.4
+     },
+     {
+      "date": "2026-01-12",
+      "platform": "landsat-8",
+      "from_east_m": 2523.7
+     },
+     {
+      "date": "2026-03-01",
+      "platform": "landsat-8",
+      "from_east_m": 2533.8
+     },
+     {
+      "date": "2026-01-04",
+      "platform": "landsat-9",
+      "from_east_m": 2537.3
+     }
+    ],
+    "from_east_m": 2530.6,
+    "spread_m": 13.6,
+    "retreat_m": 86.2,
+    "rows_retreat_p10_p90": [
+     45.0,
+     135.0
+    ]
+   }
+  }
+ }
+}

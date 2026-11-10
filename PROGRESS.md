@@ -1,5 +1,15 @@
 # PROGRESS
 
+## Status (2026-11-10, ~19:45 UTC; start here)
+- Ogallala long: old 903F5prq9EM went PUBLIC 10 Nov 15:00Z with the old errors (1 view at 19:00Z); Shorts CBB6a3OKlv4,
+  YIkaJyUoHAQ public too. v3 (run 42703344451) audited sheet by sheet and approved (audit.json), but the user chose
+  "Eskisi kalsın": v3 is NOT uploaded, the old one stays. Do not re-offer unless asked.
+- Episode 11 outer-banks (user chose 2026-11-10 from a YouTube scan; coastal erosion): research.md + PLAN.md (gate-1 draft,
+  ~2,420 words / ~18.2 min). Own measurement tools/outer_banks_shoreline.py -> episodes/outer-banks/shoreline.json
+  (Landsat MNDWI shoreline; Rodanthe ~155 m retreat 1985-2026). Next: finish TODO sources, show gate 1 to the user.
+- Still pending from before: public-repo switch (delete old releases, OUT_REPO_TOKEN, render.yml -> yt-pipeline-out,
+  make repo public), Langtang storyboard review (run 42700740718 succeeded) and full render, Indus pinned comments.
+
 ## Status (2026-11-09, ~22:00 UTC; start here)
 - NEW RULE (user, 2026-11-09): every render is audited second by second before upload: tools/frame_audit.py
   (venv python -I) -> look at EVERY sheet -> fix -> re-render -> audit -> `--approve "note"`. yt_upload refuses

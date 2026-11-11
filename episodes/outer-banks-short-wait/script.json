@@ -81,7 +81,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "About 155 m inland since 1985 · our measurement"
+       "on_screen_text": "~155 m inland since 1985 · our measurement"
       }
      ]
     },
@@ -95,9 +95,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.43,
-           "span": 0.4
+           "lon": -75.472,
+           "lat": 35.6,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08",
           "places": [
@@ -107,13 +107,6 @@
             "lat": 35.594,
             "kind": "city",
             "label": "RODANTHE"
-           },
-           {
-            "name": "Buxton",
-            "lon": -75.535,
-            "lat": 35.267,
-            "kind": "city",
-            "label": "BUXTON"
            }
           ]
          }
@@ -230,19 +223,12 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
-           "lat": 35.45,
-           "span": 0.75
+           "lon": -75.525,
+           "lat": 35.258,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08",
           "places": [
-           {
-            "name": "Rodanthe",
-            "lon": -75.468,
-            "lat": 35.594,
-            "kind": "city",
-            "label": "RODANTHE"
-           },
            {
             "name": "Buxton",
             "lon": -75.535,

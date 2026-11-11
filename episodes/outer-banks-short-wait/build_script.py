@@ -35,9 +35,9 @@ paragraphs = [
         {**v(-75.47, 35.60, 0.11), "compare": {"before": "1985-08-16", "after": "2026-10-27", "source": "landsat", "seconds": 2.4, "until": "And here"}},
         {"at": "And here"}, cut=False)),
     P("We measured it. The shore moved about a hundred and fifty-five metres inland.",
-      m("About 155 m inland since 1985 · our measurement", v(-75.466, 35.590, 0.05, places=[RODANTHE]))),
+      m("~155 m inland since 1985 · our measurement", v(-75.466, 35.590, 0.05, places=[RODANTHE]))),
     P("Since 2020, thirty-two houses on this seashore have fallen into the Atlantic.",
-      m("32 houses since 2020", v(-75.50, 35.43, 0.4, places=[RODANTHE, BUXTON]))),
+      m("32 houses since 2020", v(-75.472, 35.60, 0.1, places=[RODANTHE]))),
     P("Federal flood insurance pays when a house collapses. Not before.",
       m("Insurance pays after, not before", v(-75.518, 35.262, 0.05, places=[BUXTON]))),
     P("Tearing one down costs an owner at least thirty thousand dollars. A collapse pays up to two hundred and fifty thousand.",
@@ -46,7 +46,7 @@ paragraphs = [
     P("So owners wait for the ocean.",
       m("So they wait", v(-75.468, 35.596, 0.035))),
     P("Should the government pay before the house falls?",
-      m("Pay before it falls?", v(-75.6, 35.45, 0.75, places=[RODANTHE, BUXTON]))),
+      m("Pay before it falls?", v(-75.525, 35.258, 0.1, places=[BUXTON]))),
 ]
 
 script = {

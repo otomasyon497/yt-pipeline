@@ -28,7 +28,8 @@ VIDEOS = Path.home() / "Videos" / "yt-pipeline"
 CHANNEL_ID = "UC1h2p6x09doXZRvG4d4M0Sg"  # Ink & Orbit
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload",
           "https://www.googleapis.com/auth/youtube.readonly",  # readonly: channel check, duplicates, reading the result
-          "https://www.googleapis.com/auth/youtube"]  # 2026-11-11, user's consent: change publishAt after upload (reschedule)
+          "https://www.googleapis.com/auth/youtube",  # 2026-11-11, user's consent: change publishAt after upload (reschedule)
+          "https://www.googleapis.com/auth/youtube.force-ssl"]  # 2026-11-11, user's consent: post the episode's comment
 PRIVACY = "private"
 CATEGORY_EDUCATION = "27"
 RETRY_STATUS = (500, 502, 503, 504)
@@ -180,13 +181,28 @@ def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("slug", help="episode folder name, `auth`, or `reschedule` (with --video ID --publish-at TIME)")
-    ap.add_argument("--video", help="reschedule: the video id to move (stays private until --publish-at)")
+    ap.add_argument("--video", help="reschedule / comment: the video id")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true", help="upload even if a video with this title exists")
     ap.add_argument("--publish-at", help="schedule the private video, e.g. 2026-11-10T15:00:00Z (the user's chosen time)")
+    ap.add_argument("--slug-of", help="comment: the episode whose youtube.pinned_comment to post")
     a = ap.parse_args()
     if a.slug == "auth":
         return auth()
+    if a.slug == "comment":  # python tools/yt_upload.py comment --video ID --slug-of SLUG ; the API cannot pin, Studio does
+        if not (a.video and a.slug_of):
+            sys.exit("comment needs --video ID and --slug-of SLUG")
+        text = json.loads((ROOT / "episodes" / a.slug_of / "script.json").read_text(encoding="utf-8"))["youtube"]["pinned_comment"]
+        yt = service()
+        st = yt.videos().list(part="status", id=a.video).execute()["items"][0]["status"]
+        if st["privacyStatus"] != "public":
+            sys.exit(f"{a.video} is {st['privacyStatus']}: comments open once it is public")
+        mine = yt.commentThreads().list(part="snippet", videoId=a.video, searchTerms=text[:40], maxResults=20).execute().get("items", [])
+        if any(t["snippet"]["topLevelComment"]["snippet"].get("authorChannelId", {}).get("value") == CHANNEL_ID for t in mine):
+            return print(f"{a.video}: our comment is already there")
+        r = yt.commentThreads().insert(part="snippet", body={"snippet": {"channelId": CHANNEL_ID, "videoId": a.video,
+                                       "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
+        return print(f"{a.video}: comment posted ({r['id']}); pin it in Studio")
     if a.slug == "reschedule":
         if not (a.video and a.publish_at):
             sys.exit("reschedule needs --video ID and --publish-at TIME")

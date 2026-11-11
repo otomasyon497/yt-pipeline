@@ -1,0 +1,326 @@
+{
+ "title": "They Moved a 4,830-Ton Lighthouse",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/outer-banks research.md and factcheck.md (NPS, Moving the Cape Hatteras Lighthouse; NPS Threatened Oceanfront Structures)."
+ ],
+ "thumbnail": {
+  "text": "MOVED IT",
+  "focus": [
+   -75.5289,
+   35.2506,
+   0.04
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Moved It",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In 1870 this lighthouse stood fifteen hundred feet from the ocean. By 1970 the water was a hundred and twenty feet away.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.53,
+           "lat": 35.25,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "LIGHTHOUSE TODAY"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Hatteras Lighthouse, 1870"
+      },
+      {
+       "type": "map",
+       "at": "By 1970",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.26,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "1970: the ocean 120 ft away"
+      }
+     ]
+    },
+    {
+     "text": "They tried groins, new sand and a seawall study. Then, in June 1999, crews lifted 4,830 tons of brick onto rails.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.51,
+           "lat": 35.27,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Groins, sand, a seawall study"
+      },
+      {
+       "type": "map",
+       "at": "Then, in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.54,
+           "lat": 35.25,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "4,830 tons of brick"
+      }
+     ]
+    },
+    {
+     "text": "Twenty-three days later it stood 2,900 feet to the southwest. It cost 11.8 million dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.525,
+           "lat": 35.255,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Old site",
+            "lon": -75.522,
+            "lat": 35.2562,
+            "kind": "site",
+            "label": "WHERE IT STOOD UNTIL 1999"
+           },
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "LIGHTHOUSE TODAY"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -75.522,
+             35.2562
+            ],
+            "to": [
+             -75.5289,
+             35.2506
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "2,900 ft in 23 days"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Moved 2,900 ft in 23 days"
+      },
+      {
+       "type": "map",
+       "at": "It cost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.55,
+           "lat": 35.24,
+           "span": 0.045
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "$11.8 million"
+      }
+     ]
+    },
+    {
+     "text": "Today it stands about fifteen hundred feet from the ocean again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.53,
+           "lat": 35.24,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "LIGHTHOUSE TODAY"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "1,500 ft from the ocean again"
+      }
+     ]
+    },
+    {
+     "text": "The houses just north of it in Buxton were never moved. Four fell in two days this February.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.52,
+           "lat": 35.275,
+           "span": 0.055
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "BUXTON"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Never moved"
+      },
+      {
+       "type": "map",
+       "at": "Four fell",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.515,
+           "lat": 35.265,
+           "span": 0.04
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton: 4 houses in two days"
+      }
+     ]
+    },
+    {
+     "text": "They moved a lighthouse. Should they move the houses too?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.54,
+           "lat": 35.26,
+           "span": 0.12
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Cape Hatteras Lighthouse",
+            "lon": -75.5289,
+            "lat": 35.2506,
+            "kind": "site",
+            "label": "LIGHTHOUSE TODAY"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "BUXTON"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Move the houses too?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "They Moved a 4,830-Ton Lighthouse Away From the Ocean",
+  "description": "The Cape Hatteras Lighthouse stood 1,500 feet from the ocean in 1870 and 120 feet in 1970. In 1999 crews moved all 4,830 tons of it 2,900 feet inland in 23 days. The houses next to it stayed.\n\nFull documentary on the channel: the Outer Banks\n\n#geography #satellite #lighthouse",
+  "tags": [
+   "Cape Hatteras Lighthouse",
+   "Outer Banks",
+   "lighthouse move",
+   "coastal erosion",
+   "Buxton",
+   "satellite images",
+   "North Carolina",
+   "shorts"
+  ],
+  "pinned_comment": "They moved a lighthouse. Should they move the houses too?"
+ }
+}

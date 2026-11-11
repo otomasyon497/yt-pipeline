@@ -11,7 +11,12 @@
 - Outer Banks specific: purple 2026 Landsat (4:50 Buxton, 7:26 Pea Island); wrong place on map (4:54, 8:59 Rodanthe
   for Buxton; 14:34 Buxton for Avon); 9:15 address counts up; 4:36 keepers' houses over Ocean Drive debris photo.
 - Langtang specific: blurry holds 5:24 (mc04p02s01) and 5:58-6:01 (Landsat 8 Oct 2015 zoomed past resolution).
-- Waiting for the user's choice on how to fix (engine checks first vs per-episode fixes).
+- User chose: engine first, then both episodes. Engine done (b9b863c): count-up rules, chart labels, pre-2016 dated
+  views via Landsat, episode_check repeats/holds/stat/compare checks. Purple Landsat = winter dormant marsh (measured),
+  not a sensor fault: check now demands growing-season, same-season compares. NEXT: fix both build_script.py files
+  until episode_check is clean (OB 147 FIX, Langtang 116 FIX: mostly repeats from POOLS cycling), re-render, audit.
+- Covers (6aad8a0): yt_upload now takes cover.jpg before thumbnail_D.jpg. cover.jpg placed: Langtang ISS
+  iss074e0603585 "FROM TIBET" (langtang-collapse	humbnails), Outer Banks "PAID TO WAIT".
 
 ## Status (2026-11-10, ~19:45 UTC; start here)
 - 2026-11-11: Studio check (lifetime to 9 Nov): long videos got only ~2,400 impressions in total, CTR 1.5-3 %.

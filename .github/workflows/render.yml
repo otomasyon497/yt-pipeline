@@ -94,6 +94,10 @@ jobs:
           # security.ubuntu.com stopped resolving that day: the Azure mirror carries the same -security pocket.
           sudo sed -i 's#https\?://security.ubuntu.com/ubuntu#http://azure.archive.ubuntu.com/ubuntu#g' \
             /etc/apt/sources.list.d/*.sources /etc/apt/sources.list 2>/dev/null || true
+          if [ -f /etc/apt/apt-mirrors.txt ]; then  # the runner's mirror list (mirror+file:) also names security.ubuntu.com
+            echo "http://azure.archive.ubuntu.com/ubuntu/	priority:1" | sudo tee /etc/apt/apt-mirrors.txt
+          fi
+          getent hosts azure.archive.ubuntu.com security.ubuntu.com || true
           APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20"
           for i in 1 2 3; do
             sudo apt-get $APT update -qq && sudo apt-get $APT install -y -qq --fix-missing ffmpeg espeak-ng libnss3 libdbus-1-3 \

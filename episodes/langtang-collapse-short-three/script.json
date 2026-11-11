@@ -1,0 +1,330 @@
+{
+ "title": "One Valley, Destroyed Three Times in 11 Years",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/langtang-collapse research.md and factcheck.md (Himal Southasian, USGS, Kathmandu Post, ICIMOD)."
+ ],
+ "thumbnail": {
+  "text": "3 TIMES",
+  "focus": [
+   85.45,
+   28.27,
+   0.3
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Three Times",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This valley in Nepal has been destroyed three times in eleven years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.25,
+           "span": 0.35
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "3 disasters in 11 years"
+      }
+     ]
+    },
+    {
+     "text": "April 2015. A magnitude 7.8 earthquake broke ice off the mountain, and the debris buried Langtang village.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.22,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Langtang",
+            "lon": 85.509,
+            "lat": 28.2158,
+            "kind": "site",
+            "label": "LANGTANG VILLAGE"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "2015: M 7.8 earthquake"
+      },
+      {
+       "type": "map",
+       "at": "and the debris",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.512,
+           "lat": 28.214,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang village, buried"
+      }
+     ]
+    },
+    {
+     "text": "Officially 306 people died. The villagers say it was closer to five hundred.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.53,
+           "lat": 28.22,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "306 dead · villagers say ~500"
+      }
+     ]
+    },
+    {
+     "text": "July 2025. A lake on a glacier in Tibet burst. Nine dead, nineteen missing.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.4,
+           "lat": 28.3,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "RASUWAGADHI"
+           }
+          ],
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "2025: a glacial lake bursts"
+      },
+      {
+       "type": "map",
+       "at": "Nine dead",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.378,
+           "lat": 28.275,
+           "span": 0.05
+          },
+          "date": "2025-10-15/2025-11-10"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "9 dead, 19 missing"
+      }
+     ]
+    },
+    {
+     "text": "August 2026. Ice and rock broke off Langtang Lirung, and the flood ran about a hundred kilometres.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.29,
+           "span": 0.09
+          },
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "WHERE THE ICE BROKE"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "2026: the ice breaks"
+      },
+      {
+       "type": "map",
+       "at": "and the flood",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.32,
+           "lat": 28.1,
+           "span": 0.75
+          },
+          "routes": [
+           {
+            "from": [
+             85.5252,
+             28.2853
+            ],
+            "to": [
+             85.1101,
+             27.86
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "The flood's path",
+            "via": [
+             [
+              85.505,
+              28.315
+             ],
+             [
+              85.481,
+              28.338
+             ],
+             [
+              85.43,
+              28.335
+             ],
+             [
+              85.395,
+              28.322
+             ],
+             [
+              85.3778,
+              28.2778
+             ],
+             [
+              85.3667,
+              28.2528
+             ],
+             [
+              85.345,
+              28.2
+             ],
+             [
+              85.343,
+              28.16
+             ],
+             [
+              85.3,
+              28.1
+             ],
+             [
+              85.207,
+              28.0718
+             ],
+             [
+              85.219,
+              28.0326
+             ],
+             [
+              85.186,
+              27.9731
+             ],
+             [
+              85.148,
+              27.9232
+             ]
+            ]
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 100 km of flood"
+      }
+     ]
+    },
+    {
+     "text": "Three times in eleven years. Is it still safe to live here?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.27,
+           "span": 0.25
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Is it still safe here?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "One Valley in Nepal, Destroyed Three Times in 11 Years",
+  "description": "The Langtang and Bhotekoshi valleys in Nepal from orbit: the 2015 earthquake avalanche that buried Langtang village, the glacial lake that burst in Tibet in July 2025, and the ice that broke off Langtang Lirung in August 2026.\n\nFull documentary on the channel: the Langtang collapse\n\n#geography #satellite #nepal",
+  "tags": [
+   "Langtang",
+   "Nepal",
+   "2015 earthquake",
+   "glacial lake outburst",
+   "glacier collapse",
+   "Rasuwa",
+   "satellite images",
+   "shorts"
+  ],
+  "pinned_comment": "Three disasters in eleven years. Would you rebuild here?"
+ }
+}

@@ -1,0 +1,361 @@
+{
+ "title": "Nepal's Flood Alert Came 38 Minutes Late",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/langtang-collapse research.md and factcheck.md."
+ ],
+ "thumbnail": {
+  "text": "38 MINUTES",
+  "focus": [
+   85.45,
+   28.3,
+   0.4
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Thirty-Eight Minutes",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This valley in Nepal, last October. And here is the same valley this October, two months after the disaster.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.4
+          },
+          "date": "2026-10-18/2026-10-27",
+          "compare": {
+           "before": "2025-10-15/2025-11-10",
+           "after": "2026-10-18/2026-10-27",
+           "seconds": 2.0,
+           "until": "And here"
+          }
+         },
+         {
+          "at": "And here"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "That grey line is where a block of ice and rock broke off Langtang Lirung on August 26.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.515,
+           "lat": 28.3,
+           "span": 0.09
+          },
+          "places": [
+           {
+            "name": "Collapse",
+            "lon": 85.5252,
+            "lat": 28.2853,
+            "kind": "event",
+            "label": "WHERE THE ICE BROKE"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "August 26, 2026"
+      },
+      {
+       "type": "map",
+       "at": "broke off",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.27,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang Lirung, 7,227 m"
+      }
+     ]
+    },
+    {
+     "text": "It became a flood that ran about a hundred kilometres into Nepal.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.32,
+           "lat": 28.1,
+           "span": 0.75
+          },
+          "routes": [
+           {
+            "from": [
+             85.5252,
+             28.2853
+            ],
+            "to": [
+             85.1101,
+             27.86
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "The flood's path",
+            "via": [
+             [
+              85.505,
+              28.315
+             ],
+             [
+              85.481,
+              28.338
+             ],
+             [
+              85.43,
+              28.335
+             ],
+             [
+              85.395,
+              28.322
+             ],
+             [
+              85.3778,
+              28.2778
+             ],
+             [
+              85.3667,
+              28.2528
+             ],
+             [
+              85.345,
+              28.2
+             ],
+             [
+              85.343,
+              28.16
+             ],
+             [
+              85.3,
+              28.1
+             ],
+             [
+              85.207,
+              28.0718
+             ],
+             [
+              85.219,
+              28.0326
+             ],
+             [
+              85.186,
+              27.9731
+             ],
+             [
+              85.148,
+              27.9232
+             ]
+            ]
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 100 km of flood"
+      }
+     ]
+    },
+    {
+     "text": "Cameras at the border crossing filmed the water arriving within minutes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.38,
+           "lat": 28.28,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Rasuwagadhi",
+            "lon": 85.3778,
+            "lat": 28.2778,
+            "kind": "site",
+            "label": "RASUWAGADHI"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rasuwagadhi, on the border with Tibet"
+      }
+     ]
+    },
+    {
+     "text": "Text alerts went out thirty-eight minutes after the collapse.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.343,
+           "lat": 28.16,
+           "span": 0.07
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Alerts: 38 minutes after"
+      }
+     ]
+    },
+    {
+     "text": "Downstream in Trishuli, a headteacher moved about nine hundred children out of his school. The flood reached it ten minutes later.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Trishuli",
+            "lon": 85.148,
+            "lat": 27.9232,
+            "kind": "city",
+            "label": "TRISHULI"
+           }
+          ],
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 900 children moved out"
+      },
+      {
+       "type": "map",
+       "at": "The flood",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.155,
+           "lat": 27.93,
+           "span": 0.045
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The flood came 10 minutes later"
+      }
+     ]
+    },
+    {
+     "text": "Nothing on either side was watching the ice in real time. Who should?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "No one watched in real time"
+      },
+      {
+       "type": "map",
+       "at": "Who should?",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.45,
+           "lat": 28.3,
+           "span": 0.3
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Who watches the ice?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Nepal's Flood Alert Came 38 Minutes Late",
+  "description": "A Nepal valley from orbit, a year apart: on 26 August 2026 ice and rock broke off Langtang Lirung and became a flood that ran about 100 km into Nepal. Text alerts went out 38 minutes after the collapse.\n\nFull documentary on the channel: the Langtang collapse\n\n#geography #satellite #nepal",
+  "tags": [
+   "Nepal flood",
+   "Langtang",
+   "glacier collapse",
+   "early warning",
+   "satellite images",
+   "before and after",
+   "Sentinel-2",
+   "shorts"
+  ],
+  "pinned_comment": "Who should watch the ice above a river two countries share?"
+ }
+}

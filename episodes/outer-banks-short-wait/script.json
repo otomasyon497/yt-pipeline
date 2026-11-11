@@ -1,0 +1,280 @@
+{
+ "title": "Insurance Pays Only After the House Falls",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/outer-banks research.md and factcheck.md."
+ ],
+ "thumbnail": {
+  "text": "PAID TO WAIT",
+  "focus": [
+   -75.468,
+   35.594,
+   0.05
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Paid to Wait",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Rodanthe, North Carolina, in August 1985. And here is the same shore this October, after the autumn storms.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.11
+          },
+          "date": "2026-10-20/2026-11-08",
+          "compare": {
+           "before": "1985-08-16",
+           "after": "2026-10-27",
+           "source": "landsat",
+           "seconds": 2.4,
+           "until": "And here"
+          }
+         },
+         {
+          "at": "And here"
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Landsat"
+      }
+     ]
+    },
+    {
+     "text": "We measured it. The shore moved about a hundred and fifty-five metres inland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.466,
+           "lat": 35.59,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "RODANTHE"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 155 m inland since 1985 · our measurement"
+      }
+     ]
+    },
+    {
+     "text": "Since 2020, thirty-two houses on this seashore have fallen into the Atlantic.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.5,
+           "lat": 35.43,
+           "span": 0.4
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "RODANTHE"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "BUXTON"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "32 houses since 2020"
+      }
+     ]
+    },
+    {
+     "text": "Federal flood insurance pays when a house collapses. Not before.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.518,
+           "lat": 35.262,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "BUXTON"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Insurance pays after, not before"
+      }
+     ]
+    },
+    {
+     "text": "Tearing one down costs an owner at least thirty thousand dollars. A collapse pays up to two hundred and fifty thousand.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.471,
+           "lat": 35.604,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tear it down: $30,000+"
+      },
+      {
+       "type": "map",
+       "at": "A collapse",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.464,
+           "lat": 35.582,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Let it fall: up to $250,000"
+      }
+     ]
+    },
+    {
+     "text": "So owners wait for the ocean.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.468,
+           "lat": 35.596,
+           "span": 0.035
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "So they wait"
+      }
+     ]
+    },
+    {
+     "text": "Should the government pay before the house falls?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.6,
+           "lat": 35.45,
+           "span": 0.75
+          },
+          "date": "2026-10-20/2026-11-08",
+          "places": [
+           {
+            "name": "Rodanthe",
+            "lon": -75.468,
+            "lat": 35.594,
+            "kind": "city",
+            "label": "RODANTHE"
+           },
+           {
+            "name": "Buxton",
+            "lon": -75.535,
+            "lat": 35.267,
+            "kind": "city",
+            "label": "BUXTON"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pay before it falls?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Insurance Pays Only After the House Falls",
+  "description": "Rodanthe, North Carolina, from orbit in 1985 and 2026: we measured the shore move about 155 metres inland. Federal flood insurance pays when a house collapses, not before, so owners wait for the ocean.\n\nFull documentary on the channel: the Outer Banks\n\n#geography #satellite #erosion",
+  "tags": [
+   "Outer Banks",
+   "Rodanthe",
+   "coastal erosion",
+   "flood insurance",
+   "satellite images",
+   "before and after",
+   "Landsat",
+   "shorts"
+  ],
+  "pinned_comment": "Should the government pay to move a house before the ocean takes it?"
+ }
+}

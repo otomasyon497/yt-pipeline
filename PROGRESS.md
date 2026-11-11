@@ -1,6 +1,12 @@
 # PROGRESS
 
-## Status (2026-11-11; start here)
+## Status (2026-11-11 ~15:00Z; start here)
+- User (17:30 TR): fix + re-render both, upload long + Shorts scheduled for TODAY as soon as audited ("hazır olur olmaz").
+  Renders: outer-banks v2 run 43039219958, langtang v2 43043483123, Shorts outer-banks-short-wait 43043739181,
+  langtang-collapse-short-alert 43043744672. Next: fetch_episode.ps1 -Delete -> frame_audit -> review every sheet ->
+  --approve -> yt_upload --publish-at (soonest sensible time today) -> verify via API.
+
+## Status (2026-11-11 morning)
 - Full renders audited (visual pass on every sheet, subagents + spot checks): langtang-collapse run 42897868958 (16:09)
   and outer-banks run 42902634439 (15:54). Both NOT approved. Audio fine on both; all "flash" flags are cuts.
 - Shared root causes: (1) too few distinct photos/map crops for 16 min -> heavy repeats (Langtang: Lirung photo x8,

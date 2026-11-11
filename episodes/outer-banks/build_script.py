@@ -181,7 +181,8 @@ chapters = [
         P("The US Geological Survey describes how they move. In a storm, waves push sand over the dunes and drop it on the far side. Storm after storm, the island rolls toward the mainland. Geologists call it barrier island rollover. Wind moves sand as well, and inlets open, close and wander along the coast. Storms can also hit from behind. In 2019 Hurricane Dorian flooded North Core Banks, farther south, from the sound side, and a study led by the USGS found the island lost about eighteen percent of its sand above water.",
           m(0, v(near(-75.49, 35.68, 0.1))),
           m("drop it on", v(near(-75.47, 35.63, 0.06)), cut=True),
-          stat("Geologists call", "Rollover", "How a barrier island moves toward the mainland", USGS)),
+          stat("Geologists call", "Rollover", "How a barrier island moves toward the mainland", USGS),
+          m("In 2019", v({"lon": -76.17, "lat": 34.96, "span": 0.35}, places=[place("North Core Banks", -76.20, 34.93, "North Core Banks", "site")]), cut=True)),  # North Core Banks (audit: a filler showed Hatteras Village here)
         P("Sometimes a storm cuts straight through. In September 2003, Hurricane Isabel opened a new inlet north of Hatteras Village, where an old inlet had closed in the 1930s.",
           m(0, v(ISABEL_V, compare={**CMP_ISABEL, "until": "Hurricane Isabel"}), step("Hurricane Isabel"), step("where an old", places=[HATTERAS_VILLAGE]))),
         P("It was about two thousand feet wide and fifteen feet deep, in three channels. The village was cut off for two months. The Army Corps of Engineers pumped sand into the gap, and the road reopened on November 22. Elsewhere Isabel buried Highway 12 under as much as three feet of sand.",
@@ -223,9 +224,9 @@ chapters = [
           m(0, v(HATTERAS)),
           m("Its northern", v(OREGON_V), cut=True),
           photo("The Bonner", PH_BONNER, "The Bonner Bridge over Oregon Inlet"),
-          m("In December", v(OREGON_V, places=[STUMPY]), cut=True)),
+          m("In December", v({"lon": -75.548, "lat": 35.772, "span": 0.035}, places=[STUMPY]), cut=True)),  # closer on the old bridge line: OREGON_V came back 22 s later
         P("Its replacement, the Marc Basnight Bridge, opened in February 2019: 2.8 miles long, built to last a hundred years, at a reported cost of about 252 million dollars. At its highest it rises ninety feet above the inlet.",
-          m(0, v(OREGON_V, date="2026-10-20/2026-11-08")),
+          m(0, v({"lon": -75.55, "lat": 35.78, "span": 0.12}, date="2026-10-20/2026-11-08")),
           stat("at a reported", "$252 million", "The Marc Basnight Bridge, opened February 2019", "NCDOT; news reports")),
         P("South of the bridge the road runs along Pea Island, a wildlife refuge, with the ocean on one side and the sound on the other. In August 2011, Hurricane Irene cut through it.",
           m(0, v(near(-75.50, 35.70, 0.12))),

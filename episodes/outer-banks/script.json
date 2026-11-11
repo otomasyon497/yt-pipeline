@@ -558,7 +558,7 @@
       },
       {
        "type": "map",
-       "at": 52,
+       "at": 50,
        "map": {
         "steps": [
          {
@@ -576,7 +576,33 @@
       },
       {
        "type": "map",
-       "at": 62,
+       "at": "In 2019",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.17,
+           "lat": 34.96,
+           "span": 0.35
+          },
+          "places": [
+           {
+            "name": "North Core Banks",
+            "lon": -76.2,
+            "lat": 34.93,
+            "kind": "site",
+            "label": "North Core Banks"
+           }
+          ],
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 67,
        "map": {
         "steps": [
          {
@@ -594,7 +620,7 @@
       },
       {
        "type": "map",
-       "at": 72,
+       "at": 75,
        "map": {
         "steps": [
          {
@@ -612,7 +638,7 @@
       },
       {
        "type": "map",
-       "at": 82,
+       "at": 83,
        "map": {
         "steps": [
          {
@@ -1566,9 +1592,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5242,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.548,
+           "lat": 35.772,
+           "span": 0.035
           },
           "places": [
            {
@@ -1633,9 +1659,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5458,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.55,
+           "lat": 35.78,
+           "span": 0.12
           },
           "date": "2026-10-20/2026-11-08"
          }

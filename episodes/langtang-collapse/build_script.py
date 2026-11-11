@@ -375,36 +375,98 @@ def pic(name, label=None):
     return photo(0, name, label)
 
 
-POOLS = {
-    "source": [sat(near(85.52, 28.30, 0.08), "Langtang Lirung, north face"), sat(near(85.50, 28.32, 0.08), "The debris track"),
-               sat(near(85.48, 28.335, 0.08), "The Lhende river"), pic("File:Lirung (3to4).jpg", "Langtang Lirung")],
-    "border": [sat(near(85.40, 28.32), "The Lhende valley"), sat(near(85.378, 28.28, 0.05), "Rasuwagadhi"),
-               sat(near(85.33, 28.39, 0.08), "Gyirong, Tibet"), sat(near(85.43, 28.335), "Toward the border")],
-    "gorge": [sat(near(85.367, 28.253, 0.05), "Timure"), sat(near(85.35, 28.20), "The Bhotekoshi gorge"),
-              sat(near(85.343, 28.16, 0.05), "Syafrubesi"), sat(near(85.30, 28.10), "Below Dhunche"),
-              pic("File:NH42 Trishuli Corridor towards Syaphru.jpg", "The road to Syafrubesi, 2024")],
-    "lower": [sat(near(85.207, 28.072), "Mailung"), sat(near(85.186, 27.973), "Betrawati"), sat(near(85.148, 27.923), "Trishuli"),
-              sat(near(85.11, 27.86), "Devighat"), sat(near(85.219, 28.033), "Ramche")],
-    "langtang": [pic("File:Langtang Khola Rasuwa District.jpg", "The Langtang river"), pic("File:Kyanjin Gompa Village Rasuwa.jpg", "Kyanjin Gompa, up the valley"),
-                 sat(near(85.509, 28.2158, 0.08), "Langtang village", date="2025-10-15/2025-11-10"), pic("File:Langtang Khola Rasuwa Jilla.jpg", "Langtang valley")],
+# Filler pictures (ep 10 v1 cycled a few crops and photos: one photo 8 times, a Kyanjin snow series standing in for
+# Chamoli, Sikkim and Thame). Every map view is now generated once from that place's spots x frame widths; a photo is
+# used at most PHOTO_MAX times, never within PHOTO_GAP seconds; distant disasters get their own place's views.
+SEC_WORD = 0.43
+PHOTO_MAX, PHOTO_GAP = 3, 75.0
+SPOTS = {
+    "source": [(85.52, 28.30), (85.50, 28.32), (85.48, 28.335), (85.53, 28.28), (85.51, 28.31), (85.495, 28.327), (85.54, 28.295)],
+    "border": [(85.40, 28.32), (85.378, 28.28), (85.33, 28.39), (85.43, 28.335), (85.39, 28.30), (85.36, 28.36), (85.345, 28.375), (85.415, 28.328)],
+    "border2025": [(85.405, 28.322), (85.382, 28.286), (85.368, 28.256), (85.42, 28.33), (85.388, 28.296)],
+    "gorge": [(85.367, 28.253), (85.35, 28.20), (85.343, 28.16), (85.30, 28.10), (85.355, 28.225), (85.335, 28.18), (85.32, 28.13), (85.29, 28.09)],
+    "lower": [(85.207, 28.072), (85.186, 27.973), (85.148, 27.923), (85.11, 27.86), (85.219, 28.033), (85.20, 28.00), (85.165, 27.945), (85.13, 27.89), (85.25, 28.085)],
+    "langtang": [(85.509, 28.216), (85.55, 28.214), (85.58, 28.21), (85.47, 28.20), (85.53, 28.22), (85.60, 28.215), (85.45, 28.19)],
+    "chamoli": [(79.73, 30.38), (79.70, 30.42), (79.76, 30.35), (79.67, 30.45)],
+    "lhonak": [(88.19, 27.91), (88.21, 27.89), (88.17, 27.93), (88.45, 27.65)],
+    "thame": [(86.65, 27.83), (86.67, 27.85), (86.63, 27.82), (86.70, 27.80)],
 }
-POOLS["border2025"] = [sat(near(85.40, 28.32), "The Lhende valley, autumn 2025", date=BEFORE),
-                       sat(near(85.378, 28.28, 0.05), "Rasuwagadhi, autumn 2025", date=BEFORE),
-                       sat(near(85.367, 28.253, 0.05), "Timure, autumn 2025", date=BEFORE)]
-POOLS["himalaya"] = [pic("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg", "Glaciers of the Langtang range"),
-                     pic("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg", "Glaciers of the Langtang range"),
-                     pic("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg", "Glaciers of the Langtang range"),
-                     pic("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg", "Glaciers of the Langtang range"),
-                     pic("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg", "Glaciers of the Langtang range")]
-counters = dict.fromkeys(POOLS, 0)
+SPANS = [0.06, 0.08, 0.05, 0.1, 0.07]
+LABELS = {"source": "Langtang Lirung", "border": "The Nepal-Tibet border", "border2025": "The border, autumn 2025",
+          "gorge": "The Bhotekoshi gorge", "lower": "The Trishuli valley", "langtang": "The Langtang valley",
+          "chamoli": "Chamoli, India", "lhonak": "South Lhonak and the Teesta, Sikkim", "thame": "Thame, Nepal"}
+TIBET_SIDE = "Glaciers on the Tibetan side of the Himalaya, ISS, May 2026"
+PHOTOS = {
+    "source": [("File:Lirung (3to4).jpg", "Langtang Lirung"), ("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg", "Glaciers of the Langtang range"),
+               ("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg", "Glaciers of the Langtang range"),
+               ("File:Le Langtang Lirung (Himalaya, Népal) (8448200379).jpg", "Langtang Lirung"),
+               ("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg", "Glaciers of the Langtang range")],
+    "langtang": [("File:Langtang Khola Rasuwa District.jpg", "The Langtang river"), ("File:Kyanjin Gompa Village Rasuwa.jpg", "Kyanjin Gompa, up the valley"),
+                 ("File:Langtang Khola Rasuwa Jilla.jpg", "Langtang valley"), ("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg", "Above Kyanjin Gompa"),
+                 ("File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg", "Above Kyanjin Gompa")],
+    "gorge": [("File:NH42 Trishuli Corridor towards Syaphru.jpg", "The road to Syafrubesi, 2024")],
+    "himalaya": [("nasa:iss074e0603585", TIBET_SIDE), ("nasa:iss074e0603570", "The Himalaya between Nepal and Tibet, ISS, May 2026"),
+                 ("nasa:iss074e0603582", TIBET_SIDE), ("nasa:iss069e003192", "Everest and the Khumbu, ISS, 2023")],
+}
+VIEW_PLACE = {"himalaya": "langtang"}
+used_views: set = set()
+view_next = dict.fromkeys(SPOTS, 0)
+photo_uses: dict = {}
+view_last: dict = {}
+view_count: dict = {}
+SHIFTS = [(0, 0, 1.0), (0.18, 0, 1.0), (-0.18, 0, 1.0), (0, 0.15, 1.0), (0, -0.15, 1.0), (0, 0, 1.3), (0, 0, 0.8),
+          (0.2, 0.12, 1.15), (-0.2, -0.12, 1.15), (0.12, -0.15, 0.85), (-0.12, 0.15, 0.85)]
+
+
+def fresh_view(vw, t):
+    """A hand-placed view seen too recently or too often becomes a shifted / reframed one of the same spot."""
+    for dx, dy, z in SHIFTS:
+        span = round(vw["span"] * z, 3)
+        lon, lat = round(vw["lon"] + dx * vw["span"], 4), round(vw["lat"] + dy * vw["span"] * 9 / 16, 4)
+        key = (round(lon, 2), round(lat, 2), round(span, 2))
+        if view_count.get(key, 0) < 3 and t - view_last.get(key, -1e9) >= 90:
+            view_count[key] = view_count.get(key, 0) + 1
+            view_last[key] = t
+            used_views.add(key)
+            return {**vw, "lon": lon, "lat": lat, "span": span}
+    raise SystemExit(f"no fresh framing left for {vw}")
+
+
+def next_view(place):
+    pts = SPOTS[place]
+    for _ in range(len(pts) * len(SPANS)):
+        k = view_next[place]
+        view_next[place] += 1
+        lon, lat = pts[k % len(pts)]
+        span = SPANS[(k // len(pts)) % len(SPANS)]
+        key = (round(lon, 2), round(lat, 2), round(span, 2))
+        if key not in used_views:
+            used_views.add(key)
+            return sat(near(lon, lat, span), LABELS[place], date=BEFORE if place == "border2025" else AFTER)
+    raise SystemExit(f"out of fresh views for {place}")
+
+
+def filler(group, t):
+    for name, label in PHOTOS.get(group, []):
+        uses = photo_uses.get(name, [])
+        if len(uses) < PHOTO_MAX and all(t - u >= PHOTO_GAP for u in uses):
+            photo_uses.setdefault(name, []).append(t)
+            return pic(name, label)
+    return next_view(VIEW_PLACE.get(group, group))
 
 
 def topic_of(text, chapter):
+    if re.search(r"Chamoli", text):
+        return "chamoli"
+    if re.search(r"Sikkim|Lhonak|Teesta", text):
+        return "lhonak"
+    if re.search(r"Thame|Everest", text):
+        return "thame"
     if re.search(r"nowhere near the ice|at work|inside the mountain", text):  # about the people downstream, not the ice
         return "gorge"
     if chapter == "Not an Earthquake" and not re.search(r"flood|kilometres into Nepal", text):
         return "source"
-    if re.search(r"Chamoli|Sikkim|Thame|Everest|region's glaciers|ICIMOD projected|Shrinking ice|the region", text):
+    if re.search(r"region's glaciers|ICIMOD projected|Shrinking ice|the region", text):
         return "himalaya"
     if re.search(r"Chinese Academy|same study|researchers list", text):
         return "source"
@@ -448,6 +510,21 @@ def _phrase_index(words, phrase):
     return hits[0] if hits else None
 
 
+# Hand-placed photos and views count against the limits before any filler is chosen.
+word_base = 0
+for ch in chapters:
+    for para in ch["paragraphs"]:
+        pm = Paragraph.model_validate(para)
+        for sh, at in zip(para["shots"], pm.anchor_indices()):
+            t = (word_base + at) * SEC_WORD
+            if sh["type"] == "photo":
+                photo_uses.setdefault(sh["photo"], []).append(t)
+            for st in (sh.get("map") or {}).get("steps", []):
+                if st.get("view"):  # wipes too: the same before/after crop came back 6 times in v1
+                    st["view"] = fresh_view(st["view"], t)
+        word_base += len(para["text"].split()) + 8
+
+word_base = 0
 for ch in chapters:
     for para in ch["paragraphs"]:
         for sh in para["shots"]:  # drop until=None placeholders (the wipe then starts at the next step / runs alone)
@@ -461,6 +538,14 @@ for ch in chapters:
         if pm.ask_index() is not None:
             marks.add(pm.ask_index())
         n = len(para["text"].split())
+        STAT_WORDS = 9  # a stat card stays whole for ~4 s (count, label), then pictures may follow
+        anchors0 = pm.anchor_indices()
+        stat_ends = set()
+        for sh, start in zip(para["shots"], anchors0):
+            later = [x for x in anchors0 if x > start]
+            if sh["type"] == "stat" and (min(later) if later else n) - start > STAT_WORDS + 4:
+                marks.add(start + STAT_WORDS)
+                stat_ends.add(start + STAT_WORDS)
         stops = sorted(marks | {0}) + [n]
         words = para["text"].split()
         blocks = [(min(idx), max(idx)) for idx in pm.step_indices() if len(idx) > 1]
@@ -470,6 +555,8 @@ for ch in chapters:
             nxt = min(later) if later else n
             if sh["type"] in ("document", "chart"):  # a document or a chart holds until the next hand-placed shot
                 blocks.append((start, nxt))
+            elif sh["type"] == "stat":
+                blocks.append((start, nxt if nxt - start <= STAT_WORDS + 4 else start + STAT_WORDS))
             for st in (sh.get("map") or {}).get("steps", []):  # a wipe keeps the screen until it has finished
                 if st.get("compare"):
                     until = st["compare"].get("until")
@@ -479,16 +566,17 @@ for ch in chapters:
         for a, b in zip(stops, stops[1:]):
             inside = any(lo <= a and b <= hi for lo, hi in blocks)
             parts = 0 if inside else (b - a - 1) // MAX_WORDS
-            for j in range(1, parts + 1):
-                at = a + (b - a) * j // (parts + 1)
+            opens = a == 0 and min(anchors) > 4  # a paragraph without its own first picture: give it one
+            spots = ([a] if a in stat_ends or opens else []) + [a + (b - a) * j // (parts + 1) for j in range(1, parts + 1)]
+            for at in spots:
                 group = topic(para["text"], at, ch["title"])
-                shot = json.loads(json.dumps(POOLS[group][counters[group] % len(POOLS[group])]))
-                counters[group] += 1
+                shot = json.loads(json.dumps(filler(group, (word_base + at) * SEC_WORD)))
                 shot["at"] = at
                 new.append(shot)
         if new:
             pos = dict(zip(map(id, para["shots"]), anchors))
             para["shots"] = sorted(para["shots"] + new, key=lambda sh: pos.get(id(sh), sh["at"] if isinstance(sh["at"], int) else 0))
+        word_base += len(para["text"].split()) + 8
 
 # Between close views a flight passes through coarse imagery for a second: cut instead. Wide-to-wide moves still fly.
 prev_span = None

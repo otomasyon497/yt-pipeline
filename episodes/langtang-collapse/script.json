@@ -97,21 +97,10 @@
        }
       },
       {
-       "type": "map",
-       "at": 31,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ]
-       },
-       "on_screen_text": "Langtang Lirung, north face"
+       "type": "photo",
+       "at": 33,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       }
      ]
     },
@@ -202,40 +191,16 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The debris track"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 26,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.48,
-           "lat": 28.335,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The Lhende river"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       }
      ]
     },
@@ -329,9 +294,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 6,
-       "photo": "File:Lirung (3to4).jpg",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
        "on_screen_text": "Langtang Lirung"
       },
       {
@@ -345,20 +322,20 @@
       },
       {
        "type": "map",
-       "at": 19,
+       "at": 21,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
+           "lon": 85.5,
+           "lat": 28.32,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -372,7 +349,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.515,
+           "lon": 85.5312,
            "lat": 28.3,
            "span": 0.09
           },
@@ -389,16 +366,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
+           "lon": 85.48,
+           "lat": 28.335,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "Langtang Lirung"
       },
       {
        "type": "map",
@@ -407,16 +384,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.48,
-           "lat": 28.335,
-           "span": 0.08
+           "lon": 85.53,
+           "lat": 28.28,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende river"
+       "on_screen_text": "Langtang Lirung"
       },
       {
        "type": "stat",
@@ -428,9 +405,38 @@
        }
       },
       {
-       "type": "photo",
-       "at": 37,
-       "photo": "File:Lirung (3to4).jpg",
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.51,
+           "lat": 28.31,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 39,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.495,
+           "lat": 28.327,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
        "on_screen_text": "Langtang Lirung"
       }
      ],
@@ -455,7 +461,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.45,
+           "lon": 85.522,
            "lat": 28.3,
            "span": 0.4
           },
@@ -490,22 +496,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 25,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Langtang Lirung, north face"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       }
      ]
     },
@@ -569,7 +563,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -580,14 +574,14 @@
           "view": {
            "lon": 85.378,
            "lat": 28.28,
-           "span": 0.05
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
@@ -601,7 +595,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.38,
+           "lon": 85.3926,
            "lat": 28.28,
            "span": 0.07
           },
@@ -637,23 +631,6 @@
         "label": "The flood's speed, by some experts' estimates",
         "source": "OnlineKhabar, Sep 2, 2026"
        }
-      },
-      {
-       "type": "map",
-       "at": 25,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.33,
-           "lat": 28.39,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ]
-       },
-       "on_screen_text": "Gyirong, Tibet"
       }
      ]
     },
@@ -667,19 +644,36 @@
         "steps": [
          {
           "view": {
-           "lon": 85.38,
+           "lon": 85.3674,
            "lat": 28.28,
            "span": 0.07
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
        "type": "map",
        "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nepal-Tibet border"
+      },
+      {
+       "type": "map",
+       "at": 20,
        "map": {
         "steps": [
          {
@@ -693,25 +687,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Toward the border"
-      },
-      {
-       "type": "map",
-       "at": 20,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.4,
-           "lat": 28.32,
-           "span": 0.06
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
@@ -751,16 +727,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.378,
-           "lat": 28.28,
-           "span": 0.05
+           "lon": 85.39,
+           "lat": 28.3,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -769,16 +745,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.33,
-           "lat": 28.39,
-           "span": 0.08
+           "lon": 85.36,
+           "lat": 28.36,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Gyirong, Tibet"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -787,8 +763,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.43,
-           "lat": 28.335,
+           "lon": 85.345,
+           "lat": 28.375,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
@@ -796,13 +772,31 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Toward the border"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
     {
      "text": "On the Nepali side it took the customs office and the dry port, with its containers and trucks. More than three hundred vehicles were swept away.",
      "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.415,
+           "lat": 28.328,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nepal-Tibet border"
+      },
       {
        "type": "map",
        "at": 9,
@@ -812,14 +806,14 @@
           "view": {
            "lon": 85.4,
            "lat": 28.32,
-           "span": 0.06
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "stat",
@@ -911,7 +905,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.345,
+           "lon": 85.3576,
            "lat": 28.165,
            "span": 0.07
           },
@@ -1074,7 +1068,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Mailung"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -1092,7 +1086,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Betrawati"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -1135,14 +1129,14 @@
           "view": {
            "lon": 85.378,
            "lat": 28.28,
-           "span": 0.05
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -1151,8 +1145,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.33,
-           "lat": 28.39,
+           "lon": 85.43,
+           "lat": 28.335,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
@@ -1160,7 +1154,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Gyirong, Tibet"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "stat",
@@ -1178,15 +1172,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.43,
-           "lat": 28.335,
-           "span": 0.06
+           "lon": 85.39,
+           "lat": 28.3,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Toward the border"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -1195,16 +1189,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.4,
-           "lat": 28.32,
-           "span": 0.06
+           "lon": 85.36,
+           "lat": 28.36,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -1213,16 +1207,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.378,
-           "lat": 28.28,
-           "span": 0.05
+           "lon": 85.345,
+           "lat": 28.375,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
@@ -1277,7 +1271,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Trishuli"
+       "on_screen_text": "The Trishuli valley"
       }
      ],
      "ask": {
@@ -1301,7 +1295,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.345,
+           "lon": 85.3324,
            "lat": 28.165,
            "span": 0.07
           },
@@ -1327,7 +1321,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Devighat"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -1345,7 +1339,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Ramche"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -1385,8 +1379,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.33,
-           "lat": 28.39,
+           "lon": 85.415,
+           "lat": 28.328,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
@@ -1394,7 +1388,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Gyirong, Tibet"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
@@ -1441,16 +1435,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.43,
-           "lat": 28.335,
-           "span": 0.06
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Toward the border"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -1459,34 +1453,22 @@
         "steps": [
          {
           "view": {
-           "lon": 85.4,
-           "lat": 28.32,
-           "span": 0.06
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 24,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The debris track"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       }
      ]
     },
@@ -1533,20 +1515,20 @@
       },
       {
        "type": "map",
-       "at": 27,
+       "at": 29,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.207,
-           "lat": 28.072,
+           "lon": 85.2,
+           "lat": 28.0,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Mailung"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -1569,15 +1551,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.186,
-           "lat": 27.973,
+           "lon": 85.165,
+           "lat": 27.945,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Betrawati"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -1586,8 +1568,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.148,
-           "lat": 27.923,
+           "lon": 85.13,
+           "lat": 27.89,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
@@ -1595,7 +1577,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Trishuli"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -1700,7 +1682,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.45,
+           "lon": 85.522,
            "lat": 28.3,
            "span": 0.4
           },
@@ -1731,44 +1713,62 @@
       },
       {
        "type": "map",
-       "at": 13,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.378,
-           "lat": 28.28,
-           "span": 0.05
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ]
-       },
-       "on_screen_text": "Rasuwagadhi"
-      },
-      {
-       "type": "map",
-       "at": 20,
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 85.33,
            "lat": 28.39,
-           "span": 0.08
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Nepal-Tibet border"
+      },
+      {
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Gyirong, Tibet"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
     {
      "text": "The Kathmandu Post summed it up in its headline: the alert went out thirty-eight minutes after the collapse, and it was not enough.",
      "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.25,
+           "lat": 28.085,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Trishuli valley"
+      },
       {
        "type": "document",
        "at": "the alert went",
@@ -1824,8 +1824,8 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Langtang Khola Rasuwa District.jpg",
-       "on_screen_text": "The Langtang river"
+       "photo": "File:Kyanjin Gompa Village Rasuwa.jpg",
+       "on_screen_text": "Kyanjin Gompa, up the valley"
       },
       {
        "type": "stat",
@@ -1835,12 +1835,6 @@
         "label": "The Gorkha earthquake, 25 April 2015, 11:56",
         "source": "Himal Southasian, 2025"
        }
-      },
-      {
-       "type": "photo",
-       "at": 23,
-       "photo": "File:Kyanjin Gompa Village Rasuwa.jpg",
-       "on_screen_text": "Kyanjin Gompa, up the valley"
       }
      ]
     },
@@ -1900,7 +1894,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.51,
+           "lon": 85.5352,
            "lat": 28.215,
            "span": 0.14
           },
@@ -1911,22 +1905,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.509,
-           "lat": 28.2158,
-           "span": 0.08
-          },
-          "date": "2025-10-15/2025-11-10"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Langtang village"
+       "photo": "File:Langtang Khola Rasuwa Jilla.jpg",
+       "on_screen_text": "Langtang valley"
       }
      ]
     },
@@ -1948,8 +1930,8 @@
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:Langtang Khola Rasuwa Jilla.jpg",
-       "on_screen_text": "Langtang valley"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
+       "on_screen_text": "Above Kyanjin Gompa"
       }
      ]
     },
@@ -1958,15 +1940,44 @@
      "shots": [
       {
        "type": "photo",
-       "at": 7,
-       "photo": "File:Langtang Khola Rasuwa District.jpg",
-       "on_screen_text": "The Langtang river"
+       "at": 0,
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
+       "on_screen_text": "Above Kyanjin Gompa"
       },
       {
-       "type": "photo",
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.509,
+           "lat": 28.216,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Langtang valley"
+      },
+      {
+       "type": "map",
        "at": 14,
-       "photo": "File:Kyanjin Gompa Village Rasuwa.jpg",
-       "on_screen_text": "Kyanjin Gompa, up the valley"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.55,
+           "lat": 28.214,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Langtang valley"
       },
       {
        "type": "map",
@@ -1975,7 +1986,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.51,
+           "lon": 85.4848,
            "lat": 28.215,
            "span": 0.14
           },
@@ -2050,21 +2061,10 @@
        "on_screen_text": "Langtang village, February 2026"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.509,
-           "lat": 28.2158,
-           "span": 0.08
-          },
-          "date": "2025-10-15/2025-11-10"
-         }
-        ]
-       },
-       "on_screen_text": "Langtang village"
+       "photo": "File:Kyanjin Gompa Village Rasuwa.jpg",
+       "on_screen_text": "Kyanjin Gompa, up the valley"
       }
      ]
     },
@@ -2111,16 +2111,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.43,
-           "lat": 28.335,
-           "span": 0.06
+           "lon": 85.39,
+           "lat": 28.3,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Toward the border"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -2129,8 +2129,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.4,
-           "lat": 28.32,
+           "lon": 85.405,
+           "lat": 28.322,
            "span": 0.06
           },
           "date": "2025-10-15/2025-11-10"
@@ -2138,7 +2138,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley, autumn 2025"
+       "on_screen_text": "The border, autumn 2025"
       },
       {
        "type": "map",
@@ -2147,16 +2147,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.378,
-           "lat": 28.28,
-           "span": 0.05
+           "lon": 85.382,
+           "lat": 28.286,
+           "span": 0.06
           },
           "date": "2025-10-15/2025-11-10"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi, autumn 2025"
+       "on_screen_text": "The border, autumn 2025"
       }
      ]
     },
@@ -2179,15 +2179,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.367,
-           "lat": 28.253,
-           "span": 0.05
+           "lon": 85.368,
+           "lat": 28.256,
+           "span": 0.06
           },
           "date": "2025-10-15/2025-11-10"
          }
         ]
        },
-       "on_screen_text": "Timure, autumn 2025"
+       "on_screen_text": "The border, autumn 2025"
       },
       {
        "type": "map",
@@ -2196,16 +2196,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.4,
-           "lat": 28.32,
-           "span": 0.06
+           "lon": 85.405,
+           "lat": 28.322,
+           "span": 0.08
           },
           "date": "2025-10-15/2025-11-10"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley, autumn 2025"
+       "on_screen_text": "The border, autumn 2025"
       }
      ]
     },
@@ -2256,6 +2256,12 @@
      "text": "A disaster specialist at ICIMOD, the regional mountain research centre, told the paper: \"The acceleration of these types of events is completely unprecedented.\"",
      "shots": [
       {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss074e0603585",
+       "on_screen_text": "Glaciers on the Tibetan side of the Himalaya, ISS, May 2026"
+      },
+      {
        "type": "document",
        "at": "told the paper",
        "document": {
@@ -2292,16 +2298,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.378,
-           "lat": 28.28,
-           "span": 0.05
+           "lon": 85.382,
+           "lat": 28.286,
+           "span": 0.08
           },
           "date": "2025-10-15/2025-11-10"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi, autumn 2025"
+       "on_screen_text": "The border, autumn 2025"
       },
       {
        "type": "map",
@@ -2338,7 +2344,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.515,
+           "lon": 85.5312,
            "lat": 28.3,
            "span": 0.09
           },
@@ -2381,7 +2387,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.515,
+           "lon": 85.4988,
            "lat": 28.3,
            "span": 0.09
           },
@@ -2392,22 +2398,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 6,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.48,
-           "lat": 28.335,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The Lhende river"
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
       },
       {
        "type": "chart",
@@ -2460,25 +2454,14 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ]
-       },
-       "on_screen_text": "Langtang Lirung, north face"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       }
      ]
     },
@@ -2496,20 +2479,20 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
-           "span": 0.08
+           "lon": 85.54,
+           "lat": 28.295,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2525,7 +2508,7 @@
           "view": {
            "lon": 84.0,
            "lat": 29.2,
-           "span": 15
+           "span": 15.0
           },
           "places": [
            {
@@ -2549,16 +2532,40 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 7,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 79.73,
+           "lat": 30.38,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chamoli, India"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 15,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 79.7,
+           "lat": 30.42,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chamoli, India"
       }
      ]
     },
@@ -2573,7 +2580,7 @@
          {
           "view": {
            "lon": 85.515,
-           "lat": 28.3,
+           "lat": 28.3076,
            "span": 0.09
           },
           "date": "2026-08-12"
@@ -2590,6 +2597,24 @@
         "steps": [
          {
           "view": {
+           "lon": 85.52,
+           "lat": 28.3,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
            "lon": 85.48,
            "lat": 28.335,
            "span": 0.08
@@ -2599,12 +2624,6 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende river"
-      },
-      {
-       "type": "photo",
-       "at": 17,
-       "photo": "File:Lirung (3to4).jpg",
        "on_screen_text": "Langtang Lirung"
       },
       {
@@ -2614,15 +2633,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.52,
-           "lat": 28.3,
+           "lon": 85.53,
+           "lat": 28.28,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2640,39 +2660,27 @@
        }
       },
       {
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Lirung (3to4).jpg",
+       "on_screen_text": "Langtang Lirung"
+      },
+      {
        "type": "map",
-       "at": 7,
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
+           "lon": 85.51,
+           "lat": 28.31,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "The debris track"
-      },
-      {
-       "type": "map",
-       "at": 14,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.48,
-           "lat": 28.335,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The Lhende river"
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2749,22 +2757,22 @@
         "steps": [
          {
           "view": {
-           "lon": 85.4,
-           "lat": 28.32,
-           "span": 0.06
+           "lon": 85.36,
+           "lat": 28.36,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "photo",
        "at": 36,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       }
      ]
     },
@@ -2797,22 +2805,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.52,
-           "lat": 28.3,
-           "span": 0.08
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Langtang Lirung, north face"
+       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
+       "on_screen_text": "Glaciers of the Langtang range"
       },
       {
        "type": "map",
@@ -2821,16 +2817,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.5,
-           "lat": 28.32,
+           "lon": 85.495,
+           "lat": 28.327,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2850,15 +2845,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.48,
-           "lat": 28.335,
+           "lon": 85.54,
+           "lat": 28.295,
            "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "The Lhende river"
+       "on_screen_text": "Langtang Lirung"
       },
       {
        "type": "stat",
@@ -2868,12 +2863,6 @@
         "label": "Faster retreat of Langtang glaciers, 2000-2023 against 1964-2000",
         "source": "Silwal et al., 2026"
        }
-      },
-      {
-       "type": "photo",
-       "at": 21,
-       "photo": "File:Lirung (3to4).jpg",
-       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2895,13 +2884,13 @@
           "view": {
            "lon": 85.52,
            "lat": 28.3,
-           "span": 0.08
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Langtang Lirung, north face"
+       "on_screen_text": "Langtang Lirung"
       },
       {
        "type": "map",
@@ -2912,14 +2901,14 @@
           "view": {
            "lon": 85.5,
            "lat": 28.32,
-           "span": 0.08
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The debris track"
+       "on_screen_text": "Langtang Lirung"
       }
      ]
     },
@@ -2933,7 +2922,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.515,
+           "lon": 85.5312,
            "lat": 28.3,
            "span": 0.09
           },
@@ -2952,19 +2941,31 @@
           "view": {
            "lon": 85.48,
            "lat": 28.335,
-           "span": 0.08
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende river"
+       "on_screen_text": "Langtang Lirung"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 14,
-       "photo": "File:Lirung (3to4).jpg",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.53,
+           "lat": 28.28,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
        "on_screen_text": "Langtang Lirung"
       }
      ]
@@ -3000,22 +3001,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 85.367,
-           "lat": 28.253,
-           "span": 0.05
-          },
-          "date": "2026-10-18/2026-10-27"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Timure"
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
       },
       {
        "type": "map",
@@ -3024,14 +3013,13 @@
         "steps": [
          {
           "view": {
-           "lon": 85.35,
-           "lat": 28.2,
+           "lon": 85.367,
+           "lat": 28.253,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "The Bhotekoshi gorge"
       }
@@ -3156,16 +3144,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.343,
-           "lat": 28.16,
-           "span": 0.05
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Syafrubesi"
+       "on_screen_text": "The Bhotekoshi gorge"
       },
       {
        "type": "map",
@@ -3174,16 +3162,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.11,
-           "lat": 27.86,
-           "span": 0.06
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Devighat"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -3201,7 +3189,24 @@
       },
       {
        "type": "map",
-       "at": 10,
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.343,
+           "lat": 28.16,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
+      },
+      {
+       "type": "map",
+       "at": 14,
        "map": {
         "steps": [
          {
@@ -3212,9 +3217,10 @@
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Below Dhunche"
+       "on_screen_text": "The Bhotekoshi gorge"
       }
      ]
     },
@@ -3228,7 +3234,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.345,
+           "lon": 85.3576,
            "lat": 28.165,
            "span": 0.07
           },
@@ -3239,10 +3245,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 6,
-       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
-       "on_screen_text": "The road to Syafrubesi, 2024"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.355,
+           "lat": 28.225,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
       },
       {
        "type": "map",
@@ -3251,7 +3269,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.365,
+           "lon": 85.3776,
            "lat": 28.245,
            "span": 0.07
           },
@@ -3277,30 +3295,30 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.367,
-           "lat": 28.253,
-           "span": 0.05
+           "lon": 85.335,
+           "lat": 28.18,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Timure"
+       "on_screen_text": "The Bhotekoshi gorge"
       },
       {
        "type": "map",
-       "at": 14,
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.35,
-           "lat": 28.2,
+           "lon": 85.32,
+           "lat": 28.13,
            "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
@@ -3317,21 +3335,39 @@
      "shots": [
       {
        "type": "map",
-       "at": 6,
+       "at": 0,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.343,
-           "lat": 28.16,
-           "span": 0.05
+           "lon": 85.29,
+           "lat": 28.09,
+           "span": 0.06
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Syafrubesi"
+       "on_screen_text": "The Bhotekoshi gorge"
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.367,
+           "lat": 28.253,
+           "span": 0.08
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bhotekoshi gorge"
       },
       {
        "type": "document",
@@ -3380,16 +3416,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.219,
-           "lat": 28.033,
-           "span": 0.06
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Ramche"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -3398,16 +3434,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.207,
-           "lat": 28.072,
-           "span": 0.06
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Mailung"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -3442,28 +3478,27 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
+       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
+       "on_screen_text": "The road to Syafrubesi, 2024"
+      },
+      {
+       "type": "map",
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.3,
-           "lat": 28.1,
-           "span": 0.06
+           "lon": 85.35,
+           "lat": 28.2,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "Below Dhunche"
-      },
-      {
-       "type": "photo",
-       "at": 15,
-       "photo": "File:NH42 Trishuli Corridor towards Syaphru.jpg",
-       "on_screen_text": "The road to Syafrubesi, 2024"
+       "on_screen_text": "The Bhotekoshi gorge"
       },
       {
        "type": "map",
@@ -3472,15 +3507,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.367,
-           "lat": 28.253,
-           "span": 0.05
+           "lon": 85.343,
+           "lat": 28.16,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Timure"
+       "on_screen_text": "The Bhotekoshi gorge"
       }
      ]
     },
@@ -3498,14 +3534,14 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.35,
-           "lat": 28.2,
-           "span": 0.06
+           "lon": 85.3,
+           "lat": 28.1,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
@@ -3525,7 +3561,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.38,
+           "lon": 85.3926,
            "lat": 28.28,
            "span": 0.07
           },
@@ -3542,16 +3578,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.343,
-           "lat": 28.16,
-           "span": 0.05
+           "lon": 85.355,
+           "lat": 28.225,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Syafrubesi"
+       "on_screen_text": "The Bhotekoshi gorge"
       }
      ]
     },
@@ -3585,16 +3621,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.186,
-           "lat": 27.973,
-           "span": 0.06
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Betrawati"
+       "on_screen_text": "The Trishuli valley"
       }
      ],
      "ask": {
@@ -3667,16 +3703,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.148,
-           "lat": 27.923,
-           "span": 0.06
+           "lon": 85.219,
+           "lat": 28.033,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Trishuli"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -3694,20 +3730,20 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.11,
-           "lat": 27.86,
-           "span": 0.06
+           "lon": 85.2,
+           "lat": 28.0,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Devighat"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "stat",
@@ -3720,20 +3756,20 @@
       },
       {
        "type": "map",
-       "at": 24,
+       "at": 25,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.219,
-           "lat": 28.033,
-           "span": 0.06
+           "lon": 85.165,
+           "lat": 27.945,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Ramche"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -3756,7 +3792,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.145,
+           "lon": 85.1594,
            "lat": 27.915,
            "span": 0.08
           },
@@ -3781,20 +3817,20 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.207,
-           "lat": 28.072,
-           "span": 0.06
+           "lon": 85.13,
+           "lat": 27.89,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Mailung"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -3803,21 +3839,39 @@
      "shots": [
       {
        "type": "map",
-       "at": 7,
+       "at": 0,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.186,
-           "lat": 27.973,
-           "span": 0.06
+           "lon": 85.25,
+           "lat": 28.085,
+           "span": 0.08
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Betrawati"
+       "on_screen_text": "The Trishuli valley"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.207,
+           "lat": 28.072,
+           "span": 0.05
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "stat",
@@ -3840,7 +3894,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.45,
+           "lon": 85.522,
            "lat": 28.3,
            "span": 0.4
           },
@@ -3873,8 +3927,8 @@
         "steps": [
          {
           "view": {
-           "lon": 85.378,
-           "lat": 28.28,
+           "lon": 85.345,
+           "lat": 28.375,
            "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
@@ -3882,7 +3936,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "stat",
@@ -3895,20 +3949,20 @@
       },
       {
        "type": "map",
-       "at": 23,
+       "at": 24,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.33,
-           "lat": 28.39,
-           "span": 0.08
+           "lon": 85.415,
+           "lat": 28.328,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Gyirong, Tibet"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -3917,16 +3971,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.43,
-           "lat": 28.335,
-           "span": 0.06
+           "lon": 85.4,
+           "lat": 28.32,
+           "span": 0.1
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Toward the border"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -3935,16 +3989,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.4,
-           "lat": 28.32,
-           "span": 0.06
+           "lon": 85.378,
+           "lat": 28.28,
+           "span": 0.1
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Lhende valley"
+       "on_screen_text": "The Nepal-Tibet border"
       }
      ]
     },
@@ -3986,16 +4040,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.148,
-           "lat": 27.923,
-           "span": 0.06
+           "lon": 85.186,
+           "lat": 27.973,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Trishuli"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -4004,16 +4058,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.11,
-           "lat": 27.86,
-           "span": 0.06
+           "lon": 85.148,
+           "lat": 27.923,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Devighat"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -4022,16 +4076,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.219,
-           "lat": 28.033,
-           "span": 0.06
+           "lon": 85.11,
+           "lat": 27.86,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Ramche"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -4054,15 +4108,15 @@
         "steps": [
          {
           "view": {
-           "lon": 85.207,
-           "lat": 28.072,
-           "span": 0.06
+           "lon": 85.219,
+           "lat": 28.033,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Mailung"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -4071,16 +4125,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.186,
-           "lat": 27.973,
-           "span": 0.06
+           "lon": 85.2,
+           "lat": 28.0,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Betrawati"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -4094,7 +4148,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.515,
+           "lon": 85.4988,
            "lat": 28.3,
            "span": 0.09
           },
@@ -4130,20 +4184,20 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 85.148,
-           "lat": 27.923,
-           "span": 0.06
+           "lon": 85.165,
+           "lat": 27.945,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ]
        },
-       "on_screen_text": "Trishuli"
+       "on_screen_text": "The Trishuli valley"
       },
       {
        "type": "map",
@@ -4152,16 +4206,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.11,
-           "lat": 27.86,
-           "span": 0.06
+           "lon": 85.13,
+           "lat": 27.89,
+           "span": 0.05
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Devighat"
+       "on_screen_text": "The Trishuli valley"
       }
      ]
     },
@@ -4177,7 +4231,7 @@
           "view": {
            "lon": 84.0,
            "lat": 29.2,
-           "span": 15
+           "span": 15.0
           },
           "places": [
            {
@@ -4211,9 +4265,9 @@
         "steps": [
          {
           "view": {
-           "lon": 84.0,
+           "lon": 86.7,
            "lat": 29.2,
-           "span": 15
+           "span": 15.0
           },
           "places": [
            {
@@ -4229,10 +4283,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 79.76,
+           "lat": 30.35,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chamoli, India"
       }
      ]
     },
@@ -4246,9 +4312,9 @@
         "steps": [
          {
           "view": {
-           "lon": 84.0,
+           "lon": 81.3,
            "lat": 29.2,
-           "span": 15
+           "span": 15.0
           },
           "places": [
            {
@@ -4260,14 +4326,27 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 88.19,
+           "lat": 27.91,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "South Lhonak and the Teesta, Sikkim"
       }
      ]
     },
@@ -4282,8 +4361,8 @@
          {
           "view": {
            "lon": 84.0,
-           "lat": 29.2,
-           "span": 15
+           "lat": 30.4656,
+           "span": 15.0
           },
           "places": [
            {
@@ -4295,14 +4374,15 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 5,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "photo": "nasa:iss074e0603585",
+       "on_screen_text": "Glaciers on the Tibetan side of the Himalaya, ISS, May 2026"
       }
      ]
     },
@@ -4317,8 +4397,8 @@
          {
           "view": {
            "lon": 84.0,
-           "lat": 29.2,
-           "span": 15
+           "lat": 27.9344,
+           "span": 15.0
           },
           "places": [
            {
@@ -4334,16 +4414,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 86.65,
+           "lat": 27.83,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thame, Nepal"
       },
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "photo": "nasa:iss074e0603570",
+       "on_screen_text": "The Himalaya between Nepal and Tibet, ISS, May 2026"
       }
      ]
     },
@@ -4360,10 +4452,21 @@
        }
       },
       {
-       "type": "photo",
-       "at": 8,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 86.67,
+           "lat": 27.85,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "Thame, Nepal"
       }
      ]
     },
@@ -4379,7 +4482,7 @@
           "view": {
            "lon": 84.0,
            "lat": 29.2,
-           "span": 15
+           "span": 19.5
           },
           "places": [
            {
@@ -4391,7 +4494,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4401,7 +4505,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.38,
+           "lon": 85.3926,
            "lat": 28.28,
            "span": 0.07
           },
@@ -4431,7 +4535,7 @@
           "view": {
            "lon": 84.0,
            "lat": 29.2,
-           "span": 15
+           "span": 12.0
           }
          }
         ],
@@ -4457,8 +4561,8 @@
       {
        "type": "photo",
        "at": 25,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "photo": "nasa:iss074e0603582",
+       "on_screen_text": "Glaciers on the Tibetan side of the Himalaya, ISS, May 2026"
       },
       {
        "type": "stat",
@@ -4476,7 +4580,7 @@
         "steps": [
          {
           "view": {
-           "lon": 84.6,
+           "lon": 86.13,
            "lat": 28.3,
            "span": 8.5
           },
@@ -4504,15 +4608,26 @@
       },
       {
        "type": "photo",
-       "at": 7,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "at": 9,
+       "photo": "nasa:iss069e003192",
+       "on_screen_text": "Everest and the Khumbu, ISS, 2023"
       },
       {
-       "type": "photo",
-       "at": 14,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.58,
+           "lat": 28.21,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Langtang valley"
       }
      ]
     },
@@ -4526,26 +4641,38 @@
         "steps": [
          {
           "view": {
-           "lon": 85.515,
+           "lon": 85.4988,
            "lat": 28.3,
            "span": 0.09
           },
           "date": "2026-10-18/2026-10-27"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 3.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "photo": "nasa:iss074e0603585",
+       "on_screen_text": "Glaciers on the Tibetan side of the Himalaya, ISS, May 2026"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 16,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 4.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.47,
+           "lat": 28.2,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Langtang valley"
       },
       {
        "type": "map",
@@ -4554,7 +4681,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.345,
+           "lon": 85.3576,
            "lat": 28.165,
            "span": 0.07
           },
@@ -4576,7 +4703,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.38,
+           "lon": 85.3674,
            "lat": 28.28,
            "span": 0.07
           },
@@ -4609,22 +4736,22 @@
         "steps": [
          {
           "view": {
-           "lon": 85.378,
-           "lat": 28.28,
-           "span": 0.05
+           "lon": 85.33,
+           "lat": 28.39,
+           "span": 0.1
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rasuwagadhi"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "photo",
        "at": 18,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 5.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "photo": "nasa:iss074e0603570",
+       "on_screen_text": "The Himalaya between Nepal and Tibet, ISS, May 2026"
       }
      ]
     },
@@ -4639,7 +4766,7 @@
          {
           "view": {
            "lon": 85.515,
-           "lat": 28.3,
+           "lat": 28.3076,
            "span": 0.09
           },
           "date": "2026-08-12"
@@ -4654,16 +4781,16 @@
         "steps": [
          {
           "view": {
-           "lon": 85.33,
-           "lat": 28.39,
-           "span": 0.08
+           "lon": 85.43,
+           "lat": 28.335,
+           "span": 0.1
           },
           "date": "2026-10-18/2026-10-27"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Gyirong, Tibet"
+       "on_screen_text": "The Nepal-Tibet border"
       },
       {
        "type": "map",
@@ -4672,7 +4799,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.45,
+           "lon": 85.378,
            "lat": 28.3,
            "span": 0.4
           },
@@ -4690,7 +4817,7 @@
          {
           "view": {
            "lon": 85.515,
-           "lat": 28.3,
+           "lat": 28.2924,
            "span": 0.09
           },
           "compare": {
@@ -4717,7 +4844,7 @@
         "steps": [
          {
           "view": {
-           "lon": 85.32,
+           "lon": 85.455,
            "lat": 28.1,
            "span": 0.75
           },
@@ -4799,14 +4926,25 @@
       {
        "type": "photo",
        "at": 15,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 6.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "photo": "nasa:iss074e0603582",
+       "on_screen_text": "Glaciers on the Tibetan side of the Himalaya, ISS, May 2026"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 23,
-       "photo": "File:Snow-capped Mountains at Kyanjin Gompa Rasuwa 2.jpg",
-       "on_screen_text": "Glaciers of the Langtang range"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 85.53,
+           "lat": 28.22,
+           "span": 0.06
+          },
+          "date": "2026-10-18/2026-10-27"
+         }
+        ]
+       },
+       "on_screen_text": "The Langtang valley"
       }
      ],
      "ask": {

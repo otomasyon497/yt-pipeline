@@ -1,5 +1,18 @@
 # PROGRESS
 
+## Status (2026-11-11; start here)
+- Full renders audited (visual pass on every sheet, subagents + spot checks): langtang-collapse run 42897868958 (16:09)
+  and outer-banks run 42902634439 (15:54). Both NOT approved. Audio fine on both; all "flash" flags are cuts.
+- Shared root causes: (1) too few distinct photos/map crops for 16 min -> heavy repeats (Langtang: Lirung photo x8,
+  Kyanjin snow series x17 standing in for Chamoli/Sikkim/Thame, Rasuwagadhi/Gyirong/north-face crops cycling;
+  Outer Banks: 5 Rodanthe photos x8-12 from 7:37, lighthouse set x4-6, Rodanthe photos under Buxton narration);
+  (2) count-ups on addresses, "~"/"+"/"up to" values, time offsets, and count cards cut before they finish
+  (OB 7:29 ~100 m, 13:31 ~$40M, 15:26 100+ homes; Langtang 9:22 1.5x); (3) holds >8 s on one view.
+- Outer Banks specific: purple 2026 Landsat (4:50 Buxton, 7:26 Pea Island); wrong place on map (4:54, 8:59 Rodanthe
+  for Buxton; 14:34 Buxton for Avon); 9:15 address counts up; 4:36 keepers' houses over Ocean Drive debris photo.
+- Langtang specific: blurry holds 5:24 (mc04p02s01) and 5:58-6:01 (Landsat 8 Oct 2015 zoomed past resolution).
+- Waiting for the user's choice on how to fix (engine checks first vs per-episode fixes).
+
 ## Status (2026-11-10, ~19:45 UTC; start here)
 - 2026-11-11: Studio check (lifetime to 9 Nov): long videos got only ~2,400 impressions in total, CTR 1.5-3 %.
   New thumbnails set via the API (thumbnails.set) on all 9 long videos: public-domain NASA/ISS images + 2-3 words

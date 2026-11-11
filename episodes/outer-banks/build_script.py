@@ -358,7 +358,7 @@ def pic(name, label=None):
 # a photo is used at most PHOTO_MAX times and never within PHOTO_GAP seconds of its last use (ep 11 v1 cycled five
 # photos 8-12 times each). A village's photos only go under sentences about that village.
 SEC_WORD = 0.43
-PHOTO_MAX, PHOTO_GAP = 3, 75.0
+PHOTO_MAX, PHOTO_GAP = 3, 110.0  # gap in estimated seconds; real speech runs faster than SEC_WORD (v2 repeats came back 35-54 s apart)
 SHORES = {
     "rodanthe": [(-75.462, 35.575), (-75.465, 35.585), (-75.467, 35.592), (-75.470, 35.600), (-75.473, 35.609), (-75.476, 35.617), (-75.479, 35.626)],
     "buxton": [(-75.527, 35.248), (-75.521, 35.257), (-75.516, 35.266), (-75.511, 35.276), (-75.507, 35.288), (-75.503, 35.300),
@@ -421,11 +421,16 @@ def fresh_view(vw, t):
     raise SystemExit(f"no fresh framing left for {vw}")
 
 
+# Burst shots of one scene (the 24131 Ocean Dr truck-loading set) read as the same picture: they share one count.
+FAMILY = {PH_OCEAN_A: "ocean", PH_OCEAN_B: "ocean", PH_OCEAN_C: "ocean", PH_OCEAN_D: "ocean"}
+
+
 def filler(group, t):
     for name, label in PHOTOS.get(group, []):
-        uses = photo_uses.get(name, [])
+        fam = FAMILY.get(name, name)
+        uses = photo_uses.get(fam, [])
         if len(uses) < PHOTO_MAX and all(t - u >= PHOTO_GAP for u in uses):
-            photo_uses.setdefault(name, []).append(t)
+            photo_uses.setdefault(fam, []).append(t)
             return pic(name, label)
     return next_view(VIEW_PLACE.get(group, group))
 

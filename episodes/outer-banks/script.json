@@ -374,14 +374,14 @@
       {
        "type": "photo",
        "at": 15,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
        "type": "photo",
        "at": 30,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328604.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
+       "on_screen_text": "North of the Rodanthe Pier"
       }
      ],
      "ask": {
@@ -1130,14 +1130,8 @@
        "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
-       "at": 25,
-       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
-      },
-      {
        "type": "map",
-       "at": 34,
+       "at": 25,
        "map": {
         "steps": [
          {
@@ -1148,13 +1142,14 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Buxton"
       },
       {
        "type": "map",
-       "at": 44,
+       "at": 34,
        "map": {
         "steps": [
          {
@@ -1172,7 +1167,7 @@
       },
       {
        "type": "map",
-       "at": 53,
+       "at": 44,
        "map": {
         "steps": [
          {
@@ -1190,13 +1185,31 @@
       },
       {
        "type": "map",
-       "at": 62,
+       "at": 53,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.536,
            "lat": 35.262,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 62,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.545,
+           "lat": 35.27,
            "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
@@ -1224,9 +1237,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.545,
-           "lat": 35.27,
-           "span": 0.07
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1241,8 +1254,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.527,
-           "lat": 35.248,
+           "lon": -75.516,
+           "lat": 35.266,
            "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
@@ -1271,21 +1284,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 46,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.516,
-           "lat": 35.266,
-           "span": 0.09
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton"
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "map",
@@ -1300,8 +1302,7 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Buxton"
       }
@@ -1455,10 +1456,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.54,
+           "lat": 35.244,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     }
@@ -1484,7 +1497,8 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2411,8 +2425,8 @@
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328604.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
        "type": "photo",
@@ -2423,25 +2437,25 @@
       {
        "type": "photo",
        "at": 33,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
-      },
-      {
-       "type": "photo",
-       "at": 42,
        "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
        "on_screen_text": "North of the Rodanthe Pier"
       },
       {
        "type": "photo",
-       "at": 50,
+       "at": 42,
        "photo": "File:Collected debris associated with March 13 house collapse.jpg",
        "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
+       "at": 50,
+       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
+      },
+      {
+       "type": "photo",
        "at": 59,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328699.jpg",
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
        "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ]
@@ -2481,8 +2495,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.54,
-           "lat": 35.244,
+           "lon": -75.555,
+           "lat": 35.24,
            "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
@@ -2499,8 +2513,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.555,
-           "lat": 35.24,
+           "lon": -75.536,
+           "lat": 35.262,
            "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
@@ -2526,8 +2540,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.536,
-           "lat": 35.262,
+           "lon": -75.545,
+           "lat": 35.27,
            "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
@@ -2560,24 +2574,6 @@
         "steps": [
          {
           "view": {
-           "lon": -75.545,
-           "lat": 35.27,
-           "span": 0.09
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton"
-      },
-      {
-       "type": "map",
-       "at": 53,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -75.527,
            "lat": 35.248,
            "span": 0.06
@@ -2591,7 +2587,7 @@
       },
       {
        "type": "map",
-       "at": 62,
+       "at": 53,
        "map": {
         "steps": [
          {
@@ -2609,13 +2605,31 @@
       },
       {
        "type": "map",
-       "at": 71,
+       "at": 62,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -75.511,
            "lat": 35.276,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 71,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.507,
+           "lat": 35.288,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -2663,8 +2677,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.507,
-           "lat": 35.288,
+           "lon": -75.503,
+           "lat": 35.3,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -2681,8 +2695,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.503,
-           "lat": 35.3,
+           "lon": -75.54,
+           "lat": 35.244,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -2715,20 +2729,20 @@
       {
        "type": "photo",
        "at": 7,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+      },
+      {
+       "type": "photo",
+       "at": 15,
        "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53752082612.jpg",
        "on_screen_text": "After a collapse, Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
-       "at": 15,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
-      },
-      {
-       "type": "photo",
        "at": 23,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328604.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:Volunteers clean up beach debris.jpg",
+       "on_screen_text": "Volunteers clean the beach, Rodanthe"
       },
       {
        "type": "stat",
@@ -2742,20 +2756,43 @@
       {
        "type": "photo",
        "at": 40,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
+       "on_screen_text": "Beach cleanup, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 47,
-       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
-       "on_screen_text": "North of the Rodanthe Pier"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 54,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -2775,7 +2812,8 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       }
      ]
@@ -2801,14 +2839,14 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328699.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       }
      ]
     },
@@ -2843,8 +2881,8 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
+       "on_screen_text": "North of the Rodanthe Pier"
       },
       {
        "type": "photo",
@@ -2854,8 +2892,8 @@
       {
        "type": "photo",
        "at": 26,
-       "photo": "File:Volunteers clean up beach debris.jpg",
-       "on_screen_text": "Volunteers clean the beach, Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       }
      ]
     },
@@ -2928,24 +2966,6 @@
         "steps": [
          {
           "view": {
-           "lon": -75.54,
-           "lat": 35.244,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton"
-      },
-      {
-       "type": "map",
-       "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -75.555,
            "lat": 35.24,
            "span": 0.06
@@ -2959,7 +2979,7 @@
       },
       {
        "type": "map",
-       "at": 27,
+       "at": 18,
        "map": {
         "steps": [
          {
@@ -2977,7 +2997,7 @@
       },
       {
        "type": "map",
-       "at": 36,
+       "at": 27,
        "map": {
         "steps": [
          {
@@ -2985,6 +3005,24 @@
            "lon": -75.545,
            "lat": 35.27,
            "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3001,20 +3039,20 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
-       "on_screen_text": "North of the Rodanthe Pier"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 17,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "photo": "File:Volunteers clean up beach debris.jpg",
+       "on_screen_text": "Volunteers clean the beach, Rodanthe"
       },
       {
        "type": "stat",
@@ -3028,8 +3066,8 @@
       {
        "type": "photo",
        "at": 35,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328699.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
+       "on_screen_text": "Beach cleanup, Rodanthe"
       },
       {
        "type": "map",
@@ -3047,10 +3085,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 51,
-       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3070,26 +3120,63 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 17,
-       "photo": "File:Volunteers clean up beach debris.jpg",
-       "on_screen_text": "Volunteers clean the beach, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 26,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753321449.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3106,10 +3193,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
-       "on_screen_text": "Beach cleanup, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3118,13 +3216,14 @@
         "steps": [
          {
           "view": {
-           "lon": -75.476,
-           "lat": 35.617,
-           "span": 0.05
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Rodanthe"
       },
@@ -3135,9 +3234,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.479,
-           "lat": 35.626,
-           "span": 0.05
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3163,22 +3262,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 37,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.462,
-           "lat": 35.575,
-           "span": 0.07
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "map",
@@ -3187,14 +3274,13 @@
         "steps": [
          {
           "view": {
-           "lon": -75.473,
-           "lat": 35.609,
-           "span": 0.07
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Rodanthe"
       }
@@ -3236,9 +3322,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.476,
-           "lat": 35.617,
-           "span": 0.07
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3254,9 +3340,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.479,
-           "lat": 35.626,
-           "span": 0.07
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3286,9 +3372,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.462,
-           "lat": 35.575,
-           "span": 0.09
+           "lon": -75.465,
+           "lat": 35.585,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3305,7 +3391,7 @@
           "view": {
            "lon": -75.47,
            "lat": 35.6,
-           "span": 0.09
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3321,10 +3407,21 @@
        "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 31,
-       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
-       "on_screen_text": "Collecting debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3333,13 +3430,14 @@
         "steps": [
          {
           "view": {
-           "lon": -75.473,
-           "lat": 35.609,
-           "span": 0.09
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "Rodanthe"
       }
@@ -3367,14 +3465,14 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "photo",
        "at": 18,
-       "photo": "File:Volunteers clean up beach debris.jpg",
-       "on_screen_text": "Volunteers clean the beach, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ]
     }
@@ -3425,8 +3523,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.527,
-           "lat": 35.248,
+           "lon": -75.521,
+           "lat": 35.257,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3442,8 +3540,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.521,
-           "lat": 35.257,
+           "lon": -75.516,
+           "lat": 35.266,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3538,8 +3636,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.516,
-           "lat": 35.266,
+           "lon": -75.511,
+           "lat": 35.276,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3556,8 +3654,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.511,
-           "lat": 35.276,
+           "lon": -75.507,
+           "lat": 35.288,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3637,8 +3735,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.507,
-           "lat": 35.288,
+           "lon": -75.503,
+           "lat": 35.3,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3655,8 +3753,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.503,
-           "lat": 35.3,
+           "lon": -75.54,
+           "lat": 35.244,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3673,8 +3771,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.54,
-           "lat": 35.244,
+           "lon": -75.555,
+           "lat": 35.24,
            "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
@@ -3731,9 +3829,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.476,
-           "lat": 35.617,
-           "span": 0.09
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3748,9 +3846,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.479,
-           "lat": 35.626,
-           "span": 0.09
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3782,31 +3880,8 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Buxton beach nourishment in progress, July 2022.jpg",
-       "on_screen_text": "Pumping sand north of Buxton, July 2022"
-      },
-      {
-       "type": "map",
-       "at": 17,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.555,
-           "lat": 35.24,
-           "span": 0.08
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton"
-      },
-      {
-       "type": "map",
-       "at": 25,
        "map": {
         "steps": [
          {
@@ -3824,7 +3899,7 @@
       },
       {
        "type": "map",
-       "at": 34,
+       "at": 17,
        "map": {
         "steps": [
          {
@@ -3832,6 +3907,42 @@
            "lon": -75.545,
            "lat": 35.27,
            "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.1
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.521,
+           "lat": 35.257,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3865,8 +3976,8 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753321449.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "photo": "File:Volunteers clean up beach debris.jpg",
+       "on_screen_text": "Volunteers clean the beach, Rodanthe"
       },
       {
        "type": "photo",
@@ -3904,9 +4015,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.462,
-           "lat": 35.575,
-           "span": 0.06
+           "lon": -75.465,
+           "lat": 35.585,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3921,9 +4032,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.465,
-           "lat": 35.585,
-           "span": 0.06
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3939,9 +4050,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.6,
-           "span": 0.06
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3957,9 +4068,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.473,
-           "lat": 35.609,
-           "span": 0.06
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4001,9 +4112,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.476,
-           "lat": 35.617,
-           "span": 0.06
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4236,22 +4347,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.527,
-           "lat": 35.248,
-           "span": 0.1
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton"
+       "photo": "File:Buxton beach nourishment in progress, July 2022.jpg",
+       "on_screen_text": "Pumping sand north of Buxton, July 2022"
       },
       {
        "type": "map",
@@ -4260,14 +4359,13 @@
         "steps": [
          {
           "view": {
-           "lon": -75.521,
-           "lat": 35.257,
+           "lon": -75.516,
+           "lat": 35.266,
            "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Buxton"
       },
@@ -4295,8 +4393,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.516,
-           "lat": 35.266,
+           "lon": -75.511,
+           "lat": 35.276,
            "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
@@ -4313,8 +4411,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.511,
-           "lat": 35.276,
+           "lon": -75.507,
+           "lat": 35.288,
            "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
@@ -4345,9 +4443,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.479,
-           "lat": 35.626,
-           "span": 0.06
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4362,9 +4460,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.462,
-           "lat": 35.575,
-           "span": 0.08
+           "lon": -75.465,
+           "lat": 35.585,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4380,9 +4478,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.465,
-           "lat": 35.585,
-           "span": 0.08
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4453,16 +4551,40 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753321449.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.1
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 16,
-       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
-       "on_screen_text": "Beach cleanup, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.1
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       }
      ],
      "ask": {

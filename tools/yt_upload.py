@@ -5,7 +5,7 @@
     python tools/yt_upload.py indus-waters             # upload video and thumbnail, then read the privacy back
     python tools/yt_upload.py ogallala-aquifer --publish-at 2026-11-10T15:00:00Z   # private, goes public at that time
 
-Reads %USERPROFILE%\\Videos\\yt-pipeline\\<slug>\\ (<slug>.mp4, youtube.txt, thumbnail_D.jpg or cover_short.jpg).
+Reads %USERPROFILE%\\Videos\\yt-pipeline\\<slug>\\ (<slug>.mp4, youtube.txt, cover.jpg [else thumbnail_D.jpg] or cover_short.jpg).
 A video goes up only with an approved second-by-second audit of that exact render (tools/frame_audit.py).
 Private is fixed in the code on purpose, there is no option for anything else; --publish-at only schedules a private
 video for a time the user chose (used to replace a scheduled upload). Left for Studio: publishing, the pinned
@@ -194,7 +194,12 @@ def main() -> None:
             sys.exit(f"Missing {need}: run tools/fetch_episode.ps1 {a.slug}")
     script = json.loads((ROOT / "episodes" / a.slug / "script.json").read_text(encoding="utf-8"))
     short = script.get("format") == "short"
-    thumb = folder / ("cover_short.jpg" if short else "thumbnail_D.jpg")
+    # Long videos: cover.jpg (the hand-made public-domain photo cover, see thumbnails/make_thumbs.py) wins over the
+    # pipeline's own Landsat split, which is a blur on a phone; without it an upload silently got the old style.
+    thumb = folder / ("cover_short.jpg" if short else "cover.jpg")
+    if not short and not thumb.exists():
+        thumb = folder / "thumbnail_D.jpg"
+        print("  NOTE: no cover.jpg; falling back to the pipeline's thumbnail_D.jpg (old style)")
     meta = parse_youtube_txt(txt)
     check(meta)
     publish_at = future_utc(a.publish_at) if a.publish_at else None

@@ -91,6 +91,9 @@ jobs:
         # A mirror DNS outage (2026-11-11) left this step hanging 40+ min; bounded timeouts and retries instead.
         timeout-minutes: 20
         run: |
+          # security.ubuntu.com stopped resolving that day: the Azure mirror carries the same -security pocket.
+          sudo sed -i 's#https\?://security.ubuntu.com/ubuntu#http://azure.archive.ubuntu.com/ubuntu#g' \
+            /etc/apt/sources.list.d/*.sources /etc/apt/sources.list 2>/dev/null || true
           APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20"
           for i in 1 2 3; do
             sudo apt-get $APT update -qq && sudo apt-get $APT install -y -qq --fix-missing ffmpeg espeak-ng libnss3 libdbus-1-3 \

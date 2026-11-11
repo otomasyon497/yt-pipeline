@@ -27,7 +27,8 @@ TOKEN = HOME / "token_upload.json"
 VIDEOS = Path.home() / "Videos" / "yt-pipeline"
 CHANNEL_ID = "UC1h2p6x09doXZRvG4d4M0Sg"  # Ink & Orbit
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload",
-          "https://www.googleapis.com/auth/youtube.readonly"]  # readonly: channel check, duplicates, reading the result
+          "https://www.googleapis.com/auth/youtube.readonly",  # readonly: channel check, duplicates, reading the result
+          "https://www.googleapis.com/auth/youtube"]  # 2026-11-11, user's consent: change publishAt after upload (reschedule)
 PRIVACY = "private"
 CATEGORY_EDUCATION = "27"
 RETRY_STATUS = (500, 502, 503, 504)
@@ -178,13 +179,24 @@ def set_thumbnail(yt, vid: str, thumb: Path) -> bool:
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("slug", help="episode folder name, or `auth`")
+    ap.add_argument("slug", help="episode folder name, `auth`, or `reschedule` (with --video ID --publish-at TIME)")
+    ap.add_argument("--video", help="reschedule: the video id to move (stays private until --publish-at)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true", help="upload even if a video with this title exists")
     ap.add_argument("--publish-at", help="schedule the private video, e.g. 2026-11-10T15:00:00Z (the user's chosen time)")
     a = ap.parse_args()
     if a.slug == "auth":
         return auth()
+    if a.slug == "reschedule":
+        if not (a.video and a.publish_at):
+            sys.exit("reschedule needs --video ID and --publish-at TIME")
+        yt = service()
+        st = yt.videos().list(part="status", id=a.video).execute()["items"][0]["status"]
+        if st["privacyStatus"] != "private":
+            sys.exit(f"{a.video} is already {st['privacyStatus']}: not touched")
+        st["publishAt"] = future_utc(a.publish_at)
+        r = yt.videos().update(part="status", body={"id": a.video, "status": st}).execute()["status"]
+        return print(f"{a.video}: privacy {r['privacyStatus']}, publishAt {r.get('publishAt')}")
 
     folder = VIDEOS / a.slug
     video = folder / f"{a.slug}.mp4"

@@ -101,7 +101,8 @@ def repeats(lay: dict) -> list[str]:
         end = shots[i + 1]["start"] if i + 1 < len(shots) else lay["total_frames"] / FPS
         if not keys or keys[0] != prev_last:
             run_start = s["start"]  # a new picture
-        if len(keys) > 1:  # the last camera of a multi-step map starts at its own step
+        n_steps = len(s["src"].map.steps) if s["src"].type == "map" and s["src"].map else 0
+        if len(keys) > 1 or n_steps > 1:  # a multi-step map (new camera, places, a wipe) changes at its last step
             run_start = s["steps"][-1] if s["steps"] else s["start"]
         if keys and i + 1 < len(shots) and _picture_keys(shots[i + 1]["src"])[:1] == keys[-1:]:
             pass  # the next shot continues this picture: judge the run where it ends

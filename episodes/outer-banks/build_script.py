@@ -50,8 +50,8 @@ RALEIGH = place("Raleigh", -78.64, 35.78, "Raleigh", "capital")
 FERRY = {"from": [-75.468, 35.594], "to": [-75.771, 35.698], "mode": "line", "seconds": 3, "label": "Emergency ferry"}
 
 CMP_RODANTHE = {"before": "1985-08-16", "after": "2026-10-27", "source": LS, "seconds": 2.6}
-CMP_PEA = {"before": "1985-08-16", "after": "2026-02-13", "source": LS, "seconds": 2.4}
-CMP_BUXTON = {"before": "1985-04-26", "after": "2026-03-01", "source": LS, "seconds": 2.4}
+CMP_PEA = {"before": "1985-08-16", "after": "2026-10-27", "source": LS, "seconds": 2.4}
+CMP_BUXTON = {"before": "1985-08-16", "after": "2026-10-27", "source": LS, "seconds": 2.4}
 CMP_ISABEL = {"before": "2003-07-01/2003-09-15", "after": "2003-09-19/2003-11-20", "source": LS, "seconds": 2.2,
               "label_before": "SUMMER 2003", "label_after": "AFTER ISABEL, 2003"}
 CMP_BRIDGE = {"before": "2021-09-01/2021-11-30", "after": "2023-09-01/2023-11-30", "seconds": 2.2}
@@ -140,6 +140,13 @@ PH_DEBRIS5 = "File:National Park Service employees look for house collapse debri
 PH_DEBRIS6 = "File:Collected debris associated with March 13 house collapse.jpg"
 PH_LH_2020 = "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg"
 PH_LH_SHADOW = "File:Cape Hatteras Lighthouse shadow (50068811063).jpg"
+OCEAN = "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - {}.jpg"
+PH_OCEAN_A, PH_OCEAN_B, PH_OCEAN_C, PH_OCEAN_D = (OCEAN.format(n) for n in ("53752082612", "53753328604", "53753328699", "53753321449"))
+PH_TRUCK = "File:Truck travels along beach north of Rodanthe Pier.jpg"
+PH_CREW = "File:Vehicles and staff on beach collecting beach debris.jpg"
+PH_VOL = "File:Volunteers clean up beach debris.jpg"
+PH_VOL2 = "File:Volunteers participate in beach debris cleanup - 52752007055.jpg"
+PH_NOURISH = "File:Buxton beach nourishment in progress, July 2022.jpg"
 PH_BONNER = "File:Outer Banks Scenic Byway - Herbert C. Bonner Bridge and Oregon Inlet - NARA - 7720871.jpg"
 
 chapters = [
@@ -183,7 +190,7 @@ chapters = [
           stat("Elsewhere", "Up to ~3 ft", "Sand Isabel left on parts of Highway 12, 2003", USGS)),
         P("For an island, moving is how it survives a rising sea. For a road, a lighthouse or a house on pilings, it is a disaster. And the first building here to face that choice was the tallest.",
           m(0, v(HATTERAS)),
-          photo("And the first", PH_LH_BEFORE, "Cape Hatteras Lighthouse")),
+          photo("And the first", PH_LH_SHADOW, "Cape Hatteras Lighthouse")),
     ]},
     {"title": "The Lighthouse That Moved", "mood": "curious", "paragraphs": [
         P("The Cape Hatteras Lighthouse was finished in 1870, about fifteen hundred feet from the ocean. The National Park Service calls it the tallest brick lighthouse in the United States.",
@@ -198,13 +205,13 @@ chapters = [
           m("In the 1960s", v(near(-75.515, 35.262, 0.06)), cut=True),
           stat("In 1980", "1980", "A seawall is studied to hold the old site", NPS_LH)),
         P("Moving it was first rejected as impractical. In 1988 the National Academy of Sciences looked at ten options and recommended moving it. It took almost another decade before Congress paid for it. In January 1997 a review by North Carolina State University endorsed the move, and money followed the next year. The tower had stood since 1870 on a floating foundation of yellow pine timbers, laid in fresh water under the sand.",
-          photo(0, PH_LH_BEFORE),
+          photo(0, PH_LH_2020, "Cape Hatteras Lighthouse"),
           stat("In 1988", "10 options", "Reviewed by the National Academy of Sciences, 1988: move it", NPS_LH)),
         P("In June 1999, crews lifted 4,830 tons of brick onto rails and pushed it five feet at a time. Sixty sensors watched the tower as it rolled. Twenty-three days later it stood 2,900 feet to the southwest. It cost 11.8 million dollars, and it was lit again on November 13. The keepers' houses had gone first, between February and April.",
           photo(0, PH_LH_BEFORE, "4,830 tons of brick"),
           stat("Twenty-three", "2,900 ft", "Moved southwest in 23 days, June-July 1999", NPS_LH),
           stat("It cost", "$11.8 million", "Cost of the move", "National Park Service")),
-        P("Today it stands about fifteen hundred feet from the ocean again. Here is that corner of Buxton in April 1985, and this March. Just north of the old site runs Old Lighthouse Road. One of the houses that fell this February stood on it.",
+        P("Today it stands about fifteen hundred feet from the ocean again. Here is that corner of Buxton in August 1985, and this October. Just north of the old site runs Old Lighthouse Road. One of the houses that fell this February stood on it.",
           photo(0, PH_LH_PATH, "After Hurricane Isabel, September 2003"),
           m("Here is", v(BUXTON_W, compare={**CMP_BUXTON, "until": "and this"}), step("and this", places=[LIGHTHOUSE]), step("Just north", places=[BUXTON]), cut=True),
           m("One of the", v(near(-75.515, 35.262, 0.06)), cut=True)),
@@ -233,7 +240,7 @@ chapters = [
           m(0, v(PEA_V, places=[VISITOR])),
           stat("damaging", "1,200+ ft", "Pavement damaged near the Pea Island Visitor Center, October 2026", NCDOT),
           stat("The ferry", "1,451 vehicles", "Carried by the emergency ferry by October 26", NCDOT)),
-        P("It reopened on October 29 with one lane, controlled by flaggers, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this February. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
+        P("It reopened on October 29 with one lane, controlled by flaggers, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this October. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
           m(0, v(PEA_V)),
           m("Here is", v(PEA_W, compare={**CMP_PEA, "until": "and this"}), step("and this", places=[VISITOR]), step("We measured"), cut=True),
           stat("On an island", "~100 m", "Shoreline retreat at the Pea Island Visitor Center, 1985 to 2026", OWN, "About 330 feet")),
@@ -347,34 +354,99 @@ def pic(name, label=None):
     return photo(0, name, label)
 
 
-POOLS = {
-    "rodanthe": [sat(near(-75.466, 35.588, 0.06), "Rodanthe"), sat(near(-75.470, 35.602, 0.06), "Rodanthe, north end"),
-                 sat(near(-75.465, 35.580, 0.06), "Rodanthe and Waves"), sat(SCURVES_V, "The S-curves")],
-    "buxton": [sat(near(-75.515, 35.262, 0.06), "Buxton, the oceanfront"), sat(near(-75.53, 35.27, 0.06), "Buxton"),
-               sat(near(-75.525, 35.25, 0.06), "Cape Hatteras"), sat(near(-75.50, 35.30, 0.06), "Between Avon and Buxton")],
-    "pea": [sat(near(-75.49, 35.73, 0.06), "Pea Island"), sat(near(-75.50, 35.69, 0.06), "Pea Island, NC 12"),
-            sat(near(-75.485, 35.705, 0.06), "Pea Island, the dune line"), sat(OREGON_V, "Oregon Inlet")],
-    "island": [sat(near(-75.60, 35.45, 0.3), "Hatteras Island"), sat(near(-75.52, 35.40, 0.12), "Hatteras Island, Avon"),
-               sat(near(-75.70, 35.22, 0.08), "Hatteras Village"), sat(near(-75.48, 35.62, 0.12), "Rodanthe and Pea Island")],
-    "houses": [pic(PH_DEBRIS2, "Debris after a collapse, Ocean Drive, Rodanthe"), sat(near(-75.466, 35.588, 0.06), "Rodanthe"),
-               pic(PH_DEBRIS4, "Park Service crews, Rodanthe"), sat(near(-75.515, 35.262, 0.06), "Buxton, the oceanfront"),
-               pic(PH_DEBRIS5, "Searching for debris north of the Rodanthe Pier"), sat(near(-75.47, 35.602, 0.06), "Rodanthe, north end"),
-               pic(PH_DEBRIS6, "Collected debris, Rodanthe"), pic(PH_DEBRIS3, "Ocean Drive, Rodanthe")],
-    "lighthouse": [pic(PH_LH_NOW, "Cape Hatteras Lighthouse"), pic(PH_LH_2020, "Cape Hatteras Lighthouse, 2020"),
-                   pic(PH_LH_SHADOW, "Cape Hatteras Lighthouse"), pic(PH_LH_BEFORE, "Cape Hatteras Lighthouse"),
-                   sat(near(-75.525, 35.252, 0.06), "The lighthouse today")],
+# Filler pictures. Every map view is generated once (a point along that shore x a frame width), so no crop comes back;
+# a photo is used at most PHOTO_MAX times and never within PHOTO_GAP seconds of its last use (ep 11 v1 cycled five
+# photos 8-12 times each). A village's photos only go under sentences about that village.
+SEC_WORD = 0.43
+PHOTO_MAX, PHOTO_GAP = 3, 75.0
+SHORES = {
+    "rodanthe": [(-75.462, 35.575), (-75.465, 35.585), (-75.467, 35.592), (-75.470, 35.600), (-75.473, 35.609), (-75.476, 35.617), (-75.479, 35.626)],
+    "buxton": [(-75.527, 35.248), (-75.521, 35.257), (-75.516, 35.266), (-75.511, 35.276), (-75.507, 35.288), (-75.503, 35.300),
+               (-75.540, 35.244), (-75.555, 35.240), (-75.536, 35.262), (-75.545, 35.270)],
+    "avon": [(-75.503, 35.330), (-75.506, 35.342), (-75.509, 35.354), (-75.512, 35.366)],
+    "pea": [(-75.480, 35.680), (-75.486, 35.694), (-75.491, 35.708), (-75.497, 35.722), (-75.505, 35.737), (-75.514, 35.750), (-75.524, 35.762)],
+    "island": [(-75.47, 35.62), (-75.49, 35.52), (-75.51, 35.42), (-75.55, 35.27), (-75.62, 35.24), (-75.70, 35.22)],
 }
-counters = dict.fromkeys(POOLS, 0)
+SPANS = {"island": [0.14, 0.22, 0.3, 0.18], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1]}
+LABELS = {"rodanthe": "Rodanthe", "buxton": "Buxton", "avon": "Avon", "pea": "Pea Island", "island": "Hatteras Island"}
+PHOTOS = {
+    "houses": [(PH_DEBRIS2, "Debris after a collapse, Ocean Drive, Rodanthe"), (PH_OCEAN_A, "After a collapse, Ocean Drive, Rodanthe"),
+               (PH_DEBRIS4, "Park Service crews, Rodanthe"), (PH_OCEAN_B, "Ocean Drive, Rodanthe"),
+               (PH_DEBRIS5, "Searching for debris north of the Rodanthe Pier"), (PH_TRUCK, "North of the Rodanthe Pier"),
+               (PH_DEBRIS6, "Collected debris, Rodanthe"), (PH_OCEAN_C, "Ocean Drive, Rodanthe"), (PH_CREW, "Collecting debris, Rodanthe"),
+               (PH_DEBRIS3, "Ocean Drive, Rodanthe"), (PH_VOL, "Volunteers clean the beach, Rodanthe"), (PH_OCEAN_D, "Ocean Drive, Rodanthe"),
+               (PH_VOL2, "Beach cleanup, Rodanthe")],
+    "lighthouse": [(PH_LH_NOW, "Cape Hatteras Lighthouse"), (PH_LH_2020, "Cape Hatteras Lighthouse, 2020"),
+                   (PH_LH_SHADOW, "Cape Hatteras Lighthouse"), (PH_LH_BEFORE, "Cape Hatteras Lighthouse")],
+    "sand": [(PH_NOURISH, "Pumping sand north of Buxton, July 2022")],
+}
+VIEW_PLACE = {"houses": "rodanthe", "lighthouse": "buxton", "sand": "buxton"}
+used_views: set = set()
+view_next = dict.fromkeys(SHORES, 0)
+photo_uses: dict = {}
+
+
+def next_view(place):
+    pts, spans = SHORES[place], SPANS.get(place, SPANS[None])
+    for _ in range(len(pts) * len(spans)):
+        k = view_next[place]
+        view_next[place] += 1
+        lon, lat = pts[k % len(pts)]
+        span = spans[(k // len(pts)) % len(spans)]
+        key = (round(lon, 2), round(lat, 2), round(span, 2))
+        if key not in used_views:
+            used_views.add(key)
+            return sat(near(lon, lat, span), LABELS[place])
+    raise SystemExit(f"out of fresh views for {place}")
+
+
+view_last: dict = {}
+view_count: dict = {}
+SHIFTS = [(0, 0, 1.0), (0.18, 0, 1.0), (-0.18, 0, 1.0), (0, 0.15, 1.0), (0, -0.15, 1.0), (0, 0, 1.3), (0, 0, 0.8),
+          (0.2, 0.12, 1.15), (-0.2, -0.12, 1.15), (0.12, -0.15, 0.85), (-0.12, 0.15, 0.85)]
+
+
+def fresh_view(vw, t):
+    """A hand-placed view seen too recently or too often becomes a shifted / reframed one of the same spot, so the
+    picture changes but the place stays (ep 11 v1 showed one Buxton crop 17 times)."""
+    for dx, dy, z in SHIFTS:
+        span = round(vw["span"] * z, 3)
+        lon, lat = round(vw["lon"] + dx * vw["span"], 4), round(vw["lat"] + dy * vw["span"] * 9 / 16, 4)
+        key = (round(lon, 2), round(lat, 2), round(span, 2))
+        if view_count.get(key, 0) < 3 and t - view_last.get(key, -1e9) >= 75:
+            view_count[key] = view_count.get(key, 0) + 1
+            view_last[key] = t
+            used_views.add(key)
+            return {**vw, "lon": lon, "lat": lat, "span": span}
+    raise SystemExit(f"no fresh framing left for {vw}")
+
+
+def filler(group, t):
+    for name, label in PHOTOS.get(group, []):
+        uses = photo_uses.get(name, [])
+        if len(uses) < PHOTO_MAX and all(t - u >= PHOTO_GAP for u in uses):
+            photo_uses.setdefault(name, []).append(t)
+            return pic(name, label)
+    return next_view(VIEW_PLACE.get(group, group))
+
+
+def village(text):
+    hits = {k: len(re.findall(k, text, re.I)) for k in ("Rodanthe", "Buxton", "Avon")}
+    return max(hits, key=hits.get).lower() if any(hits.values()) else None
 
 
 def topic_of(text, chapter):
-    if re.search(r"lighthouse|Lighthouse(?! Road)|tower|groin|seawall|Academy|brick|1870|1999", text):
+    if re.search(r"lighthouse|Lighthouse(?! Road)|tower|groin|seawall|Academy|brick|1870|1999|keepers", text):
         return "lighthouse"
-    if re.search(r"debris|collapse|fall|fell|insur|payout|FEMA|torn down|tear|stilts|rental|house", text):
-        return "houses"
+    if re.search(r"nourish|sand onto|cubic|pumped|pumping", text):
+        return "sand"
     if re.search(r"Pea Island|Oregon|Bonner|Basnight|ferry|Stumpy|nor'easter|Visitor Center|sandbags|one lane", text):
         return "pea"
-    if re.search(r"Buxton|Avon|nourish|sand onto|cubic", text):
+    if re.search(r"Avon", text):
+        return "avon"
+    if re.search(r"debris|collapse|fall|fell|insur|payout|FEMA|torn down|tear|stilts|rental|house", text):
+        return "houses" if village(text) in (None, "rodanthe") else village(text)
+    if re.search(r"Buxton", text):
         return "buxton"
     if re.search(r"Rodanthe|S-curves|Jug|Pamlico", text):
         return "rodanthe"
@@ -395,7 +467,10 @@ def topic(para_text, at, chapter):
             sentence = part
             break
         seen += k
-    return topic_of(sentence, chapter) or topic_of(para_text, chapter) or CHAPTER_DEFAULT[chapter]
+    t = topic_of(sentence, chapter)
+    if t == "houses" and village(para_text) not in (None, "rodanthe") and village(sentence) is None:
+        t = village(para_text)  # "the houses" in a paragraph about Buxton are Buxton's
+    return t or topic_of(para_text, chapter) or CHAPTER_DEFAULT[chapter]
 
 
 def _phrase_index(words, phrase):
@@ -405,6 +480,24 @@ def _phrase_index(words, phrase):
     return hits[0] if hits else None
 
 
+# Hand-placed photos and views count against the limits before any filler is chosen.
+word_base = 0
+for ch in chapters:
+    for para in ch["paragraphs"]:
+        pm = Paragraph.model_validate(para)
+        for sh, at in zip(para["shots"], pm.anchor_indices()):
+            if sh["type"] == "photo":
+                photo_uses.setdefault(sh["photo"], []).append((word_base + at) * SEC_WORD)
+            t = (word_base + at) * SEC_WORD
+            for st in (sh.get("map") or {}).get("steps", []):
+                if st.get("view") and not st.get("compare"):
+                    st["view"] = fresh_view(st["view"], t)
+                elif st.get("view"):
+                    vw = st["view"]
+                    used_views.add((round(vw["lon"], 2), round(vw["lat"], 2), round(vw["span"], 2)))
+        word_base += len(para["text"].split()) + 8
+
+word_base = 0
 for ch in chapters:
     for para in ch["paragraphs"]:
         for sh in para["shots"]:  # drop until=None placeholders (the wipe then starts at the next step / runs alone)
@@ -418,6 +511,14 @@ for ch in chapters:
         if pm.ask_index() is not None:
             marks.add(pm.ask_index())
         n = len(para["text"].split())
+        STAT_WORDS = 9  # a stat card stays whole for ~4 s (count, label), then pictures may follow
+        anchors0 = pm.anchor_indices()
+        stat_ends = set()
+        for sh, start in zip(para["shots"], anchors0):
+            later = [x for x in anchors0 if x > start]
+            if sh["type"] == "stat" and (min(later) if later else n) - start > STAT_WORDS + 4:
+                marks.add(start + STAT_WORDS)
+                stat_ends.add(start + STAT_WORDS)
         stops = sorted(marks | {0}) + [n]
         words = para["text"].split()
         blocks = [(min(idx), max(idx)) for idx in pm.step_indices() if len(idx) > 1]
@@ -427,6 +528,8 @@ for ch in chapters:
             nxt = min(later) if later else n
             if sh["type"] in ("document", "chart"):  # a document or a chart holds until the next hand-placed shot
                 blocks.append((start, nxt))
+            elif sh["type"] == "stat":
+                blocks.append((start, nxt if nxt - start <= STAT_WORDS + 4 else start + STAT_WORDS))
             for st in (sh.get("map") or {}).get("steps", []):  # a wipe keeps the screen until it has finished
                 if st.get("compare"):
                     until = st["compare"].get("until")
@@ -436,16 +539,17 @@ for ch in chapters:
         for a, b in zip(stops, stops[1:]):
             inside = any(lo <= a and b <= hi for lo, hi in blocks)
             parts = 0 if inside else (b - a - 1) // MAX_WORDS
-            for j in range(1, parts + 1):
-                at = a + (b - a) * j // (parts + 1)
+            opens = a == 0 and min(anchors) > 4  # a paragraph without its own first picture: give it one
+            spots = ([a] if a in stat_ends or opens else []) + [a + (b - a) * j // (parts + 1) for j in range(1, parts + 1)]
+            for at in spots:
                 group = topic(para["text"], at, ch["title"])
-                shot = json.loads(json.dumps(POOLS[group][counters[group] % len(POOLS[group])]))
-                counters[group] += 1
+                shot = json.loads(json.dumps(filler(group, (word_base + at) * SEC_WORD)))
                 shot["at"] = at
                 new.append(shot)
         if new:
             pos = dict(zip(map(id, para["shots"]), anchors))
             para["shots"] = sorted(para["shots"] + new, key=lambda sh: pos.get(id(sh), sh["at"] if isinstance(sh["at"], int) else 0))
+        word_base += len(para["text"].split()) + 8
 
 # Between close views a flight passes through coarse imagery for a second: cut instead. Wide-to-wide moves still fly.
 prev_span = None

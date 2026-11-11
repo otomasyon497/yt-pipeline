@@ -28,7 +28,7 @@
           "view": {
            "lon": -78.5,
            "lat": 35.4,
-           "span": 9
+           "span": 9.0
           },
           "places": [
            {
@@ -68,12 +68,6 @@
         "label": "Collapsed on Cape Hatteras National Seashore beaches since 2020",
         "source": "National Park Service, Cape Hatteras National Seashore, Aug 2026"
        }
-      },
-      {
-       "type": "photo",
-       "at": 28,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -128,21 +122,10 @@
        "on_screen_text": "Rodanthe, March 2023"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 27,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -205,12 +188,6 @@
        }
       },
       {
-       "type": "photo",
-       "at": 6,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
-      },
-      {
        "type": "map",
        "at": "That is about",
        "map": {
@@ -237,22 +214,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53752082612.jpg",
+       "on_screen_text": "After a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -266,7 +231,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
+           "lon": -75.4554,
            "lat": 35.595,
            "span": 0.07
           },
@@ -281,8 +246,7 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -338,7 +302,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
+           "lon": -75.465,
            "lat": 35.45,
            "span": 0.75
           },
@@ -348,10 +312,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "photo",
@@ -392,31 +368,20 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 15,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe, north end"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 30,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328604.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ],
      "ask": {
@@ -479,9 +444,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
-           "lat": 35.45,
-           "span": 0.3
+           "lon": -75.47,
+           "lat": 35.62,
+           "span": 0.14
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -519,16 +484,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.52,
-           "lat": 35.4,
-           "span": 0.12
+           "lon": -75.49,
+           "lat": 35.52,
+           "span": 0.14
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Island, Avon"
+       "on_screen_text": "Hatteras Island"
       },
       {
        "type": "map",
@@ -554,16 +519,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.7,
-           "lat": 35.22,
-           "span": 0.08
+           "lon": -75.51,
+           "lat": 35.42,
+           "span": 0.14
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Village"
+       "on_screen_text": "Hatteras Island"
       },
       {
        "type": "stat",
@@ -581,15 +546,15 @@
         "steps": [
          {
           "view": {
-           "lon": -75.48,
-           "lat": 35.62,
-           "span": 0.12
+           "lon": -75.55,
+           "lat": 35.27,
+           "span": 0.14
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Rodanthe and Pea Island"
+       "on_screen_text": "Hatteras Island"
       },
       {
        "type": "map",
@@ -598,9 +563,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
-           "lat": 35.45,
-           "span": 0.3
+           "lon": -75.62,
+           "lat": 35.24,
+           "span": 0.14
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -616,16 +581,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.52,
-           "lat": 35.4,
-           "span": 0.12
+           "lon": -75.7,
+           "lat": 35.22,
+           "span": 0.14
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Island, Avon"
+       "on_screen_text": "Hatteras Island"
       },
       {
        "type": "map",
@@ -634,16 +599,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.7,
-           "lat": 35.22,
-           "span": 0.08
+           "lon": -75.47,
+           "lat": 35.62,
+           "span": 0.22
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Village"
+       "on_screen_text": "Hatteras Island"
       },
       {
        "type": "map",
@@ -652,16 +617,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.48,
-           "lat": 35.62,
-           "span": 0.12
+           "lon": -75.49,
+           "lat": 35.52,
+           "span": 0.22
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe and Pea Island"
+       "on_screen_text": "Hatteras Island"
       }
      ]
     },
@@ -724,21 +689,10 @@
        }
       },
       {
-       "type": "map",
-       "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.6,
-           "lat": 35.45,
-           "span": 0.3
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Hatteras Island"
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Buxton beach nourishment in progress, July 2022.jpg",
+       "on_screen_text": "Pumping sand north of Buxton, July 2022"
       },
       {
        "type": "map",
@@ -773,16 +727,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.52,
-           "lat": 35.4,
-           "span": 0.12
+           "lon": -75.521,
+           "lat": 35.257,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Island, Avon"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -791,16 +745,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.7,
-           "lat": 35.22,
-           "span": 0.08
+           "lon": -75.516,
+           "lat": 35.266,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Village"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "stat",
@@ -810,23 +764,6 @@
         "label": "Sand Isabel left on parts of Highway 12, 2003",
         "source": "US Geological Survey"
        }
-      },
-      {
-       "type": "map",
-       "at": 45,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.48,
-           "lat": 35.62,
-           "span": 0.12
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe and Pea Island"
       }
      ]
     },
@@ -846,33 +783,67 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 8,
-       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.511,
+           "lat": 35.276,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 16,
-       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.507,
+           "lat": 35.288,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "photo",
        "at": "And the first",
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 31,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.503,
+           "lat": 35.3,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     }
@@ -902,26 +873,38 @@
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 17,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.06
+           "lon": -75.54,
+           "lat": 35.244,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "The lighthouse today"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
-       "at": 22,
-       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.555,
+           "lat": 35.24,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -936,12 +919,6 @@
         "label": "From the ocean in 1970",
         "source": "National Park Service, Moving the Cape Hatteras Lighthouse"
        }
-      },
-      {
-       "type": "photo",
-       "at": 5,
-       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       },
       {
        "type": "map",
@@ -970,16 +947,40 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 18,
-       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.536,
+           "lat": 35.262,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 25,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.545,
+           "lat": 35.27,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -999,7 +1000,8 @@
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -1013,26 +1015,38 @@
       },
       {
        "type": "map",
-       "at": 13,
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.06
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "The lighthouse today"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
-       "at": 20,
-       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.516,
+           "lat": 35.266,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -1041,7 +1055,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.515,
+           "lon": -75.5042,
            "lat": 35.262,
            "span": 0.06
           },
@@ -1052,10 +1066,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 33,
-       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.511,
+           "lat": 35.276,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "stat",
@@ -1074,7 +1100,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
        "type": "stat",
@@ -1086,15 +1113,26 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 16,
-       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.507,
+           "lat": 35.288,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "photo",
        "at": 25,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
@@ -1104,33 +1142,69 @@
         "steps": [
          {
           "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.06
+           "lon": -75.503,
+           "lat": 35.3,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "The lighthouse today"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 44,
-       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.54,
+           "lat": 35.244,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 53,
-       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.555,
+           "lat": 35.24,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 62,
-       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.536,
+           "lat": 35.262,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -1144,10 +1218,21 @@
        "on_screen_text": "4,830 tons of brick"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.545,
+           "lat": 35.27,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -1156,15 +1241,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.06
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "The lighthouse today"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "stat",
@@ -1185,21 +1271,44 @@
        }
       },
       {
-       "type": "photo",
-       "at": 44,
-       "photo": "File:Lighthouse at Cape Hatteras National Seashore. NPS-Michael B. Edwards (18497979278).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.516,
+           "lat": 35.266,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
-       "at": 52,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "type": "map",
+       "at": 53,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.511,
+           "lat": 35.276,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     },
     {
-     "text": "Today it stands about fifteen hundred feet from the ocean again. Here is that corner of Buxton in April 1985, and this March. Just north of the old site runs Old Lighthouse Road. One of the houses that fell this February stood on it.",
+     "text": "Today it stands about fifteen hundred feet from the ocean again. Here is that corner of Buxton in August 1985, and this October. Just north of the old site runs Old Lighthouse Road. One of the houses that fell this February stood on it.",
      "shots": [
       {
        "type": "photo",
@@ -1208,10 +1317,21 @@
        "on_screen_text": "After Hurricane Isabel, September 2003"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 5,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.507,
+           "lat": 35.288,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -1225,8 +1345,8 @@
            "span": 0.11
           },
           "compare": {
-           "before": "1985-04-26",
-           "after": "2026-03-01",
+           "before": "1985-08-16",
+           "after": "2026-10-27",
            "source": "landsat",
            "seconds": 2.4,
            "until": "and this"
@@ -1285,16 +1405,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.503,
+           "lat": 35.3,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -1308,7 +1428,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
+           "lon": -75.5094,
            "lat": 35.258,
            "span": 0.07
           },
@@ -1397,9 +1517,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.49,
-           "lat": 35.73,
-           "span": 0.06
+           "lon": -75.48,
+           "lat": 35.68,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1414,16 +1534,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.06
+           "lon": -75.486,
+           "lat": 35.694,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, NC 12"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1432,7 +1552,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
+           "lon": -75.5242,
            "lat": 35.775,
            "span": 0.06
           },
@@ -1458,16 +1578,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.485,
-           "lat": 35.705,
-           "span": 0.06
+           "lon": -75.491,
+           "lat": 35.708,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, the dune line"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1476,16 +1596,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.497,
+           "lat": 35.722,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Oregon Inlet"
+       "on_screen_text": "Pea Island"
       }
      ]
     },
@@ -1499,7 +1619,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
+           "lon": -75.5458,
            "lat": 35.775,
            "span": 0.06
           },
@@ -1516,9 +1636,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.49,
-           "lat": 35.73,
-           "span": 0.06
+           "lon": -75.505,
+           "lat": 35.737,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1543,15 +1663,15 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.06
+           "lon": -75.514,
+           "lat": 35.75,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Pea Island, NC 12"
+       "on_screen_text": "Pea Island"
       }
      ]
     },
@@ -1582,16 +1702,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.485,
-           "lat": 35.705,
-           "span": 0.06
+           "lon": -75.524,
+           "lat": 35.762,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, the dune line"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1600,16 +1720,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.48,
+           "lat": 35.68,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Oregon Inlet"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1663,7 +1783,7 @@
          {
           "at": "Since July",
           "view": {
-           "lon": -75.475,
+           "lon": -75.4642,
            "lat": 35.618,
            "span": 0.06
           },
@@ -1680,7 +1800,7 @@
          {
           "at": "out over",
           "view": {
-           "lon": -75.475,
+           "lon": -75.4858,
            "lat": 35.618,
            "span": 0.06
           }
@@ -1701,14 +1821,14 @@
       },
       {
        "type": "map",
-       "at": 41,
+       "at": 43,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1718,21 +1838,21 @@
       },
       {
        "type": "map",
-       "at": 48,
+       "at": 49,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
+           "lon": -75.465,
+           "lat": 35.585,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -1746,7 +1866,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.495,
+           "lon": -75.4824,
            "lat": 35.716,
            "span": 0.07
           },
@@ -1772,9 +1892,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.49,
-           "lat": 35.73,
-           "span": 0.06
+           "lon": -75.486,
+           "lat": 35.694,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1790,16 +1910,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.06
+           "lon": -75.491,
+           "lat": 35.708,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, NC 12"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1856,16 +1976,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.485,
-           "lat": 35.705,
-           "span": 0.06
+           "lon": -75.505,
+           "lat": 35.737,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, the dune line"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1874,16 +1994,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.514,
+           "lat": 35.75,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Oregon Inlet"
+       "on_screen_text": "Pea Island"
       }
      ]
     },
@@ -1897,7 +2017,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.495,
+           "lon": -75.5076,
            "lat": 35.716,
            "span": 0.07
           },
@@ -1923,9 +2043,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.49,
-           "lat": 35.73,
-           "span": 0.06
+           "lon": -75.524,
+           "lat": 35.762,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -1959,15 +2079,15 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.06
+           "lon": -75.48,
+           "lat": 35.68,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Pea Island, NC 12"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1976,16 +2096,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.485,
-           "lat": 35.705,
-           "span": 0.06
+           "lon": -75.486,
+           "lat": 35.694,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, the dune line"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -1994,16 +2114,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
+           "lon": -75.491,
+           "lat": 35.708,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Oregon Inlet"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -2012,9 +2132,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.49,
-           "lat": 35.73,
-           "span": 0.06
+           "lon": -75.497,
+           "lat": 35.722,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -2026,7 +2146,7 @@
      ]
     },
     {
-     "text": "It reopened on October 29 with one lane, controlled by flaggers, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this February. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
+     "text": "It reopened on October 29 with one lane, controlled by flaggers, behind rebuilt dunes and sandbags. The state is now discussing moving a one-mile section west. Here is that spot in August 1985, and this October. We measured about a hundred metres of retreat here since 1985. On an island this narrow, west does not go very far.",
      "shots": [
       {
        "type": "map",
@@ -2052,16 +2172,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.69,
-           "span": 0.06
+           "lon": -75.505,
+           "lat": 35.737,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, NC 12"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -2070,16 +2190,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.485,
-           "lat": 35.705,
-           "span": 0.06
+           "lon": -75.514,
+           "lat": 35.75,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pea Island, the dune line"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -2094,7 +2214,7 @@
           },
           "compare": {
            "before": "1985-08-16",
-           "after": "2026-02-13",
+           "after": "2026-10-27",
            "source": "landsat",
            "seconds": 2.4,
            "until": "and this"
@@ -2129,23 +2249,6 @@
         "source": "Our measurement, Landsat 5, 8 and 9",
         "note": "About 330 feet"
        }
-      },
-      {
-       "type": "map",
-       "at": 52,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.535,
-           "lat": 35.775,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Oregon Inlet"
       }
      ]
     }
@@ -2165,7 +2268,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
+           "lon": -75.465,
            "lat": 35.45,
            "span": 0.75
           },
@@ -2187,32 +2290,20 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
+       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 15,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53752082612.jpg",
+       "on_screen_text": "After a collapse, Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -2230,38 +2321,38 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.465,
-           "lat": 35.58,
-           "span": 0.06
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Rodanthe and Waves"
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
-       "at": 14,
+       "at": 15,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.475,
-           "lat": 35.618,
-           "span": 0.06
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The S-curves"
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -2301,7 +2392,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
+           "lon": -75.4554,
            "lat": 35.595,
            "span": 0.07
           },
@@ -2314,25 +2405,14 @@
       {
        "type": "photo",
        "at": 8,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 16,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe, north end"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328604.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
@@ -2343,37 +2423,26 @@
       {
        "type": "photo",
        "at": 33,
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+      },
+      {
+       "type": "photo",
+       "at": 42,
+       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
+       "on_screen_text": "North of the Rodanthe Pier"
+      },
+      {
+       "type": "photo",
+       "at": 50,
        "photo": "File:Collected debris associated with March 13 house collapse.jpg",
        "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "photo",
-       "at": 42,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 50,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
-      },
-      {
-       "type": "map",
        "at": 59,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328699.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ]
     },
@@ -2387,7 +2456,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
+           "lon": -75.5094,
            "lat": 35.258,
            "span": 0.07
           },
@@ -2402,15 +2471,26 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 7,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.54,
+           "lat": 35.244,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -2419,15 +2499,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
+           "lon": -75.555,
+           "lat": 35.24,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Buxton, the oceanfront"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "stat",
@@ -2439,10 +2520,21 @@
        }
       },
       {
-       "type": "photo",
-       "at": 28,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.536,
+           "lat": 35.262,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -2468,8 +2560,26 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
+           "lon": -75.545,
+           "lat": 35.27,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 53,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.527,
+           "lat": 35.248,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -2477,25 +2587,43 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
-       "at": 53,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
-      },
-      {
-       "type": "photo",
+       "type": "map",
        "at": 62,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.516,
+           "lat": 35.266,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 71,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.511,
+           "lat": 35.276,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -2509,7 +2637,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
+           "lon": -75.5346,
            "lat": 35.258,
            "span": 0.07
           },
@@ -2524,7 +2652,8 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -2534,8 +2663,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
+           "lon": -75.507,
+           "lat": 35.288,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -2543,13 +2672,25 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 20,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.503,
+           "lat": 35.3,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "stat",
@@ -2572,44 +2713,22 @@
        "on_screen_text": "Park Service crews collect debris, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53752082612.jpg",
+       "on_screen_text": "After a collapse, Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 15,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
+       "on_screen_text": "Park Service crews, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 23,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe, north end"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328604.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "stat",
@@ -2622,21 +2741,21 @@
       },
       {
        "type": "photo",
-       "at": 38,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "at": 40,
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
       },
       {
        "type": "photo",
-       "at": 46,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "at": 47,
+       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
+       "on_screen_text": "North of the Rodanthe Pier"
       },
       {
        "type": "photo",
        "at": 54,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       }
      ]
     },
@@ -2680,27 +2799,16 @@
        }
       },
       {
-       "type": "map",
-       "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328699.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       }
      ]
     },
@@ -2714,7 +2822,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
+           "lon": -75.4554,
            "lat": 35.595,
            "span": 0.07
           },
@@ -2733,22 +2841,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
@@ -2758,8 +2854,8 @@
       {
        "type": "photo",
        "at": 26,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:Volunteers clean up beach debris.jpg",
+       "on_screen_text": "Volunteers clean the beach, Rodanthe"
       }
      ]
     },
@@ -2816,7 +2912,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
+           "lon": -75.5094,
            "lat": 35.258,
            "span": 0.07
           },
@@ -2832,8 +2928,8 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
+           "lon": -75.54,
+           "lat": 35.244,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -2841,25 +2937,61 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 18,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.555,
+           "lat": 35.24,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 27,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.536,
+           "lat": 35.262,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 36,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.545,
+           "lat": 35.27,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -2867,27 +2999,22 @@
      "text": "It was not always like this. From 1988 to 1994, a rule called Upton-Jones paid owners to move or demolish houses that were about to fall. More than four hundred homes in twenty-seven states were moved or torn down under it. Congress repealed it in 1994. Lawmakers worried about the cost; one said that policyholder benefits come at the government's expense.",
      "shots": [
       {
-       "type": "map",
+       "type": "photo",
+       "at": 0,
+       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
+       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+      },
+      {
+       "type": "photo",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Rodanthe"
+       "photo": "File:Truck travels along beach north of Rodanthe Pier.jpg",
+       "on_screen_text": "North of the Rodanthe Pier"
       },
       {
        "type": "photo",
        "at": 17,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
+       "on_screen_text": "Collected debris, Rodanthe"
       },
       {
        "type": "stat",
@@ -2899,21 +3026,10 @@
        }
       },
       {
-       "type": "map",
-       "at": 33,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "type": "photo",
+       "at": 35,
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753328699.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "map",
@@ -2924,18 +3040,17 @@
           "view": {
            "lon": -78.5,
            "lat": 35.4,
-           "span": 9
+           "span": 9.0
           }
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
        "type": "photo",
        "at": 51,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       }
      ]
     },
@@ -2949,7 +3064,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
+           "lon": -75.465,
            "lat": 35.45,
            "span": 0.75
           },
@@ -2959,33 +3074,21 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rodanthe, north end"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 17,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "photo": "File:Volunteers clean up beach debris.jpg",
+       "on_screen_text": "Volunteers clean the beach, Rodanthe"
       },
       {
        "type": "photo",
        "at": 26,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753321449.jpg",
        "on_screen_text": "Ocean Drive, Rodanthe"
       }
      ]
@@ -3004,24 +3107,42 @@
       },
       {
        "type": "photo",
-       "at": 10,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "at": 9,
+       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
+       "on_screen_text": "Beach cleanup, Rodanthe"
       },
       {
        "type": "map",
-       "at": 20,
+       "at": 16,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
+       },
+       "on_screen_text": "Rodanthe"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
        },
        "on_screen_text": "Rodanthe"
       },
@@ -3032,9 +3153,9 @@
         "steps": [
          {
           "view": {
-           "lon": -78.5,
+           "lon": -76.88,
            "lat": 35.4,
-           "span": 9
+           "span": 9.0
           }
          }
         ],
@@ -3042,10 +3163,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 37,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3054,15 +3187,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Buxton, the oceanfront"
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3076,7 +3210,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
+           "lon": -75.5346,
            "lat": 35.258,
            "span": 0.07
           },
@@ -3096,10 +3230,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.07
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3108,15 +3254,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3133,16 +3280,39 @@
        }
       },
       {
-       "type": "photo",
-       "at": 7,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
-       "at": 15,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "photo",
@@ -3153,8 +3323,8 @@
       {
        "type": "photo",
        "at": 31,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "photo": "File:Vehicles and staff on beach collecting beach debris.jpg",
+       "on_screen_text": "Collecting debris, Rodanthe"
       },
       {
        "type": "map",
@@ -3163,9 +3333,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3187,7 +3357,7 @@
           "view": {
            "lon": -78.5,
            "lat": 35.4,
-           "span": 9
+           "span": 9.0
           }
          }
         ],
@@ -3197,25 +3367,14 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Volunteers clean up beach debris.jpg",
+       "on_screen_text": "Volunteers clean the beach, Rodanthe"
       }
      ]
     }
@@ -3236,32 +3395,19 @@
          {
           "view": {
            "lon": -75.522,
-           "lat": 35.258,
+           "lat": 35.2521,
            "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Buxton beach nourishment in progress, July 2022.jpg",
+       "on_screen_text": "Pumping sand north of Buxton, July 2022"
       },
       {
        "type": "stat",
@@ -3274,14 +3420,14 @@
       },
       {
        "type": "map",
-       "at": 22,
+       "at": 23,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.53,
-           "lat": 35.27,
-           "span": 0.06
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3296,16 +3442,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.525,
-           "lat": 35.25,
-           "span": 0.06
+           "lon": -75.521,
+           "lat": 35.257,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Cape Hatteras"
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -3392,16 +3538,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.5,
-           "lat": 35.3,
-           "span": 0.06
+           "lon": -75.516,
+           "lat": 35.266,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Between Avon and Buxton"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -3410,22 +3556,34 @@
         "steps": [
          {
           "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
+           "lon": -75.511,
+           "lat": 35.276,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Buxton, the oceanfront"
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 28,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.503,
+           "lat": 35.33,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Avon"
       },
       {
        "type": "stat",
@@ -3444,33 +3602,69 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
+           "lon": -75.506,
+           "lat": 35.342,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Avon"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 56,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.509,
+           "lat": 35.354,
+           "span": 0.05
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Avon"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 65,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.507,
+           "lat": 35.288,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 74,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.503,
+           "lat": 35.3,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -3479,15 +3673,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.54,
+           "lat": 35.244,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rodanthe"
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -3501,7 +3696,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
+           "lon": -75.4806,
            "lat": 35.595,
            "span": 0.07
           },
@@ -3531,14 +3726,14 @@
       },
       {
        "type": "map",
-       "at": 13,
+       "at": 14,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3553,16 +3748,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
-           "span": 0.06
+           "lon": -75.479,
+           "lat": 35.626,
+           "span": 0.09
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3576,7 +3771,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.522,
+           "lon": -75.5346,
            "lat": 35.258,
            "span": 0.07
           },
@@ -3587,15 +3782,38 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
+       "photo": "File:Buxton beach nourishment in progress, July 2022.jpg",
+       "on_screen_text": "Pumping sand north of Buxton, July 2022"
+      },
+      {
+       "type": "map",
+       "at": 17,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.53,
-           "lat": 35.27,
-           "span": 0.06
+           "lon": -75.555,
+           "lat": 35.24,
+           "span": 0.08
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Buxton"
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.536,
+           "lat": 35.262,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -3606,57 +3824,21 @@
       },
       {
        "type": "map",
-       "at": 17,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.25,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Cape Hatteras"
-      },
-      {
-       "type": "map",
-       "at": 25,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.5,
-           "lat": 35.3,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Between Avon and Buxton"
-      },
-      {
-       "type": "map",
        "at": 34,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
+           "lon": -75.545,
+           "lat": 35.27,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Buxton, the oceanfront"
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -3671,7 +3853,7 @@
          {
           "view": {
            "lon": -75.468,
-           "lat": 35.595,
+           "lat": 35.6009,
            "span": 0.07
           },
           "date": "2026-10-20/2026-11-08"
@@ -3683,25 +3865,14 @@
       {
        "type": "photo",
        "at": 9,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753321449.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
+       "on_screen_text": "Beach cleanup, Rodanthe"
       },
       {
        "type": "stat",
@@ -3727,10 +3898,21 @@
        }
       },
       {
-       "type": "photo",
-       "at": 8,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ]
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3739,27 +3921,52 @@
         "steps": [
          {
           "view": {
-           "lon": -75.47,
-           "lat": 35.602,
+           "lon": -75.465,
+           "lat": 35.585,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        },
-       "on_screen_text": "Rodanthe, north end"
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
-       "at": 25,
-       "photo": "File:Collected debris associated with March 13 house collapse.jpg",
-       "on_screen_text": "Collected debris, Rodanthe"
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.47,
+           "lat": 35.6,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 34,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753021681.jpg",
-       "on_screen_text": "Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.473,
+           "lat": 35.609,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -3770,7 +3977,7 @@
           "view": {
            "lon": -75.468,
            "lat": 35.595,
-           "span": 0.07
+           "span": 0.091
           },
           "places": [
            {
@@ -3788,10 +3995,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 48,
-       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753242008.jpg",
-       "on_screen_text": "Debris after a collapse, Ocean Drive, Rodanthe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.476,
+           "lat": 35.617,
+           "span": 0.06
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rodanthe"
       }
      ]
     },
@@ -3820,7 +4039,8 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3830,16 +4050,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.53,
-           "lat": 35.27,
-           "span": 0.06
+           "lon": -75.512,
+           "lat": 35.366,
+           "span": 0.05
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Buxton"
+       "on_screen_text": "Avon"
       },
       {
        "type": "stat",
@@ -3849,23 +4069,6 @@
         "label": "Shoreline change at Avon, 1985 to 2026",
         "source": "Our measurement, Landsat 5, 8 and 9"
        }
-      },
-      {
-       "type": "map",
-       "at": 16,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.25,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ]
-       },
-       "on_screen_text": "Cape Hatteras"
       }
      ]
     }
@@ -3886,13 +4089,13 @@
       {
        "type": "photo",
        "at": 7,
-       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
-       "on_screen_text": "Cape Hatteras Lighthouse"
+       "photo": "File:Cape Hatteras Lighthouse inspection 12-06-2020 - 53554408139.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse, 2020"
       },
       {
        "type": "photo",
        "at": 14,
-       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "photo": "File:Cape Hatteras Lighthouse shadow (50068811063).jpg",
        "on_screen_text": "Cape Hatteras Lighthouse"
       },
       {
@@ -3903,7 +4106,7 @@
          {
           "view": {
            "lon": -75.522,
-           "lat": 35.258,
+           "lat": 35.2521,
            "span": 0.07
           },
           "places": [
@@ -3922,22 +4125,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 29,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.525,
-           "lat": 35.252,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The lighthouse today"
+       "photo": "File:Cape Hatteras Lighthouse Restoration Project 02-24-2024 - 53554250733.jpg",
+       "on_screen_text": "Cape Hatteras Lighthouse"
       }
      ]
     },
@@ -3966,8 +4157,7 @@
           ],
           "date": "2026-10-20/2026-11-08"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -3977,8 +4167,26 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
+           "lon": -75.524,
+           "lat": 35.762,
+           "span": 0.09
+          },
+          "date": "2026-10-20/2026-11-08"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pea Island"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.48,
+           "lat": 35.68,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
@@ -3986,13 +4194,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe"
-      },
-      {
-       "type": "photo",
-       "at": 14,
-       "photo": "File:National Park Service employees collect house collapse debris - 52749539471.jpg",
-       "on_screen_text": "Park Service crews, Rodanthe"
+       "on_screen_text": "Pea Island"
       },
       {
        "type": "map",
@@ -4001,7 +4203,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
+           "lon": -75.735,
            "lat": 35.45,
            "span": 0.75
           },
@@ -4023,7 +4225,7 @@
         "steps": [
          {
           "view": {
-           "lon": -75.468,
+           "lon": -75.4806,
            "lat": 35.595,
            "span": 0.07
           },
@@ -4040,16 +4242,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.6,
-           "lat": 35.45,
-           "span": 0.3
+           "lon": -75.527,
+           "lat": 35.248,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Island"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -4058,16 +4260,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.52,
-           "lat": 35.4,
-           "span": 0.12
+           "lon": -75.521,
+           "lat": 35.257,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Island, Avon"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -4078,7 +4280,7 @@
           "view": {
            "lon": -75.522,
            "lat": 35.258,
-           "span": 0.07
+           "span": 0.091
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4093,16 +4295,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.7,
-           "lat": 35.22,
-           "span": 0.08
+           "lon": -75.516,
+           "lat": 35.266,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Hatteras Village"
+       "on_screen_text": "Buxton"
       },
       {
        "type": "map",
@@ -4111,16 +4313,16 @@
         "steps": [
          {
           "view": {
-           "lon": -75.48,
-           "lat": 35.62,
-           "span": 0.12
+           "lon": -75.511,
+           "lat": 35.276,
+           "span": 0.1
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Rodanthe and Pea Island"
+       "on_screen_text": "Buxton"
       }
      ]
     },
@@ -4138,38 +4340,38 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.465,
-           "lat": 35.58,
+           "lon": -75.479,
+           "lat": 35.626,
            "span": 0.06
           },
           "date": "2026-10-20/2026-11-08"
          }
         ]
        },
-       "on_screen_text": "Rodanthe and Waves"
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 16,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -75.475,
-           "lat": 35.618,
-           "span": 0.06
+           "lon": -75.462,
+           "lat": 35.575,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The S-curves"
+       "on_screen_text": "Rodanthe"
       },
       {
        "type": "map",
@@ -4178,9 +4380,9 @@
         "steps": [
          {
           "view": {
-           "lon": -75.466,
-           "lat": 35.588,
-           "span": 0.06
+           "lon": -75.465,
+           "lat": 35.585,
+           "span": 0.08
           },
           "date": "2026-10-20/2026-11-08"
          }
@@ -4251,28 +4453,16 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -75.515,
-           "lat": 35.262,
-           "span": 0.06
-          },
-          "date": "2026-10-20/2026-11-08"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Buxton, the oceanfront"
+       "photo": "File:Photo of debris associated with house collapse at 24131 Ocean Dr., Rodanthe - 53753321449.jpg",
+       "on_screen_text": "Ocean Drive, Rodanthe"
       },
       {
        "type": "photo",
        "at": 16,
-       "photo": "File:National Park Service employees look for house collapse debris on beach north of the Rodanthe Pier.jpg",
-       "on_screen_text": "Searching for debris north of the Rodanthe Pier"
+       "photo": "File:Volunteers participate in beach debris cleanup - 52752007055.jpg",
+       "on_screen_text": "Beach cleanup, Rodanthe"
       }
      ],
      "ask": {

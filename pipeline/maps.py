@@ -36,6 +36,7 @@ WORLD_BANK_CREDIT = "Data: World Bank, World Development Indicators (CC BY 4.0).
 _WORLD_IMAGES: dict[str, dict] = {}
 MIN_VISIBLE = 1.6  # seconds an overlay stays up even if the next shot starts sooner
 S2_MAX_SPAN = 2.0  # views narrower than this (degrees) get Sentinel-2 10 m imagery; wider mosaics mixed dates into a patchwork
+S2_FIRST_DAY = "2016-01-01"  # dated views before this use Landsat (Sentinel-2 coverage starts mid-2015, sparse that year)
 S2_SEA_SPAN = 1.5  # wider than this: Sentinel-2 on land only (sea from Blue Marble, no patchwork of days)  # out_dir -> world image placements already written in this run
 
 
@@ -834,6 +835,16 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             if key in done_s2:
                 continue
             done_s2.append(key)
+            day = c.get("date")
+            if day and day.split("/")[-1] < S2_FIRST_DAY:
+                # Sentinel-2 has nothing this early: the view fell back to Blue Marble's 500 m pixels and showed a
+                # blurred blob for seconds (Langtang 2014 and October 2015 views). Landsat reaches back to 1982.
+                r = landsat.mosaic(bx, round(1.5 * WIDTH), out_dir / f"{block_id}_{len(rasters) + 1}_ls.webp", day,
+                                   gibs._feather)
+                if r is None:
+                    raise RuntimeError(f"{block_id}: no clear Landsat day covers the view in {day}; pick another date")
+                rasters.append(r)
+                continue
             try:
                 r = sentinel.mosaic(bx, round(1.5 * WIDTH), out_dir / f"{block_id}_{len(rasters) + 1}_s2.webp", c.get("date"),
                                     gibs._feather,

@@ -30,6 +30,11 @@ _RANGE = re.compile(r"\d\s*(?:%|[a-z]+)?\s*(?:[-\u2013\u2192]|to)\s*[$\u20ac\u00
 _DATE = re.compile(r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d", re.IGNORECASE)
 # Tolls never count: a death toll running up through wrong numbers ("1,443 dead") is false on screen and grim.
 _TOLL = re.compile(r"\b(?:dead|deaths?|died|killed|missing|victims?|injured|bodies)\b", re.IGNORECASE)
+# Approximate or open-ended figures never count: "~100 m" passing "~90 m", "100+ homes" passing "97+ homes" and
+# "up to 45 %" passing "up to 30 %" are all false on screen.
+_APPROX = re.compile(r"[~≈+]|\bup to\b", re.IGNORECASE)
+# A stat card's count (StatScene: 10 frames in, 30 to count) plus about 1.5 s to read the final figure and its label.
+STAT_COUNT_FRAMES = 40 + round(1.5 * FPS)
 
 
 def count_up(text: str | None, any_unit: bool = False) -> dict | None:
@@ -38,7 +43,7 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     Labels count only with a currency or a known unit after the number; a stat card (`any_unit`) counts any
     number except a year on its own ("1963").
     """
-    if not text or _DATE.search(text) or _RANGE.search(text) or _TOLL.search(text):  # "May 15, 2026" would pass through "May 0, 2026"; "500-1,300" through "499-1,300"
+    if not text or _DATE.search(text) or _RANGE.search(text) or _TOLL.search(text) or _APPROX.search(text):  # "May 15, 2026" would pass through "May 0, 2026"; "500-1,300" through "499-1,300"
         return None
     m = _NUM.match(text)
     if not m:
@@ -46,6 +51,8 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     num, cur, post = m["num"], m["cur"], m["post"]
     if not cur and re.search(r"(?:^|\s)[A-Z]{1,4}\.?\s?$", m["pre"]):  # an identifier, not an amount: "HB 2279", "M 5.2", "No. 7"
         return None
+    if post.startswith(":") or (not cur and re.match(r"\s+[A-Z][a-z]", post) and not _UNIT.match(post)):
+        return None  # a clock time ("09:00") or an address ("46000 Ocean Drive"), not an amount
     value = float(num.replace(",", ""))
     if any_unit:
         year = not cur and "," not in num and value.is_integer() and 1000 <= value <= 2100
@@ -222,7 +229,10 @@ def to_timeline(lay: dict, script, media: dict, map_style: str, photo_fit: dict 
             "subtitle": None if src is None else src.subtitle,
             "chart": ({**src.chart.model_dump(), "reveal": [round(x * FPS) - u["startFrame"] for x in first["steps"]]}
                       if src is not None and src.chart else None),
-            "stat": ({**src.stat.model_dump(), "countUp": None if _TOLL.search(src.stat.label or "") else count_up(src.stat.value, any_unit=True)}
+            # No count on a toll, or on a card too short to finish counting and still be read (it showed "~90 m" with
+            # no label before the cut).
+            "stat": ({**src.stat.model_dump(), "countUp": None if _TOLL.search(src.stat.label or "")
+                      or u["drawFrames"] - u["transitionIn"] < STAT_COUNT_FRAMES else count_up(src.stat.value, any_unit=True)}
                      if src is not None and src.stat else None),
             "document": (docs or {}).get(u["id"]),
             "quote": None if src is None else src.quote,

@@ -74,8 +74,10 @@ const Bars: React.FC<{chart: ChartSpec; frame: number}> = ({chart, frame}) => {
 						</text>
 						<rect x={left} y={y} width={barMax} height={barH} fill={colors.panel} />
 						<rect x={left} y={y} width={w} height={barH} fill={i === hi ? colors.accent : OTHER} />
-						<text x={left + w + 24} y={y + barH * 0.74} fontFamily={display} fontSize={Math.min(74, rowH * 0.6)} fill={colors.text}>
-							{fmt(value * p, chart.unit, dec, keep)}
+						{/* The value appears whole as the bar lands: a label counting with the bar showed false figures
+						    mid-count ("102 MIN BEFORE" passing through "62 MIN BEFORE"). */}
+						<text x={left + w + 24} y={y + barH * 0.74} fontFamily={display} fontSize={Math.min(74, rowH * 0.6)} fill={colors.text} opacity={clamp01((p - 0.6) / 0.3)}>
+							{fmt(value, chart.unit, dec, keep)}
 						</text>
 					</g>
 				);

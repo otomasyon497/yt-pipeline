@@ -21,6 +21,10 @@ import timeline as tl  # noqa: E402
 
 SEC_PER_WORD = 0.425  # speaking time per word at the episode pace (pauses come from timeline.layout)
 HOLD_LIMIT = 6.5  # seconds without a new picture (stricter than prepare's 8 s note)
+REPEAT_GAP = 60.0  # seconds before the same photo or map view may come back
+PHOTO_MAX_USES = 3  # times one photo may appear in an episode
+VIEW_MAX_USES = 4  # times one map view may appear in an episode
+STAT_MIN_SEC = 2.5  # a stat card shorter than this is a flash: the label never becomes readable
 
 
 def fake_timings(script):
@@ -51,6 +55,88 @@ def holds(script) -> list[str]:
                 sec = (b - a) * SEC_PER_WORD
                 if sec > HOLD_LIMIT:
                     out.append(f"c{ci:02d}p{pi:02d} words {a}-{b}: {sec:.1f}s on one picture")
+    return out
+
+
+def _picture_keys(shot) -> list[tuple]:
+    """What a shot puts on screen, as comparable keys: the photo file, or each map step's camera."""
+    if shot.type == "photo" and shot.photo:
+        return [("photo", shot.photo)]
+    if shot.type == "map" and shot.map:
+        keys = []
+        for st in shot.map.steps:
+            if st.view:
+                keys.append(("view", round(st.view.lon, 2), round(st.view.lat, 2), round(st.view.span, 2)))
+            elif st.focus:
+                keys.append(("focus", tuple(sorted(str(f) for f in st.focus))))
+        return keys
+    return []
+
+
+def repeats(lay: dict) -> list[str]:
+    """Photos and map views that come back too often or too soon, pictures held too long across shots, and stat
+    cards too short to read. Ep 10-11 audits: one photo 8 times, five photos cycling 8-12 times each, the same map
+    crop back within a minute, the same view held 10-23 s over several shots, a 1.5-s stat card."""
+    out, last_seen, count = [], {}, {}
+    shots = [s for s in lay["shots"] if s["src"] is not None]
+    for s in shots:
+        name = s["src"].photo or "map view"
+        for key in _picture_keys(s["src"]):
+            t = s["start"]
+            count[key] = count.get(key, 0) + 1
+            if key in last_seen and last_seen[key][1] != s["id"] and t - last_seen[key][0] < REPEAT_GAP:
+                what = name if key[0] == "photo" else f"map view {key[1:]}"
+                out.append(f"{s['id']}: {what} again after {t - last_seen[key][0]:.0f}s (shown in {last_seen[key][1]}; "
+                           f"keep {REPEAT_GAP:.0f}s between repeats)")
+            last_seen[key] = (t, s["id"])
+    for key, n in count.items():
+        limit = PHOTO_MAX_USES if key[0] == "photo" else VIEW_MAX_USES
+        if n > limit:
+            out.append(f"{key[1] if key[0] == 'photo' else 'map view ' + str(key[1:])} used {n} times (max {limit})")
+    # One picture across consecutive shots: a photo followed by the same photo, or a map shot whose first camera is
+    # the previous map shot's last one, is still the same picture on screen.
+    run_start, prev_last = 0.0, None
+    for i, s in enumerate(shots):
+        keys = _picture_keys(s["src"])
+        end = shots[i + 1]["start"] if i + 1 < len(shots) else lay["total_frames"] / FPS
+        if not keys or keys[0] != prev_last:
+            run_start = s["start"]  # a new picture
+        if len(keys) > 1:  # the last camera of a multi-step map starts at its own step
+            run_start = s["steps"][-1] if s["steps"] else s["start"]
+        if keys and i + 1 < len(shots) and _picture_keys(shots[i + 1]["src"])[:1] == keys[-1:]:
+            pass  # the next shot continues this picture: judge the run where it ends
+        elif keys and end - run_start > HOLD_LIMIT + 1.5:
+            out.append(f"{s['id']}: the same picture for {end - run_start:.1f}s across shots (vary the view or cut away)")
+        prev_last = keys[-1] if keys else None
+        if s["src"].type == "stat" and end - s["start"] < STAT_MIN_SEC:
+            out.append(f"{s['id']}: stat card on screen {end - s['start']:.1f}s (min {STAT_MIN_SEC}s to read it)")
+    return out
+
+
+def compares(script) -> list[str]:
+    """Landsat before/after pairs: seasons must match (a summer 'before' against a winter 'after' shows a colour
+    change, not the coast), and mid-latitude winter scenes render dormant marsh maroon (ep 11, 'March 2026')."""
+    out = []
+    for ci, ch in enumerate(script.chapters, 1):
+        for pi, p in enumerate(ch.paragraphs, 1):
+            for k, sh in enumerate(p.shots, 1):
+                if sh.type != "map" or not sh.map:
+                    continue
+                for st in sh.map.steps:
+                    c = st.compare
+                    if not c or c.source == "modis":
+                        continue
+                    months = [int(d.split("/")[0][5:7]) for d in (c.before, c.after)]
+                    gap = abs(months[0] - months[1])
+                    if min(gap, 12 - gap) > 2:
+                        out.append(f"c{ci:02d}p{pi:02d}s{k:02d}: compare {c.before} vs {c.after}: seasons differ "
+                                   f"by {min(gap, 12 - gap)} months (keep within 2)")
+                    if c.source == "landsat" and abs(st.view.lat) > 25:
+                        winter = {11, 12, 1, 2, 3} if st.view.lat > 0 else {5, 6, 7, 8, 9}
+                        for d, m in zip((c.before, c.after), months):
+                            if m in winter:
+                                out.append(f"c{ci:02d}p{pi:02d}s{k:02d}: Landsat {d} is a winter scene "
+                                           f"(dormant vegetation turns maroon); pick a growing-season day")
     return out
 
 
@@ -109,6 +195,8 @@ def main():
     else:
         problems += wipes
     problems += holds(script)
+    problems += repeats(lay)
+    problems += compares(script)
     if not a.no_photos:
         problems += photos(script)
     for pr in problems:

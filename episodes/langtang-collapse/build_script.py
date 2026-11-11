@@ -379,7 +379,7 @@ def pic(name, label=None):
 # Chamoli, Sikkim and Thame). Every map view is now generated once from that place's spots x frame widths; a photo is
 # used at most PHOTO_MAX times, never within PHOTO_GAP seconds; distant disasters get their own place's views.
 SEC_WORD = 0.43
-PHOTO_MAX, PHOTO_GAP = 3, 75.0
+PHOTO_MAX, PHOTO_GAP = 3, 110.0  # estimated seconds run ~10 % long: v2 repeats came back 68-72 s apart
 SPOTS = {
     "source": [(85.52, 28.30), (85.50, 28.32), (85.48, 28.335), (85.53, 28.28), (85.51, 28.31), (85.495, 28.327), (85.54, 28.295)],
     "border": [(85.40, 28.32), (85.378, 28.28), (85.33, 28.39), (85.43, 28.335), (85.39, 28.30), (85.36, 28.36), (85.345, 28.375), (85.415, 28.328)],
@@ -446,11 +446,21 @@ def next_view(place):
     raise SystemExit(f"out of fresh views for {place}")
 
 
+def fam(name):
+    """Look-alike photos share one count: the Kyanjin snow-peak series and the two Tibet-side ISS frames (v2 showed
+    them 3-4 times in two minutes as 'different' photos)."""
+    if "Snow-capped Mountains at Kyanjin Gompa" in name:
+        return "snowcap"
+    if name in ("nasa:iss074e0603585", "nasa:iss074e0603582"):
+        return "tibet"
+    return name
+
+
 def filler(group, t):
     for name, label in PHOTOS.get(group, []):
-        uses = photo_uses.get(name, [])
-        if len(uses) < PHOTO_MAX and all(t - u >= PHOTO_GAP for u in uses):
-            photo_uses.setdefault(name, []).append(t)
+        uses = photo_uses.get(fam(name), [])
+        if len(uses) < PHOTO_MAX and all(abs(t - u) >= PHOTO_GAP for u in uses):
+            photo_uses.setdefault(fam(name), []).append(t)
             return pic(name, label)
     return next_view(VIEW_PLACE.get(group, group))
 
@@ -518,7 +528,7 @@ for ch in chapters:
         for sh, at in zip(para["shots"], pm.anchor_indices()):
             t = (word_base + at) * SEC_WORD
             if sh["type"] == "photo":
-                photo_uses.setdefault(sh["photo"], []).append(t)
+                photo_uses.setdefault(fam(sh["photo"]), []).append(t)
             for st in (sh.get("map") or {}).get("steps", []):
                 if st.get("view"):  # wipes too: the same before/after crop came back 6 times in v1
                     st["view"] = fresh_view(st["view"], t)

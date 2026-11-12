@@ -569,3 +569,7 @@ Each sub-phase stops for user approval.
 - Langtang day (2026-11-12T23:00Z): long 7j0S1PUwPvU (v3, audit approved), Shorts g37VSZhYDMk (38 minutes) and Wd1R0AzmQYY (three times).
 - Next: Jakarta sinking (2026-11-13T23:00Z = 14 Nov 02:00 TR): research.md done; script, own measurements, 2 Shorts.
 - Release rule: one topic per day, 1 long + 2 Shorts at 23:00 UTC. Studio audience: TR 39 % of views but 8 % of watch time.
+
+## 2026-11-12 (evening)
+- Jakarta day (2026-11-13T23:00Z = 14 Nov 02:00 TR): long ucTWIvj9Xf0 (v3, cover "SINKING CITY"), Shorts c2teJHHPgn8 (trees) and hVoZOMcuRZ4 (capital). Lessons: dry-season Sentinel-2 composites leave seams/no-data wedges in the tropics -> single clear days per area (day_for); but one day per area makes fillers look like one scene -> spread filler points over distinct places.
+- Louisiana day (2026-11-14T23:00Z = 15 Nov 02:00 TR): script 2,092 words (fact-checked), own Landsat measurement (IdJC -45 %, Wax Lake + Atchafalaya +115 km2, Barataria -16 % since 1990), clear day LA_DAY 2026-10-13. Shorts island + cure re-rendering; storyboard running.

@@ -125,7 +125,7 @@
      ]
     },
     {
-     "text": "Three weeks later, residents told a local paper that the seedlings had died. Planting at a ceremony is not enough, one of them said. Someone has to look after them.",
+     "text": "Three weeks later, residents told a local paper that the seedlings had died. Planting at a ceremony is not enough, a local woman, Masnuah, told the paper. Someone has to look after them.",
      "shots": [
       {
        "type": "map",
@@ -208,7 +208,7 @@
            "before": "1990-06-01/1990-10-31",
            "after": "2026-06-01/2026-10-31",
            "source": "landsat",
-           "seconds": 2.2,
+           "seconds": 1.8,
            "label_before": "1990",
            "label_after": "2026",
            "until": "And this"
@@ -240,7 +240,7 @@
       },
       {
        "type": "map",
-       "at": "Nadhiri,",
+       "at": "village head",
        "map": {
         "steps": [
          {
@@ -266,7 +266,7 @@
       },
       {
        "type": "map",
-       "at": 24,
+       "at": 25,
        "map": {
         "steps": [
          {
@@ -284,7 +284,7 @@
       },
       {
        "type": "map",
-       "at": 32,
+       "at": 33,
        "map": {
         "steps": [
          {
@@ -993,7 +993,7 @@
      ]
     },
     {
-     "text": "Then something changed. By 2019, Andreas measured Muara Baru at about ten to twelve centimetres a year, down from more than twenty. A 2022 study of ninety-nine coastal cities found that Jakarta's sinking had slowed significantly, likely because less groundwater was being pumped.",
+     "text": "Then something changed. By 2019, Andreas measured Muara Baru at about ten to twelve centimetres a year, down from twenty or more. A 2022 study of ninety-nine coastal cities found that Jakarta's sinking had slowed significantly, likely because less groundwater was being pumped.",
      "shots": [
       {
        "type": "map",
@@ -1071,15 +1071,15 @@
        "type": "document",
        "at": "slowed significantly",
        "document": {
-        "text": "Jakarta's rate slowed significantly, likely due to reduced groundwater extraction.",
-        "source": "Wu, Wei & D'Hondt, Geophysical Research Letters, 2022",
+        "text": "Jakarta's sinking slowed significantly, likely due to reduced groundwater extraction.",
+        "source": "Wu, Wei & D'Hondt, Geophysical Research Letters, 2022, as summarised by SciDev",
         "highlight": "reduced groundwater extraction"
        }
       }
      ]
     },
     {
-     "text": "In 2021 the city declared zones where groundwater may no longer be drawn, and its water company says it now pipes water to about four in five households, with everyone connected by 2029.",
+     "text": "In 2021 the city declared zones where groundwater may no longer be drawn, and its water company says its pipes now reach about four in five residents, with everyone connected by 2029.",
      "shots": [
       {
        "type": "map",
@@ -1126,7 +1126,7 @@
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 14,
        "map": {
         "steps": [
          {
@@ -1147,7 +1147,7 @@
        "at": "about four",
        "stat": {
         "value": "~82%",
-        "label": "Jakarta households on piped water, 2026 (target: 100% by 2029)",
+        "label": "Jakarta's piped-water coverage, Jul 2026 (target: 100% by 2029)",
         "source": "PAM Jaya via Katadata, Jul 2026"
        }
       }
@@ -1342,14 +1342,14 @@
      ]
     },
     {
-     "text": "The plan covers about forty kilometres of the most exposed coast. By the end of 2025 roughly half of it was built, and the finish date was 2030.",
+     "text": "The plan covers about forty kilometres of the most exposed coast. By the end of 2025 a little under half of it was built, and the finish date was 2030.",
      "shots": [
       {
        "type": "stat",
        "at": 0,
        "stat": {
         "value": "~40 km",
-        "label": "NCICD coastal dikes: about half built by end-2025, target 2030",
+        "label": "NCICD coastal dikes: a little under half built by end-2025, target 2030",
         "source": "DSDA Jakarta, Jul 2025; The Jakarta Post, Dec 2025"
        }
       },
@@ -1372,13 +1372,31 @@
       },
       {
        "type": "map",
-       "at": 18,
+       "at": 16,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 106.965,
            "lat": -6.095,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.12,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -1426,9 +1444,9 @@
         "steps": [
          {
           "view": {
-           "lon": 106.76,
-           "lat": -6.12,
-           "span": 0.07
+           "lon": 106.738,
+           "lat": -6.096,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -1461,8 +1479,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.738,
-           "lat": -6.096,
+           "lon": 106.772,
+           "lat": -6.106,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -1479,7 +1497,7 @@
         "steps": [
          {
           "view": {
-           "lon": 106.772,
+           "lon": 106.786,
            "lat": -6.106,
            "span": 0.09
           },
@@ -1493,7 +1511,7 @@
      ]
     },
     {
-     "text": "Nurhasan lives about eight hundred metres from that dike. He told reporters it had started leaking three or four years earlier. This dike was built in Ahok's time, he said, meaning a governor who left office in 2017.",
+     "text": "Nurhasan lives about eight hundred metres from that dike. He told interviewers, in a report Kompas republished, that it had started leaking three or four years earlier. This dike was built in Ahok's time, he said, meaning a governor who left office in 2017.",
      "shots": [
       {
        "type": "map",
@@ -1514,19 +1532,19 @@
       },
       {
        "type": "photo",
-       "at": 7,
+       "at": 9,
        "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
        "on_screen_text": "Jakarta flood, January 2013"
       },
       {
        "type": "map",
-       "at": 14,
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.805,
+           "lat": -6.103,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -1573,7 +1591,7 @@
      ]
     },
     {
-     "text": "Just outside the wall at Muara Baru stands a mosque the sea has already taken. Wal Adhuna was abandoned in the 2000s. Today it stands in the water, on the wrong side of the dike.",
+     "text": "Just outside the wall at Muara Baru stands a mosque the sea has already taken. Built in 1996, Wal Adhuna began to be swallowed by the sea in the 2000s. Today it stands in the water, on the wrong side of the dike.",
      "shots": [
       {
        "type": "map",
@@ -1603,19 +1621,19 @@
       },
       {
        "type": "photo",
-       "at": 7,
+       "at": 10,
        "photo": "nasa:iss073e0222649",
        "on_screen_text": "Jakarta at night, from the ISS, May 2025"
       },
       {
        "type": "map",
-       "at": 14,
+       "at": 20,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.811,
+           "lat": -6.124,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -1643,13 +1661,13 @@
       },
       {
        "type": "map",
-       "at": 28,
+       "at": 36,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.84,
+           "lat": -6.122,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -1884,8 +1902,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.84,
-           "lat": -6.122,
+           "lon": 106.88,
+           "lat": -6.105,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -1915,7 +1933,7 @@
            "before": "1990-06-01/1990-10-31",
            "after": "2026-06-01/2026-10-31",
            "source": "landsat",
-           "seconds": 2.6,
+           "seconds": 2.0,
            "label_before": "1990",
            "label_after": "2026",
            "until": "And this"
@@ -1940,7 +1958,7 @@
       },
       {
        "type": "map",
-       "at": "new suburbs",
+       "at": "reclaimed land",
        "map": {
         "steps": [
          {
@@ -2198,7 +2216,7 @@
      ]
     },
     {
-     "text": "His reasons: Jakarta was crowded, polluted and sinking, and the new site was relatively free of earthquakes and volcanoes. The new city was named Nusantara. The plan at the time: build from 2021 and move by 2024. Construction began in July 2022, about thirty kilometres inland from the sea near Balikpapan Bay.",
+     "text": "His reasons: Jakarta was crowded, polluted and sinking, and the new site was relatively free of earthquakes and volcanoes. The new city was named Nusantara. The plan at the time, news agencies reported: build from 2021 and move by 2024. Construction began in July 2022, about thirty kilometres inland from the sea near Balikpapan Bay.",
      "shots": [
       {
        "type": "map",
@@ -2233,8 +2251,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.88,
-           "lat": -6.105,
+           "lon": 106.92,
+           "lat": -6.1,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2279,13 +2297,31 @@
       },
       {
        "type": "map",
-       "at": 28,
+       "at": 26,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 116.75,
            "lat": -0.95,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -2323,13 +2359,13 @@
       },
       {
        "type": "map",
-       "at": 44,
+       "at": 47,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -2425,9 +2461,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.05
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2442,8 +2478,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.71,
+           "lat": -0.95,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -2465,7 +2501,7 @@
      ]
     },
     {
-     "text": "NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted about two thousand four hundred hectares cleared or degraded in the core government zone in that time. Roads and government buildings now stand where the trees were.",
+     "text": "NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted nearly two thousand five hundred hectares cleared or degraded in the core government zone in that time. Roads and government buildings now stand where the trees were.",
      "shots": [
       {
        "type": "map",
@@ -2499,16 +2535,16 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
-           "span": 0.07
+           "lon": 108.57,
+           "lat": -6.7,
+           "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Nusantara"
+       "on_screen_text": "Java's north coast"
       },
       {
        "type": "map",
@@ -2517,20 +2553,20 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
-           "span": 0.07
+           "lon": 111.1,
+           "lat": -6.55,
+           "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Nusantara"
+       "on_screen_text": "Java's north coast"
       },
       {
        "type": "stat",
-       "at": "about two thousand",
+       "at": "nearly two",
        "stat": {
         "value": "~2,464 ha",
         "label": "Forest cleared or degraded in Nusantara's core zone, Apr 2022 - Feb 2024",
@@ -2544,15 +2580,15 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
-           "span": 0.07
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
          }
         ]
        },
-       "on_screen_text": "Nusantara"
+       "on_screen_text": "Java's north coast"
       },
       {
        "type": "map",
@@ -2616,8 +2652,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.69,
+           "lat": -0.975,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -2716,8 +2752,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -2733,8 +2769,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -2751,9 +2787,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
-           "span": 0.09
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2788,9 +2824,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
-           "span": 0.09
+           "lon": 116.72,
+           "lat": -0.985,
+           "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2874,8 +2910,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
+           "lon": 116.6962,
+           "lat": -0.9587,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2900,8 +2936,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.71,
+           "lat": -0.95,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2960,8 +2996,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.69,
+           "lat": -0.975,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2994,8 +3030,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -3008,7 +3044,7 @@
      ]
     },
     {
-     "text": "The authority's head, Basuki Hadimuljono, asked for more: an extra eighteen point seven trillion rupiah for 2026 and 2027. In the 2027 budget bill, Nusantara is not among the government's eight priorities. Most of next year's money is meant for buildings for parliament and the courts.",
+     "text": "The authority's head, Basuki Hadimuljono, asked for about fifteen point eight trillion rupiah more for 2027 alone. In the 2027 budget bill, Indonesian business media report, Nusantara is not among the government's eight priorities. Most of next year's money is meant for buildings for parliament and the courts.",
      "shots": [
       {
        "type": "map",
@@ -3029,22 +3065,22 @@
       },
       {
        "type": "stat",
-       "at": "an extra",
+       "at": "about fifteen",
        "stat": {
-        "value": "+Rp 18.7 trillion",
-        "label": "Extra money the Nusantara authority asked for, 2026-2027",
-        "source": "Investortrust; Katadata, 2026"
+        "value": "+Rp 15.8 trillion",
+        "label": "Extra money the Nusantara authority asked for, 2027",
+        "source": "Katadata, Sep 9, 2026"
        }
       },
       {
        "type": "map",
-       "at": 17,
+       "at": 16,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -3055,14 +3091,14 @@
       },
       {
        "type": "map",
-       "at": 26,
+       "at": 24,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
-           "span": 0.06
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3073,13 +3109,31 @@
       },
       {
        "type": "map",
-       "at": 36,
+       "at": 32,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
+           "lon": 116.72,
+           "lat": -0.985,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3163,8 +3217,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.71,
+           "lat": -0.95,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3181,8 +3235,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3195,7 +3249,7 @@
      ]
     },
     {
-     "text": "So the city that was built because Jakarta is sinking is not yet the capital. Jakarta, by law, still is. And the money the government talks about now is going somewhere else: back to the sea.",
+     "text": "So the city that was built partly because Jakarta is sinking is not yet the capital. Jakarta, by law, still is. And the money the government talks about now is going somewhere else: back to the sea.",
      "shots": [
       {
        "type": "map",
@@ -3216,13 +3270,13 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 8,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3251,13 +3305,13 @@
       },
       {
        "type": "map",
-       "at": 23,
+       "at": 24,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3677,7 +3731,7 @@
      ]
     },
     {
-     "text": "In Bedono, the next village, about two hundred and fifty families were moved away. One woman stayed. Pasijah, known as Mak Jah, raised her house and planted mangroves around it. For years hers was one of the last homes in her hamlet.",
+     "text": "In Bedono, the next village, about two hundred and fifty families were moved away, Kompas reported. One family stayed. Pasijah, known as Mak Jah, raised her house and planted mangroves around it. For years she lived almost alone in her hamlet.",
      "shots": [
       {
        "type": "map",
@@ -3707,7 +3761,7 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 8,
        "map": {
         "steps": [
          {
@@ -3725,13 +3779,13 @@
       },
       {
        "type": "photo",
-       "at": "One woman",
+       "at": "One family",
        "photo": "File:Rumah Mak Jah di Desa Bedono yang Tenggelam karena abrasi.jpg",
        "on_screen_text": "Mak Jah's house, Bedono"
       },
       {
        "type": "map",
-       "at": 23,
+       "at": 24,
        "map": {
         "steps": [
          {
@@ -3842,7 +3896,7 @@
      ]
     },
     {
-     "text": "His neighbour Sulkan said: As long as there are still neighbours, there are still houses, I'm staying here. The village head says people stay for one reason. Warga bertahan di sini karena masalah ekonomi. People stay here because of money.",
+     "text": "His neighbour Sulkan said: As long as there are still neighbours, there are still houses, I'm staying here. The village head says people stay for one reason. Warga bertahan di sini karena masalah ekonomi. People stay here for economic reasons.",
      "shots": [
       {
        "type": "map",
@@ -3907,7 +3961,7 @@
        "type": "document",
        "at": "Warga",
        "document": {
-        "text": "Warga bertahan di sini karena masalah ekonomi.\n(People stay here because of money.)",
+        "text": "Warga bertahan di sini karena masalah ekonomi.\n(People stay here for economic reasons.)",
         "source": "Nadhiri, village head of Timbulsloko, to Jatengpos, Oct 19, 2026",
         "highlight": "masalah ekonomi"
        }
@@ -3915,7 +3969,7 @@
      ]
     },
     {
-     "text": "This April, a study in Science Advances measured northern Java from 2017 to 2023. In its fastest-sinking spots, Pekalongan dropped up to ten centimetres a year, Semarang eight, Jakarta about three and a half. Sinking land, not the rising sea, it found, is the main driver of flood risk along most of this coast.",
+     "text": "This April, a study in Science Advances measured northern Java from 2017 to 2023. At the most exposed coastal hot spots it found, the ground dropped up to ten centimetres a year in Pekalongan, eight in Semarang and about three and a half in Jakarta. Sinking land, not the rising sea, it found, is the main driver of flood risk along most of this coast.",
      "shots": [
       {
        "type": "map",
@@ -3969,9 +4023,60 @@
         "steps": [
          {
           "view": {
-           "lon": 108.57,
-           "lat": -6.7,
-           "span": 0.12
+           "lon": 110.43,
+           "lat": -6.95,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": "At the most",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.9,
+           "lat": -6.88,
+           "span": 0.9
+          },
+          "places": [
+           {
+            "name": "Pekalongan",
+            "lon": 109.68,
+            "lat": -6.88,
+            "kind": "city",
+            "label": "Pekalongan"
+           },
+           {
+            "name": "Semarang",
+            "lon": 110.42,
+            "lat": -6.97,
+            "kind": "city",
+            "label": "Semarang"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.2,
+           "lat": -6.92,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3982,10 +4087,10 @@
       },
       {
        "type": "chart",
-       "at": "In its",
+       "at": "up to ten",
        "chart": {
         "type": "bar",
-        "title": "Fastest-sinking spots, northern Java, 2017-2023",
+        "title": "Coastal hot spots, max sinking, northern Java, 2017-23",
         "unit": " cm a year",
         "data": [
          [
@@ -4004,9 +4109,35 @@
         "source": "Ohenhen, Shirzaei et al., Science Advances, Apr 2026",
         "highlight": 0,
         "reveal": [
-         "Semarang eight",
-         "Jakarta about"
+         "eight in",
+         "about three"
         ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "in Jakarta",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.12,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
        }
       },
       {
@@ -4051,14 +4182,14 @@
       },
       {
        "type": "map",
-       "at": 44,
+       "at": 55,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 111.1,
-           "lat": -6.55,
-           "span": 0.12
+           "lon": 109.68,
+           "lat": -6.86,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4111,8 +4242,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.92,
-           "lat": -6.1,
+           "lon": 106.965,
+           "lat": -6.095,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -4137,8 +4268,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.965,
-           "lat": -6.095,
+           "lon": 106.76,
+           "lat": -6.12,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -4200,9 +4331,9 @@
         "steps": [
          {
           "view": {
-           "lon": 112.65,
-           "lat": -7.1,
-           "span": 0.12
+           "lon": 109.1,
+           "lat": -6.83,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4352,8 +4483,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.43,
-           "lat": -6.95,
+           "lon": 108.57,
+           "lat": -6.7,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4509,8 +4640,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.2,
-           "lat": -6.92,
+           "lon": 111.1,
+           "lat": -6.55,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4527,8 +4658,8 @@
         "steps": [
          {
           "view": {
-           "lon": 109.68,
-           "lat": -6.86,
+           "lon": 112.65,
+           "lat": -7.1,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4545,9 +4676,9 @@
         "steps": [
          {
           "view": {
-           "lon": 109.1,
-           "lat": -6.83,
-           "span": 0.18
+           "lon": 110.43,
+           "lat": -6.95,
+           "span": 0.25
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4568,7 +4699,7 @@
      ]
     },
     {
-     "text": "The president says the north coast is home to tens of millions of people. A new authority was created in August 2025 to run the project, led by a retired vice admiral, Didit Herdiawan Ashaf. Jakarta's own section alone is put at about eight billion dollars, and the president asked the city to pay half.",
+     "text": "The president says the north coast is home to tens of millions of people. A new authority was created in August 2025 to run the project, led by a retired vice admiral, Didit Herdiawan Ashaf. Jakarta's own section alone is put at about eight billion dollars, The Jakarta Post reported, and the president asked the city to pay half.",
      "shots": [
       {
        "type": "map",
@@ -4602,9 +4733,9 @@
         "steps": [
          {
           "view": {
-           "lon": 108.57,
-           "lat": -6.7,
-           "span": 0.18
+           "lon": 110.2,
+           "lat": -6.92,
+           "span": 0.25
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4620,9 +4751,9 @@
         "steps": [
          {
           "view": {
-           "lon": 111.1,
-           "lat": -6.55,
-           "span": 0.18
+           "lon": 109.68,
+           "lat": -6.86,
+           "span": 0.25
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4638,9 +4769,9 @@
         "steps": [
          {
           "view": {
-           "lon": 112.65,
-           "lat": -7.1,
-           "span": 0.18
+           "lon": 109.1,
+           "lat": -6.83,
+           "span": 0.25
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4677,14 +4808,32 @@
       },
       {
        "type": "map",
-       "at": 45,
+       "at": 43,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 106.76,
-           "lat": -6.12,
-           "span": 0.09
+           "lon": 106.738,
+           "lat": -6.096,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 51,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4722,8 +4871,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.738,
-           "lat": -6.096,
+           "lon": 106.786,
+           "lat": -6.106,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -4897,7 +5046,7 @@
      ]
     },
     {
-     "text": "Lawyers in Semarang point to the toll road built across the ponds between Semarang and Demak as a sea dike, and say the entire coastal region is interconnected. Block the water in one place, and it goes somewhere else.",
+     "text": "Lawyers in Semarang point to the toll road built across the ponds between Semarang and Demak as a sea dike, and say the entire coastal region is interconnected.",
      "shots": [
       {
        "type": "map",
@@ -5000,41 +5149,6 @@
         "cut": true
        },
        "on_screen_text": "Sayung, Demak"
-      },
-      {
-       "type": "map",
-       "at": "Block the water",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 110.45,
-           "lat": -6.93,
-           "span": 0.1
-          },
-          "date": "2026-06-01/2026-10-31"
-         }
-        ],
-        "cut": true
-       }
-      },
-      {
-       "type": "map",
-       "at": 33,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 110.49,
-           "lat": -6.91,
-           "span": 0.09
-          },
-          "date": "2026-06-01/2026-10-31"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Sayung, Demak"
       }
      ]
     },
@@ -5074,8 +5188,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.772,
-           "lat": -6.106,
+           "lon": 106.805,
+           "lat": -6.103,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -5382,9 +5496,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.472,
-           "lat": -6.918,
-           "span": 0.06
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -5463,8 +5577,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.811,
+           "lat": -6.124,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -5481,8 +5595,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.84,
+           "lat": -6.122,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -5499,8 +5613,8 @@
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.88,
+           "lat": -6.105,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"

@@ -1,0 +1,250 @@
+{
+ "title": "Louisiana Spent $618 Million, Then Cancelled the Cure",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/louisiana-land-loss research.md and verification.md (USGS SIM 3381, CPRA Jul 17 2025, WWNO)."
+ ],
+ "thumbnail": {
+  "text": "CANCELLED",
+  "focus": [
+   -89.97,
+   29.62,
+   0.12
+  ]
+ },
+ "chapters": [
+  {
+   "title": "The Cancelled Cure",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Louisiana has lost about two thousand square miles of land since 1932.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "~2,000 sq mi lost since 1932"
+      }
+     ]
+    },
+    {
+     "text": "Here, on the Mississippi, the state was building a gate in the levee to let the river's mud rebuild the marsh.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.97,
+           "lat": 29.62,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "MID-BARATARIA SITE"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mid-Barataria Sediment Diversion"
+      },
+      {
+       "type": "map",
+       "at": "to let",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.96,
+           "lat": 29.646,
+           "span": 0.04
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Let the river rebuild"
+      }
+     ]
+    },
+    {
+     "text": "In July 2025 it cancelled the project. Six hundred and eighteen million dollars had already been spent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.2
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cancelled: July 17, 2025"
+      },
+      {
+       "type": "map",
+       "at": "Six hundred",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.955,
+           "lat": 29.64,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "$618.5 million spent"
+      }
+     ]
+    },
+    {
+     "text": "Oystermen had fought it: fresh water would have changed the bay they fish.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.85,
+           "lat": 29.45,
+           "span": 0.12
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oystermen fought it"
+      }
+     ]
+    },
+    {
+     "text": "Yet where the river does reach the sea, at Wax Lake, Louisiana is still building new land.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 29.56,
+           "span": 0.5
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the river reaches the sea"
+      },
+      {
+       "type": "map",
+       "at": "Louisiana is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.44,
+           "lat": 29.5,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Wax Lake Delta",
+            "lon": -91.4463,
+            "lat": 29.501,
+            "kind": "site",
+            "label": "WAX LAKE DELTA"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wax Lake: land still growing"
+      }
+     ]
+    },
+    {
+     "text": "Should Louisiana let the river back in?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.6,
+           "lat": 29.6,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Let the river back in?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Louisiana Spent $618 Million, Then Cancelled the Cure",
+  "description": "Louisiana has lost about 2,000 square miles of land since 1932. The Mid-Barataria Sediment Diversion was meant to let the Mississippi rebuild the marsh; in July 2025 the state cancelled it after $618.5 million had been spent. At Wax Lake, where the river does reach the sea, the coast is still growing.\n\nFull documentary on the channel: Vanishing Louisiana\n\n#geography #satellite #louisiana",
+  "tags": [
+   "Louisiana",
+   "Mid-Barataria",
+   "sediment diversion",
+   "Mississippi River",
+   "coastal land loss",
+   "Wax Lake Delta",
+   "satellite images",
+   "shorts"
+  ],
+  "pinned_comment": "Should Louisiana let the river back in, even if it changes the fishing towns?"
+ }
+}

@@ -1,0 +1,337 @@
+{
+ "title": "The US Moved a Whole Island. Then This Happened",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/louisiana-land-loss research.md and verification.md (Louisiana OCD, HUD, The New York Times 2026)."
+ ],
+ "thumbnail": {
+  "text": "DON'T DO IT",
+  "focus": [
+   -90.49,
+   29.405,
+   0.14
+  ]
+ },
+ "chapters": [
+  {
+   "title": "Don't Do It",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This island in Louisiana, in 1985. And here it is this October, after the sea moved in.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.405,
+           "span": 0.14
+          },
+          "date": "2026-10-13/2026-10-13",
+          "compare": {
+           "before": "1985-10-01/1985-11-30",
+           "after": "2026-10-01/2026-11-10",
+           "source": "landsat",
+           "seconds": 1.6,
+           "until": "And here"
+          }
+         },
+         {
+          "at": "And here",
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "ISLE DE JEAN CHARLES"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Landsat"
+      }
+     ]
+    },
+    {
+     "text": "By the state's count, the land around it shrank from more than twenty-two thousand acres to about three hundred and twenty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "ISLE DE JEAN CHARLES"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "22,000 acres -> 320"
+      },
+      {
+       "type": "map",
+       "at": "to about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.04
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "By the state's count"
+      }
+     ]
+    },
+    {
+     "text": "In 2016 the US government paid, for the first time, to move a whole community away from the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.55,
+           "lat": 29.45,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "ISLE DE JEAN CHARLES"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "2016: a first for the US"
+      },
+      {
+       "type": "map",
+       "at": "to move",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.395,
+           "span": 0.035
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A whole community"
+      }
+     ]
+    },
+    {
+     "text": "Thirty-seven families moved about forty miles inland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.62,
+           "lat": 29.55,
+           "span": 0.6
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "ISLE DE JEAN CHARLES"
+           },
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "THE NEW ISLE"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -90.4886,
+             29.3992
+            ],
+            "to": [
+             -90.776,
+             29.711
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "About 40 miles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "37 families, ~40 miles"
+      }
+     ]
+    },
+    {
+     "text": "This year, one of them told The New York Times what she would tell the next town. Don't do it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "THE NEW ISLE"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The New Isle"
+      },
+      {
+       "type": "map",
+       "at": "what she",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.79,
+           "lat": 29.72,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "What she would tell"
+      },
+      {
+       "type": "map",
+       "at": "Don't do it.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.77,
+           "lat": 29.705,
+           "span": 0.035
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "\"Don't do it.\""
+      }
+     ]
+    },
+    {
+     "text": "Would you leave your home before the sea takes it?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.4,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "ISLE DE JEAN CHARLES"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Would you leave?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "The US Paid to Move a Whole Island. One Resident Says Don't",
+  "description": "Isle de Jean Charles, Louisiana, from orbit in 1985 and 2026. By the state's count the land around it shrank from more than 22,000 acres to about 320. In 2016 the US paid for the first time to move a whole community away from the sea; 37 families moved about 40 miles inland.\n\nFull documentary on the channel: Vanishing Louisiana\n\n#geography #satellite #louisiana",
+  "tags": [
+   "Isle de Jean Charles",
+   "Louisiana",
+   "climate relocation",
+   "coastal land loss",
+   "satellite images",
+   "before and after",
+   "Landsat",
+   "shorts"
+  ],
+  "pinned_comment": "Would you leave your home before the sea takes it?"
+ }
+}

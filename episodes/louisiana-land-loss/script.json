@@ -1,0 +1,4859 @@
+{
+ "title": "Vanishing Louisiana",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/louisiana-land-loss/research.md, verification.md and factcheck.md",
+  "Landsat data courtesy of the U.S. Geological Survey",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "DON'T DO IT"
+ },
+ "chapters": [
+  {
+   "title": "Don't Do It",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In 2016, the United States government paid, for the first time, to move a whole community away from the sea. The community lived on a narrow island at the end of a single road in southern Louisiana: Isle de Jean Charles.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 31.0,
+           "span": 14.0
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 29.38,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "southern Louisiana",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Isle de Jean Charles",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.405,
+           "span": 0.14
+          },
+          "compare": {
+           "before": "1985-10-01/1985-11-30",
+           "after": "2026-10-01/2026-11-10",
+           "source": "landsat",
+           "seconds": 2.2,
+           "label_before": "1985",
+           "label_after": "2026",
+           "until": "And this"
+          },
+          "date": "2026-10-13/2026-10-13"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By the state's",
+       "stat": {
+        "value": "22,000 -> 320 acres",
+        "label": "Land around Isle de Jean Charles, by the state's count",
+        "source": "Louisiana Office of Community Development"
+       }
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.46,
+           "lat": 29.43,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.52,
+           "lat": 29.44,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      }
+     ]
+    },
+    {
+     "text": "Thirty-seven families took the deal and moved about forty miles inland, to a new subdivision built for them in the sugar-cane fields. One of them, Amy Handon, told The New York Times this year what she would say to the next town offered the same thing.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.478,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -90.4886,
+             29.3992
+            ],
+            "to": [
+             -90.776,
+             29.711
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "About 40 miles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "map",
+       "at": "to a new",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "The New Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.81,
+           "lat": 29.739,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "map",
+       "at": "One of them",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.77,
+           "lat": 29.705,
+           "span": 0.035
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.44,
+           "lat": 29.38,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 38,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.53,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      }
+     ]
+    },
+    {
+     "text": "Not everyone left. Chris Brunet stayed on the island. I never expected that relocation was going to happen in my lifetime, he told Floodlight last year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.395,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "I never",
+       "document": {
+        "text": "\"I never expected that relocation was going to happen in my lifetime.\"",
+        "source": "Chris Brunet, Isle de Jean Charles, to Floodlight, 2025",
+        "highlight": "in my lifetime"
+       }
+      },
+      {
+       "type": "map",
+       "at": "he told Floodlight",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.485,
+           "lat": 29.405,
+           "span": 0.04
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Don't do it.",
+     "shots": [
+      {
+       "type": "document",
+       "at": 0,
+       "document": {
+        "text": "\"This was supposed to be a model.\" ... \"Don't do it.\"",
+        "source": "Amy Handon, former Isle de Jean Charles resident, to The New York Times, 2026",
+        "highlight": "Don't do it."
+       }
+      }
+     ]
+    },
+    {
+     "text": "Louisiana has lost about two thousand square miles of land since 1932, nearly the size of Delaware. It had a plan to let its own river build some of it back. In 2025 it cancelled that plan. Why would a state do that?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.932,
+           "lat": 29.45,
+           "span": 2.6
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about two thousand",
+       "stat": {
+        "value": "2,006 sq mi",
+        "label": "Coastal Louisiana land lost, 1932-2016 (about a quarter of it)",
+        "source": "USGS, Couvillion et al., SIM 3381, 2017"
+       }
+      },
+      {
+       "type": "map",
+       "at": 12,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "It had a plan",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.66,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      }
+     ],
+     "ask": {
+      "at": "Why would",
+      "text": "Why cancel the cure?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Cancelled Cure",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The plan was called the Mid-Barataria Sediment Diversion. Here, on the west bank of the Mississippi below New Orleans, the state was building a gate in the levee, three hundred feet wide.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.8,
+           "span": 0.5
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Here, on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      }
+     ]
+    },
+    {
+     "text": "Open it, and the river would carry its mud into Barataria Bay, the way it did for thousands of years before the levees. The state's own models said it would build about twenty square miles of land over fifty years. Critics said far less.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.98,
+           "lat": 29.53,
+           "span": 0.3
+          },
+          "compare": {
+           "before": "1985-08-31",
+           "after": "2026-10-01/2026-11-10",
+           "source": "landsat",
+           "seconds": 2.2,
+           "label_before": "1985",
+           "label_after": "2026",
+           "until": "the way"
+          },
+          "date": "2026-10-13/2026-10-13"
+         },
+         {
+          "at": "the way",
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The state's own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.95,
+           "lat": 29.56,
+           "span": 0.15
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about twenty",
+       "stat": {
+        "value": "~20 sq mi",
+        "label": "Land the diversion was modelled to build in 50 years (critics: far less)",
+        "source": "WWNO / Louisiana Illuminator, Jul 18, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Construction began in 2023. The price rose to nearly three billion dollars, most of it from the settlement over the 2010 Deepwater Horizon oil spill.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.96,
+           "lat": 29.65,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.5,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": "most of it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.03,
+           "lat": 29.56,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.85,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      }
+     ]
+    },
+    {
+     "text": "But fresh river water and mud would also change the bay itself, and the oyster and shrimp towns that live on its salt water. They fought the project in court and on the steps of the state Capitol. Governor Jeff Landry said its damage to the fisheries would break our culture.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.92,
+           "lat": 29.5,
+           "span": 0.12
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.6,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.98,
+           "lat": 29.42,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": "They fought",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.7,
+           "lat": 29.48,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.55,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 42,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      }
+     ]
+    },
+    {
+     "text": "Four hundred million dollars had been set aside to soften the damage to the fisheries. It was not enough to end the fight. In April 2025 the state's coastal chairman paused the work, and weeks later the Army Corps suspended a permit.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.88,
+           "lat": 29.45,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "set aside",
+       "stat": {
+        "value": "$400 million",
+        "label": "Set aside to soften Mid-Barataria's impact on fisheries",
+        "source": "WWNO / Louisiana Illuminator, Jul 18, 2025"
+       }
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": "In April 2025",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.96,
+           "lat": 29.64,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      }
+     ]
+    },
+    {
+     "text": "On July 17, 2025, the state ended it. The authority's chairman, Gordon Dove, said they had made the difficult decision to terminate the Mid-Barataria project. Six hundred and eighteen million dollars had already been spent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9548,
+           "lat": 29.648,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "The authority's",
+       "document": {
+        "text": "\"...we've made the difficult decision to terminate the Mid-Barataria project.\"",
+        "source": "Gordon Dove, chairman, Coastal Protection and Restoration Authority, Jul 17, 2025",
+        "highlight": "terminate the Mid-Barataria project"
+       }
+      },
+      {
+       "type": "map",
+       "at": "to terminate",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.95,
+           "lat": 29.66,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Six hundred",
+       "stat": {
+        "value": "$618.5 million",
+        "label": "Already spent on Mid-Barataria when it was cancelled",
+        "source": "Coastal Protection and Restoration Authority, Jul 17, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The head of the state's oyster task force, Mitch Jurisich, celebrated. We killed the beast that was going to kill us, he said, and that's the best.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.68,
+           "lat": 29.43,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.5,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "document",
+       "at": "We killed",
+       "document": {
+        "text": "\"...we killed the beast that was going to kill us, and that's the best.\"",
+        "source": "Mitch Jurisich, Louisiana Oyster Task Force, to WWNO, Jul 2025",
+        "highlight": "we killed the beast"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and that's the best",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.66,
+           "lat": 29.45,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "James Karst, of the Coalition to Restore Coastal Louisiana, saw it differently. The need has not changed, he said. There's only one thing that has changed, and that is the political landscape.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.55,
+           "span": 0.1
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.85,
+           "lat": 29.4,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "document",
+       "at": "The need",
+       "document": {
+        "text": "\"The need has not changed. There's only one thing that has changed and that is the political landscape.\"",
+        "source": "James Karst, Coalition to Restore Coastal Louisiana, to WWNO, Jul 2025",
+        "highlight": "The need has not changed"
+       }
+      },
+      {
+       "type": "map",
+       "at": "There's only one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.08,
+           "lat": 29.58,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.6,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      }
+     ]
+    },
+    {
+     "text": "An engineer who worked on it, Kristi Trail, told the American Society of Civil Engineers: The what went wrong is purely politics.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.97,
+           "lat": 29.66,
+           "span": 0.045
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.98,
+           "lat": 29.42,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "document",
+       "at": "The what",
+       "document": {
+        "text": "\"The 'what went wrong' is purely politics.\"",
+        "source": "Kristi Trail, to ASCE Civil Engineering Source, Sep 2026",
+        "highlight": "purely politics"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Three months later its sister project on the east bank, Mid-Breton, was cancelled too. To understand why the river matters so much, look at how this coast was made, and how it is coming apart.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.75,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Wills Point",
+            "lon": -90.0059,
+            "lat": 29.7469,
+            "kind": "site",
+            "label": "Mid-Breton site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.55,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": "look at how",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How a Delta Disappears",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "For thousands of years the Mississippi built this land. Every spring it flooded, spread its mud across the marsh, and every few centuries it jumped to a new course and built a new lobe of delta.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.9,
+           "span": 4.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "photo",
+       "at": "every few",
+       "photo": "File:Mississippi River Delta (ASTER).jpg",
+       "on_screen_text": "The Mississippi's Bird's Foot delta, NASA ASTER"
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.5,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Coastal Louisiana"
+      }
+     ]
+    },
+    {
+     "text": "After the great flood of 1927, the river was walled in by levees. Its mud now shoots past the marsh and drops off the edge of the continental shelf.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.85,
+           "span": 0.4
+          },
+          "date": "2026-10-23/2026-10-23"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.5,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.2,
+           "lat": 29.3,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": "drops off",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.13,
+           "span": 0.4
+          },
+          "places": [
+           {
+            "name": "Head of Passes",
+            "lon": -89.2509,
+            "lat": 29.1517,
+            "kind": "site",
+            "label": "Head of Passes"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2013, NOAA's chart office retired thirty-one place names in Plaquemines Parish, bays and bayous that no longer existed. Yellow Cotton Bay. English Bay. Bay Jacquin. They had become open water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.75,
+           "lat": 29.45,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.36,
+           "lat": 29.28,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": "Yellow Cotton",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.68,
+           "lat": 29.4,
+           "span": 0.1
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "They had become",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.62,
+           "lat": 29.37,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Upstream, tens of thousands of dams hold back more sediment. And across the marsh, oil and gas companies dredged canals to reach their wells. One study counted more than thirty-five thousand wells on land in coastal Louisiana.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.3,
+           "lat": 29.45,
+           "span": 0.2
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.6,
+           "lat": 29.35,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": "dredged canals",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.35,
+           "lat": 29.38,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "more than thirty-five",
+       "stat": {
+        "value": "35,000+",
+        "label": "Oil and gas wells on land in coastal Louisiana",
+        "source": "Turner & McClenachan, 2018"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In one basin, Barataria, a 2023 study blamed about forty percent of the loss on the levees, about forty percent on oil and gas extraction, and about twenty percent on dams.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.02,
+           "lat": 29.55,
+           "span": 0.25
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "chart",
+       "at": "blamed",
+       "chart": {
+        "type": "bar",
+        "title": "What drove land loss in the Barataria Basin",
+        "unit": " %",
+        "data": [
+         [
+          "Levees",
+          40
+         ],
+         [
+          "Oil and gas extraction",
+          40
+         ],
+         [
+          "Dams",
+          20
+         ]
+        ],
+        "source": "Edmonds et al., Nature Sustainability, 2023 (via LSU)",
+        "highlight": 0,
+        "reveal": [
+         "about forty percent on oil",
+         "twenty percent"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The ground also sinks. Soft delta mud compacts under its own weight. A study of two hundred and seventy-four marsh sites found the water rising against the land by about twelve millimetres a year on average, several times the global rise of the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.45,
+           "lat": 29.35,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.6,
+           "lat": 29.4,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "stat",
+       "at": "about twelve",
+       "stat": {
+        "value": "~12 mm a year",
+        "label": "Water rising against the land, average of 274 marsh sites",
+        "source": "Jankowski, Tornqvist & Fernandes, Nature Communications, 2017"
+       }
+      },
+      {
+       "type": "map",
+       "at": 38,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.5,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Coastal Louisiana"
+      }
+     ]
+    },
+    {
+     "text": "And then come the hurricanes. Every big storm tears away marsh that was already weak.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.25,
+           "span": 0.15
+          },
+          "places": [
+           {
+            "name": "Grand Isle",
+            "lon": -89.9873,
+            "lat": 29.2366,
+            "kind": "city",
+            "label": "Grand Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Every big",
+       "photo": "File:Grand Isle - 10-6-21 - 002.jpg",
+       "on_screen_text": "Grand Isle, five weeks after Hurricane Ida, 2021"
+      }
+     ]
+    },
+    {
+     "text": "A 2026 study from Louisiana State University found that most of the marsh is not simply drowning. About eighty-two percent of it is being eaten away at the edges, by waves. Much of the loss we see, one of the authors said, has been driven by human activity.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.3,
+           "lat": 29.3,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.5,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "stat",
+       "at": "About eighty-two",
+       "stat": {
+        "value": "~82%",
+        "label": "Of persistent marsh loss comes from edge erosion, not drowning",
+        "source": "Wilson, Quirk et al., Nature Communications, Apr 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.2,
+           "lat": 29.3,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "document",
+       "at": "Much of",
+       "document": {
+        "text": "\"Much of the loss we see — both globally and in Louisiana — has been driven by human activity.\"",
+        "source": "Tracy Quirk, LSU, Apr 2026",
+        "highlight": "driven by human activity"
+       }
+      },
+      {
+       "type": "map",
+       "at": "one of the authors",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.33,
+           "lat": 29.27,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 42,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.6,
+           "lat": 29.35,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      }
+     ]
+    },
+    {
+     "text": "Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. At the worst, a football field of land every thirty-four minutes. More recently, one every hundred minutes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.6,
+           "lat": 29.4,
+           "span": 0.6
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.6,
+           "lat": 29.4,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "chart",
+       "at": "At the worst",
+       "chart": {
+        "type": "bar",
+        "title": "Louisiana land loss: one football field every...",
+        "unit": " min",
+        "data": [
+         [
+          "At the peak",
+          34
+         ],
+         [
+          "2010s",
+          100
+         ]
+        ],
+        "source": "USGS, Couvillion et al., SIM 3381, 2017",
+        "highlight": 1,
+        "reveal": [
+         "More recently"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "one every hundred",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.2,
+           "lat": 29.4,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The USGS scientist behind that count, Brady Couvillion, warned in 2017 that the slowdown came in years without a major hurricane. The most recent observations are promising, he said, but it is not clear that they will persist. Since then, three hurricanes have hit this coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.15,
+           "lat": 29.35,
+           "span": 0.2
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 0.6
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.5,
+           "span": 0.6
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "document",
+       "at": "The most recent",
+       "document": {
+        "text": "\"The most recent observations are promising, but it is not clear that they will persist.\"",
+        "source": "Brady Couvillion, USGS, Jul 12, 2017",
+        "highlight": "not clear that they will persist"
+       }
+      },
+      {
+       "type": "map",
+       "at": "he said, but",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.25,
+           "lat": 29.45,
+           "span": 0.15
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.5,
+           "span": 0.6
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": "Since then",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Grand Isle",
+            "lon": -89.9873,
+            "lat": 29.2366,
+            "kind": "city",
+            "label": "Grand Isle"
+           },
+           {
+            "name": "Port Fourchon",
+            "lon": -90.1892,
+            "lat": 29.1232,
+            "kind": "port",
+            "label": "Port Fourchon"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Island That Left",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Back to Isle de Jean Charles. Its people, members of the Jean Charles Choctaw Nation, have lived here since about 1840. The road to the island was built across the marsh in the 1950s. Today water laps at both sides of it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 29.38,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "The road",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Pointe-aux-Chenes",
+            "lon": -90.5534,
+            "lat": 29.4977,
+            "kind": "city",
+            "label": "Pointe-aux-Chenes"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.46,
+           "lat": 29.43,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 35,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.52,
+           "lat": 29.44,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      }
+     ]
+    },
+    {
+     "text": "When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish in the early 2000s, the island was left outside it. Protecting it, the Corps found, would cost more than moving everyone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.55,
+           "lat": 29.45,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           },
+           {
+            "name": "Pointe-aux-Chenes",
+            "lon": -90.5534,
+            "lat": 29.4977,
+            "kind": "city",
+            "label": "Pointe-aux-Chenes"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.44,
+           "lat": 29.38,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.53,
+           "lat": 29.4,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "would cost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 29.4,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The former chief, Albert Naquin, put it simply. We lose land, every hurricane we lose land. And now all we have is the little bitty strip of houses and the road.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.483,
+           "lat": 29.405,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "We lose",
+       "document": {
+        "text": "\"We lose land, every hurricane we lose land. And now all we have is the little bitty strip of houses and the road.\"",
+        "source": "Albert Naquin, then chief, Jean Charles Choctaw Nation, to Columbia Journalism Investigations, 2022",
+        "highlight": "the little bitty strip of houses and the road"
+       }
+      },
+      {
+       "type": "map",
+       "at": "And now",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.485,
+           "lat": 29.395,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      }
+     ]
+    },
+    {
+     "text": "In January 2016, the Department of Housing and Urban Development awarded Louisiana ninety-two million dollars, forty-eight million of it to resettle the island. The state bought five hundred and fifteen acres of farmland near Schriever for eleven point seven million.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$48.3 million",
+        "label": "Federal money to resettle Isle de Jean Charles (of $92.6M, Jan 2016)",
+        "source": "HUD; Louisiana Office of Community Development"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "The state bought",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "The New Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.72,
+           "lat": 29.596,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      }
+     ]
+    },
+    {
+     "text": "The state's recovery chief, Pat Forbes, was proud of the houses. If everything on the coast was built like this, he said in 2022, everyone would be home right now.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.7717,
+           "lat": 29.713,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "The New Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 29.38,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "document",
+       "at": "If everything",
+       "document": {
+        "text": "\"If everything on the coast was built like this, everyone would be home right now.\"",
+        "source": "Pat Forbes, Louisiana Office of Community Development, to WWNO, Feb 2022",
+        "highlight": "everyone would be home"
+       }
+      },
+      {
+       "type": "map",
+       "at": "he said in 2022",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.772,
+           "lat": 29.716,
+           "span": 0.035
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. The tribe had wanted to rebuild its community together. The grant went to the state, which opened it to every island resident, and families began moving in August 2022.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.7863,
+           "lat": 29.715,
+           "span": 0.035
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.46,
+           "lat": 29.43,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.52,
+           "lat": 29.44,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.44,
+           "lat": 29.38,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "families began",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.775,
+           "lat": 29.705,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "The New Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The new houses had problems, residents told Floodlight: leaking doors, missing insulation. We should not have this many complaints, one of them, Kristi Naquin, said. We should not have this many problems.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.772,
+           "lat": 29.712,
+           "span": 0.046
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.75,
+           "lat": 29.68,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "document",
+       "at": "We should",
+       "document": {
+        "text": "\"We should not have this many complaints. We should not have this many problems.\"",
+        "source": "Kristi Naquin, New Isle resident, to Floodlight, 2025",
+        "highlight": "this many problems"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Kristi Naquin,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.7617,
+           "lat": 29.71,
+           "span": 0.035
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The tribe filed a civil-rights complaint with HUD, and withdrew it in January 2026, citing cuts to the department's civil-rights enforcement. Its decision to withdraw, it said, does not reflect on the validity of its allegations.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.8,
+           "lat": 29.73,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.81,
+           "lat": 29.739,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "document",
+       "at": "Its decision",
+       "document": {
+        "text": "\"Our decision to withdraw the complaint does not reflect on the validity of our allegations.\"",
+        "source": "Jean Charles Choctaw Nation, via EarthRights International, May 18, 2026",
+        "highlight": "does not reflect on the validity"
+       }
+      },
+      {
+       "type": "map",
+       "at": "does not reflect",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Some families stayed on the island. Chris Brunet is one of them. There's less land, he said, and more water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.4,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.53,
+           "lat": 29.4,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "document",
+       "at": "There's less",
+       "document": {
+        "text": "\"There's less land,\" he said, \"and more water.\"",
+        "source": "Chris Brunet, Isle de Jean Charles, to Columbia Journalism Investigations, 2022"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The End of the Road",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "East of the island, a different road runs out of land. Highway 23 follows the Mississippi south from New Orleans for seventy-two miles, to Venice, the last town you can drive to on the river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.7,
+           "lat": 29.6,
+           "span": 1.0
+          },
+          "places": [
+           {
+            "name": "Venice",
+            "lon": -89.3587,
+            "lat": 29.2791,
+            "kind": "city",
+            "label": "Venice: end of the road"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -90.05,
+             29.91
+            ],
+            "to": [
+             -89.3587,
+             29.2791
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Highway 23, 72 miles",
+            "via": [
+             [
+              -89.99,
+              29.8
+             ],
+             [
+              -89.96,
+              29.65
+             ],
+             [
+              -89.85,
+              29.55
+             ],
+             [
+              -89.73,
+              29.47
+             ],
+             [
+              -89.6,
+              29.4
+             ],
+             [
+              -89.5,
+              29.35
+             ],
+             [
+              -89.42,
+              29.3
+             ]
+            ]
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.15,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": "to Venice",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.36,
+           "lat": 29.28,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Venice",
+            "lon": -89.3587,
+            "lat": 29.2791,
+            "kind": "city",
+            "label": "Venice: end of the road"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.16,
+           "lat": 29.16,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      }
+     ]
+    },
+    {
+     "text": "Beyond it lies the Bird's Foot, the delta's newest lobe. This is it in 1985. And this is it this October. The marsh between the river's passes is breaking apart.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.13,
+           "span": 0.4
+          },
+          "compare": {
+           "before": "1985-10-01/1985-11-30",
+           "after": "2026-10-01/2026-11-10",
+           "source": "landsat",
+           "seconds": 1.8,
+           "label_before": "1985",
+           "label_after": "2026",
+           "until": "And this"
+          },
+          "date": "2026-10-13/2026-10-13"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Head of Passes",
+            "lon": -89.2509,
+            "lat": 29.1517,
+            "kind": "site",
+            "label": "Head of Passes"
+           },
+           {
+            "name": "Pass a Loutre",
+            "lon": -89.1603,
+            "lat": 29.1629,
+            "kind": "site",
+            "label": "Pass a Loutre"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "is breaking",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.2,
+           "lat": 29.12,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Pass a Loutre",
+            "lon": -89.1603,
+            "lat": 29.1629,
+            "kind": "site",
+            "label": "Pass a Loutre"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The old Pass a Loutre lighthouse, built in 1855, stood about a mile inland twenty-five years ago, InvestigateTV reported this month. Now it stands several hundred feet offshore. The state wants to spend a hundred and seventy-six million dollars of oil-spill money to dredge the pass and feed the marsh again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.16,
+           "lat": 29.17,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Pass a Loutre",
+            "lon": -89.1603,
+            "lat": 29.1629,
+            "kind": "site",
+            "label": "Pass a Loutre"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.72,
+           "lat": 29.596,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.75,
+           "lat": 29.68,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "map",
+       "at": "Now it stands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.15,
+           "lat": 29.165,
+           "span": 0.04
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      },
+      {
+       "type": "stat",
+       "at": "a hundred and seventy-six",
+       "stat": {
+        "value": "$176 million",
+        "label": "Planned Bird's Foot Delta restoration, still waiting for permits",
+        "source": "InvestigateTV, Nov 10, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 42,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.81,
+           "lat": 29.739,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Terrebonne Parish"
+      }
+     ]
+    },
+    {
+     "text": "A state scientist, Todd Baker, calls it the terminal end of the Mississippi Flyway, the route of millions of migrating birds. We don't have a delta like this anywhere else in North America, he said.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.28,
+           "lat": 29.17,
+           "span": 0.1
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.3,
+           "lat": 29.05,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.4,
+           "lat": 29.15,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "document",
+       "at": "We don't",
+       "document": {
+        "text": "\"We don't have a delta like this anywhere else in North America.\"",
+        "source": "Todd Baker, Coastal Protection and Restoration Authority, to InvestigateTV, Nov 2026",
+        "highlight": "anywhere else in North America"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then, in 2019, the river showed what it can still do. High water widened a break in the east bank below Port Sulphur. The new channel, Neptune Pass, took a large share of the river's flow at high water and began building a small delta of its own: about six million cubic yards of new sediment between 2019 and 2022, The Lens reported.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.65,
+           "lat": 29.45,
+           "span": 0.25
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.2,
+           "lat": 29.25,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.58,
+           "lat": 29.41,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": "Neptune Pass",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.58,
+           "lat": 29.41,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Neptune Pass",
+            "lon": -89.6,
+            "lat": 29.4,
+            "kind": "site",
+            "label": "Neptune Pass"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 35,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.65,
+           "lat": 29.47,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 44,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.36,
+           "lat": 29.28,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 53,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.15,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      }
+     ]
+    },
+    {
+     "text": "Ships need that water in the main channel, so the Army Corps planned a stone structure to throttle it. Alex Kolker, a scientist who studies it, said: I think we would all prefer a Louisiana with more land instead of less, but no one wants to see a barge run aground.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.57,
+           "lat": 29.42,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.16,
+           "lat": 29.16,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.3,
+           "lat": 29.05,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "document",
+       "at": "I think",
+       "document": {
+        "text": "\"I think we would all prefer a Louisiana with more land instead of less, but no one wants to see a barge run aground.\"",
+        "source": "Alex Kolker, LUMCON, to The Lens, May 13, 2025",
+        "highlight": "no one wants to see a barge run aground"
+       }
+      },
+      {
+       "type": "map",
+       "at": "but no one wants",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.55,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Plaquemines Parish took the oil companies to court for the canals. In 2025 a jury ordered Chevron to pay seven hundred and forty-four point six million dollars. In April 2026 the US Supreme Court sent the case to federal court, where it starts again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.75,
+           "lat": 29.5,
+           "span": 0.2
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.4,
+           "lat": 29.15,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "stat",
+       "at": "seven hundred",
+       "stat": {
+        "value": "$744.6 million",
+        "label": "Jury award against Chevron, Plaquemines Parish, 2025",
+        "source": "Gray DC; Louisiana Illuminator, Apr 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In April 2026",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.62,
+           "span": 0.15
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 35,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.2,
+           "lat": 29.25,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Road to the Oil",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Louisiana's attorney general, Liz Murrill, said it doesn't matter whether the case is in state court or federal court. She is confident the outcome will be the same. Chevron said it looks forward to litigating these cases in federal court, where they belong.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.82,
+           "lat": 29.52,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "whether the case",
+       "document": {
+        "text": "\"It doesn't matter whether this case is in state court or federal court — I am confident the outcome will be the same.\"",
+        "source": "Liz Murrill, Louisiana attorney general, Apr 17, 2026",
+        "highlight": "the outcome will be the same"
+       }
+      },
+      {
+       "type": "map",
+       "at": "She is confident",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.85,
+           "lat": 29.58,
+           "span": 0.1
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Chevron said",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.8,
+           "lat": 29.55,
+           "span": 0.12
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.58,
+           "lat": 29.41,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "document",
+       "at": "where they belong",
+       "document": {
+        "text": "\"Chevron looks forward to litigating these cases in federal court, where they belong.\"",
+        "source": "Chevron, Apr 17, 2026",
+        "highlight": "where they belong"
+       }
+      }
+     ]
+    },
+    {
+     "text": "West of the river, Louisiana Highway 1 runs down Bayou Lafourche to Port Fourchon, the base that supplies many of the oil platforms in the Gulf. The port says it serves about ninety percent of the deepwater rigs.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.22,
+           "lat": 29.3,
+           "span": 0.4
+          },
+          "routes": [
+           {
+            "from": [
+             -90.26,
+             29.38
+            ],
+            "to": [
+             -90.19,
+             29.12
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "LA-1",
+            "via": [
+             [
+              -90.23,
+              29.32
+             ],
+             [
+              -90.21,
+              29.25
+             ],
+             [
+              -90.2,
+              29.18
+             ]
+            ]
+           }
+          ],
+          "places": [
+           {
+            "name": "Golden Meadow",
+            "lon": -90.2601,
+            "lat": 29.3791,
+            "kind": "city",
+            "label": "Golden Meadow"
+           },
+           {
+            "name": "Port Fourchon",
+            "lon": -90.1892,
+            "lat": 29.1232,
+            "kind": "port",
+            "label": "Port Fourchon"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Bayou Lafourche",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.25,
+           "lat": 29.35,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Golden Meadow",
+            "lon": -90.2601,
+            "lat": 29.3791,
+            "kind": "city",
+            "label": "Golden Meadow"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the base that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.19,
+           "lat": 29.12,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Port Fourchon",
+            "lon": -90.1892,
+            "lat": 29.1232,
+            "kind": "port",
+            "label": "Port Fourchon"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.19,
+           "lat": 29.12,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "stat",
+       "at": "The port says",
+       "stat": {
+        "value": "~90%",
+        "label": "Gulf deepwater rigs served from Port Fourchon (the port's count)",
+        "source": "Port Fourchon"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The old road sits barely above the marsh, and the marsh is turning into open water around it. So the state is lifting it into the air. The second stretch, about eight miles from Golden Meadow to Leeville, costs about four hundred and sixty-three million dollars and is due at the end of 2027.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.21,
+           "lat": 29.25,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Leeville",
+            "lon": -90.2108,
+            "lat": 29.2505,
+            "kind": "city",
+            "label": "Leeville"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.21,
+           "lat": 29.25,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.26,
+           "lat": 29.38,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.99,
+           "lat": 29.235,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "stat",
+       "at": "about four hundred",
+       "stat": {
+        "value": "$463 million",
+        "label": "LA-1 lifted, Golden Meadow to Leeville (~8 mi), due end-2027",
+        "source": "Louisiana DOTD, via press"
+       }
+      },
+      {
+       "type": "map",
+       "at": "due at the end",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.24,
+           "lat": 29.32,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Golden Meadow",
+            "lon": -90.2601,
+            "lat": 29.3791,
+            "kind": "city",
+            "label": "Golden Meadow"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "On August 29, 2021, Hurricane Ida came ashore near Port Fourchon with winds of a hundred and fifty miles an hour. On Grand Isle, the state's only inhabited barrier island, most buildings were damaged.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.2,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Port Fourchon",
+            "lon": -90.1892,
+            "lat": 29.1232,
+            "kind": "port",
+            "label": "Port Fourchon"
+           },
+           {
+            "name": "Grand Isle",
+            "lon": -89.9873,
+            "lat": 29.2366,
+            "kind": "city",
+            "label": "Grand Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.2,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.26,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "map",
+       "at": "On Grand Isle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.99,
+           "lat": 29.235,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Grand Isle",
+            "lon": -89.9873,
+            "lat": 29.2366,
+            "kind": "city",
+            "label": "Grand Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "most buildings",
+       "photo": "File:Grand Isle - 10-6-21 - 017.jpg",
+       "on_screen_text": "Grand Isle, October 2021"
+      }
+     ]
+    },
+    {
+     "text": "The Army Corps rebuilt the island's levee. In January 2023 its crews were still at work.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Grand Isle Louisiana Levee Repair Work, January 2023 - 01.jpg",
+       "on_screen_text": "Levee repair on Grand Isle, January 2023"
+      },
+      {
+       "type": "map",
+       "at": "In January",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.98,
+           "lat": 29.24,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Where the Land Still Grows",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "There is one place where Louisiana's coast is growing. Here, at the mouth of the Atchafalaya River, a third of the Mississippi's water reaches the sea through a side channel, and it still carries its mud.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.9,
+           "span": 4.5
+          },
+          "places": [
+           {
+            "name": "Wax Lake Delta",
+            "lon": -91.4463,
+            "lat": 29.501,
+            "kind": "site",
+            "label": "Wax Lake Delta"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Here, at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 29.56,
+           "span": 0.5
+          },
+          "places": [
+           {
+            "name": "Wax Lake Delta",
+            "lon": -91.4463,
+            "lat": 29.501,
+            "kind": "site",
+            "label": "Wax Lake Delta"
+           },
+           {
+            "name": "Atchafalaya Delta",
+            "lon": -91.3025,
+            "lat": 29.4535,
+            "kind": "site",
+            "label": "Atchafalaya Delta"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.445,
+           "lat": 29.5,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.3,
+           "lat": 29.45,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      }
+     ]
+    },
+    {
+     "text": "This is the Wax Lake and Atchafalaya deltas in 1984. And this is this October. New land first rose above the water here in 1973, after a great flood. NASA puts the growth of the two deltas at a few square kilometres a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.38,
+           "lat": 29.48,
+           "span": 0.3
+          },
+          "compare": {
+           "before": "1984-10-01/1984-10-31",
+           "after": "2026-10-01/2026-11-10",
+           "source": "landsat",
+           "seconds": 2.0,
+           "label_before": "1984",
+           "label_after": "2026",
+           "until": "And this",
+           "hold": 0.4
+          },
+          "date": "2026-10-13/2026-10-13"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Wax Lake Delta",
+            "lon": -91.4463,
+            "lat": 29.501,
+            "kind": "site",
+            "label": "Wax Lake Delta"
+           },
+           {
+            "name": "Atchafalaya Delta",
+            "lon": -91.3025,
+            "lat": 29.4535,
+            "kind": "site",
+            "label": "Atchafalaya Delta"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "after a great",
+       "photo": "File:Sea Grant - Wax Lake Outlet.5.jpg",
+       "on_screen_text": "Wax Lake Outlet, 2016"
+      },
+      {
+       "type": "map",
+       "at": "NASA puts",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.445,
+           "lat": 29.5,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Wax Lake Delta",
+            "lon": -91.4463,
+            "lat": 29.501,
+            "kind": "site",
+            "label": "Wax Lake Delta"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.38,
+           "lat": 29.55,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      }
+     ]
+    },
+    {
+     "text": "It is not enough to balance the losses, only about a tenth of them. But it is the proof the scientists keep pointing to: when the river is allowed to reach the marsh, Louisiana builds land.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 29.5,
+           "span": 0.12
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.5,
+           "lat": 29.47,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.25,
+           "lat": 29.5,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "photo",
+       "at": "when the river",
+       "photo": "File:Wetland Days - Port Sulphur Louisiana 5 November 2021 - 01.jpg",
+       "on_screen_text": "Planting marsh grass, Port Sulphur, 2021"
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.376,
+           "lat": 29.69,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Now",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "In April 2026, Louisiana adopted a one-point-five-billion-dollar coastal plan for the year, with a hundred and forty-three projects: rebuilt barrier islands, marsh, levees. The next fifty-year master plan is due in 2029. In a document from April, the state says the flood-risk numbers it uses for that plan still include the two diversions it cancelled.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$1.54 billion",
+        "label": "Louisiana coastal plan for fiscal 2027, 143 projects",
+        "source": "Coastal Protection and Restoration Authority, Apr 27, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "The next",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.932,
+           "lat": 29.45,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In a document",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.6,
+           "span": 0.5
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "document",
+       "at": "still include the",
+       "document": {
+        "text": "\"...all currently available risk outputs still include the two mid-basin diversions.\"",
+        "source": "Coastal Protection and Restoration Authority, 2029 Master Plan new project development, 2026",
+        "highlight": "still include the two mid-basin diversions"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Foster Creppel, who runs a business in Plaquemines and supported the diversion, put the choice plainly. If we continue fighting over it, we really don't have a chance.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.95,
+           "lat": 29.6,
+           "span": 0.15
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.65,
+           "lat": 29.47,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "document",
+       "at": "If we",
+       "document": {
+        "text": "\"If we continue fighting over it, we really don't have a chance.\"",
+        "source": "Foster Creppel, Plaquemines Parish, to InvestigateTV, Nov 2026",
+        "highlight": "we really don't have a chance"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On Isle de Jean Charles, the road is still there, and so are a few families. Forty miles inland, the people who left are learning to live by new rules.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.405,
+           "span": 0.14
+          },
+          "compare": {
+           "before": "1985-10-01/1985-11-30",
+           "after": "2026-10-01/2026-11-10",
+           "source": "landsat",
+           "seconds": 2.2,
+           "label_before": "1985",
+           "label_after": "2026",
+           "hold": 0.4
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and so are",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.488,
+           "lat": 29.398,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Forty miles",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "The New Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.72,
+           "lat": 29.596,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      }
+     ]
+    },
+    {
+     "text": "If it were your call, would you open the river and change the fishing towns for good, or keep today's coast and watch it shrink?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.868,
+           "lat": 29.45,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           },
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "open the river",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.97,
+           "lat": 29.64,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Mid-Barataria",
+            "lon": -89.9626,
+            "lat": 29.6482,
+            "kind": "site",
+            "label": "Mid-Barataria diversion site"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "or keep today's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.45,
+           "lat": 29.38,
+           "span": 0.25
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "If it",
+      "text": "Open the river, or keep today's coast?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Louisiana Had a Plan to Save Its Coast. It Cancelled It",
+  "description": "Louisiana has lost about 2,000 square miles of land since 1932. In 2016 the US paid for the first time to move a whole community, Isle de Jean Charles, away from the sea; in 2025 the state cancelled the Mid-Barataria sediment diversion after spending $618 million. From orbit with Landsat and Sentinel-2 images we follow the island, Barataria Bay, the Bird's Foot delta at the end of Highway 23, LA-1 to Port Fourchon, and the Wax Lake and Atchafalaya deltas, the one place where the coast still grows, and measure the land ourselves.",
+  "tags": [
+   "Louisiana",
+   "coastal land loss",
+   "Isle de Jean Charles",
+   "climate relocation",
+   "Mid-Barataria",
+   "sediment diversion",
+   "Mississippi River delta",
+   "Bird's Foot delta",
+   "Wax Lake Delta",
+   "Port Fourchon",
+   "Grand Isle",
+   "satellite images",
+   "Landsat",
+   "Sentinel-2"
+  ],
+  "pinned_comment": "Open the river and change the fishing towns for good, or keep today's coast and watch it shrink?"
+ }
+}

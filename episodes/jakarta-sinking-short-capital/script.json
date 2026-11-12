@@ -102,7 +102,7 @@
      ]
     },
     {
-     "text": "Here, to the forest of Borneo. This is the site in 2019. And this is the same place this year.",
+     "text": "Here, to the forest of Borneo. This is the site in August 2019. And this is the same place this year.",
      "shots": [
       {
        "type": "map",
@@ -117,8 +117,8 @@
           },
           "date": "2026-06-01/2026-10-31",
           "compare": {
-           "before": "2019-03-19",
-           "after": "2026-08-16",
+           "before": "2019-08-16/2019-08-16",
+           "after": "2026-08-29/2026-08-29",
            "seconds": 2.2,
            "until": "And this"
           }
@@ -155,7 +155,7 @@
            "lat": -0.965,
            "span": 0.05
           },
-          "date": "2026-08-16"
+          "date": "2026-08-29/2026-08-29"
          }
         ],
         "cut": true
@@ -173,7 +173,7 @@
            "lat": -0.95,
            "span": 0.07
           },
-          "date": "2026-08-16"
+          "date": "2026-08-29/2026-08-29"
          }
         ],
         "cut": true
@@ -205,7 +205,7 @@
             "label": "GARUDA PALACE"
            }
           ],
-          "date": "2026-08-16"
+          "date": "2026-08-29/2026-08-29"
          }
         ],
         "cut": true

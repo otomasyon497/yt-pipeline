@@ -11,6 +11,23 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 AFTER = "2026-06-01/2026-10-31"  # dry season (Java / Borneo are cloudy the rest of the year)
+# Single clear days picked from the Sentinel-2 archive (2026-11-12): the composites showed seams and no-data wedges.
+JKT_DAY = "2026-08-08/2026-08-08"    # tiles 48MXU + 48MYU, 1-2 % cloud
+DEMAK_DAY = "2026-10-14/2026-10-14"  # tile 49MDN, 0 % cloud
+IKN_DAY = "2026-08-29/2026-08-29"    # tiles 50MME + 50MMD, same pass, 6-10 % cloud
+
+
+def day_for(view):
+    lon, span = view["lon"], view["span"]
+    if span > 2:
+        return None
+    if lon > 115:
+        return IKN_DAY
+    if 110.2 < lon < 110.8 and span <= 0.4:
+        return DEMAK_DAY
+    if 106.5 < lon < 107.1 and span <= 0.7:
+        return JKT_DAY
+    return AFTER
 LS = "landsat"
 
 JAVA = {"lon": 109.2, "lat": -6.7, "span": 7.5}
@@ -66,9 +83,9 @@ MOVE = {"from": [106.8272, -6.1754], "to": [116.6962, -0.9587], "mode": "line", 
 
 CMP_DEMAK = {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": LS, "seconds": 2.6,
              "label_before": "1990", "label_after": "2026"}
-CMP_BAY = {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": LS, "seconds": 2.6,
+CMP_BAY = {"before": "1990-07-09", "after": AFTER, "source": LS, "seconds": 2.6,
            "label_before": "1990", "label_after": "2026"}
-CMP_IKN = {"before": "2019-06-01/2019-10-31", "after": AFTER, "source": LS, "seconds": 2.4,  # Landsat: one 185 km swath covers the box (S2 composites left a swath-edge patch)  # single clear days (86 % / 91 %): composites left a swath-edge patch
+CMP_IKN = {"before": "2019-08-16/2019-08-16", "after": IKN_DAY, "seconds": 2.4,  # 16 Aug 2019: ten days before the announcement;  # Landsat: one 185 km swath covers the box (S2 composites left a swath-edge patch)  # single clear days (86 % / 91 %): composites left a swath-edge patch
            "label_before": "2019", "label_after": "2026"}
 
 
@@ -84,8 +101,8 @@ def m(at, *steps, text=None, keep=False, cut=False):
 
 
 def v(view, at=None, date=None, **kw):
-    if date is None and view["span"] <= 2:
-        date = AFTER
+    if date is None:
+        date = day_for(view)
     d = {"view": view, **kw}
     if at is not None:
         d["at"] = at
@@ -173,7 +190,7 @@ chapters = [
           m(0, v(JAVA, places=[TIMBULSLOKO, JAKARTA])),
           m("Jakarta was", v(JKT_NORTH, places=[MUARA_BARU, PLUIT]), cut=True),
           m("a new capital", v(INDONESIA, places=[JAKARTA, NUSANTARA], routes=[MOVE])),
-          m("and now", v(JAVA, routes=[GSW], places=[SERANG, GRESIK])),
+          m("and now", v(JAVA, routes=[GSW], places=[GRESIK])),
           ask=("Which of", "A wall, a new capital, or a longer wall?")),
     ]},
     {"title": "Faster Than the Sea", "mood": "curious", "paragraphs": [
@@ -250,7 +267,7 @@ chapters = [
           m(0, v(near(106.83, -6.17, 0.3), places=[JAKARTA])),
           m("The new city", v(BORNEO_V, places=[NUSANTARA, BALIKPAPAN]), cut=True),
           m("Construction", v(near(116.70, -0.965, 0.22), places=[NUSANTARA]), cut=True)),
-        P("This is the site in 2019, the year it was announced. And this is the same forest this year. The plan promised that three quarters of the area would stay forest, for a first population of half a million people.",
+        P("This is the site in August 2019, ten days before it was announced. And this is the same forest this year. The plan promised that three quarters of the area would stay forest, for a first population of half a million people.",
           m(0, v(IKN_W, compare={**CMP_IKN, "until": "And this"}), step("And this", places=[NUSANTARA]),
             step("The plan", view=IKN_V, places=[NUSANTARA]), cut=True),
           stat("for a first", "75% forest", "Share of Nusantara meant to stay forest; first population 500,000", NASA_EO + ", Feb 2024")),
@@ -385,7 +402,7 @@ from schema import Paragraph  # noqa: E402
 MAX_WORDS = 10
 
 
-def sat(view, label=None, date=AFTER):
+def sat(view, label=None, date=None):
     return m(0, v(view, date=date), text=label)
 
 
@@ -399,8 +416,8 @@ def pic(name, label=None):
 SEC_WORD = 0.43
 PHOTO_MAX, PHOTO_GAP = 3, 110.0  # gap in estimated seconds; real speech runs faster than SEC_WORD (v2 repeats came back 35-54 s apart)
 SHORES = {
-    "jakarta": [(106.738, -6.096), (106.772, -6.106), (106.786, -6.106), (106.805, -6.103), (106.811, -6.124), (106.840, -6.122),
-                (106.88, -6.105), (106.92, -6.10), (106.965, -6.095), (106.76, -6.12)],
+    "jakarta": [(106.772, -6.106), (106.786, -6.106), (106.805, -6.103), (106.811, -6.124), (106.795, -6.115), (106.80, -6.13),
+                (106.82, -6.11), (106.79, -6.125), (106.808, -6.095), (106.83, -6.12)],
     "bay": [(106.76, -6.085), (106.79, -6.093), (106.70, -6.03), (106.67, -6.02), (106.73, -6.05), (106.82, -6.07)],
     "ikn": [(116.6962, -0.9587), (116.71, -0.95), (116.69, -0.975), (116.73, -0.93), (116.75, -0.95), (116.68, -0.945), (116.72, -0.985)],
     "demak": [(110.472, -6.918), (110.518, -6.914), (110.52, -6.885), (110.46, -6.93), (110.505, -6.90), (110.53, -6.925), (110.49, -6.91)],
@@ -470,13 +487,13 @@ def filler(group, t):
 
 
 def topic_of(text, chapter):
-    if re.search(r"Nusantara|Borneo|Kalimantan|Balik|Sepaku|Sibukdin|Sernai|palace|capital|decree|Widodo|relocat", text):
+    if re.search(r"Nusantara|Borneo|Kalimantan|Balik|Sepaku|Sibukdin|Sernai|[Pp]alace|new capital|decree|Widodo|relocat|forest|cleared|Tempo|core government", text):
         return "ikn"
     if re.search(r"Demak|Timbulsloko|Bedono|Mak Jah|Pasijah|Sularso|Sulkan|mangrove|fish ponds|village head", text):
         return "demak"
-    if re.search(r"island|reclaim|Garuda|Pantai Indah|bay|new land", text):
+    if re.search(r"islands|reclaim|Pantai Indah|bay|new land", text):
         return "bay"
-    if re.search(r"Java|Semarang|Pekalongan|Serang|Gresik|segments|north coast|575|five hundred", text):
+    if re.search(r"Java|Semarang|Pekalongan|Serang|Gresik|segments|north coast|seventy-five kilometres", text):
         return "pantura"
     if re.search(r"Jakarta|Muara|Pluit|dike|wall|groundwater|wells|pumped|sink|NCICD|Nurhasan|governor", text):
         return "jakarta"
@@ -578,6 +595,17 @@ for ch in chapters:
             pos = dict(zip(map(id, para["shots"]), anchors))
             para["shots"] = sorted(para["shots"] + new, key=lambda sh: pos.get(id(sh), sh["at"] if isinstance(sh["at"], int) else 0))
         word_base += len(para["text"].split()) + 8
+
+for ch in chapters:
+    for para in ch["paragraphs"]:
+        for sh in para["shots"]:
+            seen = set()
+            for st in (sh.get("map") or {}).get("steps", []):
+                if st.get("places"):
+                    st["places"] = [pl for pl in st["places"] if pl["name"] not in seen]
+                    seen |= {pl["name"] for pl in st["places"]}
+                    if not st["places"]:
+                        del st["places"]
 
 # Between close views a flight passes through coarse imagery for a second: cut instead. Wide-to-wide moves still fly.
 prev_span = None

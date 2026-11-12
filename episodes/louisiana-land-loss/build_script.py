@@ -194,7 +194,7 @@ chapters = [
           m(0, v(near(-90.0, 29.8, 0.5), places=[NOLA, MBSD])),
           m("Here, on", v(MBSD_V, places=[MBSD]), cut=True)),
         P("Open it, and the river would carry its mud into Barataria Bay, the way it did for thousands of years before the levees. The state's own models said it would build about twenty square miles of land over fifty years. Critics said far less. Our own images show how much it needs it: in a box over the bay, sixteen percent less land and marsh than in 1990, and that box includes the river and its leveed banks, which do not change.",
-          m(0, v(BARATARIA_W, compare={**CMP_BARATARIA, "until": "the way"}), step("the way", places=[place("Barataria Bay", -89.97, 29.51, "Barataria Bay", "sea")]), cut=True),
+          m(0, v(BARATARIA_W), step("the way", places=[place("Barataria Bay", -89.97, 29.51, "Barataria Bay", "sea")]), cut=True),
           m("The state's own", v(near(-89.95, 29.56, 0.15)), cut=True),
           stat("about twenty", "~20 sq mi", "Land the diversion was modelled to build in 50 years (critics: far less)", WWNO),
           m("Our own images", v(near(-90.03, 29.58, 0.25)), cut=True),

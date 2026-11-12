@@ -184,8 +184,8 @@
            "span": 0.14
           },
           "compare": {
-           "before": "1985-09-16",
-           "after": "2026-10-19",
+           "before": "1985-09-14/1985-09-18",
+           "after": "2026-10-10/2026-10-28",
            "source": "landsat",
            "seconds": 1.6,
            "label_before": "1985",

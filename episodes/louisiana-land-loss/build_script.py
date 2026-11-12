@@ -80,7 +80,7 @@ MOVE = {"from": [-90.4886, 29.3992], "to": [-90.776, 29.711], "mode": "line", "s
 LA1 = {"from": [-90.26, 29.38], "to": [-90.19, 29.12], "mode": "line", "seconds": 3, "label": "LA-1",
        "via": [[-90.23, 29.32], [-90.21, 29.25], [-90.20, 29.18]]}
 
-CMP_IJC = {"before": "1985-09-16", "after": "2026-10-19", "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
+CMP_IJC = {"before": "1985-09-14/1985-09-18", "after": "2026-10-10/2026-10-28", "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
 CMP_BARATARIA = {"before": "1985-08-31", "after": AFTER, "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
 CMP_BIRDSFOOT = {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": LS, "seconds": 1.8, "label_before": "1985", "label_after": "2026"}
 CMP_WAXLAKE = {"before": "1984-10-01/1984-10-31", "after": AFTER, "source": LS, "seconds": 2.0, "label_before": "1984", "label_after": "2026"}

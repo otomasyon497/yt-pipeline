@@ -39,7 +39,7 @@ def P(text, *shots):
 paragraphs = [
     P("This island in Louisiana, in 1985. And here it is this autumn, after the sea moved in.",
       m("Real satellite images · Landsat",
-        {**v(-90.49, 29.405, 0.14), "compare": {"before": "1985-09-16", "after": "2026-10-19", "source": "landsat", "seconds": 1.6, "until": "And here"}},
+        {**v(-90.49, 29.405, 0.14), "compare": {"before": "1985-09-14/1985-09-18", "after": "2026-10-10/2026-10-28", "source": "landsat", "seconds": 1.6, "until": "And here"}},
         {"at": "And here", "places": [IJC]}, cut=False)),
     P("By the state's count, the land around it shrank from more than twenty-two thousand acres to about three hundred and twenty.",
       m("22,000 acres -> 320", v(-90.487, 29.40, 0.05, places=[IJC])),

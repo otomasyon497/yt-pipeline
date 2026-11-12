@@ -29,7 +29,7 @@ SEMARANG_V = {"lon": 110.43, "lat": -6.94, "span": 0.18}
 IKN_W = {"lon": 116.696, "lat": -0.959, "span": 0.12}
 IKN_V = {"lon": 116.6962, "lat": -0.9587, "span": 0.05}
 SEPAKU_V = {"lon": 116.73, "lat": -0.93, "span": 0.08}
-BORNEO_V = {"lon": 116.6, "lat": -1.1, "span": 1.6}
+BORNEO_V = {"lon": 116.6, "lat": -1.1, "span": 2.4}  # > 2: undated wide view (dated mosaics leave gaps this wide)
 
 
 def near(lon, lat, span=0.05):
@@ -159,7 +159,7 @@ chapters = [
     {"title": "A Wall of Trees", "mood": "tension", "paragraphs": [
         P("On October 19, 2026, two officials waded into the mud of a village called Timbulsloko, on the north coast of Java, and planted mangrove seedlings. The ceremony was billed as the start of the Giant Sea Wall: a barrier about five hundred and seventy-five kilometres long, meant to protect tens of millions of people from the sea.",
           m(0, v(JAVA, places=[TIMBULSLOKO]), step("a village", view=near(110.52, -6.91, 0.35), places=[TIMBULSLOKO]), step("planted", view=TIMBUL_V, places=[TIMBULSLOKO])),
-          stat("about five", "575 km", "Planned length of Java's Giant Sea Wall", "Antara; Katadata, Oct 2026")),
+          stat("about five", "~575 km", "Planned length of Java's Giant Sea Wall", "Antara; Katadata, Oct 2026")),
         P("Three weeks later, residents told a local paper that the seedlings had died. Planting at a ceremony is not enough, a local woman, Masnuah, told the paper. Someone has to look after them.",
           m(0, v(near(110.512, -6.906, 0.04))),
           clip("Planting at", "Menanam mangrove tidak cukup hanya saat ada acara seremonial. Setelah ditanam, harus ada yang bertanggung jawab merawatnya.\n(Planting mangroves at a ceremony is not enough. Once planted, someone has to be responsible for looking after them.)",
@@ -322,29 +322,29 @@ chapters = [
           clip("Warga", "Warga bertahan di sini karena masalah ekonomi.\n(People stay here for economic reasons.)", "Nadhiri, village head of Timbulsloko, to Jatengpos, Oct 19, 2026", highlight="masalah ekonomi")),
         P("This April, a study in Science Advances measured northern Java from 2017 to 2023. At the most exposed coastal hot spots it found, the ground dropped up to ten centimetres a year in Pekalongan, eight in Semarang and about three and a half in Jakarta. Sinking land, not the rising sea, it found, is the main driver of flood risk along most of this coast.",
           m(0, v(JAVA, places=[SERANG, PEKALONGAN, SEMARANG, DEMAK])),
-          m("At the most", v(near(109.9, -6.88, 0.9), places=[PEKALONGAN, SEMARANG]), cut=True),
+          m("At the most", v(near(109.6, -6.95, 2.8), places=[PEKALONGAN, SEMARANG]), cut=True),
           chart("up to ten", "Coastal hot spots, max sinking, northern Java, 2017-23", " cm a year", [["Pekalongan", 10], ["Semarang", 8], ["Jakarta", 3.6]],
                 "Ohenhen, Shirzaei et al., Science Advances, Apr 2026", reveal=["eight in", "about three"], highlight=0),
           m("in Jakarta", v(near(106.80, -6.12, 0.1), places=[JAKARTA]), cut=True),
-          m("Sinking land", v(near(110.0, -6.85, 1.6), places=[PEKALONGAN, SEMARANG, DEMAK]), cut=True)),
+          m("Sinking land", v(near(110.0, -6.85, 2.4), places=[PEKALONGAN, SEMARANG, DEMAK]), cut=True)),
         P("In Demak and Pekalongan, more than thirty percent of the city area sinks faster than five centimetres a year. By 2050, the study says, sinking land could make up as much as eighty-five percent of the rise in water levels along much of the coast. More than a hundred and fifty million people live on Java.",
           m(0, v(near(109.68, -6.87, 0.12), places=[PEKALONGAN])),
           stat("as much as", "Up to 85%", "Sinking land's share of water-level rise on much of Java's coast, 2050", "Science Advances, Apr 2026"),
           m("More than a", v(JAVA, places=[JAKARTA, PEKALONGAN, SEMARANG, DEMAK]), cut=True)),
         P("What we see in Java, one of the authors said, is likely a preview of what could unfold elsewhere.",
-          m(0, v(near(110.9, -6.75, 1.2))),
+          m(0, v(near(110.9, -6.75, 2.4))),
           clip("is likely", "\"What we see in Java is likely a preview of what could unfold elsewhere.\"", "Leonard Ohenhen, Virginia Tech, Apr 8, 2026", highlight="a preview")),
     ]},
     {"title": "The 575 Kilometre Bet", "mood": "tension", "paragraphs": [
         P("On August 14, 2026, Prabowo told parliament that the country must build the Giant Sea Wall, a great dike to secure the north coast of Java. This absolutely must be done, he said.",
           m(0, v(JAVA, routes=[GSW])),
-          m("a great dike", v(near(108.6, -6.75, 1.4)), cut=True),
+          m("a great dike", v(near(108.6, -6.75, 2.4)), cut=True),
           clip("This absolutely", "Ini mutlak harus kita lakukan.\n(This absolutely must be done.)", "President Prabowo Subianto, Aug 14, 2026", highlight="Ini mutlak harus kita lakukan")),
         P("The plan is about five hundred and seventy-five kilometres of wall in fifteen segments, from Serang in the west to Gresik in East Java. Earlier versions said seven hundred. The authority in charge puts the cost at eighty to a hundred billion dollars, over fifteen to twenty years.",
           m(0, v(JAVA, routes=[GSW], places=[SERANG, GRESIK])),
           stat("eighty to a", "US$80-100 bn", "Estimated cost of the Giant Sea Wall, 15-20 years", "North Java Coast Authority via detik, Feb 24, 2026")),
         P("The president says the north coast is home to tens of millions of people. A new authority was created in August 2025 to run the project, led by a retired vice admiral, Didit Herdiawan Ashaf. Jakarta's own section alone is put at about eight billion dollars, The Jakarta Post reported, and the president asked the city to pay half.",
-          m(0, v(near(108.6, -6.75, 1.4), places=[PEKALONGAN])),
+          m(0, v(near(108.6, -6.75, 2.4), places=[PEKALONGAN])),
           m("Jakarta's own", v(JKT_BAY, places=[JAKARTA]), cut=True)),
         P("Jakarta's part has grown from twelve to nineteen kilometres. Governor Pramono says the city must find at least five trillion rupiah a year for it, and that he wants a hybrid wall: concrete where it must be, mangroves where they can grow.",
           m(0, v(JKT_BAY_W)),

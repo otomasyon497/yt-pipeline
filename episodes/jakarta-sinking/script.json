@@ -100,7 +100,7 @@
        "type": "stat",
        "at": "about five",
        "stat": {
-        "value": "575 km",
+        "value": "~575 km",
         "label": "Planned length of Java's Giant Sea Wall",
         "source": "Antara; Katadata, Oct 2026"
        }
@@ -2171,7 +2171,7 @@
           "view": {
            "lon": 116.6,
            "lat": -1.1,
-           "span": 1.6
+           "span": 2.4
           },
           "places": [
            {
@@ -2188,8 +2188,7 @@
             "kind": "city",
             "label": "Balikpapan"
            }
-          ],
-          "date": "2026-06-01/2026-10-31"
+          ]
          }
         ],
         "cut": true
@@ -2269,9 +2268,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.888,
+           "lon": 117.032,
            "lat": -1.1,
-           "span": 1.6
+           "span": 2.4
           },
           "places": [
            {
@@ -2288,8 +2287,7 @@
             "kind": "city",
             "label": "Balikpapan"
            }
-          ],
-          "date": "2026-06-01/2026-10-31"
+          ]
          }
         ],
         "cut": true
@@ -4087,9 +4085,9 @@
         "steps": [
          {
           "view": {
-           "lon": 109.9,
-           "lat": -6.88,
-           "span": 0.9
+           "lon": 109.6,
+           "lat": -6.95,
+           "span": 2.8
           },
           "places": [
            {
@@ -4106,8 +4104,7 @@
             "kind": "city",
             "label": "Semarang"
            }
-          ],
-          "date": "2026-06-01/2026-10-31"
+          ]
          }
         ],
         "cut": true
@@ -4195,7 +4192,7 @@
           "view": {
            "lon": 110.0,
            "lat": -6.85,
-           "span": 1.6
+           "span": 2.4
           },
           "places": [
            {
@@ -4219,8 +4216,7 @@
             "kind": "city",
             "label": "Demak"
            }
-          ],
-          "date": "2026-06-01/2026-10-31"
+          ]
          }
         ],
         "cut": true
@@ -4402,9 +4398,8 @@
           "view": {
            "lon": 110.9,
            "lat": -6.75,
-           "span": 1.2
-          },
-          "date": "2026-06-01/2026-10-31"
+           "span": 2.4
+          }
          }
         ],
         "cut": true
@@ -4549,9 +4544,8 @@
           "view": {
            "lon": 108.6,
            "lat": -6.75,
-           "span": 1.4
-          },
-          "date": "2026-06-01/2026-10-31"
+           "span": 2.4
+          }
          }
         ],
         "cut": true
@@ -4754,9 +4748,9 @@
         "steps": [
          {
           "view": {
-           "lon": 108.852,
+           "lon": 109.032,
            "lat": -6.75,
-           "span": 1.4
+           "span": 2.4
           },
           "places": [
            {
@@ -4766,8 +4760,7 @@
             "kind": "city",
             "label": "Pekalongan"
            }
-          ],
-          "date": "2026-06-01/2026-10-31"
+          ]
          }
         ]
        }

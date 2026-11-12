@@ -1,0 +1,5484 @@
+{
+ "title": "Sinking Jakarta",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/jakarta-sinking/research.md, verification.md and factcheck.md",
+  "Landsat data courtesy of the U.S. Geological Survey",
+  "Contains modified Copernicus Sentinel data 2019-2026"
+ ],
+ "thumbnail": {
+  "text": "THE WALL"
+ },
+ "chapters": [
+  {
+   "title": "A Wall of Trees",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "On October 19, 2026, two officials waded into the mud of a village called Timbulsloko, on the north coast of Java, and planted mangrove seedlings. The ceremony was billed as the start of the Giant Sea Wall: a barrier about five hundred and seventy-five kilometres long, meant to protect tens of millions of people from the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ]
+         },
+         {
+          "at": "a village",
+          "view": {
+           "lon": 110.52,
+           "lat": -6.91,
+           "span": 0.35
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ]
+         },
+         {
+          "at": "planted",
+          "view": {
+           "lon": 110.517,
+           "lat": -6.913,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.43,
+           "lat": -6.95,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "stat",
+       "at": "about five",
+       "stat": {
+        "value": "575 km",
+        "label": "Planned length of Java's Giant Sea Wall",
+        "source": "Antara; Katadata, Oct 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.2,
+           "lat": -6.92,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Java's north coast"
+      }
+     ]
+    },
+    {
+     "text": "Three weeks later, residents told a local paper that the seedlings had died. Planting at a ceremony is not enough, one of them said. Someone has to look after them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.512,
+           "lat": -6.906,
+           "span": 0.04
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.52,
+           "lat": -6.885,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "document",
+       "at": "Planting at",
+       "document": {
+        "text": "Menanam mangrove tidak cukup hanya saat ada acara seremonial. Setelah ditanam, harus ada yang bertanggung jawab merawatnya.\n(Planting mangroves at a ceremony is not enough. Once planted, someone has to be responsible for looking after them.)",
+        "source": "Masnuah, to Disway Jateng, Nov 9, 2026",
+        "highlight": "harus ada yang bertanggung jawab merawatnya"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Someone has",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.508,
+           "lat": -6.921,
+           "span": 0.035
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "This is Timbulsloko's coast from orbit in 1990. And this is the same coast this year. Nadhiri, village head since 2009, told a local paper that Timbulsloko used to be a rich village, with rice fields, dry fields and fish ponds. Today the sea comes up to the houses.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.495,
+           "lat": -6.91,
+           "span": 0.16
+          },
+          "compare": {
+           "before": "1990-06-01/1990-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 2.2,
+           "label_before": "1990",
+           "label_after": "2026",
+           "until": "And this"
+          },
+          "date": "2026-06-01/2026-10-31"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           },
+           {
+            "name": "Bedono",
+            "lon": 110.472,
+            "lat": -6.918,
+            "kind": "city",
+            "label": "Bedono"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Nadhiri,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.526,
+           "lat": -6.913,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.46,
+           "lat": -6.93,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.505,
+           "lat": -6.9,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": "Today the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.526,
+           "lat": -6.908,
+           "span": 0.04
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Four hundred kilometres to the west, the country's capital is sinking too. Jakarta was once called the fastest-sinking city in the world. Indonesia's answers have been a wall, a new capital in the forest of Borneo, and now a wall along half of Java. Which of them can still work?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.55,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           },
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.71,
+           "lat": -0.95,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "Jakarta was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.11,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           },
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 20,
+       "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
+       "on_screen_text": "Jakarta flood, January 2013"
+      },
+      {
+       "type": "map",
+       "at": "a new capital",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": -3.5,
+           "span": 16.0
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           },
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             106.8272,
+             -6.1754
+            ],
+            "to": [
+             116.6962,
+             -0.9587
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "To Borneo"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "and now",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Giant Sea Wall, about 575 km",
+            "via": [
+             [
+              106.5,
+              -6.02
+             ],
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.1,
+              -5.97
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.2,
+              -6.3
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.1,
+              -6.83
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.2,
+              -6.9
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              110.6,
+              -6.8
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              111.6,
+              -6.7
+             ],
+             [
+              112.05,
+              -6.88
+             ],
+             [
+              112.65,
+              -7.1
+             ]
+            ]
+           }
+          ],
+          "places": [
+           {
+            "name": "Serang",
+            "lon": 106.15,
+            "lat": -6.12,
+            "kind": "city",
+            "label": "Serang"
+           },
+           {
+            "name": "Gresik",
+            "lon": 112.65,
+            "lat": -7.16,
+            "kind": "city",
+            "label": "Gresik"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "ask": {
+      "at": "Which of",
+      "text": "A wall, a new capital, or a longer wall?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Faster Than the Sea",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "About thirty-two million people live in greater Jakarta, NASA says, more than twice as many as in 1990. For decades, many of them, and many factories, drew their water from wells beneath the city.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "nasa:iss073e0222649",
+       "on_screen_text": "Jakarta at night, from the ISS, May 2025"
+      },
+      {
+       "type": "stat",
+       "at": "more than twice",
+       "stat": {
+        "value": "~32 million",
+        "label": "People in greater Jakarta, more than double 1990",
+        "source": "NASA Earth Observatory, 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": "For decades",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.83,
+           "lat": -6.2,
+           "span": 0.6
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.738,
+           "lat": -6.096,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "When water is pumped out of the clay and sand under a city, the ground packs down and drops. Between 1982 and 2010, Indonesian geodesists measured Jakarta sinking one to fifteen centimetres a year, and in some spots twenty to twenty-eight.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8216,
+           "lat": -6.11,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           },
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "stat",
+       "at": "Between 1982",
+       "stat": {
+        "value": "Up to 28 cm a year",
+        "label": "Jakarta subsidence hot spots, 1982-2010",
+        "source": "Abidin et al., Natural Hazards, 2011"
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "In 2018 one of them, Heri Andreas of the Bandung Institute of Technology, told the BBC that about ninety-five percent of North Jakarta could be under water by 2050. It was a projection, and it made headlines around the world.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.104,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.811,
+           "lat": -6.124,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "stat",
+       "at": "about ninety-five",
+       "stat": {
+        "value": "95%",
+        "label": "North Jakarta under water by 2050: one researcher's 2018 projection",
+        "source": "Heri Andreas, ITB, to the BBC, 2018"
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.84,
+           "lat": -6.122,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.88,
+           "lat": -6.105,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "Floods are not new here. In 2007 a monsoon flood covered more than seventy percent of the city, NASA reports. By some estimates, up to forty percent of Jakarta now lies below sea level. Every centimetre the ground loses makes the next high tide a little more dangerous.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:VOA People walk through Jakarta's flooded streets.jpg",
+       "on_screen_text": "Jakarta flood, January 2013"
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.92,
+           "lat": -6.1,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "stat",
+       "at": "By some",
+       "stat": {
+        "value": "40%",
+        "label": "Share of Jakarta below sea level, by some estimates",
+        "source": "NASA Earth Observatory, 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.965,
+           "lat": -6.095,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "Every centimetre",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.12,
+           "span": 0.09
+          },
+          "places": [
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 41,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.12,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "The sea itself rises about four millimetres a year around Indonesia, according to the national weather agency. So where it was worst, the land was dropping dozens of times faster than the sea was rising.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Sinking land vs rising sea, cm a year",
+        "unit": " cm",
+        "data": [
+         [
+          "Muara Baru, before 2019",
+          20
+         ],
+         [
+          "Muara Baru, 2019",
+          10
+         ],
+         [
+          "Sea level, Indonesia",
+          0.4
+         ]
+        ],
+        "source": "Heri Andreas via The Jakarta Post, 2019 (lower ends of the ranges); BMKG via Mongabay, 2025",
+        "highlight": 2,
+        "reveal": [
+         "about four",
+         "So where"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "faster than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.1,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then something changed. By 2019, Andreas measured Muara Baru at about ten to twelve centimetres a year, down from more than twenty. A 2022 study of ninety-nine coastal cities found that Jakarta's sinking had slowed significantly, likely because less groundwater was being pumped.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.792,
+           "lat": -6.118,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
+       "on_screen_text": "Jakarta flood, January 2013"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.738,
+           "lat": -6.096,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "A 2022",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.14,
+           "span": 0.2
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 28,
+       "photo": "nasa:iss073e0222649",
+       "on_screen_text": "Jakarta at night, from the ISS, May 2025"
+      },
+      {
+       "type": "document",
+       "at": "slowed significantly",
+       "document": {
+        "text": "Jakarta's rate slowed significantly, likely due to reduced groundwater extraction.",
+        "source": "Wu, Wei & D'Hondt, Geophysical Research Letters, 2022",
+        "highlight": "reduced groundwater extraction"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2021 the city declared zones where groundwater may no longer be drawn, and its water company says it now pipes water to about four in five households, with everyone connected by 2029.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.86,
+           "lat": -6.2,
+           "span": 0.25
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "stat",
+       "at": "about four",
+       "stat": {
+        "value": "~82%",
+        "label": "Jakarta households on piped water, 2026 (target: 100% by 2029)",
+        "source": "PAM Jaya via Katadata, Jul 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "But slower is not stopped. Studies of the last ten years still find several centimetres a year along the north coast, roughly ten times the rise of the sea. And land that has sunk does not come back up.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.77,
+           "lat": -6.105,
+           "span": 0.07
+          },
+          "places": [
+           {
+            "name": "Muara Angke",
+            "lon": 106.772,
+            "lat": -6.106,
+            "kind": "site",
+            "label": "Muara Angke"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.68,
+           "lat": -6.86,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.1,
+           "lat": -6.83,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": "And land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.11,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wall That Leaks",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Jakarta's first answer was a wall. Since 2014 the city and the national government have been building concrete dikes along the shore and the river mouths, under a programme called NCICD.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.811,
+           "lat": -6.124,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "Since 2014",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8216,
+           "lat": -6.11,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           },
+           {
+            "name": "Muara Angke",
+            "lon": 106.772,
+            "lat": -6.106,
+            "kind": "site",
+            "label": "Muara Angke"
+           },
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.84,
+           "lat": -6.122,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.88,
+           "lat": -6.105,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "The plan covers about forty kilometres of the most exposed coast. By the end of 2025 roughly half of it was built, and the finish date was 2030.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~40 km",
+        "label": "NCICD coastal dikes: about half built by end-2025, target 2030",
+        "source": "DSDA Jakarta, Jul 2025; The Jakarta Post, Dec 2025"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.92,
+           "lat": -6.1,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.965,
+           "lat": -6.095,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "On December 6, 2025, part of the wall at Muara Baru failed. Sea water ran into dozens of neighbourhoods behind it. Governor Pramono Anung said he understood the hardship of the residents, and promised repairs from 2026.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.104,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.12,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "Sea water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.11,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.738,
+           "lat": -6.096,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "Nurhasan lives about eight hundred metres from that dike. He told reporters it had started leaking three or four years earlier. This dike was built in Ahok's time, he said, meaning a governor who left office in 2017.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.808,
+           "lat": -6.11,
+           "span": 0.035
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
+       "on_screen_text": "Jakarta flood, January 2013"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "document",
+       "at": "This dike",
+       "document": {
+        "text": "Bocornya mulai sekitar 3-4 tahun lalu. Ini tanggul dibangun zamannya Ahok.\n(It started leaking about three or four years ago. This dike was built in Ahok's time.)",
+        "source": "Nurhasan, 40, Muara Baru, via Kompas / FIA UI, Dec 8, 2025",
+        "highlight": "Bocornya mulai sekitar 3-4 tahun lalu"
+       }
+      },
+      {
+       "type": "map",
+       "at": "meaning a governor",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.098,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Just outside the wall at Muara Baru stands a mosque the sea has already taken. Wal Adhuna was abandoned in the 2000s. Today it stands in the water, on the wrong side of the dike.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.7997,
+           "lat": -6.106,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "nasa:iss073e0222649",
+       "on_screen_text": "Jakarta at night, from the ISS, May 2025"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "Today it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.81,
+           "lat": -6.112,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.811,
+           "lat": -6.124,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "The head of the city's water agency draws a line. These coastal dikes, she says, are not the Giant Sea Wall. That is a bigger idea, out in the bay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.821,
+           "lat": -6.108,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "These coastal",
+       "document": {
+        "text": "Jadi pertanyaannya apakah tanggul-tanggul pengaman pantai ini Giant Sea Wall? Bukan. Beda.\n(So the question is: are these coastal dikes the Giant Sea Wall? No. They are different.)",
+        "source": "Ika Agustin Ningrum, head of DSDA Jakarta, Dec 11, 2025",
+        "highlight": "Bukan. Beda."
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.08,
+           "span": 0.42
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "An earlier version, unveiled in 2014, was shaped like the Garuda, Indonesia's mythical bird, with seventeen artificial islands. It was cancelled in 2017. Four of the islands were finished anyway. Thirteen were halted.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.78,
+           "lat": -6.085,
+           "span": 0.14
+          },
+          "places": [
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:Pantai Indah Kapuk 2 - Tangerang, BT (22 Februari 2024) 1.jpg",
+       "on_screen_text": "Pantai Indah Kapuk 2, February 2024"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.085,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Jakarta Bay"
+      },
+      {
+       "type": "stat",
+       "at": "Four of",
+       "stat": {
+        "value": "4 of 17",
+        "label": "Reclamation islands finished in Jakarta Bay; 13 halted",
+        "source": "Mongabay, Mar 2019"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Not everyone wanted a wall in the bay. In 2014, two fishers' groups, KIARA and KNTI, estimated that at least sixteen thousand eight hundred fishermen would lose their homes or their livelihood to the offshore plan. The fishing harbours of Muara Angke and Muara Baru sit right on this shore.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.772,
+           "lat": -6.103,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Muara Angke",
+            "lon": 106.772,
+            "lat": -6.106,
+            "kind": "site",
+            "label": "Muara Angke"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.79,
+           "lat": -6.093,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jakarta Bay"
+      },
+      {
+       "type": "stat",
+       "at": "at least",
+       "stat": {
+        "value": "16,855",
+        "label": "Fishers estimated to lose homes or livelihoods to the 2014 offshore plan",
+        "source": "KIARA and KNTI, via The Jakarta Post, Oct 2014"
+       }
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.7,
+           "lat": -6.03,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Jakarta Bay"
+      },
+      {
+       "type": "map",
+       "at": "The fishing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.79,
+           "lat": -6.1,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Muara Angke",
+            "lon": 106.772,
+            "lat": -6.106,
+            "kind": "site",
+            "label": "Muara Angke"
+           },
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 43,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.84,
+           "lat": -6.122,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "From orbit you can see what was built. This is Jakarta Bay in 1990. And this is the same bay this year, with new islands, new suburbs on reclaimed land, and Pantai Indah Kapuk 2 spreading west along the coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.07,
+           "span": 0.5
+          },
+          "compare": {
+           "before": "1990-06-01/1990-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 2.6,
+           "label_before": "1990",
+           "label_after": "2026",
+           "until": "And this"
+          },
+          "date": "2026-06-01/2026-10-31"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "PIK 2",
+            "lon": 106.7,
+            "lat": -6.03,
+            "kind": "site",
+            "label": "Pantai Indah Kapuk 2"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "new suburbs",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.09,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Pluit",
+            "lon": 106.795,
+            "lat": -6.115,
+            "kind": "site",
+            "label": "Pluit"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Pantai Indah",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.7,
+           "lat": -6.035,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "PIK 2",
+            "lon": 106.7,
+            "lat": -6.03,
+            "kind": "site",
+            "label": "Pantai Indah Kapuk 2"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "NASA counted more than one thousand one hundred hectares of new land along this coast between 1990 and 2019. Land made on the sea, in a city that is sinking into it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1,185+ ha",
+        "label": "New land along Jakarta's coast, 1990-2019",
+        "source": "NASA Earth Observatory, May 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.67,
+           "lat": -6.02,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Jakarta Bay"
+      },
+      {
+       "type": "map",
+       "at": "Land made",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.74,
+           "lat": -6.07,
+           "span": 0.1
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in a city",
+       "photo": "File:Pantai Indah Kapuk 2 - Tangerang, BT (22 Februari 2024) 1.jpg",
+       "on_screen_text": "Pantai Indah Kapuk 2, February 2024"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Plan B: Leave",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In August 2019, President Joko Widodo announced a different answer: move the capital. On August 26 he named a site in East Kalimantan, on the island of Borneo, more than a thousand kilometres from Jakarta.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": -3.5,
+           "span": 16.0
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "On August",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 114.88,
+           "lat": -3.5,
+           "span": 16.0
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           },
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             106.8272,
+             -6.1754
+            ],
+            "to": [
+             116.6962,
+             -0.9587
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "To Borneo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "on the island",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6,
+           "lat": -1.1,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           },
+           {
+            "name": "Balikpapan",
+            "lon": 116.83,
+            "lat": -1.24,
+            "kind": "city",
+            "label": "Balikpapan"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 29,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "His reasons: Jakarta was crowded, polluted and sinking, and the new site was relatively free of earthquakes and volcanoes. The new city was named Nusantara. The plan at the time: build from 2021 and move by 2024. Construction began in July 2022, about thirty kilometres inland from the sea near Balikpapan Bay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.83,
+           "lat": -6.17,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.88,
+           "lat": -6.105,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "The new city",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.888,
+           "lat": -1.1,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           },
+           {
+            "name": "Balikpapan",
+            "lon": 116.83,
+            "lat": -1.24,
+            "kind": "city",
+            "label": "Balikpapan"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "Construction",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.7,
+           "lat": -0.965,
+           "span": 0.22
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 44,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "This is the site in 2019, the year it was announced. And this is the same forest this year. The plan promised that three quarters of the area would stay forest, for a first population of half a million people.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.696,
+           "lat": -0.959,
+           "span": 0.12
+          },
+          "compare": {
+           "before": "2019-06-01/2019-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "seconds": 2.4,
+           "label_before": "2019",
+           "label_after": "2026",
+           "until": "And this"
+          },
+          "date": "2026-06-01/2026-10-31"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ]
+         },
+         {
+          "at": "The plan",
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "for a first",
+       "stat": {
+        "value": "75% forest",
+        "label": "Share of Nusantara meant to stay forest; first population 500,000",
+        "source": "NASA Earth Observatory, Feb 2024"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The price was put at four hundred and sixty-six trillion rupiah, around thirty-two billion dollars, with the state meant to pay a fifth and private investors the rest. By 2024 the state had spent eighty-nine trillion rupiah.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:President Joko Widodo inspecting the construction of the Presidential Palace in Nusantara (5 June 2024).jpg",
+       "on_screen_text": "The presidential palace under construction, June 2024"
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.72,
+           "lat": -0.985,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "stat",
+       "at": "By 2024",
+       "stat": {
+        "value": "Rp 89 trillion",
+        "label": "State money spent on Nusantara, 2022-2024",
+        "source": "The Jakarta Post, Aug 20, 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted about two thousand four hundred hectares cleared or degraded in the core government zone in that time. Roads and government buildings now stand where the trees were.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.7052,
+           "lat": -0.9587,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.71,
+           "lat": -0.95,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "stat",
+       "at": "about two thousand",
+       "stat": {
+        "value": "~2,464 ha",
+        "label": "Forest cleared or degraded in Nusantara's core zone, Apr 2022 - Feb 2024",
+        "source": "Tempo analysis of NASA Landsat images, 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "Roads and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.71,
+           "lat": -0.96,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Not everyone wanted the city. The Balik people of Sepaku live right next to the site. We don't want to be relocated from the land of our ancestors, their chief Sibukdin told Al Jazeera in 2023. A neighbour, Sernai, sixty-eight, said: They will take my house eventually.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Sepaku",
+            "lon": 116.73,
+            "lat": -0.93,
+            "kind": "city",
+            "label": "Sepaku"
+           },
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "document",
+       "at": "We don't",
+       "document": {
+        "text": "\"We don't want to be relocated from the land of our ancestors.\"",
+        "source": "Sibukdin, Balik chief, Sepaku, to Al Jazeera, Mar 15, 2023",
+        "highlight": "the land of our ancestors"
+       }
+      },
+      {
+       "type": "map",
+       "at": "told Al Jazeera",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.725,
+           "lat": -0.925,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Sepaku",
+            "lon": 116.73,
+            "lat": -0.93,
+            "kind": "city",
+            "label": "Sepaku"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "A neighbour",
+       "document": {
+        "text": "\"They will take my house eventually.\"",
+        "source": "Sernai, 68, Sepaku, to Al Jazeera, Mar 15, 2023"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Indigenous peoples' alliance AMAN estimated that at least twenty thousand Indigenous people would have to move for the new capital. In March 2024, hundreds of households in Sepaku received letters from the capital's authority, according to the mining watchdog JATAM. The authority's head at the time had promised room for dialogue.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.74,
+           "lat": -0.94,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Sepaku",
+            "lon": 116.73,
+            "lat": -0.93,
+            "kind": "city",
+            "label": "Sepaku"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "at least twenty",
+       "stat": {
+        "value": "20,000+",
+        "label": "Indigenous people who would have to move: AMAN's estimate",
+        "source": "AMAN, via Al Jazeera, Mar 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.72,
+           "lat": -0.985,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "document",
+       "at": "The authority's",
+       "document": {
+        "text": "\"We will give some room for dialogue, so they can have dialogue with us.\"",
+        "source": "Bambang Susantono, then head of the Nusantara authority, to Al Jazeera, 2023"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In August 2024, Indonesia held its Independence Day ceremony in Nusantara for the first time. It looked like the move had begun.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Istana Garuda IKN.png",
+       "on_screen_text": "The Garuda Palace, Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.71,
+           "lat": -0.95,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "It looked",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Capital That Stalled",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Then the president changed. Prabowo Subianto took office in October 2024. In 2025 his government made Nusantara a political capital by 2028, with between one thousand seven hundred and four thousand one hundred civil servants to move first.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.7,
+           "lat": -0.962,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Nusantara",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "capital",
+            "label": "Nusantara: Garuda Palace"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 7,
+       "photo": "File:President Joko Widodo inspecting the construction of the Presidential Palace in Nusantara (5 June 2024).jpg",
+       "on_screen_text": "The presidential palace under construction, June 2024"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "stat",
+       "at": "with between",
+       "stat": {
+        "value": "1,700-4,100",
+        "label": "Civil servants to move first: a 'political capital' by 2028",
+        "source": "Perpres 79/2025, via CNN Indonesia and Kontan"
+       }
+      },
+      {
+       "type": "map",
+       "at": 31,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "For 2026 the city's authority got about six point three trillion rupiah. In his State of the Nation speech in August 2026, Prabowo did not mention Nusantara at all.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "Rp 6.3 trillion",
+        "label": "Nusantara authority budget, 2026",
+        "source": "The Jakarta Post, Aug 20, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In his",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "The authority's head, Basuki Hadimuljono, asked for more: an extra eighteen point seven trillion rupiah for 2026 and 2027. In the 2027 budget bill, Nusantara is not among the government's eight priorities. Most of next year's money is meant for buildings for parliament and the courts.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.705,
+           "lat": -0.97,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "an extra",
+       "stat": {
+        "value": "+Rp 18.7 trillion",
+        "label": "Extra money the Nusantara authority asked for, 2026-2027",
+        "source": "Investortrust; Katadata, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.72,
+           "lat": -0.985,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "An economist, Bhima Yudhistira, put it plainly. The relocation of the capital clearly does not appear to be a priority for Prabowo, as it is seen as a sunk cost.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.69,
+           "lat": -0.96,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "The relocation",
+       "document": {
+        "text": "\"The relocation of the capital clearly does not appear to be a priority for Prabowo, as it is seen as a sunk cost.\"",
+        "source": "Bhima Yudhistira, CELIOS, to The Jakarta Post, Aug 2026",
+        "highlight": "a sunk cost"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "as it is",
+       "photo": "File:Istana Garuda IKN.png",
+       "on_screen_text": "The Garuda Palace, Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "And in May 2026, Indonesia's Constitutional Court ruled that Jakarta remains the capital until the president signs a decree moving it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8272,
+           "lat": -6.1754,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.71,
+           "lat": -0.95,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      }
+     ]
+    },
+    {
+     "text": "So the city that was built because Jakarta is sinking is not yet the capital. Jakarta, by law, still is. And the money the government talks about now is going somewhere else: back to the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.696,
+           "lat": -0.959,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "Jakarta, by law",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.08,
+           "span": 0.42
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": "back to the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Giant Sea Wall, about 575 km",
+            "via": [
+             [
+              106.5,
+              -6.02
+             ],
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.1,
+              -5.97
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.2,
+              -6.3
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.1,
+              -6.83
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.2,
+              -6.9
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              110.6,
+              -6.8
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              111.6,
+              -6.7
+             ],
+             [
+              112.05,
+              -6.88
+             ],
+             [
+              112.65,
+              -7.1
+             ]
+            ]
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Where the Sea Already Won",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Back to Demak, the coast where this story began. Here the sea is not a forecast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.55,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Demak",
+            "lon": 110.64,
+            "lat": -6.89,
+            "kind": "city",
+            "label": "Demak"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Here the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.52,
+           "lat": -6.91,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           },
+           {
+            "name": "Bedono",
+            "lon": 110.472,
+            "lat": -6.918,
+            "kind": "city",
+            "label": "Bedono"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the 1990s, mangroves along this shore were cut down to make fish ponds. Without their roots, the coast lost its defence. And the ground here sinks too: satellite radar measured about eight to nine centimetres a year at Timbulsloko between 2017 and 2019.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.53,
+           "lat": -6.925,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "photo",
+       "at": "Without their",
+       "photo": "File:Ihwanudin, petani mangrove di Desa Bedono, Demak yang bertahan menanam mangrove di tengah ancaman abrasi.jpg",
+       "on_screen_text": "A mangrove farmer in Bedono, 2025"
+      },
+      {
+       "type": "map",
+       "at": 21,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.472,
+           "lat": -6.918,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "stat",
+       "at": "satellite radar",
+       "stat": {
+        "value": "~8.7 cm a year",
+        "label": "Subsidence at Timbulsloko, Sentinel-1 radar, 2017-2019",
+        "source": "Universitas Diponegoro, Jurnal Geodesi"
+       }
+      },
+      {
+       "type": "map",
+       "at": 37,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.518,
+           "lat": -6.914,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Sayung, Demak"
+      }
+     ]
+    },
+    {
+     "text": "We measured this coast ourselves, in Landsat images from 1990 to 2026. This is 1990. And this is this year. In three boxes around Bedono, Timbulsloko and Surodadi, about two thousand five hundred hectares were land in 1990. This year, about four hundred and fifty are left. Around Timbulsloko, nine tenths of the land has turned to water. Some of it was fish ponds that flooded for good. The rest is open sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.495,
+           "lat": -6.91,
+           "span": 0.16
+          },
+          "compare": {
+           "before": "1990-06-01/1990-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 2.6,
+           "label_before": "1990",
+           "label_after": "2026",
+           "until": "And this",
+           "hold": 0.4
+          },
+          "date": "2026-06-01/2026-10-31"
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           },
+           {
+            "name": "Bedono",
+            "lon": 110.472,
+            "lat": -6.918,
+            "kind": "city",
+            "label": "Bedono"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about two thousand",
+       "stat": {
+        "value": "~2,500 ha -> ~450 ha",
+        "label": "Land in three boxes at Bedono, Timbulsloko and Surodadi, 1990 -> 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9"
+       }
+      },
+      {
+       "type": "map",
+       "at": 37,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.52,
+           "lat": -6.885,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": "Around Timbulsloko",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.517,
+           "lat": -6.913,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 54,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.46,
+           "lat": -6.93,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": 61,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.505,
+           "lat": -6.9,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": "The rest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.5,
+           "lat": -6.89,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In Bedono, the next village, about two hundred and fifty families were moved away. One woman stayed. Pasijah, known as Mak Jah, raised her house and planted mangroves around it. For years hers was one of the last homes in her hamlet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.472,
+           "lat": -6.918,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Bedono",
+            "lon": 110.472,
+            "lat": -6.918,
+            "kind": "city",
+            "label": "Bedono"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.53,
+           "lat": -6.925,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "photo",
+       "at": "One woman",
+       "photo": "File:Rumah Mak Jah di Desa Bedono yang Tenggelam karena abrasi.jpg",
+       "on_screen_text": "Mak Jah's house, Bedono"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.472,
+           "lat": -6.918,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      }
+     ]
+    },
+    {
+     "text": "In Timbulsloko, the fisherman Sularso raised his floor three times after 2018, a metre and a half in all, for about twenty-two million rupiah. For me, there is no future, he told reporters in 2023.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.526,
+           "lat": -6.913,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.518,
+           "lat": -6.914,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.52,
+           "lat": -6.885,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "document",
+       "at": "For me",
+       "document": {
+        "text": "\"For me, there is no future.\"",
+        "source": "Sularso, 54, fisherman, Timbulsloko, to AFP, Jul 2023"
+       }
+      }
+     ]
+    },
+    {
+     "text": "His neighbour Sulkan said: As long as there are still neighbours, there are still houses, I'm staying here. The village head says people stay for one reason. Warga bertahan di sini karena masalah ekonomi. People stay here because of money.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.512,
+           "lat": -6.918,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "document",
+       "at": "As long",
+       "document": {
+        "text": "\"As long as there are still neighbours, there are still houses, I'm staying here.\"",
+        "source": "Sulkan, 49, Timbulsloko, to AFP, Jul 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The village",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.522,
+           "lat": -6.905,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "Warga",
+       "document": {
+        "text": "Warga bertahan di sini karena masalah ekonomi.\n(People stay here because of money.)",
+        "source": "Nadhiri, village head of Timbulsloko, to Jatengpos, Oct 19, 2026",
+        "highlight": "masalah ekonomi"
+       }
+      }
+     ]
+    },
+    {
+     "text": "This April, a study in Science Advances found northern Java sinking one to fifteen centimetres a year, in cities and villages alike, and that sinking land, not the rising sea, is the main driver of flood risk along most of this coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.55,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Serang",
+            "lon": 106.15,
+            "lat": -6.12,
+            "kind": "city",
+            "label": "Serang"
+           },
+           {
+            "name": "Pekalongan",
+            "lon": 109.68,
+            "lat": -6.88,
+            "kind": "city",
+            "label": "Pekalongan"
+           },
+           {
+            "name": "Semarang",
+            "lon": 110.42,
+            "lat": -6.97,
+            "kind": "city",
+            "label": "Semarang"
+           },
+           {
+            "name": "Demak",
+            "lon": 110.64,
+            "lat": -6.89,
+            "kind": "city",
+            "label": "Demak"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.57,
+           "lat": -6.7,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "stat",
+       "at": "one to fifteen",
+       "stat": {
+        "value": "1-15 cm a year",
+        "label": "Subsidence along northern Java, cities and villages",
+        "source": "Ohenhen, Shirzaei et al., Science Advances, Apr 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 111.1,
+           "lat": -6.55,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.43,
+           "lat": -6.95,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      }
+     ]
+    },
+    {
+     "text": "Some places are worse. In Pekalongan, a batik city west of here, Heri Andreas measured up to eighteen centimetres a year. By 2050, the same study says, sinking land could make up as much as eighty-five percent of the rise in water levels along much of the coast. More than a hundred and fifty million people live on Java.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.68,
+           "lat": -6.87,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Pekalongan",
+            "lon": 109.68,
+            "lat": -6.88,
+            "kind": "city",
+            "label": "Pekalongan"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.2,
+           "lat": -6.92,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.68,
+           "lat": -6.86,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.92,
+           "lat": -6.1,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "stat",
+       "at": "as much as",
+       "stat": {
+        "value": "Up to 85%",
+        "label": "Sinking land's share of water-level rise on much of Java's coast, 2050",
+        "source": "Science Advances, Apr 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 41,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.965,
+           "lat": -6.095,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "More than a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 107.85,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           },
+           {
+            "name": "Pekalongan",
+            "lon": 109.68,
+            "lat": -6.88,
+            "kind": "city",
+            "label": "Pekalongan"
+           },
+           {
+            "name": "Semarang",
+            "lon": 110.42,
+            "lat": -6.97,
+            "kind": "city",
+            "label": "Semarang"
+           },
+           {
+            "name": "Demak",
+            "lon": 110.64,
+            "lat": -6.89,
+            "kind": "city",
+            "label": "Demak"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 53,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.1,
+           "lat": -6.83,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      }
+     ]
+    },
+    {
+     "text": "What we see in Java, one of the authors said, is likely a preview of what could unfold elsewhere.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.9,
+           "lat": -6.75,
+           "span": 1.2
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "is likely",
+       "document": {
+        "text": "\"What we see in Java is likely a preview of what could unfold elsewhere.\"",
+        "source": "Leonard Ohenhen, Virginia Tech, Apr 8, 2026",
+        "highlight": "a preview"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The 575 Kilometre Bet",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "On August 14, 2026, Prabowo told parliament that the country must build the Giant Sea Wall, a great dike to secure the north coast of Java. This absolutely must be done, he said.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -6.0672,
+           "span": 7.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Giant Sea Wall, about 575 km",
+            "via": [
+             [
+              106.5,
+              -6.02
+             ],
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.1,
+              -5.97
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.2,
+              -6.3
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.1,
+              -6.83
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.2,
+              -6.9
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              110.6,
+              -6.8
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              111.6,
+              -6.7
+             ],
+             [
+              112.05,
+              -6.88
+             ],
+             [
+              112.65,
+              -7.1
+             ]
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.57,
+           "lat": -6.7,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": "a great dike",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.6,
+           "lat": -6.75,
+           "span": 1.4
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "This absolutely",
+       "document": {
+        "text": "Ini mutlak harus kita lakukan.\n(This absolutely must be done.)",
+        "source": "President Prabowo Subianto, Aug 14, 2026",
+        "highlight": "Ini mutlak harus kita lakukan"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The plan is about five hundred and seventy-five kilometres of wall in fifteen segments, from Serang in the west to Gresik in East Java. Earlier versions said seven hundred. Cost estimates run up to eighty billion dollars, over fifteen to twenty years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -7.3328,
+           "span": 7.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Giant Sea Wall, about 575 km",
+            "via": [
+             [
+              106.5,
+              -6.02
+             ],
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.1,
+              -5.97
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.2,
+              -6.3
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.1,
+              -6.83
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.2,
+              -6.9
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              110.6,
+              -6.8
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              111.6,
+              -6.7
+             ],
+             [
+              112.05,
+              -6.88
+             ],
+             [
+              112.65,
+              -7.1
+             ]
+            ]
+           }
+          ],
+          "places": [
+           {
+            "name": "Serang",
+            "lon": 106.15,
+            "lat": -6.12,
+            "kind": "city",
+            "label": "Serang"
+           },
+           {
+            "name": "Gresik",
+            "lon": 112.65,
+            "lat": -7.16,
+            "kind": "city",
+            "label": "Gresik"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 111.1,
+           "lat": -6.55,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "stat",
+       "at": "Cost estimates",
+       "stat": {
+        "value": "Up to US$80 bn",
+        "label": "Estimated cost of the Giant Sea Wall, 15-20 years",
+        "source": "The Jakarta Post, Jan 22, 2026; Mongabay, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The president says the north coast is home to tens of millions of people. A new authority was created in August 2025 to run the project, led by a retired vice admiral, Didit Herdiawan Ashaf. Jakarta's own section alone is put at about eight billion dollars, and the president asked the city to pay half.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.852,
+           "lat": -6.75,
+           "span": 1.4
+          },
+          "places": [
+           {
+            "name": "Pekalongan",
+            "lon": 109.68,
+            "lat": -6.88,
+            "kind": "city",
+            "label": "Pekalongan"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.43,
+           "lat": -6.95,
+           "span": 0.25
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.2,
+           "lat": -6.92,
+           "span": 0.25
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.68,
+           "lat": -6.86,
+           "span": 0.25
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": "Jakarta's own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.08,
+           "span": 0.42
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 45,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.12,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ]
+    },
+    {
+     "text": "Jakarta's part has grown from twelve to nineteen kilometres. Governor Pramono says the city must find at least five trillion rupiah a year for it, and that he wants a hybrid wall: concrete where it must be, mangroves where they can grow.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.76,
+           "lat": -6.07,
+           "span": 0.5
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.738,
+           "lat": -6.096,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "stat",
+       "at": "at least five",
+       "stat": {
+        "value": "Rp 5 trillion a year",
+        "label": "What Jakarta must find for its section of the wall",
+        "source": "The Jakarta Post, Jun 2025"
+       }
+      },
+      {
+       "type": "map",
+       "at": "a hybrid wall",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.74,
+           "lat": -6.06,
+           "span": 0.1
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 35,
+       "photo": "File:Rumah Mak Jah di Desa Bedono yang Tenggelam karena abrasi.jpg",
+       "on_screen_text": "Mak Jah's house, Bedono"
+      }
+     ]
+    },
+    {
+     "text": "Concrete work is planned to begin in 2027. As one official put it in October: we will proceed with it next year. Until then, the first segment of the Giant Sea Wall is a row of mangroves in Timbulsloko.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ihwanudin, petani mangrove di Desa Bedono, Demak yang bertahan menanam mangrove di tengah ancaman abrasi.jpg",
+       "on_screen_text": "A mangrove farmer in Bedono, 2025"
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.46,
+           "lat": -6.93,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "document",
+       "at": "we will",
+       "document": {
+        "text": "\"...we will proceed with it next year, God willing.\"",
+        "source": "Nazib Faizal, Coordinating Ministry for Infrastructure, to Antara, Oct 7, 2026",
+        "highlight": "next year"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Until then",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.517,
+           "lat": -6.913,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.505,
+           "lat": -6.9,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      }
+     ]
+    },
+    {
+     "text": "Critics are not convinced. Susan Herawati of the fishers' rights group KIARA warned against fake, quick-fix solutions that act like a fire extinguisher. WALHI's Jakarta office called the wall a false climate solution.",
+     "shots": [
+      {
+       "type": "document",
+       "at": "Susan",
+       "document": {
+        "text": "\"...fake, quick-fix solutions that act like a fire extinguisher.\"",
+        "source": "Susan Herawati, KIARA, via Mongabay, Sep 11, 2025",
+        "highlight": "a fire extinguisher"
+       }
+      },
+      {
+       "type": "map",
+       "at": "that act like",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.77,
+           "lat": -6.1,
+           "span": 0.045
+          },
+          "places": [
+           {
+            "name": "Muara Angke",
+            "lon": 106.772,
+            "lat": -6.106,
+            "kind": "site",
+            "label": "Muara Angke"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "WALHI's",
+       "document": {
+        "text": "\"...a false climate solution.\"",
+        "source": "Suci Fitria Tanjung, WALHI Jakarta, via Eco-Business, Feb 28, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Lawyers in Semarang point to the toll road built across the ponds between Semarang and Demak as a sea dike, and say the entire coastal region is interconnected. Block the water in one place, and it goes somewhere else.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.43,
+           "lat": -6.94,
+           "span": 0.18
+          },
+          "places": [
+           {
+            "name": "Semarang",
+            "lon": 110.42,
+            "lat": -6.97,
+            "kind": "city",
+            "label": "Semarang"
+           },
+           {
+            "name": "Bedono",
+            "lon": 110.472,
+            "lat": -6.918,
+            "kind": "city",
+            "label": "Bedono"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "the toll road",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.46,
+           "lat": -6.945,
+           "span": 0.08
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.53,
+           "lat": -6.925,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": "as a sea dike",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.475,
+           "lat": -6.935,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": "Block the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.45,
+           "lat": -6.93,
+           "span": 0.1
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.472,
+           "lat": -6.918,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      }
+     ]
+    },
+    {
+     "text": "Scientists add one more point. A wall can hold back the sea, but it cannot stop the ground behind it from sinking. Subsidence is one of the most actionable components of coastal risk, says Manoochehr Shirzaei of Virginia Tech.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.11,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Muara Baru",
+            "lon": 106.805,
+            "lat": -6.103,
+            "kind": "site",
+            "label": "Muara Baru"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": "but it cannot",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.82,
+           "lat": -6.14,
+           "span": 0.1
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "Subsidence is",
+       "document": {
+        "text": "\"Subsidence is one of the most actionable components of coastal risk.\"",
+        "source": "Manoochehr Shirzaei, Virginia Tech, Apr 8, 2026",
+        "highlight": "most actionable"
+       }
+      },
+      {
+       "type": "map",
+       "at": "says Manoochehr",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.79,
+           "lat": -6.12,
+           "span": 0.08
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Choice",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Jakarta has a wall that leaks, a new capital that is not yet the capital, and a plan for a wall along half of Java. The wall would take fifteen to twenty years to build. The ground under Jakarta and Demak keeps sinking in every one of them. In Timbulsloko, the sea is already at the door.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.104,
+           "span": 0.045
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a new capital",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and a plan",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 107.85,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Giant Sea Wall, about 575 km",
+            "via": [
+             [
+              106.5,
+              -6.02
+             ],
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.1,
+              -5.97
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.2,
+              -6.3
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.1,
+              -6.83
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.2,
+              -6.9
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              110.6,
+              -6.8
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              111.6,
+              -6.7
+             ],
+             [
+              112.05,
+              -6.88
+             ],
+             [
+              112.65,
+              -7.1
+             ]
+            ]
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The wall would",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.0,
+           "lat": -6.5,
+           "span": 3.0
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 4,
+            "label": "Giant Sea Wall, about 575 km",
+            "via": [
+             [
+              106.5,
+              -6.02
+             ],
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.1,
+              -5.97
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.2,
+              -6.3
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.1,
+              -6.83
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.2,
+              -6.9
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              110.6,
+              -6.8
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              111.6,
+              -6.7
+             ],
+             [
+              112.05,
+              -6.88
+             ],
+             [
+              112.65,
+              -7.1
+             ]
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "The ground",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.115,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 41,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.518,
+           "lat": -6.914,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sayung, Demak"
+      },
+      {
+       "type": "map",
+       "at": "In Timbulsloko",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.495,
+           "lat": -6.91,
+           "span": 0.16
+          },
+          "compare": {
+           "before": "1990-06-01/1990-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 2.6,
+           "label_before": "1990",
+           "label_after": "2026",
+           "hold": 0.4
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "If you had Indonesia's eighty billion dollars, what would you do first: build the wall, pipe clean water to every house so the pumping stops, or help the villages move inland?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -6.0672,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           },
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "Timbulsloko"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.811,
+           "lat": -6.124,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
+      }
+     ],
+     "ask": {
+      "at": "If you",
+      "text": "The wall, the water, or moving inland?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Indonesia Is Building a 575 km Wall Against the Sea",
+  "description": "Jakarta has sunk faster than almost any city on Earth. Indonesia's answers: a coastal wall that leaked in December 2025, a new capital cut out of the forest of Borneo that is still not the capital, and now a Giant Sea Wall of about 575 kilometres along Java's north coast, which began in October 2026 with a row of mangroves in Timbulsloko. We follow it from orbit with Landsat and Sentinel-2 images and measure the coast at Demak, where the sea has already taken the fields.",
+  "tags": [
+   "Jakarta",
+   "sinking city",
+   "Giant Sea Wall",
+   "Indonesia",
+   "Nusantara",
+   "new capital",
+   "land subsidence",
+   "Demak",
+   "Timbulsloko",
+   "sea level",
+   "satellite images",
+   "Landsat",
+   "Sentinel-2",
+   "Java"
+  ],
+  "pinned_comment": "With US$80 billion: build the 575 km wall, pipe clean water to every house so the pumping stops, or help the villages move inland?"
+ }
+}

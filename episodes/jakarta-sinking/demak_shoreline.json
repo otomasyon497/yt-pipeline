@@ -1,0 +1,1152 @@
+{
+ "Bedono": {
+  "box": [
+   110.45,
+   -6.935,
+   110.495,
+   -6.9
+  ],
+  "walk_box": [
+   110.45,
+   -6.935,
+   110.54,
+   -6.905
+  ],
+  "base_year": 1990,
+  "shore_direction_factor": 0.711,
+  "years": {
+   "1990": {
+    "days": [
+     {
+      "date": "1990-08-28",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1990-10-15",
+      "platform": "landsat-5",
+      "clear_share": 0.999
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 341.1,
+    "permanent_land_ha": 314.3,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3146.8,
+    "land_lost_ha": 0.0,
+    "permanent_land_lost_ha": 0.0,
+    "shore_advance_m_west_east": 0.0,
+    "shore_advance_m_normal": 0.0,
+    "rows_advance_p10_p90_m": [
+     0.0,
+     0.0
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-06-23",
+      "platform": "landsat-5",
+      "clear_share": 0.96
+     },
+     {
+      "date": "1995-09-11",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1995-08-26",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1995-07-25",
+      "platform": "landsat-5",
+      "clear_share": 0.993
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 218.0,
+    "permanent_land_ha": 177.5,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3694.3,
+    "land_lost_ha": 123.1,
+    "permanent_land_lost_ha": 136.8,
+    "shore_advance_m_west_east": 547.5,
+    "shore_advance_m_normal": 389.0,
+    "rows_advance_p10_p90_m": [
+     15.0,
+     1320.0
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-07-06",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2000-08-31",
+      "platform": "landsat-7",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2000-07-30",
+      "platform": "landsat-7",
+      "clear_share": 0.96
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 61.2,
+    "permanent_land_ha": 54.5,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4614.1,
+    "land_lost_ha": 279.9,
+    "permanent_land_lost_ha": 259.8,
+    "shore_advance_m_west_east": 1467.3,
+    "shore_advance_m_normal": 1042.5,
+    "rows_advance_p10_p90_m": [
+     346.5,
+     3408.0
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-06-10",
+      "platform": "landsat-7",
+      "clear_share": 0.799
+     },
+     {
+      "date": "2005-08-29",
+      "platform": "landsat-7",
+      "clear_share": 0.796
+     },
+     {
+      "date": "2005-06-26",
+      "platform": "landsat-7",
+      "clear_share": 0.657
+     },
+     {
+      "date": "2005-09-30",
+      "platform": "landsat-7",
+      "clear_share": 0.776
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 47.5,
+    "permanent_land_ha": 38.4,
+    "shore_rows_share": 0.896,
+    "shore_from_west_m": 4620.1,
+    "land_lost_ha": 293.6,
+    "permanent_land_lost_ha": 275.9,
+    "shore_advance_m_west_east": 1211.5,
+    "shore_advance_m_normal": 860.7,
+    "rows_advance_p10_p90_m": [
+     -30.0,
+     2424.0
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2009-10-19",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2009-08-16",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2009-07-31",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2011-06-19",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 43.9,
+    "permanent_land_ha": 23.5,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4516.4,
+    "land_lost_ha": 297.2,
+    "permanent_land_lost_ha": 290.8,
+    "shore_advance_m_west_east": 1369.6,
+    "shore_advance_m_normal": 973.1,
+    "rows_advance_p10_p90_m": [
+     -30.0,
+     3583.5
+    ]
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-06-14",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2015-06-30",
+      "platform": "landsat-8",
+      "clear_share": 0.998
+     },
+     {
+      "date": "2015-09-18",
+      "platform": "landsat-8",
+      "clear_share": 0.994
+     },
+     {
+      "date": "2015-07-16",
+      "platform": "landsat-8",
+      "clear_share": 0.996
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 74.6,
+    "permanent_land_ha": 64.4,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4507.1,
+    "land_lost_ha": 266.5,
+    "permanent_land_lost_ha": 249.9,
+    "shore_advance_m_west_east": 1360.3,
+    "shore_advance_m_normal": 966.5,
+    "rows_advance_p10_p90_m": [
+     15.0,
+     3780.0
+    ]
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-06-27",
+      "platform": "landsat-8",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2020-10-01",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2020-09-15",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2020-06-11",
+      "platform": "landsat-8",
+      "clear_share": 1.0
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 74.3,
+    "permanent_land_ha": 67.6,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4671.7,
+    "land_lost_ha": 266.8,
+    "permanent_land_lost_ha": 246.7,
+    "shore_advance_m_west_east": 1524.9,
+    "shore_advance_m_normal": 1083.5,
+    "rows_advance_p10_p90_m": [
+     75.0,
+     3793.5
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-08-17",
+      "platform": "landsat-9",
+      "clear_share": 0.996
+     },
+     {
+      "date": "2024-09-18",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2024-07-16",
+      "platform": "landsat-9",
+      "clear_share": 0.999
+     },
+     {
+      "date": "2024-08-25",
+      "platform": "landsat-8",
+      "clear_share": 0.993
+     }
+    ],
+    "valid_share": 0.9999,
+    "box_ha": 1942.2,
+    "land_ha": 79.4,
+    "permanent_land_ha": 59.0,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4383.7,
+    "land_lost_ha": 261.7,
+    "permanent_land_lost_ha": 255.3,
+    "shore_advance_m_west_east": 1237.0,
+    "shore_advance_m_normal": 878.9,
+    "rows_advance_p10_p90_m": [
+     -135.0,
+     3628.5
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-07-19",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2025-07-11",
+      "platform": "landsat-8",
+      "clear_share": 0.991
+     },
+     {
+      "date": "2025-10-15",
+      "platform": "landsat-8",
+      "clear_share": 0.987
+     },
+     {
+      "date": "2025-09-05",
+      "platform": "landsat-9",
+      "clear_share": 0.985
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1942.2,
+    "land_ha": 112.7,
+    "permanent_land_ha": 93.3,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4402.4,
+    "land_lost_ha": 228.4,
+    "permanent_land_lost_ha": 221.0,
+    "shore_advance_m_west_east": 1255.7,
+    "shore_advance_m_normal": 892.2,
+    "rows_advance_p10_p90_m": [
+     -342.0,
+     3375.0
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-09-24",
+      "platform": "landsat-9",
+      "clear_share": 0.945
+     },
+     {
+      "date": "2026-07-14",
+      "platform": "landsat-8",
+      "clear_share": 0.988
+     },
+     {
+      "date": "2026-06-20",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2026-07-06",
+      "platform": "landsat-9",
+      "clear_share": 0.999
+     }
+    ],
+    "valid_share": 0.9999,
+    "box_ha": 1942.2,
+    "land_ha": 115.6,
+    "permanent_land_ha": 96.3,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4713.1,
+    "land_lost_ha": 225.5,
+    "permanent_land_lost_ha": 218.0,
+    "shore_advance_m_west_east": 1566.4,
+    "shore_advance_m_normal": 1112.9,
+    "rows_advance_p10_p90_m": [
+     -298.5,
+     3864.0
+    ]
+   }
+  }
+ },
+ "Timbulsloko": {
+  "box": [
+   110.495,
+   -6.93,
+   110.54,
+   -6.9
+  ],
+  "walk_box": [
+   110.465,
+   -6.93,
+   110.54,
+   -6.9
+  ],
+  "base_year": 1990,
+  "shore_direction_factor": 0.84,
+  "years": {
+   "1990": {
+    "days": [
+     {
+      "date": "1990-08-28",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1990-10-15",
+      "platform": "landsat-5",
+      "clear_share": 0.999
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 1422.8,
+    "permanent_land_ha": 1401.9,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 2044.3,
+    "land_lost_ha": 0.0,
+    "permanent_land_lost_ha": 0.0,
+    "shore_advance_m_west_east": 0.0,
+    "shore_advance_m_normal": 0.0,
+    "rows_advance_p10_p90_m": [
+     0.0,
+     0.0
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-06-23",
+      "platform": "landsat-5",
+      "clear_share": 0.96
+     },
+     {
+      "date": "1995-09-11",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1995-08-26",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1995-07-25",
+      "platform": "landsat-5",
+      "clear_share": 0.993
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 1394.0,
+    "permanent_land_ha": 1304.8,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 2458.8,
+    "land_lost_ha": 28.8,
+    "permanent_land_lost_ha": 97.1,
+    "shore_advance_m_west_east": 414.5,
+    "shore_advance_m_normal": 348.1,
+    "rows_advance_p10_p90_m": [
+     15.0,
+     1032.0
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-07-06",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2000-08-31",
+      "platform": "landsat-7",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2000-07-30",
+      "platform": "landsat-7",
+      "clear_share": 0.96
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 1078.9,
+    "permanent_land_ha": 1027.7,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3214.0,
+    "land_lost_ha": 343.9,
+    "permanent_land_lost_ha": 374.2,
+    "shore_advance_m_west_east": 1169.7,
+    "shore_advance_m_normal": 982.2,
+    "rows_advance_p10_p90_m": [
+     375.0,
+     1779.0
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-06-10",
+      "platform": "landsat-7",
+      "clear_share": 0.799
+     },
+     {
+      "date": "2005-08-29",
+      "platform": "landsat-7",
+      "clear_share": 0.796
+     },
+     {
+      "date": "2005-06-26",
+      "platform": "landsat-7",
+      "clear_share": 0.657
+     },
+     {
+      "date": "2005-09-30",
+      "platform": "landsat-7",
+      "clear_share": 0.776
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 842.2,
+    "permanent_land_ha": 781.9,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3160.8,
+    "land_lost_ha": 580.6,
+    "permanent_land_lost_ha": 620.0,
+    "shore_advance_m_west_east": 1116.5,
+    "shore_advance_m_normal": 937.6,
+    "rows_advance_p10_p90_m": [
+     15.0,
+     2259.0
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2009-10-19",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2009-08-16",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2009-07-31",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2011-06-19",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 633.8,
+    "permanent_land_ha": 464.7,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3165.9,
+    "land_lost_ha": 789.0,
+    "permanent_land_lost_ha": 937.2,
+    "shore_advance_m_west_east": 1121.6,
+    "shore_advance_m_normal": 941.9,
+    "rows_advance_p10_p90_m": [
+     -15.0,
+     2475.0
+    ]
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-06-14",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2015-06-30",
+      "platform": "landsat-8",
+      "clear_share": 0.998
+     },
+     {
+      "date": "2015-09-18",
+      "platform": "landsat-8",
+      "clear_share": 0.994
+     },
+     {
+      "date": "2015-07-16",
+      "platform": "landsat-8",
+      "clear_share": 0.996
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 309.3,
+    "permanent_land_ha": 262.1,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3200.3,
+    "land_lost_ha": 1113.5,
+    "permanent_land_lost_ha": 1139.8,
+    "shore_advance_m_west_east": 1156.0,
+    "shore_advance_m_normal": 970.8,
+    "rows_advance_p10_p90_m": [
+     30.0,
+     3600.0
+    ]
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-06-27",
+      "platform": "landsat-8",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2020-10-01",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2020-09-15",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2020-06-11",
+      "platform": "landsat-8",
+      "clear_share": 1.0
+     }
+    ],
+    "valid_share": 0.9999,
+    "box_ha": 1660.8,
+    "land_ha": 224.3,
+    "permanent_land_ha": 203.5,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3315.1,
+    "land_lost_ha": 1198.5,
+    "permanent_land_lost_ha": 1198.4,
+    "shore_advance_m_west_east": 1270.8,
+    "shore_advance_m_normal": 1067.1,
+    "rows_advance_p10_p90_m": [
+     78.0,
+     3579.0
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-08-17",
+      "platform": "landsat-9",
+      "clear_share": 0.996
+     },
+     {
+      "date": "2024-09-18",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2024-07-16",
+      "platform": "landsat-9",
+      "clear_share": 0.999
+     },
+     {
+      "date": "2024-08-25",
+      "platform": "landsat-8",
+      "clear_share": 0.993
+     }
+    ],
+    "valid_share": 0.9995,
+    "box_ha": 1660.8,
+    "land_ha": 183.2,
+    "permanent_land_ha": 169.9,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3456.8,
+    "land_lost_ha": 1239.6,
+    "permanent_land_lost_ha": 1232.0,
+    "shore_advance_m_west_east": 1412.5,
+    "shore_advance_m_normal": 1186.2,
+    "rows_advance_p10_p90_m": [
+     0.0,
+     3627.0
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-07-19",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2025-07-11",
+      "platform": "landsat-8",
+      "clear_share": 0.991
+     },
+     {
+      "date": "2025-10-15",
+      "platform": "landsat-8",
+      "clear_share": 0.987
+     },
+     {
+      "date": "2025-09-05",
+      "platform": "landsat-9",
+      "clear_share": 0.985
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1660.8,
+    "land_ha": 164.0,
+    "permanent_land_ha": 143.1,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3476.9,
+    "land_lost_ha": 1258.8,
+    "permanent_land_lost_ha": 1258.8,
+    "shore_advance_m_west_east": 1432.6,
+    "shore_advance_m_normal": 1203.1,
+    "rows_advance_p10_p90_m": [
+     -117.0,
+     3375.0
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-09-24",
+      "platform": "landsat-9",
+      "clear_share": 0.945
+     },
+     {
+      "date": "2026-07-14",
+      "platform": "landsat-8",
+      "clear_share": 0.988
+     },
+     {
+      "date": "2026-06-20",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2026-07-06",
+      "platform": "landsat-9",
+      "clear_share": 0.999
+     }
+    ],
+    "valid_share": 0.9996,
+    "box_ha": 1660.8,
+    "land_ha": 140.5,
+    "permanent_land_ha": 120.5,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3844.3,
+    "land_lost_ha": 1282.3,
+    "permanent_land_lost_ha": 1281.4,
+    "shore_advance_m_west_east": 1800.0,
+    "shore_advance_m_normal": 1511.6,
+    "rows_advance_p10_p90_m": [
+     -117.0,
+     3882.0
+    ]
+   }
+  }
+ },
+ "Surodadi": {
+  "box": [
+   110.495,
+   -6.9,
+   110.54,
+   -6.87
+  ],
+  "walk_box": [
+   110.475,
+   -6.9,
+   110.54,
+   -6.87
+  ],
+  "base_year": 1990,
+  "shore_direction_factor": 0.825,
+  "years": {
+   "1990": {
+    "days": [
+     {
+      "date": "1990-08-28",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1990-10-15",
+      "platform": "landsat-5",
+      "clear_share": 0.999
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 743.3,
+    "permanent_land_ha": 699.3,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3237.4,
+    "land_lost_ha": 0.0,
+    "permanent_land_lost_ha": 0.0,
+    "shore_advance_m_west_east": 0.0,
+    "shore_advance_m_normal": 0.0,
+    "rows_advance_p10_p90_m": [
+     0.0,
+     0.0
+    ]
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-06-23",
+      "platform": "landsat-5",
+      "clear_share": 0.96
+     },
+     {
+      "date": "1995-09-11",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1995-08-26",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "1995-07-25",
+      "platform": "landsat-5",
+      "clear_share": 0.993
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 671.6,
+    "permanent_land_ha": 553.0,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3818.7,
+    "land_lost_ha": 71.7,
+    "permanent_land_lost_ha": 146.3,
+    "shore_advance_m_west_east": 581.3,
+    "shore_advance_m_normal": 479.8,
+    "rows_advance_p10_p90_m": [
+     45.0,
+     1108.5
+    ]
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-07-06",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2000-08-31",
+      "platform": "landsat-7",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2000-07-30",
+      "platform": "landsat-7",
+      "clear_share": 0.96
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 493.3,
+    "permanent_land_ha": 470.1,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4347.0,
+    "land_lost_ha": 250.0,
+    "permanent_land_lost_ha": 229.2,
+    "shore_advance_m_west_east": 1109.6,
+    "shore_advance_m_normal": 916.0,
+    "rows_advance_p10_p90_m": [
+     600.0,
+     1767.0
+    ]
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-06-10",
+      "platform": "landsat-7",
+      "clear_share": 0.799
+     },
+     {
+      "date": "2005-08-29",
+      "platform": "landsat-7",
+      "clear_share": 0.796
+     },
+     {
+      "date": "2005-06-26",
+      "platform": "landsat-7",
+      "clear_share": 0.657
+     },
+     {
+      "date": "2005-09-30",
+      "platform": "landsat-7",
+      "clear_share": 0.776
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 417.1,
+    "permanent_land_ha": 349.2,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4222.6,
+    "land_lost_ha": 326.2,
+    "permanent_land_lost_ha": 350.1,
+    "shore_advance_m_west_east": 985.2,
+    "shore_advance_m_normal": 813.3,
+    "rows_advance_p10_p90_m": [
+     -15.0,
+     1873.5
+    ]
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2009-10-19",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2009-08-16",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2009-07-31",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2011-06-19",
+      "platform": "landsat-5",
+      "clear_share": 1.0
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 356.7,
+    "permanent_land_ha": 278.3,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4377.7,
+    "land_lost_ha": 386.6,
+    "permanent_land_lost_ha": 421.0,
+    "shore_advance_m_west_east": 1140.3,
+    "shore_advance_m_normal": 941.3,
+    "rows_advance_p10_p90_m": [
+     285.0,
+     2205.0
+    ]
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-06-14",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2015-06-30",
+      "platform": "landsat-8",
+      "clear_share": 0.998
+     },
+     {
+      "date": "2015-09-18",
+      "platform": "landsat-8",
+      "clear_share": 0.994
+     },
+     {
+      "date": "2015-07-16",
+      "platform": "landsat-8",
+      "clear_share": 0.996
+     }
+    ],
+    "valid_share": 0.9997,
+    "box_ha": 1653.3,
+    "land_ha": 265.9,
+    "permanent_land_ha": 229.7,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 4080.6,
+    "land_lost_ha": 477.4,
+    "permanent_land_lost_ha": 469.6,
+    "shore_advance_m_west_east": 843.2,
+    "shore_advance_m_normal": 696.0,
+    "rows_advance_p10_p90_m": [
+     255.0,
+     1408.5
+    ]
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-06-27",
+      "platform": "landsat-8",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2020-10-01",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2020-09-15",
+      "platform": "landsat-8",
+      "clear_share": 0.997
+     },
+     {
+      "date": "2020-06-11",
+      "platform": "landsat-8",
+      "clear_share": 1.0
+     }
+    ],
+    "valid_share": 0.9999,
+    "box_ha": 1653.3,
+    "land_ha": 209.7,
+    "permanent_land_ha": 177.5,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3936.7,
+    "land_lost_ha": 533.6,
+    "permanent_land_lost_ha": 521.8,
+    "shore_advance_m_west_east": 699.3,
+    "shore_advance_m_normal": 577.2,
+    "rows_advance_p10_p90_m": [
+     150.0,
+     1365.0
+    ]
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-08-17",
+      "platform": "landsat-9",
+      "clear_share": 0.996
+     },
+     {
+      "date": "2024-09-18",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2024-07-16",
+      "platform": "landsat-9",
+      "clear_share": 0.999
+     },
+     {
+      "date": "2024-08-25",
+      "platform": "landsat-8",
+      "clear_share": 0.993
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 201.8,
+    "permanent_land_ha": 185.3,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3922.6,
+    "land_lost_ha": 541.5,
+    "permanent_land_lost_ha": 514.0,
+    "shore_advance_m_west_east": 685.2,
+    "shore_advance_m_normal": 565.6,
+    "rows_advance_p10_p90_m": [
+     151.5,
+     1560.0
+    ]
+   },
+   "2025": {
+    "days": [
+     {
+      "date": "2025-07-19",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2025-07-11",
+      "platform": "landsat-8",
+      "clear_share": 0.991
+     },
+     {
+      "date": "2025-10-15",
+      "platform": "landsat-8",
+      "clear_share": 0.987
+     },
+     {
+      "date": "2025-09-05",
+      "platform": "landsat-9",
+      "clear_share": 0.985
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 185.4,
+    "permanent_land_ha": 169.4,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3951.8,
+    "land_lost_ha": 557.9,
+    "permanent_land_lost_ha": 529.9,
+    "shore_advance_m_west_east": 714.4,
+    "shore_advance_m_normal": 589.7,
+    "rows_advance_p10_p90_m": [
+     136.5,
+     1710.0
+    ]
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-09-24",
+      "platform": "landsat-9",
+      "clear_share": 0.945
+     },
+     {
+      "date": "2026-07-14",
+      "platform": "landsat-8",
+      "clear_share": 0.988
+     },
+     {
+      "date": "2026-06-20",
+      "platform": "landsat-9",
+      "clear_share": 1.0
+     },
+     {
+      "date": "2026-07-06",
+      "platform": "landsat-9",
+      "clear_share": 0.999
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 1653.3,
+    "land_ha": 188.5,
+    "permanent_land_ha": 167.2,
+    "shore_rows_share": 1.0,
+    "shore_from_west_m": 3982.4,
+    "land_lost_ha": 554.8,
+    "permanent_land_lost_ha": 532.1,
+    "shore_advance_m_west_east": 744.9,
+    "shore_advance_m_normal": 614.9,
+    "rows_advance_p10_p90_m": [
+     151.5,
+     1818.0
+    ]
+   }
+  }
+ },
+ "method": "Landsat Collection 2 Level-2 surface reflectance (USGS, via Microsoft Planetary Computer), Landsat 5 TM / 7 ETM+ / 8-9 OLI, 30 m pixels resampled to a 15 m grid. Per year: up to 4 dry-season (Jun-Oct) days whose box is >=85 % clear after the QA_PIXEL cloud / dilated-cloud / shadow mask (Landsat 7 after May 2003 only as a last resort, >=60 %); if fewer than 2 such days, the window widens to the neighbouring years. Water = per-pixel median MNDWI (green - SWIR 1.6 um)/(green + SWIR) > 0 over the clear days; land = the rest. land_lost_ha = land in the base year minus land in that year inside the fixed site box. permanent_land = never water on any clear day. Shoreline: each row of the walk box from the west (sea) edge to the first run of 3 land pixels (45 m) on the median composite; shore_advance_m_normal is the mean row shift converted to a distance square to the base-year shoreline. CAVEATS: MNDWI cannot tell sea from flooded fish ponds (tambak): ponds full of water count as water, dry or vegetated pond beds and bunds count as land, so 'land' here is dry ground, villages, roads, mangroves, rice and dry pond beds, and part of the land loss before ~2000 is ponds being flooded, not open sea. Tide state on each day moves the wet line on the mudflats; single years are noisy, read decades. Mangrove belts planted after ~2005 count as land. Distances are ground metres."
+}

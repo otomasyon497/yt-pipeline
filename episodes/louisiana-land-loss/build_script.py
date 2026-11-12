@@ -313,7 +313,7 @@ chapters = [
           clip("There's less", "\"There's less land,\" he said, \"and more water.\"", "Chris Brunet, Isle de Jean Charles, to Columbia Journalism Investigations, 2022")),
     ]},
     {"title": "The End of the Road", "mood": "curious", "paragraphs": [
-        P("East of the island, a different road runs out of land. Highway 23 follows the Mississippi south from New Orleans for seventy-two miles, to Venice, the last town you can drive to on the river.",
+        P("Farther east, a different road runs out of land. Highway 23 follows the Mississippi south from New Orleans for seventy-two miles, to Venice, the last town you can drive to on the river.",
           m(0, v(near(-89.7, 29.6, 1.0), places=[NOLA, VENICE], routes=[LA23])),
           m("to Venice", v(VENICE_V, places=[VENICE]), cut=True)),
         P("Beyond it lies the Bird's Foot, the delta's newest lobe. This is it in 1985. And this is it this October. The marsh between the river's passes is breaking apart.",
@@ -442,8 +442,8 @@ SHORES = {
     "coast": [(-90.4, 29.45), (-90.9, 29.5), (-89.9, 29.5), (-90.2, 29.3), (-90.6, 29.35), (-89.6, 29.4)],
 }
 SPANS = {"coast": [0.3, 0.45, 0.6, 0.35], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1]}
-LABELS = {"ijc": "Isle de Jean Charles", "newisle": "Terrebonne Parish", "barataria": "Barataria Bay", "birdsfoot": "The Bird's Foot",
-          "lafourche": "Bayou Lafourche", "delta": "Atchafalaya Bay", "coast": "Coastal Louisiana"}
+LABELS = {"ijc": "Isle de Jean Charles", "newisle": "Terrebonne Parish", "barataria": "Barataria Bay", "birdsfoot": "Plaquemines Parish",
+          "lafourche": "Southeast Louisiana", "delta": "Atchafalaya Bay", "coast": "Coastal Louisiana"}
 PHOTOS = {}
 VIEW_PLACE = {}
 used_views: set = set()
@@ -503,7 +503,7 @@ def filler(group, t):
 def topic_of(text, chapter):
     if re.search(r"Wax Lake|Atchafalaya|growing|grows|1973", text):
         return "delta"
-    if re.search(r"New Isle|Schriever|inland|subdivision|houses had|complaint|HUD", text):
+    if re.search(r"New Isle|Schriever|miles inland|subdivision|houses had|complaint|HUD", text):
         return "newisle"
     if re.search(r"Isle de Jean Charles|island|Island|Naquin|Brunet|Handon|Choctaw|tribe", text):
         return "ijc"

@@ -115,3 +115,20 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 109 | c08p01 | narration | The next fifty-year master plan is due in 2029. | research ch.8: WWNO 19 Apr 2023 (next plan 2029) | verified |
 | 110 | c08p01 | narration | In a document from April, the state says the flood-risk numbers it uses for that plan still include the two diversions it cancelled. | research ch.8: CPRA MP29 Deep Dive PDF (uploaded May 2026, 'April 2026 update'): risk outputs still include both mid-basin diversions | verified |
 | 111 | c08p01 | stat card | $1.54 billion: Louisiana coastal plan for fiscal 2027, 143 projects | on screen: Coastal Protection and Restoration Authority, Apr 27, 2026; research ch.8: CPRA 27 Apr 2026 | verified |
+
+## Additions 2026-11-12 (length: real narration 14.1 min -> +251 words)
+| # | Where | Kind | Claim | Source | Status |
+|---|---|---|---|---|---|
+| A1 | c02p04 | narration | The state first considered it in 1984, and its legislature approved it in 2017. | research ch.2: ASCE Civil Engineering Source 24 Sep 2026 (first considered 1984; legislature approved 2017) | verified |
+| A2 | c02p04 | narration + stat | The Barataria Basin alone had lost about 430 sq mi since 1932 (~432 sq mi) | research ch.2: ASCE 24 Sep 2026 citing BTNEP (~432 sq mi since 1932); card names BTNEP via ASCE | attributed |
+| A3 | c02p04 | narration + quote | Ryan Lambert told The Lens the estuary is literally eating itself. | research ch.5: The Lens 13 May 2025 (Lambert, fishing guide, on Barataria) | verified |
+| A4 | c02p07 | narration | A month later, Dove wrote that the decision was not made lightly. | research ch.2: CPRA chairman op-ed 15 Aug 2025 ("not made lightly") | verified |
+| A5 | c02p10 | quote | Amanda Moore (NWF): "We needed Mid-Barataria, frankly, many decades ago." | research ch.2: WWNO/Illuminator 18 Jul 2025 (V) | verified |
+| A6 | c03p06 | narration | In the Mississippi Delta itself, the average was about thirteen (mm/yr). | research ch.3: Jankowski et al. 2017 (13.2 mm/yr Mississippi Delta) | verified |
+| A7 | c03p09 | narration + stat | Bird's Foot marsh gains 1-3 cm a year where river mud reaches it | research ch.3: LSU 10 Apr 2026, Wilson & Quirk, Nature Communications | verified |
+| A8 | c04p09 | narration | The state's position is that it did not force anyone to leave the island. | research ch.4: OCD program page ("the state did not force anyone to leave the island") | attributed |
+| A9 | c04p09 | narration | In July 2025 it handed the running of the new subdivision to a regional planning commission. | research ch.4: OCD (management to South Central Planning & Development Commission, 29 Jul 2025) | verified |
+| A10 | c07p02 | narration | Wax Lake Outlet dug in 1941 to protect Morgan City; carries about 40 % of the Atchafalaya's flow | research ch.7: NASA EO 85261 | verified |
+| A11 | c08p02 | narration + quote | The board adopted the plan unanimously; Landry: coastal restoration rises above politics | research ch.8: CPRA 27 Apr 2026 (adopted unanimously; quote) | verified |
+| A12 | c08p02 | narration + stat | Projects restored or nurtured ~55,000 acres and 70+ miles of barrier islands, InvestigateTV reported this month | research ch.8: InvestigateTV 3 Nov 2026 (WAFB copy); named in line and on card | attributed |
+| A13 | c08p04 | quote | Mark Davis (Tulane): "If I'm sitting in Miami, I don't have a coast I can try to keep between me and hurricane landfalls." | research ch.8: InvestigateTV 3 Nov 2026 (WAFB copy, V) | verified |

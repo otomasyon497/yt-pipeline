@@ -378,8 +378,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.776,
-           "lat": 29.711,
+           "lon": -90.81,
+           "lat": 29.739,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -422,8 +422,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.81,
-           "lat": 29.739,
+           "lon": -90.72,
+           "lat": 29.596,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -985,7 +985,7 @@
      ]
     },
     {
-     "text": "But fresh river water and mud would also change the bay itself, and the oyster and shrimp towns that live on its salt water. They fought the project in court and on the steps of the state Capitol. Governor Jeff Landry said its damage to the fisheries would break our culture.",
+     "text": "The idea was not new. The state first considered it in 1984, and its legislature approved it in 2017. The Barataria Basin alone had lost about four hundred and thirty square miles of land since 1932. A fishing guide, Ryan Lambert, told The Lens the estuary is literally eating itself.",
      "shots": [
       {
        "type": "map",
@@ -994,9 +994,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.92,
-           "lat": 29.5,
-           "span": 0.12
+           "lon": -89.97,
+           "lat": 29.6,
+           "span": 0.2
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1041,6 +1041,81 @@
        "on_screen_text": "Barataria Bay"
       },
       {
+       "type": "stat",
+       "at": "about four hundred",
+       "stat": {
+        "value": "~432 sq mi",
+        "label": "Land lost in the Barataria Basin since 1932",
+        "source": "BTNEP, via ASCE, Sep 2026"
+       }
+      },
+      {
+       "type": "document",
+       "at": "A fishing guide",
+       "document": {
+        "text": "\"The estuary is literally eating itself.\"",
+        "source": "Ryan Lambert, fishing guide, to The Lens, May 13, 2025",
+        "highlight": "literally eating itself"
+       }
+      }
+     ]
+    },
+    {
+     "text": "But fresh river water and mud would also change the bay itself, and the oyster and shrimp towns that live on its salt water. They fought the project in court and on the steps of the state Capitol. Governor Jeff Landry said its damage to the fisheries would break our culture.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.92,
+           "lat": 29.5,
+           "span": 0.12
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.5,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
        "type": "map",
        "at": "They fought",
        "map": {
@@ -1064,8 +1139,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.93,
-           "lat": 29.48,
+           "lon": -89.85,
+           "lat": 29.4,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1082,8 +1157,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.1,
-           "lat": 29.5,
+           "lon": -90.05,
+           "lat": 29.6,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1131,8 +1206,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.85,
-           "lat": 29.4,
+           "lon": -89.98,
+           "lat": 29.42,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1174,8 +1249,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.05,
-           "lat": 29.6,
+           "lon": -89.9,
+           "lat": 29.55,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1188,7 +1263,7 @@
      ]
     },
     {
-     "text": "On July 17, 2025, the state ended it. The authority's chairman, Gordon Dove, said they had made the difficult decision to terminate the Mid-Barataria project. Six hundred and eighteen million dollars had already been spent.",
+     "text": "On July 17, 2025, the state ended it. The authority's chairman, Gordon Dove, said they had made the difficult decision to terminate the Mid-Barataria project. Six hundred and eighteen million dollars had already been spent. A month later, Dove wrote that the decision was not made lightly.",
      "shots": [
       {
        "type": "map",
@@ -1197,7 +1272,7 @@
         "steps": [
          {
           "view": {
-           "lon": -89.9548,
+           "lon": -89.962,
            "lat": 29.648,
            "span": 0.04
           },
@@ -1250,6 +1325,41 @@
         "label": "Already spent on Mid-Barataria when it was cancelled",
         "source": "Coastal Protection and Restoration Authority, Jul 17, 2025"
        }
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.09
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
       }
      ]
     },
@@ -1269,7 +1379,8 @@
           },
           "date": "2026-10-13/2026-10-13"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -1279,9 +1390,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.98,
-           "lat": 29.42,
-           "span": 0.07
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1345,9 +1456,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.9,
-           "lat": 29.55,
-           "span": 0.07
+           "lon": -90.1,
+           "lat": 29.5,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1389,8 +1500,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.955,
-           "lat": 29.645,
+           "lon": -89.85,
+           "lat": 29.4,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -1399,6 +1510,37 @@
         "cut": true
        },
        "on_screen_text": "Barataria Bay"
+      }
+     ]
+    },
+    {
+     "text": "Amanda Moore, of the National Wildlife Federation, went further. We needed Mid-Barataria, frankly, many decades ago.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.62,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "We needed",
+       "document": {
+        "text": "\"We needed Mid-Barataria, frankly, many decades ago.\"",
+        "source": "Amanda Moore, National Wildlife Federation, to WWNO, Jul 2025",
+        "highlight": "many decades ago"
+       }
       }
      ]
     },
@@ -1418,8 +1560,7 @@
           },
           "date": "2026-10-13/2026-10-13"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -1429,8 +1570,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.0,
-           "lat": 29.55,
+           "lon": -90.05,
+           "lat": 29.6,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -1486,8 +1627,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.93,
-           "lat": 29.48,
+           "lon": -89.98,
+           "lat": 29.42,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -1504,8 +1645,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.1,
-           "lat": 29.5,
+           "lon": -89.9,
+           "lat": 29.55,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -1538,9 +1679,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.85,
-           "lat": 29.4,
-           "span": 0.09
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1894,7 +2035,7 @@
      ]
     },
     {
-     "text": "The ground also sinks. Soft delta mud compacts under its own weight. A study of two hundred and seventy-four marsh sites found the water rising against the land by about twelve millimetres a year on average, several times the global rise of the sea.",
+     "text": "The ground also sinks. Soft delta mud compacts under its own weight. A study of two hundred and seventy-four marsh sites found the water rising against the land by about twelve millimetres a year on average, several times the global rise of the sea. In the Mississippi Delta itself, the average was about thirteen.",
      "shots": [
       {
        "type": "map",
@@ -1973,6 +2114,24 @@
         ]
        },
        "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.9,
+           "lat": 29.5,
+           "span": 0.45
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
       }
      ]
     },
@@ -2039,8 +2198,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.9,
-           "lat": 29.5,
+           "lon": -90.2,
+           "lat": 29.3,
            "span": 0.45
           },
           "date": "2026-10-13/2026-10-13"
@@ -2066,8 +2225,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.2,
-           "lat": 29.3,
+           "lon": -90.6,
+           "lat": 29.35,
            "span": 0.45
           },
           "date": "2026-10-13/2026-10-13"
@@ -2109,8 +2268,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.6,
-           "lat": 29.35,
+           "lon": -89.6,
+           "lat": 29.4,
            "span": 0.45
           },
           "date": "2026-10-13/2026-10-13"
@@ -2119,6 +2278,73 @@
         "cut": true
        },
        "on_screen_text": "Coastal Louisiana"
+      }
+     ]
+    },
+    {
+     "text": "The same study found the other side too. Where the river's mud still reaches the marsh, in the Bird's Foot, the marsh is gaining one to three centimetres a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.15,
+           "span": 0.15
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.15,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.16,
+           "lat": 29.16,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "stat",
+       "at": "one to three",
+       "stat": {
+        "value": "+1-3 cm a year",
+        "label": "Marsh gain in the Bird's Foot where river sediment reaches it",
+        "source": "Wilson, Quirk et al., Nature Communications, Apr 2026"
+       }
       }
      ]
     },
@@ -2138,8 +2364,7 @@
           },
           "date": "2026-10-13/2026-10-13"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -2149,9 +2374,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.6,
-           "lat": 29.4,
-           "span": 0.45
+           "lon": -90.4,
+           "lat": 29.45,
+           "span": 0.6
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2745,8 +2970,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.72,
-           "lat": 29.596,
+           "lon": -90.75,
+           "lat": 29.68,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -2980,9 +3205,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.75,
-           "lat": 29.68,
-           "span": 0.05
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3046,8 +3271,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.776,
-           "lat": 29.711,
+           "lon": -90.81,
+           "lat": 29.739,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3064,8 +3289,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.81,
-           "lat": 29.739,
+           "lon": -90.72,
+           "lat": 29.596,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3113,6 +3338,90 @@
      ]
     },
     {
+     "text": "The state's position is that it did not force anyone to leave the island. In July 2025 it handed the running of the new subdivision to a regional planning commission.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "The New Isle",
+            "lon": -90.776,
+            "lat": 29.711,
+            "kind": "city",
+            "label": "The New Isle"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 29.38,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "In July 2025",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.79,
+           "lat": 29.72,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 22,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.75,
+           "lat": 29.68,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne Parish"
+      }
+     ]
+    },
+    {
      "text": "Some families stayed on the island. Chris Brunet is one of them. There's less land, he said, and more water.",
      "shots": [
       {
@@ -3148,8 +3457,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.5,
-           "lat": 29.38,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -3255,8 +3564,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -3273,8 +3582,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.25,
-           "lat": 29.15,
+           "lon": -89.3,
+           "lat": 29.05,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -3317,8 +3626,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.16,
-           "lat": 29.16,
+           "lon": -89.4,
+           "lat": 29.15,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -3442,9 +3751,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.72,
-           "lat": 29.596,
-           "span": 0.07
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3460,9 +3769,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.75,
-           "lat": 29.68,
-           "span": 0.07
+           "lon": -90.81,
+           "lat": 29.739,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3495,8 +3804,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.776,
-           "lat": 29.711,
+           "lon": -90.72,
+           "lat": 29.596,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -3522,8 +3831,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.81,
-           "lat": 29.739,
+           "lon": -90.75,
+           "lat": 29.68,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -3561,8 +3870,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.3,
-           "lat": 29.05,
+           "lon": -89.2,
+           "lat": 29.25,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -3579,8 +3888,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.4,
-           "lat": 29.15,
+           "lon": -89.58,
+           "lat": 29.41,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -3627,8 +3936,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.2,
-           "lat": 29.25,
+           "lon": -89.65,
+           "lat": 29.47,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -3645,9 +3954,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.58,
-           "lat": 29.41,
-           "span": 0.05
+           "lon": -89.36,
+           "lat": 29.28,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3689,9 +3998,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.65,
-           "lat": 29.47,
-           "span": 0.05
+           "lon": -89.25,
+           "lat": 29.15,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3707,8 +4016,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.36,
-           "lat": 29.28,
+           "lon": -89.16,
+           "lat": 29.16,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3725,8 +4034,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.25,
-           "lat": 29.15,
+           "lon": -89.3,
+           "lat": 29.05,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3765,8 +4074,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.16,
-           "lat": 29.16,
+           "lon": -89.4,
+           "lat": 29.15,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3783,8 +4092,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.3,
-           "lat": 29.05,
+           "lon": -89.2,
+           "lat": 29.25,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3849,8 +4158,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.4,
-           "lat": 29.15,
+           "lon": -89.58,
+           "lat": 29.41,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3893,8 +4202,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.2,
-           "lat": 29.25,
+           "lon": -89.65,
+           "lat": 29.47,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3911,9 +4220,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.58,
-           "lat": 29.41,
-           "span": 0.07
+           "lon": -89.36,
+           "lat": 29.28,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4000,9 +4309,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.65,
-           "lat": 29.47,
-           "span": 0.07
+           "lon": -89.25,
+           "lat": 29.15,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4562,6 +4871,90 @@
      ]
     },
     {
+     "text": "Part of that water arrives through the Wax Lake Outlet, a channel dug in 1941 to protect Morgan City from floods. It carries about forty percent of the Atchafalaya's flow.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.32,
+           "lat": 29.64,
+           "span": 0.2
+          },
+          "places": [
+           {
+            "name": "Morgan City",
+            "lon": -91.2068,
+            "lat": 29.6994,
+            "kind": "city",
+            "label": "Morgan City"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.5,
+           "lat": 29.47,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": 14,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.25,
+           "lat": 29.5,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": "It carries",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 29.58,
+           "span": 0.15
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
      "text": "This is the Wax Lake and Atchafalaya deltas in 1984. And this is this October. New land first rose above the water here in 1973, after a great flood. We measured them too. Since 1985 the two deltas have gained about eleven and a half thousand hectares, about a hundred and fifteen square kilometres. That is close to what scientists at Louisiana State University estimate.",
      "shots": [
       {
@@ -4659,8 +5052,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.5,
-           "lat": 29.47,
+           "lon": -91.376,
+           "lat": 29.69,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4676,9 +5069,9 @@
         "steps": [
          {
           "view": {
-           "lon": -91.25,
+           "lon": -91.445,
            "lat": 29.5,
-           "span": 0.05
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4720,9 +5113,9 @@
         "steps": [
          {
           "view": {
-           "lon": -91.376,
-           "lat": 29.69,
-           "span": 0.05
+           "lon": -91.3,
+           "lat": 29.45,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4760,8 +5153,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.445,
-           "lat": 29.5,
+           "lon": -91.38,
+           "lat": 29.55,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -4778,8 +5171,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.3,
-           "lat": 29.45,
+           "lon": -91.5,
+           "lat": 29.47,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -4802,8 +5195,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.38,
-           "lat": 29.55,
+           "lon": -91.25,
+           "lat": 29.5,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -4839,8 +5232,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
+           "lon": -90.44,
+           "lat": 29.38,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -4856,8 +5249,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -4907,9 +5300,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.05,
-           "lat": 29.6,
-           "span": 0.09
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4930,6 +5323,62 @@
      ]
     },
     {
+     "text": "The board adopted the plan unanimously. Coastal restoration, the governor said, rises above politics. So far, the state's projects have restored or nurtured about fifty-five thousand acres and more than seventy miles of barrier islands, InvestigateTV reported this month.",
+     "shots": [
+      {
+       "type": "document",
+       "at": 0,
+       "document": {
+        "text": "\"The unanimous passage of this measure shows that coastal restoration rises above politics.\"",
+        "source": "Gov. Jeff Landry, Coastal Protection and Restoration Authority, Apr 27, 2026",
+        "highlight": "rises above politics"
+       }
+      },
+      {
+       "type": "map",
+       "at": "So far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.2,
+           "lat": 29.12,
+           "span": 0.4
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about fifty-five",
+       "stat": {
+        "value": "55,000 acres",
+        "label": "Restored or nurtured by state coastal projects (+70 mi of barrier islands)",
+        "source": "InvestigateTV, Nov 3, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.08
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      }
+     ]
+    },
+    {
      "text": "Foster Creppel, who runs a business in Plaquemines and supported the diversion, put the choice plainly. If we continue fighting over it, we really don't have a chance.",
      "shots": [
       {
@@ -4945,7 +5394,8 @@
           },
           "date": "2026-10-13/2026-10-13"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4955,8 +5405,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.36,
-           "lat": 29.28,
+           "lon": -89.16,
+           "lat": 29.16,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -4973,6 +5423,71 @@
         "text": "\"If we continue fighting over it, we really don't have a chance.\"",
         "source": "Foster Creppel, Plaquemines Parish, to InvestigateTV, Nov 2026",
         "highlight": "we really don't have a chance"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Mark Davis, of Tulane University, sees what Louisiana still has to lose. If I'm sitting in Miami, he said, I don't have a coast I can try to keep between me and hurricane landfalls.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.35,
+           "span": 0.5
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": 6,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.5,
+           "span": 0.6
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coastal Louisiana"
+      },
+      {
+       "type": "document",
+       "at": "If I'm",
+       "document": {
+        "text": "\"If I'm sitting in Miami, I don't have a coast I can try to keep between me and hurricane landfalls.\"",
+        "source": "Mark Davis, Tulane University, to InvestigateTV, Nov 2026",
+        "highlight": "a coast I can try to keep"
+       }
+      },
+      {
+       "type": "map",
+       "at": "I can try",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.25,
+           "lat": 29.25,
+           "span": 0.3
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
        }
       }
      ]
@@ -5013,9 +5528,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.53,
-           "lat": 29.4,
-           "span": 0.06
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.08
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -5083,9 +5598,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.72,
-           "lat": 29.596,
-           "span": 0.09
+           "lon": -90.776,
+           "lat": 29.711,
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -5106,7 +5621,7 @@
         "steps": [
          {
           "view": {
-           "lon": -90.868,
+           "lon": -89.932,
            "lat": 29.45,
            "span": 2.6
           },

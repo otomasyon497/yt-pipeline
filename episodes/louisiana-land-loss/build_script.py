@@ -80,8 +80,8 @@ MOVE = {"from": [-90.4886, 29.3992], "to": [-90.776, 29.711], "mode": "line", "s
 LA1 = {"from": [-90.26, 29.38], "to": [-90.19, 29.12], "mode": "line", "seconds": 3, "label": "LA-1",
        "via": [[-90.23, 29.32], [-90.21, 29.25], [-90.20, 29.18]]}
 
-CMP_IJC = {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": LS, "seconds": 2.2, "label_before": "1985", "label_after": "2026"}
-CMP_BARATARIA = {"before": "1985-08-31", "after": AFTER, "source": LS, "seconds": 2.2, "label_before": "1985", "label_after": "2026"}
+CMP_IJC = {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
+CMP_BARATARIA = {"before": "1985-08-31", "after": AFTER, "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
 CMP_BIRDSFOOT = {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": LS, "seconds": 1.8, "label_before": "1985", "label_after": "2026"}
 CMP_WAXLAKE = {"before": "1984-10-01/1984-10-31", "after": AFTER, "source": LS, "seconds": 2.0, "label_before": "1984", "label_after": "2026"}
 
@@ -169,7 +169,7 @@ chapters = [
           m("Isle de Jean Charles", v(IJC_V, places=[IJC]), cut=True)),
         P("This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
           m(0, v(IJC_W, compare={**CMP_IJC, "until": "And this"}), step("And this", places=[IJC]), cut=True),
-          stat("By the state's", "22,000 -> 320 acres", "Land around Isle de Jean Charles, by the state's count", OCD),
+          stat("the land around", "22,000 -> 320 acres", "Land around Isle de Jean Charles, by the state's count", OCD),
           m("We measured", v(near(-90.49, 29.40, 0.1), places=[IJC]), cut=True),
           stat("from about three", "-45%", "Land and marsh above water in a box around the island, 1985 -> 2026", OWN, "About 3,300 ha -> 1,800 ha")),
         P("Thirty-seven families took the deal and moved about forty miles inland, to a new subdivision built for them in the sugar-cane fields. One of them, Amy Handon, told The New York Times this year what she would say to the next town offered the same thing.",
@@ -372,7 +372,7 @@ chapters = [
           m(0, v(near(-89.95, 29.60, 0.15))),
           clip("If we", "\"If we continue fighting over it, we really don't have a chance.\"", "Foster Creppel, Plaquemines Parish, to InvestigateTV, Nov 2026", highlight="we really don't have a chance")),
         P("On Isle de Jean Charles, the road is still there, and so are a few families. Forty miles inland, the people who left are learning to live by new rules.",
-          m(0, v(IJC_W, compare={**CMP_IJC, "hold": 0.4}), cut=True),
+          m(0, v(IJC_W, compare={**CMP_IJC}), cut=True),
           m("and so are", v(near(-90.488, 29.398, 0.04), places=[IJC]), cut=True),
           m("Forty miles", v(NEWISLE_V, places=[NEWISLE]), cut=True)),
         P("If it were your call, would you open the river and change the fishing towns for good, or keep today's coast and watch it shrink?",

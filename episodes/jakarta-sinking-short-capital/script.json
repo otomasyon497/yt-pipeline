@@ -117,9 +117,8 @@
           },
           "date": "2026-06-01/2026-10-31",
           "compare": {
-           "before": "2019-06-01/2019-10-31",
-           "after": "2026-06-01/2026-10-31",
-           "source": "landsat",
+           "before": "2019-03-19",
+           "after": "2026-08-16",
            "seconds": 2.2,
            "until": "And this"
           }
@@ -138,7 +137,7 @@
          }
         ]
        },
-       "on_screen_text": "Nusantara · Landsat"
+       "on_screen_text": "Nusantara · Sentinel-2"
       }
      ]
     },
@@ -156,7 +155,7 @@
            "lat": -0.965,
            "span": 0.05
           },
-          "date": "2026-06-01/2026-10-31"
+          "date": "2026-08-16"
          }
         ],
         "cut": true
@@ -174,7 +173,7 @@
            "lat": -0.95,
            "span": 0.07
           },
-          "date": "2026-06-01/2026-10-31"
+          "date": "2026-08-16"
          }
         ],
         "cut": true
@@ -206,7 +205,7 @@
             "label": "GARUDA PALACE"
            }
           ],
-          "date": "2026-06-01/2026-10-31"
+          "date": "2026-08-16"
          }
         ],
         "cut": true

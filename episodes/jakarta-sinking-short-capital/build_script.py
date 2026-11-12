@@ -6,6 +6,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 AFTER = "2026-06-01/2026-10-31"
+IKN_DAY = "2026-08-16"  # 91 % clear over the palace; dry-season composites left a swath-edge patch here
 
 
 def place(name, lon, lat, label, kind="city"):
@@ -40,14 +41,14 @@ paragraphs = [
       m("Jakarta is sinking", v(106.80, -6.11, 0.12, places=[JAKARTA])),
       m("Move the capital", v(112.0, -3.5, 16, places=[JAKARTA, PALACE], routes=[MOVE]), at="So in")),
     P("Here, to the forest of Borneo. This is the site in 2019. And this is the same place this year.",
-      m("Nusantara · Landsat",
-        {**v(116.696, -0.959, 0.12), "compare": {"before": "2019-06-01/2019-10-31", "after": AFTER, "source": "landsat", "seconds": 2.2, "until": "And this"}},
+      m("Nusantara · Sentinel-2",
+        {**v(116.696, -0.959, 0.12), "compare": {"before": "2019-03-19", "after": IKN_DAY, "seconds": 2.2, "until": "And this"}},
         {"at": "And this", "places": [PALACE]}, cut=False)),
     P("The money has shrunk year by year: forty-three trillion rupiah in 2024, six point three trillion this year.",
-      m("2024: Rp 43 trillion", v(116.70, -0.965, 0.05), at="forty-three"),
-      m("2026: Rp 6.3 trillion", v(116.715, -0.95, 0.07), at="six point")),
+      m("2024: Rp 43 trillion", v(116.70, -0.965, 0.05, date=IKN_DAY), at="forty-three"),
+      m("2026: Rp 6.3 trillion", v(116.715, -0.95, 0.07, date=IKN_DAY), at="six point")),
     P("About ten thousand people have moved in, not the half a million once planned.",
-      m("~10,000 people, not 500,000", v(116.69, -0.975, 0.06, places=[PALACE]))),
+      m("~10,000 people, not 500,000", v(116.69, -0.975, 0.06, date=IKN_DAY, places=[PALACE]))),
     P("And in May, the Constitutional Court ruled that Jakarta stays the capital until a decree moves it.",
       m("May 2026: the court rules", v(106.83, -6.17, 0.08, places=[JAKARTA])),
       m("By law, Jakarta is still the capital", v(106.80, -6.15, 0.2), at="until a")),

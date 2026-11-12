@@ -129,7 +129,8 @@ def compares(script) -> list[str]:
                         continue
                     months = [int(d.split("/")[0][5:7]) for d in (c.before, c.after)]
                     gap = abs(months[0] - months[1])
-                    if min(gap, 12 - gap) > 2:
+                    tropics = st.view is not None and abs(st.view.lat) < 23.5  # no winter there (Nusantara, -1 deg)
+                    if min(gap, 12 - gap) > 2 and not tropics:
                         out.append(f"c{ci:02d}p{pi:02d}s{k:02d}: compare {c.before} vs {c.after}: seasons differ "
                                    f"by {min(gap, 12 - gap)} months (keep within 2)")
                     if c.source == "landsat" and abs(st.view.lat) > 25:

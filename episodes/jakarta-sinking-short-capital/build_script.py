@@ -41,7 +41,7 @@ paragraphs = [
       m("Move the capital", v(112.0, -3.5, 16, places=[JAKARTA, PALACE], routes=[MOVE]), at="So in")),
     P("Here, to the forest of Borneo. This is the site in 2019. And this is the same place this year.",
       m("Nusantara · Sentinel-2",
-        {**v(116.696, -0.959, 0.12), "compare": {"before": "2019-06-01/2019-10-31", "after": AFTER, "seconds": 2.2, "until": "And this"}},
+        {**v(116.696, -0.959, 0.12), "compare": {"before": "2019-03-19", "after": "2026-08-16", "seconds": 2.2, "until": "And this"}},
         {"at": "And this", "places": [PALACE]}, cut=False)),
     P("The money has shrunk year by year: forty-three trillion rupiah in 2024, six point three trillion this year.",
       m("2024: Rp 43 trillion", v(116.70, -0.965, 0.05), at="forty-three"),

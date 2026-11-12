@@ -68,7 +68,7 @@ CMP_DEMAK = {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": LS, "s
              "label_before": "1990", "label_after": "2026"}
 CMP_BAY = {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": LS, "seconds": 2.6,
            "label_before": "1990", "label_after": "2026"}
-CMP_IKN = {"before": "2019-06-01/2019-10-31", "after": AFTER, "seconds": 2.4,
+CMP_IKN = {"before": "2019-03-19", "after": "2026-08-16", "seconds": 2.4,  # single clear days (86 % / 91 %): composites left a swath-edge patch
            "label_before": "2019", "label_after": "2026"}
 
 
@@ -153,7 +153,7 @@ PH_NIGHT = "nasa:iss073e0222649"  # Jakarta at night, ISS, 26 May 2025
 
 # Own measurements (filled from the tool outputs; see demak_shoreline.json / ikn_clearing.json)
 DEMAK_HA = (2507, 445)  # land in the three boxes, 1990 -> 2026 (demak_shoreline.json)
-IKN_HA = None
+IKN_HA = 650  # green in 2019, bare or built in 2026, 6 x 6 km box around the palace (ikn_clearing.json)
 
 chapters = [
     {"title": "A Wall of Trees", "mood": "tension", "paragraphs": [
@@ -257,10 +257,11 @@ chapters = [
         P("The price was put at four hundred and sixty-six trillion rupiah, around thirty-two billion dollars, with the state meant to pay a fifth and private investors the rest. By 2024 the state had spent eighty-nine trillion rupiah.",
           photo(0, PH_PALACE, "The presidential palace under construction, June 2024"),
           stat("By 2024", "Rp 89 trillion", "State money spent on Nusantara, 2022-2024", JP + ", Aug 20, 2026")),
-        P("NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted nearly two thousand five hundred hectares cleared or degraded in the core government zone in that time. Roads and government buildings now stand where the trees were.",
+        P("NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted nearly two thousand five hundred hectares cleared or degraded in the core government zone in that time. In our own Sentinel-2 images, about six hundred and fifty hectares around the palace that were green in 2019 are bare or built over this year.",
           m(0, v(IKN_V, places=[NUSANTARA])),
           stat("nearly two", "~2,464 ha", "Forest cleared or degraded in Nusantara's core zone, Apr 2022 - Feb 2024", "Tempo analysis of NASA Landsat images, 2024"),
-          m("Roads and", v(near(116.71, -0.96, 0.06)), cut=True)),
+          m("In our own", v(near(116.71, -0.95, 0.06)), cut=True),
+          stat("about six", "~650 ha", "Green in 2019, bare or built in 2026: 6 x 6 km around the palace", OWN_IKN, "Some of it was plantation that would have been cut anyway")),
         P("Not everyone wanted the city. The Balik people of Sepaku live right next to the site. We don't want to be relocated from the land of our ancestors, their chief Sibukdin told Al Jazeera in 2023. A neighbour, Sernai, sixty-eight, said: They will take my house eventually.",
           m(0, v(SEPAKU_V, places=[SEPAKU, NUSANTARA])),
           clip("We don't", "\"We don't want to be relocated from the land of our ancestors.\"", "Sibukdin, Balik chief, Sepaku, to Al Jazeera, Mar 15, 2023", highlight="the land of our ancestors"),

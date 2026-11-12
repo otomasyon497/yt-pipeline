@@ -2392,8 +2392,8 @@
            "span": 0.12
           },
           "compare": {
-           "before": "2019-06-01/2019-10-31",
-           "after": "2026-06-01/2026-10-31",
+           "before": "2019-03-19",
+           "after": "2026-08-16",
            "seconds": 2.4,
            "label_before": "2019",
            "label_after": "2026",
@@ -2501,7 +2501,7 @@
      ]
     },
     {
-     "text": "NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted nearly two thousand five hundred hectares cleared or degraded in the core government zone in that time. Roads and government buildings now stand where the trees were.",
+     "text": "NASA's own images showed the forest giving way in less than two years, from April 2022 to February 2024. Indonesian journalists at Tempo counted nearly two thousand five hundred hectares cleared or degraded in the core government zone in that time. In our own Sentinel-2 images, about six hundred and fifty hectares around the palace that were green in 2019 are bare or built over this year.",
      "shots": [
       {
        "type": "map",
@@ -2535,16 +2535,16 @@
         "steps": [
          {
           "view": {
-           "lon": 108.57,
-           "lat": -6.7,
-           "span": 0.12
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Java's north coast"
+       "on_screen_text": "Nusantara"
       },
       {
        "type": "map",
@@ -2553,16 +2553,16 @@
         "steps": [
          {
           "view": {
-           "lon": 111.1,
-           "lat": -6.55,
-           "span": 0.12
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Java's north coast"
+       "on_screen_text": "Nusantara"
       },
       {
        "type": "stat",
@@ -2580,8 +2580,8 @@
         "steps": [
          {
           "view": {
-           "lon": 112.65,
-           "lat": -7.1,
+           "lon": 108.57,
+           "lat": -6.7,
            "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
@@ -2592,13 +2592,13 @@
       },
       {
        "type": "map",
-       "at": "Roads and",
+       "at": "In our own",
        "map": {
         "steps": [
          {
           "view": {
            "lon": 116.71,
-           "lat": -0.96,
+           "lat": -0.95,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -2606,6 +2606,51 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "stat",
+       "at": "about six",
+       "stat": {
+        "value": "~650 ha",
+        "label": "Green in 2019, bare or built in 2026: 6 x 6 km around the palace",
+        "source": "Our measurement, Sentinel-2",
+        "note": "Some of it was plantation that would have been cut anyway"
+       }
+      },
+      {
+       "type": "map",
+       "at": 55,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 61,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
       }
      ]
     },
@@ -2652,8 +2697,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -2752,9 +2797,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
-           "span": 0.07
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2769,9 +2814,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
+           "lon": 116.71,
            "lat": -0.95,
-           "span": 0.07
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2787,9 +2832,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
-           "span": 0.07
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2824,9 +2869,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.07
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -2910,8 +2955,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2936,8 +2981,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2996,8 +3041,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -3030,9 +3075,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
-           "span": 0.09
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3079,9 +3124,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
-           "span": 0.09
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3096,9 +3141,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
-           "span": 0.09
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3114,9 +3159,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.09
+           "lon": 116.68,
+           "lat": -0.945,
+           "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3132,8 +3177,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3219,7 +3264,7 @@
           "view": {
            "lon": 116.71,
            "lat": -0.95,
-           "span": 0.06
+           "span": 0.08
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3235,9 +3280,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
-           "span": 0.06
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.08
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3277,7 +3322,7 @@
           "view": {
            "lon": 116.75,
            "lat": -0.95,
-           "span": 0.06
+           "span": 0.08
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3312,7 +3357,7 @@
           "view": {
            "lon": 116.68,
            "lat": -0.945,
-           "span": 0.06
+           "span": 0.08
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4023,9 +4068,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.43,
-           "lat": -6.95,
-           "span": 0.18
+           "lon": 111.1,
+           "lat": -6.55,
+           "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4074,9 +4119,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.2,
-           "lat": -6.92,
-           "span": 0.18
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4187,8 +4232,8 @@
         "steps": [
          {
           "view": {
-           "lon": 109.68,
-           "lat": -6.86,
+           "lon": 110.43,
+           "lat": -6.95,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4331,8 +4376,8 @@
         "steps": [
          {
           "view": {
-           "lon": 109.1,
-           "lat": -6.83,
+           "lon": 110.2,
+           "lat": -6.92,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4483,8 +4528,8 @@
         "steps": [
          {
           "view": {
-           "lon": 108.57,
-           "lat": -6.7,
+           "lon": 109.68,
+           "lat": -6.86,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4640,8 +4685,8 @@
         "steps": [
          {
           "view": {
-           "lon": 111.1,
-           "lat": -6.55,
+           "lon": 109.1,
+           "lat": -6.83,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4658,8 +4703,8 @@
         "steps": [
          {
           "view": {
-           "lon": 112.65,
-           "lat": -7.1,
+           "lon": 108.57,
+           "lat": -6.7,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4676,9 +4721,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.43,
-           "lat": -6.95,
-           "span": 0.25
+           "lon": 111.1,
+           "lat": -6.55,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4733,9 +4778,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.2,
-           "lat": -6.92,
-           "span": 0.25
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4751,8 +4796,8 @@
         "steps": [
          {
           "view": {
-           "lon": 109.68,
-           "lat": -6.86,
+           "lon": 110.43,
+           "lat": -6.95,
            "span": 0.25
           },
           "date": "2026-06-01/2026-10-31"
@@ -4769,8 +4814,8 @@
         "steps": [
          {
           "view": {
-           "lon": 109.1,
-           "lat": -6.83,
+           "lon": 110.2,
+           "lat": -6.92,
            "span": 0.25
           },
           "date": "2026-06-01/2026-10-31"

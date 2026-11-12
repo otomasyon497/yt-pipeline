@@ -563,3 +563,9 @@ script.json -> deterministic check_script.py -> separate verifier agent -> user 
 - 2C: script generation flow (facts.json, check_script.py, verifier pass, review gate).
 - Risk: YouTube monetisation policy on mass-produced / inauthentic content; keep original scripts + disclose synthetic media.
 Each sub-phase stops for user approval.
+
+## 2026-11-12 (01:00-02:10 UTC)
+- Outer Banks day (published 2026-11-11T23:00Z): long 6zrm-jh4Lo4, Shorts 95VaTlND_nM (paid to wait) and EaHxN9OKqYA (lighthouse). Comments posted via `yt_upload.py comment`; pinning is manual in Studio.
+- Langtang day (2026-11-12T23:00Z): long 7j0S1PUwPvU (v3, audit approved), Shorts g37VSZhYDMk (38 minutes) and Wd1R0AzmQYY (three times).
+- Next: Jakarta sinking (2026-11-13T23:00Z = 14 Nov 02:00 TR): research.md done; script, own measurements, 2 Shorts.
+- Release rule: one topic per day, 1 long + 2 Shorts at 23:00 UTC. Studio audience: TR 39 % of views but 8 % of watch time.

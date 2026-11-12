@@ -372,7 +372,7 @@ chapters = [
           m(0, v(near(-89.95, 29.60, 0.15))),
           clip("If we", "\"If we continue fighting over it, we really don't have a chance.\"", "Foster Creppel, Plaquemines Parish, to InvestigateTV, Nov 2026", highlight="we really don't have a chance")),
         P("On Isle de Jean Charles, the road is still there, and so are a few families. Forty miles inland, the people who left are learning to live by new rules.",
-          m(0, v(IJC_W, compare={**CMP_IJC}), cut=True),
+          m(0, v(IJC_W, places=[IJC]), cut=True),
           m("so are a few", v(near(-90.488, 29.398, 0.04), places=[IJC]), cut=True),
           m("Forty miles", v(NEWISLE_V, places=[NEWISLE]), cut=True)),
         P("If it were your call, would you open the river and change the fishing towns for good, or keep today's coast and watch it shrink?",

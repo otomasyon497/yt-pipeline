@@ -4991,19 +4991,38 @@
            "lat": 29.405,
            "span": 0.14
           },
-          "compare": {
-           "before": "1985-10-01/1985-11-30",
-           "after": "2026-10-01/2026-11-10",
-           "source": "landsat",
-           "seconds": 1.6,
-           "label_before": "1985",
-           "label_after": "2026"
-          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
           "date": "2026-10-13/2026-10-13"
          }
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.53,
+           "lat": 29.4,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
       },
       {
        "type": "map",

@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 AFTER = "2026-06-01/2026-10-31"  # dry season (Java / Borneo are cloudy the rest of the year)
 # Single clear days picked from the Sentinel-2 archive (2026-11-12): the composites showed seams and no-data wedges.
-JKT_DAY = "2026-08-08/2026-08-08"    # tiles 48MXU + 48MYU, 1-2 % cloud
+JKT_DAY = "2025-08-26/2025-08-26"    # tiles 48MXU + 48MYU, both < 1 % cloud (2026-08-08 left a tint seam at the tile edge)
 DEMAK_DAY = "2026-10-14/2026-10-14"  # tile 49MDN, 0 % cloud
 IKN_DAY = "2026-08-29/2026-08-29"    # tiles 50MME + 50MMD, same pass, 6-10 % cloud
 
@@ -204,8 +204,9 @@ chapters = [
         P("In 2018 one of them, Heri Andreas of the Bandung Institute of Technology, told the BBC that about ninety-five percent of North Jakarta could be under water by 2050. It was a projection, and it made headlines around the world.",
           m(0, v(MUARA_BARU_V, places=[MUARA_BARU])),
           stat("about ninety-five", "95%", "North Jakarta under water by 2050: one researcher's 2018 projection", "Heri Andreas, ITB, to the BBC, 2018")),
-        P("Floods are not new here. In 2007 a monsoon flood covered more than seventy percent of the city, NASA reports. By some estimates, up to forty percent of Jakarta now lies below sea level. Every centimetre the ground loses makes the next high tide a little more dangerous.",
-          photo(0, PH_FLOOD1, "Jakarta flood, January 2013"),
+        P("Floods are not new here. In 2007 a monsoon flood covered more than seventy percent of the city, NASA reports, and in 2013 the streets flooded again. By some estimates, up to forty percent of Jakarta now lies below sea level. Every centimetre the ground loses makes the next high tide a little more dangerous.",
+          m(0, v(near(106.83, -6.19, 0.2), places=[JAKARTA])),
+          photo("and in 2013", PH_FLOOD1, "Jakarta flood, January 2013"),
           stat("By some", "40%", "Share of Jakarta below sea level, by some estimates", NASA_EO + ", 2021"),
           m("Every centimetre", v(near(106.80, -6.12, 0.09), places=[PLUIT]), cut=True)),
         P("The sea itself rises about four millimetres a year around Indonesia, according to the national weather agency. So where it was worst, the land was dropping dozens of times faster than the sea was rising.",
@@ -426,8 +427,8 @@ SHORES = {
 SPANS = {"pantura": [0.12, 0.18, 0.25, 0.15], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1]}
 LABELS = {"jakarta": "North Jakarta", "bay": "Jakarta Bay", "ikn": "Nusantara", "demak": "Sayung, Demak", "pantura": "Java's north coast"}
 PHOTOS = {
-    "jakarta": [(PH_FLOOD2, "Jakarta flood, January 2013"), (PH_NIGHT, "Jakarta at night, from the ISS, May 2025")],
-    "bay": [(PH_PIK2B, "Pantai Indah Kapuk 2, February 2024")],
+    "jakarta": [],
+    "bay": [],
     "ikn": [(PH_PALACE, "The presidential palace under construction, June 2024"), (PH_GARUDA, "The Garuda Palace, Nusantara")],
     "demak": [(PH_MAKJAH, "Mak Jah's house, Bedono"), (PH_FARMER, "A mangrove farmer in Bedono, 2025")],
 }
@@ -487,7 +488,7 @@ def filler(group, t):
 
 
 def topic_of(text, chapter):
-    if re.search(r"Nusantara|Borneo|Kalimantan|Balik|Sepaku|Sibukdin|Sernai|[Pp]alace|new capital|decree|Widodo|relocat|forest|cleared|Tempo|core government", text):
+    if re.search(r"Nusantara|Borneo|Kalimantan|Balik|Sepaku|Sibukdin|Sernai|[Pp]alace|new capital|decree|Widodo|relocat|forest|cleared|Tempo|core government|new site|earthquakes", text):
         return "ikn"
     if re.search(r"Demak|Timbulsloko|Bedono|Mak Jah|Pasijah|Sularso|Sulkan|mangrove|fish ponds|village head", text):
         return "demak"
@@ -595,6 +596,18 @@ for ch in chapters:
             pos = dict(zip(map(id, para["shots"]), anchors))
             para["shots"] = sorted(para["shots"] + new, key=lambda sh: pos.get(id(sh), sh["at"] if isinstance(sh["at"], int) else 0))
         word_base += len(para["text"].split()) + 8
+
+BASEMAP_NAMED = {"Jakarta", "Semarang", "Pekalongan", "Serang", "Gresik", "Demak", "Balikpapan"}
+for ch in chapters:
+    for para in ch["paragraphs"]:
+        for sh in para["shots"]:
+            span = None
+            for st in (sh.get("map") or {}).get("steps", []):
+                span = st["view"]["span"] if st.get("view") else span
+                if span is not None and span > 2 and st.get("places"):
+                    st["places"] = [pl for pl in st["places"] if pl["name"] not in BASEMAP_NAMED]
+                    if not st["places"]:
+                        del st["places"]
 
 for ch in chapters:
     for para in ch["paragraphs"]:

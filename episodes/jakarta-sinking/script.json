@@ -322,13 +322,6 @@
             "lat": -6.914,
             "kind": "city",
             "label": "Timbulsloko"
-           },
-           {
-            "name": "Jakarta",
-            "lon": 106.8272,
-            "lat": -6.1754,
-            "kind": "capital",
-            "label": "Jakarta"
            }
           ]
          }
@@ -337,10 +330,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 6,
-       "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
-       "on_screen_text": "Jakarta flood, January 2013"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.05
+          },
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
       },
       {
        "type": "map",
@@ -369,7 +374,7 @@
             "label": "Pluit"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -382,11 +387,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.772,
+           "lon": 106.786,
            "lat": -6.106,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -405,13 +410,6 @@
            "span": 16.0
           },
           "places": [
-           {
-            "name": "Jakarta",
-            "lon": 106.8272,
-            "lat": -6.1754,
-            "kind": "capital",
-            "label": "Jakarta"
-           },
            {
             "name": "Nusantara",
             "lon": 116.6962,
@@ -527,15 +525,6 @@
              ]
             ]
            }
-          ],
-          "places": [
-           {
-            "name": "Gresik",
-            "lon": 112.65,
-            "lat": -7.16,
-            "kind": "city",
-            "label": "Gresik"
-           }
           ]
          }
         ]
@@ -591,7 +580,7 @@
             "label": "Jakarta"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -604,11 +593,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.805,
+           "lat": -6.103,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -647,7 +636,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -660,11 +649,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.811,
+           "lat": -6.124,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -687,11 +676,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.795,
+           "lat": -6.115,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -704,11 +693,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.795,
-           "lat": -6.115,
+           "lon": 106.8,
+           "lat": -6.13,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -740,7 +729,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -753,11 +742,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.8,
-           "lat": -6.13,
+           "lon": 106.79,
+           "lat": -6.125,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -780,11 +769,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.79,
-           "lat": -6.125,
+           "lon": 106.808,
+           "lat": -6.095,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -797,11 +786,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.808,
-           "lat": -6.095,
+           "lon": 106.83,
+           "lat": -6.12,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -811,13 +800,33 @@
      ]
     },
     {
-     "text": "Floods are not new here. In 2007 a monsoon flood covered more than seventy percent of the city, NASA reports. By some estimates, up to forty percent of Jakarta now lies below sea level. Every centimetre the ground loses makes the next high tide a little more dangerous.",
+     "text": "Floods are not new here. In 2007 a monsoon flood covered more than seventy percent of the city, NASA reports, and in 2013 the streets flooded again. By some estimates, up to forty percent of Jakarta now lies below sea level. Every centimetre the ground loses makes the next high tide a little more dangerous.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:VOA People walk through Jakarta's flooded streets.jpg",
-       "on_screen_text": "Jakarta flood, January 2013"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.83,
+           "lat": -6.19,
+           "span": 0.2
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "Jakarta"
+           }
+          ],
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "map",
@@ -826,15 +835,22 @@
         "steps": [
          {
           "view": {
-           "lon": 106.83,
-           "lat": -6.12,
-           "span": 0.05
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "North Jakarta"
+      },
+      {
+       "type": "photo",
+       "at": "and in 2013",
+       "photo": "File:VOA People walk through Jakarta's flooded streets.jpg",
+       "on_screen_text": "Jakarta flood, January 2013"
       },
       {
        "type": "stat",
@@ -847,16 +863,16 @@
       },
       {
        "type": "map",
-       "at": 29,
+       "at": 36,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.805,
+           "lat": -6.103,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -882,7 +898,7 @@
             "label": "Pluit"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -890,16 +906,16 @@
       },
       {
        "type": "map",
-       "at": 41,
+       "at": 48,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.811,
+           "lat": -6.124,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -960,7 +976,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -991,17 +1007,29 @@
             "label": "Pluit"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 7,
-       "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
-       "on_screen_text": "Jakarta flood, January 2013"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.795,
+           "lat": -6.115,
+           "span": 0.07
+          },
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
       },
       {
        "type": "map",
@@ -1010,13 +1038,14 @@
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.8,
+           "lat": -6.13,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "North Jakarta"
       },
@@ -1031,17 +1060,29 @@
            "lat": -6.14,
            "span": 0.2
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 28,
-       "photo": "nasa:iss073e0222649",
-       "on_screen_text": "Jakarta at night, from the ISS, May 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.82,
+           "lat": -6.11,
+           "span": 0.07
+          },
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
       },
       {
        "type": "document",
@@ -1077,7 +1118,7 @@
             "label": "Jakarta"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        }
@@ -1089,11 +1130,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.795,
-           "lat": -6.115,
+           "lon": 106.79,
+           "lat": -6.125,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1107,11 +1148,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.8,
-           "lat": -6.13,
+           "lon": 106.808,
+           "lat": -6.095,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1152,7 +1193,7 @@
             "label": "Muara Angke"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        }
@@ -1204,7 +1245,7 @@
            "lat": -6.11,
            "span": 0.12
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1228,11 +1269,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.82,
-           "lat": -6.11,
+           "lon": 106.83,
+           "lat": -6.12,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1273,7 +1314,7 @@
             "label": "Pluit"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1286,11 +1327,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.79,
-           "lat": -6.125,
-           "span": 0.07
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1304,11 +1345,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.808,
-           "lat": -6.095,
-           "span": 0.07
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1336,11 +1377,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.83,
-           "lat": -6.12,
-           "span": 0.07
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -1353,11 +1394,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.772,
-           "lat": -6.106,
+           "lon": 106.811,
+           "lat": -6.124,
            "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1371,11 +1412,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.8,
+           "lat": -6.13,
            "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1407,7 +1448,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1420,11 +1461,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.82,
+           "lat": -6.11,
            "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1442,7 +1483,7 @@
            "lat": -6.11,
            "span": 0.07
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1455,11 +1496,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.79,
+           "lat": -6.125,
            "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1473,11 +1514,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.8,
-           "lat": -6.13,
+           "lon": 106.808,
+           "lat": -6.095,
            "span": 0.09
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1500,17 +1541,29 @@
            "lat": -6.11,
            "span": 0.035
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 9,
-       "photo": "File:VOA A car tries to drive through Jakarta's flooded streets.jpg",
-       "on_screen_text": "Jakarta flood, January 2013"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.83,
+           "lat": -6.12,
+           "span": 0.09
+          },
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
       },
       {
        "type": "map",
@@ -1519,13 +1572,14 @@
         "steps": [
          {
           "view": {
-           "lon": 106.82,
-           "lat": -6.11,
-           "span": 0.09
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "North Jakarta"
       },
@@ -1558,7 +1612,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1589,17 +1643,29 @@
             "label": "Wal Adhuna mosque"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 10,
-       "photo": "nasa:iss073e0222649",
-       "on_screen_text": "Jakarta at night, from the ISS, May 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.06
+          },
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Jakarta"
       },
       {
        "type": "map",
@@ -1608,13 +1674,14 @@
         "steps": [
          {
           "view": {
-           "lon": 106.79,
-           "lat": -6.125,
-           "span": 0.09
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
-        ]
+        ],
+        "cut": true
        },
        "on_screen_text": "North Jakarta"
       },
@@ -1629,7 +1696,7 @@
            "lat": -6.112,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1642,11 +1709,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.808,
-           "lat": -6.095,
-           "span": 0.09
+           "lon": 106.811,
+           "lat": -6.124,
+           "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1669,7 +1736,7 @@
            "lat": -6.108,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1695,7 +1762,7 @@
            "lat": -6.08,
            "span": 0.42
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1726,21 +1793,15 @@
             "label": "Pluit"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
        }
       },
       {
-       "type": "photo",
-       "at": 7,
-       "photo": "File:Pantai Indah Kapuk 2 - Tangerang, BT (22 Februari 2024) 1.jpg",
-       "on_screen_text": "Pantai Indah Kapuk 2, February 2024"
-      },
-      {
        "type": "map",
-       "at": 15,
+       "at": 7,
        "map": {
         "steps": [
          {
@@ -1749,9 +1810,28 @@
            "lat": -6.085,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
-        ]
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jakarta Bay"
+      },
+      {
+       "type": "map",
+       "at": 15,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.79,
+           "lat": -6.093,
+           "span": 0.05
+          },
+          "date": "2025-08-26/2025-08-26"
+         }
+        ],
+        "cut": true
        },
        "on_screen_text": "Jakarta Bay"
       },
@@ -1789,7 +1869,7 @@
             "label": "Muara Angke"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        }
@@ -1801,11 +1881,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.79,
-           "lat": -6.093,
+           "lon": 106.7,
+           "lat": -6.03,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1828,11 +1908,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.7,
-           "lat": -6.03,
+           "lon": 106.67,
+           "lat": -6.02,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -1865,7 +1945,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1878,11 +1958,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.83,
-           "lat": -6.12,
-           "span": 0.09
+           "lon": 106.8,
+           "lat": -6.13,
+           "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1914,7 +1994,7 @@
            "label_after": "2026",
            "until": "And this"
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          },
          {
           "at": "And this",
@@ -1952,7 +2032,7 @@
             "label": "Pluit"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -1978,7 +2058,7 @@
             "label": "Pantai Indah Kapuk 2"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -2005,11 +2085,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.67,
-           "lat": -6.02,
+           "lon": 106.73,
+           "lat": -6.05,
            "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -2026,7 +2106,7 @@
            "lat": -6.07,
            "span": 0.1
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -2059,16 +2139,7 @@
            "lon": 112.0,
            "lat": -3.5,
            "span": 16.0
-          },
-          "places": [
-           {
-            "name": "Jakarta",
-            "lon": 106.8272,
-            "lat": -6.1754,
-            "kind": "capital",
-            "label": "Jakarta"
-           }
-          ]
+          }
          }
         ]
        }
@@ -2103,13 +2174,6 @@
            "span": 16.0
           },
           "places": [
-           {
-            "name": "Jakarta",
-            "lon": 106.8272,
-            "lat": -6.1754,
-            "kind": "capital",
-            "label": "Jakarta"
-           },
            {
             "name": "Nusantara",
             "lon": 116.6962,
@@ -2156,13 +2220,6 @@
             "lat": -0.9587,
             "kind": "capital",
             "label": "Nusantara: Garuda Palace"
-           },
-           {
-            "name": "Balikpapan",
-            "lon": 116.83,
-            "lat": -1.24,
-            "kind": "city",
-            "label": "Balikpapan"
            }
           ]
          }
@@ -2213,7 +2270,7 @@
             "label": "Jakarta"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -2226,16 +2283,16 @@
         "steps": [
          {
           "view": {
-           "lon": 106.772,
-           "lat": -6.106,
-           "span": 0.06
+           "lon": 116.73,
+           "lat": -0.93,
+           "span": 0.05
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2026-08-29/2026-08-29"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "North Jakarta"
+       "on_screen_text": "Nusantara"
       },
       {
        "type": "map",
@@ -2255,13 +2312,6 @@
             "lat": -0.9587,
             "kind": "capital",
             "label": "Nusantara: Garuda Palace"
-           },
-           {
-            "name": "Balikpapan",
-            "lon": 116.83,
-            "lat": -1.24,
-            "kind": "city",
-            "label": "Balikpapan"
            }
           ]
          }
@@ -2276,8 +2326,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.05
           },
           "date": "2026-08-29/2026-08-29"
@@ -2294,8 +2344,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.05
           },
           "date": "2026-08-29/2026-08-29"
@@ -2338,8 +2388,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.05
           },
           "date": "2026-08-29/2026-08-29"
@@ -2426,9 +2476,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.05
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
          }
@@ -2443,8 +2493,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.71,
+           "lat": -0.95,
            "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
@@ -2500,8 +2550,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
+           "lon": 116.69,
+           "lat": -0.975,
            "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
@@ -2518,8 +2568,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
@@ -2545,8 +2595,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
@@ -2589,8 +2639,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
@@ -2606,8 +2656,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.07
           },
           "date": "2026-08-29/2026-08-29"
@@ -2662,9 +2712,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.07
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
          }
@@ -2762,8 +2812,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.71,
+           "lat": -0.95,
            "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
@@ -2779,8 +2829,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
+           "lon": 116.69,
+           "lat": -0.975,
            "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
@@ -2797,8 +2847,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
@@ -2834,8 +2884,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
@@ -2920,8 +2970,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
@@ -2946,8 +2996,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.09
           },
           "date": "2026-08-29/2026-08-29"
@@ -3006,9 +3056,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.09
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.06
           },
           "date": "2026-08-29/2026-08-29"
          }
@@ -3040,8 +3090,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.06
           },
           "date": "2026-08-29/2026-08-29"
@@ -3089,8 +3139,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.06
           },
           "date": "2026-08-29/2026-08-29"
@@ -3102,24 +3152,6 @@
       {
        "type": "map",
        "at": 24,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 116.75,
-           "lat": -0.95,
-           "span": 0.06
-          },
-          "date": "2026-08-29/2026-08-29"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Nusantara"
-      },
-      {
-       "type": "map",
-       "at": 32,
        "map": {
         "steps": [
          {
@@ -3137,7 +3169,7 @@
       },
       {
        "type": "map",
-       "at": 40,
+       "at": 32,
        "map": {
         "steps": [
          {
@@ -3145,6 +3177,24 @@
            "lon": 116.72,
            "lat": -0.985,
            "span": 0.06
+          },
+          "date": "2026-08-29/2026-08-29"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nusantara"
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.71,
+           "lat": -0.95,
+           "span": 0.08
           },
           "date": "2026-08-29/2026-08-29"
          }
@@ -3215,7 +3265,7 @@
             "label": "Jakarta"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        }
@@ -3227,8 +3277,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
+           "lon": 116.69,
+           "lat": -0.975,
            "span": 0.08
           },
           "date": "2026-08-29/2026-08-29"
@@ -3245,8 +3295,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.69,
-           "lat": -0.975,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.08
           },
           "date": "2026-08-29/2026-08-29"
@@ -3285,11 +3335,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.82,
+           "lat": -6.11,
            "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -3307,7 +3357,7 @@
            "lat": -6.08,
            "span": 0.42
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -3320,11 +3370,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.808,
+           "lat": -6.095,
            "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -3445,16 +3495,7 @@
            "lon": 110.55,
            "lat": -6.7,
            "span": 7.5
-          },
-          "places": [
-           {
-            "name": "Demak",
-            "lon": 110.64,
-            "lat": -6.89,
-            "kind": "city",
-            "label": "Demak"
-           }
-          ]
+          }
          }
         ]
        }
@@ -3991,37 +4032,7 @@
            "lon": 110.55,
            "lat": -6.7,
            "span": 7.5
-          },
-          "places": [
-           {
-            "name": "Serang",
-            "lon": 106.15,
-            "lat": -6.12,
-            "kind": "city",
-            "label": "Serang"
-           },
-           {
-            "name": "Pekalongan",
-            "lon": 109.68,
-            "lat": -6.88,
-            "kind": "city",
-            "label": "Pekalongan"
-           },
-           {
-            "name": "Semarang",
-            "lon": 110.42,
-            "lat": -6.97,
-            "kind": "city",
-            "label": "Semarang"
-           },
-           {
-            "name": "Demak",
-            "lon": 110.64,
-            "lat": -6.89,
-            "kind": "city",
-            "label": "Demak"
-           }
-          ]
+          }
          }
         ]
        }
@@ -4054,23 +4065,7 @@
            "lon": 109.6,
            "lat": -6.95,
            "span": 2.8
-          },
-          "places": [
-           {
-            "name": "Pekalongan",
-            "lon": 109.68,
-            "lat": -6.88,
-            "kind": "city",
-            "label": "Pekalongan"
-           },
-           {
-            "name": "Semarang",
-            "lon": 110.42,
-            "lat": -6.97,
-            "kind": "city",
-            "label": "Semarang"
-           }
-          ]
+          }
          }
         ],
         "cut": true
@@ -4143,7 +4138,7 @@
             "label": "Jakarta"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -4159,30 +4154,7 @@
            "lon": 110.0,
            "lat": -6.85,
            "span": 2.4
-          },
-          "places": [
-           {
-            "name": "Pekalongan",
-            "lon": 109.68,
-            "lat": -6.88,
-            "kind": "city",
-            "label": "Pekalongan"
-           },
-           {
-            "name": "Semarang",
-            "lon": 110.42,
-            "lat": -6.97,
-            "kind": "city",
-            "label": "Semarang"
-           },
-           {
-            "name": "Demak",
-            "lon": 110.64,
-            "lat": -6.89,
-            "kind": "city",
-            "label": "Demak"
-           }
-          ]
+          }
          }
         ],
         "cut": true
@@ -4250,11 +4222,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.83,
+           "lat": -6.12,
            "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -4276,11 +4248,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.8,
-           "lat": -6.13,
-           "span": 0.06
+           "lon": 106.772,
+           "lat": -6.106,
+           "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ]
        },
@@ -4296,37 +4268,7 @@
            "lon": 107.85,
            "lat": -6.7,
            "span": 7.5
-          },
-          "places": [
-           {
-            "name": "Jakarta",
-            "lon": 106.8272,
-            "lat": -6.1754,
-            "kind": "capital",
-            "label": "Jakarta"
-           },
-           {
-            "name": "Pekalongan",
-            "lon": 109.68,
-            "lat": -6.88,
-            "kind": "city",
-            "label": "Pekalongan"
-           },
-           {
-            "name": "Semarang",
-            "lon": 110.42,
-            "lat": -6.97,
-            "kind": "city",
-            "label": "Semarang"
-           },
-           {
-            "name": "Demak",
-            "lon": 110.64,
-            "lat": -6.89,
-            "kind": "city",
-            "label": "Demak"
-           }
-          ]
+          }
          }
         ],
         "cut": true
@@ -4618,22 +4560,6 @@
              ]
             ]
            }
-          ],
-          "places": [
-           {
-            "name": "Serang",
-            "lon": 106.15,
-            "lat": -6.12,
-            "kind": "city",
-            "label": "Serang"
-           },
-           {
-            "name": "Gresik",
-            "lon": 112.65,
-            "lat": -7.16,
-            "kind": "city",
-            "label": "Gresik"
-           }
           ]
          }
         ]
@@ -4717,16 +4643,7 @@
            "lon": 109.032,
            "lat": -6.75,
            "span": 2.4
-          },
-          "places": [
-           {
-            "name": "Pekalongan",
-            "lon": 109.68,
-            "lat": -6.88,
-            "kind": "city",
-            "label": "Pekalongan"
-           }
-          ]
+          }
          }
         ]
        }
@@ -4805,7 +4722,7 @@
             "label": "Jakarta"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -4818,11 +4735,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.82,
-           "lat": -6.11,
-           "span": 0.06
+           "lon": 106.786,
+           "lat": -6.106,
+           "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -4836,11 +4753,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.808,
-           "lat": -6.095,
-           "span": 0.06
+           "lon": 106.805,
+           "lat": -6.103,
+           "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -4863,7 +4780,7 @@
            "lat": -6.07,
            "span": 0.5
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -4876,11 +4793,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.83,
-           "lat": -6.12,
-           "span": 0.06
+           "lon": 106.811,
+           "lat": -6.124,
+           "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -4907,7 +4824,7 @@
            "lat": -6.06,
            "span": 0.1
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5034,7 +4951,7 @@
             "label": "Muara Angke"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5180,7 +5097,7 @@
             "label": "Muara Baru"
            }
           ],
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5193,11 +5110,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.772,
-           "lat": -6.106,
+           "lon": 106.795,
+           "lat": -6.115,
            "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5215,7 +5132,7 @@
            "lat": -6.14,
            "span": 0.1
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5241,7 +5158,7 @@
            "lat": -6.12,
            "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5269,7 +5186,7 @@
            "lat": -6.104,
            "span": 0.045
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5488,7 +5405,7 @@
            "lat": -6.115,
            "span": 0.06
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5556,13 +5473,6 @@
           },
           "places": [
            {
-            "name": "Jakarta",
-            "lon": 106.8272,
-            "lat": -6.1754,
-            "kind": "capital",
-            "label": "Jakarta"
-           },
-           {
             "name": "Timbulsloko",
             "lon": 110.518,
             "lat": -6.914,
@@ -5582,11 +5492,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.786,
-           "lat": -6.106,
+           "lon": 106.8,
+           "lat": -6.13,
            "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5600,11 +5510,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.805,
-           "lat": -6.103,
+           "lon": 106.82,
+           "lat": -6.11,
            "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true
@@ -5618,11 +5528,11 @@
         "steps": [
          {
           "view": {
-           "lon": 106.811,
-           "lat": -6.124,
+           "lon": 106.808,
+           "lat": -6.095,
            "span": 0.08
           },
-          "date": "2026-08-08/2026-08-08"
+          "date": "2025-08-26/2025-08-26"
          }
         ],
         "cut": true

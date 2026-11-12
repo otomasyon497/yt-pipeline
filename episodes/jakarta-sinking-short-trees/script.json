@@ -198,7 +198,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "About 575 km"
+       "on_screen_text": "~575 km"
       },
       {
        "type": "map",
@@ -208,10 +208,9 @@
          {
           "view": {
            "lon": 110.3,
-           "lat": -6.85,
-           "span": 1.2
-          },
-          "date": "2026-06-01/2026-10-31"
+           "lat": -6.95,
+           "span": 2.6
+          }
          }
         ],
         "cut": true

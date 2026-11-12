@@ -4,114 +4,114 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 
 | # | Where | Kind | Claim | Source | Status |
 |---|---|---|---|---|---|
-| 1 | c01p01 | narration | In 2016, the United States government paid, for the first time, to move a whole community away from the sea. | | |
-| 2 | c01p02 | narration | This is the island from orbit in 1985. | | |
-| 3 | c01p02 | narration | And this is the same place this October. | | |
-| 4 | c01p02 | narration | By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. | | |
-| 5 | c01p02 | narration | In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. | | |
-| 6 | c01p02 | narration | Nearly half is gone. | | |
-| 7 | c01p02 | stat card | 22,000 -> 320 acres: Land around Isle de Jean Charles, by the state's count | Louisiana Office of Community Development | |
-| 8 | c01p02 | stat card | -45%: Land and marsh above water in a box around the island, 1985 -> 2026 (About 3,300 ha -> 1,800 ha) | Our measurement, Landsat 5, 8 and 9 | |
-| 9 | c01p03 | narration | Thirty-seven families took the deal and moved about forty miles inland, to a new subdivision built for them in the sugar-cane fields. | | |
-| 10 | c01p03 | narration | One of them, Amy Handon, told The New York Times this year what she would say to the next town offered the same thing. | | |
-| 11 | c01p04 | narration | I never expected that relocation was going to happen in my lifetime, he told Floodlight last year. | | |
-| 12 | c01p06 | narration | Louisiana has lost about two thousand square miles of land since 1932, nearly the size of Delaware. | | |
-| 13 | c01p06 | narration | In 2025 it cancelled that plan. | | |
-| 14 | c01p06 | stat card | 2,006 sq mi: Coastal Louisiana land lost, 1932-2016 (about a quarter of it) | USGS, Couvillion et al., SIM 3381, 2017 | |
-| 15 | c02p01 | narration | Here, on the west bank of the Mississippi below New Orleans, the state was building a gate in the levee, three hundred feet wide. | | |
-| 16 | c02p02 | narration | The state's own models said it would build about twenty square miles of land over fifty years. | | |
-| 17 | c02p02 | narration | Critics said far less. | | |
-| 18 | c02p02 | narration | Our own images show how much it needs it: in a box over the bay, sixteen percent less land and marsh than in 1990, and that box includes the river and its leveed banks, which do not change. | | |
-| 19 | c02p02 | stat card | ~20 sq mi: Land the diversion was modelled to build in 50 years (critics: far less) | WWNO / Louisiana Illuminator, Jul 18, 2025 | |
-| 20 | c02p02 | stat card | -16%: Land and marsh in a box over Barataria Bay, 1990 -> 2026 | Our measurement, Landsat 5, 8 and 9 | |
-| 21 | c02p03 | narration | Construction began in 2023. | | |
-| 22 | c02p03 | narration | The price rose to nearly three billion dollars, most of it from the settlement over the 2010 Deepwater Horizon oil spill. | | |
-| 23 | c02p04 | narration | Governor Jeff Landry said its damage to the fisheries would break our culture. | | |
-| 24 | c02p05 | narration | Four hundred million dollars had been set aside to soften the damage to the fisheries. | | |
-| 25 | c02p05 | narration | In April 2025 the state's coastal chairman paused the work, and weeks later the Army Corps suspended a permit. | | |
-| 26 | c02p05 | stat card | $400 million: Set aside to soften Mid-Barataria's impact on fisheries | WWNO / Louisiana Illuminator, Jul 18, 2025 | |
-| 27 | c02p06 | narration | On July 17, 2025, the state ended it. | | |
-| 28 | c02p06 | narration | The authority's chairman, Gordon Dove, said they had made the difficult decision to terminate the Mid-Barataria project. | | |
-| 29 | c02p06 | narration | Six hundred and eighteen million dollars had already been spent. | | |
-| 30 | c02p06 | stat card | $618.5 million: Already spent on Mid-Barataria when it was cancelled | Coastal Protection and Restoration Authority, Jul 17, 2025 | |
-| 31 | c02p07 | narration | We killed the beast that was going to kill us, he said, and that's the best. | | |
-| 32 | c02p08 | narration | The need has not changed, he said. | | |
-| 33 | c02p08 | narration | There's only one thing that has changed, and that is the political landscape. | | |
-| 34 | c02p09 | narration | An engineer who worked on it, Kristi Trail, told the American Society of Civil Engineers: The what went wrong is purely politics. | | |
-| 35 | c02p10 | narration | Three months later its sister project on the east bank, Mid-Breton, was cancelled too. | | |
-| 36 | c03p02 | narration | After the great flood of 1927, the river was walled in by levees. | | |
-| 37 | c03p03 | narration | In 2013, NOAA's chart office retired thirty-one place names in Plaquemines Parish, bays and bayous that no longer existed. | | |
-| 38 | c03p04 | narration | One study counted more than thirty-five thousand wells on land in coastal Louisiana. | | |
-| 39 | c03p04 | stat card | 35,000+: Oil and gas wells on land in coastal Louisiana | Turner & McClenachan, 2018 | |
-| 40 | c03p05 | narration | In one basin, Barataria, a 2023 study blamed about forty percent of the loss on the levees, about forty percent on oil and gas extraction, and about twenty percent on dams. | | |
-| 41 | c03p05 | chart | What drove land loss in the Barataria Basin: Levees 40, Oil and gas extraction 40, Dams 20 | Edmonds et al., Nature Sustainability, 2023 (via LSU) | |
-| 42 | c03p06 | narration | A study of two hundred and seventy-four marsh sites found the water rising against the land by about twelve millimetres a year on average, several times the global rise of the sea. | | |
-| 43 | c03p06 | stat card | ~12 mm a year: Water rising against the land, average of 274 marsh sites | Jankowski, Tornqvist & Fernandes, Nature Communications, 2017 | |
-| 44 | c03p07 | on screen | Grand Isle, five weeks after Hurricane Ida, 2021 | | |
-| 45 | c03p08 | narration | A 2026 study from Louisiana State University found that most of the marsh is not simply drowning. | | |
-| 46 | c03p08 | narration | About eighty-two percent of it is being eaten away at the edges, by waves. | | |
-| 47 | c03p08 | narration | Much of the loss we see, one of the authors said, has been driven by human activity. | | |
-| 48 | c03p08 | stat card | ~82%: Of persistent marsh loss comes from edge erosion, not drowning | Wilson, Quirk et al., Nature Communications, Apr 2026 | |
-| 49 | c03p09 | narration | Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. | | |
-| 50 | c03p09 | narration | At the worst, a football field of land every thirty-four minutes. | | |
-| 51 | c03p09 | narration | More recently, through 2016, one every hundred minutes. | | |
-| 52 | c03p09 | chart | Louisiana land loss: one football field every...: At the peak 34, 2010s 100 | USGS, Couvillion et al., SIM 3381, 2017 | |
-| 53 | c03p10 | narration | The USGS scientist behind that count, Brady Couvillion, warned in 2017 that the slowdown came in years without a major hurricane. | | |
-| 54 | c03p10 | narration | The most recent observations are promising, he said, but it is not clear that they will persist. | | |
-| 55 | c03p10 | narration | Since then, three hurricanes have hit this coast. | | |
-| 56 | c04p01 | narration | Its people, members of the Jean Charles Choctaw Nation, have lived here since about 1840. | | |
-| 57 | c04p01 | narration | The road to the island was built across the marsh in the 1950s. | | |
-| 58 | c04p02 | narration | When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish around 2000, the island was left outside it. | | |
-| 59 | c04p02 | narration | Protecting it, the Corps found, would cost more than moving everyone. | | |
-| 60 | c04p04 | narration | In January 2016, the Department of Housing and Urban Development awarded Louisiana ninety-two million dollars, forty-eight million of it to resettle the island. | | |
-| 61 | c04p04 | narration | The state bought five hundred and fifteen acres of farmland near Schriever for eleven point seven million. | | |
-| 62 | c04p04 | stat card | $48.3 million: Federal money to resettle Isle de Jean Charles (of $92.6M, Jan 2016) | HUD; Louisiana Office of Community Development | |
-| 63 | c04p05 | narration | If everything on the coast was built like this, he said in 2022, everyone would be home right now. | | |
-| 64 | c04p06 | narration | Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. | | |
-| 65 | c04p06 | narration | The grant went to the state, which opened it to every island resident, and families began moving in August 2022. | | |
-| 66 | c04p06 | narration | Forty-two households were eligible. | | |
-| 67 | c04p06 | narration | Thirty-seven took part. | | |
-| 68 | c04p07 | narration | The new houses had problems, residents told Floodlight: leaking doors, missing insulation. | | |
-| 69 | c04p07 | narration | We should not have this many complaints, one of them, Kristi Naquin, said. | | |
-| 70 | c04p08 | narration | The tribe filed a civil-rights complaint with HUD, and withdrew it in January 2026, citing cuts to the department's civil-rights enforcement. | | |
-| 71 | c04p08 | narration | Its decision to withdraw, it said, does not reflect on the validity of its allegations. | | |
-| 72 | c04p09 | narration | Chris Brunet is one of them. | | |
-| 73 | c04p09 | narration | There's less land, he said, and more water. | | |
-| 74 | c05p01 | narration | Highway 23 follows the Mississippi south from New Orleans for seventy-two miles, to Venice, the last town you can drive to on the river. | | |
-| 75 | c05p02 | narration | This is it in 1985. | | |
-| 76 | c05p02 | narration | And this is it this October. | | |
-| 77 | c05p03 | narration | The old Pass a Loutre lighthouse, built in 1855, stood about a mile inland twenty-five years ago, InvestigateTV reported this month. | | |
-| 78 | c05p03 | narration | Now it stands several hundred feet offshore. | | |
-| 79 | c05p03 | narration | The state wants to spend a hundred and seventy-six million dollars of oil-spill money to dredge the pass and feed the marsh again. | | |
-| 80 | c05p03 | stat card | $176 million: Planned Bird's Foot Delta restoration, still waiting for permits | InvestigateTV, Nov 10, 2026 | |
-| 81 | c05p04 | narration | We don't have a delta like this anywhere else in North America, he said. | | |
-| 82 | c05p05 | narration | Then, in 2019, the river showed what it can still do. | | |
-| 83 | c05p05 | narration | The new channel, Neptune Pass, took a large share of the river's flow at high water and began building a small delta of its own: about six million cubic yards of new sediment between 2019 and 2022, The Lens reported. | | |
-| 84 | c05p06 | narration | Alex Kolker, a scientist who studies it, said: I think we would all prefer a Louisiana with more land instead of less, but no one wants to see a barge run aground. | | |
-| 85 | c05p07 | narration | In 2025 a jury ordered Chevron to pay seven hundred and forty-four point six million dollars. | | |
-| 86 | c05p07 | narration | In April 2026 the US Supreme Court sent the case to federal court, where it starts again. | | |
-| 87 | c05p07 | stat card | $744.6 million: Jury award against Chevron, Plaquemines Parish, 2025 | Gray DC; Louisiana Illuminator, Apr 2026 | |
-| 88 | c06p01 | narration | Louisiana's attorney general, Liz Murrill, said it doesn't matter whether the case is in state court or federal court. | | |
-| 89 | c06p01 | narration | Chevron said it looks forward to litigating these cases in federal court, where they belong. | | |
-| 90 | c06p02 | narration | West of the river, Louisiana Highway 1 runs down Bayou Lafourche to Port Fourchon, the base that supplies many of the oil platforms in the Gulf. | | |
-| 91 | c06p02 | narration | The port says it serves about ninety percent of the deepwater rigs. | | |
-| 92 | c06p02 | stat card | ~90%: Gulf deepwater rigs served from Port Fourchon (the port's count) | Port Fourchon | |
-| 93 | c06p03 | narration | The second stretch, about eight miles from Golden Meadow to Leeville, costs about four hundred and sixty-three million dollars and is due at the end of 2027. | | |
-| 94 | c06p03 | stat card | $463 million: LA-1 lifted, Golden Meadow to Leeville (~8 mi), due end-2027 | Louisiana DOTD, via press | |
-| 95 | c06p04 | narration | On August 29, 2021, Hurricane Ida came ashore near Port Fourchon with winds of a hundred and fifty miles an hour. | | |
-| 96 | c06p04 | on screen | Grand Isle, October 2021 | | |
-| 97 | c06p05 | narration | In January 2023 its crews were still at work. | | |
-| 98 | c06p05 | on screen | Levee repair on Grand Isle, January 2023 | | |
-| 99 | c07p01 | narration | There is one place where Louisiana's coast is growing. | | |
-| 100 | c07p01 | narration | Here, at the mouth of the Atchafalaya River, a third of the Mississippi's water reaches the sea through a side channel, and it still carries its mud. | | |
-| 101 | c07p02 | narration | This is the Wax Lake and Atchafalaya deltas in 1984. | | |
-| 102 | c07p02 | narration | And this is this October. | | |
-| 103 | c07p02 | narration | New land first rose above the water here in 1973, after a great flood. | | |
-| 104 | c07p02 | narration | Since 1985 the two deltas have gained about eleven and a half thousand hectares, about a hundred and fifteen square kilometres. | | |
-| 105 | c07p02 | on screen | Wax Lake Outlet, 2016 | | |
-| 106 | c07p02 | stat card | +115 km²: Land gained by the Wax Lake and Atchafalaya deltas, 1985 -> 2026 (About 11,500 ha) | Our measurement, Landsat 5, 8 and 9 | |
-| 107 | c07p03 | on screen | Planting marsh grass, Port Sulphur, 2021 | | |
-| 108 | c08p01 | narration | In April 2026, Louisiana adopted a one-point-five-billion-dollar coastal plan for the year, with a hundred and forty-three projects: rebuilt barrier islands, marsh, levees. | | |
-| 109 | c08p01 | narration | The next fifty-year master plan is due in 2029. | | |
-| 110 | c08p01 | narration | In a document from April, the state says the flood-risk numbers it uses for that plan still include the two diversions it cancelled. | | |
-| 111 | c08p01 | stat card | $1.54 billion: Louisiana coastal plan for fiscal 2027, 143 projects | Coastal Protection and Restoration Authority, Apr 27, 2026 | |
+| 1 | c01p01 | narration | In 2016, the United States government paid, for the first time, to move a whole community away from the sea. | research ch.4 (HUD NDRC 21 Jan 2016, A); 'first' = widely reported framing, no source in files | attributed |
+| 2 | c01p02 | narration | This is the island from orbit in 1985. | no factual claim (Landsat 5 Oct-Nov 1985, CMP_IJC) | verified |
+| 3 | c01p02 | narration | And this is the same place this October. | no factual claim (Landsat 8/9, 11-27 Oct 2026; own: landloss.json) | verified |
+| 4 | c01p02 | narration | By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. | research ch.1 / verification §6: OCD program page (>22,000 -> 320 acres) | verified |
+| 5 | c01p02 | narration | In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. | own: landloss.json Isle de Jean Charles 1985 3,295.7 ha -> 2026 1,823.4 ha | own |
+| 6 | c01p02 | narration | Nearly half is gone. | own: landloss.json -44.7 % | own |
+| 7 | c01p02 | stat card | 22,000 -> 320 acres: Land around Isle de Jean Charles, by the state's count | on screen: Louisiana Office of Community Development; research ch.1: OCD page https://locd.la.gov/programs/isle-de-jean-charles-resettlement-project | verified |
+| 8 | c01p02 | stat card | -45%: Land and marsh above water in a box around the island, 1985 -> 2026 (About 3,300 ha -> 1,800 ha) | on screen: Our measurement, Landsat 5, 8 and 9; own: landloss.json -44.7 % (3,295.7 -> 1,823.4 ha); L5 1984-85, L8/L9 2026 | own |
+| 9 | c01p03 | narration | Thirty-seven families took the deal and moved about forty miles inland, to a new subdivision built for them in the sugar-cane fields. | research ch.4 (OCD V: 37 families, 515 acres farmland); Floodlight V (~40 miles); 'sugar-cane' = former sugarcane farm (Reuters/AP via search, not in files) | verified |
+| 10 | c01p03 | narration | One of them, Amy Handon, told The New York Times this year what she would say to the next town offered the same thing. | verification §1: NYT 18 May 2026, Scott Dance (read via San Juan Daily Star reprint, A); script names NYT | attributed |
+| 11 | c01p04 | narration | I never expected that relocation was going to happen in my lifetime, he told Floodlight last year. | research ch.1: Floodlight / Inside Climate News 28 Sep 2025 (Chris Brunet), wording matches | verified |
+| 12 | c01p06 | narration | Louisiana has lost about two thousand square miles of land since 1932, nearly the size of Delaware. | research ch.3: USGS SIM 3381 (2,006 sq mi, 1932-2016); Delaware 2,489 sq mi total area (general knowledge) | verified |
+| 13 | c01p06 | narration | In 2025 it cancelled that plan. | research ch.2: CPRA release 17 Jul 2025 | verified |
+| 14 | c01p06 | stat card | 2,006 sq mi: Coastal Louisiana land lost, 1932-2016 (about a quarter of it) | on screen: USGS, Couvillion et al., SIM 3381, 2017; research ch.3: USGS SIM 3381 / USGS release 12 Jul 2017 (2,006 +/- 171 sq mi, ~25 %) | verified |
+| 15 | c02p01 | narration | Here, on the west bank of the Mississippi below New Orleans, the state was building a gate in the levee, three hundred feet wide. | research ch.2: ASCE 24 Sep 2026 (intake 300 ft wide); CPRA (west bank, Plaquemines) | verified |
+| 16 | c02p02 | narration | The state's own models said it would build about twenty square miles of land over fifty years. | verification §10: WWNO 18 Jul 2025 'nearly 20 sq mi / 50 yr'; LA TIG plan (NOAA 21 Sep 2022) >13,000 acres | verified |
+| 17 | c02p02 | narration | Critics said far less. | verification §10: The Lens 13 May 2025 (FTN 2022: as few as 7 sq mi) | verified |
+| 18 | c02p02 | narration | Our own images show how much it needs it: in a box over the bay, sixteen percent less land and marsh than in 1990, and that box includes the river and its leveed banks, which do not change. | own: landloss.json Barataria base 1990 32,747 ha -> 2026 27,499.8 ha = -16.0 % (1985 composite weak: 1 day 57 % clear, hence 1990 base) | own |
+| 19 | c02p02 | stat card | ~20 sq mi: Land the diversion was modelled to build in 50 years (critics: far less) | on screen: WWNO / Louisiana Illuminator, Jul 18, 2025; verification §10 / research ch.2: WWNO 18 Jul 2025 ('nearly 20'); 'critics' from The Lens 13 May 2025 | verified |
+| 20 | c02p02 | stat card | -16%: Land and marsh in a box over Barataria Bay, 1990 -> 2026 | on screen: Our measurement, Landsat 5, 8 and 9; own: landloss.json Barataria -16.0 % (1990 -> 2026) | own |
+| 21 | c02p03 | narration | Construction began in 2023. | research ch.2: WWNO 18 Jul 2025; ASCE (Aug 2023) | verified |
+| 22 | c02p03 | narration | The price rose to nearly three billion dollars, most of it from the settlement over the 2010 Deepwater Horizon oil spill. | research ch.2: WWNO 18 Jul 2025 ('nearly $3 B', Deepwater Horizon settlement money) | verified |
+| 23 | c02p04 | narration | Governor Jeff Landry said its damage to the fisheries would break our culture. | research ch.2: WWNO 18 Jul 2025 (Landry: would 'break our culture') | verified |
+| 24 | c02p05 | narration | Four hundred million dollars had been set aside to soften the damage to the fisheries. | research ch.2: WWNO 18 Jul 2025 ($400 M mitigation) | verified |
+| 25 | c02p05 | narration | In April 2025 the state's coastal chairman paused the work, and weeks later the Army Corps suspended a permit. | research ch.2: WWNO 18 Jul 2025 (April 2025 pause; Corps permit suspension weeks later) | verified |
+| 26 | c02p05 | stat card | $400 million: Set aside to soften Mid-Barataria's impact on fisheries | on screen: WWNO / Louisiana Illuminator, Jul 18, 2025; research ch.2: WWNO 18 Jul 2025 | verified |
+| 27 | c02p06 | narration | On July 17, 2025, the state ended it. | research ch.2: CPRA release 17 Jul 2025 | verified |
+| 28 | c02p06 | narration | The authority's chairman, Gordon Dove, said they had made the difficult decision to terminate the Mid-Barataria project. | research ch.2: CPRA release 17 Jul 2025 ('we've made the difficult decision to terminate the Mid-Barataria project') | verified |
+| 29 | c02p06 | narration | Six hundred and eighteen million dollars had already been spent. | research ch.2: CPRA 17 Jul 2025 ($618.52 M) | verified |
+| 30 | c02p06 | stat card | $618.5 million: Already spent on Mid-Barataria when it was cancelled | on screen: Coastal Protection and Restoration Authority, Jul 17, 2025; research ch.2: CPRA 17 Jul 2025 ($618.52 M) | verified |
+| 31 | c02p07 | narration | We killed the beast that was going to kill us, he said, and that's the best. | research ch.2: WWNO 18 Jul 2025 (Jurisich, wording matches) | verified |
+| 32 | c02p08 | narration | The need has not changed, he said. | research ch.2: WWNO 18 Jul 2025 (Karst) | verified |
+| 33 | c02p08 | narration | There's only one thing that has changed, and that is the political landscape. | research ch.2: WWNO 18 Jul 2025 (Karst, wording matches) | verified |
+| 34 | c02p09 | narration | An engineer who worked on it, Kristi Trail, told the American Society of Civil Engineers: The what went wrong is purely politics. | research ch.2: ASCE 24 Sep 2026 (quote V); 'who worked on it' not in files - ASCE names her P.E., executive director of Pontchartrain Conservancy | FIX |
+| 35 | c02p10 | narration | Three months later its sister project on the east bank, Mid-Breton, was cancelled too. | verification §3: WAFB/WVUE 8 Oct 2025 (permit applications withdrawn) | verified |
+| 36 | c03p02 | narration | After the great flood of 1927, the river was walled in by levees. | research ch.3 (InvestigateTV 3 Nov 2026, A); general knowledge (1927 flood, Flood Control Act 1928) | verified |
+| 37 | c03p03 | narration | In 2013, NOAA's chart office retired thirty-one place names in Plaquemines Parish, bays and bayous that no longer existed. | research ch.3: Grist/geogarage 2014 (A); NOAA blog not read; script names NOAA as the actor | attributed |
+| 38 | c03p04 | narration | One study counted more than thirty-five thousand wells on land in coastal Louisiana. | research ch.3: Turner & McClenachan 2018 (35,163 on land, A via search); 'one study', card names it | attributed |
+| 39 | c03p04 | stat card | 35,000+: Oil and gas wells on land in coastal Louisiana | on screen: Turner & McClenachan, 2018; research ch.3: Turner & McClenachan 2018 (A); card names the study | attributed |
+| 40 | c03p05 | narration | In one basin, Barataria, a 2023 study blamed about forty percent of the loss on the levees, about forty percent on oil and gas extraction, and about twenty percent on dams. | research ch.3: LSU release 6 Mar 2023 (Edmonds et al. 2023: 40/40/20, Barataria) | verified |
+| 41 | c03p05 | chart | What drove land loss in the Barataria Basin: Levees 40, Oil and gas extraction 40, Dams 20 | on screen: Edmonds et al., Nature Sustainability, 2023 (via LSU); research ch.3: LSU release 6 Mar 2023 | verified |
+| 42 | c03p06 | narration | A study of two hundred and seventy-four marsh sites found the water rising against the land by about twelve millimetres a year on average, several times the global rise of the sea. | research ch.3: Jankowski et al. 2017 PMC5355890 (274 sites, 12.0 mm/yr); global ~3.3-4.5 mm/yr (general knowledge) | verified |
+| 43 | c03p06 | stat card | ~12 mm a year: Water rising against the land, average of 274 marsh sites | on screen: Jankowski, Tornqvist & Fernandes, Nature Communications, 2017; research ch.3: Jankowski et al. 2017 PMC5355890 | verified |
+| 44 | c03p07 | on screen | Grand Isle, five weeks after Hurricane Ida, 2021 | research photos: File:Grand Isle - 10-6-21 (Louisiana Sea Grant, 6 Oct 2021 = 5.4 weeks after 29 Aug) | verified |
+| 45 | c03p08 | narration | A 2026 study from Louisiana State University found that most of the marsh is not simply drowning. | research ch.3: LSU 10 Apr 2026 (Wilson, Quirk); finding is about SITES WITH PERSISTENT LOSS, not 'most of the marsh' | FIX |
+| 46 | c03p08 | narration | About eighty-two percent of it is being eaten away at the edges, by waves. | LSU page re-read 2026-11-12: 'roughly 82% [of sites with persistent loss] are losing land through lateral edge erosion'; not 82 % of the marsh; waves not named | FIX |
+| 47 | c03p08 | narration | Much of the loss we see, one of the authors said, has been driven by human activity. | research ch.3: LSU 10 Apr 2026 (Quirk; middle clause dropped, meaning kept) | verified |
+| 48 | c03p08 | stat card | ~82%: Of persistent marsh loss comes from edge erosion, not drowning | on screen: Wilson, Quirk et al., Nature Communications, Apr 2026; LSU page: 82 % / 10 % are shares of sites with persistent loss, not of the loss itself | FIX |
+| 49 | c03p09 | narration | Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. | research ch.3: USGS SIM 3381 | verified |
+| 50 | c03p09 | narration | At the worst, a football field of land every thirty-four minutes. | research ch.3 / verification §9: USGS release 12 Jul 2017 (34 min at the peak) | verified |
+| 51 | c03p09 | narration | More recently, through 2016, one every hundred minutes. | verification §9: USGS 12 Jul 2017 (100 min, 2010-2016) | verified |
+| 52 | c03p09 | chart | Louisiana land loss: one football field every...: At the peak 34, 2010s 100 | on screen: USGS, Couvillion et al., SIM 3381, 2017; verification §9: USGS 12 Jul 2017 - rate is 2010-2016; label '2010s' covers years without data | FIX |
+| 53 | c03p10 | narration | The USGS scientist behind that count, Brady Couvillion, warned in 2017 that the slowdown came in years without a major hurricane. | research ch.3: USGS release 12 Jul 2017 (Couvillion: lack of a major hurricane since 2008) | verified |
+| 54 | c03p10 | narration | The most recent observations are promising, he said, but it is not clear that they will persist. | research ch.3: USGS release 12 Jul 2017 (wording matches) | verified |
+| 55 | c03p10 | narration | Since then, three hurricanes have hit this coast. | general knowledge: since 2017 Louisiana landfalls Nate 2017, Barry 2019, Laura, Delta, Zeta 2020, Ida 2021, Francine 2024; major (Cat 3+) = Laura, Zeta, Ida | FIX |
+| 56 | c04p01 | narration | Its people, members of the Jean Charles Choctaw Nation, have lived here since about 1840. | research ch.4: Columbia/CPI via Civil Beat 18 Aug 2022 (~1840); verification §6 (state tribal list) | verified |
+| 57 | c04p01 | narration | The road to the island was built across the marsh in the 1950s. | verification §6: isledejeancharles.com/island (road 1953) | verified |
+| 58 | c04p02 | narration | When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish around 2000, the island was left outside it. | research ch.4: Columbia/CPI 2022 (98-mile Morganza levee, early 2000s); verification §6 (tribe: 1998) -> 'around 2000' | verified |
+| 59 | c04p02 | narration | Protecting it, the Corps found, would cost more than moving everyone. | research ch.4: Columbia/CPI 2022 (~$100 M, more than moving everyone) | verified |
+| 60 | c04p04 | narration | In January 2016, the Department of Housing and Urban Development awarded Louisiana ninety-two million dollars, forty-eight million of it to resettle the island. | research ch.4: HUD NDRC 21 Jan 2016 $92,629,249 (A, Rockefeller reprint), $48.3 M (OCD V); 92.63 said as 'ninety-two million' | FIX |
+| 61 | c04p04 | narration | The state bought five hundred and fifteen acres of farmland near Schriever for eleven point seven million. | research ch.4: OCD page (515 acres, $11.7 M, near Schriever) | verified |
+| 62 | c04p04 | stat card | $48.3 million: Federal money to resettle Isle de Jean Charles (of $92.6M, Jan 2016) | on screen: HUD; Louisiana Office of Community Development; research ch.4: OCD ($48.3 M); HUD NDRC $92,629,249 (A, general knowledge) | verified |
+| 63 | c04p05 | narration | If everything on the coast was built like this, he said in 2022, everyone would be home right now. | research ch.4: WWNO 17 Feb 2022 (Forbes, wording matches) | verified |
+| 64 | c04p06 | narration | Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. | research ch.4: Columbia/CPI 2022 (15 hurricanes + 2 flood disasters, 1992-2021) | verified |
+| 65 | c04p06 | narration | The grant went to the state, which opened it to every island resident, and families began moving in August 2022. | research ch.4: Columbia/CPI 2022 (grant via state, eligibility widened); OCD (move-in Aug 2022) | verified |
+| 66 | c04p06 | narration | Forty-two households were eligible. | research ch.4: WWNO 17 Feb 2022 (42 eligible) | verified |
+| 67 | c04p06 | narration | Thirty-seven took part. | research ch.4: WWNO 17 Feb 2022 (37 took part); OCD (37) | verified |
+| 68 | c04p07 | narration | The new houses had problems, residents told Floodlight: leaking doors, missing insulation. | research ch.1: Floodlight / ICN 28 Sep 2025 (leaking doors, missing insulation) | verified |
+| 69 | c04p07 | narration | We should not have this many complaints, one of them, Kristi Naquin, said. | research ch.1: Floodlight / ICN 28 Sep 2025 (Kristi Naquin, wording matches) | verified |
+| 70 | c04p08 | narration | The tribe filed a civil-rights complaint with HUD, and withdrew it in January 2026, citing cuts to the department's civil-rights enforcement. | research ch.4: EarthRights 18 May 2026 (Title VI complaint, withdrawn Jan 2026, HUD enforcement cuts) | verified |
+| 71 | c04p08 | narration | Its decision to withdraw, it said, does not reflect on the validity of its allegations. | research ch.4: EarthRights 18 May 2026 (reported speech of the quote) | verified |
+| 72 | c04p09 | narration | Chris Brunet is one of them. | research human stories: Columbia/CPI 2022, Floodlight 2025 (Brunet stayed) | verified |
+| 73 | c04p09 | narration | There's less land, he said, and more water. | research ch.4: Columbia/CPI 2022 (wording matches) | verified |
+| 74 | c05p01 | narration | Highway 23 follows the Mississippi south from New Orleans for seventy-two miles, to Venice, the last town you can drive to on the river. | research ch.5: LA-23 71.78 mi Gretna-Venice, last town by car (Wikipedia, A); general knowledge | verified |
+| 75 | c05p02 | narration | This is it in 1985. | no factual claim (Landsat Oct-Nov 1985, CMP_BIRDSFOOT) | verified |
+| 76 | c05p02 | narration | And this is it this October. | no factual claim (Oct 2026 window) | verified |
+| 77 | c05p03 | narration | The old Pass a Loutre lighthouse, built in 1855, stood about a mile inland twenty-five years ago, InvestigateTV reported this month. | research ch.5: InvestigateTV 10 Nov 2026 (named in line); verification §8: light built 1852, first lit 1855 (Wikipedia/Lighthouse Friends) | FIX |
+| 78 | c05p03 | narration | Now it stands several hundred feet offshore. | research ch.5: InvestigateTV 10 Nov 2026 (named in the previous sentence) | attributed |
+| 79 | c05p03 | narration | The state wants to spend a hundred and seventy-six million dollars of oil-spill money to dredge the pass and feed the marsh again. | research ch.5: InvestigateTV 10 Nov 2026 (WWSB copy, V): $176 M oil-spill money, dredge Pass-a-Loutre | verified |
+| 80 | c05p03 | stat card | $176 million: Planned Bird's Foot Delta restoration, still waiting for permits | on screen: InvestigateTV, Nov 10, 2026; research ch.5: InvestigateTV 10 Nov 2026 | verified |
+| 81 | c05p04 | narration | We don't have a delta like this anywhere else in North America, he said. | research ch.5: InvestigateTV 10 Nov 2026 (Todd Baker, CPRA, wording matches) | verified |
+| 82 | c05p05 | narration | Then, in 2019, the river showed what it can still do. | research ch.5: The Lens 13 May 2025 (2019 floods) | verified |
+| 83 | c05p05 | narration | The new channel, Neptune Pass, took a large share of the river's flow at high water and began building a small delta of its own: about six million cubic yards of new sediment between 2019 and 2022, The Lens reported. | research ch.5: The Lens 13 May 2025 (15-17 % of flow at high water, ~6 M cu yd 2019-2022), named in line | verified |
+| 84 | c05p06 | narration | Alex Kolker, a scientist who studies it, said: I think we would all prefer a Louisiana with more land instead of less, but no one wants to see a barge run aground. | research ch.5: The Lens 13 May 2025 (Kolker, LUMCON, wording matches) | verified |
+| 85 | c05p07 | narration | In 2025 a jury ordered Chevron to pay seven hundred and forty-four point six million dollars. | verification §5: 4 Apr 2025 Plaquemines jury $744.6 M (AP/Fortune, A); general knowledge https://fortune.com/2025/04/04/chevron-louisiana-coastal-wetlands-pollution-court-ruling-damages/ | verified |
+| 86 | c05p07 | narration | In April 2026 the US Supreme Court sent the case to federal court, where it starts again. | verification §5: slip opinion 24-813 (17 Apr 2026) 'vacated and remanded'; no merits/verdict ruling; 'starts again' only law-firm commentary (A) | FIX |
+| 87 | c05p07 | stat card | $744.6 million: Jury award against Chevron, Plaquemines Parish, 2025 | on screen: Gray DC; Louisiana Illuminator, Apr 2026; verification §5 (AP/Fortune A); card names Gray DC / Illuminator | attributed |
+| 88 | c06p01 | narration | Louisiana's attorney general, Liz Murrill, said it doesn't matter whether the case is in state court or federal court. | verification §5: WBRZ 17 Apr 2026 (A); Murrill named | attributed |
+| 89 | c06p01 | narration | Chevron said it looks forward to litigating these cases in federal court, where they belong. | verification §5: WBRZ 17 Apr 2026 (A); Chevron named, wording matches | attributed |
+| 90 | c06p02 | narration | West of the river, Louisiana Highway 1 runs down Bayou Lafourche to Port Fourchon, the base that supplies many of the oil platforms in the Gulf. | general knowledge (LA-1 along Bayou Lafourche to Port Fourchon, offshore supply base); research ch.6 | verified |
+| 91 | c06p02 | narration | The port says it serves about ninety percent of the deepwater rigs. | research ch.6: port's own figures are 100 % of deepwater production / ~18 % of US oil; ~90 % of deepwater rigs and platforms is BSEE's estimate (bsee.gov, Director Salerno tour release, via search) | FIX |
+| 92 | c06p02 | stat card | ~90%: Gulf deepwater rigs served from Port Fourchon (the port's count) | on screen: Port Fourchon; as row 91: 90 % = BSEE estimate, not 'the port's count' | FIX |
+| 93 | c06p03 | narration | The second stretch, about eight miles from Golden Meadow to Leeville, costs about four hundred and sixty-three million dollars and is due at the end of 2027. | verification §7: DOTD / LA 1 Coalition (8.3 mi, ~$463 M, 'completed in 2027' / 'Fall 2027'), all A; card names DOTD | attributed |
+| 94 | c06p03 | stat card | $463 million: LA-1 lifted, Golden Meadow to Leeville (~8 mi), due end-2027 | on screen: Louisiana DOTD, via press; verification §7 (A); card names DOTD | attributed |
+| 95 | c06p04 | narration | On August 29, 2021, Hurricane Ida came ashore near Port Fourchon with winds of a hundred and fifty miles an hour. | research ch.6: NWS LIX (A); general knowledge (Ida landfall near Port Fourchon 29 Aug 2021, 150 mph) https://www.weather.gov/lix/hurricaneida2021 | verified |
+| 96 | c06p04 | on screen | Grand Isle, October 2021 | research photos: File:Grand Isle - 10-6-21 (Louisiana Sea Grant, 6 Oct 2021) | verified |
+| 97 | c06p05 | narration | In January 2023 its crews were still at work. | research photos: USACE Grand Isle levee repair, 20 Jan 2023 (PD) | verified |
+| 98 | c06p05 | on screen | Levee repair on Grand Isle, January 2023 | research photos: File:Grand Isle Louisiana Levee Repair Work, January 2023 | verified |
+| 99 | c07p01 | narration | There is one place where Louisiana's coast is growing. | contradicted by the script's own Neptune Pass beat (c05p05) and Bird's Foot marsh gain (LSU 2026) | FIX |
+| 100 | c07p01 | narration | Here, at the mouth of the Atchafalaya River, a third of the Mississippi's water reaches the sea through a side channel, and it still carries its mud. | research ch.7: NASA EO 85261 (Old River Control ~30 % of the Mississippi into the Atchafalaya) | verified |
+| 101 | c07p02 | narration | This is the Wax Lake and Atchafalaya deltas in 1984. | no factual claim (Landsat Oct 1984, CMP_WAXLAKE; NASA EO used 7 Nov 1984) | verified |
+| 102 | c07p02 | narration | And this is this October. | no factual claim (Oct 2026) | verified |
+| 103 | c07p02 | narration | New land first rose above the water here in 1973, after a great flood. | research ch.7: NASA EO 85261 (1973 flood) | verified |
+| 104 | c07p02 | narration | Since 1985 the two deltas have gained about eleven and a half thousand hectares, about a hundred and fifteen square kilometres. | own: landloss.json Wax Lake +5,500.4 ha + Atchafalaya +6,041.3 ha = +11,541.7 ha = 115.4 km2 (1985 -> 2026) | own |
+| 105 | c07p02 | on screen | Wax Lake Outlet, 2016 | research photos: File:Sea Grant - Wax Lake Outlet.5.jpg (Louisiana Sea Grant, 2016) | verified |
+| 106 | c07p02 | stat card | +115 km²: Land gained by the Wax Lake and Atchafalaya deltas, 1985 -> 2026 (About 11,500 ha) | on screen: Our measurement, Landsat 5, 8 and 9; own: landloss.json +11,541.7 ha (L5 Nov 1985, L8/L9 Oct 2026) | own |
+| 107 | c07p03 | on screen | Planting marsh grass, Port Sulphur, 2021 | research photos: File:Wetland Days - Port Sulphur Louisiana 5 November 2021 | verified |
+| 108 | c08p01 | narration | In April 2026, Louisiana adopted a one-point-five-billion-dollar coastal plan for the year, with a hundred and forty-three projects: rebuilt barrier islands, marsh, levees. | research ch.8: CPRA 27 Apr 2026 ($1.54 B, 143 projects) | verified |
+| 109 | c08p01 | narration | The next fifty-year master plan is due in 2029. | research ch.8: WWNO 19 Apr 2023 (next plan 2029) | verified |
+| 110 | c08p01 | narration | In a document from April, the state says the flood-risk numbers it uses for that plan still include the two diversions it cancelled. | research ch.8: CPRA MP29 Deep Dive PDF (uploaded May 2026, 'April 2026 update'): risk outputs still include both mid-basin diversions | verified |
+| 111 | c08p01 | stat card | $1.54 billion: Louisiana coastal plan for fiscal 2027, 143 projects | on screen: Coastal Protection and Restoration Authority, Apr 27, 2026; research ch.8: CPRA 27 Apr 2026 | verified |

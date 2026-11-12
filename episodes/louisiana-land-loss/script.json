@@ -18,7 +18,7 @@
    "mood": "tension",
    "paragraphs": [
     {
-     "text": "In 2016, the United States government paid, for the first time, to move a whole community away from the sea. The community lived on a narrow island at the end of a single road in southern Louisiana: Isle de Jean Charles.",
+     "text": "In 2016, the United States government paid to move a whole community away from the sea, in what was called the first federally funded move of its kind. The community lived on a narrow island at the end of a single road in southern Louisiana: Isle de Jean Charles.",
      "shots": [
       {
        "type": "map",
@@ -82,13 +82,31 @@
       },
       {
        "type": "map",
-       "at": 26,
+       "at": 25,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -90.5,
            "lat": 29.38,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 34,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -208,8 +226,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -225,8 +243,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
+           "lon": -90.44,
+           "lat": 29.38,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -269,8 +287,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -297,9 +315,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.53,
+           "lon": -90.487,
            "lat": 29.4,
-           "span": 0.05
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -314,8 +332,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.487,
-           "lat": 29.4,
+           "lon": -90.48,
+           "lat": 29.42,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -457,8 +475,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.48,
-           "lat": 29.42,
+           "lon": -90.553,
+           "lat": 29.497,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -475,8 +493,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.553,
-           "lat": 29.497,
+           "lon": -90.5,
+           "lat": 29.38,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -593,8 +611,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.5,
-           "lat": 29.38,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -636,8 +654,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1403,7 +1421,7 @@
      ]
     },
     {
-     "text": "An engineer who worked on it, Kristi Trail, told the American Society of Civil Engineers: The what went wrong is purely politics.",
+     "text": "Kristi Trail, an engineer who leads the Pontchartrain Conservancy, told the American Society of Civil Engineers: The what went wrong is purely politics.",
      "shots": [
       {
        "type": "map",
@@ -1424,7 +1442,7 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 8,
        "map": {
         "steps": [
          {
@@ -2014,7 +2032,7 @@
      ]
     },
     {
-     "text": "A 2026 study from Louisiana State University found that most of the marsh is not simply drowning. About eighty-two percent of it is being eaten away at the edges, by waves. Much of the loss we see, one of the authors said, has been driven by human activity.",
+     "text": "A 2026 study from Louisiana State University found that where marsh keeps disappearing, it is mostly not drowning. At about eighty-two percent of those sites, it is being eaten away at the edges. Much of the loss we see, one of the authors said, has been driven by human activity.",
      "shots": [
       {
        "type": "map",
@@ -2034,7 +2052,7 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 9,
        "map": {
         "steps": [
          {
@@ -2055,13 +2073,13 @@
        "at": "About eighty-two",
        "stat": {
         "value": "~82%",
-        "label": "Of persistent marsh loss comes from edge erosion, not drowning",
+        "label": "Of sites with persistent marsh loss erode at the edges (~10% drown)",
         "source": "Wilson, Quirk et al., Nature Communications, Apr 2026"
        }
       },
       {
        "type": "map",
-       "at": 26,
+       "at": 28,
        "map": {
         "steps": [
          {
@@ -2104,7 +2122,7 @@
       },
       {
        "type": "map",
-       "at": 42,
+       "at": 44,
        "map": {
         "steps": [
          {
@@ -2173,7 +2191,7 @@
           34
          ],
          [
-          "2010s",
+          "2010-16",
           100
          ]
         ],
@@ -2204,7 +2222,7 @@
      ]
     },
     {
-     "text": "The USGS scientist behind that count, Brady Couvillion, warned in 2017 that the slowdown came in years without a major hurricane. The most recent observations are promising, he said, but it is not clear that they will persist. Since then, three hurricanes have hit this coast.",
+     "text": "The USGS scientist behind that count, Brady Couvillion, warned in 2017 that the slowdown came in years without a major hurricane. The most recent observations are promising, he said, but it is not clear that they will persist. Since then, three major hurricanes, Laura, Zeta and Ida, have hit this coast, and several smaller ones.",
      "shots": [
       {
        "type": "map",
@@ -2230,16 +2248,16 @@
         "steps": [
          {
           "view": {
-           "lon": -90.4,
-           "lat": 29.45,
-           "span": 0.6
+           "lon": -90.19,
+           "lat": 29.12,
+           "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Coastal Louisiana"
+       "on_screen_text": "Bayou Lafourche"
       },
       {
        "type": "map",
@@ -2248,16 +2266,16 @@
         "steps": [
          {
           "view": {
-           "lon": -90.9,
-           "lat": 29.5,
-           "span": 0.6
+           "lon": -90.21,
+           "lat": 29.25,
+           "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Coastal Louisiana"
+       "on_screen_text": "Bayou Lafourche"
       },
       {
        "type": "document",
@@ -2292,16 +2310,16 @@
         "steps": [
          {
           "view": {
-           "lon": -89.9,
-           "lat": 29.5,
-           "span": 0.6
+           "lon": -90.26,
+           "lat": 29.38,
+           "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Coastal Louisiana"
+       "on_screen_text": "Bayou Lafourche"
       },
       {
        "type": "map",
@@ -2334,6 +2352,24 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.99,
+           "lat": 29.235,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
       }
      ]
     }
@@ -2379,8 +2415,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
+           "lon": -90.44,
+           "lat": 29.38,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -2397,8 +2433,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -2441,9 +2477,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.53,
+           "lon": -90.487,
            "lat": 29.4,
-           "span": 0.07
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2459,8 +2495,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.487,
-           "lat": 29.4,
+           "lon": -90.48,
+           "lat": 29.42,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2515,8 +2551,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.48,
-           "lat": 29.42,
+           "lon": -90.553,
+           "lat": 29.497,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2533,8 +2569,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.553,
-           "lat": 29.497,
+           "lon": -90.5,
+           "lat": 29.38,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2634,8 +2670,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.5,
-           "lat": 29.38,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2648,7 +2684,7 @@
      ]
     },
     {
-     "text": "In January 2016, the Department of Housing and Urban Development awarded Louisiana ninety-two million dollars, forty-eight million of it to resettle the island. The state bought five hundred and fifteen acres of farmland near Schriever for eleven point seven million.",
+     "text": "In January 2016, the Department of Housing and Urban Development awarded Louisiana nearly ninety-three million dollars, forty-eight million of it to resettle the island. The state bought five hundred and fifteen acres of farmland near Schriever for eleven point seven million.",
      "shots": [
       {
        "type": "stat",
@@ -2666,8 +2702,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2683,8 +2719,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
+           "lon": -90.44,
+           "lat": 29.38,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2722,7 +2758,7 @@
       },
       {
        "type": "map",
-       "at": 31,
+       "at": 32,
        "map": {
         "steps": [
          {
@@ -2776,8 +2812,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2842,9 +2878,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.53,
+           "lon": -90.487,
            "lat": 29.4,
-           "span": 0.09
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2860,8 +2896,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.487,
-           "lat": 29.4,
+           "lon": -90.48,
+           "lat": 29.42,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -2878,8 +2914,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.48,
-           "lat": 29.42,
+           "lon": -90.553,
+           "lat": 29.497,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -2922,8 +2958,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.553,
-           "lat": 29.497,
+           "lon": -90.5,
+           "lat": 29.38,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -3130,8 +3166,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.5,
-           "lat": 29.38,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -3237,8 +3273,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -3389,7 +3425,7 @@
      ]
     },
     {
-     "text": "The old Pass a Loutre lighthouse, built in 1855, stood about a mile inland twenty-five years ago, InvestigateTV reported this month. Now it stands several hundred feet offshore. The state wants to spend a hundred and seventy-six million dollars of oil-spill money to dredge the pass and feed the marsh again.",
+     "text": "The old Pass a Loutre lighthouse, first lit in 1855, stood about a mile inland twenty-five years ago, InvestigateTV reported this month. Now it stands several hundred feet offshore. The state wants to spend a hundred and seventy-six million dollars of oil-spill money to dredge the pass and feed the marsh again.",
      "shots": [
       {
        "type": "map",
@@ -3472,7 +3508,7 @@
       },
       {
        "type": "map",
-       "at": 27,
+       "at": 28,
        "map": {
         "steps": [
          {
@@ -3499,7 +3535,7 @@
       },
       {
        "type": "map",
-       "at": 42,
+       "at": 43,
        "map": {
         "steps": [
          {
@@ -3805,7 +3841,7 @@
      ]
     },
     {
-     "text": "Plaquemines Parish took the oil companies to court for the canals. In 2025 a jury ordered Chevron to pay seven hundred and forty-four point six million dollars. In April 2026 the US Supreme Court sent the case to federal court, where it starts again.",
+     "text": "Plaquemines Parish took the oil companies to court for the canals. In 2025 a jury ordered Chevron to pay seven hundred and forty-four point six million dollars. In April 2026 the US Supreme Court ruled the case can be moved to federal court. The verdict is now in limbo.",
      "shots": [
       {
        "type": "map",
@@ -3870,13 +3906,31 @@
       },
       {
        "type": "map",
-       "at": 35,
+       "at": 34,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -89.2,
            "lat": 29.25,
+           "span": 0.07
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bird's Foot"
+      },
+      {
+       "type": "map",
+       "at": 41,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.58,
+           "lat": 29.41,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3964,8 +4018,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.58,
-           "lat": 29.41,
+           "lon": -89.65,
+           "lat": 29.47,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -3987,7 +4041,7 @@
      ]
     },
     {
-     "text": "West of the river, Louisiana Highway 1 runs down Bayou Lafourche to Port Fourchon, the base that supplies many of the oil platforms in the Gulf. The port says it serves about ninety percent of the deepwater rigs.",
+     "text": "West of the river, Louisiana Highway 1 runs down Bayou Lafourche to Port Fourchon, the base that supplies many of the oil platforms in the Gulf. By federal estimates, it serves about ninety percent of the deepwater rigs and platforms.",
      "shots": [
       {
        "type": "map",
@@ -4109,8 +4163,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.19,
-           "lat": 29.12,
+           "lon": -90.1,
+           "lat": 29.2,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4122,17 +4176,34 @@
       },
       {
        "type": "stat",
-       "at": "The port says",
+       "at": "By federal",
        "stat": {
         "value": "~90%",
-        "label": "Gulf deepwater rigs served from Port Fourchon (the port's count)",
-        "source": "Port Fourchon"
+        "label": "Gulf deepwater rigs and platforms served from Port Fourchon",
+        "source": "BSEE estimate"
        }
+      },
+      {
+       "type": "map",
+       "at": 35,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.26,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Bayou Lafourche"
       }
      ]
     },
     {
-     "text": "The old road sits barely above the marsh, and the marsh is turning into open water around it. So the state is lifting it into the air. The second stretch, about eight miles from Golden Meadow to Leeville, costs about four hundred and sixty-three million dollars and is due at the end of 2027.",
+     "text": "The old road sits barely above the marsh, and the marsh is turning into open water around it. So the state is lifting it into the air. The second stretch, about eight miles from Golden Meadow to Leeville, costs about four hundred and sixty-three million dollars and is due in 2027, the state's transport department says.",
      "shots": [
       {
        "type": "map",
@@ -4156,7 +4227,8 @@
           ],
           "date": "2026-10-13/2026-10-13"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -4166,8 +4238,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.21,
-           "lat": 29.25,
+           "lon": -90.3,
+           "lat": 29.3,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4184,8 +4256,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.26,
-           "lat": 29.38,
+           "lon": -90.15,
+           "lat": 29.3,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4202,9 +4274,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.99,
-           "lat": 29.235,
-           "span": 0.05
+           "lon": -90.19,
+           "lat": 29.12,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4218,13 +4290,13 @@
        "at": "about four hundred",
        "stat": {
         "value": "$463 million",
-        "label": "LA-1 lifted, Golden Meadow to Leeville (~8 mi), due end-2027",
+        "label": "LA-1 lifted, Golden Meadow to Leeville (~8 mi), due 2027",
         "source": "Louisiana DOTD, via press"
        }
       },
       {
        "type": "map",
-       "at": "due at the end",
+       "at": "is due in",
        "map": {
         "steps": [
          {
@@ -4293,9 +4365,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.1,
-           "lat": 29.2,
-           "span": 0.05
+           "lon": -90.21,
+           "lat": 29.25,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4311,9 +4383,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.05,
-           "lat": 29.26,
-           "span": 0.05
+           "lon": -90.26,
+           "lat": 29.38,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4391,7 +4463,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "There is one place where Louisiana's coast is growing. Here, at the mouth of the Atchafalaya River, a third of the Mississippi's water reaches the sea through a side channel, and it still carries its mud.",
+     "text": "There is one big place where Louisiana's coast is still growing on its own. Here, at the mouth of the Atchafalaya River, a third of the Mississippi's water reaches the sea through a side channel, and it still carries its mud.",
      "shots": [
       {
        "type": "map",
@@ -4417,6 +4489,24 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.445,
+           "lat": 29.5,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
       },
       {
        "type": "map",
@@ -4453,13 +4543,13 @@
       },
       {
        "type": "map",
-       "at": 18,
+       "at": 23,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -91.445,
-           "lat": 29.5,
+           "lon": -91.3,
+           "lat": 29.45,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4471,13 +4561,13 @@
       },
       {
        "type": "map",
-       "at": 27,
+       "at": 32,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -91.3,
-           "lat": 29.45,
+           "lon": -91.38,
+           "lat": 29.55,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4587,8 +4677,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.38,
-           "lat": 29.55,
+           "lon": -91.5,
+           "lat": 29.47,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4604,8 +4694,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.5,
-           "lat": 29.47,
+           "lon": -91.25,
+           "lat": 29.5,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4648,8 +4738,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.25,
-           "lat": 29.5,
+           "lon": -91.376,
+           "lat": 29.69,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4688,9 +4778,9 @@
         "steps": [
          {
           "view": {
-           "lon": -91.376,
-           "lat": 29.69,
-           "span": 0.05
+           "lon": -91.445,
+           "lat": 29.5,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4706,8 +4796,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.445,
-           "lat": 29.5,
+           "lon": -91.3,
+           "lat": 29.45,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -4730,8 +4820,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.3,
-           "lat": 29.45,
+           "lon": -91.38,
+           "lat": 29.55,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -4767,8 +4857,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
+           "lon": -90.44,
+           "lat": 29.38,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -4784,8 +4874,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -4883,9 +4973,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.65,
-           "lat": 29.47,
-           "span": 0.07
+           "lon": -89.36,
+           "lat": 29.28,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }

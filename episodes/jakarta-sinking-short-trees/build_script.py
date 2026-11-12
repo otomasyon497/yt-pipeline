@@ -36,9 +36,9 @@ def P(text, *shots):
 
 
 paragraphs = [
-    P("This village on the coast of Java, in 1990. And here it is this year.",
+    P("This village on the coast of Java, in 1990. And here it is this year, after the sea moved in.",
       m("Real satellite images · Landsat",
-        {**v(110.505, -6.905, 0.12), "compare": {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": "landsat", "seconds": 1.8, "until": "And here"}},
+        {**v(110.505, -6.905, 0.12), "compare": {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": "landsat", "seconds": 1.6, "until": "And here"}},
         {"at": "And here", "places": [TIMBUL]}, cut=False)),
     P("We measured it. Around Timbulsloko, nine tenths of the land has turned to water.",
       m("~90% of the land: now water · our measurement", v(110.517, -6.913, 0.05, places=[TIMBUL]))),

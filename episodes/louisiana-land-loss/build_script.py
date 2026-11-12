@@ -37,7 +37,7 @@ BARATARIA_W = {"lon": -89.98, "lat": 29.53, "span": 0.3}
 MBSD_V = {"lon": -89.955, "lat": 29.645, "span": 0.05}
 BIRDSFOOT_W = {"lon": -89.25, "lat": 29.13, "span": 0.4}
 VENICE_V = {"lon": -89.36, "lat": 29.28, "span": 0.06}
-NEPTUNE_V = {"lon": -89.58, "lat": 29.41, "span": 0.08}
+NEPTUNE_V = {"lon": -89.52, "lat": 29.375, "span": 0.08}
 FOURCHON_V = {"lon": -90.19, "lat": 29.12, "span": 0.08}
 LEEVILLE_V = {"lon": -90.21, "lat": 29.25, "span": 0.06}
 GRANDISLE_V = {"lon": -89.99, "lat": 29.235, "span": 0.08}
@@ -65,8 +65,8 @@ MYRTLE = place("Myrtle Grove", -89.9512, 29.6372, "Myrtle Grove", "site")
 WILLS = place("Wills Point", -90.0059, 29.7469, "Mid-Breton site", "site")
 VENICE = place("Venice", -89.3587, 29.2791, "Venice: end of the road", "city")
 HEAD = place("Head of Passes", -89.2509, 29.1517, "Head of Passes", "site")
-LOUTRE = place("Pass a Loutre", -89.1603, 29.1629, "Pass a Loutre", "site")
-NEPTUNE = place("Neptune Pass", -89.6, 29.4, "Neptune Pass", "site")
+LOUTRE = place("Pass a Loutre lighthouse", -89.0371, 29.1901, "Pass a Loutre lighthouse", "site")
+NEPTUNE = place("Neptune Pass", -89.51184, 29.37167, "Neptune Pass", "site")
 FOURCHON = place("Port Fourchon", -90.1892, 29.1232, "Port Fourchon", "port")
 LEEVILLE = place("Leeville", -90.2108, 29.2505, "Leeville", "city")
 GOLDEN = place("Golden Meadow", -90.2601, 29.3791, "Golden Meadow", "city")
@@ -167,9 +167,11 @@ chapters = [
         P("In 2016, the United States government paid, for the first time, to move a whole community away from the sea. The community lived on a narrow island at the end of a single road in southern Louisiana: Isle de Jean Charles.",
           m(0, v(USA_GULF, places=[IJC])), m("southern Louisiana", v(COAST, places=[IJC])),
           m("Isle de Jean Charles", v(IJC_V, places=[IJC]), cut=True)),
-        P("This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty.",
+        P("This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
           m(0, v(IJC_W, compare={**CMP_IJC, "until": "And this"}), step("And this", places=[IJC]), cut=True),
-          stat("By the state's", "22,000 -> 320 acres", "Land around Isle de Jean Charles, by the state's count", OCD)),
+          stat("By the state's", "22,000 -> 320 acres", "Land around Isle de Jean Charles, by the state's count", OCD),
+          m("We measured", v(near(-90.49, 29.40, 0.1), places=[IJC]), cut=True),
+          stat("from about three", "-45%", "Land and marsh above water in a box around the island, 1985 -> 2026", OWN, "About 3,300 ha -> 1,800 ha")),
         P("Thirty-seven families took the deal and moved about forty miles inland, to a new subdivision built for them in the sugar-cane fields. One of them, Amy Handon, told The New York Times this year what she would say to the next town offered the same thing.",
           m(0, v(IJC_V, places=[IJC], routes=[MOVE])),
           m("to a new", v(NEWISLE_V, places=[NEWISLE]), cut=True),
@@ -190,10 +192,12 @@ chapters = [
         P("The plan was called the Mid-Barataria Sediment Diversion. Here, on the west bank of the Mississippi below New Orleans, the state was building a gate in the levee, three hundred feet wide.",
           m(0, v(near(-90.0, 29.8, 0.5), places=[NOLA, MBSD])),
           m("Here, on", v(MBSD_V, places=[MBSD]), cut=True)),
-        P("Open it, and the river would carry its mud into Barataria Bay, the way it did for thousands of years before the levees. The state's own models said it would build about twenty square miles of land over fifty years. Critics said far less.",
+        P("Open it, and the river would carry its mud into Barataria Bay, the way it did for thousands of years before the levees. The state's own models said it would build about twenty square miles of land over fifty years. Critics said far less. Our own images show how much it needs it: in a box over the bay, sixteen percent less land and marsh than in 1990, and that box includes the river and its leveed banks, which do not change.",
           m(0, v(BARATARIA_W, compare={**CMP_BARATARIA, "until": "the way"}), step("the way", places=[MBSD]), cut=True),
           m("The state's own", v(near(-89.95, 29.56, 0.15)), cut=True),
-          stat("about twenty", "~20 sq mi", "Land the diversion was modelled to build in 50 years (critics: far less)", WWNO)),
+          stat("about twenty", "~20 sq mi", "Land the diversion was modelled to build in 50 years (critics: far less)", WWNO),
+          m("Our own images", v(near(-89.98, 29.52, 0.25)), cut=True),
+          stat("sixteen percent", "-16%", "Land and marsh in a box over Barataria Bay, 1990 -> 2026", OWN)),
         P("Construction began in 2023. The price rose to nearly three billion dollars, most of it from the settlement over the 2010 Deepwater Horizon oil spill.",
           m(0, v(near(-89.96, 29.65, 0.035), places=[MBSD])),
           m("most of it", v(near(-90.03, 29.56, 0.09)), cut=True)),
@@ -252,7 +256,7 @@ chapters = [
           stat("About eighty-two", "~82%", "Of persistent marsh loss comes from edge erosion, not drowning", "Wilson, Quirk et al., Nature Communications, Apr 2026"),
           clip("Much of", "\"Much of the loss we see \u2014 both globally and in Louisiana \u2014 has been driven by human activity.\"", "Tracy Quirk, LSU, Apr 2026", highlight="driven by human activity"),
           m("one of the authors", v(near(-90.33, 29.27, 0.06)), cut=True)),
-        P("Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. At the worst, a football field of land every thirty-four minutes. More recently, one every hundred minutes.",
+        P("Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. At the worst, a football field of land every thirty-four minutes. More recently, through 2016, one every hundred minutes.",
           m(0, v(near(-90.6, 29.4, 0.6))),
           chart("At the worst", "Louisiana land loss: one football field every...", " min", [["At the peak", 34], ["2010s", 100]], USGS, reveal=["More recently"], highlight=1),
           m("one every hundred", v(near(-90.2, 29.4, 0.3)), cut=True)),
@@ -265,7 +269,7 @@ chapters = [
     {"title": "The Island That Left", "mood": "calm", "paragraphs": [
         P("Back to Isle de Jean Charles. Its people, members of the Jean Charles Choctaw Nation, have lived here since about 1840. The road to the island was built across the marsh in the 1950s. Today water laps at both sides of it.",
           m(0, v(IJC_V, places=[IJC])), m("The road", v(ROAD_V, places=[POINTE]), cut=True)),
-        P("When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish in the early 2000s, the island was left outside it. Protecting it, the Corps found, would cost more than moving everyone.",
+        P("When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish around 2000, the island was left outside it. Protecting it, the Corps found, would cost more than moving everyone.",
           m(0, v(near(-90.55, 29.45, 0.3), places=[IJC, POINTE])),
           m("would cost", v(near(-90.50, 29.40, 0.07)), cut=True)),
         P("The former chief, Albert Naquin, put it simply. We lose land, every hurricane we lose land. And now all we have is the little bitty strip of houses and the road.",
@@ -279,7 +283,7 @@ chapters = [
           m(0, v(near(-90.778, 29.713, 0.035), places=[NEWISLE])),
           clip("If everything", "\"If everything on the coast was built like this, everyone would be home right now.\"", "Pat Forbes, Louisiana Office of Community Development, to WWNO, Feb 2022", highlight="everyone would be home"),
           m("he said in 2022", v(near(-90.772, 29.716, 0.035)), cut=True)),
-        P("Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. The tribe had wanted to rebuild its community together. The grant went to the state, which opened it to every island resident, and families began moving in August 2022.",
+        P("Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. The tribe had wanted to rebuild its community together. The grant went to the state, which opened it to every island resident, and families began moving in August 2022. Forty-two households were eligible. Thirty-seven took part.",
           m(0, v(near(-90.78, 29.715, 0.035))),
           m("families began", v(near(-90.775, 29.708, 0.035), places=[NEWISLE]), cut=True)),
         P("The new houses had problems, residents told Floodlight: leaking doors, missing insulation. We should not have this many complaints, one of them, Kristi Naquin, said. We should not have this many problems.",
@@ -302,8 +306,8 @@ chapters = [
           m(0, v(BIRDSFOOT_W, compare={**CMP_BIRDSFOOT, "until": "And this"}), step("And this", places=[HEAD, LOUTRE]), cut=True),
           m("is breaking", v(near(-89.20, 29.12, 0.12), places=[LOUTRE]), cut=True)),
         P("The old Pass a Loutre lighthouse, built in 1855, stood about a mile inland twenty-five years ago, InvestigateTV reported this month. Now it stands several hundred feet offshore. The state wants to spend a hundred and seventy-six million dollars of oil-spill money to dredge the pass and feed the marsh again.",
-          m(0, v(near(-89.16, 29.17, 0.06), places=[LOUTRE])),
-          m("Now it stands", v(near(-89.15, 29.165, 0.04)), cut=True),
+          m(0, v(near(-89.04, 29.19, 0.06), places=[LOUTRE])),
+          m("Now it stands", v(near(-89.037, 29.19, 0.035)), cut=True),
           stat("a hundred and seventy-six", "$176 million", "Planned Bird's Foot Delta restoration, still waiting for permits", "InvestigateTV, Nov 10, 2026")),
         P("A state scientist, Todd Baker, calls it the terminal end of the Mississippi Flyway, the route of millions of migrating birds. We don't have a delta like this anywhere else in North America, he said.",
           m(0, v(near(-89.28, 29.17, 0.1))),
@@ -348,10 +352,12 @@ chapters = [
         P("There is one place where Louisiana's coast is growing. Here, at the mouth of the Atchafalaya River, a third of the Mississippi's water reaches the sea through a side channel, and it still carries its mud.",
           m(0, v(LOUISIANA, places=[WAXLAKE])),
           m("Here, at", v(near(-91.40, 29.56, 0.5), places=[WAXLAKE, ATCH]), cut=True)),
-        P("This is the Wax Lake and Atchafalaya deltas in 1984. And this is this October. New land first rose above the water here in 1973, after a great flood. NASA puts the growth of the two deltas at a few square kilometres a year.",
+        P("This is the Wax Lake and Atchafalaya deltas in 1984. And this is this October. New land first rose above the water here in 1973, after a great flood. We measured them too. Since 1985 the two deltas have gained about eleven and a half thousand hectares, about a hundred and fifteen square kilometres. That is close to what scientists at Louisiana State University estimate.",
           m(0, v(WAXLAKE_W, compare={**CMP_WAXLAKE, "until": "And this", "hold": 0.4}), step("And this", places=[WAXLAKE, ATCH]), cut=True),
           photo("after a great", PH_WAXLAKE, "Wax Lake Outlet, 2016"),
-          m("NASA puts", v(WAXLAKE_V, places=[WAXLAKE]), cut=True)),
+          m("We measured them", v(WAXLAKE_V, places=[WAXLAKE]), cut=True),
+          stat("Since 1985", "+115 km²", "Land gained by the Wax Lake and Atchafalaya deltas, 1985 -> 2026", OWN, "About 11,500 ha"),
+          m("That is close", v(near(-91.30, 29.46, 0.1), places=[ATCH]), cut=True)),
         P("It is not enough to balance the losses, only about a tenth of them. But it is the proof the scientists keep pointing to: when the river is allowed to reach the marsh, Louisiana builds land.",
           m(0, v(near(-91.40, 29.50, 0.12))),
           photo("when the river", PH_PLANT, "Planting marsh grass, Port Sulphur, 2021")),

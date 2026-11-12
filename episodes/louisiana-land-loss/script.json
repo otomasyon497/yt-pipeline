@@ -152,7 +152,7 @@
      ]
     },
     {
-     "text": "This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty.",
+     "text": "This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
      "shots": [
       {
        "type": "map",
@@ -228,6 +228,95 @@
            "lon": -90.52,
            "lat": 29.44,
            "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": "We measured",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.49,
+           "lat": 29.4,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Isle de Jean Charles",
+            "lon": -90.4886,
+            "lat": 29.3992,
+            "kind": "city",
+            "label": "Isle de Jean Charles"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.44,
+           "lat": 29.38,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "stat",
+       "at": "from about three",
+       "stat": {
+        "value": "-45%",
+        "label": "Land and marsh above water in a box around the island, 1985 -> 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9",
+        "note": "About 3,300 ha -> 1,800 ha"
+       }
+      },
+      {
+       "type": "map",
+       "at": 63,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.53,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Isle de Jean Charles"
+      },
+      {
+       "type": "map",
+       "at": 69,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -368,9 +457,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
-           "span": 0.05
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -386,9 +475,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.53,
-           "lat": 29.4,
-           "span": 0.05
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -480,7 +569,7 @@
         "steps": [
          {
           "view": {
-           "lon": -89.932,
+           "lon": -90.4,
            "lat": 29.45,
            "span": 2.6
           }
@@ -504,8 +593,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.487,
-           "lat": 29.4,
+           "lon": -90.5,
+           "lat": 29.38,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -547,8 +636,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.48,
-           "lat": 29.42,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -664,7 +753,7 @@
      ]
     },
     {
-     "text": "Open it, and the river would carry its mud into Barataria Bay, the way it did for thousands of years before the levees. The state's own models said it would build about twenty square miles of land over fifty years. Critics said far less.",
+     "text": "Open it, and the river would carry its mud into Barataria Bay, the way it did for thousands of years before the levees. The state's own models said it would build about twenty square miles of land over fifty years. Critics said far less. Our own images show how much it needs it: in a box over the bay, sixteen percent less land and marsh than in 1990, and that box includes the river and its leveed banks, which do not change.",
      "shots": [
       {
        "type": "map",
@@ -729,6 +818,85 @@
         "label": "Land the diversion was modelled to build in 50 years (critics: far less)",
         "source": "WWNO / Louisiana Illuminator, Jul 18, 2025"
        }
+      },
+      {
+       "type": "map",
+       "at": "Our own images",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.98,
+           "lat": 29.52,
+           "span": 0.25
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 51,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.1,
+           "lat": 29.5,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "stat",
+       "at": "sixteen percent",
+       "stat": {
+        "value": "-16%",
+        "label": "Land and marsh in a box over Barataria Bay, 1990 -> 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9"
+       }
+      },
+      {
+       "type": "map",
+       "at": 68,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.85,
+           "lat": 29.4,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "map",
+       "at": 75,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.05,
+           "lat": 29.6,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
       }
      ]
     },
@@ -757,7 +925,8 @@
           ],
           "date": "2026-10-13/2026-10-13"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -767,8 +936,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.1,
-           "lat": 29.5,
+           "lon": -89.98,
+           "lat": 29.42,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -802,8 +971,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.85,
-           "lat": 29.4,
+           "lon": -89.9,
+           "lat": 29.55,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -842,9 +1011,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.05,
-           "lat": 29.6,
-           "span": 0.05
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -860,9 +1029,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.98,
-           "lat": 29.42,
-           "span": 0.05
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -895,9 +1064,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.9,
-           "lat": 29.55,
-           "span": 0.05
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -913,8 +1082,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.955,
-           "lat": 29.645,
+           "lon": -90.1,
+           "lat": 29.5,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -962,8 +1131,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.0,
-           "lat": 29.55,
+           "lon": -89.85,
+           "lat": 29.4,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1005,8 +1174,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.93,
-           "lat": 29.48,
+           "lon": -90.05,
+           "lat": 29.6,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1110,8 +1279,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.1,
-           "lat": 29.5,
+           "lon": -89.98,
+           "lat": 29.42,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1176,8 +1345,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.85,
-           "lat": 29.4,
+           "lon": -89.9,
+           "lat": 29.55,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -1220,9 +1389,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.05,
-           "lat": 29.6,
-           "span": 0.07
+           "lon": -89.955,
+           "lat": 29.645,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1260,9 +1429,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.98,
-           "lat": 29.42,
-           "span": 0.07
+           "lon": -90.0,
+           "lat": 29.55,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1317,9 +1486,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.9,
-           "lat": 29.55,
-           "span": 0.07
+           "lon": -89.93,
+           "lat": 29.48,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -1335,8 +1504,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.955,
-           "lat": 29.645,
+           "lon": -90.1,
+           "lat": 29.5,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -1369,8 +1538,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.0,
-           "lat": 29.55,
+           "lon": -89.85,
+           "lat": 29.4,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -1954,7 +2123,7 @@
      ]
     },
     {
-     "text": "Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. At the worst, a football field of land every thirty-four minutes. More recently, one every hundred minutes.",
+     "text": "Put it together and the US Geological Survey counted about two thousand square miles gone between 1932 and 2016. At the worst, a football field of land every thirty-four minutes. More recently, through 2016, one every hundred minutes.",
      "shots": [
       {
        "type": "map",
@@ -2141,7 +2310,7 @@
         "steps": [
          {
           "view": {
-           "lon": -90.4,
+           "lon": -89.932,
            "lat": 29.45,
            "span": 2.6
           },
@@ -2210,8 +2379,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.553,
-           "lat": 29.497,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -2228,7 +2397,7 @@
         "steps": [
          {
           "view": {
-           "lon": -90.5,
+           "lon": -90.44,
            "lat": 29.38,
            "span": 0.07
           },
@@ -2272,8 +2441,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
@@ -2290,9 +2459,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
-           "span": 0.07
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2304,7 +2473,7 @@
      ]
     },
     {
-     "text": "When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish in the early 2000s, the island was left outside it. Protecting it, the Corps found, would cost more than moving everyone.",
+     "text": "When the Army Corps of Engineers drew a ninety-eight-mile hurricane levee for this parish around 2000, the island was left outside it. Protecting it, the Corps found, would cost more than moving everyone.",
      "shots": [
       {
        "type": "map",
@@ -2346,9 +2515,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
-           "span": 0.07
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2359,14 +2528,14 @@
       },
       {
        "type": "map",
-       "at": 19,
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -90.53,
-           "lat": 29.4,
-           "span": 0.07
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2465,8 +2634,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.487,
-           "lat": 29.4,
+           "lon": -90.5,
+           "lat": 29.38,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2497,8 +2666,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.48,
-           "lat": 29.42,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2514,8 +2683,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.553,
-           "lat": 29.497,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2607,7 +2776,7 @@
         "steps": [
          {
           "view": {
-           "lon": -90.5,
+           "lon": -90.44,
            "lat": 29.38,
            "span": 0.09
           },
@@ -2647,7 +2816,7 @@
      ]
     },
     {
-     "text": "Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. The tribe had wanted to rebuild its community together. The grant went to the state, which opened it to every island resident, and families began moving in August 2022.",
+     "text": "Between 1992 and 2021, Terrebonne Parish was hit by fifteen hurricanes and two flood disasters. The tribe had wanted to rebuild its community together. The grant went to the state, which opened it to every island resident, and families began moving in August 2022. Forty-two households were eligible. Thirty-seven took part.",
      "shots": [
       {
        "type": "map",
@@ -2673,8 +2842,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.46,
-           "lat": 29.43,
+           "lon": -90.53,
+           "lat": 29.4,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"
@@ -2691,9 +2860,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.52,
-           "lat": 29.44,
-           "span": 0.09
+           "lon": -90.487,
+           "lat": 29.4,
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2709,9 +2878,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.44,
-           "lat": 29.38,
-           "span": 0.09
+           "lon": -90.48,
+           "lat": 29.42,
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -2745,6 +2914,24 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 44,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.553,
+           "lat": 29.497,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle de Jean Charles"
       }
      ]
     },
@@ -2943,9 +3130,9 @@
         "steps": [
          {
           "view": {
-           "lon": -90.53,
-           "lat": 29.4,
-           "span": 0.09
+           "lon": -90.5,
+           "lat": 29.38,
+           "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3050,8 +3237,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.487,
-           "lat": 29.4,
+           "lon": -90.46,
+           "lat": 29.43,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -3161,11 +3348,11 @@
             "label": "Head of Passes"
            },
            {
-            "name": "Pass a Loutre",
-            "lon": -89.1603,
-            "lat": 29.1629,
+            "name": "Pass a Loutre lighthouse",
+            "lon": -89.0371,
+            "lat": 29.1901,
             "kind": "site",
-            "label": "Pass a Loutre"
+            "label": "Pass a Loutre lighthouse"
            }
           ]
          }
@@ -3186,11 +3373,11 @@
           },
           "places": [
            {
-            "name": "Pass a Loutre",
-            "lon": -89.1603,
-            "lat": 29.1629,
+            "name": "Pass a Loutre lighthouse",
+            "lon": -89.0371,
+            "lat": 29.1901,
             "kind": "site",
-            "label": "Pass a Loutre"
+            "label": "Pass a Loutre lighthouse"
            }
           ],
           "date": "2026-10-13/2026-10-13"
@@ -3211,17 +3398,17 @@
         "steps": [
          {
           "view": {
-           "lon": -89.16,
-           "lat": 29.17,
+           "lon": -89.04,
+           "lat": 29.19,
            "span": 0.06
           },
           "places": [
            {
-            "name": "Pass a Loutre",
-            "lon": -89.1603,
-            "lat": 29.1629,
+            "name": "Pass a Loutre lighthouse",
+            "lon": -89.0371,
+            "lat": 29.1901,
             "kind": "site",
-            "label": "Pass a Loutre"
+            "label": "Pass a Loutre lighthouse"
            }
           ],
           "date": "2026-10-13/2026-10-13"
@@ -3273,9 +3460,9 @@
         "steps": [
          {
           "view": {
-           "lon": -89.15,
-           "lat": 29.165,
-           "span": 0.04
+           "lon": -89.037,
+           "lat": 29.19,
+           "span": 0.035
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -3458,15 +3645,15 @@
         "steps": [
          {
           "view": {
-           "lon": -89.58,
-           "lat": 29.41,
+           "lon": -89.52,
+           "lat": 29.375,
            "span": 0.08
           },
           "places": [
            {
             "name": "Neptune Pass",
-            "lon": -89.6,
-            "lat": 29.4,
+            "lon": -89.51184,
+            "lat": 29.37167,
             "kind": "site",
             "label": "Neptune Pass"
            }
@@ -4303,7 +4490,7 @@
      ]
     },
     {
-     "text": "This is the Wax Lake and Atchafalaya deltas in 1984. And this is this October. New land first rose above the water here in 1973, after a great flood. NASA puts the growth of the two deltas at a few square kilometres a year.",
+     "text": "This is the Wax Lake and Atchafalaya deltas in 1984. And this is this October. New land first rose above the water here in 1973, after a great flood. We measured them too. Since 1985 the two deltas have gained about eleven and a half thousand hectares, about a hundred and fifteen square kilometres. That is close to what scientists at Louisiana State University estimate.",
      "shots": [
       {
        "type": "map",
@@ -4359,7 +4546,7 @@
       },
       {
        "type": "map",
-       "at": "NASA puts",
+       "at": "We measured them",
        "map": {
         "steps": [
          {
@@ -4384,14 +4571,85 @@
        }
       },
       {
+       "type": "stat",
+       "at": "Since 1985",
+       "stat": {
+        "value": "+115 km²",
+        "label": "Land gained by the Wax Lake and Atchafalaya deltas, 1985 -> 2026",
+        "source": "Our measurement, Landsat 5, 8 and 9",
+        "note": "About 11,500 ha"
+       }
+      },
+      {
        "type": "map",
-       "at": 36,
+       "at": 42,
        "map": {
         "steps": [
          {
           "view": {
            "lon": -91.38,
            "lat": 29.55,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ]
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.5,
+           "lat": 29.47,
+           "span": 0.05
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": "That is close",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.3,
+           "lat": 29.46,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Atchafalaya Delta",
+            "lon": -91.3025,
+            "lat": 29.4535,
+            "kind": "site",
+            "label": "Atchafalaya Delta"
+           }
+          ],
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 59,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.25,
+           "lat": 29.5,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4430,8 +4688,8 @@
         "steps": [
          {
           "view": {
-           "lon": -91.5,
-           "lat": 29.47,
+           "lon": -91.376,
+           "lat": 29.69,
            "span": 0.05
           },
           "date": "2026-10-13/2026-10-13"
@@ -4448,9 +4706,9 @@
         "steps": [
          {
           "view": {
-           "lon": -91.25,
+           "lon": -91.445,
            "lat": 29.5,
-           "span": 0.05
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4472,9 +4730,9 @@
         "steps": [
          {
           "view": {
-           "lon": -91.376,
-           "lat": 29.69,
-           "span": 0.05
+           "lon": -91.3,
+           "lat": 29.45,
+           "span": 0.07
           },
           "date": "2026-10-13/2026-10-13"
          }
@@ -4509,8 +4767,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.48,
-           "lat": 29.42,
+           "lon": -90.52,
+           "lat": 29.44,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -4526,8 +4784,8 @@
         "steps": [
          {
           "view": {
-           "lon": -90.553,
-           "lat": 29.497,
+           "lon": -90.44,
+           "lat": 29.38,
            "span": 0.06
           },
           "date": "2026-10-13/2026-10-13"
@@ -4577,8 +4835,8 @@
         "steps": [
          {
           "view": {
-           "lon": -89.93,
-           "lat": 29.48,
+           "lon": -90.05,
+           "lat": 29.6,
            "span": 0.09
           },
           "date": "2026-10-13/2026-10-13"

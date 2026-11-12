@@ -1,0 +1,2523 @@
+{
+ "Isle de Jean Charles": {
+  "box": [
+   -90.53,
+   29.36,
+   -90.45,
+   29.45
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-10-18",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19851018_02_T1"
+      ],
+      "clear_share": 0.35,
+      "land_share_that_day": 0.332,
+      "land_ha_that_day": 904.1
+     },
+     {
+      "date": "1985-11-19",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19851119_02_T1"
+      ],
+      "clear_share": 0.708,
+      "land_share_that_day": 0.568,
+      "land_ha_that_day": 3124.5
+     },
+     {
+      "date": "1984-10-15",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19841015_02_T1"
+      ],
+      "clear_share": 0.371,
+      "land_share_that_day": 0.425,
+      "land_ha_that_day": 1223.8
+     },
+     {
+      "date": "1985-09-16",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022041_19850916_02_T2"
+      ],
+      "clear_share": 0.88,
+      "land_share_that_day": 0.432,
+      "land_ha_that_day": 2952.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9883,
+    "box_ha": 7770.5,
+    "land_ha": 3295.7,
+    "permanent_land_ha": 2393.0,
+    "land_share": 0.4291,
+    "land_change_ha": 0.0,
+    "land_change_pct": 0.0,
+    "permanent_land_change_ha": 0.0
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-10-16",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901016_02_T1"
+      ],
+      "clear_share": 0.993,
+      "land_share_that_day": 0.433,
+      "land_ha_that_day": 3338.1
+     },
+     {
+      "date": "1990-11-17",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901117_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.392,
+      "land_ha_that_day": 3045.4
+     },
+     {
+      "date": "1990-11-01",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901101_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.426,
+      "land_ha_that_day": 3311.9
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 3251.2,
+    "permanent_land_ha": 2971.6,
+    "land_share": 0.4184,
+    "land_change_ha": -44.5,
+    "land_change_pct": -1.4,
+    "permanent_land_change_ha": 578.6
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-11-15",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19951115_02_T1"
+      ],
+      "clear_share": 0.997,
+      "land_share_that_day": 0.395,
+      "land_ha_that_day": 3063.6
+     },
+     {
+      "date": "1994-10-27",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19941027_02_T1"
+      ],
+      "clear_share": 0.994,
+      "land_share_that_day": 0.531,
+      "land_ha_that_day": 4100.8
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 3543.9,
+    "permanent_land_ha": 3080.6,
+    "land_share": 0.4561,
+    "land_change_ha": 248.2,
+    "land_change_pct": 7.5,
+    "permanent_land_change_ha": 687.6
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-27",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20001027_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.346,
+      "land_ha_that_day": 2689.3
+     },
+     {
+      "date": "2000-10-11",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20001011_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.354,
+      "land_ha_that_day": 2748.6
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001003_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.367,
+      "land_ha_that_day": 2849.8
+     },
+     {
+      "date": "2000-11-20",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001120_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.325,
+      "land_ha_that_day": 2528.1
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 2715.1,
+    "permanent_land_ha": 2442.2,
+    "land_share": 0.3494,
+    "land_change_ha": -580.6,
+    "land_change_pct": -17.6,
+    "permanent_land_change_ha": 49.2
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-10-25",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051025_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.28,
+      "land_ha_that_day": 2177.1
+     },
+     {
+      "date": "2005-10-09",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051009_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.292,
+      "land_ha_that_day": 2266.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 2219.8,
+    "permanent_land_ha": 2129.7,
+    "land_share": 0.2857,
+    "land_change_ha": -1075.9,
+    "land_change_pct": -32.6,
+    "permanent_land_change_ha": -263.3
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-07",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101007_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.28,
+      "land_ha_that_day": 2176.2
+     },
+     {
+      "date": "2010-11-24",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101124_02_T1"
+      ],
+      "clear_share": 0.878,
+      "land_share_that_day": 0.268,
+      "land_ha_that_day": 1825.0
+     },
+     {
+      "date": "2010-11-08",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101108_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.319,
+      "land_ha_that_day": 2475.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 2213.8,
+    "permanent_land_ha": 2060.0,
+    "land_share": 0.2849,
+    "land_change_ha": -1081.9,
+    "land_change_pct": -32.8,
+    "permanent_land_change_ha": -333.0
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-10-21",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151021_02_T1"
+      ],
+      "clear_share": 0.793,
+      "land_share_that_day": 0.324,
+      "land_ha_that_day": 1996.7
+     },
+     {
+      "date": "2015-10-05",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151005_02_T1"
+      ],
+      "clear_share": 0.968,
+      "land_share_that_day": 0.309,
+      "land_ha_that_day": 2323.3
+     },
+     {
+      "date": "2015-11-22",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.349,
+      "land_ha_that_day": 2711.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 2380.4,
+    "permanent_land_ha": 2179.8,
+    "land_share": 0.3063,
+    "land_change_ha": -915.3,
+    "land_change_pct": -27.8,
+    "permanent_land_change_ha": -213.2
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-10-02",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201002_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.293,
+      "land_ha_that_day": 2276.6
+     },
+     {
+      "date": "2020-10-18",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201018_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.287,
+      "land_ha_that_day": 2231.5
+     },
+     {
+      "date": "2020-11-19",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201119_02_T1"
+      ],
+      "clear_share": 0.916,
+      "land_share_that_day": 0.31,
+      "land_ha_that_day": 2207.0
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 2278.3,
+    "permanent_land_ha": 2165.3,
+    "land_share": 0.2932,
+    "land_change_ha": -1017.4,
+    "land_change_pct": -30.9,
+    "permanent_land_change_ha": -227.7
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-10-21",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241021_02_T1",
+       "LC09_L2SP_022039_20241021_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.273,
+      "land_ha_that_day": 2121.6
+     },
+     {
+      "date": "2024-10-13",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20241013_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.211,
+      "land_ha_that_day": 1638.2
+     },
+     {
+      "date": "2024-11-22",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241122_02_T1",
+       "LC09_L2SP_022039_20241122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.301,
+      "land_ha_that_day": 2340.0
+     },
+     {
+      "date": "2024-11-06",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241106_02_T1"
+      ],
+      "clear_share": 0.956,
+      "land_share_that_day": 0.253,
+      "land_ha_that_day": 1879.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 2052.0,
+    "permanent_land_ha": 1571.7,
+    "land_share": 0.2641,
+    "land_change_ha": -1243.7,
+    "land_change_pct": -37.7,
+    "permanent_land_change_ha": -821.3
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-10-27",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261027_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.243,
+      "land_ha_that_day": 1889.6
+     },
+     {
+      "date": "2026-10-11",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261011_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.239,
+      "land_ha_that_day": 1855.6
+     },
+     {
+      "date": "2026-10-19",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20261019_02_T1"
+      ],
+      "clear_share": 0.872,
+      "land_share_that_day": 0.22,
+      "land_ha_that_day": 1493.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 7770.5,
+    "land_ha": 1823.4,
+    "permanent_land_ha": 1695.6,
+    "land_share": 0.2347,
+    "land_change_ha": -1472.3,
+    "land_change_pct": -44.7,
+    "permanent_land_change_ha": -697.4
+   }
+  }
+ },
+ "Wax Lake Delta": {
+  "box": [
+   -91.5,
+   29.44,
+   -91.38,
+   29.56
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-11-26",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19851126_02_T1",
+       "LT05_L2SP_023039_19851126_02_T1"
+      ],
+      "clear_share": 0.79,
+      "land_share_that_day": 0.204,
+      "land_ha_that_day": 2508.4
+     },
+     {
+      "date": "1985-11-10",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19851110_02_T1",
+       "LT05_L2SP_023039_19851110_02_T1"
+      ],
+      "clear_share": 0.976,
+      "land_share_that_day": 0.166,
+      "land_ha_that_day": 2516.4
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9989,
+    "box_ha": 15536.8,
+    "land_ha": 2602.1,
+    "permanent_land_ha": 2533.3,
+    "land_share": 0.1677,
+    "land_change_ha": 0.0,
+    "land_change_pct": 0.0,
+    "permanent_land_change_ha": 0.0
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-10-07",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19901007_02_T1",
+       "LT05_L2SP_023039_19901007_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.284,
+      "land_ha_that_day": 4406.3
+     },
+     {
+      "date": "1990-11-24",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19901124_02_T1",
+       "LT05_L2SP_023039_19901124_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.218,
+      "land_ha_that_day": 3388.4
+     },
+     {
+      "date": "1990-11-08",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19901108_02_T1",
+       "LT05_L2SP_023039_19901108_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.238,
+      "land_ha_that_day": 3691.9
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 3729.6,
+    "permanent_land_ha": 3331.6,
+    "land_share": 0.2401,
+    "land_change_ha": 1127.5,
+    "land_change_pct": 43.3,
+    "permanent_land_change_ha": 798.3
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-10-21",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19951021_02_T1",
+       "LT05_L2SP_023039_19951021_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.359,
+      "land_ha_that_day": 5580.4
+     },
+     {
+      "date": "1995-11-22",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19951122_02_T1",
+       "LT05_L2SP_023039_19951122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.361,
+      "land_ha_that_day": 5607.8
+     },
+     {
+      "date": "1995-11-06",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023039_19951106_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.335,
+      "land_ha_that_day": 5201.5
+     }
+    ],
+    "dropped_days": [
+     {
+      "date": "1995-10-05",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19951005_02_T2",
+       "LT05_L2SP_023039_19951005_02_T2"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.089,
+      "land_ha_that_day": 1379.0,
+      "dropped": "land share 0.09 vs composite 0.32 on the same pixels"
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 5364.7,
+    "permanent_land_ha": 4675.9,
+    "land_share": 0.3453,
+    "land_change_ha": 2762.6,
+    "land_change_pct": 106.2,
+    "permanent_land_change_ha": 2142.6
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-02",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20001002_02_T1",
+       "LT05_L2SP_023039_20001002_02_T1"
+      ],
+      "clear_share": 0.873,
+      "land_share_that_day": 0.344,
+      "land_ha_that_day": 4667.8
+     },
+     {
+      "date": "2000-10-26",
+      "platform": "landsat-7",
+      "path": "023",
+      "scenes": [
+       "LE07_L2SP_023040_20001026_02_T1",
+       "LE07_L2SP_023039_20001026_02_T1"
+      ],
+      "clear_share": 0.998,
+      "land_share_that_day": 0.372,
+      "land_ha_that_day": 5766.8
+     },
+     {
+      "date": "2000-11-27",
+      "platform": "landsat-7",
+      "path": "023",
+      "scenes": [
+       "LE07_L2SP_023040_20001127_02_T1",
+       "LE07_L2SP_023039_20001127_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.323,
+      "land_ha_that_day": 5018.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 5770.2,
+    "permanent_land_ha": 4651.7,
+    "land_share": 0.3714,
+    "land_change_ha": 3168.1,
+    "land_change_pct": 121.8,
+    "permanent_land_change_ha": 2118.4
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-10-16",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20051016_02_T1",
+       "LT05_L2SP_023039_20051016_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.286,
+      "land_ha_that_day": 4447.4
+     },
+     {
+      "date": "2005-11-17",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20051117_02_T1",
+       "LT05_L2SP_023039_20051117_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.492,
+      "land_ha_that_day": 7648.9
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 4787.1,
+    "permanent_land_ha": 4416.8,
+    "land_share": 0.3081,
+    "land_change_ha": 2185.0,
+    "land_change_pct": 84.0,
+    "permanent_land_change_ha": 1883.5
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-30",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20101030_02_T1",
+       "LT05_L2SP_023039_20101030_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.37,
+      "land_ha_that_day": 5753.6
+     },
+     {
+      "date": "2010-10-14",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20101014_02_T1",
+       "LT05_L2SP_023039_20101014_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.433,
+      "land_ha_that_day": 6732.3
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 6057.5,
+    "permanent_land_ha": 5676.1,
+    "land_share": 0.3899,
+    "land_change_ha": 3455.4,
+    "land_change_pct": 132.8,
+    "permanent_land_change_ha": 3142.8
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-10-12",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20151012_02_T1",
+       "LC08_L2SP_023039_20151012_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.486,
+      "land_ha_that_day": 7552.5
+     },
+     {
+      "date": "2015-10-28",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20151028_02_T1",
+       "LC08_L2SP_023039_20151028_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.43,
+      "land_ha_that_day": 6672.7
+     },
+     {
+      "date": "2015-11-13",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20151113_02_T1",
+       "LC08_L2SP_023039_20151113_02_T1"
+      ],
+      "clear_share": 0.91,
+      "land_share_that_day": 0.499,
+      "land_ha_that_day": 7055.6
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 7027.9,
+    "permanent_land_ha": 6526.1,
+    "land_share": 0.4523,
+    "land_change_ha": 4425.8,
+    "land_change_pct": 170.1,
+    "permanent_land_change_ha": 3992.8
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2019-10-23",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20191023_02_T1",
+       "LC08_L2SP_023039_20191023_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.367,
+      "land_ha_that_day": 5698.1
+     },
+     {
+      "date": "2021-10-28",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20211028_02_T1",
+       "LC08_L2SP_023039_20211028_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.348,
+      "land_ha_that_day": 5408.5
+     },
+     {
+      "date": "2021-10-12",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20211012_02_T1",
+       "LC08_L2SP_023039_20211012_02_T1"
+      ],
+      "clear_share": 0.983,
+      "land_share_that_day": 0.405,
+      "land_ha_that_day": 6188.1
+     }
+    ],
+    "dropped_days": [
+     {
+      "date": "2020-11-26",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20201126_02_T1",
+       "LC08_L2SP_023039_20201126_02_T1"
+      ],
+      "clear_share": 0.985,
+      "land_share_that_day": 0.584,
+      "land_ha_that_day": 8927.9,
+      "dropped": "land share 0.58 vs composite 0.38 on the same pixels"
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 5687.8,
+    "permanent_land_ha": 5131.5,
+    "land_share": 0.3661,
+    "land_change_ha": 3085.7,
+    "land_change_pct": 118.6,
+    "permanent_land_change_ha": 2598.2
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-10-20",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20241020_02_T1",
+       "LC08_L2SP_023039_20241020_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.488,
+      "land_ha_that_day": 7582.6
+     },
+     {
+      "date": "2024-10-12",
+      "platform": "landsat-9",
+      "path": "023",
+      "scenes": [
+       "LC09_L2SP_023040_20241012_02_T1",
+       "LC09_L2SP_023039_20241012_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.473,
+      "land_ha_that_day": 7355.5
+     },
+     {
+      "date": "2024-10-28",
+      "platform": "landsat-9",
+      "path": "023",
+      "scenes": [
+       "LC09_L2SP_023040_20241028_02_T1",
+       "LC09_L2SP_023039_20241028_02_T1"
+      ],
+      "clear_share": 0.965,
+      "land_share_that_day": 0.467,
+      "land_ha_that_day": 6998.2
+     },
+     {
+      "date": "2024-11-21",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20241121_02_T1",
+       "LC08_L2SP_023039_20241121_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.428,
+      "land_ha_that_day": 6642.3
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 7382.1,
+    "permanent_land_ha": 6523.6,
+    "land_share": 0.4751,
+    "land_change_ha": 4780.0,
+    "land_change_pct": 183.7,
+    "permanent_land_change_ha": 3990.3
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-10-10",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20261010_02_T1",
+       "LC08_L2SP_023039_20261010_02_T1"
+      ],
+      "clear_share": 0.992,
+      "land_share_that_day": 0.524,
+      "land_ha_that_day": 8071.0
+     },
+     {
+      "date": "2026-10-18",
+      "platform": "landsat-9",
+      "path": "023",
+      "scenes": [
+       "LC09_L2SP_023040_20261018_02_T1",
+       "LC09_L2SP_023039_20261018_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.525,
+      "land_ha_that_day": 8149.8
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 15536.8,
+    "land_ha": 8102.5,
+    "permanent_land_ha": 7981.0,
+    "land_share": 0.5215,
+    "land_change_ha": 5500.4,
+    "land_change_pct": 211.4,
+    "permanent_land_change_ha": 5447.7
+   }
+  }
+ },
+ "Atchafalaya Delta": {
+  "box": [
+   -91.36,
+   29.4,
+   -91.22,
+   29.52
+  ],
+  "base_year": 1985,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-11-26",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19851126_02_T1",
+       "LT05_L2SP_023039_19851126_02_T1"
+      ],
+      "clear_share": 0.933,
+      "land_share_that_day": 0.363,
+      "land_ha_that_day": 6141.5
+     },
+     {
+      "date": "1985-11-10",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19851110_02_T1",
+       "LT05_L2SP_023039_19851110_02_T1"
+      ],
+      "clear_share": 0.64,
+      "land_share_that_day": 0.354,
+      "land_ha_that_day": 4108.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9969,
+    "box_ha": 18143.0,
+    "land_ha": 6047.0,
+    "permanent_land_ha": 5900.0,
+    "land_share": 0.3343,
+    "land_change_ha": 0.0,
+    "land_change_pct": 0.0,
+    "permanent_land_change_ha": 0.0
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-10-16",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901016_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.395,
+      "land_ha_that_day": 7173.5
+     },
+     {
+      "date": "1990-10-07",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19901007_02_T1",
+       "LT05_L2SP_023039_19901007_02_T1"
+      ],
+      "clear_share": 0.986,
+      "land_share_that_day": 0.406,
+      "land_ha_that_day": 7258.5
+     },
+     {
+      "date": "1990-11-24",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19901124_02_T1",
+       "LT05_L2SP_023039_19901124_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.376,
+      "land_ha_that_day": 6817.2
+     },
+     {
+      "date": "1990-11-17",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901117_02_T1"
+      ],
+      "clear_share": 0.999,
+      "land_share_that_day": 0.41,
+      "land_ha_that_day": 7429.1
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 7132.3,
+    "permanent_land_ha": 6702.3,
+    "land_share": 0.3931,
+    "land_change_ha": 1085.3,
+    "land_change_pct": 17.9,
+    "permanent_land_change_ha": 802.3
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-10-21",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19951021_02_T1",
+       "LT05_L2SP_023039_19951021_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.477,
+      "land_ha_that_day": 8648.3
+     },
+     {
+      "date": "1995-11-22",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19951122_02_T1",
+       "LT05_L2SP_023039_19951122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.494,
+      "land_ha_that_day": 8970.7
+     },
+     {
+      "date": "1995-11-06",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023039_19951106_02_T1"
+      ],
+      "clear_share": 0.945,
+      "land_share_that_day": 0.476,
+      "land_ha_that_day": 8163.1
+     }
+    ],
+    "dropped_days": [
+     {
+      "date": "1995-10-05",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_19951005_02_T2",
+       "LT05_L2SP_023039_19951005_02_T2"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.194,
+      "land_ha_that_day": 3519.5,
+      "dropped": "land share 0.19 vs composite 0.45 on the same pixels"
+     }
+    ],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 8589.8,
+    "permanent_land_ha": 7578.2,
+    "land_share": 0.4734,
+    "land_change_ha": 2542.8,
+    "land_change_pct": 42.1,
+    "permanent_land_change_ha": 1678.2
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-02",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20001002_02_T1",
+       "LT05_L2SP_023039_20001002_02_T1"
+      ],
+      "clear_share": 0.537,
+      "land_share_that_day": 0.503,
+      "land_ha_that_day": 4894.6
+     },
+     {
+      "date": "2000-10-26",
+      "platform": "landsat-7",
+      "path": "023",
+      "scenes": [
+       "LE07_L2SP_023040_20001026_02_T1",
+       "LE07_L2SP_023039_20001026_02_T1"
+      ],
+      "clear_share": 0.987,
+      "land_share_that_day": 0.509,
+      "land_ha_that_day": 9120.8
+     },
+     {
+      "date": "2000-10-27",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20001027_02_T1"
+      ],
+      "clear_share": 0.807,
+      "land_share_that_day": 0.544,
+      "land_ha_that_day": 7964.0
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001003_02_T1"
+      ],
+      "clear_share": 0.874,
+      "land_share_that_day": 0.524,
+      "land_ha_that_day": 8313.5
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9989,
+    "box_ha": 18143.0,
+    "land_ha": 9221.6,
+    "permanent_land_ha": 8969.9,
+    "land_share": 0.5088,
+    "land_change_ha": 3174.6,
+    "land_change_pct": 52.5,
+    "permanent_land_change_ha": 3069.9
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-10-16",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20051016_02_T1",
+       "LT05_L2SP_023039_20051016_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.502,
+      "land_ha_that_day": 9110.9
+     },
+     {
+      "date": "2005-10-25",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051025_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.502,
+      "land_ha_that_day": 9115.2
+     },
+     {
+      "date": "2005-10-09",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051009_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.495,
+      "land_ha_that_day": 8977.0
+     },
+     {
+      "date": "2005-11-17",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20051117_02_T1",
+       "LT05_L2SP_023039_20051117_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.646,
+      "land_ha_that_day": 11726.6
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 9125.1,
+    "permanent_land_ha": 8907.3,
+    "land_share": 0.503,
+    "land_change_ha": 3078.1,
+    "land_change_pct": 50.9,
+    "permanent_land_change_ha": 3007.3
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-30",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20101030_02_T1",
+       "LT05_L2SP_023039_20101030_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.567,
+      "land_ha_that_day": 10290.8
+     },
+     {
+      "date": "2010-10-14",
+      "platform": "landsat-5",
+      "path": "023",
+      "scenes": [
+       "LT05_L2SP_023040_20101014_02_T1",
+       "LT05_L2SP_023039_20101014_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.575,
+      "land_ha_that_day": 10429.4
+     },
+     {
+      "date": "2010-10-07",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101007_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.585,
+      "land_ha_that_day": 10616.3
+     },
+     {
+      "date": "2010-11-24",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101124_02_T1"
+      ],
+      "clear_share": 0.895,
+      "land_share_that_day": 0.579,
+      "land_ha_that_day": 9401.6
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 10431.6,
+    "permanent_land_ha": 10080.6,
+    "land_share": 0.575,
+    "land_change_ha": 4384.6,
+    "land_change_pct": 72.5,
+    "permanent_land_change_ha": 4180.6
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-10-12",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20151012_02_T1",
+       "LC08_L2SP_023039_20151012_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.642,
+      "land_ha_that_day": 11652.3
+     },
+     {
+      "date": "2015-10-28",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20151028_02_T1",
+       "LC08_L2SP_023039_20151028_02_T1"
+      ],
+      "clear_share": 0.997,
+      "land_share_that_day": 0.611,
+      "land_ha_that_day": 11049.3
+     },
+     {
+      "date": "2015-11-13",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20151113_02_T1",
+       "LC08_L2SP_023039_20151113_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.638,
+      "land_ha_that_day": 11566.8
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 11352.6,
+    "permanent_land_ha": 10895.6,
+    "land_share": 0.6257,
+    "land_change_ha": 5305.6,
+    "land_change_pct": 87.7,
+    "permanent_land_change_ha": 4995.6
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-10-02",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201002_02_T1"
+      ],
+      "clear_share": 0.804,
+      "land_share_that_day": 0.628,
+      "land_ha_that_day": 9159.5
+     },
+     {
+      "date": "2020-10-18",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201018_02_T1"
+      ],
+      "clear_share": 0.779,
+      "land_share_that_day": 0.584,
+      "land_ha_that_day": 8247.4
+     },
+     {
+      "date": "2020-11-19",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201119_02_T1"
+      ],
+      "clear_share": 0.704,
+      "land_share_that_day": 0.59,
+      "land_ha_that_day": 7536.9
+     },
+     {
+      "date": "2020-11-26",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20201126_02_T1",
+       "LC08_L2SP_023039_20201126_02_T1"
+      ],
+      "clear_share": 0.991,
+      "land_share_that_day": 0.67,
+      "land_ha_that_day": 12050.3
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9935,
+    "box_ha": 18143.0,
+    "land_ha": 11162.1,
+    "permanent_land_ha": 8165.8,
+    "land_share": 0.6193,
+    "land_change_ha": 5115.1,
+    "land_change_pct": 84.6,
+    "permanent_land_change_ha": 2265.8
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-10-20",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20241020_02_T1",
+       "LC08_L2SP_023039_20241020_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.637,
+      "land_ha_that_day": 11554.7
+     },
+     {
+      "date": "2024-10-13",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20241013_02_T1"
+      ],
+      "clear_share": 0.887,
+      "land_share_that_day": 0.658,
+      "land_ha_that_day": 10588.5
+     },
+     {
+      "date": "2024-10-12",
+      "platform": "landsat-9",
+      "path": "023",
+      "scenes": [
+       "LC09_L2SP_023040_20241012_02_T1",
+       "LC09_L2SP_023039_20241012_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.631,
+      "land_ha_that_day": 11450.6
+     },
+     {
+      "date": "2024-10-21",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241021_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.639,
+      "land_ha_that_day": 11589.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 11497.5,
+    "permanent_land_ha": 11338.2,
+    "land_share": 0.6337,
+    "land_change_ha": 5450.5,
+    "land_change_pct": 90.1,
+    "permanent_land_change_ha": 5438.2
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-10-10",
+      "platform": "landsat-8",
+      "path": "023",
+      "scenes": [
+       "LC08_L2SP_023040_20261010_02_T1",
+       "LC08_L2SP_023039_20261010_02_T1"
+      ],
+      "clear_share": 0.959,
+      "land_share_that_day": 0.674,
+      "land_ha_that_day": 11721.7
+     },
+     {
+      "date": "2026-10-27",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261027_02_T1"
+      ],
+      "clear_share": 0.735,
+      "land_share_that_day": 0.695,
+      "land_ha_that_day": 9273.8
+     },
+     {
+      "date": "2026-10-11",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261011_02_T1"
+      ],
+      "clear_share": 0.919,
+      "land_share_that_day": 0.698,
+      "land_ha_that_day": 11633.6
+     },
+     {
+      "date": "2026-10-18",
+      "platform": "landsat-9",
+      "path": "023",
+      "scenes": [
+       "LC09_L2SP_023040_20261018_02_T1",
+       "LC09_L2SP_023039_20261018_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.665,
+      "land_ha_that_day": 12071.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 18143.0,
+    "land_ha": 12088.3,
+    "permanent_land_ha": 11952.2,
+    "land_share": 0.6663,
+    "land_change_ha": 6041.3,
+    "land_change_pct": 99.9,
+    "permanent_land_change_ha": 6052.2
+   }
+  }
+ },
+ "Barataria": {
+  "box": [
+   -90.1,
+   29.4,
+   -89.85,
+   29.65
+  ],
+  "base_year": 1990,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-11-19",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19851119_02_T1",
+       "LT05_L2SP_022039_19851119_02_T1"
+      ],
+      "clear_share": 0.852,
+      "land_share_that_day": 0.456,
+      "land_ha_that_day": 26192.5
+     },
+     {
+      "date": "1984-10-15",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19841015_02_T1",
+       "LT05_L2SP_022039_19841015_02_T1"
+      ],
+      "clear_share": 0.574,
+      "land_share_that_day": 0.38,
+      "land_ha_that_day": 14670.6
+     }
+    ],
+    "dropped_days": [
+     {
+      "date": "1985-10-02",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022039_19851002_02_T1"
+      ],
+      "clear_share": 0.574,
+      "land_share_that_day": 0.2,
+      "land_ha_that_day": 7728.9,
+      "dropped": "land share 0.20 vs composite 0.41 on the same pixels"
+     }
+    ],
+    "valid_share": 0.9555,
+    "box_ha": 67364.3,
+    "land_ha": 26307.5,
+    "permanent_land_ha": 23228.4,
+    "land_share": 0.4087,
+    "land_change_ha": -6439.5,
+    "land_change_pct": -19.7,
+    "permanent_land_change_ha": -8055.6
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-10-16",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901016_02_T1",
+       "LT05_L2SP_022039_19901016_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.493,
+      "land_ha_that_day": 33164.0
+     },
+     {
+      "date": "1990-11-17",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901117_02_T1",
+       "LT05_L2SP_022039_19901117_02_T1"
+      ],
+      "clear_share": 0.999,
+      "land_share_that_day": 0.47,
+      "land_ha_that_day": 31655.2
+     },
+     {
+      "date": "1990-11-01",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901101_02_T1",
+       "LT05_L2SP_022039_19901101_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.491,
+      "land_ha_that_day": 33078.8
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 32747.0,
+    "permanent_land_ha": 31284.0,
+    "land_share": 0.4861,
+    "land_change_ha": 0.0,
+    "land_change_pct": 0.0,
+    "permanent_land_change_ha": 0.0
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-11-15",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19951115_02_T1",
+       "LT05_L2SP_022039_19951115_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.506,
+      "land_ha_that_day": 34085.2
+     },
+     {
+      "date": "1995-12-01",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19951201_02_T2"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.444,
+      "land_ha_that_day": 29915.4
+     },
+     {
+      "date": "1995-09-28",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19950928_02_T2",
+       "LT05_L2SP_022039_19950928_02_T2"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.419,
+      "land_ha_that_day": 28233.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 30103.6,
+    "permanent_land_ha": 13647.2,
+    "land_share": 0.4469,
+    "land_change_ha": -2643.4,
+    "land_change_pct": -8.1,
+    "permanent_land_change_ha": -17636.8
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-11",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20001011_02_T1",
+       "LT05_L2SP_022039_20001011_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.496,
+      "land_ha_that_day": 33386.6
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001003_02_T1",
+       "LE07_L2SP_022039_20001003_02_T1"
+      ],
+      "clear_share": 0.919,
+      "land_share_that_day": 0.49,
+      "land_ha_that_day": 30331.3
+     },
+     {
+      "date": "2000-10-19",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001019_02_T1",
+       "LE07_L2SP_022039_20001019_02_T1"
+      ],
+      "clear_share": 0.928,
+      "land_share_that_day": 0.452,
+      "land_ha_that_day": 28269.5
+     },
+     {
+      "date": "2000-11-20",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001120_02_T1",
+       "LE07_L2SP_022039_20001120_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.47,
+      "land_ha_that_day": 31638.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 32444.4,
+    "permanent_land_ha": 30715.6,
+    "land_share": 0.4816,
+    "land_change_ha": -302.6,
+    "land_change_pct": -0.9,
+    "permanent_land_change_ha": -568.4
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-10-25",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051025_02_T1",
+       "LT05_L2SP_022039_20051025_02_T1"
+      ],
+      "clear_share": 0.964,
+      "land_share_that_day": 0.445,
+      "land_ha_that_day": 28902.9
+     },
+     {
+      "date": "2005-10-09",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051009_02_T1",
+       "LT05_L2SP_022039_20051009_02_T1"
+      ],
+      "clear_share": 0.999,
+      "land_share_that_day": 0.428,
+      "land_ha_that_day": 28789.3
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 29194.1,
+    "permanent_land_ha": 28237.6,
+    "land_share": 0.4334,
+    "land_change_ha": -3552.9,
+    "land_change_pct": -10.8,
+    "permanent_land_change_ha": -3046.4
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-07",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101007_02_T1",
+       "LT05_L2SP_022039_20101007_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.465,
+      "land_ha_that_day": 31330.4
+     },
+     {
+      "date": "2010-11-08",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101108_02_T1",
+       "LT05_L2SP_022039_20101108_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.477,
+      "land_ha_that_day": 32131.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 31705.7,
+    "permanent_land_ha": 30920.6,
+    "land_share": 0.4707,
+    "land_change_ha": -1041.3,
+    "land_change_pct": -3.2,
+    "permanent_land_change_ha": -363.4
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-10-21",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151021_02_T1",
+       "LC08_L2SP_022039_20151021_02_T1"
+      ],
+      "clear_share": 0.643,
+      "land_share_that_day": 0.524,
+      "land_ha_that_day": 22717.0
+     },
+     {
+      "date": "2015-10-05",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151005_02_T1",
+       "LC08_L2SP_022039_20151005_02_T1"
+      ],
+      "clear_share": 0.523,
+      "land_share_that_day": 0.366,
+      "land_ha_that_day": 12896.4
+     },
+     {
+      "date": "2015-11-22",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151122_02_T1",
+       "LC08_L2SP_022039_20151122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.469,
+      "land_ha_that_day": 31595.3
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 31782.1,
+    "permanent_land_ha": 31137.6,
+    "land_share": 0.4718,
+    "land_change_ha": -964.9,
+    "land_change_pct": -2.9,
+    "permanent_land_change_ha": -146.4
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-10-02",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201002_02_T1",
+       "LC08_L2SP_022039_20201002_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.456,
+      "land_ha_that_day": 30699.8
+     },
+     {
+      "date": "2020-10-18",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201018_02_T1",
+       "LC08_L2SP_022039_20201018_02_T1"
+      ],
+      "clear_share": 0.919,
+      "land_share_that_day": 0.442,
+      "land_ha_that_day": 27367.8
+     },
+     {
+      "date": "2020-11-19",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201119_02_T1",
+       "LC08_L2SP_022039_20201119_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.45,
+      "land_ha_that_day": 30332.0
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 30278.0,
+    "permanent_land_ha": 29503.3,
+    "land_share": 0.4495,
+    "land_change_ha": -2469.0,
+    "land_change_pct": -7.5,
+    "permanent_land_change_ha": -1780.7
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-10-21",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241021_02_T1",
+       "LC09_L2SP_022039_20241021_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.408,
+      "land_ha_that_day": 27495.2
+     },
+     {
+      "date": "2024-10-13",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20241013_02_T1",
+       "LC08_L2SP_022039_20241013_02_T1"
+      ],
+      "clear_share": 0.981,
+      "land_share_that_day": 0.393,
+      "land_ha_that_day": 25957.7
+     },
+     {
+      "date": "2024-11-22",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241122_02_T1",
+       "LC09_L2SP_022039_20241122_02_T1"
+      ],
+      "clear_share": 0.997,
+      "land_share_that_day": 0.421,
+      "land_ha_that_day": 28289.4
+     },
+     {
+      "date": "2024-11-30",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20241130_02_T1",
+       "LC08_L2SP_022039_20241130_02_T1"
+      ],
+      "clear_share": 0.997,
+      "land_share_that_day": 0.428,
+      "land_ha_that_day": 28777.1
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 27839.0,
+    "permanent_land_ha": 26586.9,
+    "land_share": 0.4133,
+    "land_change_ha": -4908.0,
+    "land_change_pct": -15.0,
+    "permanent_land_change_ha": -4697.1
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-10-11",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261011_02_T1",
+       "LC09_L2SP_022039_20261011_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.406,
+      "land_ha_that_day": 27358.6
+     },
+     {
+      "date": "2026-10-27",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261027_02_T1",
+       "LC09_L2SP_022039_20261027_02_T1"
+      ],
+      "clear_share": 0.978,
+      "land_share_that_day": 0.412,
+      "land_ha_that_day": 27142.5
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 67364.3,
+    "land_ha": 27499.8,
+    "permanent_land_ha": 27061.3,
+    "land_share": 0.4082,
+    "land_change_ha": -5247.2,
+    "land_change_pct": -16.0,
+    "permanent_land_change_ha": -4222.7
+   }
+  }
+ },
+ "Isle de Jean Charles ridge": {
+  "box": [
+   -90.5,
+   29.38,
+   -90.475,
+   29.43
+  ],
+  "base_year": 1990,
+  "years": {
+   "1985": {
+    "days": [
+     {
+      "date": "1985-10-18",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19851018_02_T1"
+      ],
+      "clear_share": 0.35,
+      "land_share_that_day": 0.332,
+      "land_ha_that_day": 904.1
+     },
+     {
+      "date": "1985-11-19",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19851119_02_T1"
+      ],
+      "clear_share": 0.708,
+      "land_share_that_day": 0.568,
+      "land_ha_that_day": 3124.5
+     },
+     {
+      "date": "1984-10-15",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19841015_02_T1"
+      ],
+      "clear_share": 0.371,
+      "land_share_that_day": 0.425,
+      "land_ha_that_day": 1223.8
+     },
+     {
+      "date": "1985-09-16",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022041_19850916_02_T2"
+      ],
+      "clear_share": 0.88,
+      "land_share_that_day": 0.432,
+      "land_ha_that_day": 2952.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9684,
+    "box_ha": 1347.6,
+    "land_ha": 454.3,
+    "permanent_land_ha": 346.1,
+    "land_share": 0.3481,
+    "land_change_ha": -30.1,
+    "land_change_pct": -6.2,
+    "permanent_land_change_ha": -92.0
+   },
+   "1990": {
+    "days": [
+     {
+      "date": "1990-10-16",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901016_02_T1"
+      ],
+      "clear_share": 0.993,
+      "land_share_that_day": 0.433,
+      "land_ha_that_day": 3338.1
+     },
+     {
+      "date": "1990-11-17",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901117_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.392,
+      "land_ha_that_day": 3045.4
+     },
+     {
+      "date": "1990-11-01",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19901101_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.426,
+      "land_ha_that_day": 3311.9
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 484.4,
+    "permanent_land_ha": 438.1,
+    "land_share": 0.3594,
+    "land_change_ha": 0.0,
+    "land_change_pct": 0.0,
+    "permanent_land_change_ha": 0.0
+   },
+   "1995": {
+    "days": [
+     {
+      "date": "1995-11-15",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19951115_02_T1"
+      ],
+      "clear_share": 0.997,
+      "land_share_that_day": 0.395,
+      "land_ha_that_day": 3063.6
+     },
+     {
+      "date": "1994-10-27",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_19941027_02_T1"
+      ],
+      "clear_share": 0.994,
+      "land_share_that_day": 0.531,
+      "land_ha_that_day": 4100.8
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 536.2,
+    "permanent_land_ha": 471.0,
+    "land_share": 0.3979,
+    "land_change_ha": 51.8,
+    "land_change_pct": 10.7,
+    "permanent_land_change_ha": 32.9
+   },
+   "2000": {
+    "days": [
+     {
+      "date": "2000-10-27",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20001027_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.346,
+      "land_ha_that_day": 2689.3
+     },
+     {
+      "date": "2000-10-11",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20001011_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.354,
+      "land_ha_that_day": 2748.6
+     },
+     {
+      "date": "2000-10-03",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001003_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.367,
+      "land_ha_that_day": 2849.8
+     },
+     {
+      "date": "2000-11-20",
+      "platform": "landsat-7",
+      "path": "022",
+      "scenes": [
+       "LE07_L2SP_022040_20001120_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.325,
+      "land_ha_that_day": 2528.1
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 393.6,
+    "permanent_land_ha": 359.8,
+    "land_share": 0.2921,
+    "land_change_ha": -90.8,
+    "land_change_pct": -18.7,
+    "permanent_land_change_ha": -78.3
+   },
+   "2005": {
+    "days": [
+     {
+      "date": "2005-10-25",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051025_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.28,
+      "land_ha_that_day": 2177.1
+     },
+     {
+      "date": "2005-10-09",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20051009_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.292,
+      "land_ha_that_day": 2266.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 0.9999,
+    "box_ha": 1347.6,
+    "land_ha": 323.4,
+    "permanent_land_ha": 311.7,
+    "land_share": 0.24,
+    "land_change_ha": -161.0,
+    "land_change_pct": -33.2,
+    "permanent_land_change_ha": -126.4
+   },
+   "2010": {
+    "days": [
+     {
+      "date": "2010-10-07",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101007_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.28,
+      "land_ha_that_day": 2176.2
+     },
+     {
+      "date": "2010-11-24",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101124_02_T1"
+      ],
+      "clear_share": 0.878,
+      "land_share_that_day": 0.268,
+      "land_ha_that_day": 1825.0
+     },
+     {
+      "date": "2010-11-08",
+      "platform": "landsat-5",
+      "path": "022",
+      "scenes": [
+       "LT05_L2SP_022040_20101108_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.319,
+      "land_ha_that_day": 2475.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 318.8,
+    "permanent_land_ha": 297.1,
+    "land_share": 0.2365,
+    "land_change_ha": -165.6,
+    "land_change_pct": -34.2,
+    "permanent_land_change_ha": -141.0
+   },
+   "2015": {
+    "days": [
+     {
+      "date": "2015-10-21",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151021_02_T1"
+      ],
+      "clear_share": 0.793,
+      "land_share_that_day": 0.324,
+      "land_ha_that_day": 1996.7
+     },
+     {
+      "date": "2015-10-05",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151005_02_T1"
+      ],
+      "clear_share": 0.968,
+      "land_share_that_day": 0.309,
+      "land_ha_that_day": 2323.3
+     },
+     {
+      "date": "2015-11-22",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20151122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.349,
+      "land_ha_that_day": 2711.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 344.3,
+    "permanent_land_ha": 316.9,
+    "land_share": 0.2555,
+    "land_change_ha": -140.1,
+    "land_change_pct": -28.9,
+    "permanent_land_change_ha": -121.2
+   },
+   "2020": {
+    "days": [
+     {
+      "date": "2020-10-02",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201002_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.293,
+      "land_ha_that_day": 2276.6
+     },
+     {
+      "date": "2020-10-18",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201018_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.287,
+      "land_ha_that_day": 2231.5
+     },
+     {
+      "date": "2020-11-19",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20201119_02_T1"
+      ],
+      "clear_share": 0.916,
+      "land_share_that_day": 0.31,
+      "land_ha_that_day": 2207.0
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 325.1,
+    "permanent_land_ha": 306.2,
+    "land_share": 0.2413,
+    "land_change_ha": -159.3,
+    "land_change_pct": -32.9,
+    "permanent_land_change_ha": -131.9
+   },
+   "2024": {
+    "days": [
+     {
+      "date": "2024-10-21",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241021_02_T1",
+       "LC09_L2SP_022039_20241021_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.273,
+      "land_ha_that_day": 2121.6
+     },
+     {
+      "date": "2024-10-13",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20241013_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.211,
+      "land_ha_that_day": 1638.2
+     },
+     {
+      "date": "2024-11-22",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241122_02_T1",
+       "LC09_L2SP_022039_20241122_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.301,
+      "land_ha_that_day": 2340.0
+     },
+     {
+      "date": "2024-11-06",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20241106_02_T1"
+      ],
+      "clear_share": 0.956,
+      "land_share_that_day": 0.253,
+      "land_ha_that_day": 1879.7
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 306.2,
+    "permanent_land_ha": 237.5,
+    "land_share": 0.2272,
+    "land_change_ha": -178.2,
+    "land_change_pct": -36.8,
+    "permanent_land_change_ha": -200.6
+   },
+   "2026": {
+    "days": [
+     {
+      "date": "2026-10-27",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261027_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.243,
+      "land_ha_that_day": 1889.6
+     },
+     {
+      "date": "2026-10-11",
+      "platform": "landsat-9",
+      "path": "022",
+      "scenes": [
+       "LC09_L2SP_022040_20261011_02_T1"
+      ],
+      "clear_share": 1.0,
+      "land_share_that_day": 0.239,
+      "land_ha_that_day": 1855.6
+     },
+     {
+      "date": "2026-10-19",
+      "platform": "landsat-8",
+      "path": "022",
+      "scenes": [
+       "LC08_L2SP_022040_20261019_02_T1"
+      ],
+      "clear_share": 0.872,
+      "land_share_that_day": 0.22,
+      "land_ha_that_day": 1493.2
+     }
+    ],
+    "dropped_days": [],
+    "valid_share": 1.0,
+    "box_ha": 1347.6,
+    "land_ha": 273.5,
+    "permanent_land_ha": 258.0,
+    "land_share": 0.2029,
+    "land_change_ha": -210.9,
+    "land_change_pct": -43.5,
+    "permanent_land_change_ha": -180.1
+   }
+  }
+ },
+ "method": "Landsat Collection 2 Level-2 surface reflectance (USGS, via Microsoft Planetary Computer), Landsat 5 TM / 8-9 OLI (Landsat 7 ETM+ after May 2003 only as a last resort), 30 m pixels resampled to a 15 m grid per site box. Per site and year: up to 4 October-November days (October ranked first; partly cloudy days >=30 % clear are added until every pixel has a clear observation, at least one day >=85 % clear) after the QA_PIXEL cloud / dilated-cloud / shadow mask; same-day scenes of one path joined; a day whose land share on its clear pixels differs from the composite by >0.2 is dropped (haze); if the box is not covered, the window widens to Oct-Nov of the neighbouring years, then Sep-Dec of the year. 1985 may use Oct-Nov 1984. Water = per-pixel median MNDWI (green - SWIR 1.6 um)/(green + SWIR) > 0 over the clear days; land = the rest (MNDWI <= 0 threshold, not tuned per site). permanent_land = land on every clear day. land_change = land in that year minus land in the base year inside the fixed box. CAVEATS: 'land' means land or vegetated marsh above water on those days: emergent and floating marsh (flotant) reads as land, so marsh that is still there but degraded or floating counts, and loss is the conversion of marsh to open water. Water level on each day (tide range ~0.3 m, but cold-front north winds in Nov push water out and expose mudflats, south winds and river stage push it in) moves the wet edge on the flat deltas and marsh fringes; bare wet mud can read either way, and on the Wax Lake / Atchafalaya deltas subaqueous bars and shallow mudflats are counted only when exposed. Sediment-laden water near the river outlets lowers MNDWI a little. Single years are noisy (see land_ha_that_day for the spread within a composite); read decades. Hectares are ground hectares (Mercator scale corrected)."
+}

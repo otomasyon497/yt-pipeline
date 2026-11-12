@@ -1,0 +1,308 @@
+{
+ "title": "Indonesia's Sea Wall Began With a Row of Trees",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/jakarta-sinking research.md, verification.md and demak_shoreline.json."
+ ],
+ "thumbnail": {
+  "text": "THE WALL",
+  "focus": [
+   110.505,
+   -6.905,
+   0.12
+  ]
+ },
+ "chapters": [
+  {
+   "title": "A Wall of Trees",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "This village on the coast of Java, in 1990. And here it is this year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.505,
+           "lat": -6.905,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31",
+          "compare": {
+           "before": "1990-06-01/1990-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "source": "landsat",
+           "seconds": 1.8,
+           "until": "And here"
+          }
+         },
+         {
+          "at": "And here",
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "TIMBULSLOKO"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Real satellite images · Landsat"
+      }
+     ]
+    },
+    {
+     "text": "We measured it. Around Timbulsloko, nine tenths of the land has turned to water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.517,
+           "lat": -6.913,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "TIMBULSLOKO"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "~90% of the land: now water · our measurement"
+      }
+     ]
+    },
+    {
+     "text": "In October, officials planted mangroves here and called it the start of Indonesia's Giant Sea Wall.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.51,
+           "lat": -6.905,
+           "span": 0.04
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "October 19, 2026"
+      },
+      {
+       "type": "map",
+       "at": "and called",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.525,
+           "lat": -6.92,
+           "span": 0.06
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The 'start' of the Giant Sea Wall"
+      }
+     ]
+    },
+    {
+     "text": "The wall is planned to run about five hundred and seventy-five kilometres along Java's north coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": -6.7,
+           "span": 7.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.15,
+             -6.03
+            ],
+            "to": [
+             112.65,
+             -7.1
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "About 575 km",
+            "via": [
+             [
+              106.8,
+              -6.07
+             ],
+             [
+              107.6,
+              -6.2
+             ],
+             [
+              108.57,
+              -6.7
+             ],
+             [
+              109.68,
+              -6.86
+             ],
+             [
+              110.43,
+              -6.93
+             ],
+             [
+              111.1,
+              -6.55
+             ],
+             [
+              112.05,
+              -6.88
+             ]
+            ]
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 575 km"
+      },
+      {
+       "type": "map",
+       "at": "along Java's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.3,
+           "lat": -6.85,
+           "span": 1.2
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      }
+     ]
+    },
+    {
+     "text": "Three weeks later, residents told a local paper the seedlings had died.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.512,
+           "lat": -6.918,
+           "span": 0.04
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "TIMBULSLOKO"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Residents: the seedlings died"
+      }
+     ]
+    },
+    {
+     "text": "Can a wall save a coast that is already under water?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.5,
+           "lat": -6.9,
+           "span": 0.14
+          },
+          "places": [
+           {
+            "name": "Timbulsloko",
+            "lon": 110.518,
+            "lat": -6.914,
+            "kind": "city",
+            "label": "TIMBULSLOKO"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Can a wall save it?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Indonesia's Giant Sea Wall Began With a Row of Trees",
+  "description": "Timbulsloko, on Java's north coast, from orbit in 1990 and 2026: we measured about nine tenths of the land around the village turned to water. In October 2026 officials planted mangroves here as the start of a sea wall planned to run about 575 km.\n\nFull documentary on the channel: Sinking Jakarta\n\n#geography #satellite #indonesia",
+  "tags": [
+   "Giant Sea Wall",
+   "Indonesia",
+   "Java",
+   "Demak",
+   "Timbulsloko",
+   "sinking land",
+   "mangroves",
+   "satellite images",
+   "before and after",
+   "Landsat",
+   "shorts"
+  ],
+  "pinned_comment": "Can a wall save a coast that is already under water?"
+ }
+}

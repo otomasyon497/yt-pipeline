@@ -151,8 +151,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.52,
-           "lat": -6.885,
+           "lon": 110.472,
+           "lat": -6.918,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -227,8 +227,8 @@
            },
            {
             "name": "Bedono",
-            "lon": 110.472,
-            "lat": -6.918,
+            "lon": 110.48467,
+            "lat": -6.92716,
             "kind": "city",
             "label": "Bedono"
            }
@@ -271,8 +271,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.46,
-           "lat": -6.93,
+           "lon": 110.52,
+           "lat": -6.885,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -289,8 +289,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.505,
-           "lat": -6.9,
+           "lon": 110.46,
+           "lat": -6.93,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -1154,7 +1154,7 @@
      ]
     },
     {
-     "text": "But slower is not stopped. Studies of the last ten years still find several centimetres a year along the north coast, roughly ten times the rise of the sea. And land that has sunk does not come back up.",
+     "text": "But slower is not stopped. Studies of the last few years still find several centimetres a year along the north coast, close to ten times the rise of the sea. And land that has sunk does not come back up.",
      "shots": [
       {
        "type": "map",
@@ -1183,7 +1183,7 @@
       },
       {
        "type": "map",
-       "at": 9,
+       "at": 10,
        "map": {
         "steps": [
          {
@@ -1201,7 +1201,7 @@
       },
       {
        "type": "map",
-       "at": 19,
+       "at": 20,
        "map": {
         "steps": [
          {
@@ -1582,17 +1582,17 @@
         "steps": [
          {
           "view": {
-           "lon": 106.7997,
-           "lat": -6.106,
+           "lon": 106.8002,
+           "lat": -6.109,
            "span": 0.035
           },
           "places": [
            {
-            "name": "Muara Baru",
-            "lon": 106.805,
-            "lat": -6.103,
+            "name": "Wal Adhuna",
+            "lon": 106.8065,
+            "lat": -6.11107,
             "kind": "site",
-            "label": "Muara Baru"
+            "label": "Wal Adhuna mosque"
            }
           ],
           "date": "2026-06-01/2026-10-31"
@@ -2913,16 +2913,62 @@
      ]
     },
     {
-     "text": "For 2026 the city's authority got about six point three trillion rupiah. In his State of the Nation speech in August 2026, Prabowo did not mention Nusantara at all.",
+     "text": "The money has shrunk year by year: about forty-three trillion rupiah in 2024, thirteen trillion in 2025, six point three trillion in 2026. About ten thousand people have moved in, against the half a million once planned. In his State of the Nation speech in August 2026, Prabowo did not mention Nusantara at all.",
      "shots": [
       {
-       "type": "stat",
+       "type": "chart",
        "at": 0,
-       "stat": {
-        "value": "Rp 6.3 trillion",
-        "label": "Nusantara authority budget, 2026",
-        "source": "The Jakarta Post, Aug 20, 2026"
+       "chart": {
+        "type": "bar",
+        "title": "Nusantara budget, trillion rupiah",
+        "unit": " T",
+        "data": [
+         [
+          "2024",
+          43
+         ],
+         [
+          "2025",
+          13
+         ],
+         [
+          "2026",
+          6.3
+         ]
+        ],
+        "source": "ABC News, Oct 19, 2026; The Jakarta Post, Aug 2026",
+        "highlight": 2,
+        "reveal": [
+         "thirteen trillion",
+         "six point"
+        ]
        }
+      },
+      {
+       "type": "stat",
+       "at": "About ten",
+       "stat": {
+        "value": "~10,000",
+        "label": "People who have moved to Nusantara so far (plan: 500,000 at first)",
+        "source": "ABC News, Oct 19, 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.75,
+           "lat": -0.95,
+           "span": 0.09
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara"
       },
       {
        "type": "map",
@@ -2937,18 +2983,19 @@
           },
           "date": "2026-06-01/2026-10-31"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
        "type": "map",
-       "at": 20,
+       "at": 45,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -2996,8 +3043,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -3013,9 +3060,9 @@
         "steps": [
          {
           "view": {
-           "lon": 116.72,
-           "lat": -0.985,
-           "span": 0.09
+           "lon": 116.6962,
+           "lat": -0.9587,
+           "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3031,8 +3078,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.6962,
-           "lat": -0.9587,
+           "lon": 116.71,
+           "lat": -0.95,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3116,8 +3163,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.71,
-           "lat": -0.95,
+           "lon": 116.73,
+           "lat": -0.93,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3134,8 +3181,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.73,
-           "lat": -0.93,
+           "lon": 116.75,
+           "lat": -0.95,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3174,8 +3221,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.75,
-           "lat": -0.95,
+           "lon": 116.68,
+           "lat": -0.945,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3209,8 +3256,8 @@
         "steps": [
          {
           "view": {
-           "lon": 116.68,
-           "lat": -0.945,
+           "lon": 116.72,
+           "lat": -0.985,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"
@@ -3369,8 +3416,8 @@
            },
            {
             "name": "Bedono",
-            "lon": 110.472,
-            "lat": -6.918,
+            "lon": 110.48467,
+            "lat": -6.92716,
             "kind": "city",
             "label": "Bedono"
            }
@@ -3393,8 +3440,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.53,
-           "lat": -6.925,
+           "lon": 110.505,
+           "lat": -6.9,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -3411,8 +3458,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.49,
-           "lat": -6.91,
+           "lon": 110.53,
+           "lat": -6.925,
            "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
@@ -3435,9 +3482,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.472,
-           "lat": -6.918,
-           "span": 0.07
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.05
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3461,8 +3508,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.518,
-           "lat": -6.914,
+           "lon": 110.472,
+           "lat": -6.918,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -3511,8 +3558,8 @@
            },
            {
             "name": "Bedono",
-            "lon": 110.472,
-            "lat": -6.918,
+            "lon": 110.48467,
+            "lat": -6.92716,
             "kind": "city",
             "label": "Bedono"
            }
@@ -3538,8 +3585,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.52,
-           "lat": -6.885,
+           "lon": 110.518,
+           "lat": -6.914,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -3581,8 +3628,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.46,
-           "lat": -6.93,
+           "lon": 110.52,
+           "lat": -6.885,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -3599,8 +3646,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.505,
-           "lat": -6.9,
+           "lon": 110.46,
+           "lat": -6.93,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -3639,15 +3686,15 @@
         "steps": [
          {
           "view": {
-           "lon": 110.472,
-           "lat": -6.918,
+           "lon": 110.485,
+           "lat": -6.925,
            "span": 0.05
           },
           "places": [
            {
             "name": "Bedono",
-            "lon": 110.472,
-            "lat": -6.918,
+            "lon": 110.48467,
+            "lat": -6.92716,
             "kind": "city",
             "label": "Bedono"
            }
@@ -3665,8 +3712,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.53,
-           "lat": -6.925,
+           "lon": 110.505,
+           "lat": -6.9,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -3689,8 +3736,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.49,
-           "lat": -6.91,
+           "lon": 110.53,
+           "lat": -6.925,
            "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
@@ -3706,9 +3753,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.472,
-           "lat": -6.918,
-           "span": 0.09
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.07
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3755,8 +3802,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.518,
-           "lat": -6.914,
+           "lon": 110.472,
+           "lat": -6.918,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -3773,8 +3820,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.52,
-           "lat": -6.885,
+           "lon": 110.518,
+           "lat": -6.914,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -3868,7 +3915,7 @@
      ]
     },
     {
-     "text": "This April, a study in Science Advances found northern Java sinking one to fifteen centimetres a year, in cities and villages alike, and that sinking land, not the rising sea, is the main driver of flood risk along most of this coast.",
+     "text": "This April, a study in Science Advances measured northern Java from 2017 to 2023. In its fastest-sinking spots, Pekalongan dropped up to ten centimetres a year, Semarang eight, Jakarta about three and a half. Sinking land, not the rising sea, it found, is the main driver of flood risk along most of this coast.",
      "shots": [
       {
        "type": "map",
@@ -3917,7 +3964,7 @@
       },
       {
        "type": "map",
-       "at": 5,
+       "at": 7,
        "map": {
         "steps": [
          {
@@ -3934,17 +3981,77 @@
        "on_screen_text": "Java's north coast"
       },
       {
-       "type": "stat",
-       "at": "one to fifteen",
-       "stat": {
-        "value": "1-15 cm a year",
-        "label": "Subsidence along northern Java, cities and villages",
-        "source": "Ohenhen, Shirzaei et al., Science Advances, Apr 2026"
+       "type": "chart",
+       "at": "In its",
+       "chart": {
+        "type": "bar",
+        "title": "Fastest-sinking spots, northern Java, 2017-2023",
+        "unit": " cm a year",
+        "data": [
+         [
+          "Pekalongan",
+          10
+         ],
+         [
+          "Semarang",
+          8
+         ],
+         [
+          "Jakarta",
+          3.6
+         ]
+        ],
+        "source": "Ohenhen, Shirzaei et al., Science Advances, Apr 2026",
+        "highlight": 0,
+        "reveal": [
+         "Semarang eight",
+         "Jakarta about"
+        ]
        }
       },
       {
        "type": "map",
-       "at": 20,
+       "at": "Sinking land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.0,
+           "lat": -6.85,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "Pekalongan",
+            "lon": 109.68,
+            "lat": -6.88,
+            "kind": "city",
+            "label": "Pekalongan"
+           },
+           {
+            "name": "Semarang",
+            "lon": 110.42,
+            "lat": -6.97,
+            "kind": "city",
+            "label": "Semarang"
+           },
+           {
+            "name": "Demak",
+            "lon": 110.64,
+            "lat": -6.89,
+            "kind": "city",
+            "label": "Demak"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 44,
        "map": {
         "steps": [
          {
@@ -3952,41 +4059,6 @@
            "lon": 111.1,
            "lat": -6.55,
            "span": 0.12
-          },
-          "date": "2026-06-01/2026-10-31"
-         }
-        ]
-       },
-       "on_screen_text": "Java's north coast"
-      },
-      {
-       "type": "map",
-       "at": 27,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 112.65,
-           "lat": -7.1,
-           "span": 0.12
-          },
-          "date": "2026-06-01/2026-10-31"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Java's north coast"
-      },
-      {
-       "type": "map",
-       "at": 34,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 110.43,
-           "lat": -6.95,
-           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -3998,7 +4070,7 @@
      ]
     },
     {
-     "text": "Some places are worse. In Pekalongan, a batik city west of here, Heri Andreas measured up to eighteen centimetres a year. By 2050, the same study says, sinking land could make up as much as eighty-five percent of the rise in water levels along much of the coast. More than a hundred and fifty million people live on Java.",
+     "text": "In Demak and Pekalongan, more than thirty percent of the city area sinks faster than five centimetres a year. By 2050, the study says, sinking land could make up as much as eighty-five percent of the rise in water levels along much of the coast. More than a hundred and fifty million people live on Java.",
      "shots": [
       {
        "type": "map",
@@ -4027,44 +4099,14 @@
        }
       },
       {
-       "type": "map",
-       "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 110.2,
-           "lat": -6.92,
-           "span": 0.18
-          },
-          "date": "2026-06-01/2026-10-31"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Java's north coast"
+       "type": "photo",
+       "at": 9,
+       "photo": "File:Ihwanudin, petani mangrove di Desa Bedono, Demak yang bertahan menanam mangrove di tengah ancaman abrasi.jpg",
+       "on_screen_text": "A mangrove farmer in Bedono, 2025"
       },
       {
        "type": "map",
-       "at": 16,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 109.68,
-           "lat": -6.86,
-           "span": 0.18
-          },
-          "date": "2026-06-01/2026-10-31"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Java's north coast"
-      },
-      {
-       "type": "map",
-       "at": 24,
+       "at": 19,
        "map": {
         "steps": [
          {
@@ -4075,8 +4117,7 @@
           },
           "date": "2026-06-01/2026-10-31"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "North Jakarta"
       },
@@ -4091,7 +4132,7 @@
       },
       {
        "type": "map",
-       "at": 41,
+       "at": 38,
        "map": {
         "steps": [
          {
@@ -4154,14 +4195,14 @@
       },
       {
        "type": "map",
-       "at": 53,
+       "at": 50,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 109.1,
-           "lat": -6.83,
-           "span": 0.18
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.12
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4311,8 +4352,8 @@
         "steps": [
          {
           "view": {
-           "lon": 108.57,
-           "lat": -6.7,
+           "lon": 110.43,
+           "lat": -6.95,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4351,7 +4392,7 @@
      ]
     },
     {
-     "text": "The plan is about five hundred and seventy-five kilometres of wall in fifteen segments, from Serang in the west to Gresik in East Java. Earlier versions said seven hundred. Cost estimates run up to eighty billion dollars, over fifteen to twenty years.",
+     "text": "The plan is about five hundred and seventy-five kilometres of wall in fifteen segments, from Serang in the west to Gresik in East Java. Earlier versions said seven hundred. The authority in charge puts the cost at eighty to a hundred billion dollars, over fifteen to twenty years.",
      "shots": [
       {
        "type": "map",
@@ -4468,8 +4509,8 @@
         "steps": [
          {
           "view": {
-           "lon": 111.1,
-           "lat": -6.55,
+           "lon": 110.2,
+           "lat": -6.92,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4481,13 +4522,31 @@
       },
       {
        "type": "map",
-       "at": 19,
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 112.65,
-           "lat": -7.1,
+           "lon": 109.68,
+           "lat": -6.86,
+           "span": 0.18
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Java's north coast"
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.1,
+           "lat": -6.83,
            "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
@@ -4499,11 +4558,11 @@
       },
       {
        "type": "stat",
-       "at": "Cost estimates",
+       "at": "eighty to a",
        "stat": {
-        "value": "Up to US$80 bn",
+        "value": "US$80-100 bn",
         "label": "Estimated cost of the Giant Sea Wall, 15-20 years",
-        "source": "The Jakarta Post, Jan 22, 2026; Mongabay, 2025"
+        "source": "North Java Coast Authority via detik, Feb 24, 2026"
        }
       }
      ]
@@ -4543,9 +4602,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.43,
-           "lat": -6.95,
-           "span": 0.25
+           "lon": 108.57,
+           "lat": -6.7,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4561,9 +4620,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.2,
-           "lat": -6.92,
-           "span": 0.25
+           "lon": 111.1,
+           "lat": -6.55,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4579,9 +4638,9 @@
         "steps": [
          {
           "view": {
-           "lon": 109.68,
-           "lat": -6.86,
-           "span": 0.25
+           "lon": 112.65,
+           "lat": -7.1,
+           "span": 0.18
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -4724,8 +4783,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.46,
-           "lat": -6.93,
+           "lon": 110.52,
+           "lat": -6.885,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -4776,8 +4835,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.505,
-           "lat": -6.9,
+           "lon": 110.46,
+           "lat": -6.93,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -4861,8 +4920,8 @@
            },
            {
             "name": "Bedono",
-            "lon": 110.472,
-            "lat": -6.918,
+            "lon": 110.48467,
+            "lat": -6.92716,
             "kind": "city",
             "label": "Bedono"
            }
@@ -4896,8 +4955,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.53,
-           "lat": -6.925,
+           "lon": 110.505,
+           "lat": -6.9,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -4931,8 +4990,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.49,
-           "lat": -6.91,
+           "lon": 110.53,
+           "lat": -6.925,
            "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
@@ -4966,9 +5025,9 @@
         "steps": [
          {
           "view": {
-           "lon": 110.472,
-           "lat": -6.918,
-           "span": 0.06
+           "lon": 110.49,
+           "lat": -6.91,
+           "span": 0.09
           },
           "date": "2026-06-01/2026-10-31"
          }
@@ -5323,8 +5382,8 @@
         "steps": [
          {
           "view": {
-           "lon": 110.518,
-           "lat": -6.914,
+           "lon": 110.472,
+           "lat": -6.918,
            "span": 0.06
           },
           "date": "2026-06-01/2026-10-31"

@@ -1,0 +1,325 @@
+{
+ "title": "Indonesia Built a New Capital. Jakarta Is Still the Capital",
+ "format": "short",
+ "voice": "am_michael",
+ "music": "procedural",
+ "map_style": "satellite",
+ "captions": true,
+ "sources": [
+  "All facts from episodes/jakarta-sinking research.md and verification.md (ABC News Oct 2026, The Jakarta Post, Constitutional Court ruling May 2026)."
+ ],
+ "thumbnail": {
+  "text": "NOT THE CAPITAL",
+  "focus": [
+   116.696,
+   -0.959,
+   0.12
+  ]
+ },
+ "chapters": [
+  {
+   "title": "The Capital That Stalled",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Jakarta is sinking, in places many times faster than the sea is rising. So in 2019 Indonesia decided to move its capital.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.11,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "JAKARTA"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jakarta is sinking"
+      },
+      {
+       "type": "map",
+       "at": "So in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": -3.5,
+           "span": 16
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "JAKARTA"
+           },
+           {
+            "name": "Garuda Palace",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "site",
+            "label": "GARUDA PALACE"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             106.8272,
+             -6.1754
+            ],
+            "to": [
+             116.6962,
+             -0.9587
+            ],
+            "mode": "line",
+            "seconds": 3,
+            "label": "To Borneo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Move the capital"
+      }
+     ]
+    },
+    {
+     "text": "Here, to the forest of Borneo. This is the site in 2019. And this is the same place this year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.696,
+           "lat": -0.959,
+           "span": 0.12
+          },
+          "date": "2026-06-01/2026-10-31",
+          "compare": {
+           "before": "2019-06-01/2019-10-31",
+           "after": "2026-06-01/2026-10-31",
+           "seconds": 2.2,
+           "until": "And this"
+          }
+         },
+         {
+          "at": "And this",
+          "places": [
+           {
+            "name": "Garuda Palace",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "site",
+            "label": "GARUDA PALACE"
+           }
+          ]
+         }
+        ]
+       },
+       "on_screen_text": "Nusantara · Sentinel-2"
+      }
+     ]
+    },
+    {
+     "text": "The money has shrunk year by year: forty-three trillion rupiah in 2024, six point three trillion this year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": "forty-three",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.7,
+           "lat": -0.965,
+           "span": 0.05
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "2024: Rp 43 trillion"
+      },
+      {
+       "type": "map",
+       "at": "six point",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.715,
+           "lat": -0.95,
+           "span": 0.07
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "2026: Rp 6.3 trillion"
+      }
+     ]
+    },
+    {
+     "text": "About ten thousand people have moved in, not the half a million once planned.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.69,
+           "lat": -0.975,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Garuda Palace",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "site",
+            "label": "GARUDA PALACE"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "~10,000 people, not 500,000"
+      }
+     ]
+    },
+    {
+     "text": "And in May, the Constitutional Court ruled that Jakarta stays the capital until a decree moves it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.83,
+           "lat": -6.17,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "JAKARTA"
+           }
+          ],
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "May 2026: the court rules"
+      },
+      {
+       "type": "map",
+       "at": "until a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": -6.15,
+           "span": 0.2
+          },
+          "date": "2026-06-01/2026-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "By law, Jakarta is still the capital"
+      }
+     ]
+    },
+    {
+     "text": "Should Indonesia finish the new capital, or save the old one?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.5,
+           "lat": -2.8,
+           "span": 11
+          },
+          "places": [
+           {
+            "name": "Jakarta",
+            "lon": 106.8272,
+            "lat": -6.1754,
+            "kind": "capital",
+            "label": "JAKARTA"
+           },
+           {
+            "name": "Garuda Palace",
+            "lon": 116.6962,
+            "lat": -0.9587,
+            "kind": "site",
+            "label": "GARUDA PALACE"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Finish it, or save Jakarta?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Indonesia Built a New Capital. Jakarta Is Still the Capital",
+  "description": "Because Jakarta is sinking, Indonesia decided in 2019 to move its capital to Nusantara on Borneo. From orbit, the forest site in 2019 and 2026. The budget fell from Rp 43 trillion in 2024 to Rp 6.3 trillion in 2026, about 10,000 people have moved in, and a court ruled in May 2026 that Jakarta stays the capital until a decree moves it.\n\nFull documentary on the channel: Sinking Jakarta\n\n#geography #satellite #indonesia",
+  "tags": [
+   "Nusantara",
+   "Indonesia new capital",
+   "Jakarta",
+   "IKN",
+   "Borneo",
+   "sinking city",
+   "satellite images",
+   "before and after",
+   "Sentinel-2",
+   "shorts"
+  ],
+  "pinned_comment": "Should Indonesia finish the new capital, or spend the money saving Jakarta?"
+ }
+}

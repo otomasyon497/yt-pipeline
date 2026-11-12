@@ -23,7 +23,7 @@ PLUIT_V = {"lon": 106.792, "lat": -6.118, "span": 0.06}
 PIK2_V = {"lon": 106.70, "lat": -6.035, "span": 0.12}
 DEMAK_W = {"lon": 110.495, "lat": -6.91, "span": 0.16}
 DEMAK_V = {"lon": 110.50, "lat": -6.912, "span": 0.07}
-BEDONO_V = {"lon": 110.472, "lat": -6.918, "span": 0.05}
+BEDONO_V = {"lon": 110.485, "lat": -6.925, "span": 0.05}
 TIMBUL_V = {"lon": 110.517, "lat": -6.913, "span": 0.05}
 SEMARANG_V = {"lon": 110.43, "lat": -6.94, "span": 0.18}
 IKN_W = {"lon": 116.696, "lat": -0.959, "span": 0.12}
@@ -49,7 +49,7 @@ PLUIT = place("Pluit", 106.795, -6.115, "Pluit", "site")
 MUARA_ANGKE = place("Muara Angke", 106.772, -6.106, "Muara Angke", "site")
 PIK2 = place("PIK 2", 106.70, -6.03, "Pantai Indah Kapuk 2", "site")
 TIMBULSLOKO = place("Timbulsloko", 110.518, -6.914, "Timbulsloko", "city")
-BEDONO = place("Bedono", 110.472, -6.918, "Bedono", "city")
+BEDONO = place("Bedono", 110.48467, -6.92716, "Bedono", "city")
 DEMAK = place("Demak", 110.64, -6.89, "Demak", "city")
 SEMARANG = place("Semarang", 110.42, -6.97, "Semarang", "city")
 PEKALONGAN = place("Pekalongan", 109.68, -6.88, "Pekalongan", "city")
@@ -202,7 +202,7 @@ chapters = [
         P("In 2021 the city declared zones where groundwater may no longer be drawn, and its water company says it now pipes water to about four in five households, with everyone connected by 2029.",
           m(0, v(near(106.86, -6.2, 0.25), places=[JAKARTA])),
           stat("about four", "~82%", "Jakarta households on piped water, 2026 (target: 100% by 2029)", "PAM Jaya via Katadata, Jul 2026")),
-        P("But slower is not stopped. Studies of the last ten years still find several centimetres a year along the north coast, roughly ten times the rise of the sea. And land that has sunk does not come back up.",
+        P("But slower is not stopped. Studies of the last few years still find several centimetres a year along the north coast, close to ten times the rise of the sea. And land that has sunk does not come back up.",
           m(0, v(near(106.77, -6.105, 0.07), places=[MUARA_ANGKE])),
           m("And land", v(JKT_NORTH), cut=True)),
     ]},
@@ -219,7 +219,7 @@ chapters = [
           clip("This dike", "Bocornya mulai sekitar 3-4 tahun lalu. Ini tanggul dibangun zamannya Ahok.\n(It started leaking about three or four years ago. This dike was built in Ahok's time.)", "Nurhasan, 40, Muara Baru, via Kompas / FIA UI, Dec 8, 2025", highlight="Bocornya mulai sekitar 3-4 tahun lalu"),
           m("meaning a governor", v(near(106.80, -6.098, 0.04), places=[MUARA_BARU]), cut=True)),
         P("Just outside the wall at Muara Baru stands a mosque the sea has already taken. Wal Adhuna was abandoned in the 2000s. Today it stands in the water, on the wrong side of the dike.",
-          m(0, v(near(106.806, -6.106, 0.035), places=[MUARA_BARU])),
+          m(0, v(near(106.8065, -6.109, 0.035), places=[place("Wal Adhuna", 106.8065, -6.11107, "Wal Adhuna mosque", "site")])),
           m("Today it", v(near(106.81, -6.112, 0.05)), cut=True)),
         P("The head of the city's water agency draws a line. These coastal dikes, she says, are not the Giant Sea Wall. That is a bigger idea, out in the bay.",
           m(0, v(near(106.812, -6.108, 0.05))),
@@ -278,8 +278,10 @@ chapters = [
         P("Then the president changed. Prabowo Subianto took office in October 2024. In 2025 his government made Nusantara a political capital by 2028, with between one thousand seven hundred and four thousand one hundred civil servants to move first.",
           m(0, v(near(116.70, -0.962, 0.08), places=[NUSANTARA])),
           stat("with between", "1,700-4,100", "Civil servants to move first: a 'political capital' by 2028", "Perpres 79/2025, via CNN Indonesia and Kontan")),
-        P("For 2026 the city's authority got about six point three trillion rupiah. In his State of the Nation speech in August 2026, Prabowo did not mention Nusantara at all.",
-          stat(0, "Rp 6.3 trillion", "Nusantara authority budget, 2026", JP + ", Aug 20, 2026"),
+        P("The money has shrunk year by year: about forty-three trillion rupiah in 2024, thirteen trillion in 2025, six point three trillion in 2026. About ten thousand people have moved in, against the half a million once planned. In his State of the Nation speech in August 2026, Prabowo did not mention Nusantara at all.",
+          chart(0, "Nusantara budget, trillion rupiah", " T", [["2024", 43], ["2025", 13], ["2026", 6.3]], "ABC News, Oct 19, 2026; The Jakarta Post, Aug 2026",
+                reveal=["thirteen trillion", "six point"], highlight=2),
+          stat("About ten", "~10,000", "People who have moved to Nusantara so far (plan: 500,000 at first)", "ABC News, Oct 19, 2026"),
           m("In his", v(near(116.69, -0.975, 0.06)))),
         P("The authority's head, Basuki Hadimuljono, asked for more: an extra eighteen point seven trillion rupiah for 2026 and 2027. In the 2027 budget bill, Nusantara is not among the government's eight priorities. Most of next year's money is meant for buildings for parliament and the courts.",
           m(0, v(near(116.705, -0.97, 0.05))),
@@ -317,10 +319,12 @@ chapters = [
           clip("As long", "\"As long as there are still neighbours, there are still houses, I'm staying here.\"", "Sulkan, 49, Timbulsloko, to AFP, Jul 2023"),
           m("The village", v(near(110.522, -6.905, 0.035), places=[TIMBULSLOKO]), cut=True),
           clip("Warga", "Warga bertahan di sini karena masalah ekonomi.\n(People stay here because of money.)", "Nadhiri, village head of Timbulsloko, to Jatengpos, Oct 19, 2026", highlight="masalah ekonomi")),
-        P("This April, a study in Science Advances found northern Java sinking one to fifteen centimetres a year, in cities and villages alike, and that sinking land, not the rising sea, is the main driver of flood risk along most of this coast.",
+        P("This April, a study in Science Advances measured northern Java from 2017 to 2023. In its fastest-sinking spots, Pekalongan dropped up to ten centimetres a year, Semarang eight, Jakarta about three and a half. Sinking land, not the rising sea, it found, is the main driver of flood risk along most of this coast.",
           m(0, v(JAVA, places=[SERANG, PEKALONGAN, SEMARANG, DEMAK])),
-          stat("one to fifteen", "1-15 cm a year", "Subsidence along northern Java, cities and villages", "Ohenhen, Shirzaei et al., Science Advances, Apr 2026")),
-        P("Some places are worse. In Pekalongan, a batik city west of here, Heri Andreas measured up to eighteen centimetres a year. By 2050, the same study says, sinking land could make up as much as eighty-five percent of the rise in water levels along much of the coast. More than a hundred and fifty million people live on Java.",
+          chart("In its", "Fastest-sinking spots, northern Java, 2017-2023", " cm a year", [["Pekalongan", 10], ["Semarang", 8], ["Jakarta", 3.6]],
+                "Ohenhen, Shirzaei et al., Science Advances, Apr 2026", reveal=["Semarang eight", "Jakarta about"], highlight=0),
+          m("Sinking land", v(near(110.0, -6.85, 1.6), places=[PEKALONGAN, SEMARANG, DEMAK]), cut=True)),
+        P("In Demak and Pekalongan, more than thirty percent of the city area sinks faster than five centimetres a year. By 2050, the study says, sinking land could make up as much as eighty-five percent of the rise in water levels along much of the coast. More than a hundred and fifty million people live on Java.",
           m(0, v(near(109.68, -6.87, 0.12), places=[PEKALONGAN])),
           stat("as much as", "Up to 85%", "Sinking land's share of water-level rise on much of Java's coast, 2050", "Science Advances, Apr 2026"),
           m("More than a", v(JAVA, places=[JAKARTA, PEKALONGAN, SEMARANG, DEMAK]), cut=True)),
@@ -333,9 +337,9 @@ chapters = [
           m(0, v(JAVA, routes=[GSW])),
           m("a great dike", v(near(108.6, -6.75, 1.4)), cut=True),
           clip("This absolutely", "Ini mutlak harus kita lakukan.\n(This absolutely must be done.)", "President Prabowo Subianto, Aug 14, 2026", highlight="Ini mutlak harus kita lakukan")),
-        P("The plan is about five hundred and seventy-five kilometres of wall in fifteen segments, from Serang in the west to Gresik in East Java. Earlier versions said seven hundred. Cost estimates run up to eighty billion dollars, over fifteen to twenty years.",
+        P("The plan is about five hundred and seventy-five kilometres of wall in fifteen segments, from Serang in the west to Gresik in East Java. Earlier versions said seven hundred. The authority in charge puts the cost at eighty to a hundred billion dollars, over fifteen to twenty years.",
           m(0, v(JAVA, routes=[GSW], places=[SERANG, GRESIK])),
-          stat("Cost estimates", "Up to US$80 bn", "Estimated cost of the Giant Sea Wall, 15-20 years", JP + ", Jan 22, 2026; Mongabay, 2025")),
+          stat("eighty to a", "US$80-100 bn", "Estimated cost of the Giant Sea Wall, 15-20 years", "North Java Coast Authority via detik, Feb 24, 2026")),
         P("The president says the north coast is home to tens of millions of people. A new authority was created in August 2025 to run the project, led by a retired vice admiral, Didit Herdiawan Ashaf. Jakarta's own section alone is put at about eight billion dollars, and the president asked the city to pay half.",
           m(0, v(near(108.6, -6.75, 1.4), places=[PEKALONGAN])),
           m("Jakarta's own", v(JKT_BAY, places=[JAKARTA]), cut=True)),

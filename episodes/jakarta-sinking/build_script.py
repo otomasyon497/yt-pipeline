@@ -256,7 +256,7 @@ chapters = [
           m("Pantai Indah", v(PIK2_V, places=[PIK2]), cut=True)),
         P("NASA counted more than one thousand one hundred hectares of new land along this coast between 1990 and 2019. Land made on the sea, in a city that is sinking into it.",
           stat(0, "1,185+ ha", "New land along Jakarta's coast, 1990-2019", NASA_EO + ", May 2021"),
-          m("Land made", v(near(106.74, -6.07, 0.1))),
+          m("Land made", v(near(106.76, -6.095, 0.12))),
           photo("in a city", PH_PIK2B, "Pantai Indah Kapuk 2, February 2024")),
     ]},
     {"title": "Plan B: Leave", "mood": "curious", "paragraphs": [
@@ -323,7 +323,8 @@ chapters = [
           photo("Without their", PH_FARMER, "A mangrove farmer in Bedono, 2025"),
           stat("satellite radar", "~8.7 cm a year", "Subsidence at Timbulsloko, Sentinel-1 radar, 2017-2019", "Universitas Diponegoro, Jurnal Geodesi")),
         P("We measured this coast ourselves, in Landsat images from 1990 to 2026. This is 1990. And this is this year. In three boxes around Bedono, Timbulsloko and Surodadi, about two thousand five hundred hectares were land in 1990. This year, about four hundred and fifty are left. Around Timbulsloko, nine tenths of the land has turned to water. Some of it was fish ponds that flooded for good. The rest is open sea.",
-          m(0, v(DEMAK_W, compare={**CMP_DEMAK, "until": "And this", "hold": 0.4}), step("And this", places=[TIMBULSLOKO, BEDONO]), cut=True),
+          m(0, v(near(110.55, -6.87, 0.35), places=[TIMBULSLOKO])),
+          m("This is 1990.", v(DEMAK_W, compare={**CMP_DEMAK, "until": "And this", "hold": 0.4}), step("And this", places=[TIMBULSLOKO, BEDONO]), cut=True),
           stat("about two thousand", "~2,500 ha -> ~450 ha", "Land in three boxes at Bedono, Timbulsloko and Surodadi, 1990 -> 2026", OWN_DEMAK),
           m("Around Timbulsloko", v(TIMBUL_V, places=[TIMBULSLOKO]), cut=True),
           m("The rest", v(near(110.50, -6.89, 0.06)), cut=True)),
@@ -417,12 +418,15 @@ def pic(name, label=None):
 SEC_WORD = 0.43
 PHOTO_MAX, PHOTO_GAP = 3, 110.0  # gap in estimated seconds; real speech runs faster than SEC_WORD (v2 repeats came back 35-54 s apart)
 SHORES = {
-    "jakarta": [(106.772, -6.106), (106.786, -6.106), (106.805, -6.103), (106.811, -6.124), (106.795, -6.115), (106.80, -6.13),
-                (106.82, -6.11), (106.79, -6.125), (106.808, -6.095), (106.83, -6.12)],
+    "jakarta": [(106.840, -6.122), (106.813, -6.135), (106.827, -6.175), (106.93, -6.10), (106.738, -6.096), (106.958, -6.095),
+                (106.85, -6.16), (106.772, -6.106), (106.73, -6.13), (106.88, -6.11), (106.80, -6.19), (106.795, -6.118)],
     "bay": [(106.76, -6.085), (106.79, -6.093), (106.70, -6.03), (106.67, -6.02), (106.73, -6.05), (106.82, -6.07)],
-    "ikn": [(116.6962, -0.9587), (116.71, -0.95), (116.69, -0.975), (116.73, -0.93), (116.75, -0.95), (116.68, -0.945), (116.72, -0.985)],
-    "demak": [(110.472, -6.918), (110.518, -6.914), (110.52, -6.885), (110.46, -6.93), (110.505, -6.90), (110.53, -6.925), (110.49, -6.91)],
-    "pantura": [(110.43, -6.95), (110.20, -6.92), (109.68, -6.86), (109.10, -6.83), (108.57, -6.70), (111.10, -6.55), (112.65, -7.10)],
+    "ikn": [(116.75, -1.10), (116.73, -0.93), (116.80, -1.05), (116.66, -1.00), (116.79, -0.92), (116.72, -1.08), (116.63, -0.93),
+            (116.78, -0.99)],
+    "demak": [(110.64, -6.89), (110.42, -6.95), (110.58, -6.82), (110.472, -6.918), (110.60, -6.77), (110.47, -6.94),
+              (110.55, -6.86), (110.38, -6.96), (110.66, -6.84)],
+    "pantura": [(110.20, -6.92), (109.10, -6.83), (111.10, -6.55), (112.65, -7.10), (108.57, -6.70), (109.68, -6.86), (107.60, -6.20),
+                (111.60, -6.70), (110.85, -6.60), (108.20, -6.30), (112.05, -6.88), (106.15, -6.03)],
 }
 SPANS = {"pantura": [0.12, 0.18, 0.25, 0.15], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1]}
 LABELS = {"jakarta": "North Jakarta", "bay": "Jakarta Bay", "ikn": "Nusantara", "demak": "Sayung, Demak", "pantura": "Java's north coast"}
@@ -430,7 +434,7 @@ PHOTOS = {
     "jakarta": [],
     "bay": [],
     "ikn": [(PH_PALACE, "The presidential palace under construction, June 2024"), (PH_GARUDA, "The Garuda Palace, Nusantara")],
-    "demak": [(PH_MAKJAH, "Mak Jah's house, Bedono"), (PH_FARMER, "A mangrove farmer in Bedono, 2025")],
+    "demak": [],
 }
 VIEW_PLACE = {}
 used_views: set = set()
@@ -604,7 +608,7 @@ for ch in chapters:
             span = None
             for st in (sh.get("map") or {}).get("steps", []):
                 span = st["view"]["span"] if st.get("view") else span
-                if span is not None and span > 2 and st.get("places"):
+                if st.get("places"):
                     st["places"] = [pl for pl in st["places"] if pl["name"] not in BASEMAP_NAMED]
                     if not st["places"]:
                         del st["places"]

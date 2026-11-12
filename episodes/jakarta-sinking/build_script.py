@@ -68,7 +68,7 @@ CMP_DEMAK = {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": LS, "s
              "label_before": "1990", "label_after": "2026"}
 CMP_BAY = {"before": "1990-06-01/1990-10-31", "after": AFTER, "source": LS, "seconds": 2.6,
            "label_before": "1990", "label_after": "2026"}
-CMP_IKN = {"before": "2019-03-19", "after": "2026-08-16", "seconds": 2.4,  # single clear days (86 % / 91 %): composites left a swath-edge patch
+CMP_IKN = {"before": "2019-06-01/2019-10-31", "after": AFTER, "source": LS, "seconds": 2.4,  # Landsat: one 185 km swath covers the box (S2 composites left a swath-edge patch)  # single clear days (86 % / 91 %): composites left a swath-edge patch
            "label_before": "2019", "label_after": "2026"}
 
 

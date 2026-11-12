@@ -37,7 +37,7 @@ def P(text, *shots):
 
 paragraphs = [
     P("Louisiana has lost about two thousand square miles of land since 1932.",
-      m("~2,000 sq mi lost since 1932", v(-90.4, 29.45, 2.6))),
+      m("~2,000 sq mi lost since 1932", v(-90.35, 29.35, 0.7))),
     P("Here, on the Mississippi, the state was building a gate in the levee to let the river's mud rebuild the marsh.",
       m("Mid-Barataria Sediment Diversion", v(-89.97, 29.62, 0.12, places=[MBSD])),
       m("Let the river rebuild", v(-89.96, 29.646, 0.04), at="to let")),
@@ -50,7 +50,7 @@ paragraphs = [
       m("Where the river reaches the sea", v(-91.40, 29.56, 0.5)),
       m("Wax Lake: land still growing", v(-91.44, 29.50, 0.1, places=[WAX]), at="Louisiana is")),
     P("Should Louisiana let the river back in?",
-      m("Let the river back in?", v(-90.6, 29.6, 2.6))),
+      m("Let the river back in?", v(-90.05, 29.45, 0.6))),
 ]
 
 script = {

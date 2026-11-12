@@ -37,16 +37,17 @@ def P(text, *shots):
 
 
 paragraphs = [
-    P("This island in Louisiana, in 1985. And here it is this October, after the sea moved in.",
+    P("This island in Louisiana, in 1985. And here it is this autumn, after the sea moved in.",
       m("Real satellite images · Landsat",
-        {**v(-90.49, 29.405, 0.14), "compare": {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": "landsat", "seconds": 1.6, "until": "And here"}},
+        {**v(-90.49, 29.405, 0.14), "compare": {"before": "1985-09-16", "after": "2026-10-19", "source": "landsat", "seconds": 1.6, "until": "And here"}},
         {"at": "And here", "places": [IJC]}, cut=False)),
     P("By the state's count, the land around it shrank from more than twenty-two thousand acres to about three hundred and twenty.",
       m("22,000 acres -> 320", v(-90.487, 29.40, 0.05, places=[IJC])),
       m("By the state's count", v(-90.48, 29.42, 0.04), at="to about")),
-    P("In 2016 the US government paid, for the first time, to move a whole community away from the sea.",
-      m("2016: a first for the US", v(-90.55, 29.45, 0.3, places=[IJC])),
-      m("A whole community", v(-90.49, 29.395, 0.035), at="to move")),
+    P("In 2016 the US government paid to move a whole community away from the sea, in what was called a first for the country.",
+      m("2016: called a US first", v(-90.55, 29.45, 0.3, places=[IJC])),
+      m("A whole community", v(-90.49, 29.395, 0.035), at="to move"),
+      m("Called a first", v(-90.47, 29.43, 0.06), at="in what")),
     P("Thirty-seven families moved about forty miles inland.",
       m("37 families, ~40 miles", v(-90.62, 29.55, 0.6, places=[IJC, NEWISLE], routes=[MOVE]))),
     P("This year, one of them told The New York Times what she would tell the next town. Don't do it.",

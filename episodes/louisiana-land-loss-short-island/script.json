@@ -22,7 +22,7 @@
    "mood": "tension",
    "paragraphs": [
     {
-     "text": "This island in Louisiana, in 1985. And here it is this October, after the sea moved in.",
+     "text": "This island in Louisiana, in 1985. And here it is this autumn, after the sea moved in.",
      "shots": [
       {
        "type": "map",
@@ -37,8 +37,8 @@
           },
           "date": "2026-10-13/2026-10-13",
           "compare": {
-           "before": "1985-10-01/1985-11-30",
-           "after": "2026-10-01/2026-11-10",
+           "before": "1985-09-16",
+           "after": "2026-10-19",
            "source": "landsat",
            "seconds": 1.6,
            "until": "And here"
@@ -113,7 +113,7 @@
      ]
     },
     {
-     "text": "In 2016 the US government paid, for the first time, to move a whole community away from the sea.",
+     "text": "In 2016 the US government paid to move a whole community away from the sea, in what was called a first for the country.",
      "shots": [
       {
        "type": "map",
@@ -140,7 +140,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "2016: a first for the US"
+       "on_screen_text": "2016: called a US first"
       },
       {
        "type": "map",
@@ -159,6 +159,24 @@
         "cut": true
        },
        "on_screen_text": "A whole community"
+      },
+      {
+       "type": "map",
+       "at": "in what",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.47,
+           "lat": 29.43,
+           "span": 0.06
+          },
+          "date": "2026-10-13/2026-10-13"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Called a first"
       }
      ]
     },

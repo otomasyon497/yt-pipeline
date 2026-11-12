@@ -170,7 +170,7 @@
      ]
     },
     {
-     "text": "This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
+     "text": "This is the island from orbit in 1985. And this is the same place this autumn. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
      "shots": [
       {
        "type": "map",
@@ -184,8 +184,8 @@
            "span": 0.14
           },
           "compare": {
-           "before": "1985-10-01/1985-11-30",
-           "after": "2026-10-01/2026-11-10",
+           "before": "1985-09-16",
+           "after": "2026-10-19",
            "source": "landsat",
            "seconds": 1.6,
            "label_before": "1985",

@@ -80,7 +80,7 @@ MOVE = {"from": [-90.4886, 29.3992], "to": [-90.776, 29.711], "mode": "line", "s
 LA1 = {"from": [-90.26, 29.38], "to": [-90.19, 29.12], "mode": "line", "seconds": 3, "label": "LA-1",
        "via": [[-90.23, 29.32], [-90.21, 29.25], [-90.20, 29.18]]}
 
-CMP_IJC = {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
+CMP_IJC = {"before": "1985-09-16", "after": "2026-10-19", "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
 CMP_BARATARIA = {"before": "1985-08-31", "after": AFTER, "source": LS, "seconds": 1.6, "label_before": "1985", "label_after": "2026"}
 CMP_BIRDSFOOT = {"before": "1985-10-01/1985-11-30", "after": AFTER, "source": LS, "seconds": 1.8, "label_before": "1985", "label_after": "2026"}
 CMP_WAXLAKE = {"before": "1984-10-01/1984-10-31", "after": AFTER, "source": LS, "seconds": 2.0, "label_before": "1984", "label_after": "2026"}
@@ -167,7 +167,7 @@ chapters = [
         P("In 2016, the United States government paid to move a whole community away from the sea, in what was called the first federally funded move of its kind. The community lived on a narrow island at the end of a single road in southern Louisiana: Isle de Jean Charles.",
           m(0, v(USA_GULF, places=[IJC])), m("southern Louisiana", v(COAST, places=[IJC])),
           m("Isle de Jean Charles", v(IJC_V, places=[IJC]), cut=True)),
-        P("This is the island from orbit in 1985. And this is the same place this October. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
+        P("This is the island from orbit in 1985. And this is the same place this autumn. By the state's count, the land around it has shrunk from more than twenty-two thousand acres to about three hundred and twenty. We measured it ourselves. In a box around the island, land and marsh above water fell from about three thousand three hundred hectares in 1985 to about one thousand eight hundred this October. Nearly half is gone.",
           m(0, v(IJC_W, compare={**CMP_IJC, "until": "And this"}), step("And this", places=[IJC]), cut=True),
           stat("the land around", "22,000 -> 320 acres", "Land around Isle de Jean Charles, by the state's count", OCD),
           m("We measured", v(near(-90.49, 29.40, 0.1), places=[IJC]), cut=True),

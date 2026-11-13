@@ -628,3 +628,13 @@ Each sub-phase stops for user approval.
   The 32 audit sheets are NOT yet looked at (context was full): look at all of them, then --approve, cover_map, gate 2,
   upload with --publish-at 2026-11-15T23:00:00Z.
 - User approved the Australia outline and narration speed 1.15 (from Australia on; set it in that script, Kansai stays 1.08).
+
+## 2026-11-13 (late) — Kansai audited, at gate 2
+- All 32 audit sheets of render 43475114378 viewed; `frame_audit.py --approve` recorded. No technical defects.
+  Weak points (old production logic): open-water fillers at 0:53-1:00, 9:26-9:35, 14:28-14:34; four terminal photos
+  reused 3-4 times each; Kansai close views under the Istanbul / Maldives / Brisbane sentence (15:05-15:16).
+- Cover rendered (`cover.jpg`, "45 FEET / DOWN"). Dry run OK: "Why Japan's $20 Billion Airport Is Sinking",
+  publish 2026-11-15T23:00Z. Waiting for the user's gate-2 answer (upload as is, or cut the repeats and re-render).
+- User feedback 2026-11-13: earlier videos show the same or similar pictures too often. For Australia: no filler
+  machinery, a view at most twice and 60 s apart, 160-180 distinct shots of 5-7 s, at most two satellite shots in a row;
+  enforce in episode_check.py. Diagram cards if time allows.

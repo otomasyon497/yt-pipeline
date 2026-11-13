@@ -624,3 +624,7 @@ Each sub-phase stops for user approval.
   (iart-ai map-animation is Google Earth Studio / After Effects guidance).
 - Kansai full render 43475114378 was still running at this point; then fetch -Delete, audit (sheets 11-35 of the
   storyboard were never reviewed), cover_map, gate 2.
+- Kansai render 43475114378 fetched (release deleted): 934 s, audio OK, 0 dark flags, 7 flash, 29 soft, 1 short document.
+  The 32 audit sheets are NOT yet looked at (context was full): look at all of them, then --approve, cover_map, gate 2,
+  upload with --publish-at 2026-11-15T23:00:00Z.
+- User approved the Australia outline and narration speed 1.15 (from Australia on; set it in that script, Kansai stays 1.08).

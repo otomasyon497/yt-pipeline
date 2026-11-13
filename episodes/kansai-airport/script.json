@@ -3164,7 +3164,7 @@
            "before": "2004-08-10/2004-08-14",
            "after": "2026-08-23/2026-08-27",
            "source": "landsat",
-           "seconds": 1.8,
+           "seconds": 1.2,
            "label_before": "2004",
            "label_after": "2026"
           },

@@ -269,7 +269,7 @@ chapters = [
           stat("They built a test", "15,000", "Test runs with a vehicle as heavy as a jumbo jet on the second island", KAP),
           m("The ground held", v(near(135.208, 34.438, 0.05)), cut=True)),
         P("By the time that runway opened, the seabed under it had already gone down almost twelve meters. It has gone down six more since. In 2025 the second island sank twenty centimeters, four times as fast as the first, whose rate fell under ten centimeters a year long ago.",
-          m(0, v(W_D, compare={**CMP_04_26, "until": None}), cut=True),
+          m(0, v(W_D, compare={**CMP_04_26, "seconds": 1.2, "until": None}), cut=True),
           stat("almost twelve meters", "17.67 m", "Settlement under the second island: 11.71 m before 2007, 5.96 m since", OPERATOR),
           chart("In 2025 the", "Sinking in 2025", "cm", [["First island", 5], ["Second island", 20]], OPERATOR, reveal=["twenty centimeters"], highlight=1),
           m("whose rate fell", v(KIX_V, places=[KIX]), cut=True)),

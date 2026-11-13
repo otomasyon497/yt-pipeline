@@ -57,3 +57,60 @@ Episode-plan step 1:
 Outback road, Nullarbor Plain, Uluru, Lake Eyre from the air (dry, flooded), Kanyaka and Farina ruins, Goyder's Line
 sign, spinifex and red soil, the Great Dividing Range (rainforest side, dry side), an artesian bore, a cattle station,
 the Kalgoorlie Super Pit, Alice Springs from Anzac Hill, a road train.
+
+## Facts read on 2026-11-13 (V = the page itself read; A = secondary, attribute; OWN = our calculation or image)
+- Area 7,688,287 km2, "the world's sixth-largest country"; state areas — Geoscience Australia, Area of Australia (V).
+- Contiguous United States: 8,080,464 km2 total, 7,663,942 km2 land (CIA World Factbook via Wikipedia) (A): say "almost as big as".
+- "More than eight in ten Australians (85%) lived within 50 kilometres of the coastline in 2001" — ABS media release
+  59/2003 on 2035.0 Census of Population and Housing: Population Growth and Distribution, 2001 (V). No newer ABS figure found.
+- OWN (geo/make_regions.py, Natural Earth 10m, EPSG:3577): the mainland strip within 50 km of the sea is 813,000 km2,
+  10.7 % of the mainland; 89 % lies farther inland.
+- Population 27.9 million at 31 March 2026 (press reports of the ABS release) (A): say "about twenty-eight million".
+- Rainfall: "mean annual rainfall below 600 millimetres (mm) per year over 80% of the continent, and below 300 mm over 50%";
+  driest "in the vicinity of Lake Eyre ... below 150 mm"; "The dominant influence on Australia's climate is its latitude";
+  "The aridity of much of Australia is largely a consequence of the subsiding air associated with the high pressure ridge";
+  "The Great Dividing Range and associated ranges in eastern Australia enhance rainfall over the east coast hinterland
+  and partially block moisture from penetrating further inland"; wettest "the east coast of Queensland between Cairns
+  and Cardwell" — ABS Year Book Australia 2005, section contributed by the Bureau of Meteorology, Sept 2004 (V).
+  Year Book 2006 (Australian Deserts): "The continental interior is also a long way, in any direction, from potential
+  sources of moisture"; "relatively flat terrain" (V).
+- Deserts: ten named deserts, 1,371,000 km2, 18 % of the mainland; Great Victoria 348,750 km2 the largest; a desert
+  "receives less than 250 to 500 millimetres" — Geoscience Australia, Deserts (V).
+- Soils: "Australia didn't have this renewal of soil from grinding ice – or from volcanoes"; "heavily weathered, old, and
+  short on nutrients" — Ryan Borrett (science communications, Murdoch University), The Conversation, 29 Jan 2024 (V).
+- Drainage divisions (Geoscience Australia, National Catchment Boundaries, CC BY 4.0; areas from the layer): Lake Eyre
+  1,308,430 km2 (17.0 % of the country, "about a sixth"), Murray-Darling 1,062,025 km2 (13.8 %), North Western Plateau
+  715,796, South Western Plateau 1,093,234. OWN: the three inland divisions together are 40.5 % of the country.
+- Kati Thanda-Lake Eyre: "15 meters (49 feet) below sea level", the lowest natural point in Australia; "fills completely
+  only a few times per century", last in 1974 and 1950 (written 2019); smaller inflows every few years; the trip from
+  northern Queensland has historically taken up to ten months; water began entering in mid-March 2019 — NASA Earth
+  Observatory, "Rare Filling of Kati Thanda-Lake Eyre", 2019 (V). 2025 fill: press only (A) — let our own image speak.
+- Goyder: Surveyor-General George Woodroffe Goyder inspected the northern pastoral lands in 1864-65 after they were
+  "devastated by a drought"; advised discouraging crops north of "the extent of the 12-inch (30cm) annual rainfall";
+  Waste Lands Alienation Act 1872 (credit purchases only inside); favourable seasons, Act No. 22 of 1874 repealed it;
+  1880s "run of bad seasons"; "Many farmers abandoned their homesteads, often leaving behind a severely eroded
+  landscape" — Judith Jeffery, SA History Hub (2001 / 2014) (V). Wikipedia (A): about 2,000 miles on horseback in
+  November 1865, guided by vegetation (saltbush north, mallee south); ample rain 1867-1875; "rain follows the plow"
+  borrowed from the US; route Ceduna - Arno Bay / Moonta - Crystal Brook - Orroroo - Peterborough - Burra - Pinnaroo;
+  National Trust Heritage Icon 2003.
+- Farina (Wikipedia, A): proclaimed 21 March 1878, earlier "The Gums / Government Gums"; planners expected wheat and
+  barley, "normal rainfall proved to be nowhere near enough for that"; railhead 1882; peak about 600 people; not
+  inhabited since 1967. The page does NOT say why it was named Farina: do not claim it (the word is Latin for flour).
+- Bradfield: Petheram, Hughes, Read, Stokes (CSIRO), MODSIM 2023 abstract (V, PDF read): "Since first proposed 85 years
+  ago, Dr John Bradfield's ... 1500-km inter-basin water diversion scheme proposal has been a millstone around the necks
+  of successive federal and state governments"; "drought in Australia has become synonymous with calls ... for the
+  construction of the scheme"; last technical evaluation 1982; commissioned by the Australian Government; "technically
+  feasible"; dams and tunnels on the Tully, Herbert and Burdekin; 1880 GL a year into "a 1600 km gravity water supply
+  channel to St George"; 1270 GL after losses, "25% of the average annual volume of water used for irrigation in the MDB
+  between 2015 and 2019"; $15-30 billion; "the cost of diversion infrastructure added such a large premium to the cost
+  of water that future crop revenues would never pay off the cost of the water storage diversion infrastructure alone".
+  CSIRO factsheet via search (A): Bradfield's 7,190 GL against 3,305 GL modelled. Wikipedia (A): engineer of the Sydney
+  Harbour Bridge; published 1938; water into the Thomson River and on towards Lake Eyre; Nimmo 1947 found the water
+  estimate about two and a half times too high.
+- Great Artesian Basin: "more than 1.7 million square kilometres", "64,900 million megalitres", under Queensland, New
+  South Wales, South Australia and the Northern Territory, "at least $12.8 billion in economic activity annually", mound
+  springs — Geoscience Australia (V). OWN: 22 % of the country. The Natural Earth polygon we paint is generalised
+  (1.03 M km2): label it so.
+- Anna Creek Station: 15,746 km2 by Williams Cattle Company (owner since Dec 2016) (A); Connecticut 14,357 km2 (A).
+- Census 2021 (ABS QuickStats via search, A): Kalgoorlie-Boulder urban centre 29,068; Alice Springs LGA 25,912.
+- Clarkson et al., Nature 547, 2017: Madjedbebe, northern Australia, occupation by about 65,000 years ago (A; debated).

@@ -356,7 +356,13 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     # Everything this step shows, resolved to geometry (used for auto-framing too).
     frame_items = []
     highlights = []
+    tint_of = {}
     for name in step.highlight:
+        # "Western Australia@red": a solid colour for that region (accent | alt | red | blue | neutral). The niche's
+        # hits paint their subject in one strong colour over the satellite base (research 2026-11-13).
+        name, _, tint = name.partition("@")
+        if tint and tint not in ("accent", "alt", "red", "blue", "neutral"):
+            raise ValueError(f"map highlight tint {tint!r}: use accent, alt, red, blue or neutral")
         area = resolve_area(name, plan.episode_dir)
         if area is None:
             raise ValueError(f"map highlight {name!r} is not a country, state/province, file:<name>.geojson or seafloor:<basin>:<m>")
@@ -365,6 +371,8 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
         if name in FILE_CREDITS:
             plan.credits.add(FILE_CREDITS[name])
         highlights.append(area)
+        if tint:
+            tint_of[area[1]] = tint
         frame_items.append(("geom", geo.main_body(area[2]) if area[0] == "country" else area[2]))
     places = []
     for p in step.places:
@@ -470,7 +478,7 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
     for code_kind, code, geom, label, pt in highlights:
         x, y = unit_pt(*pt)
         body = geo.main_body(geom) if code_kind == "country" else geom
-        plan.elements.append(Element("highlight", {"id": code, "name": label, "lx": x, "ly": y, "dim": step.dim},
+        plan.elements.append(Element("highlight", {"id": code, "name": label, "lx": x, "ly": y, "dim": step.dim, "tint": tint_of.get(code)},
                                      appear + 3 * k, geom=geom, sub=sub, bounds=_bounds_of([("geom", body)])))
         k += 1
     if highlights:

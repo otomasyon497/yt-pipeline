@@ -430,8 +430,12 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 						<path
 							key={`hf${i}`}
 							d={pathOf((decoded[i] as {rings: Ring[]}).rings, xf, offsets, true)}
-							fill={style.tints.accent}
-							fillOpacity={style.highlightFill * (1 - 0.75 * big) * visible[i] * (0.8 + 0.2 * Math.sin((frame - el.in) / 9))}
+							fill={el.tint ? style.tints[el.tint] : style.tints.accent}
+							stroke={el.tint ? '#ffffff' : 'none'}
+							strokeWidth={el.tint ? 2.5 : 0}
+							strokeOpacity={0.9 * visible[i]}
+							// A tinted region is painted solid (0.78) and does not pulse: it must read as "this place" at a glance.
+							fillOpacity={el.tint ? 0.78 * (1 - 0.6 * big) * visible[i] : style.highlightFill * (1 - 0.75 * big) * visible[i] * (0.8 + 0.2 * Math.sin((frame - el.in) / 9))}
 						/>
 					);
 				})}

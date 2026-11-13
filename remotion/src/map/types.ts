@@ -7,7 +7,7 @@ export type CamKey = {start: number; frames: number; x: number; y: number; w: nu
 type Base = {in: number; out: number};
 
 // bb: the country's main body (no far overseas territories), unit Mercator floats
-export type HighlightEl = Base & {kind: 'highlight'; id: string; name: string; lx: number; ly: number; dim: boolean; bb: [number, number, number, number]; rings: number[][]};
+export type HighlightEl = Base & {kind: 'highlight'; id: string; name: string; tint?: Tint | null; lx: number; ly: number; dim: boolean; bb: [number, number, number, number]; rings: number[][]};
 export type PlaceEl = Base & {
 	kind: 'place';
 	label: string;

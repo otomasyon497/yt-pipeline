@@ -64,6 +64,16 @@ Then, for every candidate topic that passes, before offering it:
 - Dark ground (marsh, forest, open water at night-like tones) is not a picture: put a `highlight`, a place label
   or a route on it, or choose a view with settlements, fields or a coastline in it.
 
+### The "why" episode shape (docs/reference-videos-2026-11-13.md)
+- **Hook, in this order, question by 0:30:** a scale fact about the known place; "But" + the surprise; two or three
+  concrete teasers; the question said aloud; one line of promise; then "The first reason ...".
+- **Body = 4-6 numbered reasons**, each a small story (a person, a date, a number), not a chronology. Each reason
+  opens on a painted map: `highlight: ["<region>@red"]` (other regions `@alt`, `@blue`), with its label.
+- **A third of the shots are ground-level photographs** of the place (Commons / NASA / government; run
+  `tools/find_media.py` per reason and keep only files over 1,400 px), in frames, spread through the video. Satellite
+  close views are evidence for a sentence, never filler under a sentence about something else or another year.
+- **2,750-3,000 words** (the references speak 181-187 words a minute; real narration decides, not the estimate).
+
 ## 3b. Fact-check
 
 Run the `fact-check` skill (tools/claim_log.py -> episodes/<slug>/factcheck.md) once the script is written;

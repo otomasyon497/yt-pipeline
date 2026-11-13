@@ -611,3 +611,6 @@ Each sub-phase stops for user approval.
   Planned slot (not yet confirmed by the user): 2026-11-15T23:00Z = 16 Nov 02:00 TR.
 - Kansai: storyboard run 43382820808 had in fact failed in prepare (14.1 min, under the 15-minute rule). Script is now
   2,550 words (10 more fact-check rows, 135 in all, no FIX); WORDS_PER_SEC 2.22 -> 2.65. Storyboard run 43417425663 running.
+- Kansai storyboard OK (run 43417425663): prepare passed, length 15.5 min (913 s of narration, 295 shots). Sheets downloaded
+  to Videos\yt-pipeline\kansai-airport-storyboard, artifact deleted. NEXT (after a context compact): look at every
+  storyboard sheet, fix, `gh workflow run render.yml -f slug=kansai-airport`, fetch -Delete, frame audit, cover_map, gate 2.

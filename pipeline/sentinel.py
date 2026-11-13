@@ -130,8 +130,15 @@ def _by_pass(items: list[dict], lonlat_box) -> list[dict]:
     feet: dict[str, list] = {}
     for it in items:
         feet.setdefault(it["id"][:3] + it["properties"]["datetime"][:10], []).append(shape(it["geometry"]))
-    share = {k: shapely.union_all(v).intersection(target).area for k, v in feet.items()}
-    return sorted(items, key=lambda it: (-share[it["id"][:3] + it["properties"]["datetime"][:10]], _rank(it)))
+    share = {k: round(shapely.union_all(v).intersection(target).area / target.area, 3) for k, v in feet.items()}
+    # Then the pass, and in it the scene, that covers most of the box alone: one scene over the whole view has no
+    # seam at all (Barataria, 13 Oct 2026: S2B's 16RBT ended at 90.09 W inside views that S2A's 15RYN covered whole,
+    # 13 minutes later with a different glint on the water; no colour match can hide that).
+    alone = {it["id"]: round(shape(it["geometry"]).intersection(target).area / target.area, 2) for it in items}
+    best = {k: max(alone[it["id"]] for it in items if it["id"][:3] + it["properties"]["datetime"][:10] == k) for k in feet}
+    return sorted(items, key=lambda it: (-share[it["id"][:3] + it["properties"]["datetime"][:10]],
+                                         -best[it["id"][:3] + it["properties"]["datetime"][:10]],
+                                         it["id"][:3] + it["properties"]["datetime"][:10], -alone[it["id"]], _rank(it)))
 
 
 def _rank(item: dict) -> tuple:
@@ -245,7 +252,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
     # A one-day window "D/D" is a clear day picked by hand: normal tone, and no cloud mask either (Sen2Cor's false
     # cloud on bright ground would be filled from the other satellite's pass, in its colours).
     picked_day = bool(when) and "/" in when and len(set(when.split("/"))) == 1
-    version = "v3m" if picked_day else "v3"  # m: tiles colour-matched in their overlap (_match_overlap); v3: brighter tone (TONE_GAMMA)
+    version = "v4m" if picked_day else "v4"  # m: tiles colour-matched in their overlap; v3: brighter tone (TONE_GAMMA); v4: widest scene first (_by_pass)
     key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, version]).encode()).hexdigest()
     cache = CACHE_DIR / "s2" / f"{key}.png"
     meta = cache.with_suffix(".json")

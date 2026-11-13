@@ -206,6 +206,25 @@ def _tone(rgb: np.ndarray, valid: np.ndarray, stretch: bool) -> np.ndarray:
     return np.clip(out, 0, 1)
 
 
+def _match_overlap(rgb: np.ndarray, ok: np.ndarray, ref: np.ndarray) -> np.ndarray:
+    """Bring a later scene's colours to the scenes already in the mosaic, fitted where both see the ground.
+
+    Tiles of one pass still differ when they sit in different UTM zones: Sen2Cor corrects each tile on its own
+    (Louisiana, 13 Oct 2026: 15RYN darker than 16RBT, a straight seam at 90.1 W through Barataria Bay). Per channel,
+    the 10th and 90th percentiles of the overlap set a gain and offset; a sliver of overlap is left alone.
+    """
+    both = ok & np.isfinite(ref[..., 0])
+    if both.sum() < 2000:
+        return rgb
+    out = rgb.copy()
+    for c in range(3):
+        a10, a90 = np.percentile(ref[..., c][both], [10, 90])
+        b10, b90 = np.percentile(rgb[..., c][both], [10, 90])
+        gain = float(np.clip((a90 - a10) / max(b90 - b10, 1e-4), 0.6, 1.6))
+        out[..., c] = rgb[..., c] * gain + (a10 - gain * b10)
+    return out
+
+
 def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=None, mask=None) -> dict | None:
     """True-colour mosaic for a unit-Mercator box. `when` = "YYYY-MM-DD" for imagery of that day (events),
     "YYYY-MM-DD/YYYY-MM-DD" for the least cloudy scenes in that window (before/after pairs); otherwise the
@@ -219,13 +238,14 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
     lonlat = unit_box_to_lonlat((x0, y0, x1, y1))
     mid_lat = (lonlat[1] + lonlat[3]) / 2
     ground_res = (x1 - x0) * EARTH / width * math.cos(math.radians(mid_lat))  # metres per output pixel on the ground
-    key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, "v2"]).encode()).hexdigest()
-    cache = CACHE_DIR / "s2" / f"{key}.png"
-    meta = cache.with_suffix(".json")
     event = bool(when) and "/" not in when  # a single day: event imagery, no cloud mask, stretched tone
     # A one-day window "D/D" is a clear day picked by hand: normal tone, and no cloud mask either (Sen2Cor's false
     # cloud on bright ground would be filled from the other satellite's pass, in its colours).
     picked_day = bool(when) and "/" in when and len(set(when.split("/"))) == 1
+    version = "v2m" if picked_day else "v2"  # v2m: tiles colour-matched in their overlap (_match_overlap)
+    key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, version]).encode()).hexdigest()
+    cache = CACHE_DIR / "s2" / f"{key}.png"
+    meta = cache.with_suffix(".json")
     if not cache.exists():
         if when and not event:
             items = _search(lonlat, *when.split("/"), 10)
@@ -284,6 +304,8 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
                     bands.append(np.where(buf > 0, buf * scale + offset, np.nan))
                 rgb = np.stack(bands, -1)
                 ok = np.isfinite(rgb).all(-1)
+                if picked_day and read:
+                    rgb = _match_overlap(rgb, ok, raw)
                 first = ok & np.isnan(raw[..., 0])
                 raw[first] = rgb[first]
                 read.append(it)

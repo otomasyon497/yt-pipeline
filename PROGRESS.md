@@ -609,3 +609,5 @@ Each sub-phase stops for user approval.
   NEXT: download the storyboard artifact, look at every sheet (island views repeat? photos sharp? painted steps read?),
   fix, full render, frame audit, cover.jpg via cover_map (cover.json: "45 FEET / DOWN"), gate 2 with the user.
   Planned slot (not yet confirmed by the user): 2026-11-15T23:00Z = 16 Nov 02:00 TR.
+- Kansai: storyboard run 43382820808 had in fact failed in prepare (14.1 min, under the 15-minute rule). Script is now
+  2,550 words (10 more fact-check rows, 135 in all, no FIX); WORDS_PER_SEC 2.22 -> 2.65. Storyboard run 43417425663 running.

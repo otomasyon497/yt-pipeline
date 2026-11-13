@@ -1,0 +1,4 @@
+{"type": "FeatureCollection", "features": [
+ {"type": "Feature", "properties": {"name": "Kansai Airport"}, "geometry": {"type": "Polygon", "coordinates": [[[135.207, 34.413], [135.262, 34.452], [135.273, 34.440], [135.218, 34.401], [135.207, 34.413]]]}},
+ {"type": "Feature", "properties": {"name": "Kansai Airport"}, "geometry": {"type": "Polygon", "coordinates": [[[135.194, 34.432], [135.244, 34.467], [135.256, 34.454], [135.206, 34.419], [135.194, 34.432]]]}}
+]}

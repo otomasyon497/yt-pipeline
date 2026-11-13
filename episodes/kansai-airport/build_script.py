@@ -156,6 +156,12 @@ PH_GATE = "File:Kansai Airport Terminal 1 Gate 20 2025.JPG"  # CC BY 4.0
 PH_DEPARTURE = "File:Kansai Airport Terminal 1 Departure 2025.JPG"  # CC BY 4.0
 PH_HALL = "File:Kansai International Airport13n.jpg"  # CC BY 2.5
 PH_ATRIUM = "File:Kansai International Airport Terminal 1 Interior1 2014.jpg"  # CC BY 3.0
+PH_BRIDGE = "File:Sky gate bridge01s3200.jpg"  # CC BY 2.5, 663highland, 2007
+PH_BRIDGE_APRON = "File:View of Sky Gate Bridge R from Kansai international airport.jpg"  # CC BY 2.0, 2013
+PH_JEBI = "File:Typhoon Jebi over Japan (MODIS 2018-09-07).jpg"  # public domain, NASA MODIS, taken 4 Sep 2018
+PH_T2 = "File:Kansai International Airport Terminal 2 Restrict area shops 201407.jpg"  # CC BY 3.0
+PH_WING = "File:Kansai International Airport, Restricted Area 2.JPG"  # CC BY 2.5, 2006
+PH_APRON2 = "File:Osaka Kansai Int'l Airport Terminal1 (17567741930).jpg"  # CC BY 2.0, 2015
 
 chapters = [
     {"title": "An Island That Was Not There", "mood": "curious", "paragraphs": [
@@ -221,6 +227,7 @@ chapters = [
           m("The sinking began", v(W_B, compare={**CMP_90_95, "until": "when the island"}), step("when the island"), cut=True),
           m("The fill itself", v(near(135.243, 34.436, 0.09)), cut=True),
           m("The bridge, nearly", v(BRIDGE_V, routes=[BRIDGE], places=[RINKU]), cut=True),
+          photo("was finished", PH_BRIDGE, "The bridge to the island, 2007"),
           m("On September fourth", v(TERMINAL_V, places=[KIX]), cut=True)),
         P("But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. When this was sea, clay settled on the bottom. When it was dry land or a lake shore, sand did. All the while the crust under the bay was slowly going down, so nothing washed away. The borings went down four hundred meters and found twenty-two layers of clay with sand between them, and its upper part is the softer part: under enough pressure it gives. Solid rock lies more than a kilometer down. Nobody can drain a stack like that, and squeezing the water out of clay like that takes anything from decades to hundreds of years. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
           m(0, v(KIX_V), cut=True),
@@ -303,11 +310,13 @@ chapters = [
           m("The pumps were", v(near(135.222, 34.432, 0.05)), cut=True)),
         P("Then came September fourth, 2018, twenty-four years to the day after the airport opened. Typhoon Jebi, reported as the strongest to hit Japan in twenty-five years, pushed the sea over the walls and across a runway. A tanker of about two thousand six hundred tons, the Houn Maru, dragged its anchor and hit the only bridge. By most reports about three thousand passengers were stuck on the island overnight, and left the next morning by boat. Flights began again within days. The bridge was not whole until the following spring.",
           m(0, v(near(135.24, 34.45, 0.34), places=[KIX]), cut=True),
+          photo("Typhoon Jebi, reported", PH_JEBI, "Typhoon Jebi over Japan, 4 September 2018 (NASA)"),
           m("pushed the sea", v(near(135.235, 34.424, 0.05)), cut=True),
           m("A tanker of", v(BRIDGE_V, routes=[BRIDGE], places=[RINKU]), cut=True),
           m("dragged its anchor", v(near(135.28, 34.42, 0.035), places=[place("Where the tanker hit", 135.281, 34.4185, "Where the tanker hit", "site")]), cut=True),
           stat("about three thousand", "~3,000", "Passengers stranded overnight on 4 Sep 2018, by most press reports", "Press reports, Sep 2018"),
-          m("and left the", v(near(135.23, 34.55, 0.4), routes=[{"from": [135.262, 34.44], "to": [135.224, 34.633], "mode": "line", "seconds": 2, "label": "Boats to Kobe Airport"}], places=[KOBE_AP]), cut=True)),
+          m("and left the", v(near(135.23, 34.55, 0.4), routes=[{"from": [135.262, 34.44], "to": [135.224, 34.633], "mode": "line", "seconds": 2, "label": "Boats to Kobe Airport"}], places=[KOBE_AP]), cut=True),
+          photo("The bridge was not", PH_BRIDGE_APRON, "The bridge seen from the airport, 2013")),
         P("The walls went up again. Within three years, with planes still landing, the operator raised the seawalls along more than six kilometers, laid wave-breaking blocks along nearly five, and went on raising the first runway. Japan's society of civil engineers gave the work an award. The rule, in the operator's own brochure, is simple: as the island sinks, the walls are raised to the height the worst expected waves would need.",
           m(0, v(near(135.215, 34.409, 0.05)), cut=True),
           stat("more than six", "6 km", "Seawalls raised after Typhoon Jebi; blocks placed along 4.7 km", "Kansai Airports, via ACI Asia-Pacific, May 2022"),
@@ -340,6 +349,9 @@ chapters = [
           m("Kobe, across the", v(KOBE_AP_V, places=[KOBE_AP]), cut=True),
           m("Kitakyushu the same", v(KITAKYUSHU_V, places=[KITAKYUSHU]), cut=True),
           m("And not only", v({"lon": 80, "lat": 15, "span": 170}, places=[place("Istanbul", 28.75, 41.26, "Istanbul", "city"), place("Maldives", 73.53, 4.19, "Maldives", "city"), place("Brisbane", 153.12, -27.38, "Brisbane", "city"), OSAKA])),
+          m("on a drained marsh", v(near(28.74, 41.27, 0.14), places=[place("Istanbul Airport", 28.74, 41.27, "Istanbul Airport", "site")]), cut=True),
+          m("on a reef in", v(near(73.527, 4.195, 0.06), places=[place("Velana Airport", 73.529, 4.192, "Velana Airport, Maldives", "site")]), cut=True),
+          m("and on river mud", v(near(153.12, -27.385, 0.11), places=[place("Brisbane Airport", 153.117, -27.384, "Brisbane Airport", "site")]), cut=True),
           m("Ground like that", v(BAY, highlight=[ISLANDS]), cut=True)),
         P("So here is the question. If your city had no room left for an airport, would you build one on the sea, knowing it would sink?",
           m(0, v(W_C, places=[KIX]), cut=True),
@@ -366,51 +378,21 @@ def pic(name, label=None):
 # a photo is used at most PHOTO_MAX times and never within PHOTO_GAP seconds of its last use (ep 11 v1 cycled five
 # photos 8-12 times each). A village's photos only go under sentences about that village.
 SEC_WORD = 0.43
-PHOTO_MAX, PHOTO_GAP = 3, 110.0  # gap in estimated seconds; real speech runs faster than SEC_WORD (v2 repeats came back 35-54 s apart)
+PHOTO_MAX, PHOTO_GAP = 2, 330.0  # gap in estimated seconds; real speech runs faster than SEC_WORD (v2 repeats came back 35-54 s apart)
 SHORES = {
-    "kix": [(135.195, 34.432),
-            (135.275, 34.442),
-            (135.235, 34.412),
-            (135.235, 34.462),
-            (135.205, 34.437),
-            (135.265, 34.437),
-            (135.215, 34.402),
-            (135.245, 34.467),
-            (135.215, 34.442),
-            (135.255, 34.432),
-            (135.225, 34.407),
-            (135.245, 34.457),
-            (135.225, 34.437),
-            (135.245, 34.417),
-            (135.205, 34.417),
-            (135.265, 34.447),
-            (135.225, 34.457),
-            (135.235, 34.422),
-            (135.205, 34.427),
-            (135.255, 34.452),
-            (135.225, 34.447),
-            (135.245, 34.427),
-            (135.215, 34.412),
-            (135.245, 34.447),
-            (135.215, 34.432),
-            (135.235, 34.432),
-            (135.225, 34.417),
-            (135.255, 34.442),
-            (135.235, 34.452),
-            (135.245, 34.437),
-            (135.215, 34.422),
-            (135.225, 34.427),
-            (135.235, 34.442)],
+    "kix": [(135.24, 34.4265), (135.225, 34.443), (135.2208, 34.4128), (135.2425, 34.4552), (135.2593, 34.4401), (135.2075, 34.4308), (135.2301, 34.4195), (135.234, 34.4493), (135.2499, 34.4335), (135.216, 34.4367), (135.2152, 34.4089), (135.2475, 34.4588), (135.2648, 34.444), (135.2025, 34.4273)],  # along the centre lines of the two islands
     "narita": [(140.386, 35.765), (140.40, 35.78), (140.37, 35.75), (140.41, 35.74), (140.36, 35.79), (140.42, 35.80)],
     "shore": [(135.30, 34.41), (135.32, 34.43), (135.285, 34.395), (135.34, 34.45), (135.27, 34.38), (135.36, 34.47)],
     "city": [(135.438, 34.785), (135.50, 34.69), (135.45, 34.76), (135.47, 34.72), (135.42, 34.80), (135.52, 34.66)],
-    "bay": [(135.24, 34.44), (135.30, 34.48), (135.20, 34.50), (135.33, 34.42), (135.26, 34.52), (135.18, 34.42), (135.38, 34.56),
-            (135.42, 34.62), (135.15, 34.60), (135.05, 34.56), (135.22, 34.36), (135.30, 34.60)],
+    "bay": [(135.24, 34.44), (135.33, 34.42), (135.38, 34.56), (135.42, 34.62), (135.05, 34.56), (135.22, 34.36), (135.30, 34.60),
+            (135.27, 34.66), (135.44, 34.58), (135.05, 34.30)],  # every frame holds a coast or the islands
 }
-SPANS = {"bay": [0.3, 0.45, 0.6, 0.35, 0.25, 0.5], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1, 0.04, 0.11]}
+SPANS = {"bay": [0.3, 0.45, 0.6, 0.35, 0.25, 0.5], None: [0.06, 0.09, 0.07, 0.11, 0.05, 0.08, 0.1, 0.13]}
 LABELS = {"narita": "Narita, near Tokyo", "kix": "Kansai International Airport", "shore": "Osaka Bay shore", "city": "Osaka", "bay": "Osaka Bay"}
 PHOTOS = {"kix": [(PH_APRON, "Terminal 1 from the observation hall, 2015"), (PH_GATE, "Terminal 1, 2025"),
-                  (PH_DEPARTURE, "Terminal 1 departures, 2025"), (PH_HALL, "Terminal 1, 2010"), (PH_ATRIUM, "Terminal 1, 2014")]}
+                  (PH_DEPARTURE, "Terminal 1 departures, 2025"), (PH_HALL, "Terminal 1, 2010"), (PH_ATRIUM, "Terminal 1, 2014"),
+                  (PH_T2, "Terminal 2, on the second island, 2014"), (PH_WING, "Terminal 1 wing, 2006"),
+                  (PH_APRON2, "Terminal 1 apron, 2015")]}
 VIEW_PLACE = {"kix_np": "kix"}
 PHOTO_CHAPTERS = {"The Forecast That Missed", "Who Pays", "Will It Last"}
 used_views: set = set()

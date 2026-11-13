@@ -139,3 +139,8 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 133 | c06p01 | narration | high enough for the waves that come once in fifty years on top of the highest tide Osaka Bay has recorded | JSCE 2008: high waves occurring about once every 50 years at the highest tide level ever recorded for Osaka Bay | verified |
 | 134 | c06p02 | narration | and up through the drains in the grass beside the runway | JSCE 2008: groundwater welled up from drains in low grassy areas | verified |
 | 135 | c08p02 | narration | in Brisbane, where three hundred and thirty thousand drains were pushed eighty-five feet into the ground | AS photo caption: some 330,000 pipes with fabric wicks drilled 85 feet into the Brisbane River ground | verified |
+| add-1 | caption "The bridge to the island, 2007" | verified | Commons file page: Sky Gate Bridge R, Izumisano, 2007-03-17, 663highland (CC BY 2.5) |
+| add-2 | caption "Typhoon Jebi over Japan, 4 September 2018 (NASA)" | verified | Commons / NASA GSFC MODIS Land Rapid Response: taken 4 September 2018 (public domain) |
+| add-3 | caption "The bridge seen from the airport, 2013" | verified | Commons file page: taken 2013-11-26 from Kansai International Airport (CC BY 2.0) |
+| add-4 | map labels Istanbul Airport, Velana Airport (Maldives), Brisbane Airport under the Air & Space 2018 sentence | attributed | Air & Space, June 2018 (research.md); the views are today's airports, the sentence is about 2018 works |
+| add-5 | captions "Terminal 2, on the second island, 2014", "Terminal 1 wing, 2006", "Terminal 1 apron, 2015" | verified | Commons file pages (dates and places as given there); Terminal 2 stands on the second island (Kansai Airports) |

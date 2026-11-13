@@ -585,3 +585,18 @@ Each sub-phase stops for user approval.
 - Louisiana re-rendering with the brighter look: long 43356342349, cure Short 43356346844, island Short 43356351460
   (the earlier island approval is void). Cover: episodes/louisiana-land-loss/cover.json ("IT HAD / A CURE").
 - First topic under the new logic: waiting for the user's pick (Kansai sinking airport passed the demand check).
+
+## 2026-11-13 (morning UTC)
+- Louisiana: the brighter render (43356342349) had 0 dark flags (v3: 28), but the Barataria seam was still there. Cause: two
+  satellites on the picked day (S2B 16:42 tile 16RBT ends at 90.09 W, S2A 16:55 tile 15RYN covers those views whole);
+  `sentinel._by_pass` now puts the scene that covers the view alone first (cache v4). Final render running: 43376713212.
+  Shorts are NOT uploaded (the user stopped Shorts from Louisiana on, 2026-11-12); their re-renders were my mistake.
+  Then: fetch -Delete, audit all sheets, cover from episodes/louisiana-land-loss/cover.json, upload scheduled 2026-11-14T23:00Z.
+- Kansai airport (first episode under the new logic; gate 1 approved by the user): research.md with the operator's own
+  December 2025 measurements, Air & Space 2018 and the Mesri & Funk paper, all read in the user's Chrome (the sites refuse our
+  fetcher). script 2,315 words, `episode_check` OK, factcheck.md 105 verified / 14 attributed / 6 own, no FIX.
+  Own evidence: Landsat 1985-08-24, 1989-09-04 (seawall ring), 1990-08-06 (half filled), 1995-08-04, 2004-08-12, 2026-08-25.
+  Storyboard running: 43380484708. Then: storyboard self-review, full render, audit, cover (cover.json: "45 FEET / DOWN",
+  13.72 m = 45.0 ft), gate 2 for the user.
+- Lesson: a search summary gave a wrong forecast (15.7 / 24.9 m); the paper says 17.6 / 24.4 m. Numbers from summaries
+  stay TODO until the page itself is read.

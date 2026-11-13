@@ -600,3 +600,12 @@ Each sub-phase stops for user approval.
   13.72 m = 45.0 ft), gate 2 for the user.
 - Lesson: a search summary gave a wrong forecast (15.7 / 24.9 m); the paper says 17.6 / 24.4 m. Numbers from summaries
   stay TODO until the page itself is read.
+- Louisiana UPLOADED: video CKHRMZp-s0M, private, publishAt 2026-11-14T23:00:00Z (15 Nov 02:00 TR), map cover
+  "IT HAD / A CURE" set (cover.jpg from cover.json). Final render 43376713212 audited on all 32 sheets: seam gone, 0 dark
+  flags. Pinned comment still to post/pin: "Open the river and change the fishing towns for good, or keep today's coast and
+  watch it shrink?" (`yt_upload.py comment`, pin by hand in Studio). No Shorts for this topic.
+- Kansai: storyboard run 43382820808 finished OK (first try 43380484708 failed in prepare: the 2004 -> 2026 wipe was cut
+  0.4 s short on the real narration; its `seconds` is now 1.2). Narration: 824.7 s at speed 1.08 before pauses.
+  NEXT: download the storyboard artifact, look at every sheet (island views repeat? photos sharp? painted steps read?),
+  fix, full render, frame audit, cover.jpg via cover_map (cover.json: "45 FEET / DOWN"), gate 2 with the user.
+  Planned slot (not yet confirmed by the user): 2026-11-15T23:00Z = 16 Nov 02:00 TR.

@@ -67,7 +67,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str, feather=None) -> dict 
     lonlat = unit_box_to_lonlat((x0, y0, x1, y1))
     mid_lat = (lonlat[1] + lonlat[3]) / 2
     ground_res = (x1 - x0) * EARTH / width * math.cos(math.radians(mid_lat))
-    key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, "landsat-v1"]).encode()).hexdigest()
+    key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, "landsat-v2"]).encode()).hexdigest()
     cache = CACHE_DIR / "landsat" / f"{key}.png"
     meta = cache.with_suffix(".json")
     if not cache.exists():
@@ -125,7 +125,6 @@ def mosaic(unit_box, px_width: int, out: Path, when: str, feather=None) -> dict 
         disp = _tone(np.where(np.isfinite(acc), acc, 0), valid, stretch=False)
         img = Image.fromarray((disp * 255).astype(np.uint8))
         img = ImageEnhance.Color(img).enhance(1.22)
-        img = ImageEnhance.Brightness(img).enhance(0.92)
         img = img.filter(ImageFilter.UnsharpMask(radius=1.6, percent=55, threshold=2))
         img.putalpha(Image.fromarray((valid * 255).astype(np.uint8)))
         cache.parent.mkdir(parents=True, exist_ok=True)

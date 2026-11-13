@@ -33,6 +33,7 @@ from config import CACHE_DIR
 STAC = "https://earth-search.aws.element84.com/v1/search"
 EARTH = 40075016.68557849  # Web Mercator world width (m)
 RECENT = ("2023-01-01", "2024-12-31")  # default window for "today" mosaics
+TONE_GAMMA = 0.72  # < 1 brightens dark ground; highlights barely move
 CLOUD_SCL = {3, 8, 9, 10}  # cloud shadow, cloud medium/high, cirrus (Sen2Cor also flags bright sand: see mosaic)
 GDAL_ENV = {"GDAL_DISABLE_READDIR_ON_OPEN": "EMPTY_DIR", "CPL_VSIL_CURL_ALLOWED_EXTENSIONS": ".tif",
             "GDAL_HTTP_MAX_RETRY": "4", "GDAL_HTTP_RETRY_DELAY": "2", "VSI_CACHE": "TRUE",
@@ -203,7 +204,9 @@ def _tone(rgb: np.ndarray, valid: np.ndarray, stretch: bool) -> np.ndarray:
         dark = min(float(np.percentile(vals, 0.5)), 0.05) if vals.size else 0.0
         v = np.clip(ch - dark * 0.8, 0, None)
         out[..., c] = (1 - np.exp(-v / 0.17)) / (1 - np.exp(-0.62 / 0.17))
-    return np.clip(out, 0, 1)
+    # Lift the shadows: true-colour marsh, forest and water sit at 3-6 % reflectance, and a whole episode came out
+    # at a median frame brightness of 33/255 (Louisiana, 2026-11-13) next to a niche of bright painted maps.
+    return np.clip(out, 0, 1) ** TONE_GAMMA
 
 
 def _match_overlap(rgb: np.ndarray, ok: np.ndarray, ref: np.ndarray) -> np.ndarray:
@@ -242,7 +245,7 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
     # A one-day window "D/D" is a clear day picked by hand: normal tone, and no cloud mask either (Sen2Cor's false
     # cloud on bright ground would be filled from the other satellite's pass, in its colours).
     picked_day = bool(when) and "/" in when and len(set(when.split("/"))) == 1
-    version = "v2m" if picked_day else "v2"  # v2m: tiles colour-matched in their overlap (_match_overlap)
+    version = "v3m" if picked_day else "v3"  # m: tiles colour-matched in their overlap (_match_overlap); v3: brighter tone (TONE_GAMMA)
     key = hashlib.sha1(json.dumps([round(v, 7) for v in (x0, y0, x1, y1)] + [width, when, version]).encode()).hexdigest()
     cache = CACHE_DIR / "s2" / f"{key}.png"
     meta = cache.with_suffix(".json")
@@ -333,7 +336,6 @@ def mosaic(unit_box, px_width: int, out: Path, when: str | None = None, feather=
         disp = _tone(np.where(np.isfinite(acc), acc, 0), valid, stretch=event)
         img = Image.fromarray((disp * 255).astype(np.uint8))
         img = ImageEnhance.Color(img).enhance(1.22)
-        img = ImageEnhance.Brightness(img).enhance(0.92)
         img = img.filter(ImageFilter.UnsharpMask(radius=1.6, percent=55, threshold=2))
         alpha = Image.fromarray((valid * 255).astype(np.uint8))
         img.putalpha(alpha)

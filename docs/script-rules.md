@@ -92,3 +92,12 @@ end CTA, the closing question as the pinned comment, never bend facts).
 - Episodes with fewer than ~50 views give no usable curve; reach (title and thumbnail) is the bigger problem
   while views stay that low.
 
+## Packaging and look (2026-11-13, from the niche outlier research)
+- Topic and title pass `episode-plan` step 1 (known place, one "why", `topic_radar.py --check` PASS, title of 55
+  characters at most) before any outline is written.
+- The cover is a painted map from `tools/cover_map.py` (`cover-map` skill); the hook's first map shows the same view
+  and the same red region.
+- Chapters open on a painted map step (`highlight`, `arrows`, labels); satellite close views are the evidence that
+  follows, never more than two in a row.
+- Imagery is brighter since this date (sentinel.TONE_GAMMA, lighter Blue Marble grade and vignette); the frame audit
+  flags map stretches darker than 22/255 for 3 s.

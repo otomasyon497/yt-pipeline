@@ -58,7 +58,7 @@ export const STYLES: Record<string, MapStyle> = {
 		tints: tints('#ffb020'),
 		highlightFill: 0.34,
 		dim: 'rgba(2,8,20,0.58)',
-		vignette: 0.5,
+		vignette: 0.3,
 		choropleth: ['#fff1a8', '#f59e0b', '#c81d25'],
 		choroplethOpacity: 0.8,
 		nodata: 'rgba(160,170,185,0.35)',

@@ -11,7 +11,7 @@ What it does, from the first second to the last:
 1. One frame per second (Remotion's ffmpeg), contact sheets of 30 s (6 x 5) with time, shot id, kind and the words
    spoken at that second under every frame: the visual review looks at every one of them, not only at known problems.
 2. Automatic checks: black or blank frames; frozen picture (no change for more than HOLD s); flashes (a jump in
-   brightness inside one shot); soft frames (sharpness far below the video's median); duration against the timeline;
+   brightness inside one shot); dark map stretches; soft frames (sharpness far below the video's median); duration against the timeline;
    quote and document cards on screen for less than DOC_MIN s; the same photo used twice within REPEAT_S s; audio
    peaks, clipping, silent gaps and level.
 3. audit.json with the video's fingerprint. tools/yt_upload.py refuses a video without an approved audit of that
@@ -37,6 +37,7 @@ VIDEOS = Path.home() / "Videos" / "yt-pipeline"
 TILE_W, TILE_H, BAR, COLS, ROWS = 480, 270, 44, 6, 5  # landscape; vertical Shorts switch to 216 x 384, 10 x 3
 HOLD = 8.0  # s without any change -> frozen
 DOC_MIN = 3.0  # s a quote / document card must stay on screen
+DARK, DARK_RUN = 22.0, 3  # mean brightness (0-255) under DARK for DARK_RUN s on a map -> dark
 REPEAT_S = 90.0  # the same photo twice within this many seconds
 SOFT = 0.30  # sharpness below this share of the median -> soft
 
@@ -191,6 +192,16 @@ def main() -> None:
             s = shot_at(i)
             flags.append({"t": i, "kind": "soft", "detail": f"sharpness {sharp[i] / med_sharp:.2f} of median"
                           + (f" ({s['visual']} {s['id']})" if s else "")})
+    # 4b. dark stretches: map pictures the eye cannot read (Louisiana 12:33, six seconds of near-black marsh)
+    run = 0
+    for i in range(n + 1):
+        s = shot_at(i) if i < n else None
+        if i < n and lum[i] < DARK and (not tl or (s and s["visual"] == "map")):
+            run += 1
+            continue
+        if run >= DARK_RUN:
+            flags.append({"t": i - run, "kind": "dark", "detail": f"{run} s under brightness {DARK:.0f} (mean {np.mean(lum[i - run:i]):.0f})"})
+        run = 0
     # 5. duration, document cards, repeated photos (timeline)
     if tl:
         want = tl["totalFrames"] / fps

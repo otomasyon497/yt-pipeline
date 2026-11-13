@@ -101,8 +101,8 @@ def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, 
     url = (f"{WMS_3857}?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS={name}&STYLES=&CRS=EPSG:3857"
            f"&BBOX={bbox}&WIDTH={width}&HEIGHT={height}&FORMAT={fmt}" + (f"&TIME={when}" if when else ""))
     img = _get(url)
-    if layer == "day":  # baked-in grade (cheaper than a CSS filter on every frame): darker, so overlays pop
-        img = ImageEnhance.Color(ImageEnhance.Contrast(ImageEnhance.Brightness(img).enhance(0.8)).enhance(1.06)).enhance(0.92)
+    if layer == "day":  # baked-in grade (cheaper than a CSS filter on every frame); 0.8 -> 0.92 on 2026-11-13: episodes read too dark
+        img = ImageEnhance.Color(ImageEnhance.Contrast(ImageEnhance.Brightness(img).enhance(0.92)).enhance(1.06)).enhance(1.0)
     img = _relief(img) if layer == "relief" else img.convert("RGBA")
     if mask is not None:
         m = np.asarray(mask((x0, y0, x1, y1), img.size), dtype=np.float32) / 255.0

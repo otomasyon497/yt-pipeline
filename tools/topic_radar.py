@@ -2,6 +2,8 @@
 
     python tools/topic_radar.py            # writes docs/topic-radar-<date>.md and prints it
     python tools/topic_radar.py --days 60
+    python tools/topic_radar.py --check "why nobody lives in the Nile delta desert" "Egypt empty desert geography"
+        # demand check for one candidate topic (episode-plan step 1): how many comparable videos beat their channel
 
 A lead, not a verdict: it shows that a subject drew viewers, never how many people search for it or where they live.
 Every lead still goes through .claude/skills/episode-plan (research depth, real pictures) and the user's choice. Other
@@ -26,6 +28,9 @@ QUERIES = {
                      "new capital city project explained"],
     "borders": ["strange border explained geography", "disputed territory map explained", "why this country wants this land map"],
     "land": ["sinking city explained satellite", "coastline disappearing country losing land", "desert expansion satellite images explained"],
+    # The format that breaks out for small channels (research 2026-11-13): a place the viewer knows + one "why".
+    "place": ["why almost nobody lives in", "why nobody lives on this coast", "geography makes no sense explained map",
+              "why this state is so empty", "why this region doesn't feel like", "why this island is empty geography"],
     "trade": ["shipping chokepoint strait explained map", "why this port matters geopolitics map"],
 }
 # Exam-prep and news channels fill these results; their numbers say little about a documentary audience.
@@ -41,9 +46,12 @@ def english(title: str) -> bool:
     return bool(letters) and sum(c.isascii() for c in letters) / len(letters) > 0.95
 
 
-def search(yt, after: str) -> dict[str, str]:
+DEMAND_RATIO, DEMAND_HITS = 3.0, 3  # a topic passes with 3 comparable videos at 3x their channel's subscribers
+
+
+def search(yt, after: str, queries_by_theme: dict | None = None) -> dict[str, str]:
     ids: dict[str, str] = {}
-    for theme, queries in QUERIES.items():
+    for theme, queries in (queries_by_theme or QUERIES).items():
         for q in queries:
             for length in ("medium", "long"):
                 r = yt.search().list(part="id", q=q, type="video", order="viewCount", publishedAfter=after, maxResults=25,
@@ -97,9 +105,23 @@ def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=90)
+    ap.add_argument("--check", nargs="+", metavar="QUERY", help="demand check: search these phrases (the topic said 2-3 ways)")
     a = ap.parse_args()
     yt, ya = t.services()
     now = dt.datetime.now(dt.timezone.utc)
+    if a.check:
+        days = max(a.days, 365)
+        ids = search(yt, (now - dt.timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ"), {"check": a.check})
+        videos, subs = details(yt, list(ids))
+        rows, _ = score(videos, subs, ids, now)
+        hits = [r for r in rows if r["ratio"] >= DEMAND_RATIO]
+        small = [r for r in hits if r["subs"] < 100_000]
+        for r in rows[:15]:
+            print(f"{r['ratio']:>6.1f}x {r['views']:>10,} views {r['subs']:>9,} subs {r['age']:>4} d  {r['title'][:70]} ({r['channel'][:24]})")
+        verdict = "PASS" if len(hits) >= DEMAND_HITS else "FAIL"
+        print(f"demand: {verdict}: {len(hits)} video(s) at {DEMAND_RATIO:.0f}x their channel in {days} days "
+              f"({len(small)} from channels under 100K); needs {DEMAND_HITS}. Read the titles: they must be about this topic.")
+        return
     ids = search(yt, (now - dt.timedelta(days=a.days)).strftime("%Y-%m-%dT%H:%M:%SZ"))
     videos, subs = details(yt, list(ids))
     rows, dropped = score(videos, subs, ids, now)

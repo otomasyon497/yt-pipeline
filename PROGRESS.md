@@ -616,3 +616,11 @@ Each sub-phase stops for user approval.
   storyboard sheet, fix, `gh workflow run render.yml -f slug=kansai-airport`, fetch -Delete, frame audit, cover_map, gate 2.
 - Kansai storyboard: 10 of 35 sheets reviewed (episodes/kansai-airport/PLAN.md), fixes applied (photo fillers limited,
   Narita views, 1995 view in the hook, seawall paragraph), check OK. Full render started; the audit must cover the rest.
+- 17 Nov 02:00 TR slot: australia-interior (user's pick; Kansai must stay on 16 Nov). Reference-video study done
+  (docs/reference-videos-2026-11-13.md): hook template, numbered reasons, 2,750-3,000 words, a third ground photos,
+  solid painted regions (`highlight: ["Region@red"]`, new in maps.py / MapBlock.tsx, not yet seen in a render).
+  episodes/australia-interior/research.md holds the gate-1 outline and TODO facts. Waiting for the user's OK on the
+  outline and on narration speed (168 -> ~180 wpm?). Skills registry searched: nothing worth installing
+  (iart-ai map-animation is Google Earth Studio / After Effects guidance).
+- Kansai full render 43475114378 was still running at this point; then fetch -Delete, audit (sheets 11-35 of the
+  storyboard were never reviewed), cover_map, gate 2.

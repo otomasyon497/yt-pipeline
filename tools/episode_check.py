@@ -22,8 +22,8 @@ import timeline as tl  # noqa: E402
 SEC_PER_WORD = 0.425  # speaking time per word at the episode pace (pauses come from timeline.layout)
 HOLD_LIMIT = 6.5  # seconds without a new picture (stricter than prepare's 8 s note)
 REPEAT_GAP = 60.0  # seconds before the same photo or map view may come back
-PHOTO_MAX_USES = 3  # times one photo may appear in an episode
-VIEW_MAX_USES = 4  # times one map view may appear in an episode
+PHOTO_MAX_USES = 2  # times one photo may appear in an episode (3 until 2026-11-14: the user found repeats boring)
+VIEW_MAX_USES = 2  # times one map view may appear in an episode (4 until 2026-11-14)
 STAT_MIN_SEC = 2.5  # a stat card shorter than this is a flash: the label never becomes readable
 
 
@@ -180,6 +180,8 @@ def main():
     if not a.slug:
         ap.error("give an episode slug or --words N")
     script = load_script(ROOT / "episodes" / a.slug / "script.json")
+    global SEC_PER_WORD  # speech runs faster at a higher voice speed (Kansai: 0.365 s a word at 1.08, all pauses included)
+    SEC_PER_WORD = 0.395 * 1.08 / (script.voice_speed or 1.08)
     problems = []
     n_words = sum(len(words_of(p.text)) for ch in script.chapters for p in ch.paragraphs)
     durations, words = fake_timings(script)

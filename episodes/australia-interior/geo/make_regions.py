@@ -1,7 +1,7 @@
 """Writes the painted-map regions of this episode (run with the venv python: shapely, pyproj).
 
 inland.geojson / coast.geojson: the mainland more than / less than 50 km from the sea (Natural Earth 10m land, buffered
-in GDA94 Australian Albers, EPSG:3577). The other files are Natural Earth "geography regions" polygons: generalised
+in GDA94 Australian Albers, EPSG:3577). eyre_basin / mdb / nw_plateau / sw_plateau come from Geoscience Australia (see research.md). The other files are Natural Earth "geography regions" polygons: generalised
 label regions, not surveyed boundaries, so the script prints their areas for the fact check.
 """
 import json
@@ -40,6 +40,5 @@ print(f"mainland {m.area / 1e6:,.0f} km2, inland share {inner.area / m.area:.1%}
 regions = {p.get("name") or p.get("NAME"): g for p, g in geo.ne_geoms("ne_10m_geography_regions_polys")}
 write("range.geojson", "Great Dividing Range", regions["GREAT DIVIDING RANGE"])
 write("gab.geojson", "Great Artesian Basin", regions["GREAT ARTESIAN BASIN"])
-write("mdb.geojson", "Murray-Darling Basin", regions["MURRAY-DARLING BASIN"])
 deserts = [g for n, g in regions.items() if n and "desert" in n.lower() and 110 < g.bounds[0] < 150 and g.bounds[1] < -15]
 write("deserts.geojson", "Deserts", shapely.union_all(deserts))

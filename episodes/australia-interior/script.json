@@ -1,0 +1,4585 @@
+{
+ "title": "Why Almost Nobody Lives in Most of Australia",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/australia-interior/research.md and factcheck.md",
+  "Drainage divisions: Geoscience Australia, National Catchment Boundaries (CC BY 4.0)",
+  "Dated satellite views: NASA MODIS Terra via GIBS; Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "THE EMPTY MIDDLE"
+ },
+ "chapters": [
+  {
+   "title": "The Empty Middle",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Australia is almost as big as the lower forty-eight United States. About twenty-eight million people live on it. But draw a strip fifty kilometers wide along its coast, about a tenth of the land, and by the last official count of this kind you have fenced in more than eight out of every ten of them. Behind that strip lies nine tenths of a continent. And at night, from orbit, almost all of it is dark.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -27.5,
+           "span": 58
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "About twenty-eight million",
+       "photo": "File:Aerial panorama of South Yarra facing the Melbourne skyline. September 2023.jpg",
+       "on_screen_text": "Melbourne, 2023"
+      },
+      {
+       "type": "map",
+       "at": "But draw a strip",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.9,
+           "lat": -26.34,
+           "span": 52.2
+          },
+          "highlight": [
+           "file:coast.geojson@accent"
+          ]
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": 136.9,
+           "lat": -26.34,
+           "span": 39.15
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "by the last official",
+       "stat": {
+        "value": "85 %",
+        "label": "Australians living within 50 km of the coast, 2001 census",
+        "source": "ABS, Population Growth and Distribution 2001 (cat. 2035.0)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "more than eight out",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 153.42,
+           "lat": -28.0,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gold Coast, Queensland"
+      },
+      {
+       "type": "map",
+       "at": "Behind that strip",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.1,
+           "lat": -28.66,
+           "span": 63.8
+          },
+          "highlight": [
+           "file:inland.geojson@red",
+           "file:coast.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And at night",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 47.56
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The pattern holds almost everywhere. In that count, ninety-nine percent of Tasmanians lived near the coast, ninety-one percent of South Australians and Western Australians, eighty-eight percent of Queenslanders. Even in the Northern Territory, the emptiest of them all, two people in three lived near the sea. Five cities on the edge, Sydney, Melbourne, Brisbane, Perth and Adelaide, hold most of the country between them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.26,
+           "lat": -25.18,
+           "span": 68.44
+          },
+          "highlight": [
+           "file:coast.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Sydney",
+            "lon": 151.21,
+            "lat": -33.87,
+            "kind": "city",
+            "label": "Sydney"
+           },
+           {
+            "name": "Melbourne",
+            "lon": 144.96,
+            "lat": -37.81,
+            "kind": "city",
+            "label": "Melbourne"
+           },
+           {
+            "name": "Brisbane",
+            "lon": 153.03,
+            "lat": -27.47,
+            "kind": "city",
+            "label": "Brisbane"
+           },
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           },
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "ninety-one percent",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.6,
+           "lat": -34.93,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Adelaide, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "eighty-eight percent",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 153.03,
+           "lat": -27.47,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Brisbane, Queensland"
+      },
+      {
+       "type": "map",
+       "at": "Even in the Northern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 130.84,
+           "lat": -12.46,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": 130.84,
+           "lat": -12.46,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Darwin, Northern Territory"
+      },
+      {
+       "type": "photo",
+       "at": "Five cities on",
+       "photo": "File:Sydney Harbour from a jet aircraft-19Mar2009.jpg",
+       "on_screen_text": "Sydney from the air, 2009"
+      },
+      {
+       "type": "photo",
+       "at": "hold most of",
+       "photo": "File:Perth skyline from the Swan River, August 2024.jpg",
+       "on_screen_text": "Perth, Western Australia"
+      }
+     ]
+    },
+    {
+     "text": "It is not empty for lack of trying. A surveyor once drew a line across the map and warned farmers not to cross it. They crossed it. The engineer of the Sydney Harbour Bridge wanted to turn whole rivers around and send them inland. And in the middle there is a lake that fills only a few times in a century. So why does almost nobody live in most of Australia? There are five reasons. The first one starts in the sky.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Stuart Highway - panoramio.jpg",
+       "on_screen_text": "Stuart Highway"
+      },
+      {
+       "type": "photo",
+       "at": "A surveyor once",
+       "photo": "File:Portrait of George Woodroffe Goyder(GN03908).jpg",
+       "on_screen_text": "George Goyder, Surveyor-General"
+      },
+      {
+       "type": "map",
+       "at": "They crossed it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.42,
+           "lat": -31.6,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North of Goyder's Line, South Australia"
+      },
+      {
+       "type": "photo",
+       "at": "The engineer of",
+       "photo": "File:John Bradfield tipping his hat from a walkway on the newly constructed Sydney Harbour Bridge.jpg",
+       "on_screen_text": "John Bradfield on the Sydney Harbour Bridge"
+      },
+      {
+       "type": "map",
+       "at": "And in the middle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.35,
+           "lat": -28.45,
+           "span": 1.9
+          }
+         },
+         {
+          "at": 52,
+          "view": {
+           "lon": 137.35,
+           "lat": -28.45,
+           "span": 1.178
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kati Thanda-Lake Eyre"
+      },
+      {
+       "type": "map",
+       "at": "So why does",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.06,
+           "lat": -27.5,
+           "span": 55.1
+          },
+          "highlight": [
+           "file:inland.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Sydney",
+            "lon": 151.21,
+            "lat": -33.87,
+            "kind": "city",
+            "label": "Sydney"
+           },
+           {
+            "name": "Melbourne",
+            "lon": 144.96,
+            "lat": -37.81,
+            "kind": "city",
+            "label": "Melbourne"
+           },
+           {
+            "name": "Brisbane",
+            "lon": 153.03,
+            "lat": -27.47,
+            "kind": "city",
+            "label": "Brisbane"
+           },
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           },
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "There are five",
+       "photo": "File:Uluru, helicopter view.jpg",
+       "on_screen_text": "Uluru, Northern Territory"
+      }
+     ],
+     "ask": {
+      "at": "So why does",
+      "text": "Why is the middle empty?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Rain Never Arrives",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason one. The rain never arrives. Look at where Australia sits. It lies across the latitudes where air that rose near the equator comes back down, and sinking air is dry air. The Bureau of Meteorology says it plainly: the dominant influence on Australia's climate is its latitude, and the aridity of much of the country is largely a consequence of that subsiding air. A belt of high pressure sits over the continent for much of the year, and under it clouds struggle to form.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.94,
+           "lat": -27.5,
+           "span": 49.88
+          },
+          "highlight": [
+           "file:deserts.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Look at where",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134,
+           "lat": -10,
+           "span": 150
+          },
+          "highlight": [
+           "Australia@red"
+          ]
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": 134,
+           "lat": -10,
+           "span": 112.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and sinking air",
+       "photo": "File:Simpson Desert Dunes, Australia (52241360124).png",
+       "on_screen_text": "Simpson Desert"
+      },
+      {
+       "type": "document",
+       "at": "The Bureau of",
+       "document": {
+        "text": "The dominant influence on Australia's climate is its latitude... The aridity of much of Australia is largely a consequence of the subsiding air associated with the high pressure ridge.",
+        "source": "Bureau of Meteorology, in ABS Year Book Australia 2005",
+        "highlight": "subsiding air"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and the aridity of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.5,
+           "lat": -26.2,
+           "span": 1.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Simpson Desert"
+      },
+      {
+       "type": "map",
+       "at": "A belt of high",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.0,
+           "lat": -28.4,
+           "span": 1.2
+          }
+         },
+         {
+          "at": 72,
+          "view": {
+           "lon": 129.0,
+           "lat": -28.4,
+           "span": 0.744
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Great Victoria Desert"
+      },
+      {
+       "type": "map",
+       "at": "clouds struggle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 124.3,
+           "lat": -21.3,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Great Sandy Desert"
+      }
+     ]
+    },
+    {
+     "text": "Then there is the shape of the land. Moist air does come in from the Pacific. On the east coast it meets the Great Dividing Range, a chain of highlands that runs the length of the continent's eastern edge. The air rises, cools, and drops its rain on the seaward side. The wettest place in the country is here, on the Queensland coast between Cairns and Cardwell, where rainforest comes down to the beach. What crosses the range has already been wrung out. In the Bureau's words, the range enhances rainfall over the east coast and partially blocks moisture from penetrating further inland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.5,
+           "lat": -26.0,
+           "span": 30
+          },
+          "highlight": [
+           "file:range.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Moist air does",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.0,
+           "lat": -25.4,
+           "span": 27.0
+          },
+          "highlight": [
+           "file:range.geojson@alt"
+          ],
+          "arrows": [
+           {
+            "from": [
+             158.0,
+             -18.0
+            ],
+            "to": [
+             147.2,
+             -18.5
+            ],
+            "color": "blue",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             159.0,
+             -27.0
+            ],
+            "to": [
+             153.6,
+             -28.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             157.0,
+             -35.0
+            ],
+            "to": [
+             151.3,
+             -34.2
+            ],
+            "color": "blue",
+            "bend": 0.1
+           }
+          ]
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": 148.0,
+           "lat": -25.4,
+           "span": 20.25
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a chain of highlands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 150.35,
+           "lat": -33.75,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Blue Mountains, New South Wales"
+      },
+      {
+       "type": "photo",
+       "at": "The air rises",
+       "photo": "File:Daintree Rainforest, Queensland (483845) (9443587310).jpg",
+       "on_screen_text": "Daintree rainforest, Queensland"
+      },
+      {
+       "type": "map",
+       "at": "The wettest place",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.9,
+           "lat": -17.6,
+           "span": 0.9
+          },
+          "places": [
+           {
+            "name": "Cairns",
+            "lon": 145.77,
+            "lat": -16.92,
+            "kind": "city",
+            "label": "Cairns"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Queensland coast, Cairns to Cardwell"
+      },
+      {
+       "type": "photo",
+       "at": "where rainforest",
+       "photo": "File:Daintree Rainforest, Queensland (483850) (9443590252).jpg",
+       "on_screen_text": "Daintree rainforest, Queensland"
+      },
+      {
+       "type": "map",
+       "at": "What crosses the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 144.2,
+           "lat": -20.85,
+           "span": 0.7
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "West of the range: Hughenden, Queensland"
+      },
+      {
+       "type": "document",
+       "at": "In the Bureau's",
+       "document": {
+        "text": "The Great Dividing Range and associated ranges in eastern Australia enhance rainfall over the east coast hinterland and partially block moisture from penetrating further inland.",
+        "source": "Bureau of Meteorology, in ABS Year Book Australia 2005",
+        "highlight": "partially block moisture"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and partially blocks",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.3,
+           "lat": -26.4,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Inland Queensland, west of the range"
+      }
+     ]
+    },
+    {
+     "text": "And the interior is simply far away. In any direction, it is a long way from the sea. The result is a number. Over eighty percent of the continent, average rainfall is below six hundred millimeters a year: two feet. Over half of it, the figure is below three hundred, one foot. And around Lake Eyre, in the driest corner, it is under a hundred and fifty: six inches of rain in a whole year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 133.88,
+           "lat": -23.7,
+           "span": 0.5
+          },
+          "places": [
+           {
+            "name": "Alice Springs",
+            "lon": 133.88,
+            "lat": -23.7,
+            "kind": "city",
+            "label": "Alice Springs"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Alice Springs, Northern Territory"
+      },
+      {
+       "type": "photo",
+       "at": "In any direction",
+       "photo": "File:Stuart Highway (2050420602).jpg",
+       "on_screen_text": "Stuart Highway"
+      },
+      {
+       "type": "chart",
+       "at": "Over eighty percent",
+       "chart": {
+        "type": "bar",
+        "title": "Share of Australia by yearly rainfall",
+        "unit": "%",
+        "data": [
+         [
+          "Under 600 mm",
+          80
+         ],
+         [
+          "Under 300 mm",
+          50
+         ]
+        ],
+        "source": "Bureau of Meteorology, in ABS Year Book Australia 2005",
+        "highlight": 1,
+        "reveal": [
+         "Over half of it"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "And around Lake Eyre",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.9,
+           "lat": -29.3,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "South of Lake Eyre"
+      },
+      {
+       "type": "stat",
+       "at": "it is under",
+       "stat": {
+        "value": "150 MM",
+        "label": "Yearly rainfall near Lake Eyre, the driest part of Australia",
+        "source": "Bureau of Meteorology, in ABS Year Book Australia 2005"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the dry part is not a corner of the map. Western Australia alone covers two and a half million square kilometers, a third of the country. As a nation it would rank among the ten largest on Earth. Most of it is desert or dry scrub, and most of its people live in one city, Perth, in the far southwest, where winter rain still reaches.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -24.6,
+           "span": 61.48
+          },
+          "highlight": [
+           "Western Australia@red"
+          ],
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ]
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 134.0,
+           "lat": -24.6,
+           "span": 46.11
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "As a nation it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 125.0,
+           "lat": -26.0,
+           "span": 1.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gibson Desert, Western Australia"
+      },
+      {
+       "type": "map",
+       "at": "Most of it is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 121.6,
+           "lat": -27.2,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt lakes of the Western Australian goldfields"
+      },
+      {
+       "type": "photo",
+       "at": "and most of its people",
+       "photo": "File:Perth skyline from the Swan River, August 2024.jpg",
+       "on_screen_text": "Perth, Western Australia"
+      },
+      {
+       "type": "map",
+       "at": "where winter rain",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.0,
+           "lat": -32.4,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Perth and the green southwest"
+      }
+     ]
+    },
+    {
+     "text": "Wheat farmers in South Australia found out exactly where the limit was, and we will come to them. But low rainfall is only the first problem. Even where rain does fall, what does it fall on?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:CSIRO ScienceImage 4485 Harvesting wheat at Blyth in the mid north of South Australia 1986.jpg",
+       "on_screen_text": "Wheat harvest, mid north of South Australia, 1986"
+      },
+      {
+       "type": "map",
+       "at": "and we will come",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.0,
+           "lat": -33.6,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wheat country, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "But low rainfall",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.04,
+           "lat": -25.35,
+           "span": 0.35
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Uluru"
+      },
+      {
+       "type": "photo",
+       "at": "Even where rain",
+       "photo": "File:SaltbushPlainHay.JPG",
+       "on_screen_text": "Saltbush plain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ground Is Worn Out",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason two. The ground is worn out. In Europe and North America the ice ages did farmers a favor. Glaciers ground fresh rock into powder and spread it over the land. Elsewhere volcanoes did the same job, bringing up minerals from deep below. Australia had very little of either. As a writer at Murdoch University put it in 2024, Australia did not have this renewal of soil from grinding ice, or from volcanoes. The result, in the same article's words: soils that are heavily weathered, old, and short on nutrients.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -30.4,
+           "span": 45.24
+          },
+          "highlight": [
+           "file:inland.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In Europe and",
+       "photo": "File:CSIRO ScienceImage 3832 Red Sodosol soil profile near Coober Pedy South Australia.jpg",
+       "on_screen_text": "Red soil profile near Coober Pedy (CSIRO)"
+      },
+      {
+       "type": "map",
+       "at": "Glaciers ground",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.5,
+           "lat": -30.9,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nullarbor Plain"
+      },
+      {
+       "type": "map",
+       "at": "Elsewhere volcanoes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 127.0,
+           "lat": -24.6,
+           "span": 0.9
+          }
+         },
+         {
+          "at": 40,
+          "view": {
+           "lon": 127.0,
+           "lat": -24.6,
+           "span": 0.558
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gibson Desert"
+      },
+      {
+       "type": "document",
+       "at": "As a writer at",
+       "document": {
+        "text": "Australia didn't have this renewal of soil from grinding ice – or from volcanoes... our soils are famously very poor – heavily weathered, old, and short on nutrients.",
+        "source": "Ryan Borrett, Murdoch University, in The Conversation, January 2024",
+        "highlight": "heavily weathered, old, and short on nutrients"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Australia did not have",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 123.5,
+           "lat": -27.5,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The old plateau of Western Australia"
+      },
+      {
+       "type": "photo",
+       "at": "The result, in",
+       "photo": "File:CSIRO ScienceImage 3835 Opal fields at Coober Pedy South Australia 1992.jpg",
+       "on_screen_text": "Coober Pedy, South Australia, 1992 (CSIRO)"
+      }
+     ]
+    },
+    {
+     "text": "Old is the key word. The interior is low and flat, and it has been for a very long time. Rain, when it came, washed the goodness out of the ground, and nothing put it back. You can see the result from the air. Most of this is not sand-dune desert. Geoscience Australia counts ten named deserts, and together they cover about eighteen percent of the mainland. The largest, the Great Victoria, covers about three hundred and fifty thousand square kilometers, close to the size of Germany. The agency's own definition of a desert is land that gets less than two hundred and fifty to five hundred millimeters of rain a year, and by that measure at least half the continent is dry country.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.75,
+           "lat": -29.01,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 134.75,
+           "lat": -29.01,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coober Pedy, South Australia"
+      },
+      {
+       "type": "photo",
+       "at": "Rain, when it came",
+       "photo": "File:Simpson Desert, Australia (52241573890).png",
+       "on_screen_text": "Simpson Desert"
+      },
+      {
+       "type": "map",
+       "at": "You can see the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 130.74,
+           "lat": -25.3,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kata Tjuta, Northern Territory"
+      },
+      {
+       "type": "map",
+       "at": "Geoscience Australia counts",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.9,
+           "lat": -26.34,
+           "span": 50.634
+          },
+          "highlight": [
+           "file:deserts.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "together they cover",
+       "stat": {
+        "value": "18 %",
+        "label": "Share of the mainland covered by Australia's ten named deserts",
+        "source": "Geoscience Australia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The largest, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 127.5,
+           "lat": -28.0,
+           "span": 1.6
+          }
+         },
+         {
+          "at": 77,
+          "view": {
+           "lon": 127.5,
+           "lat": -28.0,
+           "span": 0.992
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Great Victoria Desert"
+      },
+      {
+       "type": "map",
+       "at": "The agency's own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.5,
+           "lat": -22.0,
+           "span": 1.1
+          }
+         },
+         {
+          "at": 101,
+          "view": {
+           "lon": 131.5,
+           "lat": -22.0,
+           "span": 0.682
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tanami Desert, Northern Territory"
+      },
+      {
+       "type": "map",
+       "at": "at least half",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.1,
+           "lat": -28.66,
+           "span": 61.886
+          },
+          "highlight": [
+           "file:deserts.geojson@red",
+           "file:inland.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The rest of the dry country is scrub, spinifex grass and red earth: land that can carry cattle or sheep, thinly, but will not grow a crop without help. So the interior has too little rain, and soil that gives little back. A big river could still fix that. Egypt has almost no rain at all, and it has the Nile. So where is Australia's Nile?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Birdsville DSC02999 SA (38297669892).jpg",
+       "on_screen_text": "Near Birdsville, on the edge of the Simpson Desert"
+      },
+      {
+       "type": "photo",
+       "at": "land that can carry",
+       "photo": "File:Birdsville DSC03000 SA (38297658682).jpg",
+       "on_screen_text": "Near Birdsville"
+      },
+      {
+       "type": "map",
+       "at": "So the interior",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 46.133
+          },
+          "highlight": [
+           "file:inland.geojson@red"
+          ]
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 34.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Egypt has almost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.2,
+           "lat": 27.0,
+           "span": 9
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "So where is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.26,
+           "lat": -25.18,
+           "span": 66.387
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Rivers Run the Wrong Way",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason three. The rivers run the wrong way. Follow the water. Rain that falls on the seaward side of the range runs a short way east and is gone into the Pacific. Rain that falls on the inland side runs west, into the dry country, and there the map does something strange. This is the Lake Eyre basin. By Geoscience Australia's mapping it covers one point three million square kilometers, about a sixth of the country, almost twice the size of Texas. Not one river inside it reaches the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.06,
+           "lat": -27.5,
+           "span": 53.447
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Follow the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.2,
+           "lat": -18.65,
+           "span": 0.6
+          }
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": 146.2,
+           "lat": -18.65,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Herbert River, north Queensland"
+      },
+      {
+       "type": "map",
+       "at": "Rain that falls on the inland",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.0,
+           "lat": -26.6,
+           "span": 33.0
+          },
+          "highlight": [
+           "file:range.geojson@alt",
+           "file:eyre_basin.geojson@blue"
+          ]
+         },
+         {
+          "at": 42,
+          "view": {
+           "lon": 145.0,
+           "lat": -26.6,
+           "span": 24.75
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "This is the Lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.94,
+           "lat": -27.5,
+           "span": 48.384
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "it covers one point",
+       "stat": {
+        "value": "1.3 MILLION KM²",
+        "label": "Lake Eyre drainage division: about a sixth of Australia",
+        "source": "Geoscience Australia, National Catchment Boundaries"
+       }
+      },
+      {
+       "type": "map",
+       "at": "about a sixth of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.0,
+           "lat": -26.0,
+           "span": 30
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Not one river",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 139.5,
+           "lat": -25.5,
+           "span": 16
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Its rivers have names: the Diamantina, the Georgina, Cooper Creek. For most of the time they are chains of waterholes, or dry sand. When big rains fall in northern Queensland, the water starts south. It spreads out across the plains, soaks in, and evaporates. NASA notes that the trip has historically taken up to ten months. What survives arrives here, at Kati Thanda-Lake Eyre, the lowest natural point in Australia, fifteen meters below sea level.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 139.37,
+           "lat": -25.9,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Diamantina River at Birdsville"
+      },
+      {
+       "type": "photo",
+       "at": "For most of the time",
+       "photo": "File:Mungerannie Roadhouse, Birdsville Track - 8609801810.jpg",
+       "on_screen_text": "Mungerannie, Birdsville Track"
+      },
+      {
+       "type": "photo",
+       "at": "When big rains",
+       "photo": "File:Australia's Channel Country (MODIS 2024-04-12).jpg",
+       "on_screen_text": "Channel Country in flood, April 2024 (NASA MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "It spreads out",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.6,
+           "lat": -25.4,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cooper Creek channels near Windorah"
+      },
+      {
+       "type": "map",
+       "at": "NASA notes that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 140.5,
+           "lat": -24.5,
+           "span": 13
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ],
+          "arrows": [
+           {
+            "from": [
+             142.5,
+             -21.0
+            ],
+            "to": [
+             138.2,
+             -27.6
+            ],
+            "color": "blue",
+            "bend": 0.2,
+            "label": "up to ten months"
+           },
+           {
+            "from": [
+             144.5,
+             -24.0
+            ],
+            "to": [
+             138.4,
+             -28.0
+            ],
+            "color": "blue",
+            "bend": -0.15
+           }
+          ],
+          "places": [
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "What survives arrives",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.3,
+           "lat": -28.3,
+           "span": 2.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kati Thanda-Lake Eyre"
+      },
+      {
+       "type": "stat",
+       "at": "the lowest natural point",
+       "stat": {
+        "value": "-15 M",
+        "label": "Kati Thanda-Lake Eyre: the lowest natural point in Australia",
+        "source": "NASA Earth Observatory, 2019"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Most years it is a salt pan. This is how it looked from orbit in May 2018: white with salt. Smaller flows reach it every few years. But it fills completely, NASA says, only a few times in a century. And this is the same lake in July 2025, after floods came down from Queensland. Then the sun takes it back. A river system that drains a sixth of the country ends in a sheet of brine that evaporates.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:LakeEyreSaltCrust.JPG",
+       "on_screen_text": "Salt crust on Lake Eyre"
+      },
+      {
+       "type": "map",
+       "at": "This is how it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.4,
+           "lat": -28.6,
+           "span": 4.4
+          },
+          "date": "2018-05-15"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Smaller flows reach",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.9,
+           "lat": -27.9,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the rivers enter the lake"
+      },
+      {
+       "type": "map",
+       "at": "But it fills completely",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.62,
+           "lat": -28.512,
+           "span": 3.96
+          },
+          "compare": {
+           "before": "2018-05-15",
+           "after": "2025-07-12",
+           "source": "modis",
+           "seconds": 2.0,
+           "label_before": "2018",
+           "label_after": "2025",
+           "until": "And this is the"
+          }
+         },
+         {
+          "at": "And this is the"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Then the sun",
+       "photo": "File:Floodwaters Surge Through the Australian Outback (154116 - ing oli 20250329 lrg).jpg",
+       "on_screen_text": "Floodwater in the Channel Country, March 2025 (NASA Landsat)"
+      },
+      {
+       "type": "map",
+       "at": "A river system",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.6,
+           "lat": -29.45,
+           "span": 0.7
+          }
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": 137.6,
+           "lat": -29.45,
+           "span": 0.434
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Eyre South"
+      }
+     ]
+    },
+    {
+     "text": "NASA watched an earlier flood in 2019. Water began entering the lake in the middle of March, months after the rain that sent it. Between February and May, by the Bureau of Meteorology's count, more than seven Sydney Harbours of water flowed in, and by the middle of May the lake was still only about half full. It has been bigger. About a hundred thousand years ago, NASA notes, the lake was roughly ten times its present size. The climate that filled it is gone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.18,
+           "lat": -28.688,
+           "span": 4.84
+          },
+          "date": "2019-05-15"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Water began entering",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.6,
+           "lat": -27.4,
+           "span": 0.9
+          }
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": 138.6,
+           "lat": -27.4,
+           "span": 0.558
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Warburton River, north of the lake"
+      },
+      {
+       "type": "stat",
+       "at": "more than seven",
+       "stat": {
+        "value": "7 SYDNEY HARBOURS",
+        "label": "Water that reached Lake Eyre from February to May 2019",
+        "source": "Bureau of Meteorology, via NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the lake was still",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.25,
+           "lat": -28.75,
+           "span": 0.7
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Belt Bay, Kati Thanda-Lake Eyre"
+      },
+      {
+       "type": "map",
+       "at": "About a hundred thousand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 139.5,
+           "lat": -25.5,
+           "span": 18
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": 139.5,
+           "lat": -25.5,
+           "span": 13.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The climate that",
+       "photo": "File:ISS-30 Lake Eyre - South Australia.jpg",
+       "on_screen_text": "Lake Eyre from the International Space Station (NASA)"
+      }
+     ]
+    },
+    {
+     "text": "West of it the story repeats on a larger scale: two more drainage regions, the western plateaus, where almost no river reaches the sea either. Add them to Lake Eyre's and you have about forty percent of Australia that does not drain to any ocean.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -24.6,
+           "span": 59.636
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue",
+           "file:nw_plateau.geojson@alt",
+           "file:sw_plateau.geojson@alt"
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 134.0,
+           "lat": -24.6,
+           "span": 44.727
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "where almost no river",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 123.0,
+           "lat": -23.5,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Little Sandy Desert, Western Australia"
+      },
+      {
+       "type": "stat",
+       "at": "about forty percent",
+       "stat": {
+        "value": "40 %",
+        "label": "Share of Australia in its three inland drainage divisions (our sum)",
+        "source": "Geoscience Australia, National Catchment Boundaries"
+       }
+      }
+     ]
+    },
+    {
+     "text": "There is one exception, and it proves the rule. The Murray-Darling basin, in the southeast: about a seventh of the country, and its water does reach the sea. It is the one big river system the inland has, and if you look at where the inland towns and irrigated farms are, they follow it. Everywhere else: no rain, poor soil, and rivers that die in salt. You would think nobody would try to farm that. They did. And one man told them exactly where they would fail.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -30.4,
+           "span": 43.883
+          },
+          "highlight": [
+           "file:mdb.geojson@accent",
+           "file:eyre_basin.geojson@blue"
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 134.0,
+           "lat": -30.4,
+           "span": 32.912
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and its water does",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 140.75,
+           "lat": -34.17,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "River Murray at Renmark"
+      },
+      {
+       "type": "map",
+       "at": "It is the one big",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.15,
+           "lat": -34.2,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": 142.15,
+           "lat": -34.2,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigated farms on the Murray at Mildura"
+      },
+      {
+       "type": "map",
+       "at": "they follow it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.05,
+           "lat": -34.29,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigation at Griffith, New South Wales"
+      },
+      {
+       "type": "map",
+       "at": "Everywhere else",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.0,
+           "lat": -30.9,
+           "span": 1.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Torrens, South Australia"
+      },
+      {
+       "type": "photo",
+       "at": "You would think",
+       "photo": "File:Line of Horse Drawn Harvesting Machines in a Field of Wheat at Hallett(GN07447).jpg",
+       "on_screen_text": "Wheat harvest at Hallett, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "And one man",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.0,
+           "lat": -33.2,
+           "span": 2.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "South Australia's farm belt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "They Tried Anyway",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason four. They tried, and the land said no. South Australia, 1865. The colony's northern sheep runs had just been devastated by drought. The government sent its Surveyor-General, George Goyder, to see how far the damage went. By one account he rode about two thousand miles in a single month, November 1865, and handed in his report on the sixth of December. He came back with a line on a map. South of it, he said, the rain could be trusted. North of it, it could not. The line followed the edge of twelve inches of rain a year, thirty centimeters, and his advice was to discourage anyone from planting crops beyond it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.9,
+           "lat": -26.34,
+           "span": 49.115
+          },
+          "highlight": [
+           "South Australia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The colony's northern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.42,
+           "lat": -31.89,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hawker, Flinders Ranges"
+      },
+      {
+       "type": "photo",
+       "at": "The government sent",
+       "photo": "File:Portrait of George Woodroffe Goyder(GN03908).jpg",
+       "on_screen_text": "George Goyder, Surveyor-General"
+      },
+      {
+       "type": "map",
+       "at": "By one account he",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.19,
+           "lat": -32.83,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Melrose, at the foot of the Flinders Ranges"
+      },
+      {
+       "type": "map",
+       "at": "and handed in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.93,
+           "lat": -33.67,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Burra, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "He came back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.6,
+           "lat": -33.3,
+           "span": 9.5
+          },
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           },
+           {
+            "from": [
+             133.67,
+             -32.13
+            ],
+            "via": [
+             [
+              136.2,
+              -33.47
+             ]
+            ],
+            "to": [
+             136.57,
+             -33.91
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ],
+          "places": [
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         },
+         {
+          "at": 77,
+          "view": {
+           "lon": 137.6,
+           "lat": -33.3,
+           "span": 7.125
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "twelve inches of rain",
+       "stat": {
+        "value": "12 INCHES",
+        "label": "Yearly rainfall along Goyder's Line (30 cm)",
+        "source": "Judith Jeffery, SA History Hub (History Trust of South Australia)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "his advice was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.53,
+           "lat": -32.43,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Carrieton, north of the line"
+      }
+     ]
+    },
+    {
+     "text": "Now look at this. It is a satellite image of South Australia from September 2025, in spring. The green is cropland. The brown is not. A hundred and sixty years later, the edge of the farms still runs close to where Goyder drew his line. You are looking at the boundary he mapped from horseback, seen from seven hundred kilometers up.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.075,
+           "lat": -33.11,
+           "span": 8.55
+          },
+          "date": "2025-09-02"
+         },
+         {
+          "at": "The green is",
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           },
+           {
+            "from": [
+             133.67,
+             -32.13
+            ],
+            "via": [
+             [
+              136.2,
+              -33.47
+             ]
+            ],
+            "to": [
+             136.57,
+             -33.91
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ],
+          "places": [
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A hundred and sixty",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.6,
+           "lat": -33.0,
+           "span": 3.2
+          },
+          "date": "2025-09-02",
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": 138.6,
+           "lat": -33.0,
+           "span": 2.4
+          },
+          "date": "2025-09-02"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "You are looking",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.55,
+           "lat": -32.95,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The edge of the cropland near Orroroo"
+      }
+     ]
+    },
+    {
+     "text": "At first the government listened. An act of 1872 allowed land to be bought on credit only inside the line. Then came a run of good seasons in the north. Grass grew where Goyder had said it would not, and farmers wanted in. A saying borrowed from the American frontier went around: rain follows the plough. Break the soil, people believed, and the climate itself would change. In 1874 parliament threw the rule out, and the wheat frontier moved north, past the line. New towns were laid out for the farmers who would follow. One of them, far to the north, was proclaimed in 1878 and called Farina. The word is Latin for flour.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Line of Horse Drawn Harvesting Machines in a Field of Wheat at Hallett(GN07447).jpg",
+       "on_screen_text": "Wheat harvest at Hallett, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "An act of 1872",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.2,
+           "lat": -33.9,
+           "span": 5.5
+          },
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           }
+          ],
+          "places": [
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Then came a run",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.61,
+           "lat": -32.73,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": 138.61,
+           "lat": -32.73,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Orroroo, on Goyder's Line"
+      },
+      {
+       "type": "photo",
+       "at": "A saying borrowed",
+       "photo": "File:CSIRO ScienceImage 4485 Harvesting wheat at Blyth in the mid north of South Australia 1986.jpg",
+       "on_screen_text": "Wheat harvest, mid north of South Australia, 1986"
+      },
+      {
+       "type": "photo",
+       "at": "Break the soil",
+       "photo": "File:CSIRO ScienceImage 4026 Harvesting wheat near Blyth in the mid north of South Australia 1986.jpg",
+       "on_screen_text": "Harvesting wheat near Blyth, South Australia, 1986"
+      },
+      {
+       "type": "map",
+       "at": "In 1874 parliament",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.4,
+           "lat": -31.6,
+           "span": 6
+          },
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             138.6,
+             -33.0
+            ],
+            "to": [
+             138.3,
+             -30.3
+            ],
+            "color": "accent",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Farina",
+            "lon": 138.28,
+            "lat": -30.07,
+            "kind": "site",
+            "label": "Farina"
+           },
+           {
+            "name": "Kanyaka",
+            "lon": 138.29,
+            "lat": -32.09,
+            "kind": "site",
+            "label": "Kanyaka"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "New towns were",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.84,
+           "lat": -32.97,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Peterborough, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "One of them, far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.28,
+           "lat": -30.07,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Farina",
+            "lon": 138.28,
+            "lat": -30.07,
+            "kind": "site",
+            "label": "Farina"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farina, South Australia"
+      },
+      {
+       "type": "photo",
+       "at": "The word is",
+       "photo": "File:Farina - detail (33428641183).jpg",
+       "on_screen_text": "Farina, South Australia"
+      }
+     ]
+    },
+    {
+     "text": "Then the 1880s came, and with them a run of bad seasons. In the words of South Australia's own history, many farmers abandoned their homesteads, often leaving behind a severely eroded landscape. The ruins are still there. Stone houses without roofs, in country that went back to scrub. A railway reached Farina in 1882. It never became a wheat town. Its normal rainfall was nowhere near enough, and nobody has lived in it since 1967.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.29,
+           "lat": -32.09,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Kanyaka",
+            "lon": 138.29,
+            "lat": -32.09,
+            "kind": "site",
+            "label": "Kanyaka"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kanyaka, South Australia"
+      },
+      {
+       "type": "document",
+       "at": "In the words of",
+       "document": {
+        "text": "Many farmers abandoned their homesteads, often leaving behind a severely eroded landscape.",
+        "source": "Judith Jeffery, SA History Hub (History Trust of South Australia)",
+        "highlight": "abandoned their homesteads"
+       }
+      },
+      {
+       "type": "map",
+       "at": "often leaving behind",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.2,
+           "lat": -31.5,
+           "span": 0.7
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North of Hawker, South Australia"
+      },
+      {
+       "type": "photo",
+       "at": "The ruins are",
+       "photo": "File:Kanyaka Homestead (188325219).jpg",
+       "on_screen_text": "Kanyaka homestead ruins, Flinders Ranges"
+      },
+      {
+       "type": "map",
+       "at": "Stone houses without",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.1,
+           "lat": -32.2,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Willochra Plain, north of the line"
+      },
+      {
+       "type": "photo",
+       "at": "A railway reached",
+       "photo": "File:Ruin in Farina.jpg",
+       "on_screen_text": "Ruin in Farina, South Australia"
+      },
+      {
+       "type": "map",
+       "at": "It never became",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.28,
+           "lat": -30.07,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farina from orbit"
+      },
+      {
+       "type": "map",
+       "at": "and nobody has",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.1,
+           "lat": -30.1,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Country around Farina"
+      }
+     ]
+    },
+    {
+     "text": "The line is still on the map. In 2003 the National Trust named it a heritage icon. No other Australian state has a surveyed line like it. And it may be moving. In 2015 a South Australian climate scientist, Peter Hayman, said that a warming, drying trend would push Goyder's line south, towards the coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.0,
+           "lat": -33.6,
+           "span": 8
+          },
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           },
+           {
+            "from": [
+             133.67,
+             -32.13
+            ],
+            "via": [
+             [
+              136.2,
+              -33.47
+             ]
+            ],
+            "to": [
+             136.57,
+             -33.91
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ],
+          "places": [
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 137.0,
+           "lat": -33.6,
+           "span": 6.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "No other Australian",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.1,
+           "lat": -28.66,
+           "span": 60.029
+          },
+          "highlight": [
+           "South Australia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And it may be",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.6,
+           "lat": -33.6,
+           "span": 4.5
+          },
+          "date": "2025-09-02",
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             138.9,
+             -33.0
+            ],
+            "to": [
+             138.8,
+             -34.3
+            ],
+            "color": "red",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.93,
+            "kind": "city",
+            "label": "Adelaide"
+           }
+          ]
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": 138.6,
+           "lat": -33.6,
+           "span": 3.375
+          },
+          "date": "2025-09-02"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "would push Goyder's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.75,
+           "lat": -34.25,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland north of Adelaide"
+      }
+     ]
+    },
+    {
+     "text": "Goyder had been right, and for a simple reason. He had not judged the land by one good year. He had ridden across it and read the plants: saltbush to the north, where drought was the rule, and mallee scrub to the south. The vegetation had already drawn the line. So if the rain will not come to the farmers, could the water be brought to them? One of the most famous engineers in the country thought so.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.125,
+           "lat": -33.49,
+           "span": 10.45
+          },
+          "date": "2025-09-02",
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           },
+           {
+            "from": [
+             133.67,
+             -32.13
+            ],
+            "via": [
+             [
+              136.2,
+              -33.47
+             ]
+            ],
+            "to": [
+             136.57,
+             -33.91
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 137.125,
+           "lat": -33.49,
+           "span": 7.837
+          },
+          "date": "2025-09-02"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "He had ridden",
+       "photo": "File:SaltbushPlainHay.JPG",
+       "on_screen_text": "Saltbush plain"
+      },
+      {
+       "type": "map",
+       "at": "where drought was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.3,
+           "lat": -31.2,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Saltbush country, northern Flinders Ranges"
+      },
+      {
+       "type": "map",
+       "at": "and mallee scrub",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.6,
+           "lat": -33.83,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Clare Valley, south of the line"
+      },
+      {
+       "type": "map",
+       "at": "So if the rain",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 44.749
+          },
+          "highlight": [
+           "file:inland.geojson@red"
+          ]
+         },
+         {
+          "at": 58,
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 33.562
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "One of the most",
+       "photo": "File:John Bradfield at his desk 02.jpg",
+       "on_screen_text": "Dr John Bradfield"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Canal That Does Not Pay",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason five. The fix has been costed, and it does not pay. In 1938 Dr John Bradfield, the engineer of the Sydney Harbour Bridge, published a plan. In the wet tropics of north Queensland, on the rainy side of the range, rivers like the Tully, the Herbert and the Burdekin pour into the Pacific. Bradfield proposed to dam them, tunnel through the range, and send the water west into the dry interior, towards Lake Eyre. Water the heart of the continent, the idea went, and it could be settled.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.26,
+           "lat": -25.18,
+           "span": 64.395
+          },
+          "highlight": [
+           "Queensland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 1938 Dr John",
+       "photo": "File:John Bradfield tipping his hat from a walkway on the newly constructed Sydney Harbour Bridge.jpg",
+       "on_screen_text": "John Bradfield on the Sydney Harbour Bridge"
+      },
+      {
+       "type": "photo",
+       "at": "In the wet tropics",
+       "photo": "File:Daintree Rainforest, Queensland (483880) (9440826087).jpg",
+       "on_screen_text": "Daintree rainforest, north Queensland"
+      },
+      {
+       "type": "map",
+       "at": "rivers like the Tully",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.3,
+           "lat": -19.7,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Burdekin River"
+      },
+      {
+       "type": "map",
+       "at": "Bradfield proposed to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.5,
+           "lat": -23.5,
+           "span": 20
+          },
+          "highlight": [
+           "file:range.geojson@alt"
+          ],
+          "arrows": [
+           {
+            "from": [
+             146.0,
+             -18.6
+            ],
+            "to": [
+             144.3,
+             -23.2
+            ],
+            "color": "red",
+            "bend": 0.15,
+            "label": "Bradfield, 1938"
+           },
+           {
+            "from": [
+             144.2,
+             -23.5
+            ],
+            "to": [
+             138.2,
+             -27.8
+            ],
+            "color": "red",
+            "bend": -0.15
+           }
+          ],
+          "places": [
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         },
+         {
+          "at": 64,
+          "view": {
+           "lon": 142.5,
+           "lat": -23.5,
+           "span": 15.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Water the heart",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 144.25,
+           "lat": -23.44,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thomson River at Longreach"
+      }
+     ]
+    },
+    {
+     "text": "The plan was never built. It has also never gone away. Scientists at CSIRO, the national science agency, wrote in 2023 that for eighty-five years the scheme has been a millstone around the necks of successive federal and state governments, and that drought in Australia has become synonymous with calls to build it. So the federal government asked CSIRO to test it properly, for the first time since 1982. The answer came in two parts.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:John Bradfield at his desk 01.jpg",
+       "on_screen_text": "Dr John Bradfield at his desk"
+      },
+      {
+       "type": "document",
+       "at": "Scientists at CSIRO",
+       "document": {
+        "text": "Since first proposed 85 years ago, Dr John Bradfield's \"nation building\" 1500-km inter-basin water diversion scheme proposal has been a millstone around the necks of successive federal and state governments.",
+        "source": "Petheram, Hughes, Read & Stokes (CSIRO), MODSIM 2023",
+        "highlight": "a millstone around the necks"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the scheme has been",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 149.13,
+           "lat": -35.3,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Canberra, the federal capital"
+      },
+      {
+       "type": "map",
+       "at": "and that drought",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.0,
+           "lat": -30.1,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dry country near Bourke, New South Wales"
+      },
+      {
+       "type": "photo",
+       "at": "So the federal",
+       "photo": "File:CSIRO ScienceImage 10816 Spillway at the Burdekin Falls Dam.jpg",
+       "on_screen_text": "Burdekin Falls Dam, Queensland (CSIRO)"
+      },
+      {
+       "type": "map",
+       "at": "The answer came",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.4,
+           "lat": -27.2,
+           "span": 24.6
+          },
+          "highlight": [
+           "file:range.geojson@alt",
+           "file:mdb.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Those calls, CSIRO notes, come from high-profile Australians, media personalities and politicians, and they come back with every dry spell. Some supporters have even argued that so much new water in the interior would change the climate itself and bring more rain. It is the old belief that rain follows the plough, on the scale of a continent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.6,
+           "lat": -17.84,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Koombooloomba Dam, upper Tully River"
+      },
+      {
+       "type": "map",
+       "at": "and they come back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.94,
+           "lat": -30.09,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bourke, on the Darling River"
+      },
+      {
+       "type": "photo",
+       "at": "Some supporters have",
+       "photo": "File:Doctor John Bradfield doffing his hat.jpg",
+       "on_screen_text": "Dr John Bradfield"
+      },
+      {
+       "type": "map",
+       "at": "would change the climate",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.2,
+           "lat": -28.1,
+           "span": 1.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kati Thanda-Lake Eyre North"
+      },
+      {
+       "type": "map",
+       "at": "It is the old belief",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.0,
+           "lat": -25.8,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Channel Country, Queensland"
+      }
+     ]
+    },
+    {
+     "text": "Part one: yes, it can be built. Dams and tunnels on the three rivers could release about nineteen hundred gigaliters of water a year into a channel sixteen hundred kilometers long, a thousand miles, running by gravity to St George, the nearest big irrigation area in the Murray-Darling basin. About two thirds of the water would survive the journey: enough, every year, to fill half a million Olympic swimming pools. That would add a quarter to all the irrigation water the basin uses.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.0,
+           "lat": -20.65,
+           "span": 0.6
+          }
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": 147.0,
+           "lat": -20.65,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Burdekin Falls Dam and Lake Dalrymple"
+      },
+      {
+       "type": "map",
+       "at": "into a channel",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.0,
+           "lat": -24.0,
+           "span": 16
+          },
+          "highlight": [
+           "file:mdb.geojson@accent"
+          ],
+          "routes": [
+           {
+            "from": [
+             146.2,
+             -19.9
+            ],
+            "via": [
+             [
+              146.0,
+              -22.5
+             ],
+             [
+              147.2,
+              -25.5
+             ]
+            ],
+            "to": [
+             148.58,
+             -28.04
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 3,
+            "label": "1,600 km channel (CSIRO's test)"
+           }
+          ],
+          "places": [
+           {
+            "name": "St George",
+            "lon": 148.58,
+            "lat": -28.04,
+            "kind": "site",
+            "label": "St George"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "sixteen hundred kilometers",
+       "stat": {
+        "value": "1,600 KM",
+        "label": "Length of the gravity channel to St George in CSIRO's assessment",
+        "source": "Petheram, Hughes, Read & Stokes (CSIRO), MODSIM 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the nearest big",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.58,
+           "lat": -28.04,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 49,
+          "view": {
+           "lon": 148.58,
+           "lat": -28.04,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigated farms at St George, Queensland"
+      },
+      {
+       "type": "map",
+       "at": "enough, every year",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.2,
+           "lat": -28.3,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Storage ponds near St George"
+      },
+      {
+       "type": "map",
+       "at": "That would add",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 149.8,
+           "lat": -29.5,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigation near Moree, New South Wales"
+      }
+     ]
+    },
+    {
+     "text": "Part two: the bill. Fifteen to thirty billion dollars for the backbone alone. And then comes the sentence that matters. The cost of diversion infrastructure, CSIRO wrote, added such a large premium to the cost of water that future crop revenues would never pay off the cost. Not slowly. Never. A second CSIRO report tested modern versions of the plan, and found that the water would cost irrigators more than four times what they could afford to pay. There was one more finding. By CSIRO's figures, Bradfield had counted on more than twice the water those rivers actually carry. Even the wet corner of Australia is not as wet as the dream needed it to be.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$15-30 BILLION",
+        "label": "Cost of the dams, tunnels and channel alone (Australian dollars)",
+        "source": "Petheram, Hughes, Read & Stokes (CSIRO), MODSIM 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "And then comes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.8,
+           "lat": -23.68,
+           "span": 14.4
+          },
+          "routes": [
+           {
+            "from": [
+             146.2,
+             -19.9
+            ],
+            "via": [
+             [
+              146.0,
+              -22.5
+             ],
+             [
+              147.2,
+              -25.5
+             ]
+            ],
+            "to": [
+             148.58,
+             -28.04
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 3,
+            "label": "1,600 km channel (CSIRO's test)"
+           }
+          ],
+          "places": [
+           {
+            "name": "St George",
+            "lon": 148.58,
+            "lat": -28.04,
+            "kind": "site",
+            "label": "St George"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "The cost of diversion",
+       "document": {
+        "text": "Although technically feasible the cost of diversion infrastructure added such a large premium to the cost of water that future crop revenues would never pay off the cost of the water storage diversion infrastructure alone.",
+        "source": "Petheram, Hughes, Read & Stokes (CSIRO), MODSIM 2023",
+        "highlight": "would never pay off"
+       }
+      },
+      {
+       "type": "map",
+       "at": "that future crop revenues",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.75,
+           "lat": -28.25,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigated fields on the Balonne plain"
+      },
+      {
+       "type": "map",
+       "at": "A second CSIRO report",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.9,
+           "lat": -27.6,
+           "span": 0.6
+          }
+         },
+         {
+          "at": 64,
+          "view": {
+           "lon": 147.9,
+           "lat": -27.6,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland on the Balonne River"
+      },
+      {
+       "type": "map",
+       "at": "There was one more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.16,
+           "lat": -18.65,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Herbert River at Ingham"
+      },
+      {
+       "type": "chart",
+       "at": "By CSIRO's figures",
+       "chart": {
+        "type": "bar",
+        "title": "Water in the rivers Bradfield counted on",
+        "unit": "GL a year",
+        "data": [
+         [
+          "Bradfield's estimate",
+          7190
+         ],
+         [
+          "CSIRO's model",
+          3305
+         ]
+        ],
+        "source": "CSIRO, Bradfield Scheme Assessment factsheet, 2021",
+        "highlight": 1,
+        "reveal": [
+         "more than twice"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Even the wet",
+       "photo": "File:Daintree Rainforest, Queensland (483845) (9443587310).jpg",
+       "on_screen_text": "Daintree rainforest, Queensland"
+      }
+     ]
+    },
+    {
+     "text": "Which leaves a question. If the rain does not come, the soil is poor, the rivers end in salt, the farmers were beaten and the great canal does not pay, who are the people who do live out there?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.06,
+           "lat": -27.5,
+           "span": 51.844
+          },
+          "highlight": [
+           "file:inland.geojson@red"
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 138.06,
+           "lat": -27.5,
+           "span": 38.883
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the farmers were",
+       "photo": "File:Ruin in Farina.jpg",
+       "on_screen_text": "Ruin in Farina, South Australia"
+      },
+      {
+       "type": "photo",
+       "at": "who are the people",
+       "photo": "File:Alice Springs - Anzac Hill - panoramio.jpg",
+       "on_screen_text": "Alice Springs from Anzac Hill"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who Does Live There",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Because some do. Start underground. Beneath the dry east of the interior lies the Great Artesian Basin: more than one point seven million square kilometers of water-bearing rock, under more than a fifth of the country, beneath parts of Queensland, New South Wales, South Australia and the Northern Territory. Geoscience Australia estimates that it holds about sixty-five thousand cubic kilometers of water. In a few places it reaches the surface on its own, in mound springs scattered across the desert. Drill into it, and in many places the water rises by itself. It is what made the cattle country possible: bores for the stock, water for the towns, and by the same agency's figures at least twelve point eight billion dollars of economic activity a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.94,
+           "lat": -27.5,
+           "span": 46.932
+          },
+          "highlight": [
+           "file:gab.geojson@blue"
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 129.94,
+           "lat": -27.5,
+           "span": 35.199
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "more than one point seven",
+       "stat": {
+        "value": "1.7 MILLION KM²",
+        "label": "Great Artesian Basin, under more than a fifth of Australia",
+        "source": "Geoscience Australia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "under more than a fifth",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.0,
+           "lat": -25.0,
+           "span": 30
+          },
+          "highlight": [
+           "file:gab.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "beneath parts of Queensland",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 144.0,
+           "lat": -26.6,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Western Queensland, above the basin"
+      },
+      {
+       "type": "map",
+       "at": "Geoscience Australia estimates",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.5,
+           "lat": -26.42,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 61,
+          "view": {
+           "lon": 135.5,
+           "lat": -26.42,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dalhousie Springs, fed by the basin"
+      },
+      {
+       "type": "map",
+       "at": "in mound springs",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.07,
+           "lat": -29.47,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mound springs near Lake Eyre South"
+      },
+      {
+       "type": "photo",
+       "at": "Drill into it",
+       "photo": "File:Sinking an artesian bore on Saxby Downs Station, Queensland, circa 1893.tif",
+       "on_screen_text": "Sinking an artesian bore, Saxby Downs Station, Queensland, about 1893"
+      },
+      {
+       "type": "photo",
+       "at": "It is what made",
+       "photo": "File:Northern Territory - cattle station buildings and yard(GN02897).jpg",
+       "on_screen_text": "Cattle station yard, Northern Territory"
+      },
+      {
+       "type": "photo",
+       "at": "water for the towns",
+       "photo": "File:Mungerannie Roadhouse, Birdsville Track - 8608694241.jpg",
+       "on_screen_text": "Mungerannie, Birdsville Track"
+      },
+      {
+       "type": "photo",
+       "at": "at least twelve",
+       "photo": "File:Road train (19754667713).jpg",
+       "on_screen_text": "Road train"
+      }
+     ]
+    },
+    {
+     "text": "But look at what kind of life it supports. This is Anna Creek Station, in South Australia. By its owner's figure it covers about fifteen thousand seven hundred square kilometers. That is one cattle property, and it is larger than the state of Connecticut. Land that needs that much room to feed a herd cannot feed a city.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.2,
+           "lat": -28.9,
+           "span": 5
+          },
+          "places": [
+           {
+            "name": "Anna Creek Station",
+            "lon": 136.17,
+            "lat": -28.9,
+            "kind": "site",
+            "label": "Anna Creek Station"
+           },
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 136.2,
+           "lat": -28.9,
+           "span": 3.75
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about fifteen thousand",
+       "stat": {
+        "value": "15,746 KM²",
+        "label": "Anna Creek Station, by its owner's figure",
+        "source": "Williams Cattle Company"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is one cattle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.17,
+           "lat": -28.9,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Anna Creek homestead"
+      },
+      {
+       "type": "photo",
+       "at": "Land that needs",
+       "photo": "File:Royal Mail car on Birdsville Track, 1934.jpg",
+       "on_screen_text": "Mail car on the Birdsville Track, 1934"
+      }
+     ]
+    },
+    {
+     "text": "The other reason to live inland is also under the ground. This is the Super Pit at Kalgoorlie, in Western Australia, a gold mine you can see from orbit, beside a town of about twenty-nine thousand people. Farther north, at Mount Whaleback, a whole mountain of iron ore is being taken apart. Minerals pay for towns where farming could not. And many of the workers do not live there at all: they fly in, work their shift, and fly home to the coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -24.6,
+           "span": 57.847
+          },
+          "highlight": [
+           "Western Australia@accent"
+          ],
+          "places": [
+           {
+            "name": "Kalgoorlie",
+            "lon": 121.47,
+            "lat": -30.75,
+            "kind": "city",
+            "label": "Kalgoorlie"
+           },
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "This is the Super Pit",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 121.5,
+           "lat": -30.78,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Super Pit, Kalgoorlie"
+      },
+      {
+       "type": "photo",
+       "at": "a gold mine you",
+       "photo": "File:Super Pit Mine, Kalgoorlie, Western Australia.jpg",
+       "on_screen_text": "Super Pit, Kalgoorlie"
+      },
+      {
+       "type": "photo",
+       "at": "beside a town",
+       "photo": "File:Crowd watching parade in Hannan Street, Kalgoorlie, 1901.jpg",
+       "on_screen_text": "Hannan Street, Kalgoorlie, 1901"
+      },
+      {
+       "type": "map",
+       "at": "Farther north, at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 119.67,
+           "lat": -23.36,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mount Whaleback iron ore mine, Newman"
+      },
+      {
+       "type": "map",
+       "at": "Minerals pay for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 119.68,
+           "lat": -23.365,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mount Whaleback pit"
+      },
+      {
+       "type": "map",
+       "at": "And many of the workers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.6,
+           "lat": -20.33,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Port Hedland, Western Australia"
+      },
+      {
+       "type": "photo",
+       "at": "they fly in",
+       "photo": "File:Perth across the Swan 4245574568.jpg",
+       "on_screen_text": "Perth, Western Australia"
+      }
+     ]
+    },
+    {
+     "text": "And in the very middle sits Alice Springs, a town of about twenty-six thousand. One more thing has to be said. Nobody lives there was never quite true. Aboriginal people have lived across this continent, its deserts included, for tens of thousands of years; one site in the far north has been dated to about sixty-five thousand. What the interior has never supported is what the settlers wanted from it: farms, and cities.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 133.88,
+           "lat": -23.72,
+           "span": 0.25
+          },
+          "places": [
+           {
+            "name": "Alice Springs",
+            "lon": 133.88,
+            "lat": -23.7,
+            "kind": "city",
+            "label": "Alice Springs"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Alice Springs"
+      },
+      {
+       "type": "photo",
+       "at": "One more thing",
+       "photo": "File:Alice Springs - Anzac Hill - panoramio.jpg",
+       "on_screen_text": "Alice Springs from Anzac Hill"
+      },
+      {
+       "type": "photo",
+       "at": "Aboriginal people have",
+       "photo": "File:Uluru, helicopter view.jpg",
+       "on_screen_text": "Uluru, Northern Territory"
+      },
+      {
+       "type": "map",
+       "at": "one site in the far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.9,
+           "lat": -12.45,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kakadu, Northern Territory"
+      },
+      {
+       "type": "map",
+       "at": "What the interior",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -30.4,
+           "span": 42.566
+          },
+          "highlight": [
+           "file:inland.geojson@red",
+           "file:coast.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Price of the Edge",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So put the five together. Air that sinks and dries. A range that takes the rain first. Soil that the ice never renewed. Rivers that end in a salt lake. And a hundred and sixty years of proof, from Goyder's line to CSIRO's ledger, that wishing does not change any of it. Eighty-five percent of the people on a tenth of the land. Six inches of rain a year at Lake Eyre. A basin a sixth of the country wide that never reaches the sea. And a canal that would cost up to thirty billion dollars and never pay. Australians did not crowd onto the coast by accident. They went where the water was, and nine tenths of the continent is the price of that.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.9,
+           "lat": -26.34,
+           "span": 47.642
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A range that takes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.6,
+           "lat": -24.8,
+           "span": 35.4
+          },
+          "highlight": [
+           "file:range.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Soil that the ice",
+       "photo": "File:CSIRO ScienceImage 3832 Red Sodosol soil profile near Coober Pedy South Australia.jpg",
+       "on_screen_text": "Red soil profile near Coober Pedy (CSIRO)"
+      },
+      {
+       "type": "map",
+       "at": "Rivers that end",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.532,
+           "lat": -28.776,
+           "span": 3.608
+          },
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And a hundred",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.885,
+           "lat": -33.68,
+           "span": 7.79
+          },
+          "date": "2025-09-02",
+          "routes": [
+           {
+            "from": [
+             137.59,
+             -34.07
+            ],
+            "via": [
+             [
+              138.21,
+              -33.35
+             ],
+             [
+              138.61,
+              -32.73
+             ],
+             [
+              138.84,
+              -32.97
+             ],
+             [
+              138.93,
+              -33.67
+             ]
+            ],
+            "to": [
+             140.91,
+             -35.26
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Goyder's Line (approximate)"
+           },
+           {
+            "from": [
+             133.67,
+             -32.13
+            ],
+            "via": [
+             [
+              136.2,
+              -33.47
+             ]
+            ],
+            "to": [
+             136.57,
+             -33.91
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ]
+         },
+         {
+          "at": 41,
+          "view": {
+           "lon": 137.885,
+           "lat": -33.68,
+           "span": 5.843
+          },
+          "date": "2025-09-02"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Eighty-five percent of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.1,
+           "lat": -28.66,
+           "span": 58.229
+          },
+          "highlight": [
+           "file:coast.geojson@accent",
+           "file:inland.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Six inches of rain",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.0,
+           "lat": -28.6,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Western shore of Kati Thanda-Lake Eyre"
+      },
+      {
+       "type": "map",
+       "at": "A basin a sixth",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 43.407
+          },
+          "highlight": [
+           "file:eyre_basin.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And a canal",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.2,
+           "lat": -24.32,
+           "span": 17.6
+          },
+          "routes": [
+           {
+            "from": [
+             146.2,
+             -19.9
+            ],
+            "via": [
+             [
+              146.0,
+              -22.5
+             ],
+             [
+              147.2,
+              -25.5
+             ]
+            ],
+            "to": [
+             148.58,
+             -28.04
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 3,
+            "label": "1,600 km channel (CSIRO's test)"
+           }
+          ],
+          "places": [
+           {
+            "name": "St George",
+            "lon": 148.58,
+            "lat": -28.04,
+            "kind": "site",
+            "label": "St George"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Australians did not",
+       "photo": "File:Aerial panorama of South Yarra facing the Melbourne skyline. September 2023.jpg",
+       "on_screen_text": "Melbourne, 2023"
+      },
+      {
+       "type": "photo",
+       "at": "They went where",
+       "photo": "File:Sydney Harbour aerial.jpg",
+       "on_screen_text": "Sydney Harbour"
+      },
+      {
+       "type": "map",
+       "at": "and nine tenths",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.26,
+           "lat": -25.18,
+           "span": 62.463
+          },
+          "highlight": [
+           "file:inland.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If money were no object, would you build Bradfield's canal and try to green the middle, or leave the empty heart of the continent as it is?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 138.06,
+           "lat": -27.5,
+           "span": 50.288
+          },
+          "highlight": [
+           "file:inland.geojson@red",
+           "file:coast.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "would you build",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.5,
+           "lat": -23.5,
+           "span": 22
+          },
+          "arrows": [
+           {
+            "from": [
+             146.0,
+             -18.6
+            ],
+            "to": [
+             144.3,
+             -23.2
+            ],
+            "color": "red",
+            "bend": 0.15,
+            "label": "Bradfield, 1938"
+           },
+           {
+            "from": [
+             144.2,
+             -23.5
+            ],
+            "to": [
+             138.2,
+             -27.8
+            ],
+            "color": "red",
+            "bend": -0.15
+           }
+          ],
+          "places": [
+           {
+            "name": "Kati Thanda-Lake Eyre",
+            "lon": 137.37,
+            "lat": -28.37,
+            "kind": "site",
+            "label": "Kati Thanda-Lake Eyre"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "or leave the empty",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.94,
+           "lat": -27.5,
+           "span": 45.524
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "would you build",
+      "text": "Build the canal, or leave the middle empty?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives in Most of Australia",
+  "description": "Australia is almost as big as the contiguous United States, yet at the 2001 census 85 % of its people lived within 50 km of the coast. This video goes through the five reasons the middle stayed empty: air that sinks and dries, a mountain range that takes the rain first, some of the oldest and poorest soils on Earth, rivers that end in a salt lake, and the two famous attempts to beat all that, Goyder's Line of 1865 and the Bradfield Scheme of 1938, which Australia's science agency finally costed.",
+  "tags": [
+   "Australia",
+   "Outback",
+   "why nobody lives in Australia",
+   "Australian interior",
+   "Goyder's Line",
+   "Bradfield Scheme",
+   "Lake Eyre",
+   "Kati Thanda",
+   "Great Artesian Basin",
+   "Great Dividing Range",
+   "geography",
+   "population map",
+   "satellite images"
+  ],
+  "pinned_comment": "If money were no object, would you build Bradfield's canal and try to green the middle, or leave the empty heart of the continent as it is?"
+ }
+}

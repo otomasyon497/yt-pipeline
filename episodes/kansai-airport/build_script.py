@@ -67,12 +67,21 @@ BRIDGE = {"from": [135.262, 34.427], "to": [135.2985, 34.4105], "mode": "line", 
 OFFSHORE = {"from": [135.31, 34.41], "to": [135.262, 34.427], "color": "red", "label": "5 km", "bend": 0.2}
 TO_ISLANDS = {"from": [135.0, 34.62], "to": [135.225, 34.445], "color": "red", "bend": 0.25}
 
-CMP_85_95 = {"before": "1985-06-01/1985-06-10", "after": "1995-08-01/1995-08-07", "source": LS, "seconds": 1.8, "label_before": "1985", "label_after": "1995"}
-CMP_95_26 = {"before": "1995-08-01/1995-08-07", "after": "2026-05-02/2026-05-08", "source": LS, "seconds": 1.8, "label_before": "1995", "label_after": "2026"}
-CMP_85_89 = {"before": "1985-06-01/1985-06-10", "after": "1989-05-28/1989-06-03", "source": LS, "seconds": 1.8, "label_before": "1985", "label_after": "1989"}
-CMP_89_95 = {"before": "1989-05-28/1989-06-03", "after": "1995-08-01/1995-08-07", "source": LS, "seconds": 1.8, "label_before": "1989", "label_after": "1995"}
-CMP_95_04 = {"before": "1995-08-01/1995-08-07", "after": "2004-08-09/2004-08-15", "source": LS, "seconds": 1.8, "label_before": "1995", "label_after": "2004"}
-CMP_04_26 = {"before": "2004-08-09/2004-08-15", "after": "2026-05-02/2026-05-08", "source": LS, "seconds": 1.8, "label_before": "2004", "label_after": "2026"}
+D85, D89, D90, D95, D04, D26 = ("1985-08-22/1985-08-26", "1989-09-02/1989-09-06", "1990-08-04/1990-08-08", "1995-08-02/1995-08-06",
+                                "2004-08-10/2004-08-14", "2026-08-23/2026-08-27")  # clear Landsat days, checked 2026-11-13
+
+
+def cmp(a, b, la, lb):
+    return {"before": a, "after": b, "source": LS, "seconds": 1.8, "label_before": la, "label_after": lb}
+
+
+CMP_85_95, CMP_95_26 = cmp(D85, D95, "1985", "1995"), cmp(D95, D26, "1995", "2026")
+CMP_85_89, CMP_89_90, CMP_90_95 = cmp(D85, D89, "1985", "1989"), cmp(D89, D90, "1989", "1990"), cmp(D90, D95, "1990", "1995")
+CMP_95_04, CMP_04_26 = cmp(D95, D04, "1995", "2004"), cmp(D04, D26, "2004", "2026")
+W_A = {"lon": 135.235, "lat": 34.43, "span": 0.22}  # four framings of the same water, so no wipe repeats a picture
+W_B = {"lon": 135.222, "lat": 34.44, "span": 0.19}
+W_C = {"lon": 135.255, "lat": 34.422, "span": 0.27}
+W_D = {"lon": 135.21, "lat": 34.447, "span": 0.16}
 
 
 def m(at, *steps, text=None, keep=False, cut=False):
@@ -138,23 +147,31 @@ def P(text, *shots, ask=None):
 
 OPERATOR = "Kansai Airports, measurements of December 2025"
 JSCE = "Suzuki & Okuda, Kansai International Airport Co., JSCE, 2008"
-FUNK = "Funk & Mesri, J. Geotech. Geoenviron. Eng., ASCE, 2015"
+FUNK = "Mesri & Funk, J. Geotech. Geoenviron. Eng., ASCE, 2015"
 AIRSPACE = "Air & Space / Smithsonian, June 2018"
 KAP = "Kansai Airports, Technologies for Offshore Airports"
+
+PH_APRON = 'File:Kansai Airport terminal 1 ,from the top of observation hall "sky view" (16041786233).jpg'  # CC BY 2.0
+PH_GATE = "File:Kansai Airport Terminal 1 Gate 20 2025.JPG"  # CC BY 4.0
+PH_DEPARTURE = "File:Kansai Airport Terminal 1 Departure 2025.JPG"  # CC BY 4.0
+PH_HALL = "File:Kansai International Airport13n.jpg"  # CC BY 2.5
+PH_ATRIUM = "File:Kansai International Airport Terminal 1 Interior1 2014.jpg"  # CC BY 3.0
 
 chapters = [
     {"title": "An Island That Was Not There", "mood": "curious", "paragraphs": [
         P("This is Osaka Bay in 1985. Open water. Ten years later there is an island here, three miles from the shore, with an airport on it. Japan built it from nothing. And it has been sinking ever since.",
-          m(0, v(KIX_W, compare={**CMP_85_95, "until": "Ten years later"}), step("Ten years later", places=[KIX]), cut=True),
+          m(0, v(W_A, compare={**CMP_85_95, "until": "Ten years later"}), step("Ten years later", places=[KIX]), cut=True),
+          m("with an airport", v(KIX_V, places=[KIX]), cut=True),
           m("Japan built it", v(BAY, highlight=[ISLANDS], arrows=[TO_ISLANDS], places=[OSAKA]), cut=True)),
-        P("By the operator's own measurements, the ground under the first island has dropped almost fourteen meters since the fill began. That is forty-five feet, the height of a four-storey building. Last year it went down five centimeters more.",
+        P("By the operator's own measurements, the ground under the first island has dropped almost fourteen meters since the fill began. That is forty-five feet, the height of a four-storey building. Last year it went down five centimeters more. Every one of those numbers comes from the company that runs the airport, which measures the island at seventeen points and publishes the result.",
           m(0, v(KIX_V, places=[KIX]), cut=True),
           stat("almost fourteen", "13.72 m", "Average settlement of the first island since construction began (45 ft)", OPERATOR),
           m("the height of", v(TERMINAL_V), cut=True),
-          stat("Last year", "5 cm", "Settlement of the first island in 2025, average of 17 points", OPERATOR)),
+          stat("Last year", "5 cm", "Settlement of the first island in 2025, average of 17 points", OPERATOR),
+          m("which measures the", v(near(135.228, 34.42, 0.07)), cut=True)),
         P("Then Japan built a second island beside it. That one is sinking four times as fast.",
-          m(0, v(KIX_W, compare={**CMP_95_26, "until": None}), cut=True)),
-        P("Thirty-four million passengers used this airport last year. So why did Japan build its airport in the sea, why did the forecasts miss, and how long can it last?",
+          m(0, v(W_B, compare={**CMP_95_26, "until": None}), step("That one is", places=[KIX2]), cut=True)),
+        P("Thirty-four million passengers used this airport last year. So why did Japan build its airport in the sea, why did the forecasts miss, and how long can it last? We will watch every stage of it from orbit.",
           m(0, v(TERMINAL_V, places=[KIX]), cut=True),
           m("So why did", v(BAY, highlight=[ISLANDS], places=[OSAKA, KOBE]), cut=True),
           ask=("So why did", "Why build an airport in the sea?")),
@@ -164,121 +181,159 @@ chapters = [
           m(0, v(KANSAI, places=[ITAMI, OSAKA, KOBE])),
           m("Itami sits", v(ITAMI_V, places=[ITAMI]), cut=True),
           m("Almost at once", v(near(135.44, 34.79, 0.12)), cut=True)),
-        P("Near Tokyo, the government had tried to build a new airport on farmland at Narita, and met years of protest from the people who lived there. Planners in Osaka did not want a second Narita.",
+        P("Near Tokyo, the government had tried to build a new airport on farmland at Narita, and met years of protest from the people who lived there. Planners in Osaka did not want a second Narita. From 1968 the transport ministry studied two sites on land and six at sea.",
           m(0, v(JAPAN, places=[NARITA, TOKYO, OSAKA])),
           m("on farmland", v(NARITA_V, places=[NARITA]), cut=True),
           m("Planners in Osaka", v(KANSAI, places=[OSAKA, ITAMI]), cut=True)),
-        P("So they looked at the one place where nobody lived: the bay. The first plan put the airport off Kobe. Kobe said no. The site moved south, five kilometers out to sea, placed so that planes would arrive and leave entirely over water, around the clock. The airport's own engineers later called it a radical solution to the noise problems of Itami.",
+        P("Land near a big city is expensive, and so is paying thousands of neighbours for the noise. Building new land offshore can look cheaper in the long run. So they looked at the one place where nobody lived: the bay. In 1974 the choice was made: an island in the south of the bay, five kilometers out to sea, placed so that planes would arrive and leave entirely over water, around the clock. The airport's own engineers later called it a radical solution to the noise problems of Itami.",
           m(0, v(BAY, places=[OSAKA, KOBE])),
-          m("Kobe said no", v(near(135.2, 34.66, 0.25), places=[KOBE]), cut=True),
-          m("The site moved", v(BAY, highlight=[ISLANDS], arrows=[OFFSHORE], places=[KOBE, OSAKA]), cut=True),
-          clip("The airport's own", "\"Kansai International Airport was built five kilometers out to sea on Osaka Bay as a radical solution to the noise problems of Osaka (Itami) Airport.\"", "S. Suzuki and Y. Okuda, Kansai International Airport Co., in JSCE Civil Engineering, 2008", highlight="a radical solution to the noise problems")),
+          m("In 1974 the", v(BAY, highlight=[ISLANDS], arrows=[OFFSHORE], places=[KOBE, OSAKA]), cut=True),
+          m("placed so that", v(near(135.26, 34.47, 0.3)), cut=True),
+          clip("later called it", "\"Kansai International Airport was built five kilometers out to sea on Osaka Bay as a radical solution to the noise problems of Osaka (Itami) Airport.\"", "S. Suzuki and Y. Okuda, Kansai International Airport Co., in JSCE Civil Engineering, 2008", highlight="a radical solution to the noise problems")),
         P("We had to decide to build offshore because there were few viable options, an urban planning professor, Hiro Ishikawa, told This Week in Asia last year. There was one problem with the site. There was no land there.",
           clip(0, "\"We had to decide to build offshore because there were few viable options.\"", "Hiro Ishikawa, emeritus professor, Meiji University, to This Week in Asia, 2025", highlight="few viable options"),
-          m("There was one", v(KIX_W, date="1985-06-01/1985-06-10"), cut=True)),
+          m("an urban planning", v(near(135.33, 34.5, 0.3)), cut=True),
+          m("There was one", v(W_C, date=D85), cut=True)),
     ]},
     {"title": "Building on a Sponge", "mood": "curious", "paragraphs": [
-        P("The water at the site is about twenty meters deep. Under it lies about twenty meters of soft clay, and that clay is seventy percent water. Put weight on it and the water is squeezed out, the way it leaves a sponge. The operator expected this layer to shrink to two thirds of its thickness.",
-          m(0, v(KIX_W, date="1985-06-01/1985-06-10"), cut=True),
+        P("The water at the site is about twenty meters deep. Under it lies about twenty meters of soft clay, and that clay is seventy percent water. Put weight on it and the water is squeezed out, the way it leaves a sponge. Engineers call it consolidation. This spot has been under water for ten thousand years. The operator expected the layer to shrink to two thirds of its thickness.",
+          m(0, v(W_D, date=D85), cut=True),
           stat("seventy percent", "70 %", "Share of water in the soft clay under the bay, by volume", KAP),
           m("The operator expected", v(BAY, highlight=[ISLANDS], dim=True), cut=True)),
-        P("Left alone, that would take decades. So the builders gave the water a way out. They drove one million columns of sand into the clay, each twenty meters long, two and a half meters apart. That was more than all of Japan had installed in the thirty-five years before. It worked: a process of decades was over within a year.",
+        P("Left alone, that would take decades. So the builders gave the water a way out. They drove one million columns of sand into the clay, each twenty meters long, two and a half meters apart. Each began as a pipe pounded into the seabed, filled with sand and pulled out again, leaving the sand behind. Water cannot climb through clay, but it can creep sideways into the sand, and from there it rises and drains away. That was more than all of Japan had installed in the thirty-five years before. It worked: a process of decades was over within a year.",
           m(0, v(near(135.238, 34.43, 0.14)), cut=True),
           stat("one million columns", "1,000,000", "Sand drains under the first island, 20 m long, 2.5 m apart", KAP),
           m("That was more", v(JAPAN, highlight=[ISLANDS], places=[OSAKA]), cut=True),
           m("It worked", v(KIX_V), cut=True)),
-        P("In 1987 they started a wall around an empty rectangle of sea, built of rubble and forty-eight thousand concrete blocks. This is our own image from May 1989. The wall is finished. Inside it there is still water.",
-          m(0, v(KIX_W, compare={**CMP_85_89, "until": "This is our own"}), step("This is our own", places=[place("Seawall, 1989", 135.24, 34.43, "Seawall, 1989", "site")]), cut=True)),
-        P("Then came the fill. Soil dredged from the bay, rock quarried from mountains nearby, more barged in from China and Korea, until the new ground was thirty meters deep. A bridge nearly four kilometers long tied the island to the shore. On September fourth, 1994, the airport opened.",
-          m(0, v(KIX_W, compare={**CMP_89_95, "until": "Soil dredged"}), step("Soil dredged"), cut=True),
-          stat("thirty meters deep", "30 m", "Depth of the reclaimed ground on the first island", KAP),
-          m("A bridge nearly", v(BRIDGE_V, routes=[BRIDGE], places=[RINKU]), cut=True),
+        P("In 1987 they started a wall around an empty rectangle of sea, built of rubble and forty-eight thousand concrete blocks, anchored in steel chambers that weigh hundreds of tons. This is our own image from September 1989. The wall is finished. Inside it there is still water.",
+          m(0, v(near(135.262, 34.447, 0.06)), cut=True),
+          m("built of rubble", v(W_A, compare={**CMP_85_89, "until": "anchored in steel"}), step("anchored in steel"), step("This is our own", places=[place("Seawall, 1989", 135.24, 34.43, "Seawall, 1989", "site")]), cut=True),
+          m("The wall is", v(near(135.25, 34.44, 0.1), date=D89), cut=True),
+          m("Inside it there", v(near(135.238, 34.432, 0.11), date=D89), cut=True)),
+        P("Then came the fill. A hundred and eighty million cubic meters of rock and soil, quarried at four sites ten to thirty kilometers away and carried out by barge. A year later, in our image from August 1990, the rectangle is half full and a bridge is reaching out from the shore. The plan was a layer thirty meters deep. As the forecasts of sinking grew, so did the layer, to almost thirty-seven. At times the heap stood sixty-five feet above the sea, waiting to settle.",
+          m(0, v(near(135.238, 34.432, 0.12), date=D89), cut=True),
+          m("quarried at four", v(W_C, compare={**CMP_89_90, "until": "A year later"}), step("A year later"), step("a bridge is", places=[place("Bridge, 1990", 135.283, 34.418, "Bridge, 1990", "site")]), cut=True),
+          stat("The plan was", "30 -> 36.7 m", "Height of the fill above the sea floor, first island: planned and final", FUNK),
+          m("At times the", v(near(135.24, 34.432, 0.09), date=D90), cut=True)),
+        P("While the fill was still under water it was partly afloat, and the deep seabed hardly moved. The sinking began in earnest when the island rose above the surface and its full weight came down. The fill itself was packing down too, under its own load. The bridge, nearly four kilometers long, was finished. On September fourth, 1994, the airport opened.",
+          m(0, v(near(135.225, 34.44, 0.13), date=D90), cut=True),
+          m("The sinking began", v(W_B, compare={**CMP_90_95, "until": "when the island"}), step("when the island"), cut=True),
+          m("The fill itself", v(near(135.243, 34.436, 0.09)), cut=True),
+          m("The bridge, nearly", v(BRIDGE_V, routes=[BRIDGE], places=[RINKU]), cut=True),
           m("On September fourth", v(TERMINAL_V, places=[KIX]), cut=True)),
-        P("But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. That stack is up to four hundred meters thick. Nobody can drain it. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
+        P("But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. When this was sea, clay settled on the bottom. When it was dry land or a lake shore, sand did. All the while the crust under the bay was slowly going down, so nothing washed away. The borings went down four hundred meters and found twenty-two layers of clay with sand between them, and its upper part is the softer part: under enough pressure it gives. Nobody can drain it, and squeezing the water out of clay like that takes anything from decades to hundreds of years. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
           m(0, v(KIX_V), cut=True),
           m("For two million", v(KANSAI, highlight=[ISLANDS], dim=True), cut=True),
-          stat("up to four hundred", "400 m", "Thickness of the older clay and sand layers under the islands", KAP),
-          clip("The operator's own", "\"...the airport facilities are managed with the assumption that long-term subsidence will continue.\"", "Kansai Airports, Technologies for Offshore Airports (3)", highlight="long-term subsidence will continue")),
+          stat("The borings went", "400 m", "22 clay layers (290 m in all) and 19 sand layers under the second island", FUNK),
+          clip("The operator's own", "\"...the airport facilities are managed with the assumption that long-term subsidence will continue.\"", "Kansai Airports, Technologies for Offshore Airports (3)", highlight="long-term subsidence will continue"),
+          m("that long-term subsidence", v(near(135.215, 34.444, 0.09)), cut=True)),
     ]},
     {"title": "The Forecast That Missed", "mood": "tension", "paragraphs": [
-        P("The planners knew the island would sink, and they piled on enough soil to allow for it. The plan was that after fifty years the ground would still stand thirteen feet above the sea. By 1990, before a single building stood on it, the island had sunk twenty-seven feet instead of the nineteen predicted.",
+        P("The planners knew the island would sink, and they piled on enough soil to allow for it. The plan was that after fifty years the ground would still stand thirteen feet above the sea. That was not a comfort margin. It is the least height the island needs to stay dry if a wave breaks through the wall. By 1990, before a single building stood on it, the island had sunk twenty-seven feet instead of the nineteen predicted. An ordinary landfill on a coast is too light to bother clay that old. This one, built in deep water, was heavy enough to make it give.",
           m(0, v(KIX_V, places=[KIX]), cut=True),
-          chart("By 1990", "Sinking of the first island by 1990", "feet", [["Predicted", 19], ["Measured", 27]], AIRSPACE, reveal=["twenty-seven feet"], highlight=1)),
-        P("A spokeswoman for the operator, Yukako Handa, told Air and Space magazine that the engineers simply could not believe the gap between their laboratory estimates and what the seabed really did. By opening day the ground had already gone down almost ten meters. Parts of the island reached the fifty-year limit within six years, and at least a hundred and fifty million dollars went into raising the seawall.",
+          m("That was not", v(near(135.205, 34.418, 0.06)), cut=True),
+          chart("By 1990", "Sinking of the first island by 1990", "feet", [["Predicted", 19], ["Measured", 27]], AIRSPACE, reveal=["twenty-seven feet"], highlight=1),
+          m("An ordinary landfill", v(RINKU_V, places=[RINKU]), cut=True),
+          m("This one, built", v(BAY, highlight=[ISLANDS], dim=True), cut=True)),
+        P("The amount of soil was set by a fifty-year estimate of the sinking, a spokeswoman for the operator, Yukako Handa, told Air and Space magazine in 2018. The engineers, she said, simply could not believe the gap between their laboratory estimates and what the seabed really did. By opening day the ground had already gone down almost ten meters. Parts of the island reached the fifty-year limit within six years, and at least a hundred and fifty million dollars went into raising the seawall.",
           m(0, v(near(135.262, 34.447, 0.05)), cut=True),
+          clip("soil was set", "\"...the amount of soil to reclaim the land was determined based on necessary ground level and subsidence estimation over 50 years after the construction.\"", "Yukako Handa, Kansai Airports, to Air & Space / Smithsonian, June 2018", highlight="subsidence estimation over 50 years"),
+          m("a spokeswoman for", v(near(135.24, 34.418, 0.07)), cut=True),
+          m("The engineers, she", v(near(135.25, 34.443, 0.06)), cut=True),
+          m("By opening day", v(KIX_V, places=[KIX]), cut=True),
           stat("almost ten meters", "9.82 m", "Settlement of the first island before the airport opened in 1994", OPERATOR),
           stat("at least a hundred", "$150 million+", "Spent to raise the seawall as the island sank", AIRSPACE)),
-        P("An island does not sink evenly. So the terminal, a mile long, stands on nine hundred columns, each with its own gauge. When one drops, it is jacked up and steel plates are slid underneath. The middle of the building has a basement, which makes it lighter than the wings, so the builders packed iron ore under it as ballast. It still sank less than its neighbours, and had to be levelled.",
+        P("An island does not sink evenly. So the terminal, a mile long, stands on nine hundred columns, each with its own gauge. When one drops, it is jacked up and steel plates are slid underneath. The middle of the building has a basement, which makes it lighter than the wings, so the builders packed iron ore under it as ballast. It still sank less than its neighbours, and had to be levelled. The jacks are still worked every few years. The buildings sit on rafts of concrete, so that each one goes down as a whole, and soil was dug away around the heavy ones to keep the load on the ground even.",
           m(0, v(TERMINAL_V, places=[KIX]), cut=True),
           stat("nine hundred columns", "900", "Columns under Terminal 1, each monitored and jacked up when needed", KAP),
-          m("The middle of", v(near(135.247, 34.437, 0.04)), cut=True)),
-        P("The sinking reached things nobody had drawn. Rain was meant to run off the runway and out to sea through pipes, downhill. As the ground settled, the slope disappeared. The airport installed thirty-seven large pumps to push its own rainwater out, and in 2007 it covered the whole first runway with new asphalt, twenty-five centimeters thick on average, to give the water a slope again.",
+          m("The middle of", v(near(135.247, 34.437, 0.04)), cut=True),
+          m("The buildings sit", v(near(135.25, 34.443, 0.05)), cut=True)),
+        P("The sinking reached things nobody had drawn. Rain was meant to run off the runway and out to sea through pipes, downhill. As the ground settled, the slope disappeared. The airport installed thirty-seven large pumps to push its own rainwater out, and in 2007 it covered the whole first runway with new asphalt, twenty-five centimeters thick on average, to give the water a slope again. The runways are asphalt for the same reason: asphalt bends where concrete would crack.",
           m(0, v(near(135.228, 34.42, 0.05)), cut=True),
           clip("As the ground", "\"...with the progression of uneven settlement... the angle of the drainage pipes has gradually lessened, hampering the flow of rainwater into the ocean.\"", "S. Suzuki and Y. Okuda, Kansai International Airport Co., in JSCE Civil Engineering, 2008", highlight="the angle of the drainage pipes has gradually lessened"),
           stat("thirty-seven large", "37 pumps", "Installed at ten sites, 3,300 cubic meters a minute", JSCE),
           stat("twenty-five centimeters", "160,000 tons", "Asphalt laid on Runway A in 2007-2008, 25 cm thick on average", "Kansai Airports")),
-        P("And yet the island held. In January 1995, four months after opening, the Kobe earthquake struck about twenty kilometers away and killed more than six thousand people. The airport was not damaged.",
+        P("And yet the island held. In January 1995, four months after opening, the Kobe earthquake struck less than thirty kilometers away and killed more than six thousand people. By the accounts we found, the airport came through undamaged. In 2001 the American Society of Civil Engineers named it one of the civil engineering monuments of the millennium.",
           m(0, v(BAY, highlight=[ISLANDS], places=[EPICENTRE, KOBE])),
-          m("The airport was", v(KIX_V, places=[KIX]), cut=True)),
+          m("By the accounts", v(KIX_V, places=[KIX]), cut=True),
+          m("In 2001 the", v(TERMINAL_V), cut=True)),
     ]},
     {"title": "They Did It Again", "mood": "curious", "paragraphs": [
-        P("One runway was not enough. In 1999 work began on a second island, in deeper water. This time the builders drove one point two million sand drains. This is our image from 2004, with the new island still being filled. Its runway, four kilometers long, opened in August 2007.",
+        P("One runway was not enough. In 1999 work began on a second island, in deeper water. This time the builders drove one point two million sand drains. This is our image from 2004, with the new island still being filled. Its runway, four kilometers long, opened in August 2007. Together the two islands are a little over ten square kilometers of land that did not exist.",
           m(0, v(BAY, highlight=[ISLANDS], places=[KIX2])),
           stat("one point two", "1.2 million", "Sand drains under the second island", KAP),
-          m("This is our image", v(KIX_W, compare={**CMP_95_04, "until": "Its runway"}), step("Its runway", places=[KIX2]), cut=True)),
-        P("By the time that runway opened, the seabed under it had already gone down almost twelve meters. It has gone down six more since. In 2025 the second island sank twenty centimeters, four times as fast as the first.",
-          m(0, v(KIX_W, compare={**CMP_04_26, "until": None}), cut=True),
-          stat("almost twelve meters", "17.67 m", "Settlement under the second island: 11.71 m before 2007, 5.96 m since", OPERATOR),
-          chart("In 2025 the", "Sinking in 2025", "cm", [["First island", 5], ["Second island", 20]], OPERATOR, reveal=["twenty centimeters"], highlight=1)),
-        P("An engineering professor at the University of Illinois, Gholamreza Mesri, has studied both islands for years. In a 2015 paper with a colleague he forecast that by the year 2100 the seabed under the first island will have settled about fifteen point seven meters, and under the second, almost twenty-five. The operator makes no such promise. It says only that it will keep measuring, with the guidance of experts.",
+          m("This is our image", v(W_B, compare={**CMP_95_04, "until": "Its runway"}), step("Its runway", places=[KIX2]), cut=True),
+          m("Together the two", v(BAY, highlight=[ISLANDS], places=[OSAKA]), cut=True)),
+        P("The builders had learned. They laid the new ground in layers sixty centimeters thick and rolled each one. They built a test track and drove a vehicle as heavy as a jumbo jet around it fifteen thousand times. The ground held so well that the runway pavement could be half as thick as on the first island.",
           m(0, v(ISLAND2_V, places=[KIX2]), cut=True),
-          stat("about fifteen point", "15.7 m / 24.9 m", "Forecast settlement of the seabed by 2100, first and second island", FUNK),
+          stat("They built a test", "15,000", "Test runs with a vehicle as heavy as a jumbo jet on the second island", KAP),
+          m("The ground held", v(near(135.208, 34.438, 0.05)), cut=True)),
+        P("By the time that runway opened, the seabed under it had already gone down almost twelve meters. It has gone down six more since. In 2025 the second island sank twenty centimeters, four times as fast as the first, whose rate fell under ten centimeters a year long ago.",
+          m(0, v(W_D, compare={**CMP_04_26, "until": None}), cut=True),
+          stat("almost twelve meters", "17.67 m", "Settlement under the second island: 11.71 m before 2007, 5.96 m since", OPERATOR),
+          chart("In 2025 the", "Sinking in 2025", "cm", [["First island", 5], ["Second island", 20]], OPERATOR, reveal=["twenty centimeters"], highlight=1),
+          m("whose rate fell", v(KIX_V, places=[KIX]), cut=True)),
+        P("An engineering professor at the University of Illinois, Gholamreza Mesri, has studied both islands for years. In a 2015 paper with his colleague Funk he forecast that by the end of this century the seabed under the first island will have settled about seventeen and a half meters, and under the second more than twenty-four. Left to itself, they wrote, the surface of the first island would be at sea level by 2067 or sooner. The operator makes no such promise. It says only that it will keep measuring, with the guidance of experts. In 2018 Mesri told Air and Space that the second island could come down to its warning height, thirteen feet above the sea, as early as 2023. Which is why the walls keep going up.",
+          m(0, v(near(135.232, 34.447, 0.07), places=[KIX2]), cut=True),
+          stat("about seventeen and", "17.6 m / 24.4 m", "Forecast settlement by the end of the century, first and second island", FUNK),
+          m("Left to itself", v(BAY, highlight=[ISLANDS]), cut=True),
           m("The operator makes", v(KIX_V), cut=True)),
     ]},
     {"title": "The Sea Comes Over the Wall", "mood": "tension", "paragraphs": [
-        P("A sinking island in a typhoon sea needs its walls to keep up. In 2004 a run of typhoons brought the highest tides and waves the airport had recorded. Waves came over the seawall and destroyed a road behind it. The company raised the walls by one to two meters along eleven kilometers.",
+        P("A sinking island in a typhoon sea needs its walls to keep up. It stands in twenty meters of open water, where its engineers feared high tides more than tsunamis. In 2004 a run of typhoons brought the highest tides and waves the airport had recorded. Waves came over the seawall and destroyed a road behind it. So the company raised the walls, by one to two meters, along eleven kilometers of shore.",
           m(0, v(BAY, highlight=[ISLANDS], places=[OSAKA])),
           m("In 2004 a run", v(near(135.21, 34.412, 0.05)), cut=True),
           clip("Waves came over", "\"Waves flowed over the airport's seawalls, destroying a road behind the seawall.\"", "S. Suzuki and Y. Okuda, Kansai International Airport Co., in JSCE Civil Engineering, 2008", highlight="destroying a road behind the seawall"),
-          stat("one to two meters", "+1-2 m", "Seawalls raised along about 11 km after the 2004 typhoons", JSCE)),
-        P("The sea was also coming from below. The island is made of crushed rock, and the water inside it rose and fell with the tide, into basements. So between 2004 and 2006 the company built a wall underground, about thirty meters deep, all the way around the island.",
+          m("So the company", v(near(135.205, 34.418, 0.05)), cut=True),
+          stat("by one to two", "+1-2 m", "Seawalls raised along about 11 km after the 2004 typhoons", JSCE)),
+        P("The sea was also coming from below. The island is made of crushed rock, and the water inside it rose and fell with the tide, into basements. So between 2004 and 2006 the company built a wall underground, about thirty meters deep, all the way around the island. It lowered the water in the ground by a meter and a half. All of it was done beside a working runway, with machines kept under fifteen meters tall so that no aircraft could strike one. The pumps were sized for a cloudburst of fifty-five millimeters in an hour.",
           m(0, v(KIX_V), cut=True),
-          stat("about thirty meters", "11 km", "Underground cut-off wall around the island, about 30 m deep, 2004-2006", JSCE),
-          m("all the way", v(near(135.255, 34.425, 0.06)), cut=True)),
-        P("Then came September fourth, 2018, twenty-four years to the day after the airport opened. Typhoon Jebi pushed the sea over the walls and across a runway. A tanker of about two thousand six hundred tons, the Houn Maru, dragged its anchor and hit the only bridge. By most reports about three thousand passengers were stuck on the island overnight, and left the next morning by boat.",
-          m(0, v(KIX_W, places=[KIX]), cut=True),
+          stat("So between 2004", "11 km", "Underground cut-off wall around the island, about 30 m deep, 2004-2006", JSCE),
+          m("all the way", v(near(135.255, 34.425, 0.06)), cut=True),
+          m("All of it was", v(near(135.235, 34.458, 0.06)), cut=True),
+          m("The pumps were", v(near(135.222, 34.432, 0.05)), cut=True)),
+        P("Then came September fourth, 2018, twenty-four years to the day after the airport opened. Typhoon Jebi, reported as the strongest to hit Japan in twenty-five years, pushed the sea over the walls and across a runway. A tanker of about two thousand six hundred tons, the Houn Maru, dragged its anchor and hit the only bridge. By most reports about three thousand passengers were stuck on the island overnight, and left the next morning by boat. Flights began again within days. The bridge was not whole until the following spring.",
+          m(0, v(near(135.24, 34.45, 0.34), places=[KIX]), cut=True),
           m("pushed the sea", v(near(135.235, 34.424, 0.05)), cut=True),
           m("A tanker of", v(BRIDGE_V, routes=[BRIDGE], places=[RINKU]), cut=True),
+          m("dragged its anchor", v(near(135.28, 34.42, 0.035), places=[place("Where the tanker hit", 135.281, 34.4185, "Where the tanker hit", "site")]), cut=True),
           stat("about three thousand", "~3,000", "Passengers stranded overnight on 4 Sep 2018, by most press reports", "Press reports, Sep 2018"),
           m("and left the", v(near(135.23, 34.55, 0.4), routes=[{"from": [135.262, 34.44], "to": [135.224, 34.633], "mode": "line", "seconds": 2, "label": "Boats to Kobe Airport"}], places=[KOBE_AP]), cut=True)),
-        P("The walls went up again. Within three years, with planes still landing, the operator raised the seawalls along more than six kilometers, laid wave-breaking blocks along nearly five, and went on raising the first runway.",
+        P("The walls went up again. Within three years, with planes still landing, the operator raised the seawalls along more than six kilometers, laid wave-breaking blocks along nearly five, and went on raising the first runway. Japan's society of civil engineers gave the work an award. The rule, in the operator's own brochure, is simple: as the island sinks, the walls are raised to the height the worst expected waves would need.",
           m(0, v(near(135.215, 34.409, 0.05)), cut=True),
-          stat("more than six", "6 km", "Seawalls raised after Typhoon Jebi; blocks placed along 4.7 km", "Kansai Airports, via ACI Asia-Pacific, May 2022")),
+          stat("more than six", "6 km", "Seawalls raised after Typhoon Jebi; blocks placed along 4.7 km", "Kansai Airports, via ACI Asia-Pacific, May 2022"),
+          m("The rule, in", v(near(135.268, 34.436, 0.06)), cut=True),
+          m("as the island", v(near(135.2, 34.428, 0.05)), cut=True)),
     ]},
     {"title": "Who Pays", "mood": "calm", "paragraphs": [
         P("None of this was cheap. When the airport opened, its cost was put at about eight billion dollars. By 2008, with the repairs, the second island and its runway, the figure was about twenty billion.",
           m(0, v(KIX_V, places=[KIX]), cut=True),
           chart("By 2008", "What the airport had cost", "$ billion", [["At opening, 1994", 8], ["By 2008", 20]], AIRSPACE, reveal=["about twenty billion"], highlight=1)),
-        P("The airport carried that as debt, and for years it charged some of the highest landing fees in the world to pay the interest. In 2016 the state handed the running of the airport to a private group led by Orix of Japan and Vinci of France. Two years later that group was paying the transport ministry about three hundred and fifty million dollars a year for the right.",
+        P("The airport carried that as debt, and for years it charged some of the highest landing fees in the world to pay the interest: about seven and a half thousand dollars for one Boeing 747, by one count three times the price at New York's JFK. In 2016 the state handed the running of the airport to a private group led by Orix of Japan and Vinci of France. Two years later that group was paying the transport ministry about three hundred and fifty million dollars a year for the right. Itami never closed. It still takes domestic flights, and the same company now runs both.",
           m(0, v(near(135.255, 34.44, 0.05)), cut=True),
           m("In 2016", v(KANSAI, highlight=[ISLANDS], places=[OSAKA, ITAMI, KOBE]), cut=True),
-          stat("about three hundred", "$350 million", "Paid each year to Japan's transport ministry for operating rights (2018)", AIRSPACE)),
+          stat("about three hundred", "$350 million", "Paid each year to Japan's transport ministry for operating rights (2018)", AIRSPACE),
+          m("Itami never closed", v(ITAMI_V, places=[ITAMI]), cut=True)),
         P("And the passengers came. Twenty-six million in 2016. Thirty-four million in 2025, most of them from abroad. A fully loaded Airbus A380, the operator likes to point out, weighs less than three ten-thousandths of one percent of the soil it lands on.",
           m(0, v(TERMINAL_V, places=[KIX]), cut=True),
           chart("Twenty-six million", "Passengers a year", "million", [["2016", 26], ["2025", 34.1]], "Air & Space, 2018; Kansai Airports traffic figures", reveal=["Thirty-four million"], highlight=1),
           m("A fully loaded", v(near(135.235, 34.424, 0.06)), cut=True)),
     ]},
     {"title": "Will It Last", "mood": "curious", "paragraphs": [
-        P("The operator gives no official lifetime for the islands. The first one now sinks a few centimeters a year, not half a meter. We knew from the start that the airport would subside, Professor Ishikawa said, and we considered the various impacts in the design.",
+        P("The operator gives no official lifetime for the islands. Its spokeswoman said so in 2018: no such figure has been calculated. The first one now sinks a few centimeters a year, not half a meter. We knew from the start that the airport would subside, Professor Ishikawa said, and we considered the various impacts in the design. The settling may go on for centuries, only slower.",
           m(0, v(KIX_V, places=[KIX]), cut=True),
-          clip("We knew from", "\"We knew from the start that the airport would subside, and we considered the various impacts in the design.\"", "Hiro Ishikawa, emeritus professor, Meiji University, to This Week in Asia, 2025", highlight="We knew from the start")),
-        P("Japan kept building this way. Chubu, near Nagoya, in 2005. Kobe, the city that said no, in 2006. Kitakyushu the same year. All of them on islands made in the sea.",
+          clip("We knew from", "\"We knew from the start that the airport would subside, and we considered the various impacts in the design.\"", "Hiro Ishikawa, emeritus professor, Meiji University, to This Week in Asia, 2025", highlight="We knew from the start"),
+          m("and we considered", v(near(135.24, 34.418, 0.06)), cut=True),
+          m("The settling may", v(near(135.25, 34.443, 0.07)), cut=True)),
+        P("Japan kept building this way. Chubu, near Nagoya, in 2005. Kobe, across the bay, in 2006. Kitakyushu the same year. All of them on islands made in the sea. And not only Japan. When Air and Space looked in 2018, new runways were going up on a drained marsh north of Istanbul, on a reef in the Maldives and on river mud in Brisbane. Ground like that settles. The only question is how fast, and who is still measuring.",
           m(0, v(JAPAN, places=[CHUBU, KOBE_AP, KITAKYUSHU])),
           m("Chubu, near", v(CHUBU_V, places=[CHUBU]), cut=True),
-          m("Kobe, the city", v(KOBE_AP_V, places=[KOBE_AP]), cut=True),
-          m("Kitakyushu the same", v(KITAKYUSHU_V, places=[KITAKYUSHU]), cut=True)),
+          m("Kobe, across the", v(KOBE_AP_V, places=[KOBE_AP]), cut=True),
+          m("Kitakyushu the same", v(KITAKYUSHU_V, places=[KITAKYUSHU]), cut=True),
+          m("And not only", v({"lon": 80, "lat": 15, "span": 170}, places=[place("Istanbul", 28.75, 41.26, "Istanbul", "city"), place("Maldives", 73.53, 4.19, "Maldives", "city"), place("Brisbane", 153.12, -27.38, "Brisbane", "city"), OSAKA])),
+          m("Ground like that", v(BAY, highlight=[ISLANDS]), cut=True)),
         P("So here is the question. If your city had no room left for an airport, would you build one on the sea, knowing it would sink?",
-          m(0, v(KIX_W, places=[KIX]), cut=True),
+          m(0, v(W_C, places=[KIX]), cut=True),
           m("would you build", v(BAY, highlight=[ISLANDS], arrows=[TO_ISLANDS]), cut=True),
           ask=("If your city", "Would you build it, knowing it would sink?")),
     ]},
@@ -304,16 +359,48 @@ def pic(name, label=None):
 SEC_WORD = 0.43
 PHOTO_MAX, PHOTO_GAP = 3, 110.0  # gap in estimated seconds; real speech runs faster than SEC_WORD (v2 repeats came back 35-54 s apart)
 SHORES = {
-    "kix": [(135.244, 34.435), (135.262, 34.447), (135.215, 34.409), (135.215, 34.444), (135.235, 34.458), (135.20, 34.428),
-            (135.255, 34.425), (135.228, 34.42), (135.25, 34.443), (135.222, 34.432), (135.208, 34.438), (135.24, 34.418),
-            (135.268, 34.436), (135.232, 34.447), (135.205, 34.418), (135.248, 34.455)],
+    "kix": [(135.195, 34.432),
+            (135.275, 34.442),
+            (135.235, 34.412),
+            (135.235, 34.462),
+            (135.205, 34.437),
+            (135.265, 34.437),
+            (135.215, 34.402),
+            (135.245, 34.467),
+            (135.215, 34.442),
+            (135.255, 34.432),
+            (135.225, 34.407),
+            (135.245, 34.457),
+            (135.225, 34.437),
+            (135.245, 34.417),
+            (135.205, 34.417),
+            (135.265, 34.447),
+            (135.225, 34.457),
+            (135.235, 34.422),
+            (135.205, 34.427),
+            (135.255, 34.452),
+            (135.225, 34.447),
+            (135.245, 34.427),
+            (135.215, 34.412),
+            (135.245, 34.447),
+            (135.215, 34.432),
+            (135.235, 34.432),
+            (135.225, 34.417),
+            (135.255, 34.442),
+            (135.235, 34.452),
+            (135.245, 34.437),
+            (135.215, 34.422),
+            (135.225, 34.427),
+            (135.235, 34.442)],
     "shore": [(135.30, 34.41), (135.32, 34.43), (135.285, 34.395), (135.34, 34.45), (135.27, 34.38), (135.36, 34.47)],
     "city": [(135.438, 34.785), (135.50, 34.69), (135.45, 34.76), (135.47, 34.72), (135.42, 34.80), (135.52, 34.66)],
-    "bay": [(135.24, 34.44), (135.30, 34.48), (135.20, 34.50), (135.33, 34.42), (135.26, 34.52), (135.18, 34.42)],
+    "bay": [(135.24, 34.44), (135.30, 34.48), (135.20, 34.50), (135.33, 34.42), (135.26, 34.52), (135.18, 34.42), (135.38, 34.56),
+            (135.42, 34.62), (135.15, 34.60), (135.05, 34.56), (135.22, 34.36), (135.30, 34.60)],
 }
-SPANS = {"bay": [0.3, 0.45, 0.6, 0.35], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1]}
+SPANS = {"bay": [0.3, 0.45, 0.6, 0.35, 0.25, 0.5], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1, 0.04, 0.11]}
 LABELS = {"kix": "Kansai International Airport", "shore": "Osaka Bay shore", "city": "Osaka", "bay": "Osaka Bay"}
-PHOTOS = {}
+PHOTOS = {"kix": [(PH_APRON, "Terminal 1 from the observation hall, 2015"), (PH_GATE, "Terminal 1, 2025"),
+                  (PH_DEPARTURE, "Terminal 1 departures, 2025"), (PH_HALL, "Terminal 1, 2010"), (PH_ATRIUM, "Terminal 1, 2014")]}
 VIEW_PLACE = {}
 used_views: set = set()
 view_next = dict.fromkeys(SHORES, 0)
@@ -375,7 +462,7 @@ def topic_of(text, chapter):
         return "city"
     if re.search(r"bridge|shore|Rinku|boat|tanker", text):
         return "shore"
-    if re.search(r"bay|Bay|typhoon|Typhoon|sea |tide|Kobe said", text):
+    if re.search(r"bay|Bay|typhoon|Typhoon|sea |tide|Kobe said|clay|seabed|ice ages|sponge|under water|crust|offshore|Land near", text):
         return "bay"
     if re.search(r"island|airport|terminal|runway|wall|fill|clay|drain|pump|column|sink|sank|settle", text):
         return "kix"

@@ -32,8 +32,8 @@
            "span": 0.22
           },
           "compare": {
-           "before": "1985-06-01/1985-06-10",
-           "after": "1995-08-01/1995-08-07",
+           "before": "1985-08-22/1985-08-26",
+           "after": "1995-08-02/1995-08-06",
            "source": "landsat",
            "seconds": 1.8,
            "label_before": "1985",
@@ -53,6 +53,32 @@
             "label": "Kansai Airport"
            }
           ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "with an airport",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.238,
+           "lat": 34.434,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Kansai Airport",
+            "lon": 135.244,
+            "lat": 34.435,
+            "kind": "site",
+            "label": "Kansai Airport"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
@@ -93,27 +119,15 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 32,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.244,
-           "lat": 34.435,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
+       "on_screen_text": "Terminal 1 from the observation hall, 2015"
       }
      ]
     },
     {
-     "text": "By the operator's own measurements, the ground under the first island has dropped almost fourteen meters since the fill began. That is forty-five feet, the height of a four-storey building. Last year it went down five centimeters more.",
+     "text": "By the operator's own measurements, the ground under the first island has dropped almost fourteen meters since the fill began. That is forty-five feet, the height of a four-storey building. Last year it went down five centimeters more. Every one of those numbers comes from the company that runs the airport, which measures the island at seventeen points and publishes the result.",
      "shots": [
       {
        "type": "map",
@@ -122,7 +136,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.238,
+           "lon": 135.256,
            "lat": 34.434,
            "span": 0.1
           },
@@ -142,22 +156,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 6,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.215,
-           "lat": 34.444,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
+       "on_screen_text": "Terminal 1, 2025"
       },
       {
        "type": "stat",
@@ -193,6 +195,41 @@
         "label": "Settlement of the first island in 2025, average of 17 points",
         "source": "Kansai Airports, measurements of December 2025"
        }
+      },
+      {
+       "type": "photo",
+       "at": 39,
+       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
+       "on_screen_text": "Terminal 1 departures, 2025"
+      },
+      {
+       "type": "photo",
+       "at": 45,
+       "photo": "File:Kansai International Airport13n.jpg",
+       "on_screen_text": "Terminal 1, 2010"
+      },
+      {
+       "type": "map",
+       "at": "which measures the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.228,
+           "lat": 34.42,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 56,
+       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
+       "on_screen_text": "Terminal 1, 2014"
       }
      ]
     },
@@ -206,19 +243,31 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.222,
+           "lat": 34.44,
+           "span": 0.19
           },
           "compare": {
-           "before": "1995-08-01/1995-08-07",
-           "after": "2026-05-02/2026-05-08",
+           "before": "1995-08-02/1995-08-06",
+           "after": "2026-08-23/2026-08-27",
            "source": "landsat",
            "seconds": 1.8,
            "label_before": "1995",
            "label_after": "2026"
           },
           "date": "2026-10-09/2026-10-09"
+         },
+         {
+          "at": "That one is",
+          "places": [
+           {
+            "name": "Second island",
+            "lon": 135.215,
+            "lat": 34.444,
+            "kind": "site",
+            "label": "Second island"
+           }
+          ]
          }
         ],
         "cut": true
@@ -227,7 +276,7 @@
      ]
     },
     {
-     "text": "Thirty-four million passengers used this airport last year. So why did Japan build its airport in the sea, why did the forecasts miss, and how long can it last?",
+     "text": "Thirty-four million passengers used this airport last year. So why did Japan build its airport in the sea, why did the forecasts miss, and how long can it last? We will watch every stage of it from orbit.",
      "shots": [
       {
        "type": "map",
@@ -277,13 +326,13 @@
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.458,
+           "lon": 135.195,
+           "lat": 34.432,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -295,13 +344,13 @@
       },
       {
        "type": "map",
-       "at": 22,
+       "at": 28,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.2,
-           "lat": 34.428,
+           "lon": 135.275,
+           "lat": 34.442,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -452,7 +501,7 @@
      ]
     },
     {
-     "text": "Near Tokyo, the government had tried to build a new airport on farmland at Narita, and met years of protest from the people who lived there. Planners in Osaka did not want a second Narita.",
+     "text": "Near Tokyo, the government had tried to build a new airport on farmland at Narita, and met years of protest from the people who lived there. Planners in Osaka did not want a second Narita. From 1968 the transport ministry studied two sites on land and six at sea.",
      "shots": [
       {
        "type": "map",
@@ -565,11 +614,47 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.52,
+           "lat": 34.66,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka"
+      },
+      {
+       "type": "map",
+       "at": 41,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.438,
+           "lat": 34.785,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka"
       }
      ]
     },
     {
-     "text": "So they looked at the one place where nobody lived: the bay. The first plan put the airport off Kobe. Kobe said no. The site moved south, five kilometers out to sea, placed so that planes would arrive and leave entirely over water, around the clock. The airport's own engineers later called it a radical solution to the noise problems of Itami.",
+     "text": "Land near a big city is expensive, and so is paying thousands of neighbours for the noise. Building new land offshore can look cheaper in the long run. So they looked at the one place where nobody lived: the bay. In 1974 the choice was made: an island in the south of the bay, five kilometers out to sea, placed so that planes would arrive and leave entirely over water, around the clock. The airport's own engineers later called it a radical solution to the noise problems of Itami.",
      "shots": [
       {
        "type": "map",
@@ -608,29 +693,48 @@
       },
       {
        "type": "map",
-       "at": "Kobe said no",
+       "at": 20,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.2,
-           "lat": 34.66,
-           "span": 0.25
+           "lon": 135.32,
+           "lat": 34.43,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "Osaka Bay shore"
       },
       {
        "type": "map",
-       "at": "The site moved",
+       "at": 30,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.109,
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "In 1974 the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.451,
            "lat": 34.53,
            "span": 0.95
           },
@@ -660,43 +764,60 @@
       },
       {
        "type": "map",
-       "at": 30,
+       "at": 49,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.52,
-           "lat": 34.66,
-           "span": 0.05
+           "lon": 135.2,
+           "lat": 34.5,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Osaka"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
-       "at": 38,
+       "at": "placed so that",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.438,
-           "lat": 34.785,
-           "span": 0.07
+           "lon": 135.26,
+           "lat": 34.47,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 68,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Osaka"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "document",
-       "at": "The airport's own",
+       "at": "later called it",
        "document": {
         "text": "\"Kansai International Airport was built five kilometers out to sea on Osaka Bay as a radical solution to the noise problems of Osaka (Itami) Airport.\"",
         "source": "S. Suzuki and Y. Okuda, Kansai International Airport Co., in JSCE Civil Engineering, 2008",
@@ -719,16 +840,51 @@
       },
       {
        "type": "map",
+       "at": "an urban planning",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.33,
+           "lat": 34.5,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 19,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.285,
+           "lat": 34.395,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
        "at": "There was one",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.255,
+           "lat": 34.422,
+           "span": 0.27
           },
-          "date": "1985-06-01/1985-06-10"
+          "date": "1985-08-22/1985-08-26"
          }
         ],
         "cut": true
@@ -741,8 +897,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.41,
+           "lon": 135.34,
+           "lat": 34.45,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -761,7 +917,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "The water at the site is about twenty meters deep. Under it lies about twenty meters of soft clay, and that clay is seventy percent water. Put weight on it and the water is squeezed out, the way it leaves a sponge. The operator expected this layer to shrink to two thirds of its thickness.",
+     "text": "The water at the site is about twenty meters deep. Under it lies about twenty meters of soft clay, and that clay is seventy percent water. Put weight on it and the water is squeezed out, the way it leaves a sponge. Engineers call it consolidation. This spot has been under water for ten thousand years. The operator expected the layer to shrink to two thirds of its thickness.",
      "shots": [
       {
        "type": "map",
@@ -770,11 +926,11 @@
         "steps": [
          {
           "view": {
-           "lon": 135.2746,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.21,
+           "lat": 34.447,
+           "span": 0.16
           },
-          "date": "1985-06-01/1985-06-10"
+          "date": "1985-08-22/1985-08-26"
          }
         ],
         "cut": true
@@ -787,16 +943,16 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.425,
-           "span": 0.05
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -805,16 +961,16 @@
         "steps": [
          {
           "view": {
-           "lon": 135.222,
-           "lat": 34.432,
-           "span": 0.05
+           "lon": 135.18,
+           "lat": 34.42,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "stat",
@@ -832,15 +988,51 @@
         "steps": [
          {
           "view": {
-           "lon": 135.208,
-           "lat": 34.438,
-           "span": 0.05
+           "lon": 135.38,
+           "lat": 34.56,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ]
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 40,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.42,
+           "lat": 34.62,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.15,
+           "lat": 34.6,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -849,7 +1041,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.451,
+           "lon": 135.28,
            "lat": 34.53,
            "span": 0.95
           },
@@ -865,26 +1057,26 @@
       },
       {
        "type": "map",
-       "at": 48,
+       "at": 62,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.268,
-           "lat": 34.436,
-           "span": 0.05
+           "lon": 135.05,
+           "lat": 34.56,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       }
      ]
     },
     {
-     "text": "Left alone, that would take decades. So the builders gave the water a way out. They drove one million columns of sand into the clay, each twenty meters long, two and a half meters apart. That was more than all of Japan had installed in the thirty-five years before. It worked: a process of decades was over within a year.",
+     "text": "Left alone, that would take decades. So the builders gave the water a way out. They drove one million columns of sand into the clay, each twenty meters long, two and a half meters apart. Each began as a pipe pounded into the seabed, filled with sand and pulled out again, leaving the sand behind. Water cannot climb through clay, but it can creep sideways into the sand, and from there it rises and drains away. That was more than all of Japan had installed in the thirty-five years before. It worked: a process of decades was over within a year.",
      "shots": [
       {
        "type": "map",
@@ -910,16 +1102,16 @@
         "steps": [
          {
           "view": {
-           "lon": 135.232,
-           "lat": 34.447,
-           "span": 0.05
+           "lon": 135.22,
+           "lat": 34.36,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "stat",
@@ -937,15 +1129,87 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.418,
-           "span": 0.05
+           "lon": 135.3,
+           "lat": 34.6,
+           "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
          }
         ]
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 56,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.2,
+           "lat": 34.5,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 66,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -968,21 +1232,21 @@
       },
       {
        "type": "map",
-       "at": 42,
+       "at": 83,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.248,
-           "lat": 34.455,
-           "span": 0.05
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -1003,30 +1267,53 @@
       },
       {
        "type": "map",
-       "at": 54,
+       "at": 95,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.244,
-           "lat": 34.435,
-           "span": 0.07
+           "lon": 135.18,
+           "lat": 34.42,
+           "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       }
      ]
     },
     {
-     "text": "In 1987 they started a wall around an empty rectangle of sea, built of rubble and forty-eight thousand concrete blocks. This is our own image from May 1989. The wall is finished. Inside it there is still water.",
+     "text": "In 1987 they started a wall around an empty rectangle of sea, built of rubble and forty-eight thousand concrete blocks, anchored in steel chambers that weigh hundreds of tons. This is our own image from September 1989. The wall is finished. Inside it there is still water.",
      "shots": [
       {
        "type": "map",
        "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.262,
+           "lat": 34.447,
+           "span": 0.06
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 6,
+       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
+       "on_screen_text": "Terminal 1 from the observation hall, 2015"
+      },
+      {
+       "type": "map",
+       "at": "built of rubble",
        "map": {
         "steps": [
          {
@@ -1036,15 +1323,18 @@
            "span": 0.22
           },
           "compare": {
-           "before": "1985-06-01/1985-06-10",
-           "after": "1989-05-28/1989-06-03",
+           "before": "1985-08-22/1985-08-26",
+           "after": "1989-09-02/1989-09-06",
            "source": "landsat",
            "seconds": 1.8,
            "label_before": "1985",
            "label_after": "1989",
-           "until": "This is our own"
+           "until": "anchored in steel"
           },
           "date": "2026-10-09/2026-10-09"
+         },
+         {
+          "at": "anchored in steel"
          },
          {
           "at": "This is our own",
@@ -1061,11 +1351,45 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": "The wall is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.25,
+           "lat": 34.44,
+           "span": 0.1
+          },
+          "date": "1989-09-02/1989-09-06"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Inside it there",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.238,
+           "lat": 34.432,
+           "span": 0.11
+          },
+          "date": "1989-09-02/1989-09-06"
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
     {
-     "text": "Then came the fill. Soil dredged from the bay, rock quarried from mountains nearby, more barged in from China and Korea, until the new ground was thirty meters deep. A bridge nearly four kilometers long tied the island to the shore. On September fourth, 1994, the airport opened.",
+     "text": "Then came the fill. A hundred and eighty million cubic meters of rock and soil, quarried at four sites ten to thirty kilometers away and carried out by barge. A year later, in our image from August 1990, the rectangle is half full and a bridge is reaching out from the shore. The plan was a layer thirty meters deep. As the forecasts of sinking grew, so did the layer, to almost thirty-seven. At times the heap stood sixty-five feet above the sea, waiting to settle.",
      "shots": [
       {
        "type": "map",
@@ -1074,23 +1398,70 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.238,
+           "lat": 34.432,
+           "span": 0.12
+          },
+          "date": "1989-09-02/1989-09-06"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 7,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.27,
+           "lat": 34.38,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
+       "at": "quarried at four",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.255,
+           "lat": 34.422,
+           "span": 0.27
           },
           "compare": {
-           "before": "1989-05-28/1989-06-03",
-           "after": "1995-08-01/1995-08-07",
+           "before": "1989-09-02/1989-09-06",
+           "after": "1990-08-04/1990-08-08",
            "source": "landsat",
            "seconds": 1.8,
            "label_before": "1989",
-           "label_after": "1995",
-           "until": "Soil dredged"
+           "label_after": "1990",
+           "until": "A year later"
           },
           "date": "2026-10-09/2026-10-09"
          },
          {
-          "at": "Soil dredged"
+          "at": "A year later"
+         },
+         {
+          "at": "a bridge is",
+          "places": [
+           {
+            "name": "Bridge, 1990",
+            "lon": 135.283,
+            "lat": 34.418,
+            "kind": "site",
+            "label": "Bridge, 1990"
+           }
+          ]
          }
         ],
         "cut": true
@@ -1098,16 +1469,143 @@
       },
       {
        "type": "stat",
-       "at": "thirty meters deep",
+       "at": "The plan was",
        "stat": {
-        "value": "30 m",
-        "label": "Depth of the reclaimed ground on the first island",
-        "source": "Kansai Airports, Technologies for Offshore Airports"
+        "value": "30 -> 36.7 m",
+        "label": "Height of the fill above the sea floor, first island: planned and final",
+        "source": "Mesri & Funk, J. Geotech. Geoenviron. Eng., ASCE, 2015"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 61,
+       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
+       "on_screen_text": "Terminal 1, 2025"
+      },
+      {
+       "type": "photo",
+       "at": 67,
+       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
+       "on_screen_text": "Terminal 1 departures, 2025"
+      },
+      {
+       "type": "map",
+       "at": "At times the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.24,
+           "lat": 34.432,
+           "span": 0.09
+          },
+          "date": "1990-08-04/1990-08-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 79,
+       "photo": "File:Kansai International Airport13n.jpg",
+       "on_screen_text": "Terminal 1, 2010"
+      }
+     ]
+    },
+    {
+     "text": "While the fill was still under water it was partly afloat, and the deep seabed hardly moved. The sinking began in earnest when the island rose above the surface and its full weight came down. The fill itself was packing down too, under its own load. The bridge, nearly four kilometers long, was finished. On September fourth, 1994, the airport opened.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.225,
+           "lat": 34.44,
+           "span": 0.13
+          },
+          "date": "1990-08-04/1990-08-08"
+         }
+        ],
+        "cut": true
        }
       },
       {
        "type": "map",
-       "at": "A bridge nearly",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.38,
+           "lat": 34.56,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "The sinking began",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.222,
+           "lat": 34.44,
+           "span": 0.19
+          },
+          "compare": {
+           "before": "1990-08-04/1990-08-08",
+           "after": "1995-08-02/1995-08-06",
+           "source": "landsat",
+           "seconds": 1.8,
+           "label_before": "1990",
+           "label_after": "1995",
+           "until": "when the island"
+          },
+          "date": "2026-10-09/2026-10-09"
+         },
+         {
+          "at": "when the island"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The fill itself",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.243,
+           "lat": 34.436,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 40,
+       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
+       "on_screen_text": "Terminal 1, 2014"
+      },
+      {
+       "type": "map",
+       "at": "The bridge, nearly",
        "map": {
         "steps": [
          {
@@ -1148,24 +1646,6 @@
       },
       {
        "type": "map",
-       "at": 35,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.32,
-           "lat": 34.43,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay shore"
-      },
-      {
-       "type": "map",
        "at": "On September fourth",
        "map": {
         "steps": [
@@ -1193,7 +1673,7 @@
      ]
     },
     {
-     "text": "But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. That stack is up to four hundred meters thick. Nobody can drain it. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
+     "text": "But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. When this was sea, clay settled on the bottom. When it was dry land or a lake shore, sand did. All the while the crust under the bay was slowly going down, so nothing washed away. The borings went down four hundred meters and found twenty-two layers of clay with sand between them, and its upper part is the softer part: under enough pressure it gives. Nobody can drain it, and squeezing the water out of clay like that takes anything from decades to hundreds of years. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
      "shots": [
       {
        "type": "map",
@@ -1202,7 +1682,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.256,
+           "lon": 135.238,
            "lat": 34.434,
            "span": 0.1
           },
@@ -1219,9 +1699,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.262,
-           "lat": 34.447,
-           "span": 0.07
+           "lon": 135.235,
+           "lat": 34.412,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1253,50 +1733,104 @@
       },
       {
        "type": "map",
-       "at": 23,
+       "at": 24,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.42,
+           "lat": 34.62,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 33,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.15,
+           "lat": 34.6,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 43,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.05,
+           "lat": 34.56,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 52,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.22,
+           "lat": 34.36,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 62,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.36,
+           "lat": 34.47,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
+       "at": 71,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.3,
-           "lat": 34.48,
-           "span": 0.3
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 31,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.2,
-           "lat": 34.5,
-           "span": 0.3
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 39,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.33,
-           "lat": 34.42,
-           "span": 0.3
+           "lat": 34.6,
+           "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1307,12 +1841,101 @@
       },
       {
        "type": "stat",
-       "at": "up to four hundred",
+       "at": "The borings went",
        "stat": {
         "value": "400 m",
-        "label": "Thickness of the older clay and sand layers under the islands",
-        "source": "Kansai Airports, Technologies for Offshore Airports"
+        "label": "22 clay layers (290 m in all) and 19 sand layers under the second island",
+        "source": "Mesri & Funk, J. Geotech. Geoenviron. Eng., ASCE, 2015"
        }
+      },
+      {
+       "type": "map",
+       "at": 90,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 98,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 106,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.2,
+           "lat": 34.5,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 115,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 123,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "document",
@@ -1321,6 +1944,23 @@
         "text": "\"...the airport facilities are managed with the assumption that long-term subsidence will continue.\"",
         "source": "Kansai Airports, Technologies for Offshore Airports (3)",
         "highlight": "long-term subsidence will continue"
+       }
+      },
+      {
+       "type": "map",
+       "at": "that long-term subsidence",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.444,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
        }
       }
      ]
@@ -1332,7 +1972,7 @@
    "mood": "tension",
    "paragraphs": [
     {
-     "text": "The planners knew the island would sink, and they piled on enough soil to allow for it. The plan was that after fifty years the ground would still stand thirteen feet above the sea. By 1990, before a single building stood on it, the island had sunk twenty-seven feet instead of the nineteen predicted.",
+     "text": "The planners knew the island would sink, and they piled on enough soil to allow for it. The plan was that after fifty years the ground would still stand thirteen feet above the sea. That was not a comfort margin. It is the least height the island needs to stay dry if a wave breaks through the wall. By 1990, before a single building stood on it, the island had sunk twenty-seven feet instead of the nineteen predicted. An ordinary landfill on a coast is too light to bother clay that old. This one, built in deep water, was heavy enough to make it give.",
      "shots": [
       {
        "type": "map",
@@ -1341,7 +1981,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.238,
+           "lon": 135.256,
            "lat": 34.434,
            "span": 0.1
           },
@@ -1361,22 +2001,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 8,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.215,
-           "lat": 34.409,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
+       "on_screen_text": "Terminal 1 from the observation hall, 2015"
       },
       {
        "type": "map",
@@ -1385,16 +2013,15 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.444,
-           "span": 0.07
+           "lon": 135.18,
+           "lat": 34.42,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -1403,16 +2030,45 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.458,
-           "span": 0.07
+           "lon": 135.38,
+           "lat": 34.56,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "That was not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.205,
+           "lat": 34.418,
+           "span": 0.06
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": 42,
+       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
+       "on_screen_text": "Terminal 1, 2025"
+      },
+      {
+       "type": "photo",
+       "at": 50,
+       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
+       "on_screen_text": "Terminal 1 departures, 2025"
       },
       {
        "type": "chart",
@@ -1437,11 +2093,94 @@
          "twenty-seven feet"
         ]
        }
+      },
+      {
+       "type": "map",
+       "at": "An ordinary landfill",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Rinku Town",
+            "lon": 135.2985,
+            "lat": 34.4105,
+            "kind": "city",
+            "label": "Rinku Town"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 85,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.42,
+           "lat": 34.62,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "This one, built",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.451,
+           "lat": 34.53,
+           "span": 0.95
+          },
+          "highlight": [
+           "file:kix.geojson"
+          ],
+          "dim": true,
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 98,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.15,
+           "lat": 34.6,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       }
      ]
     },
     {
-     "text": "A spokeswoman for the operator, Yukako Handa, told Air and Space magazine that the engineers simply could not believe the gap between their laboratory estimates and what the seabed really did. By opening day the ground had already gone down almost ten meters. Parts of the island reached the fifty-year limit within six years, and at least a hundred and fifty million dollars went into raising the seawall.",
+     "text": "The amount of soil was set by a fifty-year estimate of the sinking, a spokeswoman for the operator, Yukako Handa, told Air and Space magazine in 2018. The engineers, she said, simply could not believe the gap between their laboratory estimates and what the seabed really did. By opening day the ground had already gone down almost ten meters. Parts of the island reached the fifty-year limit within six years, and at least a hundred and fifty million dollars went into raising the seawall.",
      "shots": [
       {
        "type": "map",
@@ -1461,58 +2200,97 @@
        }
       },
       {
+       "type": "document",
+       "at": "soil was set",
+       "document": {
+        "text": "\"...the amount of soil to reclaim the land was determined based on necessary ground level and subsidence estimation over 50 years after the construction.\"",
+        "source": "Yukako Handa, Kansai Airports, to Air & Space / Smithsonian, June 2018",
+        "highlight": "subsidence estimation over 50 years"
+       }
+      },
+      {
        "type": "map",
-       "at": 10,
+       "at": "a spokeswoman for",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.2,
-           "lat": 34.428,
+           "lon": 135.24,
+           "lat": 34.418,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 20,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.255,
-           "lat": 34.425,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai International Airport13n.jpg",
+       "on_screen_text": "Terminal 1, 2010"
       },
       {
        "type": "map",
-       "at": 30,
+       "at": "The engineers, she",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.228,
-           "lat": 34.42,
-           "span": 0.07
+           "lon": 135.25,
+           "lat": 34.443,
+           "span": 0.06
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 37,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.05,
+           "lat": 34.56,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "By opening day",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.22,
+           "lat": 34.434,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Kansai Airport",
+            "lon": 135.244,
+            "lat": 34.435,
+            "kind": "site",
+            "label": "Kansai Airport"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "stat",
@@ -1524,21 +2302,10 @@
        }
       },
       {
-       "type": "map",
-       "at": 49,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.25,
-           "lat": 34.443,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ]
-       },
-       "on_screen_text": "Kansai International Airport"
+       "type": "photo",
+       "at": 65,
+       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
+       "on_screen_text": "Terminal 1, 2014"
       },
       {
        "type": "stat",
@@ -1552,7 +2319,7 @@
      ]
     },
     {
-     "text": "An island does not sink evenly. So the terminal, a mile long, stands on nine hundred columns, each with its own gauge. When one drops, it is jacked up and steel plates are slid underneath. The middle of the building has a basement, which makes it lighter than the wings, so the builders packed iron ore under it as ballast. It still sank less than its neighbours, and had to be levelled.",
+     "text": "An island does not sink evenly. So the terminal, a mile long, stands on nine hundred columns, each with its own gauge. When one drops, it is jacked up and steel plates are slid underneath. The middle of the building has a basement, which makes it lighter than the wings, so the builders packed iron ore under it as ballast. It still sank less than its neighbours, and had to be levelled. The jacks are still worked every few years. The buildings sit on rafts of concrete, so that each one goes down as a whole, and soil was dug away around the heavy ones to keep the load on the ground even.",
      "shots": [
       {
        "type": "map",
@@ -1587,9 +2354,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.222,
-           "lat": 34.432,
-           "span": 0.07
+           "lon": 135.235,
+           "lat": 34.462,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1614,9 +2381,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.208,
-           "lat": 34.438,
-           "span": 0.07
+           "lon": 135.265,
+           "lat": 34.437,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1631,9 +2398,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.24,
-           "lat": 34.418,
-           "span": 0.07
+           "lon": 135.215,
+           "lat": 34.402,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1666,9 +2433,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.268,
-           "lat": 34.436,
-           "span": 0.07
+           "lon": 135.245,
+           "lat": 34.467,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1684,9 +2451,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.232,
-           "lat": 34.447,
-           "span": 0.07
+           "lon": 135.215,
+           "lat": 34.442,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1702,9 +2469,98 @@
         "steps": [
          {
           "view": {
+           "lon": 135.255,
+           "lat": 34.432,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 71,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.457,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": "The buildings sit",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.25,
+           "lat": 34.443,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 88,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.417,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 96,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.225,
+           "lat": 34.457,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 104,
+       "map": {
+        "steps": [
+         {
+          "view": {
            "lon": 135.205,
-           "lat": 34.418,
-           "span": 0.07
+           "lat": 34.427,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1716,7 +2572,7 @@
      ]
     },
     {
-     "text": "The sinking reached things nobody had drawn. Rain was meant to run off the runway and out to sea through pipes, downhill. As the ground settled, the slope disappeared. The airport installed thirty-seven large pumps to push its own rainwater out, and in 2007 it covered the whole first runway with new asphalt, twenty-five centimeters thick on average, to give the water a slope again.",
+     "text": "The sinking reached things nobody had drawn. Rain was meant to run off the runway and out to sea through pipes, downhill. As the ground settled, the slope disappeared. The airport installed thirty-seven large pumps to push its own rainwater out, and in 2007 it covered the whole first runway with new asphalt, twenty-five centimeters thick on average, to give the water a slope again. The runways are asphalt for the same reason: asphalt bends where concrete would crack.",
      "shots": [
       {
        "type": "map",
@@ -1742,9 +2598,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.26,
-           "lat": 34.52,
-           "span": 0.3
+           "lon": 135.22,
+           "lat": 34.36,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1760,9 +2616,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.18,
-           "lat": 34.42,
-           "span": 0.3
+           "lon": 135.3,
+           "lat": 34.6,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1796,9 +2652,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.248,
-           "lat": 34.455,
-           "span": 0.07
+           "lon": 135.255,
+           "lat": 34.452,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1813,9 +2669,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.244,
-           "lat": 34.435,
-           "span": 0.09
+           "lon": 135.225,
+           "lat": 34.447,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1832,11 +2688,46 @@
         "label": "Asphalt laid on Runway A in 2007-2008, 25 cm thick on average",
         "source": "Kansai Airports"
        }
+      },
+      {
+       "type": "map",
+       "at": 62,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.432,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 70,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.225,
+           "lat": 34.417,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       }
      ]
     },
     {
-     "text": "And yet the island held. In January 1995, four months after opening, the Kobe earthquake struck about twenty kilometers away and killed more than six thousand people. The airport was not damaged.",
+     "text": "And yet the island held. In January 1995, four months after opening, the Kobe earthquake struck less than thirty kilometers away and killed more than six thousand people. By the accounts we found, the airport came through undamaged. In 2001 the American Society of Civil Engineers named it one of the civil engineering monuments of the millennium.",
      "shots": [
       {
        "type": "map",
@@ -1845,7 +2736,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.28,
+           "lon": 135.109,
            "lat": 34.53,
            "span": 0.95
           },
@@ -1863,7 +2754,8 @@
           ],
           "date": "2026-10-09/2026-10-09"
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -1873,9 +2765,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.262,
-           "lat": 34.447,
-           "span": 0.09
+           "lon": 135.235,
+           "lat": 34.452,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1891,9 +2783,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.409,
-           "span": 0.09
+           "lon": 135.235,
+           "lat": 34.442,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1904,7 +2796,7 @@
       },
       {
        "type": "map",
-       "at": "The airport was",
+       "at": "By the accounts",
        "map": {
         "steps": [
          {
@@ -1927,6 +2819,41 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": "In 2001 the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.2503,
+           "lat": 34.435,
+           "span": 0.035
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 47,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.195,
+           "lat": 34.432,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       }
      ]
     }
@@ -1937,7 +2864,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "One runway was not enough. In 1999 work began on a second island, in deeper water. This time the builders drove one point two million sand drains. This is our image from 2004, with the new island still being filled. Its runway, four kilometers long, opened in August 2007.",
+     "text": "One runway was not enough. In 1999 work began on a second island, in deeper water. This time the builders drove one point two million sand drains. This is our image from 2004, with the new island still being filled. Its runway, four kilometers long, opened in August 2007. Together the two islands are a little over ten square kilometers of land that did not exist.",
      "shots": [
       {
        "type": "map",
@@ -1946,8 +2873,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.451,
-           "lat": 34.53,
+           "lon": 135.28,
+           "lat": 34.6102,
            "span": 0.95
           },
           "highlight": [
@@ -1975,9 +2902,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.444,
-           "span": 0.09
+           "lon": 135.275,
+           "lat": 34.442,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1994,8 +2921,8 @@
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.458,
-           "span": 0.09
+           "lat": 34.412,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2020,13 +2947,13 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.222,
+           "lat": 34.44,
+           "span": 0.19
           },
           "compare": {
-           "before": "1995-08-01/1995-08-07",
-           "after": "2004-08-09/2004-08-15",
+           "before": "1995-08-02/1995-08-06",
+           "after": "2004-08-10/2004-08-14",
            "source": "landsat",
            "seconds": 1.8,
            "label_before": "1995",
@@ -2050,11 +2977,49 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": "Together the two",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.28,
+           "lat": 34.4498,
+           "span": 0.95
+          },
+          "highlight": [
+           "file:kix.geojson"
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 57,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.462,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       }
      ]
     },
     {
-     "text": "By the time that runway opened, the seabed under it had already gone down almost twelve meters. It has gone down six more since. In 2025 the second island sank twenty centimeters, four times as fast as the first.",
+     "text": "The builders had learned. They laid the new ground in layers sixty centimeters thick and rolled each one. They built a test track and drove a vehicle as heavy as a jumbo jet around it fifteen thousand times. The ground held so well that the runway pavement could be half as thick as on the first island.",
      "shots": [
       {
        "type": "map",
@@ -2063,13 +3028,141 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.218,
+           "lat": 34.445,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Second island",
+            "lon": 135.215,
+            "lat": 34.444,
+            "kind": "site",
+            "label": "Second island"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.205,
+           "lat": 34.437,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "stat",
+       "at": "They built a test",
+       "stat": {
+        "value": "15,000",
+        "label": "Test runs with a vehicle as heavy as a jumbo jet on the second island",
+        "source": "Kansai Airports, Technologies for Offshore Airports"
+       }
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.265,
+           "lat": 34.437,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 32,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.402,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": "The ground held",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.208,
+           "lat": 34.438,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 47,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.467,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      }
+     ]
+    },
+    {
+     "text": "By the time that runway opened, the seabed under it had already gone down almost twelve meters. It has gone down six more since. In 2025 the second island sank twenty centimeters, four times as fast as the first, whose rate fell under ten centimeters a year long ago.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.21,
+           "lat": 34.447,
+           "span": 0.16
           },
           "compare": {
-           "before": "2004-08-09/2004-08-15",
-           "after": "2026-05-02/2026-05-08",
+           "before": "2004-08-10/2004-08-14",
+           "after": "2026-08-23/2026-08-27",
            "source": "landsat",
            "seconds": 1.8,
            "label_before": "2004",
@@ -2113,11 +3206,37 @@
          "twenty centimeters"
         ]
        }
+      },
+      {
+       "type": "map",
+       "at": "whose rate fell",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.22,
+           "lat": 34.434,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Kansai Airport",
+            "lon": 135.244,
+            "lat": 34.435,
+            "kind": "site",
+            "label": "Kansai Airport"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
     {
-     "text": "An engineering professor at the University of Illinois, Gholamreza Mesri, has studied both islands for years. In a 2015 paper with a colleague he forecast that by the year 2100 the seabed under the first island will have settled about fifteen point seven meters, and under the second, almost twenty-five. The operator makes no such promise. It says only that it will keep measuring, with the guidance of experts.",
+     "text": "An engineering professor at the University of Illinois, Gholamreza Mesri, has studied both islands for years. In a 2015 paper with his colleague Funk he forecast that by the end of this century the seabed under the first island will have settled about seventeen and a half meters, and under the second more than twenty-four. Left to itself, they wrote, the surface of the first island would be at sea level by 2067 or sooner. The operator makes no such promise. It says only that it will keep measuring, with the guidance of experts. In 2018 Mesri told Air and Space that the second island could come down to its warning height, thirteen feet above the sea, as early as 2023. Which is why the walls keep going up.",
      "shots": [
       {
        "type": "map",
@@ -2126,9 +3245,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.218,
-           "lat": 34.445,
-           "span": 0.06
+           "lon": 135.232,
+           "lat": 34.447,
+           "span": 0.07
           },
           "places": [
            {
@@ -2147,116 +3266,88 @@
       },
       {
        "type": "map",
-       "at": 9,
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.442,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 16,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 25,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 33,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.2,
-           "lat": 34.428,
-           "span": 0.09
+           "lat": 34.5,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
-      },
-      {
-       "type": "map",
-       "at": 19,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.255,
-           "lat": 34.425,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
-      },
-      {
-       "type": "map",
-       "at": 29,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.228,
-           "lat": 34.42,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "stat",
-       "at": "about fifteen point",
+       "at": "about seventeen and",
        "stat": {
-        "value": "15.7 m / 24.9 m",
-        "label": "Forecast settlement of the seabed by 2100, first and second island",
-        "source": "Funk & Mesri, J. Geotech. Geoenviron. Eng., ASCE, 2015"
+        "value": "17.6 m / 24.4 m",
+        "label": "Forecast settlement by the end of the century, first and second island",
+        "source": "Mesri & Funk, J. Geotech. Geoenviron. Eng., ASCE, 2015"
        }
       },
       {
        "type": "map",
-       "at": "The operator makes",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.22,
-           "lat": 34.434,
-           "span": 0.1
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       }
-      },
-      {
-       "type": "map",
-       "at": 59,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.25,
-           "lat": 34.443,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "title": "The Sea Comes Over the Wall",
-   "mood": "tension",
-   "paragraphs": [
-    {
-     "text": "A sinking island in a typhoon sea needs its walls to keep up. In 2004 a run of typhoons brought the highest tides and waves the airport had recorded. Waves came over the seawall and destroyed a road behind it. The company raised the walls by one to two meters along eleven kilometers.",
-     "shots": [
-      {
-       "type": "map",
-       "at": 0,
+       "at": "Left to itself",
        "map": {
         "steps": [
          {
@@ -2276,14 +3367,188 @@
       },
       {
        "type": "map",
-       "at": 6,
+       "at": 65,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.24,
-           "lat": 34.44,
-           "span": 0.45
+           "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "The operator makes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.238,
+           "lat": 34.4424,
+           "span": 0.1
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 84,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 93,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.18,
+           "lat": 34.42,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 102,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.255,
+           "lat": 34.432,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 111,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.225,
+           "lat": 34.407,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 120,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.457,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sea Comes Over the Wall",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "A sinking island in a typhoon sea needs its walls to keep up. It stands in twenty meters of open water, where its engineers feared high tides more than tsunamis. In 2004 a run of typhoons brought the highest tides and waves the airport had recorded. Waves came over the seawall and destroyed a road behind it. So the company raised the walls, by one to two meters, along eleven kilometers of shore.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.28,
+           "lat": 34.6102,
+           "span": 0.95
+          },
+          "highlight": [
+           "file:kix.geojson"
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.38,
+           "lat": 34.56,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.42,
+           "lat": 34.62,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2311,14 +3576,14 @@
       },
       {
        "type": "map",
-       "at": 21,
+       "at": 38,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.48,
-           "span": 0.45
+           "lon": 135.15,
+           "lat": 34.6,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2337,8 +3602,25 @@
        }
       },
       {
+       "type": "map",
+       "at": "So the company",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.205,
+           "lat": 34.418,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "stat",
-       "at": "one to two meters",
+       "at": "by one to two",
        "stat": {
         "value": "+1-2 m",
         "label": "Seawalls raised along about 11 km after the 2004 typhoons",
@@ -2348,7 +3630,7 @@
      ]
     },
     {
-     "text": "The sea was also coming from below. The island is made of crushed rock, and the water inside it rose and fell with the tide, into basements. So between 2004 and 2006 the company built a wall underground, about thirty meters deep, all the way around the island.",
+     "text": "The sea was also coming from below. The island is made of crushed rock, and the water inside it rose and fell with the tide, into basements. So between 2004 and 2006 the company built a wall underground, about thirty meters deep, all the way around the island. It lowered the water in the ground by a meter and a half. All of it was done beside a working runway, with machines kept under fifteen meters tall so that no aircraft could strike one. The pumps were sized for a cloudburst of fifty-five millimeters in an hour.",
      "shots": [
       {
        "type": "map",
@@ -2357,7 +3639,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.256,
+           "lon": 135.22,
            "lat": 34.434,
            "span": 0.1
           },
@@ -2374,9 +3656,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.2,
-           "lat": 34.5,
-           "span": 0.45
+           "lon": 135.05,
+           "lat": 34.56,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2387,14 +3669,14 @@
       },
       {
        "type": "map",
-       "at": 19,
+       "at": 18,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.33,
-           "lat": 34.42,
-           "span": 0.45
+           "lon": 135.22,
+           "lat": 34.36,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2402,33 +3684,32 @@
         "cut": true
        },
        "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 28,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.222,
-           "lat": 34.432,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
       },
       {
        "type": "stat",
-       "at": "about thirty meters",
+       "at": "So between 2004",
        "stat": {
         "value": "11 km",
         "label": "Underground cut-off wall around the island, about 30 m deep, 2004-2006",
         "source": "Suzuki & Okuda, Kansai International Airport Co., JSCE, 2008"
        }
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.417,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Kansai International Airport"
       },
       {
        "type": "map",
@@ -2446,11 +3727,117 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 51,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.6,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "All of it was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.458,
+           "span": 0.06
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 68,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.205,
+           "lat": 34.417,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 76,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.265,
+           "lat": 34.447,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": "The pumps were",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.222,
+           "lat": 34.432,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 90,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.225,
+           "lat": 34.457,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       }
      ]
     },
     {
-     "text": "Then came September fourth, 2018, twenty-four years to the day after the airport opened. Typhoon Jebi pushed the sea over the walls and across a runway. A tanker of about two thousand six hundred tons, the Houn Maru, dragged its anchor and hit the only bridge. By most reports about three thousand passengers were stuck on the island overnight, and left the next morning by boat.",
+     "text": "Then came September fourth, 2018, twenty-four years to the day after the airport opened. Typhoon Jebi, reported as the strongest to hit Japan in twenty-five years, pushed the sea over the walls and across a runway. A tanker of about two thousand six hundred tons, the Houn Maru, dragged its anchor and hit the only bridge. By most reports about three thousand passengers were stuck on the island overnight, and left the next morning by boat. Flights began again within days. The bridge was not whole until the following spring.",
      "shots": [
       {
        "type": "map",
@@ -2459,9 +3846,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.24,
+           "lat": 34.45,
+           "span": 0.34
           },
           "places": [
            {
@@ -2485,9 +3872,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.208,
-           "lat": 34.438,
-           "span": 0.09
+           "lon": 135.205,
+           "lat": 34.427,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2495,6 +3882,24 @@
         "cut": true
        },
        "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 17,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.25
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -2556,14 +3961,14 @@
       },
       {
        "type": "map",
-       "at": 33,
+       "at": 42,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.285,
-           "lat": 34.395,
-           "span": 0.05
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2574,14 +3979,40 @@
       },
       {
        "type": "map",
-       "at": 41,
+       "at": "dragged its anchor",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.34,
-           "lat": 34.45,
-           "span": 0.05
+           "lon": 135.28,
+           "lat": 34.42,
+           "span": 0.035
+          },
+          "places": [
+           {
+            "name": "Where the tanker hit",
+            "lon": 135.281,
+            "lat": 34.4185,
+            "kind": "site",
+            "label": "Where the tanker hit"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 53,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.32,
+           "lat": 34.43,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2639,11 +4070,47 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": 76,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.285,
+           "lat": 34.395,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
+       "at": 83,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.34,
+           "lat": 34.45,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
       }
      ]
     },
     {
-     "text": "The walls went up again. Within three years, with planes still landing, the operator raised the seawalls along more than six kilometers, laid wave-breaking blocks along nearly five, and went on raising the first runway.",
+     "text": "The walls went up again. Within three years, with planes still landing, the operator raised the seawalls along more than six kilometers, laid wave-breaking blocks along nearly five, and went on raising the first runway. Japan's society of civil engineers gave the work an award. The rule, in the operator's own brochure, is simple: as the island sinks, the walls are raised to the height the worst expected waves would need.",
      "shots": [
       {
        "type": "map",
@@ -2669,9 +4136,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.24,
-           "lat": 34.418,
-           "span": 0.09
+           "lon": 135.255,
+           "lat": 34.452,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2696,13 +4163,83 @@
         "steps": [
          {
           "view": {
-           "lon": 135.268,
-           "lat": 34.436,
-           "span": 0.09
+           "lon": 135.225,
+           "lat": 34.447,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
         ]
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.432,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": "The rule, in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.268,
+           "lat": 34.436,
+           "span": 0.06
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "as the island",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.2,
+           "lat": 34.428,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 62,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.432,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
        },
        "on_screen_text": "Kansai International Airport"
       }
@@ -2724,8 +4261,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.22,
-           "lat": 34.434,
+           "lon": 135.238,
+           "lat": 34.4424,
            "span": 0.1
           },
           "places": [
@@ -2750,9 +4287,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.232,
-           "lat": 34.447,
-           "span": 0.09
+           "lon": 135.225,
+           "lat": 34.417,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2788,7 +4325,7 @@
      ]
     },
     {
-     "text": "The airport carried that as debt, and for years it charged some of the highest landing fees in the world to pay the interest. In 2016 the state handed the running of the airport to a private group led by Orix of Japan and Vinci of France. Two years later that group was paying the transport ministry about three hundred and fifty million dollars a year for the right.",
+     "text": "The airport carried that as debt, and for years it charged some of the highest landing fees in the world to pay the interest: about seven and a half thousand dollars for one Boeing 747, by one count three times the price at New York's JFK. In 2016 the state handed the running of the airport to a private group led by Orix of Japan and Vinci of France. Two years later that group was paying the transport ministry about three hundred and fifty million dollars a year for the right. Itami never closed. It still takes domestic flights, and the same company now runs both.",
      "shots": [
       {
        "type": "map",
@@ -2809,13 +4346,49 @@
       },
       {
        "type": "map",
-       "at": 8,
+       "at": 9,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.418,
+           "lon": 135.235,
+           "lat": 34.452,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.442,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 27,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.195,
+           "lat": 34.432,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -2827,13 +4400,13 @@
       },
       {
        "type": "map",
-       "at": 16,
+       "at": 36,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.248,
-           "lat": 34.455,
+           "lon": 135.275,
+           "lat": 34.442,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -2874,14 +4447,14 @@
       },
       {
        "type": "map",
-       "at": 32,
+       "at": 54,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.244,
-           "lat": 34.435,
-           "span": 0.06
+           "lon": 135.235,
+           "lat": 34.412,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2892,14 +4465,14 @@
       },
       {
        "type": "map",
-       "at": 40,
+       "at": 62,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.262,
-           "lat": 34.447,
-           "span": 0.06
+           "lon": 135.235,
+           "lat": 34.462,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2910,21 +4483,21 @@
       },
       {
        "type": "map",
-       "at": 48,
+       "at": 70,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.409,
-           "span": 0.06
+           "lon": 135.5,
+           "lat": 34.69,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka"
       },
       {
        "type": "stat",
@@ -2934,6 +4507,50 @@
         "label": "Paid each year to Japan's transport ministry for operating rights (2018)",
         "source": "Air & Space / Smithsonian, June 2018"
        }
+      },
+      {
+       "type": "map",
+       "at": "Itami never closed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.438,
+           "lat": 34.785,
+           "span": 0.06
+          },
+          "places": [
+           {
+            "name": "Itami Airport",
+            "lon": 135.438,
+            "lat": 34.785,
+            "kind": "site",
+            "label": "Itami Airport"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 98,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.45,
+           "lat": 34.76,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka"
       }
      ]
     },
@@ -2947,8 +4564,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.2503,
-           "lat": 34.435,
+           "lon": 135.244,
+           "lat": 34.432,
            "span": 0.035
           },
           "places": [
@@ -3014,9 +4631,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.444,
-           "span": 0.06
+           "lon": 135.205,
+           "lat": 34.437,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3032,9 +4649,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.458,
-           "span": 0.06
+           "lon": 135.265,
+           "lat": 34.437,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3052,7 +4669,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "The operator gives no official lifetime for the islands. The first one now sinks a few centimeters a year, not half a meter. We knew from the start that the airport would subside, Professor Ishikawa said, and we considered the various impacts in the design.",
+     "text": "The operator gives no official lifetime for the islands. Its spokeswoman said so in 2018: no such figure has been calculated. The first one now sinks a few centimeters a year, not half a meter. We knew from the start that the airport would subside, Professor Ishikawa said, and we considered the various impacts in the design. The settling may go on for centuries, only slower.",
      "shots": [
       {
        "type": "map",
@@ -3082,14 +4699,14 @@
       },
       {
        "type": "map",
-       "at": 7,
+       "at": 8,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.2,
-           "lat": 34.428,
-           "span": 0.06
+           "lon": 135.215,
+           "lat": 34.402,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3100,14 +4717,32 @@
       },
       {
        "type": "map",
-       "at": 15,
+       "at": 17,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.228,
-           "lat": 34.42,
-           "span": 0.06
+           "lon": 135.245,
+           "lat": 34.467,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.255,
+           "lat": 34.432,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3124,11 +4759,45 @@
         "source": "Hiro Ishikawa, emeritus professor, Meiji University, to This Week in Asia, 2025",
         "highlight": "We knew from the start"
        }
+      },
+      {
+       "type": "map",
+       "at": "and we considered",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.2508,
+           "lat": 34.418,
+           "span": 0.06
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The settling may",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.25,
+           "lat": 34.443,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
     {
-     "text": "Japan kept building this way. Chubu, near Nagoya, in 2005. Kobe, the city that said no, in 2006. Kitakyushu the same year. All of them on islands made in the sea.",
+     "text": "Japan kept building this way. Chubu, near Nagoya, in 2005. Kobe, across the bay, in 2006. Kitakyushu the same year. All of them on islands made in the sea. And not only Japan. When Air and Space looked in 2018, new runways were going up on a drained marsh north of Istanbul, on a reef in the Maldives and on river mud in Brisbane. Ground like that settles. The only question is how fast, and who is still measuring.",
      "shots": [
       {
        "type": "map",
@@ -3165,7 +4834,8 @@
            }
           ]
          }
-        ]
+        ],
+        "cut": true
        }
       },
       {
@@ -3195,7 +4865,7 @@
       },
       {
        "type": "map",
-       "at": "Kobe, the city",
+       "at": "Kobe, across the",
        "map": {
         "steps": [
          {
@@ -3246,14 +4916,14 @@
       },
       {
        "type": "map",
-       "at": 24,
+       "at": 22,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.25,
-           "lat": 34.443,
-           "span": 0.06
+           "lon": 135.225,
+           "lat": 34.407,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3261,6 +4931,137 @@
         "cut": true
        },
        "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": "And not only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 80,
+           "lat": 15.0,
+           "span": 170.0
+          },
+          "places": [
+           {
+            "name": "Istanbul",
+            "lon": 28.75,
+            "lat": 41.26,
+            "kind": "city",
+            "label": "Istanbul"
+           },
+           {
+            "name": "Maldives",
+            "lon": 73.53,
+            "lat": 4.19,
+            "kind": "city",
+            "label": "Maldives"
+           },
+           {
+            "name": "Brisbane",
+            "lon": 153.12,
+            "lat": -27.38,
+            "kind": "city",
+            "label": "Brisbane"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 37,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.457,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.417,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 55,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.205,
+           "lat": 34.417,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": "Ground like that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.109,
+           "lat": 34.53,
+           "span": 0.95
+          },
+          "highlight": [
+           "file:kix.geojson"
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 71,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.25
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       }
      ]
     },
@@ -3274,9 +5075,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.43,
-           "span": 0.22
+           "lon": 135.255,
+           "lat": 34.422,
+           "span": 0.27
           },
           "places": [
            {
@@ -3300,8 +5101,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.109,
-           "lat": 34.53,
+           "lon": 135.28,
+           "lat": 34.6102,
            "span": 0.95
           },
           "highlight": [
@@ -3334,9 +5135,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.222,
-           "lat": 34.432,
-           "span": 0.06
+           "lon": 135.265,
+           "lat": 34.447,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }

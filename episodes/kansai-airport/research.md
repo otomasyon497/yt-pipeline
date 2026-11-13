@@ -116,3 +116,75 @@ Scale anchors: 13.66 m = a four-storey building; island area in football fields 
 - Wikipedia, Kansai International Airport (first 100,000 characters; follow its references before use) (A)
 - The B1M, "Kansai Airport is Sinking": https://www.theb1m.com/video/kansai-airport-is-sinking (A)
 - Reinsurance News on the Jebi loss: https://www.reinsurancene.ws/kansai-airport-recovers-over-75-of-typhoon-jebi-loss-from-insurance/ (A, search summary)
+
+## Read on 2026-11-13 in the user's browser (pages that refuse our fetcher) — these supersede the A items above
+
+- KAP3 = Kansai Airports, "Countermeasures for and Status of Subsidence - Technologies for Offshore Airports (3)"
+  https://www.kansai-airports.co.jp/en/sustainability/society/tech-subsidence-countermeasures/ (V): measurements of
+  December 2025. Island 1: 17 points; average settlement since construction began 13.72 m; before the opening 9.82 m;
+  5 cm a year as of 2025; "less than 10 cm per year" in recent years. Island 2: 54 points; 20 cm over the past year;
+  5.96 m since operations began in 2007; 11.71 m from reclamation to the start of operations; 17.67 m in all.
+  Sand piles: 1 million on island 1, 20 m long, 2.5 m apart; 1.2 million on island 2; more than the 900,000 installed
+  nationwide in the 35 years from 1952. The soft layer shrinks to two-thirds of its thickness; decades done within one
+  year. Deep (diluvial) layer up to 400 m thick, cannot be improved: "the airport facilities are managed with the
+  assumption that long-term subsidence will continue." While the fill was under water it was buoyant and the deep
+  layer hardly moved; sinking began when the reclamation emerged. Future: more analysis, "under the guidance of experts".
+- KAP1 = "Characteristics of the Strata (1)" .../tech-strata-characteristics/ (V): Holocene clay about 20 m; under it
+  alternating clay and sand hundreds of meters deep; under water for 10,000 years; over about 2 million years sea
+  level swung by more than 100 m with the ice ages, the bay was sea, lake and land in turn, clay settled under water
+  and sand when the ground emerged; the crust slowly lowered the seabed.
+- KAP2 = "Mechanism of Subsidence (2)" .../tech-subsidence-mechanism/ (V): alluvial clay about 70 % water by volume,
+  diluvial about 40 %; the sponge comparison is the operator's own; consolidation takes "several decades to hundreds
+  of years"; the fill itself compresses; ordinary coastal reclamation is too light to move the old clay, this island
+  was heavy enough.
+- KAP4 = "Countermeasures for Uneven Settlement such as Jacking-Up (4)" .../tech-jacking-up/ (V): 900 columns under
+  Terminal 1, automatic monitoring, jacked up with steel plates; iron ore ballast under the central building with its
+  basement, which still settled less than the wings; jacking "every few years"; raft foundations; compaction of the
+  "30-meter-deep reclaimed ground"; soil removal to balance loads.
+- KAP-new = "Various New Technologies" .../tech-new/ (V): island 2 compacted in layers of about 60 cm; test track,
+  "over 15,000 test runs" with a vehicle weighing the same as a jumbo jet; pavement half as thick as on island 1.
+- KAP-sdg = "Safety and Security" .../sustainability/sdgs/safety-and-security/ (V): Runway A renovated 2007-2008;
+  uneven settlement had reduced the slope that drains rainwater; new pavement 25 cm thick on average, 160,000 tons of
+  asphalt; the runway is being raised along with the seawalls. Brochure (search snippet, A): walls raised to the
+  height the expected high waves need, according to how far the island has sunk.
+- AS = Roger Mola, "The Airport Is Sinking", Air & Space / Smithsonian, June 2018
+  https://www.smithsonianmag.com/air-space-magazine/how-to-save-a-sinking-airport-180968985/ (V, whole article):
+  planned to stay 13 ft above sea level for 50 years, "the minimum elevation required to prevent flooding in case a
+  breach develops in an encircling seawall"; parts of island 1 reached it within six years; "At least $150 million
+  was spent to raise the seawall"; Yukako Handa, communications director, Kansai Airports (quote on the amount of
+  soil; engineers "simply couldn't believe" the gap, paraphrased by the writer; no official estimated life; an A380
+  weighs less than 0.0003 percent of the soil); 2.2 million drains about 16 inches wide, pipes pounded in, filled
+  with sand, withdrawn; seawall of "48,000 concrete blocks and rubble ... anchored in steel chambers weighing hundreds
+  of tons"; layers up to 65 ft above sea level; work began 1987; "By 1990 ... the first island had sunk 27 feet
+  instead of the predicted 19"; iron plates under the jacks; asphalt runways; $8 billion at opening, $20 billion by
+  2008; first jet at Itami in 1964, protests and lawsuits, compensation awarded by the supreme court; site three miles
+  offshore, arrival and departure over unpopulated areas; the consortium "pays Japan's transport ministry $350
+  million annually for operating rights"; 26 million passengers in 2016; ASCE monument of the millennium, 2001;
+  G. Mesri: island 2 could reach 13 ft above sea level "as early as 2023"; airports on reclaimed ground at Istanbul
+  (marsh), the Maldives, Brisbane (river estuary); settling "perhaps for centuries, but at a far slower rate".
+  NOTE: the article says soil was also barged from China and Korea; Mesri & Funk name four quarries 10-30 km away.
+  The script follows the paper.
+- MF = G. Mesri and J. R. Funk, "Settlement of the Kansai International Airport Islands", J. Geotech. Geoenviron.
+  Eng. 141(2), ASCE, Feb 2015 (online 30 Oct 2014), open access https://doi.org/10.1061/(ASCE)GT.1943-5606.0001224
+  (V, read to the conclusions): water 18-20 m; island 1 511 ha, from 1987, runway 1994; island 2 545 ha, from 1999,
+  runway 2007; Holocene clay 17.3-24.1 m; April 1968 the ministry began surveying two onshore and six offshore sites;
+  1974 decision for 5 km off Senshu "to avoid noise pollution and land-acquisition disputes that were experienced at
+  the Itami and Narita airports"; 180 million m3 of fill for island 1, 250 million for island 2, from Misaki, Kada,
+  Tsuna and Sumoto, 10-30 km away; 1.5 m sand blanket; drains 40 cm, 2.5 m square pattern, about 1 million and 1.2
+  million; fill height above the sea floor planned 30 m, raised to 33 m, final 36.7 m (island 2: more than 40 m);
+  63 borings to 100-200 m and six to 400 m; 22 clay layers (290 m) and 19 sand layers (110 m) in the upper 400 m at
+  MP1-II; forecast by the end of the 21st century: island 1 17.6 m, island 2 24.4 m (MP1-II) and 22.9 m (MP2-II);
+  island 1 passed the 4 m design elevation in 2001 and "will be at sea level by 2067 or possibly much sooner";
+  island 2 at 4 m by 2023-2036, at sea level by 2058-2100.
+  CORRECTION: the "15.7 m / 24.9 m by 2100" figures from a search summary earlier in this file are wrong.
+- Concession: Freshfields case study and VINCI Concessions page (search summaries, A): 44-year concession signed
+  15 Dec 2015, operations transferred 1 Apr 2016; 40 % VINCI Airports, 40 % ORIX, 20 % others.
+- Other dates (search summaries, A): Chubu Centrair opened 17 Feb 2005; Kobe Airport 16 Feb 2006; Kitakyushu
+  16 Mar 2006; Great Hanshin earthquake 17 Jan 1995, about 6,434 dead, epicentre at the northern end of Awaji Island
+  (our map: about 27 km from the airport); Jebi "the strongest typhoon to hit Japan in 25 years" (AFP, Sep 2018);
+  tanker Houn Maru, 2,591 tons, into the bridge; about 3,000 passengers stranded overnight (most outlets; some 5,000);
+  2025: 34.10 million passengers, 27.53 million international (statistics site and Wikipedia citing the operator's
+  traffic reports; the operator's annual release itself not read).
+- NOT in the script because no source we read supports it: that Kobe refused the airport first.
+- Landsat days for the wipes (one season): 1985-08-24, 1989-09-04, 1990-08-06, 1995-08-04, 2004-08-12, 2026-08-25.
+  Sentinel-2 day for the bay: 2026-10-09 (S2B alone).

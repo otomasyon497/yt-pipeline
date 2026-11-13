@@ -917,7 +917,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "The water at the site is about twenty meters deep. Under it lies about twenty meters of soft clay, and that clay is seventy percent water. Put weight on it and the water is squeezed out, the way it leaves a sponge. Engineers call it consolidation. This spot has been under water for ten thousand years. The operator expected the layer to shrink to two thirds of its thickness.",
+     "text": "The water at the site is about twenty meters deep. Under it lies about twenty meters of soft clay, and that clay is seventy percent water. Put weight on it and the water is squeezed out, the way it leaves a sponge. Engineers call it consolidation. Surveyors began drilling into it in 1977: sixty-three borings one to two hundred meters deep, and later six that went down four hundred. This spot has been under water for ten thousand years. The operator expected the layer to shrink to two thirds of its thickness.",
      "shots": [
       {
        "type": "map",
@@ -1000,7 +1000,7 @@
       },
       {
        "type": "map",
-       "at": 40,
+       "at": 41,
        "map": {
         "steps": [
          {
@@ -1018,13 +1018,49 @@
       },
       {
        "type": "map",
-       "at": 48,
+       "at": 50,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.15,
            "lat": 34.6,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 60,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.05,
+           "lat": 34.56,
+           "span": 0.3
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 69,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.22,
+           "lat": 34.36,
            "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
@@ -1057,13 +1093,13 @@
       },
       {
        "type": "map",
-       "at": 62,
+       "at": 85,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.05,
-           "lat": 34.56,
+           "lon": 135.3,
+           "lat": 34.6,
            "span": 0.3
           },
           "date": "2026-10-09/2026-10-09"
@@ -1102,9 +1138,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.22,
-           "lat": 34.36,
-           "span": 0.3
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1130,8 +1166,8 @@
          {
           "view": {
            "lon": 135.3,
-           "lat": 34.6,
-           "span": 0.3
+           "lat": 34.48,
+           "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1142,42 +1178,6 @@
       {
        "type": "map",
        "at": 36,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.24,
-           "lat": 34.44,
-           "span": 0.45
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 46,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.3,
-           "lat": 34.48,
-           "span": 0.45
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 56,
        "map": {
         "steps": [
          {
@@ -1195,12 +1195,48 @@
       },
       {
        "type": "map",
-       "at": 66,
+       "at": 46,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 56,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.45
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 66,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.18,
            "lat": 34.42,
            "span": 0.45
           },
@@ -1237,8 +1273,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.26,
-           "lat": 34.52,
+           "lon": 135.38,
+           "lat": 34.56,
            "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
@@ -1272,8 +1308,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.18,
-           "lat": 34.42,
+           "lon": 135.42,
+           "lat": 34.62,
            "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
@@ -1540,8 +1576,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.38,
-           "lat": 34.56,
+           "lon": 135.15,
+           "lat": 34.6,
            "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
@@ -1673,7 +1709,7 @@
      ]
     },
     {
-     "text": "But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. When this was sea, clay settled on the bottom. When it was dry land or a lake shore, sand did. All the while the crust under the bay was slowly going down, so nothing washed away. The borings went down four hundred meters and found twenty-two layers of clay with sand between them, and its upper part is the softer part: under enough pressure it gives. Nobody can drain it, and squeezing the water out of clay like that takes anything from decades to hundreds of years. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
+     "text": "But the sand drains reached only the soft top layer. Under it lies something older. For two million years the sea here rose and fell by more than a hundred meters as ice ages came and went, laying down clay, then sand, then clay again. When this was sea, clay settled on the bottom. When it was dry land or a lake shore, sand did. All the while the crust under the bay was slowly going down, so nothing washed away. The borings went down four hundred meters and found twenty-two layers of clay with sand between them, and its upper part is the softer part: under enough pressure it gives. Solid rock lies more than a kilometer down. Nobody can drain a stack like that, and squeezing the water out of clay like that takes anything from decades to hundreds of years. The operator's own page says the airport is managed on the assumption that long-term subsidence will continue.",
      "shots": [
       {
        "type": "map",
@@ -1738,8 +1774,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.42,
-           "lat": 34.62,
+           "lon": 135.05,
+           "lat": 34.56,
            "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
@@ -1756,8 +1792,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.15,
-           "lat": 34.6,
+           "lon": 135.22,
+           "lat": 34.36,
            "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
@@ -1774,8 +1810,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.05,
-           "lat": 34.56,
+           "lon": 135.3,
+           "lat": 34.6,
            "span": 0.45
           },
           "date": "2026-10-09/2026-10-09"
@@ -1792,9 +1828,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.22,
-           "lat": 34.36,
-           "span": 0.45
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1829,8 +1865,8 @@
          {
           "view": {
            "lon": 135.3,
-           "lat": 34.6,
-           "span": 0.45
+           "lat": 34.48,
+           "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1855,8 +1891,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.24,
-           "lat": 34.44,
+           "lon": 135.2,
+           "lat": 34.5,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -1868,42 +1904,6 @@
       {
        "type": "map",
        "at": 98,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.3,
-           "lat": 34.48,
-           "span": 0.6
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 106,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.2,
-           "lat": 34.5,
-           "span": 0.6
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Osaka Bay"
-      },
-      {
-       "type": "map",
-       "at": 115,
        "map": {
         "steps": [
          {
@@ -1921,13 +1921,67 @@
       },
       {
        "type": "map",
-       "at": 123,
+       "at": 107,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.26,
            "lat": 34.52,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 116,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
+       "at": 125,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.18,
+           "lat": 34.42,
+           "span": 0.6
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 134,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.38,
+           "lat": 34.56,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -2013,8 +2067,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.18,
-           "lat": 34.42,
+           "lon": 135.42,
+           "lat": 34.62,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -2030,8 +2084,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.38,
-           "lat": 34.56,
+           "lon": 135.15,
+           "lat": 34.6,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -2127,8 +2181,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.42,
-           "lat": 34.62,
+           "lon": 135.05,
+           "lat": 34.56,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -2166,8 +2220,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.15,
-           "lat": 34.6,
+           "lon": 135.22,
+           "lat": 34.36,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -2255,8 +2309,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.05,
-           "lat": 34.56,
+           "lon": 135.3,
+           "lat": 34.6,
            "span": 0.6
           },
           "date": "2026-10-09/2026-10-09"
@@ -2319,6 +2373,228 @@
      ]
     },
     {
+     "text": "For years the seabed here puzzled the people who study clay. In a 2005 paper a group of Japanese engineers wrote that the most shocking finding was a large compression going on endlessly, even under loads the old clay should have carried, and asked why such abnormal behavior took place. Mesri and Funk, at the University of Illinois, gave their answer ten years later: nothing abnormal at all. The clay behaves like clay everywhere. There is simply a great deal of it, under a very heavy island, with sand layers too tight to let the water out quickly.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.109,
+           "lat": 34.53,
+           "span": 0.95
+          },
+          "highlight": [
+           "file:kix.geojson"
+          ],
+          "dim": true,
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 5,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "In a 2005 paper",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.444,
+           "span": 0.1
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 20,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "document",
+       "at": "going on endlessly",
+       "document": {
+        "text": "\"The most shocking finding is that a large compression endlessly takes place for [a] long time... Why does such abnormal behavior take place?\"",
+        "source": "Imai et al., 2005, as quoted by Mesri & Funk, ASCE, 2015",
+        "highlight": "Why does such abnormal behavior take place?"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and asked why",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.25,
+           "lat": 34.44,
+           "span": 0.12
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Mesri and Funk",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.232,
+           "lat": 34.447,
+           "span": 0.08
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 59,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.2,
+           "lat": 34.5,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": "The clay behaves",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.45,
+           "lat": 34.62,
+           "span": 1.5
+          },
+          "highlight": [
+           "file:kix.geojson"
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "There is simply",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.256,
+           "lat": 34.434,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "Kansai Airport",
+            "lon": 135.244,
+            "lat": 34.435,
+            "kind": "site",
+            "label": "Kansai Airport"
+           }
+          ],
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 82,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.462,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 90,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.265,
+           "lat": 34.437,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      }
+     ]
+    },
+    {
      "text": "An island does not sink evenly. So the terminal, a mile long, stands on nine hundred columns, each with its own gauge. When one drops, it is jacked up and steel plates are slid underneath. The middle of the building has a basement, which makes it lighter than the wings, so the builders packed iron ore under it as ballast. It still sank less than its neighbours, and had to be levelled. The jacks are still worked every few years. The buildings sit on rafts of concrete, so that each one goes down as a whole, and soil was dug away around the heavy ones to keep the load on the ground even.",
      "shots": [
       {
@@ -2354,8 +2630,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.462,
+           "lon": 135.215,
+           "lat": 34.402,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2381,8 +2657,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.437,
+           "lon": 135.245,
+           "lat": 34.467,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2399,7 +2675,7 @@
          {
           "view": {
            "lon": 135.215,
-           "lat": 34.402,
+           "lat": 34.442,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2433,8 +2709,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.467,
+           "lon": 135.255,
+           "lat": 34.432,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2451,8 +2727,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.442,
+           "lon": 135.245,
+           "lat": 34.457,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2469,8 +2745,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.432,
+           "lon": 135.245,
+           "lat": 34.417,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2487,7 +2763,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
+           "lon": 135.225,
            "lat": 34.457,
            "span": 0.05
           },
@@ -2522,8 +2798,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.417,
+           "lon": 135.205,
+           "lat": 34.427,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2540,8 +2816,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.457,
+           "lon": 135.255,
+           "lat": 34.452,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2558,8 +2834,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.427,
+           "lon": 135.225,
+           "lat": 34.447,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2572,7 +2848,7 @@
      ]
     },
     {
-     "text": "The sinking reached things nobody had drawn. Rain was meant to run off the runway and out to sea through pipes, downhill. As the ground settled, the slope disappeared. The airport installed thirty-seven large pumps to push its own rainwater out, and in 2007 it covered the whole first runway with new asphalt, twenty-five centimeters thick on average, to give the water a slope again. The runways are asphalt for the same reason: asphalt bends where concrete would crack.",
+     "text": "The sinking reached things nobody had drawn. Rain was meant to run off the runway and out to sea through pipes, downhill. As the ground settled, the slope disappeared. The airport installed thirty-seven large pumps to push its own rainwater out. Nothing may stick up beside a runway, so its engineers had a new kind built, lying on its side under the ground, and in 2007 it covered the whole first runway with new asphalt, twenty-five centimeters thick on average, to give the water a slope again. The runways are asphalt for the same reason: asphalt bends where concrete would crack.",
      "shots": [
       {
        "type": "map",
@@ -2598,9 +2874,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.22,
-           "lat": 34.36,
-           "span": 0.6
+           "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2616,9 +2892,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.6,
-           "span": 0.6
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2652,8 +2928,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.452,
+           "lon": 135.235,
+           "lat": 34.432,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2664,13 +2940,49 @@
       },
       {
        "type": "map",
-       "at": 47,
+       "at": 49,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.225,
-           "lat": 34.447,
+           "lat": 34.417,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 58,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.452,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 66,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.442,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2691,14 +3003,14 @@
       },
       {
        "type": "map",
-       "at": 62,
+       "at": 84,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.235,
+           "lon": 135.195,
            "lat": 34.432,
-           "span": 0.05
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2708,14 +3020,14 @@
       },
       {
        "type": "map",
-       "at": 70,
+       "at": 92,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.417,
-           "span": 0.05
+           "lon": 135.275,
+           "lat": 34.442,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2766,8 +3078,8 @@
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.452,
-           "span": 0.05
+           "lat": 34.412,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2784,8 +3096,8 @@
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.442,
-           "span": 0.05
+           "lat": 34.462,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -2801,7 +3113,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.256,
+           "lon": 135.22,
            "lat": 34.434,
            "span": 0.1
           },
@@ -2844,8 +3156,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.195,
-           "lat": 34.432,
+           "lon": 135.205,
+           "lat": 34.437,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -2864,7 +3176,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "One runway was not enough. In 1999 work began on a second island, in deeper water. This time the builders drove one point two million sand drains. This is our image from 2004, with the new island still being filled. Its runway, four kilometers long, opened in August 2007. Together the two islands are a little over ten square kilometers of land that did not exist.",
+     "text": "One runway was not enough. In 1999 work began on a second island, in deeper water. This time the builders drove one point two million sand drains and poured two hundred and fifty million cubic meters of fill, in a layer more than forty meters high. This is our image from 2004, with the new island still being filled. Its runway, four kilometers long, opened in August 2007. Together the two islands are a little over ten square kilometers of land that did not exist.",
      "shots": [
       {
        "type": "map",
@@ -2902,8 +3214,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.275,
-           "lat": 34.442,
+           "lon": 135.265,
+           "lat": 34.437,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -2920,8 +3232,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.412,
+           "lon": 135.215,
+           "lat": 34.402,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -2939,6 +3251,41 @@
         "label": "Sand drains under the second island",
         "source": "Kansai Airports, Technologies for Offshore Airports"
        }
+      },
+      {
+       "type": "map",
+       "at": 30,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.467,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 38,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.442,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       },
       {
        "type": "map",
@@ -3000,13 +3347,13 @@
       },
       {
        "type": "map",
-       "at": 57,
+       "at": 76,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.462,
+           "lon": 135.255,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3054,8 +3401,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.437,
+           "lon": 135.225,
+           "lat": 34.407,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3081,8 +3428,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.437,
+           "lon": 135.245,
+           "lat": 34.457,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3098,8 +3445,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.402,
+           "lon": 135.245,
+           "lat": 34.417,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3133,8 +3480,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.467,
+           "lon": 135.205,
+           "lat": 34.417,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3236,7 +3583,7 @@
      ]
     },
     {
-     "text": "An engineering professor at the University of Illinois, Gholamreza Mesri, has studied both islands for years. In a 2015 paper with his colleague Funk he forecast that by the end of this century the seabed under the first island will have settled about seventeen and a half meters, and under the second more than twenty-four. Left to itself, they wrote, the surface of the first island would be at sea level by 2067 or sooner. The operator makes no such promise. It says only that it will keep measuring, with the guidance of experts. In 2018 Mesri told Air and Space that the second island could come down to its warning height, thirteen feet above the sea, as early as 2023. Which is why the walls keep going up.",
+     "text": "An engineering professor at the University of Illinois, Gholamreza Mesri, has studied both islands for years. In a 2015 paper with his colleague Funk he forecast that by the end of this century the seabed under the first island will have settled about seventeen and a half meters, and under the second more than twenty-four. The design asked for ground four meters above the sea. By their reckoning the first island fell below that in 2001, and left to itself its surface would be at sea level by 2067 or sooner. The operator makes no such promise. It says only that it will keep measuring, with the guidance of experts. In 2018 Mesri told Air and Space that the second island could come down to its warning height, thirteen feet above the sea, as early as 2023. Which is why the walls keep going up.",
      "shots": [
       {
        "type": "map",
@@ -3271,8 +3618,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.442,
+           "lon": 135.265,
+           "lat": 34.447,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3289,8 +3636,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.24,
-           "lat": 34.44,
+           "lon": 135.18,
+           "lat": 34.42,
            "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
@@ -3307,8 +3654,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.48,
+           "lon": 135.38,
+           "lat": 34.56,
            "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
@@ -3325,8 +3672,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.2,
-           "lat": 34.5,
+           "lon": 135.42,
+           "lat": 34.62,
            "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
@@ -3344,6 +3691,59 @@
         "label": "Forecast settlement by the end of the century, first and second island",
         "source": "Mesri & Funk, J. Geotech. Geoenviron. Eng., ASCE, 2015"
        }
+      },
+      {
+       "type": "map",
+       "at": 51,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.15,
+           "lat": 34.6,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 59,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.05,
+           "lat": 34.56,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 68,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.22,
+           "lat": 34.36,
+           "span": 0.35
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
       },
       {
        "type": "map",
@@ -3367,13 +3767,13 @@
       },
       {
        "type": "map",
-       "at": 65,
+       "at": 84,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.33,
-           "lat": 34.42,
+           "lon": 135.3,
+           "lat": 34.6,
            "span": 0.35
           },
           "date": "2026-10-09/2026-10-09"
@@ -3402,14 +3802,14 @@
       },
       {
        "type": "map",
-       "at": 84,
+       "at": 100,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.26,
-           "lat": 34.52,
-           "span": 0.35
+           "lon": 135.24,
+           "lat": 34.44,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3420,14 +3820,14 @@
       },
       {
        "type": "map",
-       "at": 93,
+       "at": 109,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.18,
-           "lat": 34.42,
-           "span": 0.35
+           "lon": 135.3,
+           "lat": 34.48,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3438,31 +3838,13 @@
       },
       {
        "type": "map",
-       "at": 102,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.255,
-           "lat": 34.432,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
-      },
-      {
-       "type": "map",
-       "at": 111,
+       "at": 118,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.225,
-           "lat": 34.407,
+           "lat": 34.457,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3474,13 +3856,31 @@
       },
       {
        "type": "map",
-       "at": 120,
+       "at": 127,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.457,
+           "lon": 135.205,
+           "lat": 34.427,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 136,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.255,
+           "lat": 34.452,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3499,7 +3899,7 @@
    "mood": "tension",
    "paragraphs": [
     {
-     "text": "A sinking island in a typhoon sea needs its walls to keep up. It stands in twenty meters of open water, where its engineers feared high tides more than tsunamis. In 2004 a run of typhoons brought the highest tides and waves the airport had recorded. Waves came over the seawall and destroyed a road behind it. So the company raised the walls, by one to two meters, along eleven kilometers of shore.",
+     "text": "A sinking island in a typhoon sea needs its walls to keep up. It stands in twenty meters of open water, where its engineers feared high tides more than tsunamis. In 2004 a run of typhoons brought the highest tides and waves the airport had recorded. Waves came over the seawall and destroyed a road behind it. So the company raised the walls, by one to two meters, along eleven kilometers of shore, high enough for the waves that come once in fifty years on top of the highest tide Osaka Bay has recorded.",
      "shots": [
       {
        "type": "map",
@@ -3528,9 +3928,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.38,
-           "lat": 34.56,
-           "span": 0.35
+           "lon": 135.2,
+           "lat": 34.5,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3546,9 +3946,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.42,
-           "lat": 34.62,
-           "span": 0.35
+           "lon": 135.33,
+           "lat": 34.42,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3581,9 +3981,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.15,
-           "lat": 34.6,
-           "span": 0.35
+           "lon": 135.26,
+           "lat": 34.52,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3626,11 +4026,64 @@
         "label": "Seawalls raised along about 11 km after the 2004 typhoons",
         "source": "Suzuki & Okuda, Kansai International Airport Co., JSCE, 2008"
        }
+      },
+      {
+       "type": "map",
+       "at": 72,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.32,
+           "lat": 34.43,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
+       "at": 79,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.285,
+           "lat": 34.395,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
+      },
+      {
+       "type": "map",
+       "at": 86,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.34,
+           "lat": 34.45,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
       }
      ]
     },
     {
-     "text": "The sea was also coming from below. The island is made of crushed rock, and the water inside it rose and fell with the tide, into basements. So between 2004 and 2006 the company built a wall underground, about thirty meters deep, all the way around the island. It lowered the water in the ground by a meter and a half. All of it was done beside a working runway, with machines kept under fifteen meters tall so that no aircraft could strike one. The pumps were sized for a cloudburst of fifty-five millimeters in an hour.",
+     "text": "The sea was also coming from below. The island is made of crushed rock, and the water inside it rose and fell with the tide, into basements, and up through the drains in the grass beside the runway. So between 2004 and 2006 the company built a wall underground, about thirty meters deep, all the way around the island. It lowered the water in the ground by a meter and a half. All of it was done beside a working runway, with machines kept under fifteen meters tall so that no aircraft could strike one. The pumps were sized for a cloudburst of fifty-five millimeters in an hour.",
      "shots": [
       {
        "type": "map",
@@ -3639,9 +4092,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.22,
+           "lon": 135.238,
            "lat": 34.434,
-           "span": 0.1
+           "span": 0.13
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3656,9 +4109,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.05,
-           "lat": 34.56,
-           "span": 0.35
+           "lon": 135.18,
+           "lat": 34.42,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3669,14 +4122,32 @@
       },
       {
        "type": "map",
-       "at": 18,
+       "at": 19,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.22,
-           "lat": 34.36,
-           "span": 0.35
+           "lon": 135.38,
+           "lat": 34.56,
+           "span": 0.25
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay"
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.42,
+           "lat": 34.62,
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3696,13 +4167,13 @@
       },
       {
        "type": "map",
-       "at": 36,
+       "at": 47,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.417,
+           "lon": 135.225,
+           "lat": 34.447,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3730,14 +4201,14 @@
       },
       {
        "type": "map",
-       "at": 51,
+       "at": 62,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.3,
+           "lon": 135.15,
            "lat": 34.6,
-           "span": 0.35
+           "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3765,13 +4236,13 @@
       },
       {
        "type": "map",
-       "at": 68,
+       "at": 79,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.417,
+           "lon": 135.215,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3783,13 +4254,13 @@
       },
       {
        "type": "map",
-       "at": 76,
+       "at": 87,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.447,
+           "lon": 135.235,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3818,13 +4289,13 @@
       },
       {
        "type": "map",
-       "at": 90,
+       "at": 101,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.225,
-           "lat": 34.457,
+           "lat": 34.417,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3872,8 +4343,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.427,
+           "lon": 135.235,
+           "lat": 34.452,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3890,8 +4361,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.24,
-           "lat": 34.44,
+           "lon": 135.05,
+           "lat": 34.56,
            "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
@@ -3966,8 +4437,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.41,
+           "lon": 135.27,
+           "lat": 34.38,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4010,8 +4481,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.32,
-           "lat": 34.43,
+           "lon": 135.36,
+           "lat": 34.47,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4078,9 +4549,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.285,
-           "lat": 34.395,
-           "span": 0.07
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4096,9 +4567,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.34,
-           "lat": 34.45,
-           "span": 0.07
+           "lon": 135.32,
+           "lat": 34.43,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4136,8 +4607,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.452,
+           "lon": 135.235,
+           "lat": 34.442,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4163,9 +4634,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.447,
-           "span": 0.07
+           "lon": 135.195,
+           "lat": 34.432,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4180,9 +4651,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.432,
-           "span": 0.07
+           "lon": 135.275,
+           "lat": 34.442,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4233,8 +4704,8 @@
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.432,
-           "span": 0.07
+           "lat": 34.412,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4287,9 +4758,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.417,
-           "span": 0.07
+           "lon": 135.235,
+           "lat": 34.462,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4351,9 +4822,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.452,
-           "span": 0.07
+           "lon": 135.205,
+           "lat": 34.437,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4369,9 +4840,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.442,
-           "span": 0.07
+           "lon": 135.265,
+           "lat": 34.437,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4387,8 +4858,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.195,
-           "lat": 34.432,
+           "lon": 135.215,
+           "lat": 34.402,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4405,8 +4876,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.275,
-           "lat": 34.442,
+           "lon": 135.245,
+           "lat": 34.467,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4423,7 +4894,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.45,
+           "lon": 135.72,
            "lat": 34.62,
            "span": 1.5
           },
@@ -4452,8 +4923,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.412,
+           "lon": 135.255,
+           "lat": 34.432,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4470,8 +4941,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.462,
+           "lon": 135.225,
+           "lat": 34.407,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4631,8 +5102,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.437,
+           "lon": 135.245,
+           "lat": 34.457,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4649,8 +5120,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.437,
+           "lon": 135.245,
+           "lat": 34.417,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4704,8 +5175,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.402,
+           "lon": 135.205,
+           "lat": 34.417,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4722,8 +5193,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.467,
+           "lon": 135.265,
+           "lat": 34.447,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4740,8 +5211,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.432,
+           "lon": 135.225,
+           "lat": 34.457,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4797,7 +5268,7 @@
      ]
     },
     {
-     "text": "Japan kept building this way. Chubu, near Nagoya, in 2005. Kobe, across the bay, in 2006. Kitakyushu the same year. All of them on islands made in the sea. And not only Japan. When Air and Space looked in 2018, new runways were going up on a drained marsh north of Istanbul, on a reef in the Maldives and on river mud in Brisbane. Ground like that settles. The only question is how fast, and who is still measuring.",
+     "text": "Japan kept building this way. Chubu, near Nagoya, in 2005. Kobe, across the bay, in 2006. Kitakyushu the same year. All of them on islands made in the sea. And not only Japan. When Air and Space looked in 2018, new runways were going up on a drained marsh north of Istanbul, on a reef in the Maldives and on river mud in Brisbane, where three hundred and thirty thousand drains were pushed eighty-five feet into the ground. Ground like that settles. The only question is how fast, and who is still measuring.",
      "shots": [
       {
        "type": "map",
@@ -4921,8 +5392,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.407,
+           "lon": 135.235,
+           "lat": 34.422,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4973,49 +5444,67 @@
       },
       {
        "type": "map",
-       "at": 37,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.245,
-           "lat": 34.457,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
-      },
-      {
-       "type": "map",
-       "at": 46,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.245,
-           "lat": 34.417,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
-      },
-      {
-       "type": "map",
-       "at": 55,
+       "at": 38,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.205,
-           "lat": 34.417,
+           "lat": 34.427,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 48,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.255,
+           "lat": 34.452,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 58,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.225,
+           "lat": 34.447,
+           "span": 0.09
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
+      },
+      {
+       "type": "map",
+       "at": 68,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.215,
+           "lat": 34.432,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5032,8 +5521,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.109,
-           "lat": 34.53,
+           "lon": 135.28,
+           "lat": 34.6102,
            "span": 0.95
           },
           "highlight": [
@@ -5047,13 +5536,13 @@
       },
       {
        "type": "map",
-       "at": 71,
+       "at": 85,
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.48,
+           "lon": 135.22,
+           "lat": 34.36,
            "span": 0.25
           },
           "date": "2026-10-09/2026-10-09"
@@ -5102,7 +5591,7 @@
          {
           "view": {
            "lon": 135.28,
-           "lat": 34.6102,
+           "lat": 34.4498,
            "span": 0.95
           },
           "highlight": [
@@ -5135,8 +5624,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.447,
+           "lon": 135.225,
+           "lat": 34.417,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"

@@ -24,7 +24,9 @@ LONG_MIN_SEC = 15 * 60
 LONG_MAX_SEC = 20 * 60 + 30
 # Effective pace of a finished long-form episode, pauses and beats included (neom-the-line: 1,354 words in 610 s).
 # tools/episode_check.py uses it to estimate the length from a script or an outline before any rendering.
-WORDS_PER_SEC = 2.22
+WORDS_PER_SEC = 2.65  # was 2.22 (episode 6); Louisiana ran 2.46 and Kansai 2.74 words a second at speed 1.08
+# (2026-11-13: the old value passed a 14.1-minute script as 16.7)
+_WORDS_PER_SEC_EP6 = 2.22
 # A before/after wipe must finish this long before the next cut (neom 05:38: a stat card cut a wipe in half).
 WIPE_CLEAR_SEC = 1.0
 

@@ -578,3 +578,10 @@ Each sub-phase stops for user approval.
 - Louisiana long v3 (d991ba0) audited: one real defect, a straight seam at 90.1 W through every Barataria Bay view (tiles 15RYN / 16RBT of the same 13 Oct pass, Sen2Cor corrects each UTM zone's tile on its own). Fix: `sentinel._match_overlap` colour-matches later tiles of a picked-day mosaic in their overlap (cache key v2m); local test step 1.58 -> 0.28 grey levels.
 - Re-rendering long (run 43354580656) and cure Short (run 43354585035, has a -90.05 wide view). Island Short audited and approved as is.
 - Next: fetch both with -Delete, audit, approve, upload long + 2 Shorts scheduled 2026-11-14T23:00Z.
+- Later the same night: the user asked for more watchable videos and better covers. Research (API outlier scan, see
+  .claude/skills/cover-map and episode-plan step 1) -> new production logic for NEW videos only: `tools/cover_map.py`,
+  `topic_radar.py --check` demand test, painted map steps open chapters, brighter imagery (sentinel v3 cache, lighter
+  Blue Marble and vignette), `dark` audit flag (Louisiana v3 had 28 dark stretches).
+- Louisiana re-rendering with the brighter look: long 43356342349, cure Short 43356346844, island Short 43356351460
+  (the earlier island approval is void). Cover: episodes/louisiana-land-loss/cover.json ("IT HAD / A CURE").
+- First topic under the new logic: waiting for the user's pick (Kansai sinking airport passed the demand check).

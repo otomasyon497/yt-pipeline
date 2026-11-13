@@ -638,3 +638,18 @@ Each sub-phase stops for user approval.
 - User feedback 2026-11-13: earlier videos show the same or similar pictures too often. For Australia: no filler
   machinery, a view at most twice and 60 s apart, 160-180 distinct shots of 5-7 s, at most two satellite shots in a row;
   enforce in episode_check.py. Diagram cards if time allows.
+
+## 2026-11-14 — Kansai re-edit rendering, Australia at storyboard
+- User chose "cut the repeats and re-render" for Kansai. Done in build_script.py: photos at most twice (6 new Commons
+  pictures: bridge 2007 and 2013, NASA MODIS image of Typhoon Jebi, Terminal 2, wing, apron), filler views only on the
+  two islands and on coasts, the Istanbul / Maldives / Brisbane airports shown under their sentence. Storyboard
+  43496913477 looked at (sheets 3, 28, 34) and deleted. FULL RENDER 43520192764 running: fetch
+  (`tools/fetch_episode.ps1 kansai-airport -Delete`), audit all sheets, `--approve`, cover exists, then gate 2 and
+  upload with `--publish-at 2026-11-15T23:00:00Z`.
+- Australia interior: research read (research.md, V/A/OWN), regions built (geo/), script written by hand (2,782
+  words, 220 shots: 145 map, 55 photo, 12 stat, 6 quote, 2 chart; voice_speed 1.15), factcheck.md 115 rows (65
+  verified, 24 attributed, 26 own, no FIX), episode_check OK, cover.jpg ("WHY SO / EMPTY?"). STORYBOARD RUN
+  43523089329 running: download the artifact, look at every sheet (painted regions and `@tint` colours are new,
+  MODIS dates 2018-05-15 / 2019-05-15 / 2025-07-12 / 2025-09-02, far airports and mine views), fix, then full render.
+  Photos are 25 % of the shots, not the third the rule asks for: sharp licensed files ran out (each at most twice).
+- episode_check.py: PHOTO_MAX_USES 2, VIEW_MAX_USES 2, seconds per word scaled by voice_speed.

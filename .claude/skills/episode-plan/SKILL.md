@@ -73,6 +73,15 @@ Then, for every candidate topic that passes, before offering it:
   `tools/find_media.py` per reason and keep only files over 1,400 px), in frames, spread through the video. Satellite
   close views are evidence for a sentence, never filler under a sentence about something else or another year.
 - **2,750-3,000 words** (the references speak 181-187 words a minute; real narration decides, not the estimate).
+- **No filler machinery (user, 2026-11-13: "the same or similar pictures come too often, it gets boring").** Every
+  shot is placed by hand under the words it shows (episodes/australia-interior/build_script.py is the model): a photo
+  at most twice, a map frame at most twice and 60 s apart (`tools/episode_check.py` enforces both), a new picture
+  every 5-7 s. Wide painted maps get a new framing each time (`fresh()`); a single-view map shot held over 16 words
+  gets a push-in step instead of a second picture of something else. Long quote cards are cut away from by hand.
+- **Painted regions come from data, not from drawing:** `geo/make_regions.py` in the episode (buffers, Natural
+  Earth regions) or an official layer (Geoscience Australia drainage divisions); print the areas for the fact check.
+- **Dated wide views:** pick clear MODIS days by looking at them first (scratch script against GIBS), e.g. the
+  green/brown edge on Goyder's Line (2025-09-02) or a full Lake Eyre (2025-07-12).
 
 ## 3b. Fact-check
 

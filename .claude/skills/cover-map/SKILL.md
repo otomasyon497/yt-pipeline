@@ -33,6 +33,7 @@ not make a hit (the same channels' other videos get 100-2,000 views): the topic 
 - **One or two words, three at the very most**, and they do not repeat the title: the title names the place,
   the cover names the tension ("FORGOTTEN", "RUNNING DRY", "NO WAY OUT"). The second line carries the twist in
   the red box. Words must be readable at 320 px: `text_size` 110-150.
+- **A region built for the episode can be the subject:** `{"file": "inland.geojson"}` reads `episodes/<slug>/geo/`.
 - **The arrow starts at the words and ends on the subject.** It must not cross the label or the words.
 - **Honest.** The red area is the real place at its real size, and the words are something the video shows.
   No skulls, no "they lied to you", no "nobody talks about", no faces of real people, no borrowed logos or

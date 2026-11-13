@@ -1,0 +1,6 @@
+{"view": {"lon": 125.0, "lat": -27.0, "span": 62},
+ "subject": [{"file": "inland.geojson"}],
+ "text": [{"t": "WHY SO", "style": "white"}, {"t": "EMPTY?", "style": "red"}],
+ "text_at": [0.03, 0.08], "text_size": 125,
+ "arrow": {"to": [128.0, -24.5], "from": [0.2, 0.52], "bend": 0.3},
+ "labels": [{"t": "SYDNEY", "lon": 151.21, "lat": -33.87}, {"t": "PERTH", "lon": 115.86, "lat": -31.95}]}

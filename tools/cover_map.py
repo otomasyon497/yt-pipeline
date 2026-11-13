@@ -9,7 +9,7 @@ say where. Land is the channel's amber, the sea its navy, so the template stays 
 
 cover.json:
     {"view": {"lon": -90.4, "lat": 29.6, "span": 6.0},          # span = degrees of longitude across the picture
-     "subject": [{"admin1": "Louisiana"}, {"country": "Egypt"}, {"lake": "Aral Sea"}, {"box": [lon0, lat0, lon1, lat1]},
+     "subject": [{"admin1": "Louisiana"}, {"country": "Egypt"}, {"lake": "Aral Sea"}, {"box": [lon0, lat0, lon1, lat1]}, {"file": "x.geojson"},
                  {"circle": [lon, lat, km]}, {"polygon": [[lon, lat], ...]}, {"line": [[lon, lat], ...], "km": 12}],
      "clip": "land" | "sea" | null,                             # keep only the subject's land (a coast strip) or sea part
      "text": [{"t": "RUNNING", "style": "white"}, {"t": "DRY", "style": "red"}],
@@ -108,6 +108,9 @@ def _lake(name: str):
     raise SystemExit(f"cover_map: no lake or sea named {name!r} in Natural Earth")
 
 
+GEO_DIR = ROOT / "episodes"  # set to the episode's geo/ folder in main()
+
+
 def shape_of(item: dict, frame: Frame):
     if "country" in item:
         code = geo.country_code(item["country"])
@@ -125,6 +128,10 @@ def shape_of(item: dict, frame: Frame):
         return shp_box(*item["box"])
     if "polygon" in item:
         return Polygon(item["polygon"])
+    if "file" in item:  # a GeoJSON of the episode: {"file": "inland.geojson"} -> episodes/<slug>/geo/inland.geojson
+        data = json.loads((GEO_DIR / item["file"]).read_text(encoding="utf-8"))
+        feats = data["features"] if data.get("type") == "FeatureCollection" else [data]
+        return shapely.union_all([shapely.make_valid(shapely.geometry.shape(f["geometry"])) for f in feats])
     deg = lambda km, lat: km / (111.32 * math.cos(math.radians(lat)))  # noqa: E731  (km -> degrees of longitude)
     if "circle" in item:
         lon, lat, km = item["circle"]
@@ -295,6 +302,8 @@ def main() -> None:
     ap.add_argument("slug")
     ap.add_argument("--out")
     a = ap.parse_args()
+    global GEO_DIR
+    GEO_DIR = ROOT / "episodes" / a.slug / "geo"
     spec = json.loads((ROOT / "episodes" / a.slug / "cover.json").read_text(encoding="utf-8"))
     out = Path(a.out) if a.out else VIDEOS / a.slug / "cover.jpg"
     print(f"cover: {make(spec, out)}")

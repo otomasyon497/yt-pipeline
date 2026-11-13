@@ -614,3 +614,5 @@ Each sub-phase stops for user approval.
 - Kansai storyboard OK (run 43417425663): prepare passed, length 15.5 min (913 s of narration, 295 shots). Sheets downloaded
   to Videos\yt-pipeline\kansai-airport-storyboard, artifact deleted. NEXT (after a context compact): look at every
   storyboard sheet, fix, `gh workflow run render.yml -f slug=kansai-airport`, fetch -Delete, frame audit, cover_map, gate 2.
+- Kansai storyboard: 10 of 35 sheets reviewed (episodes/kansai-airport/PLAN.md), fixes applied (photo fillers limited,
+  Narita views, 1995 view in the hook, seawall paragraph), check OK. Full render started; the audit must cover the rest.

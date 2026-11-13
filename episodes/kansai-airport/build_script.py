@@ -161,7 +161,7 @@ chapters = [
     {"title": "An Island That Was Not There", "mood": "curious", "paragraphs": [
         P("This is Osaka Bay in 1985. Open water. Ten years later there is an island here, three miles from the shore, with an airport on it. Japan built it from nothing. And it has been sinking ever since.",
           m(0, v(W_A, compare={**CMP_85_95, "until": "Ten years later"}), step("Ten years later", places=[KIX]), cut=True),
-          m("with an airport", v(KIX_V, places=[KIX]), cut=True),
+          m("with an airport", v(near(135.24, 34.43, 0.12), date=D95, places=[KIX]), cut=True),
           m("Japan built it", v(BAY, highlight=[ISLANDS], arrows=[TO_ISLANDS], places=[OSAKA]), cut=True)),
         P("By the operator's own measurements, the ground under the first island has dropped almost fourteen meters since the fill began. That is forty-five feet, the height of a four-storey building. Last year it went down five centimeters more. Every one of those numbers comes from the company that runs the airport, which measures the island at seventeen points and publishes the result.",
           m(0, v(KIX_V, places=[KIX]), cut=True),
@@ -206,8 +206,9 @@ chapters = [
           m("That was more", v(JAPAN, highlight=[ISLANDS], places=[OSAKA]), cut=True),
           m("It worked", v(KIX_V), cut=True)),
         P("In 1987 they started a wall around an empty rectangle of sea, built of rubble and forty-eight thousand concrete blocks, anchored in steel chambers that weigh hundreds of tons. This is our own image from September 1989. The wall is finished. Inside it there is still water.",
-          m(0, v(near(135.262, 34.447, 0.06)), cut=True),
-          m("built of rubble", v(W_A, compare={**CMP_85_89, "until": "anchored in steel"}), step("anchored in steel"), step("This is our own", places=[place("Seawall, 1989", 135.24, 34.43, "Seawall, 1989", "site")]), cut=True),
+          m(0, v(W_A, compare={**CMP_85_89, "until": "built of rubble"}), step("built of rubble"), cut=True),
+          m("anchored in steel", v(near(135.228, 34.438, 0.15), date=D89), cut=True),
+          m("This is our own", v(near(135.245, 34.428, 0.17), date=D89, places=[place("Seawall, 1989", 135.24, 34.43, "Seawall, 1989", "site")]), cut=True),
           m("The wall is", v(near(135.25, 34.44, 0.1), date=D89), cut=True),
           m("Inside it there", v(near(135.238, 34.432, 0.11), date=D89), cut=True)),
         P("Then came the fill. A hundred and eighty million cubic meters of rock and soil, quarried at four sites ten to thirty kilometers away and carried out by barge. A year later, in our image from August 1990, the rectangle is half full and a bridge is reaching out from the shore. The plan was a layer thirty meters deep. As the forecasts of sinking grew, so did the layer, to almost thirty-seven. At times the heap stood sixty-five feet above the sea, waiting to settle.",
@@ -400,16 +401,18 @@ SHORES = {
             (135.215, 34.422),
             (135.225, 34.427),
             (135.235, 34.442)],
+    "narita": [(140.386, 35.765), (140.40, 35.78), (140.37, 35.75), (140.41, 35.74), (140.36, 35.79), (140.42, 35.80)],
     "shore": [(135.30, 34.41), (135.32, 34.43), (135.285, 34.395), (135.34, 34.45), (135.27, 34.38), (135.36, 34.47)],
     "city": [(135.438, 34.785), (135.50, 34.69), (135.45, 34.76), (135.47, 34.72), (135.42, 34.80), (135.52, 34.66)],
     "bay": [(135.24, 34.44), (135.30, 34.48), (135.20, 34.50), (135.33, 34.42), (135.26, 34.52), (135.18, 34.42), (135.38, 34.56),
             (135.42, 34.62), (135.15, 34.60), (135.05, 34.56), (135.22, 34.36), (135.30, 34.60)],
 }
 SPANS = {"bay": [0.3, 0.45, 0.6, 0.35, 0.25, 0.5], None: [0.05, 0.07, 0.09, 0.06, 0.08, 0.1, 0.04, 0.11]}
-LABELS = {"kix": "Kansai International Airport", "shore": "Osaka Bay shore", "city": "Osaka", "bay": "Osaka Bay"}
+LABELS = {"narita": "Narita, near Tokyo", "kix": "Kansai International Airport", "shore": "Osaka Bay shore", "city": "Osaka", "bay": "Osaka Bay"}
 PHOTOS = {"kix": [(PH_APRON, "Terminal 1 from the observation hall, 2015"), (PH_GATE, "Terminal 1, 2025"),
                   (PH_DEPARTURE, "Terminal 1 departures, 2025"), (PH_HALL, "Terminal 1, 2010"), (PH_ATRIUM, "Terminal 1, 2014")]}
-VIEW_PLACE = {}
+VIEW_PLACE = {"kix_np": "kix"}
+PHOTO_CHAPTERS = {"The Forecast That Missed", "Who Pays", "Will It Last"}
 used_views: set = set()
 view_next = dict.fromkeys(SHORES, 0)
 photo_uses: dict = {}
@@ -466,6 +469,8 @@ def filler(group, t):
 
 
 def topic_of(text, chapter):
+    if re.search(r"Narita|Near Tokyo|farmland", text):
+        return "narita"
     if re.search(r"Itami|Osaka already|grown around|flight paths|Narita|farmland", text):
         return "city"
     if re.search(r"bridge|shore|Rinku|boat|tanker", text):
@@ -564,6 +569,10 @@ for ch in chapters:
             spots = ([a] if a in stat_ends or opens else []) + [a + (b - a) * j // (parts + 1) for j in range(1, parts + 1)]
             for at in spots:
                 group = topic(para["text"], at, ch["title"])
+                if group == "kix" and ch["title"] == "Building on a Sponge":
+                    group = "shore"
+                elif group == "kix" and ch["title"] not in PHOTO_CHAPTERS:
+                    group = "kix_np"
                 shot = json.loads(json.dumps(filler(group, (word_base + at) * SEC_WORD)))
                 shot["at"] = at
                 new.append(shot)

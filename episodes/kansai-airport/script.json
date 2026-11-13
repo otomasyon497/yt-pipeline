@@ -65,9 +65,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.238,
-           "lat": 34.434,
-           "span": 0.1
+           "lon": 135.24,
+           "lat": 34.43,
+           "span": 0.12
           },
           "places": [
            {
@@ -78,7 +78,7 @@
             "label": "Kansai Airport"
            }
           ],
-          "date": "2026-10-09/2026-10-09"
+          "date": "1995-08-02/1995-08-06"
          }
         ],
         "cut": true
@@ -119,10 +119,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 32,
-       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
-       "on_screen_text": "Terminal 1 from the observation hall, 2015"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.195,
+           "lat": 34.432,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       }
      ]
     },
@@ -136,7 +148,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.256,
+           "lon": 135.238,
            "lat": 34.434,
            "span": 0.1
           },
@@ -156,10 +168,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 6,
-       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
-       "on_screen_text": "Terminal 1, 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.275,
+           "lat": 34.442,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       },
       {
        "type": "stat",
@@ -197,16 +221,39 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 39,
-       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
-       "on_screen_text": "Terminal 1 departures, 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.412,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Kansai International Airport"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 45,
-       "photo": "File:Kansai International Airport13n.jpg",
-       "on_screen_text": "Terminal 1, 2010"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.235,
+           "lat": 34.462,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       },
       {
        "type": "map",
@@ -226,10 +273,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 56,
-       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
-       "on_screen_text": "Terminal 1, 2014"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.265,
+           "lat": 34.437,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kansai International Airport"
       }
      ]
     },
@@ -331,8 +390,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.195,
-           "lat": 34.432,
+           "lon": 135.215,
+           "lat": 34.402,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -349,8 +408,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.275,
-           "lat": 34.442,
+           "lon": 135.245,
+           "lat": 34.467,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -535,16 +594,15 @@
         "steps": [
          {
           "view": {
-           "lon": 135.47,
-           "lat": 34.72,
+           "lon": 140.386,
+           "lat": 35.765,
            "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Osaka"
+       "on_screen_text": "Narita, near Tokyo"
       },
       {
        "type": "map",
@@ -578,16 +636,15 @@
         "steps": [
          {
           "view": {
-           "lon": 135.42,
-           "lat": 34.8,
+           "lon": 140.4,
+           "lat": 35.78,
            "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Osaka"
+       "on_screen_text": "Narita, near Tokyo"
       },
       {
        "type": "map",
@@ -622,16 +679,15 @@
         "steps": [
          {
           "view": {
-           "lon": 135.52,
-           "lat": 34.66,
+           "lon": 140.37,
+           "lat": 35.75,
            "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Osaka"
+       "on_screen_text": "Narita, near Tokyo"
       },
       {
        "type": "map",
@@ -640,16 +696,15 @@
         "steps": [
          {
           "view": {
-           "lon": 135.438,
-           "lat": 34.785,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
+           "lon": 140.41,
+           "lat": 35.74,
+           "span": 0.05
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Osaka"
+       "on_screen_text": "Narita, near Tokyo"
       }
      ]
     },
@@ -1331,29 +1386,6 @@
         "steps": [
          {
           "view": {
-           "lon": 135.262,
-           "lat": 34.447,
-           "span": 0.06
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       }
-      },
-      {
-       "type": "photo",
-       "at": 6,
-       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
-       "on_screen_text": "Terminal 1 from the observation hall, 2015"
-      },
-      {
-       "type": "map",
-       "at": "built of rubble",
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": 135.235,
            "lat": 34.43,
            "span": 0.22
@@ -1365,15 +1397,45 @@
            "seconds": 1.8,
            "label_before": "1985",
            "label_after": "1989",
-           "until": "anchored in steel"
+           "until": "built of rubble"
           },
           "date": "2026-10-09/2026-10-09"
          },
          {
-          "at": "anchored in steel"
-         },
+          "at": "built of rubble"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "anchored in steel",
+       "map": {
+        "steps": [
          {
-          "at": "This is our own",
+          "view": {
+           "lon": 135.228,
+           "lat": 34.438,
+           "span": 0.15
+          },
+          "date": "1989-09-02/1989-09-06"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "This is our own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.245,
+           "lat": 34.428,
+           "span": 0.17
+          },
           "places": [
            {
             "name": "Seawall, 1989",
@@ -1382,7 +1444,8 @@
             "kind": "site",
             "label": "Seawall, 1989"
            }
-          ]
+          ],
+          "date": "1989-09-02/1989-09-06"
          }
         ],
         "cut": true
@@ -1513,16 +1576,39 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 61,
-       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
-       "on_screen_text": "Terminal 1, 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.36,
+           "lat": 34.47,
+           "span": 0.05
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ]
+       },
+       "on_screen_text": "Osaka Bay shore"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 67,
-       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
-       "on_screen_text": "Terminal 1 departures, 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
       },
       {
        "type": "map",
@@ -1542,10 +1628,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 79,
-       "photo": "File:Kansai International Airport13n.jpg",
-       "on_screen_text": "Terminal 1, 2010"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.32,
+           "lat": 34.43,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
       }
      ]
     },
@@ -1634,10 +1732,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 40,
-       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
-       "on_screen_text": "Terminal 1, 2014"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.285,
+           "lat": 34.395,
+           "span": 0.07
+          },
+          "date": "2026-10-09/2026-10-09"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Osaka Bay shore"
       },
       {
        "type": "map",
@@ -1735,16 +1845,16 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.412,
-           "span": 0.05
+           "lon": 135.34,
+           "lat": 34.45,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Kansai International Airport"
+       "on_screen_text": "Osaka Bay shore"
       },
       {
        "type": "map",
@@ -1846,9 +1956,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.36,
-           "lat": 34.47,
-           "span": 0.05
+           "lon": 135.27,
+           "lat": 34.38,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -1944,8 +2054,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.41,
+           "lon": 135.36,
+           "lat": 34.47,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -2557,22 +2667,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 82,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.235,
-           "lat": 34.462,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
+       "on_screen_text": "Terminal 1 from the observation hall, 2015"
       },
       {
        "type": "map",
@@ -2581,14 +2679,13 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.437,
+           "lon": 135.215,
+           "lat": 34.442,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Kansai International Airport"
       }
@@ -2624,22 +2721,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 7,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.215,
-           "lat": 34.402,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
+       "on_screen_text": "Terminal 1, 2025"
       },
       {
        "type": "stat",
@@ -2651,21 +2736,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 23,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.245,
-           "lat": 34.467,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ]
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
+       "on_screen_text": "Terminal 1 departures, 2025"
       },
       {
        "type": "map",
@@ -2674,14 +2748,13 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.442,
+           "lon": 135.255,
+           "lat": 34.432,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Kansai International Airport"
       },
@@ -2709,8 +2782,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.432,
+           "lon": 135.245,
+           "lat": 34.457,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2728,7 +2801,7 @@
          {
           "view": {
            "lon": 135.245,
-           "lat": 34.457,
+           "lat": 34.417,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2745,8 +2818,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.417,
+           "lon": 135.225,
+           "lat": 34.457,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2763,8 +2836,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.457,
+           "lon": 135.205,
+           "lat": 34.427,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -2792,22 +2865,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 88,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.205,
-           "lat": 34.427,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai International Airport13n.jpg",
+       "on_screen_text": "Terminal 1, 2010"
       },
       {
        "type": "map",
@@ -2822,8 +2883,7 @@
           },
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Kansai International Airport"
       },
@@ -2922,8 +2982,14 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 41,
+       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
+       "on_screen_text": "Terminal 1, 2014"
+      },
+      {
+       "type": "map",
+       "at": 49,
        "map": {
         "steps": [
          {
@@ -2940,7 +3006,7 @@
       },
       {
        "type": "map",
-       "at": 49,
+       "at": 58,
        "map": {
         "steps": [
          {
@@ -2958,31 +3024,13 @@
       },
       {
        "type": "map",
-       "at": 58,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.235,
-           "lat": 34.452,
-           "span": 0.05
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
-      },
-      {
-       "type": "map",
        "at": 66,
        "map": {
         "steps": [
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.442,
+           "lat": 34.452,
            "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
@@ -3008,9 +3056,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.195,
-           "lat": 34.432,
-           "span": 0.07
+           "lon": 135.235,
+           "lat": 34.442,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -3025,8 +3073,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.275,
-           "lat": 34.442,
+           "lon": 135.195,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3071,22 +3119,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.235,
-           "lat": 34.412,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport terminal 1 ,from the top of observation hall \"sky view\" (16041786233).jpg",
+       "on_screen_text": "Terminal 1 from the observation hall, 2015"
       },
       {
        "type": "map",
@@ -3095,14 +3131,13 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.462,
+           "lon": 135.275,
+           "lat": 34.442,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Kansai International Airport"
       },
@@ -3113,7 +3148,7 @@
         "steps": [
          {
           "view": {
-           "lon": 135.22,
+           "lon": 135.256,
            "lat": 34.434,
            "span": 0.1
           },
@@ -3150,22 +3185,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 47,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.205,
-           "lat": 34.437,
-           "span": 0.07
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport Terminal 1 Gate 20 2025.JPG",
+       "on_screen_text": "Terminal 1, 2025"
       }
      ]
     }
@@ -3203,8 +3226,7 @@
           ],
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        }
       },
       {
@@ -3214,8 +3236,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.437,
+           "lon": 135.235,
+           "lat": 34.412,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3232,8 +3254,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.402,
+           "lon": 135.235,
+           "lat": 34.462,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3259,8 +3281,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.467,
+           "lon": 135.205,
+           "lat": 34.437,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3276,8 +3298,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.442,
+           "lon": 135.265,
+           "lat": 34.437,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3352,8 +3374,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.432,
+           "lon": 135.215,
+           "lat": 34.402,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3401,8 +3423,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.407,
+           "lon": 135.245,
+           "lat": 34.467,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3428,8 +3450,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.457,
+           "lon": 135.215,
+           "lat": 34.442,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3445,8 +3467,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.417,
+           "lon": 135.255,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3480,8 +3502,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.417,
+           "lon": 135.225,
+           "lat": 34.407,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3618,8 +3640,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.447,
+           "lon": 135.245,
+           "lat": 34.457,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3843,8 +3865,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.457,
+           "lon": 135.245,
+           "lat": 34.417,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3862,7 +3884,7 @@
          {
           "view": {
            "lon": 135.205,
-           "lat": 34.427,
+           "lat": 34.417,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -3879,8 +3901,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.452,
+           "lon": 135.265,
+           "lat": 34.447,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4034,9 +4056,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.32,
-           "lat": 34.43,
-           "span": 0.07
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4051,9 +4073,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.285,
-           "lat": 34.395,
-           "span": 0.07
+           "lon": 135.32,
+           "lat": 34.43,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4069,9 +4091,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.34,
-           "lat": 34.45,
-           "span": 0.07
+           "lon": 135.285,
+           "lat": 34.395,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4092,9 +4114,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.238,
+           "lon": 135.22,
            "lat": 34.434,
-           "span": 0.13
+           "span": 0.1
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4173,7 +4195,7 @@
          {
           "view": {
            "lon": 135.225,
-           "lat": 34.447,
+           "lat": 34.457,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4241,8 +4263,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.432,
+           "lon": 135.205,
+           "lat": 34.427,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4259,8 +4281,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.432,
+           "lon": 135.255,
+           "lat": 34.452,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4295,7 +4317,7 @@
          {
           "view": {
            "lon": 135.225,
-           "lat": 34.417,
+           "lat": 34.447,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4343,8 +4365,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.452,
+           "lon": 135.215,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4437,9 +4459,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.27,
-           "lat": 34.38,
-           "span": 0.07
+           "lon": 135.34,
+           "lat": 34.45,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4481,9 +4503,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.36,
-           "lat": 34.47,
-           "span": 0.07
+           "lon": 135.27,
+           "lat": 34.38,
+           "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4549,8 +4571,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.3,
-           "lat": 34.41,
+           "lon": 135.36,
+           "lat": 34.47,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4567,9 +4589,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.32,
-           "lat": 34.43,
-           "span": 0.09
+           "lon": 135.3,
+           "lat": 34.41,
+           "span": 0.06
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4608,7 +4630,7 @@
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.442,
+           "lat": 34.432,
            "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
@@ -4634,9 +4656,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.195,
-           "lat": 34.432,
-           "span": 0.09
+           "lon": 135.225,
+           "lat": 34.417,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4651,9 +4673,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.275,
-           "lat": 34.442,
-           "span": 0.09
+           "lon": 135.235,
+           "lat": 34.452,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4704,8 +4726,8 @@
          {
           "view": {
            "lon": 135.235,
-           "lat": 34.412,
-           "span": 0.09
+           "lat": 34.442,
+           "span": 0.07
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -4752,22 +4774,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.235,
-           "lat": 34.462,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai Airport Terminal 1 Departure 2025.JPG",
+       "on_screen_text": "Terminal 1 departures, 2025"
       },
       {
        "type": "chart",
@@ -4816,40 +4826,16 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 9,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.205,
-           "lat": 34.437,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai International Airport13n.jpg",
+       "on_screen_text": "Terminal 1, 2010"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": 18,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 135.265,
-           "lat": 34.437,
-           "span": 0.09
-          },
-          "date": "2026-10-09/2026-10-09"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Kansai International Airport"
+       "photo": "File:Kansai International Airport Terminal 1 Interior1 2014.jpg",
+       "on_screen_text": "Terminal 1, 2014"
       },
       {
        "type": "map",
@@ -4858,14 +4844,13 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.402,
+           "lon": 135.195,
+           "lat": 34.432,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
          }
-        ],
-        "cut": true
+        ]
        },
        "on_screen_text": "Kansai International Airport"
       },
@@ -4876,8 +4861,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.467,
+           "lon": 135.275,
+           "lat": 34.442,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4923,8 +4908,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.432,
+           "lon": 135.235,
+           "lat": 34.412,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4941,8 +4926,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.407,
+           "lon": 135.235,
+           "lat": 34.462,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -4959,9 +4944,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.5,
-           "lat": 34.69,
-           "span": 0.07
+           "lon": 135.47,
+           "lat": 34.72,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -5012,9 +4997,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.45,
-           "lat": 34.76,
-           "span": 0.07
+           "lon": 135.42,
+           "lat": 34.8,
+           "span": 0.05
           },
           "date": "2026-10-09/2026-10-09"
          }
@@ -5102,8 +5087,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.457,
+           "lon": 135.205,
+           "lat": 34.437,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5120,8 +5105,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.245,
-           "lat": 34.417,
+           "lon": 135.265,
+           "lat": 34.437,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5175,8 +5160,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.417,
+           "lon": 135.215,
+           "lat": 34.402,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5193,8 +5178,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.265,
-           "lat": 34.447,
+           "lon": 135.245,
+           "lat": 34.467,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5211,8 +5196,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.457,
+           "lon": 135.255,
+           "lat": 34.432,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5392,8 +5377,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.235,
-           "lat": 34.422,
+           "lon": 135.225,
+           "lat": 34.407,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5449,8 +5434,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.205,
-           "lat": 34.427,
+           "lon": 135.245,
+           "lat": 34.457,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5467,8 +5452,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.255,
-           "lat": 34.452,
+           "lon": 135.245,
+           "lat": 34.417,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5485,8 +5470,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.225,
-           "lat": 34.447,
+           "lon": 135.205,
+           "lat": 34.417,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5503,8 +5488,8 @@
         "steps": [
          {
           "view": {
-           "lon": 135.215,
-           "lat": 34.432,
+           "lon": 135.265,
+           "lat": 34.447,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"
@@ -5625,7 +5610,7 @@
          {
           "view": {
            "lon": 135.225,
-           "lat": 34.417,
+           "lat": 34.457,
            "span": 0.09
           },
           "date": "2026-10-09/2026-10-09"

@@ -573,3 +573,8 @@ Each sub-phase stops for user approval.
 ## 2026-11-12 (evening)
 - Jakarta day (2026-11-13T23:00Z = 14 Nov 02:00 TR): long ucTWIvj9Xf0 (v3, cover "SINKING CITY"), Shorts c2teJHHPgn8 (trees) and hVoZOMcuRZ4 (capital). Lessons: dry-season Sentinel-2 composites leave seams/no-data wedges in the tropics -> single clear days per area (day_for); but one day per area makes fillers look like one scene -> spread filler points over distinct places.
 - Louisiana day (2026-11-14T23:00Z = 15 Nov 02:00 TR): script 2,092 words (fact-checked), own Landsat measurement (IdJC -45 %, Wax Lake + Atchafalaya +115 km2, Barataria -16 % since 1990), clear day LA_DAY 2026-10-13. Shorts island + cure re-rendering; storyboard running.
+
+## 2026-11-13 (early UTC)
+- Louisiana long v3 (d991ba0) audited: one real defect, a straight seam at 90.1 W through every Barataria Bay view (tiles 15RYN / 16RBT of the same 13 Oct pass, Sen2Cor corrects each UTM zone's tile on its own). Fix: `sentinel._match_overlap` colour-matches later tiles of a picked-day mosaic in their overlap (cache key v2m); local test step 1.58 -> 0.28 grey levels.
+- Re-rendering long (run 43354580656) and cure Short (run 43354585035, has a -90.05 wide view). Island Short audited and approved as is.
+- Next: fetch both with -Delete, audit, approve, upload long + 2 Shorts scheduled 2026-11-14T23:00Z.

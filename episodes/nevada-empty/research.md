@@ -97,3 +97,16 @@ Walking Box Ranch, Cattle Loading Gate - panoramio; Rural dirt road in cattle ra
 Carlin-type gold ore; Hoover Dam Ohio.JPG.
 REJECTED (soft): every Sedan crater photo, Nevada Test Site craters, Elko NV, Yucca Mountain crest aerial -> Sedan and
 Yucca Flat are shown from orbit instead (Sentinel-2, own image).
+
+## Expansion facts (2026-11-14, all A via search summaries; re-read where a card shows a number)
+- Nevada census: 62,266 (1880), 45,761 (1890), 42,335 (1900) (ahgp.org); Britannica: from 62,000 in 1880 to 47,000 in
+  1890, tied to the slump after the federal government limited silver's role. Virginia City census high 10,917 in 1880,
+  low of about 500 in 1940-1950 (NPS National Register page). NPS: about 25,000 by 1874 (estimate, not a census).
+- US 50: LIFE magazine, July 1986, called the Nevada stretch (Fernley to Ely) "The Loneliest Road in America", quoting
+  an unnamed AAA official; Nevada turned it into a slogan (Wikipedia, Nevada Magazine, A).
+- Lake Mead: full pool 1,221.4 ft; record low about 1,040.5 ft (July 2022, again Aug 2026), lowest since it filled in
+  1937; about a quarter full (Bureau of Reclamation via press, A). OWN: about 180 ft below full.
+- Yucca Mountain: 1987 amendments to the Nuclear Waste Policy Act made it the only site to be studied (GAO-11-731T, A);
+  DOE dismantled the program by 30 Sept 2010 (GAO), funding ended 2011; no high-level waste ever stored there (A).
+- UNSOURCED, keep out of the script: Mark Twain dates, "Battle Born"/silver as cause of statehood, "more than any city
+  between Denver and San Francisco", Humboldt River length in miles.

@@ -656,3 +656,8 @@ Each sub-phase stops for user approval.
 - 2026-11-14: Kansai re-edit audited (32 sheets), approved, UPLOADED: video WhvKbsw_z0Q, private, publishAt
   2026-11-15T23:00:00Z, cover set. Pin by hand in Studio. Release deleted. Australia storyboard 43523089329 downloaded
   (26 sheets, narration 920.9 s at 1.15 = 181 wpm; 30 mixed-day map warnings on wide Sentinel views): review is next.
+- 2026-11-14: Australia storyboard 1 (26 sheets) all looked at: painted regions, tints, MODIS days and far views are
+  good. Fixed: a dark vertical strip at the right of the EAST view for ~2 s after a cut (1:43, 4:59, 14:53; the Blue
+  Marble raster itself is clean, cause unknown) -> EAST narrowed to end at 155.5 E; channel route drawn in 1.2 s; the
+  cable-car photo caption. STORYBOARD 2 = run 43576512125: look at the EAST shots (sheets ~4, 9, 24); if the strip
+  is gone start the full render, then fetch, audit, approve, gate 2, upload with --publish-at 2026-11-16T23:00:00Z.

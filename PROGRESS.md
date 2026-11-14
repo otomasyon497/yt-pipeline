@@ -670,3 +670,7 @@ Each sub-phase stops for user approval.
   UPLOADED: video 1PkX-Z5feoQ, private, publishAt 2026-11-16T23:00:00Z (17 Nov 02:00 TR), cover set. Pin by hand:
   "If money were no object, would you build Bradfield's canal and try to green the middle, or leave the empty heart
   of the continent as it is?". Next slot (18 Nov) has no topic yet.
+- 2026-11-14: 18 Nov topic = Nevada (user chose it from a demand check of ten candidates). episodes/nevada-empty/
+  research.md has the gate-1 outline (hook + 5 reasons, about 2,850 words) and facts so far. Next: user approves the
+  outline, then read primary sources (CRS R42346, NOAA NCICS, LCB 2020 table, NPS Rhyolite, USGS Cold War craters),
+  regions (Clark/Washoe/federal land/Great Basin), script built like australia-interior/build_script.py.

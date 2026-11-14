@@ -653,3 +653,6 @@ Each sub-phase stops for user approval.
   MODIS dates 2018-05-15 / 2019-05-15 / 2025-07-12 / 2025-09-02, far airports and mine views), fix, then full render.
   Photos are 25 % of the shots, not the third the rule asks for: sharp licensed files ran out (each at most twice).
 - episode_check.py: PHOTO_MAX_USES 2, VIEW_MAX_USES 2, seconds per word scaled by voice_speed.
+- 2026-11-14: Kansai re-edit audited (32 sheets), approved, UPLOADED: video WhvKbsw_z0Q, private, publishAt
+  2026-11-15T23:00:00Z, cover set. Pin by hand in Studio. Release deleted. Australia storyboard 43523089329 downloaded
+  (26 sheets, narration 920.9 s at 1.15 = 181 wpm; 30 mixed-day map warnings on wide Sentinel views): review is next.

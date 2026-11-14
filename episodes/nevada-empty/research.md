@@ -110,3 +110,14 @@ Yucca Flat are shown from orbit instead (Sentinel-2, own image).
   DOE dismantled the program by 30 Sept 2010 (GAO), funding ended 2011; no high-level waste ever stored there (A).
 - UNSOURCED, keep out of the script: Mark Twain dates, "Battle Born"/silver as cause of statehood, "more than any city
   between Denver and San Francisco", Humboldt River length in miles.
+- Derby Dam 1905 (Reclamation Service, Newlands Project): diverted part of the Truckee away from Pyramid Lake to irrigate
+  Fallon; Winnemucca Lake, fed by Pyramid's overflow, dried up (dry since the 1930s); cui-ui endemic to Pyramid, food
+  of the Paiute, endangered 1973; size of Pyramid's drop DISPUTED (13 ft vs 80+ ft): say "dropped by tens of feet"
+  only if a USGS/BoR source is read, otherwise "fell" (American Heritage, Wikipedia, truckeeriver.org, A).
+- Prometheus: bristlecone pine on Wheeler Peak cut in August 1964 by graduate student Donald Currey with Forest Service
+  permission; NPS "The Prometheus Story": "estimated to be 4,900 years old"; Wheeler Peak area became Great Basin
+  National Park 22 years later (1986) (NPS page via search, A; read nps.gov/grba before a card).
+- BLM 2025 estimate: 73,130 wild horses and burros nationwide, Nevada 35,140 (OWN: 48 %, "about half") (BLM PDF via
+  search, A).
+- Burning Man: BLM permit cap 80,000 (2024), about 70,000 attended (Fodor's, A); Black Rock playa.
+- Las Vegas city: about 8,400 in 1940 (A); 641,903 in 2020 (Census QuickFacts, A).

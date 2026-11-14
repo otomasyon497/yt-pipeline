@@ -73,3 +73,14 @@ Lake Mead bathtub ring, cattle ranch, Paiute history.
   11,000 by 1879 (Wikipedia, A).
 - STILL TODO before the script: CRS R42346 exact federal %, Washoe 2020 exact, Nevada area/rank (Census), Lake Lahontan
   area, Area 51 (CIA 2013 release), Yucca Mountain, Carlin Trend gold, Native nations.
+- Census QuickFacts (A, via search): Washoe 2020 = 486,492. With Clark 2,265,461 and the state 3,104,614 (LCB, A):
+  OWN sum 2,751,953 = 88.6 % of Nevadans in two counties ("almost nine in ten").
+- Area: 110,572 sq mi, 7th largest state (Britannica / EBSCO, A). UK 94,000 sq mi (general) -> "bigger than Britain".
+- Federal land: CRS R42346 (2020 edition, 2018 data) 80.1 % (A, snippet); earlier edition 79.6 %. Say "about 80 %".
+  The September 2026 edition (2024 data) exists: read its Nevada row before the stat card.
+- Lake Lahontan: over 8,500 sq mi (22,000 km2) at its peak about 12,700 years ago, largest part at today's Carson Sink;
+  deepest near Pyramid Lake, about 900 ft (Wikipedia, A). Lake Erie 9,910 sq mi (general): say "nearly as big as Lake
+  Erie". Pyramid Lake today 188 sq mi, max depth 356 ft (A).
+- Gold: Nevada about 68 % of US gold output in 2024 (E&MJ citing Nevada Bureau of Mines, A); Carlin Trend passed 100 M
+  oz cumulative in 2025 (A). Check USGS Mineral Commodity Summaries 2026 before any card.
+- Area 51 / Yucca Mountain: not yet sourced. Use only if read (CIA 2013 release; DOE Yucca Mountain).

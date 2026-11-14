@@ -666,3 +666,7 @@ Each sub-phase stops for user approval.
   was clean. FULL RENDER started (see `gh run list --workflow render.yml`): fetch with -Delete, audit all sheets
   (check 1:43, 4:59, 14:53 for the strip), approve, gate 2 with the user, upload --publish-at 2026-11-16T23:00:00Z.
   Engine bug left open: dark strip at regional-raster edge during ease-in on mid-wide satellite views.
+- 2026-11-14: Australia render 43580725109 fetched (942 s), all 32 audit sheets viewed (dark strip gone), approved,
+  UPLOADED: video 1PkX-Z5feoQ, private, publishAt 2026-11-16T23:00:00Z (17 Nov 02:00 TR), cover set. Pin by hand:
+  "If money were no object, would you build Bradfield's canal and try to green the middle, or leave the empty heart
+  of the continent as it is?". Next slot (18 Nov) has no topic yet.

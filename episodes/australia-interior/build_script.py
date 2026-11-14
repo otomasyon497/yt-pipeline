@@ -15,7 +15,7 @@ sys.path.insert(0, str(HERE.parent.parent / "pipeline"))
 from schema import Paragraph  # noqa: E402
 
 AUS = {"lon": 134.0, "lat": -27.5, "span": 58}
-EAST = {"lon": 146.5, "lat": -26.0, "span": 30}
+EAST = {"lon": 143.0, "lat": -26.0, "span": 25}  # right edge at 155.5 E: a dark strip showed near 157 E for 2 s after a cut (storyboard 1)
 SA = {"lon": 137.6, "lat": -33.3, "span": 9.5}
 EYRE_W = {"lon": 137.4, "lat": -28.6, "span": 4.4}
 NQ = {"lon": 145.6, "lat": -19.0, "span": 9}
@@ -179,15 +179,15 @@ ANNA = place("Anna Creek Station", 136.17, -28.90, "Anna Creek Station", "site")
 GOYDER_E = {"from": [137.59, -34.07], "via": [[138.21, -33.35], [138.61, -32.73], [138.84, -32.97], [138.93, -33.67]], "to": [140.91, -35.26],
             "mode": "line", "color": "red", "seconds": 2.5, "label": "Goyder's Line (approximate)"}
 GOYDER_W = {"from": [133.67, -32.13], "via": [[136.20, -33.47]], "to": [136.57, -33.91], "mode": "line", "color": "red", "seconds": 1.5}
-PACIFIC_AIR = [{"from": [158.0, -18.0], "to": [147.2, -18.5], "color": "blue", "bend": 0.1},
-               {"from": [159.0, -27.0], "to": [153.6, -28.0], "color": "blue", "bend": -0.1},
-               {"from": [157.0, -35.0], "to": [151.3, -34.2], "color": "blue", "bend": 0.1}]
+PACIFIC_AIR = [{"from": [154.5, -18.0], "to": [147.2, -18.5], "color": "blue", "bend": 0.1},
+               {"from": [155.3, -26.0], "to": [153.6, -27.5], "color": "blue", "bend": -0.1},
+               {"from": [155.0, -35.0], "to": [151.3, -34.2], "color": "blue", "bend": 0.1}]
 TO_EYRE = [{"from": [142.5, -21.0], "to": [138.2, -27.6], "color": "blue", "bend": 0.2, "label": "up to ten months"},
            {"from": [144.5, -24.0], "to": [138.4, -28.0], "color": "blue", "bend": -0.15}]
 BRADFIELD_1938 = [{"from": [146.0, -18.6], "to": [144.3, -23.2], "color": "red", "bend": 0.15, "label": "Bradfield, 1938"},
                   {"from": [144.2, -23.5], "to": [138.2, -27.8], "color": "red", "bend": -0.15}]
 CHANNEL = {"from": [146.2, -19.9], "via": [[146.0, -22.5], [147.2, -25.5]], "to": [148.58, -28.04], "mode": "line", "color": "accent",
-           "seconds": 3, "label": "1,600 km channel (CSIRO's test)"}
+           "seconds": 1.2, "label": "1,600 km channel (CSIRO's test)"}
 
 chapters = [
     {"title": "The Empty Middle", "mood": "curious", "paragraphs": [
@@ -229,7 +229,7 @@ chapters = [
           paint(0, RANGE + "@alt", view=EAST),
           m("Moist air does", v(EAST, highlight=[RANGE + "@alt"], arrows=PACIFIC_AIR)),
           sat("a chain of highlands", 150.35, -33.75, 0.5, "Blue Mountains, New South Wales"),
-          photo("The air rises", PH_DAINTREE, "Daintree rainforest, Queensland"),
+          photo("The air rises", PH_DAINTREE, "Rain over the wet tropics, north Queensland"),
           sat("The wettest place", 145.9, -17.6, 0.9, "Queensland coast, Cairns to Cardwell", places=[CAIRNS]),
           photo("where rainforest", PH_DAINTREE2, "Daintree rainforest, Queensland"),
           sat("What crosses the", 144.2, -20.85, 0.7, "West of the range: Hughenden, Queensland"),
@@ -404,7 +404,7 @@ chapters = [
           sat("A second CSIRO report", 147.9, -27.6, 0.6, "Farmland on the Balonne River"),
           sat("There was one more", 146.16, -18.65, 0.5, "Herbert River at Ingham"),
           chart("By CSIRO's figures", "Water in the rivers Bradfield counted on", "GL a year", [["Bradfield's estimate", 7190], ["CSIRO's model", 3305]], "CSIRO, Bradfield Scheme Assessment factsheet, 2021", reveal=["more than twice"], highlight=1),
-          photo("Even the wet", PH_DAINTREE, "Daintree rainforest, Queensland")),
+          photo("Even the wet", PH_DAINTREE, "Rain over the wet tropics, north Queensland")),
         P("Which leaves a question. If the rain does not come, the soil is poor, the rivers end in salt, the farmers were beaten and the great canal does not pay, who are the people who do live out there?",
           paint(0, INLAND + "@red"),
           photo("the farmers were", PH_FARINA, "Ruin in Farina, South Australia"),

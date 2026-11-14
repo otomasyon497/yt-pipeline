@@ -539,9 +539,9 @@
         "steps": [
          {
           "view": {
-           "lon": 146.5,
+           "lon": 143.0,
            "lat": -26.0,
-           "span": 30
+           "span": 25
           },
           "highlight": [
            "file:range.geojson@alt"
@@ -558,9 +558,9 @@
         "steps": [
          {
           "view": {
-           "lon": 148.0,
-           "lat": -25.4,
-           "span": 27.0
+           "lon": 144.25,
+           "lat": -25.5,
+           "span": 22.5
           },
           "highlight": [
            "file:range.geojson@alt"
@@ -568,7 +568,7 @@
           "arrows": [
            {
             "from": [
-             158.0,
+             154.5,
              -18.0
             ],
             "to": [
@@ -580,19 +580,19 @@
            },
            {
             "from": [
-             159.0,
-             -27.0
+             155.3,
+             -26.0
             ],
             "to": [
              153.6,
-             -28.0
+             -27.5
             ],
             "color": "blue",
             "bend": -0.1
            },
            {
             "from": [
-             157.0,
+             155.0,
              -35.0
             ],
             "to": [
@@ -607,9 +607,9 @@
          {
           "at": 17,
           "view": {
-           "lon": 148.0,
-           "lat": -25.4,
-           "span": 20.25
+           "lon": 144.25,
+           "lat": -25.5,
+           "span": 16.875
           }
          }
         ],
@@ -637,7 +637,7 @@
        "type": "photo",
        "at": "The air rises",
        "photo": "File:Daintree Rainforest, Queensland (483845) (9443587310).jpg",
-       "on_screen_text": "Daintree rainforest, Queensland"
+       "on_screen_text": "Rain over the wet tropics, north Queensland"
       },
       {
        "type": "map",
@@ -1349,9 +1349,9 @@
         "steps": [
          {
           "view": {
-           "lon": 145.0,
-           "lat": -26.6,
-           "span": 33.0
+           "lon": 141.75,
+           "lat": -26.5,
+           "span": 27.5
           },
           "highlight": [
            "file:range.geojson@alt",
@@ -1361,9 +1361,9 @@
          {
           "at": 42,
           "view": {
-           "lon": 145.0,
-           "lat": -26.6,
-           "span": 24.75
+           "lon": 141.75,
+           "lat": -26.5,
+           "span": 20.625
           }
          }
         ],
@@ -3289,9 +3289,9 @@
         "steps": [
          {
           "view": {
-           "lon": 147.4,
-           "lat": -27.2,
-           "span": 24.6
+           "lon": 143.75,
+           "lat": -27.0,
+           "span": 20.5
           },
           "highlight": [
            "file:range.geojson@alt",
@@ -3447,7 +3447,7 @@
             ],
             "mode": "line",
             "color": "accent",
-            "seconds": 3,
+            "seconds": 1.2,
             "label": "1,600 km channel (CSIRO's test)"
            }
           ],
@@ -3580,7 +3580,7 @@
             ],
             "mode": "line",
             "color": "accent",
-            "seconds": 3,
+            "seconds": 1.2,
             "label": "1,600 km channel (CSIRO's test)"
            }
           ],
@@ -3694,7 +3694,7 @@
        "type": "photo",
        "at": "Even the wet",
        "photo": "File:Daintree Rainforest, Queensland (483845) (9443587310).jpg",
-       "on_screen_text": "Daintree rainforest, Queensland"
+       "on_screen_text": "Rain over the wet tropics, north Queensland"
       }
      ]
     },
@@ -4207,9 +4207,9 @@
         "steps": [
          {
           "view": {
-           "lon": 145.6,
-           "lat": -24.8,
-           "span": 35.4
+           "lon": 142.25,
+           "lat": -25.0,
+           "span": 29.5
           },
           "highlight": [
            "file:range.geojson@alt"
@@ -4410,7 +4410,7 @@
             ],
             "mode": "line",
             "color": "accent",
-            "seconds": 3,
+            "seconds": 1.2,
             "label": "1,600 km channel (CSIRO's test)"
            }
           ],

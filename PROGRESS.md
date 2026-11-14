@@ -679,3 +679,9 @@ Each sub-phase stops for user approval.
   Black Rock. Photo search running into scratchpad/nv (24 subjects). NEXT: pick photos (>=1400 px, sharp), MODIS/
   Landsat dates (Sedan crater, Lake Mead), write build_script.py modelled on australia-interior (hand-placed, no
   fillers, voice_speed 1.15), episode_check, claim_log + factcheck, cover.json, storyboard.
+- 2026-11-14: Nevada build_script.py draft 1 builds (1,360 words, 94 shots: 49 map, 32 photo). TOO SHORT: needs
+  2,750-2,900 words. Expand with SOURCED material only (read sources first, add to research.md): Comstock (Mark Twain
+  in Virginia City, statehood 1864 "Battle Born"), Nevada's population fall after 1880 (census 62,266 in 1880 ->
+  42,335 in 1900), Lake Lahontan shorelines, Pyramid Lake cui-ui / Paiute reservation, Lake Mead record low 2022,
+  Las Vegas growth (1940 8,422 -> today), Yucca Mountain nuclear waste plan, Area 51 (CIA 2013), Hoover Dam 1936,
+  BLM wild horses, US 50 "Loneliest Road" (LIFE 1986). Then episode_check, claim_log/factcheck, cover.json, storyboard.

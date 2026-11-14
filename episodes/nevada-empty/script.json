@@ -1,0 +1,1770 @@
+{
+ "title": "Why Almost Nobody Lives in Most of Nevada",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/nevada-empty/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "WHY SO EMPTY"
+ },
+ "chapters": [
+  {
+   "title": "Two Lights in the Dark",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Nevada is bigger than Great Britain. About three million people live in it. And almost nine out of ten of them live in just two places: Las Vegas in the far south, and Reno up against the mountains in the west. Everything in between, hundreds of miles of it, is almost empty. At night, from orbit, you can see it. Two lights, and darkness.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 38.6,
+           "span": 10.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "About three million",
+       "photo": "File:Las Vegas strip from the air (3191356789).jpg",
+       "on_screen_text": "Las Vegas from the air"
+      },
+      {
+       "type": "map",
+       "at": "And almost nine",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.375,
+           "lat": 38.81,
+           "span": 9.45
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "almost nine out of ten",
+       "stat": {
+        "value": "89 %",
+        "label": "Nevadans living in Clark and Washoe counties, 2020 census (our sum)",
+        "source": "US Census 2020 (Nevada Legislative Counsel Bureau; Census QuickFacts)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Everything in between",
+       "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
+       "on_screen_text": "US Route 50, 'the loneliest road in America'"
+      },
+      {
+       "type": "map",
+       "at": "At night, from orbit",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 11.55
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "It is not that nobody ever tried. A lake nearly as big as Lake Erie once filled the northwest of this state, and it vanished. Towns of thousands rose on silver and gold, and blew away within a few years. And today the federal government owns about four fifths of the land, including a stretch of desert it used to set off nuclear bombs. So why does almost nobody live in most of Nevada? There are five reasons. The first one is a wall.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tufa Rocks, Pyramid Lake, Nevada MET DP242995.jpg",
+       "on_screen_text": "Tufa rocks at Pyramid Lake"
+      },
+      {
+       "type": "map",
+       "at": "A lake nearly as big",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.4,
+           "lat": 39.8,
+           "span": 1.6
+          }
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": -118.4,
+           "lat": 39.8,
+           "span": 0.992
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Carson Sink, the floor of an ancient lake"
+      },
+      {
+       "type": "photo",
+       "at": "Towns of thousands",
+       "photo": "File:Rhyolite NV Ghost Town - 52133328814.jpg",
+       "on_screen_text": "Rhyolite, a ghost town"
+      },
+      {
+       "type": "map",
+       "at": "And today the federal",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.05,
+           "lat": 37.12,
+           "span": 0.25
+          }
+         },
+         {
+          "at": 52,
+          "view": {
+           "lon": -116.05,
+           "lat": 37.12,
+           "span": 0.155
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yucca Flat, Nevada Test Site"
+      },
+      {
+       "type": "map",
+       "at": "So why does almost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.61
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The first one is",
+       "photo": "File:Snow-capped peaks of the Sierra Nevada Mountain Range.jpg",
+       "on_screen_text": "The Sierra Nevada"
+      }
+     ],
+     "ask": {
+      "at": "So why does almost",
+      "text": "Why is most of Nevada empty?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Wall That Takes the Rain",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason one. The mountains take the rain. Weather in this part of America comes from the Pacific. Wet air rolls in off the ocean and hits a wall: the Sierra Nevada, a range of granite peaks more than fourteen thousand feet high, right along the California border. The air rises, cools, and drops its water on the western slopes. Snow piles up there by the meter. By the time that air comes down the other side, into Nevada, there is very little left.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.0,
+           "lat": 38.4,
+           "span": 15
+          },
+          "highlight": [
+           "file:sierra.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Weather in this part",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.25,
+           "lat": 38.7,
+           "span": 13.5
+          },
+          "highlight": [
+           "file:sierra.geojson@alt"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -124.5,
+             40.2
+            ],
+            "to": [
+             -120.6,
+             39.6
+            ],
+            "color": "blue",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -124.0,
+             37.4
+            ],
+            "to": [
+             -119.6,
+             37.6
+            ],
+            "color": "blue",
+            "bend": -0.1
+           }
+          ]
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": -118.25,
+           "lat": 38.7,
+           "span": 10.125
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Sierra Nevada, a range",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.3,
+           "lat": 37.7,
+           "span": 0.6
+          }
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": -119.3,
+           "lat": 37.7,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "High Sierra, Yosemite"
+      },
+      {
+       "type": "photo",
+       "at": "The air rises",
+       "photo": "File:North Lake Tahoe Aerial photo Don Ramey Logan.jpg",
+       "on_screen_text": "Lake Tahoe, on the crest of the Sierra"
+      },
+      {
+       "type": "map",
+       "at": "Snow piles up there",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -120.15,
+           "lat": 39.1,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The west side of Lake Tahoe"
+      },
+      {
+       "type": "map",
+       "at": "By the time that air",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.2,
+           "lat": 39.4,
+           "span": 0.6
+          },
+          "places": [
+           {
+            "name": "Carson City",
+            "lon": -119.77,
+            "lat": 39.16,
+            "kind": "city",
+            "label": "Carson City"
+           }
+          ]
+         },
+         {
+          "at": 74,
+          "view": {
+           "lon": -119.2,
+           "lat": 39.4,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "East of the Sierra, near Carson City"
+      }
+     ]
+    },
+    {
+     "text": "This is called a rain shadow, and Nevada lives in it. The government's climate scientists put it bluntly: Nevada is the nation's driest state. Across the whole state, the average is about ten inches of rain and snow a year. In the southern lowlands it is closer to four. Up on the high peaks of the Sierra it is more than fifty. Same air, a few dozen miles apart.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.6,
+           "lat": 38.9,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dry side of the Sierra"
+      },
+      {
+       "type": "document",
+       "at": "The government's climate",
+       "document": {
+        "text": "Nevada is the Nation's driest state. Statewide annual average (1895–2024) precipitation is only 10.2 inches.",
+        "source": "NOAA NCICS, State Climate Summary: Nevada",
+        "highlight": "driest state"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "In the southern lowlands",
+       "chart": {
+        "type": "bar",
+        "title": "Yearly rain and snow in Nevada",
+        "unit": "inches",
+        "data": [
+         [
+          "Southern lowlands",
+          4
+         ],
+         [
+          "State average",
+          10.2
+         ],
+         [
+          "High Sierra peaks",
+          50
+         ]
+        ],
+        "source": "NOAA NCICS, State Climate Summary: Nevada",
+        "highlight": 2,
+        "reveal": [
+         "Up on the high"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Same air, a few",
+       "photo": "File:Black Rock Desert 1.300.dpi (24995335682).jpg",
+       "on_screen_text": "Black Rock Desert"
+      }
+     ]
+    },
+    {
+     "text": "And it is not one wall. Nevada is made of them. Drive across the state and the road climbs a mountain range, drops into a flat dry valley, climbs another range, drops again, over and over, dozens of times. Geologists call it the Basin and Range. Each range squeezes a little more water out of the sky for itself, and each valley floor gets less. The towns that do exist sit where a stream comes down off a mountain, and almost nowhere else.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.1,
+           "lat": 39.5,
+           "span": 1.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ranges and basins near Austin"
+      },
+      {
+       "type": "photo",
+       "at": "Drive across the state",
+       "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
+       "on_screen_text": "US Route 50, 'the loneliest road in America'"
+      },
+      {
+       "type": "map",
+       "at": "Geologists call it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.4,
+           "lat": 38.9,
+           "span": 2.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Basin and Range, central Nevada"
+      },
+      {
+       "type": "photo",
+       "at": "Each range squeezes",
+       "photo": "File:Great Basin National Park - 53837533696.jpg",
+       "on_screen_text": "Great Basin National Park"
+      },
+      {
+       "type": "map",
+       "at": "The towns that do",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.89,
+           "lat": 39.25,
+           "span": 0.4
+          },
+          "places": [
+           {
+            "name": "Ely",
+            "lon": -114.89,
+            "lat": 39.25,
+            "kind": "city",
+            "label": "Ely"
+           }
+          ]
+         },
+         {
+          "at": 74,
+          "view": {
+           "lon": -114.89,
+           "lat": 39.25,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ely, at the foot of the Egan Range"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Water Goes Nowhere",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason two. What little water there is goes nowhere. Almost all of Nevada lies inside the Great Basin, the largest region in North America where rivers never reach the sea. Rain that falls here stays here. It runs downhill into a valley and stops, and the sun takes it back. Look at the Humboldt River. It rises in the mountains of northeast Nevada and crosses almost the whole state, about three hundred miles. And then it simply ends, in a dry flat called the Humboldt Sink.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.75,
+           "lat": 38.1,
+           "span": 16.5
+          },
+          "highlight": [
+           "file:great_basin.geojson@blue"
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -119.75,
+           "lat": 38.1,
+           "span": 12.375
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the largest region",
+       "stat": {
+        "value": "0 RIVERS",
+        "label": "Rivers in the Great Basin that reach the sea",
+        "source": "USGS; Great Basin hydrology"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It runs downhill into",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.35,
+           "lat": 39.75,
+           "span": 0.7
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Carson Sink"
+      },
+      {
+       "type": "photo",
+       "at": "Look at the Humboldt",
+       "photo": "File:Humboldt River Papa 2.jpg",
+       "on_screen_text": "Humboldt River, northern Nevada"
+      },
+      {
+       "type": "map",
+       "at": "It rises in the mountains",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.39
+          },
+          "routes": [
+           {
+            "from": [
+             -115.0,
+             41.05
+            ],
+            "via": [
+             [
+              -115.76,
+              40.83
+             ],
+             [
+              -116.9,
+              40.7
+             ],
+             [
+              -117.73,
+              40.97
+             ],
+             [
+              -118.17,
+              40.55
+             ]
+            ],
+            "to": [
+             -118.62,
+             39.98
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.5,
+            "label": "Humboldt River"
+           }
+          ],
+          "places": [
+           {
+            "name": "Elko",
+            "lon": -115.76,
+            "lat": 40.83,
+            "kind": "city",
+            "label": "Elko"
+           },
+           {
+            "name": "Humboldt Sink",
+            "lon": -118.62,
+            "lat": 39.98,
+            "kind": "site",
+            "label": "Humboldt Sink"
+           }
+          ]
+         },
+         {
+          "at": 64,
+          "view": {
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 9.293
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And then it simply",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.62,
+           "lat": 39.98,
+           "span": 0.4
+          },
+          "places": [
+           {
+            "name": "Humboldt Sink",
+            "lon": -118.62,
+            "lat": 39.98,
+            "kind": "site",
+            "label": "Humboldt Sink"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Humboldt Sink"
+      }
+     ]
+    },
+    {
+     "text": "It was not always like this. At the end of the last ice age, a lake covered more than eight thousand five hundred square miles of northwestern Nevada, nearly the size of Lake Erie and in places some nine hundred feet deep. Geologists call it Lake Lahontan. You can still see its old shorelines, cut like bathtub rings into the mountainsides. Then the climate dried, and the lake broke into pieces that shrank and disappeared. Only two real lakes are left: Pyramid Lake and Walker Lake.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.9,
+           "lat": 40.2,
+           "span": 2.6
+          }
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -118.9,
+           "lat": 40.2,
+           "span": 1.95
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where Lake Lahontan stood"
+      },
+      {
+       "type": "stat",
+       "at": "more than eight thousand",
+       "stat": {
+        "value": "8,500 SQ MI",
+        "label": "Lake Lahontan at its peak, about 12,700 years ago",
+        "source": "Lake Lahontan studies (USGS and others)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "You can still see",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.0,
+           "lat": 40.85,
+           "span": 0.7
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Black Rock Desert, an old lake floor"
+      },
+      {
+       "type": "photo",
+       "at": "Then the climate dried",
+       "photo": "File:Black Rock Desert 1.300.dpi (24995335682).jpg",
+       "on_screen_text": "Black Rock Desert"
+      },
+      {
+       "type": "map",
+       "at": "Only two real lakes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.55,
+           "lat": 40.0,
+           "span": 0.5
+          },
+          "places": [
+           {
+            "name": "Pyramid Lake",
+            "lon": -119.55,
+            "lat": 40.0,
+            "kind": "site",
+            "label": "Pyramid Lake"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pyramid Lake"
+      },
+      {
+       "type": "photo",
+       "at": "Pyramid Lake and Walker",
+       "photo": "File:ISS-32 Walker Lake, Nevada.jpg",
+       "on_screen_text": "Walker Lake from the International Space Station (NASA)"
+      }
+     ]
+    },
+    {
+     "text": "Without rivers that run all year, there is little to farm. Most of Nevada's land is too dry, too salty or too steep to grow a crop without water brought in from somewhere else. The valleys that are green are green because of a single stream, a spring, or a well. Everywhere else is sagebrush, and cattle need a lot of it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Pyramid Lake in Bloom (153466).jpg",
+       "on_screen_text": "Pyramid Lake"
+      },
+      {
+       "type": "map",
+       "at": "Most of Nevada's land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.7,
+           "lat": 40.3,
+           "span": 0.8
+          }
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": -117.7,
+           "lat": 40.3,
+           "span": 0.496
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt flats north of Lovelock"
+      },
+      {
+       "type": "map",
+       "at": "The valleys that are",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.2,
+           "lat": 39.5,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 42,
+          "view": {
+           "lon": -119.2,
+           "lat": 39.5,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigated fields near Fallon"
+      },
+      {
+       "type": "photo",
+       "at": "Everywhere else is",
+       "photo": "File:Rural dirt road in cattle ranch area.jpg",
+       "on_screen_text": "Ranch country"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Silver Ran Out",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. The rush came, and then it left. In 1859, prospectors found silver and gold near what became Virginia City: the Comstock Lode. Within fifteen years Virginia City had about twenty-five thousand people, more than any city between Denver and San Francisco. Nevada became a state in 1864, in large part because of that silver. And then the ore ran thin. By 1879 the town had fewer than eleven thousand, and it kept falling.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 9.975
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Virginia City",
+            "lon": -119.65,
+            "lat": 39.31,
+            "kind": "site",
+            "label": "Virginia City"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 1859, prospectors",
+       "photo": "File:Virginia City, Nevada - 2025.jpg",
+       "on_screen_text": "Virginia City today"
+      },
+      {
+       "type": "map",
+       "at": "Within fifteen years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.65,
+           "lat": 39.31,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Virginia City from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "about twenty-five thousand",
+       "stat": {
+        "value": "25,000",
+        "label": "Virginia City's population by 1874",
+        "source": "National Park Service, Virginia City Historic District"
+       }
+      },
+      {
+       "type": "map",
+       "at": "And then the ore",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.6,
+           "lat": 39.28,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 65,
+          "view": {
+           "lon": -119.6,
+           "lat": 39.28,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mine dumps on the Comstock"
+      }
+     ]
+    },
+    {
+     "text": "The story repeated across the desert. Look at Rhyolite, near the California line. In 1904 two prospectors found quartz, in the words of the National Park Service, full of free gold. Within three years Rhyolite had electricity, a mill crushing three hundred tons of ore a day, a school for two hundred and fifty children, and a three-storey bank building that cost ninety thousand dollars. Then came the financial panic of 1907. By 1910 only six hundred and eleven people were left. The mine closed the next year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.83,
+           "lat": 36.9,
+           "span": 0.2
+          },
+          "places": [
+           {
+            "name": "Rhyolite",
+            "lon": -116.83,
+            "lat": 36.9,
+            "kind": "site",
+            "label": "Rhyolite"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -116.83,
+           "lat": 36.9,
+           "span": 0.124
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rhyolite from orbit"
+      },
+      {
+       "type": "document",
+       "at": "in the words of the National",
+       "document": {
+        "text": "...quartz... full of free gold.",
+        "source": "National Park Service, Rhyolite Ghost Town",
+        "highlight": "full of free gold"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Within three years",
+       "photo": "File:Rhyolite NV Ghost Town - 52133328559.jpg",
+       "on_screen_text": "Rhyolite: what is left of the bank"
+      },
+      {
+       "type": "stat",
+       "at": "By 1910 only six",
+       "stat": {
+        "value": "611",
+        "label": "People left in Rhyolite in 1910, three years after the boom",
+        "source": "National Park Service, Rhyolite Ghost Town"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The mine closed",
+       "photo": "File:Rhyolite NV Ghost Town - 52133584170.jpg",
+       "on_screen_text": "Rhyolite ghost town"
+      }
+     ]
+    },
+    {
+     "text": "Tonopah, Goldfield, dozens of camps whose names are now just dots on a map. A mining town lives exactly as long as the ore under it. When it runs out, there is nothing else here to keep people: no farmland, no river, no port. So they leave, and the desert takes the buildings back.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Photographs of crowds watching a parade in Tonopah, Nevada circa 1910s.tif",
+       "on_screen_text": "Tonopah, about 1910s"
+      },
+      {
+       "type": "photo",
+       "at": "Goldfield, dozens",
+       "photo": "File:Myers Mountain and the eastern skyline of Goldfield in Esmeralda County, Nevada in October 2026.jpg",
+       "on_screen_text": "Goldfield today"
+      },
+      {
+       "type": "map",
+       "at": "A mining town lives",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.23,
+           "lat": 38.07,
+           "span": 0.25
+          },
+          "places": [
+           {
+            "name": "Tonopah",
+            "lon": -117.23,
+            "lat": 38.07,
+            "kind": "city",
+            "label": "Tonopah"
+           }
+          ]
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -117.23,
+           "lat": 38.07,
+           "span": 0.155
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tonopah"
+      },
+      {
+       "type": "photo",
+       "at": "So they leave",
+       "photo": "File:Rhyolite NV Ghost Town - 52133328814.jpg",
+       "on_screen_text": "Rhyolite, a ghost town"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Washington Kept It",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason four. Most of Nevada was never handed out. When the West was settled, the federal government gave away or sold land to homesteaders, railroads and states. In Nevada, few people wanted dry sagebrush, and most of it stayed with Washington. Today, by the count of Congress's own research service, about eighty percent of Nevada is federal land, the highest share of any state. Most of it is run by the Bureau of Land Management, as open range for grazing, mining and recreation.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.635,
+           "lat": 38.6,
+           "span": 9.03
+          },
+          "highlight": [
+           "Nevada@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "When the West was",
+       "photo": "File:Walking Box Ranch, Cattle Loading Gate - panoramio.jpg",
+       "on_screen_text": "A cattle loading gate, southern Nevada"
+      },
+      {
+       "type": "map",
+       "at": "In Nevada, few people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.0,
+           "lat": 39.6,
+           "span": 1.2
+          }
+         },
+         {
+          "at": 38,
+          "view": {
+           "lon": -116.0,
+           "lat": 39.6,
+           "span": 0.744
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open range, central Nevada"
+      },
+      {
+       "type": "stat",
+       "at": "about eighty percent",
+       "stat": {
+        "value": "80 %",
+        "label": "Share of Nevada owned by the federal government",
+        "source": "Congressional Research Service, R42346"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most of it is run",
+       "photo": "File:Rural dirt road in cattle ranch area.jpg",
+       "on_screen_text": "Ranch country"
+      }
+     ]
+    },
+    {
+     "text": "And some of it was set aside for something else entirely. Sixty-five miles north of Las Vegas lies the Nevada Test Site. Between 1951 and 1992, the United States set off nine hundred and twenty-eight nuclear tests here, a hundred in the open air and the rest underground. The US Geological Survey calls Yucca Flat the most cratered landscape on Earth. From orbit it looks like the Moon.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.6,
+           "lat": 36.6,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Sedan crater",
+            "lon": -116.046,
+            "lat": 37.177,
+            "kind": "site",
+            "label": "Sedan crater, 1962"
+           }
+          ]
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -115.6,
+           "lat": 36.6,
+           "span": 2.25
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "nine hundred and twenty-eight",
+       "stat": {
+        "value": "928",
+        "label": "Nuclear tests at the Nevada Test Site, 1951-1992",
+        "source": "Nevada National Security Site (DOE/NV-1243)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The US Geological Survey",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.05,
+           "lat": 37.08,
+           "span": 0.18
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yucca Flat"
+      },
+      {
+       "type": "document",
+       "at": "calls Yucca Flat",
+       "document": {
+        "text": "The most cratered landscape on Earth.",
+        "source": "USGS EROS, Cold War Craters",
+        "highlight": "most cratered"
+       }
+      },
+      {
+       "type": "map",
+       "at": "From orbit it looks",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.03,
+           "lat": 37.05,
+           "span": 0.07
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Subsidence craters, Yucca Flat"
+      }
+     ]
+    },
+    {
+     "text": "The biggest hole is this one. On the sixth of July 1962, a hundred-and-four-kiloton device buried under the desert was set off as a test of using bombs to dig canals and harbors. It left the Sedan crater: twelve hundred and eighty feet across and three hundred and twenty feet deep. Land like this will not be settled. Neither will the ranges and bombing grounds around it. Together, the military holds millions of acres of southern Nevada.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.046,
+           "lat": 37.177,
+           "span": 0.05
+          },
+          "places": [
+           {
+            "name": "Sedan crater",
+            "lon": -116.046,
+            "lat": 37.177,
+            "kind": "site",
+            "label": "Sedan crater, 1962"
+           }
+          ]
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": -116.046,
+           "lat": 37.177,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sedan crater"
+      },
+      {
+       "type": "stat",
+       "at": "twelve hundred and eighty",
+       "stat": {
+        "value": "1,280 FT",
+        "label": "Width of the Sedan crater (320 ft deep), 6 July 1962",
+        "source": "USGS EROS, Cold War Craters"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Land like this will",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.12,
+           "lat": 37.2,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The north end of Yucca Flat"
+      },
+      {
+       "type": "map",
+       "at": "Together, the military",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.9,
+           "lat": 37.2,
+           "span": 2.4
+          },
+          "places": [
+           {
+            "name": "Sedan crater",
+            "lon": -116.046,
+            "lat": 37.177,
+            "kind": "site",
+            "label": "Sedan crater, 1962"
+           },
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who Does Live There",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Las Vegas sits in one of the driest valleys in the country. It exists because of Hoover Dam and Lake Mead, the reservoir behind it on the Colorado River. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado. Look at the white ring around Lake Mead. That is how far the water has dropped.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 39.125,
+           "span": 11.13
+          },
+          "highlight": [
+           "Clark@accent"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Mostly, people who",
+       "photo": "File:Aerial view showing the Las Vegas Strip at dusk, Las Vegas, Nevada LCCN2011634444.tif",
+       "on_screen_text": "The Las Vegas Strip at dusk"
+      },
+      {
+       "type": "photo",
+       "at": "It exists because",
+       "photo": "File:Hoover Dam Ohio.JPG",
+       "on_screen_text": "Hoover Dam"
+      },
+      {
+       "type": "stat",
+       "at": "about ninety percent",
+       "stat": {
+        "value": "90 %",
+        "label": "Share of southern Nevada's water from the Colorado River",
+        "source": "Southern Nevada Water Authority"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Look at the white",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.45,
+           "lat": 36.13,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Mead's bathtub ring"
+      }
+     ]
+    },
+    {
+     "text": "Reno and Carson City do the same in the north, on the Truckee and Carson rivers that run down from the Sierra snow. And in the northeast, around Elko, the desert pays in a different way: gold. Nevada mines most of the gold produced in the United States, from deep pits along a belt called the Carlin Trend. The pits employ thousands, but many workers drive in and out, and the towns stay small.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Reno skyline.JPG",
+       "on_screen_text": "Reno"
+      },
+      {
+       "type": "map",
+       "at": "on the Truckee and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.78,
+           "lat": 39.52,
+           "span": 0.35
+          },
+          "places": [
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Reno and the Truckee River"
+      },
+      {
+       "type": "map",
+       "at": "And in the northeast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.37,
+           "lat": 40.98,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gold mines on the Carlin Trend"
+      },
+      {
+       "type": "photo",
+       "at": "Nevada mines most",
+       "photo": "File:Twin Creeks mine Nevada Carlin-type gold ore.jpg",
+       "on_screen_text": "Carlin-type gold ore"
+      },
+      {
+       "type": "map",
+       "at": "The pits employ thousands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.76,
+           "lat": 40.83,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Elko",
+            "lon": -115.76,
+            "lat": 40.83,
+            "kind": "city",
+            "label": "Elko"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elko"
+      }
+     ]
+    },
+    {
+     "text": "And long before any of them, the Great Basin had people. The Northern Paiute, the Washoe and the Western Shoshone lived across this land for thousands of years, moving with the seasons between the lakes, the piñon pine hills and the valleys. They lived with the desert's limits instead of fighting them. That may be the real lesson of Nevada.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Paiute women.jpg",
+       "on_screen_text": "Paiute women, historical photograph"
+      },
+      {
+       "type": "map",
+       "at": "moving with the seasons",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.55,
+           "lat": 40.05,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pyramid Lake, Paiute land"
+      },
+      {
+       "type": "photo",
+       "at": "They lived with",
+       "photo": "File:Great Basin National Park - 53837789943.jpg",
+       "on_screen_text": "Great Basin National Park"
+      },
+      {
+       "type": "map",
+       "at": "That may be the real",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 8.19
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Empty Middle",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So put it together. Mountains that take the rain. Rivers that end in the sand. A lake that dried up. Silver and gold that ran out. And a federal landlord holding four fifths of the state. Nevada is not empty by accident. Its people live where the water is, and the water is almost nowhere.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.375,
+           "lat": 38.81,
+           "span": 9.166
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Mountains that take",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.55,
+           "lat": 37.8,
+           "span": 12.3
+          },
+          "highlight": [
+           "file:sierra.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Rivers that end",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.62,
+           "lat": 39.98,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Humboldt Sink"
+      },
+      {
+       "type": "photo",
+       "at": "Silver and gold that",
+       "photo": "File:Rhyolite NV Ghost Town - 52133584170.jpg",
+       "on_screen_text": "Rhyolite ghost town"
+      },
+      {
+       "type": "map",
+       "at": "And a federal landlord",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 11.204
+          },
+          "highlight": [
+           "Nevada@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Nevada is not empty",
+       "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
+       "on_screen_text": "US Route 50, 'the loneliest road in America'"
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If you could live anywhere in Nevada, would you pick the lights of Las Vegas, or a ranch at the end of a hundred-mile dirt road?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.352
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "would you pick",
+       "photo": "File:Las Vegas strip from the air (3191356789).jpg",
+       "on_screen_text": "Las Vegas from the air"
+      },
+      {
+       "type": "photo",
+       "at": "or a ranch at",
+       "photo": "File:Rural dirt road in cattle ranch area.jpg",
+       "on_screen_text": "Ranch country"
+      }
+     ],
+     "ask": {
+      "at": "would you pick",
+      "text": "Las Vegas, or the empty middle?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives in Most of Nevada",
+  "description": "Nevada is bigger than Great Britain, yet almost nine in ten Nevadans live in just two counties, around Las Vegas and Reno. This video goes through the five reasons the rest stayed empty: the Sierra Nevada rain shadow that makes Nevada the driest state, a Great Basin whose rivers never reach the sea, the silver and gold rushes that came and went, a federal government that still owns about 80 % of the land, including the Nevada Test Site, and the few places where people found water.",
+  "tags": [
+   "Nevada",
+   "why nobody lives in Nevada",
+   "Great Basin",
+   "Sierra Nevada",
+   "rain shadow",
+   "Rhyolite ghost town",
+   "Comstock Lode",
+   "Nevada Test Site",
+   "Sedan crater",
+   "Lake Lahontan",
+   "Las Vegas",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you could live anywhere in Nevada, would you pick the lights of Las Vegas, or a ranch at the end of a hundred-mile dirt road?"
+ }
+}

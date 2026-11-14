@@ -645,6 +645,68 @@
        "on_screen_text": "Ely, at the foot of the Egan Range"
       }
      ]
+    },
+    {
+     "text": "The high ranges are islands of a different climate, cooler and a little wetter than the desert below. On Wheeler Peak, in what is now Great Basin National Park, grow bristlecone pines, some of the oldest living things on Earth. In August 1964 a graduate student, with the Forest Service's permission, cut one of them down to count its rings. The National Park Service says the tree, later named Prometheus, was about four thousand nine hundred years old. Twenty-two years later the mountain became a national park.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.31,
+           "lat": 39.01,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -114.31,
+           "lat": 39.01,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wheeler Peak, Great Basin National Park"
+      },
+      {
+       "type": "photo",
+       "at": "On Wheeler Peak",
+       "photo": "File:Great Basin National Park - 53837789943.jpg",
+       "on_screen_text": "Great Basin National Park"
+      },
+      {
+       "type": "stat",
+       "at": "was about four thousand",
+       "stat": {
+        "value": "4,900 YEARS",
+        "label": "Estimated age of the Prometheus bristlecone pine, cut in 1964",
+        "source": "National Park Service, The Prometheus Story"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Twenty-two years later",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.25,
+           "lat": 39.0,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Snake Range and Great Basin National Park"
+      }
+     ]
     }
    ]
   },
@@ -899,6 +961,150 @@
        "at": "Pyramid Lake and Walker",
        "photo": "File:ISS-32 Walker Lake, Nevada.jpg",
        "on_screen_text": "Walker Lake from the International Space Station (NASA)"
+      }
+     ]
+    },
+    {
+     "text": "Even those two have been fought over. In 1905, in one of the first projects of the new federal Reclamation Service, Derby Dam was built across the Truckee River east of Reno. It sent part of the river into a canal to water farms around Fallon, in the middle of the desert. Less water reached Pyramid Lake, and the lake fell. Its sister, Winnemucca Lake, which had been filled by Pyramid's overflow, dried up completely. In Pyramid Lake lives a fish found nowhere else, the cui-ui, which the Paiute people had fished for generations. It has been on the endangered species list since 1973.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.45,
+           "lat": 39.58,
+           "span": 0.15
+          }
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": -119.45,
+           "lat": 39.58,
+           "span": 0.093
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Derby Dam on the Truckee River"
+      },
+      {
+       "type": "map",
+       "at": "It sent part of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.2,
+           "lat": 39.65,
+           "span": 1.6
+          },
+          "routes": [
+           {
+            "from": [
+             -119.45,
+             39.58
+            ],
+            "to": [
+             -118.78,
+             39.47
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 1.5,
+            "label": "Truckee Canal"
+           }
+          ],
+          "places": [
+           {
+            "name": "Pyramid Lake",
+            "lon": -119.55,
+            "lat": 40.0,
+            "kind": "site",
+            "label": "Pyramid Lake"
+           },
+           {
+            "name": "Fallon",
+            "lon": -118.78,
+            "lat": 39.47,
+            "kind": "city",
+            "label": "Fallon"
+           }
+          ]
+         },
+         {
+          "at": 42,
+          "view": {
+           "lon": -119.2,
+           "lat": 39.65,
+           "span": 0.992
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Less water reached",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.55,
+           "lat": 40.05,
+           "span": 0.45
+          },
+          "places": [
+           {
+            "name": "Pyramid Lake",
+            "lon": -119.55,
+            "lat": 40.0,
+            "kind": "site",
+            "label": "Pyramid Lake"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pyramid Lake"
+      },
+      {
+       "type": "map",
+       "at": "Its sister, Winnemucca",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.32,
+           "lat": 40.2,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dry bed of Winnemucca Lake"
+      },
+      {
+       "type": "photo",
+       "at": "In Pyramid Lake lives",
+       "photo": "File:Tufa Rocks, Pyramid Lake, Nevada MET DP242995.jpg",
+       "on_screen_text": "Tufa rocks at Pyramid Lake"
+      },
+      {
+       "type": "stat",
+       "at": "It has been on",
+       "stat": {
+        "value": "1973",
+        "label": "Year the cui-ui, found only in Pyramid Lake, was listed endangered",
+        "source": "US Fish and Wildlife Service, via truckeeriver.org"
+       }
       }
      ]
     },
@@ -1359,6 +1565,51 @@
      ]
     },
     {
+     "text": "That open range has some unusual tenants. By the Bureau of Land Management's own estimate in 2025, about seventy-three thousand wild horses and burros roam public land in the American West, and about thirty-five thousand of them, nearly half, are in Nevada. Out here, wild horses outnumber the people in whole counties.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.3,
+           "lat": 40.6,
+           "span": 1.0
+          }
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": -117.3,
+           "lat": 40.6,
+           "span": 0.62
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open range, northern Nevada"
+      },
+      {
+       "type": "stat",
+       "at": "about thirty-five thousand",
+       "stat": {
+        "value": "35,140",
+        "label": "Wild horses and burros on Nevada's public land, nearly half the US total",
+        "source": "Bureau of Land Management, 2025 population estimates"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Out here, wild horses",
+       "photo": "File:Walking Box Ranch, Cattle Loading Gate - panoramio.jpg",
+       "on_screen_text": "A cattle loading gate, southern Nevada"
+      }
+     ]
+    },
+    {
      "text": "And some of it was set aside for something else entirely. Sixty-five miles north of Las Vegas lies the Nevada Test Site. Between 1951 and 1992, the United States set off nine hundred and twenty-eight nuclear tests here, a hundred in the open air and the rest underground. The US Geological Survey calls Yucca Flat the most cratered landscape on Earth. From orbit it looks like the Moon.",
      "shots": [
       {
@@ -1665,7 +1916,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Las Vegas sits in one of the driest valleys in the country. It exists because of Hoover Dam and Lake Mead, the reservoir behind it on the Colorado River. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado. Look at the white ring around Lake Mead. That is how far the water has dropped. Full, the lake stands at about twelve hundred and twenty feet above sea level. In 2022, and again in the summer of 2026, it fell to about one thousand and forty, its lowest since it first filled in 1937, around a quarter full. A city of two million rests on that line.",
+     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Las Vegas sits in one of the driest valleys in the country. It exists because of Hoover Dam and Lake Mead, the reservoir behind it on the Colorado River. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado. Look at the white ring around Lake Mead. That is how far the water has dropped. Full, the lake stands at about twelve hundred and twenty feet above sea level. In 2022, and again in the summer of 2026, it fell to about one thousand and forty, its lowest since it first filled in 1937, around a quarter full. A city of two million rests on that line. In 1940 the city of Las Vegas had about eight thousand four hundred people. At the 2020 census it had more than six hundred and forty thousand, inside a metro area of over two million.",
      "shots": [
       {
        "type": "map",
@@ -1738,7 +1989,7 @@
        "at": "Full, the lake stands",
        "stat": {
         "value": "-180 FT",
-        "label": "Lake Mead's record low against full pool (1,040.5 vs 1,221.4 ft above sea level)",
+        "label": "Lake Mead's record low below full pool (1,040.5 vs 1,221.4 ft)",
         "source": "US Bureau of Reclamation, via press reports"
        }
       },
@@ -1764,6 +2015,30 @@
        "at": "A city of two million",
        "photo": "File:Las Vegas strip from the air (3191356789).jpg",
        "on_screen_text": "Las Vegas from the air"
+      },
+      {
+       "type": "chart",
+       "at": "In 1940 the city",
+       "chart": {
+        "type": "bar",
+        "title": "People in the city of Las Vegas",
+        "unit": "people",
+        "data": [
+         [
+          "1940",
+          8400
+         ],
+         [
+          "2020",
+          641903
+         ]
+        ],
+        "source": "US census",
+        "highlight": 1,
+        "reveal": [
+         "At the 2020 census"
+        ]
+       }
       }
      ]
     },
@@ -1854,6 +2129,86 @@
      ]
     },
     {
+     "text": "And once a year, for about a week, Nevada's emptiness becomes a city. On the dry bed of old Lake Lahontan in the Black Rock Desert, the Burning Man festival builds a temporary town for some seventy thousand people, under a federal permit that allows up to eighty thousand. Then everyone packs up and leaves, and the playa is empty again. It is the clearest picture of the whole state: people can come, but very few can stay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.21,
+           "lat": 40.79,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Black Rock playa"
+      },
+      {
+       "type": "photo",
+       "at": "On the dry bed",
+       "photo": "File:Black Rock Desert 1.300.dpi (24995335682).jpg",
+       "on_screen_text": "Black Rock Desert"
+      },
+      {
+       "type": "stat",
+       "at": "for some seventy thousand",
+       "stat": {
+        "value": "~70,000",
+        "label": "People at Burning Man in 2024, on a BLM permit for up to 80,000",
+        "source": "Bureau of Land Management permit; press reports"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is the clearest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 11.204
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 8.403
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
      "text": "And long before any of them, the Great Basin had people. The Northern Paiute, the Washoe and the Western Shoshone lived across this land for thousands of years, moving with the seasons between the lakes, the piñon pine hills and the valleys. They lived with the desert's limits instead of fighting them. That may be the real lesson of Nevada.",
      "shots": [
       {
@@ -1892,9 +2247,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.425,
-           "lat": 38.39,
-           "span": 11.204
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.352
           },
           "highlight": [
            "Nevada@red"
@@ -1938,9 +2293,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 8.352
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.018
           },
           "layer": "night"
          }
@@ -1997,9 +2352,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 12.018
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 9.676
           },
           "highlight": [
            "Nevada@red"
@@ -2027,9 +2382,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.165,
+           "lon": -117.635,
            "lat": 38.6,
-           "span": 9.676
+           "span": 8.759
           },
           "highlight": [
            "Nevada@red"

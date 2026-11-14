@@ -685,3 +685,8 @@ Each sub-phase stops for user approval.
   42,335 in 1900), Lake Lahontan shorelines, Pyramid Lake cui-ui / Paiute reservation, Lake Mead record low 2022,
   Las Vegas growth (1940 8,422 -> today), Yucca Mountain nuclear waste plan, Area 51 (CIA 2013), Hoover Dam 1936,
   BLM wild horses, US 50 "Loneliest Road" (LIFE 1986). Then episode_check, claim_log/factcheck, cover.json, storyboard.
+- 2026-11-14: Nevada draft 2 = 1,618 words, 110 shots. STILL ~1,200 words short. Next sourced additions to research
+  (read, add to research.md, then paragraphs): Derby Dam / Newlands Project 1905 and Pyramid Lake's fall (Paiute,
+  cui-ui fish); Burning Man's temporary city on the Black Rock playa (attendance figure); Great Basin bristlecone pines
+  and the Prometheus tree on Wheeler Peak (1964); BLM wild horses (Nevada's share); Las Vegas growth 1940 -> 2020;
+  Hoover Dam 1931-36; Area 51 (CIA 2013). Keep every shot hand-placed; then episode_check, claim_log, cover, storyboard.

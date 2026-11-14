@@ -84,3 +84,16 @@ Lake Mead bathtub ring, cattle ranch, Paiute history.
 - Gold: Nevada about 68 % of US gold output in 2024 (E&MJ citing Nevada Bureau of Mines, A); Carlin Trend passed 100 M
   oz cumulative in 2025 (A). Check USGS Mineral Commodity Summaries 2026 before any card.
 - Area 51 / Yucca Mountain: not yet sourced. Use only if read (CIA 2013 release; DOE Yucca Mountain).
+
+## Photos checked 2026-11-14 (commons.check_quality; all >= 1400 px and detail >= 0.65)
+Rhyolite NV Ghost Town - 52133328814 / 52133328559 / 52133584170; Black Rock Desert 1.300.dpi (24995335682); Tufa
+Rocks, Pyramid Lake, Nevada MET DP242995; Pyramid Lake in Bloom (153466); Humboldt River Papa 2; ISS-32 Walker Lake,
+Nevada; Us Route 50 The Loneliest Road In America (225539129).jpeg; North Lake Tahoe Aerial photo Don Ramey Logan;
+Snow-capped peaks of the Sierra Nevada Mountain Range; Las Vegas strip from the air (3191356789); Aerial view showing
+the Las Vegas Strip at dusk ... LCCN2011634444.tif; Reno skyline.JPG; Virginia City, Nevada - 2025; Tonopah, Nevada
+LCCN2007662611.tif; Photographs of crowds watching a parade in Tonopah, Nevada circa 1910s.tif; Myers Mountain and the
+eastern skyline of Goldfield ... October 2026; Great Basin National Park - 53837533696 / 53837789943; Paiute women;
+Walking Box Ranch, Cattle Loading Gate - panoramio; Rural dirt road in cattle ranch area; Twin Creeks mine Nevada
+Carlin-type gold ore; Hoover Dam Ohio.JPG.
+REJECTED (soft): every Sedan crater photo, Nevada Test Site craters, Elko NV, Yucca Mountain crest aerial -> Sedan and
+Yucca Flat are shown from orbit instead (Sentinel-2, own image).

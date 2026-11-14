@@ -52,3 +52,24 @@ Episode-plan step 1:
 Rhyolite ruins (NPS), Virginia City, Sedan crater (DOE), Black Rock Desert, Pyramid Lake, Humboldt Sink, Great Basin
 National Park, Extraterrestrial Highway / US-50 "Loneliest Road", Lake Tahoe, Las Vegas Strip, Reno, Elko gold mine,
 Lake Mead bathtub ring, cattle ranch, Paiute history.
+
+## Read on 2026-11-14 (user approved the outline: "Uygun, senaryoya geç")
+- NOAA NCICS State Climate Summary, Nevada (V): "Statewide annual average (1895–2024) precipitation is only 10.2
+  inches"; "Nevada is the Nation's driest state"; the Sierra Nevada "blocks much of the Pacific Ocean's moisture from
+  reaching the state"; varies "from around 4 inches in some southern low-elevation locations" to "more than 50 inches on
+  high mountain peaks of the Sierra Nevada".
+- NPS Death Valley, Rhyolite Ghost Town (V): founded 1904 (Shorty Harris and E. L. Cross, quartz "full of free gold");
+  over 2,000 claims within 30 miles; a three-storey building cost $90,000; school for 250 children; electricity April
+  1907; 300-ton mill August 1907; the 1907 panic began the decline; 611 residents in 1910; mine and mill closed 14 March
+  1911; power ended 1916; Bottle House restored by Paramount 1925. The NPS page gives NO peak population and no 1920
+  figure: if used, attribute "3,500 to 5,000 by most estimates" and "14 in the 1920 census" (Wikipedia/census, A).
+- USGS EROS, Cold War Craters (V): Yucca Flat "The most cratered landscape on Earth"; Sedan 6 July 1962, 104 kt, 1,280
+  ft wide, 320 ft deep, a subsidence crater; part of a study of peaceful uses (excavating canals); Landsat 8 image of
+  24 Aug 2018 "perhaps more reminiscent of the moon than earth".
+- NNSS document DOE/NV-1243 (A, via search): 928 tests 1951-1992, 100 atmospheric and 828 underground; last test
+  "Divider" 23 Sept 1992.
+- SNWA "Where water comes from" (A, via search): about 90 % of Southern Nevada's water from the Colorado River (Lake Mead).
+- NPS Virginia City Historic District (A, via search): about 25,000 people by 1874; Comstock Lode found 1859; under
+  11,000 by 1879 (Wikipedia, A).
+- STILL TODO before the script: CRS R42346 exact federal %, Washoe 2020 exact, Nevada area/rank (Census), Lake Lahontan
+  area, Area 51 (CIA 2013 release), Yucca Mountain, Carlin Trend gold, Native nations.

@@ -539,9 +539,9 @@
         "steps": [
          {
           "view": {
-           "lon": 143.0,
-           "lat": -26.0,
-           "span": 25
+           "lon": 137.0,
+           "lat": -27.0,
+           "span": 54
           },
           "highlight": [
            "file:range.geojson@alt"
@@ -558,9 +558,9 @@
         "steps": [
          {
           "view": {
-           "lon": 144.25,
-           "lat": -25.5,
-           "span": 22.5
+           "lon": 139.7,
+           "lat": -25.92,
+           "span": 48.6
           },
           "highlight": [
            "file:range.geojson@alt"
@@ -607,9 +607,9 @@
          {
           "at": 17,
           "view": {
-           "lon": 144.25,
-           "lat": -25.5,
-           "span": 16.875
+           "lon": 139.7,
+           "lat": -25.92,
+           "span": 36.45
           }
          }
         ],
@@ -1349,9 +1349,9 @@
         "steps": [
          {
           "view": {
-           "lon": 141.75,
-           "lat": -26.5,
-           "span": 27.5
+           "lon": 134.3,
+           "lat": -28.08,
+           "span": 59.4
           },
           "highlight": [
            "file:range.geojson@alt",
@@ -1361,9 +1361,9 @@
          {
           "at": 42,
           "view": {
-           "lon": 141.75,
-           "lat": -26.5,
-           "span": 20.625
+           "lon": 134.3,
+           "lat": -28.08,
+           "span": 44.55
           }
          }
         ],
@@ -3289,9 +3289,9 @@
         "steps": [
          {
           "view": {
-           "lon": 143.75,
-           "lat": -27.0,
-           "span": 20.5
+           "lon": 138.62,
+           "lat": -29.16,
+           "span": 44.28
           },
           "highlight": [
            "file:range.geojson@alt",
@@ -4207,9 +4207,9 @@
         "steps": [
          {
           "view": {
-           "lon": 142.25,
-           "lat": -25.0,
-           "span": 29.5
+           "lon": 135.38,
+           "lat": -24.84,
+           "span": 63.72
           },
           "highlight": [
            "file:range.geojson@alt"

@@ -15,7 +15,7 @@ sys.path.insert(0, str(HERE.parent.parent / "pipeline"))
 from schema import Paragraph  # noqa: E402
 
 AUS = {"lon": 134.0, "lat": -27.5, "span": 58}
-EAST = {"lon": 143.0, "lat": -26.0, "span": 25}  # right edge at 155.5 E: a dark strip showed near 157 E for 2 s after a cut (storyboard 1)
+EAST = {"lon": 137.0, "lat": -27.0, "span": 54}  # continent-wide like AUS: a 25-30 degree view showed a dark strip at the edge of its regional raster while the camera eased in (storyboards 1 and 2)
 SA = {"lon": 137.6, "lat": -33.3, "span": 9.5}
 EYRE_W = {"lon": 137.4, "lat": -28.6, "span": 4.4}
 NQ = {"lon": 145.6, "lat": -19.0, "span": 9}

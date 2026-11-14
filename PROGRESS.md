@@ -661,3 +661,8 @@ Each sub-phase stops for user approval.
   Marble raster itself is clean, cause unknown) -> EAST narrowed to end at 155.5 E; channel route drawn in 1.2 s; the
   cable-car photo caption. STORYBOARD 2 = run 43576512125: look at the EAST shots (sheets ~4, 9, 24); if the strip
   is gone start the full render, then fetch, audit, approve, gate 2, upload with --publish-at 2026-11-16T23:00:00Z.
+- 2026-11-14: storyboard 2 still showed the dark strip (it sits between the regional raster and the world image while
+  the camera eases in from wide on a 25-30 degree view). EAST is now continent-wide (lon 137, span 54) like AUS, which
+  was clean. FULL RENDER started (see `gh run list --workflow render.yml`): fetch with -Delete, audit all sheets
+  (check 1:43, 4:59, 14:53 for the strip), approve, gate 2 with the user, upload --publish-at 2026-11-16T23:00:00Z.
+  Engine bug left open: dark strip at regional-raster edge during ease-in on mid-wide satellite views.

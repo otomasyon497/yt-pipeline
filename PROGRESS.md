@@ -674,3 +674,8 @@ Each sub-phase stops for user approval.
   research.md has the gate-1 outline (hook + 5 reasons, about 2,850 words) and facts so far. Next: user approves the
   outline, then read primary sources (CRS R42346, NOAA NCICS, LCB 2020 table, NPS Rhyolite, USGS Cold War craters),
   regions (Clark/Washoe/federal land/Great Basin), script built like australia-interior/build_script.py.
+- 2026-11-14: Nevada outline approved by the user. research.md has the facts read (NOAA, NPS Rhyolite, USGS craters,
+  NNSS 928 tests, SNWA 90 %, Census shares 88.6 %, Lahontan 8,500 sq mi, gold 68 %). geo/ has Sierra, Great Basin,
+  Black Rock. Photo search running into scratchpad/nv (24 subjects). NEXT: pick photos (>=1400 px, sharp), MODIS/
+  Landsat dates (Sedan crater, Lake Mead), write build_script.py modelled on australia-interior (hand-placed, no
+  fillers, voice_speed 1.15), episode_check, claim_log + factcheck, cover.json, storyboard.

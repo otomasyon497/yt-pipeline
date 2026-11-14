@@ -690,3 +690,8 @@ Each sub-phase stops for user approval.
   cui-ui fish); Burning Man's temporary city on the Black Rock playa (attendance figure); Great Basin bristlecone pines
   and the Prometheus tree on Wheeler Peak (1964); BLM wild horses (Nevada's share); Las Vegas growth 1940 -> 2020;
   Hoover Dam 1931-36; Area 51 (CIA 2013). Keep every shot hand-placed; then episode_check, claim_log, cover, storyboard.
+- 2026-11-14: Nevada draft 3 = 1,974 words, 128 shots. episode_check: 36 FIX (long holds in c05/c06, photos over the
+  2-use limit: US 50 x4, Las Vegas air x3, Black Rock x3, ranch road x3). TODO: (1) more alternate photos (other
+  Great Basin NP / Rhyolite / Las Vegas files from scratchpad/nv, check sharpness), (2) split long holds with extra
+  hand-placed satellite views, (3) ~800 more sourced words (candidates: Hoover Dam 1931-36 and Boulder City, Area 51,
+  Lahontan shorelines, Carson City as capital), then claim_log/factcheck, cover.json, storyboard.

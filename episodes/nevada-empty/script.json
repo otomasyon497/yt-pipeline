@@ -112,6 +112,114 @@
      ]
     },
     {
+     "text": "The main highway across the middle of the state, US Route 50, has a nickname. In July 1986 LIFE magazine called the stretch from Fernley to Ely the loneliest road in America, quoting a motoring official who could find nothing out there worth stopping for. Nevada did not complain. It printed the phrase on souvenirs and turned it into a slogan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.07,
+           "lat": 39.49,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "US 50 at Austin"
+      },
+      {
+       "type": "photo",
+       "at": "In July 1986 LIFE",
+       "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
+       "on_screen_text": "US Route 50, 'the loneliest road in America'"
+      },
+      {
+       "type": "map",
+       "at": "the stretch from Fernley",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.61
+          },
+          "routes": [
+           {
+            "from": [
+             -119.25,
+             39.61
+            ],
+            "via": [
+             [
+              -118.78,
+              39.47
+             ],
+             [
+              -117.07,
+              39.49
+             ],
+             [
+              -115.96,
+              39.51
+             ]
+            ],
+            "to": [
+             -114.89,
+             39.25
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "US 50, Fernley to Ely"
+           }
+          ],
+          "places": [
+           {
+            "name": "Ely",
+            "lon": -114.89,
+            "lat": 39.25,
+            "kind": "city",
+            "label": "Ely"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 6.457
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It printed the phrase",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.0,
+           "lat": 39.5,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Eureka and the empty basins around it"
+      }
+     ]
+    },
+    {
      "text": "It is not that nobody ever tried. A lake nearly as big as Lake Erie once filled the northwest of this state, and it vanished. Towns of thousands rose on silver and gold, and blew away within a few years. And today the federal government owns about four fifths of the land, including a stretch of desert it used to set off nuclear bombs. So why does almost nobody live in most of Nevada? There are five reasons. The first one is a wall.",
      "shots": [
       {
@@ -183,9 +291,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 8.61
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.39
           },
           "highlight": [
            "Nevada@red"
@@ -545,7 +653,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "Reason two. What little water there is goes nowhere. Almost all of Nevada lies inside the Great Basin, the largest region in North America where rivers never reach the sea. Rain that falls here stays here. It runs downhill into a valley and stops, and the sun takes it back. Look at the Humboldt River. It rises in the mountains of northeast Nevada and crosses almost the whole state, about three hundred miles. And then it simply ends, in a dry flat called the Humboldt Sink.",
+     "text": "Reason two. What little water there is goes nowhere. Almost all of Nevada lies inside the Great Basin, the largest region in North America where rivers never reach the sea. Rain that falls here stays here. It runs downhill into a valley and stops, and the sun takes it back. Look at the Humboldt River. It rises in the mountains of northeast Nevada and runs west across almost the whole state. And then it simply ends, in a dry flat called the Humboldt Sink.",
      "shots": [
       {
        "type": "map",
@@ -613,9 +721,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 12.39
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 9.975
           },
           "routes": [
            {
@@ -667,14 +775,6 @@
             "label": "Humboldt Sink"
            }
           ]
-         },
-         {
-          "at": 64,
-          "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 9.293
-          }
          }
         ],
         "cut": true
@@ -876,7 +976,7 @@
    "mood": "tension",
    "paragraphs": [
     {
-     "text": "Reason three. The rush came, and then it left. In 1859, prospectors found silver and gold near what became Virginia City: the Comstock Lode. Within fifteen years Virginia City had about twenty-five thousand people, more than any city between Denver and San Francisco. Nevada became a state in 1864, in large part because of that silver. And then the ore ran thin. By 1879 the town had fewer than eleven thousand, and it kept falling.",
+     "text": "Reason three. The rush came, and then it left. In 1859, prospectors found silver and gold near what became Virginia City: the Comstock Lode. By 1874, by the National Park Service's count, Virginia City had about twenty-five thousand people, with mansions, an opera house and newspapers. And then the ore ran thin. At the 1880 census the town had fewer than eleven thousand. By 1940 it was down to about five hundred.",
      "shots": [
       {
        "type": "map",
@@ -885,9 +985,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.165,
+           "lon": -117.635,
            "lat": 38.6,
-           "span": 9.975
+           "span": 9.03
           },
           "highlight": [
            "Nevada@red"
@@ -914,7 +1014,7 @@
       },
       {
        "type": "map",
-       "at": "Within fifteen years",
+       "at": "By 1874, by the",
        "map": {
         "steps": [
          {
@@ -951,7 +1051,7 @@
           }
          },
          {
-          "at": 65,
+          "at": 54,
           "view": {
            "lon": -119.6,
            "lat": 39.28,
@@ -962,6 +1062,97 @@
         "cut": true
        },
        "on_screen_text": "Mine dumps on the Comstock"
+      },
+      {
+       "type": "map",
+       "at": "By 1940 it was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.66,
+           "lat": 39.3,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Virginia City's old streets"
+      }
+     ]
+    },
+    {
+     "text": "And the whole state went with it. At the 1880 census Nevada had about sixty-two thousand people. Ten years later it had fewer than forty-six thousand, and by 1900 about forty-two thousand. A state shrinking, while the rest of America grew. It would take the next century, and a very different kind of town, to fill it up again.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Nevada's population",
+        "unit": "people",
+        "data": [
+         [
+          "1880",
+          62266
+         ],
+         [
+          "1890",
+          45761
+         ],
+         [
+          "1900",
+          42335
+         ]
+        ],
+        "source": "US census, as compiled by Britannica and state histories",
+        "highlight": 2,
+        "reveal": [
+         "Ten years later",
+         "and by 1900"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A state shrinking",
+       "photo": "File:Tonopah, Nevada LCCN2007662611.tif",
+       "on_screen_text": "Tonopah, an early-1900s mining town"
+      },
+      {
+       "type": "map",
+       "at": "It would take the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.17,
+           "lat": 36.12,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           }
+          ]
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": -115.17,
+           "lat": 36.12,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Las Vegas today"
       }
      ]
     },
@@ -1107,9 +1298,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.635,
-           "lat": 38.6,
-           "span": 9.03
+           "lon": -116.9,
+           "lat": 39.125,
+           "span": 11.13
           },
           "highlight": [
            "Nevada@red"
@@ -1265,6 +1456,112 @@
      ]
     },
     {
+     "text": "Next door is another piece of empty land the government chose for a hard job. In 1987 Congress picked Yucca Mountain, on the edge of the test site, as the only place to study for a permanent dump for the country's spent nuclear fuel. Tunnels were dug. Nevada fought it for two decades. In 2010 the Department of Energy wound the program down, and no high-level waste has ever been stored there. The empty desert was the reason it was chosen, and the people of Nevada were the reason it stopped.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.46,
+           "lat": 36.85,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yucca Mountain"
+      },
+      {
+       "type": "map",
+       "at": "In 1987 Congress picked",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.3,
+           "lat": 36.95,
+           "span": 0.8
+          }
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -116.3,
+           "lat": 36.95,
+           "span": 0.496
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yucca Mountain and the test site"
+      },
+      {
+       "type": "map",
+       "at": "Tunnels were dug",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.43,
+           "lat": 36.86,
+           "span": 0.07
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The tunnel entrance at Yucca Mountain"
+      },
+      {
+       "type": "photo",
+       "at": "Nevada fought it",
+       "photo": "File:Myers Mountain and the eastern skyline of Goldfield in Esmeralda County, Nevada in October 2026.jpg",
+       "on_screen_text": "Goldfield, a town on the road past the site"
+      },
+      {
+       "type": "map",
+       "at": "The empty desert was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 8.19
+          },
+          "highlight": [
+           "Nevada@red"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           }
+          ]
+         },
+         {
+          "at": 81,
+          "view": {
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 6.143
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
      "text": "The biggest hole is this one. On the sixth of July 1962, a hundred-and-four-kiloton device buried under the desert was set off as a test of using bombs to dig canals and harbors. It left the Sedan crater: twelve hundred and eighty feet across and three hundred and twenty feet deep. Land like this will not be settled. Neither will the ranges and bombing grounds around it. Together, the military holds millions of acres of southern Nevada.",
      "shots": [
       {
@@ -1368,7 +1665,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Las Vegas sits in one of the driest valleys in the country. It exists because of Hoover Dam and Lake Mead, the reservoir behind it on the Colorado River. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado. Look at the white ring around Lake Mead. That is how far the water has dropped.",
+     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Las Vegas sits in one of the driest valleys in the country. It exists because of Hoover Dam and Lake Mead, the reservoir behind it on the Colorado River. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado. Look at the white ring around Lake Mead. That is how far the water has dropped. Full, the lake stands at about twelve hundred and twenty feet above sea level. In 2022, and again in the summer of 2026, it fell to about one thousand and forty, its lowest since it first filled in 1937, around a quarter full. A city of two million rests on that line.",
      "shots": [
       {
        "type": "map",
@@ -1377,9 +1674,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 39.125,
-           "span": 11.13
+           "lon": -116.375,
+           "lat": 38.81,
+           "span": 9.166
           },
           "highlight": [
            "Clark@accent"
@@ -1435,6 +1732,38 @@
         "cut": true
        },
        "on_screen_text": "Lake Mead's bathtub ring"
+      },
+      {
+       "type": "stat",
+       "at": "Full, the lake stands",
+       "stat": {
+        "value": "-180 FT",
+        "label": "Lake Mead's record low against full pool (1,040.5 vs 1,221.4 ft above sea level)",
+        "source": "US Bureau of Reclamation, via press reports"
+       }
+      },
+      {
+       "type": "map",
+       "at": "its lowest since it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.75,
+           "lat": 36.05,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Mead near Hoover Dam"
+      },
+      {
+       "type": "photo",
+       "at": "A city of two million",
+       "photo": "File:Las Vegas strip from the air (3191356789).jpg",
+       "on_screen_text": "Las Vegas from the air"
       }
      ]
     },
@@ -1563,9 +1892,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 38.075,
-           "span": 8.19
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 11.204
           },
           "highlight": [
            "Nevada@red"
@@ -1609,9 +1938,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.375,
-           "lat": 38.81,
-           "span": 9.166
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.352
           },
           "layer": "night"
          }
@@ -1668,9 +1997,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.425,
-           "lat": 38.39,
-           "span": 11.204
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.018
           },
           "highlight": [
            "Nevada@red"
@@ -1698,9 +2027,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 8.352
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 9.676
           },
           "highlight": [
            "Nevada@red"

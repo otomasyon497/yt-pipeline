@@ -754,3 +754,5 @@ Each sub-phase stops for user approval.
 - 2026-11-15: Mongolia storyboard sheets 1-12 viewed: winter-dated flat-steppe views render blank white -> mnpatch6.py
   switched them to October/summer with honest labels; Oviraptor beige run and cloudy Bayanzag view replaced; camp
   labels made honest. Sheets 13-23 still to view before the full render.
+- 2026-11-15: Mongolia storyboard all 23 sheets viewed; fixes: blank-white winter views on flat steppe and small ger
+  views -> October/summer, honest labels, Oviraptor run, cloudy Bayanzag. Full render next.

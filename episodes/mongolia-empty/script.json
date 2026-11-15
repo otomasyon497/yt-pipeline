@@ -986,6 +986,23 @@
       },
       {
        "type": "map",
+       "at": "and Andrews named the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.25,
+           "lat": 43.75,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gobi dunes at Khongoryn Els"
+      },
+      {
+       "type": "map",
        "at": "assuming it had died",
        "map": {
         "steps": [
@@ -1017,6 +1034,24 @@
         "label": "An AMNH team finds an oviraptorid sitting on its own nest",
         "source": "American Museum of Natural History"
        }
+      },
+      {
+       "type": "map",
+       "at": "It had been brooding",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.0,
+           "lat": 44.0,
+           "span": 0.3
+          },
+          "date": "2023-09-20/2023-10-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gobi near Bayanzag"
       },
       {
        "type": "map",
@@ -1933,12 +1968,12 @@
            "lat": 47.3,
            "span": 0.3
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Winter camps on the steppe"
+       "on_screen_text": "The steppe in Khentii"
       },
       {
        "type": "map",
@@ -2883,12 +2918,12 @@
            "lat": 47.98,
            "span": 0.06
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Ger district rooftops in winter"
+       "on_screen_text": "Ger district rooftops"
       },
       {
        "type": "map",
@@ -2901,12 +2936,12 @@
            "lat": 47.95,
            "span": 0.08
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Western ger districts in winter"
+       "on_screen_text": "Western ger districts"
       },
       {
        "type": "stat",
@@ -3122,7 +3157,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Tavan Tolgoi coal pits"
+       "on_screen_text": "The Tavan Tolgoi coal field"
       },
       {
        "type": "stat",
@@ -3410,7 +3445,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The Khangai mountains in autumn"
+       "on_screen_text": "West-central Mongolia in autumn"
       },
       {
        "type": "map",
@@ -3483,7 +3518,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Herding camps, central Mongolia"
+       "on_screen_text": "Central Mongolia in October"
       },
       {
        "type": "map",
@@ -3496,7 +3531,7 @@
            "lat": 47.98,
            "span": 0.08
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true

@@ -65,3 +65,15 @@ Episode-plan step 1:
 <parameter name="command">cd /c/projeler/yt-pipeline && python tools/episode_check.py --words 2800 2>&1 | tail -1 && git add episodes/mongolia-empty/research.md && git commit -qm "Mongolia: research and gate-1 outline
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" && git push -q && echo pushed
+## Read on 2026-11-15 (user approved the outline: "Uygun, senaryoya geç")
+- Livestock census (NSO via AKIpress, UB Post, UNDP brief, A): end 2023 64,681,876 head (-6.4 M, -9.1 % on 2022);
+  end 2024 57.6 M (-7 M, -10.9 %), the dzud year. O: 57.6 M / about 3.5 M people = about 16 animals per person.
+- Ulaanbaatar (Wikipedia, census table, A): 1950 69,951; 1960 179,063; 1979 396,300; 1989 540,300; 2000 760,077;
+  2010 1,089,358; 2020 1,395,773 (text: 1,466,125); "just over 1.6 million" Dec 2022; "almost half" of the country;
+  two-thirds of inhabitants in ger districts (World Bank 2018: more than half, over 790,000) -> say "more than half";
+  founded 1639 as the mobile monastery Örgöö, settled for good in 1778; elevation about 1,350 m; "the coldest national
+  capital in the world" (annual mean given as -1.3 C on one page and 0.2 C on another -> say "around freezing").
+- Mongolian People's Republic (Wikipedia, A): established 1924 after the 1921 revolution; "the first Soviet satellite
+  state"; repressions 1937-39 killed over 20,000 people, an estimated 17,000 monks; collectivization achieved in the
+  1950s (727 collectives in 1958); Trans-Mongolian railway to Ulaanbaatar 1949, linked to Beijing 1955; first
+  multiparty elections 29 June 1990; Soviet troops withdrawn 1987-92; new constitution February 1992.

@@ -723,3 +723,9 @@ Each sub-phase stops for user approval.
 - 2026-11-15: Northern Maine re-render 43704740020 approved (changed sheets 4, 10, 21, 31 re-checked; audio peak
   -0.59 dBFS, no clipping). UPLOADED: video MaiFqokoUdM, private, publishAt 2026-11-18T23:00:00Z (19 Nov 02:00 TR),
   map cover set. Releases and artifacts deleted. Pin the comment by hand in Studio. Next free slot: 20 Nov.
+- 2026-11-15: 20 Nov topic = Mongolia (user chose it; outline approved). episodes/mongolia-empty/research.md has the
+  gate-1 outline (hook + 5 reasons: high/dry/cold, herds not farms, dzud, empire->Soviet->1990, one city + mining) and
+  facts read. Photo search running into scratchpad/mn (28 subjects). NEXT: quality-check photos (q2.py, >=1400 px,
+  detail >=0.65), contact sheets, build_script.py modelled on northern-maine-empty (hand-placed, seasonal dates for
+  look-alike views, no push-in on paints), episode_check, claim_log + rules script (mefact.py pattern), cover.json
+  (Mongolia red, "SO EMPTY?"), storyboard, render, audit, upload publishAt 2026-11-19T23:00:00Z.

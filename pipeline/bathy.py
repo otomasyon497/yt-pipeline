@@ -29,6 +29,9 @@ CREDIT = ("Lake and seafloor depths: NOAA NCEI ETOPO 2022 Global Relief Model (p
 BASINS = {
     # -29.3 m: Kazakh sector mean for 2025, -29.27 m (Kazakh Research Institute of the Caspian Sea, Euronews 7 Oct 2026)
     "caspian": ((46.0, 36.0, 55.5, 47.8), (50.0, 42.0), -29.3),
+    # Today's sea level; the Atlantic (west of Gibraltar) and the Black Sea (beyond the Bosporus) are cut out so a
+    # deep drop exposes only the Mediterranean floor (the Messinian drawdown, about 6 million years ago).
+    "mediterranean": ((-6.0, 30.0, 36.5, 46.0), (18.0, 36.0), 0.0, [(-6.0, 30.0, -5.55, 46.0), (27.5, 40.95, 36.5, 46.0)], 4000),
 }
 MIN_PART_DEG2 = 0.01  # drop specks under ~80 km2
 SMOOTH_DEG = 0.03  # close gaps of a cell or two so the outline reads as one shore
@@ -95,10 +98,14 @@ def exposed(basin: str, drop: float):
         return _GEOMS[key]
     if basin not in BASINS:
         raise ValueError(f"unknown basin {basin!r} (known: {', '.join(BASINS)})")
-    if not 0 < drop <= 200:
-        raise ValueError(f"seafloor drop must be between 0 and 200 m, not {drop}")
-    box, (slon, slat), level = BASINS[basin]
+    box, (slon, slat), level, *extra = BASINS[basin]
+    cuts, max_drop = (extra + [[], 200])[:2] if extra else ([], 200)
+    if not 0 < drop <= max_drop:
+        raise ValueError(f"seafloor drop for {basin} must be between 0 and {max_drop} m, not {drop}")
     z, west, south = _grid(box)
+    for c0, r0, c1, r1 in cuts:  # land-fill boxes that are not part of this basin
+        z = z.copy()
+        z[max(0, round((r0 - south) * 60)):round((r1 - south) * 60), max(0, round((c0 - west) * 60)):round((c1 - west) * 60)] = 9999
     seed = (int((slat - south) * 60), int((slon - west) * 60))
     gone = _connected(z < level, seed) & ~_connected(z < level - drop, seed)
     if not gone.any():

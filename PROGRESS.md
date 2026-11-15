@@ -773,3 +773,8 @@ Each sub-phase stops for user approval.
   drops up to ~3,000 m (today `0 < drop <= 200`); keep caspian behaviour unchanged; test with a storyboard of the
   hook. Then photos, build_script.py (pattern mongolia-empty), checks, cover, storyboard, render, audit, upload
   publishAt 2026-11-20T23:00:00Z.
+- 2026-11-15: pipeline/bathy.py extended: BASINS entries may carry land-fill cut boxes and a max drop;
+  "mediterranean" basin added (Atlantic and Black Sea cut out, max 4,000 m). Tested (venv python): -200 m -> about
+  568,000 km2 dry, -1,500 m -> about 1.8 M km2; caspian -20 m unchanged (121,192 km2). Use highlight
+  "seafloor:mediterranean:1500@red" in maps. NEXT: photo search (Glomar Challenger, Gibraltar, Realmonte salt mine,
+  Nile delta ISS, Messinian gypsum Sicily/Spain), build_script like mongolia-empty.

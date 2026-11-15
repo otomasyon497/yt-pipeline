@@ -157,7 +157,6 @@ TO_SIERRA = [{"from": [-124.5, 40.2], "to": [-120.6, 39.6], "color": "blue", "be
              {"from": [-124.0, 37.4], "to": [-119.6, 37.6], "color": "blue", "bend": -0.1}]
 HUMBOLDT_R = {"from": [-115.0, 41.05], "via": [[-115.76, 40.83], [-116.9, 40.7], [-117.73, 40.97], [-118.17, 40.55]], "to": [-118.62, 39.98],
               "mode": "line", "color": "blue", "seconds": 2.5, "label": "Humboldt River"}
-CLARK, WASHOE = "Clark@accent", "Washoe@accent"
 AREA51 = place("Area 51", -115.81, 37.24, "Area 51 (Groom Lake)", "site")
 USA = {"lon": -98.5, "lat": 39.0, "span": 42}
 
@@ -167,7 +166,7 @@ chapters = [
           m(0, v(NV)),
           photo("About three million", PH_STRIP, "The Las Vegas Strip"),
           stat("And almost nine", "89 %", "Nevadans living in Clark and Washoe counties, 2020 census (our sum)", CENSUS),
-          paint("Las Vegas in the far", CLARK, WASHOE, places=[VEGAS, RENO]),
+          m("Las Vegas in the far", v(NV, places=[VEGAS, RENO])),
           photo("Everything in between", PH_NIGHTSKY, "Night sky over the Black Rock Desert"),
           m("At night, from orbit", v(NV, layer="night"))),
         P("The main highway across the middle of the state, US Route 50, has a nickname. In July 1986 LIFE magazine called the stretch from Fernley to Ely the loneliest road in America, quoting a motoring official who could find nothing out there worth stopping for. Nevada did not complain. It printed the phrase on souvenirs and turned it into a slogan.",
@@ -339,7 +338,7 @@ chapters = [
     ]},
     {"title": "Who Does Live There", "mood": "curious", "paragraphs": [
         P("So who does live in Nevada? Mostly, people who brought their water with them. Start with Las Vegas. Its name is Spanish for the meadows, and the meadows were real: springs in the valley floor kept a patch of green alive in the desert. In 1855 Mormon missionaries built a small fort beside the creek, and gave it up within a few years. In 1905 a new railroad between Salt Lake City and Los Angeles chose the springs as a stop, and on the fifteenth of May it auctioned off the lots for a town. For a quarter of a century after that, Las Vegas stayed a small railroad town.",
-          paint(0, CLARK, view=NV, places=[VEGAS]),
+          m(0, v({"lon": -115.3, "lat": 36.5, "span": 3.5}, places=[VEGAS]), text="Southern Nevada"),
           sat("Start with Las Vegas", -115.14, 36.17, 0.1, "Downtown Las Vegas, where the 1905 town was laid out"),
           sat("springs in the valley", -115.19, 36.17, 0.04, "The old Las Vegas springs, now the Springs Preserve"),
           sat("In 1855 Mormon missionaries", -115.134, 36.180, 0.04, "Site of the Old Las Vegas Mormon Fort"),
@@ -404,7 +403,7 @@ chapters = [
           paint("And a federal landlord", "Nevada@red"),
           photo("Nevada is not empty", PH_US50, "US Route 50, 'the loneliest road in America'"),
           photo("Its people live where", PH_VEGAS_AIR2, "Las Vegas, where the water was brought"),
-          paint("The two places that", CLARK, WASHOE, places=[VEGAS, RENO]),
+          m("The two places that", v({"lon": -117.4, "lat": 37.9, "span": 9.0}, layer="night", places=[VEGAS, RENO])),
           sat("a river off the Sierra", -119.80, 39.52, 0.12, "The Truckee River through Reno"),
           sat("and a dam on the", -114.74, 36.02, 0.3, "Hoover Dam and Lake Mead"),
           m("Next time you see", v({"lon": -115.6, "lat": 37.3, "span": 5.5}, layer="night", places=[VEGAS])),

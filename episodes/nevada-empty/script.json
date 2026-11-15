@@ -62,10 +62,6 @@
            "lat": 38.81,
            "span": 9.45
           },
-          "highlight": [
-           "Clark@accent",
-           "Washoe@accent"
-          ],
           "places": [
            {
             "name": "Las Vegas",
@@ -2768,13 +2764,10 @@
         "steps": [
          {
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 12.018
+           "lon": -115.3,
+           "lat": 36.5,
+           "span": 3.5
           },
-          "highlight": [
-           "Clark@accent"
-          ],
           "places": [
            {
             "name": "Las Vegas",
@@ -2787,7 +2780,8 @@
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "Southern Nevada"
       },
       {
        "type": "map",
@@ -3470,9 +3464,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.165,
-           "lat": 38.6,
-           "span": 9.676
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.018
           },
           "highlight": [
            "Nevada@red"
@@ -3497,9 +3491,9 @@
          {
           "at": 69,
           "view": {
-           "lon": -116.165,
-           "lat": 38.6,
-           "span": 7.257
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 9.014
           }
          }
         ],
@@ -3570,9 +3564,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.635,
+           "lon": -116.165,
            "lat": 38.6,
-           "span": 8.759
+           "span": 9.676
           },
           "highlight": [
            "Nevada@red"
@@ -3616,9 +3610,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 39.125,
-           "span": 10.796
+           "lon": -117.635,
+           "lat": 38.6,
+           "span": 8.759
           },
           "layer": "night"
          }
@@ -3676,8 +3670,8 @@
          {
           "view": {
            "lon": -116.9,
-           "lat": 38.075,
-           "span": 7.944
+           "lat": 39.125,
+           "span": 10.796
           },
           "highlight": [
            "Nevada@red"
@@ -3706,14 +3700,11 @@
         "steps": [
          {
           "view": {
-           "lon": -116.375,
-           "lat": 38.81,
-           "span": 8.892
+           "lon": -117.4,
+           "lat": 37.9,
+           "span": 9.0
           },
-          "highlight": [
-           "Clark@accent",
-           "Washoe@accent"
-          ],
+          "layer": "night",
           "places": [
            {
             "name": "Las Vegas",
@@ -3822,9 +3813,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.425,
-           "lat": 38.39,
-           "span": 10.867
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 7.944
           },
           "highlight": [
            "Nevada@red"

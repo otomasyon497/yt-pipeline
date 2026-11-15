@@ -700,3 +700,7 @@ Each sub-phase stops for user approval.
   Carlin 100 M oz, Pyramid Lake Paiute reservation. episode_check "OK, ready to render" (est. 16.9 min; Australia ran
   at 0.9x its estimate -> expect about 15.2 min). factcheck.md: 55 verified, 52 attributed, 16 own. Cover rendered.
   Storyboard run 43676024317 started.
+- 2026-11-15: Nevada storyboard (run 43676876783, 23 sheets, ~15.5 min) all viewed; artifact deleted. Fixed: county
+  highlights (engine has no county data), WRONG PHOTO "Hoover Dam Ohio.JPG" (the Ohio dam) -> "Hoover Dam
+  (6917293059).jpg", Pyramid north-end seam, framed Tonopah panorama, washed Rhyolite close-up, empty playa close-up
+  (-> Gerlach), repeated Nevada paints at the end, 1859 Humboldt sketch caption. Full render next.

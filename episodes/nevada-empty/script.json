@@ -939,7 +939,7 @@
        "type": "photo",
        "at": "Look at the Humboldt",
        "photo": "File:Humboldt River Papa 2.jpg",
-       "on_screen_text": "Humboldt River, northern Nevada"
+       "on_screen_text": "A camp on the Humboldt River, sketched in 1859"
       },
       {
        "type": "map",
@@ -1336,15 +1336,15 @@
         "steps": [
          {
           "view": {
-           "lon": -119.62,
-           "lat": 40.15,
-           "span": 0.15
+           "lon": -119.55,
+           "lat": 39.95,
+           "span": 0.3
           }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The north end of Pyramid Lake"
+       "on_screen_text": "Pyramid Lake, home of the cui-ui"
       },
       {
        "type": "photo",
@@ -1370,7 +1370,7 @@
        "type": "photo",
        "at": 0,
        "photo": "File:Humboldt River Papa 2.jpg",
-       "on_screen_text": "Humboldt River, northern Nevada"
+       "on_screen_text": "A camp on the Humboldt River, sketched in 1859"
       },
       {
        "type": "map",
@@ -1587,10 +1587,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "A state shrinking",
-       "photo": "File:Tonopah, Nevada LCCN2007662611.tif",
-       "on_screen_text": "Tonopah, an early-1900s mining town"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -98.5,
+           "lat": 39.0,
+           "span": 42
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "map",
@@ -1675,39 +1686,17 @@
        }
       },
       {
-       "type": "map",
+       "type": "stat",
        "at": "Within three years",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -116.835,
-           "lat": 36.902,
-           "span": 0.05
-          }
-         },
-         {
-          "at": 43,
-          "view": {
-           "lon": -116.835,
-           "lat": 36.902,
-           "span": 0.05
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Rhyolite's old street grid"
-      },
-      {
-       "type": "photo",
-       "at": "a three-storey bank",
-       "photo": "File:Rhyolite NV Ghost Town - 52133328559.jpg",
-       "on_screen_text": "Rhyolite: what is left of the bank"
+       "stat": {
+        "value": "300 TONS",
+        "label": "Ore crushed a day by Rhyolite's mill in 1907",
+        "source": "National Park Service, Rhyolite Ghost Town"
+       }
       },
       {
        "type": "map",
-       "at": "Then came the financial",
+       "at": "a school for two",
        "map": {
         "steps": [
          {
@@ -1721,6 +1710,21 @@
         "cut": true
        },
        "on_screen_text": "The Bullfrog Hills around Rhyolite"
+      },
+      {
+       "type": "photo",
+       "at": "a three-storey bank",
+       "photo": "File:Rhyolite NV Ghost Town - 52133328559.jpg",
+       "on_screen_text": "Rhyolite: what is left of the bank"
+      },
+      {
+       "type": "stat",
+       "at": "Then came the financial",
+       "stat": {
+        "value": "1907",
+        "label": "The financial panic that began Rhyolite's decline",
+        "source": "National Park Service, Rhyolite Ghost Town"
+       }
       },
       {
        "type": "stat",
@@ -1942,25 +1946,23 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 38.075,
-           "span": 8.19
-          },
-          "highlight": [
-           "Nevada@red"
-          ]
+           "lon": -117.9,
+           "lat": 38.8,
+           "span": 0.8
+          }
          },
          {
           "at": 86,
           "view": {
-           "lon": -116.9,
-           "lat": 38.075,
-           "span": 6.143
+           "lon": -117.9,
+           "lat": 38.8,
+           "span": 0.496
           }
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "Unclaimed land, central Nevada"
       }
      ]
     }
@@ -1980,9 +1982,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.375,
-           "lat": 38.81,
-           "span": 9.166
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 8.19
           },
           "highlight": [
            "Nevada@red"
@@ -2005,9 +2007,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.425,
-           "lat": 38.39,
-           "span": 11.204
+           "lon": -116.375,
+           "lat": 38.81,
+           "span": 9.166
           },
           "routes": [
            {
@@ -2105,9 +2107,9 @@
         "steps": [
          {
           "view": {
-           "lon": -98.5,
-           "lat": 39.0,
-           "span": 42
+           "lon": -96.4,
+           "lat": 39.84,
+           "span": 37.8
           },
           "highlight": [
            "Nevada@red"
@@ -2302,6 +2304,22 @@
            "lat": 36.65,
            "span": 1.9
           },
+          "routes": [
+           {
+            "from": [
+             -116.05,
+             37.1
+            ],
+            "to": [
+             -115.14,
+             36.17
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "About 65 miles"
+           }
+          ],
           "places": [
            {
             "name": "Las Vegas",
@@ -2309,13 +2327,6 @@
             "lat": 36.17,
             "kind": "city",
             "label": "Las Vegas"
-           },
-           {
-            "name": "Sedan crater",
-            "lon": -116.046,
-            "lat": 37.177,
-            "kind": "site",
-            "label": "Sedan crater, 1962"
            }
           ]
          }
@@ -2604,9 +2615,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 8.352
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 11.204
           },
           "highlight": [
            "Nevada@red"
@@ -2784,21 +2795,10 @@
        "on_screen_text": "Southern Nevada"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": "Start with Las Vegas",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -115.14,
-           "lat": 36.17,
-           "span": 0.1
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Downtown Las Vegas, where the 1905 town was laid out"
+       "photo": "File:Las Vegas strip from the air (3192201540).jpg",
+       "on_screen_text": "Las Vegas today"
       },
       {
        "type": "map",
@@ -2811,6 +2811,14 @@
            "lat": 36.17,
            "span": 0.04
           }
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -115.19,
+           "lat": 36.17,
+           "span": 0.05
+          }
          }
         ],
         "cut": true
@@ -2818,29 +2826,13 @@
        "on_screen_text": "The old Las Vegas springs, now the Springs Preserve"
       },
       {
-       "type": "map",
-       "at": "In 1855 Mormon missionaries",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -115.134,
-           "lat": 36.18,
-           "span": 0.04
-          }
-         },
-         {
-          "at": 53,
-          "view": {
-           "lon": -115.134,
-           "lat": 36.18,
-           "span": 0.05
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Site of the Old Las Vegas Mormon Fort"
+       "type": "stat",
+       "at": "built a small fort",
+       "stat": {
+        "value": "1855",
+        "label": "Mormon missionaries build a fort by the Las Vegas creek",
+        "source": "Old Las Vegas Mormon Fort State Historic Park"
+       }
       },
       {
        "type": "map",
@@ -3038,8 +3030,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Hoover Dam Ohio.JPG",
-       "on_screen_text": "Hoover Dam"
+       "photo": "File:Hoover Dam (6917293059).jpg",
+       "on_screen_text": "Looking down from Hoover Dam into Black Canyon"
       },
       {
        "type": "stat",
@@ -3206,33 +3198,14 @@
        "on_screen_text": "The Las Vegas Strip at dusk"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": "Almost all of it",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -114.737,
-           "lat": 36.016,
-           "span": 0.12
-          }
-         },
-         {
-          "at": 45,
-          "view": {
-           "lon": -114.737,
-           "lat": 36.016,
-           "span": 0.074
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Hoover Dam and the river below it"
+       "photo": "File:Hoover Dam (6917293059).jpg",
+       "on_screen_text": "Hoover Dam"
       },
       {
        "type": "stat",
-       "at": "In 2021 Nevada passed",
+       "at": "And the city knows",
        "stat": {
         "value": "2027",
         "label": "From this year, no Colorado River water for decorative grass around Las Vegas",
@@ -3432,15 +3405,15 @@
         "steps": [
          {
           "view": {
-           "lon": -119.21,
-           "lat": 40.786,
-           "span": 0.06
+           "lon": -119.355,
+           "lat": 40.652,
+           "span": 0.08
           }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The festival site on the playa"
+       "on_screen_text": "Gerlach, the town at the edge of the playa"
       },
       {
        "type": "stat",
@@ -3464,9 +3437,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 12.018
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.352
           },
           "highlight": [
            "Nevada@red"
@@ -3491,9 +3464,9 @@
          {
           "at": 69,
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 9.014
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 6.264
           }
          }
         ],
@@ -3558,39 +3531,10 @@
        "on_screen_text": "Great Basin National Park"
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": "That may be the real",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -116.165,
-           "lat": 38.6,
-           "span": 9.676
-          },
-          "highlight": [
-           "Nevada@red"
-          ],
-          "places": [
-           {
-            "name": "Las Vegas",
-            "lon": -115.14,
-            "lat": 36.17,
-            "kind": "city",
-            "label": "Las Vegas"
-           },
-           {
-            "name": "Reno",
-            "lon": -119.81,
-            "lat": 39.53,
-            "kind": "city",
-            "label": "Reno"
-           }
-          ]
-         }
-        ],
-        "cut": true
-       }
+       "photo": "File:Great Basin National Park - 53837528271.jpg",
+       "on_screen_text": "A bristlecone pine on Wheeler Peak"
       }
      ]
     }
@@ -3610,9 +3554,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.635,
-           "lat": 38.6,
-           "span": 8.759
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.018
           },
           "layer": "night"
          }
@@ -3669,9 +3613,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 39.125,
-           "span": 10.796
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 9.676
           },
           "highlight": [
            "Nevada@red"
@@ -3813,33 +3757,15 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 38.075,
-           "span": 7.944
-          },
-          "highlight": [
-           "Nevada@red"
-          ],
-          "places": [
-           {
-            "name": "Las Vegas",
-            "lon": -115.14,
-            "lat": 36.17,
-            "kind": "city",
-            "label": "Las Vegas"
-           },
-           {
-            "name": "Reno",
-            "lon": -119.81,
-            "lat": 39.53,
-            "kind": "city",
-            "label": "Reno"
-           }
-          ]
+           "lon": -116.6,
+           "lat": 39.5,
+           "span": 0.5
+          }
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "Central Nevada"
       },
       {
        "type": "photo",

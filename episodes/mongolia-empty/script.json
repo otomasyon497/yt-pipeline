@@ -1,0 +1,2044 @@
+{
+ "title": "Why Mongolia Is the Emptiest Country on Earth",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/mongolia-empty/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "SO EMPTY"
+ },
+ "chapters": [
+  {
+   "title": "One Dot of Light",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Mongolia sits between Russia and China, and it is huge: more than one and a half million square kilometers, almost three times the size of France. About three and a half million people live there. That makes it the most thinly populated independent country on Earth. And roughly half of those people live in a single city. At night, from orbit, the whole country is one bright dot and a few sparks.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 100.0,
+           "lat": 47.0,
+           "span": 75
+          },
+          "highlight": [
+           "Mongolia@red",
+           "Russia@accent",
+           "China@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and it is huge",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.0,
+           "lat": 46.8,
+           "span": 30
+          },
+          "highlight": [
+           "Mongolia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "almost three times the",
+       "stat": {
+        "value": "1,564,116 KM²",
+        "label": "Mongolia's area: about 2.8 times metropolitan France (our calculation)",
+        "source": "Wikipedia, Mongolia; INSEE"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "About three and a",
+       "photo": "File:Mongolian nature steppe and mountain.jpg",
+       "on_screen_text": "The Mongolian steppe"
+      },
+      {
+       "type": "stat",
+       "at": "That makes it the",
+       "stat": {
+        "value": "~2 / KM²",
+        "label": "People per square kilometer: the lowest of any sovereign state",
+        "source": "Wikipedia, Mongolia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And roughly half of",
+       "photo": "File:Ulaanbaatar 377 (26274377965).jpg",
+       "on_screen_text": "Ulaanbaatar"
+      },
+      {
+       "type": "map",
+       "at": "At night, from orbit",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.5,
+           "lat": 47.4,
+           "span": 27.0
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the whole country is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.5,
+           "lat": 47.5,
+           "span": 14
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           },
+           {
+            "name": "Darkhan",
+            "lon": 105.95,
+            "lat": 49.47,
+            "kind": "city",
+            "label": "Darkhan"
+           },
+           {
+            "name": "Erdenet",
+            "lon": 104.05,
+            "lat": 49.03,
+            "kind": "city",
+            "label": "Erdenet"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Out there is the coldest capital city in the world. There are more horses, sheep, goats, cattle and camels than people, many times over. And in the south, in 1923, explorers dug up the first dinosaur eggs anyone recognized as dinosaur eggs. So why is Mongolia so empty? There are five reasons, and the first is the ground itself: it is too high, too dry and too cold.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.92,
+           "lat": 47.92,
+           "span": 0.25
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ulaanbaatar in winter"
+      },
+      {
+       "type": "photo",
+       "at": "There are more horses",
+       "photo": "File:Sheep herd (2540223383).jpg",
+       "on_screen_text": "Sheep and goats on the steppe"
+      },
+      {
+       "type": "photo",
+       "at": "camels than people, many",
+       "photo": "File:Camels in Gobi Desert 02.jpg",
+       "on_screen_text": "Bactrian camels in the Gobi"
+      },
+      {
+       "type": "photo",
+       "at": "And in the south",
+       "photo": "File:Bayanzag 10.jpg",
+       "on_screen_text": "The Flaming Cliffs, Bayanzag"
+      },
+      {
+       "type": "map",
+       "at": "So why is Mongolia",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.75,
+           "lat": 48.5,
+           "span": 67.5
+          },
+          "highlight": [
+           "Mongolia@red"
+          ],
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "There are five reasons",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 99.5,
+           "lat": 47.5,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Khangai mountains"
+      },
+      {
+       "type": "photo",
+       "at": "it is too high",
+       "photo": "File:Altai Tavan Bogd - panoramio.jpg",
+       "on_screen_text": "The Altai mountains, western Mongolia"
+      }
+     ],
+     "ask": {
+      "at": "So why is Mongolia",
+      "text": "Why is Mongolia so empty?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Too High, Too Dry, Too Cold",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason one. The land is too high, too dry and too cold. The average point in Mongolia stands about one thousand five hundred and eighty meters above the sea. It is about as far from any ocean as you can get. Mountains ring it on the west and north, and the moist air from the seas never makes it this far.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 101.5,
+           "lat": 46.2,
+           "span": 33.0
+          },
+          "highlight": [
+           "Mongolia@red"
+          ],
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The average point in",
+       "stat": {
+        "value": "1,580 M",
+        "label": "Mongolia's average height above sea level",
+        "source": "Geography of Mongolia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is about as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 95.0,
+           "lat": 40.0,
+           "span": 60
+          },
+          "highlight": [
+           "Mongolia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Mountains ring it on",
+       "photo": "File:Altai Tavan Bogd - Potanin glacier - panoramio.jpg",
+       "on_screen_text": "The Potanin glacier, Altai Tavan Bogd"
+      },
+      {
+       "type": "map",
+       "at": "and the moist air",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 90.0,
+           "lat": 48.9,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Altai, Mongolia's western wall"
+      }
+     ]
+    },
+    {
+     "text": "So the winters are brutal. In January the average temperature in parts of the country falls to around minus thirty degrees. Ulaanbaatar, at about thirteen hundred meters, is the coldest national capital in the world; across a whole year, its average hovers around freezing. And the sky is clear more than two hundred and fifty days a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 100.0,
+           "lat": 49.5,
+           "span": 0.5
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Northern Mongolia in winter"
+      },
+      {
+       "type": "stat",
+       "at": "In January the average",
+       "stat": {
+        "value": "−30 °C",
+        "label": "January averages in the coldest parts of Mongolia",
+        "source": "Wikipedia, Mongolia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Ulaanbaatar, at about thirteen",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.9,
+           "lat": 47.9,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ulaanbaatar from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "across a whole year",
+       "photo": "File:Orkhon River Valley (40027403011).jpg",
+       "on_screen_text": "Storm over the Orkhon valley"
+      },
+      {
+       "type": "stat",
+       "at": "And the sky is",
+       "stat": {
+        "value": "250+ DAYS",
+        "label": "Sunny days a year in Mongolia",
+        "source": "Wikipedia, Mongolia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The south is drier still. The Gobi covers much of it, about two fifths of the country by Mongolia's own count. In the Gobi only fifty to a hundred millimeters of rain fall in a year, and some places get none at all for years. Even in the wetter north it is around three hundred. That is less than half of what falls on Paris.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.9,
+           "lat": 45.6,
+           "span": 24.6
+          },
+          "highlight": [
+           "file:gobi.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about two fifths of",
+       "stat": {
+        "value": "41 %",
+        "label": "Share of Mongolia that is Gobi desert and desert steppe",
+        "source": "Mongolian studies, Springer 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the Gobi only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.2,
+           "lat": 43.78,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": 102.2,
+           "lat": 43.78,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Khongoryn Els, the singing dunes"
+      },
+      {
+       "type": "chart",
+       "at": "Even in the wetter",
+       "chart": {
+        "type": "bar",
+        "title": "Rain and snow in a year",
+        "unit": "mm",
+        "data": [
+         [
+          "Gobi",
+          75
+         ],
+         [
+          "Northern Mongolia",
+          310
+         ],
+         [
+          "Paris",
+          640
+         ]
+        ],
+        "source": "Geography of Mongolia; Météo-France",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That is less than",
+       "photo": "File:Camels at Khongoryn Els 01.jpg",
+       "on_screen_text": "Camels below the Khongoryn Els dunes"
+      }
+     ]
+    },
+    {
+     "text": "Put cold and dry together and you get a land where very little can be farmed. Less than one percent of Mongolia is arable. Around Ulaanbaatar the ground is free of frost only from about mid-May to late August. And three quarters of the land has already been degraded by drought, overgrazing and wind. In 2026 Mongolia hosted the United Nations conference on desertification.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 105.9,
+           "lat": 49.4,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fields near Darkhan, in the north"
+      },
+      {
+       "type": "stat",
+       "at": "Less than one percent",
+       "stat": {
+        "value": "0.7 %",
+        "label": "Share of Mongolia's land that is arable",
+        "source": "CIA World Factbook, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Around Ulaanbaatar the ground",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 107.1,
+           "lat": 47.85,
+           "span": 0.3
+          },
+          "date": "2023-09-20/2023-10-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hills east of Ulaanbaatar in October"
+      },
+      {
+       "type": "stat",
+       "at": "And three quarters of",
+       "stat": {
+        "value": "76.9 %",
+        "label": "Mongolia's land degraded, 2020 national assessment",
+        "source": "Mongolian Mining Journal; MJGG"
+       }
+      },
+      {
+       "type": "map",
+       "at": "by drought, overgrazing and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.5,
+           "lat": 45.5,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dry steppe, central Mongolia"
+      },
+      {
+       "type": "photo",
+       "at": "In 2026 Mongolia hosted",
+       "photo": "File:Ovoo in Gobi Desert.jpg",
+       "on_screen_text": "An ovoo, a sacred cairn, in the Gobi"
+      }
+     ]
+    },
+    {
+     "text": "And yet the ground was never empty of life. In 1923 an American expedition led by Roy Chapman Andrews reached red cliffs in the Gobi and found nests of fossil eggs, the first that scientists recognized as dinosaur eggs. Andrews called the place the Flaming Cliffs, for the way they glow in the evening sun. The Gobi was not always a desert. But it has been one for a very long time.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.73,
+           "lat": 44.14,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayanzag, the Flaming Cliffs"
+      },
+      {
+       "type": "map",
+       "at": "In 1923 an American",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.0,
+           "lat": 44.5,
+           "span": 6
+          },
+          "places": [
+           {
+            "name": "Bayanzag",
+            "lon": 103.73,
+            "lat": 44.14,
+            "kind": "site",
+            "label": "Flaming Cliffs (Bayanzag)"
+           },
+           {
+            "name": "Dalanzadgad",
+            "lon": 104.42,
+            "lat": 43.57,
+            "kind": "city",
+            "label": "Dalanzadgad"
+           }
+          ]
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": 104.0,
+           "lat": 44.5,
+           "span": 4.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "found nests of fossil",
+       "photo": "File:Bayanzag 07.jpg",
+       "on_screen_text": "The Flaming Cliffs"
+      },
+      {
+       "type": "photo",
+       "at": "Andrews called the place",
+       "photo": "File:Bayanzag 10.jpg",
+       "on_screen_text": "Bayanzag in the evening light"
+      },
+      {
+       "type": "map",
+       "at": "The Gobi was not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.5,
+           "lat": 43.5,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 63,
+          "view": {
+           "lon": 103.5,
+           "lat": 43.5,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gobi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Land for Herds",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason two. This land feeds animals, not crops. Where wheat will not grow, grass still does, thin and short, but it covers hundreds of thousands of square kilometers. For thousands of years the people of Mongolia lived the only way that grass allowed: as herders, moving with their animals to fresh pasture with the seasons, carrying their homes with them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.0,
+           "lat": 47.0,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Steppe in the Khangai foothills"
+      },
+      {
+       "type": "photo",
+       "at": "Where wheat will not",
+       "photo": "File:Orkhon River Valley (25156751117).jpg",
+       "on_screen_text": "Herds in the Orkhon valley"
+      },
+      {
+       "type": "map",
+       "at": "but it covers hundreds",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.0,
+           "lat": 47.5,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The eastern steppe"
+      },
+      {
+       "type": "photo",
+       "at": "For thousands of years",
+       "photo": "File:Goat herd in mongolia.jpg",
+       "on_screen_text": "A herd on the dry steppe"
+      },
+      {
+       "type": "photo",
+       "at": "carrying their homes with",
+       "photo": "File:Yurt in Gobi Desert.jpg",
+       "on_screen_text": "A ger in the Gobi"
+      }
+     ]
+    },
+    {
+     "text": "That home is the ger, a round tent of felt over a wooden frame that a family can take down in an hour or two and load onto a camel or a truck. A herd needs room. In a dry year, a family may move many times to find grass, and the pasture is shared, not fenced. A place that feeds people this way can only feed a few of them per square kilometer.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The book of Ser Marco Polo - the Venetian concerning the kingdoms and marvels of the East (1903) (14766426971).jpg",
+       "on_screen_text": "Gers on carts, from a 1903 edition of Marco Polo"
+      },
+      {
+       "type": "map",
+       "at": "A herd needs room",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 101.0,
+           "lat": 46.4,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pasture in the Khangai"
+      },
+      {
+       "type": "map",
+       "at": "In a dry year",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.5,
+           "lat": 45.0,
+           "span": 0.3
+          },
+          "date": "2023-09-20/2023-10-15"
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": 106.5,
+           "lat": 45.0,
+           "span": 0.186
+          },
+          "date": "2023-09-20/2023-10-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dry pasture in the Middle Gobi"
+      },
+      {
+       "type": "map",
+       "at": "A place that feeds",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": 47.0,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 65,
+          "view": {
+           "lon": 112.0,
+           "lat": 47.0,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The open steppe near the Chinese border"
+      }
+     ]
+    },
+    {
+     "text": "And the animals far outnumber the people. At the end of 2023 Mongolia counted about sixty-four point seven million head of livestock. Almost nine in ten were sheep and goats; the rest were cattle, horses and camels. Goats matter most to the herders' cash, because their soft under-hair is sold as cashmere. That is roughly twenty animals for every person in the country.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sheep herd (2540223383).jpg",
+       "on_screen_text": "Sheep and goats"
+      },
+      {
+       "type": "stat",
+       "at": "At the end of",
+       "stat": {
+        "value": "64.7 M",
+        "label": "Livestock in Mongolia at the end of 2023",
+        "source": "National Statistics Office of Mongolia, livestock census"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Almost nine in ten",
+       "chart": {
+        "type": "bar",
+        "title": "Mongolia's herd by kind (2018)",
+        "unit": "%",
+        "data": [
+         [
+          "Sheep",
+          46.0
+         ],
+         [
+          "Goats",
+          40.8
+         ],
+         [
+          "Cattle",
+          6.6
+         ],
+         [
+          "Horses",
+          5.9
+         ],
+         [
+          "Camels",
+          0.7
+         ]
+        ],
+        "source": "National Statistics Office, via AKIpress",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Goats matter most to",
+       "photo": "File:Goat herd in mongolia.jpg",
+       "on_screen_text": "Goats and horses near the Gobi"
+      },
+      {
+       "type": "stat",
+       "at": "That is roughly twenty",
+       "stat": {
+        "value": "~20",
+        "label": "Animals per person in Mongolia, end of 2023 (our calculation)",
+        "source": "National Statistics Office of Mongolia, livestock census"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Horses still matter here more than almost anywhere. Every summer at Naadam, the national festival, children ride horses in races across the open steppe, some of them many kilometers long. It is a country built around animals. But that also means a country that depends, every winter, on the weather.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Orkhon River Valley (25156845687).jpg",
+       "on_screen_text": "A horse in the Orkhon valley"
+      },
+      {
+       "type": "photo",
+       "at": "Every summer at Naadam",
+       "photo": "File:Naadam 2023 - Horse racing 06.jpg",
+       "on_screen_text": "Naadam horse race, 2023"
+      },
+      {
+       "type": "map",
+       "at": "It is a country",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.7,
+           "lat": 47.6,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Orkhon valley grassland"
+      },
+      {
+       "type": "map",
+       "at": "But that also means",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.7,
+           "lat": 47.6,
+           "span": 0.6
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The same grassland in winter"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The White Death",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. The winters kill. Mongolians have a word for it: dzud. A dzud comes when a dry summer leaves the animals thin, and then deep snow, ice or extreme cold covers the grass so they cannot reach it. Animals that cannot graze for weeks starve and freeze, by the million.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.0,
+           "lat": 46.5,
+           "span": 0.5
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The eastern steppe under snow"
+      },
+      {
+       "type": "stat",
+       "at": "Mongolians have a word",
+       "stat": {
+        "value": "DZUD",
+        "label": "A summer drought, then a winter of snow, ice or cold that starves the herds",
+        "source": "UN OCHA"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and then deep snow",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 105.0,
+           "lat": 46.0,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Snow over pasture, central Mongolia"
+      },
+      {
+       "type": "photo",
+       "at": "Animals that cannot graze",
+       "photo": "File:Zud 2.JPG",
+       "on_screen_text": "Animals lost in a dzud"
+      }
+     ]
+    },
+    {
+     "text": "In the winter of 2009 and 2010 more than ten million animals died, about a quarter of all the livestock in the country, according to the United Nations. In 2023 and 2024 it happened again. By late April about seven million animals were dead; a later United Nations assessment put the losses at eight point one million. The national herd fell from sixty-four point seven million to fifty-seven point six million in a single year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "10 M+",
+        "label": "Animals killed in the 2009-2010 dzud: about a quarter of all livestock",
+        "source": "United Nations; FAO GIEWS; UNDP"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 2023 and 2024",
+       "photo": "File:Zud 1.JPG",
+       "on_screen_text": "A camel lost in a dzud"
+      },
+      {
+       "type": "stat",
+       "at": "a later United Nations",
+       "stat": {
+        "value": "8.1 M",
+        "label": "Animals lost in the 2023-2024 dzud (UNDP assessment)",
+        "source": "United Nations; FAO GIEWS; UNDP"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "The national herd fell",
+       "chart": {
+        "type": "bar",
+        "title": "Livestock in Mongolia",
+        "unit": "million head",
+        "data": [
+         [
+          "End of 2023",
+          64.7
+         ],
+         [
+          "End of 2024",
+          57.6
+         ]
+        ],
+        "source": "National Statistics Office of Mongolia, livestock census",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "For a herding family, a dzud can wipe out everything they own in a few weeks. A family with no animals has nothing to live on in the countryside. So many of them do what poor rural families everywhere do. They pack up and go to the city. And in Mongolia there is really only one city to go to.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.5,
+           "lat": 47.3,
+           "span": 0.3
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Winter camps on the steppe"
+      },
+      {
+       "type": "photo",
+       "at": "A family with no",
+       "photo": "File:Orkhon River Valley (40027403011).jpg",
+       "on_screen_text": "The open steppe"
+      },
+      {
+       "type": "map",
+       "at": "They pack up and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.1,
+           "lat": 48.0,
+           "span": 35.4
+          },
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             100.0,
+             46.0
+            ],
+            "to": [
+             106.92,
+             47.92
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           },
+           {
+            "from": [
+             112.5,
+             46.5
+            ],
+            "to": [
+             106.92,
+             47.92
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           },
+           {
+            "from": [
+             104.0,
+             44.0
+            ],
+            "to": [
+             106.92,
+             47.92
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And in Mongolia there",
+       "photo": "File:Ulaanbaatar city Mongolia 20230926 102617.jpg",
+       "on_screen_text": "Ulaanbaatar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Empire, Then Empty",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason four is history. Eight hundred years ago this was the center of the world. In 1206 a chief named Temüjin took the title Genghis Khan, and his armies built the largest connected land empire there has ever been. Its capital, Karakorum, stood in the Orkhon valley. But an empire run from horseback never needed big cities at home, and when it broke up, the herders were still herders.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Genghis Khan Equestrian Statue.jpg",
+       "on_screen_text": "Genghis Khan statue, Tsonjin Boldog"
+      },
+      {
+       "type": "map",
+       "at": "In 1206 a chief",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 75.0,
+           "lat": 45.0,
+           "span": 100
+          },
+          "highlight": [
+           "Mongolia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and his armies built",
+       "stat": {
+        "value": "1206",
+        "label": "Temüjin takes the title Genghis Khan and founds the Mongol Empire",
+        "source": "Wikipedia, Mongolia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its capital, Karakorum, stood",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.84,
+           "lat": 47.2,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Karakorum and the Erdene Zuu monastery"
+      },
+      {
+       "type": "photo",
+       "at": "But an empire run",
+       "photo": "File:The book of Ser Marco Polo - the Venetian concerning the kingdoms and marvels of the East (1903) (14766426971).jpg",
+       "on_screen_text": "Mongol camp, from a 1903 edition of Marco Polo"
+      }
+     ]
+    },
+    {
+     "text": "Later the Qing dynasty of China ruled the country for more than two centuries. In 1921 a revolution backed by Soviet Russia broke away, and in 1924 Mongolia became a people's republic, the first Soviet satellite state. In the late 1930s a wave of purges killed more than twenty thousand people, among them an estimated seventeen thousand Buddhist monks. In the 1950s the herds were put into state collectives.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 96.25,
+           "lat": 45.5,
+           "span": 82.5
+          },
+          "highlight": [
+           "Mongolia@red",
+           "China@accent"
+          ],
+          "places": [
+           {
+            "name": "Beijing",
+            "lon": 116.4,
+            "lat": 39.9,
+            "kind": "city",
+            "label": "Beijing"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1921 a revolution",
+       "stat": {
+        "value": "1924",
+        "label": "The Mongolian People's Republic, the first Soviet satellite state",
+        "source": "Wikipedia, Mongolian People's Republic"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the first Soviet satellite",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 102.25,
+           "lat": 44.0,
+           "span": 61.5
+          },
+          "highlight": [
+           "Mongolia@red",
+           "Russia@accent"
+          ],
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.6,
+            "lat": 55.75,
+            "kind": "city",
+            "label": "Moscow"
+           },
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In the late 1930s",
+       "stat": {
+        "value": "20,000+",
+        "label": "People killed in the purges of 1937-1939, including about 17,000 monks",
+        "source": "Wikipedia, Mongolian People's Republic"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In the 1950s the",
+       "photo": "File:Socialist Mongolia Herder Award Bucket (35703718785).jpg",
+       "on_screen_text": "A socialist-era award for a model herder"
+      }
+     ]
+    },
+    {
+     "text": "The Soviets built towns, mines and a railway, from the Russian border through Ulaanbaatar to China, finished in the 1950s. Then in 1990 a peaceful revolution ended one-party rule. In 1991 the collectives were broken up and their animals handed out. With factories closing and jobs disappearing, people went back to the herds: herding households rose from about seventy thousand in 1990 to about two hundred thousand by the end of the decade.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 105.1,
+           "lat": 46.8,
+           "span": 28.5
+          },
+          "routes": [
+           {
+            "from": [
+             106.4,
+             51.9
+            ],
+            "via": [
+             [
+              106.2,
+              50.2
+             ],
+             [
+              106.92,
+              47.92
+             ],
+             [
+              108.3,
+              46.4
+             ],
+             [
+              110.1,
+              44.9
+             ]
+            ],
+            "to": [
+             111.9,
+             43.72
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.0,
+            "label": "Trans-Mongolian railway"
+           }
+          ],
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "finished in the 1950s",
+       "photo": "File:Trans-Mongolian Railway (49309525323).jpg",
+       "on_screen_text": "The Trans-Mongolian railway"
+      },
+      {
+       "type": "stat",
+       "at": "Then in 1990 a",
+       "stat": {
+        "value": "1990",
+        "label": "A peaceful revolution; the first multiparty elections, 29 June 1990",
+        "source": "Wikipedia, Mongolian People's Republic"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1991 the collectives",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.0,
+           "lat": 46.3,
+           "span": 0.4
+          },
+          "date": "2023-09-20/2023-10-15"
+         },
+         {
+          "at": 41,
+          "view": {
+           "lon": 104.0,
+           "lat": 46.3,
+           "span": 0.248
+          },
+          "date": "2023-09-20/2023-10-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Herding country, central Mongolia"
+      },
+      {
+       "type": "chart",
+       "at": "herding households rose from",
+       "chart": {
+        "type": "bar",
+        "title": "Herding households in Mongolia",
+        "unit": "households",
+        "data": [
+         [
+          "1990",
+          70000
+         ],
+         [
+          "late 1990s",
+          200000
+         ]
+        ],
+        "source": "Yamamura et al., Research Institute for Humanity and Nature",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "Many of those new herders had small flocks and little experience. When the dzuds came, starting in 2000, they were hit hardest. And so the country that had briefly gone back to the steppe started moving to town.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.0,
+           "lat": 45.5,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Middle Gobi in winter"
+      },
+      {
+       "type": "photo",
+       "at": "When the dzuds came",
+       "photo": "File:Zud 2.JPG",
+       "on_screen_text": "Animals lost in a dzud"
+      },
+      {
+       "type": "map",
+       "at": "And so the country",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.85,
+           "lat": 47.95,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ger districts on Ulaanbaatar's edge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "One City",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason five. Everyone who leaves the land goes to the same place. Ulaanbaatar began as a moving monastery and settled in its present valley in 1778. In 1950 about seventy thousand people lived there. By 1989 it was five hundred and forty thousand. By the end of 2022 it was just over one point six million, almost half of the whole country.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ulaanbaatar city Mongolia 20230926 102617.jpg",
+       "on_screen_text": "Ulaanbaatar today"
+      },
+      {
+       "type": "map",
+       "at": "Ulaanbaatar began as a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.92,
+           "lat": 47.92,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Central Ulaanbaatar"
+      },
+      {
+       "type": "chart",
+       "at": "In 1950 about seventy",
+       "chart": {
+        "type": "bar",
+        "title": "People in Ulaanbaatar",
+        "unit": "people",
+        "data": [
+         [
+          "1950",
+          69951
+         ],
+         [
+          "1989",
+          540300
+         ],
+         [
+          "2022",
+          1600000
+         ]
+        ],
+        "source": "Census figures via Wikipedia, Ulaanbaatar",
+        "highlight": 2,
+        "reveal": [
+         "By 1989 it was",
+         "By the end of"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "almost half of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 100.9,
+           "lat": 46.8,
+           "span": 25.8
+          },
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ],
+          "highlight": [
+           "Mongolia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The city was planned for a few hundred thousand people. The newcomers could not afford apartments, so they set up their gers on the hills around it. These ger districts now hold more than half of the city's people, often without running water or sewers. To get through winters of minus thirty, they burn raw coal in their stoves.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.85,
+           "lat": 47.96,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ger districts on the northern hills"
+      },
+      {
+       "type": "photo",
+       "at": "The newcomers could not",
+       "photo": "File:Ger district of Ulaanbaatar.jpg",
+       "on_screen_text": "Ger districts above central Ulaanbaatar"
+      },
+      {
+       "type": "stat",
+       "at": "These ger districts now",
+       "stat": {
+        "value": "50 %+",
+        "label": "Share of Ulaanbaatar's people living in ger districts",
+        "source": "World Bank"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "often without running water",
+       "photo": "File:Ger district of Nalaikh.jpg",
+       "on_screen_text": "A ger district street, Nalaikh"
+      },
+      {
+       "type": "map",
+       "at": "To get through winters",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.9,
+           "lat": 47.93,
+           "span": 0.2
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ulaanbaatar in winter"
+      }
+     ]
+    },
+    {
+     "text": "Ulaanbaatar sits in a valley, and in winter cold air gets trapped there under a lid of warmer air. The smoke cannot escape. In the ger districts, the World Bank found that winter levels of fine particles can be more than a hundred times the World Health Organization's daily guideline. One of the coldest capitals on Earth has also become one of the most polluted.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.95,
+           "lat": 47.9,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 106.95,
+           "lat": 47.9,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Tuul valley and Ulaanbaatar"
+      },
+      {
+       "type": "stat",
+       "at": "In the ger districts",
+       "stat": {
+        "value": "100×",
+        "label": "Winter fine-particle levels in ger districts against the WHO daily guideline",
+        "source": "World Bank"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "One of the coldest",
+       "photo": "File:Ulaanbaatar 377 (26274377965).jpg",
+       "on_screen_text": "Ulaanbaatar"
+      }
+     ]
+    },
+    {
+     "text": "Mongolia does have wealth. It is under the ground. In the south, the Oyu Tolgoi mine produces copper and gold, and Tavan Tolgoi is one of the largest coal deposits in the world. Mining makes up around four fifths of the country's exports, and almost all the coal goes to China, by truck and, since 2022, by a new railway to the border. But a mine needs few people, and it does not need them to stay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.86,
+           "lat": 43.02,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oyu Tolgoi from orbit"
+      },
+      {
+       "type": "map",
+       "at": "In the south, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.0,
+           "lat": 43.5,
+           "span": 5
+          },
+          "places": [
+           {
+            "name": "Oyu Tolgoi",
+            "lon": 106.86,
+            "lat": 43.0,
+            "kind": "site",
+            "label": "Oyu Tolgoi copper mine"
+           },
+           {
+            "name": "Tavan Tolgoi",
+            "lon": 105.55,
+            "lat": 43.6,
+            "kind": "site",
+            "label": "Tavan Tolgoi coal"
+           },
+           {
+            "name": "Dalanzadgad",
+            "lon": 104.42,
+            "lat": 43.57,
+            "kind": "city",
+            "label": "Dalanzadgad"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             105.55,
+             43.6
+            ],
+            "via": [
+             [
+              106.6,
+              43.3
+             ]
+            ],
+            "to": [
+             107.35,
+             42.7
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "Coal to China"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and Tavan Tolgoi is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 105.55,
+           "lat": 43.6,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tavan Tolgoi coal pits"
+      },
+      {
+       "type": "stat",
+       "at": "Mining makes up around",
+       "stat": {
+        "value": "~80 %",
+        "label": "Share of Mongolia's exports from mining",
+        "source": "USGS Minerals Yearbook; press reports"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and almost all the",
+       "stat": {
+        "value": "94 %",
+        "label": "Share of Mongolia's coal exports that went to China, 2022",
+        "source": "Mining in Mongolia, via press reports"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But a mine needs",
+       "photo": "File:Oyu Tolgoi 16.JPG",
+       "on_screen_text": "The Oyu Tolgoi mine camp"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Emptiest Country",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So put it together. The land is high, dry and cold, and less than one percent of it can be farmed. What it can do is feed animals, and animals need a lot of room. The winters kill the herds and push the herders out. History built an empire but not cities, and then the collapse of the Soviet system sent people back to the steppe and then into one city. And the wealth that is left is dug out of the ground by a small workforce.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.0,
+           "lat": 48.3,
+           "span": 31.8
+          },
+          "highlight": [
+           "Mongolia@red"
+          ],
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "What it can do",
+       "photo": "File:Orkhon River Valley (25156751117).jpg",
+       "on_screen_text": "The Orkhon valley"
+      },
+      {
+       "type": "map",
+       "at": "The winters kill the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 108.0,
+           "lat": 46.0,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The steppe in winter"
+      },
+      {
+       "type": "photo",
+       "at": "History built an empire",
+       "photo": "File:Genghis Khan Equestrian Statue.jpg",
+       "on_screen_text": "Genghis Khan statue"
+      },
+      {
+       "type": "photo",
+       "at": "and then into one",
+       "photo": "File:Ger district of Ulaanbaatar.jpg",
+       "on_screen_text": "Ulaanbaatar's ger districts"
+      },
+      {
+       "type": "map",
+       "at": "And the wealth that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.86,
+           "lat": 42.99,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Oyu Tolgoi open pit"
+      }
+     ]
+    },
+    {
+     "text": "Mongolia is not empty because nobody wants to live there. It is empty because, for most of its history, this land could only support people who kept moving. Next time you see a map of Asia at night, look between Russia and China. That dark square, with one bright dot, is Mongolia.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:On Lake Hovsgol (3756943119).jpg",
+       "on_screen_text": "Lake Khövsgöl, northern Mongolia"
+      },
+      {
+       "type": "map",
+       "at": "It is empty because",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 99.0,
+           "lat": 47.0,
+           "span": 0.5
+          },
+          "date": "2023-09-20/2023-10-15"
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": 99.0,
+           "lat": 47.0,
+           "span": 0.31
+          },
+          "date": "2023-09-20/2023-10-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Khangai mountains in autumn"
+      },
+      {
+       "type": "map",
+       "at": "Next time you see",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 97.75,
+           "lat": 50.0,
+           "span": 88.5
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "That dark square, with",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.0,
+           "lat": 45.3,
+           "span": 23.4
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Ulaanbaatar",
+            "lon": 106.92,
+            "lat": 47.92,
+            "kind": "city",
+            "label": "Ulaanbaatar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If you could spend one year in Mongolia, would you live in a ger on the steppe and move with the herds, or in an apartment in Ulaanbaatar?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Yurt in Gobi Desert.jpg",
+       "on_screen_text": "A ger in the Gobi"
+      },
+      {
+       "type": "photo",
+       "at": "would you live in",
+       "photo": "File:Naadam 2023 - Horse racing 06.jpg",
+       "on_screen_text": "Naadam"
+      },
+      {
+       "type": "photo",
+       "at": "or in an apartment",
+       "photo": "File:Ulaanbaatar city Mongolia 20230926 102617.jpg",
+       "on_screen_text": "Ulaanbaatar"
+      }
+     ],
+     "ask": {
+      "at": "would you live in",
+      "text": "A ger on the steppe, or the city?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Mongolia Is the Emptiest Country on Earth",
+  "description": "Mongolia is almost three times the size of France, yet about three and a half million people live there, and roughly half of them in one city. This video goes through the five reasons it is the most thinly populated country on Earth: a high, dry, cold land where less than one percent can be farmed, grass that feeds herds rather than crops, the killer winters called dzud, a history that built an empire but no cities and then a Soviet collapse, and the pull of Ulaanbaatar and the mines.",
+  "tags": [
+   "Mongolia",
+   "why Mongolia is empty",
+   "emptiest country",
+   "Ulaanbaatar",
+   "Gobi Desert",
+   "dzud",
+   "nomads",
+   "ger",
+   "Genghis Khan",
+   "Mongolian steppe",
+   "Oyu Tolgoi",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you could spend one year in Mongolia, would you live in a ger on the steppe and move with the herds, or in an apartment in Ulaanbaatar?"
+ }
+}

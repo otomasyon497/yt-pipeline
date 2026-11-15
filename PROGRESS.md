@@ -729,3 +729,8 @@ Each sub-phase stops for user approval.
   detail >=0.65), contact sheets, build_script.py modelled on northern-maine-empty (hand-placed, seasonal dates for
   look-alike views, no push-in on paints), episode_check, claim_log + rules script (mefact.py pattern), cover.json
   (Mongolia red, "SO EMPTY?"), storyboard, render, audit, upload publishAt 2026-11-19T23:00:00Z.
+- 2026-11-15: Mongolia build_script.py draft 1 (1,578 words, 120 shots) + geo/gobi.geojson. TOO SHORT: needs
+  ~2,750. Photos chosen (constants in build_script). Next: add ~1,150 sourced words (candidates: Khövsgöl lake,
+  Kazakh eagle hunters of Bayan-Ölgii, Trans-Mongolian rail 1949/1955 detail, Choibalsan/1990 hunger strike,
+  Ulaanbaatar inversion/coal ban 2019, Tavan Tolgoi rail 2022, Gobi wildlife, Naadam, sheep/cashmere prices,
+  urban share 69 %), fix holds, episode_check, claim_log/rules, cover, storyboard.

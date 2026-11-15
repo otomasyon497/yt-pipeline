@@ -1,0 +1,356 @@
+"""Builds script.json for mongolia-empty.  python build_script.py
+
+Same production logic as episodes/northern-maine-empty (hook template, numbered reasons, painted regions without
+push-in, hand-placed shots with varied seasons, a photo or map frame at most twice). Sources: research.md.
+Regions: geo/make_regions.py.
+"""
+import json
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).parent
+sys.path.insert(0, str(HERE.parent.parent / "pipeline"))
+from schema import Paragraph  # noqa: E402
+
+
+def near(lon, lat, span):
+    return {"lon": lon, "lat": lat, "span": span}
+
+
+def place(name, lon, lat, label=None, kind="city"):
+    return {"name": name, "lon": lon, "lat": lat, "kind": kind, "label": label if label is not None else name}
+
+
+def m(at, *steps, text=None, cut=True):
+    s = {"type": "map", "at": at, "map": {"steps": list(steps)}}
+    if cut:
+        s["map"]["cut"] = True
+    if text:
+        s["on_screen_text"] = text
+    return s
+
+
+_uses: dict = {}
+
+
+def fresh(view):
+    """Wide views come back with new content; frame each use a little differently so no map frame is seen twice."""
+    if view["span"] <= 2.5:
+        return view
+    key = (view["lon"], view["lat"], view["span"])
+    k = _uses.get(key, 0)
+    _uses[key] = k + 1
+    if k == 0:
+        return view
+    dx, dy = [(0.05, 0.02), (-0.05, -0.02), (0.03, -0.04), (-0.03, 0.04), (0.07, 0.0), (-0.07, 0.0), (0.0, 0.05), (0.0, -0.05)][(k - 1) % 8]
+    zoom = [0.9, 1.1, 0.82, 1.18, 0.95, 0.86, 1.06, 0.78][(k - 1) % 8] * (0.97 ** ((k - 1) // 8))
+    return {"lon": round(view["lon"] + dx * view["span"], 3), "lat": round(view["lat"] + dy * view["span"], 3), "span": round(view["span"] * zoom, 3)}
+
+
+def v(view, at=None, **kw):
+    d = {"view": fresh(view), **kw}
+    if at is not None:
+        d["at"] = at
+    return d
+
+
+def sat(at, lon, lat, span, label=None, **kw):
+    """One close satellite view (Sentinel-2, the clearest recent day) of a named spot."""
+    return m(at, v(near(lon, lat, span), **kw), text=label)
+
+
+def paint(at, *names, view=None, **kw):
+    view = view or ME
+    return m(at, v(view, highlight=list(names), **kw))
+
+
+def photo(at, name, text=None):
+    d = {"type": "photo", "at": at, "photo": name}
+    if text:
+        d["on_screen_text"] = text
+    return d
+
+
+def stat(at, value, label, source):
+    return {"type": "stat", "at": at, "stat": {"value": value, "label": label, "source": source}}
+
+
+def clip(at, text, source, highlight=None):
+    d = {"text": text, "source": source}
+    if highlight:
+        d["highlight"] = highlight
+    return {"type": "document", "at": at, "document": d}
+
+
+def chart(at, title, unit, data, source, reveal=None, highlight=0):
+    c = {"type": "bar", "title": title, "unit": unit, "data": data, "source": source, "highlight": highlight}
+    if reveal:
+        c["reveal"] = reveal
+    return {"type": "chart", "at": at, "chart": c}
+
+
+def P(text, *shots, ask=None):
+    d = {"text": text, "shots": list(shots)}
+    if ask:
+        d["ask"] = {"at": ask[0], "text": ask[1]}
+    return d
+
+
+
+MN = {"lon": 103.0, "lat": 46.8, "span": 30}
+ASIA = {"lon": 100.0, "lat": 47.0, "span": 75}
+GOBI = "file:gobi.geojson"
+SUM = "2024-07-01/2024-08-31"
+WIN = "2024-01-10/2024-03-01"
+AUT = "2023-09-20/2023-10-15"
+
+NSO = "National Statistics Office of Mongolia, livestock census"
+UN = "United Nations; FAO GIEWS; UNDP"
+WB = "World Bank"
+
+PH_ALTAI = "File:Altai Tavan Bogd - panoramio.jpg"
+PH_GLACIER = "File:Altai Tavan Bogd - Potanin glacier - panoramio.jpg"
+PH_CAMELS = "File:Camels in Gobi Desert 02.jpg"
+PH_DUNES = "File:Camels at Khongoryn Els 01.jpg"
+PH_ZUD_GOATS = "File:Zud 2.JPG"
+PH_ZUD_CAMEL = "File:Zud 1.JPG"
+PH_BAYANZAG = "File:Bayanzag 10.jpg"
+PH_BAYANZAG2 = "File:Bayanzag 07.jpg"
+PH_GENGHIS = "File:Genghis Khan Equestrian Statue.jpg"
+PH_POLO = "File:The book of Ser Marco Polo - the Venetian concerning the kingdoms and marvels of the East (1903) (14766426971).jpg"
+PH_GERDIST = "File:Ger district of Ulaanbaatar.jpg"
+PH_NALAIKH = "File:Ger district of Nalaikh.jpg"
+PH_YURT = "File:Yurt in Gobi Desert.jpg"
+PH_OVOO = "File:Ovoo in Gobi Desert.jpg"
+PH_SHEEP = "File:Sheep herd (2540223383).jpg"
+PH_GOATS = "File:Goat herd in mongolia.jpg"
+PH_STEPPE = "File:Mongolian nature steppe and mountain.jpg"
+PH_NAADAM = "File:Naadam 2023 - Horse racing 06.jpg"
+PH_HOVSGOL = "File:On Lake Hovsgol (3756943119).jpg"
+PH_ORKHON = "File:Orkhon River Valley (25156751117).jpg"
+PH_HORSE = "File:Orkhon River Valley (25156845687).jpg"
+PH_STORM = "File:Orkhon River Valley (40027403011).jpg"
+PH_BUCKET = "File:Socialist Mongolia Herder Award Bucket (35703718785).jpg"
+PH_TRAIN = "File:Trans-Mongolian Railway (49309525323).jpg"
+PH_UB = "File:Ulaanbaatar 377 (26274377965).jpg"
+PH_UB2 = "File:Ulaanbaatar city Mongolia 20230926 102617.jpg"
+PH_OT_CAMP = "File:Oyu Tolgoi 16.JPG"
+
+UB = place("Ulaanbaatar", 106.92, 47.92)
+DARKHAN, ERDENET = place("Darkhan", 105.95, 49.47), place("Erdenet", 104.05, 49.03)
+OLGII, DALAN = place("Ölgii", 89.97, 48.97), place("Dalanzadgad", 104.42, 43.57)
+BAYANZAG = place("Bayanzag", 103.73, 44.14, "Flaming Cliffs (Bayanzag)", "site")
+OYU = place("Oyu Tolgoi", 106.86, 43.0, "Oyu Tolgoi copper mine", "site")
+TAVAN = place("Tavan Tolgoi", 105.55, 43.6, "Tavan Tolgoi coal", "site")
+KARAKORUM = place("Karakorum", 102.83, 47.2, "Karakorum", "site")
+BEIJING, MOSCOW = place("Beijing", 116.4, 39.9), place("Moscow", 37.6, 55.75)
+RAIL = {"from": [106.4, 51.9], "via": [[106.2, 50.2], [106.92, 47.92], [108.3, 46.4], [110.1, 44.9]], "to": [111.9, 43.72],
+        "mode": "line", "color": "accent", "seconds": 2.0, "label": "Trans-Mongolian railway"}
+COAL = {"from": [105.55, 43.6], "via": [[106.6, 43.3]], "to": [107.35, 42.7], "mode": "line", "color": "red", "seconds": 1.5, "label": "Coal to China"}
+
+chapters = [
+    {"title": "One Dot of Light", "mood": "curious", "paragraphs": [
+        P("Mongolia sits between Russia and China, and it is huge: more than one and a half million square kilometers, almost three times the size of France. About three and a half million people live there. That makes it the most thinly populated independent country on Earth. And roughly half of those people live in a single city. At night, from orbit, the whole country is one bright dot and a few sparks.",
+          m(0, v(ASIA, highlight=["Mongolia@red", "Russia@accent", "China@accent"])),
+          m("and it is huge", v(MN, highlight=["Mongolia@red"])),
+          stat("almost three times the", "1,564,116 KM²", "Mongolia's area: about 2.8 times metropolitan France (our calculation)", "Wikipedia, Mongolia; INSEE"),
+          photo("About three and a", PH_STEPPE, "The Mongolian steppe"),
+          stat("That makes it the", "~2 / KM²", "People per square kilometer: the lowest of any sovereign state", "Wikipedia, Mongolia"),
+          photo("And roughly half of", PH_UB, "Ulaanbaatar"),
+          m("At night, from orbit", v(MN, layer="night", places=[UB])),
+          m("the whole country is", v({"lon": 104.5, "lat": 47.5, "span": 14}, layer="night", places=[UB, DARKHAN, ERDENET]))),
+        P("Out there is the coldest capital city in the world. There are more horses, sheep, goats, cattle and camels than people, many times over. And in the south, in 1923, explorers dug up the first dinosaur eggs anyone recognized as dinosaur eggs. So why is Mongolia so empty? There are five reasons, and the first is the ground itself: it is too high, too dry and too cold.",
+          sat(0, 106.92, 47.92, 0.25, "Ulaanbaatar in winter", date=WIN),
+          photo("There are more horses", PH_SHEEP, "Sheep and goats on the steppe"),
+          photo("camels than people, many", PH_CAMELS, "Bactrian camels in the Gobi"),
+          photo("And in the south", PH_BAYANZAG, "The Flaming Cliffs, Bayanzag"),
+          m("So why is Mongolia", v(ASIA, highlight=["Mongolia@red"], places=[UB])),
+          sat("There are five reasons", 99.5, 47.5, 0.5, "The Khangai mountains"),
+          photo("it is too high", PH_ALTAI, "The Altai mountains, western Mongolia"),
+          ask=("So why is Mongolia", "Why is Mongolia so empty?")),
+    ]},
+    {"title": "Too High, Too Dry, Too Cold", "mood": "curious", "paragraphs": [
+        P("Reason one. The land is too high, too dry and too cold. The average point in Mongolia stands about one thousand five hundred and eighty meters above the sea. It is about as far from any ocean as you can get. Mountains ring it on the west and north, and the moist air from the seas never makes it this far.",
+          m(0, v(MN, highlight=["Mongolia@red"], places=[UB])),
+          stat("The average point in", "1,580 M", "Mongolia's average height above sea level", "Geography of Mongolia"),
+          m("It is about as", v({"lon": 95.0, "lat": 40.0, "span": 60}, highlight=["Mongolia@red"])),
+          photo("Mountains ring it on", PH_GLACIER, "The Potanin glacier, Altai Tavan Bogd"),
+          sat("and the moist air", 90.0, 48.9, 0.6, "The Altai, Mongolia's western wall")),
+        P("So the winters are brutal. In January the average temperature in parts of the country falls to around minus thirty degrees. Ulaanbaatar, at about thirteen hundred meters, is the coldest national capital in the world; across a whole year, its average hovers around freezing. And the sky is clear more than two hundred and fifty days a year.",
+          sat(0, 100.0, 49.5, 0.5, "Northern Mongolia in winter", date=WIN),
+          stat("In January the average", "−30 °C", "January averages in the coldest parts of Mongolia", "Wikipedia, Mongolia"),
+          sat("Ulaanbaatar, at about thirteen", 106.9, 47.9, 0.12, "Ulaanbaatar from orbit"),
+          photo("across a whole year", PH_STORM, "Storm over the Orkhon valley"),
+          stat("And the sky is", "250+ DAYS", "Sunny days a year in Mongolia", "Wikipedia, Mongolia")),
+        P("The south is drier still. The Gobi covers much of it, about two fifths of the country by Mongolia's own count. In the Gobi only fifty to a hundred millimeters of rain fall in a year, and some places get none at all for years. Even in the wetter north it is around three hundred. That is less than half of what falls on Paris.",
+          paint(0, GOBI + "@red", view=MN, places=[UB]),
+          stat("about two fifths of", "41 %", "Share of Mongolia that is Gobi desert and desert steppe", "Mongolian studies, Springer 2021"),
+          sat("In the Gobi only", 102.2, 43.78, 0.4, "Khongoryn Els, the singing dunes"),
+          chart("Even in the wetter", "Rain and snow in a year", "mm", [["Gobi", 75], ["Northern Mongolia", 310], ["Paris", 640]], "Geography of Mongolia; Météo-France", highlight=0),
+          photo("That is less than", PH_DUNES, "Camels below the Khongoryn Els dunes")),
+        P("Put cold and dry together and you get a land where very little can be farmed. Less than one percent of Mongolia is arable. Around Ulaanbaatar the ground is free of frost only from about mid-May to late August. And three quarters of the land has already been degraded by drought, overgrazing and wind. In 2026 Mongolia hosted the United Nations conference on desertification.",
+          sat(0, 105.9, 49.4, 0.3, "Fields near Darkhan, in the north"),
+          stat("Less than one percent", "0.7 %", "Share of Mongolia's land that is arable", "CIA World Factbook, 2023"),
+          sat("Around Ulaanbaatar the ground", 107.1, 47.85, 0.3, "Hills east of Ulaanbaatar in October", date=AUT),
+          stat("And three quarters of", "76.9 %", "Mongolia's land degraded, 2020 national assessment", "Mongolian Mining Journal; MJGG"),
+          sat("by drought, overgrazing and", 104.5, 45.5, 0.4, "Dry steppe, central Mongolia"),
+          photo("In 2026 Mongolia hosted", PH_OVOO, "An ovoo, a sacred cairn, in the Gobi")),
+        P("And yet the ground was never empty of life. In 1923 an American expedition led by Roy Chapman Andrews reached red cliffs in the Gobi and found nests of fossil eggs, the first that scientists recognized as dinosaur eggs. Andrews called the place the Flaming Cliffs, for the way they glow in the evening sun. The Gobi was not always a desert. But it has been one for a very long time.",
+          sat(0, 103.73, 44.14, 0.08, "Bayanzag, the Flaming Cliffs"),
+          m("In 1923 an American", v({"lon": 104.0, "lat": 44.5, "span": 6}, places=[BAYANZAG, DALAN])),
+          photo("found nests of fossil", PH_BAYANZAG2, "The Flaming Cliffs"),
+          photo("Andrews called the place", PH_BAYANZAG, "Bayanzag in the evening light"),
+          sat("The Gobi was not", 103.5, 43.5, 0.5, "The Gobi")),
+    ]},
+    {"title": "A Land for Herds", "mood": "calm", "paragraphs": [
+        P("Reason two. This land feeds animals, not crops. Where wheat will not grow, grass still does, thin and short, but it covers hundreds of thousands of square kilometers. For thousands of years the people of Mongolia lived the only way that grass allowed: as herders, moving with their animals to fresh pasture with the seasons, carrying their homes with them.",
+          sat(0, 103.0, 47.0, 0.4, "Steppe in the Khangai foothills"),
+          photo("Where wheat will not", PH_ORKHON, "Herds in the Orkhon valley"),
+          sat("but it covers hundreds", 110.0, 47.5, 0.6, "The eastern steppe"),
+          photo("For thousands of years", PH_GOATS, "A herd on the dry steppe"),
+          photo("carrying their homes with", PH_YURT, "A ger in the Gobi")),
+        P("That home is the ger, a round tent of felt over a wooden frame that a family can take down in an hour or two and load onto a camel or a truck. A herd needs room. In a dry year, a family may move many times to find grass, and the pasture is shared, not fenced. A place that feeds people this way can only feed a few of them per square kilometer.",
+          photo(0, PH_POLO, "Gers on carts, from a 1903 edition of Marco Polo"),
+          sat("A herd needs room", 101.0, 46.4, 0.3, "Pasture in the Khangai"),
+          sat("In a dry year", 106.5, 45.0, 0.3, "Dry pasture in the Middle Gobi", date=AUT),
+          sat("A place that feeds", 112.0, 47.0, 0.4, "The open steppe near the Chinese border")),
+        P("And the animals far outnumber the people. At the end of 2023 Mongolia counted about sixty-four point seven million head of livestock. Almost nine in ten were sheep and goats; the rest were cattle, horses and camels. Goats matter most to the herders' cash, because their soft under-hair is sold as cashmere. That is roughly twenty animals for every person in the country.",
+          photo(0, PH_SHEEP, "Sheep and goats"),
+          stat("At the end of", "64.7 M", "Livestock in Mongolia at the end of 2023", NSO),
+          chart("Almost nine in ten", "Mongolia's herd by kind (2018)", "%", [["Sheep", 46.0], ["Goats", 40.8], ["Cattle", 6.6], ["Horses", 5.9], ["Camels", 0.7]], "National Statistics Office, via AKIpress"),
+          photo("Goats matter most to", PH_GOATS, "Goats and horses near the Gobi"),
+          stat("That is roughly twenty", "~20", "Animals per person in Mongolia, end of 2023 (our calculation)", NSO)),
+        P("Horses still matter here more than almost anywhere. Every summer at Naadam, the national festival, children ride horses in races across the open steppe, some of them many kilometers long. It is a country built around animals. But that also means a country that depends, every winter, on the weather.",
+          photo(0, PH_HORSE, "A horse in the Orkhon valley"),
+          photo("Every summer at Naadam", PH_NAADAM, "Naadam horse race, 2023"),
+          sat("It is a country", 102.7, 47.6, 0.3, "Orkhon valley grassland"),
+          sat("But that also means", 102.7, 47.6, 0.6, "The same grassland in winter", date=WIN)),
+    ]},
+    {"title": "The White Death", "mood": "tension", "paragraphs": [
+        P("Reason three. The winters kill. Mongolians have a word for it: dzud. A dzud comes when a dry summer leaves the animals thin, and then deep snow, ice or extreme cold covers the grass so they cannot reach it. Animals that cannot graze for weeks starve and freeze, by the million.",
+          sat(0, 110.0, 46.5, 0.5, "The eastern steppe under snow", date=WIN),
+          stat("Mongolians have a word", "DZUD", "A summer drought, then a winter of snow, ice or cold that starves the herds", "UN OCHA"),
+          sat("and then deep snow", 105.0, 46.0, 0.4, "Snow over pasture, central Mongolia", date=WIN),
+          photo("Animals that cannot graze", PH_ZUD_GOATS, "Animals lost in a dzud")),
+        P("In the winter of 2009 and 2010 more than ten million animals died, about a quarter of all the livestock in the country, according to the United Nations. In 2023 and 2024 it happened again. By late April about seven million animals were dead; a later United Nations assessment put the losses at eight point one million. The national herd fell from sixty-four point seven million to fifty-seven point six million in a single year.",
+          stat(0, "10 M+", "Animals killed in the 2009-2010 dzud: about a quarter of all livestock", UN),
+          photo("In 2023 and 2024", PH_ZUD_CAMEL, "A camel lost in a dzud"),
+          stat("a later United Nations", "8.1 M", "Animals lost in the 2023-2024 dzud (UNDP assessment)", UN),
+          chart("The national herd fell", "Livestock in Mongolia", "million head", [["End of 2023", 64.7], ["End of 2024", 57.6]], NSO, highlight=1)),
+        P("For a herding family, a dzud can wipe out everything they own in a few weeks. A family with no animals has nothing to live on in the countryside. So many of them do what poor rural families everywhere do. They pack up and go to the city. And in Mongolia there is really only one city to go to.",
+          sat(0, 108.5, 47.3, 0.3, "Winter camps on the steppe", date=WIN),
+          photo("A family with no", PH_STORM, "The open steppe"),
+          m("They pack up and", v(MN, places=[UB], routes=[{"from": [100.0, 46.0], "to": [106.92, 47.92], "mode": "line", "color": "red", "seconds": 1.5}, {"from": [112.5, 46.5], "to": [106.92, 47.92], "mode": "line", "color": "red", "seconds": 1.5}, {"from": [104.0, 44.0], "to": [106.92, 47.92], "mode": "line", "color": "red", "seconds": 1.5}])),
+          photo("And in Mongolia there", PH_UB2, "Ulaanbaatar")),
+    ]},
+    {"title": "Empire, Then Empty", "mood": "calm", "paragraphs": [
+        P("Reason four is history. Eight hundred years ago this was the center of the world. In 1206 a chief named Temüjin took the title Genghis Khan, and his armies built the largest connected land empire there has ever been. Its capital, Karakorum, stood in the Orkhon valley. But an empire run from horseback never needed big cities at home, and when it broke up, the herders were still herders.",
+          photo(0, PH_GENGHIS, "Genghis Khan statue, Tsonjin Boldog"),
+          m("In 1206 a chief", v({"lon": 75.0, "lat": 45.0, "span": 100}, highlight=["Mongolia@red"])),
+          stat("and his armies built", "1206", "Temüjin takes the title Genghis Khan and founds the Mongol Empire", "Wikipedia, Mongolia"),
+          sat("Its capital, Karakorum, stood", 102.84, 47.2, 0.06, "Karakorum and the Erdene Zuu monastery"),
+          photo("But an empire run", PH_POLO, "Mongol camp, from a 1903 edition of Marco Polo")),
+        P("Later the Qing dynasty of China ruled the country for more than two centuries. In 1921 a revolution backed by Soviet Russia broke away, and in 1924 Mongolia became a people's republic, the first Soviet satellite state. In the late 1930s a wave of purges killed more than twenty thousand people, among them an estimated seventeen thousand Buddhist monks. In the 1950s the herds were put into state collectives.",
+          m(0, v(ASIA, highlight=["Mongolia@red", "China@accent"], places=[BEIJING])),
+          stat("In 1921 a revolution", "1924", "The Mongolian People's Republic, the first Soviet satellite state", "Wikipedia, Mongolian People's Republic"),
+          m("the first Soviet satellite", v(ASIA, highlight=["Mongolia@red", "Russia@accent"], places=[MOSCOW, UB])),
+          stat("In the late 1930s", "20,000+", "People killed in the purges of 1937-1939, including about 17,000 monks", "Wikipedia, Mongolian People's Republic"),
+          photo("In the 1950s the", PH_BUCKET, "A socialist-era award for a model herder")),
+        P("The Soviets built towns, mines and a railway, from the Russian border through Ulaanbaatar to China, finished in the 1950s. Then in 1990 a peaceful revolution ended one-party rule. In 1991 the collectives were broken up and their animals handed out. With factories closing and jobs disappearing, people went back to the herds: herding households rose from about seventy thousand in 1990 to about two hundred thousand by the end of the decade.",
+          m(0, v(MN, routes=[RAIL], places=[UB])),
+          photo("finished in the 1950s", PH_TRAIN, "The Trans-Mongolian railway"),
+          stat("Then in 1990 a", "1990", "A peaceful revolution; the first multiparty elections, 29 June 1990", "Wikipedia, Mongolian People's Republic"),
+          sat("In 1991 the collectives", 104.0, 46.3, 0.4, "Herding country, central Mongolia", date=AUT),
+          chart("herding households rose from", "Herding households in Mongolia", "households", [["1990", 70000], ["late 1990s", 200000]], "Yamamura et al., Research Institute for Humanity and Nature", highlight=1)),
+        P("Many of those new herders had small flocks and little experience. When the dzuds came, starting in 2000, they were hit hardest. And so the country that had briefly gone back to the steppe started moving to town.",
+          sat(0, 106.0, 45.5, 0.4, "Middle Gobi in winter", date=WIN),
+          photo("When the dzuds came", PH_ZUD_GOATS, "Animals lost in a dzud"),
+          sat("And so the country", 106.85, 47.95, 0.08, "Ger districts on Ulaanbaatar's edge")),
+    ]},
+    {"title": "One City", "mood": "tension", "paragraphs": [
+        P("Reason five. Everyone who leaves the land goes to the same place. Ulaanbaatar began as a moving monastery and settled in its present valley in 1778. In 1950 about seventy thousand people lived there. By 1989 it was five hundred and forty thousand. By the end of 2022 it was just over one point six million, almost half of the whole country.",
+          photo(0, PH_UB2, "Ulaanbaatar today"),
+          sat("Ulaanbaatar began as a", 106.92, 47.92, 0.06, "Central Ulaanbaatar"),
+          chart("In 1950 about seventy", "People in Ulaanbaatar", "people", [["1950", 69951], ["1989", 540300], ["2022", 1600000]], "Census figures via Wikipedia, Ulaanbaatar", reveal=["By 1989 it was", "By the end of"], highlight=2),
+          m("almost half of the", v(MN, places=[UB], highlight=["Mongolia@red"]))),
+        P("The city was planned for a few hundred thousand people. The newcomers could not afford apartments, so they set up their gers on the hills around it. These ger districts now hold more than half of the city's people, often without running water or sewers. To get through winters of minus thirty, they burn raw coal in their stoves.",
+          sat(0, 106.85, 47.96, 0.1, "Ger districts on the northern hills"),
+          photo("The newcomers could not", PH_GERDIST, "Ger districts above central Ulaanbaatar"),
+          stat("These ger districts now", "50 %+", "Share of Ulaanbaatar's people living in ger districts", WB),
+          photo("often without running water", PH_NALAIKH, "A ger district street, Nalaikh"),
+          sat("To get through winters", 106.9, 47.93, 0.2, "Ulaanbaatar in winter", date=WIN)),
+        P("Ulaanbaatar sits in a valley, and in winter cold air gets trapped there under a lid of warmer air. The smoke cannot escape. In the ger districts, the World Bank found that winter levels of fine particles can be more than a hundred times the World Health Organization's daily guideline. One of the coldest capitals on Earth has also become one of the most polluted.",
+          sat(0, 106.95, 47.9, 0.4, "The Tuul valley and Ulaanbaatar"),
+          stat("In the ger districts", "100×", "Winter fine-particle levels in ger districts against the WHO daily guideline", WB),
+          photo("One of the coldest", PH_UB, "Ulaanbaatar")),
+        P("Mongolia does have wealth. It is under the ground. In the south, the Oyu Tolgoi mine produces copper and gold, and Tavan Tolgoi is one of the largest coal deposits in the world. Mining makes up around four fifths of the country's exports, and almost all the coal goes to China, by truck and, since 2022, by a new railway to the border. But a mine needs few people, and it does not need them to stay.",
+          sat(0, 106.86, 43.02, 0.1, "Oyu Tolgoi from orbit"),
+          m("In the south, the", v({"lon": 106.0, "lat": 43.5, "span": 5}, places=[OYU, TAVAN, DALAN], routes=[COAL])),
+          sat("and Tavan Tolgoi is", 105.55, 43.6, 0.1, "Tavan Tolgoi coal pits"),
+          stat("Mining makes up around", "~80 %", "Share of Mongolia's exports from mining", "USGS Minerals Yearbook; press reports"),
+          stat("and almost all the", "94 %", "Share of Mongolia's coal exports that went to China, 2022", "Mining in Mongolia, via press reports"),
+          photo("But a mine needs", PH_OT_CAMP, "The Oyu Tolgoi mine camp")),
+    ]},
+    {"title": "The Emptiest Country", "mood": "calm", "paragraphs": [
+        P("So put it together. The land is high, dry and cold, and less than one percent of it can be farmed. What it can do is feed animals, and animals need a lot of room. The winters kill the herds and push the herders out. History built an empire but not cities, and then the collapse of the Soviet system sent people back to the steppe and then into one city. And the wealth that is left is dug out of the ground by a small workforce.",
+          m(0, v(MN, highlight=["Mongolia@red"], places=[UB])),
+          photo("What it can do", PH_ORKHON, "The Orkhon valley"),
+          sat("The winters kill the", 108.0, 46.0, 0.4, "The steppe in winter", date=WIN),
+          photo("History built an empire", PH_GENGHIS, "Genghis Khan statue"),
+          photo("and then into one", PH_GERDIST, "Ulaanbaatar's ger districts"),
+          sat("And the wealth that", 106.86, 42.99, 0.05, "The Oyu Tolgoi open pit")),
+        P("Mongolia is not empty because nobody wants to live there. It is empty because, for most of its history, this land could only support people who kept moving. Next time you see a map of Asia at night, look between Russia and China. That dark square, with one bright dot, is Mongolia.",
+          photo(0, PH_HOVSGOL, "Lake Khövsgöl, northern Mongolia"),
+          sat("It is empty because", 99.0, 47.0, 0.5, "The Khangai mountains in autumn", date=AUT),
+          m("Next time you see", v(ASIA, layer="night")),
+          m("That dark square, with", v(MN, layer="night", places=[UB]))),
+        P("Here is my question for you. If you could spend one year in Mongolia, would you live in a ger on the steppe and move with the herds, or in an apartment in Ulaanbaatar?",
+          photo(0, PH_YURT, "A ger in the Gobi"),
+          photo("would you live in", PH_NAADAM, "Naadam"),
+          photo("or in an apartment", PH_UB2, "Ulaanbaatar"),
+          ask=("would you live in", "A ger on the steppe, or the city?")),
+    ]},
+]
+
+
+PUSH_WORDS = 16  # a single-view map shot held longer than this gets a camera move halfway (a push-in on the subject)
+for ch in chapters:
+    for para in ch["paragraphs"]:
+        anchors = Paragraph.model_validate(para).anchor_indices()  # also checks that every anchor phrase exists
+        n = len(para["text"].split())
+        for i, (sh, start) in enumerate(zip(para["shots"], anchors)):
+            end = anchors[i + 1] if i + 1 < len(anchors) else n
+            steps = (sh.get("map") or {}).get("steps", [])
+            if sh["type"] != "map" or len(steps) != 1 or end - start <= PUSH_WORDS or steps[0].get("compare") or steps[0].get("highlight"):
+                continue
+            first = steps[0]
+            vw = first["view"]
+            move = {"at": start + (end - start) // 2, "view": {"lon": vw["lon"], "lat": vw["lat"], "span": max(0.05, round(vw["span"] * (0.62 if vw["span"] <= 2.5 else 0.75), 3))}}
+            for key in ("date", "layer"):
+                if first.get(key):
+                    move[key] = first[key]
+            steps.append(move)
+
+script = {
+    "title": "Why Mongolia Is the Emptiest Country on Earth",
+    "voice": "am_michael",
+    "voice_speed": 1.15,
+    "music": "procedural",
+    "map_style": "satellite",
+    "look": "none",
+    "sources": ["episodes/mongolia-empty/research.md and factcheck.md", "Contains modified Copernicus Sentinel data 2026"],
+    "thumbnail": {"text": "SO EMPTY"},
+    "chapters": chapters,
+    "youtube": {
+        "title": "Why Mongolia Is the Emptiest Country on Earth",
+        "description": "Mongolia is almost three times the size of France, yet about three and a half million people live there, and roughly half of them in one city. This video goes through the five reasons it is the most thinly populated country on Earth: a high, dry, cold land where less than one percent can be farmed, grass that feeds herds rather than crops, the killer winters called dzud, a history that built an empire but no cities and then a Soviet collapse, and the pull of Ulaanbaatar and the mines.",
+        "tags": ["Mongolia", "why Mongolia is empty", "emptiest country", "Ulaanbaatar", "Gobi Desert", "dzud", "nomads", "ger", "Genghis Khan", "Mongolian steppe", "Oyu Tolgoi", "geography", "satellite images"],
+        "pinned_comment": "If you could spend one year in Mongolia, would you live in a ger on the steppe and move with the herds, or in an apartment in Ulaanbaatar?",
+    },
+}
+out = HERE / "script.json"
+out.write_text(json.dumps(script, ensure_ascii=False, indent=1) + chr(10), encoding="utf-8")
+words = sum(len(p["text"].split()) for c in chapters for p in c["paragraphs"])
+shots = [s for c in chapters for p in c["paragraphs"] for s in p["shots"]]
+kinds = {k: sum(1 for s in shots if s["type"] == k) for k in ("map", "photo", "stat", "document", "chart")}
+print(f"{words} words, {len(chapters)} chapters, {len(shots)} shots {kinds}")

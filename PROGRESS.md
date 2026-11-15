@@ -768,3 +768,8 @@ Each sub-phase stops for user approval.
   chosen by the user from docs/topic-candidates-2026-11-21.md. NEXT: research (Hsü & Ryan DSDP Leg 13 1970,
   evaporites ~1 M km3, Nile canyon under Cairo (Chumakov), Rhône canyon, Garcia-Castellanos 2009 Nature flood,
   Malta 2024 study, Gibraltar strait), gate-1 outline to user, then build like mongolia-empty.
+- 2026-11-15: Mediterranean outline approved by the user ("Uygun, motoru da genişlet"): extend pipeline/bathy.py with
+  a "mediterranean" basin (box about (-6,30,36.5,46), seed point in the Ionian Sea, current level 0 m) and allow
+  drops up to ~3,000 m (today `0 < drop <= 200`); keep caspian behaviour unchanged; test with a storyboard of the
+  hook. Then photos, build_script.py (pattern mongolia-empty), checks, cover, storyboard, render, audit, upload
+  publishAt 2026-11-20T23:00:00Z.

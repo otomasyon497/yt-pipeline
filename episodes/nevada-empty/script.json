@@ -3437,9 +3437,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 8.352
+           "lon": -117.95,
+           "lat": 38.4,
+           "span": 14.25
           },
           "highlight": [
            "Nevada@red"
@@ -3464,9 +3464,9 @@
          {
           "at": 69,
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 6.264
+           "lon": -117.95,
+           "lat": 38.4,
+           "span": 10.688
           }
          }
         ],
@@ -3554,9 +3554,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 12.018
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.352
           },
           "layer": "night"
          }
@@ -3571,9 +3571,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.95,
+           "lon": -120.05,
            "lat": 38.4,
-           "span": 14.25
+           "span": 12.9
           },
           "highlight": [
            "file:sierra.geojson@alt"
@@ -3613,9 +3613,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.165,
-           "lat": 38.6,
-           "span": 9.676
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.018
           },
           "highlight": [
            "Nevada@red"

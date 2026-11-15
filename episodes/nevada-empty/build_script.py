@@ -386,7 +386,7 @@ chapters = [
           sat("builds a temporary town", -119.355, 40.652, 0.08, "Gerlach, the town at the edge of the playa"),
           stat("for some seventy thousand", "~70,000", "People at Burning Man in 2024, on a BLM permit for up to 80,000", "Bureau of Land Management permit; press reports"),
           photo("Then everyone packs up", PH_NIGHTSKY, "Night sky over the Black Rock Desert"),
-          paint("It is the clearest", "Nevada@red", places=[VEGAS, RENO])),
+          paint("It is the clearest", "Nevada@red", view=WEST, places=[VEGAS, RENO])),
         P("And long before any of them, the Great Basin had people. The Northern Paiute, the Washoe and the Western Shoshone lived across this land for thousands of years, moving with the seasons between the lakes, the piñon pine hills and the valleys. They lived with the desert's limits instead of fighting them. That may be the real lesson of Nevada.",
           photo(0, PH_PAIUTE, "Paiute women, historical photograph"),
           sat("the Washoe and the", -118.7, 38.7, 0.5, "Walker Lake"),

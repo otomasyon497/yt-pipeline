@@ -276,14 +276,6 @@
             "label": "Northwest Aroostook: 12 people"
            }
           ]
-         },
-         {
-          "at": 70,
-          "view": {
-           "lon": -69.02,
-           "lat": 45.01,
-           "span": 3.69
-          }
          }
         ],
         "cut": true
@@ -500,14 +492,6 @@
           "highlight": [
            "Massachusetts@red"
           ]
-         },
-         {
-          "at": 27,
-          "view": {
-           "lon": -71.6,
-           "lat": 42.4,
-           "span": 3.375
-          }
          }
         ],
         "cut": true
@@ -1309,8 +1293,8 @@
            "span": 8.1
           },
           "highlight": [
-           "New Brunswick@accent",
-           "Quebec@accent"
+           "Maine@red",
+           "New Brunswick@accent"
           ]
          }
         ],
@@ -1345,12 +1329,28 @@
           ]
          },
          {
-          "at": 15,
           "view": {
-           "lon": -70.95,
-           "lat": 46.12,
-           "span": 7.425
-          }
+           "lon": -68.6,
+           "lat": 46.0,
+           "span": 7.0
+          },
+          "highlight": [
+           "Maine@red",
+           "New Brunswick@accent"
+          ],
+          "at": "The treaty that ended"
+         },
+         {
+          "view": {
+           "lon": -69.3,
+           "lat": 46.6,
+           "span": 5.0
+          },
+          "highlight": [
+           "Maine@red",
+           "New Brunswick@accent"
+          ],
+          "at": "British Canada with words,"
          }
         ],
         "cut": true
@@ -2872,12 +2872,15 @@
           ]
          },
          {
-          "at": 13,
           "view": {
-           "lon": -70.23,
-           "lat": 45.94,
-           "span": 5.369
-          }
+           "lon": -69.0,
+           "lat": 45.6,
+           "span": 5.5
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ],
+          "at": "the spruce budworm ate"
          }
         ],
         "cut": true
@@ -4208,12 +4211,15 @@
           ]
          },
          {
-          "at": 54,
           "view": {
-           "lon": -69.5,
-           "lat": 45.13,
-           "span": 4.801
-          }
+           "lon": -72.0,
+           "lat": 44.0,
+           "span": 13.0
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ],
+          "at": "east of the Mississippi"
          }
         ],
         "cut": true

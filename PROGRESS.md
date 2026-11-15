@@ -717,3 +717,6 @@ Each sub-phase stops for user approval.
   too many look-alike green forest close-ups (21 now use October foliage or winter snow dates), Massachusetts and
   Idaho/Maine push-ins losing their subject, 1783 Quebec highlight and two UT paints filling the frame, St. John
   caption orientation, East Millinocket view (was a lake), Atlantic view now shows Europe. Full render next.
+- 2026-11-15: Northern Maine render 43701801553 (15:42) audited, all 32 sheets viewed. Fix: painted maps no longer get
+  the automatic push-in (Massachusetts, 1783, budworm and closing UT paints filled the frame red); hand-placed camera
+  steps instead; "But first" map paints Maine instead of Quebec. Re-render next.

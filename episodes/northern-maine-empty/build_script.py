@@ -260,11 +260,11 @@ chapters = [
           sat("mostly so the tribes", -68.55, 45.85, 0.2, "Forest along the East Branch of the Penobscot"),
           paint("So half of Maine", UT + "@red", view=NORTH),
           sat("It was a place", -69.75, 46.4, 0.4, "Forest near the Quebec border in October", date="2023-09-25/2023-10-12"),
-          m("But first, somebody had", v(EAST, highlight=["New Brunswick@accent", "Quebec@accent"]))),
+          m("But first, somebody had", v(EAST, highlight=["Maine@red", "New Brunswick@accent"]))),
     ]},
     {"title": "The Border Nobody Could Draw", "mood": "tension", "paragraphs": [
         P("Reason two. Nobody knew where the border was. The treaty that ended the Revolution in 1783 drew the line between the United States and British Canada with words, not surveys: north from the source of the St. Croix River to the highlands that divide the rivers running to the St. Lawrence from those running to the Atlantic. Historians later called it so badly worded that it could not be turned into a real line on the ground.",
-          m(0, v(EAST, highlight=["Maine@red", "New Brunswick@accent"])),
+          m(0, v(EAST, highlight=["Maine@red", "New Brunswick@accent"]), v({"lon": -68.6, "lat": 46.0, "span": 7.0}, at="The treaty that ended", highlight=["Maine@red", "New Brunswick@accent"]), v({"lon": -69.3, "lat": 46.6, "span": 5.0}, at="British Canada with words,", highlight=["Maine@red", "New Brunswick@accent"])),
           m("north from the source", v(EAST, routes=[{"from": [-67.79, 45.94], "to": [-67.79, 47.06], "mode": "line", "color": "red", "seconds": 1.5, "label": "North from the St. Croix"}])),
           sat("the highlands that divide", -70.1, 46.4, 0.5, "The highlands on the Quebec border"),
           clip("Historians later called it", "...the Treaty of 1783 was so badly worded that it could not be translated into a practical topographical boundary.", "Keenleyside and Brown, Canada and the United States", highlight="so badly worded"),
@@ -353,7 +353,7 @@ chapters = [
           photo("The last big drive", PH_WOODSMEN, "Woodsmen on a spring pulpwood drive, Maine, 1943"),
           sat("Trucks took over, on", -69.18, 45.88, 0.06, "The Golden Road at Ripogenus Dam")),
         P("Then came a caterpillar. In the 1970s and 80s the spruce budworm ate its way through the spruce and fir of eastern Canada and northern Maine, across an estimated hundred and thirty-six million acres. Planes sprayed Maine's forest with insecticide, three and a half million acres in 1976 alone. Maine lost an estimated twenty to twenty-five million cords of wood, about a fifth of its spruce and fir. Whole stands of dead fir had to be cut in a hurry, and the companies kept cutting.",
-          paint(0, UT + "@red", view=EAST),
+          m(0, v(EAST, highlight=[UT + "@red"]), v({"lon": -69.0, "lat": 45.6, "span": 5.5}, at="the spruce budworm ate", highlight=[UT + "@red"])),
           stat("across an estimated hundred", "136 M ACRES", "Spruce budworm outbreak, eastern Canada and northern Maine, 1970s-80s", "Maine Forest Service"),
           sat("Planes sprayed Maine's forest", -69.55, 46.05, 0.3, "Spruce and fir forest, northern Maine in October", date="2023-09-25/2023-10-12"),
           stat("Maine lost an estimated", "21 %", "Share of Maine's spruce and fir lost to the budworm outbreak", "Maine Spruce Budworm Task Force"),
@@ -441,7 +441,7 @@ chapters = [
           m(0, v(ME, layer="night")),
           sat("It is empty because", -69.6, 46.7, 0.5, "The North Woods in October", date="2023-09-25/2023-10-12"),
           m("Next time you look", v({"lon": -77.0, "lat": 40.5, "span": 22}, layer="night")),
-          paint("That big blank is", UT + "@red", view=ME)),
+          m("That big blank is", v(ME, highlight=[UT + "@red"]), v({"lon": -72.0, "lat": 44.0, "span": 13.0}, at="east of the Mississippi", highlight=[UT + "@red"]))),
         P("Here is my question for you. If someone gave you a cabin in the north woods, at the end of a private logging road, an hour of gravel from the nearest town, would you take it, or is that too far from everything?",
           sat(0, -69.1, 46.45, 0.2, "The North Woods"),
           photo("would you take it", PH_ALLA_FALLS, "The Allagash"),
@@ -460,7 +460,7 @@ for ch in chapters:
         for i, (sh, start) in enumerate(zip(para["shots"], anchors)):
             end = anchors[i + 1] if i + 1 < len(anchors) else n
             steps = (sh.get("map") or {}).get("steps", [])
-            if sh["type"] != "map" or len(steps) != 1 or end - start <= PUSH_WORDS or steps[0].get("compare"):
+            if sh["type"] != "map" or len(steps) != 1 or end - start <= PUSH_WORDS or steps[0].get("compare") or steps[0].get("highlight"):
                 continue
             first = steps[0]
             vw = first["view"]

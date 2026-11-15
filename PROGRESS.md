@@ -756,3 +756,6 @@ Each sub-phase stops for user approval.
   labels made honest. Sheets 13-23 still to view before the full render.
 - 2026-11-15: Mongolia storyboard all 23 sheets viewed; fixes: blank-white winter views on flat steppe and small ger
   views -> October/summer, honest labels, Oviraptor run, cloudy Bayanzag. Full render next.
+- 2026-11-15: Mongolia full render 43729927782 fetched to Videos/yt-pipeline/mongolia-empty, release + artifacts
+  deleted, frame_audit ran (31 sheets in audit/, flags mostly soft/flash at stat-card cuts). NEXT: view all 31 sheets,
+  approve (--approve/--accept-flags), audio check, upload --publish-at 2026-11-19T23:00:00Z.

@@ -695,3 +695,8 @@ Each sub-phase stops for user approval.
   Great Basin NP / Rhyolite / Las Vegas files from scratchpad/nv, check sharpness), (2) split long holds with extra
   hand-placed satellite views, (3) ~800 more sourced words (candidates: Hoover Dam 1931-36 and Boulder City, Area 51,
   Lahontan shorelines, Carson City as capital), then claim_log/factcheck, cover.json, storyboard.
+- 2026-11-15: Nevada draft 4: 2,683 words, 205 hand-placed shots; added Las Vegas 1905 + Mormon fort, 1931 gambling
+  and divorce laws, Hoover Dam (official 96 deaths), Area 51 (CIA 2013), Pony Express, atomic tourism, AB 356 turf law,
+  Carlin 100 M oz, Pyramid Lake Paiute reservation. episode_check "OK, ready to render" (est. 16.9 min; Australia ran
+  at 0.9x its estimate -> expect about 15.2 min). factcheck.md: 55 verified, 52 attributed, 16 own. Cover rendered.
+  Storyboard run 43676024317 started.

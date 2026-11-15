@@ -713,3 +713,7 @@ Each sub-phase stops for user approval.
   build_script.py (2,689 words, 223 hand-placed shots, episode_check "OK, ready to render", est. 16.9 min -> about
   15.5 real), factcheck.md (177 claims: 61 verified, 89 attributed, 27 own, 0 FIX), cover.json ("NO TOWNS?").
   Storyboard next.
+- 2026-11-15: Northern Maine storyboard (run 43699243263, 24 sheets, ~15.6 min) all viewed; artifact deleted. Fixed:
+  too many look-alike green forest close-ups (21 now use October foliage or winter snow dates), Massachusetts and
+  Idaho/Maine push-ins losing their subject, 1783 Quebec highlight and two UT paints filling the frame, St. John
+  caption orientation, East Millinocket view (was a lake), Atlantic view now shows Europe. Full render next.

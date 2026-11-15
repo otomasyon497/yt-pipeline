@@ -260,9 +260,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.11,
-           "lat": 46.526,
-           "span": 3.42
+           "lon": -69.02,
+           "lat": 45.01,
+           "span": 4.92
           },
           "highlight": [
            "file:unorganized.geojson@red"
@@ -280,9 +280,9 @@
          {
           "at": 70,
           "view": {
-           "lon": -69.11,
-           "lat": 46.526,
-           "span": 2.565
+           "lon": -69.02,
+           "lat": 45.01,
+           "span": 3.69
           }
          }
         ],
@@ -355,12 +355,13 @@
            "lon": -69.6,
            "lat": 45.75,
            "span": 0.2
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest and lakes near Moosehead"
+       "on_screen_text": "Forest and lakes near Moosehead in October"
       },
       {
        "type": "photo",
@@ -387,9 +388,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.02,
-           "lat": 45.01,
-           "span": 4.92
+           "lon": -69.38,
+           "lat": 45.49,
+           "span": 7.08
           },
           "highlight": [
            "file:unorganized.geojson@red"
@@ -425,12 +426,13 @@
            "lon": -68.9,
            "lat": 46.9,
            "span": 0.3
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest east of the Allagash"
+       "on_screen_text": "Forest east of the Allagash in winter"
       }
      ],
      "ask": {
@@ -491,9 +493,9 @@
         "steps": [
          {
           "view": {
-           "lon": -70.3,
-           "lat": 43.5,
-           "span": 8.2
+           "lon": -71.6,
+           "lat": 42.4,
+           "span": 4.5
           },
           "highlight": [
            "Massachusetts@red"
@@ -502,9 +504,9 @@
          {
           "at": 27,
           "view": {
-           "lon": -70.3,
-           "lat": 43.5,
-           "span": 6.15
+           "lon": -71.6,
+           "lat": 42.4,
+           "span": 3.375
           }
          }
         ],
@@ -521,7 +523,8 @@
            "lon": -69.0,
            "lat": 45.4,
            "span": 0.35
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          },
          {
           "at": 44,
@@ -529,12 +532,13 @@
            "lon": -69.0,
            "lat": 45.4,
            "span": 0.217
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest north of the Penobscot"
+       "on_screen_text": "Forest north of the Penobscot in October"
       },
       {
        "type": "stat",
@@ -555,12 +559,13 @@
            "lon": -68.95,
            "lat": 45.1,
            "span": 0.4
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest in central Maine"
+       "on_screen_text": "Forest in central Maine in October"
       },
       {
        "type": "map",
@@ -704,9 +709,9 @@
         "steps": [
          {
           "view": {
-           "lon": -70.9,
-           "lat": 44.3,
-           "span": 11.8
+           "lon": -70.3,
+           "lat": 43.5,
+           "span": 8.2
           },
           "highlight": [
            "Maine@red"
@@ -744,12 +749,13 @@
            "lon": -68.5,
            "lat": 45.7,
            "span": 0.3
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest north of Millinocket"
+       "on_screen_text": "Forest north of Millinocket in October"
       },
       {
        "type": "map",
@@ -804,12 +810,13 @@
            "lon": -69.3,
            "lat": 46.7,
            "span": 0.4
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Company forest, northern Maine"
+       "on_screen_text": "Company forest, northern Maine in October"
       },
       {
        "type": "photo",
@@ -838,12 +845,13 @@
            "lon": -69.6,
            "lat": 46.3,
            "span": 0.2
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Working forest, northern Maine"
+       "on_screen_text": "Working forest, northern Maine in winter"
       },
       {
        "type": "map",
@@ -855,7 +863,8 @@
            "lon": -69.85,
            "lat": 46.2,
            "span": 0.3
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          },
          {
           "at": 28,
@@ -863,12 +872,13 @@
            "lon": -69.85,
            "lat": 46.2,
            "span": 0.186
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Working forest near the Quebec border"
+       "on_screen_text": "Working forest near the Quebec border in October"
       },
       {
        "type": "stat",
@@ -889,12 +899,13 @@
            "lon": -69.0,
            "lat": 46.85,
            "span": 0.25
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest in the Allagash country"
+       "on_screen_text": "Forest in the Allagash country in winter"
       },
       {
        "type": "stat",
@@ -915,12 +926,13 @@
            "lon": -68.75,
            "lat": 46.25,
            "span": 0.25
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest west of the Aroostook valley"
+       "on_screen_text": "Forest west of the Aroostook valley in October"
       },
       {
        "type": "map",
@@ -1086,12 +1098,13 @@
            "lon": -69.37,
            "lat": 46.32,
            "span": 0.1
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "A logging road junction"
+       "on_screen_text": "A logging road junction in October"
       },
       {
        "type": "map",
@@ -1103,7 +1116,8 @@
            "lon": -69.3,
            "lat": 46.0,
            "span": 0.08
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          },
          {
           "at": 93,
@@ -1111,12 +1125,13 @@
            "lon": -69.3,
            "lat": 46.0,
            "span": 0.05
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "A gravel road in the North Woods"
+       "on_screen_text": "A gravel road in the North Woods in winter"
       },
       {
        "type": "map",
@@ -1128,12 +1143,13 @@
            "lon": -69.0,
            "lat": 46.35,
            "span": 0.15
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Cutting blocks on private forest"
+       "on_screen_text": "Cutting blocks on private forest in winter"
       }
      ]
     },
@@ -1251,9 +1267,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.49,
-           "lat": 46.374,
-           "span": 4.18
+           "lon": -69.11,
+           "lat": 46.526,
+           "span": 3.42
           },
           "highlight": [
            "file:unorganized.geojson@red"
@@ -1273,12 +1289,13 @@
            "lon": -69.75,
            "lat": 46.4,
            "span": 0.4
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Forest near the Quebec border"
+       "on_screen_text": "Forest near the Quebec border in October"
       },
       {
        "type": "map",
@@ -1324,8 +1341,7 @@
           },
           "highlight": [
            "Maine@red",
-           "New Brunswick@accent",
-           "Quebec@accent"
+           "New Brunswick@accent"
           ]
          },
          {
@@ -2104,7 +2120,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The St. John River: Maine on the right, Canada on the left"
+       "on_screen_text": "The St. John River: Canada above, Maine below"
       },
       {
        "type": "map",
@@ -2507,9 +2523,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.38,
-           "lat": 45.49,
-           "span": 7.08
+           "lon": -68.78,
+           "lat": 45.25,
+           "span": 5.7
           },
           "highlight": [
            "file:aroostook.geojson@accent"
@@ -2650,9 +2666,9 @@
         "steps": [
          {
           "view": {
-           "lon": -100.0,
-           "lat": 44.5,
-           "span": 40
+           "lon": -93.0,
+           "lat": 43.5,
+           "span": 48
           },
           "highlight": [
            "Idaho@accent",
@@ -2660,12 +2676,16 @@
           ]
          },
          {
-          "at": 15,
           "view": {
-           "lon": -100.0,
-           "lat": 44.5,
-           "span": 30.0
-          }
+           "lon": -93.5,
+           "lat": 43.8,
+           "span": 44
+          },
+          "highlight": [
+           "Idaho@accent",
+           "Maine@red"
+          ],
+          "at": "passed Maine in"
          }
         ],
         "cut": true
@@ -2722,16 +2742,16 @@
         "steps": [
          {
           "view": {
-           "lon": -68.63,
-           "lat": 45.65,
-           "span": 0.06
+           "lon": -68.575,
+           "lat": 45.625,
+           "span": 0.05
           }
          },
          {
           "at": 73,
           "view": {
-           "lon": -68.63,
-           "lat": 45.65,
+           "lon": -68.575,
+           "lat": 45.625,
            "span": 0.05
           }
          }
@@ -2882,12 +2902,13 @@
            "lon": -69.55,
            "lat": 46.05,
            "span": 0.3
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Spruce and fir forest, northern Maine"
+       "on_screen_text": "Spruce and fir forest, northern Maine in October"
       },
       {
        "type": "stat",
@@ -2908,12 +2929,13 @@
            "lon": -69.45,
            "lat": 46.5,
            "span": 0.15
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Spruce and fir today, northern Maine"
+       "on_screen_text": "Spruce and fir today, northern Maine in winter"
       },
       {
        "type": "map",
@@ -3015,7 +3037,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The old Millinocket mill site"
+       "on_screen_text": "Millinocket today"
       },
       {
        "type": "chart",
@@ -3073,9 +3095,9 @@
         "steps": [
          {
           "view": {
-           "lon": -68.78,
+           "lon": -69.62,
            "lat": 45.25,
-           "span": 5.7
+           "span": 5.16
           },
           "places": [
            {
@@ -3105,9 +3127,9 @@
         "steps": [
          {
           "view": {
-           "lon": -50.0,
+           "lon": -38.0,
            "lat": 50.0,
-           "span": 60
+           "span": 95
           },
           "places": [
            {
@@ -3116,15 +3138,22 @@
             "lat": 46.95,
             "kind": "site",
             "label": "Loring Air Force Base"
+           },
+           {
+            "name": "London",
+            "lon": -0.13,
+            "lat": 51.51,
+            "kind": "city",
+            "label": "London"
            }
           ]
          },
          {
           "at": 34,
           "view": {
-           "lon": -50.0,
+           "lon": -38.0,
            "lat": 50.0,
-           "span": 45.0
+           "span": 71.25
           }
          }
         ],
@@ -3222,9 +3251,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.62,
-           "lat": 45.25,
-           "span": 5.16
+           "lon": -69.2,
+           "lat": 45.55,
+           "span": 6.36
           },
           "highlight": [
            "file:aroostook.geojson@red"
@@ -3717,12 +3746,13 @@
            "lon": -69.27,
            "lat": 46.86,
            "span": 0.1
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Allagash River heading north"
+       "on_screen_text": "The Allagash River heading north in October"
       }
      ]
     },
@@ -3835,12 +3865,13 @@
            "lon": -68.6,
            "lat": 46.05,
            "span": 0.12
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Logging roads beside the monument"
+       "on_screen_text": "Logging roads beside the monument in winter"
       },
       {
        "type": "stat",
@@ -3861,12 +3892,13 @@
            "lon": -69.2,
            "lat": 46.75,
            "span": 0.3
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Allagash country"
+       "on_screen_text": "The Allagash country in October"
       }
      ]
     }
@@ -3887,8 +3919,8 @@
          {
           "view": {
            "lon": -69.2,
-           "lat": 45.55,
-           "span": 6.36
+           "lat": 44.95,
+           "span": 4.68
           },
           "highlight": [
            "file:unorganized.geojson@red"
@@ -3908,12 +3940,13 @@
            "lon": -69.4,
            "lat": 46.0,
            "span": 0.3
-          }
+          },
+          "date": "2024-02-01/2024-03-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Private forest, northern Maine"
+       "on_screen_text": "Private forest, northern Maine in winter"
       },
       {
        "type": "map",
@@ -4019,9 +4052,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.186,
-           "lat": 46.298,
-           "span": 3.116
+           "lon": -69.49,
+           "lat": 46.374,
+           "span": 4.18
           },
           "highlight": [
            "file:aroostook.geojson@red"
@@ -4096,9 +4129,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.2,
-           "lat": 44.95,
-           "span": 4.68
+           "lon": -68.9,
+           "lat": 45.37,
+           "span": 5.238
           },
           "layer": "night"
          }
@@ -4116,7 +4149,8 @@
            "lon": -69.6,
            "lat": 46.7,
            "span": 0.5
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          },
          {
           "at": 18,
@@ -4124,12 +4158,13 @@
            "lon": -69.6,
            "lat": 46.7,
            "span": 0.31
-          }
+          },
+          "date": "2023-09-25/2023-10-12"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The North Woods"
+       "on_screen_text": "The North Woods in October"
       },
       {
        "type": "map",
@@ -4164,9 +4199,9 @@
         "steps": [
          {
           "view": {
-           "lon": -69.414,
-           "lat": 46.602,
-           "span": 4.484
+           "lon": -69.5,
+           "lat": 45.13,
+           "span": 6.402
           },
           "highlight": [
            "file:unorganized.geojson@red"
@@ -4175,9 +4210,9 @@
          {
           "at": 54,
           "view": {
-           "lon": -69.414,
-           "lat": 46.602,
-           "span": 3.363
+           "lon": -69.5,
+           "lat": 45.13,
+           "span": 4.801
           }
          }
         ],

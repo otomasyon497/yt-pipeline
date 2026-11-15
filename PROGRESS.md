@@ -759,5 +759,5 @@ Each sub-phase stops for user approval.
 - 2026-11-15: Mongolia full render 43729927782 fetched to Videos/yt-pipeline/mongolia-empty, release + artifacts
   deleted, frame_audit ran (31 sheets in audit/, flags mostly soft/flash at stat-card cuts). NEXT: view all 31 sheets,
   approve (--approve/--accept-flags), audio check, upload --publish-at 2026-11-19T23:00:00Z.
-- 2026-11-15: Mongolia audit: sheets 1-12 of 31 viewed, clean. Continue with sheet_13 onward in
+- 2026-11-15: Mongolia audit: sheets 1-16 of 31 viewed, clean. Continue with sheet_17 onward in
   C:\Users\MONSTER\Videos\yt-pipeline\mongolia-empty\audit, then approve, audio check, upload.

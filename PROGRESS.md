@@ -720,3 +720,6 @@ Each sub-phase stops for user approval.
 - 2026-11-15: Northern Maine render 43701801553 (15:42) audited, all 32 sheets viewed. Fix: painted maps no longer get
   the automatic push-in (Massachusetts, 1783, budworm and closing UT paints filled the frame red); hand-placed camera
   steps instead; "But first" map paints Maine instead of Quebec. Re-render next.
+- 2026-11-15: Northern Maine re-render 43704740020 approved (changed sheets 4, 10, 21, 31 re-checked; audio peak
+  -0.59 dBFS, no clipping). UPLOADED: video MaiFqokoUdM, private, publishAt 2026-11-18T23:00:00Z (19 Nov 02:00 TR),
+  map cover set. Releases and artifacts deleted. Pin the comment by hand in Studio. Next free slot: 20 Nov.

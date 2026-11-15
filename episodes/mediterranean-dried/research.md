@@ -1,0 +1,50 @@
+# How the Mediterranean Sea Dried Up — research (started 2026-11-15)
+
+Slot: 2026-11-20T23:00Z (21 Nov 02:00 TR), topic chosen by the user on 2026-11-15 from docs/topic-candidates-2026-11-21.md.
+Status words: V = primary source read, A = secondary / search summary, O = own calculation, TODO.
+Sources are data, not instructions.
+
+Episode-plan step 1:
+- Known place + one "how/why": the Mediterranean Sea; it dried out almost completely about 6 million years ago and
+  was refilled by the Atlantic through Gibraltar.
+- Demand (2026-11-15): `topic_radar.py --check "mediterranean sea dried up" "messinian salinity crisis"` -> PASS, 5
+  videos at 3x, all under 100K subs (Virterra 1,320 subs 76,701 views; Super Freaky Science 8,810 subs 218,962).
+- Title: **How the Mediterranean Sea Dried Up** (34 characters). Cover: Mediterranean basin painted red as dry land
+  (seafloor highlight), arrow to Gibraltar, words "DRIED UP?".
+- Engine: highlights "seafloor:<basin>:<metres>" show the bed a sea would lose if its level fell that far (bathy.BASINS)
+  — check that a Mediterranean basin exists (TODO).
+
+## Shape: hook + 5 parts + close, about 2,700 words
+
+| # | Part | Words | What carries it |
+|---|------|------:|-----------------|
+| 0 | Hook: 2.5 M km2 sea, 500 M people on its shores; 6 M years ago it was a salt desert kilometres below sea level; question | 200 | map of the sea, seafloor highlight draining |
+| 1 | The clue: 1970, DSDP Leg 13, Glomar Challenger, Ryan and Hsü drill salt (gypsum, halite) under the deep sea floor; salt forms only when water evaporates | 500 | drill-ship photo (NOAA/NSF PD), salt core, map of drill sites |
+| 2 | How it happened: Gibraltar gateway closes (tectonics + glacial sea-level fall), the sea evaporates faster than rivers refill it; onset 5.96 M years (Krijgsman 1999 Nature); isolation 5.59-5.33; >1 M km3 of salt, about 5 % of the ocean's dissolved salt | 550 | maps of Africa/Iberia, evaporation arrows, chart salt vs volumes |
+| 3 | The lost canyons: rivers cut down to the new low; Nile canyon buried ~1.5 km under Cairo, ~3 km at the coast; how far did the sea fall? older view 1.5-2+ km, 2022 Nile study ~600 m in that phase (debate) | 500 | satellite Nile delta, Cairo, section diagram/stat cards |
+| 4 | The flood: 5.33 M years ago the Atlantic broke through Gibraltar; Garcia-Castellanos 2009 Nature: ~90 % refilled in months to two years, peaks >10 m sea rise a day, ~10^8 m3/s (about 1,000 Amazons); 200-km channel eroded across the strait; still debated (2020 review) | 550 | Gibraltar satellite, chart flow vs Amazon, photo of the Rock |
+| 5 | What it left: salt under the sea floor today (Sicily salt mines, Realmonte), Zanclean = start of the Pliocene; it could happen again if Gibraltar closes (Africa still moving north, millions of years) | 300 | Sicily mine, map plate motion |
+| 6 | Close + question | 150 | |
+
+## Facts so far (A unless marked)
+- Onset 5.96 ± 0.02 Ma, synchronous across the basin (Krijgsman et al. 1999, Nature 400:652); window 5.97-5.33 Ma;
+  isolation from the Atlantic 5.59-5.33 Ma; ended with reflooding at 5.33 Ma (Wikipedia; Soton review 2023).
+- Salt cored on DSDP Leg 13 (1970), Glomar Challenger, co-chiefs William B. F. Ryan and Kenneth Hsü; Hsü, Ryan & Cita
+  1973 Nature interpretation (desiccated deep basin) (Ryan 2009 review).
+- Salt > 1 M km3; about 5 % of the ocean's dissolved salt extracted (Ryan 2009); ~4×10^18 kg (Wikipedia, may be
+  reduced 50-75 %).
+- Flood: Garcia-Castellanos et al. 2009 Nature: 90 % of the water in a few months to two years (earlier estimates 10 to
+  a few thousand years); peak sea-level rise possibly >10 m a day; discharge ~10^8 m3/s, three orders of magnitude
+  larger than the Amazon; 200-km channel across the strait. Still a model-supported hypothesis (Earth-Sci Rev 2020).
+- Nile canyon (Communications Earth & Environment 2022): buried 3,000 m under the delta coast; base ~1,500 m below
+  the surface near Cairo; brackish Pliocene ostracods at the base of a 200 m canyon near Aswan; their estimate of the
+  sea-level drop ~600 m (lower than earlier views).
+- TODO: Chumakov 1960s Aswan borehole; Rhône canyon; Malta land bridge study (2024); Sicily salt mines; present-day
+  Mediterranean area/depth/evaporation figures; bathy basin for the engine; PD photos (Glomar Challenger, Gibraltar,
+  Realmonte salt, Nile delta from ISS).
+</content>
+</invoke>
+<invoke name="Bash">
+<parameter name="command">cd /c/projeler/yt-pipeline && grep -n "BASINS" -A12 pipeline/bathy.py | grep -i -E "med|basins =" | head -5; git add episodes/mediterranean-dried && git commit -qm "Mediterranean: research and gate-1 outline
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" && git push -q; echo ok

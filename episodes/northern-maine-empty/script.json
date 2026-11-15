@@ -1,0 +1,4259 @@
+{
+ "title": "Why Almost Nobody Lives in Northern Maine",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/northern-maine-empty/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "NO TOWNS"
+ },
+ "chapters": [
+  {
+   "title": "Half a State With No Towns",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Maine is the corner of the United States that pushes up into Canada. It is nearly as big as the other five New England states put together. It is also the only state that borders just one other state. About one point four million people live there, and most of them live in the south, near the coast. The two southern counties around Portland hold almost four in ten Mainers on about a twentieth of the land. Go north and it changes. At night, from orbit, the north of Maine is almost completely dark.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.6,
+           "lat": 43.9,
+           "span": 10.0
+          },
+          "highlight": [
+           "Maine@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It is nearly as",
+       "stat": {
+        "value": "35,380 SQ MI",
+        "label": "Maine's total area; the other five New England states together: 36,608",
+        "source": "US Census Bureau state areas (our sum)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is also the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.1,
+           "lat": 44.1,
+           "span": 9.0
+          },
+          "highlight": [
+           "Maine@red",
+           "New Hampshire@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "About one point four",
+       "photo": "File:Portland, Maine skyline aerial view.jpg",
+       "on_screen_text": "Portland, Maine's largest city"
+      },
+      {
+       "type": "map",
+       "at": "and most of them",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.22,
+           "lat": 43.68,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Portland and Casco Bay"
+      },
+      {
+       "type": "map",
+       "at": "The two southern counties",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.2,
+           "lat": 45.25,
+           "span": 6.0
+          },
+          "highlight": [
+           "file:south_coast.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Portland",
+            "lon": -70.26,
+            "lat": 43.66,
+            "kind": "city",
+            "label": "Portland"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "on about a twentieth",
+       "stat": {
+        "value": "38 %",
+        "label": "Mainers living in Cumberland and York counties, on about 6 % of the land (2020)",
+        "source": "US Census Bureau, 2020 census and Gazetteer (our sum)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Go north and it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.3,
+           "lat": 46.45,
+           "span": 3.8
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "At night, from orbit",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.9,
+           "lat": 45.37,
+           "span": 5.4
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Portland",
+            "lon": -70.26,
+            "lat": 43.66,
+            "kind": "city",
+            "label": "Portland"
+           },
+           {
+            "name": "Bangor",
+            "lon": -68.77,
+            "lat": 44.8,
+            "kind": "city",
+            "label": "Bangor"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Almost half of Maine has no town government at all. No mayor, no town council, no town. The Census calls it unorganized territory: more than fourteen thousand square miles of land, bigger than the whole state of Maryland. At the last census about eight thousand three hundred people lived in all of it. That is fewer than one person per square mile. The biggest single piece, in the northwest, covers more than two and a half thousand square miles, more than the whole state of Delaware. Twelve people live there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.5,
+           "lat": 45.13,
+           "span": 6.6
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "No mayor, no town",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.55,
+           "lat": 46.55,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Unorganized territory, northern Maine"
+      },
+      {
+       "type": "stat",
+       "at": "more than fourteen thousand",
+       "stat": {
+        "value": "46 %",
+        "label": "Share of Maine's land with no town government: 14,264 square miles",
+        "source": "US Census Bureau, 2020 census and Gazetteer (our sum)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At the last census",
+       "stat": {
+        "value": "8,269",
+        "label": "People living in all of Maine's unorganized territory, 2020 census (our sum)",
+        "source": "US Census Bureau, 2020 census and Gazetteer (our sum)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is fewer than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.95,
+           "lat": 46.3,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Seboomook Lake unorganized territory"
+      },
+      {
+       "type": "map",
+       "at": "The biggest single piece",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.11,
+           "lat": 46.526,
+           "span": 3.42
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Northwest Aroostook",
+            "lon": -69.6,
+            "lat": 46.95,
+            "kind": "site",
+            "label": "Northwest Aroostook: 12 people"
+           }
+          ]
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": -69.11,
+           "lat": 46.526,
+           "span": 2.565
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "more than the whole",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.45,
+           "lat": 47.1,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Northwest Aroostook"
+      },
+      {
+       "type": "map",
+       "at": "Twelve people live there",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.75,
+           "lat": 46.95,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Northwest Aroostook: twelve people"
+      }
+     ]
+    },
+    {
+     "text": "It is not that the land is worthless. It is the most forested state in the country. Britain and America nearly went to war over this forest. A town up here lost nearly nine of every ten people. And one man bought its highest mountain and gave it away, on one condition. So why does almost nobody live in northern Maine? There are five reasons. The first is that the land was sold before anyone got there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.2,
+           "lat": 46.2,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The North Woods"
+      },
+      {
+       "type": "map",
+       "at": "It is the most",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.6,
+           "lat": 45.75,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest and lakes near Moosehead"
+      },
+      {
+       "type": "photo",
+       "at": "Britain and America nearly",
+       "photo": "File:St. John River (36390577074).jpg",
+       "on_screen_text": "The St. John River, on the border with Canada"
+      },
+      {
+       "type": "photo",
+       "at": "A town up here",
+       "photo": "File:Nose Hangar, Limestone Air Force Base, Limestone, Maine - DPLA - 83b68f60d44007fcd737e00c1b6e9cf6.jpg",
+       "on_screen_text": "Limestone, Maine, in the 1950s"
+      },
+      {
+       "type": "photo",
+       "at": "And one man bought",
+       "photo": "File:Appalachian Trail and view of Mount Katahdin, Maine LCCN2011630252.tif",
+       "on_screen_text": "Katahdin, Maine's highest mountain"
+      },
+      {
+       "type": "map",
+       "at": "So why does almost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.02,
+           "lat": 45.01,
+           "span": 4.92
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Portland",
+            "lon": -70.26,
+            "lat": 43.66,
+            "kind": "city",
+            "label": "Portland"
+           },
+           {
+            "name": "Bangor",
+            "lon": -68.77,
+            "lat": 44.8,
+            "kind": "city",
+            "label": "Bangor"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "There are five reasons",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.9,
+           "lat": 46.9,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest east of the Allagash"
+      }
+     ],
+     "ask": {
+      "at": "So why does almost",
+      "text": "Why is northern Maine empty?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Sold Before It Was Settled",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason one. The land was sold before anyone got there. After the American Revolution, Maine was not a state. It belonged to Massachusetts, and Massachusetts was broke. It owed a war debt it could not pay. What it did have was millions of acres of forest in the north. So it sold them. In 1786 it even ran a lottery: fifty townships, cut into two thousand seven hundred and sixty lots. A Philadelphia banker named William Bingham ended up with two tracts of about a million acres each.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -71.1,
+           "lat": 43.7,
+           "span": 11.0
+          },
+          "highlight": [
+           "Massachusetts@accent",
+           "Maine@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "After the American Revolution",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.4,
+           "lat": 45.6,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest west of Moosehead Lake"
+      },
+      {
+       "type": "map",
+       "at": "It belonged to Massachusetts",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.3,
+           "lat": 43.5,
+           "span": 8.2
+          },
+          "highlight": [
+           "Massachusetts@red"
+          ]
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": -70.3,
+           "lat": 43.5,
+           "span": 6.15
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "What it did have",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.0,
+           "lat": 45.4,
+           "span": 0.35
+          }
+         },
+         {
+          "at": 44,
+          "view": {
+           "lon": -69.0,
+           "lat": 45.4,
+           "span": 0.217
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest north of the Penobscot"
+      },
+      {
+       "type": "stat",
+       "at": "In 1786 it even",
+       "stat": {
+        "value": "2,760 LOTS",
+        "label": "Fifty townships of Maine forest, sold by lottery, 1786",
+        "source": "Massachusetts Archives; Maine State Archives"
+       }
+      },
+      {
+       "type": "map",
+       "at": "cut into two thousand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.95,
+           "lat": 45.1,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest in central Maine"
+      },
+      {
+       "type": "map",
+       "at": "A Philadelphia banker named",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.9,
+           "lat": 45.1,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The upper Kennebec, part of Bingham's purchase"
+      },
+      {
+       "type": "stat",
+       "at": "ended up with two",
+       "stat": {
+        "value": "2 M ACRES",
+        "label": "William Bingham's two Maine tracts, about a million acres each",
+        "source": "Wikipedia, Bingham Purchase"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Surveyors cut the woods into a grid of squares, and many of those squares never got names. Look at a map of northern Maine today and you still see them: T3 R13 WELS. Township three, range thirteen, west of the east line of the state. A grid of numbers where, in other states, there would be towns. The state itself runs these places. There is no one else to do it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.4,
+           "lat": 46.0,
+           "span": 1.6
+          },
+          "places": [
+           {
+            "name": "T3 R13 WELS",
+            "lon": -69.386,
+            "lat": 45.899,
+            "kind": "site",
+            "label": "T3 R13 WELS"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and many of those",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.7,
+           "lat": 46.1,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Numbered townships west of Chesuncook Lake"
+      },
+      {
+       "type": "map",
+       "at": "Look at a map",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.386,
+           "lat": 45.899,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "T3 R13 WELS"
+      },
+      {
+       "type": "map",
+       "at": "Township three, range thirteen",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.42,
+           "lat": 45.93,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Inside T3 R13 WELS"
+      },
+      {
+       "type": "map",
+       "at": "A grid of numbers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.0,
+           "lat": 46.6,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Logging roads and cutting blocks"
+      },
+      {
+       "type": "photo",
+       "at": "The state itself runs",
+       "photo": "File:Access to the areas of study was limited by private logging roads. A team is shown here staging for a hike into a area where Canada Lynx are known to be \"denning\". (4700060450).jpg",
+       "on_screen_text": "A private logging road"
+      }
+     ]
+    },
+    {
+     "text": "When Maine became a state in 1820, it split the remaining public land with Massachusetts, and both kept selling. In 1853 Maine bought out what Massachusetts still held, about one point two million acres, and kept on selling too. The buyers were not families looking for farms. They were lumbermen, and later paper companies. For most of the twentieth century, a dozen or so companies and families owned around twelve million acres of northern Maine. One of them, Great Northern Paper, held more than two million acres by the 1940s.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.9,
+           "lat": 44.3,
+           "span": 11.8
+          },
+          "highlight": [
+           "Maine@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "it split the remaining",
+       "stat": {
+        "value": "1820",
+        "label": "Maine becomes a state and splits the public land with Massachusetts",
+        "source": "Maine State Archives"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1853 Maine bought",
+       "stat": {
+        "value": "1.2 M ACRES",
+        "label": "Land Maine bought back from Massachusetts in 1853",
+        "source": "Maine State Archives; Colby College"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and kept on selling",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.5,
+           "lat": 45.7,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest north of Millinocket"
+      },
+      {
+       "type": "map",
+       "at": "The buyers were not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.8,
+           "lat": 45.95,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest east of Katahdin"
+      },
+      {
+       "type": "map",
+       "at": "They were lumbermen, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.15,
+           "lat": 45.85,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ripogenus Dam, built by Great Northern Paper"
+      },
+      {
+       "type": "stat",
+       "at": "For most of the",
+       "stat": {
+        "value": "~12 M ACRES",
+        "label": "Northern Maine owned by about a dozen companies and families, most of the 1900s",
+        "source": "Natural Resources Council of Maine; press reports"
+       }
+      },
+      {
+       "type": "map",
+       "at": "around twelve million acres",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.3,
+           "lat": 46.7,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Company forest, northern Maine"
+      },
+      {
+       "type": "photo",
+       "at": "One of them, Great",
+       "photo": "File:West Branch Penobscot River, Maine.jpg",
+       "on_screen_text": "The West Branch of the Penobscot below Katahdin"
+      }
+     ]
+    },
+    {
+     "text": "Those owners have changed, but the pattern has not. From the 1990s the paper companies began selling their land, and much of it went to investment funds, pension funds and timber investment groups. Some old owners stayed. One family company, Seven Islands, still manages about a million acres for dozens of members of the Pingree family. And in 2016 a single family trust bought nearly three hundred thousand acres of the north woods in one deal. Up here, forest changes hands in blocks the size of whole counties elsewhere.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesuncook Lake.jpg",
+       "on_screen_text": "Chesuncook Lake, in the North Woods"
+      },
+      {
+       "type": "map",
+       "at": "From the 1990s the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.6,
+           "lat": 46.3,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Working forest, northern Maine"
+      },
+      {
+       "type": "map",
+       "at": "and much of it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.85,
+           "lat": 46.2,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": -69.85,
+           "lat": 46.2,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Working forest near the Quebec border"
+      },
+      {
+       "type": "stat",
+       "at": "One family company, Seven",
+       "stat": {
+        "value": "~1 M ACRES",
+        "label": "Forest managed by Seven Islands Land Company for the Pingree family",
+        "source": "Seven Islands Land Company"
+       }
+      },
+      {
+       "type": "map",
+       "at": "for dozens of members",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.0,
+           "lat": 46.85,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest in the Allagash country"
+      },
+      {
+       "type": "stat",
+       "at": "And in 2016 a",
+       "stat": {
+        "value": "~290,000 ACRES",
+        "label": "North Woods land bought by one family trust in 2016",
+        "source": "Bangor Daily News, November 2016"
+       }
+      },
+      {
+       "type": "map",
+       "at": "of the north woods",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.75,
+           "lat": 46.25,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest west of the Aroostook valley"
+      },
+      {
+       "type": "map",
+       "at": "Up here, forest changes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.55,
+           "lat": 46.75,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cutting blocks, northern Maine"
+      }
+     ]
+    },
+    {
+     "text": "Companies do not build towns where they do not need people to live. They build roads. In 1971 Great Northern finished the Golden Road, almost a hundred miles of private gravel from its mill at Millinocket west to the Quebec border, built for log trucks. That same year the landowners set up a group called North Maine Woods to run the gates. There are nineteen of them. Today about three and a half million acres are managed that way. Every road inside is private. To drive in, you stop at a checkpoint and pay a fee, as you would at a park. Except this park is somebody's tree farm.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.62,
+           "lat": 45.93,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A logging road in the North Woods"
+      },
+      {
+       "type": "map",
+       "at": "In 1971 Great Northern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.5,
+           "lat": 45.9,
+           "span": 2.2
+          },
+          "routes": [
+           {
+            "from": [
+             -68.71,
+             45.66
+            ],
+            "via": [
+             [
+              -68.95,
+              45.78
+             ],
+             [
+              -69.18,
+              45.88
+             ],
+             [
+              -69.4,
+              45.9
+             ],
+             [
+              -69.7,
+              45.95
+             ],
+             [
+              -70.0,
+              46.0
+             ]
+            ],
+            "to": [
+             -70.27,
+             46.07
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.0,
+            "label": "The Golden Road"
+           }
+          ],
+          "places": [
+           {
+            "name": "Millinocket",
+            "lon": -68.71,
+            "lat": 45.66,
+            "kind": "city",
+            "label": "Millinocket"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "from its mill at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.9,
+           "lat": 45.98,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Golden Road, heading west"
+      },
+      {
+       "type": "stat",
+       "at": "That same year the",
+       "stat": {
+        "value": "19 GATES",
+        "label": "Checkpoints into the North Maine Woods, run by the landowners since 1971",
+        "source": "North Maine Woods Inc."
+       }
+      },
+      {
+       "type": "map",
+       "at": "There are nineteen of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.85,
+           "lat": 46.48,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A North Maine Woods road"
+      },
+      {
+       "type": "stat",
+       "at": "Today about three and",
+       "stat": {
+        "value": "3.5 M ACRES",
+        "label": "Private forest behind the North Maine Woods gates",
+        "source": "North Maine Woods Inc."
+       }
+      },
+      {
+       "type": "map",
+       "at": "Every road inside is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.37,
+           "lat": 46.32,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A logging road junction"
+      },
+      {
+       "type": "map",
+       "at": "To drive in, you",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.3,
+           "lat": 46.0,
+           "span": 0.08
+          }
+         },
+         {
+          "at": 93,
+          "view": {
+           "lon": -69.3,
+           "lat": 46.0,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A gravel road in the North Woods"
+      },
+      {
+       "type": "map",
+       "at": "Except this park is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.0,
+           "lat": 46.35,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cutting blocks on private forest"
+      }
+     ]
+    },
+    {
+     "text": "Before any of it was sold, this was Wabanaki land: the Penobscot, the Passamaquoddy, the Maliseet and the Mi'kmaq. In the 1970s two of those nations went to court and claimed about twelve million acres, nearly two thirds of the state. In 1980 the federal government settled for eighty-one and a half million dollars, mostly so the tribes could buy back about three hundred thousand acres. So half of Maine was never really a place where people settled. It was a place where wood was grown. But first, somebody had to decide which country it was in.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.66,
+           "lat": 44.95,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Indian Island, home of the Penobscot Nation"
+      },
+      {
+       "type": "map",
+       "at": "the Penobscot, the Passamaquoddy",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.03,
+           "lat": 44.95,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sipayik, Passamaquoddy land on Passamaquoddy Bay"
+      },
+      {
+       "type": "map",
+       "at": "In the 1970s two",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.5,
+           "lat": 46.3,
+           "span": 9.0
+          },
+          "highlight": [
+           "Maine@red"
+          ],
+          "places": [
+           {
+            "name": "Indian Island",
+            "lon": -68.66,
+            "lat": 44.95,
+            "kind": "site",
+            "label": "Indian Island"
+           },
+           {
+            "name": "Sipayik",
+            "lon": -67.03,
+            "lat": 44.95,
+            "kind": "site",
+            "label": "Sipayik (Pleasant Point)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and claimed about twelve",
+       "stat": {
+        "value": "12 M ACRES",
+        "label": "Land claimed by the Passamaquoddy and Penobscot: nearly two thirds of Maine",
+        "source": "NLM Native Voices; Maine Atlas"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1980 the federal",
+       "stat": {
+        "value": "$81.5 M",
+        "label": "Maine Indian Claims Settlement Act, 1980: money to buy back about 300,000 acres",
+        "source": "US Public Law 96-420; Maine Atlas"
+       }
+      },
+      {
+       "type": "map",
+       "at": "mostly so the tribes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.55,
+           "lat": 45.85,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest along the East Branch of the Penobscot"
+      },
+      {
+       "type": "map",
+       "at": "So half of Maine",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.49,
+           "lat": 46.374,
+           "span": 4.18
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was a place",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.75,
+           "lat": 46.4,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest near the Quebec border"
+      },
+      {
+       "type": "map",
+       "at": "But first, somebody had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.05,
+           "lat": 46.48,
+           "span": 8.1
+          },
+          "highlight": [
+           "New Brunswick@accent",
+           "Quebec@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Border Nobody Could Draw",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason two. Nobody knew where the border was. The treaty that ended the Revolution in 1783 drew the line between the United States and British Canada with words, not surveys: north from the source of the St. Croix River to the highlands that divide the rivers running to the St. Lawrence from those running to the Atlantic. Historians later called it so badly worded that it could not be turned into a real line on the ground.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.95,
+           "lat": 46.12,
+           "span": 9.9
+          },
+          "highlight": [
+           "Maine@red",
+           "New Brunswick@accent",
+           "Quebec@accent"
+          ]
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -70.95,
+           "lat": 46.12,
+           "span": 7.425
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "north from the source",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.23,
+           "lat": 45.94,
+           "span": 7.38
+          },
+          "routes": [
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "to": [
+             -67.79,
+             47.06
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "North from the St. Croix"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the highlands that divide",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.1,
+           "lat": 46.4,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 48,
+          "view": {
+           "lon": -70.1,
+           "lat": 46.4,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The highlands on the Quebec border"
+      },
+      {
+       "type": "document",
+       "at": "Historians later called it",
+       "document": {
+        "text": "...the Treaty of 1783 was so badly worded that it could not be translated into a practical topographical boundary.",
+        "source": "Keenleyside and Brown, Canada and the United States",
+        "highlight": "so badly worded"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "could not be turned",
+       "photo": "File:Map of the disputed territory reduced from the original of Messrs Featherstonhaugh & Mudge - British commissioners - btv1b8495488t.jpg",
+       "on_screen_text": "The disputed territory, a British commissioners' map"
+      }
+     ]
+    },
+    {
+     "text": "Americans read it one way, the British another. The Americans said the line ran almost to the St. Lawrence. The British said it stopped near a hill in Aroostook called Mars Hill. Between the two readings lay about twelve thousand square miles of forest that both countries claimed. In 1831 they asked the King of the Netherlands to settle it. He split the land, roughly two thirds to the Americans and one third to the British. The United States turned his answer down.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.77,
+           "lat": 46.66,
+           "span": 10.62
+          },
+          "routes": [
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.79,
+              48.0
+             ],
+             [
+              -69.2,
+              47.65
+             ],
+             [
+              -70.3,
+              46.6
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "American claim (roughly)"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -70.77,
+           "lat": 46.66,
+           "span": 7.965
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The British said it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.87,
+           "lat": 46.3,
+           "span": 8.55
+          },
+          "routes": [
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.79,
+              48.0
+             ],
+             [
+              -69.2,
+              47.65
+             ],
+             [
+              -70.3,
+              46.6
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "American claim (roughly)"
+           },
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.8,
+              46.52
+             ],
+             [
+              -69.0,
+              46.15
+             ],
+             [
+              -70.2,
+              45.75
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "British claim (roughly)"
+           }
+          ],
+          "places": [
+           {
+            "name": "Mars Hill",
+            "lon": -67.88,
+            "lat": 46.52,
+            "kind": "site",
+            "label": "Mars Hill"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Between the two readings",
+       "stat": {
+        "value": "12,000 SQ MI",
+        "label": "Forest claimed by both Britain and the United States",
+        "source": "Webster-Ashburton Treaty totals (7,015 + 5,012 sq mi)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1831 they asked",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.9,
+           "lat": 47.0,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The disputed forest, between the two claims"
+      },
+      {
+       "type": "chart",
+       "at": "He split the land",
+       "chart": {
+        "type": "bar",
+        "title": "The Dutch king's award, 1831 (rejected)",
+        "unit": "square miles",
+        "data": [
+         [
+          "United States",
+          7908
+         ],
+         [
+          "Britain",
+          4119
+         ]
+        ],
+        "source": "Wikipedia, Aroostook War",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "The United States turned",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -71.13,
+           "lat": 46.3,
+           "span": 7.74
+          },
+          "routes": [
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.8,
+              46.52
+             ],
+             [
+              -69.0,
+              46.15
+             ],
+             [
+              -70.2,
+              45.75
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "British claim (roughly)"
+           },
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.79,
+              48.0
+             ],
+             [
+              -69.2,
+              47.65
+             ],
+             [
+              -70.3,
+              46.6
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "American claim (roughly)"
+           }
+          ],
+          "places": [
+           {
+            "name": "Mars Hill",
+            "lon": -67.88,
+            "lat": 46.52,
+            "kind": "site",
+            "label": "Mars Hill"
+           },
+           {
+            "name": "Bangor",
+            "lon": -68.77,
+            "lat": 44.8,
+            "kind": "city",
+            "label": "Bangor"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "People did settle the edge of it. In June 1785 a group of Acadian families, French speakers whose people had been expelled from Nova Scotia by the British a generation earlier, paddled up the St. John River and raised a wooden cross where they landed, near today's St. David. Five years later a count found a hundred and seventy-four people in the upper valley. Their descendants still live along that river, and many still speak French.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.3,
+           "lat": 47.33,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The St. John River at St. David"
+      },
+      {
+       "type": "stat",
+       "at": "In June 1785 a",
+       "stat": {
+        "value": "JUNE 1785",
+        "label": "Acadian families land on the upper St. John River",
+        "source": "acadian.org; University of Maine at Fort Kent"
+       }
+      },
+      {
+       "type": "map",
+       "at": "French speakers whose people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.5,
+           "lat": 46.75,
+           "span": 9.54
+          },
+          "highlight": [
+           "Nova Scotia@accent"
+          ],
+          "places": [
+           {
+            "name": "St. David",
+            "lon": -68.23,
+            "lat": 47.33,
+            "kind": "site",
+            "label": "St. David, 1785"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "paddled up the St.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.05,
+           "lat": 47.22,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The St. John River below Madawaska"
+      },
+      {
+       "type": "photo",
+       "at": "raised a wooden cross",
+       "photo": "File:MadawaskaME AcadianLandingCross.jpg",
+       "on_screen_text": "The Acadian landing cross, St. David"
+      },
+      {
+       "type": "stat",
+       "at": "Five years later a",
+       "stat": {
+        "value": "174",
+        "label": "People in the upper St. John Valley, 1790 count",
+        "source": "Census of Lower Canada, via acadian.org"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Their descendants still live",
+       "photo": "File:Madawaska, Maine.jpg",
+       "on_screen_text": "Madawaska, on the St. John"
+      },
+      {
+       "type": "photo",
+       "at": "many still speak French",
+       "photo": "File:Madawaska, Maine bilingual welcome sign.jpg",
+       "on_screen_text": "Bienvenue: the welcome sign in Madawaska"
+      }
+     ]
+    },
+    {
+     "text": "By the 1830s, lumbermen from both sides were cutting the same trees. In February 1839 Maine sent an armed posse north from Bangor to throw out the New Brunswick loggers. The loggers seized Maine's land agent in the middle of the night. Maine called up its militia. Britain moved soldiers in. In Washington, Congress authorized fifty thousand men and ten million dollars in case of war. It is called the Aroostook War. Nobody was killed in battle. About thirty-eight men died of accidents and disease. In March, General Winfield Scott arrived and talked both sides down. That autumn the US Army began building Fort Kent, on the St. John, to hold the line.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.6,
+           "lat": 46.85,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Aroostook valley"
+      },
+      {
+       "type": "photo",
+       "at": "In February 1839 Maine",
+       "photo": "File:Bangor, Maine.jpg",
+       "on_screen_text": "Bangor, where the posse set out"
+      },
+      {
+       "type": "map",
+       "at": "to throw out the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.4,
+           "lat": 46.1,
+           "span": 3.0
+          },
+          "routes": [
+           {
+            "from": [
+             -68.77,
+             44.8
+            ],
+            "via": [
+             [
+              -68.6,
+              45.5
+             ],
+             [
+              -68.3,
+              46.1
+             ]
+            ],
+            "to": [
+             -68.1,
+             46.75
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "The posse, February 1839"
+           }
+          ],
+          "places": [
+           {
+            "name": "Bangor",
+            "lon": -68.77,
+            "lat": 44.8,
+            "kind": "city",
+            "label": "Bangor"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The loggers seized Maine's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.25,
+           "lat": 46.7,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Aroostook River"
+      },
+      {
+       "type": "map",
+       "at": "Maine called up its",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.5,
+           "lat": 45.85,
+           "span": 7.02
+          },
+          "highlight": [
+           "Maine@accent",
+           "New Brunswick@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In Washington, Congress authorized",
+       "stat": {
+        "value": "50,000 MEN",
+        "label": "Authorized by Congress, with $10 million, in case of war over Maine, 1839",
+        "source": "US Congress, 1839"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is called the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.05,
+           "lat": 46.48,
+           "span": 7.857
+          },
+          "highlight": [
+           "file:aroostook.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Nobody was killed in",
+       "stat": {
+        "value": "0 BATTLES",
+        "label": "About 38 deaths in the Aroostook War, all from accident and disease",
+        "source": "Aroostook War records"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In March, General Winfield",
+       "photo": "File:Presque Isle, Maine.jpg",
+       "on_screen_text": "Presque Isle, Aroostook County"
+      },
+      {
+       "type": "map",
+       "at": "That autumn the US",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.59,
+           "lat": 47.25,
+           "span": 0.08
+          }
+         },
+         {
+          "at": 104,
+          "view": {
+           "lon": -68.59,
+           "lat": 47.25,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fort Kent, begun in 1839"
+      }
+     ]
+    },
+    {
+     "text": "Three years later, in August 1842, Daniel Webster and Lord Ashburton split the difference. The United States got about seven thousand square miles, Britain about five thousand. The new line followed the St. John River for much of the way, which is why Maine's top edge looks the way it does. But a line on a map does not fill a forest. Even after 1842, almost nobody moved up there. The next reason is the simplest one: the weather.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.95,
+           "lat": 46.12,
+           "span": 9.603
+          },
+          "routes": [
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.79,
+              48.0
+             ],
+             [
+              -69.2,
+              47.65
+             ],
+             [
+              -70.3,
+              46.6
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "American claim (roughly)"
+           },
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.8,
+              46.52
+             ],
+             [
+              -69.0,
+              46.15
+             ],
+             [
+              -70.2,
+              45.75
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "British claim (roughly)"
+           }
+          ],
+          "highlight": [
+           "Maine@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "The United States got",
+       "chart": {
+        "type": "bar",
+        "title": "Webster-Ashburton Treaty, 1842: the disputed forest",
+        "unit": "square miles",
+        "data": [
+         [
+          "United States",
+          7015
+         ],
+         [
+          "Britain",
+          5012
+         ]
+        ],
+        "source": "Webster-Ashburton Treaty",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "The new line followed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.5,
+           "lat": 47.27,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -68.5,
+           "lat": 47.27,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The St. John River: Maine on the right, Canada on the left"
+      },
+      {
+       "type": "map",
+       "at": "But a line on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.3,
+           "lat": 47.15,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 60,
+          "view": {
+           "lon": -69.3,
+           "lat": 47.15,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The forest south of the St. John"
+      },
+      {
+       "type": "map",
+       "at": "The next reason is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.75,
+           "lat": 47.05,
+           "span": 0.2
+          },
+          "date": "2024-02-01/2024-03-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Winter forest, northern Aroostook"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Long Winters, Short Summers",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. It is cold, and the summer is short. This forest has always been hard on people. In 1775, early in the Revolution, Benedict Arnold marched about eleven hundred men up the Kennebec to attack Quebec. He planned on a hundred and eighty miles. It turned out to be about three hundred and fifty. The men got lost in the swamps of the height of land, on today's Quebec border, and on the far side rapids smashed their boats and the food ran out. More than a third of the men turned back. About six hundred reached the St. Lawrence, half-starved.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.2,
+           "lat": 45.2,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -70.2,
+           "lat": 45.2,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Dead River, on Arnold's route"
+      },
+      {
+       "type": "map",
+       "at": "In 1775, early in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.4,
+           "lat": 45.6,
+           "span": 3.4
+          },
+          "routes": [
+           {
+            "from": [
+             -69.77,
+             44.31
+            ],
+            "via": [
+             [
+              -69.88,
+              45.0
+             ],
+             [
+              -70.25,
+              45.15
+             ],
+             [
+              -70.55,
+              45.4
+             ],
+             [
+              -70.88,
+              45.55
+             ],
+             [
+              -70.85,
+              46.2
+             ]
+            ],
+            "to": [
+             -71.21,
+             46.81
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Arnold's march, 1775"
+           }
+          ],
+          "places": [
+           {
+            "name": "Augusta",
+            "lon": -69.78,
+            "lat": 44.31,
+            "kind": "city",
+            "label": "Augusta"
+           },
+           {
+            "name": "Quebec City",
+            "lon": -71.21,
+            "lat": 46.81,
+            "kind": "city",
+            "label": "Quebec City"
+           }
+          ]
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": -70.4,
+           "lat": 45.6,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "He planned on a",
+       "chart": {
+        "type": "bar",
+        "title": "Arnold's march to Quebec, 1775",
+        "unit": "miles",
+        "data": [
+         [
+          "Planned",
+          180
+         ],
+         [
+          "Real route",
+          350
+         ]
+        ],
+        "source": "Wikipedia, Benedict Arnold's expedition to Quebec",
+        "highlight": 1,
+        "reveal": [
+         "It turned out to"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "The men got lost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.6,
+           "lat": 45.42,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": -70.6,
+           "lat": 45.42,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The height of land on the Quebec border"
+      },
+      {
+       "type": "stat",
+       "at": "More than a third",
+       "stat": {
+        "value": "~600 OF 1,100",
+        "label": "Arnold's men who reached the St. Lawrence, November 1775",
+        "source": "Benedict Arnold's expedition to Quebec"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Up at Caribou, in Aroostook County, the average January day is under twelve degrees Fahrenheit. It once hit minus forty-one. About ten feet of snow falls in an average winter. In the winter of 2007 and 2008 it was more than sixteen feet. And the time between the last spring frost and the first autumn frost is about a hundred and thirty days. That is just over four months to grow anything.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Caribou, Maine.jpg",
+       "on_screen_text": "Caribou, Maine"
+      },
+      {
+       "type": "stat",
+       "at": "the average January day",
+       "stat": {
+        "value": "11.7 °F",
+        "label": "Average January day in Caribou, 1991-2020",
+        "source": "NOAA / National Weather Service, Caribou records"
+       }
+      },
+      {
+       "type": "map",
+       "at": "About ten feet of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.0,
+           "lat": 46.85,
+           "span": 0.25
+          },
+          "date": "2024-02-01/2024-03-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Caribou in late winter"
+      },
+      {
+       "type": "photo",
+       "at": "In the winter of",
+       "photo": "File:Aroostook National Wildlife Refuge winter.jpg",
+       "on_screen_text": "Winter in Aroostook County"
+      },
+      {
+       "type": "photo",
+       "at": "And the time between",
+       "photo": "File:Pancake ice on the Allagash River, Maine.jpg",
+       "on_screen_text": "Ice forming on the Allagash River"
+      },
+      {
+       "type": "stat",
+       "at": "is about a hundred",
+       "stat": {
+        "value": "130 DAYS",
+        "label": "Average time between the last spring frost and the first autumn frost at Caribou",
+        "source": "NOAA / National Weather Service, Caribou records"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is just over",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.98,
+           "lat": 46.9,
+           "span": 0.1
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Caribou's fields in July"
+      }
+     ]
+    },
+    {
+     "text": "And most of the north was never farmland anyway. It is rolling hills, lakes and bogs, and what grows best is spruce and fir. Government climate scientists say Maine's growing season has been getting longer, but up north it is still short. By the Forest Service's count, about eighty-nine percent of Maine's land is forest. That is the highest share of any state.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.05,
+           "lat": 46.35,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bogs and lakes in the North Woods"
+      },
+      {
+       "type": "photo",
+       "at": "It is rolling hills",
+       "photo": "File:Moosehead Lake.jpg",
+       "on_screen_text": "Moosehead Lake"
+      },
+      {
+       "type": "map",
+       "at": "and what grows best",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.3,
+           "lat": 45.55,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Spruce and fir near Moosehead Lake"
+      },
+      {
+       "type": "document",
+       "at": "Government climate scientists say",
+       "document": {
+        "text": "The growing season in Maine has also lengthened.",
+        "source": "NOAA NCICS, State Climate Summary: Maine",
+        "highlight": "lengthened"
+       }
+      },
+      {
+       "type": "map",
+       "at": "but up north it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.6,
+           "lat": 47.2,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Northern Aroostook"
+      },
+      {
+       "type": "stat",
+       "at": "By the Forest Service's",
+       "stat": {
+        "value": "89 %",
+        "label": "Share of Maine's land that is forest, the most of any state",
+        "source": "USDA Forest Service, Forests of Maine 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is the highest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.9,
+           "lat": 46.6,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest near the Quebec line"
+      }
+     ]
+    },
+    {
+     "text": "There was one exception. In the far northeast, around Presque Isle, Caribou and Houlton, the land is gentler, and one crop loved the cool summers: potatoes. The first was planted near Houlton in 1807. When the railroad arrived late in the 1800s, Aroostook became a potato empire. Much of the early crop went to starch factories. Schools closed in autumn so children could help bring in the crop. Many high schools in Aroostook still close for up to two weeks every fall for the harvest. By 1947 Maine was growing potatoes on a hundred and eighty-six thousand acres, and it led the country in potatoes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.38,
+           "lat": 45.49,
+           "span": 7.08
+          },
+          "highlight": [
+           "file:aroostook.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Presque Isle",
+            "lon": -68.02,
+            "lat": 46.68,
+            "kind": "city",
+            "label": "Presque Isle"
+           },
+           {
+            "name": "Caribou",
+            "lon": -68.01,
+            "lat": 46.86,
+            "kind": "city",
+            "label": "Caribou"
+           },
+           {
+            "name": "Houlton",
+            "lon": -67.84,
+            "lat": 46.13,
+            "kind": "city",
+            "label": "Houlton"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the land is gentler",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.0,
+           "lat": 46.72,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Potato fields around Presque Isle"
+      },
+      {
+       "type": "photo",
+       "at": "and one crop loved",
+       "photo": "File:Farms in the Aroostook County, Me., Oct. 1940 - potatoes LCCN2017877406.jpg",
+       "on_screen_text": "Aroostook potato country, October 1940"
+      },
+      {
+       "type": "photo",
+       "at": "The first was planted",
+       "photo": "File:Houlton, Me. Aroostook County seat. LOC 75693242.jpg",
+       "on_screen_text": "Houlton, the county seat, in the 1890s"
+      },
+      {
+       "type": "map",
+       "at": "When the railroad arrived",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.02,
+           "lat": 46.69,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Presque Isle, on the Aroostook River"
+      },
+      {
+       "type": "stat",
+       "at": "Much of the early",
+       "stat": {
+        "value": "28,000 ACRES",
+        "label": "Aroostook potatoes in 1890, much of the crop for starch",
+        "source": "Aroostook local histories (The County)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Schools closed in autumn",
+       "photo": "File:Children gathering potatoes on a large farm, vicinity of Caribou, Aroostook County, Me. Schools do not open until the potatoes are harvested LCCN2017877412.jpg",
+       "on_screen_text": "Children picking potatoes near Caribou, 1940"
+      },
+      {
+       "type": "stat",
+       "at": "Many high schools in",
+       "stat": {
+        "value": "2 WEEKS",
+        "label": "Harvest break at most Aroostook high schools, 2024",
+        "source": "Bangor Daily News, 2024"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By 1947 Maine was",
+       "stat": {
+        "value": "186,000 ACRES",
+        "label": "Potatoes planted in Maine in 1947",
+        "source": "Maine Atlas; Bangor Daily News"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and it led the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.85,
+           "lat": 46.55,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fields near Mars Hill"
+      }
+     ]
+    },
+    {
+     "text": "Then the potato moved west. Idaho, with irrigation, bigger fields and better shipping, passed Maine in 1957. Maine still grows a lot of potatoes, almost all of them in Aroostook, but by 2021 the fields covered about fifty-eight thousand acres. Machines replaced the hands that picked them. So the north had long winters, short summers, and its one great crop found a better home. What kept people there was the work in the woods and the mills. And then that went too.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.0,
+           "lat": 44.5,
+           "span": 40
+          },
+          "highlight": [
+           "Idaho@accent",
+           "Maine@red"
+          ]
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -100.0,
+           "lat": 44.5,
+           "span": 30.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "but by 2021 the",
+       "chart": {
+        "type": "bar",
+        "title": "Potato acres planted in Maine",
+        "unit": "acres",
+        "data": [
+         [
+          "1947",
+          186000
+         ],
+         [
+          "2021",
+          58000
+         ]
+        ],
+        "source": "Maine Atlas; USDA via Bangor Daily News",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "Machines replaced the hands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.95,
+           "lat": 46.62,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A potato farm near Presque Isle"
+      },
+      {
+       "type": "photo",
+       "at": "So the north had",
+       "photo": "File:Houlton, Maine.jpg",
+       "on_screen_text": "Houlton today"
+      },
+      {
+       "type": "map",
+       "at": "What kept people there",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.63,
+           "lat": 45.65,
+           "span": 0.06
+          }
+         },
+         {
+          "at": 73,
+          "view": {
+           "lon": -68.63,
+           "lat": 45.65,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "East Millinocket"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Jobs Left",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason four. The jobs left. For more than a century, logs from the north woods traveled by water. Every spring, crews drove them down the rivers on the snowmelt, all the way to the mills. A law passed in 1971 banned the drives after 1976, and by the mid-1970s the last ones had run down the Kennebec. The last big drive, in November 1975, brought television crews from around the country. Trucks took over, on private roads, and fewer men were needed in the woods.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.72,
+           "lat": 45.62,
+           "span": 0.25
+          }
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -69.72,
+           "lat": 45.62,
+           "span": 0.155
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kennebec leaves Moosehead Lake"
+      },
+      {
+       "type": "photo",
+       "at": "Every spring, crews drove",
+       "photo": "File:Allagash Waterfalls 2003.jpg",
+       "on_screen_text": "Falls on the Allagash"
+      },
+      {
+       "type": "stat",
+       "at": "A law passed in",
+       "stat": {
+        "value": "1976",
+        "label": "The last year river log drives were allowed in Maine (law of 1971)",
+        "source": "Maine law of 1971, via Central Maine and Down East"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the last ones had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.88,
+           "lat": 45.02,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kennebec River near Bingham"
+      },
+      {
+       "type": "photo",
+       "at": "The last big drive",
+       "photo": "File:Sit Anywhere Woodsman relaxing after lunch during the spring pulpwood drive on the Brown Company timber holdings in Maine. May 1943. (40944955493).jpg",
+       "on_screen_text": "Woodsmen on a spring pulpwood drive, Maine, 1943"
+      },
+      {
+       "type": "map",
+       "at": "Trucks took over, on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.18,
+           "lat": 45.88,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Golden Road at Ripogenus Dam"
+      }
+     ]
+    },
+    {
+     "text": "Then came a caterpillar. In the 1970s and 80s the spruce budworm ate its way through the spruce and fir of eastern Canada and northern Maine, across an estimated hundred and thirty-six million acres. Planes sprayed Maine's forest with insecticide, three and a half million acres in 1976 alone. Maine lost an estimated twenty to twenty-five million cords of wood, about a fifth of its spruce and fir. Whole stands of dead fir had to be cut in a hurry, and the companies kept cutting.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.23,
+           "lat": 45.94,
+           "span": 7.159
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ]
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": -70.23,
+           "lat": 45.94,
+           "span": 5.369
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "across an estimated hundred",
+       "stat": {
+        "value": "136 M ACRES",
+        "label": "Spruce budworm outbreak, eastern Canada and northern Maine, 1970s-80s",
+        "source": "Maine Forest Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Planes sprayed Maine's forest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.55,
+           "lat": 46.05,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Spruce and fir forest, northern Maine"
+      },
+      {
+       "type": "stat",
+       "at": "Maine lost an estimated",
+       "stat": {
+        "value": "21 %",
+        "label": "Share of Maine's spruce and fir lost to the budworm outbreak",
+        "source": "Maine Spruce Budworm Task Force"
+       }
+      },
+      {
+       "type": "map",
+       "at": "about a fifth of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.45,
+           "lat": 46.5,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Spruce and fir today, northern Maine"
+      },
+      {
+       "type": "map",
+       "at": "Whole stands of dead",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.25,
+           "lat": 46.2,
+           "span": 0.12
+          }
+         },
+         {
+          "at": 76,
+          "view": {
+           "lon": -69.25,
+           "lat": 46.2,
+           "span": 0.074
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Regrowth on old cutting blocks"
+      }
+     ]
+    },
+    {
+     "text": "The paper mills were the biggest employers. In 1899 Great Northern began building a mill on the Penobscot River at Millinocket. When it opened the next year it was the world's largest paper mill, and a town grew around it in the forest. By 1970 Millinocket had seven thousand seven hundred people. Then newspapers shrank, owners changed, and the company went bankrupt in 2003. By 2014 the mills at Millinocket and East Millinocket had both closed. In 2020 Millinocket had about four thousand one hundred people.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.71,
+           "lat": 45.65,
+           "span": 0.06
+          }
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": -68.71,
+           "lat": 45.65,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Millinocket"
+      },
+      {
+       "type": "photo",
+       "at": "and a town grew",
+       "photo": "File:Closely spaced mill-era homes in Millinocket, Maine.jpg",
+       "on_screen_text": "Mill-era houses in Millinocket"
+      },
+      {
+       "type": "stat",
+       "at": "By 1970 Millinocket had",
+       "stat": {
+        "value": "7,742",
+        "label": "People in Millinocket at the 1970 census",
+        "source": "US Census Bureau, 2020 census"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Then newspapers shrank, owners",
+       "photo": "File:East Millinocket, Maine.jpg",
+       "on_screen_text": "East Millinocket and its mill"
+      },
+      {
+       "type": "stat",
+       "at": "and the company went",
+       "stat": {
+        "value": "2003",
+        "label": "Great Northern Paper goes bankrupt",
+        "source": "Wikipedia, Millinocket"
+       }
+      },
+      {
+       "type": "map",
+       "at": "By 2014 the mills",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.7,
+           "lat": 45.648,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The old Millinocket mill site"
+      },
+      {
+       "type": "chart",
+       "at": "In 2020 Millinocket had",
+       "chart": {
+        "type": "bar",
+        "title": "People in Millinocket",
+        "unit": "census",
+        "data": [
+         [
+          "1970",
+          7742
+         ],
+         [
+          "2020",
+          4104
+         ]
+        ],
+        "source": "US Census Bureau, 2020 census",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "And then the Cold War ended. In 1953 the Air Force opened a base near Limestone, in the far northeast corner of Maine. It was described as the closest point in the continental United States to Europe, and for a bomber base that was the point. Its main runway was more than two miles long. Its bombers were B-36s at first, then B-52s. It also had the first site in the country built just to store and assemble atomic weapons. In 1988 about three thousand eight hundred airmen and a thousand civilians worked there.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Loring Air Force Base.jpg",
+       "on_screen_text": "Loring Air Force Base from above"
+      },
+      {
+       "type": "map",
+       "at": "In 1953 the Air",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.885,
+           "lat": 46.95,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Loring's runway"
+      },
+      {
+       "type": "map",
+       "at": "in the far northeast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.78,
+           "lat": 45.25,
+           "span": 5.7
+          },
+          "places": [
+           {
+            "name": "Loring",
+            "lon": -67.89,
+            "lat": 46.95,
+            "kind": "site",
+            "label": "Loring Air Force Base"
+           },
+           {
+            "name": "Portland",
+            "lon": -70.26,
+            "lat": 43.66,
+            "kind": "city",
+            "label": "Portland"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was described as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -50.0,
+           "lat": 50.0,
+           "span": 60
+          },
+          "places": [
+           {
+            "name": "Loring",
+            "lon": -67.89,
+            "lat": 46.95,
+            "kind": "site",
+            "label": "Loring Air Force Base"
+           }
+          ]
+         },
+         {
+          "at": 34,
+          "view": {
+           "lon": -50.0,
+           "lat": 50.0,
+           "span": 45.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its main runway was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.89,
+           "lat": 46.94,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Loring's runway, 12,100 feet"
+      },
+      {
+       "type": "photo",
+       "at": "Its bombers were B-36s",
+       "photo": "File:Nose Hangar, Limestone Air Force Base, Limestone, Maine - DPLA - 83b68f60d44007fcd737e00c1b6e9cf6.jpg",
+       "on_screen_text": "A bomber in a nose hangar at Limestone, 1950s"
+      },
+      {
+       "type": "photo",
+       "at": "It also had the",
+       "photo": "File:LORING AFB WSA 20.jpg",
+       "on_screen_text": "A storage bunker in Loring's weapons area"
+      },
+      {
+       "type": "photo",
+       "at": "In 1988 about three",
+       "photo": "File:Loring Flightline.jpg",
+       "on_screen_text": "Loring's flight line"
+      }
+     ]
+    },
+    {
+     "text": "In 1991 a commission decided the Air Force had more bomber bases than it needed. Loring closed on the thirtieth of September 1994. Limestone had over thirteen thousand people in 1960. By 2000 it had two thousand three hundred. In 2020, about fifteen hundred. Aroostook County as a whole peaked at a hundred and six thousand people in 1960. In 2020 it had sixty-seven thousand.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Loring Air Force Base 1982 - Hangar - panoramio.jpg",
+       "on_screen_text": "Loring's great hangar"
+      },
+      {
+       "type": "stat",
+       "at": "Loring closed on the",
+       "stat": {
+        "value": "30 SEP 1994",
+        "label": "Loring Air Force Base closes",
+        "source": "Base Realignment and Closure Commission, 1991"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Limestone had over thirteen",
+       "chart": {
+        "type": "bar",
+        "title": "People in Limestone, Maine",
+        "unit": "census",
+        "data": [
+         [
+          "1960",
+          13102
+         ],
+         [
+          "2000",
+          2361
+         ],
+         [
+          "2020",
+          1526
+         ]
+        ],
+        "source": "US Census Bureau, 2020 census",
+        "highlight": 2,
+        "reveal": [
+         "By 2000 it had",
+         "In 2020, about"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Aroostook County as a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.62,
+           "lat": 45.25,
+           "span": 5.16
+          },
+          "highlight": [
+           "file:aroostook.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Caribou",
+            "lon": -68.01,
+            "lat": 46.86,
+            "kind": "city",
+            "label": "Caribou"
+           },
+           {
+            "name": "Presque Isle",
+            "lon": -68.02,
+            "lat": 46.68,
+            "kind": "city",
+            "label": "Presque Isle"
+           },
+           {
+            "name": "Houlton",
+            "lon": -67.84,
+            "lat": 46.13,
+            "kind": "city",
+            "label": "Houlton"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "In 2020 it had",
+       "chart": {
+        "type": "bar",
+        "title": "People in Aroostook County",
+        "unit": "census",
+        "data": [
+         [
+          "1960",
+          106064
+         ],
+         [
+          "2020",
+          67105
+         ]
+        ],
+        "source": "US Census Bureau, 2020 census",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "When it closed, the region lost thousands of military and civilian jobs. A state estimate had put nearly a fifth of the local economy on the base. Today part of the old base is an industrial park, and part of it is the Aroostook National Wildlife Refuge. The bunkers that once held the bombs are still there, in the grass.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.87,
+           "lat": 46.96,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The former Loring base"
+      },
+      {
+       "type": "stat",
+       "at": "A state estimate had",
+       "stat": {
+        "value": "19 %",
+        "label": "Share of the regional economy tied to Loring, state planning office estimate",
+        "source": "Maine State Planning Office, via press reports"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Today part of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.86,
+           "lat": 46.93,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The old base buildings, now an industrial park"
+      },
+      {
+       "type": "photo",
+       "at": "and part of it",
+       "photo": "File:Aroostook national wildlife refuge forestry.jpg",
+       "on_screen_text": "Aroostook National Wildlife Refuge"
+      },
+      {
+       "type": "photo",
+       "at": "The bunkers that once",
+       "photo": "File:Bunkers at Aroostook NWR (8617376872).jpg",
+       "on_screen_text": "Old weapons bunkers, Aroostook National Wildlife Refuge"
+      }
+     ]
+    },
+    {
+     "text": "So the work left. But some of the emptiness of northern Maine is no accident at all. Some of it was chosen.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.95,
+           "lat": 45.95,
+           "span": 0.15
+          }
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": -68.95,
+           "lat": 45.95,
+           "span": 0.093
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Katahdin from above"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Wild on Purpose",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason five. People decided to keep it wild. In 1846 Henry David Thoreau went up Katahdin, Maine's highest mountain. Today it is the northern end of the Appalachian Trail, more than two thousand miles from Georgia. Coming down, he wrote that up there he had felt the presence of a force not bound to be kind to man. Contact, he wrote. Who are we? Where are we? The mountain stayed with one man in particular.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.921,
+           "lat": 45.904,
+           "span": 0.08
+          }
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -68.921,
+           "lat": 45.904,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Katahdin, 5,267 feet"
+      },
+      {
+       "type": "map",
+       "at": "Today it is the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.5,
+           "lat": 40.0,
+           "span": 20
+          },
+          "routes": [
+           {
+            "from": [
+             -84.19,
+             34.63
+            ],
+            "via": [
+             [
+              -81.0,
+              36.5
+             ],
+             [
+              -78.0,
+              39.0
+             ],
+             [
+              -75.0,
+              41.5
+             ],
+             [
+              -72.8,
+              43.8
+             ],
+             [
+              -70.9,
+              44.8
+             ]
+            ],
+            "to": [
+             -68.92,
+             45.9
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.0,
+            "label": "Appalachian Trail (roughly)"
+           }
+          ]
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": -76.5,
+           "lat": 40.0,
+           "span": 15.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Coming down, he wrote",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.88,
+           "lat": 45.92,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Katahdin's tableland"
+      },
+      {
+       "type": "document",
+       "at": "the presence of a",
+       "document": {
+        "text": "There was clearly felt the presence of a force not bound to be kind to man.",
+        "source": "Henry David Thoreau, The Maine Woods",
+        "highlight": "not bound to be kind to man"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Contact, he wrote. Who",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.9,
+           "lat": 45.93,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Katahdin massif"
+      },
+      {
+       "type": "photo",
+       "at": "The mountain stayed with",
+       "photo": "File:Appalachian Trail and view of Mount Katahdin, Maine LCCN2011630252.tif",
+       "on_screen_text": "Katahdin"
+      }
+     ]
+    },
+    {
+     "text": "Percival Baxter, who became governor of Maine in 1921, wanted the state to make a park around Katahdin. That year the bill for it failed. So he did it himself. He bought about six thousand acres, Katahdin included, and in 1931 gave it to Maine on one condition: that it stay forever in its natural wild state. He kept buying and giving until 1962. More than two hundred thousand acres in all. Inside the park there is still no electricity, no running water and no paved road.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:P.P. Baxter LCCN2014712097.jpg",
+       "on_screen_text": "Percival Baxter"
+      },
+      {
+       "type": "map",
+       "at": "wanted the state to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.95,
+           "lat": 46.05,
+           "span": 0.9
+          },
+          "places": [
+           {
+            "name": "Katahdin",
+            "lon": -68.921,
+            "lat": 45.904,
+            "kind": "site",
+            "label": "Katahdin"
+           },
+           {
+            "name": "Millinocket",
+            "lon": -68.71,
+            "lat": 45.66,
+            "kind": "city",
+            "label": "Millinocket"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "So he did it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.95,
+           "lat": 45.92,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Katahdin and the land around it"
+      },
+      {
+       "type": "stat",
+       "at": "and in 1931 gave",
+       "stat": {
+        "value": "1931",
+        "label": "Percival Baxter gives Katahdin to Maine, on condition it stay wild",
+        "source": "Baxter State Park; Maine Legislature"
+       }
+      },
+      {
+       "type": "map",
+       "at": "that it stay forever",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.86,
+           "lat": 46.15,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Baxter State Park, the northern half"
+      },
+      {
+       "type": "stat",
+       "at": "He kept buying and",
+       "stat": {
+        "value": "201,018 ACRES",
+        "label": "Percival Baxter's gifts to Maine, 1931 to 1962",
+        "source": "Baxter's letter to the Maine Legislature, 1963"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Inside the park there",
+       "photo": "File:Entering Baxter State Park.jpg",
+       "on_screen_text": "Entering Baxter State Park"
+      }
+     ]
+    },
+    {
+     "text": "In 1966 Maine voters protected the Allagash, ninety-two miles of lakes and river through the heart of the north woods. The bond to pay for it passed with sixty-eight percent of the vote. In 1970 it became the first state-run river in the national system of wild and scenic rivers. You can paddle it for a week and see no town.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.25,
+           "lat": 46.6,
+           "span": 1.6
+          },
+          "routes": [
+           {
+            "from": [
+             -69.3,
+             46.12
+            ],
+            "via": [
+             [
+              -69.29,
+              46.49
+             ],
+             [
+              -69.37,
+              46.62
+             ],
+             [
+              -69.26,
+              46.88
+             ]
+            ],
+            "to": [
+             -69.08,
+             47.08
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Allagash Wilderness Waterway"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "ninety-two miles of lakes",
+       "photo": "File:Allagash River 2003.jpg",
+       "on_screen_text": "Canoes on the Allagash"
+      },
+      {
+       "type": "stat",
+       "at": "The bond to pay",
+       "stat": {
+        "value": "68 %",
+        "label": "Maine voters for the Allagash Wilderness Waterway bond, November 1966",
+        "source": "Natural Resources Council of Maine"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1970 it became",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.36,
+           "lat": 46.62,
+           "span": 0.15
+          }
+         },
+         {
+          "at": 41,
+          "view": {
+           "lon": -69.36,
+           "lat": 46.62,
+           "span": 0.093
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Umsaskis Lake on the Allagash"
+      },
+      {
+       "type": "map",
+       "at": "You can paddle it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.27,
+           "lat": 46.86,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Allagash River heading north"
+      }
+     ]
+    },
+    {
+     "text": "And in 2016 Roxanne Quimby, who made a fortune with Burt's Bees, gave about eighty-seven thousand five hundred acres east of Baxter to the federal government, and President Obama made it a national monument. A national park needs an act of Congress. A monument does not, so that is what she asked for. She added twenty million dollars for its upkeep and a pledge to raise twenty million more. Many people in the mill towns fought it. They feared it would close the woods to hunting, snowmobiles and logging. Between 1990 and 2015, about four million acres of the north woods were put under some kind of conservation.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.68,
+           "lat": 45.95,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Katahdin Woods and Waters National Monument"
+      },
+      {
+       "type": "stat",
+       "at": "gave about eighty-seven thousand",
+       "stat": {
+        "value": "87,500 ACRES",
+        "label": "Katahdin Woods and Waters National Monument, 24 August 2016",
+        "source": "National Park Service; NPR"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and President Obama made",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.8,
+           "lat": 45.98,
+           "span": 0.8
+          },
+          "places": [
+           {
+            "name": "Katahdin",
+            "lon": -68.921,
+            "lat": 45.904,
+            "kind": "site",
+            "label": "Katahdin"
+           },
+           {
+            "name": "Millinocket",
+            "lon": -68.71,
+            "lat": 45.66,
+            "kind": "city",
+            "label": "Millinocket"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A national park needs",
+       "photo": "File:Katahdin Woods and Waters National Monument on August 17, 2024 visit by the United States Department of the Interior - 19.jpg",
+       "on_screen_text": "Katahdin Woods and Waters, August 2024"
+      },
+      {
+       "type": "map",
+       "at": "A monument does not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.72,
+           "lat": 46.0,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The monument's land on the East Branch"
+      },
+      {
+       "type": "stat",
+       "at": "She added twenty million",
+       "stat": {
+        "value": "$20 M + $20 M",
+        "label": "Quimby's endowment for the monument, and her pledge to raise as much again",
+        "source": "NRCM; press reports, 2016"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Many people in the",
+       "photo": "File:Closely spaced mill-era homes in Millinocket, Maine.jpg",
+       "on_screen_text": "Millinocket"
+      },
+      {
+       "type": "map",
+       "at": "They feared it would",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.6,
+           "lat": 46.05,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Logging roads beside the monument"
+      },
+      {
+       "type": "stat",
+       "at": "Between 1990 and 2015",
+       "stat": {
+        "value": "4 M ACRES",
+        "label": "North Woods put under conservation, 1990 to 2015",
+        "source": "Natural Resources Council of Maine"
+       }
+      },
+      {
+       "type": "map",
+       "at": "were put under some",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.2,
+           "lat": 46.75,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Allagash country"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Last Big Forest",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So put it together. The land was sold in blocks before anyone could settle it, to owners who wanted trees, not towns. The border was fought over until 1842. The winters are long and the summers short, and the potato moved west. The log drives, the mills and the air base all closed. And the people of Maine chose to keep part of it wild, forever.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.2,
+           "lat": 45.55,
+           "span": 6.36
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "to owners who wanted",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.4,
+           "lat": 46.0,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Private forest, northern Maine"
+      },
+      {
+       "type": "map",
+       "at": "The border was fought",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -70.77,
+           "lat": 46.66,
+           "span": 10.301
+          },
+          "routes": [
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.8,
+              46.52
+             ],
+             [
+              -69.0,
+              46.15
+             ],
+             [
+              -70.2,
+              45.75
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "British claim (roughly)"
+           },
+           {
+            "from": [
+             -67.79,
+             45.94
+            ],
+            "via": [
+             [
+              -67.79,
+              48.0
+             ],
+             [
+              -69.2,
+              47.65
+             ],
+             [
+              -70.3,
+              46.6
+             ]
+            ],
+            "to": [
+             -71.08,
+             45.3
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "American claim (roughly)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The winters are long",
+       "photo": "File:Aroostook National Wildlife Refuge winter.jpg",
+       "on_screen_text": "Winter in Aroostook"
+      },
+      {
+       "type": "photo",
+       "at": "The log drives, the",
+       "photo": "File:Loring west side.jpg",
+       "on_screen_text": "Loring Air Force Base"
+      },
+      {
+       "type": "photo",
+       "at": "And the people of",
+       "photo": "File:West Branch Penobscot River, Maine.jpg",
+       "on_screen_text": "Katahdin and the West Branch"
+      }
+     ]
+    },
+    {
+     "text": "And the north is still shrinking. Between 2010 and 2020 Aroostook County lost about one in fifteen of its people. Maine as a whole now has the oldest population of any state.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.186,
+           "lat": 46.298,
+           "span": 3.116
+          },
+          "highlight": [
+           "file:aroostook.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Caribou",
+            "lon": -68.01,
+            "lat": 46.86,
+            "kind": "city",
+            "label": "Caribou"
+           },
+           {
+            "name": "Presque Isle",
+            "lon": -68.02,
+            "lat": 46.68,
+            "kind": "city",
+            "label": "Presque Isle"
+           },
+           {
+            "name": "Houlton",
+            "lon": -67.84,
+            "lat": 46.13,
+            "kind": "city",
+            "label": "Houlton"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Between 2010 and 2020",
+       "chart": {
+        "type": "bar",
+        "title": "People in Aroostook County",
+        "unit": "census",
+        "data": [
+         [
+          "2010",
+          71870
+         ],
+         [
+          "2020",
+          67105
+         ]
+        ],
+        "source": "US Census Bureau, 2020 census",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Maine as a whole",
+       "stat": {
+        "value": "45.1",
+        "label": "Median age in Maine, 2020: the highest of any state",
+        "source": "US Census Bureau, 2020 census, via CNN and Boston.com"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Northern Maine is not empty because nobody wanted it. It is empty because, for two hundred years, the people who owned it wanted it to grow trees. Next time you look at a map of the eastern United States, look at the top right corner. That big blank is what is often called the largest block of undeveloped forest east of the Mississippi.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.2,
+           "lat": 44.95,
+           "span": 4.68
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is empty because",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.6,
+           "lat": 46.7,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": -69.6,
+           "lat": 46.7,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The North Woods"
+      },
+      {
+       "type": "map",
+       "at": "Next time you look",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.0,
+           "lat": 40.5,
+           "span": 22
+          },
+          "layer": "night"
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": -77.0,
+           "lat": 40.5,
+           "span": 16.5
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "That big blank is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.414,
+           "lat": 46.602,
+           "span": 4.484
+          },
+          "highlight": [
+           "file:unorganized.geojson@red"
+          ]
+         },
+         {
+          "at": 54,
+          "view": {
+           "lon": -69.414,
+           "lat": 46.602,
+           "span": 3.363
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If someone gave you a cabin in the north woods, at the end of a private logging road, an hour of gravel from the nearest town, would you take it, or is that too far from everything?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.1,
+           "lat": 46.45,
+           "span": 0.2
+          }
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": -69.1,
+           "lat": 46.45,
+           "span": 0.124
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The North Woods"
+      },
+      {
+       "type": "photo",
+       "at": "would you take it",
+       "photo": "File:Allagash Waterfalls 2003.jpg",
+       "on_screen_text": "The Allagash"
+      },
+      {
+       "type": "photo",
+       "at": "or is that too",
+       "photo": "File:Portland, Maine, aerial photograph.jpg",
+       "on_screen_text": "Portland and the coast"
+      }
+     ],
+     "ask": {
+      "at": "would you take it",
+      "text": "A cabin in the North Woods?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives in Northern Maine",
+  "description": "Almost half of Maine has no town government at all: more than 14,000 square miles where about 8,300 people lived at the 2020 census. This video goes through the five reasons the north stayed empty: the wild lands Massachusetts sold to timber and paper companies, a border with Britain nobody could draw until 1842, the long winters and the potato's move west, the end of the log drives, the paper mills and Loring Air Force Base, and the people who chose to keep Katahdin and the Allagash wild.",
+  "tags": [
+   "Maine",
+   "northern Maine",
+   "why nobody lives in northern Maine",
+   "North Maine Woods",
+   "unorganized territory",
+   "Aroostook County",
+   "Aroostook War",
+   "Katahdin",
+   "Baxter State Park",
+   "Allagash",
+   "Loring Air Force Base",
+   "Millinocket",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If someone gave you a cabin in the north woods, at the end of a private logging road, an hour of gravel from the nearest town, would you take it, or is that too far from everything?"
+ }
+}

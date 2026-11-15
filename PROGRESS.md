@@ -708,3 +708,8 @@ Each sub-phase stops for user approval.
   red) -> re-render 43681238201, sheet 29 re-checked, approved. UPLOADED: video MhYL1LwTY5I, private, publishAt
   2026-11-17T23:00:00Z (18 Nov 02:00 TR), map cover set. Releases and artifacts deleted. Pin the comment by hand in
   Studio (pinned_comment in build_script.py). Note: real length ran at 0.92x of episode_check's estimate (15.5 vs 16.9).
+- 2026-11-15: 19 Nov topic = Northern Maine (user chose it from four demand-checked candidates; outline approved).
+  episodes/northern-maine-empty: research.md, geo/ (Census 2020 UT, Aroostook, Piscataquis, Cumberland+York),
+  build_script.py (2,689 words, 223 hand-placed shots, episode_check "OK, ready to render", est. 16.9 min -> about
+  15.5 real), factcheck.md (177 claims: 61 verified, 89 attributed, 27 own, 0 FIX), cover.json ("NO TOWNS?").
+  Storyboard next.

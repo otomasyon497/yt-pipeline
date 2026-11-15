@@ -1,0 +1,4 @@
+{"view": {"lon": -71.6, "lat": 45.55, "span": 11.6}, "subject": [{"file": "unorganized.geojson"}],
+ "text": [{"t": "NO", "style": "white"}, {"t": "TOWNS?", "style": "red"}], "text_at": [0.03, 0.08], "text_size": 125,
+ "arrow": {"to": [-69.4, 46.6], "from": [0.26, 0.6], "bend": 0.3},
+ "labels": [{"t": "PORTLAND", "lon": -70.26, "lat": 43.66}]}

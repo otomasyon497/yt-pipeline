@@ -84,3 +84,25 @@ Episode-plan step 1:
   march (about 1,100 men, about 600 reached Quebec — find a sourced figure) as a "the forest beats armies" beat.
 </content>
 </invoke>
+
+## Read on 2026-11-15 (user approved the outline: "Uygun, senaryoya geç")
+- Regions (O): geo/make_regions.py from Census 2020 cartographic boundary files: unorganized.geojson 15,136 sq mi
+  including inland water (Gazetteer land only: 14,264); Aroostook 6,820; Piscataquis 4,375; Cumberland + York 1,970.
+- Population 2020 census: Maine 1,362,359; Cumberland 303,069; York 211,972 (Wikipedia, Stacker; citypopulation
+  211,965) (A); Cumberland + York = 515,041 = 38 % of Maine on about 6 % of its area (O). Aroostook 67,105 (A).
+- Unorganized territory population: sum of the 40 UT 2020 census counts in Wikipedia's list = 8,269 (O from A).
+- Thoreau, The Maine Woods, "Ktaadn" (Gutenberg 42500, V, public domain): on the way down from Katahdin, 1846:
+  "There was clearly felt the presence of a force not bound to be kind to man." and "Contact! Contact! Who are we?
+  where are we?"
+- Caribou climate (Wikipedia citing NOAA NOWData, A): snowfall about 118.2 in a year; freeze-free about 130 days
+  (last freeze about 15 May, first about 23 Sep); record low -41 F on 1 Feb 1955; January daily mean 11.7 F (1991-2020).
+- Benedict Arnold's march to Quebec (Wikipedia, A): about 1,100 men left Cambridge Sept 1775; planned 180 miles from
+  Fort Western in 20 days, the real route about 350 miles; on 24 Oct Enos and 450 men turned back; about 600 reached
+  the St. Lawrence (9 Nov).
+- Maine Indian Claims Settlement Act, Public Law 96-420, signed 10 Oct 1980: $81.5 M, all federal; the Passamaquoddy
+  and Penobscot had claimed about 12 to 12.5 M acres, nearly two-thirds of Maine; money to buy back about 300,000 acres
+  (NLM Native Voices timeline, Maine Atlas, A).
+- Great Northern Paper (Wikipedia, A): founded 1897; Millinocket's first roll 9 Nov 1900, "the world's largest paper
+  mill" when it opened; holdings over 2 M acres by the 1940s; Ripogenus Dam 1910s; Golden Road completed 1971, about
+  97 miles; mill closures given as 2008 (Millinocket) and 2014 (East Millinocket, WARN notices Aug 2014) -> say "by 2014
+  both mills had closed".

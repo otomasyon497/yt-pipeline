@@ -738,3 +738,7 @@ Each sub-phase stops for user approval.
   record herd/overgrazing, dzud schools, 1990 hunger strike, 2019 coal ban, Tavan Tolgoi rail cost). STILL ~650 words
   short (target 2,750) and ~20 long holds (episode_check). Patch scripts in scratchpad (mnpatch1.py). Next: +650
   sourced words, fix holds, then claim_log/rules, cover, storyboard.
+- 2026-11-15: Mongolia draft 3 = 2,303 words, 185 shots (mnpatch2.py: Oviraptor 1993, horses outnumber people,
+  230,800 herding households, dzud history + warming >2 C since 1940, empire Korea-Hungary, rail 1949/1955, Darkhan
+  1961/Erdenet, Örgöö 1639, poverty third, 2025 growth 6.8 %, solar-panel close). Still ~400 words short (est 14.5
+  min -> real ~13.3) and 14 FIX (holds; Sheep herd and Ger district photos used 3x). Next: +400 sourced words, fixes.

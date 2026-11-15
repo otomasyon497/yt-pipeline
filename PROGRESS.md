@@ -751,3 +751,6 @@ Each sub-phase stops for user approval.
   deleted. NEXT: view all sheets, fix (patch build_script), full render `gh workflow run render.yml -f
   slug=mongolia-empty`, fetch_episode.ps1 -Delete + delete artifacts, frame_audit (venv), approve, audio check
   (remotion ffmpeg -> wav, venv numpy), upload `python tools/yt_upload.py mongolia-empty --publish-at 2026-11-19T23:00:00Z`.
+- 2026-11-15: Mongolia storyboard sheets 1-12 viewed: winter-dated flat-steppe views render blank white -> mnpatch6.py
+  switched them to October/summer with honest labels; Oviraptor beige run and cloudy Bayanzag view replaced; camp
+  labels made honest. Sheets 13-23 still to view before the full render.

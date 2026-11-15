@@ -336,21 +336,13 @@
        "on_screen_text": "The Flaming Cliffs, Bayanzag"
       },
       {
-       "type": "map",
+       "type": "stat",
        "at": "the first dinosaur eggs",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 103.7,
-           "lat": 44.15,
-           "span": 0.2
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The red cliffs of Bayanzag from orbit"
+       "stat": {
+        "value": "1923",
+        "label": "First recognized dinosaur eggs found at the Flaming Cliffs, Gobi",
+        "source": "American Museum of Natural History"
+       }
       },
       {
        "type": "map",
@@ -679,7 +671,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Fields near Darkhan, in the north"
+       "on_screen_text": "Land near Darkhan, in the north"
       },
       {
        "type": "stat",
@@ -994,62 +986,37 @@
       },
       {
        "type": "map",
-       "at": "and Andrews named the",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 103.6,
-           "lat": 44.2,
-           "span": 0.06
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Bayanzag's eroded cliffs"
-      },
-      {
-       "type": "map",
        "at": "assuming it had died",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 103.75,
-           "lat": 44.12,
-           "span": 0.04
-          }
+           "lon": 103.7,
+           "lat": 44.1,
+           "span": 1.4
+          },
+          "places": [
+           {
+            "name": "Bayanzag",
+            "lon": 103.73,
+            "lat": 44.14,
+            "kind": "site",
+            "label": "Flaming Cliffs (Bayanzag)"
+           }
+          ]
          }
         ],
         "cut": true
-       },
-       "on_screen_text": "The cliff face at Bayanzag"
+       }
       },
       {
-       "type": "map",
+       "type": "stat",
        "at": "In 1993 an expedition",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 103.0,
-           "lat": 44.0,
-           "span": 0.3
-          }
-         },
-         {
-          "at": 91,
-          "view": {
-           "lon": 103.0,
-           "lat": 44.0,
-           "span": 0.186
-          }
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Gobi badlands near Bayanzag"
+       "stat": {
+        "value": "1993",
+        "label": "An AMNH team finds an oviraptorid sitting on its own nest",
+        "source": "American Museum of Natural History"
+       }
       },
       {
        "type": "map",
@@ -1165,7 +1132,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Herders' camps in the Khangai"
+       "on_screen_text": "Khangai valleys"
       },
       {
        "type": "photo",
@@ -1208,7 +1175,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "A herding camp, Övörkhangai"
+       "on_screen_text": "Övörkhangai steppe"
       },
       {
        "type": "photo",
@@ -1231,7 +1198,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Summer camps along a river, Arkhangai"
+       "on_screen_text": "River valleys in Arkhangai"
       },
       {
        "type": "map",
@@ -1243,13 +1210,12 @@
            "lon": 101.0,
            "lat": 47.4,
            "span": 0.12
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Winter camps in sheltered valleys"
+       "on_screen_text": "Sheltered valleys in Arkhangai"
       },
       {
        "type": "map",
@@ -1611,12 +1577,12 @@
            "lat": 47.6,
            "span": 0.6
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The same grassland in winter"
+       "on_screen_text": "The same grassland in October"
       }
      ]
     }
@@ -1640,12 +1606,12 @@
            "lat": 46.5,
            "span": 0.5
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The eastern steppe under snow"
+       "on_screen_text": "The eastern steppe, where the 2024 losses were heavy"
       },
       {
        "type": "stat",
@@ -1684,13 +1650,12 @@
            "lon": 105.0,
            "lat": 46.0,
            "span": 0.4
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Snow over pasture, central Mongolia"
+       "on_screen_text": "Pasture in central Mongolia"
       },
       {
        "type": "photo",
@@ -1709,12 +1674,12 @@
            "lat": 46.8,
            "span": 0.3
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Snow-covered pasture, central Mongolia"
+       "on_screen_text": "Central Mongolian pasture"
       },
       {
        "type": "map",
@@ -1726,13 +1691,12 @@
            "lon": 111.0,
            "lat": 45.6,
            "span": 0.3
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Winter pasture, Dornogovi"
+       "on_screen_text": "Pasture in Dornogovi"
       }
      ]
     },
@@ -1830,12 +1794,12 @@
            "lat": 46.0,
            "span": 0.5
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Snowbound steppe, Sükhbaatar province"
+       "on_screen_text": "Steppe in Sükhbaatar province"
       },
       {
        "type": "map",
@@ -1847,8 +1811,7 @@
            "lon": 110.5,
            "lat": 44.5,
            "span": 0.4
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          },
          {
           "at": 38,
@@ -1856,13 +1819,12 @@
            "lon": 110.5,
            "lat": 44.5,
            "span": 0.248
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Dornogovi in winter"
+       "on_screen_text": "Dornogovi, among the worst-hit provinces"
       },
       {
        "type": "stat",
@@ -1988,8 +1950,7 @@
            "lon": 104.0,
            "lat": 47.5,
            "span": 0.4
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          },
          {
           "at": 28,
@@ -1997,13 +1958,12 @@
            "lon": 104.0,
            "lat": 47.5,
            "span": 0.248
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Herding country in winter"
+       "on_screen_text": "Herding country, central Mongolia"
       },
       {
        "type": "map",
@@ -2647,13 +2607,12 @@
            "lon": 106.0,
            "lat": 45.5,
            "span": 0.4
-          },
-          "date": "2024-01-10/2024-03-01"
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Middle Gobi in winter"
+       "on_screen_text": "The Middle Gobi"
       },
       {
        "type": "photo",
@@ -3349,12 +3308,12 @@
            "lat": 44.5,
            "span": 0.5
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Gobi in winter"
+       "on_screen_text": "The Gobi"
       },
       {
        "type": "photo",
@@ -3373,12 +3332,12 @@
            "lat": 46.0,
            "span": 0.4
           },
-          "date": "2024-01-10/2024-03-01"
+          "date": "2023-09-20/2023-10-15"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The steppe in winter"
+       "on_screen_text": "The steppe in October"
       },
       {
        "type": "photo",

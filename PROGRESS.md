@@ -778,3 +778,4 @@ Each sub-phase stops for user approval.
   568,000 km2 dry, -1,500 m -> about 1.8 M km2; caspian -20 m unchanged (121,192 km2). Use highlight
   "seafloor:mediterranean:1500@red" in maps. NEXT: photo search (Glomar Challenger, Gibraltar, Realmonte salt mine,
   Nile delta ISS, Messinian gypsum Sicily/Spain), build_script like mongolia-empty.
+- 2026-11-15: Mediterranean photo search done; passing list in scratchpad/md_ok.txt (re-run q2 if scratchpad lost).

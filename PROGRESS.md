@@ -764,3 +764,7 @@ Each sub-phase stops for user approval.
 - 2026-11-15: Mongolia render 43729927782 audited (31 sheets, all clean; audio peak -0.67 dBFS, 15:12). UPLOADED:
   video rziBDyJaeqk, private, publishAt 2026-11-19T23:00:00Z (20 Nov 02:00 TR), map cover set. Releases and
   artifacts deleted. Pin the comment by hand in Studio. Next free slot: 21 Nov.
+- 2026-11-15: 21 Nov topic = "How the Mediterranean Sea Dried Up" (Messinian salinity crisis + Zanclean flood),
+  chosen by the user from docs/topic-candidates-2026-11-21.md. NEXT: research (Hsü & Ryan DSDP Leg 13 1970,
+  evaporites ~1 M km3, Nile canyon under Cairo (Chumakov), Rhône canyon, Garcia-Castellanos 2009 Nature flood,
+  Malta 2024 study, Gibraltar strait), gate-1 outline to user, then build like mongolia-empty.

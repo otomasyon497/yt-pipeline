@@ -747,3 +747,7 @@ Each sub-phase stops for user approval.
 - 2026-11-15: Mongolia draft 4 final: 2,562 words, 214 shots, episode_check "OK, ready to render" (est 16.1 min);
   factcheck.md 157 claims (25 verified, 116 attributed, 16 own, 0 FIX; rules in scratchpad/mnfact.py); cover.json
   ("SO EMPTY?", Mongolia red, no labels). Storyboard next.
+- 2026-11-15: Mongolia storyboard run 43725966843 done (23 sheets in scratchpad/mnsb/*/storyboard), artifact
+  deleted. NEXT: view all sheets, fix (patch build_script), full render `gh workflow run render.yml -f
+  slug=mongolia-empty`, fetch_episode.ps1 -Delete + delete artifacts, frame_audit (venv), approve, audio check
+  (remotion ffmpeg -> wav, venv numpy), upload `python tools/yt_upload.py mongolia-empty --publish-at 2026-11-19T23:00:00Z`.

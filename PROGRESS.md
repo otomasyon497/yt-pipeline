@@ -704,3 +704,7 @@ Each sub-phase stops for user approval.
   highlights (engine has no county data), WRONG PHOTO "Hoover Dam Ohio.JPG" (the Ohio dam) -> "Hoover Dam
   (6917293059).jpg", Pyramid north-end seam, framed Tonopah panorama, washed Rhyolite close-up, empty playa close-up
   (-> Gerlach), repeated Nevada paints at the end, 1859 Humboldt sketch caption. Full render next.
+- 2026-11-15: Nevada full render 43679027846 audited (31 sheets); one fix (Burning Man paint push-in filled the frame
+  red) -> re-render 43681238201, sheet 29 re-checked, approved. UPLOADED: video MhYL1LwTY5I, private, publishAt
+  2026-11-17T23:00:00Z (18 Nov 02:00 TR), map cover set. Releases and artifacts deleted. Pin the comment by hand in
+  Studio (pinned_comment in build_script.py). Note: real length ran at 0.92x of episode_check's estimate (15.5 vs 16.9).

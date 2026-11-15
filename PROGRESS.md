@@ -744,3 +744,6 @@ Each sub-phase stops for user approval.
   min -> real ~13.3) and 14 FIX (holds; Sheep herd and Ger district photos used 3x). Next: +400 sourced words, fixes.
 - 2026-11-15: Mongolia draft 4 = 2,570 words, ~214 shots, episode_check clean (est 16.2 min -> ~15.1 real).
   Next: claim_log + rules script (pattern scratchpad/mefact.py), cover.json, storyboard.
+- 2026-11-15: Mongolia draft 4 final: 2,562 words, 214 shots, episode_check "OK, ready to render" (est 16.1 min);
+  factcheck.md 157 claims (25 verified, 116 attributed, 16 own, 0 FIX; rules in scratchpad/mnfact.py); cover.json
+  ("SO EMPTY?", Mongolia red, no labels). Storyboard next.

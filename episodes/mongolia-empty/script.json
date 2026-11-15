@@ -912,7 +912,7 @@
      ]
     },
     {
-     "text": "And yet the ground was never empty of life. In 1923 an American expedition led by Roy Chapman Andrews reached red cliffs in the Gobi and found nests of fossil eggs, the first that scientists recognized as dinosaur eggs. Andrews called the place the Flaming Cliffs, for the way they glow in the evening sun. One skeleton lay right on top of a nest, and Andrews named the animal Oviraptor, the egg thief, assuming it had died stealing eggs. In 1993 an expedition from the same museum found one sitting on its own nest. It had been brooding its eggs, not robbing them. Those cliffs are sandstone, laid down as dunes in a desert some eighty million years ago. The Gobi was not always a desert. But it has been one for a very long time.",
+     "text": "And yet the ground was never empty of life. In 1923 an American expedition led by Roy Chapman Andrews reached red cliffs in the Gobi and found nests of fossil eggs, the first that scientists recognized as dinosaur eggs. Andrews called the place the Flaming Cliffs, for the way they glow in the evening sun. One skeleton lay right on top of a nest, and Andrews named the animal Oviraptor, the egg thief, assuming it had died stealing eggs. In 1993 an expedition from the same museum found one sitting on its own nest. It had been brooding its eggs, not robbing them. Those cliffs are sandstone, laid down as dunes in a desert some seventy-five million years ago. The Gobi was not always a desert. But it has been one for a very long time.",
      "shots": [
       {
        "type": "map",
@@ -1808,7 +1808,7 @@
      ]
     },
     {
-     "text": "Early forecasts warned that sixteen million animals could die, and the Red Cross launched an emergency appeal. Roads were buried. Families in remote camps ran out of hay and fuel, and aid groups reported children missing school because they were needed to keep the surviving animals alive. In some provinces in the south and east, the losses were worst of all. Dzuds are not new. A run of them from 1999 to 2002 killed millions of animals, and the 2010 dzud was worse. But they now come close together, three hard winters in the last few years alone, and Mongolia's government says the country has warmed by more than two degrees since 1940, faster than most of the world.",
+     "text": "Early forecasts warned that sixteen million animals could die, and the Red Cross launched an emergency appeal. Roads were buried. Families in remote camps ran out of hay and fuel, and aid groups reported children missing school because they were needed to keep the surviving animals alive. In some provinces in the south and east, the losses were worst of all. Dzuds are not new. A run of them from 1999 to 2002 killed millions of animals, and the 2010 dzud was worse. But now they come close together: the winters of 2022 to 2023 and 2023 to 2024 were both dzuds, and Mongolia's government says the country has warmed by more than two degrees since 1940, faster than most of the world.",
      "shots": [
       {
        "type": "stat",
@@ -1902,7 +1902,7 @@
       },
       {
        "type": "map",
-       "at": "But they now come",
+       "at": "But now they come",
        "map": {
         "steps": [
          {
@@ -1910,6 +1910,15 @@
            "lon": 98.5,
            "lat": 48.5,
            "span": 0.5
+          },
+          "date": "2024-01-10/2024-03-01"
+         },
+         {
+          "at": 92,
+          "view": {
+           "lon": 98.5,
+           "lat": 48.5,
+           "span": 0.31
           },
           "date": "2024-01-10/2024-03-01"
          }
@@ -2400,7 +2409,7 @@
      ]
     },
     {
-     "text": "In the winter of 1989 and 1990 young Mongolians began protesting in the capital. In March 1990 a small group went on hunger strike on the central square. Two days later the ruling party's leadership resigned. It was one of the few revolutions of that year in which nobody was killed.",
+     "text": "In the winter of 1989 and 1990 young Mongolians began protesting in the capital. In March 1990 a small group went on hunger strike on the central square. Two days later the ruling party's leadership resigned. Nobody was killed.",
      "shots": [
       {
        "type": "photo",
@@ -2428,7 +2437,7 @@
       },
       {
        "type": "map",
-       "at": "It was one of",
+       "at": "Nobody was killed.",
        "map": {
         "steps": [
          {

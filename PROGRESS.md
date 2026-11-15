@@ -761,3 +761,6 @@ Each sub-phase stops for user approval.
   approve (--approve/--accept-flags), audio check, upload --publish-at 2026-11-19T23:00:00Z.
 - 2026-11-15: Mongolia audit: sheets 1-28 of 31 viewed, clean. Continue with sheet_29 onward in
   C:\Users\MONSTER\Videos\yt-pipeline\mongolia-empty\audit, then approve, audio check, upload.
+- 2026-11-15: Mongolia render 43729927782 audited (31 sheets, all clean; audio peak -0.67 dBFS, 15:12). UPLOADED:
+  video rziBDyJaeqk, private, publishAt 2026-11-19T23:00:00Z (20 Nov 02:00 TR), map cover set. Releases and
+  artifacts deleted. Pin the comment by hand in Studio. Next free slot: 21 Nov.

@@ -734,3 +734,7 @@ Each sub-phase stops for user approval.
   Kazakh eagle hunters of Bayan-Ölgii, Trans-Mongolian rail 1949/1955 detail, Choibalsan/1990 hunger strike,
   Ulaanbaatar inversion/coal ban 2019, Tavan Tolgoi rail 2022, Gobi wildlife, Naadam, sheep/cashmere prices,
   urban share 69 %), fix holds, episode_check, claim_log/rules, cover, storyboard.
+- 2026-11-15: Mongolia draft 2 = 2,059 words, 154 shots (added borders/census, Khövsgöl+Altai, eagle hunters,
+  record herd/overgrazing, dzud schools, 1990 hunger strike, 2019 coal ban, Tavan Tolgoi rail cost). STILL ~650 words
+  short (target 2,750) and ~20 long holds (episode_check). Patch scripts in scratchpad (mnpatch1.py). Next: +650
+  sourced words, fix holds, then claim_log/rules, cover, storyboard.

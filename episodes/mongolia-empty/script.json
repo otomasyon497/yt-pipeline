@@ -159,6 +159,115 @@
      ]
     },
     {
+     "text": "Mongolia touches only two countries, Russia to the north and China to the south, and it has no coast at all. The nearest sea is hundreds of kilometers away, across China. Its population has grown: from about eight hundred and forty-five thousand at the 1956 census, to about two million in 1989, to about three point three million in 2020. But most of that growth went into towns. Today around seven in ten Mongolians live in cities.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 103.75,
+           "lat": 48.5,
+           "span": 67.5
+          },
+          "highlight": [
+           "Russia@accent",
+           "China@accent",
+           "Mongolia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The nearest sea is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": 43.0,
+           "span": 30
+          },
+          "highlight": [
+           "Mongolia@red"
+          ],
+          "places": [
+           {
+            "name": "Beijing",
+            "lon": 116.4,
+            "lat": 39.9,
+            "kind": "city",
+            "label": "Beijing"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Its population has grown",
+       "chart": {
+        "type": "bar",
+        "title": "People in Mongolia",
+        "unit": "census",
+        "data": [
+         [
+          "1956",
+          845481
+         ],
+         [
+          "1989",
+          1987274
+         ],
+         [
+          "2020",
+          3296866
+         ]
+        ],
+        "source": "Mongolian census, via Wikipedia",
+        "highlight": 2,
+        "reveal": [
+         "to about two million",
+         "to about three point"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "But most of that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.95,
+           "lat": 47.92,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ulaanbaatar spreading up its valley"
+      },
+      {
+       "type": "stat",
+       "at": "Today around seven in",
+       "stat": {
+        "value": "69 %",
+        "label": "Share of Mongolians living in towns and cities, 2023",
+        "source": "CIA World Factbook"
+       }
+      }
+     ]
+    },
+    {
      "text": "Out there is the coldest capital city in the world. There are more horses, sheep, goats, cattle and camels than people, many times over. And in the south, in 1923, explorers dug up the first dinosaur eggs anyone recognized as dinosaur eggs. So why is Mongolia so empty? There are five reasons, and the first is the ground itself: it is too high, too dry and too cold.",
      "shots": [
       {
@@ -204,9 +313,9 @@
         "steps": [
          {
           "view": {
-           "lon": 103.75,
-           "lat": 48.5,
-           "span": 67.5
+           "lon": 96.25,
+           "lat": 45.5,
+           "span": 82.5
           },
           "highlight": [
            "Mongolia@red"
@@ -588,6 +697,169 @@
      ]
     },
     {
+     "text": "There is water in the far north. Lake Khövsgöl, up against the Russian border, is about two hundred and sixty-seven meters deep and holds around seventy percent of Mongolia's fresh water. But it sits in larch forest and mountains where the lake freezes over for months. In the far west, the Altai mountains rise to four thousand three hundred and seventy-four meters at Khüiten Peak, and glaciers fill the valleys.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 100.5,
+           "lat": 51.1,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Khövsgöl from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "is about two hundred",
+       "stat": {
+        "value": "~70 %",
+        "label": "Share of Mongolia's fresh water held in Lake Khövsgöl",
+        "source": "Wikipedia, Lake Khövsgöl"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But it sits in",
+       "photo": "File:On Lake Hovsgol (3756943119).jpg",
+       "on_screen_text": "Lake Khövsgöl"
+      },
+      {
+       "type": "map",
+       "at": "where the lake freezes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 100.5,
+           "lat": 51.0,
+           "span": 0.6
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Khövsgöl frozen in winter"
+      },
+      {
+       "type": "stat",
+       "at": "In the far west",
+       "stat": {
+        "value": "4,374 M",
+        "label": "Khüiten Peak, Mongolia's highest point, in the Altai",
+        "source": "Wikipedia, Mongolia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and glaciers fill the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 87.85,
+           "lat": 49.15,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Glaciers of Altai Tavan Bogd"
+      }
+     ]
+    },
+    {
+     "text": "Even there, people live by animals. In Bayan-Ölgii, the westernmost province, most people are Kazakhs, and some still hunt foxes in winter with trained golden eagles. Since 1999 they have held a Golden Eagle Festival there every autumn. Across the whole country, Kazakhs are about four percent of the population. Everywhere else, the herders are Mongols.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 91.0,
+           "lat": 48.5,
+           "span": 6
+          },
+          "places": [
+           {
+            "name": "Ölgii",
+            "lon": 89.97,
+            "lat": 48.97,
+            "kind": "city",
+            "label": "Ölgii"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and some still hunt",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 89.97,
+           "lat": 48.97,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ölgii, capital of Bayan-Ölgii"
+      },
+      {
+       "type": "stat",
+       "at": "Since 1999 they have",
+       "stat": {
+        "value": "1999",
+        "label": "The first Golden Eagle Festival, Ölgii",
+        "source": "Wikipedia, Golden Eagle Festival"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Across the whole country",
+       "stat": {
+        "value": "3.8 %",
+        "label": "Kazakhs in Mongolia's population, 2020 census",
+        "source": "Wikipedia, Demographics of Mongolia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Everywhere else, the herders",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 96.5,
+           "lat": 46.0,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pasture in the Gobi-Altai"
+      }
+     ]
+    },
+    {
      "text": "And yet the ground was never empty of life. In 1923 an American expedition led by Roy Chapman Andrews reached red cliffs in the Gobi and found nests of fossil eggs, the first that scientists recognized as dinosaur eggs. Andrews called the place the Flaming Cliffs, for the way they glow in the evening sun. The Gobi was not always a desert. But it has been one for a very long time.",
      "shots": [
       {
@@ -881,10 +1153,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Goats matter most to",
-       "photo": "File:Goat herd in mongolia.jpg",
-       "on_screen_text": "Goats and horses near the Gobi"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 105.2,
+           "lat": 45.0,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Goat pasture in the Middle Gobi"
       },
       {
        "type": "stat",
@@ -898,7 +1181,87 @@
      ]
     },
     {
-     "text": "Horses still matter here more than almost anywhere. Every summer at Naadam, the national festival, children ride horses in races across the open steppe, some of them many kilometers long. It is a country built around animals. But that also means a country that depends, every winter, on the weather.",
+     "text": "And the herds have been growing. In 2018 the count reached sixty-six and a half million, the most since Mongolia began counting its animals in 1918. More goats mean more cashmere, but goats pull grass up by the roots and cut the soil with their hooves. Overgrazing is one of the main reasons so much of the land is wearing out. The steppe can only carry so many animals, and so it can only carry so many herders.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "66.5 M",
+        "label": "Livestock counted in 2018, a record since counting began in 1918",
+        "source": "National Statistics Office, via AKIpress"
+       }
+      },
+      {
+       "type": "map",
+       "at": "More goats mean more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.8,
+           "lat": 45.8,
+           "span": 0.3
+          },
+          "date": "2023-09-20/2023-10-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Grazed steppe, central Mongolia"
+      },
+      {
+       "type": "photo",
+       "at": "but goats pull grass",
+       "photo": "File:Goat herd in mongolia.jpg",
+       "on_screen_text": "Goats on bare ground"
+      },
+      {
+       "type": "map",
+       "at": "Overgrazing is one of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 107.5,
+           "lat": 45.3,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Worn pasture near the Gobi"
+      },
+      {
+       "type": "map",
+       "at": "The steppe can only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.0,
+           "lat": 47.8,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": 113.0,
+           "lat": 47.8,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The eastern steppe"
+      }
+     ]
+    },
+    {
+     "text": "Horses still matter here more than almost anywhere. Every summer at Naadam, the national festival, Mongolians hold wrestling, archery and horse racing, and children ride horses in races across the open steppe, some of them many kilometers long. It is a country built around animals. But that also means a country that depends, every winter, on the weather.",
      "shots": [
       {
        "type": "photo",
@@ -1062,6 +1425,92 @@
      ]
     },
     {
+     "text": "Roads were buried. Families in remote camps ran out of hay and fuel, and aid groups reported children missing school because they were needed to keep the surviving animals alive. In some provinces in the south and east, the losses were worst of all. A dzud like that used to come once in a decade or so. Now they come much more often.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": 46.0,
+           "span": 0.5
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Snowbound steppe, Sükhbaatar province"
+      },
+      {
+       "type": "map",
+       "at": "and aid groups reported",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 110.5,
+           "lat": 44.5,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         },
+         {
+          "at": 21,
+          "view": {
+           "lon": 110.5,
+           "lat": 44.5,
+           "span": 0.248
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dornogovi in winter"
+      },
+      {
+       "type": "stat",
+       "at": "In some provinces in",
+       "stat": {
+        "value": "4",
+        "label": "Worst-hit provinces in spring 2024: Sükhbaatar, Dornogovi, Govisümber, Khentii",
+        "source": "FAO GIEWS, May 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A dzud like that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.0,
+           "lat": 47.5,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": 109.0,
+           "lat": 47.5,
+           "span": 0.248
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Khentii in winter"
+      }
+     ]
+    },
+    {
      "text": "For a herding family, a dzud can wipe out everything they own in a few weeks. A family with no animals has nothing to live on in the countryside. So many of them do what poor rural families everywhere do. They pack up and go to the city. And in Mongolia there is really only one city to go to.",
      "shots": [
       {
@@ -1083,10 +1532,31 @@
        "on_screen_text": "Winter camps on the steppe"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "A family with no",
-       "photo": "File:Orkhon River Valley (40027403011).jpg",
-       "on_screen_text": "The open steppe"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 104.0,
+           "lat": 47.5,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": 104.0,
+           "lat": 47.5,
+           "span": 0.248
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Herding country in winter"
       },
       {
        "type": "map",
@@ -1240,9 +1710,9 @@
         "steps": [
          {
           "view": {
-           "lon": 96.25,
-           "lat": 45.5,
-           "span": 82.5
+           "lon": 102.25,
+           "lat": 44.0,
+           "span": 61.5
           },
           "highlight": [
            "Mongolia@red",
@@ -1278,9 +1748,9 @@
         "steps": [
          {
           "view": {
-           "lon": 102.25,
-           "lat": 44.0,
-           "span": 61.5
+           "lon": 97.75,
+           "lat": 50.0,
+           "span": 88.5
           },
           "highlight": [
            "Mongolia@red",
@@ -1325,7 +1795,53 @@
      ]
     },
     {
-     "text": "The Soviets built towns, mines and a railway, from the Russian border through Ulaanbaatar to China, finished in the 1950s. Then in 1990 a peaceful revolution ended one-party rule. In 1991 the collectives were broken up and their animals handed out. With factories closing and jobs disappearing, people went back to the herds: herding households rose from about seventy thousand in 1990 to about two hundred thousand by the end of the decade.",
+     "text": "In the winter of 1989 and 1990 young Mongolians began protesting in the capital. In March 1990 a small group went on hunger strike on the central square. Two days later the ruling party's leadership resigned. It was one of the few revolutions of that year in which nobody was killed.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ulaanbaatar 377 (26274377965).jpg",
+       "on_screen_text": "Central Ulaanbaatar"
+      },
+      {
+       "type": "stat",
+       "at": "In March 1990 a",
+       "stat": {
+        "value": "7 MARCH 1990",
+        "label": "Democratic Union members begin a hunger strike on the main square",
+        "source": "Wikipedia, Mongolian Revolution of 1990"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Two days later the",
+       "stat": {
+        "value": "9 MARCH 1990",
+        "label": "The Politburo resigns",
+        "source": "Wikipedia, Mongolian Revolution of 1990"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was one of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.917,
+           "lat": 47.919,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sükhbaatar Square"
+      }
+     ]
+    },
+    {
+     "text": "The Soviets had built towns, mines and a railway, from the Russian border through Ulaanbaatar to China, finished in the 1950s. Then in 1990 a peaceful revolution ended one-party rule. In 1991 the collectives were broken up and their animals handed out. With factories closing and jobs disappearing, people went back to the herds: herding households rose from about seventy thousand in 1990 to about two hundred thousand by the end of the decade.",
      "shots": [
       {
        "type": "map",
@@ -1381,6 +1897,14 @@
             "label": "Ulaanbaatar"
            }
           ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 105.1,
+           "lat": 46.8,
+           "span": 21.375
+          }
          }
         ],
         "cut": true
@@ -1397,7 +1921,7 @@
        "at": "Then in 1990 a",
        "stat": {
         "value": "1990",
-        "label": "A peaceful revolution; the first multiparty elections, 29 June 1990",
+        "label": "A peaceful revolution; the first multiparty elections follow that summer",
         "source": "Wikipedia, Mongolian People's Republic"
        }
       },
@@ -1415,7 +1939,7 @@
           "date": "2023-09-20/2023-10-15"
          },
          {
-          "at": 41,
+          "at": 42,
           "view": {
            "lon": 104.0,
            "lat": 46.3,
@@ -1624,10 +2148,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "often without running water",
-       "photo": "File:Ger district of Nalaikh.jpg",
-       "on_screen_text": "A ger district street, Nalaikh"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.83,
+           "lat": 47.97,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fenced ger plots, northern hills"
       },
       {
        "type": "map",
@@ -1687,15 +2222,90 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "One of the coldest",
-       "photo": "File:Ulaanbaatar 377 (26274377965).jpg",
-       "on_screen_text": "Ulaanbaatar"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.95,
+           "lat": 47.93,
+           "span": 0.3
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ulaanbaatar under winter smoke"
       }
      ]
     },
     {
-     "text": "Mongolia does have wealth. It is under the ground. In the south, the Oyu Tolgoi mine produces copper and gold, and Tavan Tolgoi is one of the largest coal deposits in the world. Mining makes up around four fifths of the country's exports, and almost all the coal goes to China, by truck and, since 2022, by a new railway to the border. But a mine needs few people, and it does not need them to stay.",
+     "text": "The government has tried. In May 2019 it banned burning raw coal in the capital and handed out processed coal briquettes instead. Some winters the air got better. Then the smog came back. In the fifteen years to 2018 the World Bank counted a fifty-five percent rise in the city's population from migration alone, and the newcomers keep coming.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "MAY 2019",
+        "label": "Ulaanbaatar bans burning raw coal in homes",
+        "source": "Mongolian government; ADB"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and handed out processed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.8,
+           "lat": 47.97,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ger district stovepipes, northern Ulaanbaatar"
+      },
+      {
+       "type": "photo",
+       "at": "Then the smog came",
+       "photo": "File:Ger district of Nalaikh.jpg",
+       "on_screen_text": "A ger district street"
+      },
+      {
+       "type": "stat",
+       "at": "In the fifteen years",
+       "stat": {
+        "value": "+55 %",
+        "label": "Growth in Ulaanbaatar's population from migration over fifteen years",
+        "source": "World Bank"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and the newcomers keep",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 107.05,
+           "lat": 47.97,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "New ger plots on the eastern edge"
+      }
+     ]
+    },
+    {
+     "text": "Mongolia does have wealth. It is under the ground. In the south, the Oyu Tolgoi mine produces copper and gold, and Tavan Tolgoi is one of the largest coal deposits in the world. Mining makes up around four fifths of the country's exports, and almost all the coal goes to China, by truck and, since 2022, by a new railway to the border that was expected to cut the cost of moving a ton of coal from forty-seven dollars to twelve. But a mine needs few people, and it does not need them to stay.",
      "shots": [
       {
        "type": "map",
@@ -1953,9 +2563,9 @@
         "steps": [
          {
           "view": {
-           "lon": 97.75,
-           "lat": 50.0,
-           "span": 88.5
+           "lon": 105.25,
+           "lat": 47.0,
+           "span": 71.25
           },
           "layer": "night"
          }
@@ -2007,10 +2617,21 @@
        "on_screen_text": "Naadam"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "or in an apartment",
-       "photo": "File:Ulaanbaatar city Mongolia 20230926 102617.jpg",
-       "on_screen_text": "Ulaanbaatar"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 106.91,
+           "lat": 47.915,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Apartment blocks, central Ulaanbaatar"
       }
      ],
      "ask": {

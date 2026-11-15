@@ -1,0 +1,6 @@
+{"view": {"lon": -118.6, "lat": 37.9, "span": 17},
+ "subject": [{"admin1": "Nevada"}],
+ "text": [{"t": "WHY SO", "style": "white"}, {"t": "EMPTY?", "style": "red"}],
+ "text_at": [0.03, 0.08], "text_size": 125,
+ "arrow": {"to": [-116.6, 39.2], "from": [0.2, 0.62], "bend": 0.3},
+ "labels": [{"t": "LAS VEGAS", "lon": -115.14, "lat": 36.17}, {"t": "RENO", "lon": -119.81, "lat": 39.53}]}

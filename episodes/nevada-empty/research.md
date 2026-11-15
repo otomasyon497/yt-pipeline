@@ -121,3 +121,31 @@ Yucca Flat are shown from orbit instead (Sentinel-2, own image).
   search, A).
 - Burning Man: BLM permit cap 80,000 (2024), about 70,000 attended (Fodor's, A); Black Rock playa.
 - Las Vegas city: about 8,400 in 1940 (A); 641,903 in 2020 (Census QuickFacts, A).
+
+## Expansion facts, draft 4 (2026-11-15)
+- Hoover Dam (V, usbr.gov/lc/hooverdam/history/essays/fatal.html): "The 'official' number of fatalities involved in
+  building Hoover Dam is 96"; "Industrial fatalities do not include deaths from heat, pneumonia, heart trouble, etc."
+  Built 1931-1936, finished two years ahead of schedule; about 30 miles from Las Vegas; Boulder City built by the
+  government to house the workers, gambling banned there (Reclamation / history.com / Boulder City Review, A).
+- Lake Mead the largest US reservoir by volume at full pool (NPS overview, via search, A).
+- 19 March 1931 (V, EBSCO Research Starters "Nevada Legalizes Gambling"): Gov. Fred B. Balzar signed a bill
+  legalizing gambling and one lowering divorce residency to six weeks; Depression context.
+- Las Vegas founded 15 May 1905 by the railroad's lot auction (San Pedro, Los Angeles & Salt Lake Railroad, Salt Lake
+  City-Los Angeles line; springs made it a stop) (City of Las Vegas history, UNLV, Wikipedia, A). "Las Vegas" =
+  Spanish "the meadows" (A). Mormon fort 1855, abandoned 1857 (Old Las Vegas Mormon Fort State Historic Park, A).
+- Area 51 (V, nsarchive.gwu.edu/node/3324): Bissell, Ritland and Kelly Johnson flew over Nevada 12 April 1955; Groom
+  Lake "would make an ideal site for testing the U-2 and training its pilots"; CIA U-2/OXCART history declassified
+  summer 2013 after the Archive's 2005 FOIA request; "the first deliberate official references to Area 51" (press
+  summary of the Archive's posting, A). Coverage: no mention of aliens (CBS, NBC, A).
+- Atomic tourism: in the 1950s clouds of open-air tests were visible from Las Vegas; the Chamber of Commerce published
+  test times; casinos sold "Atomic Cocktails" (PBS American Experience, Gizmodo, A). 1963 Limited Test Ban Treaty ended
+  open-air testing (general, A).
+- AB 356 (2021) (V, Nevada Legislature bill text via search): from 1 January 2027 Colorado River water distributed by
+  SNWA may not irrigate nonfunctional turf (not on single-family lots).
+- Pyramid Lake lies wholly within the Pyramid Lake Paiute Reservation (tribe, A); 188 sq mi, max depth 356 ft (A).
+- Rhyolite: power cut 1916 (NPS, V); 14 people at the 1920 census (Wikipedia, A, said "by most counts").
+- Pony Express 1860-61, Missouri to California across central Nevada roughly along US 50; stations every few miles,
+  some ruins (Sand Springs) remain; ended with the telegraph in October 1861 (NPS Pony Express NHT, A).
+- Wild Free-Roaming Horses and Burros Act 1971 (Public Law 92-195, A). OWN: 3,104,614 / 35,140 = 88 people per horse
+  or burro ("about one for every ninety").
+- Carlin Trend passed 100 million oz cumulative in 2025 (industry press, A); said "more than a hundred million".

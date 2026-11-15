@@ -39,12 +39,21 @@
       {
        "type": "photo",
        "at": "About three million",
-       "photo": "File:Las Vegas strip from the air (3191356789).jpg",
-       "on_screen_text": "Las Vegas from the air"
+       "photo": "File:The StripLas Vegas Strip.jpg",
+       "on_screen_text": "The Las Vegas Strip"
+      },
+      {
+       "type": "stat",
+       "at": "And almost nine",
+       "stat": {
+        "value": "89 %",
+        "label": "Nevadans living in Clark and Washoe counties, 2020 census (our sum)",
+        "source": "US Census 2020 (Nevada Legislative Counsel Bureau; Census QuickFacts)"
+       }
       },
       {
        "type": "map",
-       "at": "And almost nine",
+       "at": "Las Vegas in the far",
        "map": {
         "steps": [
          {
@@ -54,7 +63,8 @@
            "span": 9.45
           },
           "highlight": [
-           "Nevada@red"
+           "Clark@accent",
+           "Washoe@accent"
           ],
           "places": [
            {
@@ -78,19 +88,10 @@
        }
       },
       {
-       "type": "stat",
-       "at": "almost nine out of ten",
-       "stat": {
-        "value": "89 %",
-        "label": "Nevadans living in Clark and Washoe counties, 2020 census (our sum)",
-        "source": "US Census 2020 (Nevada Legislative Counsel Bureau; Census QuickFacts)"
-       }
-      },
-      {
        "type": "photo",
        "at": "Everything in between",
-       "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
-       "on_screen_text": "US Route 50, 'the loneliest road in America'"
+       "photo": "File:Milky Way Night Sky Black Rock Desert Nevada.jpg",
+       "on_screen_text": "Night sky over the Black Rock Desert"
       },
       {
        "type": "map",
@@ -220,7 +221,7 @@
      ]
     },
     {
-     "text": "It is not that nobody ever tried. A lake nearly as big as Lake Erie once filled the northwest of this state, and it vanished. Towns of thousands rose on silver and gold, and blew away within a few years. And today the federal government owns about four fifths of the land, including a stretch of desert it used to set off nuclear bombs. So why does almost nobody live in most of Nevada? There are five reasons. The first one is a wall.",
+     "text": "It is not that nobody ever tried. A lake nearly as big as Lake Erie once filled the northwest of this state, and it vanished. Towns of thousands rose on silver and gold, and blew away within a few years. And today the federal government owns about four fifths of the land, including a stretch of desert where it set off nuclear bombs, and a secret air base it would not even name for almost sixty years. So why does almost nobody live in most of Nevada? There are five reasons. The first one is a wall.",
      "shots": [
       {
        "type": "photo",
@@ -272,7 +273,7 @@
           }
          },
          {
-          "at": 52,
+          "at": 51,
           "view": {
            "lon": -116.05,
            "lat": 37.12,
@@ -283,6 +284,23 @@
         "cut": true
        },
        "on_screen_text": "Yucca Flat, Nevada Test Site"
+      },
+      {
+       "type": "map",
+       "at": "and a secret air",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.8,
+           "lat": 37.25,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Groom Lake"
       },
       {
        "type": "map",
@@ -526,6 +544,22 @@
        }
       },
       {
+       "type": "map",
+       "at": "Across the whole state",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.75,
+           "lat": 38.1,
+           "span": 16.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "chart",
        "at": "In the southern lowlands",
        "chart": {
@@ -554,10 +588,21 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Same air, a few",
-       "photo": "File:Black Rock Desert 1.300.dpi (24995335682).jpg",
-       "on_screen_text": "Black Rock Desert"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.75,
+           "lat": 40.55,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Smoke Creek Desert, a dry lake floor"
       }
      ]
     },
@@ -584,8 +629,33 @@
       {
        "type": "photo",
        "at": "Drive across the state",
-       "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
-       "on_screen_text": "US Route 50, 'the loneliest road in America'"
+       "photo": "File:Us route 50 nevada.jpg",
+       "on_screen_text": "US Route 50 in central Nevada"
+      },
+      {
+       "type": "map",
+       "at": "drops into a flat",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.55,
+           "lat": 39.35,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 30,
+          "view": {
+           "lon": -116.55,
+           "lat": 39.35,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A valley floor between two ranges"
       },
       {
        "type": "map",
@@ -609,6 +679,23 @@
        "at": "Each range squeezes",
        "photo": "File:Great Basin National Park - 53837533696.jpg",
        "on_screen_text": "Great Basin National Park"
+      },
+      {
+       "type": "map",
+       "at": "and each valley floor",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.75,
+           "lat": 38.42,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The salt playa of Railroad Valley"
       },
       {
        "type": "map",
@@ -647,7 +734,7 @@
      ]
     },
     {
-     "text": "The high ranges are islands of a different climate, cooler and a little wetter than the desert below. On Wheeler Peak, in what is now Great Basin National Park, grow bristlecone pines, some of the oldest living things on Earth. In August 1964 a graduate student, with the Forest Service's permission, cut one of them down to count its rings. The National Park Service says the tree, later named Prometheus, was about four thousand nine hundred years old. Twenty-two years later the mountain became a national park.",
+     "text": "The high ranges are islands of a different climate, cooler and a little wetter than the desert below. On Wheeler Peak, in what is now Great Basin National Park, grow bristlecone pines, some of the oldest living things on Earth. In August 1964 a graduate student, with the Forest Service's permission, cut one of them down to count its rings. The National Park Service says the tree, later named Prometheus, was about four thousand nine hundred years old. Twenty-two years later the mountain became a national park. So the rain is mostly gone before it arrives. And the little that does fall here has a strange problem of its own.",
      "shots": [
       {
        "type": "map",
@@ -681,6 +768,44 @@
        "on_screen_text": "Great Basin National Park"
       },
       {
+       "type": "photo",
+       "at": "grow bristlecone pines",
+       "photo": "File:Great Basin National Park - 53837528271.jpg",
+       "on_screen_text": "A bristlecone pine on Wheeler Peak"
+      },
+      {
+       "type": "map",
+       "at": "In August 1964",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.3,
+           "lat": 38.99,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The bristlecone grove below Wheeler Peak"
+      },
+      {
+       "type": "photo",
+       "at": "cut one of them down",
+       "photo": "File:Great Basin National Park - 53837979940.jpg",
+       "on_screen_text": "Bristlecone pines, Great Basin National Park"
+      },
+      {
+       "type": "document",
+       "at": "The National Park Service says",
+       "document": {
+        "text": "...estimated to be 4,900 years old.",
+        "source": "National Park Service, The Prometheus Story",
+        "highlight": "4,900 years old"
+       }
+      },
+      {
        "type": "stat",
        "at": "was about four thousand",
        "stat": {
@@ -705,6 +830,33 @@
         "cut": true
        },
        "on_screen_text": "The Snake Range and Great Basin National Park"
+      },
+      {
+       "type": "map",
+       "at": "So the rain is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.55,
+           "lat": 37.8,
+           "span": 12.3
+          },
+          "highlight": [
+           "file:sierra.geojson@alt"
+          ]
+         },
+         {
+          "at": 98,
+          "view": {
+           "lon": -118.55,
+           "lat": 37.8,
+           "span": 9.225
+          }
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     }
@@ -724,9 +876,9 @@
         "steps": [
          {
           "view": {
-           "lon": -119.75,
-           "lat": 38.1,
-           "span": 16.5
+           "lon": -119.45,
+           "lat": 39.0,
+           "span": 17.7
           },
           "highlight": [
            "file:great_basin.geojson@blue"
@@ -735,9 +887,9 @@
          {
           "at": 9,
           "view": {
-           "lon": -119.75,
-           "lat": 38.1,
-           "span": 12.375
+           "lon": -119.45,
+           "lat": 39.0,
+           "span": 13.275
           }
          }
         ],
@@ -752,6 +904,23 @@
         "label": "Rivers in the Great Basin that reach the sea",
         "source": "USGS; Great Basin hydrology"
        }
+      },
+      {
+       "type": "map",
+       "at": "Rain that falls here",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.05,
+           "lat": 40.6,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A closed basin: the water has nowhere to go"
       },
       {
        "type": "map",
@@ -871,7 +1040,7 @@
      ]
     },
     {
-     "text": "It was not always like this. At the end of the last ice age, a lake covered more than eight thousand five hundred square miles of northwestern Nevada, nearly the size of Lake Erie and in places some nine hundred feet deep. Geologists call it Lake Lahontan. You can still see its old shorelines, cut like bathtub rings into the mountainsides. Then the climate dried, and the lake broke into pieces that shrank and disappeared. Only two real lakes are left: Pyramid Lake and Walker Lake.",
+     "text": "It was not always like this. At the end of the last ice age, a lake covered more than eight thousand five hundred square miles of northwestern Nevada, nearly the size of Lake Erie and in places some nine hundred feet deep. Geologists call it Lake Lahontan. You can still see its old shorelines, cut like bathtub rings into the mountainsides. Then the climate dried, and the lake broke into pieces that shrank and disappeared. Only two real lakes are left: Pyramid Lake and Walker Lake. Pyramid is still big, about a hundred and eighty-eight square miles and more than three hundred and fifty feet deep. It is a puddle compared with what was there.",
      "shots": [
       {
        "type": "map",
@@ -909,6 +1078,31 @@
       },
       {
        "type": "map",
+       "at": "nearly the size of Lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.2,
+           "lat": 42.2,
+           "span": 4.5
+          }
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": -81.2,
+           "lat": 42.2,
+           "span": 3.375
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Erie, for scale"
+      },
+      {
+       "type": "map",
        "at": "You can still see",
        "map": {
         "steps": [
@@ -925,10 +1119,21 @@
        "on_screen_text": "Black Rock Desert, an old lake floor"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Then the climate dried",
-       "photo": "File:Black Rock Desert 1.300.dpi (24995335682).jpg",
-       "on_screen_text": "Black Rock Desert"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.75,
+           "lat": 39.85,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old shorelines on the hills above Carson Sink"
       },
       {
        "type": "map",
@@ -961,11 +1166,51 @@
        "at": "Pyramid Lake and Walker",
        "photo": "File:ISS-32 Walker Lake, Nevada.jpg",
        "on_screen_text": "Walker Lake from the International Space Station (NASA)"
+      },
+      {
+       "type": "stat",
+       "at": "Pyramid is still big",
+       "stat": {
+        "value": "188 SQ MI",
+        "label": "Pyramid Lake today, against Lahontan's 8,500 square miles",
+        "source": "Nevada Division of Water Resources; USGS"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and more than three",
+       "photo": "File:Pyramid Lake in Bloom (153466).jpg",
+       "on_screen_text": "Pyramid Lake"
+      },
+      {
+       "type": "map",
+       "at": "It is a puddle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.9,
+           "lat": 40.0,
+           "span": 4.0
+          },
+          "places": [
+           {
+            "name": "Pyramid Lake",
+            "lon": -119.55,
+            "lat": 40.0,
+            "kind": "site",
+            "label": "Pyramid Lake"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
     {
-     "text": "Even those two have been fought over. In 1905, in one of the first projects of the new federal Reclamation Service, Derby Dam was built across the Truckee River east of Reno. It sent part of the river into a canal to water farms around Fallon, in the middle of the desert. Less water reached Pyramid Lake, and the lake fell. Its sister, Winnemucca Lake, which had been filled by Pyramid's overflow, dried up completely. In Pyramid Lake lives a fish found nowhere else, the cui-ui, which the Paiute people had fished for generations. It has been on the endangered species list since 1973.",
+     "text": "Even those two have been fought over. In 1905, in one of the first projects of the new federal Reclamation Service, Derby Dam was built across the Truckee River east of Reno. It sent part of the river into a canal to water farms around Fallon, in the middle of the desert. Less water reached Pyramid Lake, and the lake fell. Its sister, Winnemucca Lake, which had been filled by Pyramid's overflow, dried up completely. The whole lake lies inside the reservation of the Pyramid Lake Paiute Tribe. In it lives a fish found nowhere else, the cui-ui, which the Paiute people had fished for generations. It has been listed as endangered since 1973.",
      "shots": [
       {
        "type": "map",
@@ -1055,24 +1300,15 @@
         "steps": [
          {
           "view": {
-           "lon": -119.55,
-           "lat": 40.05,
-           "span": 0.45
-          },
-          "places": [
-           {
-            "name": "Pyramid Lake",
-            "lon": -119.55,
-            "lat": 40.0,
-            "kind": "site",
-            "label": "Pyramid Lake"
-           }
-          ]
+           "lon": -119.45,
+           "lat": 39.85,
+           "span": 0.15
+          }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pyramid Lake"
+       "on_screen_text": "Where the Truckee enters Pyramid Lake"
       },
       {
        "type": "map",
@@ -1093,13 +1329,36 @@
       },
       {
        "type": "photo",
-       "at": "In Pyramid Lake lives",
+       "at": "The whole lake lies",
        "photo": "File:Tufa Rocks, Pyramid Lake, Nevada MET DP242995.jpg",
        "on_screen_text": "Tufa rocks at Pyramid Lake"
       },
       {
+       "type": "map",
+       "at": "In it lives a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.62,
+           "lat": 40.15,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The north end of Pyramid Lake"
+      },
+      {
+       "type": "photo",
+       "at": "which the Paiute people",
+       "photo": "File:Paiute women.jpg",
+       "on_screen_text": "Paiute women, historical photograph"
+      },
+      {
        "type": "stat",
-       "at": "It has been on",
+       "at": "It has been listed",
        "stat": {
         "value": "1973",
         "label": "Year the cui-ui, found only in Pyramid Lake, was listed endangered",
@@ -1114,8 +1373,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Pyramid Lake in Bloom (153466).jpg",
-       "on_screen_text": "Pyramid Lake"
+       "photo": "File:Humboldt River Papa 2.jpg",
+       "on_screen_text": "Humboldt River, northern Nevada"
       },
       {
        "type": "map",
@@ -1168,10 +1427,21 @@
        "on_screen_text": "Irrigated fields near Fallon"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Everywhere else is",
-       "photo": "File:Rural dirt road in cattle ranch area.jpg",
-       "on_screen_text": "Ranch country"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.2,
+           "lat": 40.3,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sagebrush valleys, Elko County"
       }
      ]
     }
@@ -1363,7 +1633,7 @@
      ]
     },
     {
-     "text": "The story repeated across the desert. Look at Rhyolite, near the California line. In 1904 two prospectors found quartz, in the words of the National Park Service, full of free gold. Within three years Rhyolite had electricity, a mill crushing three hundred tons of ore a day, a school for two hundred and fifty children, and a three-storey bank building that cost ninety thousand dollars. Then came the financial panic of 1907. By 1910 only six hundred and eleven people were left. The mine closed the next year.",
+     "text": "The story repeated across the desert. Look at Rhyolite, near the California line. In 1904 two prospectors found quartz, in the words of the National Park Service, full of free gold. Within three years Rhyolite had electricity, a mill crushing three hundred tons of ore a day, a school for two hundred and fifty children, and a three-storey bank building that cost ninety thousand dollars. Then came the financial panic of 1907. By 1910 only six hundred and eleven people were left. The mine closed the next year, and in 1916 the power was cut off. At the 1920 census, by most counts, fourteen people lived there.",
      "shots": [
       {
        "type": "map",
@@ -1409,10 +1679,52 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Within three years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.835,
+           "lat": 36.902,
+           "span": 0.05
+          }
+         },
+         {
+          "at": 43,
+          "view": {
+           "lon": -116.835,
+           "lat": 36.902,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rhyolite's old street grid"
+      },
+      {
+       "type": "photo",
+       "at": "a three-storey bank",
        "photo": "File:Rhyolite NV Ghost Town - 52133328559.jpg",
        "on_screen_text": "Rhyolite: what is left of the bank"
+      },
+      {
+       "type": "map",
+       "at": "Then came the financial",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.8,
+           "lat": 36.88,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bullfrog Hills around Rhyolite"
       },
       {
        "type": "stat",
@@ -1428,6 +1740,15 @@
        "at": "The mine closed",
        "photo": "File:Rhyolite NV Ghost Town - 52133584170.jpg",
        "on_screen_text": "Rhyolite ghost town"
+      },
+      {
+       "type": "stat",
+       "at": "At the 1920 census",
+       "stat": {
+        "value": "14",
+        "label": "People in Rhyolite at the 1920 census, by most counts",
+        "source": "US census, as reported by Wikipedia and local histories"
+       }
       }
      ]
     },
@@ -1487,6 +1808,165 @@
        "on_screen_text": "Rhyolite, a ghost town"
       }
      ]
+    },
+    {
+     "text": "Even the most famous use of this land was crossing it as fast as possible. In 1860 and 1861 the Pony Express carried the mail on horseback from Missouri to California, straight across the middle of Nevada, along much the same line US 50 follows today. Riders changed horses at stations a few miles apart, and some of those stations still stand as ruins in the sagebrush. Then the telegraph arrived, and the riders were gone. But the land people passed through, and the land they left behind, did not go to anyone. It stayed with Washington.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.2,
+           "lat": 39.35,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sand Springs and the old trail"
+      },
+      {
+       "type": "stat",
+       "at": "In 1860 and 1861",
+       "stat": {
+        "value": "1860-61",
+        "label": "Pony Express riders carry the mail straight across Nevada",
+        "source": "National Park Service, Pony Express National Historic Trail"
+       }
+      },
+      {
+       "type": "map",
+       "at": "straight across the middle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 39.125,
+           "span": 11.13
+          },
+          "routes": [
+           {
+            "from": [
+             -114.05,
+             39.9
+            ],
+            "via": [
+             [
+              -114.9,
+              39.6
+             ],
+             [
+              -116.0,
+              39.5
+             ],
+             [
+              -117.07,
+              39.49
+             ],
+             [
+              -118.4,
+              39.29
+             ]
+            ],
+            "to": [
+             -119.75,
+             39.15
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.0,
+            "label": "Pony Express route"
+           }
+          ],
+          "places": [
+           {
+            "name": "Carson City",
+            "lon": -119.77,
+            "lat": 39.16,
+            "kind": "city",
+            "label": "Carson City"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Riders changed horses at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.413,
+           "lat": 39.287,
+           "span": 0.05
+          }
+         },
+         {
+          "at": 56,
+          "view": {
+           "lon": -118.413,
+           "lat": 39.287,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sand Springs Pony Express station ruins"
+      },
+      {
+       "type": "map",
+       "at": "Then the telegraph arrived",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.07,
+           "lat": 39.49,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Austin, on the old route"
+      },
+      {
+       "type": "map",
+       "at": "But the land people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 8.19
+          },
+          "highlight": [
+           "Nevada@red"
+          ]
+         },
+         {
+          "at": 86,
+          "view": {
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 6.143
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
     }
    ]
   },
@@ -1504,9 +1984,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 39.125,
-           "span": 11.13
+           "lon": -116.375,
+           "lat": 38.81,
+           "span": 9.166
           },
           "highlight": [
            "Nevada@red"
@@ -1521,6 +2001,72 @@
        "at": "When the West was",
        "photo": "File:Walking Box Ranch, Cattle Loading Gate - panoramio.jpg",
        "on_screen_text": "A cattle loading gate, southern Nevada"
+      },
+      {
+       "type": "map",
+       "at": "railroads and states",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 11.204
+          },
+          "routes": [
+           {
+            "from": [
+             -120.0,
+             39.33
+            ],
+            "via": [
+             [
+              -119.81,
+              39.53
+             ],
+             [
+              -118.47,
+              40.18
+             ],
+             [
+              -117.73,
+              40.97
+             ],
+             [
+              -115.76,
+              40.83
+             ]
+            ],
+            "to": [
+             -114.0,
+             41.2
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.0,
+            "label": "The transcontinental railroad"
+           }
+          ],
+          "places": [
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           },
+           {
+            "name": "Elko",
+            "lon": -115.76,
+            "lat": 40.83,
+            "kind": "city",
+            "label": "Elko"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "map",
@@ -1557,15 +2103,51 @@
        }
       },
       {
+       "type": "map",
+       "at": "the highest share of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -98.5,
+           "lat": 39.0,
+           "span": 42
+          },
+          "highlight": [
+           "Nevada@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "photo",
        "at": "Most of it is run",
        "photo": "File:Rural dirt road in cattle ranch area.jpg",
        "on_screen_text": "Ranch country"
+      },
+      {
+       "type": "map",
+       "at": "as open range for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.6,
+           "lat": 41.5,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Range land, Elko County"
       }
      ]
     },
     {
-     "text": "That open range has some unusual tenants. By the Bureau of Land Management's own estimate in 2025, about seventy-three thousand wild horses and burros roam public land in the American West, and about thirty-five thousand of them, nearly half, are in Nevada. Out here, wild horses outnumber the people in whole counties.",
+     "text": "That open range has some unusual tenants. By the Bureau of Land Management's own estimate in 2025, about seventy-three thousand wild horses and burros roam public land in the American West, and about thirty-five thousand of them, nearly half, are in Nevada. Since 1971 a federal law has protected them on this land. In Nevada, that is about one wild horse or burro for every ninety people.",
      "shots": [
       {
        "type": "map",
@@ -1602,15 +2184,24 @@
        }
       },
       {
+       "type": "stat",
+       "at": "Since 1971 a federal",
+       "stat": {
+        "value": "1971",
+        "label": "Wild Free-Roaming Horses and Burros Act protects the herds",
+        "source": "US Congress, Public Law 92-195"
+       }
+      },
+      {
        "type": "photo",
-       "at": "Out here, wild horses",
-       "photo": "File:Walking Box Ranch, Cattle Loading Gate - panoramio.jpg",
-       "on_screen_text": "A cattle loading gate, southern Nevada"
+       "at": "In Nevada, that is",
+       "photo": "File:Nevada Wild Horses (14963367880).jpg",
+       "on_screen_text": "Nevada wild horses"
       }
      ]
     },
     {
-     "text": "And some of it was set aside for something else entirely. Sixty-five miles north of Las Vegas lies the Nevada Test Site. Between 1951 and 1992, the United States set off nine hundred and twenty-eight nuclear tests here, a hundred in the open air and the rest underground. The US Geological Survey calls Yucca Flat the most cratered landscape on Earth. From orbit it looks like the Moon.",
+     "text": "And some of it was set aside for something else entirely. Sixty-five miles north of Las Vegas lies the Nevada Test Site. Between 1951 and 1992, the United States set off nine hundred and twenty-eight nuclear tests here, a hundred in the open air and the rest underground. The US Geological Survey calls Yucca Flat the most cratered landscape on Earth. From orbit it looks like the Moon. In the 1950s the mushroom clouds of the open-air tests could be seen from Las Vegas, and the city sold them as a tourist draw, with published test times and atomic cocktails. In 1963 a treaty sent all the tests underground.",
      "shots": [
       {
        "type": "map",
@@ -1703,6 +2294,232 @@
         "cut": true
        },
        "on_screen_text": "Subsidence craters, Yucca Flat"
+      },
+      {
+       "type": "map",
+       "at": "In the 1950s the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.6,
+           "lat": 36.65,
+           "span": 1.9
+          },
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Sedan crater",
+            "lon": -116.046,
+            "lat": 37.177,
+            "kind": "site",
+            "label": "Sedan crater, 1962"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and the city sold",
+       "photo": "File:Aerial view showing the Las Vegas Strip at dusk, Las Vegas, Nevada LCCN2011634444.tif",
+       "on_screen_text": "Las Vegas"
+      },
+      {
+       "type": "stat",
+       "at": "In 1963 a treaty",
+       "stat": {
+        "value": "1963",
+        "label": "The Limited Test Ban Treaty ends open-air tests; testing goes underground",
+        "source": "Nevada National Security Site (DOE/NV-1243)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Just over the mountains from the test site lies a dry lake called Groom Lake. In April 1955 a small team from the CIA flew over Nevada looking for a hidden place to test a new spy plane, the U-2, and they chose it. The base became known as Area 51. For decades the government would not even name it. Only in 2013 did a declassified CIA history, released after a request from the National Security Archive at George Washington University, refer to it openly. It describes the U-2 and the spy planes that came after it. It says nothing about aliens.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.81,
+           "lat": 37.27,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Area 51",
+            "lon": -115.81,
+            "lat": 37.24,
+            "kind": "site",
+            "label": "Area 51 (Groom Lake)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Groom Lake"
+      },
+      {
+       "type": "stat",
+       "at": "In April 1955",
+       "stat": {
+        "value": "APRIL 1955",
+        "label": "The CIA picks Groom Lake to test and train for the U-2 spy plane",
+        "source": "CIA history, released 2013 via the National Security Archive"
+       }
+      },
+      {
+       "type": "map",
+       "at": "looking for a hidden",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.3,
+           "lat": 37.6,
+           "span": 5.0
+          },
+          "places": [
+           {
+            "name": "Area 51",
+            "lon": -115.81,
+            "lat": 37.24,
+            "kind": "site",
+            "label": "Area 51 (Groom Lake)"
+           },
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Tonopah",
+            "lon": -117.23,
+            "lat": 38.07,
+            "kind": "city",
+            "label": "Tonopah"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -116.3,
+           "lat": 37.6,
+           "span": 3.75
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The base became known",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.8,
+           "lat": 37.24,
+           "span": 0.07
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The runways at Area 51"
+      },
+      {
+       "type": "map",
+       "at": "For decades the government",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.95,
+           "lat": 37.15,
+           "span": 1.1
+          },
+          "places": [
+           {
+            "name": "Area 51",
+            "lon": -115.81,
+            "lat": 37.24,
+            "kind": "site",
+            "label": "Area 51 (Groom Lake)"
+           },
+           {
+            "name": "Sedan crater",
+            "lon": -116.046,
+            "lat": 37.177,
+            "kind": "site",
+            "label": "Sedan crater, 1962"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Only in 2013 did",
+       "stat": {
+        "value": "2013",
+        "label": "A declassified CIA history refers to Area 51 openly",
+        "source": "National Security Archive, George Washington University"
+       }
+      },
+      {
+       "type": "document",
+       "at": "National Security Archive at",
+       "document": {
+        "text": "...the first deliberate official references to Area 51...",
+        "source": "National Security Archive, George Washington University, 2013",
+        "highlight": "first deliberate official references"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It describes the U-2",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.78,
+           "lat": 37.21,
+           "span": 0.15
+          }
+         },
+         {
+          "at": 93,
+          "view": {
+           "lon": -115.78,
+           "lat": 37.21,
+           "span": 0.093
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Groom Lake's long runway"
       }
      ]
     },
@@ -1737,19 +2554,20 @@
            "lat": 36.95,
            "span": 0.8
           }
-         },
-         {
-          "at": 29,
-          "view": {
-           "lon": -116.3,
-           "lat": 36.95,
-           "span": 0.496
-          }
          }
         ],
         "cut": true
        },
        "on_screen_text": "Yucca Mountain and the test site"
+      },
+      {
+       "type": "stat",
+       "at": "as the only place to",
+       "stat": {
+        "value": "1987",
+        "label": "Congress makes Yucca Mountain the only site to study for nuclear waste",
+        "source": "GAO-11-731T"
+       }
       },
       {
        "type": "map",
@@ -1775,15 +2593,24 @@
        "on_screen_text": "Goldfield, a town on the road past the site"
       },
       {
+       "type": "stat",
+       "at": "and no high-level waste",
+       "stat": {
+        "value": "0",
+        "label": "Tons of high-level nuclear waste ever stored at Yucca Mountain",
+        "source": "GAO-11-731T; US Department of Energy"
+       }
+      },
+      {
        "type": "map",
        "at": "The empty desert was",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -116.9,
-           "lat": 38.075,
-           "span": 8.19
+           "lon": -116.585,
+           "lat": 38.18,
+           "span": 8.352
           },
           "highlight": [
            "Nevada@red"
@@ -1797,18 +2624,16 @@
             "label": "Las Vegas"
            }
           ]
-         },
-         {
-          "at": 81,
-          "view": {
-           "lon": -116.9,
-           "lat": 38.075,
-           "span": 6.143
-          }
          }
         ],
         "cut": true
        }
+      },
+      {
+       "type": "photo",
+       "at": "and the people of",
+       "photo": "File:Virginia City, Nevada - 2025.jpg",
+       "on_screen_text": "Virginia City, Nevada"
       }
      ]
     },
@@ -1835,19 +2660,37 @@
             "label": "Sedan crater, 1962"
            }
           ]
-         },
-         {
-          "at": 19,
-          "view": {
-           "lon": -116.046,
-           "lat": 37.177,
-           "span": 0.05
-          }
          }
         ],
         "cut": true
        },
        "on_screen_text": "Sedan crater"
+      },
+      {
+       "type": "stat",
+       "at": "a hundred-and-four-kiloton",
+       "stat": {
+        "value": "104 KT",
+        "label": "Yield of the Sedan test, 6 July 1962",
+        "source": "USGS EROS, Cold War Craters"
+       }
+      },
+      {
+       "type": "map",
+       "at": "as a test of using",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.0,
+           "lat": 37.12,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Craters across Yucca Flat"
       },
       {
        "type": "stat",
@@ -1916,7 +2759,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Las Vegas sits in one of the driest valleys in the country. It exists because of Hoover Dam and Lake Mead, the reservoir behind it on the Colorado River. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado. Look at the white ring around Lake Mead. That is how far the water has dropped. Full, the lake stands at about twelve hundred and twenty feet above sea level. In 2022, and again in the summer of 2026, it fell to about one thousand and forty, its lowest since it first filled in 1937, around a quarter full. A city of two million rests on that line. In 1940 the city of Las Vegas had about eight thousand four hundred people. At the 2020 census it had more than six hundred and forty thousand, inside a metro area of over two million.",
+     "text": "So who does live in Nevada? Mostly, people who brought their water with them. Start with Las Vegas. Its name is Spanish for the meadows, and the meadows were real: springs in the valley floor kept a patch of green alive in the desert. In 1855 Mormon missionaries built a small fort beside the creek, and gave it up within a few years. In 1905 a new railroad between Salt Lake City and Los Angeles chose the springs as a stop, and on the fifteenth of May it auctioned off the lots for a town. For a quarter of a century after that, Las Vegas stayed a small railroad town.",
      "shots": [
       {
        "type": "map",
@@ -1925,9 +2768,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.375,
-           "lat": 38.81,
-           "span": 9.166
+           "lon": -117.215,
+           "lat": 39.02,
+           "span": 12.018
           },
           "highlight": [
            "Clark@accent"
@@ -1947,16 +2790,296 @@
        }
       },
       {
-       "type": "photo",
-       "at": "Mostly, people who",
-       "photo": "File:Aerial view showing the Las Vegas Strip at dusk, Las Vegas, Nevada LCCN2011634444.tif",
-       "on_screen_text": "The Las Vegas Strip at dusk"
+       "type": "map",
+       "at": "Start with Las Vegas",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.14,
+           "lat": 36.17,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Downtown Las Vegas, where the 1905 town was laid out"
+      },
+      {
+       "type": "map",
+       "at": "springs in the valley",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.19,
+           "lat": 36.17,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The old Las Vegas springs, now the Springs Preserve"
+      },
+      {
+       "type": "map",
+       "at": "In 1855 Mormon missionaries",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.134,
+           "lat": 36.18,
+           "span": 0.04
+          }
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": -115.134,
+           "lat": 36.18,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Site of the Old Las Vegas Mormon Fort"
+      },
+      {
+       "type": "map",
+       "at": "In 1905 a new railroad",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.9,
+           "lat": 37.4,
+           "span": 9.0
+          },
+          "routes": [
+           {
+            "from": [
+             -111.89,
+             40.76
+            ],
+            "via": [
+             [
+              -113.01,
+              38.4
+             ],
+             [
+              -114.51,
+              37.61
+             ],
+             [
+              -115.14,
+              36.17
+             ]
+            ],
+            "to": [
+             -118.24,
+             34.05
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.0,
+            "label": "Salt Lake City to Los Angeles, 1905"
+           }
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           }
+          ]
+         },
+         {
+          "at": 72,
+          "view": {
+           "lon": -114.9,
+           "lat": 37.4,
+           "span": 6.75
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "on the fifteenth of May",
+       "stat": {
+        "value": "15 MAY 1905",
+        "label": "Railroad auctions the town lots: Las Vegas is founded",
+        "source": "City of Las Vegas; UNLV Special Collections"
+       }
+      },
+      {
+       "type": "map",
+       "at": "For a quarter of a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.2,
+           "lat": 36.2,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Las Vegas Valley"
+      }
+     ]
+    },
+    {
+     "text": "Then came 1931. The federal government began building a giant dam on the Colorado River, about thirty miles away, and thousands of workers came into the desert. They were housed in Boulder City, a town the government built for them, where gambling was banned. And that same spring, on the nineteenth of March, Nevada's governor signed two laws. One made gambling legal. The other cut the time you had to live in the state before you could get a divorce to just six weeks. Las Vegas, up the road from the dam, was where the workers came to spend their pay. The town had found a business that did not need much water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.737,
+           "lat": 36.016,
+           "span": 0.05
+          }
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": -114.737,
+           "lat": 36.016,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Black Canyon and Hoover Dam"
+      },
+      {
+       "type": "map",
+       "at": "They were housed in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.83,
+           "lat": 35.98,
+           "span": 0.12
+          }
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": -114.83,
+           "lat": 35.98,
+           "span": 0.074
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Boulder City"
+      },
+      {
+       "type": "stat",
+       "at": "on the nineteenth of March",
+       "stat": {
+        "value": "19 MARCH 1931",
+        "label": "Nevada legalizes gambling and cuts divorce residency to six weeks",
+        "source": "EBSCO Research Starters, Nevada Legalizes Gambling"
+       }
       },
       {
        "type": "photo",
-       "at": "It exists because",
+       "at": "The other cut the time",
+       "photo": "File:Reno skyline.JPG",
+       "on_screen_text": "Reno"
+      },
+      {
+       "type": "map",
+       "at": "before you could get",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.81,
+           "lat": 39.525,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Downtown Reno"
+      },
+      {
+       "type": "photo",
+       "at": "Las Vegas, up the road",
+       "photo": "File:View of Las Vegas' strip from the helicopter.jpg",
+       "on_screen_text": "The Las Vegas Strip today"
+      },
+      {
+       "type": "photo",
+       "at": "The town had found",
+       "photo": "File:The StripLas Vegas Strip.jpg",
+       "on_screen_text": "The Las Vegas Strip"
+      }
+     ]
+    },
+    {
+     "text": "The dam was finished in 1936, two years ahead of schedule. By the government's official count, ninety-six men died building it, and that count left out the deaths from heat. Behind it rose Lake Mead, by volume the largest reservoir in the United States. And it is that lake that keeps Las Vegas alive. By the local water authority's own figure, about ninety percent of southern Nevada's water comes from the Colorado.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
        "photo": "File:Hoover Dam Ohio.JPG",
        "on_screen_text": "Hoover Dam"
+      },
+      {
+       "type": "stat",
+       "at": "ninety-six men died",
+       "stat": {
+        "value": "96",
+        "label": "Official deaths building Hoover Dam (heat deaths not counted)",
+        "source": "US Bureau of Reclamation, Hoover Dam fatalities essay"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Behind it rose Lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.45,
+           "lat": 36.2,
+           "span": 0.9
+          }
+         },
+         {
+          "at": 45,
+          "view": {
+           "lon": -114.45,
+           "lat": 36.2,
+           "span": 0.558
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Mead"
       },
       {
        "type": "stat",
@@ -1966,10 +3089,15 @@
         "label": "Share of southern Nevada's water from the Colorado River",
         "source": "Southern Nevada Water Authority"
        }
-      },
+      }
+     ]
+    },
+    {
+     "text": "Look at the white ring around Lake Mead. That is how far the water has dropped. Full, the lake stands at about twelve hundred and twenty feet above sea level. In 2022, and again in the summer of 2026, it fell to about one thousand and forty, its lowest since it first filled in 1937, around a quarter full. A city of two million rests on that line.",
+     "shots": [
       {
        "type": "map",
-       "at": "Look at the white",
+       "at": 0,
        "map": {
         "steps": [
          {
@@ -1985,12 +3113,44 @@
        "on_screen_text": "Lake Mead's bathtub ring"
       },
       {
-       "type": "stat",
+       "type": "map",
        "at": "Full, the lake stands",
-       "stat": {
-        "value": "-180 FT",
-        "label": "Lake Mead's record low below full pool (1,040.5 vs 1,221.4 ft)",
-        "source": "US Bureau of Reclamation, via press reports"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.39,
+           "lat": 36.29,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The shore of Lake Mead"
+      },
+      {
+       "type": "chart",
+       "at": "In 2022, and again",
+       "chart": {
+        "type": "bar",
+        "title": "Lake Mead's surface",
+        "unit": "feet above sea level",
+        "data": [
+         [
+          "Full pool",
+          1221
+         ],
+         [
+          "Record low",
+          1041
+         ]
+        ],
+        "source": "US Bureau of Reclamation, via press reports",
+        "highlight": 1,
+        "reveal": [
+         "it fell to about"
+        ]
        }
       },
       {
@@ -2015,10 +3175,15 @@
        "at": "A city of two million",
        "photo": "File:Las Vegas strip from the air (3191356789).jpg",
        "on_screen_text": "Las Vegas from the air"
-      },
+      }
+     ]
+    },
+    {
+     "text": "In 1940 the city of Las Vegas had about eight thousand four hundred people. At the 2020 census it had more than six hundred and forty thousand, inside a metro area of over two million. Almost all of it lives on water from one river, held back by one dam. And the city knows it. In 2021 Nevada passed a law that, from 2027, bans watering decorative grass with Colorado River water around Las Vegas: the lawns on road medians, outside offices, anywhere nobody walks.",
+     "shots": [
       {
        "type": "chart",
-       "at": "In 1940 the city",
+       "at": 0,
        "chart": {
         "type": "bar",
         "title": "People in the city of Las Vegas",
@@ -2039,21 +3204,81 @@
          "At the 2020 census"
         ]
        }
+      },
+      {
+       "type": "photo",
+       "at": "inside a metro area",
+       "photo": "File:Aerial view showing the Las Vegas Strip at dusk, Las Vegas, Nevada LCCN2011634444.tif",
+       "on_screen_text": "The Las Vegas Strip at dusk"
+      },
+      {
+       "type": "map",
+       "at": "Almost all of it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.737,
+           "lat": 36.016,
+           "span": 0.12
+          }
+         },
+         {
+          "at": 45,
+          "view": {
+           "lon": -114.737,
+           "lat": 36.016,
+           "span": 0.074
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hoover Dam and the river below it"
+      },
+      {
+       "type": "stat",
+       "at": "In 2021 Nevada passed",
+       "stat": {
+        "value": "2027",
+        "label": "From this year, no Colorado River water for decorative grass around Las Vegas",
+        "source": "Nevada Assembly Bill 356 (2021)"
+       }
+      },
+      {
+       "type": "document",
+       "at": "bans watering decorative grass",
+       "document": {
+        "text": "...Colorado River water ... may not be used to irrigate nonfunctional turf...",
+        "source": "Nevada Assembly Bill 356 (2021)",
+        "highlight": "nonfunctional turf"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the lawns on road",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.28,
+           "lat": 36.15,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Green strips in a Las Vegas suburb"
       }
      ]
     },
     {
-     "text": "Reno and Carson City do the same in the north, on the Truckee and Carson rivers that run down from the Sierra snow. And in the northeast, around Elko, the desert pays in a different way: gold. Nevada mines most of the gold produced in the United States, from deep pits along a belt called the Carlin Trend. The pits employ thousands, but many workers drive in and out, and the towns stay small.",
+     "text": "Reno and Carson City do the same in the north, on the Truckee and Carson rivers that run down from the Sierra snow. And in the northeast, around Elko, the desert pays in a different way: gold. Nevada mines most of the gold produced in the United States, from deep pits along a belt called the Carlin Trend, which by 2025 had produced more than a hundred million ounces. The pits employ thousands, but many workers drive in and out, and the towns stay small.",
      "shots": [
       {
-       "type": "photo",
-       "at": 0,
-       "photo": "File:Reno skyline.JPG",
-       "on_screen_text": "Reno"
-      },
-      {
        "type": "map",
-       "at": "on the Truckee and",
+       "at": 0,
        "map": {
         "steps": [
          {
@@ -2079,6 +3304,32 @@
       },
       {
        "type": "map",
+       "at": "on the Truckee and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.77,
+           "lat": 39.16,
+           "span": 0.15
+          },
+          "places": [
+           {
+            "name": "Carson City",
+            "lon": -119.77,
+            "lat": 39.16,
+            "kind": "city",
+            "label": "Carson City"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Carson City"
+      },
+      {
+       "type": "map",
        "at": "And in the northeast",
        "map": {
         "steps": [
@@ -2099,6 +3350,32 @@
        "at": "Nevada mines most",
        "photo": "File:Twin Creeks mine Nevada Carlin-type gold ore.jpg",
        "on_screen_text": "Carlin-type gold ore"
+      },
+      {
+       "type": "map",
+       "at": "from deep pits along",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.35,
+           "lat": 40.93,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A deep pit on the Carlin Trend"
+      },
+      {
+       "type": "stat",
+       "at": "which by 2025 had",
+       "stat": {
+        "value": "100 M OZ",
+        "label": "Gold produced on the Carlin Trend by 2025",
+        "source": "Nevada Mining Association; industry reports"
+       }
       },
       {
        "type": "map",
@@ -2138,9 +3415,9 @@
         "steps": [
          {
           "view": {
-           "lon": -119.21,
-           "lat": 40.79,
-           "span": 0.2
+           "lon": -119.1,
+           "lat": 40.85,
+           "span": 0.6
           }
          }
         ],
@@ -2155,6 +3432,23 @@
        "on_screen_text": "Black Rock Desert"
       },
       {
+       "type": "map",
+       "at": "builds a temporary town",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.21,
+           "lat": 40.786,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The festival site on the playa"
+      },
+      {
        "type": "stat",
        "at": "for some seventy thousand",
        "stat": {
@@ -2164,15 +3458,21 @@
        }
       },
       {
+       "type": "photo",
+       "at": "Then everyone packs up",
+       "photo": "File:Milky Way Night Sky Black Rock Desert Nevada.jpg",
+       "on_screen_text": "Night sky over the Black Rock Desert"
+      },
+      {
        "type": "map",
        "at": "It is the clearest",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -117.425,
-           "lat": 38.39,
-           "span": 11.204
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 9.676
           },
           "highlight": [
            "Nevada@red"
@@ -2197,9 +3497,9 @@
          {
           "at": 69,
           "view": {
-           "lon": -117.425,
-           "lat": 38.39,
-           "span": 8.403
+           "lon": -116.165,
+           "lat": 38.6,
+           "span": 7.257
           }
          }
         ],
@@ -2219,20 +3519,43 @@
       },
       {
        "type": "map",
-       "at": "moving with the seasons",
+       "at": "the Washoe and the",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -119.55,
-           "lat": 40.05,
-           "span": 0.9
+           "lon": -118.7,
+           "lat": 38.7,
+           "span": 0.5
           }
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Pyramid Lake, Paiute land"
+       "on_screen_text": "Walker Lake"
+      },
+      {
+       "type": "map",
+       "at": "moving with the seasons",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.5,
+           "lat": 40.0,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pyramid Lake"
+      },
+      {
+       "type": "photo",
+       "at": "the piñon pine hills",
+       "photo": "File:Great Basin National Park - 53837979940.jpg",
+       "on_screen_text": "Pines in the Great Basin's mountains"
       },
       {
        "type": "photo",
@@ -2247,9 +3570,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.585,
-           "lat": 38.18,
-           "span": 8.352
+           "lon": -117.635,
+           "lat": 38.6,
+           "span": 8.759
           },
           "highlight": [
            "Nevada@red"
@@ -2284,7 +3607,7 @@
    "mood": "calm",
    "paragraphs": [
     {
-     "text": "So put it together. Mountains that take the rain. Rivers that end in the sand. A lake that dried up. Silver and gold that ran out. And a federal landlord holding four fifths of the state. Nevada is not empty by accident. Its people live where the water is, and the water is almost nowhere.",
+     "text": "So put it together. Mountains that take the rain. Rivers that end in the sand. A lake that dried up. Silver and gold that ran out. And a federal landlord holding four fifths of the state. Nevada is not empty by accident. Its people live where the water is, and the water is almost nowhere. The two places that did fill up grew where water could be caught or carried in: a river off the Sierra snow for Reno, and a dam on the Colorado for Las Vegas. Next time you see the lights of Las Vegas from a plane, look at the darkness around them. That darkness is most of Nevada, and now you know why it is there.",
      "shots": [
       {
        "type": "map",
@@ -2293,9 +3616,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.215,
-           "lat": 39.02,
-           "span": 12.018
+           "lon": -116.9,
+           "lat": 39.125,
+           "span": 10.796
           },
           "layer": "night"
          }
@@ -2310,9 +3633,9 @@
         "steps": [
          {
           "view": {
-           "lon": -118.55,
-           "lat": 37.8,
-           "span": 12.3
+           "lon": -117.95,
+           "lat": 38.4,
+           "span": 14.25
           },
           "highlight": [
            "file:sierra.geojson@alt"
@@ -2352,9 +3675,9 @@
         "steps": [
          {
           "view": {
-           "lon": -116.165,
-           "lat": 38.6,
-           "span": 9.676
+           "lon": -116.9,
+           "lat": 38.075,
+           "span": 7.944
           },
           "highlight": [
            "Nevada@red"
@@ -2369,6 +3692,123 @@
        "at": "Nevada is not empty",
        "photo": "File:Us Route 50 The Loneliest Road In America (225539129).jpeg",
        "on_screen_text": "US Route 50, 'the loneliest road in America'"
+      },
+      {
+       "type": "photo",
+       "at": "Its people live where",
+       "photo": "File:Las Vegas strip from the air (3192201540).jpg",
+       "on_screen_text": "Las Vegas, where the water was brought"
+      },
+      {
+       "type": "map",
+       "at": "The two places that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.375,
+           "lat": 38.81,
+           "span": 8.892
+          },
+          "highlight": [
+           "Clark@accent",
+           "Washoe@accent"
+          ],
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           },
+           {
+            "name": "Reno",
+            "lon": -119.81,
+            "lat": 39.53,
+            "kind": "city",
+            "label": "Reno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a river off the Sierra",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.8,
+           "lat": 39.52,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Truckee River through Reno"
+      },
+      {
+       "type": "map",
+       "at": "and a dam on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.74,
+           "lat": 36.02,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hoover Dam and Lake Mead"
+      },
+      {
+       "type": "map",
+       "at": "Next time you see",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.6,
+           "lat": 37.3,
+           "span": 5.5
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Las Vegas",
+            "lon": -115.14,
+            "lat": 36.17,
+            "kind": "city",
+            "label": "Las Vegas"
+           }
+          ]
+         },
+         {
+          "at": 97,
+          "view": {
+           "lon": -115.6,
+           "lat": 37.3,
+           "span": 4.125
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That darkness is most",
+       "photo": "File:Great Basin National Park - 53837533696.jpg",
+       "on_screen_text": "Great Basin National Park"
       }
      ]
     },
@@ -2382,9 +3822,9 @@
         "steps": [
          {
           "view": {
-           "lon": -117.635,
-           "lat": 38.6,
-           "span": 8.759
+           "lon": -117.425,
+           "lat": 38.39,
+           "span": 10.867
           },
           "highlight": [
            "Nevada@red"

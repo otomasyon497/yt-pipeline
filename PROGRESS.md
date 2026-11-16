@@ -861,3 +861,10 @@ comment. Audio of the long render was never checked. No further work planned unl
   2,800 words, episode_check OK at 17.6 min) and the facts read (PBL 26 %/59 %, Erkens 2016 1.9 m / 19.8 km3, Beemster,
   Cruquius, 1953, Delta/Zuiderzee Works). NEXT: user approves the outline, then the "To read next" list, regions,
   photos, build_script like green-sahara (push_span!), checks, cover, storyboard, upload 2026-11-22T23:00:00Z.
+- 2026-11-16: Netherlands outline APPROVED by the user. research.md rounds 2-4 added (Schiphol, Haarlemmermeer, 1836
+  storms, 1916/Lely/Afsluitdijk 28 May 1932, Delta barriers, Twee Gebroeders 1953, Ouwerkerk caissons, terps, NAP/Hudde
+  1684, palace piles, Walcheren 1944, Wieringermeer 1945, 1995, Groningen, KNMI'23, Sand Motor, Rli). Narration draft
+  2,618 words in drafts/narration.md (every sentence from research.md). geo/make_regions.py -> belowsea.geojson
+  (ETOPO <0 m, 34-36 %, labelled approx.). Photo search done (scratchpad nl/, quality check running).
+  NEXT: pick photos, build_script.py (copy helpers + push_span from green-sahara), episode_check, claim_log/factcheck,
+  cover.json, storyboard.

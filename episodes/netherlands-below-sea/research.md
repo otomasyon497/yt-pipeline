@@ -98,3 +98,45 @@ below the sea it fears, and why do 18 million people stay? First reason.
   to 120 cm by 2050 if water levels keep following the ground; PBL (letter to parliament June 2019): extra costs of
   subsidence to 2050 ~EUR 21 bn in cities + EUR 1 bn rural. Rli target 70 % less subsidence by 2050.
   https://zoek.officielebekendmakingen.nl/kst-35141-3.html
+- Our map layer (geo/make_regions.py): ETOPO 2022 60" cells below 0 m inside the Natural Earth country: 12,700-13,500
+  km2, 34-36 % of the land polygon (coarse grid; at -0.5 m 28 %, at -1 m 23 %). Narration uses PBL's 26 %; the map is
+  labelled "approx." and never quoted as a number.
+
+## Facts read, round 3 (for length)
+- Terps (wierden): dwelling mounds in Friesland/Groningen; mound building from about 500 BC (some sources 650 BC),
+  some Frisian mounds up to 15 m (Wikipedia Terp; Univ. Groningen study). Say "more than two thousand years ago".
+- NAP: in 1684 Amsterdam mayor Johannes Hudde had the water of the IJ measured for a year; the average summer high
+  water became Amsterdams Peil; marble "Hudde stones" set in sluices; minimum sea-dike height 9 ft 5 in above AP;
+  normalised 1885-1894 as Normaal Amsterdams Peil (Wikipedia Amsterdam Ordnance Datum; NOS 2018).
+- Royal Palace, Dam Square (1648-1665, Jacob van Campen): stands on 13,659 wooden piles (Wikipedia Royal Palace of
+  Amsterdam; mirrors, not independent): say "more than thirteen thousand wooden piles".
+- Walcheren 1944: Allied bombers breached the sea dikes from 3 Oct 1944 (Operation Infatuate), island flooded,
+  repairs from Oct 1945 (Wikipedia Inundation of Walcheren). Casualties differ (152/159): do not quote.
+- Wieringermeer: German troops blew up the dike 17 Apr 1945; polder full in ~2 days; ~7,000 residents displaced;
+  drained again by late 1945 (Wikipedia Inundation of the Wieringermeer).
+- 1995: high water on Rhine/Waal/Maas; largest evacuation since WWII, about 250,000 people (voxweb.nl, Radboud);
+  Rijkswaterstaat 2025 retrospective; led with 1993 to Room for the River.
+  https://www.rijkswaterstaat.nl/en/news/archive/2025/01/thirty-years-later-the-1995-high-water-evacuation-remains-unforgettable
+- Groningen gas: centre of the field had subsided ~33 cm by end 2013 (de Waal et al., PIAHS 2015); induced quakes
+  since 1991 damaged houses. (End of production date not verified: do not say a year.)
+- KNMI'23: sea level off the Dutch coast in 2100: 59-124 cm (high emissions), 26-73 cm (low), relative to the start of
+  this century; up to ~2.5 m possible if the Antarctic ice sheet becomes unstable (worst case).
+  https://www.knmi.nl/over-het-knmi/nieuws/knmi23klimaatscenario-s
+- Sand Motor (Zandmotor): 21.5 million m3 of sand (19 M in the hook-shaped peninsula), built Mar-Nov 2011 between
+  Kijkduin and Ter Heijde; the sea spreads it along the coast. https://dezandmotor.nl/en/about-the-sand-motor/
+- 1953 Hollandse IJssel: at ~5:30 AM a ~15 m section of the dike near Nieuwerkerk/Ouderkerk aan den IJssel gave way;
+  the grain barge De Twee Gebroeders (skipper Arie Evegroen), on the mayor's / dike reeve's order, was steered into the
+  gap; sandbags behind it; the dike held. Canon van Nederland: "a ship is navigated into the breach, and as a result,
+  the dyke holds" (prevented a far worse disaster). Popular figure "3 million kept dry": say "millions", attributed
+  loosely. https://www.canonvannederland.nl/en/watersnood
+- Ouwerkerk: the last breach closed 6 Nov 1953 with four Phoenix caissons built in Britain for the 1944 Mulberry
+  harbours (not used in the war); now the Watersnoodmuseum (opened 2001; national monument 2003).
+- Water boards: about 2,670 in 1953 merged to a few dozen (Springer 2016 table; 21 today per Unie van Waterschappen:
+  not verified, say "a few dozen"); elections every four years (2023 Dutch water board elections, Wikipedia).
+- Cruquius (ASME): Cornish-cycle compound engine, 5 strokes/min, eight lift pumps, ~55,000 US gallons a minute
+  (~210 m3) raised about 15 ft; retired 1932, preserved as a monument.
+- Eastern Scheldt: fishermen, oyster farmers and environmentalists (Oosterschelde study group) opposed a closed dam;
+  1976 decision: a storm surge barrier closed only in storms, keeping the estuary salty and tidal; built Apr 1976-Jun
+  1986 (Watersnoodmuseum "Eastern Scheldt Storm Surge Barrier"; Zeeuwse Ankers).
+- Rli (Council for the Environment and Infrastructure) target: 70 % less peat subsidence by 2050 (kst-35141-3).
+- 1995 peak at Lobith 16.68 m NAP (Rijkswaterstaat 2025 retrospective; voxweb 16.63): say "almost seventeen meters".

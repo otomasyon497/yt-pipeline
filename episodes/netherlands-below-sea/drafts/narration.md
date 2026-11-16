@@ -1,0 +1,75 @@
+# Why the Netherlands Sank Below the Sea — narration draft (sourced; research.md)
+
+## Hook: Below the Sea (curious)
+P1: The Netherlands is a small, flat country on the North Sea, home to about eighteen million people. About a quarter of it lies below sea level. Its lowest point, in a polder near the town of Nieuwerkerk aan den IJssel, is almost seven meters below the sea. One of Europe's busiest airports sits about three meters below it, on the bed of a lake that is no longer there.
+
+P2: You might think the sea rose over the Dutch. It mostly did not. A thousand years ago much of this land was a soggy bog that stood above the water. Then people started to drain it, and the ground began to sink. Researchers who added up a thousand years of that work found that the coastal plain dropped by about two meters on average. The Dutch lowered their own country.
+
+P3: This is the story of how that happened: a lake that grew until it threatened two cities, a night in 1953 when the sea came back, and a province that did not exist a hundred years ago. How does a country sink itself below the sea it fears, and why do eighteen million people stay? The first reason is the ground itself.
+
+P3b: First, what does "below sea level" mean here? In 1684 the mayor of Amsterdam, Johannes Hudde, had the water of the city's harbor measured for a whole year. The average summer high tide became the city's zero line, and marble stones were set into the locks to mark it. Two centuries later it became the national standard, the Normal Amsterdam Level, or N-A-P. When the Dutch say a field lies six meters down, they mean six meters below that old line in Amsterdam.
+
+## 1. The Ground Was Peat (tension)
+P3c: Long before anyone drained anything, people in the far north already lived with the sea. More than two thousand years ago, on the salt marshes of Friesland and Groningen, they piled up earth and dung into mounds called terps and built their farms on top. When storm tides came, the mounds became islands. Some grew to be several meters high, and villages still stand on them today. Living below the sea was not the plan. Living above it was.
+
+P4: Along the coast, behind a line of sand dunes, the land was peat: layers of dead moss and reeds, soaked in water, built up over thousands of years. A peat bog is mostly water. In its natural state it rose slowly, and much of it stood above the level of the sea.
+
+P5: Between about the year one thousand and thirteen hundred, the population grew and people needed farmland. So they dug ditches into the bogs to let the water run out. Farmers had to work together to keep those ditches open, and from that cooperation came the water boards, local water authorities that still exist today, and the people who live behind the dikes still elect their boards every four years. In 1953 there were more than two and a half thousand of them. Mergers have cut that to a few dozen.
+
+P6: But drained peat does something strange. Once air gets into it, the peat starts to rot, and it shrinks. The ground sinks. Then the ditches are too shallow, so people dig them deeper, the water drops again, more peat meets the air, and the ground sinks again. It is a loop, and it has been running for a thousand years.
+
+P7: People also dug the peat out and burned it. Dried peat, called turf, heated Dutch homes and fed breweries and brick kilns for centuries. A 2016 study added it all up. About twenty cubic kilometers of peat are gone. Two thirds of that loss came from drainage, one third from digging and burning. The result: the coastal plain dropped about one point nine meters on average, and most of it ended up below the sea.
+
+P7b: Soft ground also shaped the cities. Under Amsterdam the peat and clay are too weak to carry stone, so builders drove long wooden piles down to a firmer layer of sand. The Royal Palace on Dam Square, finished in 1665, stands on more than thirteen thousand of them. Much of the old city still rests on wood, which lasts only as long as it stays under water. Keep the water too low, and the piles rot. Keep it too high, and the cellars flood.
+
+P8: Here is where that left the country. In 2010 the Dutch environmental agency corrected a famous error in a United Nations climate report: not fifty-five percent of the Netherlands lies below sea level, but twenty-six percent. Fifty-nine percent of the land can flood, from the sea or from the rivers. Which raises a question. If the land sinks below the water around it, where does the water go?
+
+## 2. Holes Full of Water (tension)
+P9: Into the holes. Where peat was dug out, pits filled with water. Storms tore at their edges, and small lakes ate into the soft land and merged into big ones. The worst was the Haarlemmermeer, between Amsterdam and Leiden. By one count it grew from about nine thousand hectares in the thirteenth century to almost seventeen thousand by the nineteenth, swallowing farms and villages on its way.
+
+P10: To win land back, the Dutch needed a machine that could lift water uphill: the windmill. In 1607 a group of Amsterdam merchants and mayors got permission to drain Lake Beemster, north of the city. Each investor paid for a share of the future land, betting that the lake bed would make rich farmland. They built a thirty-eight kilometer dike around it, with a canal outside, and set forty-three windmills to work. By 1612 the lake was dry, and the new polder was laid out in a neat grid of fields and roads that you can still see from space. In 1999 the Beemster became a World Heritage site, as a model of how the Dutch made land from water.
+
+P11: One of the engineers was Jan Adriaenszoon Leeghwater, a millwright whose name means "empty water". He went on to plan the biggest prize of all, the Haarlemmermeer, in 1629. His plan was never built. The lake was too big for windmills.
+
+P12: Windmills became the country's water pumps. At Kinderdijk, east of Rotterdam, nineteen of them still stand in rows along the canals. They were built in 1738 and 1740 to keep a sinking polder dry, and they are now a World Heritage site. But every mill that pumped the land drier also helped the peat behind it shrink.
+
+P13: In 1836 two storms pushed the Haarlemmermeer over its banks. In November the water reached the gates of Amsterdam. In December it flooded land toward Leiden. This time the government acted. Three steam pumping stations, one of them named Cruquius, went to work in 1849. Cruquius alone drove eight pumps from one giant engine, lifting about two hundred cubic meters of water a minute, and by 1852 the lake was gone. The station kept pumping until 1932 and still stands as a museum. The new polder was about eighteen thousand hectares. Today Schiphol airport stands on it, about three meters below sea level.
+
+## 3. The Sea Comes Back (dramatic)
+P14: Pumps can win land from lakes. The sea is harder. On a November night in 1421, the Saint Elizabeth flood broke through the dikes south of Dordrecht and drowned a whole polder, the Grote Hollandse Waard. Its villages disappeared under the water. Just to the east, the Alblasserwaard polder stayed dry, and three centuries later it is where the windmills of Kinderdijk were built.
+
+P15: In the middle of the country lay an arm of the North Sea called the Zuiderzee, the southern sea. Its storms flooded the towns around it again and again. In January 1916 a storm surge broke dikes along its shores. Coming during the food shortages of the First World War, that flood decided an old argument.
+
+P16: The engineer Cornelis Lely had drawn up plans for it back in the eighteen-nineties. By 1916 he was the minister of transport and water, and he had long wanted to close the Zuiderzee off and turn much of it into land. In 1918 his plan became law. On the twenty-eighth of May 1932 the last gap in a dam about thirty-two kilometers long, the Afsluitdijk, was closed. The salt sea behind it slowly turned into a freshwater lake, the IJsselmeer.
+
+P17: Then the Dutch pumped parts of that lake dry. Polder after polder rose out of the water, and the largest became Flevoland. Its towns, Lelystad, named after Lely, and Almere, were built on what had been the sea floor. In all, the Zuiderzee Works added about one hundred and sixty-five thousand hectares of new land. In 1986 Flevoland became a province, younger than many of the people who live there.
+
+P17b: The water was also a weapon. In October 1944 Allied bombers blew holes in the sea dikes of Walcheren, an island in Zeeland, to flood out the German guns that blocked the way to the port of Antwerp. The sea poured in through the gaps, and the island stayed under water until the repairs began a year later. In April 1945, weeks before the end of the war, German troops blew up the dike of the Wieringermeer, one of Lely's new polders. It filled in about two days, and some seven thousand people lost their homes. Both were pumped dry again. In this country, land can be taken away and given back.
+
+## 4. The Night of 1953 (dramatic)
+P18: In the southwest, the rivers Rhine, Meuse and Scheldt reach the sea through a maze of islands and estuaries. On the night of the thirty-first of January 1953, a spring tide met a northwest storm. The water rose higher than anyone alive had seen, and it broke through the dikes in Zeeland, South Holland and North Brabant.
+
+P19: People woke to water in their bedrooms. Many climbed onto roofs and waited in the cold for boats that took days to arrive. One thousand eight hundred and thirty-six people drowned in the Netherlands, about half of them in Zeeland. Around two hundred thousand hectares went under water, and seventy-two thousand people had to leave their homes. Across the sea, in England and Scotland, more than three hundred people died in the same storm.
+
+P19b: It could have been far worse. Before dawn, a fifteen-meter stretch of the dike along the Hollandse IJssel river gave way near Nieuwerkerk, the town next to the country's lowest point. Behind that dike lay the deepest polders of South Holland and the cities around Rotterdam. The local officials ordered a river barge, De Twee Gebroeders, the Two Brothers, to be steered into the hole. Its skipper, Arie Evegroen, wedged the boat into the gap, volunteers piled sandbags behind it, and the dike held.
+
+P19c: Closing all the holes took months. The last one, at Ouwerkerk in Zeeland, was shut on the sixth of November 1953 with four huge concrete boxes, caissons built in Britain during the Second World War for the floating harbors of the Normandy landings. They were never used in the war. Today they hold the national flood museum.
+
+P20: Twenty days after the flood, the government set up the Delta Committee. Its answer was the Delta Works: dams and barriers that shortened the coastline by closing most of the sea arms. The biggest, across the Eastern Scheldt, was meant to be a solid dam. Fishermen, oyster farmers and environmentalists fought it: a closed dam would turn a living salt-water estuary into a stagnant lake. In 1976 the government changed the plan. Instead of a wall, it built a barrier of sixty-two huge gates that stay open, so the tide still flows in and out, and close only when a storm comes. Queen Beatrix opened it in October 1986 and declared Zeeland safe.
+
+P21: The last great piece came in 1997 near Rotterdam: the Maeslantkering. Two gates, each about two hundred and ten meters long, rest in docks on either bank of the shipping channel. When a surge of about three meters is expected, they float out and swing shut across a three hundred and sixty meter wide waterway. Each gate hangs from a steel arm about as long as two football fields laid end to end, and the whole barrier swings shut in about two hours. It first closed for a real storm in November 2007.
+
+## 5. Why They Stay (calm)
+P22: So why not move to higher ground? Because the low land is the country. Amsterdam, Rotterdam, The Hague and the farms between them sit mostly behind dikes and dunes. Rotterdam is Europe's biggest port. Leaving would mean leaving the economic heart of the Netherlands.
+
+P23: And the sinking has not stopped. In the peat meadows of the Green Heart, between the big cities, the ground still drops by about a centimeter a year where the water is kept low for farming. If nothing changes, some of these meadows could sink up to a meter more by 2050. A government advisory council has called for cutting that sinking by seventy percent by the same year. The only real way is to raise the water again, which means the peat stops rotting but the fields get too wet for cows. Farmers, nature groups and water boards are still arguing over where to draw that line. In 2019 the government's planning agency estimated the extra cost of subsidence at about twenty-two billion euros by 2050.
+
+P23b: In the far north the ground sinks for another reason. Under Groningen lies one of the biggest natural gas fields in Europe. Decades of pumping out the gas let the ground above it settle. By 2013 the center of the field had sunk about a third of a meter, and since 1991 small earthquakes, caused by the gas extraction, have damaged homes across the province. The land that the gas paid for was sinking under the people who lived on it.
+
+P24: The rivers are part of the danger too. In 1995 the Rhine, at the point where it enters the country, rose to almost seventeen meters above that old Amsterdam line, and together with the Meuse it rose so high that about a quarter of a million people were told to leave their homes, the largest evacuation in the country since the Second World War. The dikes held, barely. After that flood and another in 1993, the Dutch changed course. Instead of only raising dikes, the Room for the River program gave the Rhine and its branches more space at thirty-four places: lower floodplains, side channels, dikes moved back. Planners now prepare for even more water from upstream.
+
+P24b: The coast gets a softer kind of help. In 2011 engineers dredged about twenty-one million cubic meters of sand from the sea floor and dumped it in a giant hook off the coast between Kijkduin and Ter Heijde, near The Hague: the Sand Motor. Instead of fighting the waves, they let the waves do the work: currents spread the sand along the beaches and dunes year after year, feeding the natural wall that keeps the North Sea out.
+
+P25: The Dutch weather service expects the sea off the coast to rise between about sixty centimeters and one and a quarter meters by the end of this century if emissions stay high, and more if the Antarctic ice becomes unstable. So the sea is rising, while the land behind the dikes keeps sinking. The Dutch answer, for now, is to keep doing what they have done for a thousand years: watch the water, pump it out, and build higher. The country that sank itself is also the one that learned best how to live below the sea.
+
+P26 (closing, ask): Here is my question for you. If you lived in a country where a quarter of the land is below the sea, would you trust the dikes, or would you move to higher ground?

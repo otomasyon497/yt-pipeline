@@ -74,3 +74,27 @@ below the sea it fears, and why do 18 million people stay? First reason.
 - Rijkswaterstaat on Maeslantkering (1997, protects ~1.5 M people per HZ blog: verify) and Oosterscheldekering.
 - Room for the River (2006-2015, number of projects); Delta Programme sea-level scenarios (KNMI'23).
 - Population 18 M (CBS), Randstad share below sea level.
+
+## Facts read, round 2 (2026-11-16)
+- Schiphol: about 3 m below NAP (Wikipedia infobox -3 m AMSL; Visit Holland "around 3 m below NAP"; Schiphol's own
+  blog says about four metres): say "about three metres below sea level". On the bed of the Haarlemmermeer, drained
+  1848/1849-1852. https://en.wikipedia.org/wiki/Amsterdam_Airport_Schiphol
+- Haarlemmermeer growth: Flevolands Geheugen: grew by erosion and peat extraction from 9,100 ha (1250) to 16,850 ha
+  (1848); Britannica: lakes of ~5,700 ha in 1531 merged by inundations, ~18,200 ha by the 1830s. Storms of 1836: 29 Nov
+  ~4,000 ha flooded toward Amsterdam, 26 Dec ~7,500 ha toward Leiden (flevolandsgeheugen "Draining the
+  Haarlemmermeer"). Cruquius Museum: erosion and peat digging merged several lakes into one. Polder ~18,000 ha.
+- 1916: storm surge, night of 13-14 Jan 1916, Zuiderzee dike breaches; Zuiderzee law in force 14 June 1918 (Lely,
+  minister); Rijkswaterstaat: last gap of the Afsluitdijk closed 28 May 1932, the sea became the IJsselmeer; new
+  land 165,000 ha (~1,650 km2). https://www.rijkswaterstaat.nl/water/waterbeheer/bescherming-tegen-het-water/100-jaar-zuiderzeewet
+- Oosterscheldekering: opened by Queen Beatrix 4 Oct 1986 ("the Delta Works are completed, Zeeland is safe"); 62
+  gates; length ~9 km in total (ICE: nearly 8 km with 3 km open-close barrier: say "kilometres long", no number).
+- Maeslantkering: built 1991-1997; two gates 210 m long held by 237 m trusses; closes when a surge above ~3 m is
+  expected; closes in about 2 hours; first closed for a storm 8 Nov 2007; protects the Nieuwe Waterweg (360 m wide)
+  to Rotterdam. (Wikipedia + Watersnoodmuseum "Maeslant Barrier").
+- Room for the River: 2006-2015 (some projects to 2018-2022), 34 locations on IJssel, Rhine, Lek, Waal; Rhine
+  design discharge raised 15,000 -> 16,000 m3/s after the 1993 and 1995 floods; Delta Programme plans for up to
+  18,000 m3/s. https://english.deltaprogramma.nl/delta-programme/question-and-answer/what-about-the-18000-m3-river-discharge
+- Peat meadows today: on average about 1 cm a year (Gooi en Vechtstreek report); western peat meadows could drop up
+  to 120 cm by 2050 if water levels keep following the ground; PBL (letter to parliament June 2019): extra costs of
+  subsidence to 2050 ~EUR 21 bn in cities + EUR 1 bn rural. Rli target 70 % less subsidence by 2050.
+  https://zoek.officielebekendmakingen.nl/kst-35141-3.html

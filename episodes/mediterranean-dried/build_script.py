@@ -98,6 +98,7 @@ def P(text, *shots, ask=None):
 
 
 WIN = "2024-01-10/2024-03-01"
+SPR = "2024-03-10/2024-04-30"  # Sicily is green in spring; summer views read as flat beige
 MED = {"lon": 17.0, "lat": 38.0, "span": 46}
 WMED = {"lon": 3.5, "lat": 38.5, "span": 18}
 GIBV = {"lon": -5.5, "lat": 36.0, "span": 3.2}
@@ -186,7 +187,7 @@ chapters = [
           m("And could it happen", v(MED, places=[GIB])),
           m("some scientists now think", v(MED, highlight=[dry(2500)])),
           m("much less far than", v(MED, highlight=[dry(600)])),
-          sat("To answer all of", 13.47, 37.31, 0.04, "A salt mine at Realmonte, Sicily"),
+          sat("To answer all of", 13.47, 37.31, 0.04, "A salt mine at Realmonte, Sicily", date=SPR),
           photo("with salt, in a", PH_DS3, "Rock salt forming in the Dead Sea"),
           ask=("And could it happen", "Could the Mediterranean dry up again?")),
     ]},
@@ -245,7 +246,8 @@ chapters = [
           stat(0, "SALT → OOZE", "In the cores, open-ocean ooze lies right on top of the salt", HSU),
           m("Right on top of", v(MED, places=[BALEARIC])),
           stat("full of the tiny", "FORAMINIFERA", "Single-celled creatures with shells, typical of the open ocean", "General"),
-          m("Whatever had happened, it", v(MED, highlight=[dry(1500)]), v(MED, at="the next, it was")),
+          m("Whatever had happened, it", v(MED, highlight=[dry(1500)])),
+          m("the next, it was", v({"lon": 15.0, "lat": 37.0, "span": 30})),
           sat("That sudden switch would", -5.35, 36.13, 0.06, "The Rock of Gibraltar from orbit")),
     ]},
     {"title": "Cut Off", "mood": "tension", "paragraphs": [
@@ -284,7 +286,7 @@ chapters = [
         P("At first the sea did not vanish. For a few hundred thousand years, water still came in from the Atlantic, but not enough. The sea grew saltier, and gypsum settled out in the shallow basins along its edges. Then, around five point six million years ago, the link to the ocean was cut almost completely. Now the sea fell. Rivers kept flowing in, but the sun took more than they brought, and the level dropped and dropped. Salt piled up on the deep floor, layer after layer, as the brine shrank, refilled and shrank again.",
           m(0, v(WMED, highlight=[dry(200)])),
           stat("For a few hundred", "5.96-5.6 M YEARS", "First stage: gypsum in shallow basins around the edges", WMS),
-          sat("The sea grew saltier", 13.9, 37.45, 0.3, "Gypsum country in central Sicily"),
+          sat("The sea grew saltier", 13.9, 37.45, 0.3, "Gypsum country in central Sicily", date=SPR),
           stat("Then, around five point", "5.59 M YEARS", "The Mediterranean loses its link to the Atlantic, until 5.33", WMS),
           m("Now the sea fell", v(MED, highlight=[dry(500)]), v(MED, at="and the level dropped", highlight=[dry(1500)])),
           photo("Salt piled up on", PH_DS2, "Salt forming in a shrinking sea: the Dead Sea"),
@@ -390,10 +392,10 @@ chapters = [
           m("drowning salt flats, river", v(WMED, highlight=[dry(600)]), v(WMED, at="The coastline you know", highlight=[dry(200)]))),
         P("Once the western basin was full, the water had to get over another barrier: the shallow sill between Sicily and Africa. Researchers have described what may be the marks of that second spill: a huge heap of flood debris at the foot of the Malta Escarpment, reported in 2018, and more than three hundred streamlined ridges across the Sicily sill, reported in 2024. If the flood happened this way, it poured from the western Mediterranean into the eastern half.",
           m(0, v(SICV, places=[MALTA], highlight=[dry(500)])),
-          sat("the shallow sill between", 11.8, 37.1, 0.6, "Cape Bon, Tunisia, facing Sicily"),
+          sat("the shallow sill between", 10.98, 37.0, 0.4, "Cape Bon, Tunisia, facing Sicily"),
           stat("a huge heap of", "2018 · 2024", "Studies of possible flood marks off Malta and across the Sicily sill", "Micallef et al., Scientific Reports 2018; Communications Earth & Environment 2024"),
           sat("the Malta Escarpment, reported", 14.4, 35.9, 0.35, "Malta"),
-          sat("streamlined ridges across the", 14.95, 36.85, 0.3, "Southeastern Sicily, at the edge of the sill"),
+          sat("streamlined ridges across the", 14.95, 36.85, 0.3, "Southeastern Sicily, at the edge of the sill", date=SPR),
           m("If the flood happened", v(SICV, routes=[SPILL], highlight=[dry(500)]))),
         P("Not everyone agrees. A 2020 review pointed out that other explanations are possible, and some researchers think the refill was slower or came in stages. But the core of the story is not in doubt. The Atlantic came back, and the age of salt was over. Geologists mark that moment as the start of a new chapter of Earth's history, the Pliocene, and its first stage is named the Zanclean, after Zancle, the ancient Greek name for Messina in Sicily.",
           stat(0, "DEBATED", "How fast the refill happened is still argued over", "Earth-Science Reviews, 2020"),
@@ -407,14 +409,14 @@ chapters = [
         P("The salt is still there. Under the floor of the Mediterranean it lies buried beneath younger mud, and its age is named after Messina too: the Messinian. In Sicily, where the land has been pushed up since, the same salt is mined. At Realmonte, near Agrigento, miners dig rock salt that was laid down when the sea dried out. Sicily is one of the few places where you can touch the crisis on dry land, because the movement of the plates lifted its salt and gypsum above the sea.",
           m(0, v(MED, places=[MESSINA])),
           stat("and its age is", "MESSINIAN", "The age of the salt, named after Messina, Sicily", "International Commission on Stratigraphy"),
-          sat("In Sicily, where the", 14.0, 37.5, 1.4, "Sicily"),
+          sat("In Sicily, where the", 14.0, 37.5, 1.4, "Sicily", date=SPR),
           m("At Realmonte, near Agrigento", v({"lon": 13.6, "lat": 37.35, "span": 1.2}, places=[REALMONTE])),
-          sat("miners dig rock salt", 13.47, 37.31, 0.04, "The Realmonte salt mine"),
-          sat("Sicily is one of", 13.75, 37.45, 0.3, "Gypsum hills of the Platani valley, Sicily")),
+          sat("miners dig rock salt", 13.47, 37.31, 0.04, "The Realmonte salt mine", date=SPR),
+          sat("Sicily is one of", 13.75, 37.45, 0.3, "Gypsum hills of the Platani valley, Sicily", date=SPR)),
         P("The same rocks gave Sicily another treasure. Sulfur formed in the gypsum of the crisis, and in the nineteenth century the island's sulfur mines supplied most of the world's sulfur, dug out by hand, often by children.",
-          sat(0, 14.05, 37.5, 0.3, "Old mining country near Caltanissetta, Sicily"),
+          sat(0, 14.05, 37.5, 0.3, "Old mining country near Caltanissetta, Sicily", date=SPR),
           stat("and in the nineteenth", "1800s", "Sicily's sulfur mines lead world production", "Wikipedia, Sulfur mining in Sicily"),
-          sat("dug out by hand", 13.95, 37.42, 0.08, "The hills of the Sicilian sulfur basin")),
+          sat("dug out by hand", 13.95, 37.42, 0.08, "The hills of the Sicilian sulfur basin", date=SPR)),
         P("In Spain, near Sorbas in Almería, you can walk through hills of gypsum from the crisis. Under the sea, the deep salt is so heavy and soft that it slowly flows, bending the layers above it. Off Israel, gas companies drilling for fields such as Leviathan, discovered in 2010, have had to drill through the salt to reach the gas below it.",
           m(0, v({"lon": -2.2, "lat": 37.0, "span": 1.5}, places=[SORBAS])),
           photo("you can walk through", PH_GYP_C, "Gypsum layers"),

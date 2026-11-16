@@ -784,3 +784,7 @@ Each sub-phase stops for user approval.
   Gibraltar, "DRIED UP?"). tools/cover_map.py accepts {"seafloor": "basin:m"}. bathy.exposed fixed: parts of a basin
   that stay deeper than the new level stay wet as separate lakes (before, only water connected to the seed counted;
   caspian -20 m unchanged). NEXT: storyboard, review, full render, audit, upload publishAt 2026-11-20T23:00:00Z.
+- 2026-11-16: Mediterranean storyboard 1 failed at 14.9 min -> script lengthened to 2,830 words; storyboard 2 OK
+  (15.7 min). Fixes after review: pipeline/maps.py no longer auto-frames on seafloor:<basin> highlights when the
+  step has its own view (close drawdown views were being zoomed out to the whole basin); Sicily views on spring
+  imagery (summer read as flat beige); Cape Bon coordinates. NEXT: full render, audit, upload 2026-11-20T23:00Z.

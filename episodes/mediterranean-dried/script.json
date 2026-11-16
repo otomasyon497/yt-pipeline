@@ -374,7 +374,8 @@
            "lon": 13.47,
            "lat": 37.31,
            "span": 0.04
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -1064,14 +1065,22 @@
           "highlight": [
            "seafloor:mediterranean:1500@red"
           ]
-         },
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the next, it was",
+       "map": {
+        "steps": [
          {
           "view": {
-           "lon": 20.22,
-           "lat": 38.0,
-           "span": 42.389
-          },
-          "at": "the next, it was"
+           "lon": 15.0,
+           "lat": 37.0,
+           "span": 30
+          }
          }
         ],
         "cut": true
@@ -1112,9 +1121,9 @@
         "steps": [
          {
           "view": {
-           "lon": 13.78,
+           "lon": 20.22,
            "lat": 38.0,
-           "span": 38.373
+           "span": 42.389
           }
          }
         ],
@@ -1198,9 +1207,9 @@
         "steps": [
          {
           "view": {
-           "lon": 17.0,
-           "lat": 40.3,
-           "span": 47.297
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 38.373
           },
           "highlight": [
            "seafloor:mediterranean:200@red"
@@ -1218,8 +1227,8 @@
          {
           "view": {
            "lon": 17.0,
-           "lat": 35.7,
-           "span": 34.804
+           "lat": 40.3,
+           "span": 47.297
           },
           "highlight": [
            "seafloor:mediterranean:500@red"
@@ -1236,9 +1245,9 @@
         "steps": [
          {
           "view": {
-           "lon": 19.3,
-           "lat": 38.92,
-           "span": 38.953
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 34.804
           },
           "highlight": [
            "seafloor:mediterranean:1000@red"
@@ -1679,7 +1688,8 @@
            "lon": 13.9,
            "lat": 37.45,
            "span": 0.3
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -1702,9 +1712,9 @@
         "steps": [
          {
           "view": {
-           "lon": 14.7,
-           "lat": 37.08,
-           "span": 47.61
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 38.953
           },
           "highlight": [
            "seafloor:mediterranean:500@red"
@@ -1712,9 +1722,9 @@
          },
          {
           "view": {
-           "lon": 18.38,
-           "lat": 36.16,
-           "span": 35.491
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 47.61
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -1749,9 +1759,9 @@
         "steps": [
          {
           "view": {
-           "lon": 15.62,
-           "lat": 39.84,
-           "span": 51.072
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 35.491
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -1853,9 +1863,9 @@
         "steps": [
          {
           "view": {
-           "lon": 20.22,
-           "lat": 38.0,
-           "span": 41.117
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 51.072
           },
           "highlight": [
            "seafloor:mediterranean:600@red"
@@ -1944,9 +1954,9 @@
         "steps": [
          {
           "view": {
-           "lon": 13.78,
+           "lon": 20.22,
            "lat": 38.0,
-           "span": 37.222
+           "span": 41.117
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -1968,9 +1978,9 @@
         "steps": [
          {
           "view": {
-           "lon": 17.0,
-           "lat": 40.3,
-           "span": 45.878
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 37.222
           }
          }
         ],
@@ -1985,8 +1995,8 @@
          {
           "view": {
            "lon": 17.0,
-           "lat": 35.7,
-           "span": 33.759
+           "lat": 40.3,
+           "span": 45.878
           },
           "highlight": [
            "seafloor:mediterranean:200@red"
@@ -2022,9 +2032,9 @@
         "steps": [
          {
           "view": {
-           "lon": 19.3,
-           "lat": 38.92,
-           "span": 37.785
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 33.759
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -2060,9 +2070,9 @@
         "steps": [
          {
           "view": {
-           "lon": 14.7,
-           "lat": 37.08,
-           "span": 46.181
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 37.785
           },
           "highlight": [
            "seafloor:mediterranean:2500@red"
@@ -2079,9 +2089,9 @@
         "steps": [
          {
           "view": {
-           "lon": 18.38,
-           "lat": 36.16,
-           "span": 34.426
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 46.181
           },
           "highlight": [
            "seafloor:mediterranean:600@red"
@@ -2605,9 +2615,9 @@
         "steps": [
          {
           "view": {
-           "lon": 15.62,
-           "lat": 39.84,
-           "span": 49.54
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 34.426
           },
           "highlight": [
            "seafloor:mediterranean:1000@red"
@@ -2700,9 +2710,9 @@
         "steps": [
          {
           "view": {
-           "lon": 20.22,
-           "lat": 38.0,
-           "span": 39.884
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 49.54
           },
           "highlight": [
            "seafloor:mediterranean:2000@red"
@@ -2762,9 +2772,9 @@
         "steps": [
          {
           "view": {
-           "lon": 13.78,
+           "lon": 20.22,
            "lat": 38.0,
-           "span": 36.105
+           "span": 39.884
           },
           "highlight": [
            "seafloor:mediterranean:600@red"
@@ -3023,9 +3033,9 @@
         "steps": [
          {
           "view": {
-           "lon": 17.0,
-           "lat": 40.3,
-           "span": 44.502
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 36.105
           },
           "routes": [
            {
@@ -3104,8 +3114,8 @@
          {
           "view": {
            "lon": 17.0,
-           "lat": 35.7,
-           "span": 32.747
+           "lat": 40.3,
+           "span": 44.502
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -3113,9 +3123,9 @@
          },
          {
           "view": {
-           "lon": 19.3,
-           "lat": 38.92,
-           "span": 36.651
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 32.747
           },
           "highlight": [
            "seafloor:mediterranean:200@red"
@@ -3306,17 +3316,17 @@
         "steps": [
          {
           "view": {
-           "lon": 11.8,
-           "lat": 37.1,
-           "span": 0.6
+           "lon": 10.98,
+           "lat": 37.0,
+           "span": 0.4
           }
          },
          {
           "at": 23,
           "view": {
-           "lon": 11.8,
-           "lat": 37.1,
-           "span": 0.372
+           "lon": 10.98,
+           "lat": 37.0,
+           "span": 0.248
           }
          }
         ],
@@ -3360,7 +3370,8 @@
            "lon": 14.95,
            "lat": 36.85,
            "span": 0.3
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -3475,9 +3486,9 @@
         "steps": [
          {
           "view": {
-           "lon": 14.7,
-           "lat": 37.08,
-           "span": 44.796
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 36.651
           }
          }
         ],
@@ -3553,9 +3564,9 @@
         "steps": [
          {
           "view": {
-           "lon": 18.38,
-           "lat": 36.16,
-           "span": 33.393
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 44.796
           },
           "places": [
            {
@@ -3570,9 +3581,9 @@
          {
           "at": 8,
           "view": {
-           "lon": 18.38,
-           "lat": 36.16,
-           "span": 25.045
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 33.597
           }
          }
         ],
@@ -3598,7 +3609,8 @@
            "lon": 14.0,
            "lat": 37.5,
            "span": 1.4
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -3640,7 +3652,8 @@
            "lon": 13.47,
            "lat": 37.31,
            "span": 0.04
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -3657,7 +3670,8 @@
            "lon": 13.75,
            "lat": 37.45,
            "span": 0.3
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          },
          {
           "at": 74,
@@ -3665,7 +3679,8 @@
            "lon": 13.75,
            "lat": 37.45,
            "span": 0.186
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -3687,7 +3702,8 @@
            "lon": 14.05,
            "lat": 37.5,
            "span": 0.3
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -3713,7 +3729,8 @@
            "lon": 13.95,
            "lat": 37.42,
            "span": 0.08
-          }
+          },
+          "date": "2024-03-10/2024-04-30"
          }
         ],
         "cut": true
@@ -3909,9 +3926,9 @@
         "steps": [
          {
           "view": {
-           "lon": 15.62,
-           "lat": 39.84,
-           "span": 48.054
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 33.393
           },
           "highlight": [
            "seafloor:mediterranean:200@red"
@@ -3928,9 +3945,9 @@
         "steps": [
          {
           "view": {
-           "lon": 20.22,
-           "lat": 38.0,
-           "span": 38.687
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 48.054
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -4066,9 +4083,9 @@
         "steps": [
          {
           "view": {
-           "lon": 13.78,
+           "lon": 20.22,
            "lat": 38.0,
-           "span": 35.022
+           "span": 38.687
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -4164,9 +4181,9 @@
         "steps": [
          {
           "view": {
-           "lon": 17.0,
-           "lat": 40.3,
-           "span": 43.167
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 35.022
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"
@@ -4230,8 +4247,8 @@
          {
           "view": {
            "lon": 17.0,
-           "lat": 35.7,
-           "span": 31.764
+           "lat": 40.3,
+           "span": 43.167
           },
           "routes": [
            {
@@ -4278,9 +4295,9 @@
         "steps": [
          {
           "view": {
-           "lon": 19.3,
-           "lat": 38.92,
-           "span": 35.552
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 31.764
           },
           "highlight": [
            "seafloor:mediterranean:1500@red"

@@ -373,6 +373,8 @@ def _step(plan: Plan, step, f: int, sub: int, sub_end: int, globe: bool, next_f:
         highlights.append(area)
         if tint:
             tint_of[area[1]] = tint
+        if name.startswith("seafloor:") and step.view:
+            continue  # a drawdown covers a whole basin: it is a layer under the hand-picked view, not the subject to frame
         frame_items.append(("geom", geo.main_body(area[2]) if area[0] == "country" else area[2]))
     places = []
     for p in step.places:

@@ -277,7 +277,7 @@ chapters = [
           sat("Mega-Chad stood high. Then", 18.7, 17.3, 2.2, "The northern basin of Mega-Chad"),
           m("Then it shrank.", v(CHADV, highlight=[LAKE], places=[CHAD])),
           m("Today's Lake Chad is", v({"lon": 15.0, "lat": 13.5, "span": 6}, places=[CHAD])),
-          sat("a shallow lake on", 14.2, 13.3, 1.4, "Lake Chad today"),
+          sat("a shallow lake on", 14.2, 13.3, 2.2, "Lake Chad today"),
           stat("On average it is", "~1.5 M", "Average depth of Lake Chad", "Wikipedia, Lake Chad"),
           sat("full of reeds and", 14.35, 13.05, 0.12, "Reed islands of Lake Chad"),
           m("Tens of millions of", v({"lon": 14.0, "lat": 12.5, "span": 9}, highlight=["Chad@accent", "Niger@accent", "Nigeria@accent", "Cameroon@accent"], places=[CHAD])),
@@ -321,12 +321,12 @@ chapters = [
           stat("The summer sun over", "+4 %", "Northern summer sunshine at the green/dry switch, compared with today (about)", AHP),
           sat("The land heated up", 5.0, 20.0, 2.2, "The Hoggar and Aïr region in summer", date=SUM),
           m("drew in moist air", v(AFR, routes=MONSOON_NOW)),
-          sat("like a sea breeze", -4.0, 6.0, 0.6, "The Gulf of Guinea coast, Côte d'Ivoire"),
+          sat("like a sea breeze", -4.0, 6.0, 2.2, "The Gulf of Guinea coast, Côte d'Ivoire"),
           m("The West African monsoon", v(AFR, routes=MONSOON)),
           sat("which today brings summer", 2.0, 13.5, 0.6, "The Sahel in Niger, end of the rainy season", date=AUT),
           m("pushed its rains hundreds", v(SAH, routes=MONSOON, highlight=[LAKE]))),
         P("And once the rains came, the land helped them. Grass and trees are darker than sand, so they soak up more sunlight. Plants breathe out water. Lakes add moisture to the air. All of that pulls in more rain, which grows more plants. The green Sahara kept itself green, until the push from the sky grew too weak. Scientists read this history in mud: pollen in old lake beds, and the dust and plant wax that washed into the sea off West Africa.",
-          sat(0, 1.5, 13.0, 0.3, "Fields and bush in the Sahel, wet season", date=SUM),
+          sat(0, 1.5, 13.0, 2.2, "Fields and bush in the Sahel, Niger"),
           sat("Grass and trees are", 2.2, 12.6, 0.1, "Green and bare ground, Sahel"),
           photo("Plants breathe out water", PH_BOSUM2, "Rainforest around Lake Bosumtwi, Ghana"),
           sat("Lakes add moisture to", 14.3, 13.1, 0.4, "Lake Chad's wetlands"),
@@ -415,7 +415,7 @@ chapters = [
           m("Some of the dust", v({"lon": 5.0, "lat": 38.0, "span": 40}, routes=[{"from": [5.0, 25.0], "to": [5.0, 45.0], "mode": "air", "color": "accent", "seconds": 1.5, "label": "Dust to Europe"}]))),
         P("That dust carries phosphorus, from the old lake's fish and algae. Amazon soils are poor in phosphorus, and rain keeps washing it away. The study estimated that about twenty-two thousand tons of phosphorus arrive from Africa each year, close to what the rainforest loses. A dead lake in the Sahara helps feed the largest rainforest on Earth.",
           stat(0, "PHOSPHORUS", "A nutrient the Amazon is short of", YU),
-          sat("Amazon soils are poor", -60.0, -3.0, 0.5, "The Amazon rainforest near Manaus"),
+          sat("Amazon soils are poor", -60.0, -3.0, 2.2, "The Amazon rainforest near Manaus"),
           sat("and rain keeps washing", -59.5, -3.2, 0.15, "Rainforest and river near Manaus"),
           stat("The study estimated that", "~22,000 TONS", "Phosphorus reaching the Amazon from Saharan dust each year", YU),
           sat("close to what the", -60.5, -2.8, 0.25, "The Rio Negro near Manaus"),
@@ -473,6 +473,14 @@ chapters = [
 
 
 PUSH_WORDS = 16  # a single-view map shot held longer than this gets a camera move halfway (a push-in on the subject)
+
+
+def push_span(span):
+    """Push-in target. A view above Sentinel's 2.0-degree limit stays above it (2.05): render 2 pushed 2.2 to 1.36,
+    which fetched Sentinel mosaics of up to 8 days and showed hard-edged patches in the desert (4:52, 6:12, 6:33, 9:41)."""
+    if span > 2.0:
+        return max(2.05, round(span * 0.75, 3))
+    return max(0.05, round(span * 0.62, 3))
 for ch in chapters:
     for para in ch["paragraphs"]:
         anchors = Paragraph.model_validate(para).anchor_indices()  # also checks that every anchor phrase exists
@@ -484,7 +492,7 @@ for ch in chapters:
                 continue
             first = steps[0]
             vw = first["view"]
-            move = {"at": start + (end - start) // 2, "view": {"lon": vw["lon"], "lat": vw["lat"], "span": max(0.05, round(vw["span"] * (0.62 if vw["span"] <= 2.5 else 0.75), 3))}}
+            move = {"at": start + (end - start) // 2, "view": {"lon": vw["lon"], "lat": vw["lat"], "span": push_span(vw["span"])}}
             for key in ("date", "layer"):
                 if first.get(key):
                     move[key] = first[key]

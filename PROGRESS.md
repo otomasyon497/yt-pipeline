@@ -806,3 +806,5 @@ Each sub-phase stops for user approval.
   Wadi Howar, Mega-Chad floor, Bodélé 1.2, Ounianga). Fix: widen those to span >= 3.5 (basemap) or replace with
   maps/stats; first Ounianga sat had wrong lon (18.5 -> 20.5). Green/feature areas (Lake Chad, Ennedi, Tibesti, Nile,
   Sahel) render fine. Sheets 13-27 still to review.
+- 2026-11-16: Green Sahara: 45 close desert sat views widened to span 1.8 (script rule in build_script; kept Sahel,
+  Nile, Ennedi, Emi Koussi, Oweinat, coasts). Full render started; audit all sheets before upload.

@@ -808,3 +808,5 @@ Each sub-phase stops for user approval.
   Sahel) render fine. Sheets 13-27 still to review.
 - 2026-11-16: Green Sahara: 45 close desert sat views widened to span 1.8 (script rule in build_script; kept Sahel,
   Nile, Ennedi, Emi Koussi, Oweinat, coasts). Full render started; audit all sheets before upload.
+- 2026-11-16: Green Sahara full render 1 audit: views at span 1.8 still use Sentinel (S2_MAX_SPAN 2.0 in maps.py) and
+  show date-mosaic seams in hyper-arid desert -> all widened desert sats set to span 2.2 (basemap). Re-render needed.

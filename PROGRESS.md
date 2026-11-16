@@ -856,3 +856,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   2026-11-21T23:00:00Z (22 Nov 02:00 TR), map cover set. Pin the comment by hand in Studio. Note: yt_upload.py runs
   with the system `python` (the venv has no google libs). Next free slot: 23 Nov (candidates: Netherlands below sea
   level, Doggerland).
+- 2026-11-16: 23 Nov topic = Netherlands below sea level (user chose it). Demand PASS (7 at 3x). Title "Why the
+  Netherlands Sank Below the Sea". episodes/netherlands-below-sea/research.md has the gate-1 outline (hook + 5 reasons,
+  2,800 words, episode_check OK at 17.6 min) and the facts read (PBL 26 %/59 %, Erkens 2016 1.9 m / 19.8 km3, Beemster,
+  Cruquius, 1953, Delta/Zuiderzee Works). NEXT: user approves the outline, then the "To read next" list, regions,
+  photos, build_script like green-sahara (push_span!), checks, cover, storyboard, upload 2026-11-22T23:00:00Z.

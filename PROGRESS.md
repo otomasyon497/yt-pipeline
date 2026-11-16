@@ -788,3 +788,6 @@ Each sub-phase stops for user approval.
   (15.7 min). Fixes after review: pipeline/maps.py no longer auto-frames on seafloor:<basin> highlights when the
   step has its own view (close drawdown views were being zoomed out to the whole basin); Sicily views on spring
   imagery (summer read as flat beige); Cape Bon coordinates. NEXT: full render, audit, upload 2026-11-20T23:00Z.
+- 2026-11-16: Mediterranean UPLOADED: TXF3-pYORUs, private, publishAt 2026-11-20T23:00:00Z (21 Nov 02:00 TR),
+  15:41, cover set. Frame audit approved (32 sheets), audio peak -0.8 dBFS. Release/artifacts deleted.
+  Pin the comment by hand in Studio.

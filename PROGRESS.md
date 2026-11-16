@@ -841,3 +841,13 @@ Indus Waters (episode 8) status: long nbB4DKNWp7Y + Shorts PqqVvJZd_18 (tunnel),
 2026-11-09, scheduled by the user for 15:00 UTC 9 Nov (public since then). Still open: Related video link on both
 Shorts (Studio only; blocked by YouTube "one-time verification", only the user can complete it) and the pinned
 comment. Audio of the long render was never checked. No further work planned unless the user asks.
+
+## 2026-11-16 (after handoff) — Green Sahara render 2 rejected, render 3 running
+- Render 2 (run 43846972915) fetched + audited (32 sheets, audio peak -0.78 dBFS, 15:46): NOT approved. Hard-edged
+  patches at 4:52, 5:32, 6:12, 6:33, 7:52, 8:04, 9:41, 11:30, 13:11. Cause: build_script's automatic push-in took
+  2.2-degree views to 1.364 (x0.62), below S2_MAX_SPAN 2.0, so multi-day Sentinel mosaics were fetched (run log
+  "map warning: ... Sentinel-2 scenes of N days"). Fix: push_span() keeps views above 2.0 at >= 2.05; Gulf of
+  Guinea, Sahel fields, Manaus, Lake Chad views widened to 2.2. Lesson for every episode: check the push-in target
+  too, not only the hand-picked span; read the run log's mixed-day warnings before auditing.
+- RENDER 3 = run 43853198269. Next: fetch -Delete, delete artifacts, frame_audit, view all sheets (check the times
+  above), --approve, upload --publish-at 2026-11-21T23:00:00Z.

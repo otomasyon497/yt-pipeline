@@ -851,3 +851,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   too, not only the hand-picked span; read the run log's mixed-day warnings before auditing.
 - RENDER 3 = run 43853198269. Next: fetch -Delete, delete artifacts, frame_audit, view all sheets (check the times
   above), --approve, upload --publish-at 2026-11-21T23:00:00Z.
+- 2026-11-16: Green Sahara render 3 (run 43853198269, 15:46) fetched, release deleted (no artifacts), all 32 sheets
+  viewed: render-2 seams gone; audio peak -0.78 dBFS. Approved and UPLOADED: video Mw00DGzLiV8, private, publishAt
+  2026-11-21T23:00:00Z (22 Nov 02:00 TR), map cover set. Pin the comment by hand in Studio. Note: yt_upload.py runs
+  with the system `python` (the venv has no google libs). Next free slot: 23 Nov (candidates: Netherlands below sea
+  level, Doggerland).

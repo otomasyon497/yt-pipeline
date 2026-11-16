@@ -1,0 +1,4798 @@
+{
+ "title": "When the Sahara Was Green",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/green-sahara/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "SEA IN THE SAHARA?"
+ },
+ "chapters": [
+  {
+   "title": "A Desert That Was Not",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Sahara is the largest hot desert on Earth. It covers about nine million square kilometers, almost the size of the United States, and in many places it gets less rain in a year than London gets in a week. From orbit it looks like a single orange sea of sand and rock.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 10.0,
+           "span": 85
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It covers about nine",
+       "stat": {
+        "value": "~9.2 M KM²",
+        "label": "Area of the Sahara, the largest hot desert",
+        "source": "Wikipedia, Sahara"
+       }
+      },
+      {
+       "type": "map",
+       "at": "almost the size of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.0,
+           "lat": 21.0,
+           "span": 56
+          },
+          "highlight": [
+           "file:sahara.geojson@accent",
+           "United States of America@neutral"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in many places it",
+       "photo": "File:Sand dune in the desert, Sahara Desert, Egypt.jpg",
+       "on_screen_text": "Dunes in Egypt's Western Desert"
+      },
+      {
+       "type": "photo",
+       "at": "From orbit it looks",
+       "photo": "File:ISS-66 Sahara Desert, Algeria (2).jpg",
+       "on_screen_text": "The Sahara in Algeria, from the space station"
+      }
+     ]
+    },
+    {
+     "text": "In fact only about a quarter of it is sand. The rest is gravel plains, bare rock plateaus and mountains. In the Tibesti, in northern Chad, the volcano Emi Koussi rises to three thousand four hundred and fifteen meters, the highest point in the Sahara.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.5,
+           "lat": 21.0,
+           "span": 1.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sand seas of the central Sahara"
+      },
+      {
+       "type": "map",
+       "at": "The rest is gravel",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.8,
+           "lat": 21.2,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gravel plains of the eastern Sahara"
+      },
+      {
+       "type": "map",
+       "at": "In the Tibesti, in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.0,
+           "lat": 20.5,
+           "span": 9
+          },
+          "places": [
+           {
+            "name": "Emi Koussi",
+            "lon": 18.55,
+            "lat": 19.79,
+            "kind": "site",
+            "label": "Emi Koussi, 3,415 m"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the volcano Emi Koussi",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.55,
+           "lat": 19.79,
+           "span": 0.35
+          }
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": 18.55,
+           "lat": 19.79,
+           "span": 0.217
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Emi Koussi, Tibesti, Chad"
+      }
+     ]
+    },
+    {
+     "text": "But about ten thousand years ago, this was not a desert. There were lakes here, some of them enormous. There were rivers, grassland and trees. Hippos and crocodiles lived in the middle of what is now sand. People fished with bone harpoons, herded cattle and painted the animals they saw on the rocks. One of those lakes was about the size of the Caspian Sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.5,
+           "lat": 19.05,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Ounianga lakes, northern Chad"
+      },
+      {
+       "type": "map",
+       "at": "There were lakes here",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.8,
+           "lat": 22.12,
+           "span": 50.4
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "There were rivers, grassland",
+       "photo": "File:Human Fingerprints on an Ancient Landscape (153611 - libya plateau oli2 20241117 lrg).jpg",
+       "on_screen_text": "Dry river channels on a Libyan plateau"
+      },
+      {
+       "type": "photo",
+       "at": "Hippos and crocodiles lived",
+       "photo": "File:Tchad Grottes d'Archéi.jpg",
+       "on_screen_text": "Rock art at Archei, Ennedi, Chad"
+      },
+      {
+       "type": "photo",
+       "at": "People fished with bone",
+       "photo": "File:Cave painting from the Tassili n'Ajjer mountains.jpg",
+       "on_screen_text": "Cattle painting, Tassili n'Ajjer, Algeria"
+      },
+      {
+       "type": "map",
+       "at": "One of those lakes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.5,
+           "lat": 15.0,
+           "span": 14
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "So what happened? How does a land of lakes turn into the biggest hot desert on the planet, and why did it happen so fast? The answer has to do with a slow wobble of the whole Earth. And what the green Sahara left behind is still feeding a rainforest on the other side of the Atlantic today.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Erg chebbi sunrise.jpg",
+       "on_screen_text": "Erg Chebbi dunes at sunrise, Morocco"
+      },
+      {
+       "type": "map",
+       "at": "How does a land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.25,
+           "lat": 11.7,
+           "span": 76.5
+          },
+          "highlight": [
+           "file:sahara.geojson@accent",
+           "file:megachad.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and why did it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 11.0,
+           "lat": 24.5,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Tassili and the Erg of central Algeria"
+      },
+      {
+       "type": "map",
+       "at": "The answer has to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 0.0,
+           "lat": 15.0,
+           "span": 120
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And what the green",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -25.0,
+           "lat": 5.0,
+           "span": 90
+          },
+          "routes": [
+           {
+            "from": [
+             17.6,
+             16.9
+            ],
+            "via": [
+             [
+              0.0,
+              17.0
+             ],
+             [
+              -30.0,
+              12.0
+             ]
+            ],
+            "to": [
+             -58.0,
+             -2.0
+            ],
+            "mode": "air",
+            "color": "accent",
+            "seconds": 2.2,
+            "label": "Dust to the Amazon"
+           }
+          ]
+         },
+         {
+          "at": 48,
+          "view": {
+           "lon": -25.0,
+           "lat": 5.0,
+           "span": 67.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "So what happened?",
+      "text": "Why did the Sahara turn to desert?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Clues in the Rocks",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The first clues were painted on the rocks. In October 1933 a Hungarian explorer, László Almásy, found a rock shelter at the Gilf Kebir, a remote plateau in southwestern Egypt. On its walls were small human figures with their arms and legs spread, as if swimming. He called it the Cave of Swimmers. Decades later, Almásy and his cave inspired the novel and the film The English Patient.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 27.0,
+           "lat": 22.0,
+           "span": 20
+          },
+          "places": [
+           {
+            "name": "Gilf Kebir",
+            "lon": 25.8,
+            "lat": 23.4,
+            "kind": "site",
+            "label": "Gilf Kebir"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In October 1933 a",
+       "stat": {
+        "value": "1933",
+        "label": "László Almásy finds the Cave of Swimmers, Gilf Kebir",
+        "source": "Wikipedia, Cave of Swimmers"
+       }
+      },
+      {
+       "type": "map",
+       "at": "found a rock shelter",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.9,
+           "lat": 23.4,
+           "span": 0.9
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gilf Kebir plateau"
+      },
+      {
+       "type": "map",
+       "at": "a remote plateau in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.6,
+           "lat": 23.0,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cliffs and wadis of the Gilf Kebir"
+      },
+      {
+       "type": "photo",
+       "at": "On its walls were",
+       "photo": "File:Western Desert, Sahara Desert, Egypt.jpg",
+       "on_screen_text": "Egypt's Western Desert today"
+      },
+      {
+       "type": "map",
+       "at": "He called it the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.4,
+           "lat": 23.1,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A wadi in the Gilf Kebir"
+      },
+      {
+       "type": "stat",
+       "at": "Decades later, Almásy and",
+       "stat": {
+        "value": "1992 · 1996",
+        "label": "The English Patient: novel by Michael Ondaatje, then the film",
+        "source": "General"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Almásy believed the swimmers were real: that people had once swum in water here, in one of the driest places on Earth. Not everyone agrees on what the figures mean. But the paintings, thousands of years old, are only one site among many. In 2002 a small expedition found a second shelter a few kilometers away, now called the Cave of Beasts. Its walls hold thousands of painted figures: people, cattle, giraffes, ostriches, and strange headless creatures that gave the cave its name.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.1,
+           "lat": 23.6,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gilf Kebir, now among the driest places on Earth"
+      },
+      {
+       "type": "stat",
+       "at": "in one of the",
+       "stat": {
+        "value": "6,000-9,000 YEARS",
+        "label": "Estimated age of the Cave of Swimmers paintings (estimates vary)",
+        "source": "Wikipedia, Cave of Swimmers"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Not everyone agrees on",
+       "photo": "File:Sand dunes in the desert, Sahara Desert, Dakhla Oasis, Egypt.jpg",
+       "on_screen_text": "Dunes near Dakhla Oasis, Egypt"
+      },
+      {
+       "type": "map",
+       "at": "are only one site",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.2,
+           "lat": 19.88,
+           "span": 61.6
+          },
+          "places": [
+           {
+            "name": "Gilf Kebir",
+            "lon": 25.8,
+            "lat": 23.4,
+            "kind": "site",
+            "label": "Gilf Kebir"
+           },
+           {
+            "name": "Tassili n'Ajjer",
+            "lon": 8.5,
+            "lat": 25.0,
+            "kind": "site",
+            "label": "Tassili n'Ajjer"
+           },
+           {
+            "name": "Gobero",
+            "lon": 9.4,
+            "lat": 16.8,
+            "kind": "site",
+            "label": "Gobero"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 2002 a small",
+       "stat": {
+        "value": "2002",
+        "label": "An Egyptian-Italian party finds the Cave of Beasts, Wadi Sura",
+        "source": "Wikipedia, Cave of Beasts; University of Cologne"
+       }
+      },
+      {
+       "type": "map",
+       "at": "now called the Cave",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.3,
+           "lat": 23.05,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wadi Sura, Gilf Kebir"
+      },
+      {
+       "type": "stat",
+       "at": "Its walls hold thousands",
+       "stat": {
+        "value": "5,000-8,000",
+        "label": "Painted figures in the Cave of Beasts (counts vary)",
+        "source": "Wikipedia; University of Cologne"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and strange headless creatures",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.5,
+           "lat": 23.2,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The southwestern Gilf Kebir"
+      }
+     ]
+    },
+    {
+     "text": "Far to the west, on the Tassili n'Ajjer plateau in Algeria, there are more than fifteen thousand rock paintings and engravings, spread over about seventy-two thousand square kilometers. They were made over thousands of years. The oldest show wild animals: elephants, giraffes, rhinos and hippos. Later ones show herds of cattle, with people milking and driving them. Last come horses, and finally camels. You can read the drying of the Sahara on these walls, animal by animal.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 8.5,
+           "lat": 25.5,
+           "span": 10
+          },
+          "places": [
+           {
+            "name": "Tassili n'Ajjer",
+            "lon": 8.5,
+            "lat": 25.0,
+            "kind": "site",
+            "label": "Tassili n'Ajjer"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "there are more than",
+       "stat": {
+        "value": "15,000+",
+        "label": "Rock paintings and engravings at Tassili n'Ajjer (UNESCO)",
+        "source": "UNESCO World Heritage"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "spread over about seventy-two",
+       "photo": "File:ISS-64 Tassili N'Ajjer National Park, Illizi, Algeria.jpg",
+       "on_screen_text": "Tassili n'Ajjer from the space station"
+      },
+      {
+       "type": "photo",
+       "at": "They were made over",
+       "photo": "File:Tassili Desert Algeria.jpg",
+       "on_screen_text": "Sandstone towers of the Tassili"
+      },
+      {
+       "type": "stat",
+       "at": "The oldest show wild",
+       "stat": {
+        "value": "WILD ANIMALS",
+        "label": "The oldest Saharan rock art: elephants, giraffes, rhinos, hippos",
+        "source": "UNESCO; Penn State Earth 105"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Later ones show herds",
+       "photo": "File:Cave painting from the Tassili n'Ajjer mountains.jpg",
+       "on_screen_text": "Herders and cattle, Tassili n'Ajjer"
+      },
+      {
+       "type": "map",
+       "at": "Last come horses, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 8.7,
+           "lat": 24.6,
+           "span": 0.2
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tassili n'Ajjer from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "You can read the",
+       "stat": {
+        "value": "WILD → CATTLE → CAMEL",
+        "label": "The order of animals on the Tassili walls",
+        "source": "UNESCO World Heritage"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Some of those animals never quite left. In the Ennedi mountains of Chad, at a gorge called the Guelta d'Archei, there is a pool that holds water all year. Camels come to drink there. And in that pool live a handful of crocodiles, perhaps fewer than ten. They have been cut off from every other crocodile for thousands of years, ever since the rivers that once linked the Ennedi to the rest of Africa dried up.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Ennedi Massif in Northern Chad (iss072e404551).jpg",
+       "on_screen_text": "The Ennedi massif, Chad, from the space station"
+      },
+      {
+       "type": "map",
+       "at": "In the Ennedi mountains",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 21.5,
+           "lat": 17.0,
+           "span": 6
+          },
+          "places": [
+           {
+            "name": "Guelta d'Archei",
+            "lon": 21.85,
+            "lat": 16.9,
+            "kind": "site",
+            "label": "Guelta d'Archei"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "there is a pool",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 21.85,
+           "lat": 16.9,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Guelta d'Archei gorge"
+      },
+      {
+       "type": "photo",
+       "at": "Camels come to drink",
+       "photo": "File:Tchad Grottes d'Archéi.jpg",
+       "on_screen_text": "Cattle painted on the rock at Archei"
+      },
+      {
+       "type": "stat",
+       "at": "And in that pool",
+       "stat": {
+        "value": "~7-10",
+        "label": "Crocodiles left at the Guelta d'Archei",
+        "source": "IUCN World Heritage Outlook; George 1999"
+       }
+      },
+      {
+       "type": "map",
+       "at": "They have been cut",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 21.7,
+           "lat": 16.95,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 61,
+          "view": {
+           "lon": 21.7,
+           "lat": 16.95,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Canyons of the Ennedi around Archei"
+      }
+     ]
+    },
+    {
+     "text": "Then there are the bones. In the year 2000 a team led by the paleontologist Paul Sereno was looking for dinosaurs in the Ténéré desert of Niger. Instead they found a graveyard. At a place called Gobero, on the shore of a lake that has long since vanished, they excavated about two hundred human burials. Around the graves lay the bones of animals the people had eaten: hippos, crocodiles, turtles and big fish.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.0,
+           "lat": 17.5,
+           "span": 12
+          },
+          "places": [
+           {
+            "name": "Gobero",
+            "lon": 9.4,
+            "lat": 16.8,
+            "kind": "site",
+            "label": "Gobero"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In the year 2000",
+       "stat": {
+        "value": "2000",
+        "label": "Paul Sereno's team finds the Gobero graveyard, Niger",
+        "source": "University of Chicago"
+       }
+      },
+      {
+       "type": "map",
+       "at": "was looking for dinosaurs",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.5,
+           "lat": 17.2,
+           "span": 0.7
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Ténéré desert, Niger"
+      },
+      {
+       "type": "map",
+       "at": "Instead they found a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.4,
+           "lat": 16.8,
+           "span": 0.15
+          }
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": 9.4,
+           "lat": 16.8,
+           "span": 0.093
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Ténéré near Gobero"
+      },
+      {
+       "type": "stat",
+       "at": "they excavated about two",
+       "stat": {
+        "value": "~200",
+        "label": "Burials excavated at Gobero, 2005-2006",
+        "source": "Sereno et al., PLoS ONE 2008"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Around the graves lay",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.2,
+           "lat": 17.0,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dunes over the old Gobero shore"
+      },
+      {
+       "type": "stat",
+       "at": "hippos, crocodiles, turtles and",
+       "stat": {
+        "value": "HIPPO · CROCODILE",
+        "label": "Animal bones found at Gobero",
+        "source": "Sereno et al., PLoS ONE 2008"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The first people buried there were hunters and fishers. They were tall and strongly built, and they were buried with harpoons and fishhooks made of bone. Next to them lay the bones of Nile perch, fish up to almost two meters long. Later came a different people, who also fished but kept cattle. One grave held a woman lying with two small children, their arms reaching toward each other.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.3,
+           "lat": 16.9,
+           "span": 0.35
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dry ground of the former Gobero lake"
+      },
+      {
+       "type": "stat",
+       "at": "They were tall and",
+       "stat": {
+        "value": "~9,700 YEARS AGO",
+        "label": "The first fishers settle at Gobero",
+        "source": "University of Chicago, Gobero"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Next to them lay",
+       "stat": {
+        "value": "NILE PERCH",
+        "label": "Fish up to almost two meters long, found with the Gobero burials",
+        "source": "Sereno et al., PLoS ONE 2008"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Later came a different",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.0,
+           "lat": 17.6,
+           "span": 0.5
+          },
+          "date": "2023-10-01/2023-11-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Ténéré today"
+      },
+      {
+       "type": "map",
+       "at": "One grave held a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.6,
+           "lat": 16.6,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dunes of the southern Ténéré"
+      },
+      {
+       "type": "stat",
+       "at": "their arms reaching toward",
+       "stat": {
+        "value": "3",
+        "label": "A woman buried with two children, Gobero",
+        "source": "Sereno et al., PLoS ONE 2008"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And there are the rivers. Across the eastern Sahara, satellite radar and images show old river channels under the sand. One of them, the Wadi Howar, runs from the border of Chad toward the Nile. Geologists call it the Yellow Nile. For thousands of years it carried water, and herders and their cattle lived along it. Along its banks, archaeologists have found pottery, grinding stones and the bones of cattle. Today it gets at most a few centimeters of rain in a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 28.0,
+           "lat": 22.4,
+           "span": 18.0
+          },
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "satellite radar and images",
+       "photo": "File:Human Fingerprints on an Ancient Landscape (153611 - libya plateau oli2 20241117 lrg).jpg",
+       "on_screen_text": "Fossil drainage on a Libyan plateau, Landsat 2024"
+      },
+      {
+       "type": "map",
+       "at": "One of them, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 27.0,
+           "lat": 17.5,
+           "span": 13
+          },
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Geologists call it the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.5,
+           "lat": 17.3,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wadi Howar, Sudan"
+      },
+      {
+       "type": "map",
+       "at": "For thousands of years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 27.8,
+           "lat": 17.4,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Along the dry Wadi Howar"
+      },
+      {
+       "type": "map",
+       "at": "Along its banks, archaeologists",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.6,
+           "lat": 16.9,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Banks of the Wadi Howar"
+      },
+      {
+       "type": "stat",
+       "at": "Today it gets at",
+       "stat": {
+        "value": "≤25 MM",
+        "label": "Rain a year in the Wadi Howar today",
+        "source": "Wikipedia, Wadi Howar"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Sea in the Desert",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "The biggest of all the lakes was in the middle of the Sahara, in what is now Chad. Geologists call it Lake Mega-Chad. Its old shorelines, beach ridges and sand spits can still be traced across the desert. At its largest, around ten thousand years ago, it covered something like three hundred and forty thousand square kilometers, and in places it was more than a hundred and fifty meters deep.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.2,
+           "lat": 15.28,
+           "span": 12.6
+          },
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 17.2,
+           "lat": 15.28,
+           "span": 9.45
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Geologists call it Lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.8,
+           "lat": 14.72,
+           "span": 15.4
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its old shorelines, beach",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.2,
+           "lat": 17.5,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old shores of Mega-Chad, northern Chad"
+      },
+      {
+       "type": "map",
+       "at": "At its largest, around",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.0,
+           "lat": 14.5,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Central Chad, inside the old lake"
+      },
+      {
+       "type": "stat",
+       "at": "it covered something like",
+       "stat": {
+        "value": "~340,000 KM²",
+        "label": "Lake Mega-Chad at its highstand (estimates 340,000-400,000)",
+        "source": "Bouchette et al., Quaternary Research 2010; and others"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and in places it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 15.6,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The floor of Mega-Chad, central Chad"
+      },
+      {
+       "type": "stat",
+       "at": "more than a hundred",
+       "stat": {
+        "value": "~160 M",
+        "label": "Greatest depth of Lake Mega-Chad (estimates 160-173 m)",
+        "source": "Bouchette et al., Quaternary Research 2010; and others"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2006 two geologists, Nick Drake and Charlie Bristow, used satellite images and radar height data from the Space Shuttle to follow those shorelines around the basin. They found beach terraces standing at almost exactly the same height, about three hundred and twenty-nine meters above sea level, hundreds of kilometers apart. A lake leaves a level line. These were its marks.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2006",
+        "label": "Drake and Bristow map Mega-Chad's shorelines with Landsat and Shuttle radar",
+        "source": "The Holocene, 2006"
+       }
+      },
+      {
+       "type": "map",
+       "at": "used satellite images and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.5,
+           "lat": 16.5,
+           "span": 8
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "to follow those shorelines",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.4,
+           "lat": 17.3,
+           "span": 0.25
+          }
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": 18.4,
+           "lat": 17.3,
+           "span": 0.155
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A beach ridge of Mega-Chad"
+      },
+      {
+       "type": "stat",
+       "at": "about three hundred and",
+       "stat": {
+        "value": "~329 M",
+        "label": "Height of a Mega-Chad beach terrace above sea level",
+        "source": "Drake & Bristow, The Holocene 2006"
+       }
+      },
+      {
+       "type": "map",
+       "at": "hundreds of kilometers apart",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.7,
+           "lat": 17.9,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Shoreline ridges at the northern edge of the old lake"
+      },
+      {
+       "type": "map",
+       "at": "A lake leaves a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.9,
+           "lat": 17.6,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ridges on the old lake floor"
+      }
+     ]
+    },
+    {
+     "text": "That is about the size of the Caspian Sea, the largest lake on Earth today. Our map shows its shape, drawn from the height of the land: every low point that connects to today's Lake Chad, up to about three hundred and twenty meters above sea level. The lake filled a basin bigger than Germany.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Lake Mega-Chad against today's lakes",
+        "unit": "km²",
+        "data": [
+         [
+          "Lake Mega-Chad",
+          340000
+         ],
+         [
+          "Caspian Sea",
+          371000
+         ],
+         [
+          "Lake Superior",
+          82100
+         ]
+        ],
+        "source": "Bouchette et al., Quaternary Research 2010; and others; Wikipedia",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "Our map shows its",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.0,
+           "lat": 14.5,
+           "span": 11
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "every low point that",
+       "stat": {
+        "value": "~320 M",
+        "label": "Our Mega-Chad outline: land below 320 m joined to Lake Chad (NOAA ETOPO)",
+        "source": "Our calculation, NOAA ETOPO 2022"
+       }
+      },
+      {
+       "type": "map",
+       "at": "up to about three",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.5,
+           "lat": 17.0,
+           "span": 6
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Bodélé Depression",
+            "lon": 17.6,
+            "lat": 16.9,
+            "kind": "site",
+            "label": "Bodélé Depression"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The lake filled a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.92,
+           "lat": 14.44,
+           "span": 11.48
+          },
+          "highlight": [
+           "file:megachad.geojson@blue",
+           "Germany@neutral"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "From around eleven and a half thousand years ago until about five thousand years ago, Mega-Chad stood high. Then it shrank. Today's Lake Chad is what is left, a shallow lake on the southern edge of the Sahara. On average it is only about a meter and a half deep, full of reeds and islands. Tens of millions of people in Chad, Niger, Nigeria and Cameroon depend on its water and its fish. And even that is in trouble. Since the 1960s it has lost about ninety percent of its open water, to drought and to farming that takes water from its rivers.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "11,500-5,000",
+        "label": "Years ago: Mega-Chad's long highstand",
+        "source": "Quaternary Research"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Mega-Chad stood high. Then",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.0,
+           "lat": 17.0,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The northern basin of Mega-Chad"
+      },
+      {
+       "type": "map",
+       "at": "Then it shrank.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.08,
+           "lat": 15.56,
+           "span": 16.52
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Today's Lake Chad is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 13.5,
+           "span": 6
+          },
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a shallow lake on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.2,
+           "lat": 13.3,
+           "span": 1.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Chad today"
+      },
+      {
+       "type": "stat",
+       "at": "On average it is",
+       "stat": {
+        "value": "~1.5 M",
+        "label": "Average depth of Lake Chad",
+        "source": "Wikipedia, Lake Chad"
+       }
+      },
+      {
+       "type": "map",
+       "at": "full of reeds and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.35,
+           "lat": 13.05,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Reed islands of Lake Chad"
+      },
+      {
+       "type": "map",
+       "at": "Tens of millions of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.0,
+           "lat": 12.5,
+           "span": 9
+          },
+          "highlight": [
+           "Chad@accent",
+           "Niger@accent",
+           "Nigeria@accent",
+           "Cameroon@accent"
+          ],
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "depend on its water",
+       "stat": {
+        "value": "4 COUNTRIES",
+        "label": "Chad, Niger, Nigeria and Cameroon share Lake Chad",
+        "source": "UNEP"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And even that is",
+       "photo": "File:Lake Chad by STS-66.jpg",
+       "on_screen_text": "Lake Chad from the Space Shuttle, 1994"
+      },
+      {
+       "type": "stat",
+       "at": "Since the 1960s it",
+       "stat": {
+        "value": "−90 %",
+        "label": "Lake Chad's open water lost since the 1960s",
+        "source": "UNEP; World Bank"
+       }
+      },
+      {
+       "type": "map",
+       "at": "to drought and to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.6,
+           "lat": 13.0,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farms and wetlands on Lake Chad's shore"
+      }
+     ]
+    },
+    {
+     "text": "A few lakes survive far inside the desert. At Ounianga in northern Chad, about eighteen lakes sit among the dunes, fed not by rain but by water rising from under the ground, water that fell during wetter times. Some are fresh, some are saltier than the sea, and some are tinted red and green by algae. In 2012 UNESCO listed them as a World Heritage site.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.48,
+           "lat": 15.0,
+           "span": 13.3
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Ounianga",
+            "lon": 20.5,
+            "lat": 19.05,
+            "kind": "site",
+            "label": "Ounianga lakes"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "At Ounianga in northern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.5,
+           "lat": 19.05,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Ounianga lakes among the dunes"
+      },
+      {
+       "type": "map",
+       "at": "sit among the dunes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.62,
+           "lat": 19.0,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dunes between the Ounianga lakes"
+      },
+      {
+       "type": "photo",
+       "at": "fed not by rain",
+       "photo": "File:ISS-64 Sahara Desert, Ounianga, Chad.jpg",
+       "on_screen_text": "Ounianga from the space station"
+      },
+      {
+       "type": "map",
+       "at": "water that fell during",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.75,
+           "lat": 19.06,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A lake shore at Ounianga Serir"
+      },
+      {
+       "type": "map",
+       "at": "Some are fresh, some",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.85,
+           "lat": 19.08,
+           "span": 0.08
+          }
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": 20.85,
+           "lat": 19.08,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lakes of Ounianga Serir"
+      },
+      {
+       "type": "stat",
+       "at": "In 2012 UNESCO listed",
+       "stat": {
+        "value": "2012",
+        "label": "The Lakes of Ounianga become a World Heritage site",
+        "source": "UNESCO World Heritage"
+       }
+      }
+     ]
+    },
+    {
+     "text": "North of the lake lies the floor of the old sea. The Bodélé Depression, in the low heart of the basin, was once under deep water. Today it is the dustiest place on Earth. It is covered in pale dust made partly of the shells of diatoms, tiny algae that lived in Mega-Chad, and of the bones of its fish. When the winds blow between the Tibesti and Ennedi mountains, they lift that old lake bed into the sky. From space, it is one of the easiest dust sources on Earth to spot: in winter, long pale plumes stream out of it toward the southwest.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.52,
+           "lat": 15.0,
+           "span": 12.04
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Bodélé Depression",
+            "lon": 17.6,
+            "lat": 16.9,
+            "kind": "site",
+            "label": "Bodélé Depression"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Bodélé Depression, in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.6,
+           "lat": 16.9,
+           "span": 1.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bodélé Depression, the old lake floor"
+      },
+      {
+       "type": "stat",
+       "at": "Today it is the",
+       "stat": {
+        "value": "DUSTIEST",
+        "label": "The Bodélé: the largest single source of dust on Earth",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is covered in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.3,
+           "lat": 16.8,
+           "span": 0.15
+          }
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": 17.3,
+           "lat": 16.8,
+           "span": 0.093
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pale diatomite of the Bodélé"
+      },
+      {
+       "type": "photo",
+       "at": "When the winds blow",
+       "photo": "File:The Tibesti Mountains in the Sahara (iss073e0906087).jpg",
+       "on_screen_text": "The Tibesti mountains from the space station"
+      },
+      {
+       "type": "photo",
+       "at": "they lift that old",
+       "photo": "File:Dust storms from Bodélé Depression, Chad (MODIS 2017-12-29).jpg",
+       "on_screen_text": "Dust storms from the Bodélé, December 2017"
+      },
+      {
+       "type": "map",
+       "at": "From space, it is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.2,
+           "lat": 17.2,
+           "span": 1.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bodélé and its dust streaks from orbit"
+      },
+      {
+       "type": "map",
+       "at": "in winter, long pale",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 15.0,
+           "span": 22
+          },
+          "places": [
+           {
+            "name": "Bodélé Depression",
+            "lon": 17.6,
+            "lat": 16.9,
+            "kind": "site",
+            "label": "Bodélé Depression"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             17.6,
+             16.9
+            ],
+            "to": [
+             10.0,
+             12.0
+            ],
+            "mode": "air",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Dust plumes"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wobble",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "So why was the Sahara green? The answer is in the sky. Earth's axis is tilted, and it slowly wobbles, like a spinning top, tracing a circle about once every twenty-six thousand years. Together with the slow change in the shape of Earth's orbit, this wobble decides whether the north gets its summer when Earth is closest to the Sun or when it is farthest away. Today it is the second case: Earth is farthest from the Sun in early July, in the middle of the northern summer. That cycle comes back roughly every twenty-one thousand years. In the early twentieth century a Serbian engineer, Milutin Milanković, worked out these cycles by hand and argued that they drive the ice ages. He was right, and they drive the monsoons too.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 10.75,
+           "lat": 8.3,
+           "span": 93.5
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Earth's axis is tilted",
+       "stat": {
+        "value": "PRECESSION",
+        "label": "The slow wobble of Earth's axis, like a spinning top",
+        "source": "General astronomy"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "tracing a circle about",
+       "stat": {
+        "value": "~26,000 YEARS",
+        "label": "One full turn of Earth's axis",
+        "source": "General astronomy"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Together with the slow",
+       "photo": "File:ISS-56 Sahara, Mali.jpg",
+       "on_screen_text": "The Sahel and Sahara from the space station"
+      },
+      {
+       "type": "map",
+       "at": "this wobble decides whether",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 20.0,
+           "span": 110
+          }
+         },
+         {
+          "at": 55,
+          "view": {
+           "lon": 15.0,
+           "lat": 20.0,
+           "span": 82.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Today it is the",
+       "stat": {
+        "value": "EARLY JULY",
+        "label": "When Earth is farthest from the Sun today",
+        "source": "General astronomy"
+       }
+      },
+      {
+       "type": "map",
+       "at": "in the middle of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 30.0,
+           "span": 90
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That cycle comes back",
+       "stat": {
+        "value": "~21,000 YEARS",
+        "label": "How often the northern summer sun peaks",
+        "source": "Armstrong et al., Nature Communications 2023"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In the early twentieth",
+       "stat": {
+        "value": "MILANKOVIĆ",
+        "label": "Milutin Milanković calculated Earth's orbital cycles by hand",
+        "source": "General history of science"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and argued that they",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 10.0,
+           "lat": 55.0,
+           "span": 110
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "they drive the monsoons",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.55,
+           "lat": 6.6,
+           "span": 69.7
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             2.0,
+             19.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6,
+            "label": "Monsoon rains push north"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             14.0,
+             20.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "About ten thousand years ago, northern summers came when Earth was near the Sun. The summer sun over North Africa was several percent stronger than today. The land heated up more, and hot air rising over the Sahara drew in moist air from the Atlantic, like a sea breeze the size of a continent. The West African monsoon, which today brings summer rain only to the Sahel, pushed its rains hundreds of kilometers further north.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 15.0,
+           "span": 70
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The summer sun over",
+       "stat": {
+        "value": "+4 %",
+        "label": "Northern summer sunshine at the green/dry switch, compared with today (about)",
+        "source": "deMenocal et al. 2000; Shanahan et al. 2015"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The land heated up",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 20.0,
+           "span": 1.5
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Hoggar and Aïr region in summer"
+      },
+      {
+       "type": "map",
+       "at": "drew in moist air",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.45,
+           "lat": 13.4,
+           "span": 100.3
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             -0.5,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4,
+            "label": "Today the rains stop near the Sahel"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             11.0,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "like a sea breeze",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.0,
+           "lat": 6.0,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gulf of Guinea coast, Côte d'Ivoire"
+      },
+      {
+       "type": "map",
+       "at": "The West African monsoon",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.95,
+           "lat": 10.0,
+           "span": 80.75
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             2.0,
+             19.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6,
+            "label": "Monsoon rains push north"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             14.0,
+             20.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "which today brings summer",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 2.0,
+           "lat": 13.5,
+           "span": 0.6
+          },
+          "date": "2023-10-01/2023-11-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Sahel in Niger, end of the rainy season"
+      },
+      {
+       "type": "map",
+       "at": "pushed its rains hundreds",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.68,
+           "lat": 18.76,
+           "span": 45.92
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             2.0,
+             19.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6,
+            "label": "Monsoon rains push north"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             14.0,
+             20.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ],
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "And once the rains came, the land helped them. Grass and trees are darker than sand, so they soak up more sunlight. Plants breathe out water. Lakes add moisture to the air. All of that pulls in more rain, which grows more plants. The green Sahara kept itself green, until the push from the sky grew too weak. Scientists read this history in mud: pollen in old lake beds, and the dust and plant wax that washed into the sea off West Africa.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 1.5,
+           "lat": 13.0,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fields and bush in the Sahel, wet season"
+      },
+      {
+       "type": "map",
+       "at": "Grass and trees are",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 2.2,
+           "lat": 12.6,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Green and bare ground, Sahel"
+      },
+      {
+       "type": "photo",
+       "at": "Plants breathe out water",
+       "photo": "File:Lake Bosumtwi Panorama.jpg",
+       "on_screen_text": "Rainforest around Lake Bosumtwi, Ghana"
+      },
+      {
+       "type": "map",
+       "at": "Lakes add moisture to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.3,
+           "lat": 13.1,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 34,
+          "view": {
+           "lon": 14.3,
+           "lat": 13.1,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Chad's wetlands"
+      },
+      {
+       "type": "photo",
+       "at": "The green Sahara kept",
+       "photo": "File:Central sahara lrg.jpg",
+       "on_screen_text": "The central Sahara from orbit"
+      },
+      {
+       "type": "map",
+       "at": "Scientists read this history",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.1,
+           "lat": 13.4,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mud flats at the edge of Lake Chad"
+      },
+      {
+       "type": "map",
+       "at": "and the dust and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -17.2,
+           "lat": 21.5,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Mauritanian coast, where Saharan dust meets the sea"
+      }
+     ]
+    },
+    {
+     "text": "This was not a one-time event. In 2023 a team of climate scientists modeled North Africa over the last eight hundred thousand years and found green periods roughly every twenty-one thousand years, each driven by the wobble. They were weaker or missing during the big ice ages, when ice sheets in the north held the rains back. At the height of the last ice age the Sahara was even bigger than it is today. Sediments under the Mediterranean and the Atlantic record the same rhythm, back for millions of years. The Sahara has been greening and drying again and again, like a slow heartbeat.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 2.5,
+           "lat": 28.5,
+           "span": 1.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Tademaït plateau, Algeria"
+      },
+      {
+       "type": "stat",
+       "at": "modeled North Africa over",
+       "stat": {
+        "value": "800,000 YEARS",
+        "label": "North African humid periods modeled over the last 800,000 years",
+        "source": "Armstrong et al., Nature Communications 2023"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "found green periods roughly",
+       "stat": {
+        "value": "EVERY ~21,000",
+        "label": "Years between green Saharas, driven by precession",
+        "source": "Armstrong et al., Nature Communications 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "They were weaker or",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 10.0,
+           "lat": 45.0,
+           "span": 120
+          }
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": 10.0,
+           "lat": 45.0,
+           "span": 90.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "At the height of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.05,
+           "lat": 10.0,
+           "span": 73.1
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Sediments under the Mediterranean",
+       "photo": "File:Saharan Dust over the Atlantic (MODIS).jpg",
+       "on_screen_text": "Saharan dust settling on the Atlantic"
+      },
+      {
+       "type": "map",
+       "at": "The Sahara has been",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.0,
+           "lat": 18.0,
+           "span": 60
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "like a slow heartbeat",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 19.2,
+           "span": 54.0
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Those green windows may have mattered for our own species. Some researchers think that when the Sahara turned green, it opened corridors of water and grass across North Africa, and that groups of early humans used them to move north, toward the Mediterranean and beyond. When the desert came back, the doors closed again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 14.25,
+           "span": 90.1
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Some researchers think that",
+       "stat": {
+        "value": "CORRIDORS",
+        "label": "Green periods may have opened routes north for early humans",
+        "source": "Hypothesis, various studies"
+       }
+      },
+      {
+       "type": "map",
+       "at": "it opened corridors of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 22.0,
+           "span": 50
+          },
+          "routes": [
+           {
+            "from": [
+             20.0,
+             5.0
+            ],
+            "via": [
+             [
+              18.0,
+              15.0
+             ]
+            ],
+            "to": [
+             15.0,
+             31.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.8,
+            "label": "Green corridors (one idea)"
+           }
+          ]
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": 15.0,
+           "lat": 22.0,
+           "span": 37.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "toward the Mediterranean and",
+       "photo": "File:ISS-64 Tassili N'Ajjer National Park, Illizi, Algeria.jpg",
+       "on_screen_text": "Tassili n'Ajjer, on the route north"
+      },
+      {
+       "type": "map",
+       "at": "When the desert came",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.0,
+           "lat": 26.0,
+           "span": 1.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Murzuq sand sea, Libya"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Drying",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Lake Mega-Chad went first in the north. As the rains failed, its level dropped, its northern arm toward the Bodélé dried out, and the great lake broke up into smaller ones. By about five thousand years ago, the floor of the northern basin was open to the wind.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.5,
+           "lat": 15.7,
+           "span": 14.84
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Bodélé Depression",
+            "lon": 17.6,
+            "lat": 16.9,
+            "kind": "site",
+            "label": "Bodélé Depression"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "As the rains failed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.0,
+           "lat": 17.6,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dry northern arm of Mega-Chad"
+      },
+      {
+       "type": "map",
+       "at": "and the great lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.3,
+           "lat": 13.62,
+           "span": 5.4
+          },
+          "places": [
+           {
+            "name": "Lake Chad",
+            "lon": 14.2,
+            "lat": 13.2,
+            "kind": "site",
+            "label": "Lake Chad"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "By about five thousand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.6,
+           "lat": 16.9,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": 17.6,
+           "lat": 16.9,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Bodélé, open to the wind"
+      }
+     ]
+    },
+    {
+     "text": "After about ten thousand years ago the wobble moved on, and the summer sun over North Africa slowly weakened. The monsoon began to retreat south. But how fast did the green disappear? In 2000 a team studying mud from the sea floor off Mauritania found a surprise. The dust in their core jumped suddenly, around five and a half thousand years ago. By their reading, the end of the green Sahara came within decades to centuries, not slowly over thousands of years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 5.75,
+           "span": 66.3
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             2.0,
+             19.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6,
+            "label": "Monsoon rains push north"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             14.0,
+             20.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 15.0,
+           "lat": 5.75,
+           "span": 49.725
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The monsoon began to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.25,
+           "lat": 11.7,
+           "span": 74.205
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             -0.5,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4,
+            "label": "Today the rains stop near the Sahel"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             11.0,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 2000 a team",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -16.0,
+           "lat": 20.0,
+           "span": 14
+          },
+          "places": [
+           {
+            "name": "Mauritania core",
+            "lon": -18.6,
+            "lat": 20.75,
+            "kind": "site",
+            "label": "Sea-floor core off Mauritania"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "found a surprise. The",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -16.4,
+           "lat": 20.9,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cap Blanc, Mauritania, on the dusty Atlantic coast"
+      },
+      {
+       "type": "stat",
+       "at": "The dust in their",
+       "stat": {
+        "value": "~5,500 YEARS AGO",
+        "label": "Sudden rise of Saharan dust in a core off Mauritania",
+        "source": "deMenocal et al., QSR 2000"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By their reading, the",
+       "stat": {
+        "value": "DECADES",
+        "label": "How fast the end came, by the 2000 study",
+        "source": "deMenocal et al., QSR 2000"
+       }
+      },
+      {
+       "type": "map",
+       "at": "not slowly over thousands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 20.0,
+           "span": 45
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "How can a slow wobble cause a fast collapse? Because the feedbacks run in reverse. As the rain weakened, plants died back, the land grew paler and reflected more sunlight, and the air over it stopped rising as strongly. Less rain meant fewer plants, and fewer plants meant less rain. Past a tipping point, the green could not hold itself up.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.0,
+           "lat": 17.5,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The southern Sahara in Mali, where the green ended"
+      },
+      {
+       "type": "map",
+       "at": "As the rain weakened",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 1.2,
+           "lat": 15.5,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": 1.2,
+           "lat": 15.5,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thin vegetation at the Sahara's edge, Niger"
+      },
+      {
+       "type": "photo",
+       "at": "Less rain meant fewer",
+       "photo": "File:Sand dune in the desert, Sahara Desert, Egypt.jpg",
+       "on_screen_text": "Desert sand, Egypt"
+      },
+      {
+       "type": "stat",
+       "at": "Past a tipping point",
+       "stat": {
+        "value": "TIPPING POINT",
+        "label": "Plants and rain feed each other, so a slow push can end in a fast fall",
+        "source": "deMenocal et al. 2000; Shanahan et al. 2015"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Later studies made the picture more complicated. A 2015 study that brought together records from all over Africa found that the end came at different times in different places. At about twenty degrees north it came around five thousand years ago. Much further south, at Lake Bosumtwi in Ghana, the wet period lasted until about three thousand years ago. The rains did not switch off. They retreated south, and each place dried in its turn. They are still fragile today. In the 1970s and 1980s a long run of droughts brought famine to the Sahel, and Lake Chad shrank to a fraction of its size.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 12.0,
+           "span": 40
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A 2015 study that",
+       "stat": {
+        "value": "2015",
+        "label": "Shanahan et al.: the end came later the further south",
+        "source": "Nature Geoscience 2015"
+       }
+      },
+      {
+       "type": "map",
+       "at": "found that the end",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 10.75,
+           "lat": 8.3,
+           "span": 90.695
+          },
+          "places": [
+           {
+            "name": "Mauritania core",
+            "lon": -18.6,
+            "lat": 20.75,
+            "kind": "site",
+            "label": "Sea-floor core off Mauritania"
+           },
+           {
+            "name": "Lake Bosumtwi",
+            "lon": -1.41,
+            "lat": 6.5,
+            "kind": "site",
+            "label": "Lake Bosumtwi"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At about twenty degrees",
+       "stat": {
+        "value": "~5,000 YEARS AGO",
+        "label": "End of the wet period near 20° N",
+        "source": "Shanahan et al. 2015"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Much further south, at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -1.41,
+           "lat": 6.5,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Bosumtwi, a crater lake in Ghana"
+      },
+      {
+       "type": "photo",
+       "at": "the wet period lasted",
+       "photo": "File:Lake Bosumtwi, Ghana.jpg",
+       "on_screen_text": "Lake Bosumtwi, Ghana"
+      },
+      {
+       "type": "map",
+       "at": "The rains did not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.55,
+           "lat": 6.6,
+           "span": 67.609
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             -0.5,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4,
+            "label": "Today the rains stop near the Sahel"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             11.0,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4
+           }
+          ],
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and each place dried",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -1.0,
+           "lat": 10.0,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Savanna in northern Ghana"
+      },
+      {
+       "type": "stat",
+       "at": "In the 1970s and",
+       "stat": {
+        "value": "1970s-1980s",
+        "label": "Long droughts and famine in the Sahel",
+        "source": "General history"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and Lake Chad shrank",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.0,
+           "lat": 13.6,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dry northern basin of Lake Chad"
+      }
+     ]
+    },
+    {
+     "text": "The animals went the same way. Hippos, elephants and giraffes followed the water south, or died out. The herders' cattle needed grass, and the grass was going. Much later, in roughly the time of the Roman Empire, a new animal spread across the desert, one that could go for days without water: the camel. It is the last animal painted on the Tassili walls.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.0,
+           "lat": 12.0,
+           "span": 0.5
+          }
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 13.0,
+           "lat": 12.0,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Savanna on the Niger-Nigeria border, where the herds went"
+      },
+      {
+       "type": "map",
+       "at": "The herders' cattle needed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.5,
+           "lat": 14.0,
+           "span": 0.4
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Grazing land in the Sahel, Chad"
+      },
+      {
+       "type": "stat",
+       "at": "Much later, in roughly",
+       "stat": {
+        "value": "~2,000 YEARS AGO",
+        "label": "Camels become common in the Sahara, Roman era",
+        "source": "Britannica; Zerboni & Nicoll 2019"
+       }
+      },
+      {
+       "type": "map",
+       "at": "one that could go",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 8.9,
+           "lat": 24.9,
+           "span": 0.15
+          },
+          "date": "2023-10-01/2023-11-15"
+         },
+         {
+          "at": 54,
+          "view": {
+           "lon": 8.9,
+           "lat": 24.9,
+           "span": 0.093
+          },
+          "date": "2023-10-01/2023-11-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Tassili plateau today"
+      }
+     ]
+    },
+    {
+     "text": "For the people of the Sahara, that was enough. In 2006 two German archaeologists, Rudolph Kuper and Stefan Kröpelin, brought together radiocarbon dates from a hundred and fifty excavations across the eastern Sahara. They found people living across the region during the wet period, and then a sharp break in the Egyptian Sahara around 5300 BC. The herders left. One of the places they left behind is Nabta Playa, a dry lake bed in southern Egypt, where people set up a circle of standing stones about seven thousand years ago. Some researchers think it marked the summer solstice and the coming of the rains, though that reading is debated.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.0,
+           "lat": 21.6,
+           "span": 22.0
+          },
+          "places": [
+           {
+            "name": "Gilf Kebir",
+            "lon": 25.8,
+            "lat": 23.4,
+            "kind": "site",
+            "label": "Gilf Kebir"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 2006 two German",
+       "stat": {
+        "value": "150",
+        "label": "Excavations behind the eastern Sahara timeline",
+        "source": "Kuper & Kröpelin, Science 2006"
+       }
+      },
+      {
+       "type": "map",
+       "at": "brought together radiocarbon dates",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 29.0,
+           "lat": 24.0,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The desert west of the Nile"
+      },
+      {
+       "type": "map",
+       "at": "They found people living",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 28.0,
+           "lat": 22.5,
+           "span": 1.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The eastern Sahara on the Egypt-Sudan border"
+      },
+      {
+       "type": "stat",
+       "at": "and then a sharp",
+       "stat": {
+        "value": "~5300 BC",
+        "label": "Settlement in the Egyptian Sahara breaks off",
+        "source": "Kuper & Kröpelin, Science 2006"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The herders left.",
+       "photo": "File:Sand dunes in the desert, Sahara Desert, Dakhla Oasis, Egypt.jpg",
+       "on_screen_text": "Dunes of the Western Desert"
+      },
+      {
+       "type": "map",
+       "at": "One of the places",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 27.6,
+           "lat": 21.2,
+           "span": 16.4
+          },
+          "places": [
+           {
+            "name": "Nabta Playa",
+            "lon": 30.73,
+            "lat": 22.51,
+            "kind": "site",
+            "label": "Nabta Playa"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a dry lake bed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.73,
+           "lat": 22.51,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nabta Playa, southern Egypt"
+      },
+      {
+       "type": "stat",
+       "at": "where people set up",
+       "stat": {
+        "value": "~7,000 YEARS",
+        "label": "Age of the Nabta Playa stone circle",
+        "source": "Live Science; Wikipedia, Nabta Playa"
+       }
+      },
+      {
+       "type": "map",
+       "at": "about seven thousand years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.725,
+           "lat": 22.507,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Around the Nabta Playa stone circle"
+      },
+      {
+       "type": "stat",
+       "at": "Some researchers think it",
+       "stat": {
+        "value": "SOLSTICE?",
+        "label": "A proposed calendar for the summer rains (debated)",
+        "source": "Live Science; ICOMOS 2010"
+       }
+      },
+      {
+       "type": "map",
+       "at": "though that reading is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.68,
+           "lat": 22.45,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nabta basin today"
+      }
+     ]
+    },
+    {
+     "text": "Some moved south with the rains, into the Sahel. Many went east, to the one place in that region that still had water all year: the valley of the Nile. As the desert emptied, the Nile valley filled with farmers and herders. Kuper and Kröpelin argued that this crowding into a narrow river valley helped set the stage for the rise of pharaonic Egypt. The pyramids of Giza were built about two and a half thousand years later.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.45,
+           "lat": 13.4,
+           "span": 97.291
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             -0.5,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4,
+            "label": "Today the rains stop near the Sahel"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             11.0,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Many went east, to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.4,
+           "lat": 22.8,
+           "span": 23.6
+          },
+          "routes": [
+           {
+            "from": [
+             26.0,
+             23.0
+            ],
+            "to": [
+             31.0,
+             25.5
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "People move to the Nile"
+           },
+           {
+            "from": [
+             27.0,
+             18.0
+            ],
+            "to": [
+             32.5,
+             22.0
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5
+           }
+          ],
+          "places": [
+           {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04,
+            "kind": "city",
+            "label": "Cairo"
+           },
+           {
+            "name": "Aswan",
+            "lon": 32.9,
+            "lat": 24.09,
+            "kind": "city",
+            "label": "Aswan"
+           }
+          ]
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": 26.4,
+           "lat": 22.8,
+           "span": 17.7
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "As the desert emptied",
+       "photo": "File:Egypt’s Nile River stretches from Luxor to Cairo (iss073e0422271).jpg",
+       "on_screen_text": "The Nile valley from Luxor to Cairo at night"
+      },
+      {
+       "type": "map",
+       "at": "Kuper and Kröpelin argued",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.65,
+           "lat": 25.7,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": 32.65,
+           "lat": 25.7,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland in the Nile valley at Luxor"
+      },
+      {
+       "type": "map",
+       "at": "The pyramids of Giza",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.13,
+           "lat": 29.98,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The pyramids of Giza"
+      },
+      {
+       "type": "stat",
+       "at": "built about two and",
+       "stat": {
+        "value": "~2500 BC",
+        "label": "The Great Pyramid of Giza is built",
+        "source": "Wikipedia, Great Pyramid of Giza"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What the Green Left",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "The green Sahara left more than paintings. Every year the winds lift dust off the Sahara and carry it across the Atlantic. A 2015 NASA study used a satellite laser to measure it. About twenty-seven million tons of that dust fall on the Amazon rainforest every year. Much of it comes from the Bodélé, the floor of Lake Mega-Chad. Some of the dust blows north instead, and every few years it turns the skies over Spain and the Alps orange.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Saharan Dust over the Caribbean and South America (MODIS 2022-06-09).jpg",
+       "on_screen_text": "Saharan dust reaching the Caribbean and South America"
+      },
+      {
+       "type": "map",
+       "at": "Every year the winds",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -20.0,
+           "lat": 8.0,
+           "span": 110
+          },
+          "routes": [
+           {
+            "from": [
+             17.6,
+             16.9
+            ],
+            "via": [
+             [
+              0.0,
+              17.0
+             ],
+             [
+              -30.0,
+              12.0
+             ]
+            ],
+            "to": [
+             -58.0,
+             -2.0
+            ],
+            "mode": "air",
+            "color": "accent",
+            "seconds": 2.2,
+            "label": "Dust to the Amazon"
+           }
+          ],
+          "places": [
+           {
+            "name": "Bodélé Depression",
+            "lon": 17.6,
+            "lat": 16.9,
+            "kind": "site",
+            "label": "Bodélé Depression"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A 2015 NASA study",
+       "stat": {
+        "value": "CALIPSO",
+        "label": "NASA's lidar satellite measured the dust, 2007-2013",
+        "source": "Yu et al., Geophysical Research Letters 2015"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "About twenty-seven million tons",
+       "stat": {
+        "value": "27.7 M TONS",
+        "label": "Saharan dust settling on the Amazon each year",
+        "source": "Yu et al., Geophysical Research Letters 2015"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Much of it comes",
+       "photo": "File:Dust storms from Bodélé Depression, Chad (MODIS 2017-12-29).jpg",
+       "on_screen_text": "Dust blowing off the Bodélé"
+      },
+      {
+       "type": "map",
+       "at": "Some of the dust",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 38.0,
+           "span": 40
+          },
+          "routes": [
+           {
+            "from": [
+             5.0,
+             25.0
+            ],
+            "to": [
+             5.0,
+             45.0
+            ],
+            "mode": "air",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Dust to Europe"
+           }
+          ]
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": 5.0,
+           "lat": 38.0,
+           "span": 30.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "That dust carries phosphorus, from the old lake's fish and algae. Amazon soils are poor in phosphorus, and rain keeps washing it away. The study estimated that about twenty-two thousand tons of phosphorus arrive from Africa each year, close to what the rainforest loses. A dead lake in the Sahara helps feed the largest rainforest on Earth.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "PHOSPHORUS",
+        "label": "A nutrient the Amazon is short of",
+        "source": "Yu et al., Geophysical Research Letters 2015"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Amazon soils are poor",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -60.0,
+           "lat": -3.0,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Amazon rainforest near Manaus"
+      },
+      {
+       "type": "map",
+       "at": "and rain keeps washing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -59.5,
+           "lat": -3.2,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rainforest and river near Manaus"
+      },
+      {
+       "type": "stat",
+       "at": "The study estimated that",
+       "stat": {
+        "value": "~22,000 TONS",
+        "label": "Phosphorus reaching the Amazon from Saharan dust each year",
+        "source": "Yu et al., Geophysical Research Letters 2015"
+       }
+      },
+      {
+       "type": "map",
+       "at": "close to what the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -60.5,
+           "lat": -2.8,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Rio Negro near Manaus"
+      },
+      {
+       "type": "map",
+       "at": "A dead lake in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -61.0,
+           "lat": -2.5,
+           "span": 0.12
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rainforest canopy, central Amazon"
+      }
+     ]
+    },
+    {
+     "text": "The green Sahara also left water under the sand. Beneath Egypt, Libya, Sudan and Chad lies one of the largest groundwater systems in the world, the Nubian Sandstone Aquifer. Much of its water fell as rain during wet periods thousands to hundreds of thousands of years ago, and very little is being added today. In the Egyptian desert, farms pump that ancient water into green circles in the sand.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 28.4,
+           "lat": 22.0,
+           "span": 19.0
+          },
+          "places": [
+           {
+            "name": "East Oweinat",
+            "lon": 28.6,
+            "lat": 22.6,
+            "kind": "site",
+            "label": "East Oweinat farms"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Beneath Egypt, Libya, Sudan",
+       "stat": {
+        "value": "~2 M KM²",
+        "label": "Area of the Nubian Sandstone Aquifer",
+        "source": "Wikipedia, Fossil water"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Nubian Sandstone Aquifer",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.6,
+           "lat": 22.0,
+           "span": 17.2
+          },
+          "highlight": [
+           "Egypt@accent",
+           "Libya@accent",
+           "Sudan@accent",
+           "Chad@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Much of its water",
+       "stat": {
+        "value": "FOSSIL WATER",
+        "label": "Much of it thousands to hundreds of thousands of years old",
+        "source": "Wikipedia, Fossil water; J. Hydrology 2020"
+       }
+      },
+      {
+       "type": "map",
+       "at": "thousands to hundreds of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 24.0,
+           "lat": 24.0,
+           "span": 1.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sand sheet over the aquifer, western Egypt"
+      },
+      {
+       "type": "map",
+       "at": "and very little is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.55,
+           "lat": 25.45,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kharga Oasis, Egypt, fed by the aquifer"
+      },
+      {
+       "type": "map",
+       "at": "In the Egyptian desert",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 28.6,
+           "lat": 22.6,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Irrigated circles at East Oweinat, Egypt"
+      },
+      {
+       "type": "map",
+       "at": "farms pump that ancient",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 28.55,
+           "lat": 22.55,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Center-pivot fields in the Sahara"
+      }
+     ]
+    },
+    {
+     "text": "At the southern edge of the desert, people are trying to hold the line. In 2007 the African Union launched the Great Green Wall, a plan to restore a belt of trees, grass and farmland about eight thousand kilometers long, from Senegal to Djibouti. Progress has been slow and patchy. But in places, farmers who protect the trees that sprout on their fields have turned bare ground green again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.95,
+           "lat": 10.0,
+           "span": 78.328
+          },
+          "highlight": [
+           "Senegal@accent",
+           "Mauritania@accent",
+           "Mali@accent",
+           "Niger@accent",
+           "Chad@accent",
+           "Sudan@accent",
+           "Ethiopia@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 2007 the African",
+       "stat": {
+        "value": "2007",
+        "label": "The African Union launches the Great Green Wall",
+        "source": "African Union; UNCCD"
+       }
+      },
+      {
+       "type": "map",
+       "at": "a plan to restore",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -15.5,
+           "lat": 15.0,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Sahel in Senegal"
+      },
+      {
+       "type": "stat",
+       "at": "about eight thousand kilometers",
+       "stat": {
+        "value": "~8,000 KM",
+        "label": "Length of the planned Great Green Wall",
+        "source": "UNCCD"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Progress has been slow",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 7.5,
+           "lat": 13.6,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland with trees, southern Niger"
+      },
+      {
+       "type": "map",
+       "at": "farmers who protect the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 7.9,
+           "lat": 13.5,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trees kept in the fields of Niger's Zinder region"
+      }
+     ]
+    },
+    {
+     "text": "Will the Sahara turn green again by itself? If the wobble keeps its rhythm, the next peak of northern summer sun comes in about ten thousand years. How green the next green Sahara becomes may depend on how much greenhouse gas is in the air by then. And in 2018 one study suggested a shortcut: in a computer model, covering the Sahara with huge wind and solar farms more than doubled its rainfall, because the panels and turbines change how the land heats and the wind blows. Nobody has tried it at that scale.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.05,
+           "lat": 10.0,
+           "span": 70.907
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the next peak of",
+       "stat": {
+        "value": "~10,000 YEARS",
+        "label": "Until the next peak of northern summer sun",
+        "source": "Live Science; Duque-Villegas et al. 2022"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "How green the next",
+       "photo": "File:ISS-64 Sahara Desert, Algeria.jpg",
+       "on_screen_text": "Dunes of the Algerian Sahara from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "how much greenhouse gas",
+       "stat": {
+        "value": "GREENHOUSE GAS",
+        "label": "In models, future green periods depend on the CO₂ in the air",
+        "source": "Duque-Villegas et al., Climate of the Past 2022"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "And in 2018 one",
+       "stat": {
+        "value": "×2 RAIN",
+        "label": "Sahara rainfall in a model with vast wind and solar farms",
+        "source": "Li et al., Science 2018"
+       }
+      },
+      {
+       "type": "map",
+       "at": "covering the Sahara with",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.86,
+           "lat": 31.0,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Noor Ouarzazate solar complex, Morocco"
+      },
+      {
+       "type": "map",
+       "at": "because the panels and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.87,
+           "lat": 31.01,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mirrors of Noor Ouarzazate"
+      },
+      {
+       "type": "photo",
+       "at": "Nobody has tried it",
+       "photo": "File:Erg chebbi sunrise.jpg",
+       "on_screen_text": "Erg Chebbi, Morocco"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Green Under the Sand",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So the next time you see the Sahara on a map, remember that it has not always been this way. Ten thousand years ago it held a lake the size of the Caspian, rivers that ran toward the Nile, hippos and fishers and herds of cattle. A slow wobble of the Earth brought the rain, and a slow wobble took it away. The paintings, the bones, the crocodiles of Archei and the dust over the Atlantic are what is left. And the next time a dust storm turns a European sky orange, some of that dust may once have been the bottom of a lake. Five thousand years is a blink for a planet. The people who painted cattle on the rocks of the Sahara lived not long before the first pharaohs.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 14.25,
+           "span": 87.397
+          },
+          "highlight": [
+           "file:sahara.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "remember that it has",
+       "photo": "File:ISS-66 Sahara Desert, Algeria (2).jpg",
+       "on_screen_text": "The Sahara from the space station"
+      },
+      {
+       "type": "map",
+       "at": "Ten thousand years ago",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 10.32,
+           "lat": 23.24,
+           "span": 66.08
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "rivers that ran toward",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.5,
+           "lat": 17.3,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wadi Howar, the Yellow Nile"
+      },
+      {
+       "type": "photo",
+       "at": "hippos and fishers and",
+       "photo": "File:Tassili Desert Algeria.jpg",
+       "on_screen_text": "The Tassili n'Ajjer, where the herds were painted"
+      },
+      {
+       "type": "map",
+       "at": "A slow wobble of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 5.75,
+           "span": 64.311
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             2.0,
+             19.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6,
+            "label": "Monsoon rains push north"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             14.0,
+             20.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and a slow wobble",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.25,
+           "lat": 11.7,
+           "span": 71.979
+          },
+          "routes": [
+           {
+            "from": [
+             -2.0,
+             4.0
+            ],
+            "to": [
+             -0.5,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4,
+            "label": "Today the rains stop near the Sahel"
+           },
+           {
+            "from": [
+             10.0,
+             4.0
+            ],
+            "to": [
+             11.0,
+             12.0
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.4
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The paintings, the bones",
+       "photo": "File:ISS-64 Sahara Desert, Ounianga, Chad.jpg",
+       "on_screen_text": "The Ounianga region from the space station"
+      },
+      {
+       "type": "photo",
+       "at": "and the dust over",
+       "photo": "File:Saharan Dust over the Atlantic (MODIS).jpg",
+       "on_screen_text": "Saharan dust over the Atlantic"
+      },
+      {
+       "type": "map",
+       "at": "And the next time",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 38.0,
+           "span": 42
+          },
+          "routes": [
+           {
+            "from": [
+             8.0,
+             24.0
+            ],
+            "to": [
+             3.0,
+             44.0
+            ],
+            "mode": "air",
+            "color": "accent",
+            "seconds": 1.5
+           }
+          ]
+         },
+         {
+          "at": 92,
+          "view": {
+           "lon": 5.0,
+           "lat": 38.0,
+           "span": 31.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Five thousand years is",
+       "stat": {
+        "value": "~5,000 YEARS",
+        "label": "Since the green Sahara ended in the north",
+        "source": "deMenocal et al. 2000; Shanahan et al. 2015"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The people who painted",
+       "photo": "File:Central sahara lrg.jpg",
+       "on_screen_text": "The central Sahara from orbit"
+      },
+      {
+       "type": "map",
+       "at": "not long before the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.13,
+           "lat": 29.98,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Giza"
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If you could visit the green Sahara for one day, ten thousand years ago, where would you go: fishing on Lake Mega-Chad, along the Yellow Nile with the herders, or to the painters at Tassili?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Ennedi Massif in Northern Chad (iss072e404551).jpg",
+       "on_screen_text": "The Ennedi massif, Chad, from the space station"
+      },
+      {
+       "type": "map",
+       "at": "ten thousand years ago,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.2,
+           "lat": 17.5,
+           "span": 0.8
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The old shore of Mega-Chad"
+      },
+      {
+       "type": "map",
+       "at": "where would you go",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.92,
+           "lat": 21.0,
+           "span": 53.2
+          },
+          "highlight": [
+           "file:megachad.geojson@blue"
+          ],
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ],
+          "places": [
+           {
+            "name": "Tassili n'Ajjer",
+            "lon": 8.5,
+            "lat": 25.0,
+            "kind": "site",
+            "label": "Tassili n'Ajjer"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "along the Yellow Nile",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 27.0,
+           "lat": 23.0,
+           "span": 21.2
+          },
+          "routes": [
+           {
+            "from": [
+             22.8,
+             15.8
+            ],
+            "via": [
+             [
+              25.0,
+              16.6
+             ],
+             [
+              27.5,
+              17.2
+             ],
+             [
+              29.5,
+              17.8
+             ]
+            ],
+            "to": [
+             31.8,
+             18.4
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 2.0,
+            "label": "Wadi Howar, the 'Yellow Nile' (approximate)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "or to the painters",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 8.6,
+           "lat": 24.8,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tassili n'Ajjer"
+      }
+     ],
+     "ask": {
+      "at": "where would you go",
+      "text": "Mega-Chad, the Yellow Nile, or Tassili?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "When the Sahara Was Green",
+  "description": "About ten thousand years ago the Sahara was not a desert. It had lakes, one of them the size of the Caspian Sea, rivers flowing toward the Nile, hippos, crocodiles, fishers and cattle herders. This video follows the clues in the rock art, the graves and the dry riverbeds, explains how a slow wobble of the Earth brought the monsoon rains north and then took them away, and shows what the green Sahara left behind: dust that feeds the Amazon and ancient water under the sand.",
+  "tags": [
+   "Sahara",
+   "green Sahara",
+   "African Humid Period",
+   "Lake Mega-Chad",
+   "Lake Chad",
+   "Bodélé Depression",
+   "Cave of Swimmers",
+   "Tassili n'Ajjer",
+   "Gobero",
+   "Saharan dust Amazon",
+   "precession",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you could visit the green Sahara for one day, ten thousand years ago, where would you go: fishing on Lake Mega-Chad, along the Yellow Nile with the herders, or to the painters at Tassili?"
+ }
+}

@@ -798,3 +798,6 @@ Each sub-phase stops for user approval.
   cells <320 m connected to Lake Chad, ~331,000 km2; 325 m spills south) and sahara.geojson (Natural Earth).
   cover.json done ("A SEA IN THE / SAHARA?", Mega-Chad red). Photo search running into scratchpad/gs.
   NEXT: photo QC, build_script like mediterranean-dried, checks, storyboard, render, audit, upload 2026-11-21T23:00Z.
+- 2026-11-16: Green Sahara build_script.py written (2,745 words, 252 shots, episode_check OK at 17.3 min), research
+  additions, factcheck.md filled (rules in scratchpad gsfact.py). NEXT: storyboard, review, render, audit, upload
+  publishAt 2026-11-21T23:00:00Z.

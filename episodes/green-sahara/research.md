@@ -55,3 +55,24 @@ Episode-plan step 1:
   its rainfall in a model (largest in the Sahel); local effect.
 - TODO: Sahara area (Wikipedia ~9.2 M km2); hippo/crocodile evidence (rock art + fossils); Nubian Sandstone Aquifer
   fossil water age; next humid period timing; Ounianga lakes (UNESCO 2012); PD photos.
+
+## Facts added 2026-11-16 (A)
+- Sahara about 9.2 M km2, the largest hot desert (Wikipedia; Geographical). Natural Earth label polygon is larger
+  (~10.6 M km2): paint it, never quote its area.
+- Hippo and crocodile remains reported at sites now far from water (Libya, Egypt, Niger) (popular sources; say "hippo
+  and crocodile bones" without a distance). Rock art (Bubalus period) shows buffalo, elephant, rhino, hippo (Penn State).
+- Nubian Sandstone Aquifer: ~2 M km2 under Egypt, Libya, Sudan, Chad; water ages ~4,000-20,000 years in places and up
+  to hundreds of thousands deeper (81Kr 40,000-630,000 years, J. Hydrol. 2020); recharged in several humid episodes;
+  little recharge today (Wikipedia, Fossil water). Volume: TODO or omit.
+- Next green Sahara: next northern summer insolation maximum about 10,000 years from now (Live Science); strength
+  depends on future greenhouse gases (Duque-Villegas et al. 2022 Clim. Past).
+- Mega-Chad map: our ETOPO fill below 320 m gives ~331,000 km2 (own; make_regions.py).
+- Drake & Bristow 2006 The Holocene "Shorelines in the Sahara": Landsat + SRTM mapped Megachad shorelines; beach
+  terrace at 329 m (Hebil); peak before 7,000 years ago >173 m deep, >=400,000 km2 (their estimate). Others: 325 +- 5 m.
+- Sand sheets and dunes ~25 % of the Sahara (Britannica; some say 1/8): say "only a fraction" or "about a quarter".
+- Camel: common in the Sahara from about the early centuries AD (Roman era) (Britannica; Zerboni & Nicoll 2019).
+- Guelta d'Archei (Ennedi, Chad): relict West African crocodiles, ~7-10 animals (George 1999; de Smet; IUCN outlook),
+  isolated a few thousand years since the river network drained.
+- Ounianga lakes (Chad): UNESCO 2012, 18 lakes fed by fossil groundwater (general, UNESCO page); Great Green Wall:
+  African Union initiative launched 2007, ~8,000 km across the Sahel (general).
+- Almásy portrayed in The English Patient (Ondaatje novel 1992, film 1996), which shows the Cave of Swimmers (general).

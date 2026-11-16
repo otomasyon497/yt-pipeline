@@ -791,3 +791,6 @@ Each sub-phase stops for user approval.
 - 2026-11-16: Mediterranean UPLOADED: TXF3-pYORUs, private, publishAt 2026-11-20T23:00:00Z (21 Nov 02:00 TR),
   15:41, cover set. Frame audit approved (32 sheets), audio peak -0.8 dBFS. Release/artifacts deleted.
   Pin the comment by hand in Studio.
+- 2026-11-16: 22 Nov topic = "When the Sahara Was Green" (African Humid Period), chosen by the user from
+  docs/topic-candidates-2026-11-22.md. NEXT: research (AHP timing ~11-5 ka, Mega-Chad, Gobero, Wadi Howar, Tassili
+  rock art / Cave of Swimmers, orbital precession + monsoon, abrupt vs gradual end, dust to the Amazon), gate-1 outline.

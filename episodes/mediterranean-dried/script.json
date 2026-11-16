@@ -733,7 +733,7 @@
      ]
     },
     {
-     "text": "The Dead Sea, between Israel and Jordan, shows what that looks like today. Its shore is the lowest dry land on Earth, more than four hundred meters below sea level, and its water is so salty that salt crystals grow on the bottom and along the shore. It is also shrinking, by around a meter a year, because more water evaporates than flows in.",
+     "text": "The Dead Sea, between Israel and Jordan, shows what that looks like today. Its shore is the lowest dry land on Earth, more than four hundred meters below sea level, and its water is so salty that swimmers float on it without trying, and salt crystals grow on the bottom and along the shore. It is also shrinking, by around a meter a year, because more water evaporates than flows in.",
      "shots": [
       {
        "type": "map",
@@ -776,6 +776,23 @@
         "label": "The Dead Sea shore: the lowest dry land on Earth",
         "source": "Wikipedia, Dead Sea"
        }
+      },
+      {
+       "type": "map",
+       "at": "swimmers float on it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.58,
+           "lat": 31.75,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Beaches on the Dead Sea's northern shore"
       },
       {
        "type": "map",
@@ -1243,7 +1260,91 @@
      ]
     },
     {
-     "text": "Six million years ago there was no Strait of Gibraltar. The Mediterranean was joined to the Atlantic through narrow seaways across what are now southern Spain and northern Morocco. And Africa was, as it still is, pushing slowly north into Europe. As the plates squeezed together, the land around those seaways rose. At the same time, ice was growing at the poles, and sea level around the world was falling.",
+     "text": "That inflow is not small. On average, about eight hundred thousand cubic meters of Atlantic water pour through the strait every second. That is roughly four times the flow of the Amazon, just to keep the Mediterranean topped up and stop it from getting saltier.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.5,
+           "lat": 36.0,
+           "span": 1.6
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "to": [
+             -3.0,
+             36.1
+            ],
+            "mode": "sea",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Atlantic water flows in"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about eight hundred thousand",
+       "stat": {
+        "value": "~810,000 M³/S",
+        "label": "Average Atlantic inflow through the Strait of Gibraltar",
+        "source": "Soto-Navarro et al., JGR 2010"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "That is roughly four",
+       "chart": {
+        "type": "bar",
+        "title": "Atlantic inflow at Gibraltar against the Amazon",
+        "unit": "m³/s",
+        "data": [
+         [
+          "Gibraltar inflow",
+          810000
+         ],
+         [
+          "Amazon (average)",
+          209000
+         ]
+        ],
+        "source": "Soto-Navarro et al. 2010; Amazon average flow",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "just to keep the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.4,
+           "lat": 36.0,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ships in the Strait of Gibraltar"
+      }
+     ]
+    },
+    {
+     "text": "Six million years ago there was no Strait of Gibraltar. The Mediterranean was joined to the Atlantic through narrow seaways across what are now southern Spain and northern Morocco. And Africa was, as it still is, pushing slowly north into Europe. As the plates squeezed together, the land around those seaways rose. At the same time, ice was growing at the poles, and sea level around the world was falling. Today the old Betic seaway is dry land: the city of Granada stands on rocks that were once the floor of that channel.",
      "shots": [
       {
        "type": "map",
@@ -1438,6 +1539,31 @@
        "at": "and sea level around",
        "photo": "File:ISS035-E-007148 Nile - Sinai - Dead Sea - Wide Angle View.jpg",
        "on_screen_text": "The eastern Mediterranean from the space station"
+      },
+      {
+       "type": "map",
+       "at": "Today the old Betic",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.6,
+           "lat": 37.18,
+           "span": 0.08
+          }
+         },
+         {
+          "at": 81,
+          "view": {
+           "lon": -3.6,
+           "lat": 37.18,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Granada, built on the floor of the old seaway"
       }
      ]
     },
@@ -2396,7 +2522,7 @@
      ]
     },
     {
-     "text": "The Nile is not alone. Under the Rhône valley in France lies another buried canyon, hundreds of meters deep, found by drilling. Rivers elsewhere around the sea have them too. Each one is a record of how far down the sea went.",
+     "text": "The Nile is not alone. Under the Rhône valley in France lies another buried canyon, hundreds of meters deep, found by drilling. Rivers elsewhere around the sea have them too. Each one is a record of how far down the sea went. Out under the sea itself, seismic surveys show the same story: a wide erosion surface, cut by rivers and waves into the slopes that lay bare before the water came back. And the rivers had time. The isolated phase lasted roughly two hundred and sixty thousand years.",
      "shots": [
       {
        "type": "map",
@@ -2489,6 +2615,77 @@
          }
         ],
         "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Out under the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 41.5,
+           "span": 12
+          },
+          "highlight": [
+           "seafloor:mediterranean:1000@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "a wide erosion surface",
+       "stat": {
+        "value": "EROSION SURFACE",
+        "label": "Seismic surveys trace a surface cut into the bare slopes",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "into the slopes that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.2,
+           "lat": 41.9,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Costa Brava, Spain"
+      },
+      {
+       "type": "map",
+       "at": "And the rivers had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.89,
+           "lat": 24.08,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nile at Aswan"
+      },
+      {
+       "type": "stat",
+       "at": "The isolated phase lasted",
+       "stat": {
+        "value": "~260,000 YEARS",
+        "label": "From 5.59 to 5.33 million years ago (our calculation)",
+        "source": "Wikipedia, Messinian salinity crisis"
        }
       }
      ]
@@ -3347,7 +3544,7 @@
    "mood": "calm",
    "paragraphs": [
     {
-     "text": "The salt is still there. Under the floor of the Mediterranean it lies buried beneath younger mud, and its age is named after Messina too: the Messinian. In Sicily, where the land has been pushed up since, the same salt is mined. At Realmonte, near Agrigento, miners dig rock salt that was laid down when the sea dried out.",
+     "text": "The salt is still there. Under the floor of the Mediterranean it lies buried beneath younger mud, and its age is named after Messina too: the Messinian. In Sicily, where the land has been pushed up since, the same salt is mined. At Realmonte, near Agrigento, miners dig rock salt that was laid down when the sea dried out. Sicily is one of the few places where you can touch the crisis on dry land, because the movement of the plates lifted its salt and gypsum above the sea.",
      "shots": [
       {
        "type": "map",
@@ -3449,6 +3646,31 @@
         "cut": true
        },
        "on_screen_text": "The Realmonte salt mine"
+      },
+      {
+       "type": "map",
+       "at": "Sicily is one of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.75,
+           "lat": 37.45,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 74,
+          "view": {
+           "lon": 13.75,
+           "lat": 37.45,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gypsum hills of the Platani valley, Sicily"
       }
      ]
     },

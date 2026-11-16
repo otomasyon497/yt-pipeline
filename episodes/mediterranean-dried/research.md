@@ -74,3 +74,6 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" && git push -q; echo ok
 - Leviathan (off Israel) announced 30 Dec 2010 by Noble Energy; subsalt Miocene sands sealed by Messinian salt
   (Wikipedia, Leviathan gas field; AAPG Explorer). A.
 - Africa-Europe convergence a few mm a year in the western Mediterranean (general plate models). A.
+- Atlantic inflow at Gibraltar 0.81 +- 0.06 Sv (Soto-Navarro et al. 2010, JGR 115:C10023); 810,000 / 209,000 = about
+  3.9 Amazons (O). Granada basin was part of the Betic seaway (general). Messinian erosion surface on the margins
+  (seismic; Wikipedia, MSC). Isolated phase 5.59-5.33 Ma = about 260,000 years (O). Dead Sea: swimmers float (general).

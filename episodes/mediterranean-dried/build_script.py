@@ -297,7 +297,7 @@ chapters = [
           m("ancestor of today's Black", v({"lon": 42.0, "lat": 43.5, "span": 24}, places=[place("Black Sea", 34.0, 43.3, kind="site"), place("Caspian Sea", 50.5, 42.0, kind="site")])),
           photo("Geologists call this phase", PH_CABO_ROCK, "Rocks of Cabo de Gata, Spain"),
           m("For a while, the", v(MED, highlight=[dry(1500)]))),
-        P("How far did it fall? On this map, the red is the sea floor that would lie bare if the Mediterranean dropped two hundred meters. At one and a half kilometers, the sea splits into separate salty lakes, west and east, and the Adriatic is gone entirely. Some geologists think parts of the basin fell even further. Others think the drop was smaller. We will come back to that, because the best evidence is buried under a river.",
+        P("How far did it fall? On this map, the red is the sea floor that would lie bare if the Mediterranean dropped two hundred meters. At one and a half kilometers, the sea splits into separate salty lakes, and the Adriatic is gone entirely. Some geologists think parts of the basin fell even further. Others think the drop was smaller. We will come back to that, because the best evidence is buried under a river.",
           m(0, v(MED)),
           m("On this map, the", v(MED, highlight=[dry(200)])),
           m("would lie bare if", v({"lon": 5.0, "lat": 42.0, "span": 14}, highlight=[dry(200)])),

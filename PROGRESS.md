@@ -779,3 +779,8 @@ Each sub-phase stops for user approval.
   "seafloor:mediterranean:1500@red" in maps. NEXT: photo search (Glomar Challenger, Gibraltar, Realmonte salt mine,
   Nile delta ISS, Messinian gypsum Sicily/Spain), build_script like mongolia-empty.
 - 2026-11-15: Mediterranean photo search done; passing list in scratchpad/md_ok.txt (re-run q2 if scratchpad lost).
+- 2026-11-16: Mediterranean build_script.py written (2,681 words, 231 shots, episode_check OK at about 16.9 min),
+  research.md additions, factcheck.md filled (no FIX rows), cover.json (seafloor:mediterranean:1500 red, arrow to
+  Gibraltar, "DRIED UP?"). tools/cover_map.py accepts {"seafloor": "basin:m"}. bathy.exposed fixed: parts of a basin
+  that stay deeper than the new level stay wet as separate lakes (before, only water connected to the seed counted;
+  caspian -20 m unchanged). NEXT: storyboard, review, full render, audit, upload publishAt 2026-11-20T23:00:00Z.

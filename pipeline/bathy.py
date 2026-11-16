@@ -107,7 +107,10 @@ def exposed(basin: str, drop: float):
         z = z.copy()
         z[max(0, round((r0 - south) * 60)):round((r1 - south) * 60), max(0, round((c0 - west) * 60)):round((c1 - west) * 60)] = 9999
     seed = (int((slat - south) * 60), int((slon - west) * 60))
-    gone = _connected(z < level, seed) & ~_connected(z < level - drop, seed)
+    # the basin is everything below today's level that connects to the seed; when it falls, every part of it that is
+    # still deeper than the new level stays wet, as separate lakes if the sills between them fall dry
+    basin_now = _connected(z < level, seed)
+    gone = basin_now & ~(z < level - drop)
     if not gone.any():
         raise ValueError(f"seafloor:{basin}:{drop:g} exposes nothing")
     north = south + z.shape[0] / 60

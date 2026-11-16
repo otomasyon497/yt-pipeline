@@ -1,0 +1,5 @@
+{"view": {"lon": 15.5, "lat": 38.0, "span": 46},
+ "subject": [{"seafloor": "mediterranean:1500"}],
+ "text": [{"t": "DRIED", "style": "white"}, {"t": "UP?", "style": "red"}],
+ "text_at": [0.04, 0.06], "text_size": 130,
+ "arrow": {"to": [-5.6, 35.95], "from": [0.2, 0.62], "bend": -0.3}}

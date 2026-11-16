@@ -9,7 +9,7 @@ say where. Land is the channel's amber, the sea its navy, so the template stays 
 
 cover.json:
     {"view": {"lon": -90.4, "lat": 29.6, "span": 6.0},          # span = degrees of longitude across the picture
-     "subject": [{"admin1": "Louisiana"}, {"country": "Egypt"}, {"lake": "Aral Sea"}, {"box": [lon0, lat0, lon1, lat1]}, {"file": "x.geojson"},
+     "subject": [{"admin1": "Louisiana"}, {"country": "Egypt"}, {"lake": "Aral Sea"}, {"box": [lon0, lat0, lon1, lat1]}, {"file": "x.geojson"}, {"seafloor": "mediterranean:1500"},
                  {"circle": [lon, lat, km]}, {"polygon": [[lon, lat], ...]}, {"line": [[lon, lat], ...], "km": 12}],
      "clip": "land" | "sea" | null,                             # keep only the subject's land (a coast strip) or sea part
      "text": [{"t": "RUNNING", "style": "white"}, {"t": "DRY", "style": "red"}],
@@ -124,6 +124,10 @@ def shape_of(item: dict, frame: Frame):
         return hit[1]
     if "lake" in item:
         return _lake(item["lake"])
+    if "seafloor" in item:  # {"seafloor": "mediterranean:1500"}: the bed a sea loses if it falls that far (pipeline/bathy.py)
+        import bathy
+        basin, metres = item["seafloor"].split(":")
+        return bathy.exposed(basin, float(metres))
     if "box" in item:
         return shp_box(*item["box"])
     if "polygon" in item:

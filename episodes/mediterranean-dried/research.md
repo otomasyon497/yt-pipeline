@@ -48,3 +48,29 @@ Episode-plan step 1:
 <parameter name="command">cd /c/projeler/yt-pipeline && grep -n "BASINS" -A12 pipeline/bathy.py | grep -i -E "med|basins =" | head -5; git add episodes/mediterranean-dried && git commit -qm "Mediterranean: research and gate-1 outline
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" && git push -q; echo ok
+## Facts added while writing the script (2026-11-16; A = search summary, O = own)
+- Mediterranean: about 2.5 M km2, mean depth about 1,500 m, Calypso Deep 5,267 m, salinity about 38 g/kg vs Atlantic
+  about 36; more than 20 coastal states (Wikipedia, Mediterranean Sea). Strait of Gibraltar about 14 km wide at its
+  narrowest, Camarinal Sill about 300 m (Wikipedia, Strait of Gibraltar). A.
+- Cut off today it would mostly evaporate in about 1,000 years (Wikipedia, Messinian salinity crisis; Cosmos;
+  Big Think). A.
+- Seaways before Gibraltar: Betic (southern Spain) and Rifian (northern Morocco) corridors; tectonic uplift plus
+  glacial sea-level fall (Wikipedia, MSC). Gypsum cycles tied to precession (~21 kyr) dated the onset (Krijgsman 1999). A.
+- Leg 13 finds: gypsum, halite, stromatolite-like laminae, "chicken-wire" anhydrite like Abu Dhabi sabkhas; Pliocene
+  open-marine ooze directly on the evaporites; rival deep-basin brine model (Hsü 1983 book, Princeton). A.
+- Lago Mare: last stage with brackish Paratethys fauna (Wikipedia, MSC). A.
+- Dead Sea shore about -430 m, level falling about 1 m a year (Wikipedia, Dead Sea). Lake Assal about -155 m. A.
+- Dry-adiabatic warming about 1 C per 100 m; a floor 1 km down about 10 C warmer (O). Death Valley 56.7 C, 1913 (WMO). A.
+- Aswan: Chumakov (1960s) found a buried gorge with marine Pliocene sediments (Wikipedia, MSC). Pliocene sea entered
+  the Nile canyon up to about Aswan (follows from the marine sediments there). A.
+- Grand Canyon about 1.8 km deep (NPS). Amazon mean discharge about 209,000 m3/s; 10^8 / 209,000 = about 480 (O).
+- Micallef et al. 2018 Sci Rep: chaotic flood deposit at the foot of the Malta Escarpment. Micallef et al. 2024
+  Commun. Earth Environ. 5:794 "Land-to-sea indicators of the Zanclean megaflood": 300+ streamlined ridges across the
+  Sicily Sill, channel to the Noto Canyon (geo3bcn.csic.es, eprints.soton.ac.uk/497621). A.
+- Zanclean (Zancle = ancient Messina) is the first stage of the Pliocene, base 5.333 Ma; Messinian named after Messina
+  (ICS). Realmonte mine near Agrigento works Messinian halite. A.
+- Sicily's sulfur (Messinian Gessoso-Solfifera rocks) was about 95 % of world output in the 1800s; boys (carusi) did
+  much of the hauling (Wikipedia, Carusu; Franchetti-Sonnino 1876). A.
+- Leviathan (off Israel) announced 30 Dec 2010 by Noble Energy; subsalt Miocene sands sealed by Messinian salt
+  (Wikipedia, Leviathan gas field; AAPG Explorer). A.
+- Africa-Europe convergence a few mm a year in the western Mediterranean (general plate models). A.

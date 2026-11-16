@@ -1,0 +1,4168 @@
+{
+ "title": "How the Mediterranean Sea Dried Up",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/mediterranean-dried/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "DRIED UP?"
+ },
+ "chapters": [
+  {
+   "title": "A Sea of Salt",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Mediterranean is one of the most familiar seas on Earth. It covers about two and a half million square kilometers, and more than twenty countries have a coast on it. On average it is about one and a half kilometers deep, and in one trench off Greece it goes down more than five kilometers. Its only natural link to the open ocean is a gap about fourteen kilometers wide between Spain and Morocco, and only about three hundred meters deep at its shallowest point: the Strait of Gibraltar.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 38.0,
+           "span": 46
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It covers about two",
+       "photo": "File:Mediterranean Sea (MODIS 2019-04-04).jpg",
+       "on_screen_text": "The Mediterranean from orbit, April 2019"
+      },
+      {
+       "type": "stat",
+       "at": "two and a half million",
+       "stat": {
+        "value": "2.5 M KM²",
+        "label": "Area of the Mediterranean Sea",
+        "source": "Wikipedia, Mediterranean Sea"
+       }
+      },
+      {
+       "type": "map",
+       "at": "more than twenty countries",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 41.4
+          },
+          "highlight": [
+           "Spain@accent",
+           "France@accent",
+           "Italy@accent",
+           "Greece@accent",
+           "Turkey@accent",
+           "Egypt@accent",
+           "Libya@accent",
+           "Tunisia@accent",
+           "Algeria@accent",
+           "Morocco@accent",
+           "Croatia@accent",
+           "Albania@accent",
+           "Syria@accent",
+           "Lebanon@accent",
+           "Israel@accent",
+           "Cyprus@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On average it is",
+       "stat": {
+        "value": "~1,500 M",
+        "label": "Average depth of the Mediterranean",
+        "source": "Wikipedia, Mediterranean Sea"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and in one trench",
+       "stat": {
+        "value": "5,267 M",
+        "label": "Calypso Deep, off Greece: the Mediterranean's deepest point",
+        "source": "Wikipedia, Mediterranean Sea"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its only natural link",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.5,
+           "lat": 36.0,
+           "span": 3.2
+          },
+          "places": [
+           {
+            "name": "Gibraltar",
+            "lon": -5.35,
+            "lat": 36.14,
+            "kind": "city",
+            "label": "Gibraltar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "between Spain and Morocco",
+       "photo": "File:STS059-238-074 Strait of Gibraltar.jpg",
+       "on_screen_text": "The Strait of Gibraltar from the Space Shuttle"
+      },
+      {
+       "type": "stat",
+       "at": "and only about three",
+       "stat": {
+        "value": "~300 M",
+        "label": "Depth of the Strait of Gibraltar at its shallowest point",
+        "source": "Wikipedia, Strait of Gibraltar"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Six million years ago, almost none of that water was there. The link to the Atlantic closed, the sea evaporated, and the floor of the Mediterranean became a vast basin of salt, in places perhaps more than a kilometer below the level of the ocean next door. Then the Atlantic broke back in and refilled it, perhaps in less than two years. We know this because of salt under the sea floor, canyons buried under the Nile, and a drill ship that pulled up something nobody expected.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 50.6
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the sea evaporated",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 37.72
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         },
+         {
+          "view": {
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 54.28
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ],
+          "at": "became a vast basin"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in places perhaps more",
+       "photo": "File:Dead Sea Halite Terraces and Salt Crust Formations 01.jpg",
+       "on_screen_text": "Salt crust at the Dead Sea today"
+      },
+      {
+       "type": "map",
+       "at": "Then the Atlantic broke",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.34,
+           "lat": 36.064,
+           "span": 2.88
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -1.0,
+             36.6
+            ],
+            "mode": "sea",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "The Atlantic breaks in"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and refilled it, perhaps",
+       "stat": {
+        "value": "< 2 YEARS",
+        "label": "How fast the Atlantic may have refilled the basin, in one model",
+        "source": "Garcia-Castellanos et al., Nature 2009"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "We know this because",
+       "photo": "File:Yesares gypsum.jpg",
+       "on_screen_text": "Gypsum from the crisis, Sorbas, Spain"
+      },
+      {
+       "type": "photo",
+       "at": "canyons buried under the",
+       "photo": "File:The Nile River flows into the Mediterranean Sea (iss071e405499).jpg",
+       "on_screen_text": "The Nile meets the Mediterranean"
+      },
+      {
+       "type": "stat",
+       "at": "and a drill ship",
+       "stat": {
+        "value": "1970",
+        "label": "A drill ship pulls salt from under the Mediterranean floor",
+        "source": "Deep Sea Drilling Project, Leg 13"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So how does a whole sea dry up, and how do you fill it again? And could it happen again? There is a twist, too: some scientists now think the sea fell much less far than the classic story says. To answer all of that, start where the scientists did: with salt, in a place where salt should not be.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.5,
+           "lat": 38.5,
+           "span": 18
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and how do you",
+       "photo": "File:Rock-of-Gibraltar-2011.jpg",
+       "on_screen_text": "The Rock of Gibraltar"
+      },
+      {
+       "type": "map",
+       "at": "And could it happen",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.22,
+           "lat": 38.0,
+           "span": 43.7
+          },
+          "places": [
+           {
+            "name": "Gibraltar",
+            "lon": -5.35,
+            "lat": 36.14,
+            "kind": "city",
+            "label": "Gibraltar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "some scientists now think",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 39.56
+          },
+          "highlight": [
+           "seafloor:mediterranean:2500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "much less far than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 40.3,
+           "span": 48.76
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "To answer all of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.47,
+           "lat": 37.31,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A salt mine at Realmonte, Sicily"
+      },
+      {
+       "type": "photo",
+       "at": "with salt, in a",
+       "photo": "File:Dead Sea Salt-3 (10494735593).jpg",
+       "on_screen_text": "Rock salt forming in the Dead Sea"
+      }
+     ],
+     "ask": {
+      "at": "And could it happen",
+      "text": "Could the Mediterranean dry up again?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Salt Under the Sea",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In the 1960s, ships surveying the Mediterranean with sound found something strange under the mud of the sea floor: a hard layer that bounced the sound straight back. Geologists called it the M reflector. Nobody knew what it was. In the summer of 1970 an American drill ship, the Glomar Challenger, set out to find out. It was part of the Deep Sea Drilling Project, which drilled holes in the ocean floor from a ship floating in water several kilometers deep. The ship held itself in place over the hole with thrusters, while a string of drill pipe kilometers long hung beneath it. The two chief scientists on that cruise, known as Leg 13, were William Ryan, an American, and Kenneth Hsü, a Swiss geologist born in China.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.4,
+           "lat": 38.86,
+           "span": 16.2
+          },
+          "places": [
+           {
+            "name": "Balearic Islands",
+            "lon": 2.9,
+            "lat": 39.6,
+            "kind": "site",
+            "label": "Balearic Islands"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 4.4,
+           "lat": 38.86,
+           "span": 12.15
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a hard layer that",
+       "photo": "File:Atlantis seen over the Mediterranean Sea, near the Algerian coast.jpeg",
+       "on_screen_text": "The Space Shuttle Atlantis over the Mediterranean"
+      },
+      {
+       "type": "stat",
+       "at": "Geologists called it the",
+       "stat": {
+        "value": "M REFLECTOR",
+        "label": "A hard layer under the Mediterranean mud that echoed sound back",
+        "source": "Hsü, The Mediterranean Was a Desert (1983)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In the summer of",
+       "photo": "File:The International Space Station above the Mediterranean Sea (iss073e0767188).jpg",
+       "on_screen_text": "The Mediterranean from the International Space Station"
+      },
+      {
+       "type": "stat",
+       "at": "the Glomar Challenger, set",
+       "stat": {
+        "value": "GLOMAR CHALLENGER",
+        "label": "Drill ship of the Deep Sea Drilling Project, at sea 1968-1983",
+        "source": "Wikipedia, Deep Sea Drilling Project"
+       }
+      },
+      {
+       "type": "map",
+       "at": "which drilled holes in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 10.0,
+           "lat": 38.5,
+           "span": 28
+          },
+          "places": [
+           {
+            "name": "Balearic Islands",
+            "lon": 2.9,
+            "lat": 39.6,
+            "kind": "site",
+            "label": "Balearic Islands"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The ship held itself",
+       "photo": "File:Bohrkrone Glomar Challenger Basel 27102013.jpg",
+       "on_screen_text": "A drill bit from the Glomar Challenger, in Basel"
+      },
+      {
+       "type": "map",
+       "at": "while a string of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.0,
+           "lat": 39.0,
+           "span": 8
+          },
+          "places": [
+           {
+            "name": "Balearic Islands",
+            "lon": 2.9,
+            "lat": 39.6,
+            "kind": "site",
+            "label": "Balearic Islands"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The two chief scientists",
+       "stat": {
+        "value": "LEG 13",
+        "label": "The 1970 Mediterranean cruise of the Glomar Challenger",
+        "source": "Ryan, Sedimentology 2009 review"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and Kenneth Hsü, a",
+       "stat": {
+        "value": "RYAN & HSÜ",
+        "label": "William Ryan and Kenneth Hsü, co-chief scientists of Leg 13",
+        "source": "Ryan, Sedimentology 2009 review"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The drill came up with things nobody expected so deep under the sea. Under the normal sea-floor mud were layers of gypsum and rock salt. There were thin, wavy layers that looked like mats left by microbes in shallow, sun-warmed water. And some of the salt had a chicken-wire texture that geologists knew from the salt flats on the shore of the Persian Gulf, near Abu Dhabi, where it forms on dry land under a blazing sun.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 35.88
+          },
+          "places": [
+           {
+            "name": "Balearic Islands",
+            "lon": 2.9,
+            "lat": 39.6,
+            "kind": "site",
+            "label": "Balearic Islands"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Under the normal sea-floor",
+       "photo": "File:Gypsum cones.jpg",
+       "on_screen_text": "Gypsum"
+      },
+      {
+       "type": "photo",
+       "at": "There were thin, wavy",
+       "photo": "File:Dead Sea Halite Terraces and Salt Crust Formations 02.jpg",
+       "on_screen_text": "Layered salt crust, Dead Sea"
+      },
+      {
+       "type": "stat",
+       "at": "And some of the",
+       "stat": {
+        "value": "CHICKEN-WIRE",
+        "label": "A salt texture known from desert salt flats, found in the cores",
+        "source": "Hsü, The Mediterranean Was a Desert (1983)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "that geologists knew from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 52.6,
+           "lat": 24.0,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt flats on the Persian Gulf coast"
+      },
+      {
+       "type": "map",
+       "at": "near Abu Dhabi",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 53.9,
+           "lat": 24.1,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt flats (sabkha) on the Abu Dhabi coast"
+      },
+      {
+       "type": "map",
+       "at": "where it forms on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 53.55,
+           "lat": 24.05,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A sabkha drying in the sun, Abu Dhabi"
+      }
+     ]
+    },
+    {
+     "text": "Why does that matter? Because salt like this does not form on the floor of a deep sea. It forms where seawater evaporates. Let a pool of seawater dry in the sun, and gypsum crystallizes first, once most of the water has gone. Rock salt only appears when roughly nine tenths of the water is gone. To lay down thick salt, a sea has to lose most of its water, again and again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.45,
+           "lat": 31.1,
+           "span": 0.3
+          }
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 35.45,
+           "lat": 31.1,
+           "span": 0.186
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Evaporation ponds at the south end of the Dead Sea"
+      },
+      {
+       "type": "photo",
+       "at": "It forms where seawater",
+       "photo": "File:Dead Sea Salt-2 (10494737573).jpg",
+       "on_screen_text": "Salt crystallizing in the Dead Sea"
+      },
+      {
+       "type": "map",
+       "at": "Let a pool of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.4,
+           "lat": 31.03,
+           "span": 0.08
+          }
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": 35.4,
+           "lat": 31.03,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt pans by the Dead Sea"
+      },
+      {
+       "type": "stat",
+       "at": "Rock salt only appears",
+       "stat": {
+        "value": "~90 %",
+        "label": "Share of seawater that must evaporate before rock salt crystallizes",
+        "source": "Evaporite chemistry, general"
+       }
+      },
+      {
+       "type": "map",
+       "at": "To lay down thick",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 40.158
+          },
+          "highlight": [
+           "seafloor:mediterranean:1000@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Dead Sea, between Israel and Jordan, shows what that looks like today. Its shore is the lowest dry land on Earth, more than four hundred meters below sea level, and its water is so salty that salt crystals grow on the bottom and along the shore. It is also shrinking, by around a meter a year, because more water evaporates than flows in.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.5,
+           "lat": 31.5,
+           "span": 2.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its shore is the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.5,
+           "lat": 31.55,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Dead Sea from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "more than four hundred",
+       "stat": {
+        "value": "−430 M",
+        "label": "The Dead Sea shore: the lowest dry land on Earth",
+        "source": "Wikipedia, Dead Sea"
+       }
+      },
+      {
+       "type": "map",
+       "at": "salt crystals grow on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 35.48,
+           "lat": 31.2,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt flats on the Dead Sea's southern shore"
+      },
+      {
+       "type": "stat",
+       "at": "It is also shrinking",
+       "stat": {
+        "value": "~1 M / YEAR",
+        "label": "How fast the Dead Sea's level has been falling",
+        "source": "Wikipedia, Dead Sea"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And there was a lot of it. Later surveys found that salt lies under almost the whole deep Mediterranean, in places more than a kilometer thick. Altogether, more than a million cubic kilometers of it. That is about five percent of all the salt dissolved in all the world's oceans today, taken out and laid down in one sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:ISS035-E-007148 Nile - Sinai - Dead Sea - Wide Angle View.jpg",
+       "on_screen_text": "The eastern Mediterranean from the space station"
+      },
+      {
+       "type": "map",
+       "at": "Later surveys found that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.0,
+           "lat": 37.0,
+           "span": 40
+          },
+          "highlight": [
+           "seafloor:mediterranean:2000@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "in places more than",
+       "stat": {
+        "value": "1 KM+",
+        "label": "Thickness of the salt layer in places",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Altogether, more than a",
+       "stat": {
+        "value": "1 M+ KM³",
+        "label": "Salt from the crisis under the Mediterranean",
+        "source": "Ryan, Sedimentology 2009 review"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is about five",
+       "stat": {
+        "value": "~5 %",
+        "label": "Share of the ocean's dissolved salt now locked under the Mediterranean",
+        "source": "Ryan, Sedimentology 2009 review"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "taken out and laid",
+       "photo": "File:Detail of rocks, Cabo de Gata, Andalusia, Spain.jpg",
+       "on_screen_text": "Rocks of Cabo de Gata, Spain"
+      }
+     ]
+    },
+    {
+     "text": "In 1973 Hsü, Ryan and the Italian geologist Maria Bianca Cita published their explanation in Nature. The Mediterranean, they argued, had dried out, and not once, but over and over: a deep, hot, empty basin far below sea level, with salt lakes on its floor. Many scientists thought it was absurd. Some argued that the salt could have settled out at the bottom of a deep sea that never dried, filled with heavy brine. The argument went on for decades. Hsü later wrote a book about the expedition with a title that said it plainly: The Mediterranean Was a Desert.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1973",
+        "label": "Hsü, Ryan and Cita: the Mediterranean dried out",
+        "source": "Nature, 1973"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Mediterranean, they argued",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 49.082
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a deep, hot, empty",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 42.42,
+           "lat": 11.63,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Assal, Djibouti: a salt lake below sea level today"
+      },
+      {
+       "type": "map",
+       "at": "with salt lakes on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 42.4,
+           "lat": 11.66,
+           "span": 0.05
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt shores of Lake Assal"
+      },
+      {
+       "type": "photo",
+       "at": "Many scientists thought it",
+       "photo": "File:Dead Sea Salt-3 (10494735593).jpg",
+       "on_screen_text": "Salt in the Dead Sea"
+      },
+      {
+       "type": "stat",
+       "at": "Some argued that the",
+       "stat": {
+        "value": "DEEP BRINE?",
+        "label": "The rival idea: salt settling in a deep sea that never dried",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "a deep sea that never",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 2.6,
+           "lat": 38.14,
+           "span": 19.8
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The argument went on",
+       "photo": "File:Playa Monsul - Cabo de Gata.jpg",
+       "on_screen_text": "Playa de Mónsul, Cabo de Gata, Spain"
+      },
+      {
+       "type": "stat",
+       "at": "Hsü later wrote a",
+       "stat": {
+        "value": "1983",
+        "label": "Hsü's book The Mediterranean Was a Desert",
+        "source": "Princeton University Press"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "with a title that",
+       "photo": "File:Atlantis seen over the Mediterranean Sea, near the Algerian coast.jpeg",
+       "on_screen_text": "The Mediterranean from orbit"
+      }
+     ]
+    },
+    {
+     "text": "There was one more clue in the cores. Right on top of the salt, with no gap between them, lay ordinary deep-sea ooze, full of the tiny shells of creatures that live in the open ocean. Whatever had happened, it had ended suddenly. One moment the basin was making salt; the next, it was a deep sea again. That sudden switch would turn out to be the most dramatic part of the story.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "SALT → OOZE",
+        "label": "In the cores, open-ocean ooze lies right on top of the salt",
+        "source": "Hsü, The Mediterranean Was a Desert (1983)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Right on top of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 36.588
+          },
+          "places": [
+           {
+            "name": "Balearic Islands",
+            "lon": 2.9,
+            "lat": 39.6,
+            "kind": "site",
+            "label": "Balearic Islands"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "full of the tiny",
+       "stat": {
+        "value": "FORAMINIFERA",
+        "label": "Single-celled creatures with shells, typical of the open ocean",
+        "source": "General"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Whatever had happened, it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 52.652
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         },
+         {
+          "view": {
+           "lon": 20.22,
+           "lat": 38.0,
+           "span": 42.389
+          },
+          "at": "the next, it was"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "That sudden switch would",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.35,
+           "lat": 36.13,
+           "span": 0.06
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Rock of Gibraltar from orbit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cut Off",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "So how do you cut off a sea? Today the Mediterranean loses more water to evaporation than all its rivers and rain put back. The hot, dry summers around it see to that. What keeps it full is the Atlantic. Through the Strait of Gibraltar, ocean water pours in at the surface, while heavier, saltier Mediterranean water slides out underneath. Close that door, and the sea starts to shrink. Scientists estimate that, cut off today, it would lose most of its water in roughly a thousand years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 38.373
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Today the Mediterranean loses",
+       "photo": "File:Egypt and the Mediterranean Sea (iss071e207494).jpg",
+       "on_screen_text": "Egypt's coast from the space station"
+      },
+      {
+       "type": "map",
+       "at": "The hot, dry summers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.1,
+           "lat": 32.1,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The coast of Libya at Benghazi"
+      },
+      {
+       "type": "map",
+       "at": "What keeps it full",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.66,
+           "lat": 35.936,
+           "span": 3.52
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "to": [
+             -3.0,
+             36.1
+            ],
+            "mode": "sea",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Atlantic water flows in"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "ocean water pours in",
+       "photo": "File:The Strait of Gibraltar, April 2023.jpg",
+       "on_screen_text": "The Strait of Gibraltar, April 2023"
+      },
+      {
+       "type": "stat",
+       "at": "while heavier, saltier Mediterranean",
+       "stat": {
+        "value": "~38 G/KG",
+        "label": "Salinity of the Mediterranean; the Atlantic outside is about 36",
+        "source": "Wikipedia, Mediterranean Sea"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Close that door, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 40.3,
+           "span": 47.297
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the sea starts to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 34.804
+          },
+          "highlight": [
+           "seafloor:mediterranean:500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Scientists estimate that, cut",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 38.953
+          },
+          "highlight": [
+           "seafloor:mediterranean:1000@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "it would lose most",
+       "stat": {
+        "value": "~1,000 YEARS",
+        "label": "Time for most of the sea to evaporate if it were cut off today (estimate)",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Six million years ago there was no Strait of Gibraltar. The Mediterranean was joined to the Atlantic through narrow seaways across what are now southern Spain and northern Morocco. And Africa was, as it still is, pushing slowly north into Europe. As the plates squeezed together, the land around those seaways rose. At the same time, ice was growing at the poles, and sea level around the world was falling.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.0,
+           "lat": 36.0,
+           "span": 9
+          },
+          "routes": [
+           {
+            "from": [
+             -6.6,
+             37.1
+            ],
+            "via": [
+             [
+              -4.6,
+              37.4
+             ],
+             [
+              -3.6,
+              37.2
+             ],
+             [
+              -2.0,
+              37.6
+             ]
+            ],
+            "to": [
+             -1.0,
+             37.8
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Betic seaway (southern Spain)"
+           },
+           {
+            "from": [
+             -6.4,
+             34.4
+            ],
+            "via": [
+             [
+              -5.0,
+              34.2
+             ],
+             [
+              -4.0,
+              34.2
+             ]
+            ],
+            "to": [
+             -3.0,
+             35.1
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Rifian seaway (northern Morocco)"
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -4.0,
+           "lat": 36.0,
+           "span": 6.75
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "across what are now",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.7,
+           "lat": 37.15,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Granada basin, on the old Betic seaway"
+      },
+      {
+       "type": "map",
+       "at": "and northern Morocco",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.6,
+           "lat": 34.3,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Northern Morocco, on the old Rifian seaway"
+      },
+      {
+       "type": "map",
+       "at": "And Africa was, as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 8.0,
+           "lat": 38.0,
+           "span": 62
+          },
+          "routes": [
+           {
+            "from": [
+             5.0,
+             30.0
+            ],
+            "to": [
+             5.0,
+             36.5
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "Africa moves north"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "As the plates squeezed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.3,
+           "lat": 37.05,
+           "span": 0.4
+          },
+          "date": "2024-01-10/2024-03-01"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Sierra Nevada, southern Spain"
+      },
+      {
+       "type": "map",
+       "at": "the land around those",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.4,
+           "lat": 35.1,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Rif mountains, Morocco"
+      },
+      {
+       "type": "stat",
+       "at": "At the same time",
+       "stat": {
+        "value": "ICE",
+        "label": "Growing ice sheets lowered sea level around the world",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and sea level around",
+       "photo": "File:ISS035-E-007148 Nile - Sinai - Dead Sea - Wide Angle View.jpg",
+       "on_screen_text": "The eastern Mediterranean from the space station"
+      }
+     ]
+    },
+    {
+     "text": "About five point nine six million years ago, the change began. A study published in Nature in 1999 dated it from layers of rock around the Mediterranean, and found that it started at the same moment everywhere. The gypsum in those rocks comes in repeated bands, and the bands follow slow wobbles in Earth's orbit. Count the bands, and you have a clock.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "5.96 M YEARS",
+        "label": "Start of the salinity crisis, the same age across the basin",
+        "source": "Krijgsman et al., Nature 1999"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A study published in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -2.1,
+           "lat": 37.09,
+           "span": 0.12
+          }
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": -2.1,
+           "lat": 37.09,
+           "span": 0.074
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gypsum hills at Sorbas, Almería"
+      },
+      {
+       "type": "photo",
+       "at": "The gypsum in those",
+       "photo": "File:Yesares gypsum.jpg",
+       "on_screen_text": "Gypsum bands of the Yesares member, Sorbas, Spain"
+      },
+      {
+       "type": "stat",
+       "at": "and the bands follow",
+       "stat": {
+        "value": "~21,000 YEARS",
+        "label": "One wobble of Earth's axis (precession): one gypsum band",
+        "source": "Krijgsman et al., Nature 1999"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Count the bands, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -2.07,
+           "lat": 37.1,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gypsum layers, Sorbas"
+      }
+     ]
+    },
+    {
+     "text": "At first the sea did not vanish. For a few hundred thousand years, water still came in from the Atlantic, but not enough. The sea grew saltier, and gypsum settled out in the shallow basins along its edges. Then, around five point six million years ago, the link to the ocean was cut almost completely. Now the sea fell. Rivers kept flowing in, but the sun took more than they brought, and the level dropped and dropped. Salt piled up on the deep floor, layer after layer, as the brine shrank, refilled and shrank again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.04,
+           "lat": 37.78,
+           "span": 14.76
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "For a few hundred",
+       "stat": {
+        "value": "5.96-5.6 M YEARS",
+        "label": "First stage: gypsum in shallow basins around the edges",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The sea grew saltier",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.9,
+           "lat": 37.45,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gypsum country in central Sicily"
+      },
+      {
+       "type": "stat",
+       "at": "Then, around five point",
+       "stat": {
+        "value": "5.59 M YEARS",
+        "label": "The Mediterranean loses its link to the Atlantic, until 5.33",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Now the sea fell",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 47.61
+          },
+          "highlight": [
+           "seafloor:mediterranean:500@red"
+          ]
+         },
+         {
+          "view": {
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 35.491
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ],
+          "at": "and the level dropped"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Salt piled up on",
+       "photo": "File:Dead Sea Salt-2 (10494737573).jpg",
+       "on_screen_text": "Salt forming in a shrinking sea: the Dead Sea"
+      },
+      {
+       "type": "photo",
+       "at": "as the brine shrank",
+       "photo": "File:Dead Sea Halite Terraces and Salt Crust Formations 01.jpg",
+       "on_screen_text": "Salt terraces, Dead Sea"
+      }
+     ]
+    },
+    {
+     "text": "What would the dry basin have been like? Air that sinks warms up as it is squeezed, by about one degree Celsius for every hundred meters it goes down. A basin floor a kilometer below sea level would be about ten degrees hotter than the coast above it. Death Valley in California, less than a hundred meters below sea level, already holds the official record for the hottest air temperature ever measured.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 51.072
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Air that sinks warms",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 2.96,
+           "lat": 39.22,
+           "span": 21.24
+          },
+          "highlight": [
+           "seafloor:mediterranean:2500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "by about one degree",
+       "stat": {
+        "value": "~1 °C / 100 M",
+        "label": "How much sinking dry air warms as it is compressed",
+        "source": "Atmospheric physics, general"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A basin floor a",
+       "stat": {
+        "value": "+10 °C",
+        "label": "Extra warmth on a floor 1 km below sea level (our calculation)",
+        "source": "Atmospheric physics, general"
+       }
+      },
+      {
+       "type": "map",
+       "at": "hotter than the coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -2.2,
+           "lat": 36.85,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The coast of Almería, Spain"
+      },
+      {
+       "type": "map",
+       "at": "Death Valley in California",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.83,
+           "lat": 36.25,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Badwater Basin, Death Valley, 86 m below sea level"
+      },
+      {
+       "type": "stat",
+       "at": "already holds the official",
+       "stat": {
+        "value": "56.7 °C",
+        "label": "Highest air temperature on record, Death Valley, 1913",
+        "source": "World Meteorological Organization"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Near the very end, the water changed again. The last layers of the crisis hold the fossils of creatures from brackish lakes, the kind that lived in a great body of fresh and salty water that then stretched across Eastern Europe, ancestor of today's Black and Caspian Seas. Geologists call this phase the Lago Mare, the lake-sea. For a while, the Mediterranean was not a sea at all, but a chain of brackish lakes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.22,
+           "lat": 38.0,
+           "span": 41.117
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The last layers of",
+       "stat": {
+        "value": "LAGO MARE",
+        "label": "The crisis's last stage: brackish lakes with eastern fauna",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the kind that lived",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 38.0,
+           "lat": 44.0,
+           "span": 30
+          }
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": 38.0,
+           "lat": 44.0,
+           "span": 22.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Eastern Europe"
+      },
+      {
+       "type": "map",
+       "at": "ancestor of today's Black",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 42.0,
+           "lat": 43.5,
+           "span": 24
+          },
+          "places": [
+           {
+            "name": "Black Sea",
+            "lon": 34.0,
+            "lat": 43.3,
+            "kind": "site",
+            "label": "Black Sea"
+           },
+           {
+            "name": "Caspian Sea",
+            "lon": 50.5,
+            "lat": 42.0,
+            "kind": "site",
+            "label": "Caspian Sea"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Geologists call this phase",
+       "photo": "File:Detail of rocks, Cabo de Gata, Andalusia, Spain.jpg",
+       "on_screen_text": "Rocks of Cabo de Gata, Spain"
+      },
+      {
+       "type": "map",
+       "at": "For a while, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 37.222
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "How far did it fall? On this map, the red is the sea floor that would lie bare if the Mediterranean dropped two hundred meters. At one and a half kilometers, the sea splits into separate salty lakes, west and east, and the Adriatic is gone entirely. Some geologists think parts of the basin fell even further. Others think the drop was smaller. We will come back to that, because the best evidence is buried under a river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 40.3,
+           "span": 45.878
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "On this map, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 33.759
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "would lie bare if",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.0,
+           "lat": 42.0,
+           "span": 14
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "At one and a half",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 37.785
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and the Adriatic is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.0,
+           "lat": 42.5,
+           "span": 10
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Some geologists think parts",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 46.181
+          },
+          "highlight": [
+           "seafloor:mediterranean:2500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Others think the drop",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 34.426
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "because the best evidence",
+       "photo": "File:Nile delta fog tmo 20240107 lrg.jpg",
+       "on_screen_text": "The Nile valley and delta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Lost Canyons",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In the 1960s, Egypt began building the Aswan High Dam on the Nile. Engineers drilled into the riverbed to see what the dam would stand on. A Soviet geologist working there, I. S. Chumakov, found something odd. Under the Nile's sand and gravel lay a deep, narrow gorge cut into the rock, and the bottom of it held marine sediments, laid down by the sea, far from any coast. At the time it made little sense. It took the salt from the Glomar Challenger to explain it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.88,
+           "lat": 23.97,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Aswan High Dam"
+      },
+      {
+       "type": "map",
+       "at": "on the Nile",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.5,
+           "lat": 27.5,
+           "span": 13
+          },
+          "places": [
+           {
+            "name": "Aswan",
+            "lon": 32.9,
+            "lat": 24.09,
+            "kind": "city",
+            "label": "Aswan"
+           },
+           {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04,
+            "kind": "city",
+            "label": "Cairo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A Soviet geologist working",
+       "stat": {
+        "value": "1960s",
+        "label": "Drilling for the Aswan High Dam finds a buried gorge under the Nile",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Under the Nile's sand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.89,
+           "lat": 24.08,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nile at Aswan"
+      },
+      {
+       "type": "stat",
+       "at": "and the bottom of",
+       "stat": {
+        "value": "MARINE",
+        "label": "Sea sediments found deep under the Nile at Aswan",
+        "source": "Wikipedia, Messinian salinity crisis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "far from any coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.9,
+           "lat": 24.2,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nile valley north of Aswan"
+      },
+      {
+       "type": "map",
+       "at": "At the time it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.15,
+           "lat": 27.76,
+           "span": 11.7
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ],
+          "places": [
+           {
+            "name": "Aswan",
+            "lon": 32.9,
+            "lat": 24.09,
+            "kind": "city",
+            "label": "Aswan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It took the salt",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.4,
+           "lat": 39.16,
+           "span": 7.2
+          },
+          "places": [
+           {
+            "name": "Balearic Islands",
+            "lon": 2.9,
+            "lat": 39.6,
+            "kind": "site",
+            "label": "Balearic Islands"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "A river can only cut down as far as the water it flows into. If the Mediterranean had fallen far below the ocean, every river around it would have started cutting down too, chasing the falling shoreline. That is exactly what the Nile did. Its old canyon is still there, buried under the delta and the fields of Egypt. Near Cairo its floor lies about one and a half kilometers below the surface. Under the coast, it is about three kilometers down. That is deeper than the Grand Canyon, hidden under farmland and cities. Tens of millions of people now live on top of it, and most of them have no idea it is there.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Nile River flows into the Mediterranean Sea (iss071e405499).jpg",
+       "on_screen_text": "The Nile flowing into the Mediterranean"
+      },
+      {
+       "type": "map",
+       "at": "If the Mediterranean had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.85,
+           "lat": 27.24,
+           "span": 14.3
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ],
+          "places": [
+           {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04,
+            "kind": "city",
+            "label": "Cairo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "every river around it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.45,
+           "lat": 44.95,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Po delta, Italy"
+      },
+      {
+       "type": "map",
+       "at": "That is exactly what",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.0,
+           "lat": 30.6,
+           "span": 1.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nile delta"
+      },
+      {
+       "type": "photo",
+       "at": "Its old canyon is",
+       "photo": "File:Nile Delta (MODIS 2026-01-04).jpg",
+       "on_screen_text": "The Nile delta, January 2026"
+      },
+      {
+       "type": "map",
+       "at": "Near Cairo its floor",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.24,
+           "lat": 30.05,
+           "span": 0.15
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cairo"
+      },
+      {
+       "type": "chart",
+       "at": "Under the coast, it",
+       "chart": {
+        "type": "bar",
+        "title": "How deep the buried Nile canyon goes",
+        "unit": "m",
+        "data": [
+         [
+          "Near Cairo",
+          1500
+         ],
+         [
+          "Under the coast",
+          3000
+         ],
+         [
+          "Grand Canyon",
+          1800
+         ]
+        ],
+        "source": "Communications Earth & Environment, 2022; US National Park Service",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "hidden under farmland and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.4,
+           "lat": 31.1,
+           "span": 0.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland of the Nile delta"
+      },
+      {
+       "type": "map",
+       "at": "Tens of millions of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.0,
+           "lat": 30.97,
+           "span": 0.1
+          }
+         },
+         {
+          "at": 104,
+          "view": {
+           "lon": 31.0,
+           "lat": 30.97,
+           "span": 0.062
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tanta, in the middle of the delta"
+      }
+     ]
+    },
+    {
+     "text": "When the Atlantic came back, the sea flooded into these canyons. The Nile's gorge became a long, narrow arm of the sea, reaching far up into Egypt, all the way to around Aswan. That is why the drillers there found marine sediments. Over the next few million years, the river filled its old canyon with mud and sand, and built the flat delta on top.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.89,
+           "lat": 26.98,
+           "span": 10.66
+          },
+          "places": [
+           {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04,
+            "kind": "city",
+            "label": "Cairo"
+           },
+           {
+            "name": "Aswan",
+            "lon": 32.9,
+            "lat": 24.09,
+            "kind": "city",
+            "label": "Aswan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Nile's gorge became",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.85,
+           "lat": 27.6,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nile valley in Middle Egypt"
+      },
+      {
+       "type": "map",
+       "at": "all the way to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 32.65,
+           "lat": 25.7,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nile valley near Luxor"
+      },
+      {
+       "type": "map",
+       "at": "Over the next few",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.3,
+           "lat": 30.8,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Delta fields north of Cairo"
+      },
+      {
+       "type": "photo",
+       "at": "and built the flat",
+       "photo": "File:Nile delta fog tmo 20240107 lrg.jpg",
+       "on_screen_text": "The Nile delta from orbit"
+      }
+     ]
+    },
+    {
+     "text": "The Nile is not alone. Under the Rhône valley in France lies another buried canyon, hundreds of meters deep, found by drilling. Rivers elsewhere around the sea have them too. Each one is a record of how far down the sea went.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.6,
+           "lat": 43.5,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Rhône delta, France"
+      },
+      {
+       "type": "map",
+       "at": "Under the Rhône valley",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.8,
+           "lat": 44.7,
+           "span": 5
+          },
+          "places": [
+           {
+            "name": "Lyon",
+            "lon": 4.83,
+            "lat": 45.76,
+            "kind": "city",
+            "label": "Lyon"
+           },
+           {
+            "name": "Arles",
+            "lon": 4.63,
+            "lat": 43.68,
+            "kind": "city",
+            "label": "Arles"
+           }
+          ]
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 4.8,
+           "lat": 44.7,
+           "span": 3.75
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Rivers elsewhere around the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 0.85,
+           "lat": 40.7,
+           "span": 0.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Ebro delta, Spain"
+      },
+      {
+       "type": "map",
+       "at": "Each one is a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 49.54
+          },
+          "highlight": [
+           "seafloor:mediterranean:1000@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "So how far? For decades the usual answer was: very far, maybe one and a half to two kilometers or more in parts of the basin. In 2022 a team studying the Nile canyon came to a smaller number. From the depth and slope of the buried canyon, they estimated that during that phase the sea fell by about six hundred meters. It is still a lot. Six hundred meters is enough to empty much of the shallow sea floor around the coasts. And it shows the debate is not settled.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.22,
+           "lat": 38.0,
+           "span": 39.884
+          },
+          "highlight": [
+           "seafloor:mediterranean:2000@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "maybe one and a",
+       "stat": {
+        "value": "1.5-2 KM+",
+        "label": "The classic estimate of the fall in parts of the basin",
+        "source": "Hsü, The Mediterranean Was a Desert (1983)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 2022 a team",
+       "stat": {
+        "value": "~600 M",
+        "label": "Sea-level fall in one phase of the crisis, from the Nile canyon",
+        "source": "Communications Earth & Environment, 2022"
+       }
+      },
+      {
+       "type": "map",
+       "at": "From the depth and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 30.9,
+           "lat": 30.3,
+           "span": 0.4
+          }
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": 30.9,
+           "lat": 30.3,
+           "span": 0.248
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the Nile valley opens into the delta"
+      },
+      {
+       "type": "map",
+       "at": "Six hundred meters is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 36.105
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And it shows the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.0,
+           "lat": 39.0,
+           "span": 20
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Flood",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Then, five point three three million years ago, it ended. The Atlantic came back. Africa and Spain were still close together, but somewhere at the western end, a weak point gave way. We do not know exactly why. Perhaps the land sank, or perhaps a stream cutting back from the Atlantic side broke through. Seawater began to spill over a ridge of rock into the empty basin far below.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "5.33 M YEARS",
+        "label": "The Atlantic returns: the Zanclean flood",
+        "source": "Garcia-Castellanos et al., Nature 2009"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Atlantic came back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.6,
+           "lat": 35.95,
+           "span": 0.6
+          }
+         },
+         {
+          "at": 21,
+          "view": {
+           "lon": -5.6,
+           "lat": 35.95,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Strait of Gibraltar today"
+      },
+      {
+       "type": "map",
+       "at": "We do not know",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.404,
+           "lat": 35.872,
+           "span": 2.624
+          },
+          "highlight": [
+           "seafloor:mediterranean:500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "or perhaps a stream",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.95,
+           "lat": 35.75,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Morocco's coast on the Atlantic side of the strait"
+      },
+      {
+       "type": "photo",
+       "at": "Seawater began to spill",
+       "photo": "File:STS059-238-074 Strait of Gibraltar.jpg",
+       "on_screen_text": "The strait between Spain and Morocco"
+      }
+     ]
+    },
+    {
+     "text": "At first it may have been a trickle. But water flowing over rock cuts into it, and the deeper the cut, the more water flows through. In 2009, a team led by Daniel Garcia-Castellanos published a model in Nature. In it, the flow grew until it tore a channel about two hundred kilometers long through the sea floor between Spain and Morocco. It was less a single waterfall than a long, steep rapid, cutting its own bed ever deeper. Seismic surveys and boreholes had already found that channel, buried under later sediment.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.596,
+           "lat": 36.128,
+           "span": 3.776
+          },
+          "places": [
+           {
+            "name": "Gibraltar",
+            "lon": -5.35,
+            "lat": 36.14,
+            "kind": "city",
+            "label": "Gibraltar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But water flowing over",
+       "photo": "File:Straits-of-Gibraltar-2011.jpg",
+       "on_screen_text": "The strait from the shore"
+      },
+      {
+       "type": "map",
+       "at": "and the deeper the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.6,
+           "lat": 36.01,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tarifa, at the strait's narrowest point"
+      },
+      {
+       "type": "stat",
+       "at": "In 2009, a team",
+       "stat": {
+        "value": "2009",
+        "label": "Garcia-Castellanos and colleagues model the refill",
+        "source": "Garcia-Castellanos et al., Nature 2009"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the flow grew until",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.4,
+           "lat": 36.0,
+           "span": 4.5
+          },
+          "routes": [
+           {
+            "from": [
+             -6.6,
+             35.95
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -4.4,
+             36.05
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "Flood channel, about 200 km (approximate path)"
+           }
+          ]
+         },
+         {
+          "at": 51,
+          "view": {
+           "lon": -5.4,
+           "lat": 36.0,
+           "span": 3.375
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It was less a",
+       "photo": "File:Rock of Gibraltar in the clouds.jpg",
+       "on_screen_text": "The Rock of Gibraltar in the clouds"
+      },
+      {
+       "type": "map",
+       "at": "Seismic surveys and boreholes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.45,
+           "lat": 35.95,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The narrowest part of the strait"
+      }
+     ]
+    },
+    {
+     "text": "And then it went very fast. In their model, about ninety percent of the water arrived in a period of a few months to two years. At its peak, the flow through the strait reached around a hundred million cubic meters every second. That is about five hundred times the flow of the Amazon, the biggest river on Earth. And the sea level inside the basin may have risen by more than ten meters a day.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 40.3,
+           "span": 44.502
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -1.0,
+             36.6
+            ],
+            "mode": "sea",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "The Atlantic breaks in"
+           }
+          ],
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about ninety percent of",
+       "stat": {
+        "value": "90 %",
+        "label": "Share of the water refilled in a few months to two years, in the model",
+        "source": "Garcia-Castellanos et al., Nature 2009"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At its peak, the",
+       "stat": {
+        "value": "10⁸ M³/S",
+        "label": "Peak flow through the strait in the model",
+        "source": "Garcia-Castellanos et al., Nature 2009"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "That is about five",
+       "chart": {
+        "type": "bar",
+        "title": "Peak flood flow against the Amazon",
+        "unit": "m³/s",
+        "data": [
+         [
+          "Zanclean flood (model)",
+          100000000
+         ],
+         [
+          "Amazon (average)",
+          209000
+         ]
+        ],
+        "source": "Garcia-Castellanos et al., Nature 2009; Amazon average flow",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "And the sea level",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 32.747
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         },
+         {
+          "view": {
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 36.651
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ],
+          "at": "more than ten meters"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Ten meters a day is about the height of a three-story building, every single day, across a sea the size of the Mediterranean. If the model is right, the floor of the Strait of Gibraltar is a scar of that flood: a channel cut in a few years, then drowned and left under the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.76,
+           "lat": 38.5,
+           "span": 17.1
+          },
+          "highlight": [
+           "seafloor:mediterranean:1000@red"
+          ]
+         },
+         {
+          "view": {
+           "lon": 2.24,
+           "lat": 38.5,
+           "span": 15.48
+          },
+          "highlight": [
+           "seafloor:mediterranean:500@red"
+          ],
+          "at": "every single day"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "across a sea the",
+       "photo": "File:Mediterranean Sea (MODIS 2019-04-04).jpg",
+       "on_screen_text": "The Mediterranean from orbit"
+      },
+      {
+       "type": "map",
+       "at": "If the model is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.175,
+           "lat": 36.09,
+           "span": 4.05
+          },
+          "routes": [
+           {
+            "from": [
+             -6.6,
+             35.95
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -4.4,
+             36.05
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "Flood channel, about 200 km (approximate path)"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -5.175,
+           "lat": 36.09,
+           "span": 3.037
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "then drowned and left",
+       "photo": "File:The Strait of Gibraltar, April 2023.jpg",
+       "on_screen_text": "The Strait of Gibraltar today"
+      }
+     ]
+    },
+    {
+     "text": "Picture the shore of a salty lake, far down in the dry basin. Week after week, the water climbs up the old slopes, ten meters a day, drowning salt flats, river valleys and canyons. The coastline you know today was being drawn in a matter of months.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Loma Pelada, Parque Natural Cabo de Gata - Nijar (26739960137).jpg",
+       "on_screen_text": "Dry hills of Cabo de Gata, Spain"
+      },
+      {
+       "type": "photo",
+       "at": "Week after week, the",
+       "photo": "File:Panoramica del Cabo de Gata, Almeria (Almeria).jpg",
+       "on_screen_text": "Cabo de Gata, southeast Spain"
+      },
+      {
+       "type": "map",
+       "at": "drowning salt flats, river",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.5,
+           "lat": 39.4,
+           "span": 19.08
+          },
+          "highlight": [
+           "seafloor:mediterranean:600@red"
+          ]
+         },
+         {
+          "view": {
+           "lon": 3.5,
+           "lat": 37.6,
+           "span": 14.04
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ],
+          "at": "The coastline you know"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Once the western basin was full, the water had to get over another barrier: the shallow sill between Sicily and Africa. Researchers have described what may be the marks of that second spill: a huge heap of flood debris at the foot of the Malta Escarpment, reported in 2018, and more than three hundred streamlined ridges across the Sicily sill, reported in 2024. If the flood happened this way, it poured from the western Mediterranean into the eastern half.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.3,
+           "lat": 36.6,
+           "span": 7
+          },
+          "places": [
+           {
+            "name": "Malta",
+            "lon": 14.45,
+            "lat": 35.9,
+            "kind": "site",
+            "label": "Malta"
+           }
+          ],
+          "highlight": [
+           "seafloor:mediterranean:500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the shallow sill between",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 11.8,
+           "lat": 37.1,
+           "span": 0.6
+          }
+         },
+         {
+          "at": 23,
+          "view": {
+           "lon": 11.8,
+           "lat": 37.1,
+           "span": 0.372
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Bon, Tunisia, facing Sicily"
+      },
+      {
+       "type": "stat",
+       "at": "a huge heap of",
+       "stat": {
+        "value": "2018 · 2024",
+        "label": "Studies of possible flood marks off Malta and across the Sicily sill",
+        "source": "Micallef et al., Scientific Reports 2018; Communications Earth & Environment 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Malta Escarpment, reported",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.4,
+           "lat": 35.9,
+           "span": 0.35
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Malta"
+      },
+      {
+       "type": "map",
+       "at": "streamlined ridges across the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.95,
+           "lat": 36.85,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Southeastern Sicily, at the edge of the sill"
+      },
+      {
+       "type": "map",
+       "at": "If the flood happened",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.65,
+           "lat": 36.74,
+           "span": 6.3
+          },
+          "routes": [
+           {
+            "from": [
+             11.6,
+             37.6
+            ],
+            "via": [
+             [
+              13.0,
+              36.8
+             ]
+            ],
+            "to": [
+             15.6,
+             36.0
+            ],
+            "mode": "sea",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "West spills into east"
+           }
+          ],
+          "highlight": [
+           "seafloor:mediterranean:500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Not everyone agrees. A 2020 review pointed out that other explanations are possible, and some researchers think the refill was slower or came in stages. But the core of the story is not in doubt. The Atlantic came back, and the age of salt was over. Geologists mark that moment as the start of a new chapter of Earth's history, the Pliocene, and its first stage is named the Zanclean, after Zancle, the ancient Greek name for Messina in Sicily.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "DEBATED",
+        "label": "How fast the refill happened is still argued over",
+        "source": "Earth-Science Reviews, 2020"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and some researchers think",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.276,
+           "lat": 36.0,
+           "span": 3.04
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -1.0,
+             36.6
+            ],
+            "mode": "sea",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "The Atlantic breaks in"
+           }
+          ]
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": -5.276,
+           "lat": 36.0,
+           "span": 2.28
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Atlantic came back,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": 37.08,
+           "span": 44.796
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Geologists mark that moment",
+       "stat": {
+        "value": "5.33 M YEARS",
+        "label": "Start of the Pliocene and its first stage, the Zanclean",
+        "source": "International Commission on Stratigraphy"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and its first stage",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 38.5,
+           "span": 4
+          },
+          "places": [
+           {
+            "name": "Messina",
+            "lon": 15.55,
+            "lat": 38.19,
+            "kind": "city",
+            "label": "Messina"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "after Zancle, the ancient",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.56,
+           "lat": 38.19,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Messina, ancient Zancle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What It Left",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "The salt is still there. Under the floor of the Mediterranean it lies buried beneath younger mud, and its age is named after Messina too: the Messinian. In Sicily, where the land has been pushed up since, the same salt is mined. At Realmonte, near Agrigento, miners dig rock salt that was laid down when the sea dried out.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 33.393
+          },
+          "places": [
+           {
+            "name": "Messina",
+            "lon": 15.55,
+            "lat": 38.19,
+            "kind": "city",
+            "label": "Messina"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 18.38,
+           "lat": 36.16,
+           "span": 25.045
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and its age is",
+       "stat": {
+        "value": "MESSINIAN",
+        "label": "The age of the salt, named after Messina, Sicily",
+        "source": "International Commission on Stratigraphy"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In Sicily, where the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.0,
+           "lat": 37.5,
+           "span": 1.4
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sicily"
+      },
+      {
+       "type": "map",
+       "at": "At Realmonte, near Agrigento",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.6,
+           "lat": 37.35,
+           "span": 1.2
+          },
+          "places": [
+           {
+            "name": "Realmonte",
+            "lon": 13.47,
+            "lat": 37.31,
+            "kind": "site",
+            "label": "Realmonte salt mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "miners dig rock salt",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.47,
+           "lat": 37.31,
+           "span": 0.04
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Realmonte salt mine"
+      }
+     ]
+    },
+    {
+     "text": "The same rocks gave Sicily another treasure. Sulfur formed in the gypsum of the crisis, and in the nineteenth century the island's sulfur mines supplied most of the world's sulfur, dug out by hand, often by children.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.05,
+           "lat": 37.5,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old mining country near Caltanissetta, Sicily"
+      },
+      {
+       "type": "stat",
+       "at": "and in the nineteenth",
+       "stat": {
+        "value": "1800s",
+        "label": "Sicily's sulfur mines lead world production",
+        "source": "Wikipedia, Sulfur mining in Sicily"
+       }
+      },
+      {
+       "type": "map",
+       "at": "dug out by hand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.95,
+           "lat": 37.42,
+           "span": 0.08
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The hills of the Sicilian sulfur basin"
+      }
+     ]
+    },
+    {
+     "text": "In Spain, near Sorbas in Almería, you can walk through hills of gypsum from the crisis. Under the sea, the deep salt is so heavy and soft that it slowly flows, bending the layers above it. Off Israel, gas companies drilling for fields such as Leviathan, discovered in 2010, have had to drill through the salt to reach the gas below it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -2.2,
+           "lat": 37.0,
+           "span": 1.5
+          },
+          "places": [
+           {
+            "name": "Sorbas",
+            "lon": -2.12,
+            "lat": 37.1,
+            "kind": "site",
+            "label": "Sorbas gypsum"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "you can walk through",
+       "photo": "File:Gypsum cones.jpg",
+       "on_screen_text": "Gypsum layers"
+      },
+      {
+       "type": "map",
+       "at": "Under the sea, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.0,
+           "lat": 37.8,
+           "span": 36.0
+          },
+          "highlight": [
+           "seafloor:mediterranean:2500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "that it slowly flows",
+       "stat": {
+        "value": "SALT FLOWS",
+        "label": "Buried salt creeps slowly, folding the rock above it",
+        "source": "General geology"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Off Israel, gas companies",
+       "stat": {
+        "value": "LEVIATHAN",
+        "label": "Gas field off Israel, below the Messinian salt",
+        "source": "Industry and press reports"
+       }
+      },
+      {
+       "type": "map",
+       "at": "have had to drill",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 34.95,
+           "lat": 32.8,
+           "span": 0.3
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The coast at Haifa, Israel"
+      }
+     ]
+    },
+    {
+     "text": "Could it happen again? The Mediterranean still needs the Atlantic to stay full. And Africa is still moving toward Europe, a few millimeters a year. Over millions of years, that could close the strait again. If it does, the sea will start to shrink, and in about a thousand years its deep basins will be lakes of brine once more. Nobody alive will see it. But the salt under the sea says it has happened before.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.724,
+           "lat": 36.0,
+           "span": 2.752
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "to": [
+             -3.0,
+             36.1
+            ],
+            "mode": "sea",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Atlantic water flows in"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And Africa is still",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 11.1,
+           "lat": 39.24,
+           "span": 55.8
+          },
+          "routes": [
+           {
+            "from": [
+             5.0,
+             30.0
+            ],
+            "to": [
+             5.0,
+             36.5
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "Africa moves north"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Over millions of years",
+       "photo": "File:Rock-of-Gibraltar-2011.jpg",
+       "on_screen_text": "The Rock of Gibraltar"
+      },
+      {
+       "type": "map",
+       "at": "that could close the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.45,
+           "lat": 35.95,
+           "span": 0.25
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Strait of Gibraltar"
+      },
+      {
+       "type": "map",
+       "at": "If it does, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.62,
+           "lat": 39.84,
+           "span": 48.054
+          },
+          "highlight": [
+           "seafloor:mediterranean:200@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "in about a thousand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 20.22,
+           "lat": 38.0,
+           "span": 38.687
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Nobody alive will see",
+       "photo": "File:The International Space Station above the Mediterranean Sea (iss073e0767188).jpg",
+       "on_screen_text": "The Mediterranean from orbit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Desert Under the Sea",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Put it together. Africa pushed north, the seaways closed, and the sun took the water faster than the rivers could bring it. More than a million cubic kilometers of salt were left on the floor. The rivers cut canyons down toward the falling shore. And then, five point three three million years ago, the Atlantic came back through Gibraltar, perhaps in less than two years. Every part of that story was pieced together from drill cores, buried canyons and salt.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.9,
+           "lat": 36.76,
+           "span": 68.2
+          },
+          "routes": [
+           {
+            "from": [
+             5.0,
+             30.0
+            ],
+            "to": [
+             5.0,
+             36.5
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.5,
+            "label": "Africa moves north"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the seaways closed, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.55,
+           "lat": 36.18,
+           "span": 8.1
+          },
+          "routes": [
+           {
+            "from": [
+             -6.6,
+             37.1
+            ],
+            "via": [
+             [
+              -4.6,
+              37.4
+             ],
+             [
+              -3.6,
+              37.2
+             ],
+             [
+              -2.0,
+              37.6
+             ]
+            ],
+            "to": [
+             -1.0,
+             37.8
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Betic seaway (southern Spain)"
+           },
+           {
+            "from": [
+             -6.4,
+             34.4
+            ],
+            "via": [
+             [
+              -5.0,
+              34.2
+             ],
+             [
+              -4.0,
+              34.2
+             ]
+            ],
+            "to": [
+             -3.0,
+             35.1
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.5,
+            "label": "Rifian seaway (northern Morocco)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "More than a million",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.78,
+           "lat": 38.0,
+           "span": 35.022
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The rivers cut canyons",
+       "photo": "File:Nile Delta (MODIS 2026-01-04).jpg",
+       "on_screen_text": "The Nile and its delta"
+      },
+      {
+       "type": "map",
+       "at": "And then, five point",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.5,
+           "lat": 36.16,
+           "span": 3.392
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -1.0,
+             36.6
+            ],
+            "mode": "sea",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "The Atlantic breaks in"
+           }
+          ],
+          "places": [
+           {
+            "name": "Gibraltar",
+            "lon": -5.35,
+            "lat": 36.14,
+            "kind": "city",
+            "label": "Gibraltar"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "came back through Gibraltar",
+       "stat": {
+        "value": "< 2 YEARS",
+        "label": "The refill in the Garcia-Castellanos model",
+        "source": "Garcia-Castellanos et al., Nature 2009"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Every part of that",
+       "photo": "File:Bohrkrone Glomar Challenger Basel 27102013.jpg",
+       "on_screen_text": "A drill bit from the Glomar Challenger"
+      }
+     ]
+    },
+    {
+     "text": "So the next time you stand on a Mediterranean beach, think about what lies under the water. Below the blue, below the mud, is a layer of salt left by a sea that once nearly disappeared. Under the deltas are canyons cut by rivers that chased a falling sea. And at the western end is a channel torn open by one of the biggest floods we know of.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Playa Monsul - Cabo de Gata.jpg",
+       "on_screen_text": "Playa de Mónsul, Cabo de Gata"
+      },
+      {
+       "type": "map",
+       "at": "Below the blue, below",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 40.3,
+           "span": 43.167
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "left by a sea",
+       "photo": "File:Dead Sea Halite Terraces and Salt Crust Formations 02.jpg",
+       "on_screen_text": "Salt crust, Dead Sea"
+      },
+      {
+       "type": "map",
+       "at": "Under the deltas are",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.2,
+           "lat": 31.3,
+           "span": 0.6
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The edge of the Nile delta"
+      },
+      {
+       "type": "map",
+       "at": "rivers that chased a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.6,
+           "lat": 43.5,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Rhône delta, France"
+      },
+      {
+       "type": "photo",
+       "at": "And at the western",
+       "photo": "File:Straits-of-Gibraltar-2011.jpg",
+       "on_screen_text": "The Strait of Gibraltar"
+      },
+      {
+       "type": "map",
+       "at": "one of the biggest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.0,
+           "lat": 35.7,
+           "span": 31.764
+          },
+          "routes": [
+           {
+            "from": [
+             -9.0,
+             36.0
+            ],
+            "via": [
+             [
+              -5.6,
+              35.95
+             ]
+            ],
+            "to": [
+             -1.0,
+             36.6
+            ],
+            "mode": "sea",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "The Atlantic breaks in"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If you could stand on the floor of the dry Mediterranean six million years ago, where would you go first: down into the Nile canyon, out to the salt lakes of the deep basin, or to the edge at Gibraltar to watch the Atlantic come in?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Egypt and the Mediterranean Sea (iss071e207494).jpg",
+       "on_screen_text": "Egypt and the Mediterranean from orbit"
+      },
+      {
+       "type": "map",
+       "at": "on the floor of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.3,
+           "lat": 38.92,
+           "span": 35.552
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ],
+          "places": [
+           {
+            "name": "Gibraltar",
+            "lon": -5.35,
+            "lat": 36.14,
+            "kind": "city",
+            "label": "Gibraltar"
+           },
+           {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04,
+            "kind": "city",
+            "label": "Cairo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "down into the Nile",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 31.11,
+           "lat": 28.02,
+           "span": 15.34
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ],
+          "places": [
+           {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04,
+            "kind": "city",
+            "label": "Cairo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "out to the salt",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.4,
+           "lat": 38.86,
+           "span": 15.714
+          },
+          "highlight": [
+           "seafloor:mediterranean:1500@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "or to the edge",
+       "photo": "File:Rock of Gibraltar in the clouds.jpg",
+       "on_screen_text": "The Rock of Gibraltar"
+      }
+     ],
+     "ask": {
+      "at": "where would you go",
+      "text": "Nile canyon, salt lakes, or Gibraltar?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "How the Mediterranean Sea Dried Up",
+  "description": "About six million years ago the Mediterranean was cut off from the Atlantic and almost completely dried out, leaving a deep basin floored with salt. This video follows the clues: the salt a drill ship pulled from under the sea floor in 1970, the canyon buried beneath the Nile, how far the sea fell, and the flood through Gibraltar that may have refilled it in less than two years. And could it happen again?",
+  "tags": [
+   "Mediterranean",
+   "Mediterranean Sea dried up",
+   "Messinian salinity crisis",
+   "Zanclean flood",
+   "Strait of Gibraltar",
+   "Glomar Challenger",
+   "Kenneth Hsü",
+   "Nile canyon",
+   "geology",
+   "megaflood",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you could stand on the floor of the dry Mediterranean six million years ago, where would you go first: the Nile canyon, the salt lakes of the deep basin, or Gibraltar to watch the Atlantic come in?"
+ }
+}

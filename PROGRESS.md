@@ -810,3 +810,34 @@ Each sub-phase stops for user approval.
   Nile, Ennedi, Emi Koussi, Oweinat, coasts). Full render started; audit all sheets before upload.
 - 2026-11-16: Green Sahara full render 1 audit: views at span 1.8 still use Sentinel (S2_MAX_SPAN 2.0 in maps.py) and
   show date-mosaic seams in hyper-arid desert -> all widened desert sats set to span 2.2 (basemap). Re-render needed.
+
+## HANDOFF 2026-11-16 (session end) — read this first
+
+Done this session (all private, scheduled 23:00 UTC = 02:00 TR):
+- Mediterranean "How the Mediterranean Sea Dried Up": TXF3-pYORUs, publishAt 2026-11-20T23:00:00Z, 15:41, cover set.
+  Engine changes: pipeline/bathy.py separate lakes (deep parts stay wet), pipeline/maps.py seafloor highlights do not
+  override a hand-picked view, tools/cover_map.py {"seafloor": "basin:m"} subject.
+- Green Sahara (22 Nov slot): topic chosen by the user (docs/topic-candidates-2026-11-22.md), research.md, geo
+  (megachad.geojson ETOPO <320 m ~331,000 km2; sahara.geojson), build_script.py (2,745 words, 252 shots, check OK
+  17.3 min), factcheck.md filled, cover.json done ("A SEA IN THE / SAHARA?").
+
+Half done:
+- Green Sahara full render #2 running: run 43846972915 (fix: 47 widened desert views at span 2.2, because Sentinel
+  below S2_MAX_SPAN 2.0 showed date-mosaic seams in render #1 / run 43841211081, which was NOT approved).
+  Render #1 files in Videos\yt-pipeline\green-sahara are superseded (fetch -Delete overwrites).
+
+Next steps (in order):
+1. When run 43846972915 succeeds: `powershell -File tools/fetch_episode.ps1 green-sahara -Delete`, delete its
+   artifacts (gh api .../runs/43846972915/artifacts), run frame_audit, view ALL 32 sheets (check the widened desert
+   views: Gilf Kebir 1:15-1:50, Ounianga ~0:36 and ~6:00, Ténéré ~3:05-3:45, Wadi Howar ~4:00, Bodélé ~6:20 and
+   ~9:38), audio peak check, --approve, then `python tools/yt_upload.py green-sahara --publish-at 2026-11-21T23:00:00Z`.
+2. Lesson for desert episodes: hyper-arid close views (span < 2) render blank or seamed; use span >= 2.2 there.
+3. Next slot after 22 Nov: ask the user for a topic (Netherlands below sea level and Doggerland passed demand).
+
+Pin comments by hand in Studio: Louisiana, Kansai, Australia, Nevada, Northern Maine, Mongolia, Mediterranean
+(text = youtube.pinned_comment in each build_script.py), and Green Sahara after upload.
+
+Indus Waters (episode 8) status: long nbB4DKNWp7Y + Shorts PqqVvJZd_18 (tunnel), 9P8EDcca-bY (dam) uploaded
+2026-11-09, scheduled by the user for 15:00 UTC 9 Nov (public since then). Still open: Related video link on both
+Shorts (Studio only; blocked by YouTube "one-time verification", only the user can complete it) and the pinned
+comment. Audio of the long render was never checked. No further work planned unless the user asks.

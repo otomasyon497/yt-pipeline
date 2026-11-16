@@ -794,3 +794,7 @@ Each sub-phase stops for user approval.
 - 2026-11-16: 22 Nov topic = "When the Sahara Was Green" (African Humid Period), chosen by the user from
   docs/topic-candidates-2026-11-22.md. NEXT: research (AHP timing ~11-5 ka, Mega-Chad, Gobero, Wadi Howar, Tassili
   rock art / Cave of Swimmers, orbital precession + monsoon, abrupt vs gradual end, dust to the Amazon), gate-1 outline.
+- 2026-11-16: Green Sahara outline approved ("Uygun, senaryoya geç"). geo/make_regions.py: megachad.geojson (ETOPO
+  cells <320 m connected to Lake Chad, ~331,000 km2; 325 m spills south) and sahara.geojson (Natural Earth).
+  cover.json done ("A SEA IN THE / SAHARA?", Mega-Chad red). Photo search running into scratchpad/gs.
+  NEXT: photo QC, build_script like mediterranean-dried, checks, storyboard, render, audit, upload 2026-11-21T23:00Z.

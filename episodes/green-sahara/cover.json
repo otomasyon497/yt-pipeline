@@ -1,0 +1,5 @@
+{"view": {"lon": 12.0, "lat": 21.0, "span": 44},
+ "subject": [{"file": "megachad.geojson"}],
+ "text": [{"t": "A SEA IN THE", "style": "white"}, {"t": "SAHARA?", "style": "red"}],
+ "text_at": [0.04, 0.22], "text_size": 105,
+ "arrow": {"to": [14.6, 15.4], "from": [0.30, 0.72], "bend": 0.3}}

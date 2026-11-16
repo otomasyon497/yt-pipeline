@@ -801,3 +801,8 @@ Each sub-phase stops for user approval.
 - 2026-11-16: Green Sahara build_script.py written (2,745 words, 252 shots, episode_check OK at 17.3 min), research
   additions, factcheck.md filled (rules in scratchpad gsfact.py). NEXT: storyboard, review, render, audit, upload
   publishAt 2026-11-21T23:00:00Z.
+- 2026-11-16: Green Sahara storyboard OK at 15:44 (run 43834667672, artifacts deleted). Review of sheets 1-12: Sentinel
+  close views (span < ~2) of hyper-arid desert render blank/washed-out beige with tile seams (Gilf Kebir, Ténéré/Gobero,
+  Wadi Howar, Mega-Chad floor, Bodélé 1.2, Ounianga). Fix: widen those to span >= 3.5 (basemap) or replace with
+  maps/stats; first Ounianga sat had wrong lon (18.5 -> 20.5). Green/feature areas (Lake Chad, Ennedi, Tibesti, Nile,
+  Sahel) render fine. Sheets 13-27 still to review.

@@ -1,0 +1,7 @@
+{"view": {"lon": 4.2, "lat": 52.3, "span": 9.0},
+ "subject": [{"file": "belowsea.geojson"}],
+ "outline": [{"country": "Netherlands"}],
+ "text": [{"t": "THEIR OWN", "style": "white"}, {"t": "FAULT?", "style": "red"}],
+ "text_at": [0.04, 0.08], "text_size": 120,
+ "arrow": {"to": [4.6, 52.0], "from": [0.24, 0.52], "bend": 0.3},
+ "labels": [{"t": "AMSTERDAM", "lon": 4.9, "lat": 52.37}]}

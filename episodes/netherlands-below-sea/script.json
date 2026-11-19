@@ -1,0 +1,3632 @@
+{
+ "title": "Why the Netherlands Sank Below the Sea",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "sources": [
+  "episodes/netherlands-below-sea/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026"
+ ],
+ "thumbnail": {
+  "text": "BELOW THE SEA?"
+ },
+ "chapters": [
+  {
+   "title": "Below the Sea",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Netherlands is a small, flat country on the North Sea, home to about eighteen million people. About a quarter of it lies below sea level. Its lowest point, in a polder near the town of Nieuwerkerk aan den IJssel, is almost seven meters below the sea. One of Europe's busiest airports sits about three meters below it, on the bed of a lake that is no longer there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.4,
+           "lat": 52.2,
+           "span": 4.6
+          },
+          "highlight": [
+           "Netherlands@accent"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 5.4,
+           "lat": 52.2,
+           "span": 3.91
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "About a quarter of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.63,
+           "lat": 52.292,
+           "span": 4.14
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its lowest point, in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.61,
+           "lat": 52.0,
+           "span": 0.25
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Zuidplaspolder near Nieuwerkerk aan den IJssel"
+      },
+      {
+       "type": "stat",
+       "at": "is almost seven meters",
+       "stat": {
+        "value": "−6.76 M",
+        "label": "Lowest point of the Netherlands, below NAP",
+        "source": "Wikipedia, extreme points of the Netherlands"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "One of Europe's busiest",
+       "photo": "File:Schiphol, Polderbaan, Antonov (7168694249).jpg",
+       "on_screen_text": "Schiphol's Polderbaan runway"
+      },
+      {
+       "type": "map",
+       "at": "on the bed of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.7,
+           "lat": 52.3,
+           "span": 0.4
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Haarlemmermeer polder, once a lake"
+      }
+     ]
+    },
+    {
+     "text": "You might think the sea rose over the Dutch. It mostly did not. A thousand years ago much of this land was a soggy bog that stood above the water. Then people started to drain it, and the ground began to sink. Researchers who added up a thousand years of that work found that the coastal plain dropped by about two meters on average. The Dutch lowered their own country.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Netherlands dikes (ASTER).jpg",
+       "on_screen_text": "Dikes and polders of the Dutch delta, from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "A thousand years ago",
+       "photo": "File:Landschap met vissers en turfstekende boeren in het laagveen, SK-A-4946.jpg",
+       "on_screen_text": "Fishers and peat cutters in the bogs, 18th-century painting"
+      },
+      {
+       "type": "map",
+       "at": "Then people started to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.75,
+           "lat": 51.98,
+           "span": 0.2
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ditches in the peat meadows near Gouda"
+      },
+      {
+       "type": "stat",
+       "at": "Researchers who added up",
+       "stat": {
+        "value": "−1.9 M",
+        "label": "Average lowering of the Dutch coastal plain in 1,000 years",
+        "source": "Erkens et al., Hydrogeology Journal 2016"
+       }
+      },
+      {
+       "type": "map",
+       "at": "coastal plain dropped by",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.6,
+           "lat": 52.15,
+           "span": 3.0
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           },
+           {
+            "name": "The Hague",
+            "lon": 4.3,
+            "lat": 52.08,
+            "kind": "city",
+            "label": "The Hague"
+           }
+          ]
+         },
+         {
+          "at": 62,
+          "view": {
+           "lon": 4.6,
+           "lat": 52.15,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "This is the story of how that happened: a lake that grew until it threatened two cities, a night in 1953 when the sea came back, and a province that did not exist a hundred years ago. How does a country sink itself below the sea it fears, and why do eighteen million people stay?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Verkaveling van den Haarlemmermeer polder, Objectnr PV PV71366.jpg",
+       "on_screen_text": "The drained Haarlemmermeer, 19th-century map"
+      },
+      {
+       "type": "photo",
+       "at": "a night in 1953",
+       "photo": "File:Watersnood 1953. Korte Nobelstraat te Zierikzee, Bestanddeelnr 905-5704.jpg",
+       "on_screen_text": "Zierikzee, February 1953"
+      },
+      {
+       "type": "map",
+       "at": "and a province that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.4,
+           "lat": 52.45,
+           "span": 0.6
+          },
+          "date": "2024-03-15/2024-05-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Flevoland, land made from the sea"
+      },
+      {
+       "type": "map",
+       "at": "How does a country",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.0,
+           "lat": 53.5,
+           "span": 16
+          },
+          "highlight": [
+           "Netherlands@red"
+          ]
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 3.0,
+           "lat": 53.5,
+           "span": 13.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "First, what does \"below sea level\" mean here? In 1684 the mayor of Amsterdam, Johannes Hudde, had the water of the city's harbor measured for a whole year. The average summer high tide became the city's zero line, and marble stones were set into the locks to mark it. Two centuries later it became the national standard, the Normal Amsterdam Level, or N-A-P. When the Dutch say a field lies six meters down, they mean six meters below that old line in Amsterdam. And the first reason so much land lies under it is the ground itself.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Amsterdam Canal Houses (52556779860).jpg",
+       "on_screen_text": "Amsterdam"
+      },
+      {
+       "type": "stat",
+       "at": "In 1684 the mayor",
+       "stat": {
+        "value": "1684",
+        "label": "Johannes Hudde fixes Amsterdam's water level, the start of NAP",
+        "source": "Wikipedia, Amsterdam Ordnance Datum"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Hudde, had the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.92,
+           "lat": 52.385,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": 4.92,
+           "lat": 52.385,
+           "span": 0.093
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The IJ, Amsterdam's old harbor"
+      },
+      {
+       "type": "map",
+       "at": "and marble stones were",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.9,
+           "lat": 52.375,
+           "span": 0.04
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The IJ and central Amsterdam"
+      },
+      {
+       "type": "photo",
+       "at": "Two centuries later it",
+       "photo": "File:Centraal ijkpunt NAP ( Normaal Amsterdam Peil) ingang stadhuis (Stopera), Bestanddeelnr 934-2481.jpg",
+       "on_screen_text": "The NAP benchmark under Amsterdam's city hall, 1988"
+      },
+      {
+       "type": "map",
+       "at": "When the Dutch say",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.75,
+           "lat": 52.21,
+           "span": 2.7
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Lowest point",
+            "lon": 4.61,
+            "lat": 52.0,
+            "kind": "site",
+            "label": "Lowest point, 6.76 m below NAP"
+           },
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           }
+          ]
+         },
+         {
+          "at": 73,
+          "view": {
+           "lon": 4.75,
+           "lat": 52.21,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And the first reason",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.17,
+           "lat": 52.108,
+           "span": 5.06
+          },
+          "highlight": [
+           "Netherlands@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ground Was Peat",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Long before anyone drained anything, people in the far north already lived with the sea. More than two thousand years ago, on the salt marshes of Friesland and Groningen, they piled up earth and dung into mounds called terps and built their farms on top. When storm tides came, the mounds became islands. Some grew to be several meters high, and villages still stand on them today. Living below the sea was not the plan. Living above it was.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 6.0,
+           "lat": 53.25,
+           "span": 3.0
+          },
+          "highlight": [
+           "Friesland@accent",
+           "Groningen@alt"
+          ]
+         },
+         {
+          "at": 7,
+          "view": {
+           "lon": 6.0,
+           "lat": 53.25,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "More than two thousand",
+       "stat": {
+        "value": "500 BC",
+        "label": "About then: the first dwelling mounds (terps) in the north",
+        "source": "Wikipedia, Terp"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "they piled up earth",
+       "photo": "File:Geefsweer - wierde (noorden).jpg",
+       "on_screen_text": "A village mound (wierde) at Geefsweer, Groningen"
+      },
+      {
+       "type": "map",
+       "at": "When storm tides came,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.85,
+           "lat": 53.34,
+           "span": 0.05
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hogebeintum, a village on a terp, Friesland"
+      },
+      {
+       "type": "map",
+       "at": "Some grew to be",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 6.25,
+           "lat": 53.36,
+           "span": 0.6
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The northern coast and the Wadden Sea"
+      },
+      {
+       "type": "map",
+       "at": "Living below the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 6.15,
+           "lat": 53.31,
+           "span": 2.7
+          },
+          "highlight": [
+           "Friesland@accent",
+           "Groningen@accent"
+          ],
+          "places": [
+           {
+            "name": "Groningen",
+            "lon": 6.57,
+            "lat": 53.22,
+            "kind": "city",
+            "label": "Groningen"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Along the coast, behind a line of sand dunes, the land was peat: layers of dead moss and reeds, soaked in water, built up over thousands of years. A peat bog is mostly water. In its natural state it rose slowly, and much of it stood above the level of the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.45,
+           "lat": 52.09,
+           "span": 3.3
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Haarlem",
+            "lon": 4.64,
+            "lat": 52.38,
+            "kind": "city",
+            "label": "Haarlem"
+           },
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "behind a line of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.45,
+           "lat": 52.25,
+           "span": 0.25
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dunes and polders between Leiden and the sea"
+      },
+      {
+       "type": "photo",
+       "at": "layers of dead moss",
+       "photo": "File:Panoramic view peat meadows at Wijkergouw Schellingwoude with reflected horses at 29 October 2015 - panoramio.jpg",
+       "on_screen_text": "Peat meadows at Schellingwoude"
+      },
+      {
+       "type": "photo",
+       "at": "A peat bog is",
+       "photo": "File:Fog in the polder 29-12-16 (31847866241).jpg",
+       "on_screen_text": "A ditch in a polder"
+      },
+      {
+       "type": "stat",
+       "at": "it rose slowly, and",
+       "stat": {
+        "value": "ABOVE THE SEA",
+        "label": "Much of the coastal peat stood above sea level before drainage",
+        "source": "Erkens et al., Hydrogeology Journal 2016"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Between about the year one thousand and thirteen hundred, the population grew and people needed farmland. So they dug ditches into the bogs to let the water run out. Farmers had to work together to keep those ditches open, and from that cooperation came the water boards, local water authorities that still exist today, and the people who live behind the dikes still elect their boards every four years. In 1953 there were more than two and a half thousand of them. Mergers have cut that to a few dozen.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1000-1300",
+        "label": "Drainage of the coastal peatlands for farmland",
+        "source": "Erkens et al., Hydrogeology Journal 2016"
+       }
+      },
+      {
+       "type": "map",
+       "at": "So they dug ditches",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.9,
+           "lat": 52.15,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Long strip fields cut into peat, Utrecht"
+      },
+      {
+       "type": "photo",
+       "at": "Farmers had to work",
+       "photo": "File:Dike road at Goingarijp (The Netherlands 2019) (47623059262).jpg",
+       "on_screen_text": "A dike road in Friesland"
+      },
+      {
+       "type": "map",
+       "at": "from that cooperation came",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.538,
+           "lat": 52.016,
+           "span": 3.772
+          },
+          "highlight": [
+           "Utrecht@alt",
+           "South Holland@accent",
+           "North Holland@accent"
+          ]
+         },
+         {
+          "at": 54,
+          "view": {
+           "lon": 5.538,
+           "lat": 52.016,
+           "span": 3.206
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1953 there were",
+       "stat": {
+        "value": "~2,670",
+        "label": "Dutch water boards in 1953; a few dozen today after mergers",
+        "source": "Springer, Water History 2016"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Mergers have cut that",
+       "photo": "File:Dike farm at Acquoy (Netherlands 2017) (34830824861).jpg",
+       "on_screen_text": "A dike farm at Acquoy"
+      }
+     ]
+    },
+    {
+     "text": "But drained peat does something strange. Once air gets into it, the peat starts to rot, and it shrinks. The ground sinks. Then the ditches are too shallow, so people dig them deeper, the water drops again, more peat meets the air, and the ground sinks again. It is a loop, and it has been running for a thousand years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.7,
+           "lat": 52.02,
+           "span": 0.12
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Peat meadows in the Krimpenerwaard"
+      },
+      {
+       "type": "stat",
+       "at": "Once air gets into",
+       "stat": {
+        "value": "ROTS",
+        "label": "Drained peat oxidises and compacts, so the ground sinks",
+        "source": "Erkens et al., Hydrogeology Journal 2016"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Then the ditches are",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.88,
+           "lat": 51.93,
+           "span": 0.1
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 34,
+          "view": {
+           "lon": 4.88,
+           "lat": 51.93,
+           "span": 0.062
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ditches in the Alblasserwaard"
+      },
+      {
+       "type": "photo",
+       "at": "It is a loop,",
+       "photo": "File:Alblasserwaard - 19 (49924655523).jpg",
+       "on_screen_text": "The Alblasserwaard"
+      }
+     ]
+    },
+    {
+     "text": "People also dug the peat out and burned it. Dried peat, called turf, heated Dutch homes and fed breweries and brick kilns for centuries. A 2016 study added it all up. About twenty cubic kilometers of peat are gone. Two thirds of that loss came from drainage, one third from digging and burning. The result: the coastal plain dropped about one point nine meters on average, and most of it ended up below the sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Landschap met vissers en turfstekende boeren in het laagveen, SK-A-4946.jpg",
+       "on_screen_text": "Peat cutting, Rijksmuseum painting"
+      },
+      {
+       "type": "map",
+       "at": "Dried peat, called turf,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.93,
+           "lat": 52.22,
+           "span": 0.12
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": 4.93,
+           "lat": 52.22,
+           "span": 0.074
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Vinkeveen lakes, dug out for turf"
+      },
+      {
+       "type": "stat",
+       "at": "A 2016 study added",
+       "stat": {
+        "value": "19.8 KM³",
+        "label": "Peat lost from the Dutch coastal plain in 1,000 years",
+        "source": "Erkens et al., Hydrogeology Journal 2016"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Two thirds of that",
+       "chart": {
+        "type": "bar",
+        "title": "Why the peat is gone",
+        "unit": "%",
+        "data": [
+         [
+          "Drainage",
+          66
+         ],
+         [
+          "Digging and burning",
+          34
+         ]
+        ],
+        "source": "Erkens et al., Hydrogeology Journal 2016",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "The result: the coastal",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.69,
+           "lat": 52.03,
+           "span": 2.46
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           },
+           {
+            "name": "The Hague",
+            "lon": 4.3,
+            "lat": 52.08,
+            "kind": "city",
+            "label": "The Hague"
+           },
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           }
+          ]
+         },
+         {
+          "at": 64,
+          "view": {
+           "lon": 4.69,
+           "lat": 52.03,
+           "span": 2.05
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Soft ground also shaped the cities. Under Amsterdam the peat and clay are too weak to carry stone, so builders drove long wooden piles down to a firmer layer of sand. The Royal Palace on Dam Square, finished in 1665, stands on more than thirteen thousand of them. Much of the old city still rests on wood, which lasts only as long as it stays under water. Keep the water too low, and the piles rot. Keep it too high, and the cellars flood.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.89,
+           "lat": 52.37,
+           "span": 0.06
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 4.89,
+           "lat": 52.37,
+           "span": 0.037
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Central Amsterdam"
+      },
+      {
+       "type": "photo",
+       "at": "so builders drove long",
+       "photo": "File:Amsterdam Canal Houses (52556779860).jpg",
+       "on_screen_text": "Canal houses on wooden piles, Amsterdam"
+      },
+      {
+       "type": "photo",
+       "at": "The Royal Palace on",
+       "photo": "File:The Royal Palace on the Dam of Amsterdam on 25 November 2015.jpg",
+       "on_screen_text": "The Royal Palace on Dam Square"
+      },
+      {
+       "type": "stat",
+       "at": "stands on more than",
+       "stat": {
+        "value": "13,659",
+        "label": "Wooden piles under the Royal Palace, Amsterdam",
+        "source": "Wikipedia, Royal Palace of Amsterdam"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Much of the old",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.885,
+           "lat": 52.367,
+           "span": 0.04
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 60,
+          "view": {
+           "lon": 4.885,
+           "lat": 52.367,
+           "span": 0.035
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 72,
+          "view": {
+           "lon": 4.885,
+           "lat": 52.367,
+           "span": 0.056
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The canal ring, Amsterdam"
+      }
+     ]
+    },
+    {
+     "text": "Here is where that left the country. In 2010 the Dutch environmental agency corrected a famous error in a United Nations climate report: not fifty-five percent of the Netherlands lies below sea level, but twenty-six percent. Fifty-nine percent of the land can flood, from the sea or from the rivers. Which raises a question. If the land sinks below the water around it, where does the water go?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.262,
+           "lat": 52.384,
+           "span": 5.428
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 5.262,
+           "lat": 52.384,
+           "span": 4.614
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "not fifty-five percent of",
+       "stat": {
+        "value": "26 %",
+        "label": "Below sea level (the IPCC had said 55 %)",
+        "source": "PBL Netherlands Environmental Assessment Agency, 2010"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Fifty-nine percent of the",
+       "stat": {
+        "value": "59 %",
+        "label": "Land that can flood, from the sea or the rivers",
+        "source": "PBL Netherlands Environmental Assessment Agency, 2010"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Which raises a question.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.722,
+           "lat": 52.2,
+           "span": 4.37
+          },
+          "highlight": [
+           "file:belowsea.geojson@red",
+           "Zeeland@alt"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "where does the water",
+       "photo": "File:Fog in the polder 29-12-16 (31847866241).jpg",
+       "on_screen_text": "Polder water, held below the land"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Holes Full of Water",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Into the holes. Where peat was dug out, pits filled with water. Storms tore at their edges, and small lakes ate into the soft land and merged into big ones. The worst was the Haarlemmermeer, between Amsterdam and Leiden. By one count it grew from about nine thousand hectares in the thirteenth century to almost seventeen thousand by the nineteenth, swallowing farms and villages on its way.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.72,
+           "lat": 52.2,
+           "span": 0.2
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 4.72,
+           "lat": 52.2,
+           "span": 0.124
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": 4.72,
+           "lat": 52.2,
+           "span": 0.198
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lakes left by peat digging, Nieuwkoopse Plassen"
+      },
+      {
+       "type": "map",
+       "at": "The worst was the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.51,
+           "lat": 52.27,
+           "span": 3.54
+          },
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           },
+           {
+            "name": "Haarlem",
+            "lon": 4.64,
+            "lat": 52.38,
+            "kind": "city",
+            "label": "Haarlem"
+           },
+           {
+            "name": "Haarlemmermeer",
+            "lon": 4.69,
+            "lat": 52.3,
+            "kind": "site",
+            "label": "Haarlemmermeer (lake until 1852)"
+           }
+          ]
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": 4.51,
+           "lat": 52.27,
+           "span": 3.009
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about nine thousand hectares",
+       "stat": {
+        "value": "9,100 → 16,850 HA",
+        "label": "Growth of the Haarlemmermeer, 1250 to 1848",
+        "source": "Flevolands Geheugen"
+       }
+      },
+      {
+       "type": "map",
+       "at": "swallowing farms and villages",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.69,
+           "lat": 52.3,
+           "span": 0.35
+          },
+          "date": "2024-03-15/2024-05-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Haarlemmermeer polder today"
+      }
+     ]
+    },
+    {
+     "text": "To win land back, the Dutch needed a machine that could lift water uphill: the windmill. In 1607 a group of Amsterdam merchants and mayors got permission to drain Lake Beemster, north of the city. Each investor paid for a share of the future land, betting that the lake bed would make rich farmland. They built a thirty-eight kilometer dike around it, with a canal outside, and set forty-three windmills to work. By 1612 the lake was dry, and the new polder was laid out in a neat grid of fields and roads that you can still see from space. In 1999 the Beemster became a World Heritage site, as a model of how the Dutch made land from water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg",
+       "on_screen_text": "Windmills at the Zaanse Schans"
+      },
+      {
+       "type": "map",
+       "at": "In 1607 a group",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.81,
+           "lat": 52.15,
+           "span": 2.85
+          },
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Beemster",
+            "lon": 4.91,
+            "lat": 52.55,
+            "kind": "site",
+            "label": "Beemster polder"
+           }
+          ]
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": 4.81,
+           "lat": 52.15,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Each investor paid for",
+       "photo": "File:Beemster 1658 (26226452006).jpg",
+       "on_screen_text": "The Beemster, map of 1658"
+      },
+      {
+       "type": "map",
+       "at": "betting that the lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.93,
+           "lat": 52.56,
+           "span": 0.35
+          },
+          "date": "2024-03-15/2024-05-15"
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": 4.93,
+           "lat": 52.56,
+           "span": 0.217
+          },
+          "date": "2024-03-15/2024-05-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Beemster and its ring canal"
+      },
+      {
+       "type": "stat",
+       "at": "with a canal outside,",
+       "stat": {
+        "value": "43 MILLS",
+        "label": "Drained the Beemster, 1607-1612, behind a 38 km dike",
+        "source": "Canon van Nederland"
+       }
+      },
+      {
+       "type": "map",
+       "at": "By 1612 the lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.91,
+           "lat": 52.55,
+           "span": 0.2
+          },
+          "date": "2024-03-15/2024-05-15"
+         },
+         {
+          "at": 86,
+          "view": {
+           "lon": 4.91,
+           "lat": 52.55,
+           "span": 0.124
+          },
+          "date": "2024-03-15/2024-05-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Beemster's grid of fields"
+      },
+      {
+       "type": "stat",
+       "at": "In 1999 the Beemster",
+       "stat": {
+        "value": "1999",
+        "label": "The Beemster becomes a UNESCO World Heritage site",
+        "source": "UNESCO"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a model of how",
+       "photo": "File:Lovely bulbbfields mid April at polder Beemster North Holland - panoramio.jpg",
+       "on_screen_text": "Bulb fields in the Beemster"
+      }
+     ]
+    },
+    {
+     "text": "One of the engineers was Jan Adriaenszoon Leeghwater, a millwright whose name means \"empty water\". He went on to plan the biggest prize of all, the Haarlemmermeer, in 1629. His plan was never built. The lake was too big for windmills.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Portret van de waterbouwkundige Jan Adriaanszoon Leeghwater, RP-P-1905-3793.jpg",
+       "on_screen_text": "Jan Adriaenszoon Leeghwater (1575-1650)"
+      },
+      {
+       "type": "photo",
+       "at": "He went on to",
+       "photo": "File:Molenmaker Jan Adriaanszoon Leeghwater aan het werk, RP-P-1906-966.jpg",
+       "on_screen_text": "Leeghwater the millwright, 19th-century print"
+      },
+      {
+       "type": "stat",
+       "at": "His plan was never",
+       "stat": {
+        "value": "1629",
+        "label": "Leeghwater's windmill plan for the Haarlemmermeer, never built",
+        "source": "ASME, Cruquius landmark"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Windmills became the country's water pumps. At Kinderdijk, east of Rotterdam, nineteen of them still stand in rows along the canals. They were built in 1738 and 1740 to keep a sinking polder dry, and they are now a World Heritage site. But every mill that pumped the land drier also helped the peat behind it shrink.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Some of the group of Windmills for waterworks at Kinderdijk. World Heritage these mills - panoramio.jpg",
+       "on_screen_text": "The mills of Kinderdijk"
+      },
+      {
+       "type": "map",
+       "at": "At Kinderdijk, east of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.64,
+           "lat": 51.885,
+           "span": 0.05
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 4.64,
+           "lat": 51.885,
+           "span": 0.035
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kinderdijk"
+      },
+      {
+       "type": "stat",
+       "at": "They were built in",
+       "stat": {
+        "value": "1738 · 1740",
+        "label": "The Kinderdijk mills; UNESCO World Heritage since 1997",
+        "source": "UNESCO"
+       }
+      },
+      {
+       "type": "map",
+       "at": "a sinking polder dry,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.75,
+           "lat": 51.87,
+           "span": 0.3
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Alblasserwaard behind the mills"
+      },
+      {
+       "type": "photo",
+       "at": "But every mill that",
+       "photo": "File:Molens bij Kinderdijk, Bestanddeelnr 901-4769.jpg",
+       "on_screen_text": "Kinderdijk, mid-20th century"
+      }
+     ]
+    },
+    {
+     "text": "In 1836 two storms pushed the Haarlemmermeer over its banks. In November the water reached the gates of Amsterdam. In December it flooded land toward Leiden. This time the government acted. Three steam pumping stations, one of them named Cruquius, went to work in 1849. Cruquius alone drove eight pumps from one giant engine, lifting about two hundred cubic meters of water a minute, and by 1852 the lake was gone. The station kept pumping until 1932 and still stands as a museum. The new polder was about eighteen thousand hectares. Today Schiphol airport stands on it, about three meters below sea level.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.39,
+           "lat": 52.15,
+           "span": 2.58
+          },
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           },
+           {
+            "name": "Haarlemmermeer",
+            "lon": 4.69,
+            "lat": 52.3,
+            "kind": "site",
+            "label": "Haarlemmermeer (lake until 1852)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In November the water",
+       "stat": {
+        "value": "1836",
+        "label": "Two storms: 29 Nov toward Amsterdam, 26 Dec toward Leiden",
+        "source": "Flevolands Geheugen"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In December it flooded",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.6,
+           "lat": 52.3,
+           "span": 3.18
+          },
+          "places": [
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           },
+           {
+            "name": "Haarlemmermeer",
+            "lon": 4.69,
+            "lat": 52.3,
+            "kind": "site",
+            "label": "Haarlemmermeer (lake until 1852)"
+           },
+           {
+            "name": "Haarlem",
+            "lon": 4.64,
+            "lat": 52.38,
+            "kind": "city",
+            "label": "Haarlem"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Three steam pumping stations,",
+       "photo": "File:Cruquius Gemaal.jpg",
+       "on_screen_text": "The Cruquius pumping station"
+      },
+      {
+       "type": "photo",
+       "at": "Cruquius alone drove eight",
+       "photo": "File:Gemaal De Cruquius (20082148438).jpg",
+       "on_screen_text": "Cruquius, built 1846-1849"
+      },
+      {
+       "type": "stat",
+       "at": "lifting about two hundred",
+       "stat": {
+        "value": "~210 M³/MIN",
+        "label": "Water lifted by Cruquius's eight pumps",
+        "source": "ASME landmark #153"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The station kept pumping",
+       "photo": "File:Union ENI 03031748 Ringvaart Haarlemmermeer polder.jpg",
+       "on_screen_text": "The ring canal around the Haarlemmermeer"
+      },
+      {
+       "type": "photo",
+       "at": "The new polder was",
+       "photo": "File:Verkaveling van den Haarlemmermeer polder, Objectnr PV PV71366.jpg",
+       "on_screen_text": "The new Haarlemmermeer polder"
+      },
+      {
+       "type": "map",
+       "at": "Today Schiphol airport stands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.76,
+           "lat": 52.31,
+           "span": 0.12
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Schiphol airport"
+      },
+      {
+       "type": "stat",
+       "at": "about three meters below",
+       "stat": {
+        "value": "−3 M",
+        "label": "Schiphol, below NAP (about)",
+        "source": "Wikipedia, Amsterdam Airport Schiphol"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sea Comes Back",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Pumps can win land from lakes. The sea is harder. On a November night in 1421, the Saint Elizabeth flood broke through the dikes south of Dordrecht and drowned a whole polder, the Grote Hollandse Waard. Its villages disappeared under the water. Just to the northeast, the Alblasserwaard polder stayed dry, and three centuries later it is where the windmills of Kinderdijk were built.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.1,
+           "lat": 51.7,
+           "span": 2.8
+          },
+          "places": [
+           {
+            "name": "Dordrecht",
+            "lon": 4.69,
+            "lat": 51.81,
+            "kind": "city",
+            "label": "Dordrecht"
+           },
+           {
+            "name": "Kinderdijk",
+            "lon": 4.64,
+            "lat": 51.885,
+            "kind": "site",
+            "label": "Kinderdijk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On a November night",
+       "stat": {
+        "value": "1421",
+        "label": "The Saint Elizabeth flood drowns the Grote Hollandse Waard",
+        "source": "Wikipedia, Kinderdijk"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "broke through the dikes",
+       "photo": "File:Cuyp, Aelbert - The large Dort.jpg",
+       "on_screen_text": "Dordrecht, painted by Aelbert Cuyp, 17th century"
+      },
+      {
+       "type": "map",
+       "at": "Its villages disappeared under",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.8,
+           "lat": 51.75,
+           "span": 0.3
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Biesbosch, south of Dordrecht"
+      },
+      {
+       "type": "photo",
+       "at": "the Alblasserwaard polder stayed",
+       "photo": "File:Alblasserwaard - 19 (49924655523).jpg",
+       "on_screen_text": "The Alblasserwaard"
+      },
+      {
+       "type": "photo",
+       "at": "it is where the",
+       "photo": "File:Molens bij Kinderdijk, Bestanddeelnr 901-4769.jpg",
+       "on_screen_text": "Kinderdijk, mid-20th century"
+      }
+     ]
+    },
+    {
+     "text": "In the middle of the country lay an arm of the North Sea called the Zuiderzee, the southern sea. Its storms flooded the towns around it again and again. In January 1916 a storm surge broke dikes along its shores. Coming during the food shortages of the First World War, that flood decided an old argument.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.4,
+           "lat": 52.75,
+           "span": 2.8
+          },
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           }
+          ]
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": 5.4,
+           "lat": 52.75,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In January 1916 a",
+       "stat": {
+        "value": "1916",
+        "label": "Storm surge breaks Zuiderzee dikes, 13-14 January",
+        "source": "Wikipedia, Flood of 1916"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Coming during the food",
+       "photo": "File:Dijkdoorbraak, overstroming, watersnood, SFA022813657.jpg",
+       "on_screen_text": "A dike breach, 1916"
+      }
+     ]
+    },
+    {
+     "text": "The engineer Cornelis Lely had drawn up plans for it back in the eighteen-nineties. By 1916 he was the minister of transport and water, and he had long wanted to close the Zuiderzee off and turn much of it into land. In 1918 his plan became law. On the twenty-eighth of May 1932 the last gap in a dam about thirty-two kilometers long, the Afsluitdijk, was closed. The salt sea behind it slowly turned into a freshwater lake, the IJsselmeer.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ontwerp Afsluiting Zuiderzee en Droogmaking Cornelis Lely 1891-1892.jpg",
+       "on_screen_text": "Lely's plan to close the Zuiderzee, 1891-1892"
+      },
+      {
+       "type": "photo",
+       "at": "By 1916 he was",
+       "photo": "File:Cornelis Lely - Afsluitdijk (32896245132) (2).jpg",
+       "on_screen_text": "Cornelis Lely, statue on the Afsluitdijk"
+      },
+      {
+       "type": "map",
+       "at": "he had long wanted",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.54,
+           "lat": 52.806,
+           "span": 2.52
+          },
+          "highlight": [
+           "Flevoland@alt"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           }
+          ]
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": 5.54,
+           "lat": 52.806,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "On the twenty-eighth of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.26,
+           "lat": 52.694,
+           "span": 3.08
+          },
+          "routes": [
+           {
+            "from": [
+             4.99,
+             52.94
+            ],
+            "to": [
+             5.42,
+             53.07
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 1.6,
+            "label": "Afsluitdijk, 32 km"
+           }
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           }
+          ]
+         },
+         {
+          "at": 55,
+          "view": {
+           "lon": 5.26,
+           "lat": 52.694,
+           "span": 2.618
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Afsluitdijk, was closed.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.2,
+           "lat": 53.0,
+           "span": 0.5
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Afsluitdijk"
+      },
+      {
+       "type": "photo",
+       "at": "The salt sea behind",
+       "photo": "File:Afsluitdijk - wind turbines.jpg",
+       "on_screen_text": "Wind turbines in the IJsselmeer"
+      }
+     ]
+    },
+    {
+     "text": "Then the Dutch pumped parts of that lake dry. Polder after polder rose out of the water, and the largest became Flevoland. Its towns, Lelystad, named after Lely, and Almere, were built on what had been the sea floor. In all, the Zuiderzee Works added about one hundred and sixty-five thousand hectares of new land. In 1986 Flevoland became a province, younger than many of the people who live there.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Polder oostelijk Flevoland is aan het droogvallen, Bestanddeelnr 909-4895.jpg",
+       "on_screen_text": "Eastern Flevoland falling dry"
+      },
+      {
+       "type": "map",
+       "at": "Polder after polder rose",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.484,
+           "lat": 52.638,
+           "span": 2.296
+          },
+          "highlight": [
+           "Flevoland@red"
+          ],
+          "places": [
+           {
+            "name": "Lelystad",
+            "lon": 5.47,
+            "lat": 52.52,
+            "kind": "city",
+            "label": "Lelystad"
+           },
+           {
+            "name": "Almere",
+            "lon": 5.22,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Almere"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its towns, Lelystad, named",
+       "photo": "File:Werkzaamheden in de polder Oostelijk Flevoland, Bestanddeelnr 909-6758.jpg",
+       "on_screen_text": "Work in the new polder, Eastern Flevoland"
+      },
+      {
+       "type": "photo",
+       "at": "were built on what",
+       "photo": "File:Almerehaven.jpg",
+       "on_screen_text": "Almere"
+      },
+      {
+       "type": "stat",
+       "at": "In all, the Zuiderzee",
+       "stat": {
+        "value": "165,000 HA",
+        "label": "New land from the Zuiderzee Works",
+        "source": "Rijkswaterstaat"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1986 Flevoland became",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.47,
+           "lat": 52.52,
+           "span": 0.25
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 62,
+          "view": {
+           "lon": 5.47,
+           "lat": 52.52,
+           "span": 0.155
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lelystad"
+      }
+     ]
+    },
+    {
+     "text": "The water was also a weapon. In October 1944 Allied bombers blew holes in the sea dikes of Walcheren, an island in Zeeland, to flood out the German guns that blocked the way to the port of Antwerp. The sea poured in through the gaps, and the island stayed under water until the repairs began a year later. In April 1945, weeks before the end of the war, German troops blew up the dike of the Wieringermeer, one of Lely's new polders. It filled in about two days, and some seven thousand people lost their homes. Both were pumped dry again. In this country, land can be taken away and given back.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.24,
+           "lat": 51.756,
+           "span": 2.52
+          },
+          "places": [
+           {
+            "name": "Walcheren",
+            "lon": 3.58,
+            "lat": 51.53,
+            "kind": "site",
+            "label": "Walcheren"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In October 1944 Allied",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.58,
+           "lat": 51.53,
+           "span": 0.4
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": 3.58,
+           "lat": 51.53,
+           "span": 0.248
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 32,
+          "view": {
+           "lon": 3.58,
+           "lat": 51.53,
+           "span": 0.397
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 45,
+          "view": {
+           "lon": 3.58,
+           "lat": 51.53,
+           "span": 0.246
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Walcheren today"
+      },
+      {
+       "type": "map",
+       "at": "In April 1945, weeks",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.316,
+           "lat": 52.862,
+           "span": 3.304
+          },
+          "places": [
+           {
+            "name": "Wieringermeer",
+            "lon": 4.98,
+            "lat": 52.83,
+            "kind": "site",
+            "label": "Wieringermeer"
+           }
+          ],
+          "highlight": [
+           "North Holland@alt"
+          ]
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": 5.316,
+           "lat": 52.862,
+           "span": 2.808
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It filled in about",
+       "photo": "File:Wieringermeer, Bestanddeelnr 901-1844.jpg",
+       "on_screen_text": "The flooded Wieringermeer, 1945"
+      },
+      {
+       "type": "photo",
+       "at": "Both were pumped dry",
+       "photo": "File:Wieringermeer. Bij Medemblik werden hulpgemalen ingezet (voorjaar 1945) om de Wi, Bestanddeelnr 901-1846.jpg",
+       "on_screen_text": "Pumps draining the Wieringermeer again, 1945"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Night of 1953",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In the southwest, the rivers Rhine, Meuse and Scheldt reach the sea through a maze of islands and estuaries. On the night of the thirty-first of January 1953, a spring tide met a northwest storm. The water rose over the dikes and broke through them across Zeeland, South Holland and North Brabant.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.96,
+           "lat": 51.644,
+           "span": 3.08
+          },
+          "highlight": [
+           "Zeeland@accent"
+          ],
+          "places": [
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           },
+           {
+            "name": "Zierikzee",
+            "lon": 3.92,
+            "lat": 51.65,
+            "kind": "city",
+            "label": "Zierikzee"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 3.96,
+           "lat": 51.644,
+           "span": 2.618
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On the night of",
+       "stat": {
+        "value": "31 JAN 1953",
+        "label": "Spring tide and a northwest storm",
+        "source": "Watersnoodmuseum"
+       }
+      },
+      {
+       "type": "map",
+       "at": "a spring tide met",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.8,
+           "lat": 53.82,
+           "span": 14.4
+          },
+          "routes": [
+           {
+            "from": [
+             1.0,
+             56.0
+            ],
+            "to": [
+             3.8,
+             51.8
+            ],
+            "mode": "air",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "Northwest storm, 31 Jan 1953"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The water rose over",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.184,
+           "lat": 51.588,
+           "span": 2.296
+          },
+          "highlight": [
+           "Zeeland@red",
+           "South Holland@red",
+           "North Brabant@red"
+          ],
+          "places": [
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         },
+         {
+          "at": 43,
+          "view": {
+           "lon": 4.184,
+           "lat": 51.588,
+           "span": 2.05
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "People woke to water in their bedrooms. Many climbed onto roofs and into attics, and some waited in the cold for days before boats reached them. One thousand eight hundred and thirty-six people drowned in the Netherlands, about half of them in Zeeland. Around two hundred thousand hectares went under water, and seventy-two thousand people had to leave their homes. Across the sea, in England and Scotland, more than three hundred people died in the same storm.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Watersnood 1953. Korte Nobelstraat te Zierikzee, Bestanddeelnr 905-5704.jpg",
+       "on_screen_text": "Zierikzee, 1953"
+      },
+      {
+       "type": "photo",
+       "at": "Many climbed onto roofs",
+       "photo": "File:Watersnoodramp 1953 - Zwaar beschadigd huis.jpg",
+       "on_screen_text": "A wrecked house, 1953"
+      },
+      {
+       "type": "photo",
+       "at": "some waited in the",
+       "photo": "File:Dijkdoorbraak bij Den Bommel, Bestanddeelnr 905-5475.jpg",
+       "on_screen_text": "A dike breach at Den Bommel, February 1953"
+      },
+      {
+       "type": "stat",
+       "at": "One thousand eight hundred",
+       "stat": {
+        "value": "1,836",
+        "label": "People drowned in the Netherlands, 1953",
+        "source": "Watersnoodmuseum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Around two hundred thousand",
+       "photo": "File:NIMH P101-C41 017 Watersnoodramp 1953 Oudenhoorn.jpg",
+       "on_screen_text": "Oudenhoorn from the air, 1953"
+      },
+      {
+       "type": "stat",
+       "at": "and seventy-two thousand people",
+       "stat": {
+        "value": "72,000",
+        "label": "People evacuated; about 200,000 ha flooded",
+        "source": "Watersnoodmuseum (Louwerse)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Across the sea, in",
+       "photo": "File:Watersnood 1953. Evacuatie Zierikzee aankomst Dordrecht, Bestanddeelnr 905-5506.jpg",
+       "on_screen_text": "Evacuees from Zierikzee arrive in Dordrecht"
+      }
+     ]
+    },
+    {
+     "text": "It could have been far worse. Before dawn, a fifteen-meter stretch of the dike along the Hollandse IJssel river gave way near Nieuwerkerk, the town next to the country's lowest point. Behind that dike lay the deepest polders of South Holland and the cities around Rotterdam. The local officials ordered a river barge, De Twee Gebroeders, the Two Brothers, to be steered into the hole. Its skipper, Arie Evegroen, wedged the boat into the gap, volunteers piled sandbags behind it, and the dike held.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.585,
+           "lat": 51.965,
+           "span": 0.06
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 4.585,
+           "lat": 51.965,
+           "span": 0.037
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": 4.585,
+           "lat": 51.965,
+           "span": 0.059
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Hollandse IJssel at Nieuwerkerk"
+      },
+      {
+       "type": "map",
+       "at": "Behind that dike lay",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.6,
+           "lat": 52.0,
+           "span": 2.34
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Lowest point",
+            "lon": 4.61,
+            "lat": 52.0,
+            "kind": "site",
+            "label": "Lowest point, 6.76 m below NAP"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         },
+         {
+          "at": 38,
+          "view": {
+           "lon": 4.6,
+           "lat": 52.0,
+           "span": 2.05
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The local officials ordered",
+       "photo": "File:Monument met rechts schipper Evegroen, Bestanddeelnr 932-7296.jpg",
+       "on_screen_text": "A monument to the ship, with skipper Evegroen"
+      },
+      {
+       "type": "map",
+       "at": "be steered into the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.59,
+           "lat": 51.962,
+           "span": 0.045
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 67,
+          "view": {
+           "lon": 4.59,
+           "lat": 51.962,
+           "span": 0.035
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dike at Nieuwerkerk"
+      },
+      {
+       "type": "stat",
+       "at": "volunteers piled sandbags behind",
+       "stat": {
+        "value": "THE TWO BROTHERS",
+        "label": "The barge that plugged the dike, 1 Feb 1953",
+        "source": "Canon van Nederland"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Closing all the holes took months. The last one, at Ouwerkerk in Zeeland, was shut on the sixth of November 1953 with four huge concrete boxes, caissons built in Britain during the Second World War for the floating harbors of the Normandy landings. They were never used in the war. Today they hold the national flood museum.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.99,
+           "lat": 51.62,
+           "span": 0.05
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ouwerkerk, Zeeland"
+      },
+      {
+       "type": "stat",
+       "at": "was shut on the",
+       "stat": {
+        "value": "6 NOV 1953",
+        "label": "The last breach closed, at Ouwerkerk",
+        "source": "IADC; Watersnoodmuseum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "caissons built in Britain",
+       "photo": "File:Ouwerkerk Watersnoodmuseum 1.JPG",
+       "on_screen_text": "The Ouwerkerk caissons, now the flood museum"
+      },
+      {
+       "type": "map",
+       "at": "the Normandy landings. They",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 1.5,
+           "lat": 50.6,
+           "span": 7.0
+          },
+          "places": [
+           {
+            "name": "Normandy",
+            "lon": -0.6,
+            "lat": 49.33,
+            "kind": "site",
+            "label": "Normandy, 1944"
+           },
+           {
+            "name": "Ouwerkerk",
+            "lon": 3.99,
+            "lat": 51.62,
+            "kind": "site",
+            "label": "Ouwerkerk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Today they hold the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.995,
+           "lat": 51.618,
+           "span": 0.035
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The caissons at Ouwerkerk"
+      }
+     ]
+    },
+    {
+     "text": "Twenty days after the flood, the government set up the Delta Committee. Its answer was the Delta Works: dams and barriers that shortened the coastline by closing most of the sea arms. The biggest, across the Eastern Scheldt, was meant to be a solid dam. Fishermen, oyster farmers and environmentalists fought it: a closed dam would turn a living salt-water estuary into a stagnant lake. In 1976 the government changed the plan. Instead of a wall, it built a barrier of sixty-two huge gates that stay open, so the tide still flows in and out, and close only when a storm comes. Queen Beatrix opened it in October 1986 and declared Zeeland safe.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "+20 DAYS",
+        "label": "The Delta Committee is set up",
+        "source": "Wikipedia, Delta Works"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its answer was the",
+       "photo": "File:Werkzaamheden Haringvlietdam, Bestanddeelnr 912-2127.jpg",
+       "on_screen_text": "Building the Haringvliet dam"
+      },
+      {
+       "type": "map",
+       "at": "dams and barriers that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.016,
+           "lat": 51.812,
+           "span": 3.304
+          },
+          "places": [
+           {
+            "name": "Eastern Scheldt barrier",
+            "lon": 3.69,
+            "lat": 51.64,
+            "kind": "site",
+            "label": "Eastern Scheldt barrier"
+           },
+           {
+            "name": "Maeslantkering",
+            "lon": 4.05,
+            "lat": 51.955,
+            "kind": "site",
+            "label": "Maeslantkering"
+           }
+          ],
+          "highlight": [
+           "Zeeland@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The biggest, across the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.95,
+           "lat": 51.55,
+           "span": 0.5
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Eastern Scheldt"
+      },
+      {
+       "type": "map",
+       "at": "Fishermen, oyster farmers and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.05,
+           "lat": 51.5,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oyster beds at Yerseke, Eastern Scheldt"
+      },
+      {
+       "type": "photo",
+       "at": "a closed dam would",
+       "photo": "File:Construction of the Volkerakdam, December 1967.jpg",
+       "on_screen_text": "Building a closed dam: the Volkerak, 1967"
+      },
+      {
+       "type": "stat",
+       "at": "In 1976 the government",
+       "stat": {
+        "value": "1976",
+        "label": "The plan changes: a storm-surge barrier instead of a dam",
+        "source": "Watersnoodmuseum"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Instead of a wall,",
+       "stat": {
+        "value": "62 GATES",
+        "label": "The Eastern Scheldt barrier, closed only in storms",
+        "source": "Watersnoodmuseum"
+       }
+      },
+      {
+       "type": "map",
+       "at": "so the tide still",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.69,
+           "lat": 51.64,
+           "span": 0.12
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 94,
+          "view": {
+           "lon": 3.69,
+           "lat": 51.64,
+           "span": 0.074
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Eastern Scheldt barrier"
+      },
+      {
+       "type": "photo",
+       "at": "Queen Beatrix opened it",
+       "photo": "File:Oosterscheldekering.jpg",
+       "on_screen_text": "The Eastern Scheldt barrier"
+      }
+     ]
+    },
+    {
+     "text": "The last great piece came in 1997 near Rotterdam: the Maeslantkering. Two gates, each about two hundred and ten meters long, rest in docks on either bank of the shipping channel. When a surge of about three meters is expected, they float out and swing shut across a three hundred and sixty meter wide waterway. Each gate hangs from a steel arm about as long as two football fields laid end to end, and the whole barrier swings shut in about two hours. It first closed for a real storm in November 2007.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.05,
+           "lat": 51.955,
+           "span": 0.05
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Maeslantkering"
+      },
+      {
+       "type": "stat",
+       "at": "Two gates, each about",
+       "stat": {
+        "value": "2 × 210 M",
+        "label": "The gates of the Maeslantkering",
+        "source": "Wikipedia, Maeslantkering"
+       }
+      },
+      {
+       "type": "map",
+       "at": "rest in docks on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.045,
+           "lat": 51.956,
+           "span": 0.035
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A gate in its dock"
+      },
+      {
+       "type": "photo",
+       "at": "When a surge of",
+       "photo": "File:Panorama sluiting Maeslantkering.jpg",
+       "on_screen_text": "The Maeslantkering closing"
+      },
+      {
+       "type": "map",
+       "at": "across a three hundred",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.1,
+           "lat": 51.96,
+           "span": 0.3
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 58,
+          "view": {
+           "lon": 4.1,
+           "lat": 51.96,
+           "span": 0.186
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": 4.1,
+           "lat": 51.96,
+           "span": 0.298
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Nieuwe Waterweg to Rotterdam"
+      },
+      {
+       "type": "stat",
+       "at": "It first closed for",
+       "stat": {
+        "value": "8 NOV 2007",
+        "label": "The Maeslantkering's first storm closure",
+        "source": "Wikipedia, Maeslantkering"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Why They Stay",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why not move to higher ground? Because the low land is the country. Amsterdam, Rotterdam, The Hague and the farms between them sit mostly behind dikes and dunes. Rotterdam is Europe's biggest port. Leaving would mean leaving the economic heart of the Netherlands.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.078,
+           "lat": 52.2,
+           "span": 3.956
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           },
+           {
+            "name": "The Hague",
+            "lon": 4.3,
+            "lat": 52.08,
+            "kind": "city",
+            "label": "The Hague"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Amsterdam, Rotterdam, The Hague",
+       "photo": "File:Aerial photograph of the port of Rotterdam in 2017 (3).jpg",
+       "on_screen_text": "The port of Rotterdam"
+      },
+      {
+       "type": "map",
+       "at": "Rotterdam is Europe's biggest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.05,
+           "lat": 51.95,
+           "span": 0.4
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Maasvlakte, the port of Rotterdam"
+      },
+      {
+       "type": "photo",
+       "at": "Leaving would mean leaving",
+       "photo": "File:The Royal Palace on the Dam of Amsterdam on 25 November 2015.jpg",
+       "on_screen_text": "Dam Square, Amsterdam"
+      }
+     ]
+    },
+    {
+     "text": "And the sinking has not stopped. In the peat meadows of the Green Heart, between the big cities, the ground still drops by about a centimeter a year where the water is kept low for farming. If nothing changes, some of these meadows could sink up to a meter more by 2050. A government advisory council has called for cutting that sinking by seventy percent by the same year. The main tool is to raise the water level again, which means the peat stops rotting but the fields get too wet for cows. Farmers, nature groups and water boards are still arguing over where to draw that line. In 2019 the government's planning agency estimated the extra cost of subsidence at about twenty-two billion euros by 2050.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.75,
+           "lat": 52.21,
+           "span": 2.619
+          },
+          "highlight": [
+           "Utrecht@alt",
+           "South Holland@accent"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           },
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 4.75,
+           "lat": 52.21,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the ground still drops",
+       "photo": "File:Panoramic view peat meadows at Wijkergouw Schellingwoude with reflected horses at 29 October 2015 - panoramio.jpg",
+       "on_screen_text": "Peat meadows near Amsterdam"
+      },
+      {
+       "type": "stat",
+       "at": "by about a centimeter",
+       "stat": {
+        "value": "~1 CM / YEAR",
+        "label": "Peat meadow subsidence (average)",
+        "source": "Regio Gooi en Vechtstreek"
+       }
+      },
+      {
+       "type": "map",
+       "at": "If nothing changes, some",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.82,
+           "lat": 52.08,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 4.82,
+           "lat": 52.08,
+           "span": 0.093
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Peat meadows in the Green Heart"
+      },
+      {
+       "type": "stat",
+       "at": "has called for cutting",
+       "stat": {
+        "value": "−70 %",
+        "label": "Target cut in peat subsidence by 2050 (Rli advice)",
+        "source": "Tweede Kamer, kst-35141-3"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The main tool is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.62,
+           "lat": 52.12,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 77,
+          "view": {
+           "lon": 4.62,
+           "lat": 52.12,
+           "span": 0.093
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Peat meadows near Alphen aan den Rijn"
+      },
+      {
+       "type": "photo",
+       "at": "but the fields get",
+       "photo": "File:Dike farm at Acquoy (Netherlands 2017) (34830824861).jpg",
+       "on_screen_text": "A farm behind a dike"
+      },
+      {
+       "type": "map",
+       "at": "Farmers, nature groups and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.45,
+           "lat": 52.09,
+           "span": 3.201
+          },
+          "highlight": [
+           "Utrecht@alt",
+           "South Holland@accent"
+          ],
+          "places": [
+           {
+            "name": "Leiden",
+            "lon": 4.49,
+            "lat": 52.16,
+            "kind": "city",
+            "label": "Leiden"
+           }
+          ]
+         },
+         {
+          "at": 104,
+          "view": {
+           "lon": 4.45,
+           "lat": 52.09,
+           "span": 2.721
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the extra cost of",
+       "stat": {
+        "value": "€22 BN",
+        "label": "Extra cost of subsidence to 2050 (PBL estimate)",
+        "source": "Tweede Kamer, kst-35141-3"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the far north the ground sinks for another reason. Under Groningen lies one of the biggest natural gas fields in Europe. Decades of pumping out the gas let the ground above it settle. By 2013 the center of the field had sunk about a third of a meter, and since 1991 small earthquakes, caused by the gas extraction, have damaged homes across the province. The land that the gas paid for was sinking under the people who lived on it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.85,
+           "lat": 53.19,
+           "span": 3.3
+          },
+          "highlight": [
+           "Groningen@red"
+          ],
+          "places": [
+           {
+            "name": "Groningen",
+            "lon": 6.57,
+            "lat": 53.22,
+            "kind": "city",
+            "label": "Groningen"
+           }
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 5.85,
+           "lat": 53.19,
+           "span": 2.805
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Decades of pumping out",
+       "photo": "File:Gasbel te Slochteren Nederlandse Gas Unie werkzaamheden, Bestanddeelnr 915-2654.jpg",
+       "on_screen_text": "Work on the Slochteren gas field, 1963"
+      },
+      {
+       "type": "stat",
+       "at": "By 2013 the center",
+       "stat": {
+        "value": "~33 CM",
+        "label": "Subsidence at the centre of the Groningen gas field, 2013",
+        "source": "de Waal et al., PIAHS 2015"
+       }
+      },
+      {
+       "type": "map",
+       "at": "since 1991 small earthquakes,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 6.78,
+           "lat": 53.32,
+           "span": 0.6
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 57,
+          "view": {
+           "lon": 6.78,
+           "lat": 53.32,
+           "span": 0.372
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Above the Groningen gas field"
+      },
+      {
+       "type": "map",
+       "at": "The land that the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 6.82,
+           "lat": 53.33,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 73,
+          "view": {
+           "lon": 6.82,
+           "lat": 53.33,
+           "span": 0.093
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Villages of Groningen"
+      }
+     ]
+    },
+    {
+     "text": "The rivers are part of the danger too. In 1995 the Rhine, at the point where it enters the country, rose to almost seventeen meters above that old Amsterdam line, and together with the Meuse it rose so high that about a quarter of a million people were told to leave their homes, the largest evacuation in the country since the Second World War. The dikes held, barely. After that flood and another in 1993, the Dutch changed course. Instead of only raising dikes, the Room for the River program gave the Rhine and its branches more space at thirty-four places: lower floodplains, side channels, dikes moved back. Planners now prepare for even more water from upstream.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.6,
+           "lat": 51.9,
+           "span": 3.2
+          },
+          "routes": [
+           {
+            "from": [
+             6.11,
+             51.86
+            ],
+            "via": [
+             [
+              5.9,
+              51.85
+             ],
+             [
+              5.2,
+              51.85
+             ]
+            ],
+            "to": [
+             4.5,
+             51.9
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 1.8,
+            "label": "Rhine and Waal"
+           }
+          ],
+          "places": [
+           {
+            "name": "Lobith",
+            "lon": 6.11,
+            "lat": 51.86,
+            "kind": "site",
+            "label": "Lobith: the Rhine enters"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 5.6,
+           "lat": 51.9,
+           "span": 2.72
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "rose to almost seventeen",
+       "stat": {
+        "value": "16.68 M",
+        "label": "Rhine at Lobith above NAP, 1995",
+        "source": "Rijkswaterstaat"
+       }
+      },
+      {
+       "type": "map",
+       "at": "it rose so high",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.76,
+           "lat": 51.964,
+           "span": 2.88
+          },
+          "highlight": [
+           "Gelderland@red"
+          ],
+          "places": [
+           {
+            "name": "Lobith",
+            "lon": 6.11,
+            "lat": 51.86,
+            "kind": "site",
+            "label": "Lobith: the Rhine enters"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about a quarter of",
+       "stat": {
+        "value": "~250,000",
+        "label": "People evacuated in 1995",
+        "source": "Vox (Radboud University); Rijkswaterstaat"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the largest evacuation in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.43,
+           "lat": 51.89,
+           "span": 0.15
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 60,
+          "view": {
+           "lon": 5.43,
+           "lat": 51.89,
+           "span": 0.093
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Waal and its dikes near Tiel"
+      },
+      {
+       "type": "stat",
+       "at": "After that flood and",
+       "stat": {
+        "value": "1993 · 1995",
+        "label": "Two high-water years on the Rhine and the Meuse",
+        "source": "Rijkswaterstaat"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Instead of only raising",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.86,
+           "lat": 51.85,
+           "span": 0.08
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The new side channel of the Waal at Nijmegen"
+      },
+      {
+       "type": "photo",
+       "at": "gave the Rhine and",
+       "photo": "File:Spiegelwaal 03 met stadseiland.JPG",
+       "on_screen_text": "The new side channel at Nijmegen"
+      },
+      {
+       "type": "stat",
+       "at": "more space at thirty-four",
+       "stat": {
+        "value": "34",
+        "label": "Room for the River locations, 2006-2015",
+        "source": "Room for the River programme"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Planners now prepare for",
+       "stat": {
+        "value": "18,000 M³/S",
+        "label": "Rhine discharge the Delta Programme plans for",
+        "source": "Delta Programme"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The coast gets a softer kind of help. In 2011 engineers dredged about twenty-one million cubic meters of sand from the sea floor and dumped it in a giant hook off the coast between Kijkduin and Ter Heijde, near The Hague: the Sand Motor. Instead of fighting the waves, they let the waves do the work: currents spread the sand along the beaches and dunes year after year, feeding the natural wall that keeps the North Sea out.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.19,
+           "lat": 52.05,
+           "span": 0.05
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Sand Motor"
+      },
+      {
+       "type": "stat",
+       "at": "about twenty-one million cubic",
+       "stat": {
+        "value": "21.5 M M³",
+        "label": "Sand in the Sand Motor, 2011",
+        "source": "dezandmotor.nl"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "it in a giant",
+       "photo": "File:Zandmotor 16 januari 2016 overzicht naar zuid 5H6A0001.jpg",
+       "on_screen_text": "The Sand Motor from the air, 2016"
+      },
+      {
+       "type": "map",
+       "at": "near The Hague: the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.69,
+           "lat": 52.03,
+           "span": 2.386
+          },
+          "places": [
+           {
+            "name": "Sand Motor",
+            "lon": 4.19,
+            "lat": 52.05,
+            "kind": "site",
+            "label": "Sand Motor"
+           },
+           {
+            "name": "The Hague",
+            "lon": 4.3,
+            "lat": 52.08,
+            "kind": "city",
+            "label": "The Hague"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Instead of fighting the",
+       "photo": "File:Zandmotor Ter Heijde (38868068940).jpg",
+       "on_screen_text": "The Sand Motor at Ter Heijde"
+      },
+      {
+       "type": "map",
+       "at": "currents spread the sand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.26,
+           "lat": 52.09,
+           "span": 0.25
+          },
+          "date": "2024-06-01/2024-08-31"
+         },
+         {
+          "at": 67,
+          "view": {
+           "lon": 4.26,
+           "lat": 52.09,
+           "span": 0.155
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dunes and beaches near The Hague"
+      }
+     ]
+    },
+    {
+     "text": "The Dutch weather service expects the sea off the coast to rise between about sixty centimeters and one and a quarter meters by the end of this century if emissions stay high, and more if the Antarctic ice becomes unstable. So the sea is rising, while the land behind the dikes keeps sinking. The Dutch answer, for now, is to keep doing what they have done for a thousand years: watch the water, pump it out, and build higher. The country that sank itself is also the one that learned best how to live below the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.27,
+           "lat": 52.11,
+           "span": 0.1
+          },
+          "date": "2024-06-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The coast at Scheveningen"
+      },
+      {
+       "type": "stat",
+       "at": "to rise between about",
+       "stat": {
+        "value": "59-124 CM",
+        "label": "Sea-level rise off the Dutch coast by 2100 if emissions stay high",
+        "source": "KNMI'23"
+       }
+      },
+      {
+       "type": "map",
+       "at": "by the end of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 2.2,
+           "lat": 53.18,
+           "span": 17.6
+          },
+          "highlight": [
+           "Netherlands@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and more if the",
+       "photo": "File:Thwaites Glacier.jpg",
+       "on_screen_text": "Thwaites Glacier, West Antarctica"
+      },
+      {
+       "type": "map",
+       "at": "So the sea is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.4,
+           "lat": 52.43,
+           "span": 4.876
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Dutch answer, for",
+       "photo": "File:Stone dike along the west coast, Marker Wadden, 2022.jpg",
+       "on_screen_text": "A stone dike on the Marker Wadden"
+      },
+      {
+       "type": "map",
+       "at": "watch the water, pump",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.64,
+           "lat": 51.885,
+           "span": 0.12
+          },
+          "date": "2024-03-15/2024-05-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kinderdijk and the Lek"
+      },
+      {
+       "type": "photo",
+       "at": "The country that sank",
+       "photo": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg",
+       "on_screen_text": "Windmills on the Zaan"
+      },
+      {
+       "type": "photo",
+       "at": "also the one that",
+       "photo": "File:Hogebeintum1.jpg",
+       "on_screen_text": "Hogebeintum, a village on its terp"
+      }
+     ]
+    },
+    {
+     "text": "Here is my question for you. If you lived in a country where a quarter of the land is below the sea, would you trust the dikes, or would you move to higher ground?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 4.51,
+           "lat": 52.27,
+           "span": 3.434
+          },
+          "highlight": [
+           "file:belowsea.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Amsterdam",
+            "lon": 4.9,
+            "lat": 52.37,
+            "kind": "city",
+            "label": "Amsterdam"
+           },
+           {
+            "name": "Rotterdam",
+            "lon": 4.48,
+            "lat": 51.92,
+            "kind": "city",
+            "label": "Rotterdam"
+           },
+           {
+            "name": "Lowest point",
+            "lon": 4.61,
+            "lat": 52.0,
+            "kind": "site",
+            "label": "Lowest point, 6.76 m below NAP"
+           }
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 4.51,
+           "lat": 52.27,
+           "span": 2.919
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "would you trust the",
+       "photo": "File:Dike road at Goingarijp (The Netherlands 2019) (47623059262).jpg",
+       "on_screen_text": "A dike road"
+      }
+     ],
+     "ask": {
+      "at": "would you trust the",
+      "text": "Trust the dikes, or move to higher ground?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why the Netherlands Sank Below the Sea",
+  "description": "About a quarter of the Netherlands lies below sea level, but the sea did not rise over it. For a thousand years the Dutch drained and dug their peat bogs, and the land sank about two meters on average. This video follows how that happened: lakes that ate villages, windmills and steam pumps, the closing of the Zuiderzee, the flood of 1953 and the Delta Works, and why eighteen million people still live below the sea.",
+  "tags": [
+   "Netherlands",
+   "below sea level",
+   "Holland",
+   "polder",
+   "peat subsidence",
+   "Zuiderzee",
+   "Afsluitdijk",
+   "Delta Works",
+   "1953 flood",
+   "Kinderdijk",
+   "Haarlemmermeer",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you lived in a country where a quarter of the land is below the sea, would you trust the dikes, or would you move to higher ground?"
+ }
+}

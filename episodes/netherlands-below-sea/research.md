@@ -140,3 +140,16 @@ below the sea it fears, and why do 18 million people stay? First reason.
   1986 (Watersnoodmuseum "Eastern Scheldt Storm Surge Barrier"; Zeeuwse Ankers).
 - Rli (Council for the Environment and Infrastructure) target: 70 % less peat subsidence by 2050 (kst-35141-3).
 - 1995 peak at Lobith 16.68 m NAP (Rijkswaterstaat 2025 retrospective; voxweb 16.63): say "almost seventeen meters".
+
+## Facts for picture labels (2026-11-19, script v2)
+- Vinkeveense Plassen: lakes left by peat digging (turf) from the 17th-19th centuries (Wikipedia Vinkeveense
+  Plassen). Label "The Vinkeveen lakes, dug out for turf".
+- Yerseke on the Eastern Scheldt: the Dutch oyster and mussel centre, oyster beds off the town (Wikipedia Yerseke).
+- Cruquius pumping station built 1846-1849 (Wikipedia Cruquius museum).
+- Leeghwater: Dutch "leeg water" = empty water (the name he took).
+- Population about 18.0 million (CBS, 2024).
+- New Commons photos (licences checked by episode_check): NAP benchmark at the Stopera 1988 (CC0), 1916 dike breach
+  SFA022813657 (PD), Den Bommel breach 13 Feb 1953 (CC0), Slochteren gas field works 1963 (CC0), Spiegelwaal Nijmegen
+  (CC0), Zandmotor aerial 2016 (PD) and Ter Heijde 2018 (CC BY 2.0), Hogebeintum terp (CC0), Thwaites Glacier (PD).
+- Maeslant arms 237 m vs "two football fields": 2 x 105-120 m = 210-240 m (own comparison).
+- KNMI'23 high-emissions range shown as 59-124 cm (stat card), said "about sixty centimeters to one and a quarter meters".

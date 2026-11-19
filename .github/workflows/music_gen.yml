@@ -1,0 +1,65 @@
+name: Music beds (ACE-Step)
+
+# Candidate instrumental beds for music/library/<mood>/ (tools/music_gen.py). ACE-Step 1.5 is MIT (code and weights).
+# CPU only, so slow: one 150-s bed can take a long while; the job has 5 hours. Output: a 3-day artifact to listen to.
+on:
+  workflow_dispatch:
+    inputs:
+      moods:
+        description: "Moods, comma separated (calm, curious, tension)"
+        default: "calm,curious,tension"
+      seconds:
+        description: "Length of each bed (s)"
+        default: "150"
+      per_mood:
+        description: "Beds per mood"
+        default: "2"
+
+jobs:
+  music:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: ACE-Step 1.5 (pinned) and CPU dependencies
+        run: |
+          git clone -q https://github.com/ace-step/ACE-Step-1.5.git ace && git -C ace checkout -q ca1e85fe9430179831e6bc6be790c332190a3866
+          pip install -q torch==2.10.0 torchvision==0.25.0 torchaudio==2.10.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "transformers>=4.51.0,<4.58.0" diffusers "scipy>=1.10.1" "soundfile>=0.13.1" loguru einops \
+            accelerate numba vector-quantize-pytorch "torchao>=0.16.0,<0.17.0" toml modelscope huggingface_hub peft \
+            matplotlib python-dotenv safetensors
+          pip install -q --no-deps -e ace
+
+      - name: Restore ACE-Step checkpoints
+        id: ckpt
+        uses: actions/cache/restore@v6
+        with:
+          path: ace/checkpoints
+          key: acestep-v15-turbo-ca1e85f
+
+      - name: Generate
+        run: python tools/music_gen.py --ace ace --out out/music --moods "${{ inputs.moods }}" --seconds "${{ inputs.seconds }}" --per-mood "${{ inputs.per_mood }}"
+
+      - name: Save ACE-Step checkpoints
+        if: always() && steps.ckpt.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v6
+        with:
+          path: ace/checkpoints
+          key: acestep-v15-turbo-ca1e85f
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: music-beds
+          path: out/music
+          retention-days: 3

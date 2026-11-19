@@ -109,7 +109,7 @@ jobs:
 
       - name: Python dependencies
         run: |
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu  # torchvision from the CPU index too: spandrel needs it, and a PyPI torchvision breaks transformers (and Kokoro)
           pip install -r pipeline/requirements.txt
           # earshot (MIT): the designed sound-effect bank (script.sfx_bank = "earshot") and the sound check below
           pip install -q "earshot @ git+https://github.com/Leonxlnx/earshot@4ac3d2ac2b151e1c23376f9ce7f3047a17050013"

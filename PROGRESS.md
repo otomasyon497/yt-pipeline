@@ -868,3 +868,12 @@ comment. Audio of the long render was never checked. No further work planned unl
   (ETOPO <0 m, 34-36 %, labelled approx.). Photo search done (scratchpad nl/, quality check running).
   NEXT: pick photos, build_script.py (copy helpers + push_span from green-sahara), episode_check, claim_log/factcheck,
   cover.json, storyboard.
+
+## 2026-11-19 — Netherlands: script ready, storyboard running
+- build_script.py: automatic camera beats (any map shot holding one framing > 14 words gets push-in / pull-back
+  steps; painted views stay > 2.5, others above 2.05 when > 2.0), plus 27 hand-placed shots and 9 new Commons photos
+  (NAP Stopera, 1916 breach, Den Bommel 1953, Slochteren 1963, Spiegelwaal, Sand Motor x2, Thwaites, Hogebeintum).
+  episode_check OK: 2,623 words, 196 shots, ~16.5 min. factcheck.md 144 rows, 0 FIX (9 attributed/own).
+  Cover: belowsea red, "THEIR OWN / FAULT?" (title already says "Below the Sea"); checked at 320 px.
+- Storyboard run 44588904220. NEXT: fetch sheets, review, full render, frame_audit, approve,
+  `python tools/yt_upload.py netherlands-below-sea --publish-at 2026-11-22T23:00:00Z` (23 Nov 02:00 TR).

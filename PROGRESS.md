@@ -1,4 +1,4 @@
-# PROGRESS
+﻿# PROGRESS
 
 ## Status (2026-11-11 ~15:00Z; start here)
 - User (17:30 TR): fix + re-render both, upload long + Shorts scheduled for TODAY as soon as audited ("hazır olur olmaz").
@@ -913,4 +913,4 @@ comment. Audio of the long render was never checked. No further work planned unl
   Fixed: parallax also for framed photos (ParallaxPhoto framed mode). feature-test 2 running (also first map_relief).
 - 2026-11-20: music_gen 44598481947 OK: 6 ACE-Step beds (calm/curious/tension x2, 150 s) in
   Videos\yt-pipeline\music-candidates\music-beds\<mood>\ (artifact deleted). User listens, good ones -> music/library/<mood>/.
-  Netherlands render 2 (44608226546) finished: NEXT fetch -Delete + frame_audit + check fixed spots + approve + upload.
+  Netherlands UPLOADED 2026-11-20: render 2 audited (32 sheets) + approved, https://studio.youtube.com/video/oz6fFSsriRw/edit, publishAt 2026-11-22T23:00Z, cover B set. TODO user: pin comment by hand. Feature test 2 fetched (-Delete): framed parallax renders correctly.

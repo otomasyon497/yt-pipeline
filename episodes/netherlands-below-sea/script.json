@@ -1286,7 +1286,8 @@
             "kind": "site",
             "label": "Haarlemmermeer (lake until 1852)"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          },
          {
           "at": 37,
@@ -1294,7 +1295,8 @@
            "lon": 4.81,
            "lat": 52.15,
            "span": 2.55
-          }
+          },
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -1364,7 +1366,8 @@
             "kind": "site",
             "label": "Beemster polder"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          },
          {
           "at": 25,
@@ -1372,7 +1375,8 @@
            "lon": 4.39,
            "lat": 52.15,
            "span": 2.55
-          }
+          },
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -1597,7 +1601,8 @@
             "kind": "site",
             "label": "Haarlemmermeer (lake until 1852)"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -1645,7 +1650,8 @@
             "kind": "city",
             "label": "Haarlem"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -1754,7 +1760,8 @@
             "kind": "site",
             "label": "Kinderdijk"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -1829,7 +1836,8 @@
             "kind": "city",
             "label": "Amsterdam"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          },
          {
           "at": 14,
@@ -1837,7 +1845,8 @@
            "lon": 5.4,
            "lat": 52.75,
            "span": 2.55
-          }
+          },
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -1947,7 +1956,8 @@
             "kind": "city",
             "label": "Amsterdam"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -2108,7 +2118,8 @@
             "kind": "site",
             "label": "Walcheren"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -2234,7 +2245,8 @@
             "kind": "city",
             "label": "Rotterdam"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -2333,7 +2345,8 @@
             "seconds": 1.8,
             "label": "Northwest storm, 31 Jan 1953"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -2604,7 +2617,8 @@
             "kind": "site",
             "label": "Ouwerkerk"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -3349,7 +3363,8 @@
             "kind": "city",
             "label": "Rotterdam"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true
@@ -3561,7 +3576,8 @@
             "kind": "city",
             "label": "The Hague"
            }
-          ]
+          ],
+          "date": "2025-06-30"
          }
         ],
         "cut": true

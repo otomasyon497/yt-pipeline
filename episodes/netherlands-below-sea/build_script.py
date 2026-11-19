@@ -48,7 +48,12 @@ def fresh(view):
     return {"lon": round(view["lon"] + dx * view["span"], 3), "lat": round(view["lat"] + dy * view["span"], 3), "span": round(view["span"] * zoom, 3)}
 
 
+CLEAR_DAY = "2025-06-30"  # cloud-free MODIS day over the Netherlands: wide unpainted views were dark Blue Marble (audit 1)
+
+
 def v(view, at=None, **kw):
+    if view["span"] > 2.5 and not kw.get("highlight") and "date" not in kw:
+        kw["date"] = CLEAR_DAY
     d = {"view": fresh(view), **kw}
     if at is not None:
         d["at"] = at

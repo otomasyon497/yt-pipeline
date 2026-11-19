@@ -43,6 +43,8 @@ def count_up(text: str | None, any_unit: bool = False) -> dict | None:
     Labels count only with a currency or a known unit after the number; a stat card (`any_unit`) counts any
     number except a year on its own ("1963").
     """
+    if text and re.search(r"\b(?:BC|BCE|AD|CE)\b", text):  # "500 BC" counted through "459 BC" (Netherlands, 2026-11-19)
+        return None
     if not text or _DATE.search(text) or _RANGE.search(text) or _TOLL.search(text) or _APPROX.search(text):  # "May 15, 2026" would pass through "May 0, 2026"; "500-1,300" through "499-1,300"
         return None
     m = _NUM.match(text)

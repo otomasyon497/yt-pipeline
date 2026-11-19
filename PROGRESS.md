@@ -905,3 +905,7 @@ comment. Audio of the long render was never checked. No further work planned unl
   user's choice; future covers = curiosity photo covers (memory thumbnail-style). Kansai/old videos untouched.
 - Running: music_gen run 44598481947 (3 moods x 2 x 150 s), feature-test render 44598395837 (relief + parallax +
   upscale + earshot sfx). Report both to the user when done.
+- 2026-11-20 (early UTC): render 1 audit complete (all 32 sheets). Only 2 issues -> fixed: BC/AD years never count
+  (timeline.count_up), wide unpainted maps get MODIS 2025-06-30 (CLEAR_DAY in build_script). RENDER 2 = run
+  44608226546. NEXT: fetch -Delete, frame_audit, check 2:11 (500 BC), 7:46-8:26 (Zuiderzee), 9:02, 9:38, 14:08,
+  15:03 maps, then --approve and upload --publish-at 2026-11-22T23:00:00Z (cover.jpg already the user's choice).

@@ -911,3 +911,6 @@ comment. Audio of the long render was never checked. No further work planned unl
   15:03 maps, then --approve and upload --publish-at 2026-11-22T23:00:00Z (cover.jpg already the user's choice).
 - 2026-11-20: feature-test 1 (44598395837): upscale OK, earshot OK, parallax never triggered (only cover photos).
   Fixed: parallax also for framed photos (ParallaxPhoto framed mode). feature-test 2 running (also first map_relief).
+- 2026-11-20: music_gen 44598481947 OK: 6 ACE-Step beds (calm/curious/tension x2, 150 s) in
+  Videos\yt-pipeline\music-candidates\music-beds\<mood>\ (artifact deleted). User listens, good ones -> music/library/<mood>/.
+  Netherlands render 2 (44608226546) finished: NEXT fetch -Delete + frame_audit + check fixed spots + approve + upload.

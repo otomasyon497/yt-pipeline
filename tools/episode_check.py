@@ -155,7 +155,11 @@ def photos(script) -> list[str]:
                 seen.add(s.photo)
                 try:
                     path, _ = (nasa_media.fetch if s.photo.lower().startswith("nasa:") else commons.fetch)(s.photo)
-                    q = commons.check_quality(Image.open(path).convert("RGB"), s.photo)
+                    img = Image.open(path).convert("RGB")
+                    if script.photo_upscale and commons.UPSCALE_MIN_LONG <= max(img.size) < commons.MIN_LONG_SIDE:
+                        print(f"  photo upscale: {s.photo[:60]} {img.width}x{img.height} -> Real-ESRGAN 4x on the runner")
+                        continue  # judged after the upscale, in prepare
+                    q = commons.check_quality(img, s.photo)
                     hazy = " (hazy: levels will be stretched)" if q["contrast"] < commons.HAZY else ""
                     print(f"  photo ok: {s.photo[:60]} detail {q['detail']:.2f}{hazy}")
                 except Exception as exc:  # report every photo, not just the first failure

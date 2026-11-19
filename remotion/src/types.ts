@@ -54,6 +54,7 @@ export type ShotData = {
 	kenBurns: KenBurns;
 	chapterNumber: number | null;
 	photoFit: 'cover' | 'contain' | null; // archive photos: full frame, or framed over a blurred copy
+	depth?: string | null; // depth map of a full-frame photo (photo_motion = parallax): a 2.5D move in PhotoScene
 	where?: {src: string; label: string} | null; // locator inset (stock / photo / AI shots)
 	cardBg?: CardBg | null; // chapter cards: blurred image of what comes next
 };

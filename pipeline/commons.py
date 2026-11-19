@@ -145,6 +145,7 @@ def fetch_video(title: str) -> tuple[Path, str]:
 # screen. Hazy astronaut photos (luminance spread under ~26) looked washed out: they get an automatic levels stretch.
 MIN_DETAIL = 0.65
 MIN_LONG_SIDE = 1400
+UPSCALE_MIN_LONG = 600  # smaller than this stays refused even with photo_upscale: 4x of mush is still mush
 HAZY = 26
 
 
@@ -173,12 +174,16 @@ def check_quality(img: Image.Image, ref: str) -> dict:
     return q
 
 
-def prepare(src: Path, out_main: Path, out_bg: Path, ref: str = "", strict: bool = True) -> str:
+def prepare(src: Path, out_main: Path, out_bg: Path, ref: str = "", strict: bool = True, upscale: bool = False) -> str:
     """Write the photo (fit inside the frame, with headroom for a slow push-in) and a blurred, darkened
     full-frame background from the same picture. Returns "cover" for near-16:9 pictures, else "contain".
     Blurry photos are refused (check_quality; only a note when not strict, for episodes made before the check);
-    hazy ones get a levels stretch."""
+    hazy ones get a levels stretch. upscale=True (script.photo_upscale): a photo under MIN_LONG_SIDE but at least
+    UPSCALE_MIN_LONG is enlarged 4x with Real-ESRGAN first (photo_enhance.upscale), then checked like any other."""
     img = Image.open(src).convert("RGB")
+    if upscale and UPSCALE_MIN_LONG <= max(img.size) < MIN_LONG_SIDE:
+        import photo_enhance
+        img = Image.open(photo_enhance.upscale(src)).convert("RGB")
     try:
         q = check_quality(img, ref or src.name)
     except ValueError as e:

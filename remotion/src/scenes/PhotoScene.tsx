@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import type {ShotData} from '../types';
+import {ParallaxPhoto} from './ParallaxPhoto';
 
 // Archive photo. Near-16:9 pictures fill the frame with a slow push-in; others (portraits, engravings)
 // sit framed over a blurred, darkened copy of themselves, the way documentaries show archive material.
@@ -9,6 +10,9 @@ export const PhotoScene: React.FC<{scene: ShotData}> = ({scene}) => {
 	const k = scene.kenBurns;
 	const t = interpolate(frame, [0, scene.durationFrames], [0, 1], {easing: Easing.inOut(Easing.quad), extrapolateRight: 'clamp'});
 	const main = staticFile(`media/${scene.media}`);
+	if (scene.photoFit === 'cover' && scene.depth && scene.media) {
+		return <ParallaxPhoto media={scene.media} depth={scene.depth} durationFrames={scene.durationFrames} seed={scene.media.length + scene.durationFrames} />;
+	}
 	if (scene.photoFit === 'cover') {
 		const z = k.z0 + (k.z1 - k.z0) * t;
 		return (

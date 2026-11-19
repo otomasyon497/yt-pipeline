@@ -206,7 +206,7 @@ def prepare(slug: str) -> None:
         raise ValueError(f"unknown map style {style!r} (choose from {MAP_STYLES})")
     clips, media_files, used_ids, used_ai = [], {}, set(), False
     sfx_events, extra_credits, map_warnings = [], {"Map data: Natural Earth (public domain)."}, []
-    photo_fit, photo_credits, locs = {}, [], {}
+    photo_fit, photo_credits, locs, photo_depth = {}, [], {}, {}
     docs, doc_credits, film_credits = {}, [], []
     with step("media"):
         for u in lay["units"]:
@@ -235,7 +235,11 @@ def prepare(slug: str) -> None:
                 path, credit = (nasa_media.fetch if src.photo.lower().startswith("nasa:") else commons.fetch)(src.photo)
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg", src.photo,
-                                                             strict=not script.legacy_length)
+                                                             strict=not script.legacy_length, upscale=script.photo_upscale)
+                if script.photo_motion == "parallax" and photo_fit[u["id"]] == "cover":
+                    import photo_enhance
+                    photo_enhance.depth(PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_depth.png")
+                    photo_depth[u["id"]] = f"{u['id']}_depth.png"
                 photo_credits.append(credit)
             elif src.type == "film":
                 path, credit = (nasa_media.fetch_video if src.film.lower().startswith("nasa:") else commons.fetch_video)(src.film)
@@ -271,7 +275,7 @@ def prepare(slug: str) -> None:
         print(f"  map style: {style}")
 
     with step("timeline+audio"):
-        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit, locs, card_bg, docs)
+        timeline = tl.to_timeline(lay, script, media_files, style, photo_fit, locs, card_bg, docs, photo_depth)
         (work / "timeline.json").write_text(json.dumps(timeline, indent=1), encoding="utf-8")
         total_sec = tl.build_narration_track(wavs, lay, work / "narration.wav")
         voice_lufs = media.loudness(work / "narration.wav")

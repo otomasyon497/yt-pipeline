@@ -895,3 +895,13 @@ comment. Audio of the long render was never checked. No further work planned unl
   "parallax" (Depth Anything V2 SMALL only = Apache; ParallaxPhoto.tsx CPU canvas), map_relief (ASTER relief
   soft-light over satellite). Tests: music_gen run 44596331171 (calm, 60 s), feature-test render 44596802494 (no
   relief yet; relief committed after). Untested until those finish.
+- 2026-11-19 (night): Netherlands FULL RENDER 1 = run 44596070222 (15:57, -14.4 LUFS, peak -0.7 dBFS; earshot files
+  in the release folder). Fetched, release deleted, frame_audit done. Sheets 1-20 viewed; NOT approved yet. Fixes
+  found so far: (1) 2:11 stat "500 BC" counts up ("459 BC") -> years with BC/AD must not count (timeline count_up);
+  (2) 7:46-7:54 and 8:20-8:26 ZZ wide map (Zuiderzee) is dark, blurry Blue Marble for ~9 s, nothing painted ->
+  paint the former Zuiderzee (geo) or give the wide views a clear MODIS date; 9:02 and 9:38 SW maps also dark.
+  Sheets 21-32 still to view. Then fix, render 2, audit, approve, upload --publish-at 2026-11-22T23:00:00Z.
+- Cover for Netherlands = cover.jpg made by tools/cover_photo.py ("THEY SANK THEIR OWN COUNTRY", Zaanse Schans CC0);
+  user's choice; future covers = curiosity photo covers (memory thumbnail-style). Kansai/old videos untouched.
+- Running: music_gen run 44598481947 (3 moods x 2 x 150 s), feature-test render 44598395837 (relief + parallax +
+  upscale + earshot sfx). Report both to the user when done.

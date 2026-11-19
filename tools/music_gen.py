@@ -37,13 +37,13 @@ def main() -> None:
     a = ap.parse_args()
 
     ace = Path(a.ace).resolve()
+    out = Path(a.out).resolve()  # before the chdir below: a relative --out is meant from the caller's folder
     sys.path.insert(0, str(ace))
     os.chdir(ace)
     from acestep.handler import AceStepHandler  # noqa: E402
     from acestep.inference import GenerationConfig, GenerationParams, generate_music  # noqa: E402
     from acestep.llm_inference import LLMHandler  # noqa: E402
 
-    out = Path(a.out).resolve()
     out.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
     dit = AceStepHandler()

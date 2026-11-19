@@ -27,6 +27,9 @@ export const PhotoScene: React.FC<{scene: ShotData}> = ({scene}) => {
 		<AbsoluteFill style={{backgroundColor: '#000', overflow: 'hidden'}}>
 			<Img src={staticFile(`media/${(scene.media ?? '').replace(/\.jpg$/, '_bg.jpg')}`)} style={{width: '100%', height: '100%', transform: `scale(${1.05 + 0.04 * t})`}} />
 			<AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
+				{scene.depth && scene.media ? (
+					<ParallaxPhoto media={scene.media} depth={scene.depth} durationFrames={scene.durationFrames} seed={scene.media.length + scene.durationFrames} framed />
+				) : (
 				<Img
 					src={main}
 					style={{
@@ -38,6 +41,7 @@ export const PhotoScene: React.FC<{scene: ShotData}> = ({scene}) => {
 						border: '6px solid rgba(244,241,234,0.92)',
 					}}
 				/>
+				)}
 			</AbsoluteFill>
 		</AbsoluteFill>
 	);

@@ -237,7 +237,7 @@ def prepare(slug: str) -> None:
                 media_files[u["id"]] = f"{u['id']}.jpg"
                 photo_fit[u["id"]] = commons.prepare(path, PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_bg.jpg", src.photo,
                                                              strict=not script.legacy_length, upscale=script.photo_upscale)
-                if script.photo_motion == "parallax" and photo_fit[u["id"]] == "cover":
+                if script.photo_motion == "parallax":  # full-frame and framed photos alike
                     import photo_enhance
                     photo_enhance.depth(PUBLIC_MEDIA / f"{u['id']}.jpg", PUBLIC_MEDIA / f"{u['id']}_depth.png")
                     photo_depth[u["id"]] = f"{u['id']}_depth.png"

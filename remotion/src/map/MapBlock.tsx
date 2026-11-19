@@ -376,7 +376,7 @@ const MapView: React.FC<{data: MapBlockData}> = ({data}) => {
 				// One opacity per layer (not per image): overlapping images must not add up while fading.
 				// modis = one dated MODIS day over Blue Marble on wide views (a present-day coast instead of 2004's).
 				// s2 = Sentinel-2 10 m imagery over the Blue Marble 'day' layer on close views (s2Fade above).
-				const layerOpacity = layer === 'night' ? night : layer === 's2' ? s2Fade : layer === 'day' || layer === 'modis' ? 1 : style.reliefOpacity;
+				const layerOpacity = layer === 'night' ? night : layer === 's2' ? s2Fade : layer === 'day' || layer === 'modis' ? 1 : data.reliefOpacity ?? style.reliefOpacity;
 				const imgs = rasters.filter((r) => r.layer === layer);
 				if (!imgs.length) return null;
 				return (

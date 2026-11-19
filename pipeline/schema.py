@@ -411,6 +411,7 @@ class Script(BaseModel):
     music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | "library" (music/library/<mood>/) | file in /music | "none"
     captions: bool = True
     map_style: Optional[Literal["satellite", "atlas", "midnight"]] = None  # None -> config.MAP_STYLE
+    map_relief: bool = False  # shaded relief (ASTER) blended over satellite maps: terrain reads in depth
     photo_upscale: bool = False  # archive photos 600-1400 px are enlarged 4x with Real-ESRGAN instead of refused
     photo_motion: Literal["kenburns", "parallax"] = "kenburns"  # parallax: full-frame photos get a 2.5D move (depth map)
     sfx_bank: Literal["procedural", "earshot"] = "procedural"  # sound effects: own numpy ones or earshot's designed bank

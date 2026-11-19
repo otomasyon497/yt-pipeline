@@ -9,18 +9,114 @@
  "photo_motion": "parallax",
  "sfx_bank": "earshot",
  "chapters": [
-  {"title": "Test", "mood": "curious", "paragraphs": [
-   {"text": "This is a short test of three new tools. First, a map flight across the Netherlands, with designed sound effects under every move. Then a small archive photo from 1916, enlarged four times. Then full-frame photos that move in depth.",
-    "shots": [
-     {"type": "map", "at": 0, "map": {"cut": true, "steps": [{"view": {"lon": 5.4, "lat": 52.2, "span": 4.6}, "highlight": ["Netherlands@accent"]}, {"at": 14, "view": {"lon": 4.64, "lat": 51.885, "span": 0.3}}]}},
-     {"type": "stat", "at": "Then a small archive", "stat": {"value": "1916", "label": "Test card", "source": "test"}},
-     {"type": "photo", "at": "enlarged four times.", "photo": "File:Overstroming Schellingwoude 1916.jpg", "on_screen_text": "Upscaled 4x"},
-     {"type": "photo", "at": "Then full-frame photos", "photo": "File:Zandmotor Ter Heijde (38868068940).jpg", "on_screen_text": "Parallax"}]},
-   {"text": "Here is another one, a canal in Amsterdam, and then the windmills of the Zaanse Schans, each with a slow camera move that shows near and far apart.",
-    "shots": [
-     {"type": "photo", "at": 0, "photo": "File:Amsterdam Canal Houses (52556779860).jpg"},
-     {"type": "photo", "at": "and then the windmills", "photo": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg"},
-     {"type": "photo", "at": "each with a slow", "photo": "File:Panoramic view peat meadows at Wijkergouw Schellingwoude with reflected horses at 29 October 2015 - panoramio.jpg"}]}
-  ]}
- ]
+  {
+   "title": "Test",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "This is a short test of three new tools. First, a map flight across the Netherlands, with designed sound effects under every move. Then a small archive photo from 1916, enlarged four times. Then full-frame photos that move in depth.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "cut": true,
+        "steps": [
+         {
+          "view": {
+           "lon": 5.4,
+           "lat": 52.2,
+           "span": 4.6
+          },
+          "highlight": [
+           "Netherlands@accent"
+          ]
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": 4.64,
+           "lat": 51.885,
+           "span": 0.3
+          }
+         }
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Then a small archive",
+       "stat": {
+        "value": "1916",
+        "label": "Test card",
+        "source": "test"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "enlarged four times.",
+       "photo": "File:Overstroming Schellingwoude 1916.jpg",
+       "on_screen_text": "Upscaled 4x"
+      },
+      {
+       "type": "photo",
+       "at": "Then full-frame photos",
+       "photo": "File:Zandmotor Ter Heijde (38868068940).jpg",
+       "on_screen_text": "Parallax"
+      }
+     ]
+    },
+    {
+     "text": "Here is another one, a canal in Amsterdam, and then the windmills of the Zaanse Schans, each with a slow camera move that shows near and far apart.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Amsterdam Canal Houses (52556779860).jpg"
+      },
+      {
+       "type": "photo",
+       "at": "and then the windmills",
+       "photo": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg"
+      },
+      {
+       "type": "photo",
+       "at": "each with a slow",
+       "photo": "File:Panoramic view peat meadows at Wijkergouw Schellingwoude with reflected horses at 29 October 2015 - panoramio.jpg"
+      }
+     ]
+    },
+    {
+     "text": "Last, the Alps from above, where shaded relief should make the mountains and valleys stand out against the flat land around them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "cut": true,
+        "steps": [
+         {
+          "view": {
+           "lon": 8.2,
+           "lat": 46.6,
+           "span": 1.6
+          }
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": 7.9,
+           "lat": 46.55,
+           "span": 0.6
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "map_relief": true
 }

@@ -6,6 +6,7 @@ per level of detail, highlights, places, routes, arrows, choropleths and true-si
 """
 import calendar
 import json
+import os
 import math
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -27,6 +28,7 @@ from config import CACHE_DIR, FPS, HEIGHT, LABEL_INSET, MAP_DRIFT, MAP_SAFE, UI_
 
 Q = 10_000_000  # unit Mercator -> int quantisation (0.07 px at a 1-degree view)
 RHO = 1.25  # flight curvature (van Wijk & Nuij); sqrt(2) is d3's default, lower = less zoom-out mid-flight
+RELIEF_ON_SATELLITE = 0.45  # soft-light strength of the relief layer over satellite imagery (script.map_relief)
 LODS = [("10m", 25.0), ("50m", 110.0), ("110m", 1e9)]  # Natural Earth scale, widest view span (degrees) it serves
 WORLD = {"x": 0.5, "y": 0.45, "w": 1.0}
 DEFAULT_SPAN = {"city": 5.0, "capital": 6.0, "port": 4.0, "site": 5.0, "event": 5.0, "sea": 14.0}
@@ -794,6 +796,11 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
         return r
 
     layers_used = [raster_layer] + (["night"] if any(l["layer"] == "night" for l in plan.layers) else [])
+    # script.map_relief (2026-11-19): ASTER shaded relief over satellite imagery too, blended soft-light in MapBlock,
+    # so mountains, valleys and dikes read in depth. run.py sets MAP_RELIEF for the episode.
+    relief_on_satellite = style == "satellite" and os.environ.get("MAP_RELIEF") == "1"
+    if relief_on_satellite:
+        layers_used.append("relief")
     for layer in layers_used:
         world_name = f"world_{layer}.webp"
         if layer == "relief":
@@ -886,6 +893,7 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
         "labelBox": [LABEL_INSET["left"], LABEL_INSET["top"], WIDTH - LABEL_INSET["right"],
                      HEIGHT - LABEL_INSET.get("bottom", safe_bottom - 40)],
         "cams": plan.cams, "globe": globe, "layers": plan.layers, "rasters": rasters, "lods": lods,
+        "reliefOpacity": RELIEF_ON_SATELLITE if relief_on_satellite else None,
         "elements": out_elements,
     }
     out = out_dir / f"{block_id}.json"

@@ -80,6 +80,7 @@ export type MapBlockData = {
 	globe: GlobeSpec | null;
 	layers: {f: number; layer: 'day' | 'night'}[];
 	rasters: Raster[];
+	reliefOpacity?: number | null; // script.map_relief: relief over satellite imagery (overrides the style's)
 	lods: Lod[];
 	elements: MapElement[];
 };

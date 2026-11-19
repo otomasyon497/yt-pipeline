@@ -214,6 +214,7 @@ def prepare(slug: str) -> None:
             if u["kind"] == "map":
                 subs = [{"shot": s["src"], "startFrame": s["startFrame"] - u["startFrame"], "frames": s["frames"],
                          "steps": [round(x * FPS) - u["startFrame"] for x in s["steps"]]} for s in u["subs"]]
+                os.environ["MAP_RELIEF"] = "1" if script.map_relief else "0"
                 res = maps.build_block(u["id"], subs, style, script.captions, u["drawFrames"], PUBLIC_MEDIA,
                                        ROOT / "episodes" / slug)
                 media_files[u["id"]] = res["file"]

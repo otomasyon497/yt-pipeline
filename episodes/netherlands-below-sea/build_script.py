@@ -55,9 +55,12 @@ def v(view, at=None, **kw):
     return d
 
 
+SAT_MIN_SPAN = 0.08  # storyboard 2026-11-19: 0.035-0.06 views were soft (10 m Sentinel pixels blown up 5-7x)
+
+
 def sat(at, lon, lat, span, label=None, **kw):
     """One close satellite view of a named spot (Sentinel-2 below 2 degrees, the basemap above)."""
-    return m(at, v(near(lon, lat, span), **kw), text=label)
+    return m(at, v(near(lon, lat, max(span, SAT_MIN_SPAN)), **kw), text=label)
 
 
 def paint(at, *names, view=None, **kw):
@@ -171,6 +174,7 @@ PH_ZANDMOTOR_AIR = "File:Zandmotor 16 januari 2016 overzicht naar zuid 5H6A0001.
 PH_ZANDMOTOR = "File:Zandmotor Ter Heijde (38868068940).jpg"
 PH_HOGEBEINTUM = "File:Hogebeintum1.jpg"
 PH_THWAITES = "File:Thwaites Glacier.jpg"
+PH_PAPENDRECHT = "File:Watersnoodramp 1953 - Dijkdoorbraak in de Alblasserwaard bij Papendrecht.jpg"
 
 AMS = place("Amsterdam", 4.90, 52.37)
 ROT = place("Rotterdam", 4.48, 51.92)
@@ -188,7 +192,7 @@ BEEM = place("Beemster", 4.91, 52.55, "Beemster polder", "site")
 HMEER = place("Haarlemmermeer", 4.69, 52.30, "Haarlemmermeer (lake until 1852)", "site")
 OUWER = place("Ouwerkerk", 3.99, 51.62, "Ouwerkerk", "site")
 OSK = place("Eastern Scheldt barrier", 3.69, 51.64, "Eastern Scheldt barrier", "site")
-MAES = place("Maeslantkering", 4.05, 51.955, "Maeslantkering", "site")
+MAES = place("Maeslantkering", 4.163, 51.955, "Maeslantkering", "site")
 LOBITH = place("Lobith", 6.11, 51.86, "Lobith: the Rhine enters", "site")
 GRON = place("Groningen", 6.57, 53.22)
 SANDM = place("Sand Motor", 4.19, 52.05, "Sand Motor", "site")
@@ -208,6 +212,13 @@ def chapter(*paras):
 
 
 chapter(
+    P("P0",
+      photo(0, PH_BOMMEL, "A dike breach, February 1953"),
+      sat("near the town of", 4.585, 51.965, 0.12, "Nieuwerkerk aan den IJssel", date=SUM),
+      m("Behind it lay the", v(NLW, highlight=[LOW], places=[LOWEST, ROT])),
+      photo("The local officials decided", PH_1953_OUDEN, "Oudenhoorn under water, 1953"),
+      photo("What happened to that", PH_1953_HOUSE, "February 1953"),
+      m("First, how does a", v(NORTHSEA, highlight=["Netherlands@red"]))),
     P("P1",
       m(0, v(NL, highlight=["Netherlands@accent"], places=[AMS, ROT])),
       m("About a quarter of", v(NL, highlight=[LOW], places=[AMS, ROT])),
@@ -223,9 +234,11 @@ chapter(
       m("coastal plain dropped by", v(NLW, highlight=[LOW], places=[AMS, ROT, HAGUE]))),
     P("P3",
       photo(0, PH_HMEER_MAP, "The drained Haarlemmermeer, 19th-century map"),
-      photo("a night in 1953", PH_1953_ZIER, "Zierikzee, February 1953"),
-      sat("and a province that", 5.4, 52.45, 0.6, "Flevoland, land made from the sea", date=SPR),
-      m("How does a country", v(NORTHSEA, highlight=["Netherlands@red"]))),
+      photo("a minister who turned", PH_LELY_STATUE, "Cornelis Lely, the minister who closed the Zuiderzee"),
+      sat("and a province that", 5.4, 52.45, 0.6, "Flevoland, land made from the sea", date=SUM),
+      sat("And at the end,", 4.80, 52.06, 0.3, "Peat meadows of the Green Heart", date=SUM),
+      m("How does a country", v(NORTHSEA, highlight=["Netherlands@red"])),
+      photo("and why do eighteen", PH_ROTTERDAM, "The port of Rotterdam")),
     P("P3b",
       photo(0, PH_CANALS, "Amsterdam"),
       stat("In 1684 the mayor", "1684", "Johannes Hudde fixes Amsterdam's water level, the start of NAP", "Wikipedia, Amsterdam Ordnance Datum"),
@@ -233,6 +246,7 @@ chapter(
       sat("and marble stones were", 4.90, 52.375, 0.04, "The IJ and central Amsterdam", date=SUM),
       photo("Two centuries later it", PH_NAP, "The NAP benchmark under Amsterdam's city hall, 1988"),
       m("When the Dutch say", v(NLW, highlight=[LOW], places=[LOWEST, AMS])),
+      sat("they mean six meters", 4.62, 52.01, 0.12, "The Zuidplaspolder, the lowest land in the country", date=SUM),
       m("And the first reason", v(NL, highlight=["Netherlands@accent"]))),
 )
 
@@ -255,6 +269,7 @@ chapter(
       sat("So they dug ditches", 4.9, 52.15, 0.15, "Long strip fields cut into peat, Utrecht", date=SUM),
       photo("Farmers had to work", PH_DIKE_ROAD, "A dike road in Friesland"),
       m("from that cooperation came", v(NL, highlight=["Utrecht@alt", "South Holland@accent", "North Holland@accent"])),
+      stat("and the people who", "EVERY 4 YEARS", "Residents behind the dikes elect their water boards", "Wikipedia, 2023 Dutch water board elections"),
       stat("In 1953 there were", "~2,670", "Dutch water boards in 1953; a few dozen today after mergers", "Springer, Water History 2016"),
       photo("Mergers have cut that", PH_DIKE_FARM, "A dike farm at Acquoy")),
     P("P6",
@@ -267,7 +282,8 @@ chapter(
       sat("Dried peat, called turf,", 4.93, 52.22, 0.12, "The Vinkeveen lakes, dug out for turf", date=SUM),
       stat("A 2016 study added", "19.8 KM³", "Peat lost from the Dutch coastal plain in 1,000 years", ERK),
       chart("Two thirds of that", "Why the peat is gone", "%", [["Drainage", 66], ["Digging and burning", 34]], ERK, highlight=0),
-      m("The result: the coastal", v(NLW, highlight=[LOW], places=[AMS, ROT, HAGUE, LEIDEN]))),
+      m("The result: the coastal", v(NLW, highlight=[LOW], places=[AMS, ROT, HAGUE, LEIDEN])),
+      m("and most of it", v(NORTHSEA, highlight=[LOW]))),
     P("P7b",
       sat(0, 4.89, 52.37, 0.06, "Central Amsterdam", date=SUM),
       photo("so builders drove long", PH_CANALS, "Canal houses on wooden piles, Amsterdam"),
@@ -276,6 +292,7 @@ chapter(
       sat("Much of the old", 4.885, 52.367, 0.04, "The canal ring, Amsterdam", date=SUM)),
     P("P8",
       m(0, v(NL, highlight=[LOW])),
+      stat("corrected a famous error", "55 %?", "What a 2007 UN climate (IPCC) report said lies below sea level", PBL),
       stat("not fifty-five percent of", "26 %", "Below sea level (the IPCC had said 55 %)", PBL),
       stat("Fifty-nine percent of the", "59 %", "Land that can flood, from the sea or the rivers", PBL),
       m("Which raises a question.", v(NL, highlight=[LOW, "Zeeland@alt"], places=[AMS, ROT])),
@@ -317,7 +334,8 @@ chapter(
       photo("The station kept pumping", PH_RINGVAART, "The ring canal around the Haarlemmermeer"),
       photo("The new polder was", PH_HMEER_MAP, "The new Haarlemmermeer polder"),
       sat("Today Schiphol airport stands", 4.76, 52.31, 0.12, "Schiphol airport", date=SUM),
-      stat("about three meters below", "−3 M", "Schiphol, below NAP (about)", "Wikipedia, Amsterdam Airport Schiphol")),
+      stat("about three meters below", "−3 M", "Schiphol, below NAP (about)", "Wikipedia, Amsterdam Airport Schiphol"),
+      photo("The sea was another", PH_MARKER, "A stone sea dike")),
 )
 
 chapter(
@@ -336,6 +354,7 @@ chapter(
       photo(0, PH_LELY_PLAN, "Lely's plan to close the Zuiderzee, 1891-1892"),
       photo("By 1916 he was", PH_LELY_STATUE, "Cornelis Lely, statue on the Afsluitdijk"),
       m("he had long wanted", v(ZZ, highlight=["Flevoland@alt"], places=[AMS])),
+      stat("into land. In 1918", "1918", "The Zuiderzee Act becomes law", RWS),
       m("On the twenty-eighth of", v(ZZ, routes=[AFSL], places=[AMS])),
       sat("the Afsluitdijk, was closed.", 5.20, 53.0, 0.5, "The Afsluitdijk", date=SUM),
       photo("The salt sea behind", PH_AFSLUIT, "Wind turbines in the IJsselmeer")),
@@ -345,18 +364,23 @@ chapter(
       photo("Its towns, Lelystad, named", PH_FLEVO_WORK, "Work in the new polder, Eastern Flevoland"),
       photo("were built on what", PH_ALMERE, "Almere"),
       stat("In all, the Zuiderzee", "165,000 HA", "New land from the Zuiderzee Works", RWS),
-      sat("In 1986 Flevoland became", 5.47, 52.52, 0.25, "Lelystad", date=SUM)),
+      sat("In 1986 Flevoland became", 5.47, 52.52, 0.25, "Lelystad", date=SUM),
+      ask=("Would you move to", "Would you live on the old sea floor?")),
     P("P17b",
       m(0, v(SW, places=[WALCH])),
       sat("In October 1944 Allied", 3.58, 51.53, 0.4, "Walcheren today", date=SUM),
       m("In April 1945, weeks", v(ZZ, places=[WIER], highlight=["North Holland@alt"])),
+      stat("German troops blew up", "17 APR 1945", "German troops blow up the Wieringermeer dike", "Wikipedia, Inundation of the Wieringermeer"),
       photo("It filled in about", PH_WIERINGER, "The flooded Wieringermeer, 1945"),
-      photo("Both were pumped dry", PH_WIERINGER_PUMPS, "Pumps draining the Wieringermeer again, 1945")),
+      photo("Both were pumped dry", PH_WIERINGER_PUMPS, "Pumps draining the Wieringermeer again, 1945"),
+      m("But nothing had prepared", v(SW, places=[ZIER, ROT])),
+      photo("and for the barge", PH_EVEGROEN, "Skipper Arie Evegroen, remembered in stone")),
 )
 
 chapter(
     P("P18",
       m(0, v(SW, highlight=["Zeeland@accent"], places=[ROT, ZIER])),
+      photo("reach the sea through", PH_ASTER, "The delta of the Rhine, Meuse and Scheldt, from orbit"),
       stat("On the night of", "31 JAN 1953", "Spring tide and a northwest storm", WSM),
       m("a spring tide met", v(NORTHSEA, routes=[STORM53])),
       m("The water rose over", v(SW, highlight=["Zeeland@red", "South Holland@red", "North Brabant@red"], places=[ROT]))),
@@ -392,12 +416,13 @@ chapter(
       sat("so the tide still", 3.69, 51.64, 0.12, "The Eastern Scheldt barrier", date=SUM),
       photo("Queen Beatrix opened it", PH_OSK, "The Eastern Scheldt barrier")),
     P("P21",
-      sat(0, 4.05, 51.955, 0.05, "The Maeslantkering", date=SUM),
+      sat(0, 4.163, 51.955, 0.1, "The Maeslantkering", date=SUM),
       stat("Two gates, each about", "2 × 210 M", "The gates of the Maeslantkering", "Wikipedia, Maeslantkering"),
-      sat("rest in docks on", 4.045, 51.956, 0.035, "A gate in its dock", date=SUM),
+      sat("rest in docks on", 4.158, 51.952, 0.08, "A gate in its dock", date=SUM),
       photo("When a surge of", PH_MAESLANT, "The Maeslantkering closing"),
-      sat("across a three hundred", 4.1, 51.96, 0.3, "The Nieuwe Waterweg to Rotterdam", date=SUM),
-      stat("It first closed for", "8 NOV 2007", "The Maeslantkering's first storm closure", "Wikipedia, Maeslantkering")),
+      sat("across a three hundred", 4.17, 51.96, 0.3, "The Nieuwe Waterweg to Rotterdam", date=SUM),
+      stat("It first closed for", "8 NOV 2007", "The Maeslantkering's first storm closure", "Wikipedia, Maeslantkering"),
+      photo("The walls were finished.", PH_OSK2, "The Eastern Scheldt barrier, 2025")),
 )
 
 chapter(
@@ -408,6 +433,7 @@ chapter(
       photo("Leaving would mean leaving", PH_PALACE, "Dam Square, Amsterdam")),
     P("P23",
       m(0, v(NLW, highlight=["Utrecht@alt", "South Holland@accent"], places=[AMS, ROT, LEIDEN])),
+      sat("Green Heart, between the", 4.75, 52.1, 0.6, "The Green Heart, between the cities", date=SUM),
       photo("the ground still drops", PH_PEAT_MEADOW, "Peat meadows near Amsterdam"),
       stat("by about a centimeter", "~1 CM / YEAR", "Peat meadow subsidence (average)", "Regio Gooi en Vechtstreek"),
       sat("If nothing changes, some", 4.82, 52.08, 0.15, "Peat meadows in the Green Heart", date=SUM),
@@ -415,15 +441,18 @@ chapter(
       sat("The main tool is", 4.62, 52.12, 0.15, "Peat meadows near Alphen aan den Rijn", date=SUM),
       photo("but the fields get", PH_DIKE_FARM, "A farm behind a dike"),
       m("Farmers, nature groups and", v(NLW, highlight=["Utrecht@alt", "South Holland@accent"], places=[LEIDEN])),
+      sat("still arguing over where", 4.70, 52.0, 0.25, "Peat meadows of the Krimpenerwaard", date=SUM),
       stat("the extra cost of", "€22 BN", "Extra cost of subsidence to 2050 (PBL estimate)", "Tweede Kamer, kst-35141-3")),
     P("P23b",
       m(0, v(NORTH, highlight=["Groningen@red"], places=[GRON])),
+      stat("Under Groningen lies one", "1959", "The Groningen gas field is found near Slochteren", "Wikipedia, Groningen gas field"),
       photo("Decades of pumping out", PH_SLOCHTEREN, "Work on the Slochteren gas field, 1963"),
       stat("By 2013 the center", "~33 CM", "Subsidence at the centre of the Groningen gas field, 2013", "de Waal et al., PIAHS 2015"),
       sat("since 1991 small earthquakes,", 6.78, 53.32, 0.6, "Above the Groningen gas field", date=SUM),
       sat("The land that the", 6.82, 53.33, 0.15, "Villages of Groningen", date=SUM)),
     P("P24",
       m(0, v(RIVERS, routes=[RHINE], places=[LOBITH, ROT])),
+      sat("at the point where", 6.11, 51.86, 0.15, "Lobith, where the Rhine enters", date=SUM),
       stat("rose to almost seventeen", "16.68 M", "Rhine at Lobith above NAP, 1995", RWS),
       m("it rose so high", v(RIVERS, highlight=["Gelderland@red"], places=[LOBITH])),
       stat("about a quarter of", "~250,000", "People evacuated in 1995", "Vox (Radboud University); Rijkswaterstaat"),
@@ -452,6 +481,7 @@ chapter(
       photo("also the one that", PH_HOGEBEINTUM, "Hogebeintum, a village on its terp")),
     P("P26",
       m(0, v(NLW, highlight=[LOW], places=[AMS, ROT, LOWEST])),
+      photo("where a quarter of", PH_ALMERE, "Almere, built on the old sea floor"),
       photo("would you trust the", PH_DIKE_ROAD, "A dike road"),
       ask=("would you trust the", "Trust the dikes, or move to higher ground?")),
 )
@@ -466,7 +496,7 @@ def push_span(span):
         return max(2.55, round(span * 0.85, 3))
     if span > 2.0:
         return max(2.05, round(span * 0.75, 3))
-    return max(0.035, round(span * 0.62, 3))
+    return max(0.06, round(span * 0.62, 3))
 
 
 def word_at(text, at):
@@ -488,6 +518,8 @@ for ch in chapters:
             steps = (sh.get("map") or {}).get("steps", [])
             if sh["type"] != "map" or not steps or any(st.get("compare") for st in steps) or "view" not in steps[0]:
                 continue
+            if any(steps[0].get(k) for k in ("highlight", "routes", "arrows")):
+                continue  # the engine zooms out to fit a painted region; a bare move step would jump to the hand span
             marks = [start] + [word_at(para["text"], st["at"]) for st in steps[1:] if st.get("at") is not None] + [end]
             last = steps[-1].get("view") or steps[0]["view"]
             for a, b in list(zip(marks, marks[1:])):

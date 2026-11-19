@@ -50,7 +50,10 @@ def mix_audio(narration_wav: Path, music: Path | None, total_sec: float, out_m4a
     voice = "[n0]"
     if sfx_wav is not None:
         inputs += ["-i", sfx_wav]
-        parts.append("[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0[fx]")
+        stereo_fx = int(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries",
+                                        "stream=channels", "-of", "csv=p=0", str(sfx_wav)],
+                                       capture_output=True, text=True).stdout.strip() or 1) == 2
+        parts.append("[1:a]aresample=48000" + ("" if stereo_fx else ",pan=stereo|c0=c0|c1=c0") + "[fx]")
     if music is not None:
         m = 2 if sfx_wav is not None else 1
         inputs += ["-stream_loop", "-1", "-i", music]

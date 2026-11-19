@@ -408,9 +408,10 @@ class Script(BaseModel):
     # Kokoro speed; None -> config.TTS_SPEED. Similar channels narrate at 165-185 words/min, ours ran ~136 at 1.0
     # (docs/channel-analysis-2026-11.md); pick by ear from the pace samples (render.yml pace_samples).
     voice_speed: Optional[float] = Field(None, ge=0.85, le=1.3)
-    music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | file in /music | "none"
+    music: str = "auto"  # "auto" (a /music track if any, else procedural) | "procedural" | "library" (music/library/<mood>/) | file in /music | "none"
     captions: bool = True
     map_style: Optional[Literal["satellite", "atlas", "midnight"]] = None  # None -> config.MAP_STYLE
+    sfx_bank: Literal["procedural", "earshot"] = "procedural"  # sound effects: own numpy ones or earshot's designed bank
     look: Literal["none", "warm", "cool"] = "none"  # one colour grade + vignette on every stock / photo / AI shot
     # Episodes made before 2026-11-05 may keep their stock and AI shots when re-rendered; new ones may not.
     legacy_stock: bool = False

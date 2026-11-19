@@ -153,3 +153,7 @@ below the sea it fears, and why do 18 million people stay? First reason.
   (CC0), Zandmotor aerial 2016 (PD) and Ter Heijde 2018 (CC BY 2.0), Hogebeintum terp (CC0), Thwaites Glacier (PD).
 - Maeslant arms 237 m vs "two football fields": 2 x 105-120 m = 210-240 m (own comparison).
 - KNMI'23 high-emissions range shown as 59-124 cm (stat card), said "about sixty centimeters to one and a quarter meters".
+- Groningen gas field discovered 1959 near Slochteren (Wikipedia Groningen gas field). Zuidplaspolder holds the
+  lowest point (-6.76 m NAP). Lobith: where the Rhine enters the Netherlands (Rijkswaterstaat gauge).
+- Maeslantkering at about 51.955 N, 4.163 E (between Hoek van Holland and Maassluis); storyboard 1 had it at 4.05 E
+  (Maasvlakte container terminals): fixed.

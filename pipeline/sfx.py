@@ -2,7 +2,11 @@
 
 Kinds: whoosh (camera flights), whoosh_long (globe dive), swoosh (lines drawing), pop (markers),
 thump (highlights), hit (chapter / title cards), ticks (numbers counting up).
-build_track() places them on one mono track that media.mix_audio() lays under the narration.
+build_track() places them on one track that media.mix_audio() lays under the narration.
+
+bank="earshot" (script.sfx_bank, 2026-11-19) takes the same kinds from earshot's bank of designed effects instead
+(github.com/Leonxlnx/earshot, MIT, sounds made in code: no samples, no Content ID), in stereo, cycling through a few
+members per kind so repeated flights do not sound identical. "ticks" stay procedural (a counter roll).
 """
 from functools import lru_cache
 
@@ -60,6 +64,28 @@ def _tone(seconds: float, f0: float, f1: float, tau: float) -> np.ndarray:
     return np.sin(phase) * env
 
 
+# kind -> earshot bank members (cycled), and a level offset (dB) against BASE_DB: the bank's sounds are denser than ours
+EARSHOT = {
+    "whoosh": (["whoosh_fast/crisp", "whoosh_fast/sleeve", "whoosh_fast/tight", "whoosh_fast/whistle"], -3.0),
+    "whoosh_long": (["whoosh_big/deep", "whoosh_big/gust", "whoosh_big/swell"], -3.0),
+    "swoosh": (["swish/soft", "swish/cane", "swish/stick"], -2.0),
+    "pop": (["ui_pop/soft", "ui_pop/step", "ui_pop/wide"], -2.0),
+    "thump": (["whoosh_big/thump_airy", "whoosh_big/thump"], -4.0),
+    "hit": (["pro_impact/deep", "pro_impact/swell", "cut_hit/rumble"], -3.0),
+}
+
+
+@lru_cache(maxsize=None)
+def _earshot(sound_id: str, seed: int) -> np.ndarray:
+    """One take from earshot's bank as (n, 2) float64 at SR, peak 1."""
+    from earshot.forge import bank  # imported only when the bank is used (pip: earshot, pinned in render.yml)
+    y, _ = bank.render(sound_id, seed=seed, sr=SR)
+    y = np.asarray(y, dtype=np.float64)
+    if y.ndim == 1:
+        y = np.stack([y, y], axis=1)
+    return y / (np.max(np.abs(y)) + 1e-12)
+
+
 @lru_cache(maxsize=None)
 def sound(kind: str) -> np.ndarray:
     if kind == "whoosh":
@@ -99,21 +125,34 @@ def sound(kind: str) -> np.ndarray:
     raise ValueError(f"unknown sound effect {kind!r}")
 
 
-def build_track(events: list[tuple[float, str, float]], total_sec: float, out_wav, voice_lufs: float = -14.0) -> int:
+def build_track(events: list[tuple[float, str, float]], total_sec: float, out_wav, voice_lufs: float = -14.0,
+                bank: str = "procedural") -> int:
     """events: (seconds, kind, extra gain dB). Returns how many effects were placed.
 
     Levels are designed against a voice at -14 LUFS; `voice_lufs` (the measured narration) shifts them so the
     balance holds whatever level the TTS produced (Kokoro's raw narration is around -27 LUFS).
+    bank="earshot" writes a stereo track from earshot's designed effects (see EARSHOT); otherwise mono procedural.
     """
     shift = voice_lufs + 14.0
-    track = np.zeros(int(total_sec * SR) + 1, dtype=np.float64)
+    stereo = bank == "earshot"
+    track = np.zeros((int(total_sec * SR) + 1, 2) if stereo else int(total_sec * SR) + 1, dtype=np.float64)
     last: dict[str, float] = {}
+    uses: dict[str, int] = {}
     placed = 0
     for t, kind, gain in sorted(events):
         if t < 0 or t >= total_sec or t - last.get(kind, -1e9) < MIN_GAP.get(kind, 0.2):
             continue
         last[kind] = t
-        s = sound(kind) * 10 ** ((SFX_LEVEL_DB + BASE_DB[kind] + gain + shift) / 20)
+        db = SFX_LEVEL_DB + BASE_DB[kind] + gain + shift
+        if stereo and kind in EARSHOT:
+            ids, offset = EARSHOT[kind]
+            k = uses.get(kind, 0)
+            uses[kind] = k + 1
+            s = _earshot(ids[k % len(ids)], 1 + k // len(ids) % 3) * 10 ** ((db + offset) / 20)
+        else:
+            s = sound(kind) * 10 ** (db / 20)
+            if stereo:
+                s = np.stack([s, s], axis=1)
         i = int(t * SR)
         seg = s[: len(track) - i]
         track[i:i + len(seg)] += seg

@@ -63,7 +63,7 @@ def step(name: str):
 
 def pick_music(setting: str, slug: str) -> Path | None:
     """A track from /music ("auto" picks one if any exist, or name a file); None -> procedural or silence."""
-    if setting in ("none", "procedural"):
+    if setting in ("none", "procedural", "library"):
         return None
     tracks = sorted(p for p in MUSIC_DIR.glob("*") if p.suffix.lower() in {".mp3", ".wav", ".m4a", ".ogg", ".flac"})
     if setting != "auto":
@@ -278,10 +278,14 @@ def prepare(slug: str) -> None:
         effects = None
         if os.environ.get("SFX", "1") != "0":
             effects = work / "sfx.wav"
-            n = sfx.build_track(sfx_events + tl.card_sfx(timeline), total_sec, effects, voice_lufs)
+            n = sfx.build_track(sfx_events + tl.card_sfx(timeline), total_sec, effects, voice_lufs, script.sfx_bank)
             print(f"  sound effects: {n} placed (narration {voice_lufs:.1f} LUFS)")
         track = pick_music(script.music, slug)
-        if track is None and script.music in ("auto", "procedural"):  # own music, one bed per chapter mood
+        if script.music == "library":  # ACE-Step beds from music/library/<mood>/, one per chapter mood
+            track = work / "music.wav"
+            music.build_library([(c["startFrame"] / FPS, c["mood"]) for c in timeline["chapters"]], total_sec, track,
+                                int(hashlib.sha1(slug.encode()).hexdigest(), 16) % 1000)
+        elif track is None and script.music in ("auto", "procedural"):  # own music, one bed per chapter mood
             track = work / "music.wav"
             music.build([(c["startFrame"] / FPS, c["mood"]) for c in timeline["chapters"]], total_sec, track,
                         int(hashlib.sha1(slug.encode()).hexdigest(), 16) % 1000)

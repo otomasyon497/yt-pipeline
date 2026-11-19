@@ -882,3 +882,16 @@ comment. Audio of the long render was never checked. No further work planned unl
   sound_measure.json/.txt (LUFS, true peak), sound_timeline.json/.txt (listening transcript, sync to cuts) and
   sound_sheet.png into the release; continue-on-error, 30 min cap. First real test: the Netherlands full render.
   Local clone for reading only: C:\projeler\earshot.
+- 2026-11-19 (evening): user asked for stronger hooks / curiosity (memory script-engagement updated). Netherlands
+  narration: cold open on the 1953 barge (paid off in ch. 4), teasers, chapter-end bridges, mid re-hook, ask card
+  "Would you live on the old sea floor?"; 2,770 words. Storyboard 44588904220 reviewed (21 sheets): fixed
+  Maeslantkering coords (was Maasvlakte), close views >= 0.08 deg (0.035-0.06 blurry), no bare push on painted maps
+  (engine fits the region, a move without it jumped in), cloudy Flevoland. FULL RENDER = run 44596070222 (first
+  earshot sound check). NEXT: fetch -Delete, frame_audit, all sheets, sound_* files, approve, upload
+  --publish-at 2026-11-22T23:00:00Z.
+- New pipeline options (user: "4ünü de ekle, sonraki videoda hepsini deneriz"), all OFF by default:
+  sfx_bank "earshot" (stereo designed effects), music "library" (music/library/<mood>/, beds from music_gen.yml =
+  ACE-Step 1.5 MIT, CPU), photo_upscale (Real-ESRGAN x4plus BSD via spandrel, 600-1400 px photos), photo_motion
+  "parallax" (Depth Anything V2 SMALL only = Apache; ParallaxPhoto.tsx CPU canvas), map_relief (ASTER relief
+  soft-light over satellite). Tests: music_gen run 44596331171 (calm, 60 s), feature-test render 44596802494 (no
+  relief yet; relief committed after). Untested until those finish.

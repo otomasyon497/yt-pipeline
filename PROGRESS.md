@@ -909,3 +909,5 @@ comment. Audio of the long render was never checked. No further work planned unl
   (timeline.count_up), wide unpainted maps get MODIS 2025-06-30 (CLEAR_DAY in build_script). RENDER 2 = run
   44608226546. NEXT: fetch -Delete, frame_audit, check 2:11 (500 BC), 7:46-8:26 (Zuiderzee), 9:02, 9:38, 14:08,
   15:03 maps, then --approve and upload --publish-at 2026-11-22T23:00:00Z (cover.jpg already the user's choice).
+- 2026-11-20: feature-test 1 (44598395837): upscale OK, earshot OK, parallax never triggered (only cover photos).
+  Fixed: parallax also for framed photos (ParallaxPhoto framed mode). feature-test 2 running (also first map_relief).

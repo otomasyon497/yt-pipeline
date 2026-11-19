@@ -877,3 +877,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   Cover: belowsea red, "THEIR OWN / FAULT?" (title already says "Below the Sea"); checked at 320 px.
 - Storyboard run 44588904220. NEXT: fetch sheets, review, full render, frame_audit, approve,
   `python tools/yt_upload.py netherlands-below-sea --publish-at 2026-11-22T23:00:00Z` (23 Nov 02:00 TR).
+- 2026-11-19: render.yml: earshot sound check after Finalize on full renders (user asked to run it on the render
+  machine, not the PC). earshot pinned to 4ac3d2a (0.4.1, MIT), models cached as earshot-0.4.1-v1; writes
+  sound_measure.json/.txt (LUFS, true peak), sound_timeline.json/.txt (listening transcript, sync to cuts) and
+  sound_sheet.png into the release; continue-on-error, 30 min cap. First real test: the Netherlands full render.
+  Local clone for reading only: C:\projeler\earshot.

@@ -153,6 +153,39 @@ jobs:
         if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
         run: python pipeline/run.py finalize "$SLUG"
 
+      - name: Restore earshot model cache
+        if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
+        id: earshot_cache
+        uses: actions/cache/restore@v6
+        with:
+          path: ~/.cache/earshot
+          key: earshot-0.4.1-v1
+
+      - name: Sound check (earshot, runner CPU; never blocks the release)
+        # earshot (github.com/Leonxlnx/earshot, MIT) listens to the final mix: LUFS / true peak (measure, no models),
+        # a second-by-second listening transcript with sync to picture cuts (timeline) and an annotated PNG (sheet).
+        # Pinned to the 0.4.1 commit; models (~1.1 GB) are cached between runs.
+        if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
+        continue-on-error: true
+        timeout-minutes: 30
+        env:
+          EARSHOT_THREADS: "4"
+        run: |
+          OUT="out/$SLUG"
+          pip install -q "earshot @ git+https://github.com/Leonxlnx/earshot@4ac3d2ac2b151e1c23376f9ce7f3047a17050013"
+          earshot measure "$OUT/final.mp4" --out "$OUT/sound_measure.json" | tee "$OUT/sound_measure.txt"
+          earshot timeline "$OUT/final.mp4" --out "$OUT/sound_timeline.json" > "$OUT/sound_timeline.txt"
+          earshot sheet "$OUT/final.mp4" -o "$OUT/sound_sheet.png"
+          head -c 3000 "$OUT/sound_timeline.txt" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save earshot model cache
+        if: always() && inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only && steps.earshot_cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v6
+        with:
+          path: ~/.cache/earshot
+          key: earshot-0.4.1-v1
+
       - name: Publish private release (the PC downloads it from there)
         if: inputs.stills == '' && !inputs.storyboard && !inputs.thumbs_only
         run: |
@@ -169,7 +202,7 @@ jobs:
             echo "Download (PowerShell): gh release download $TAG -R $GITHUB_REPOSITORY -D \"\$env:USERPROFILE\Videos\yt-pipeline\\$SLUG\""
           } > notes.md
           cp "build/$SLUG/timeline.json" "$OUT/timeline.json"
-          gh release create "$TAG" "$OUT/$OUT_NAME.mp4" "$OUT/youtube.txt" "$OUT/credits.txt" "$OUT/timeline.json" $(ls "$OUT"/thumbnails/*.jpg 2>/dev/null)             --prerelease --title "$OUT_NAME $(date -u +%F)" --notes-file notes.md
+          gh release create "$TAG" "$OUT/$OUT_NAME.mp4" "$OUT/youtube.txt" "$OUT/credits.txt" "$OUT/timeline.json" $(ls "$OUT"/thumbnails/*.jpg "$OUT"/sound_* 2>/dev/null)             --prerelease --title "$OUT_NAME $(date -u +%F)" --notes-file notes.md
           echo "Release: $TAG (${DUR} s, ${SIZE} MB)" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifact (stills / storyboard, 2-day retention)

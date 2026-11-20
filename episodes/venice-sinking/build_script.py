@@ -203,7 +203,7 @@ PH_NOMOSE = "File:\"No MOSE\" banner in Venice.jpg"
 PH_MOSE_BARGE = "File:Chiatta MOSE Venezia.jpg"
 PH_MOSE_1 = "File:Laguna di Venezia MOSE 001.JPG"
 PH_MOSE_2 = "File:Laguna di Venezia MOSE 002.JPG"
-PH_MOSE_SCHEME = "File:Le projet MOSE (lagune de Venise) (8108820432).jpg"
+PH_MOSE_SCHEME = "File:Le projet Mose (Venise) (5010485583).jpg"
 PH_MOSE_JACK = "File:Le \"Jack-up\", pour la maintenance des barrières mobiles du projet Mose (Venise) (35696088382).jpg"
 PH_MOSE_ARS = "File:Le projet Mose à lArsenal (Venise) (5010485591).jpg"
 PH_MOSE_EXPO = "File:Exposition sur le projet Mose (Venise) (35056029853).jpg"
@@ -260,7 +260,7 @@ chapter(
       photo("had put most of", PH_SM_NIGHT, "St Mark's Square at high water"),
       photo("This time, almost nobody", PH_SM_2024, "St Mark's Square"),
       m("Somewhere under the sea,", v(near(12.40, 45.38, 0.30), places=[LIDO_IN, MAL_IN], date=SUM)),
-      photo("We will get to", PH_MOSE_SCHEME, "A diagram at the inlet works")),
+      photo("We will get to", PH_MOSE_2, "MOSE works in the lagoon")),
     P("P1",
       m(0, v(ITALY, highlight=[VEN], places=[VENICE])),
       m("in a shallow lagoon", v(NADR, highlight=[VEN], places=[VENICE, PADUA, TREVISO])),
@@ -478,7 +478,7 @@ chapter(
     P("P25",
       photo(0, PH_MOSE_EXPO, "The MOSE exhibition at the Arsenale"),
       stat("Construction began in 2003.", "2003", "MOSE construction begins", "Wikipedia, MOSE"),
-      photo("rows of steel gates", PH_MOSE_SCHEME, "How a MOSE gate works"),
+      photo("rows of steel gates", PH_MOSE_SCHEME, "A MOSE gate in its seabed housing, exhibition panel"),
       photo("hollow boxes filled with", PH_LIDO_WORK, "Works at the Lido inlet, 2017"),
       m("There are seventy-eight of", v(near(12.33, 45.33, 0.48), places=[LIDO_IN, MAL_IN, CHI_IN], date=SUM)),
       m("twenty-one and twenty at", v(near(12.42, 45.42, 0.12), compare=CMP_LIDO)),

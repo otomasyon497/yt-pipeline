@@ -157,6 +157,13 @@ def photos(script) -> list[str]:
                     path, _ = (nasa_media.fetch if s.photo.lower().startswith("nasa:") else commons.fetch)(s.photo)
                     img = Image.open(path).convert("RGB")
                     if script.photo_upscale and commons.UPSCALE_MIN_LONG <= max(img.size) < commons.MIN_LONG_SIDE:
+                        # photo_enhance.upscale: 4x, then fitted into 2400 px; quality() measures edges at 1600 px
+                        # WIDTH, so a portrait that stays narrower than that is always "soft" (Venice storyboard
+                        # 2026-11-20: a 546x1024 diagram -> 1280 px wide failed prepare on the runner).
+                        width_after = img.width * min(4.0, 2400 / max(img.size))
+                        if width_after < 1600:
+                            raise ValueError(f"{s.photo}: {img.width}x{img.height} px is only ~{width_after:.0f} px wide "
+                                             f"after the upscale (quality is measured at 1600 px): choose a wider file")
                         print(f"  photo upscale: {s.photo[:60]} {img.width}x{img.height} -> Real-ESRGAN 4x on the runner")
                         continue  # judged after the upscale, in prepare
                     q = commons.check_quality(img, s.photo)

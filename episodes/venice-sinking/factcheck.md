@@ -98,7 +98,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 92 | c06p03 | narration | That law started half a century of plans, arguments and money that led, eventually, to MOSE. | Law 171/1973 -> MOSE construction 2003, first use 2020 | verified |
 | 93 | c06p03 | on screen | The 1966 flood, MOSE exhibition | Wikimedia Commons file description (title/date) | verified |
 | 94 | c06p03 | stat card | 1973: Italy's Special Law for Venice | Camera dei deputati | verified |
-| 95 | c06p03 | on screen | St Mark's Square, 2008 | Wikimedia Commons file description (title/date) | verified |
+| 95 | c06p03 | on screen | High water on the Zattere, December 2008 | Wikimedia Commons file description: 'Acqua alta Fondamenta delle Zattere', 2008-12-01 (label corrected after frame audit) | verified |
 | 96 | c06p04 | narration | Venice measures every tide against a mark set at Punta della Salute in 1897. | ISPRA-CPSM-CNR, 'Novembre 2019: un mese di maree eccezionali' (PDF read) (ZMPS 1897) | verified |
 | 97 | c06p04 | narration | Since then the average sea level has risen to about thirty-two centimeters above that mark. | CPSM/ISPRA 'Previsioni delle altezze di marea astronomica 2021' (PDF read): mean sea ~32 cm above ZMPS | verified |
 | 98 | c06p04 | narration | A study of a century and a half of records found that roughly half of that rise came from the sea itself, and the other half from Venice sinking. | Zanchettin et al. 2021, NHESS 21, 2643 (abstract): subsidence about half of relative rise 1872-2019 | verified |

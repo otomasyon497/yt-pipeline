@@ -932,3 +932,5 @@ comment. Audio of the long render was never checked. No further work planned unl
   NEXT: fetch -Delete, frame_audit, approve, upload date from the user (23:00 UTC).
 - Render 44770324546 audited (32 sheets): clouds gone; one label error (Zattere photo called St Mark's Square, x2) ->
   fixed, factcheck row 95 updated. Render 2 run 44776122744. User chose upload 2026-11-23T23:00:00Z (24 Nov 02:00 TR).
+- Venice UPLOADED 2026-11-20: render 2 (44776122744) audited 32 sheets + approved; https://studio.youtube.com/video/msZ2iXpOyEA/edit,
+  private, publishAt 2026-11-23T23:00Z (24 Nov 02:00 TR), photo cover "THE SEA IS WINNING" set. TODO user: pin comment by hand.

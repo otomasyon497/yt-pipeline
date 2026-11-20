@@ -1,0 +1,4055 @@
+{
+ "title": "Why Venice Is Sinking Into Its Own Lagoon",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/venice-sinking/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Landsat imagery courtesy of the U.S. Geological Survey"
+ ],
+ "thumbnail": {
+  "text": "THE SEA IS WINNING"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "On the morning of the twenty-second of November 2022, the sea off Venice rose to one hundred and seventy-three centimeters. That is the kind of tide that, three years earlier, had put most of the city under water. This time, almost nobody in Venice got their feet wet. Somewhere under the sea, something had stood up. We will get to what it was, what it cost, and why it may not be enough.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.45,
+           "lat": 45.33,
+           "span": 0.35
+          },
+          "places": [
+           {
+            "name": "CNR platform",
+            "lon": 12.508,
+            "lat": 45.314,
+            "kind": "site",
+            "label": "CNR platform, 15 km out",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "rose to one hundred",
+       "stat": {
+        "value": "173 CM",
+        "label": "Sea level off Venice, 22 November 2022",
+        "source": "Autorità per la Laguna di Venezia, MOSE log"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That is the kind",
+       "photo": "File:Acqua alta del 12 novembre 2019.jpg",
+       "on_screen_text": "12 November 2019"
+      },
+      {
+       "type": "photo",
+       "at": "had put most of",
+       "photo": "File:St Mark's Square, Venice flooded by extreme midnight tide.jpg",
+       "on_screen_text": "St Mark's Square at high water"
+      },
+      {
+       "type": "photo",
+       "at": "This time, almost nobody",
+       "photo": "File:Plaza de San Marcos en 2024.jpg",
+       "on_screen_text": "St Mark's Square"
+      },
+      {
+       "type": "map",
+       "at": "Somewhere under the sea,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.4,
+           "lat": 45.38,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Lido inlet",
+            "lon": 12.42,
+            "lat": 45.42,
+            "kind": "site",
+            "label": "Lido inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Malamocco inlet",
+            "lon": 12.335,
+            "lat": 45.335,
+            "kind": "site",
+            "label": "Malamocco inlet",
+            "icon": "sea"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "We will get to",
+       "photo": "File:Le projet MOSE (lagune de Venise) (8108820432).jpg",
+       "on_screen_text": "A diagram at the inlet works"
+      }
+     ]
+    },
+    {
+     "text": "Venice is built on a cluster of small islands in a shallow lagoon on Italy's northeast coast. The lagoon covers about five hundred and fifty square kilometers, and it meets the Adriatic Sea through just three gaps in a long strip of sand: the Lido inlet, about eight hundred meters wide, Malamocco, about four hundred, and Chioggia, a little less. For more than a thousand years, that arrangement kept the city alive.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.6,
+           "lat": 43.4,
+           "span": 11.0
+          },
+          "highlight": [
+           "Venezia@red"
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "in a shallow lagoon",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.7,
+           "lat": 45.2,
+           "span": 3.4
+          },
+          "highlight": [
+           "Venezia@red"
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           },
+           {
+            "name": "Padua",
+            "lon": 11.88,
+            "lat": 45.41,
+            "kind": "city",
+            "label": "Padua"
+           },
+           {
+            "name": "Treviso",
+            "lon": 12.24,
+            "lat": 45.67,
+            "kind": "city",
+            "label": "Treviso"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The lagoon covers about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.3,
+           "lat": 45.37,
+           "span": 0.55
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Venetian lagoon"
+      },
+      {
+       "type": "stat",
+       "at": "five hundred and fifty",
+       "stat": {
+        "value": "550 KM²",
+        "label": "The Venetian lagoon, the largest wetland in the Mediterranean",
+        "source": "MOSE Venezia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "three gaps in a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.36,
+           "lat": 45.31,
+           "span": 0.4
+          },
+          "places": [
+           {
+            "name": "Lido inlet",
+            "lon": 12.42,
+            "lat": 45.42,
+            "kind": "site",
+            "label": "Lido inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Malamocco inlet",
+            "lon": 12.335,
+            "lat": 45.335,
+            "kind": "site",
+            "label": "Malamocco inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Chioggia inlet",
+            "lon": 12.305,
+            "lat": 45.232,
+            "kind": "site",
+            "label": "Chioggia inlet",
+            "icon": "sea"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Lido inlet, about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.42,
+           "lat": 45.42,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lido inlet"
+      },
+      {
+       "type": "map",
+       "at": "Malamocco, about four hundred,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.335,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Malamocco inlet"
+      },
+      {
+       "type": "map",
+       "at": "and Chioggia, a little",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.305,
+           "lat": 45.232,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Chioggia inlet"
+      },
+      {
+       "type": "photo",
+       "at": "For more than a",
+       "photo": "File:(Venice) Veduta del Canal Grande dalla Punta della Dogana - Bernardo Bellotto.jpg",
+       "on_screen_text": "The Grand Canal, painted by Bernardo Bellotto, 18th century"
+      }
+     ]
+    },
+    {
+     "text": "But something has gone wrong. Of all the exceptional floods recorded in Venice since 1872, the ones above one hundred and forty centimeters, more than a quarter came in just two years, 2018 and 2019. The water is higher than it used to be, and the city is lower.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aqua alta venice san marko.jpg",
+       "on_screen_text": "St Mark's Square, December 2008"
+      },
+      {
+       "type": "stat",
+       "at": "Of all the exceptional",
+       "stat": {
+        "value": "≥ 140 CM",
+        "label": "Exceptional tides, recorded since 1872",
+        "source": "Comune di Venezia / ISPRA, tide forecasts 2021"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the ones above one",
+       "photo": "File:San Marco, 30100 Venice, Italy - panoramio (826).jpg",
+       "on_screen_text": "Walkways on St Mark's Square"
+      },
+      {
+       "type": "chart",
+       "at": "more than a quarter",
+       "chart": {
+        "type": "bar",
+        "title": "Exceptional tides (≥ 140 cm) in Venice",
+        "unit": "",
+        "data": [
+         [
+          "1872-2017",
+          18
+         ],
+         [
+          "2018-2019",
+          7
+         ]
+        ],
+        "source": "Comune di Venezia / ISPRA, tide forecasts 2021",
+        "highlight": 1,
+        "reveal": [
+         "2018 and 2019."
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The water is higher",
+       "photo": "File:Canal in Venice, high water on walkway.jpg",
+       "on_screen_text": "High water on a canal walkway, 2024"
+      }
+     ]
+    },
+    {
+     "text": "This is the story of how that happened: rivers that were moved by hand, wells that pulled a city down, a canal dug for oil tankers, one terrible night in 1966, and a six-billion-euro machine hidden on the seabed. Why is Venice sinking into its own lagoon, and can anything stop it? The first reason lies under the city's feet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.87,
+           "lat": 45.268,
+           "span": 3.06
+          },
+          "arrows": [
+           {
+            "from": [
+             12.13,
+             45.4
+            ],
+            "to": [
+             12.29,
+             45.19
+            ],
+            "color": "accent",
+            "label": "Brenta, sent south",
+            "bend": -0.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "wells that pulled a",
+       "photo": "File:Porto Marghera Raffineria - panoramio.jpg",
+       "on_screen_text": "Porto Marghera"
+      },
+      {
+       "type": "map",
+       "at": "a canal dug for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.28,
+           "lat": 45.38,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Malamocco-Marghera canal"
+      },
+      {
+       "type": "photo",
+       "at": "one terrible night in",
+       "photo": "File:Piazza San Marco il 4 novembre 1966.jpg",
+       "on_screen_text": "St Mark's Square, 4 November 1966"
+      },
+      {
+       "type": "photo",
+       "at": "and a six-billion-euro machine",
+       "photo": "File:Chiatta MOSE Venezia.jpg",
+       "on_screen_text": "A MOSE work barge"
+      },
+      {
+       "type": "map",
+       "at": "Why is Venice sinking",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.437,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice"
+      },
+      {
+       "type": "photo",
+       "at": "The first reason lies",
+       "photo": "File:Venice Old Town Lagoon Aerial View.jpg",
+       "on_screen_text": "Venice from the air"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A City on Mud and Wood",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Nobody chose this place because it was easy to build on. In the fifth and sixth centuries, as the Roman world fell apart and invaders crossed northern Italy, people from the mainland towns fled into the lagoon. The marshy islands were hard to reach and hard to attack. That was the point.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.15,
+           "lat": 43.62,
+           "span": 9.9
+          },
+          "highlight": [
+           "Venezia@red"
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           },
+           {
+            "name": "Padua",
+            "lon": 11.88,
+            "lat": 45.41,
+            "kind": "city",
+            "label": "Padua"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In the fifth and",
+       "stat": {
+        "value": "400s-500s",
+        "label": "Mainland refugees settle the lagoon islands",
+        "source": "Standard history"
+       }
+      },
+      {
+       "type": "map",
+       "at": "people from the mainland",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.53,
+           "lat": 45.132,
+           "span": 3.74
+          },
+          "arrows": [
+           {
+            "from": [
+             11.88,
+             45.41
+            ],
+            "to": [
+             12.3,
+             45.43
+            ],
+            "color": "accent",
+            "label": "To the lagoon",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Padua",
+            "lon": 11.88,
+            "lat": 45.41,
+            "kind": "city",
+            "label": "Padua"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The marshy islands were",
+       "photo": "File:Venice Lagoon from above (7264045440).jpg",
+       "on_screen_text": "Marsh islands of the Venetian lagoon"
+      },
+      {
+       "type": "map",
+       "at": "That was the point.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.42,
+           "lat": 45.49,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marshes of the northern lagoon"
+      }
+     ]
+    },
+    {
+     "text": "The ground was another problem. Under Venice lie layers of soft silt, sand and clay, laid down by rivers and tides. To build on it, the Venetians drove wooden piles into the mud, mostly oak and larch, packed close together, and set stone foundations on top. Many piles reach a firmer layer the Venetians called caranto: a stiff clay that dried out and hardened during the last ice age, between about eighteen and seven thousand years ago.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Venice view, Grand Canal, Venice, Italy.jpg",
+       "on_screen_text": "The Grand Canal"
+      },
+      {
+       "type": "stat",
+       "at": "Under Venice lie layers",
+       "stat": {
+        "value": "SILT · SAND · CLAY",
+        "label": "The ground under the city",
+        "source": "Cola & Simonini 2002"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "To build on it,",
+       "stat": {
+        "value": "WOODEN PILES",
+        "label": "Driven into the mud, with stone foundations on top",
+        "source": "CNR wood study"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "mostly oak and larch,",
+       "stat": {
+        "value": "OAK · LARCH",
+        "label": "Most of the piles, plus alder, pine and elm",
+        "source": "CNR wood study"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and set stone foundations",
+       "photo": "File:Grand Canal Santa Maria della Salute Vaporetto Gondola Venice 01.jpg",
+       "on_screen_text": "Santa Maria della Salute"
+      },
+      {
+       "type": "stat",
+       "at": "Many piles reach a",
+       "stat": {
+        "value": "CARANTO",
+        "label": "A stiff clay layer, dried out 18,000-7,000 years ago",
+        "source": "Cola & Simonini 2002; Donnici et al. 2011"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "out and hardened during",
+       "photo": "File:ISS-39 Venice Lagoon, Italy.jpg",
+       "on_screen_text": "The lagoon from the space station"
+      }
+     ]
+    },
+    {
+     "text": "The wood survives because it stays wet. Down in the waterlogged mud there is almost no oxygen, and the microbes that rot timber cannot live without it. Centuries later, much of the city still stands on those piles.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ca' Rezzonico - Il Canal Grande verso Ca' Pesaro (Inv.219) - Ippolito Caffi.jpg",
+       "on_screen_text": "The Grand Canal, Ippolito Caffi, 19th century"
+      },
+      {
+       "type": "stat",
+       "at": "Down in the waterlogged",
+       "stat": {
+        "value": "NO OXYGEN",
+        "label": "Wet mud keeps the wood from rotting",
+        "source": "CNR wood study"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and the microbes that",
+       "photo": "File:Aerial photographs of Venice 2013, Anton Nossik, 018.jpg",
+       "on_screen_text": "Houses on the water's edge"
+      },
+      {
+       "type": "map",
+       "at": "Centuries later, much of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.333,
+           "lat": 45.435,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The historic city"
+      }
+     ]
+    },
+    {
+     "text": "But soft ground keeps settling under weight, and a lagoon is never still. The sea comes in twice a day through the three inlets. Rivers from the Alps pour fresh water and mud in from the other side. Too much mud, and the lagoon fills up and turns to land. Too much sea, and it becomes a bay. Venice needed the lagoon to stay exactly as it was. So the Venetians did something very few cities have ever tried. They moved the rivers.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:ISS-46 Venice and Murano, Italy.jpg",
+       "on_screen_text": "Venice and Murano from the space station"
+      },
+      {
+       "type": "map",
+       "at": "The sea comes in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.36,
+           "lat": 45.36,
+           "span": 0.55
+          },
+          "arrows": [
+           {
+            "from": [
+             12.62,
+             45.3
+            ],
+            "to": [
+             12.42,
+             45.42
+            ],
+            "color": "blue",
+            "label": "Tide",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             12.52,
+             45.2
+            ],
+            "to": [
+             12.335,
+             45.335
+            ],
+            "color": "blue",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             12.45,
+             45.12
+            ],
+            "to": [
+             12.305,
+             45.232
+            ],
+            "color": "blue",
+            "bend": 0.1
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Rivers from the Alps",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.802,
+           "lat": 45.064,
+           "span": 2.788
+          },
+          "arrows": [
+           {
+            "from": [
+             11.95,
+             45.5
+            ],
+            "to": [
+             12.22,
+             45.42
+            ],
+            "color": "accent",
+            "label": "Rivers and mud",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             12.25,
+             45.68
+            ],
+            "to": [
+             12.4,
+             45.52
+            ],
+            "color": "accent",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Too much mud, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.43,
+           "lat": 45.52,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marsh at the lagoon's northern edge"
+      },
+      {
+       "type": "map",
+       "at": "Too much sea, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.4,
+           "lat": 45.33,
+           "span": 0.25
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The sea side of the lagoon"
+      },
+      {
+       "type": "photo",
+       "at": "Venice needed the lagoon",
+       "photo": "File:Admiralty Chart No 1483 Chioggia Malamocco Lido and Venice, Published 1893.jpg",
+       "on_screen_text": "Venice, Lido and Malamocco, Admiralty chart of 1893"
+      },
+      {
+       "type": "photo",
+       "at": "So the Venetians did",
+       "photo": "File:Venice, Italy (ASTER).jpg",
+       "on_screen_text": "Venice from orbit (ASTER)"
+      },
+      {
+       "type": "map",
+       "at": "They moved the rivers.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.598,
+           "lat": 45.336,
+           "span": 4.012
+          },
+          "arrows": [
+           {
+            "from": [
+             12.13,
+             45.4
+            ],
+            "to": [
+             12.29,
+             45.19
+            ],
+            "color": "accent",
+            "label": "Brenta, sent south",
+            "bend": -0.2
+           },
+           {
+            "from": [
+             12.55,
+             45.55
+            ],
+            "to": [
+             12.88,
+             45.6
+            ],
+            "color": "accent",
+            "label": "Piave, turned east",
+            "bend": 0.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "They Moved the Rivers",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "By the fifteenth century, the danger was clear. The Brenta, the Piave, the Sile and smaller rivers were dumping so much silt into the lagoon that channels were clogging and the lagoon was slowly filling in. For the Republic of Venice, a lagoon full of mud meant ships that could not reach the docks and a city no longer guarded by water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Carte hydrographique de la Vénétie - Io. Bat. Maza f. - btv1b53170332x (2 of 3).jpg",
+       "on_screen_text": "Hydrographic map of the Veneto, 17th century"
+      },
+      {
+       "type": "map",
+       "at": "The Brenta, the Piave,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.938,
+           "lat": 45.2,
+           "span": 3.23
+          },
+          "arrows": [
+           {
+            "from": [
+             11.95,
+             45.5
+            ],
+            "to": [
+             12.22,
+             45.42
+            ],
+            "color": "accent",
+            "label": "Rivers and mud",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             12.25,
+             45.68
+            ],
+            "to": [
+             12.4,
+             45.52
+            ],
+            "color": "accent",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           },
+           {
+            "name": "Padua",
+            "lon": 11.88,
+            "lat": 45.41,
+            "kind": "city",
+            "label": "Padua"
+           },
+           {
+            "name": "Treviso",
+            "lon": 12.24,
+            "lat": 45.67,
+            "kind": "city",
+            "label": "Treviso"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "that channels were clogging",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.47,
+           "lat": 45.5,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Channels and marshes, northern lagoon"
+      },
+      {
+       "type": "photo",
+       "at": "For the Republic of",
+       "photo": "File:Karl Kaufmann Venedig Acqua Alta.jpg",
+       "on_screen_text": "Venice, painted by Karl Kaufmann, around 1900"
+      },
+      {
+       "type": "map",
+       "at": "mud meant ships that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.34,
+           "lat": 45.44,
+           "span": 0.18
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The channels around Venice"
+      },
+      {
+       "type": "map",
+       "at": "and a city no",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.25,
+           "lat": 45.3,
+           "span": 0.25
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Shallow flats of the southern lagoon"
+      }
+     ]
+    },
+    {
+     "text": "In 1501 the Republic created a board of three officials, the Savi alle Acque, the wise men of the waters, to run the lagoon and its rivers. A few years later a larger water council was formed, led by the Doge himself. On questions about the lagoon, the water magistrates usually had the last word, even over the mainland towns that paid the price.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1501",
+        "label": "The Savi alle Acque take charge of the lagoon and its rivers",
+        "source": "edatlas; Gronda lagunare"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the wise men of",
+       "photo": "File:Kaart van de omgeving van Venetië, ca. 1702 Les Environs de Venise (titel op object) Les Forces de l'Europe, Asie, Afrique et Amerique, ou description des principales villes avec leurs fortification, RP-P-OB-83.034-196.jpg",
+       "on_screen_text": "The surroundings of Venice, map of about 1702"
+      },
+      {
+       "type": "stat",
+       "at": "A few years later",
+       "stat": {
+        "value": "1505",
+        "label": "A larger water council, led by the Doge",
+        "source": "edatlas"
+       }
+      },
+      {
+       "type": "map",
+       "at": "On questions about the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.462,
+           "lat": 45.2,
+           "span": 2.924
+          },
+          "highlight": [
+           "Padova@alt",
+           "Treviso@alt",
+           "Venezia@red"
+          ],
+          "places": [
+           {
+            "name": "Padua",
+            "lon": 11.88,
+            "lat": 45.41,
+            "kind": "city",
+            "label": "Padua"
+           },
+           {
+            "name": "Treviso",
+            "lon": 12.24,
+            "lat": 45.67,
+            "kind": "city",
+            "label": "Treviso"
+           },
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "last word, even over",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.05,
+           "lat": 45.4,
+           "span": 0.4
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mainland west of the lagoon"
+      }
+     ]
+    },
+    {
+     "text": "Then came the digging. Between 1489 and 1507, the Brenta was pushed south through a new channel. Between 1554 and 1577, the Brenta and the Bacchiglione were sent out of the lagoon altogether, to the sea near Brondolo. In 1610 work began on the Taglio Novissimo, a canal that carried the Brenta and a string of smaller rivers along the lagoon's edge. In 1579 a cut called the Taglio del Re turned the Piave east toward Caorle, and in 1664 it was diverted again. In the 1680s the Sile was led into the Piave's old bed and out to sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.25,
+           "lat": 45.42,
+           "span": 0.3
+          },
+          "places": [
+           {
+            "name": "Fusina",
+            "lon": 12.255,
+            "lat": 45.42,
+            "kind": "site",
+            "label": "Fusina"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fusina, where the Brenta reached the lagoon"
+      },
+      {
+       "type": "map",
+       "at": "the Brenta was pushed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.7,
+           "lat": 45.37,
+           "span": 3.604
+          },
+          "arrows": [
+           {
+            "from": [
+             12.1,
+             45.42
+            ],
+            "to": [
+             12.255,
+             45.42
+            ],
+            "color": "blue",
+            "label": "Brenta (old mouth)",
+            "bend": 0.05
+           }
+          ],
+          "places": [
+           {
+            "name": "Fusina",
+            "lon": 12.255,
+            "lat": 45.42,
+            "kind": "site",
+            "label": "Fusina"
+           },
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Between 1554 and 1577,",
+       "stat": {
+        "value": "1554-1577",
+        "label": "Brenta and Bacchiglione sent to the sea near Brondolo",
+        "source": "Italian Ministry of Environment, lagoon chronology"
+       }
+      },
+      {
+       "type": "map",
+       "at": "to the sea near",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.7,
+           "lat": 45.03,
+           "span": 2.652
+          },
+          "arrows": [
+           {
+            "from": [
+             12.13,
+             45.4
+            ],
+            "to": [
+             12.29,
+             45.19
+            ],
+            "color": "accent",
+            "label": "Brenta, sent south",
+            "bend": -0.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Brondolo",
+            "lon": 12.29,
+            "lat": 45.19,
+            "kind": "site",
+            "label": "Brondolo"
+           },
+           {
+            "name": "Chioggia",
+            "lon": 12.28,
+            "lat": 45.22,
+            "kind": "city",
+            "label": "Chioggia"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1610 work began",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.18,
+           "lat": 45.3,
+           "span": 0.3
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": 12.18,
+           "lat": 45.3,
+           "span": 0.186
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Along the lagoon's western edge"
+      },
+      {
+       "type": "stat",
+       "at": "In 1579 a cut",
+       "stat": {
+        "value": "1579 · 1664",
+        "label": "The Piave is turned east toward Caorle, twice",
+        "source": "Italian Ministry of Environment, lagoon chronology"
+       }
+      },
+      {
+       "type": "map",
+       "at": "turned the Piave east",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.87,
+           "lat": 45.268,
+           "span": 2.968
+          },
+          "arrows": [
+           {
+            "from": [
+             12.55,
+             45.55
+            ],
+            "to": [
+             12.88,
+             45.6
+            ],
+            "color": "accent",
+            "label": "Piave, turned east",
+            "bend": 0.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Caorle",
+            "lon": 12.88,
+            "lat": 45.6,
+            "kind": "city",
+            "label": "Caorle"
+           },
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the 1680s the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.53,
+           "lat": 45.132,
+           "span": 3.628
+          },
+          "arrows": [
+           {
+            "from": [
+             12.4,
+             45.58
+            ],
+            "to": [
+             12.62,
+             45.48
+            ],
+            "color": "accent",
+            "label": "Sile, into the old Piave bed",
+            "bend": 0.15
+           },
+           {
+            "from": [
+             12.55,
+             45.55
+            ],
+            "to": [
+             12.88,
+             45.6
+            ],
+            "color": "accent",
+            "label": "Piave, turned east",
+            "bend": 0.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Caorle",
+            "lon": 12.88,
+            "lat": 45.6,
+            "kind": "city",
+            "label": "Caorle"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and out to sea.",
+       "photo": "File:Map of the lagoon of Venice - Roux Joseph - 1804.jpg",
+       "on_screen_text": "The lagoon of Venice, map of 1804"
+      }
+     ]
+    },
+    {
+     "text": "It worked. The lagoon stopped filling up, and Venice stayed an island city. But the mainland paid. Diverted rivers flooded fields and villages, and new marshes spread where the water could no longer drain. And the lagoon lost something it would need later: the mud that rivers had always brought in. A lagoon without new mud can only hold its shape if nothing else takes mud out. In the twentieth century, a lot of things did.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lagoon-of-venice-landsat-1 Names.jpg",
+       "on_screen_text": "The lagoon and its inlets from Landsat"
+      },
+      {
+       "type": "map",
+       "at": "But the mainland paid.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.12,
+           "lat": 45.32,
+           "span": 0.3
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 23,
+          "view": {
+           "lon": 12.12,
+           "lat": 45.32,
+           "span": 0.186
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland on the lagoon's mainland edge"
+      },
+      {
+       "type": "photo",
+       "at": "And the lagoon lost",
+       "photo": "File:Venice Lagoon from above (7264045440).jpg",
+       "on_screen_text": "Marsh islands, central lagoon"
+      },
+      {
+       "type": "map",
+       "at": "A lagoon without new",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.32,
+           "lat": 45.3,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 59,
+          "view": {
+           "lon": 12.32,
+           "lat": 45.3,
+           "span": 0.124
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open flats of the central lagoon"
+      },
+      {
+       "type": "photo",
+       "at": "In the twentieth century,",
+       "photo": "File:Porto Marghera - Tramonto (25343715761).jpg",
+       "on_screen_text": "Porto Marghera at sunset"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wells That Sank Venice",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Look across the lagoon from Venice toward the mainland and you see cranes, tanks and chimneys. That is Porto Marghera, an industrial port built on the lagoon's edge in the twentieth century. Between 1927 and 1960, about twenty-two square kilometers of salt marsh were filled in for the factories, and the airport and new districts of Mestre took several more.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.3,
+           "lat": 45.44,
+           "span": 0.2
+          },
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           },
+           {
+            "name": "Porto Marghera",
+            "lon": 12.245,
+            "lat": 45.455,
+            "kind": "site",
+            "label": "Porto Marghera",
+            "icon": "factory"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "From Venice to the mainland"
+      },
+      {
+       "type": "photo",
+       "at": "cranes, tanks and chimneys.",
+       "photo": "File:Porto Marghera 2016 3.jpg",
+       "on_screen_text": "Porto Marghera, 2016"
+      },
+      {
+       "type": "map",
+       "at": "That is Porto Marghera,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.24,
+           "lat": 45.45,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": 12.24,
+           "lat": 45.45,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Porto Marghera"
+      },
+      {
+       "type": "stat",
+       "at": "Between 1927 and 1960,",
+       "stat": {
+        "value": "22 KM²",
+        "label": "Salt marsh filled in for the industrial zone, 1927-1960",
+        "source": "Sarretta et al., Continental Shelf Research 2010"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and the airport and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.33,
+           "lat": 45.5,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice airport and Mestre's lagoon edge"
+      }
+     ]
+    },
+    {
+     "text": "Industry needs water, and the cheapest water was underground. From around the 1930s, companies drilled wells into the layers of sand beneath the lagoon and pumped out fresh groundwater. The pumping peaked between 1950 and 1970.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Raffineria ENI Porto Marghera 2022-05.jpg",
+       "on_screen_text": "The ENI refinery, Porto Marghera"
+      },
+      {
+       "type": "stat",
+       "at": "From around the 1930s,",
+       "stat": {
+        "value": "1930s",
+        "label": "Industrial wells tap the groundwater under the lagoon",
+        "source": "Carbognin, Teatini, Tosi (Univ. Padova)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and pumped out fresh",
+       "photo": "File:Porto Marghera 2016 5.jpg",
+       "on_screen_text": "Porto Marghera"
+      },
+      {
+       "type": "stat",
+       "at": "The pumping peaked between",
+       "stat": {
+        "value": "1950-1970",
+        "label": "Peak years of groundwater pumping",
+        "source": "Carbognin, Teatini, Tosi (Univ. Padova)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Here is the trouble with taking water out of the ground. In soft layers of sand and clay, the water helps hold the grains apart. Pump it out, and the layers squeeze together, and everything on top goes down with them. Between 1950 and 1970, Venice sank by about twelve centimeters, in twenty years. At the peak, the city was dropping about five millimeters a year, several times faster than the slow natural settling.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.25,
+           "lat": 45.45,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marghera and the lagoon"
+      },
+      {
+       "type": "stat",
+       "at": "In soft layers of",
+       "stat": {
+        "value": "WATER HOLDS",
+        "label": "Groundwater keeps the grains of sand and clay apart",
+        "source": "Carbognin, Teatini, Tosi (Univ. Padova)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Pump it out, and",
+       "stat": {
+        "value": "LAYERS SQUEEZE",
+        "label": "Take the water out, and the ground compacts",
+        "source": "Carbognin, Teatini, Tosi (Univ. Padova)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Between 1950 and 1970,",
+       "stat": {
+        "value": "−12 CM",
+        "label": "Venice, 1950-1970",
+        "source": "Comune di Venezia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "At the peak, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.437,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice"
+      },
+      {
+       "type": "stat",
+       "at": "about five millimeters a",
+       "stat": {
+        "value": "~5 MM / YEAR",
+        "label": "Sinking of Venice at the peak of pumping",
+        "source": "Carbognin, Teatini, Tosi (Univ. Padova)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It took years to stop it. In the early 1970s the wells were closed by law, and the sinking slowed sharply, to about a tenth of the rate of those twenty years. But the twelve centimeters never came back. Compacted clay does not spring up again. Venice was permanently lower, just as the sea was starting to rise. And Marghera had brought something else to the lagoon: ships far bigger than anything the old channels could carry.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Porto Marghera Raffineria - panoramio.jpg",
+       "on_screen_text": "Industry at Porto Marghera"
+      },
+      {
+       "type": "stat",
+       "at": "In the early 1970s",
+       "stat": {
+        "value": "1970s",
+        "label": "The wells are closed by law; sinking drops to about a tenth",
+        "source": "Carbognin, Teatini, Tosi (Univ. Padova)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "slowed sharply, to about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.26,
+           "lat": 45.47,
+           "span": 0.16
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marghera today"
+      },
+      {
+       "type": "photo",
+       "at": "But the twelve centimeters",
+       "photo": "File:Signe Acqua Alta 1966 - Cloître monastère San Lazzaro décembre 2022.JPG",
+       "on_screen_text": "A 1966 high-water mark, San Lazzaro"
+      },
+      {
+       "type": "map",
+       "at": "Venice was permanently lower,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.43,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice"
+      },
+      {
+       "type": "photo",
+       "at": "And Marghera had brought",
+       "photo": "File:ISS046-E-45729 - View of Italy - Venetian lagoon - San Giorgio in Meergras-Alga - Canale di Malamocco-Marghera - Fusina - Moranzani - Casse di colmata - Canale Avesa (cropped).jpg",
+       "on_screen_text": "The Malamocco-Marghera canal from the space station"
+      },
+      {
+       "type": "map",
+       "at": "ships far bigger than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.235,
+           "lat": 45.44,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tanker docks at Marghera"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Canal for Oil Tankers",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The refineries needed tankers, and tankers needed deep water. In the 1960s, engineers dug the Malamocco-Marghera ship canal, known in Venice as the Oil Canal. It runs from the Malamocco inlet straight across the middle of the lagoon to the industrial port. You can see it from space: a dark, straight line through water that is mostly knee-deep.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Raffineria ENI Porto Marghera 2022-05.jpg",
+       "on_screen_text": "Refinery tanks at Marghera"
+      },
+      {
+       "type": "map",
+       "at": "In the 1960s, engineers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.3,
+           "lat": 45.42,
+           "span": 0.3
+          },
+          "routes": [
+           {
+            "from": [
+             12.335,
+             45.335
+            ],
+            "via": [
+             [
+              12.27,
+              45.37
+             ],
+             [
+              12.235,
+              45.41
+             ]
+            ],
+            "to": [
+             12.245,
+             45.445
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 1.8,
+            "label": "Oil Canal, 1960s"
+           }
+          ],
+          "places": [
+           {
+            "name": "Malamocco inlet",
+            "lon": 12.335,
+            "lat": 45.335,
+            "kind": "site",
+            "label": "Malamocco inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Porto Marghera",
+            "lon": 12.245,
+            "lat": 45.455,
+            "kind": "site",
+            "label": "Porto Marghera",
+            "icon": "factory"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It runs from the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.31,
+           "lat": 45.35,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": 12.31,
+           "lat": 45.35,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The canal at the Malamocco inlet"
+      },
+      {
+       "type": "map",
+       "at": "You can see it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.27,
+           "lat": 45.39,
+           "span": 0.16
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Oil Canal across the central lagoon"
+      },
+      {
+       "type": "photo",
+       "at": "a dark, straight line",
+       "photo": "File:ISS048-E-6037 - View of Italy.jpg",
+       "on_screen_text": "The lagoon from the space station, 2016"
+      }
+     ]
+    },
+    {
+     "text": "Digging it moved more than forty million cubic meters of sediment, and much of that was dumped on land, out of the lagoon for good. Worse, the straight, deep channel changed how water moves. Tides and waves pushed into the central lagoon with more force, stirring up the mud on the shallow flats and carrying it out to sea.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "40M M³",
+        "label": "Sediment dug out for the Oil Canal, much of it dumped on land",
+        "source": "Sarretta et al., Continental Shelf Research 2010"
+       }
+      },
+      {
+       "type": "map",
+       "at": "much of that was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.2,
+           "lat": 45.38,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "West of the Oil Canal"
+      },
+      {
+       "type": "map",
+       "at": "Worse, the straight, deep",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.26,
+           "lat": 45.38,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The canal and the shallows around it"
+      },
+      {
+       "type": "map",
+       "at": "Tides and waves pushed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.29,
+           "lat": 45.4,
+           "span": 0.26
+          },
+          "arrows": [
+           {
+            "from": [
+             12.335,
+             45.335
+            ],
+            "to": [
+             12.25,
+             45.4
+            ],
+            "color": "blue",
+            "label": "Stronger tides",
+            "bend": 0.1
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "stirring up the mud",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.24,
+           "lat": 45.36,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Muddy water on the central flats"
+      }
+     ]
+    },
+    {
+     "text": "Scientists who compared depth surveys of the whole lagoon from 1927, 1970 and 2002 found what that meant. The lagoon lost about one hundred and ten million cubic meters of sediment over those seventy-five years. Its typical depth went from sixty-two centimeters to eighty-eight. The area of open flats between seventy-five centimeters and two meters deep more than doubled, from eighty-eight square kilometers to two hundred and six. Salt marshes, the low green islands that break the waves, shrank from sixty-eight square kilometers to thirty-two, less than half. In the later decades, clam fishing on the lagoon bed stirred up even more mud, and the yearly loss rose from point three to point eight million cubic meters.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Carta idrografica della laguna veneta - 1975.jpg",
+       "on_screen_text": "Hydrographic chart of the lagoon, 1975"
+      },
+      {
+       "type": "map",
+       "at": "from 1927, 1970 and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.32,
+           "lat": 45.3,
+           "span": 0.3
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The central and southern lagoon"
+      },
+      {
+       "type": "stat",
+       "at": "The lagoon lost about",
+       "stat": {
+        "value": "110M M³",
+        "label": "Sediment lost by the lagoon, 1927-2002",
+        "source": "Sarretta et al., Continental Shelf Research 2010"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Its typical depth went",
+       "chart": {
+        "type": "bar",
+        "title": "Typical depth of the lagoon",
+        "unit": "cm",
+        "data": [
+         [
+          "1927",
+          62
+         ],
+         [
+          "2002",
+          88
+         ]
+        ],
+        "source": "Sarretta et al., Continental Shelf Research 2010",
+        "highlight": 1,
+        "reveal": [
+         "to eighty-eight."
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "two meters deep more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.28,
+           "lat": 45.33,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open flats"
+      },
+      {
+       "type": "chart",
+       "at": "from eighty-eight square kilometers",
+       "chart": {
+        "type": "bar",
+        "title": "Open flats 0.75-2 m deep",
+        "unit": "km²",
+        "data": [
+         [
+          "1927",
+          88
+         ],
+         [
+          "2002",
+          206
+         ]
+        ],
+        "source": "Sarretta et al., Continental Shelf Research 2010",
+        "highlight": 1,
+        "reveal": [
+         "to two hundred and six."
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Salt marshes, the low",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.3,
+           "lat": 45.42,
+           "span": 0.3
+          },
+          "compare": {
+           "before": "1985-06-01/1985-09-30",
+           "after": "2025-06-01/2025-09-30",
+           "source": "landsat",
+           "seconds": 2.8,
+           "hold": 1.6,
+           "label_before": "1985",
+           "label_after": "2025"
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "to thirty-two, less",
+       "chart": {
+        "type": "bar",
+        "title": "Salt marsh in the lagoon",
+        "unit": "km²",
+        "data": [
+         [
+          "1927",
+          68
+         ],
+         [
+          "2002",
+          32
+         ]
+        ],
+        "source": "Sarretta et al., Continental Shelf Research 2010",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the later decades,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.22,
+           "lat": 45.33,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 95,
+          "view": {
+           "lon": 12.22,
+           "lat": 45.33,
+           "span": 0.093
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Flats of the southern-central lagoon"
+      },
+      {
+       "type": "chart",
+       "at": "and the yearly loss",
+       "chart": {
+        "type": "bar",
+        "title": "Sediment lost per year",
+        "unit": "million m³",
+        "data": [
+         [
+          "1927-1970",
+          0.3
+         ],
+         [
+          "1970-2002",
+          0.8
+         ]
+        ],
+        "source": "Sarretta et al., Continental Shelf Research 2010",
+        "highlight": 1,
+        "reveal": [
+         "point eight million"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "In those surveys, the lagoon was turning into something else: deeper, more open, more like a bay of the sea. The researchers described it as starved of sediment. A deeper lagoon lets tides in faster and lets storms build bigger waves. And a city that had already sunk now sat in a lagoon that was losing its defenses. All it needed was the right storm.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.28,
+           "lat": 45.36,
+           "span": 0.5
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 12.28,
+           "lat": 45.36,
+           "span": 0.31
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lagoon today"
+      },
+      {
+       "type": "stat",
+       "at": "The researchers described it",
+       "stat": {
+        "value": "SEDIMENT-STARVED",
+        "label": "How the 2010 study described the lagoon",
+        "source": "Sarretta et al., Continental Shelf Research 2010"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A deeper lagoon lets",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.36,
+           "lat": 45.33,
+           "span": 0.3
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open water between the inlets"
+      },
+      {
+       "type": "photo",
+       "at": "And a city that",
+       "photo": "File:Aerial photographs of Venice 2013, Anton Nossik, 029.jpg",
+       "on_screen_text": "The Lido and the lagoon from the air"
+      },
+      {
+       "type": "photo",
+       "at": "All it needed was",
+       "photo": "File:Bollettino meteorologico quotidiano del giorno 4 novembre 1966.jpg",
+       "on_screen_text": "The weather map of 4 November 1966"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Night of 1966",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "On the third and fourth of November 1966, a deep low-pressure system sat over the Mediterranean, and the scirocco, the warm southeast wind, blew straight up the Adriatic for hours. It piled the sea against the top of the Adriatic, right where Venice sits. On the morning of the fourth, the sea broke through the stone sea walls at Pellestrina, the thin strip of land that shields the lagoon, in three places.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": 41.0,
+           "span": 24.0
+          },
+          "arrows": [
+           {
+            "from": [
+             19.5,
+             39.6
+            ],
+            "to": [
+             12.9,
+             45.1
+            ],
+            "color": "red",
+            "label": "Scirocco",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "a deep low-pressure system",
+       "stat": {
+        "value": "3-4 NOV 1966",
+        "label": "Low pressure and a scirocco storm",
+        "source": "Il Post, 2018"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the warm southeast wind,",
+       "photo": "File:ISS048-E-6037 - View of Italy.jpg",
+       "on_screen_text": "The northern Adriatic from orbit"
+      },
+      {
+       "type": "map",
+       "at": "It piled the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.05,
+           "lat": 43.18,
+           "span": 12.1
+          },
+          "arrows": [
+           {
+            "from": [
+             19.5,
+             39.6
+            ],
+            "to": [
+             12.9,
+             45.1
+            ],
+            "color": "red",
+            "label": "Scirocco",
+            "bend": 0.1
+           }
+          ],
+          "highlight": [
+           "Venezia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "On the morning of",
+       "photo": "File:Pellestrina (Lagune de Venise) (8087744696).jpg",
+       "on_screen_text": "Pellestrina and its sea wall"
+      },
+      {
+       "type": "map",
+       "at": "the thin strip of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.305,
+           "lat": 45.285,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Pellestrina",
+            "lon": 12.305,
+            "lat": 45.285,
+            "kind": "site",
+            "label": "Pellestrina"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pellestrina"
+      }
+     ]
+    },
+    {
+     "text": "The tide in Venice reached one hundred and ninety-four centimeters above the city's old reference mark, the highest ever recorded there. On the city's own flood table, that level puts about nine tenths of its streets and squares under water. Electricity failed across the whole city, hospitals included. Heating oil leaked from flooded tanks and spread through the streets and canals. More than two thousand shops and workshops were damaged, and many never reopened. That evening, the hospital on the Lido counted eight hundred people who had fled the flooded island of Pellestrina.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Piazza San Marco il 4 novembre 1966.jpg",
+       "on_screen_text": "St Mark's Square, 4 November 1966"
+      },
+      {
+       "type": "stat",
+       "at": "reached one hundred and",
+       "stat": {
+        "value": "194 CM",
+        "label": "Venice, 4 November 1966: the highest tide on record",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "On the city's own",
+       "photo": "File:Piazzetta San Marco - alluvione di Venezia 1966.jpg",
+       "on_screen_text": "The Piazzetta, 1966"
+      },
+      {
+       "type": "stat",
+       "at": "puts about nine tenths",
+       "stat": {
+        "value": "~90 %",
+        "label": "Of the city's walkways under water at that level",
+        "source": "Comune di Venezia, Centro Maree"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Electricity failed across the",
+       "photo": "File:Alluvione di Venezia del 1966.jpg",
+       "on_screen_text": "Venice under water, 1966"
+      },
+      {
+       "type": "photo",
+       "at": "Heating oil leaked from",
+       "photo": "File:Ponte della Paglia - Venezia (1966).jpg",
+       "on_screen_text": "Ponte della Paglia, 1966"
+      },
+      {
+       "type": "stat",
+       "at": "More than two thousand",
+       "stat": {
+        "value": "2,000+",
+        "label": "Shops and workshops damaged",
+        "source": "Il Post, 2018"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That evening, the hospital",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.37,
+           "lat": 45.4,
+           "span": 0.12
+          },
+          "places": [
+           {
+            "name": "Pellestrina",
+            "lon": 12.305,
+            "lat": 45.285,
+            "kind": "site",
+            "label": "Pellestrina"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 83,
+          "view": {
+           "lon": 12.37,
+           "lat": 45.4,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lido"
+      }
+     ]
+    },
+    {
+     "text": "The world noticed. In 1973 Italy passed a special law declaring the protection of Venice and its lagoon a matter of primary national interest. That law started half a century of plans, arguments and money that led, eventually, to MOSE. But the water did not wait.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:L'inondation de 1966 à Venise (exposition sur le projet Mose, Venise) (35696067702).jpg",
+       "on_screen_text": "The 1966 flood, MOSE exhibition"
+      },
+      {
+       "type": "stat",
+       "at": "In 1973 Italy passed",
+       "stat": {
+        "value": "1973",
+        "label": "Italy's Special Law for Venice",
+        "source": "Camera dei deputati"
+       }
+      },
+      {
+       "type": "document",
+       "at": "declaring the protection of",
+       "document": {
+        "text": "Law 171 of 16 April 1973: the safeguarding of Venice and its lagoon is of primary national interest.",
+        "source": "Camera dei deputati",
+        "highlight": "primary national interest",
+        "title": "Special Law for Venice"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That law started half",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.38,
+           "lat": 45.39,
+           "span": 0.35
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 32,
+          "view": {
+           "lon": 12.38,
+           "lat": 45.39,
+           "span": 0.217
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lagoon and its inlets"
+      },
+      {
+       "type": "photo",
+       "at": "But the water did",
+       "photo": "File:Acqua alta Venezia.JPG",
+       "on_screen_text": "St Mark's Square, 2008"
+      }
+     ]
+    },
+    {
+     "text": "Venice measures every tide against a mark set at Punta della Salute in 1897. Since then the average sea level has risen to about thirty-two centimeters above that mark. A study of a century and a half of records found that roughly half of that rise came from the sea itself, and the other half from Venice sinking. Every centimeter lost on either side means the same storm floods more of the city.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.336,
+           "lat": 45.43,
+           "span": 0.08
+          },
+          "places": [
+           {
+            "name": "Punta della Salute",
+            "lon": 12.336,
+            "lat": 45.43,
+            "kind": "site",
+            "label": "Punta della Salute tide gauge",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Punta della Salute"
+      },
+      {
+       "type": "stat",
+       "at": "Since then the average",
+       "stat": {
+        "value": "+32 CM",
+        "label": "Average sea level above the 1897 mark (2021)",
+        "source": "Comune di Venezia / ISPRA, tide forecasts 2021"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A study of a",
+       "photo": "File:ISS-46 Venice and Murano, Italy.jpg",
+       "on_screen_text": "Venice from the space station"
+      },
+      {
+       "type": "chart",
+       "at": "roughly half of that",
+       "chart": {
+        "type": "bar",
+        "title": "Why the water is higher at Venice, 1872-2019",
+        "unit": "%",
+        "data": [
+         [
+          "The sea rose",
+          50
+         ],
+         [
+          "Venice sank",
+          50
+         ]
+        ],
+        "source": "Zanchettin et al., NHESS 2021",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Every centimeter lost on",
+       "photo": "File:San Marco, 30100 Venice, Italy - panoramio (824).jpg",
+       "on_screen_text": "St Mark's Square at high water"
+      }
+     ]
+    },
+    {
+     "text": "The city keeps a table of what each tide does. At ninety centimeters, about two percent of the streets and squares are wet, mostly around Saint Mark's Square, the lowest part of town. At one hundred and ten, twelve percent. At one hundred and twenty, more than a quarter. At one hundred and forty, fifty-nine percent. Each step of ten centimeters floods a new ring of streets, so a city that loses ten centimeters to the sea gets every flood one step worse. In August 2020 the tide reached one hundred and three centimeters, the highest August tide since records began in 1872.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:San Marco, 30100 Venice, Italy - panoramio (826).jpg",
+       "on_screen_text": "Walkways on St Mark's Square"
+      },
+      {
+       "type": "stat",
+       "at": "At ninety centimeters, about",
+       "stat": {
+        "value": "2 %",
+        "label": "Walkways under water at a 90 cm tide",
+        "source": "Comune di Venezia, Centro Maree"
+       }
+      },
+      {
+       "type": "map",
+       "at": "are wet, mostly around",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.339,
+           "lat": 45.433,
+           "span": 0.1
+          },
+          "places": [
+           {
+            "name": "St Mark's Square",
+            "lon": 12.339,
+            "lat": 45.434,
+            "kind": "site",
+            "label": "St Mark's Square"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lowest streets, around St Mark's"
+      },
+      {
+       "type": "chart",
+       "at": "At one hundred and ten,",
+       "chart": {
+        "type": "bar",
+        "title": "Share of Venice's walkways under water",
+        "unit": "%",
+        "data": [
+         [
+          "90 cm",
+          2
+         ],
+         [
+          "110 cm",
+          12
+         ],
+         [
+          "120 cm",
+          28
+         ],
+         [
+          "140 cm",
+          59
+         ]
+        ],
+        "source": "Comune di Venezia, Centro Maree",
+        "highlight": 3,
+        "reveal": [
+         "At one hundred and twenty,",
+         "At one hundred and forty,"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Each step of ten",
+       "photo": "File:November in Venice.jpg",
+       "on_screen_text": "Venice in November"
+      },
+      {
+       "type": "map",
+       "at": "so a city that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.325,
+           "lat": 45.442,
+           "span": 0.09
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 75,
+          "view": {
+           "lon": 12.325,
+           "lat": 45.442,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cannaregio"
+      },
+      {
+       "type": "stat",
+       "at": "In August 2020 the",
+       "stat": {
+        "value": "103 CM",
+        "label": "30 August 2020, the highest August tide since 1872",
+        "source": "Comune di Venezia / ISPRA, tide forecasts 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": "centimeters, the highest August",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.33,
+           "lat": 45.44,
+           "span": 0.14
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice"
+      }
+     ]
+    },
+    {
+     "text": "Then came 2019. On the twelfth of November, four things came together. It was a spring tide, when the sun and the moon pull together. The whole northern Adriatic was running high: that November the average sea level in Venice was almost thirty centimeters above normal. The scirocco was blowing up the Adriatic. And that evening a small, intense low formed over the northern Adriatic and drove a local wind of about a hundred kilometers an hour across the lagoon, with gusts of a hundred and ten. City workers at San Zaccaria, on the waterfront, said they heard a roar just before the gust hit them. The tide reached one hundred and eighty-seven centimeters, the second highest ever recorded, and almost ninety percent of the city went under water. That year Venice had twenty-eight tides of one hundred and ten centimeters or more, the level where the sirens sound. Five tides reached one hundred and forty, and the records had never shown more than two in a single year. Three of them came within six days. In that November alone, the water stood above one hundred and ten centimeters for about fifty hours. The previous record for a November was about twenty-four. Tides once rare enough to be remembered by their dates were becoming a season.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Acqua alta del 12 novembre 2019.jpg",
+       "on_screen_text": "12 November 2019"
+      },
+      {
+       "type": "stat",
+       "at": "It was a spring",
+       "stat": {
+        "value": "1 · SPRING TIDE",
+        "label": "Sun and moon pulling together",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The whole northern Adriatic",
+       "stat": {
+        "value": "2 · HIGH SEA",
+        "label": "November mean level almost 30 cm above normal",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "average sea level in",
+       "photo": "File:Rising Sea Levels and Sirocco Winds Worsen Flooding for Venice (NESDIS 2019-11-14).jpg",
+       "on_screen_text": "Venice and the Adriatic from orbit, 14 November 2019"
+      },
+      {
+       "type": "map",
+       "at": "The scirocco was blowing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.93,
+           "lat": 42.96,
+           "span": 9.02
+          },
+          "arrows": [
+           {
+            "from": [
+             19.5,
+             39.6
+            ],
+            "to": [
+             12.9,
+             45.1
+            ],
+            "color": "red",
+            "label": "Scirocco",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           }
+          ],
+          "date": "2025-07-12"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "And that evening a",
+       "stat": {
+        "value": "3 · 4 · LOW AND WIND",
+        "label": "A local low; wind ~100 km/h, gusts 110",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "of about a hundred",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.36,
+           "lat": 45.42,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 78,
+          "view": {
+           "lon": 12.36,
+           "lat": 45.42,
+           "span": 0.124
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Across the lagoon"
+      },
+      {
+       "type": "map",
+       "at": "City workers at San",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.343,
+           "lat": 45.434,
+           "span": 0.09
+          },
+          "places": [
+           {
+            "name": "San Zaccaria",
+            "lon": 12.343,
+            "lat": 45.434,
+            "kind": "site",
+            "label": "San Zaccaria"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 96,
+          "view": {
+           "lon": 12.343,
+           "lat": 45.434,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The waterfront at San Zaccaria"
+      },
+      {
+       "type": "stat",
+       "at": "The tide reached one",
+       "stat": {
+        "value": "187 CM",
+        "label": "12 November 2019, second highest on record",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and almost ninety percent",
+       "photo": "File:St Mark's Square, Venice flooded by extreme midnight tide.jpg",
+       "on_screen_text": "St Mark's Square at high water"
+      },
+      {
+       "type": "stat",
+       "at": "That year Venice had",
+       "stat": {
+        "value": "28",
+        "label": "Tides of 110 cm or more in 2019 (record)",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "ten centimeters or more,",
+       "photo": "File:Canal in Venice, high water on walkway.jpg",
+       "on_screen_text": "High water on a canal walkway"
+      },
+      {
+       "type": "stat",
+       "at": "Five tides reached one",
+       "stat": {
+        "value": "5",
+        "label": "Tides of 140 cm or more in 2019; never more than 2 before",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "had never shown more",
+       "photo": "File:Piazzetta San Marco - alluvione di Venezia 1966.jpg",
+       "on_screen_text": "The Piazzetta at high water, 1966"
+      },
+      {
+       "type": "map",
+       "at": "Three of them came",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.345,
+           "lat": 45.438,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice"
+      },
+      {
+       "type": "stat",
+       "at": "In that November alone,",
+       "stat": {
+        "value": "~50 HOURS",
+        "label": "Above 110 cm in November 2019 (previous record ~24)",
+        "source": "ISPRA, CPSM, CNR-ISMAR (2019 report)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The previous record for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.33,
+           "lat": 45.43,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The historic city"
+      },
+      {
+       "type": "photo",
+       "at": "Tides once rare enough",
+       "photo": "File:San Marco, 30100 Venice, Italy - panoramio (824).jpg",
+       "on_screen_text": "Cafe tables in the water, St Mark's Square"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "MOSE: 78 Gates Under the Sea",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The answer Italy built is called MOSE, a name taken from Moses, who parted the sea. Construction began in 2003. At each of the three inlets, rows of steel gates lie flat on the seabed, hollow boxes filled with water. There are seventy-eight of them in four barriers: twenty-one and twenty at the Lido inlet, joined by an artificial island built in the middle of the channel, nineteen at Malamocco and eighteen at Chioggia. Each gate is twenty meters wide and up to about twenty-nine meters long.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Exposition sur le projet Mose (Venise) (35056029853).jpg",
+       "on_screen_text": "The MOSE exhibition at the Arsenale"
+      },
+      {
+       "type": "stat",
+       "at": "Construction began in 2003.",
+       "stat": {
+        "value": "2003",
+        "label": "MOSE construction begins",
+        "source": "Wikipedia, MOSE"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "rows of steel gates",
+       "photo": "File:Le projet MOSE (lagune de Venise) (8108820432).jpg",
+       "on_screen_text": "How a MOSE gate works"
+      },
+      {
+       "type": "photo",
+       "at": "hollow boxes filled with",
+       "photo": "File:Lido di Venezia - 35308936480.jpg",
+       "on_screen_text": "Works at the Lido inlet, 2017"
+      },
+      {
+       "type": "map",
+       "at": "There are seventy-eight of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.33,
+           "lat": 45.33,
+           "span": 0.48
+          },
+          "places": [
+           {
+            "name": "Lido inlet",
+            "lon": 12.42,
+            "lat": 45.42,
+            "kind": "site",
+            "label": "Lido inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Malamocco inlet",
+            "lon": 12.335,
+            "lat": 45.335,
+            "kind": "site",
+            "label": "Malamocco inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Chioggia inlet",
+            "lon": 12.305,
+            "lat": 45.232,
+            "kind": "site",
+            "label": "Chioggia inlet",
+            "icon": "sea"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "twenty-one and twenty at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.42,
+           "lat": 45.42,
+           "span": 0.12
+          },
+          "compare": {
+           "before": "2002-06-01/2002-09-30",
+           "after": "2025-06-01/2025-09-30",
+           "source": "landsat",
+           "seconds": 2.6,
+           "hold": 0.6,
+           "label_before": "2002",
+           "label_after": "2025"
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "in the middle of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.42,
+           "lat": 45.425,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The artificial island between the Lido barriers"
+      },
+      {
+       "type": "map",
+       "at": "nineteen at Malamocco and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.335,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Malamocco: 19 gates"
+      },
+      {
+       "type": "map",
+       "at": "and eighteen at Chioggia.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.305,
+           "lat": 45.232,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chioggia: 18 gates"
+      },
+      {
+       "type": "stat",
+       "at": "Each gate is twenty",
+       "stat": {
+        "value": "20 × 29 M",
+        "label": "Width × length of the biggest gates",
+        "source": "Sky TG24; Structurae"
+       }
+      }
+     ]
+    },
+    {
+     "text": "When a tide above one hundred and ten centimeters is forecast, compressed air pushes the water out of the gates. They swing up on their hinges until they stand above the waves, and the lagoon is shut off from the sea. When the tide falls, water is let back in and the gates sink out of sight.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Laguna di Venezia MOSE 001.JPG",
+       "on_screen_text": "MOSE works in the lagoon"
+      },
+      {
+       "type": "stat",
+       "at": "one hundred and ten",
+       "stat": {
+        "value": "> 110 CM",
+        "label": "Forecast tide that raises the gates",
+        "source": "Autorità per la Laguna di Venezia, MOSE log"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "compressed air pushes the",
+       "photo": "File:Le projet Mose à lArsenal (Venise) (5010485591).jpg",
+       "on_screen_text": "A MOSE gate at the Arsenale"
+      },
+      {
+       "type": "map",
+       "at": "swing up on their",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.33,
+           "lat": 45.333,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Malamocco barrier"
+      },
+      {
+       "type": "photo",
+       "at": "and the lagoon is",
+       "photo": "File:Laguna di Venezia MOSE 002.JPG",
+       "on_screen_text": "The barrier works"
+      },
+      {
+       "type": "map",
+       "at": "When the tide falls,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.4,
+           "lat": 45.42,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 49,
+          "view": {
+           "lon": 12.4,
+           "lat": 45.42,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lido inlet"
+      }
+     ]
+    },
+    {
+     "text": "Getting there was a scandal. In June 2014, police arrested thirty-five people over contracts for the project, among them the mayor of Venice, Giorgio Orsoni, who resigned days later. The bill came to about six billion euros in today's money. All seventy-eight gates were raised together for the first time in a test in July 2020. On the third of October 2020, they went up for a real tide.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:\"No MOSE\" banner in Venice.jpg",
+       "on_screen_text": "A \"No MOSE\" banner in Venice"
+      },
+      {
+       "type": "stat",
+       "at": "In June 2014, police",
+       "stat": {
+        "value": "35 ARRESTS",
+        "label": "June 2014, including the mayor of Venice",
+        "source": "ANSA, 2014"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the project, among them",
+       "photo": "File:Aerial photographs of Venice 2013, Anton Nossik, 012.jpg",
+       "on_screen_text": "An inlet of the lagoon from the air"
+      },
+      {
+       "type": "map",
+       "at": "who resigned days later.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.336,
+           "lat": 45.44,
+           "span": 0.09
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Venice"
+      },
+      {
+       "type": "stat",
+       "at": "The bill came to",
+       "stat": {
+        "value": "~€6 BN",
+        "label": "MOSE, in 2024 prices",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "All seventy-eight gates were",
+       "photo": "File:Lido di Venezia - 35527228302.jpg",
+       "on_screen_text": "The Lido inlet works, 2017"
+      },
+      {
+       "type": "stat",
+       "at": "On the third of",
+       "stat": {
+        "value": "3 OCT 2020",
+        "label": "First raising for a real high tide",
+        "source": "Autorità per la Laguna di Venezia, MOSE log"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Since then, they have gone up again and again: twenty times in the first season, thirteen, nineteen, thirty-two, twenty-three, and then forty-nine times in the season that ended in May 2026, thirty of them in January and February alone. By November 2026 the count had passed one hundred and sixty. On the twenty-second of November 2022, the morning with the one hundred and seventy-three centimeter tide from the start of this video, all four barriers were up, and the city stayed mostly dry. Outside the gates, the gauges at the inlets read one hundred and eighty-seven centimeters at the Lido, one hundred and ninety-one at Chioggia, and two hundred and four at Malamocco. On the city's own table, a tide like that would have flooded around four fifths of Venice.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "MOSE closures per season",
+        "unit": "",
+        "data": [
+         [
+          "2020/21",
+          20
+         ],
+         [
+          "2021/22",
+          13
+         ],
+         [
+          "2022/23",
+          19
+         ],
+         [
+          "2023/24",
+          32
+         ],
+         [
+          "2024/25",
+          23
+         ],
+         [
+          "2025/26",
+          49
+         ]
+        ],
+        "source": "Autorità per la Laguna di Venezia, MOSE log",
+        "highlight": 5,
+        "reveal": [
+         "thirteen,",
+         "nineteen,",
+         "thirty-two,",
+         "twenty-three,",
+         "and then forty-nine"
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "thirty of them in",
+       "stat": {
+        "value": "30",
+        "label": "Closures in January and February 2026",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By November 2026 the",
+       "stat": {
+        "value": "160",
+        "label": "MOSE closures, October 2020 to November 2026",
+        "source": "Autorità per la Laguna di Venezia, MOSE log"
+       }
+      },
+      {
+       "type": "map",
+       "at": "On the twenty-second of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.4,
+           "lat": 45.33,
+           "span": 0.45
+          },
+          "places": [
+           {
+            "name": "CNR platform",
+            "lon": 12.508,
+            "lat": 45.314,
+            "kind": "site",
+            "label": "CNR platform, 15 km out",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "hundred and seventy-three centimeter",
+       "photo": "File:Acqua alta Venezia.JPG",
+       "on_screen_text": "St Mark's Square"
+      },
+      {
+       "type": "map",
+       "at": "all four barriers were",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.36,
+           "lat": 45.31,
+           "span": 0.42
+          },
+          "places": [
+           {
+            "name": "Lido inlet",
+            "lon": 12.42,
+            "lat": 45.42,
+            "kind": "site",
+            "label": "Lido inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Malamocco inlet",
+            "lon": 12.335,
+            "lat": 45.335,
+            "kind": "site",
+            "label": "Malamocco inlet",
+            "icon": "sea"
+           },
+           {
+            "name": "Chioggia inlet",
+            "lon": 12.305,
+            "lat": 45.232,
+            "kind": "site",
+            "label": "Chioggia inlet",
+            "icon": "sea"
+           }
+          ],
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Outside the gates, the",
+       "stat": {
+        "value": "187 · 191 · 204",
+        "label": "Sea level at the Lido, Chioggia and Malamocco inlets, 22 Nov 2022 (cm)",
+        "source": "Autorità per la Laguna di Venezia, MOSE log"
+       }
+      },
+      {
+       "type": "map",
+       "at": "one hundred and ninety-one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.305,
+           "lat": 45.232,
+           "span": 0.14
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Chioggia inlet"
+      },
+      {
+       "type": "chart",
+       "at": "On the city's own",
+       "chart": {
+        "type": "bar",
+        "title": "Walkways under water at 170 cm",
+        "unit": "%",
+        "data": [
+         [
+          "170 cm",
+          82
+         ]
+        ],
+        "source": "Comune di Venezia, Centro Maree",
+        "highlight": 0
+       }
+      }
+     ]
+    },
+    {
+     "text": "But every closure cuts the lagoon off from the sea that keeps it alive. The tide is what flushes the lagoon, and ships need the inlets open. As the sea rises, the gates will have to close more often and for longer, perhaps for weeks each year. A barrier built for rare emergencies is turning into a wall that is up more and more often.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.335,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Malamocco inlet"
+      },
+      {
+       "type": "photo",
+       "at": "The tide is what",
+       "photo": "File:Aerial photographs of Venice 2013, Anton Nossik, 012.jpg",
+       "on_screen_text": "An inlet from the air"
+      },
+      {
+       "type": "photo",
+       "at": "and ships need the",
+       "photo": "File:Le \"Jack-up\", pour la maintenance des barrières mobiles du projet Mose (Venise) (35696088382).jpg",
+       "on_screen_text": "A maintenance vessel for the gates"
+      },
+      {
+       "type": "stat",
+       "at": "As the sea rises,",
+       "stat": {
+        "value": "WEEKS A YEAR",
+        "label": "How long the gates may have to stay shut as seas rise",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "more often and for",
+       "photo": "File:Aerial photographs of Venice 2013, Anton Nossik, 029.jpg",
+       "on_screen_text": "The Lido from the air"
+      },
+      {
+       "type": "map",
+       "at": "A barrier built for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.43,
+           "lat": 45.415,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 56,
+          "view": {
+           "lon": 12.43,
+           "lat": 45.415,
+           "span": 0.093
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lido barrier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Is Left",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "How long can this last? A review of Venice's sea-level records puts the likely rise from climate change by 2100 somewhere between eleven centimeters and more than a meter. In April 2026, three climate-adaptation researchers looked at every plan to save the city. They found four paths. Keep MOSE and add new tricks to it. Build ring dikes around the city itself, for up to four and a half billion euros. Seal off the whole lagoon behind a giant levee and pump it day and night, for more than thirty billion, at the cost of the living lagoon. Or, if the sea rises by several meters over the coming centuries, move people inland, for up to a hundred billion.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aqua alta venice san marko.jpg",
+       "on_screen_text": "St Mark's Square at high water"
+      },
+      {
+       "type": "photo",
+       "at": "A review of Venice's",
+       "photo": "File:Signe Acqua Alta 1966 - Cloître monastère San Lazzaro décembre 2022.JPG",
+       "on_screen_text": "A 1966 high-water mark"
+      },
+      {
+       "type": "stat",
+       "at": "somewhere between eleven centimeters",
+       "stat": {
+        "value": "11-110 CM",
+        "label": "Likely sea-level rise at Venice from climate change by 2100",
+        "source": "Zanchettin et al., NHESS 2021"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In April 2026, three",
+       "stat": {
+        "value": "4 PATHS",
+        "label": "Every plan to save Venice, reviewed in April 2026",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "plan to save the",
+       "photo": "File:Venice view, Grand Canal, Venice, Italy.jpg",
+       "on_screen_text": "The Grand Canal"
+      },
+      {
+       "type": "map",
+       "at": "Keep MOSE and add",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.42,
+           "lat": 45.42,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "MOSE at the Lido"
+      },
+      {
+       "type": "map",
+       "at": "Build ring dikes around",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.437,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The historic city"
+      },
+      {
+       "type": "stat",
+       "at": "for up to four",
+       "stat": {
+        "value": "€0.5-4.5 BN",
+        "label": "Ring dikes around the city",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Seal off the whole",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.26,
+           "lat": 45.4,
+           "span": 0.6
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 78,
+          "view": {
+           "lon": 12.26,
+           "lat": 45.4,
+           "span": 0.372
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "for more than thirty",
+       "stat": {
+        "value": "€30 BN+",
+        "label": "A sealed lagoon with permanent pumping",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Or, if the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.802,
+           "lat": 45.064,
+           "span": 2.704
+          },
+          "highlight": [
+           "Venezia@red"
+          ],
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.335,
+            "lat": 45.437,
+            "kind": "city",
+            "label": "Venice"
+           },
+           {
+            "name": "Padua",
+            "lon": 11.88,
+            "lat": 45.41,
+            "kind": "city",
+            "label": "Padua"
+           },
+           {
+            "name": "Treviso",
+            "lon": 12.24,
+            "lat": 45.67,
+            "kind": "city",
+            "label": "Treviso"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "for up to a",
+       "stat": {
+        "value": "€100 BN",
+        "label": "Moving people inland, if seas rise by several meters",
+        "source": "Nicholls, Haasnoot, Lionello, The Conversation, Apr 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One of the new tricks would turn the old mistake around. Instead of pumping water out from under Venice, pump seawater back in, deep underground. A 2011 study by Pietro Teatini and his colleagues modeled twelve wells in a ring around the city and found the ground could rise by about twenty-five to thirty centimeters over ten years. Other scientists have warned that it needs far more testing first. If it works, the review found, the gates might hold even after a meter of sea-level rise. After that, the choices get much harder.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.25,
+           "lat": 45.45,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": 12.25,
+           "lat": 45.45,
+           "span": 0.093
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marghera, where the wells were"
+      },
+      {
+       "type": "stat",
+       "at": "A 2011 study by",
+       "stat": {
+        "value": "+25-30 CM",
+        "label": "Modelled uplift in 10 years from 12 seawater wells (2011)",
+        "source": "Teatini et al. 2011"
+       }
+      },
+      {
+       "type": "map",
+       "at": "modeled twelve wells in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.335,
+           "lat": 45.43,
+           "span": 0.3
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 12.335,
+           "lat": 45.43,
+           "span": 0.186
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A ring around the city"
+      },
+      {
+       "type": "stat",
+       "at": "Other scientists have warned",
+       "stat": {
+        "value": "TEST FIRST",
+        "label": "Critics ask for far more study before injecting",
+        "source": "Schrefler et al. 2009"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "If it works, the",
+       "photo": "File:Chiatta MOSE Venezia.jpg",
+       "on_screen_text": "MOSE equipment in Venice"
+      },
+      {
+       "type": "map",
+       "at": "a meter of sea-level",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.3,
+           "lat": 45.38,
+           "span": 0.4
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lagoon"
+      }
+     ]
+    },
+    {
+     "text": "Meanwhile, the people are leaving. In 1951, one hundred and seventy-four thousand eight hundred and eight people lived in historic Venice. Ten years later it was a hundred and forty-five thousand, by 1971 a hundred and eight thousand, and by 2015 fifty-five thousand. At the end of 2024 the city counted forty-eight thousand four hundred and eighty-nine. Venice may stay above the water. Whether it stays a city is another question.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Venice Old Town Lagoon Aerial View.jpg",
+       "on_screen_text": "Venice from the air"
+      },
+      {
+       "type": "chart",
+       "at": "In 1951, one hundred",
+       "chart": {
+        "type": "line",
+        "title": "People living in historic Venice",
+        "unit": "",
+        "data": [
+         [
+          "1951",
+          174808
+         ],
+         [
+          "1961",
+          145402
+         ],
+         [
+          "1971",
+          108426
+         ],
+         [
+          "2015",
+          55589
+         ],
+         [
+          "2024",
+          48489
+         ]
+        ],
+        "source": "Comune di Venezia, statistics office",
+        "highlight": 4,
+        "reveal": [
+         "Ten years later",
+         "by 1971 a",
+         "and by 2015",
+         "At the end of 2024"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Venice may stay above",
+       "photo": "File:Grand Canal Santa Maria della Salute Vaporetto Gondola Venice 01.jpg",
+       "on_screen_text": "Santa Maria della Salute"
+      },
+      {
+       "type": "photo",
+       "at": "Whether it stays a",
+       "photo": "File:(Venice) Veduta del Canal Grande dalla Punta della Dogana - Bernardo Bellotto.jpg",
+       "on_screen_text": "The Grand Canal, 18th century"
+      }
+     ]
+    },
+    {
+     "text": "If you were in charge of Venice, would you keep closing the gates, or seal the lagoon for good and lose what made it Venice?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Plaza de San Marcos en 2024.jpg",
+       "on_screen_text": "St Mark's Square"
+      },
+      {
+       "type": "map",
+       "at": "or seal the lagoon",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.32,
+           "lat": 45.39,
+           "span": 0.52
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Venetian lagoon"
+      }
+     ],
+     "ask": {
+      "at": "If you were in",
+      "text": "Keep closing the gates, or seal the lagoon for good?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Venice Is Sinking Into Its Own Lagoon",
+  "description": "Venice is lower than it used to be and the sea is higher. This video follows how that happened: the wooden piles under the city, the rivers the Venetian Republic moved by hand, the industrial wells that sank the city twelve centimeters in twenty years, the oil-tanker canal that helped empty the lagoon of mud, the floods of 1966 and 2019, and MOSE, the 78 steel gates that now rise from the seabed. And what comes after them.",
+  "tags": [
+   "Venice",
+   "Venice sinking",
+   "acqua alta",
+   "MOSE",
+   "Venetian lagoon",
+   "Italy",
+   "flood barrier",
+   "1966 Venice flood",
+   "sea level rise",
+   "subsidence",
+   "Porto Marghera",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you were in charge of Venice, would you keep closing the gates, or seal the lagoon for good and lose what made it Venice?"
+ }
+}

@@ -418,7 +418,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -536,7 +536,7 @@
        "stat": {
         "value": "400s-500s",
         "label": "Mainland refugees settle the lagoon islands",
-        "source": "Standard history"
+        "source": "History of the Republic of Venice"
        }
       },
       {
@@ -574,7 +574,7 @@
             "label": "Padua"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -821,7 +821,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -923,7 +923,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -1007,7 +1007,7 @@
             "label": "Treviso"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -1238,7 +1238,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -1295,7 +1295,7 @@
             "label": "Chioggia"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -1379,7 +1379,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -1433,7 +1433,7 @@
             "label": "Caorle"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -2099,7 +2099,7 @@
        "chart": {
         "type": "bar",
         "title": "Typical depth of the lagoon",
-        "unit": "cm",
+        "unit": " cm",
         "data": [
          [
           "1927",
@@ -2238,7 +2238,7 @@
        "chart": {
         "type": "bar",
         "title": "Sediment lost per year",
-        "unit": "million m³",
+        "unit": " million m³",
         "data": [
          [
           "1927-1970",
@@ -2373,7 +2373,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -2901,7 +2901,7 @@
             "label": "Venice"
            }
           ],
-          "date": "2025-07-12"
+          "date": "2025-08-10"
          }
         ],
         "cut": true
@@ -3111,7 +3111,7 @@
        "type": "photo",
        "at": "hollow boxes filled with",
        "photo": "File:Lido di Venezia - 35308936480.jpg",
-       "on_screen_text": "Works at the Lido inlet, 2017"
+       "on_screen_text": "A gate at work: sign at the Lido inlet, 2017"
       },
       {
        "type": "map",
@@ -3268,7 +3268,7 @@
        "type": "photo",
        "at": "compressed air pushes the",
        "photo": "File:Le projet Mose à lArsenal (Venise) (5010485591).jpg",
-       "on_screen_text": "A MOSE gate at the Arsenale"
+       "on_screen_text": "MOSE maintenance base, Arsenale"
       },
       {
        "type": "map",

@@ -55,7 +55,7 @@ def fresh(view):
     return {"lon": round(view["lon"] + dx * view["span"], 3), "lat": round(view["lat"] + dy * view["span"], 3), "span": round(view["span"] * zoom, 3)}
 
 
-CLEAR_DAY = "2025-07-12"  # wide unpainted views: a MODIS day (checked in the storyboard)
+CLEAR_DAY = "2025-08-10"  # cloud-free MODIS day over the northern Adriatic and Italy (scored Jun-Sep 2025; storyboard 1 used 2025-07-12: clouds over the lagoon)
 
 
 def v(view, at=None, **kw):
@@ -291,7 +291,7 @@ chapter(
 chapter(
     P("P4",
       m(0, v(ITALY, highlight=[VEN], places=[VENICE, PADUA])),
-      stat("In the fifth and", "400s-500s", "Mainland refugees settle the lagoon islands", "Standard history"),
+      stat("In the fifth and", "400s-500s", "Mainland refugees settle the lagoon islands", "History of the Republic of Venice"),
       m("people from the mainland", v(NADR, arrows=[{"from": [11.88, 45.41], "to": [12.30, 45.43], "color": "accent", "label": "To the lagoon", "bend": 0.1}], places=[PADUA])),
       photo("The marshy islands were", PH_AIR_MARSH, "Marsh islands of the Venetian lagoon"),
       sat("That was the point.", 12.42, 45.49, 0.20, "Marshes of the northern lagoon")),
@@ -397,13 +397,13 @@ chapter(
       photo(0, PH_MAP_1975, "Hydrographic chart of the lagoon, 1975"),
       sat("from 1927, 1970 and", 12.32, 45.30, 0.30, "The central and southern lagoon"),
       stat("The lagoon lost about", "110M M³", "Sediment lost by the lagoon, 1927-2002", SAR),
-      chart("Its typical depth went", "Typical depth of the lagoon", "cm", [["1927", 62], ["2002", 88]], SAR, reveal=["to eighty-eight."], highlight=1),
+      chart("Its typical depth went", "Typical depth of the lagoon", " cm", [["1927", 62], ["2002", 88]], SAR, reveal=["to eighty-eight."], highlight=1),
       sat("two meters deep more", 12.28, 45.33, 0.12, "Open flats"),
       chart("from eighty-eight square kilometers", "Open flats 0.75-2 m deep", "km²", [["1927", 88], ["2002", 206]], SAR, reveal=["to two hundred and six."], highlight=1),
       m("Salt marshes, the low", v(LAG_C, compare=CMP_CENTRAL)),
       chart("to thirty-two, less", "Salt marsh in the lagoon", "km²", [["1927", 68], ["2002", 32]], SAR, highlight=1),
       sat("In the later decades,", 12.22, 45.33, 0.15, "Flats of the southern-central lagoon"),
-      chart("and the yearly loss", "Sediment lost per year", "million m³", [["1927-1970", 0.3], ["1970-2002", 0.8]], SAR, reveal=["point eight million"], highlight=1)),
+      chart("and the yearly loss", "Sediment lost per year", " million m³", [["1927-1970", 0.3], ["1970-2002", 0.8]], SAR, reveal=["point eight million"], highlight=1)),
     P("P19",
       sat(0, 12.28, 45.36, 0.50, "The lagoon today"),
       stat("The researchers described it", "SEDIMENT-STARVED", "How the 2010 study described the lagoon", SAR),
@@ -479,7 +479,7 @@ chapter(
       photo(0, PH_MOSE_EXPO, "The MOSE exhibition at the Arsenale"),
       stat("Construction began in 2003.", "2003", "MOSE construction begins", "Wikipedia, MOSE"),
       photo("rows of steel gates", PH_MOSE_SCHEME, "A MOSE gate in its seabed housing, exhibition panel"),
-      photo("hollow boxes filled with", PH_LIDO_WORK, "Works at the Lido inlet, 2017"),
+      photo("hollow boxes filled with", PH_LIDO_WORK, "A gate at work: sign at the Lido inlet, 2017"),
       m("There are seventy-eight of", v(near(12.33, 45.33, 0.48), places=[LIDO_IN, MAL_IN, CHI_IN], date=SUM)),
       m("twenty-one and twenty at", v(near(12.42, 45.42, 0.12), compare=CMP_LIDO)),
       sat("in the middle of", 12.42, 45.425, 0.08, "The artificial island between the Lido barriers"),
@@ -489,7 +489,7 @@ chapter(
     P("P26",
       photo(0, PH_MOSE_1, "MOSE works in the lagoon"),
       stat("one hundred and ten", "> 110 CM", "Forecast tide that raises the gates", AUT),
-      photo("compressed air pushes the", PH_MOSE_ARS, "A MOSE gate at the Arsenale"),
+      photo("compressed air pushes the", PH_MOSE_ARS, "MOSE maintenance base, Arsenale"),
       sat("swing up on their", 12.33, 45.333, 0.08, "The Malamocco barrier"),
       photo("and the lagoon is", PH_MOSE_2, "The barrier works"),
       sat("When the tide falls,", 12.40, 45.42, 0.12, "The Lido inlet")),

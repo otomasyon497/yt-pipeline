@@ -914,3 +914,13 @@ comment. Audio of the long render was never checked. No further work planned unl
 - 2026-11-20: music_gen 44598481947 OK: 6 ACE-Step beds (calm/curious/tension x2, 150 s) in
   Videos\yt-pipeline\music-candidates\music-beds\<mood>\ (artifact deleted). User listens, good ones -> music/library/<mood>/.
   Netherlands UPLOADED 2026-11-20: render 2 audited (32 sheets) + approved, https://studio.youtube.com/video/oz6fFSsriRw/edit, publishAt 2026-11-22T23:00Z, cover B set. TODO user: pin comment by hand. Feature test 2 fetched (-Delete): framed parallax renders correctly.
+
+## 2026-11-20 — Venice (venice-sinking): script ready, storyboard running
+- Topic chosen by user from radar (Venice PASS, 4 videos at 3x). New skill baoyu-youtube-transcript installed (user: "YouTube agent");
+  5 competitor transcripts -> episodes/venice-sinking/competitors.md (edge: maps/satellite, the river diversions, MOSE trade-off).
+- research.md (47 OK rows; CPSM flood table, MOSE log row 37 read by eye: 173 cm CNR / 204 Malamocco), visuals.md
+  (Landsat 2002 vs S2 2025 at the Lido inlet = MOSE island wipe; no S2 on 22 Nov 2022).
+- Narration 2,671 words (~16.8 min), build_script.py 236 shots, photo_upscale ON (1966 archive photos 900-1200 px),
+  factcheck 185 rows (181 verified, 4 own), episode_check OK.
+- Storyboard run 44755829540. NEXT: fetch sheets, review, full render, frame_audit, cover_photo ("THE SEA IS WINNING"), upload.
+- Leftover: empty folder chain C:/c/Users/... from a path slip (files moved; safety check blocked rm), user to delete.

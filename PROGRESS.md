@@ -930,3 +930,5 @@ comment. Audio of the long render was never checked. No further work planned unl
   chart units spaced (" million m³", " cm"); two MOSE photo labels made accurate; stat source named.
 - Full render run 44770324546. Cover: cover_photo.json (November in Venice, "THE SEA / IS WINNING").
   NEXT: fetch -Delete, frame_audit, approve, upload date from the user (23:00 UTC).
+- Render 44770324546 audited (32 sheets): clouds gone; one label error (Zattere photo called St Mark's Square, x2) ->
+  fixed, factcheck row 95 updated. Render 2 run 44776122744. User chose upload 2026-11-23T23:00:00Z (24 Nov 02:00 TR).

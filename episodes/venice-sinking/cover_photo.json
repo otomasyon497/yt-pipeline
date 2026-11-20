@@ -1,0 +1,12 @@
+{
+ "photo": "File:November in Venice.jpg",
+ "focus": [0.6, 0.55],
+ "zoom": 1.0,
+ "lines": [
+  {"t": "THE SEA", "color": "white"},
+  {"t": "IS WINNING", "color": "yellow"}
+ ],
+ "text_at": [0.035, 0.05],
+ "text_size": 165,
+ "underline": true
+}

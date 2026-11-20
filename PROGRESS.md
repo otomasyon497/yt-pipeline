@@ -924,3 +924,9 @@ comment. Audio of the long render was never checked. No further work planned unl
   factcheck 185 rows (181 verified, 4 own), episode_check OK.
 - Storyboard run 44755829540. NEXT: fetch sheets, review, full render, frame_audit, cover_photo ("THE SEA IS WINNING"), upload.
 - Leftover: empty folder chain C:/c/Users/... from a path slip (files moved; safety check blocked rm), user to delete.
+- Storyboard 1 failed (portrait MOSE diagram soft after upscale -> landscape panel; episode_check now flags upscales under
+  1600 px wide). Storyboard 44759303949 OK, 15.8 min (949.9 s). Review of 23 sheets: NADR/scirocco unpainted views were
+  cloudy on MODIS 2025-07-12 -> CLEAR_DAY 2025-08-10 (scored Jun-Sep 2025 against GIBS, cloud-free over Adriatic + Italy);
+  chart units spaced (" million m³", " cm"); two MOSE photo labels made accurate; stat source named.
+- Full render run 44770324546. Cover: cover_photo.json (November in Venice, "THE SEA / IS WINNING").
+  NEXT: fetch -Delete, frame_audit, approve, upload date from the user (23:00 UTC).

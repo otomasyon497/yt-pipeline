@@ -18,10 +18,14 @@ CHECK rows without attribution or a better source.
 | 2019 record year | 28 tides >= 110 cm (15 in November); 5 >= 140 cm, "never more than two in one year in the last 150 years"; 3 >= 150 cm in 6 days (12-17 Nov) | same, sect. 1.1 | OK |
 | Nov 2019 mean sea level | monthly mean almost 68 cm on ZMPS, almost 30 cm above the 25-year average | same | OK |
 | Thresholds | sirens at 110 cm; "exceptional" from 140 cm | same, Fig. 3 caption | OK |
-| How much of the city floods | ~12 % at 110 cm, ~59 % at 140 cm | Comune di Venezia CPSM / ISPRA (via search; PDF "Venezia altimetria 2009" would not download) | CHECK: read the CPSM page |
+| How much of the city floods | public walkways under water: 2 % at 90 cm, 5 % at 100, 12 % at 110, 28 % at 120, 46 % at 130, 59 % at 140, 70 % at 150, 77 % at 160, 88 % at 190, 91 % at 200 cm (so ~89 % in 1966, ~87-88 % in 2019) | Comune di Venezia CPSM, "Le percentuali di allagamento" (read in browser 2026-11-20) | OK |
 | St Mark's Square | the lowest part of the city, first to flood (water from ~80 cm, travel guide) | CPSM publication (quoted), guide | CHECK the cm |
-| Frequency rise | >= 110 cm roughly stationary 1872-~1950, then rising to 44 events in 1990-99 | CPSM "Previsioni ... 2020" (via search; PDF blocked) | CHECK |
-| 1966 duration and damage | above 110 cm for 22 hours; ~15,000 displaced, no deaths | fortuneita.com timeline; ilnordest.it | CHECK (secondary) |
+| Frequency rise | >= 110 cm roughly stationary 1872-~1950, then rising to 44 events in 1990-99 | CPSM "Previsioni ... 2020" (via search; decade chart is an image) | CHECK, prefer the row below |
+| Exceptional tides cluster | >= 140 cm: 18 events 1872-2017, then 7 in 2018-2019 alone: "28 % of all exceptional events since 1872 happened in the last 2 years" | CPSM/ISPRA "Previsioni delle altezze di marea astronomica 2021", intro | OK (hook fact) |
+| Mean sea level now | about 32 cm above the 1897 gauge zero (2021) | same, p. 23 | OK |
+| Aug 2020 | 103 cm on 30 Aug 2020, highest August tide since 1872 | same | OK |
+| 1966 night | scirocco and low pressure, sea at force 8; the sea broke the murazzi sea walls in 3 places, flooding Pellestrina (800 flood victims at the Lido hospital that evening); whole city without power; heating oil spread through streets and canals; >2,000 businesses damaged | Il Post, 5 Nov 2018 | OK (press history) |
+| 1966 duration, displaced | above 110 cm for 22 hours; ~15,000 displaced | fortuneita.com; ilnordest.it | CHECK: attribute or drop |
 | Law after 1966 | Law 171 of 16 Apr 1973: safeguarding Venice "of primary national interest" | Camera dei deputati dossier; Regione Veneto "Legge Speciale" | OK |
 
 ## Sinking and sea rise
@@ -64,8 +68,8 @@ CHECK rows without attribution or a better source.
 |---|---|---|---|
 | Piles | oak and larch mostly, also alder, pine, elm | CNR study (iris.cnr.it 313591) | OK |
 | Why they last | waterlogged, oxygen-poor mud stops decay | general; CNR | OK |
-| Caranto | compact clay layer the piles reach | idealista | CHECK |
-| Santa Maria della Salute | 1,106,657 piles (often quoted, figures vary) | dlib.si | CHECK; or say "over a million" |
+| Caranto | highly overconsolidated silty clay, dried out 18,000-7,000 years ago, a few cm to a few m thick; many piles reach it | Cola & Simonini 2002 (Can. Geotech. J.); Donnici et al. 2011 | OK |
+| Santa Maria della Salute | counts conflict (1,106,657 / ~1 m "tradition" / 110,700 "documents") | various, none primary | NOT USED |
 | Rialto Bridge | ~12,000 piles | dlib.si | CHECK |
 | Settlement | 5th-6th c. refugees from the mainland | standard history | OK |
 
@@ -80,7 +84,7 @@ CHECK rows without attribution or a better source.
 | Start | construction 2003 (first stone 14 May 2003) | Wikipedia | OK |
 | First real use | 3 Oct 2020 | Autorità per la Laguna log, N. 1 | OK |
 | Activations | 160 to 19 Nov 2026; by season 20, 13, 19, 32, 23, 49 (2025/26), 4 so far in 2026/27 | autoritalaguna.it/operativita-m-o-s-e/ (read 2026-11-20) | OK |
-| Highest sea level held back | 204 cm "Malamocco mare", 22 Nov 2022, as read by the page reader | same | CHECK by eye: geopop reports MOSE held back a 173 cm tide (22 Nov 2022); use 173 unless the log says otherwise |
+| Biggest tide held back | 22 Nov 2022: 173 cm at the CNR offshore platform (187 Lido, 204 Malamocco, 191 Chioggia at sea); all barriers up | Autorità log row 37 [0012/2022-2023], read by eye 2026-11-20 | OK: say "a 173 cm tide" (would have flooded ~80 % of the city) |
 | Cost | €5.496 bn (+€1.3 bn on first plans) | Il Fatto Quotidiano 2015 via Wikipedia | CHECK; ~€5.5 bn in press |
 | Running cost | ~€20 m for the first ~100 closures | Campaign for a Living Venice, Jan 2025 | CHECK |
 | Scandal | 4 Jun 2014: Mayor Giorgio Orsoni among 35 arrested; ex-governor Galan sought; ~100 under investigation; Orsoni plea bargain, resigned 13 Jun 2014 | ANSA 2014 | OK |
@@ -92,10 +96,9 @@ CHECK rows without attribution or a better source.
 
 | Fact | Value | Source | Status |
 |---|---|---|---|
-| Historic centre 1951 | ~174,000-175,000 | statista / press | CHECK: Comune statistics |
+| Historic centre | 174,808 (1951), 145,402 (1961), 108,426 (1971), 95,222 (1981), >62,000 (2005), 55,589 (2015) | Comune di Venezia table (01.01.2018) via search; Il Post citing the Comune statistics office | OK |
 | End of 2024 | 48,489; "fewer than 48,000" by Sept 2025 | Comune statistics via Il Post 8 Sep 2025 | OK (Il Post cites the Comune) |
 
 ## Open items before the script
-1. CPSM pages (city flooded % by level, decade counts): read on comune.venezia.it in the browser (PDF links redirect).
-2. The 22 Nov 2022 sea level (173 vs 204 cm) by eye on the Autorità log.
+1. Teatini et al. 2026 (Sci. Rep. 16, 9438): read the abstract for its own uplift number before scripting it.
 4. Pictures: Commons photos (acqua alta, MOSE gates up, Marghera, piles), Landsat 1984 -> now of the marshes, Sentinel-2 of the gates on a closure day (3 Oct 2020 or 22 Nov 2022), archive 1966.

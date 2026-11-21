@@ -2838,24 +2838,6 @@
         "steps": [
          {
           "view": {
-           "lon": -82.7,
-           "lat": 29.02,
-           "span": 0.4
-          },
-          "date": "2025-03-01/2025-05-31"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "The barge canal reaches the Gulf"
-      },
-      {
-       "type": "map",
-       "at": "This is where the",
-       "map": {
-        "steps": [
-         {
-          "view": {
            "lon": -82.76,
            "lat": 29.0,
            "span": 0.22
@@ -2864,10 +2846,18 @@
            "before": "1985-05-01/1985-09-30",
            "after": "2025-05-01/2025-09-30",
            "source": "landsat",
-           "seconds": 2.8,
-           "hold": 1.0,
+           "seconds": 2.4,
+           "until": "This is where the",
            "label_before": "1985",
            "label_after": "2025"
+          }
+         },
+         {
+          "at": "This is where the",
+          "view": {
+           "lon": -82.76,
+           "lat": 29.0,
+           "span": 0.22
           }
          }
         ],
@@ -2877,7 +2867,25 @@
       },
       {
        "type": "map",
-       "at": "channel runs out to",
+       "at": "Look how far the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.8,
+           "lat": 28.99,
+           "span": 0.32
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dredged channel"
+      },
+      {
+       "type": "map",
+       "at": "marked by a line",
        "map": {
         "steps": [
          {

@@ -975,3 +975,6 @@ comment. Audio of the long render was never checked. No further work planned unl
   User (2026-11-21): fix it (render 3) and schedule upload 2026-11-25T23:00:00Z. Canal views -> single day 2025-01-25
   (seamless, scratch canal/sheet.jpg). RENDER 3 running. NEXT: fetch -Delete, frame_audit, check 9:45-10:00, approve,
   `python tools/yt_upload.py florida-big-bend --publish-at 2026-11-25T23:00:00Z`, verify via API.
+- 2026-11-21: Render 3 (44924820062, 15:43) fetched -Delete (release deleted), all 32 sheets audited, canal 9:47-9:59 seamless;
+  approved (--accept-flags: cross-fades/fade-ins). UPLOADED: video DcTptiHYqZQ, private, publishAt 2026-11-25T23:00:00Z
+  (26 Nov 02:00 TR), photo cover "NO BEACH / NO TOWNS" set. Pin the comment by hand in Studio. Florida Big Bend DONE.

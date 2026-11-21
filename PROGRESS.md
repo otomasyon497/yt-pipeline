@@ -955,3 +955,10 @@ comment. Audio of the long render was never checked. No further work planned unl
   FDEP preserve, UF Florida Museum barge canal, GP Foley mill), outline.md = gate-1 draft (~2,700 words, 6 parts).
 - GATE 1 APPROVED by the user 2026-11-21 (title, cover words, 6 parts as in outline.md). Open before script: karst source (USGS/FGS), St Marks NWR (USFWS), photo licences
   (Florida Memory / LOC), night-lights view, S2 before/after Helene. Then visuals.md, narration, build_script, factcheck.
+- 2026-11-21: research pass 3 (St Marks NWR = USFWS, Wakulla = NWFWMD, NOAA NOS surge definition; Florida State Parks /
+  Florida Memory / FWC 403 -> railroad date, pencil mills, Tampa census only attributed), visuals.md (Commons sheets,
+  S2 tests: Cedar Key low tide 2025-01-25, Keaton/Horseshoe pre/post Helene moderate), geo/make_regions.py (ETOPO
+  shallower-than-10 m shelf 26,985 km2, coast strip), narration 2,718 words (cold open on the Cedar Key gauge),
+  build_script.py 235 shots, episode_check OK (~17.1 min est.), factcheck 175 rows (133 verified, 33 own, 9 attributed, 0 FIX).
+  CLEAR_DAY 2025-04-17 (MODIS, by eye). Storyboard run 44908368320. NEXT: review sheets (check MODIS 2024-09-26/27/28
+  views, post-Helene S2 dates, Landsat 1985 summer canal), full render, frame_audit, cover_photo.json, upload date from user.

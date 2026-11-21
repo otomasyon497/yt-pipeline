@@ -21,7 +21,7 @@
    "mood": "curious",
    "paragraphs": [
     {
-     "text": "On the night Hurricane Helene came ashore in September 2024, a tide gauge at Cedar Key, Florida, measured the sea nine point three feet above the normal high-tide line. That gauge had been reporting since 1914. In all those years, it had never recorded water that high. And Cedar Key is not a city. It is a town of seven hundred and thirty-six people, on one of the emptiest stretches of coast in the eastern United States.",
+     "text": "On the night Hurricane Helene came ashore in September 2024, a tide gauge at Cedar Key, Florida, measured the sea nine point three feet above the normal high-tide line. That gauge had been reporting since 1914. In all those years, it had never recorded water that high. And Cedar Key is not a city. It is a town of seven hundred and thirty-six people, on a stretch of coast where a town that size counts as a big one.",
      "shots": [
       {
        "type": "photo",
@@ -118,14 +118,14 @@
       },
       {
        "type": "photo",
-       "at": "on one of the",
+       "at": "on a stretch of",
        "photo": "File:Cedar Key Florida01.jpg",
        "on_screen_text": "The shore at Cedar Key"
       }
      ]
     },
     {
-     "text": "Florida is home to about twenty-three point four million people, and much of it lives along the coast, in a long chain of beach towns. Pinellas County alone, around St. Petersburg, holds almost a million. But follow the same Gulf coast north, to the long curve where the peninsula turns into the Panhandle. This is the Big Bend. Four counties along that shore, Jefferson, Taylor, Dixie and Levy, hold about a hundred and three thousand people between them. Seen from space at night, this stretch of coast is almost dark.",
+     "text": "Florida is home to about twenty-three point four million people, and long stretches of its coast are lined with cities and beach towns. Pinellas County alone, around St. Petersburg, holds almost a million. But follow the same Gulf coast north, to the long curve where the peninsula turns into the Panhandle. This is the Big Bend. Four counties along that shore, Jefferson, Taylor, Dixie and Levy, hold about a hundred and three thousand people between them. Seen from space at night, this stretch of coast is almost dark.",
      "shots": [
       {
        "type": "stat",
@@ -138,7 +138,7 @@
       },
       {
        "type": "map",
-       "at": "and much of it",
+       "at": "and long stretches of",
        "map": {
         "steps": [
          {
@@ -184,15 +184,6 @@
             "label": "Naples"
            }
           ],
-          "date": "2025-04-17"
-         },
-         {
-          "at": 17,
-          "view": {
-           "lon": -83.4,
-           "lat": 27.9,
-           "span": 7.31
-          },
           "date": "2025-04-17"
          }
         ],
@@ -320,7 +311,7 @@
        "type": "photo",
        "at": "Seen from space at",
        "photo": "File:Florida Peninsula at night, 13 October 2014 (ISS041-E-74232).JPG",
-       "on_screen_text": "Florida at night from the ISS, 2014: the Big Bend is the dark curve top left"
+       "on_screen_text": "Florida at night from the ISS, 2014: north of Tampa (left), the Gulf coast goes dark"
       },
       {
        "type": "map",
@@ -2179,7 +2170,7 @@
        "type": "photo",
        "at": "built mills on the",
        "photo": "File:Indian mound, Cedar Key, Fla, from Robert N. Dennis collection of stereoscopic views.jpg",
-       "on_screen_text": "Cedar Key in a stereoscopic view, 19th century"
+       "on_screen_text": "Cedar Key in an old stereoscopic view"
       },
       {
        "type": "map",
@@ -2336,7 +2327,7 @@
        "type": "photo",
        "at": "Tampa had what Cedar",
        "photo": "File:Old Tampa Bay Hotel.jpg",
-       "on_screen_text": "Plant's Tampa Bay Hotel, opened 1891 (now a museum)"
+       "on_screen_text": "Plant's Tampa Bay Hotel (now a museum)"
       },
       {
        "type": "map",
@@ -3068,7 +3059,7 @@
      ]
     },
     {
-     "text": "That announcement came about two weeks after Hurricane Idalia had come ashore about twenty miles away. So which was the bigger blow to this coast: the storms, or the jobs leaving? Have a think about that one. Because the storms were only getting started, and the reason they hit so hard here is the same flat seafloor we started with.",
+     "text": "That announcement came about two weeks after Hurricane Idalia had come ashore about twenty miles away. So which was the bigger blow to this coast: the storms, or the jobs leaving? Have a think about that one. Because the storms were only getting started, and when they came, they met the same flat seafloor we started with.",
      "shots": [
       {
        "type": "map",
@@ -3147,7 +3138,7 @@
           "date": "2025-03-01/2025-05-31"
          },
          {
-          "at": 48,
+          "at": 47,
           "view": {
            "lon": -83.5,
            "lat": 29.7,
@@ -3670,7 +3661,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Keaton Beach, October 2024"
+       "on_screen_text": "Keaton Beach after Helene, 2024"
       },
       {
        "type": "stat",
@@ -3711,7 +3702,7 @@
      ]
     },
     {
-     "text": "This is Keaton Beach in early September 2024, and this is the same coast a few weeks after Helene. The marsh behind the houses has turned brown. Further south, at Horseshoe Beach, you can see sand and mud washed across the point. On the ground, the day after landfall, the Air National Guard was clearing the roads through what was left of the houses.",
+     "text": "This is Keaton Beach in early September 2024, and this is the same coast after Helene. The marsh behind the houses has turned brown. Further south, at Horseshoe Beach, you can see sand and mud washed across the point. On the ground, the day after landfall, the Air National Guard was clearing the roads through what was left of the houses.",
      "shots": [
       {
        "type": "map",
@@ -3745,24 +3736,6 @@
         "cut": true
        },
        "on_screen_text": "Keaton Beach"
-      },
-      {
-       "type": "map",
-       "at": "The marsh behind the",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -83.585,
-           "lat": 29.83,
-           "span": 0.08
-          },
-          "date": "2024-09-28/2024-10-25"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Keaton Beach after Helene"
       },
       {
        "type": "map",
@@ -3858,7 +3831,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Cedar Key, October 2024"
+       "on_screen_text": "Cedar Key after Helene, 2024"
       },
       {
        "type": "stat",
@@ -4040,7 +4013,7 @@
      ]
     },
     {
-     "text": "NASA's PACE satellite photographed the Gulf the day after Helene came ashore. Along the Big Bend, the sea had turned pale and milky. The storm's winds and waves had churned sediment up from the seafloor across the shallow coastal water. For one day, the shelf that shaped this whole story was visible from space.",
+     "text": "NASA's PACE satellite photographed the Gulf the day after Helene came ashore. Along the Big Bend, the sea had turned pale and milky. The storm's winds and waves had churned sediment up from the seafloor across the shallow coastal water. That day, the shelf that shaped this whole story showed up from space.",
      "shots": [
       {
        "type": "photo",
@@ -4095,7 +4068,7 @@
       },
       {
        "type": "map",
-       "at": "For one day, the",
+       "at": "That day, the shelf",
        "map": {
         "steps": [
          {

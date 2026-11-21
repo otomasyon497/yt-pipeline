@@ -1,0 +1,4420 @@
+{
+ "title": "Why Almost Nobody Lives on Florida's Big Bend Coast",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/florida-big-bend/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Landsat imagery courtesy of the U.S. Geological Survey",
+  "Seafloor depth: NOAA NCEI ETOPO 2022"
+ ],
+ "thumbnail": {
+  "text": "NO BEACH NO TOWNS"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "On the night Hurricane Helene came ashore in September 2024, a tide gauge at Cedar Key, Florida, measured the sea nine point three feet above the normal high-tide line. That gauge had been reporting since 1914. In all those years, it had never recorded water that high. And Cedar Key is not a city. It is a town of seven hundred and thirty-six people, on one of the emptiest stretches of coast in the eastern United States.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Iss072e001649 (Sept 25, 2024) -- Hurricane Helene is pictured from the International Space Station as it orbited 257 above the Gulf of Mexico off the coast of Mississippi.jpg",
+       "on_screen_text": "Hurricane Helene in the Gulf, 25 September 2024 (ISS)"
+      },
+      {
+       "type": "map",
+       "at": "a tide gauge at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.55,
+           "lat": 29.65,
+           "span": 2.9
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key gauge",
+            "lon": -83.03,
+            "lat": 29.135,
+            "kind": "site",
+            "label": "Cedar Key tide gauge",
+            "icon": "water"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "measured the sea nine",
+       "stat": {
+        "value": "9.3 FT",
+        "label": "Above the normal high-tide line, Cedar Key gauge",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That gauge had been",
+       "stat": {
+        "value": "SINCE 1914",
+        "label": "Never higher in all its years of records",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In all those years,",
+       "photo": "File:Cedar Key Florida04.jpg",
+       "on_screen_text": "Cedar Key"
+      },
+      {
+       "type": "map",
+       "at": "And Cedar Key is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.03,
+           "lat": 29.14,
+           "span": 0.14
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cedar Key, Florida"
+      },
+      {
+       "type": "stat",
+       "at": "It is a town",
+       "stat": {
+        "value": "736",
+        "label": "People in Cedar Key, 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "on one of the",
+       "photo": "File:Cedar Key Florida01.jpg",
+       "on_screen_text": "The shore at Cedar Key"
+      }
+     ]
+    },
+    {
+     "text": "Florida is home to about twenty-three point four million people, and much of it lives along the coast, in a long chain of beach towns. Pinellas County alone, around St. Petersburg, holds almost a million. But follow the same Gulf coast north, to the long curve where the peninsula turns into the Panhandle. This is the Big Bend. Four counties along that shore, Jefferson, Taylor, Dixie and Levy, hold about a hundred and three thousand people between them. Seen from space at night, this stretch of coast is almost dark.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "23.4 MILLION",
+        "label": "People in Florida, 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and much of it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.4,
+           "lat": 27.9,
+           "span": 8.6
+          },
+          "places": [
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           },
+           {
+            "name": "St. Petersburg",
+            "lon": -82.64,
+            "lat": 27.77,
+            "kind": "city",
+            "label": "St. Petersburg"
+           },
+           {
+            "name": "Clearwater",
+            "lon": -82.8,
+            "lat": 27.97,
+            "kind": "city",
+            "label": "Clearwater"
+           },
+           {
+            "name": "Naples",
+            "lon": -81.8,
+            "lat": 26.14,
+            "kind": "city",
+            "label": "Naples"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": -83.4,
+           "lat": 27.9,
+           "span": 7.31
+          },
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Pinellas County alone, around",
+       "stat": {
+        "value": "965,870",
+        "label": "People in Pinellas County (St. Petersburg), 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "But follow the same",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.97,
+           "lat": 28.072,
+           "span": 7.74
+          },
+          "highlight": [
+           "Florida@alt",
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           },
+           {
+            "name": "Tallahassee",
+            "lon": -84.28,
+            "lat": 30.44,
+            "kind": "city",
+            "label": "Tallahassee"
+           }
+          ]
+         },
+         {
+          "at": "to the long curve",
+          "view": {
+           "lon": -83.9,
+           "lat": 29.3,
+           "span": 4.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "This is the Big",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.405,
+           "lat": 29.708,
+           "span": 2.61
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "St. Marks",
+            "lon": -84.205,
+            "lat": 30.16,
+            "kind": "city",
+            "label": "St. Marks"
+           },
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           },
+           {
+            "name": "Steinhatchee",
+            "lon": -83.387,
+            "lat": 29.671,
+            "kind": "city",
+            "label": "Steinhatchee"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Four counties along that",
+       "stat": {
+        "value": "103,143",
+        "label": "People in Jefferson, Taylor, Dixie and Levy counties, 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "hold about a hundred",
+       "photo": "File:Flickr - ggallice - Near lower Suwannee.jpg",
+       "on_screen_text": "Near the lower Suwannee, Dixie County"
+      },
+      {
+       "type": "photo",
+       "at": "Seen from space at",
+       "photo": "File:Florida Peninsula at night, 13 October 2014 (ISS041-E-74232).JPG",
+       "on_screen_text": "Florida at night from the ISS, 2014: the Big Bend is the dark curve top left"
+      },
+      {
+       "type": "map",
+       "at": "this stretch of coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.6,
+           "lat": 28.4,
+           "span": 9.8
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           },
+           {
+            "name": "Tallahassee",
+            "lon": -84.28,
+            "lat": 30.44,
+            "kind": "city",
+            "label": "Tallahassee"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The towns along it are tiny. Horseshoe Beach has a hundred and seventy-three people. St. Marks, three hundred and twelve. Yankeetown, six hundred and thirty-three. The biggest town behind this coast, Perry, has about seven thousand three hundred, and it sits well inland. There is no big city, no resort strip, and for most of its length, no beach at all.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cedar Key SR 24 01.jpg",
+       "on_screen_text": "Main road into Cedar Key"
+      },
+      {
+       "type": "stat",
+       "at": "Horseshoe Beach has a",
+       "stat": {
+        "value": "173",
+        "label": "People in Horseshoe Beach, 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "St. Marks, three hundred",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.2,
+           "lat": 30.15,
+           "span": 0.12
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "St. Marks"
+      },
+      {
+       "type": "map",
+       "at": "Yankeetown, six hundred and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.72,
+           "lat": 29.03,
+           "span": 0.12
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yankeetown"
+      },
+      {
+       "type": "map",
+       "at": "The biggest town behind",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.58,
+           "lat": 30.11,
+           "span": 0.14
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 34,
+          "view": {
+           "lon": -83.58,
+           "lat": 30.11,
+           "span": 0.087
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Perry"
+      },
+      {
+       "type": "photo",
+       "at": "There is no big",
+       "photo": "File:Flickr - ggallice - Hammock.jpg",
+       "on_screen_text": "Salt marsh near Cedar Key"
+      },
+      {
+       "type": "map",
+       "at": "and for most of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.55,
+           "lat": 29.75,
+           "span": 0.9
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Big Bend coast: no beach"
+      }
+     ]
+    },
+    {
+     "text": "Over the next few minutes you'll see a seafloor so flat that three miles out from Cedar Key the water is barely deeper than a person is tall. A town that once hoped to be Florida's great Gulf port and lost it to a railroad built somewhere else. A canal across Florida that was stopped at twenty-eight percent. And why that same flat seafloor sent the water at Cedar Key higher than anyone had ever measured. So why does a state that lives on its coastline leave this one almost empty? It isn't one thing. It's five, and they all start in the same place. The first reason is under the water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.05,
+           "lat": 29.12,
+           "span": 0.3
+          },
+          "date": "2025-01-25/2025-01-25"
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": -83.05,
+           "lat": 29.12,
+           "span": 0.186
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Off Cedar Key at low tide"
+      },
+      {
+       "type": "photo",
+       "at": "A town that once",
+       "photo": "File:Bird's eye view of Cedar-Key, Fla., Levy Co. LOC 77690244.jpg",
+       "on_screen_text": "Cedar Key, 1884"
+      },
+      {
+       "type": "photo",
+       "at": "and lost it to",
+       "photo": "File:Old Tampa Bay Hotel.jpg",
+       "on_screen_text": "Tampa, where the railroad went instead"
+      },
+      {
+       "type": "map",
+       "at": "A canal across Florida",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.72,
+           "lat": 29.02,
+           "span": 0.32
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the barge canal meets the Gulf"
+      },
+      {
+       "type": "photo",
+       "at": "And why that same",
+       "photo": "File:Florida National Guard in Keaton Beach, Florida (Hurricane Helene).jpg",
+       "on_screen_text": "Keaton Beach the day after Helene, 27 September 2024"
+      },
+      {
+       "type": "map",
+       "at": "sent the water at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.031,
+           "lat": 29.134,
+           "span": 0.09
+          },
+          "date": "2025-01-25/2025-01-25",
+          "places": [
+           {
+            "name": "Cedar Key gauge",
+            "lon": -83.03,
+            "lat": 29.135,
+            "kind": "site",
+            "label": "Cedar Key tide gauge",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "So why does a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.83,
+           "lat": 27.728,
+           "span": 9.46
+          },
+          "highlight": [
+           "Florida@alt",
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It isn't one thing.",
+       "photo": "File:A scenic view of white lighthouse.jpg",
+       "on_screen_text": "St. Marks lighthouse and marsh"
+      },
+      {
+       "type": "map",
+       "at": "The first reason is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.11,
+           "lat": 28.596,
+           "span": 8.82
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Sea That Forgot to Get Deep",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Stand on almost any beach in Florida and walk into the sea, and the bottom drops away. Off Pensacola Beach, we measured the distance to the point where the water is ten metres deep, about thirty-three feet, using NOAA's global seafloor model. It's about a mile. Off Miami Beach, about a mile and a quarter. Off Panama City Beach, less than a third of a mile.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.09,
+           "lat": 28.204,
+           "span": 10.78
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Pensacola Beach",
+            "lon": -87.13,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Pensacola Beach"
+           },
+           {
+            "name": "Miami Beach",
+            "lon": -80.13,
+            "lat": 25.79,
+            "kind": "city",
+            "label": "Miami Beach"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Off Pensacola Beach, we",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -87.13,
+           "lat": 30.2,
+           "span": 0.6
+          },
+          "date": "2025-03-01/2025-05-31",
+          "places": [
+           {
+            "name": "Pensacola Beach",
+            "lon": -87.13,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Pensacola Beach"
+           }
+          ]
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": -87.13,
+           "lat": 30.2,
+           "span": 0.372
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about thirty-three feet, using",
+       "stat": {
+        "value": "10 METRES",
+        "label": "= 33 ft: the line we measured to",
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Off Miami Beach, about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.12,
+           "lat": 25.8,
+           "span": 0.5
+          },
+          "date": "2025-03-01/2025-05-31",
+          "places": [
+           {
+            "name": "Miami Beach",
+            "lon": -80.13,
+            "lat": 25.79,
+            "kind": "city",
+            "label": "Miami Beach"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Off Panama City Beach,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.8,
+           "lat": 30.15,
+           "span": 0.5
+          },
+          "date": "2025-03-01/2025-05-31",
+          "places": [
+           {
+            "name": "Panama City Beach",
+            "lon": -85.8,
+            "lat": 30.18,
+            "kind": "city",
+            "label": "Panama City Beach"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Now do the same along the Big Bend. Off Keaton Beach, the ten-metre line is about thirteen miles out. Off Steinhatchee and St. Marks, about sixteen. Off Cedar Key, about fifteen. Off Crystal River, at the southern end, about twenty-two miles. Even Clearwater and Naples, on the same Gulf, get there in about seven and a half.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.695,
+           "lat": 29.592,
+           "span": 3.19
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           },
+           {
+            "name": "Steinhatchee",
+            "lon": -83.387,
+            "lat": 29.671,
+            "kind": "city",
+            "label": "Steinhatchee"
+           },
+           {
+            "name": "St. Marks",
+            "lon": -84.205,
+            "lat": 30.16,
+            "kind": "city",
+            "label": "St. Marks"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Off Keaton Beach, the",
+       "stat": {
+        "value": "~13 MILES",
+        "label": "Keaton Beach to 10 m of water",
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Off Steinhatchee and St.",
+       "stat": {
+        "value": "~16 MILES",
+        "label": "Steinhatchee and St. Marks to 10 m of water",
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Off Crystal River, at",
+       "stat": {
+        "value": "~22 MILES",
+        "label": "Crystal River to 10 m of water",
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Even Clearwater and Naples,",
+       "chart": {
+        "type": "bar",
+        "title": "Distance from shore to 10 m of water",
+        "unit": " mi",
+        "data": [
+         [
+          "Panama City Bch",
+          0.3
+         ],
+         [
+          "Pensacola Bch",
+          0.9
+         ],
+         [
+          "Miami Beach",
+          1.2
+         ],
+         [
+          "Clearwater",
+          7.5
+         ],
+         [
+          "Naples",
+          7.5
+         ],
+         [
+          "Keaton Beach",
+          13
+         ],
+         [
+          "Cedar Key",
+          15.5
+         ],
+         [
+          "Steinhatchee",
+          16
+         ],
+         [
+          "Crystal River",
+          22
+         ]
+        ],
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)",
+        "highlight": 6
+       }
+      }
+     ]
+    },
+    {
+     "text": "Go three miles out from shore and the difference is even easier to picture. Off Cedar Key, our measurement puts the water at about five and a half feet deep. Off Keaton Beach, about eight. Off Pensacola, about seventy feet. Off Miami, about two hundred and seventy. And at thirty miles out from Cedar Key, the Gulf is still only about fifty feet deep. Thirty miles out from Pensacola, it is already more than three hundred. These numbers come from a model with cells about a mile across, so treat them as rough, but the pattern is not subtle.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.1,
+           "lat": 29.1,
+           "span": 0.45
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Off Cedar Key"
+      },
+      {
+       "type": "stat",
+       "at": "Off Cedar Key, our",
+       "stat": {
+        "value": "~5.5 FT",
+        "label": "Depth 3 miles off Cedar Key",
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Off Keaton Beach, about",
+       "chart": {
+        "type": "bar",
+        "title": "Depth of water 3 miles out",
+        "unit": " ft",
+        "data": [
+         [
+          "Cedar Key",
+          5.5
+         ],
+         [
+          "Keaton Beach",
+          8
+         ],
+         [
+          "Pensacola",
+          72
+         ],
+         [
+          "Miami",
+          272
+         ]
+        ],
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)",
+        "highlight": 0,
+        "reveal": [
+         "Off Pensacola, about",
+         "Off Miami, about"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "And at thirty miles",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.306,
+           "lat": 28.008,
+           "span": 8.036
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the Gulf is still",
+       "stat": {
+        "value": "~50 FT",
+        "label": "Depth 30 miles off Cedar Key",
+        "source": "Own measurement: NOAA ETOPO 2022 seafloor model (60 arc-sec)",
+        "note": "Pensacola at 30 miles: over 300 ft"
+       }
+      },
+      {
+       "type": "map",
+       "at": "out from Pensacola, it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -87.13,
+           "lat": 29.95,
+           "span": 0.8
+          },
+          "date": "2025-03-01/2025-05-31",
+          "places": [
+           {
+            "name": "Pensacola Beach",
+            "lon": -87.13,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Pensacola Beach"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thirty miles off Pensacola: over 300 ft deep"
+      },
+      {
+       "type": "map",
+       "at": "These numbers come from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.894,
+           "lat": 28.792,
+           "span": 11.564
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Pensacola Beach",
+            "lon": -87.13,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Pensacola Beach"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "but the pattern is",
+       "photo": "File:Apalachee Bay, Florida-Georgia, satellite image map - NASA LANDSAT-1, 1-500,000, N3015W08346 LOC 79695112.jpg",
+       "on_screen_text": "Apalachee Bay from Landsat 1, 1970s (false colour)"
+      }
+     ]
+    },
+    {
+     "text": "Geologists at the U.S. Geological Survey put a number on how gentle this slope is: about one in five thousand. That works out to roughly one foot of depth for every mile you travel out to sea. It is so flat, their report notes, that this coast has been described as an \"incipient epicontinental sea\": a place where the ocean is only just beginning to spread over the land.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cedar Key Florida02.jpg",
+       "on_screen_text": "The Gulf at Cedar Key"
+      },
+      {
+       "type": "stat",
+       "at": "put a number on",
+       "stat": {
+        "value": "1 : 5,000",
+        "label": "Slope of the Big Bend's marsh coast",
+        "source": "USGS Open-File Report 01-303 (Hine et al.)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That works out to",
+       "stat": {
+        "value": "~1 FT PER MILE",
+        "label": "Depth gained heading out to sea",
+        "source": "USGS Open-File Report 01-303 (Hine et al.)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is so flat,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.35,
+           "lat": 29.55,
+           "span": 0.6
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Deadman Bay to Horseshoe Beach"
+      },
+      {
+       "type": "document",
+       "at": "described as an \"incipient",
+       "document": {
+        "text": "such a low gradient (1:5,000) that it has been referred to as an incipient epicontinental sea",
+        "source": "USGS Open-File Report 01-303 (Hine et al.)",
+        "highlight": "incipient epicontinental sea",
+        "title": "USGS, Big Bend coast"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a place where the",
+       "photo": "File:Cedar Key Florida03.jpg",
+       "on_screen_text": "Where the land runs into the Gulf, Cedar Key"
+      }
+     ]
+    },
+    {
+     "text": "That flat floor explains the first strange thing about the Big Bend. It has almost no beaches. The same USGS work describes the marsh coast here as lower in wave energy than the sandy coast to the south, and the region as sediment-starved. The Gulf in front of it is small and sheltered, its waves are weak, and little sand ever reaches this shore. So instead of a beach, the land simply runs out into salt marsh, and the marsh runs out into the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.62,
+           "lat": 29.85,
+           "span": 0.35
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Keaton Beach"
+      },
+      {
+       "type": "stat",
+       "at": "It has almost no",
+       "stat": {
+        "value": "NO BEACH",
+        "label": "Marsh, not sand, for most of the Big Bend",
+        "source": "USGS Open-File Report 01-303 (Hine et al.)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "describes the marsh coast",
+       "photo": "File:Refuge boardwalks.jpg",
+       "on_screen_text": "Salt marsh, St. Marks refuge"
+      },
+      {
+       "type": "map",
+       "at": "than the sandy coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.83,
+           "lat": 27.98,
+           "span": 0.25
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sandy coast to the south: Clearwater Beach"
+      },
+      {
+       "type": "document",
+       "at": "and the region as",
+       "document": {
+        "text": "Big Bend region ... is considered sediment-starved",
+        "source": "Wood & Hine 2003, via USGS",
+        "highlight": "sediment-starved"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Gulf in front",
+       "photo": "File:Flickr - ggallice - Near lower Suwannee.jpg",
+       "on_screen_text": "Near the lower Suwannee"
+      },
+      {
+       "type": "photo",
+       "at": "its waves are weak,",
+       "photo": "File:Lighthouse built in 1831 of brick and mortar.jpg",
+       "on_screen_text": "Calm water at St. Marks"
+      },
+      {
+       "type": "map",
+       "at": "So instead of a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.98,
+           "lat": 30.06,
+           "span": 0.25
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marsh coast at the Aucilla"
+      },
+      {
+       "type": "photo",
+       "at": "and the marsh runs",
+       "photo": "File:Controlled burn in the salt marsh at St Marks NWR (7439799012).jpg",
+       "on_screen_text": "Marsh meets the bay, St. Marks refuge"
+      }
+     ]
+    },
+    {
+     "text": "And the shallow water isn't empty. It is carpeted with seagrass. The Big Bend Seagrasses Aquatic Preserve covers nine hundred and eighty-four thousand acres, the largest aquatic preserve in Florida, and one of the largest continuous seagrass meadows in the Gulf. Which raises a question we'll come back to at the end: is this coast a failure to develop, or one of the few places Florida never got around to ruining? Tell me in the comments which way you lean.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.463,
+           "lat": 29.534,
+           "span": 2.378
+          },
+          "highlight": [
+           "file:shallow10.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "St. Marks",
+            "lon": -84.205,
+            "lat": 30.16,
+            "kind": "city",
+            "label": "St. Marks"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It is carpeted with",
+       "photo": "File:Hurricane Helene Stirs Up Gulf Coast Waters (153390 - pace 20240928 lrg).jpg",
+       "on_screen_text": "The shallow shelf off the Big Bend from orbit, 28 Sep 2024"
+      },
+      {
+       "type": "stat",
+       "at": "The Big Bend Seagrasses",
+       "stat": {
+        "value": "984,325 ACRES",
+        "label": "Big Bend Seagrasses Aquatic Preserve",
+        "source": "Florida DEP, Big Bend Seagrasses Aquatic Preserve",
+        "note": "The largest aquatic preserve in Florida"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the largest aquatic preserve",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.75,
+           "lat": 29.85,
+           "span": 1.6
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The preserve: Apalachee Bay to the Withlacoochee"
+      },
+      {
+       "type": "map",
+       "at": "and one of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.6,
+           "lat": 29.6,
+           "span": 0.5
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Seagrass off Taylor and Dixie counties"
+      },
+      {
+       "type": "photo",
+       "at": "Which raises a question",
+       "photo": "File:St Marks Light - Florida.jpg",
+       "on_screen_text": "St. Marks lighthouse"
+      },
+      {
+       "type": "photo",
+       "at": "is this coast a",
+       "photo": "File:St. Marks Light, at the mouth of the St. Marks River in the Apalachee Bay on Florida's panhandle LCCN2011632986.tif",
+       "on_screen_text": "St. Marks lighthouse"
+      },
+      {
+       "type": "map",
+       "at": "or one of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.4,
+           "lat": 29.62,
+           "span": 0.2
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": -83.4,
+           "lat": 29.62,
+           "span": 0.124
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Steinhatchee River mouth"
+      }
+     ],
+     "ask": {
+      "at": "Tell me in the",
+      "text": "A failure to develop, or a coast Florida never ruined?"
+     }
+    },
+    {
+     "text": "For people who wanted to build here, though, that seafloor was a problem with no answer. A port needs deep water close to shore. Ships can't sail to a dock across fifteen miles of water you could almost wade. And there was a second problem, one you can't see from the sea at all, because it's underneath the land.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cedar Key Florida04.jpg",
+       "on_screen_text": "Shallow water off Cedar Key"
+      },
+      {
+       "type": "map",
+       "at": "A port needs deep",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.637,
+           "lat": 29.766,
+           "span": 3.422
+          },
+          "arrows": [
+           {
+            "from": [
+             -84.0,
+             29.25
+            ],
+            "to": [
+             -83.45,
+             29.65
+            ],
+            "color": "blue",
+            "label": "15 miles of shallows",
+            "bend": 0.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           },
+           {
+            "name": "Steinhatchee",
+            "lon": -83.387,
+            "lat": 29.671,
+            "kind": "city",
+            "label": "Steinhatchee"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Ships can't sail to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.55,
+           "lat": 29.72,
+           "span": 0.45
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": -83.55,
+           "lat": 29.72,
+           "span": 0.279
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Shallows off Keaton Beach and Steinhatchee"
+      },
+      {
+       "type": "photo",
+       "at": "And there was a",
+       "photo": "File:St Marks NWR Rx Fire in salt water marsh (7439799476).jpg",
+       "on_screen_text": "Salt marsh, St. Marks refuge"
+      },
+      {
+       "type": "map",
+       "at": "because it's underneath the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.25,
+           "lat": 30.2,
+           "span": 0.25
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "St. Marks River"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ground Full of Holes",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Most of the land behind this coast sits on limestone, covered by a thin layer of sand. Rainwater soaks straight through the sand and slowly dissolves the rock underneath. Over thousands of years, that has turned the ground into something closer to a sponge: caves, sinkholes and underground channels. Geologists call this kind of landscape karst, and the Big Bend is full of it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.347,
+           "lat": 29.65,
+           "span": 2.755
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Tallahassee",
+            "lon": -84.28,
+            "lat": 30.44,
+            "kind": "city",
+            "label": "Tallahassee"
+           },
+           {
+            "name": "Wakulla Springs",
+            "lon": -84.302,
+            "lat": 30.235,
+            "kind": "site",
+            "label": "Wakulla Springs",
+            "icon": "water"
+           },
+           {
+            "name": "Aucilla River",
+            "lon": -83.99,
+            "lat": 30.09,
+            "kind": "site",
+            "label": "Aucilla River",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "sits on limestone, covered",
+       "photo": "File:Big Bend Scenic Byway - Leon Sinks Geological Site - NARA - 7717294.jpg",
+       "on_screen_text": "Leon Sinks, south of Tallahassee"
+      },
+      {
+       "type": "photo",
+       "at": "Rainwater soaks straight through",
+       "photo": "File:Natural Bridge Battlefield Historic State Park Pano.jpg",
+       "on_screen_text": "Natural Bridge, on the St. Marks River"
+      },
+      {
+       "type": "map",
+       "at": "Over thousands of years,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.2,
+           "lat": 30.28,
+           "span": 0.3
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -84.2,
+           "lat": 30.28,
+           "span": 0.186
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sinkhole ponds south of Tallahassee"
+      },
+      {
+       "type": "stat",
+       "at": "Geologists call this kind",
+       "stat": {
+        "value": "KARST",
+        "label": "Ground dissolved into caves, sinkholes and underground channels",
+        "source": "Florida Geological Survey (via UF/IFAS)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and the Big Bend",
+       "photo": "File:St Marks River at Newport, Florida.jpg",
+       "on_screen_text": "The St. Marks River at Newport"
+      }
+     ]
+    },
+    {
+     "text": "The clearest proof is the springs. Wakulla Springs, south of Tallahassee, pours out about six hundred and twenty-three cubic feet of water every second on average, roughly four hundred million gallons a day, according to the Northwest Florida Water Management District. Its vent opens about a hundred and eighty feet below the surface into a huge network of flooded caves. And it's not unique. Florida has thirty-one springs that big.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Wakulla-springs 2009-05-03T23 48 20.jpg",
+       "on_screen_text": "Wakulla Springs"
+      },
+      {
+       "type": "map",
+       "at": "Wakulla Springs, south of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.3,
+           "lat": 30.3,
+           "span": 0.6
+          },
+          "date": "2025-03-01/2025-05-31",
+          "places": [
+           {
+            "name": "Wakulla Springs",
+            "lon": -84.302,
+            "lat": 30.235,
+            "kind": "site",
+            "label": "Wakulla Springs",
+            "icon": "water"
+           },
+           {
+            "name": "Tallahassee",
+            "lon": -84.28,
+            "lat": 30.44,
+            "kind": "city",
+            "label": "Tallahassee"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "pours out about six",
+       "stat": {
+        "value": "623 FT³/S",
+        "label": "Average flow of Wakulla Springs",
+        "source": "Northwest Florida Water Management District",
+        "note": "Roughly 400 million gallons a day"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "roughly four hundred million",
+       "photo": "File:Wakulla-springs 2009-05-04T19 01 40.jpg",
+       "on_screen_text": "Wakulla Springs"
+      },
+      {
+       "type": "map",
+       "at": "according to the Northwest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.302,
+           "lat": 30.235,
+           "span": 0.09
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wakulla Springs from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Its vent opens about",
+       "photo": "File:Wakulla-springs 2009-05-04T18 58 57.jpg",
+       "on_screen_text": "Wakulla Springs"
+      },
+      {
+       "type": "stat",
+       "at": "about a hundred and",
+       "stat": {
+        "value": "180 FT",
+        "label": "Depth of the spring's vent below the surface",
+        "source": "Northwest Florida Water Management District"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And it's not unique.",
+       "photo": "File:Wakulla-springs 2009-05-04T19 12 53.jpg",
+       "on_screen_text": "Wakulla Springs"
+      },
+      {
+       "type": "stat",
+       "at": "Florida has thirty-one springs",
+       "stat": {
+        "value": "31",
+        "label": "First-magnitude springs in Florida",
+        "source": "Northwest Florida Water Management District"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Some rivers here don't even stay on the surface. The Aucilla River, which reaches the Gulf in the middle of the Big Bend, disappears underground and comes back up again around thirty times along its lower course, according to a state water management plan, before it rises for the last time and runs out into the marsh.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Along the Suwannee - panoramio.jpg",
+       "on_screen_text": "Along the Suwannee River"
+      },
+      {
+       "type": "map",
+       "at": "The Aucilla River, which",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.97,
+           "lat": 30.2,
+           "span": 0.55
+          },
+          "date": "2025-03-01/2025-05-31",
+          "places": [
+           {
+            "name": "Aucilla River",
+            "lon": -83.99,
+            "lat": 30.09,
+            "kind": "site",
+            "label": "Aucilla River",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "disappears underground and comes",
+       "stat": {
+        "value": "~30 TIMES",
+        "label": "The Aucilla goes underground and rises again",
+        "source": "State water management plan (SRWMD)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "according to a state",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.96,
+           "lat": 30.22,
+           "span": 0.25
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lower Aucilla"
+      },
+      {
+       "type": "map",
+       "at": "before it rises for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.99,
+           "lat": 30.1,
+           "span": 0.12
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Aucilla's last stretch"
+      }
+     ]
+    },
+    {
+     "text": "Look at where those rivers end up. There is no delta, no wide bay to shelter a harbour, no deep river mouth. The rivers fray out into dozens of small creeks and islands of marsh grass, and the shallow sea beyond them goes on for miles. Low land, soft wet ground with holes in it, and a sea you can't bring a ship across.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.08,
+           "lat": 30.06,
+           "span": 0.35
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": -84.08,
+           "lat": 30.06,
+           "span": 0.217
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the rivers meet the Gulf"
+      },
+      {
+       "type": "map",
+       "at": "The rivers fray out",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.97,
+           "lat": 30.07,
+           "span": 0.1
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marsh islands at the Aucilla mouth"
+      },
+      {
+       "type": "map",
+       "at": "and the shallow sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.8,
+           "lat": 29.95,
+           "span": 0.6
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Apalachee Bay"
+      },
+      {
+       "type": "photo",
+       "at": "Low land, soft wet",
+       "photo": "File:Flickr - ggallice - Hammock.jpg",
+       "on_screen_text": "Salt marsh near Cedar Key"
+      },
+      {
+       "type": "map",
+       "at": "and a sea you",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.15,
+           "lat": 29.98,
+           "span": 0.4
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Off St. Marks"
+      }
+     ]
+    },
+    {
+     "text": "So it's not surprising that some of the first big decisions made about this coast were not about building on it. In 1931, an executive order created what is now the St. Marks National Wildlife Refuge, as winter habitat for migratory birds. Today it covers more than eighty-six thousand acres and about forty-three miles of this coast. But seventy years before that refuge, people did try to build a city here. And for a while, it worked.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.753,
+           "lat": 29.65,
+           "span": 2.494
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "St. Marks",
+            "lon": -84.205,
+            "lat": 30.16,
+            "kind": "city",
+            "label": "St. Marks"
+           },
+           {
+            "name": "Tallahassee",
+            "lon": -84.28,
+            "lat": 30.44,
+            "kind": "city",
+            "label": "Tallahassee"
+           }
+          ]
+         },
+         {
+          "at": "were not about building",
+          "view": {
+           "lon": -84.05,
+           "lat": 30.0,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1931, an executive",
+       "stat": {
+        "value": "1931",
+        "label": "Executive Order 5740 creates the St. Marks refuge",
+        "source": "U.S. Fish and Wildlife Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "as winter habitat for",
+       "photo": "File:A scenic view of white lighthouse.jpg",
+       "on_screen_text": "St. Marks National Wildlife Refuge"
+      },
+      {
+       "type": "stat",
+       "at": "Today it covers more",
+       "stat": {
+        "value": "86,000+ ACRES",
+        "label": "St. Marks National Wildlife Refuge",
+        "source": "U.S. Fish and Wildlife Service",
+        "note": "About 43 miles of Gulf coast"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But seventy years before",
+       "photo": "File:Cedar Keys, Florida LOC 99447268.jpg",
+       "on_screen_text": "Cedar Keys, a chart of 1861"
+      },
+      {
+       "type": "map",
+       "at": "And for a while,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.04,
+           "lat": 29.14,
+           "span": 0.2
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cedar Key"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Boom That Already Happened",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Out at the end of a chain of small islands lies Cedar Key. In the middle of the nineteenth century, this was the spot chosen to connect the Gulf to the rest of the country. Federal surveyors charted its waters in detail in 1852, and in 1861, according to historians of the line, the first train arrived from Fernandina on the Atlantic coast. Cedar Key became the Gulf end of Florida's first railroad across the peninsula.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.6,
+           "lat": 29.6,
+           "span": 4.6
+          },
+          "highlight": [
+           "Florida@alt"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Fernandina",
+            "lon": -81.46,
+            "lat": 30.67,
+            "kind": "city",
+            "label": "Fernandina"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In the middle of",
+       "photo": "File:Birds eye view of Florida and part of Georgia and Alabama LOC 99447266.jpg",
+       "on_screen_text": "Florida in a bird's-eye view, 1861"
+      },
+      {
+       "type": "map",
+       "at": "this was the spot",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.5,
+           "lat": 31.0,
+           "span": 16.0
+          },
+          "highlight": [
+           "Florida@alt"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Fernandina",
+            "lon": -81.46,
+            "lat": 30.67,
+            "kind": "city",
+            "label": "Fernandina"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Federal surveyors charted its",
+       "photo": "File:1852 U.S. Coast Survey Map of Cedar Key, Florida - Geographicus - CedarKey-uscs-1852.jpg",
+       "on_screen_text": "U.S. Coast Survey chart of Cedar Key, 1852"
+      },
+      {
+       "type": "photo",
+       "at": "and in 1861, according",
+       "photo": "File:Florida Railroad, from Cedar Key Extension to Tampa Bay - NARA - 102256504.jpg",
+       "on_screen_text": "Florida Railroad survey: the Cedar Key extension"
+      },
+      {
+       "type": "map",
+       "at": "the first train arrived",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.37,
+           "lat": 29.692,
+           "span": 4.14
+          },
+          "routes": [
+           {
+            "from": [
+             -81.46,
+             30.67
+            ],
+            "via": [
+             [
+              -81.98,
+              30.3
+             ],
+             [
+              -82.11,
+              29.94
+             ],
+             [
+              -82.33,
+              29.65
+             ],
+             [
+              -82.64,
+              29.45
+             ]
+            ],
+            "to": [
+             -83.035,
+             29.138
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.5,
+            "label": "Florida Railroad, 1861"
+           }
+          ],
+          "places": [
+           {
+            "name": "Fernandina",
+            "lon": -81.46,
+            "lat": 30.67,
+            "kind": "city",
+            "label": "Fernandina"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Cedar Key became the",
+       "photo": "File:David Levy Yulee - Brady-Handy.jpg",
+       "on_screen_text": "David Levy Yulee, who built the Florida Railroad"
+      }
+     ]
+    },
+    {
+     "text": "The town set out to become a port. According to the town's own history, pencil companies, including Eberhard Faber and the Eagle Pencil Company, built mills on the islands to cut the local red cedar into pencil slats and ship them north. Here is Cedar Key in 1884, drawn from above as a bird's-eye view: wharves, warehouses, a railroad running out over the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cedar Key 1884b small.jpg",
+       "on_screen_text": "Cedar Key, 1884"
+      },
+      {
+       "type": "stat",
+       "at": "According to the town's",
+       "stat": {
+        "value": "PENCIL CEDAR",
+        "label": "Faber and Eagle Pencil mills",
+        "source": "Cedar Key local history"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "built mills on the",
+       "photo": "File:Indian mound, Cedar Key, Fla, from Robert N. Dennis collection of stereoscopic views.jpg",
+       "on_screen_text": "Cedar Key in a stereoscopic view, 19th century"
+      },
+      {
+       "type": "map",
+       "at": "into pencil slats and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.05,
+           "lat": 29.125,
+           "span": 0.08
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atsena Otie, site of the first town"
+      },
+      {
+       "type": "photo",
+       "at": "Here is Cedar Key",
+       "photo": "File:Bird's eye view of Cedar-Key, Fla., Levy Co. LOC 77690244.jpg",
+       "on_screen_text": "Cedar Key in 1884, a bird's-eye view"
+      },
+      {
+       "type": "photo",
+       "at": "wharves, warehouses, a railroad",
+       "photo": "File:Sanborn Fire Insurance Map from Cedar Key, Levy County, Florida, 1909, Plate 0001.jpg",
+       "on_screen_text": "Cedar Key, Sanborn fire-insurance map, 1909"
+      }
+     ]
+    },
+    {
+     "text": "But that same year, the town's future was being decided somewhere else. In 1883, the businessman Henry Plant bought control of the South Florida Railroad and pushed it all the way to Tampa Bay, with full service from 1884, according to the University of Florida's libraries. Tampa had what Cedar Key never really had: a big, sheltered bay. Historians of the town say much of Cedar Key's shipping followed Plant's tracks south. Census counts on record show Tampa growing from seven hundred and twenty people in 1880 to more than five thousand five hundred in 1890.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.3,
+           "lat": 28.8,
+           "span": 4.4
+          },
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1883, the businessman",
+       "stat": {
+        "value": "1883",
+        "label": "Henry Plant takes over the South Florida Railroad",
+        "source": "University of Florida Libraries"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and pushed it all",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.08,
+           "lat": 28.888,
+           "span": 3.96
+          },
+          "routes": [
+           {
+            "from": [
+             -81.27,
+             28.8
+            ],
+            "via": [
+             [
+              -81.41,
+              28.29
+             ],
+             [
+              -81.95,
+              28.04
+             ]
+            ],
+            "to": [
+             -82.46,
+             27.95
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.0,
+            "label": "Plant's railroad to Tampa, 1884"
+           }
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           },
+           {
+            "name": "Orlando",
+            "lon": -81.38,
+            "lat": 28.54,
+            "kind": "city",
+            "label": "Orlando"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": "with full service from",
+          "view": {
+           "lon": -82.0,
+           "lat": 28.3,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Tampa had what Cedar",
+       "photo": "File:Old Tampa Bay Hotel.jpg",
+       "on_screen_text": "Plant's Tampa Bay Hotel, opened 1891 (now a museum)"
+      },
+      {
+       "type": "map",
+       "at": "a big, sheltered bay.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.55,
+           "lat": 27.78,
+           "span": 0.9
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 63,
+          "view": {
+           "lon": -82.55,
+           "lat": 27.78,
+           "span": 0.558
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tampa Bay"
+      },
+      {
+       "type": "photo",
+       "at": "Census counts on record",
+       "photo": "File:Old Tampa Bay Hotel3.jpg",
+       "on_screen_text": "Plant's hotel in Tampa"
+      },
+      {
+       "type": "chart",
+       "at": "Tampa growing from seven",
+       "chart": {
+        "type": "bar",
+        "title": "Tampa's population",
+        "unit": "",
+        "data": [
+         [
+          "1880",
+          720
+         ],
+         [
+          "1890",
+          5532
+         ]
+        ],
+        "source": "U.S. census counts",
+        "highlight": 1,
+        "reveal": [
+         "more than five thousand"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then came the night that finished the boom. On the twenty-ninth of September 1896, a hurricane came ashore near Cedar Key with winds of around a hundred and twenty-five miles an hour. According to the National Weather Service, it pushed the water ten and a half feet above sea level at Cedar Key and around twelve and a half feet at nearby Yankeetown. About a hundred people died, most of them drowned by the surge.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:September 29, 1896 hurricane weather map.jpg",
+       "on_screen_text": "Weather map, 29 September 1896"
+      },
+      {
+       "type": "map",
+       "at": "a hurricane came ashore",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.55,
+           "lat": 29.795,
+           "span": 3.074
+          },
+          "places": [
+           {
+            "name": "1896 landfall",
+            "lon": -83.05,
+            "lat": 29.15,
+            "kind": "site",
+            "label": "Hurricane, 29 Sep 1896",
+            "icon": "warning"
+           },
+           {
+            "name": "Yankeetown",
+            "lon": -82.716,
+            "lat": 29.03,
+            "kind": "city",
+            "label": "Yankeetown"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "with winds of around",
+       "stat": {
+        "value": "~125 MPH",
+        "label": "Winds at landfall, 1896",
+        "source": "National Weather Service Tampa Bay"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "it pushed the water",
+       "stat": {
+        "value": "10.5 FT",
+        "label": "Above sea level at Cedar Key, 1896",
+        "source": "National Weather Service Tampa Bay",
+        "note": "About 12.5 ft at Yankeetown"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and around twelve and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.72,
+           "lat": 29.03,
+           "span": 0.3
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yankeetown"
+      },
+      {
+       "type": "photo",
+       "at": "About a hundred people",
+       "photo": "File:September 30, 1896 hurricane 4 weather map.jpg",
+       "on_screen_text": "Weather map, 30 September 1896"
+      },
+      {
+       "type": "stat",
+       "at": "most of them drowned",
+       "stat": {
+        "value": "~100",
+        "label": "Deaths, mostly from the surge",
+        "source": "National Weather Service Tampa Bay"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Accounts of the town's history say the storm destroyed the Eagle mill, and that Faber's mill closed within two years, with the cedar forests already cut out. The town rebuilt on a neighbouring island, but it never became a port again. If you like stories where a map explains what history did, subscribing is how you'll find the next one. Because Cedar Key's collapse didn't end the plans for this coast. Over the next century, Florida tried again.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Florida - Brandenton through Clearwater - NARA - 23936569 (cropped).jpg",
+       "on_screen_text": "Cedar Key from the air (U.S. survey photograph)"
+      },
+      {
+       "type": "photo",
+       "at": "and that Faber's mill",
+       "photo": "File:Sanborn Fire Insurance Map from Cedar Key, Levy County, Florida, 1920, Plate 0001.jpg",
+       "on_screen_text": "Cedar Key, Sanborn fire-insurance map, 1920"
+      },
+      {
+       "type": "map",
+       "at": "The town rebuilt on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.04,
+           "lat": 29.135,
+           "span": 0.1
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cedar Key and Atsena Otie today"
+      },
+      {
+       "type": "photo",
+       "at": "but it never became",
+       "photo": "File:Atsena Otie Key Island.jpg",
+       "on_screen_text": "Atsena Otie Key, where the old town stood"
+      },
+      {
+       "type": "photo",
+       "at": "If you like stories",
+       "photo": "File:Cedar Key Hist Museum Lutterloh01.jpg",
+       "on_screen_text": "Cedar Key Historical Museum"
+      },
+      {
+       "type": "photo",
+       "at": "subscribing is how you'll",
+       "photo": "File:Cedar Key 1884b small.jpg",
+       "on_screen_text": "Cedar Key, 1884"
+      },
+      {
+       "type": "map",
+       "at": "Because Cedar Key's collapse",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.142,
+           "lat": 27.556,
+           "span": 7.052
+          },
+          "highlight": [
+           "Florida@alt",
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ]
+         },
+         {
+          "at": "Over the next century,",
+          "view": {
+           "lon": -82.9,
+           "lat": 28.9,
+           "span": 4.4
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Every Plan After It",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The biggest plan was meant to cut Florida in half. The Cross Florida Barge Canal would link the Atlantic to the Gulf of Mexico, so ships could cross Florida instead of sailing all the way around it. Its western end was to reach the Gulf at the southern edge of the Big Bend.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.83,
+           "lat": 29.508,
+           "span": 5.06
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Jacksonville",
+            "lon": -81.66,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Jacksonville"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Yankeetown",
+            "lon": -82.716,
+            "lat": 29.03,
+            "kind": "city",
+            "label": "Yankeetown"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Cross Florida Barge",
+       "photo": "File:Cross Fla Barge canal SR19W-03.jpg",
+       "on_screen_text": "The barge canal west of SR 19"
+      },
+      {
+       "type": "map",
+       "at": "so ships could cross",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.658,
+           "lat": 28.244,
+           "span": 10.148
+          },
+          "arrows": [
+           {
+            "from": [
+             -82.2,
+             24.0
+            ],
+            "to": [
+             -79.7,
+             25.6
+            ],
+            "color": "blue",
+            "label": "The long way round",
+            "bend": -0.35
+           }
+          ],
+          "places": [
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           },
+           {
+            "name": "Jacksonville",
+            "lon": -81.66,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Jacksonville"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its western end was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.462,
+           "lat": 29.416,
+           "span": 3.772
+          },
+          "routes": [
+           {
+            "from": [
+             -81.65,
+             29.65
+            ],
+            "via": [
+             [
+              -81.63,
+              29.43
+             ],
+             [
+              -81.86,
+              29.26
+             ],
+             [
+              -82.1,
+              29.13
+             ],
+             [
+              -82.43,
+              29.05
+             ],
+             [
+              -82.62,
+              29.03
+             ]
+            ],
+            "to": [
+             -82.8,
+             28.99
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Cross Florida Barge Canal route"
+           }
+          ],
+          "places": [
+           {
+            "name": "Yankeetown",
+            "lon": -82.716,
+            "lat": 29.03,
+            "kind": "city",
+            "label": "Yankeetown"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Work started in the 1930s, as a New Deal project, and stalled after about three years. In 1964 it started again under President Johnson. Parts of it were dug and built. Then, in 1971, President Nixon halted construction for good, citing the damage it would do to the environment. By then the canal was twenty-eight percent complete, and around seventy-five million dollars had been spent, according to the Florida Museum at the University of Florida.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1930s",
+        "label": "A New Deal start; stalled after about three years",
+        "source": "Florida Museum, University of Florida"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1964 it started",
+       "stat": {
+        "value": "1964",
+        "label": "Work starts again",
+        "source": "Florida Museum, University of Florida"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Parts of it were",
+       "photo": "File:Cross Fla Barge canal SR19E-02.jpg",
+       "on_screen_text": "The finished cut of the barge canal"
+      },
+      {
+       "type": "stat",
+       "at": "Then, in 1971, President",
+       "stat": {
+        "value": "1971",
+        "label": "Construction halted for good",
+        "source": "Florida Museum, University of Florida"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "citing the damage it",
+       "photo": "File:Cross Fla Barge canal SR19E-01.jpg",
+       "on_screen_text": "The barge canal today"
+      },
+      {
+       "type": "stat",
+       "at": "By then the canal",
+       "stat": {
+        "value": "28%",
+        "label": "Of the canal complete when it was stopped",
+        "source": "Florida Museum, University of Florida"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and around seventy-five million",
+       "stat": {
+        "value": "$75 MILLION",
+        "label": "Spent by 1971",
+        "source": "Florida Museum, University of Florida"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "according to the Florida",
+       "photo": "File:Marshall Swamp Trailhead; Cross Florida Greenway-01.jpg",
+       "on_screen_text": "Along the old canal route"
+      }
+     ]
+    },
+    {
+     "text": "You can still see a piece of it from orbit. This is where the finished western section meets the Gulf. Look how far the dredged channel runs out to sea, marked by a line of spoil islands, before the water gets deep enough to matter. The rest of the route never became a canal. Today it's the Marjorie Harris Carr Cross Florida Greenway, more than seventy thousand acres of trails and forest across a hundred and ten miles of Florida.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.7,
+           "lat": 29.02,
+           "span": 0.4
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The barge canal reaches the Gulf"
+      },
+      {
+       "type": "map",
+       "at": "This is where the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.76,
+           "lat": 29.0,
+           "span": 0.22
+          },
+          "compare": {
+           "before": "1985-05-01/1985-09-30",
+           "after": "2025-05-01/2025-09-30",
+           "source": "landsat",
+           "seconds": 2.8,
+           "hold": 1.0,
+           "label_before": "1985",
+           "label_after": "2025"
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barge canal, Gulf end"
+      },
+      {
+       "type": "map",
+       "at": "channel runs out to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.86,
+           "lat": 28.97,
+           "span": 0.45
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The channel and its spoil islands"
+      },
+      {
+       "type": "map",
+       "at": "before the water gets",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.98,
+           "lat": 28.94,
+           "span": 0.7
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gulf off the canal"
+      },
+      {
+       "type": "photo",
+       "at": "The rest of the",
+       "photo": "File:Florida I75sb Cross Florida Greenway Overpass.jpg",
+       "on_screen_text": "The Cross Florida Greenway crossing I-75"
+      },
+      {
+       "type": "photo",
+       "at": "Today it's the Marjorie",
+       "photo": "File:Santos CFBC trail 01.jpg",
+       "on_screen_text": "Cross Florida Greenway"
+      },
+      {
+       "type": "stat",
+       "at": "more than seventy thousand",
+       "stat": {
+        "value": "110 MILES",
+        "label": "Of greenway, more than 70,000 acres",
+        "source": "Florida Museum, University of Florida"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Big Bend's other big bet was paper. Near Perry, the Foley pulp mill turned the pine forests behind the coast into cellulose, the biggest kind of employer a county this small can have. On the eighteenth of September 2023, Georgia-Pacific announced that it would permanently close the Foley mill, with about five hundred and twenty-five jobs lost. University of Florida economists estimated the total effect across the state at up to one thousand eight hundred and seventy-nine jobs.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.55,
+           "lat": 29.505,
+           "span": 2.262
+          },
+          "places": [
+           {
+            "name": "Perry",
+            "lon": -83.582,
+            "lat": 30.117,
+            "kind": "city",
+            "label": "Perry"
+           },
+           {
+            "name": "Foley mill",
+            "lon": -83.53,
+            "lat": 30.07,
+            "kind": "site",
+            "label": "Foley mill (closed 2023)",
+            "icon": "warning"
+           },
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Near Perry, the Foley",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.53,
+           "lat": 30.07,
+           "span": 0.1
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -83.53,
+           "lat": 30.07,
+           "span": 0.08
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Foley pulp mill, near Perry"
+      },
+      {
+       "type": "photo",
+       "at": "the biggest kind of",
+       "photo": "File:Fenholloway River east of Perry Florida.jpg",
+       "on_screen_text": "The Fenholloway River, east of Perry"
+      },
+      {
+       "type": "stat",
+       "at": "On the eighteenth of",
+       "stat": {
+        "value": "18 SEP 2023",
+        "label": "Georgia-Pacific: the Foley mill will close",
+        "source": "Georgia-Pacific, 18 September 2023"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "with about five hundred",
+       "stat": {
+        "value": "~525",
+        "label": "Jobs at the mill",
+        "source": "Georgia-Pacific, 18 September 2023"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "University of Florida economists",
+       "stat": {
+        "value": "1,879",
+        "label": "Potential jobs lost statewide",
+        "source": "UF/IFAS economic impact estimate, 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "at up to one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.58,
+           "lat": 30.11,
+           "span": 0.2
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Perry"
+      }
+     ]
+    },
+    {
+     "text": "That announcement came about two weeks after Hurricane Idalia had come ashore about twenty miles away. So which was the bigger blow to this coast: the storms, or the jobs leaving? Have a think about that one. Because the storms were only getting started, and the reason they hit so hard here is the same flat seafloor we started with.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.405,
+           "lat": 29.708,
+           "span": 2.532
+          },
+          "places": [
+           {
+            "name": "Foley mill",
+            "lon": -83.53,
+            "lat": 30.07,
+            "kind": "site",
+            "label": "Foley mill (closed 2023)",
+            "icon": "warning"
+           },
+           {
+            "name": "Idalia landfall",
+            "lon": -83.59,
+            "lat": 29.82,
+            "kind": "site",
+            "label": "Idalia, 30 Aug 2023",
+            "icon": "warning"
+           },
+           {
+            "name": "Perry",
+            "lon": -83.582,
+            "lat": 30.117,
+            "kind": "city",
+            "label": "Perry"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -83.405,
+           "lat": 29.708,
+           "span": 2.55
+          },
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So which was the",
+       "photo": "File:Florida National Guard - 53153543735.jpg",
+       "on_screen_text": "Clearing downed power lines outside Perry after Idalia"
+      },
+      {
+       "type": "photo",
+       "at": "Have a think about",
+       "photo": "File:Florida National Guard - 53155016685.jpg",
+       "on_screen_text": "Steinhatchee after Idalia, 30 August 2023"
+      },
+      {
+       "type": "map",
+       "at": "Because the storms were",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.5,
+           "lat": 29.7,
+           "span": 0.8
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 48,
+          "view": {
+           "lon": -83.5,
+           "lat": 29.7,
+           "span": 0.496
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Keaton Beach to Horseshoe Beach"
+      }
+     ],
+     "ask": {
+      "at": "So which was the",
+      "text": "Which hit harder: the storms or the jobs leaving?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Same Shelf, Turned Into a Weapon",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "A storm surge is the rise of the sea caused by a storm itself, mostly by its winds pushing water toward land. NOAA lists what decides how high it climbs: the angle the storm comes in at, its strength, its size, its speed, and the shape of the seafloor. On the Big Bend, the wind has fifteen miles of shallow water to push before it reaches the coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.914,
+           "lat": 28.4,
+           "span": 9.31
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "caused by a storm",
+       "document": {
+        "text": "Storm surge is the rise in seawater level caused solely by a storm.",
+        "source": "NOAA National Ocean Service",
+        "highlight": "caused solely by a storm"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "NOAA lists what decides",
+       "photo": "File:Hurricane Idalia Batters the Southeastern United States (MODIS).jpg",
+       "on_screen_text": "Hurricane Idalia, 30 August 2023 (MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "its strength, its size,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.7,
+           "lat": 31.32,
+           "span": 14.4
+          },
+          "date": "2024-09-26"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Helene approaching, 26 September 2024 (MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "and the shape of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.2,
+           "lat": 29.2,
+           "span": 2.6
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "On the Big Bend,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.695,
+           "lat": 29.592,
+           "span": 3.094
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -84.4,
+             29.2
+            ],
+            "to": [
+             -83.65,
+             29.85
+            ],
+            "color": "red",
+            "label": "Wind pushes water over 15 miles of shallows",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           },
+           {
+            "name": "Steinhatchee",
+            "lon": -83.387,
+            "lat": 29.671,
+            "kind": "city",
+            "label": "Steinhatchee"
+           }
+          ]
+         },
+         {
+          "at": "to push before it",
+          "view": {
+           "lon": -83.75,
+           "lat": 29.75,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the thirtieth of August 2023, Hurricane Idalia came ashore near Keaton Beach as a category three storm, with winds of about a hundred and fifteen miles an hour. The National Hurricane Center ranked it the third-strongest hurricane to affect the Big Bend, behind only the Cedar Key hurricane of 1896 and Hurricane Easy in 1950. The surge flooded land eight to twelve feet deep from Keaton Beach to Steinhatchee, and the Cedar Key gauge read six point eight nine feet above the high-tide line, its record at the time. Idalia caused an estimated three point six billion dollars of damage in the United States.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Florida National Guard - 53154586186.jpg",
+       "on_screen_text": "Steinhatchee, 30 August 2023"
+      },
+      {
+       "type": "map",
+       "at": "Hurricane Idalia came ashore",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.463,
+           "lat": 29.534,
+           "span": 2.307
+          },
+          "places": [
+           {
+            "name": "Idalia landfall",
+            "lon": -83.59,
+            "lat": 29.82,
+            "kind": "site",
+            "label": "Idalia, 30 Aug 2023",
+            "icon": "warning"
+           },
+           {
+            "name": "Steinhatchee",
+            "lon": -83.387,
+            "lat": 29.671,
+            "kind": "city",
+            "label": "Steinhatchee"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ],
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "with winds of about",
+       "stat": {
+        "value": "~115 MPH",
+        "label": "Idalia at landfall (category 3)",
+        "source": "NHC Tropical Cyclone Report: Idalia"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The National Hurricane Center",
+       "stat": {
+        "value": "3RD",
+        "label": "Strongest hurricane to hit the Big Bend",
+        "source": "NHC Tropical Cyclone Report: Idalia",
+        "note": "After the 1896 storm and Easy (1950)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "behind only the Cedar",
+       "photo": "File:September 29, 1896 hurricane weather map.jpg",
+       "on_screen_text": "The 1896 hurricane on the weather map"
+      },
+      {
+       "type": "photo",
+       "at": "The surge flooded land",
+       "photo": "File:Florida National Guard (Idalia response).jpg",
+       "on_screen_text": "Steinhatchee after Idalia, 30 August 2023"
+      },
+      {
+       "type": "stat",
+       "at": "eight to twelve feet",
+       "stat": {
+        "value": "8-12 FT",
+        "label": "Surge flooding, Keaton Beach to Steinhatchee",
+        "source": "NHC Tropical Cyclone Report: Idalia"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and the Cedar Key",
+       "stat": {
+        "value": "6.89 FT",
+        "label": "Cedar Key gauge during Idalia: a record at the time",
+        "source": "NHC Tropical Cyclone Report: Idalia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "above the high-tide line,",
+       "photo": "File:Cedar Key Florida01.jpg",
+       "on_screen_text": "Cedar Key"
+      },
+      {
+       "type": "stat",
+       "at": "Idalia caused an estimated",
+       "stat": {
+        "value": "$3.6 BILLION",
+        "label": "Idalia's damage in the United States",
+        "source": "NHC Tropical Cyclone Report: Idalia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Less than a year later, on the fifth of August 2024, Hurricane Debby made landfall just west of Steinhatchee, a category one storm, with surge flooding of up to six feet. And seven weeks after that came Helene.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.637,
+           "lat": 29.766,
+           "span": 3.319
+          },
+          "places": [
+           {
+            "name": "Idalia landfall",
+            "lon": -83.59,
+            "lat": 29.82,
+            "kind": "site",
+            "label": "Idalia, 30 Aug 2023",
+            "icon": "warning"
+           },
+           {
+            "name": "Debby landfall",
+            "lon": -83.45,
+            "lat": 29.7,
+            "kind": "site",
+            "label": "Debby, 5 Aug 2024",
+            "icon": "warning"
+           },
+           {
+            "name": "Steinhatchee",
+            "lon": -83.387,
+            "lat": 29.671,
+            "kind": "city",
+            "label": "Steinhatchee"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -83.637,
+           "lat": 29.766,
+           "span": 2.821
+          },
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a category one storm,",
+       "photo": "File:Steinhatchee River from Fort Steinhatchee Pier.jpg",
+       "on_screen_text": "The Steinhatchee River"
+      },
+      {
+       "type": "stat",
+       "at": "And seven weeks after",
+       "stat": {
+        "value": "7 WEEKS",
+        "label": "From Debby to Helene",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Helene had grown fast over the warm Gulf. Six hours before landfall, about eighty nautical miles off the coast, it reached its peak: winds of around a hundred and forty miles an hour. It came ashore about ten nautical miles southwest of Perry, late on the night of the twenty-sixth of September 2024, as a category four hurricane. The Hurricane Center calls it the strongest hurricane to make landfall in the Big Bend since reliable records began around 1900. From just west of Keaton Beach through Steinhatchee, the surge put twelve to sixteen feet of water over the land. South of there, through Horseshoe Beach and down to Cedar Key, eight to twelve feet.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Iss072e001649 (Sept 25, 2024) -- Hurricane Helene is pictured from the International Space Station as it orbited 257 above the Gulf of Mexico off the coast of Mississippi.jpg",
+       "on_screen_text": "Helene over the Gulf, 25 September 2024 (ISS)"
+      },
+      {
+       "type": "map",
+       "at": "Six hours before landfall,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.286,
+           "lat": 28.4,
+           "span": 8.428
+          },
+          "places": [
+           {
+            "name": "Helene landfall",
+            "lon": -83.72,
+            "lat": 29.99,
+            "kind": "site",
+            "label": "Helene, 27 Sep 2024",
+            "icon": "warning"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -85.286,
+           "lat": 28.4,
+           "span": 7.164
+          },
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "winds of around a",
+       "stat": {
+        "value": "~140 MPH",
+        "label": "Helene at its peak, 6 hours before landfall",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It came ashore about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.347,
+           "lat": 29.65,
+           "span": 2.672
+          },
+          "places": [
+           {
+            "name": "Helene landfall",
+            "lon": -83.72,
+            "lat": 29.99,
+            "kind": "site",
+            "label": "Helene, 27 Sep 2024",
+            "icon": "warning"
+           },
+           {
+            "name": "Perry",
+            "lon": -83.582,
+            "lat": 30.117,
+            "kind": "city",
+            "label": "Perry"
+           },
+           {
+            "name": "Keaton Beach",
+            "lon": -83.594,
+            "lat": 29.82,
+            "kind": "city",
+            "label": "Keaton Beach"
+           },
+           {
+            "name": "Idalia landfall",
+            "lon": -83.59,
+            "lat": 29.82,
+            "kind": "site",
+            "label": "Idalia, 30 Aug 2023",
+            "icon": "warning"
+           },
+           {
+            "name": "Debby landfall",
+            "lon": -83.45,
+            "lat": 29.7,
+            "kind": "site",
+            "label": "Debby, 5 Aug 2024",
+            "icon": "warning"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": 45,
+          "view": {
+           "lon": -83.347,
+           "lat": 29.65,
+           "span": 2.55
+          },
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The Hurricane Center calls",
+       "stat": {
+        "value": "STRONGEST",
+        "label": "Big Bend landfall since records began around 1900",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "map",
+       "at": "since reliable records began",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.62,
+           "lat": 29.85,
+           "span": 0.3
+          },
+          "date": "2024-09-28/2024-10-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Keaton Beach, October 2024"
+      },
+      {
+       "type": "stat",
+       "at": "the surge put twelve",
+       "stat": {
+        "value": "12-16 FT",
+        "label": "Surge flooding, Keaton Beach to Steinhatchee",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "map",
+       "at": "South of there, through",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.25,
+           "lat": 29.4,
+           "span": 0.45
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 106,
+          "view": {
+           "lon": -83.25,
+           "lat": 29.4,
+           "span": 0.279
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Horseshoe Beach to Cedar Key"
+      }
+     ]
+    },
+    {
+     "text": "This is Keaton Beach in early September 2024, and this is the same coast a few weeks after Helene. The marsh behind the houses has turned brown. Further south, at Horseshoe Beach, you can see sand and mud washed across the point. On the ground, the day after landfall, the Air National Guard was clearing the roads through what was left of the houses.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.595,
+           "lat": 29.82,
+           "span": 0.1
+          },
+          "compare": {
+           "before": "2024-09-01/2024-09-24",
+           "after": "2024-09-28/2024-10-25",
+           "seconds": 2.8,
+           "until": "and this is the same coast",
+           "label_before": "Early Sep 2024",
+           "label_after": "After Helene"
+          }
+         },
+         {
+          "at": "and this is the same coast",
+          "view": {
+           "lon": -83.595,
+           "lat": 29.82,
+           "span": 0.1
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Keaton Beach"
+      },
+      {
+       "type": "map",
+       "at": "The marsh behind the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.585,
+           "lat": 29.83,
+           "span": 0.08
+          },
+          "date": "2024-09-28/2024-10-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Keaton Beach after Helene"
+      },
+      {
+       "type": "map",
+       "at": "Further south, at Horseshoe",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.29,
+           "lat": 29.44,
+           "span": 0.1
+          },
+          "compare": {
+           "before": "2024-09-01/2024-09-24",
+           "after": "2024-09-28/2024-10-25",
+           "seconds": 2.8,
+           "hold": 1.0,
+           "label_before": "Early Sep 2024",
+           "label_after": "After Helene"
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Horseshoe Beach"
+      },
+      {
+       "type": "photo",
+       "at": "On the ground, the",
+       "photo": "File:Florida National Guard in Keaton Beach, Florida (Hurricane Helene).jpg",
+       "on_screen_text": "Air National Guard clearing roads, Keaton Beach, 27 September 2024"
+      },
+      {
+       "type": "photo",
+       "at": "was clearing the roads",
+       "photo": "File:President Joe Biden surveys damage before receiving a briefing on Hurricane Helene response and recovery efforts on October 3, 2024, in the Keaton Beach neighborhood in Perry, Florida.jpg",
+       "on_screen_text": "Keaton Beach, 3 October 2024"
+      }
+     ]
+    },
+    {
+     "text": "Fourteen people died in Helene's storm surge, all of them in Florida. The storm went on to kill at least a hundred and seventy-five people across the southeastern United States. Media reports cited by the Hurricane Center say about a quarter of the homes in Cedar Key were destroyed. Three hurricanes had come ashore on the same short stretch of coast in thirteen months.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "14",
+        "label": "Deaths in Helene's storm surge, all in Florida",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The storm went on",
+       "stat": {
+        "value": "175+",
+        "label": "Direct deaths across the United States",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "map",
+       "at": "across the southeastern United",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -86.3,
+           "lat": 30.68,
+           "span": 17.6
+          },
+          "date": "2024-09-27"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Helene over the Southeast, 27 September 2024 (MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "Media reports cited by",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.035,
+           "lat": 29.137,
+           "span": 0.09
+          },
+          "date": "2024-09-28/2024-10-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cedar Key, October 2024"
+      },
+      {
+       "type": "stat",
+       "at": "about a quarter of",
+       "stat": {
+        "value": "~25%",
+        "label": "Of Cedar Key's homes destroyed (media reports cited by NHC)",
+        "source": "NHC Tropical Cyclone Report: Helene"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Three hurricanes had come",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.753,
+           "lat": 29.65,
+           "span": 2.419
+          },
+          "places": [
+           {
+            "name": "Idalia landfall",
+            "lon": -83.59,
+            "lat": 29.82,
+            "kind": "site",
+            "label": "Idalia, 30 Aug 2023",
+            "icon": "warning"
+           },
+           {
+            "name": "Debby landfall",
+            "lon": -83.45,
+            "lat": 29.7,
+            "kind": "site",
+            "label": "Debby, 5 Aug 2024",
+            "icon": "warning"
+           },
+           {
+            "name": "Helene landfall",
+            "lon": -83.72,
+            "lat": 29.99,
+            "kind": "site",
+            "label": "Helene, 27 Sep 2024",
+            "icon": "warning"
+           }
+          ],
+          "date": "2025-04-17"
+         },
+         {
+          "at": 56,
+          "view": {
+           "lon": -83.753,
+           "lat": 29.65,
+           "span": 2.05
+          },
+          "date": "2025-04-17"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Remember the tide gauge at Cedar Key? We pulled its monthly highest water levels from NOAA and took the highest reading of each year, a hundred and one years of records going back to 1914. Here they are. For most of the century the yearly peak stays below four feet. A few storms in the 1990s and 2016 push it past five. Then Idalia, at nearly seven. And Helene, at nine point three. The two highest water levels in a hundred and one years came thirteen months apart, in 2023 and 2024.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.04,
+           "lat": 29.13,
+           "span": 0.25
+          },
+          "date": "2025-01-25/2025-01-25",
+          "places": [
+           {
+            "name": "Cedar Key gauge",
+            "lon": -83.03,
+            "lat": 29.135,
+            "kind": "site",
+            "label": "Cedar Key tide gauge",
+            "icon": "water"
+           }
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": -83.04,
+           "lat": 29.13,
+           "span": 0.155
+          },
+          "date": "2025-01-25/2025-01-25"
+         },
+         {
+          "at": 23,
+          "view": {
+           "lon": -83.04,
+           "lat": 29.13,
+           "span": 0.248
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Here they are.",
+       "chart": {
+        "type": "bar",
+        "title": "Highest water of the year, Cedar Key",
+        "unit": " ft",
+        "data": [
+         [
+          "Typical year",
+          1.9
+         ],
+         [
+          "1966",
+          4.0
+         ],
+         [
+          "1972",
+          4.2
+         ],
+         [
+          "1993",
+          5.1
+         ],
+         [
+          "1996",
+          5.1
+         ],
+         [
+          "2016",
+          6.0
+         ],
+         [
+          "2023 Idalia",
+          6.8
+         ],
+         [
+          "2024 Helene",
+          9.3
+         ]
+        ],
+        "source": "Own chart: NOAA CO-OPS 8727520 Cedar Key, monthly highest (ft above MHHW)",
+        "highlight": 7,
+        "reveal": [
+         "A few storms in",
+         "the 1990s and 2016",
+         "Then Idalia, at nearly",
+         "And Helene, at nine"
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The two highest water",
+       "stat": {
+        "value": "2023 + 2024",
+        "label": "The two highest years in 101 years of records",
+        "source": "Own chart: NOAA CO-OPS 8727520 Cedar Key, monthly highest (ft above MHHW)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "thirteen months apart, in",
+       "photo": "File:Cedar Key Florida02.jpg",
+       "on_screen_text": "Cedar Key"
+      }
+     ]
+    },
+    {
+     "text": "NASA's PACE satellite photographed the Gulf the day after Helene came ashore. Along the Big Bend, the sea had turned pale and milky. The storm's winds and waves had churned sediment up from the seafloor across the shallow coastal water. For one day, the shelf that shaped this whole story was visible from space.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Hurricane Helene Stirs Up Gulf Coast Waters (153390 - pace 20240928 lrg).jpg",
+       "on_screen_text": "The Gulf off the Big Bend, 28 September 2024 (NASA PACE)"
+      },
+      {
+       "type": "map",
+       "at": "Along the Big Bend,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.6,
+           "lat": 29.5,
+           "span": 2.6
+          },
+          "date": "2024-09-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Big Bend, 28 September 2024 (MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "The storm's winds and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.7,
+           "lat": 29.6,
+           "span": 1.2
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": -83.7,
+           "lat": 29.6,
+           "span": 0.744
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Big Bend shelf, calm"
+      },
+      {
+       "type": "map",
+       "at": "For one day, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.6,
+           "lat": 28.89,
+           "span": 10.388
+          },
+          "highlight": [
+           "file:shallow10.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So here are the five reasons. A seafloor too shallow for a port or a beach. Ground made of soft, wet limestone full of holes. A boomtown that lost its trade to Tampa and its mills to a hurricane. Plans like the barge canal and the Foley mill that came and went. And a shelf that lets a big storm pile the sea higher here than almost anywhere.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.55,
+           "lat": 29.795,
+           "span": 2.982
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "St. Marks",
+            "lon": -84.205,
+            "lat": 30.16,
+            "kind": "city",
+            "label": "St. Marks"
+           },
+           {
+            "name": "Perry",
+            "lon": -83.582,
+            "lat": 30.117,
+            "kind": "city",
+            "label": "Perry"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A seafloor too shallow",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.06,
+           "lat": 29.11,
+           "span": 0.18
+          },
+          "date": "2025-01-25/2025-01-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cedar Key at low tide"
+      },
+      {
+       "type": "photo",
+       "at": "Ground made of soft,",
+       "photo": "File:Big Bend Scenic Byway - Leon Sinks Geological Site - NARA - 7717294.jpg",
+       "on_screen_text": "Leon Sinks"
+      },
+      {
+       "type": "photo",
+       "at": "A boomtown that lost",
+       "photo": "File:1852 U.S. Coast Survey Map of Cedar Key, Florida - Geographicus - CedarKey-uscs-1852.jpg",
+       "on_screen_text": "Cedar Key, 1852"
+      },
+      {
+       "type": "photo",
+       "at": "Plans like the barge",
+       "photo": "File:Florida I75sb Cross Florida Greenway Overpass.jpg",
+       "on_screen_text": "Cross Florida Greenway over I-75"
+      },
+      {
+       "type": "photo",
+       "at": "And a shelf that",
+       "photo": "File:Florida National Guard - 53154586186.jpg",
+       "on_screen_text": "Steinhatchee, August 2023"
+      }
+     ]
+    },
+    {
+     "text": "And yet people stay. Cedar Key grew from six hundred and eighty-five people in 2020 to seven hundred and thirty-six in 2024, by the Census Bureau's estimate. Levy County grew by almost five thousand, Wakulla County, south of Tallahassee, by more than three thousand. Much of the coast is protected now, from the St. Marks refuge to the seagrass preserve offshore, and the same shallow water that kept the ports away holds one of the biggest seagrass meadows in the Gulf.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Capt Chad Allen Sr Memorial Bridge from Fort Steinhatchee Pier.jpg",
+       "on_screen_text": "Steinhatchee"
+      },
+      {
+       "type": "stat",
+       "at": "Cedar Key grew from",
+       "stat": {
+        "value": "685 → 736",
+        "label": "People in Cedar Key, 2020 to 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "to seven hundred and",
+       "photo": "File:Cedar Key Hist Museum Lutterloh01.jpg",
+       "on_screen_text": "Cedar Key"
+      },
+      {
+       "type": "stat",
+       "at": "Levy County grew by",
+       "stat": {
+        "value": "+4,852",
+        "label": "Levy County, 2020 to 2024",
+        "source": "U.S. Census Bureau, population estimates, vintage 2024",
+        "note": "Wakulla County: +3,349"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Much of the coast",
+       "photo": "File:St. Marks Light, at the mouth of the St. Marks River in the Apalachee Bay on Florida's panhandle LCCN2011632986.tif",
+       "on_screen_text": "St. Marks lighthouse"
+      },
+      {
+       "type": "map",
+       "at": "and the same shallow",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.5,
+           "lat": 29.55,
+           "span": 0.7
+          },
+          "date": "2025-03-01/2025-05-31"
+         },
+         {
+          "at": 71,
+          "view": {
+           "lon": -83.5,
+           "lat": 29.55,
+           "span": 0.434
+          },
+          "date": "2025-03-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Big Bend seagrass shelf"
+      }
+     ]
+    },
+    {
+     "text": "Maybe that's what the Big Bend really is: the part of Florida the sea never let anyone turn into the rest of Florida. So here's the question to leave you with. Should Florida keep the Big Bend mostly empty, or try once more to build on it? Tell me where you'd draw the line.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Steinhatchee River looking west from Roy's Restaurant.jpg",
+       "on_screen_text": "The Steinhatchee River"
+      },
+      {
+       "type": "map",
+       "at": "the part of Florida",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.798,
+           "lat": 27.9,
+           "span": 8.17
+          },
+          "highlight": [
+           "file:bigbend_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           },
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           },
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So here's the question",
+       "photo": "File:Deadman Bay, Stephensville and Steinhatchee historical marker.jpg",
+       "on_screen_text": "Deadman Bay, Steinhatchee"
+      },
+      {
+       "type": "map",
+       "at": "Should Florida keep the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -84.6,
+           "lat": 27.91,
+           "span": 7.644
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Cedar Key",
+            "lon": -83.035,
+            "lat": 29.138,
+            "kind": "city",
+            "label": "Cedar Key"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ]
+         },
+         {
+          "at": 42,
+          "view": {
+           "lon": -84.6,
+           "lat": 27.91,
+           "span": 6.497
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Should Florida keep the",
+      "text": "Keep the Big Bend empty, or build on it?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives on Florida's Big Bend Coast",
+  "description": "Florida has 23.4 million people and a coastline lined with beach towns, yet the long curve where the peninsula meets the Panhandle is almost empty. We measured the seafloor off the Big Bend and compared it with Pensacola and Miami, then follow the karst ground full of springs and sinking rivers, Cedar Key's railroad boom and its fall, the Cross Florida Barge Canal stopped at 28 percent, the Foley mill closure, and the three hurricanes in thirteen months that sent the Cedar Key tide gauge to its highest level since 1914.",
+  "tags": [
+   "Florida",
+   "Big Bend",
+   "Florida Big Bend",
+   "Cedar Key",
+   "Steinhatchee",
+   "Keaton Beach",
+   "Hurricane Helene",
+   "Hurricane Idalia",
+   "storm surge",
+   "continental shelf",
+   "Cross Florida Barge Canal",
+   "karst",
+   "Wakulla Springs",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Should Florida keep the Big Bend mostly empty, or try once more to build on it?"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "Pensacola Beach": {
+  "km_to_10m": 1.5,
+  "km_to_20m": 3.4,
+  "depth_5km_m": -22.07423210144043,
+  "depth_50km_m": -101.1322250366211
+ },
+ "Panama City Beach": {
+  "km_to_10m": 0.0,
+  "km_to_20m": 0.4,
+  "depth_5km_m": -23.694631576538086,
+  "depth_50km_m": -43.40536117553711
+ },
+ "Cape San Blas": {
+  "km_to_10m": 3.1,
+  "km_to_20m": 23.1,
+  "depth_5km_m": -10.289800643920898,
+  "depth_50km_m": -54.51548385620117
+ },
+ "St Marks (Apalachee Bay)": {
+  "km_to_10m": 26.3,
+  "km_to_20m": 52.6,
+  "depth_5km_m": -3.359525680541992,
+  "depth_50km_m": -19.5858211517334
+ },
+ "Keaton Beach": {
+  "km_to_10m": 21.4,
+  "km_to_20m": 58.0,
+  "depth_5km_m": -2.477703094482422,
+  "depth_50km_m": -19.94436264038086
+ },
+ "Steinhatchee": {
+  "km_to_10m": 25.9,
+  "km_to_20m": 60.5,
+  "depth_5km_m": -3.6164233684539795,
+  "depth_50km_m": -15.875
+ },
+ "Cedar Key": {
+  "km_to_10m": 25.4,
+  "km_to_20m": 58.2,
+  "depth_5km_m": -1.6975077390670776,
+  "depth_50km_m": -15.75
+ },
+ "Crystal River": {
+  "km_to_10m": 36.2,
+  "km_to_20m": 72.4,
+  "depth_5km_m": -2.637603521347046,
+  "depth_50km_m": -12.291112899780273
+ },
+ "Clearwater Beach": {
+  "km_to_10m": 11.8,
+  "km_to_20m": 31.4,
+  "depth_5km_m": -7.120146751403809,
+  "depth_50km_m": -27.539644241333008
+ },
+ "Naples": {
+  "km_to_10m": 12.4,
+  "km_to_20m": 44.1,
+  "depth_5km_m": -8.53792953491211,
+  "depth_50km_m": -21.606595993041992
+ },
+ "Miami Beach": {
+  "km_to_10m": 2.0,
+  "km_to_20m": 3.7,
+  "depth_5km_m": -83.2623291015625,
+  "depth_50km_m": -772.1422729492188
+ },
+ "Jacksonville Beach": {
+  "km_to_10m": 0.0,
+  "km_to_20m": 19.2,
+  "depth_5km_m": -15.938551902770996,
+  "depth_50km_m": -26.027111053466797
+ }
+}

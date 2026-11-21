@@ -90,8 +90,7 @@
          }
         ],
         "cut": true
-       },
-       "on_screen_text": "About 40 % of the continental US drains here"
+       }
       },
       {
        "type": "map",
@@ -476,7 +475,7 @@
            "lat": 29.15,
            "span": 0.6
           },
-          "date": "2025-09-01/2025-10-31"
+          "date": "2025-04-16"
          }
         ],
         "cut": true
@@ -3155,7 +3154,7 @@
           "view": {
            "lon": -91.6,
            "lat": 31.075,
-           "span": 0.15
+           "span": 0.22
           },
           "compare": {
            "before": "1985-08-01/1985-10-31",
@@ -3324,20 +3323,20 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Floodway opening, geo tagged stills 05.16.11 049.jpg",
-       "on_screen_text": "Morganza Floodway, May 2011"
+       "photo": "File:Floodway opening, geo tagged stills 05.16.11 115.jpg",
+       "on_screen_text": "Floodwater in the Morganza Floodway, 16 May 2011"
       },
       {
        "type": "photo",
        "at": "In May 2011, during",
-       "photo": "File:May 2011 Morganza Spillway Opens in Louisiana.jpg",
-       "on_screen_text": "Morganza Floodway open, 15 May 2011 (NASA EO-1)"
+       "photo": "File:Morganza Spillway Tour - May 26, 2011 - 119.jpg",
+       "on_screen_text": "A flooded home in the Morganza Floodway, 26 May 2011"
       },
       {
        "type": "photo",
        "at": "two bays on the",
-       "photo": "File:Floodway opening, geo tagged stills 05.16.11 006.jpg",
-       "on_screen_text": "Morganza Floodway, May 2011"
+       "photo": "File:Morganza Spillway Tour - May 26, 2011 - 89.jpg",
+       "on_screen_text": "The Morganza Floodway, 26 May 2011"
       },
       {
        "type": "photo",
@@ -3739,7 +3738,7 @@
            "lat": 29.1,
            "span": 0.35
           },
-          "date": "2025-09-01/2025-10-31"
+          "date": "2025-04-16"
          }
         ],
         "cut": true

@@ -68,6 +68,7 @@ def v(view, at=None, **kw):
 
 
 SAT_MIN_SPAN = 0.08  # Netherlands storyboard: narrower Sentinel views were soft
+MOUTH_DAY = "2025-04-16"  # scratch test 2026-11-21: the bird's-foot delta cloud-free (autumn 2025 had cumulus)
 SUM = "2025-09-01/2025-10-31"  # scratch msat.py 2026-11-21: 2025-09-18 / 2025-10-16 cover the views in one pass
 
 
@@ -205,8 +206,9 @@ PH_I10 = "File:Atchafalaya Bridge.jpg"
 PH_MORGAN_AIR = "File:Morgan City Louisiana aerial view.jpg"
 PH_MORG_1973 = "File:Morganza Spillway, Louisiana 5 May 1973.jpg"
 PH_MORG_NASA = "File:May 2011 Morganza Spillway Opens in Louisiana.jpg"
-PH_MORG11_A = "File:Floodway opening, geo tagged stills 05.16.11 049.jpg"
-PH_MORG11_B = "File:Floodway opening, geo tagged stills 05.16.11 006.jpg"
+PH_MORG11_A = "File:Floodway opening, geo tagged stills 05.16.11 115.jpg"
+PH_MORG_T119 = "File:Morganza Spillway Tour - May 26, 2011 - 119.jpg"
+PH_MORG11_B = "File:Morganza Spillway Tour - May 26, 2011 - 89.jpg"
 PH_BC_1 = "File:Bonnet Carre' Spillway test operation, 21 April 2025 - 1.jpg"
 PH_BC_3 = "File:Bonnet Carre' Spillway test operation, 21 April 2025 - 3.jpg"
 PH_WAX_NASA = "File:Waxlake 2014298 lrg.jpg"
@@ -279,7 +281,7 @@ chapter(
       stat("about six hundred thousand", "600,000 FT³/S", "Average flow of the Mississippi at New Orleans", NPS),
       sat("This is the Mississippi", -90.06, 29.95, 0.25, "New Orleans"),
       stat("carrying rain from all", "31 STATES", "All or part of them drain into the Mississippi", NPS),
-      m("about forty percent of", v(USA, highlight=[LAR], places=[NOLA]), text="About 40 % of the continental US drains here"),
+      m("about forty percent of", v(USA, highlight=[LAR], places=[NOLA])),
       m("But upstream, about fifty", v(LA, highlight=[LAR], places=[OLDR, BR, NOLA])),
       sat("this river is trying", -91.60, 31.075, 0.16, "Old River, Louisiana"),
       photo("Why does the biggest", PH_ORCS_AIR, "Old River Control, where the river is held"),
@@ -305,7 +307,7 @@ chapter(
     P("P3",
       m(0, v(GULF, highlight=[LAR], places=[NOLA, HOP])),
       photo("When the water reaches", PH_RESHAPE, "Coastal Louisiana from orbit (NASA, 2020)"),
-      sat("and over centuries the", -89.35, 29.15, 0.60, "The river's mouth today"),
+      sat("and over centuries the", -89.35, 29.15, 0.60, "The river's mouth today", date=MOUTH_DAY),
       photo("Every mile of new", PH_EMPIRE, "The Mississippi near Empire, Plaquemines Parish"),
       sat("The water slows even", -89.50, 29.38, 0.25, "Plaquemines Parish: the river between its banks"),
       photo("In time, the river", PH_BR_2011, "The Mississippi at high water, Baton Rouge, 2011"),
@@ -486,7 +488,7 @@ chapter(
       photo(0, PH_OR24_1, "The Auxiliary Structure, 2024"),
       stat("was started in July", "1981-86", "The Auxiliary Structure is built", CORPS),
       stat("for two hundred and", "$206 M", "Cost of the Auxiliary Structure: six 62-ft gates", CORPS),
-      m("Here is the site", v(near(-91.60, 31.075, 0.15), compare=CMP_OLD), text="Old River Control"),
+      m("Here is the site", v(near(-91.60, 31.075, 0.22), compare=CMP_OLD), text="Old River Control"),
       sat("The new channel is", -91.615, 31.08, 0.10, "Old River Control Complex, 2025")),
     P("P29",
       sat(0, -91.61, 31.08, 0.12, "Old River Control Complex today"),
@@ -496,9 +498,9 @@ chapter(
       stat("into up to one", "192 MW", "Sidney A. Murray Jr. hydroelectric station, online 1990", CORPS),
       stat("Together, the structures here", "700,000 FT³/S", "Combined capacity of the Old River structures", CORPS)),
     P("P30",
-      photo(0, PH_MORG11_A, "Morganza Floodway, May 2011"),
-      photo("In May 2011, during", PH_MORG_NASA, "Morganza Floodway open, 15 May 2011 (NASA EO-1)"),
-      photo("two bays on the", PH_MORG11_B, "Morganza Floodway, May 2011"),
+      photo(0, PH_MORG11_A, "Floodwater in the Morganza Floodway, 16 May 2011"),
+      photo("In May 2011, during", PH_MORG_T119, "A flooded home in the Morganza Floodway, 26 May 2011"),
+      photo("two bays on the", PH_MORG11_B, "The Morganza Floodway, 26 May 2011"),
       photo("In 2019 Morganza was", PH_BC_1, "Bonnet Carré Spillway, test opening, April 2025"),
       stat("had to be opened", "2 OPENINGS", "Bonnet Carré Spillway in 2019, a first", "USACE"),
       photo("Every big flood is", PH_BC_3, "Bonnet Carré Spillway, April 2025")),
@@ -530,7 +532,7 @@ chapter(
       photo("of land between 1932", PH_LANDLOSS, "Coastal Louisiana land, 1932 and 2011 (NOAA)"),
       sat("about a quarter of", -90.55, 29.40, 0.30, "Terrebonne marshes"),
       stat("At the worst of", "34 MIN", "A football field of land lost (1970s peak)", USGS),
-      sat("And the river now", -89.25, 29.10, 0.35, "The river's mouth"),
+      sat("And the river now", -89.25, 29.10, 0.35, "The river's mouth", date=MOUTH_DAY),
       chart("about one hundred and", "Mud carried by the river", " Mt/yr", [["Today", 170], ["Historically", 400]], NASA,
             reveal=["down from about four"], highlight=0)),
     P("P35",

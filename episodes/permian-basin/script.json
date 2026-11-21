@@ -393,9 +393,9 @@
          {
           "at": "years ago, when this",
           "view": {
-           "lon": -102.6,
-           "lat": 31.75,
-           "span": 6.4
+           "lon": -101.5,
+           "lat": 31.5,
+           "span": 9.0
           }
          }
         ],
@@ -414,17 +414,8 @@
      "text": "In the Permian period, all of the world's continents were jammed together into one supercontinent, Pangea. What is now West Texas sat near its edge, close to the equator. And here, the crust was sagging. A wide hollow formed, and the ocean flowed in through a narrow channel. The U.S. Geological Survey describes it as an inland sea, connected to the vast ocean around Pangea by that one passage.",
      "shots": [
       {
-       "type": "stat",
-       "at": 0,
-       "stat": {
-        "value": "PANGEA",
-        "label": "All the continents joined in one supercontinent",
-        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
-       }
-      },
-      {
        "type": "map",
-       "at": "What is now West",
+       "at": 0,
        "map": {
         "steps": [
          {
@@ -455,6 +446,15 @@
          }
         ],
         "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "into one supercontinent, Pangea.",
+       "stat": {
+        "value": "PANGEA",
+        "label": "All the continents joined in one supercontinent",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
        }
       },
       {
@@ -661,7 +661,7 @@
           "view": {
            "lon": -102.6,
            "lat": 31.8,
-           "span": 3.2
+           "span": 5.5
           }
          }
         ],
@@ -712,7 +712,7 @@
           "view": {
            "lon": -102.8,
            "lat": 31.9,
-           "span": 5.0
+           "span": 8.0
           }
          }
         ],
@@ -757,7 +757,7 @@
           "view": {
            "lon": -103.9,
            "lat": 31.6,
-           "span": 2.6
+           "span": 4.2
           }
          }
         ],
@@ -915,7 +915,7 @@
           "view": {
            "lon": -103.2,
            "lat": 31.9,
-           "span": 3.4
+           "span": 7.5
           }
          }
         ],
@@ -1351,9 +1351,9 @@
          {
           "at": "the end, when the",
           "view": {
-           "lon": -103.6,
+           "lon": -103.0,
            "lat": 31.9,
-           "span": 3.6
+           "span": 7.5
           }
          }
         ],
@@ -1400,7 +1400,7 @@
           "view": {
            "lon": -104.0,
            "lat": 31.6,
-           "span": 2.8
+           "span": 4.5
           }
          }
         ],
@@ -1542,9 +1542,9 @@
          {
           "at": "A thick blanket of",
           "view": {
-           "lon": -103.8,
+           "lon": -103.3,
            "lat": 31.9,
-           "span": 2.8
+           "span": 7.8
           }
          }
         ],
@@ -1777,7 +1777,7 @@
           "view": {
            "lon": -102.7,
            "lat": 31.7,
-           "span": 4.0
+           "span": 7.6
           }
          }
         ],
@@ -1826,19 +1826,19 @@
      "text": "Texas wrote a new constitution in 1876, and it gave its future state university one million acres of land in the dry west. In 1883, the legislature added another million acres, land a railroad had handed back because it was considered too worthless even to survey. Historians have called the first grant much less desirable land in arid western Texas. For decades, nobody disagreed.",
      "shots": [
       {
-       "type": "stat",
+       "type": "photo",
        "at": 0,
+       "photo": "File:Reagan county tx courthouse 2014.jpg",
+       "on_screen_text": "Reagan County courthouse, Big Lake"
+      },
+      {
+       "type": "stat",
+       "at": "and it gave its",
        "stat": {
         "value": "1,000,000 ACRES",
         "label": "West Texas land granted to the university, 1876",
         "source": "UTIMCO, Permanent University Fund"
        }
-      },
-      {
-       "type": "photo",
-       "at": "future state university one",
-       "photo": "File:Reagan county tx courthouse 2014.jpg",
-       "on_screen_text": "Reagan County courthouse, Big Lake"
       },
       {
        "type": "stat",
@@ -2342,9 +2342,9 @@
          {
           "at": "was still down there,",
           "view": {
-           "lon": -103.0,
+           "lon": -102.9,
            "lat": 31.8,
-           "span": 3.0
+           "span": 7.6
           }
          }
         ],
@@ -2388,7 +2388,7 @@
           "view": {
            "lon": -103.7,
            "lat": 31.8,
-           "span": 2.6
+           "span": 4.2
           }
          }
         ],
@@ -2406,7 +2406,7 @@
            "lat": 31.7,
            "span": 0.3
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-03/2025-10-03"
          },
          {
           "at": 25,
@@ -2415,7 +2415,7 @@
            "lat": 31.7,
            "span": 0.186
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-03/2025-10-03"
          }
         ],
         "cut": true
@@ -2779,7 +2779,7 @@
           "view": {
            "lon": -103.7,
            "lat": 31.9,
-           "span": 2.6
+           "span": 4.2
           }
          }
         ],
@@ -3238,9 +3238,9 @@
          {
           "at": "and called it the",
           "view": {
-           "lon": -103.0,
-           "lat": 31.5,
-           "span": 6.0
+           "lon": -102.0,
+           "lat": 31.4,
+           "span": 9.5
           }
          }
         ],
@@ -3286,10 +3286,22 @@
        "on_screen_text": "Gas flare, Permian Basin, New Mexico"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "natural gas, and where",
-       "photo": "File:Natural Gas Flare.jpg",
-       "on_screen_text": "A gas flare"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.8,
+           "lat": 32.05,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads near the state line"
       },
       {
        "type": "map",
@@ -3451,7 +3463,7 @@
            "span": 3.201
           },
           "highlight": [
-           "file:capitan_reef.geojson@red"
+           "file:delaware.geojson@blue"
           ],
           "places": [
            {
@@ -3460,6 +3472,13 @@
             "lat": 31.75,
             "kind": "city",
             "label": "Wink"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
            }
           ]
          },
@@ -3467,13 +3486,14 @@
           "at": "Reef. Geologists traced it",
           "view": {
            "lon": -103.4,
-           "lat": 32.0,
-           "span": 2.6
+           "lat": 31.8,
+           "span": 4.2
           }
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "Wink, near the basin's eastern edge"
       },
       {
        "type": "photo",

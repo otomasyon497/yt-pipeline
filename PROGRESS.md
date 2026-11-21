@@ -948,3 +948,10 @@ comment. Audio of the long render was never checked. No further work planned unl
   wording made accurate ("one of the few parts of the coast still growing"). UPLOADED 2026-11-21:
   https://studio.youtube.com/video/DQ2vDBnWafM/edit, private, publishAt 2026-11-24T23:00Z (25 Nov 02:00 TR), photo cover
   "IT WANTS / OUT" set. TODO user: pin comment by hand.
+
+## florida-big-bend: "Why Almost Nobody Lives on Florida's Big Bend Coast" (started 2026-11-21)
+- Demand PASS (214x, 185x, 28.8x). competitors.md (4 transcripts), research.md pass 1+2 (NHC TCRs Idalia/Debby/Helene,
+  Cedar Key gauge 1914-2025 annual maxima = own chart, ETOPO shelf measurement = own, Census 2024, USGS OFR 01-303,
+  FDEP preserve, UF Florida Museum barge canal, GP Foley mill), outline.md = gate-1 draft (~2,700 words, 6 parts).
+- AT GATE 1 (waiting for the user). Open before script: karst source (USGS/FGS), St Marks NWR (USFWS), photo licences
+  (Florida Memory / LOC), night-lights view, S2 before/after Helene. Then visuals.md, narration, build_script, factcheck.

@@ -971,3 +971,7 @@ comment. Audio of the long render was never checked. No further work planned unl
   sea purple with seams (fixed: SEA = March 2025 window on 20 sea-heavy views, scratch bbsea.py), ending night view off the
   Big Bend (9 s black), Helene 26 Sep swath corner, 1884 bird's-eye shown twice (grey copy), short document card.
   RENDER 2 = run 44917500417. NEXT: fetch -Delete, frame_audit, check sea views / ending, approve, ask upload date.
+- Render 2 (44917500417) fetched -Delete, audited: sea views fixed, ending fixed; one seam left on the canal 0.45/0.7 views.
+  User (2026-11-21): fix it (render 3) and schedule upload 2026-11-25T23:00:00Z. Canal views -> single day 2025-01-25
+  (seamless, scratch canal/sheet.jpg). RENDER 3 running. NEXT: fetch -Delete, frame_audit, check 9:45-10:00, approve,
+  `python tools/yt_upload.py florida-big-bend --publish-at 2026-11-25T23:00:00Z`, verify via API.

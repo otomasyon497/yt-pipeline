@@ -2882,7 +2882,7 @@
            "lat": 28.97,
            "span": 0.45
           },
-          "date": "2025-03-01/2025-03-31"
+          "date": "2025-01-25/2025-01-25"
          }
         ],
         "cut": true
@@ -2900,12 +2900,12 @@
            "lat": 28.94,
            "span": 0.7
           },
-          "date": "2025-03-01/2025-03-31"
+          "date": "2025-01-25/2025-01-25"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The Gulf off the canal"
+       "on_screen_text": "The Gulf off the canal at low tide"
       },
       {
        "type": "photo",

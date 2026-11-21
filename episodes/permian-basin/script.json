@@ -1,0 +1,3710 @@
+{
+ "title": "Why Half of America's Oil Comes From One Empty Corner of Texas",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/permian-basin/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Permian Basin boundaries: U.S. Energy Information Administration (2017)",
+  "Night lights: NOAA/NASA VIIRS"
+ ],
+ "thumbnail": {
+  "text": "48% OF U.S. OIL FROM HERE"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "From orbit, this part of West Texas looks almost empty. Brown scrub, dry riverbeds, a few straight roads. But zoom in, and the desert is covered in pale squares, thousands of them, laid out in rows like a grid on graph paper. Each square is a drilling pad. And together, these squares and the ones across the border in New Mexico produced about six point six million barrels of crude oil a day in 2025. According to the U.S. Energy Information Administration, that is forty-eight percent of all the crude oil produced in the United States.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.65,
+           "lat": 31.82,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "West Texas from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Brown scrub, dry riverbeds,",
+       "photo": "File:Panorama across a desert basin toward distant mesas, Pecos County, Texas.jpg",
+       "on_screen_text": "Pecos County, West Texas"
+      },
+      {
+       "type": "map",
+       "at": "But zoom in, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.65,
+           "lat": 31.82,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Loving County, Texas"
+      },
+      {
+       "type": "map",
+       "at": "thousands of them, laid",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.7,
+           "lat": 31.85,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Each pale square is a drilling pad"
+      },
+      {
+       "type": "photo",
+       "at": "Each square is a",
+       "photo": "File:Natural gas flare at petroleum well site (Whites City, New Mexico, USA) 1.jpg",
+       "on_screen_text": "A well site in the Permian Basin, New Mexico"
+      },
+      {
+       "type": "map",
+       "at": "And together, these squares",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 31.75,
+           "span": 6.4
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Odessa",
+            "lon": -102.37,
+            "lat": 31.85,
+            "kind": "city",
+            "label": "Odessa"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "produced about six point",
+       "stat": {
+        "value": "6.6 MILLION",
+        "label": "Barrels of crude oil a day, Permian Basin, 2025",
+        "source": "U.S. Energy Information Administration (Today in Energy, 2026)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "According to the U.S.",
+       "photo": "File:Face. Horse head on pumpjack. - Flickr - Night Photo.jpg",
+       "on_screen_text": "A pumpjack at night"
+      },
+      {
+       "type": "stat",
+       "at": "that is forty-eight percent",
+       "stat": {
+        "value": "48%",
+        "label": "Of all U.S. crude oil production, 2025",
+        "source": "U.S. Energy Information Administration (Today in Energy, 2026)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nearly half of the oil of the world's biggest oil producer comes out of one dry basin, about two hundred and fifty miles wide and three hundred long. The biggest towns here, Midland and Odessa, have about a hundred and forty-four thousand and a hundred and twenty thousand people. There is no great city, no big river, no coast. So why here?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -97.0,
+           "lat": 37.5,
+           "span": 30.0
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           }
+          ]
+         },
+         {
+          "at": "biggest oil producer comes",
+          "view": {
+           "lon": -101.5,
+           "lat": 32.5,
+           "span": 10.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "about two hundred and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.28,
+           "lat": 31.878,
+           "span": 5.76
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Odessa",
+            "lon": -102.37,
+            "lat": 31.85,
+            "kind": "city",
+            "label": "Odessa"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The biggest towns here,",
+       "photo": "File:Midland, TX skyline (cropped).jpg",
+       "on_screen_text": "Midland, Texas"
+      },
+      {
+       "type": "stat",
+       "at": "have about a hundred",
+       "stat": {
+        "value": "143,687",
+        "label": "People in Midland, 2024",
+        "source": "U.S. Census Bureau via City of Midland, 2024 estimates",
+        "note": "Odessa: 119,748"
+       }
+      },
+      {
+       "type": "map",
+       "at": "There is no great",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.37,
+           "lat": 31.86,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Odessa from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "So why here?",
+       "photo": "File:Road in Loving County, Texas.jpg",
+       "on_screen_text": "Loving County, Texas"
+      }
+     ]
+    },
+    {
+     "text": "The answer is that this desert used to be a sea. Over the next few minutes you'll see a reef that became the highest mountain in Texas, caves dissolved by acid that rose out of the oil, a layer of salt so thick that the United States buries nuclear waste in it, and a well on university land that changed the state's history. And you'll see what it costs to pump a dead sea back out of the ground, from earthquakes to holes that open in the desert. It starts about two hundred and sixty million years ago, when this corner of Texas was underwater.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.0,
+           "lat": 31.8,
+           "span": 0.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -105.0,
+           "lat": 31.8,
+           "span": 0.248
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt flats west of the Guadalupe Mountains"
+      },
+      {
+       "type": "photo",
+       "at": "you'll see a reef",
+       "photo": "File:El Cap GUMO.jpg",
+       "on_screen_text": "El Capitan, Guadalupe Mountains"
+      },
+      {
+       "type": "photo",
+       "at": "caves dissolved by acid",
+       "photo": "File:Big Room, Carlsbad Cavern (51203204939).jpg",
+       "on_screen_text": "Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "a layer of salt",
+       "photo": "File:DOE Begins Mining Operations for Salt Disposal Investigations at WIPP.jpg",
+       "on_screen_text": "Salt, 2,150 ft down: the Waste Isolation Pilot Plant"
+      },
+      {
+       "type": "photo",
+       "at": "and a well on",
+       "photo": "File:Santa Rita No. 1 Oil Well Front.jpg",
+       "on_screen_text": "Santa Rita No. 1"
+      },
+      {
+       "type": "photo",
+       "at": "And you'll see what",
+       "photo": "File:Natural gas flare at petroleum well site (Whites City, New Mexico, USA) 2.jpg",
+       "on_screen_text": "Gas flare at a well site, New Mexico"
+      },
+      {
+       "type": "map",
+       "at": "from earthquakes to holes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.14,
+           "lat": 31.79,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wink, Texas"
+      },
+      {
+       "type": "map",
+       "at": "It starts about two",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.0,
+           "lat": 31.2,
+           "span": 13.0
+          },
+          "highlight": [
+           "Texas@alt",
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "El Paso",
+            "lon": -106.44,
+            "lat": 31.76,
+            "kind": "city",
+            "label": "El Paso"
+           },
+           {
+            "name": "Austin",
+            "lon": -97.74,
+            "lat": 30.27,
+            "kind": "city",
+            "label": "Austin"
+           }
+          ]
+         },
+         {
+          "at": "years ago, when this",
+          "view": {
+           "lon": -102.6,
+           "lat": 31.75,
+           "span": 6.4
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Sea at the Edge of Pangea",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "In the Permian period, all of the world's continents were jammed together into one supercontinent, Pangea. What is now West Texas sat near its edge, close to the equator. And here, the crust was sagging. A wide hollow formed, and the ocean flowed in through a narrow channel. The U.S. Geological Survey describes it as an inland sea, connected to the vast ocean around Pangea by that one passage.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "PANGEA",
+        "label": "All the continents joined in one supercontinent",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
+       }
+      },
+      {
+       "type": "map",
+       "at": "What is now West",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.0,
+           "lat": 31.5,
+           "span": 9.0
+          },
+          "highlight": [
+           "Texas@alt"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "El Paso",
+            "lon": -106.44,
+            "lat": 31.76,
+            "kind": "city",
+            "label": "El Paso"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And here, the crust",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.92,
+           "lat": 31.622,
+           "span": 7.04
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A wide hollow formed,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.408,
+           "lat": 31.494,
+           "span": 5.248
+          },
+          "highlight": [
+           "file:delaware.geojson@blue",
+           "file:midland.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The U.S. Geological Survey",
+       "stat": {
+        "value": "INLAND SEA",
+        "label": "Joined to the ocean around Pangea by one narrow channel",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "connected to the vast",
+       "photo": "File:A scenic hill top view of the Pitchfork Ranch located outside of Fort Stockton, Texas (24745816479).jpg",
+       "on_screen_text": "Pecos County hills, West Texas"
+      }
+     ]
+    },
+    {
+     "text": "The sea had a shape you can still trace today. In the west was a deep basin, now called the Delaware Basin. In the east, a second one, the Midland Basin. And between them, a raised block of crust, the Central Basin Platform, where the water was shallow. The whole region took its name from the period, and from the rocks laid down in it: the Permian Basin.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.792,
+           "lat": 32.006,
+           "span": 7.552
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the west was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.85,
+           "lat": 31.75,
+           "span": 3.0
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Delaware Basin"
+      },
+      {
+       "type": "map",
+       "at": "In the east, a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.7,
+           "lat": 32.0,
+           "span": 3.4
+          },
+          "highlight": [
+           "file:midland.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Odessa",
+            "lon": -102.37,
+            "lat": 31.85,
+            "kind": "city",
+            "label": "Odessa"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Midland Basin"
+      },
+      {
+       "type": "map",
+       "at": "And between them, a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.152,
+           "lat": 31.75,
+           "span": 6.08
+          },
+          "highlight": [
+           "file:delaware.geojson@blue",
+           "file:cbp.geojson@alt",
+           "file:midland.geojson@blue"
+          ]
+         },
+         {
+          "at": "the Central Basin Platform,",
+          "view": {
+           "lon": -102.6,
+           "lat": 31.8,
+           "span": 3.2
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Central Basin Platform (between)"
+      },
+      {
+       "type": "map",
+       "at": "The whole region took",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.048,
+           "lat": 31.75,
+           "span": 5.504
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
+           }
+          ]
+         },
+         {
+          "at": "from the rocks laid",
+          "view": {
+           "lon": -102.8,
+           "lat": 31.9,
+           "span": 5.0
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Permian Basin (EIA)"
+      }
+     ]
+    },
+    {
+     "text": "In warm, shallow water near the surface, life was everywhere. Sponges, algae and small shelled animals grew in enormous numbers. When they died, many of them sank into the deep parts of the basins. And down there, the water barely moved. The USGS explains that the burial and decay of all those dead organisms used up the oxygen in the deep water. Without oxygen, nothing finished eating them. The remains were simply buried, layer after layer, in dark mud.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Grand Canyon National Park- Fossils in Kaibab Limestone 0370 (7706171986).jpg",
+       "on_screen_text": "Permian sea fossils (Kaibab Limestone, Arizona)"
+      },
+      {
+       "type": "photo",
+       "at": "Sponges, algae and small",
+       "photo": "File:Grand Canyon National Park- Brachiopod Fossils in Kaibab Limestone 0378 (7706182918).jpg",
+       "on_screen_text": "Permian brachiopods, shelled sea animals"
+      },
+      {
+       "type": "map",
+       "at": "When they died, many",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.7,
+           "lat": 31.81,
+           "span": 2.7
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ]
+         },
+         {
+          "at": "parts of the basins.",
+          "view": {
+           "lon": -103.9,
+           "lat": 31.6,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The USGS explains that",
+       "stat": {
+        "value": "NO OXYGEN",
+        "label": "Decay used up the oxygen in the deep basin water",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "used up the oxygen",
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48344864041.jpg",
+       "on_screen_text": "Permian limestone, Carlsbad Caverns National Park"
+      },
+      {
+       "type": "map",
+       "at": "Without oxygen, nothing finished",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.3,
+           "lat": 31.3,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Reeves County, in the Delaware Basin"
+      },
+      {
+       "type": "map",
+       "at": "The remains were simply",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.9,
+           "lat": 31.55,
+           "span": 0.6
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Delaware Basin floor today"
+      }
+     ]
+    },
+    {
+     "text": "Over millions of years, that mud was pressed under more and more rock, and slowly heated. Heat and pressure turned the buried life into oil and gas. That is the first part of the answer. The oil under West Texas is the remains of a sea's worth of living things, buried in a basin that was built to keep them.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Stylolites in limestone (Lamar Limestone or Capitan Limestone, Upper Permian; McKittrick Canyon, Guadalupe Mountains, Texas, USA) 2 (24638404778).jpg",
+       "on_screen_text": "Limestone squeezed by the rock above (stylolites)"
+      },
+      {
+       "type": "stat",
+       "at": "Heat and pressure turned",
+       "stat": {
+        "value": "OIL + GAS",
+        "label": "Made from buried life by heat and pressure",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That is the first",
+       "photo": "File:Colorful \"pumpjack,\" a type of small oil pump that's a common sight in West Texas, along U.S. 83 near the town of Winters in Runnels County, Texas LCCN2014631353.tif",
+       "on_screen_text": "A pumpjack in West Texas"
+      },
+      {
+       "type": "photo",
+       "at": "The oil under West",
+       "photo": "File:West Texas Pumpjack.JPG",
+       "on_screen_text": "West Texas"
+      },
+      {
+       "type": "map",
+       "at": "buried in a basin",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.5,
+           "lat": 31.7,
+           "span": 1.0
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Delaware Basin"
+      }
+     ]
+    },
+    {
+     "text": "But a basin full of oil is not enough. Oil is light. Left alone, it creeps upward through the rock and escapes. For a field to last two hundred and fifty million years, something has to hold it in. And around the edge of this sea, something was growing that would help do exactly that.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Oil tower, Texon Texas 12-4-2012.jpg",
+       "on_screen_text": "An old derrick at Texon, Reagan County"
+      },
+      {
+       "type": "photo",
+       "at": "Left alone, it creeps",
+       "photo": "File:Gulf Oil Corporation, Waddell Gasoline Plant, West Texas (9576013391).jpg",
+       "on_screen_text": "Oil equipment, West Texas, 1956"
+      },
+      {
+       "type": "map",
+       "at": "For a field to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 32.07,
+           "span": 6.784
+          },
+          "highlight": [
+           "file:delaware.geojson@blue",
+           "file:midland.geojson@blue"
+          ]
+         },
+         {
+          "at": "fifty million years, something",
+          "view": {
+           "lon": -103.2,
+           "lat": 31.9,
+           "span": 3.4
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And around the edge",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.0,
+           "lat": 31.69,
+           "span": 3.3
+          },
+          "highlight": [
+           "file:capitan_reef.geojson@red",
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Reef That Became a Mountain",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Along the rim of the deep Delaware Basin, sponges, algae and other organisms built a reef. The USGS dates it to between two hundred and seventy-seven and two hundred and seventy-five million years ago. Geologists call it the Capitan Reef. It grew in a long U-shape around the basin, and according to the National Park Service, the whole reef complex is about four hundred miles long. In places, it is up to eighteen hundred feet thick.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.76,
+           "lat": 31.63,
+           "span": 2.46
+          },
+          "highlight": [
+           "file:capitan_reef.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Guadalupe Peak",
+            "lon": -104.861,
+            "lat": 31.891,
+            "kind": "site",
+            "label": "Guadalupe Peak",
+            "icon": "mountain"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Capitan Reef trend (EIA)"
+      },
+      {
+       "type": "stat",
+       "at": "The USGS dates it",
+       "stat": {
+        "value": "277-275 MILLION YEARS",
+        "label": "Age of the Capitan Reef",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "million years ago. Geologists",
+       "photo": "File:Guadalupe Escarpment (between Guadalupe Mountains National Park & Carlsbad Caverns National Park).jpg",
+       "on_screen_text": "The Guadalupe escarpment: the old reef front"
+      },
+      {
+       "type": "photo",
+       "at": "It grew in a",
+       "photo": "File:Guadalupe National Park (7671839588).jpg",
+       "on_screen_text": "Guadalupe Mountains"
+      },
+      {
+       "type": "stat",
+       "at": "and according to the",
+       "stat": {
+        "value": "400 MILES",
+        "label": "Length of the Capitan Reef complex, mostly buried",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In places, it is",
+       "photo": "File:El Capitan (4389347934).jpg",
+       "on_screen_text": "El Capitan"
+      }
+     ]
+    },
+    {
+     "text": "Most of that reef is still buried. But in one place, you can walk on it. About eighty million years ago, the USGS says, the whole region began to rise. Later, faults lifted one block of the reef thousands of feet into the air. Today that block is the Guadalupe Mountains, near the New Mexico line. The highest point, Guadalupe Peak, stands eight thousand seven hundred and fifty-one feet above sea level. It is the highest point in Texas.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Guadalupe Mountains National Park - 53196461646.jpg",
+       "on_screen_text": "Guadalupe Mountains National Park"
+      },
+      {
+       "type": "map",
+       "at": "About eighty million years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.85,
+           "lat": 31.9,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Guadalupe Mountains from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Later, faults lifted one",
+       "photo": "File:View of the Guadalupe Mountains in Guadalupe Mountains National Park in Hudspeth County, Texas LCCN2014631688.tif",
+       "on_screen_text": "The Guadalupe Mountains"
+      },
+      {
+       "type": "photo",
+       "at": "Today that block is",
+       "photo": "File:Guadalupe Mountains National Park - 53196461806.jpg",
+       "on_screen_text": "Guadalupe Mountains National Park"
+      },
+      {
+       "type": "photo",
+       "at": "The highest point, Guadalupe",
+       "photo": "File:Guadalupe Peak.JPG",
+       "on_screen_text": "Guadalupe Peak"
+      },
+      {
+       "type": "stat",
+       "at": "stands eight thousand seven",
+       "stat": {
+        "value": "8,751 FT",
+        "label": "Guadalupe Peak, the highest point in Texas",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It is the highest",
+       "photo": "File:Guadalupe Mountains National Park - 53196661490.jpg",
+       "on_screen_text": "Guadalupe Mountains"
+      }
+     ]
+    },
+    {
+     "text": "At the southern end of the range is a sheer pale cliff called El Capitan. It is part of the same reef. The highest ground in Texas was built by sponges and algae at the bottom of a sea. The exposed stretch of the reef runs about forty miles from the national park northeast, almost to the town of Carlsbad, New Mexico.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Guadalupe Mountains National Park - 53196001807.jpg",
+       "on_screen_text": "El Capitan, the south end of the Guadalupe Mountains"
+      },
+      {
+       "type": "map",
+       "at": "It is part of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.86,
+           "lat": 31.88,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "El Capitan from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "The highest ground in",
+       "photo": "File:El Capitan (9330499901).jpg",
+       "on_screen_text": "El Capitan"
+      },
+      {
+       "type": "photo",
+       "at": "sponges and algae at",
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48344861051.jpg",
+       "on_screen_text": "Reef limestone, Carlsbad Caverns National Park"
+      },
+      {
+       "type": "map",
+       "at": "The exposed stretch of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.5,
+           "lat": 32.15,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30",
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Guadalupe Peak",
+            "lon": -104.861,
+            "lat": 31.891,
+            "kind": "site",
+            "label": "Guadalupe Peak",
+            "icon": "mountain"
+           }
+          ]
+         },
+         {
+          "at": "the national park northeast,",
+          "view": {
+           "lon": -104.35,
+           "lat": 32.3,
+           "span": 0.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "And under Carlsbad, the reef is hollow. Carlsbad Cavern runs for more than thirty miles. Nearby Lechuguilla Cave, also inside the reef, has been mapped for more than a hundred and thirty-eight miles. Most caves are carved slowly by rainwater. These were not. According to the National Park Service, they were dissolved by sulfuric acid.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48344881691.jpg",
+       "on_screen_text": "The reef above Carlsbad Caverns"
+      },
+      {
+       "type": "photo",
+       "at": "Carlsbad Cavern runs for",
+       "photo": "File:Big Room, Carlsbad Cavern (51234085016).jpg",
+       "on_screen_text": "Big Room, Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "Nearby Lechuguilla Cave, also",
+       "photo": "File:Lechuguilla-Cave-Overview-20190715.jpg",
+       "on_screen_text": "Lechuguilla Cave"
+      },
+      {
+       "type": "stat",
+       "at": "has been mapped for",
+       "stat": {
+        "value": "138+ MILES",
+        "label": "Lechuguilla Cave, mapped so far",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most caves are carved",
+       "photo": "File:Draperies, Big Room, Carlsbad Cavern (51202478206).jpg",
+       "on_screen_text": "Draperies, Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "According to the National",
+       "photo": "File:Giant Dome, Big Room, Carlsbad Cavern (51201755657).jpg",
+       "on_screen_text": "Giant Dome, Carlsbad Cavern"
+      }
+     ]
+    },
+    {
+     "text": "Here is how. Hydrogen sulfide gas rose from the oil and gas deposits deep below. The USGS says this was happening as late as about twelve million years ago. When the gas met groundwater carrying oxygen, the two made sulfuric acid, and the acid ate through the limestone of the reef. The proof is a mineral left on the cave floors: gypsum, which forms when that acid reacts with limestone. So one of America's most famous caves was carved by the oil field next door.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48344850747.jpg",
+       "on_screen_text": "Carlsbad Caverns National Park"
+      },
+      {
+       "type": "stat",
+       "at": "The USGS says this",
+       "stat": {
+        "value": "12 MILLION YEARS AGO",
+        "label": "Hydrogen sulfide was still rising from the oil",
+        "source": "U.S. Geological Survey, Guadalupe Mountains geology"
+       }
+      },
+      {
+       "type": "map",
+       "at": "When the gas met",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.44,
+           "lat": 32.17,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Above Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "acid, and the acid",
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48347954181.jpg",
+       "on_screen_text": "Inside the reef: Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "The proof is a",
+       "photo": "File:My Public Lands Roadtrip- Parks Ranch Cave in New Mexico (20332603939).jpg",
+       "on_screen_text": "Gypsum walls, Parks Ranch Cave, New Mexico"
+      },
+      {
+       "type": "photo",
+       "at": "which forms when that",
+       "photo": "File:Big Room, Carlsbad Cavern (51202483276).jpg",
+       "on_screen_text": "Big Room, Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "So one of America's",
+       "photo": "File:Visitors - Big Room, Carlsbad Cavern (51203926399).jpg",
+       "on_screen_text": "Visitors in the Big Room"
+      }
+     ]
+    },
+    {
+     "text": "The reef ringed the deep basin, and the oil formed in the deep basin. But the reef could not seal anything on its own. What finally locked the oil in place came at the end, when the sea itself began to die.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.94,
+           "lat": 31.87,
+           "span": 3.54
+          },
+          "highlight": [
+           "file:capitan_reef.geojson@red",
+           "file:delaware.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But the reef could",
+       "photo": "File:View of the Guadalupe Mountains in Guadalupe Mountains National Park in Hudspeth County, Texas LCCN2014631689.tif",
+       "on_screen_text": "The Guadalupe Mountains"
+      },
+      {
+       "type": "map",
+       "at": "What finally locked the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 31.43,
+           "span": 4.992
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           }
+          ]
+         },
+         {
+          "at": "the end, when the",
+          "view": {
+           "lon": -103.6,
+           "lat": 31.9,
+           "span": 3.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sea Dies",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Toward the end of the Permian, the narrow channel that fed this sea was gradually cut off. Fresh seawater could no longer flow in easily. And under the hot sun near the equator, the water kept evaporating. As it shrank, it grew saltier and saltier, until the salt began to fall out of the water and settle on the bottom.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.28,
+           "lat": 31.878,
+           "span": 5.587
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         },
+         {
+          "at": "sea was gradually cut",
+          "view": {
+           "lon": -104.0,
+           "lat": 31.6,
+           "span": 2.8
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And under the hot",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.0,
+           "lat": 31.75,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Salt Basin flats, West Texas"
+      },
+      {
+       "type": "photo",
+       "at": "As it shrank, it",
+       "photo": "File:Halite (Great Salt Lake Desert, Utah, USA) 1.jpg",
+       "on_screen_text": "Halite: rock salt"
+      },
+      {
+       "type": "photo",
+       "at": "began to fall out",
+       "photo": "File:Pink halite (Holocene; Searles Lake, near Trona, California, USA) 1.jpg",
+       "on_screen_text": "A salt crystal"
+      }
+     ]
+    },
+    {
+     "text": "Layer after layer of salt and gypsum piled up. Two formations hold most of it, the Castile and, above it, the Salado. The National Academies describe the Salado alone as two hundred to four hundred metres of beds, mostly rock salt. That is up to thirteen hundred feet of salt, left behind by a sea that dried in place.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Rock salt (halitite) (Haselgebirge Formation, Upper Permian to Lower Triassic; salt mine at or near Halle-in-Tyrol, Northern Calcareous Alps, western Austria) (15195697744).jpg",
+       "on_screen_text": "Rock salt from the Permian (Austria)"
+      },
+      {
+       "type": "map",
+       "at": "Two formations hold most",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.64,
+           "lat": 31.75,
+           "span": 2.85
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "WIPP",
+            "lon": -103.79,
+            "lat": 32.37,
+            "kind": "site",
+            "label": "WIPP (nuclear waste in salt)",
+            "icon": "warning"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Delaware Basin"
+      },
+      {
+       "type": "stat",
+       "at": "the Salado alone as",
+       "stat": {
+        "value": "200-400 M",
+        "label": "Thickness of the Salado salt",
+        "source": "National Academies Press (WIPP geology)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is up to",
+       "stat": {
+        "value": "1,300 FT",
+        "label": "Of salt, left by a sea that dried in place",
+        "source": "National Academies Press (WIPP geology)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "left behind by a",
+       "photo": "File:DOE Begins Mining Operations for Salt Disposal Investigations at WIPP 2.jpg",
+       "on_screen_text": "Permian salt at WIPP"
+      }
+     ]
+    },
+    {
+     "text": "Salt does something unusual. Under pressure, it slowly flows, like a very thick paste, and it closes cracks around it. A thick blanket of salt over a basin works like a lid. Together with the dense rocks around the edge, it helped hold the oil and gas down for a quarter of a billion years.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "SALT FLOWS",
+        "label": "Under pressure, salt slowly creeps and closes cracks",
+        "source": "National Academies Press (WIPP geology)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and it closes cracks",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.92,
+           "lat": 31.622,
+           "span": 6.829
+          },
+          "highlight": [
+           "file:delaware.geojson@blue",
+           "file:capitan_reef.geojson@red"
+          ]
+         },
+         {
+          "at": "A thick blanket of",
+          "view": {
+           "lon": -103.8,
+           "lat": 31.9,
+           "span": 2.8
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Together with the dense",
+       "photo": "File:Guadalupe Escarpment (between Guadalupe Mountains National Park & Carlsbad Caverns National Park).jpg",
+       "on_screen_text": "The reef rock along the basin edge"
+      },
+      {
+       "type": "photo",
+       "at": "the oil and gas",
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48344879646.jpg",
+       "on_screen_text": "From the reef, looking over the basin"
+      }
+     ]
+    },
+    {
+     "text": "The end of the Permian was not just the end of this sea. About two hundred and fifty-two million years ago, the period closed with the largest mass extinction known. Britannica estimates that about ninety percent of all species on Earth disappeared, including more than ninety-five percent of marine species. It is often called the Great Dying. The sea that made West Texas was gone, and so was most of the life that had filled the world's oceans.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Grand Canyon National Park- Brachiopod Fossils in Kaibab Limestone 0378 (7706182918).jpg",
+       "on_screen_text": "Permian sea fossils"
+      },
+      {
+       "type": "stat",
+       "at": "About two hundred and",
+       "stat": {
+        "value": "252 MILLION YEARS AGO",
+        "label": "The end-Permian mass extinction",
+        "source": "Encyclopaedia Britannica, Permian extinction"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Britannica estimates that about",
+       "stat": {
+        "value": "~90%",
+        "label": "Of all species on Earth lost",
+        "source": "Encyclopaedia Britannica, Permian extinction"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "including more than ninety-five",
+       "stat": {
+        "value": ">95%",
+        "label": "Of marine species lost",
+        "source": "Encyclopaedia Britannica, Permian extinction"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The sea that made",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.9,
+           "lat": 31.6,
+           "span": 1.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 67,
+          "view": {
+           "lon": -103.9,
+           "lat": 31.6,
+           "span": 0.744
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "West Texas today"
+      }
+     ]
+    },
+    {
+     "text": "That salt is still there. Near Carlsbad, the U.S. Department of Energy runs the Waste Isolation Pilot Plant, which takes radioactive waste from the country's nuclear weapons program. Its disposal rooms are dug into the Salado salt, about two thousand one hundred and fifty feet underground. The Department of Energy says the salt was laid down about two hundred and fifty million years ago, as the Permian Sea evaporated, and that its most important quality is the way salt seals fractures and closes openings. The same property that kept the oil down is now trusted to keep nuclear waste in place.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.06,
+           "lat": 31.75,
+           "span": 2.58
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "WIPP",
+            "lon": -103.79,
+            "lat": 32.37,
+            "kind": "site",
+            "label": "WIPP (nuclear waste in salt)",
+            "icon": "warning"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Department of Energy runs",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.79,
+           "lat": 32.37,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "WIPP from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Pilot Plant, which takes",
+       "photo": "File:Waste Isolation Pilot Plant 2004.jpg",
+       "on_screen_text": "Waste Isolation Pilot Plant, New Mexico"
+      },
+      {
+       "type": "stat",
+       "at": "dug into the Salado",
+       "stat": {
+        "value": "2,150 FT",
+        "label": "Depth of WIPP's disposal rooms, in Permian salt",
+        "source": "U.S. Department of Energy, WIPP"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Department of Energy",
+       "photo": "File:DOE Begins Mining Operations for Salt Disposal Investigations at WIPP.jpg",
+       "on_screen_text": "Mining the salt at WIPP"
+      },
+      {
+       "type": "photo",
+       "at": "laid down about two",
+       "photo": "File:Halite (Great Salt Lake Desert, Utah, USA) 1.jpg",
+       "on_screen_text": "Rock salt"
+      },
+      {
+       "type": "stat",
+       "at": "and that its most",
+       "stat": {
+        "value": "SALT SEALS",
+        "label": "Fractures close and openings close over time",
+        "source": "U.S. Department of Energy, WIPP"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The same property that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.79,
+           "lat": 32.37,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 92,
+          "view": {
+           "lon": -103.79,
+           "lat": 32.37,
+           "span": 0.124
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "WIPP in the desert east of Carlsbad"
+      }
+     ]
+    },
+    {
+     "text": "So by the end of the Permian, everything was ready. A thick layer of buried life, cooked into oil. A reef along the edge. And salt over the top. Then the oil waited for about two hundred and fifty million years, until someone came out to this empty country with a drilling rig.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.408,
+           "lat": 31.494,
+           "span": 5.091
+          },
+          "highlight": [
+           "file:delaware.geojson@blue",
+           "file:cbp.geojson@alt",
+           "file:midland.geojson@blue"
+          ]
+         },
+         {
+          "at": "ready. A thick layer",
+          "view": {
+           "lon": -102.7,
+           "lat": 31.7,
+           "span": 4.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A reef along the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.86,
+           "lat": 31.9,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The reef: Guadalupe Mountains"
+      },
+      {
+       "type": "photo",
+       "at": "Then the oil waited",
+       "photo": "File:Desert shrubs above a wide basin under cirrus, Pecos County, Texas.jpg",
+       "on_screen_text": "Pecos County, Texas"
+      },
+      {
+       "type": "photo",
+       "at": "until someone came out",
+       "photo": "File:Superior Oil Co. drill site, West Texas 1949.jpg",
+       "on_screen_text": "Drill site, West Texas, 1949"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The First Boom",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Texas wrote a new constitution in 1876, and it gave its future state university one million acres of land in the dry west. In 1883, the legislature added another million acres, land a railroad had handed back because it was considered too worthless even to survey. Historians have called the first grant much less desirable land in arid western Texas. For decades, nobody disagreed.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1,000,000 ACRES",
+        "label": "West Texas land granted to the university, 1876",
+        "source": "UTIMCO, Permanent University Fund"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "future state university one",
+       "photo": "File:Reagan county tx courthouse 2014.jpg",
+       "on_screen_text": "Reagan County courthouse, Big Lake"
+      },
+      {
+       "type": "stat",
+       "at": "In 1883, the legislature",
+       "stat": {
+        "value": "+1,000,000 ACRES",
+        "label": "1883: land considered too worthless to survey",
+        "source": "UTIMCO, Permanent University Fund"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "had handed back because",
+       "photo": "File:Fond farewell to the Guadalupe Mountains (4570857897).jpg",
+       "on_screen_text": "West Texas road"
+      },
+      {
+       "type": "photo",
+       "at": "Historians have called the",
+       "photo": "File:Panorama across a desert basin toward distant mesas, Pecos County, Texas.jpg",
+       "on_screen_text": "West Texas range land"
+      },
+      {
+       "type": "map",
+       "at": "For decades, nobody disagreed.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.792,
+           "lat": 32.006,
+           "span": 7.325
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Big Lake",
+            "lon": -101.46,
+            "lat": 31.19,
+            "kind": "city",
+            "label": "Big Lake"
+           },
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then, on the twenty-eighth of May, 1923, a well called Santa Rita Number One came in about thirteen miles west of the town of Big Lake, in Reagan County. It stood on university land. According to the University of Texas System, it was the first major oil discovery in the Permian Basin. Its rig now stands on the university's campus in Austin.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Santa Rita No. 1 Oil Well Info.jpg",
+       "on_screen_text": "Santa Rita No. 1 marker"
+      },
+      {
+       "type": "map",
+       "at": "a well called Santa",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.66,
+           "lat": 31.21,
+           "span": 0.15
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": -101.66,
+           "lat": 31.21,
+           "span": 0.093
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "West of Big Lake, Reagan County"
+      },
+      {
+       "type": "photo",
+       "at": "It stood on university",
+       "photo": "File:Santa Rita No. 1 Oil Well Side.jpg",
+       "on_screen_text": "Santa Rita No. 1"
+      },
+      {
+       "type": "stat",
+       "at": "According to the University",
+       "stat": {
+        "value": "28 MAY 1923",
+        "label": "Santa Rita No. 1: the first major Permian discovery",
+        "source": "University of Texas System"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the first major oil",
+       "photo": "File:Santa Rita No. 1 Oil Well Event.jpg",
+       "on_screen_text": "Santa Rita No. 1 plaque"
+      },
+      {
+       "type": "photo",
+       "at": "Its rig now stands",
+       "photo": "File:Santa Rita No. 1 Oil Well Front.jpg",
+       "on_screen_text": "Santa Rita No. 1 rig, UT Austin campus"
+      }
+     ]
+    },
+    {
+     "text": "That well changed what the university's desert was worth. Today, the Permanent University Fund owns about two point one million acres, mostly in West Texas. In fiscal year 2025, oil and gas from those lands brought in about one point seven billion dollars, according to University Lands. And the fund itself was worth about thirty-nine and a half billion dollars in mid-2025. A sea that died two hundred and fifty million years ago now helps pay for universities in Texas.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2.1 MILLION ACRES",
+        "label": "Permanent University Fund lands, mostly West Texas",
+        "source": "UTIMCO, Permanent University Fund"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Today, the Permanent University",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.152,
+           "lat": 31.75,
+           "span": 5.898
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Santa Rita No. 1",
+            "lon": -101.68,
+            "lat": 31.21,
+            "kind": "site",
+            "label": "Santa Rita No. 1 (1923)",
+            "icon": "warning"
+           },
+           {
+            "name": "Big Lake",
+            "lon": -101.46,
+            "lat": 31.19,
+            "kind": "city",
+            "label": "Big Lake"
+           },
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In fiscal year 2025,",
+       "stat": {
+        "value": "$1.72 BILLION",
+        "label": "Mineral revenue from PUF lands, fiscal 2025",
+        "source": "University Lands, FY2025 annual report"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in about one point",
+       "photo": "File:Colorful \"pumpjack,\" a type of small oil pump that's a common sight in West Texas, along U.S. 83 near the town of Winters in Runnels County, Texas LCCN2014631353.tif",
+       "on_screen_text": "Pumpjack, West Texas"
+      },
+      {
+       "type": "stat",
+       "at": "And the fund itself",
+       "stat": {
+        "value": "$39.5 BILLION",
+        "label": "Permanent University Fund, 30 June 2025",
+        "source": "UTIMCO, Permanent University Fund"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A sea that died",
+       "photo": "File:Pumpjacks in Texas.JPG",
+       "on_screen_text": "Pumpjacks, West Texas"
+      },
+      {
+       "type": "photo",
+       "at": "years ago now helps",
+       "photo": "File:A scenic hill top view of the Pitchfork Ranch located outside of Fort Stockton, Texas (24745816479).jpg",
+       "on_screen_text": "West Texas"
+      }
+     ]
+    },
+    {
+     "text": "Three years after Santa Rita, in October 1926, an even bigger strike came in Pecos County, on a ranch owned by Ira and Ann Yates. The state historical marker says the discovery well was rated at more than seventy-two thousand barrels a day, from a depth of just eleven hundred and fifty feet. The town that grew up beside the field took its name from the couple: Iraan. The Yates field has since produced more than five hundred million barrels.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 30.9,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Yates field, Pecos County"
+      },
+      {
+       "type": "map",
+       "at": "came in Pecos County,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.85,
+           "lat": 30.93,
+           "span": 0.1
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yates field wells near Iraan"
+      },
+      {
+       "type": "stat",
+       "at": "The state historical marker",
+       "stat": {
+        "value": "72,869",
+        "label": "Barrels a day: rated flow of the 1926 discovery well",
+        "source": "Texas Historical Commission marker"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "thousand barrels a day,",
+       "photo": "File:YatesOilfieldNASA.jpg",
+       "on_screen_text": "The Yates field from space (NASA)"
+      },
+      {
+       "type": "map",
+       "at": "The town that grew",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.9,
+           "lat": 30.91,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 60,
+          "view": {
+           "lon": -101.9,
+           "lat": 30.91,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Iraan, Texas"
+      },
+      {
+       "type": "stat",
+       "at": "The Yates field has",
+       "stat": {
+        "value": "500+ MILLION",
+        "label": "Barrels produced by the Yates field",
+        "source": "Texas Historical Commission marker"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Through the following decades, oil money built Midland and Odessa in the middle of the basin. Midland became the office town. By 1929, according to the Dallas Fed, thirty-six oil companies had opened offices there. Odessa, closer to the fields, became the working town of oilfield service companies, machinery and crews. And production kept rising, until 1973. According to the Federal Reserve Bank of Dallas, Permian oil production began to decline that year, and kept declining for decades.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Greetings from Odessa, Texas, \"Hub City of Odessa West Texas Oil Field\" - Large Letter Postcard (9428792540).jpg",
+       "on_screen_text": "Odessa postcard: Hub City of the West Texas Oil Field"
+      },
+      {
+       "type": "map",
+       "at": "Midland became the office",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.08,
+           "lat": 32.0,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Midland"
+      },
+      {
+       "type": "stat",
+       "at": "By 1929, according to",
+       "stat": {
+        "value": "36",
+        "label": "Oil companies with offices in Midland by 1929",
+        "source": "Federal Reserve Bank of Dallas"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Odessa, closer to the",
+       "photo": "File:Navion at jackknife rig near Midland, Texas - Superior Oil Co. (8660568313).jpg",
+       "on_screen_text": "Jackknife rig near Midland"
+      },
+      {
+       "type": "photo",
+       "at": "And production kept rising,",
+       "photo": "File:Beech Bonanza at jackknife rig near Midland, Texas - Superior Oil Co. (8552972042).jpg",
+       "on_screen_text": "Oilmen at a rig near Midland"
+      },
+      {
+       "type": "stat",
+       "at": "According to the Federal",
+       "stat": {
+        "value": "1973",
+        "label": "Permian oil production begins to decline",
+        "source": "Federal Reserve Bank of Dallas"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "production began to decline",
+       "photo": "File:Directory Map, City of Midland - NARA - 109182530.jpg",
+       "on_screen_text": "Midland street map, 1928"
+      }
+     ]
+    },
+    {
+     "text": "Then prices fell too. In the 1980s, oil crashed to around ten dollars a barrel. The FDIC, the agency that insures American bank deposits, counts four hundred and twenty-five Texas commercial banks that failed between 1980 and 1989, including nine of the state's ten largest bank holding companies. The oil boom had made West Texas. The bust nearly broke it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Odessa, Texas.jpg",
+       "on_screen_text": "Odessa, Texas"
+      },
+      {
+       "type": "stat",
+       "at": "In the 1980s, oil",
+       "stat": {
+        "value": "~$10",
+        "label": "A barrel of oil after the 1980s crash",
+        "source": "FDIC, History of the Eighties"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "barrel. The FDIC, the",
+       "photo": "File:County courthouse for Winkler County, near the New Mexico line in far-west Texas LCCN2014630676.jpg",
+       "on_screen_text": "Winkler County courthouse, Kermit"
+      },
+      {
+       "type": "stat",
+       "at": "counts four hundred and",
+       "stat": {
+        "value": "425",
+        "label": "Texas commercial banks failed, 1980-1989",
+        "source": "FDIC, History of the Eighties"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and 1989, including nine",
+       "stat": {
+        "value": "9 OF 10",
+        "label": "Largest Texas bank holding companies among them",
+        "source": "FDIC, History of the Eighties"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The oil boom had",
+       "photo": "File:Pink rhymes with Wink, which is the West Texas town in which this store window was photographed LCCN2014630679.tif",
+       "on_screen_text": "Shop window, Wink, Texas"
+      }
+     ]
+    },
+    {
+     "text": "For years after that, the Permian looked like an old field. The easy oil had been found. The wells were aging. The rock that held the most oil of all was still down there, but nobody could make it flow. Who would make it flow, and what would it cost the ground above?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Pumpjacks in Texas.JPG",
+       "on_screen_text": "Pumpjacks in Texas"
+      },
+      {
+       "type": "photo",
+       "at": "an old field. The",
+       "photo": "File:Oil tower, Texon Texas 12-4-2012.jpg",
+       "on_screen_text": "Old derrick, Texon"
+      },
+      {
+       "type": "map",
+       "at": "The rock that held",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.048,
+           "lat": 31.75,
+           "span": 5.339
+          },
+          "highlight": [
+           "file:delaware.geojson@blue",
+           "file:midland.geojson@blue"
+          ]
+         },
+         {
+          "at": "was still down there,",
+          "view": {
+           "lon": -103.0,
+           "lat": 31.8,
+           "span": 3.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Who would make it",
+       "photo": "File:Natural gas flare at petroleum well site (Whites City, New Mexico, USA) 1.jpg",
+       "on_screen_text": "A modern well site, New Mexico"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Second Boom",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Remember the dark mud at the bottom of the sea, the source of all that oil? Much of the oil never left it. It stayed trapped inside the mud itself, now hard shale, in pores far too small for oil to flow through on its own. One of the richest of those layers is called the Wolfcamp.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.85,
+           "lat": 31.9,
+           "span": 3.18
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ]
+         },
+         {
+          "at": "source of all that",
+          "view": {
+           "lon": -103.7,
+           "lat": 31.8,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Much of the oil",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.55,
+           "lat": 31.7,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": -103.55,
+           "lat": 31.7,
+           "span": 0.186
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Delaware Basin"
+      },
+      {
+       "type": "photo",
+       "at": "pores far too small",
+       "photo": "File:Stylolites in limestone (Lamar Limestone or Capitan Limestone, Upper Permian; McKittrick Canyon, Guadalupe Mountains, Texas, USA) 2 (24638404778).jpg",
+       "on_screen_text": "Tight rock: no room for oil to flow"
+      },
+      {
+       "type": "stat",
+       "at": "One of the richest",
+       "stat": {
+        "value": "WOLFCAMP",
+        "label": "One of the richest oil-bearing shale layers",
+        "source": "USGS Fact Sheet 2018-3073"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Two techniques changed that. The first is horizontal drilling. A well goes straight down, then turns and runs sideways, along the oil-bearing layer itself. The second is hydraulic fracturing: water, sand and chemicals pumped down at high pressure to crack the rock open, with the sand holding the cracks apart so the oil can flow.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.72,
+           "lat": 31.86,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Well pads, Loving County"
+      },
+      {
+       "type": "map",
+       "at": "straight down, then turns",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.5,
+           "lat": 32.05,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads in rows, Reeves County"
+      },
+      {
+       "type": "photo",
+       "at": "The second is hydraulic",
+       "photo": "File:Navion at jackknife rig near Midland, Texas - Superior Oil Co. (8660568313).jpg",
+       "on_screen_text": "A drilling rig, West Texas"
+      },
+      {
+       "type": "map",
+       "at": "pumped down at high",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.35,
+           "lat": 31.95,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ponds and pads"
+      },
+      {
+       "type": "map",
+       "at": "with the sand holding",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.6,
+           "lat": 31.95,
+           "span": 0.15
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads and access roads"
+      }
+     ]
+    },
+    {
+     "text": "In the Permian, that combination took off fast. In May 2009, according to the Dallas Fed, just ninety-two drilling rigs were working in the basin. By June 2012, there were five hundred and twenty-five. Horizontal wells took over. By 2018, ninety percent of rigs in the basin were drilling horizontally. By 2022, ninety-five percent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.65,
+           "lat": 31.82,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Delaware Basin oil field"
+      },
+      {
+       "type": "stat",
+       "at": "In May 2009, according",
+       "stat": {
+        "value": "92",
+        "label": "Drilling rigs working in the Permian Basin, May 2009",
+        "source": "Federal Reserve Bank of Dallas"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "By June 2012, there",
+       "chart": {
+        "type": "bar",
+        "title": "Drilling rigs working in the Permian Basin",
+        "unit": "rigs",
+        "data": [
+         [
+          "May 2009",
+          92
+         ],
+         [
+          "June 2012",
+          525
+         ]
+        ],
+        "source": "Federal Reserve Bank of Dallas",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "Horizontal wells took over.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.45,
+           "lat": 32.15,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Southeastern New Mexico"
+      },
+      {
+       "type": "stat",
+       "at": "By 2018, ninety percent",
+       "stat": {
+        "value": "90% → 95%",
+        "label": "Permian rigs drilling horizontally, 2018 → 2022",
+        "source": "Federal Reserve Bank of Dallas"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That's why the desert looks like graph paper from orbit. Every pad is a cluster of wells, and from each pad, horizontal wells run out under the ground in long parallel lines. The grid you see from space is the top of a much bigger grid below.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.66,
+           "lat": 31.83,
+           "span": 0.18
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "From orbit: a grid of pads"
+      },
+      {
+       "type": "map",
+       "at": "Every pad is a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.58,
+           "lat": 31.98,
+           "span": 0.09
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "horizontal wells run out",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.8,
+           "lat": 31.92,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads in parallel rows"
+      },
+      {
+       "type": "photo",
+       "at": "The grid you see",
+       "photo": "File:ISS-65 Odessa, Texas.jpg",
+       "on_screen_text": "Odessa from the space station"
+      }
+     ]
+    },
+    {
+     "text": "In 2017, according to an analysis by IHS Markit, the Permian produced more oil in a year than it had in its old record year of 1973. And it kept climbing. By 2025, the EIA put the basin at six point six million barrels a day. That is close to half of all U.S. crude oil, and the United States set a national record that year at thirteen point six million barrels a day.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2017",
+        "label": "Permian output passes its 1973 record",
+        "source": "IHS Markit analysis (reported by BIC Magazine)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "oil in a year",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.2,
+           "lat": 31.95,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Midland Basin, between Midland and Odessa"
+      },
+      {
+       "type": "photo",
+       "at": "And it kept climbing.",
+       "photo": "File:Midland, TX skyline (cropped).jpg",
+       "on_screen_text": "Midland, Texas"
+      },
+      {
+       "type": "stat",
+       "at": "By 2025, the EIA",
+       "stat": {
+        "value": "6.6 MILLION",
+        "label": "Barrels a day, Permian Basin, 2025",
+        "source": "U.S. Energy Information Administration (Today in Energy, 2026)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is close to",
+       "stat": {
+        "value": "13.6 MILLION",
+        "label": "U.S. crude oil a day, 2025: a national record",
+        "source": "U.S. Energy Information Administration (Today in Energy, 2026)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "set a national record",
+       "photo": "File:Face. Horse head on pumpjack. - Flickr - Night Photo.jpg",
+       "on_screen_text": "Pumpjack at night"
+      }
+     ]
+    },
+    {
+     "text": "How much is left? In 2018, the USGS assessed just the Wolfcamp and Bone Spring layers of the Delaware Basin. It estimated forty-six point three billion barrels of oil that has not been discovered yet but could be recovered with today's technology. It called this the largest continuous oil and gas resource it had ever assessed. That is an estimate of what may be there, not oil that is proven and ready to pump. Still, the dead sea is far from used up.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.85,
+           "lat": 31.6,
+           "span": 2.34
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
+           }
+          ]
+         },
+         {
+          "at": "the Wolfcamp and Bone",
+          "view": {
+           "lon": -103.7,
+           "lat": 31.9,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It estimated forty-six point",
+       "stat": {
+        "value": "46.3 BILLION",
+        "label": "Barrels, undiscovered but recoverable: Delaware Basin shale",
+        "source": "USGS Fact Sheet 2018-3073",
+        "note": "Wolfcamp + Bone Spring, USGS 2018 estimate"
+       }
+      },
+      {
+       "type": "map",
+       "at": "been discovered yet but",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.3,
+           "lat": 32.25,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lea County, New Mexico"
+      },
+      {
+       "type": "stat",
+       "at": "this the largest continuous",
+       "stat": {
+        "value": "LARGEST",
+        "label": "Continuous oil and gas resource the USGS had ever assessed",
+        "source": "USGS Fact Sheet 2018-3073"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That is an estimate",
+       "photo": "File:West Texas Pumpjack.JPG",
+       "on_screen_text": "Pumpjack, West Texas"
+      },
+      {
+       "type": "map",
+       "at": "not oil that is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.95,
+           "lat": 32.3,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Eddy County, New Mexico"
+      },
+      {
+       "type": "map",
+       "at": "Still, the dead sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.4,
+           "lat": 31.7,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Delaware Basin"
+      }
+     ]
+    },
+    {
+     "text": "But pulling oil out of a sea floor means pulling out the sea as well. And the bill for that is showing up across the basin.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Loving County, Texas line.jpg",
+       "on_screen_text": "Loving County line"
+      },
+      {
+       "type": "map",
+       "at": "And the bill for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 32.07,
+           "span": 6.58
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Odessa",
+            "lon": -102.37,
+            "lat": 31.85,
+            "kind": "city",
+            "label": "Odessa"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Bill",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The Permian Sea is still down there, in a way. Mixed with the oil comes salty water, trapped in the rock for millions of years. In the Midland Basin, the Bureau of Economic Geology at the University of Texas puts it at about two point six barrels of water for every barrel of oil. In the Delaware Basin, about five. Across the basin, estimates for 2025 run from about twenty-one to twenty-five million barrels of water a day.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.7,
+           "lat": 31.84,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads and ponds, Loving County"
+      },
+      {
+       "type": "map",
+       "at": "the oil comes salty",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.25,
+           "lat": 31.75,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads near Wink and Pyote"
+      },
+      {
+       "type": "stat",
+       "at": "In the Midland Basin,",
+       "stat": {
+        "value": "2.6 : 1",
+        "label": "Barrels of water per barrel of oil, Midland Basin",
+        "source": "Bureau of Economic Geology, UT Austin"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "puts it at about",
+       "photo": "File:Gulf Oil Corporation, Waddell Gasoline Plant, West Texas (9576013391).jpg",
+       "on_screen_text": "Oil equipment, West Texas, 1956"
+      },
+      {
+       "type": "stat",
+       "at": "every barrel of oil.",
+       "stat": {
+        "value": "5 : 1",
+        "label": "Barrels of water per barrel of oil, Delaware Basin",
+        "source": "Bureau of Economic Geology, UT Austin"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Across the basin, estimates",
+       "stat": {
+        "value": "21-25 MILLION",
+        "label": "Barrels of produced water a day, 2025 estimates",
+        "source": "BEG; Texas Tech Water Consortium (estimates)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "million barrels of water",
+       "photo": "File:Loving County watertower.jpg",
+       "on_screen_text": "Loving County water tower"
+      }
+     ]
+    },
+    {
+     "text": "That water is too salty to use as it is. Most of it is pumped back underground, into disposal wells. And that is where the ground starts to move. A member of the Railroad Commission of Texas, the state's oil and gas regulator, wrote in 2022 that seismologists had found the injection of water into the deeper formations likely responsible for the recent earthquakes in the Permian Basin.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:ISS-65 Odessa, Texas.jpg",
+       "on_screen_text": "Odessa from the space station"
+      },
+      {
+       "type": "map",
+       "at": "Most of it is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.45,
+           "lat": 31.9,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads and pipelines, Reeves County"
+      },
+      {
+       "type": "map",
+       "at": "And that is where",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.7,
+           "lat": 31.81,
+           "span": 2.619
+          },
+          "highlight": [
+           "file:delaware.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Mentone",
+            "lon": -103.6,
+            "lat": 31.7,
+            "kind": "city",
+            "label": "Mentone"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "A member of the",
+       "stat": {
+        "value": "DEEP INJECTION",
+        "label": "Likely cause of recent Permian quakes (RRC commissioner, 2022)",
+        "source": "Railroad Commission of Texas"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "regulator, wrote in 2022",
+       "photo": "File:Loving County Courthouse.jpg",
+       "on_screen_text": "Loving County courthouse, Mentone"
+      },
+      {
+       "type": "map",
+       "at": "the deeper formations likely",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.7,
+           "lat": 31.65,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Near Mentone"
+      }
+     ]
+    },
+    {
+     "text": "On the sixteenth of November, 2022, a quake struck in empty country about twenty-four miles from Mentone, the only community in Loving County. At the 2020 census, the whole county had sixty-four residents, the fewest of any county in the United States. The USGS measured it at magnitude five point four. Reports said it was felt as far away as El Paso, and called it the third-largest earthquake in Texas history. The Railroad Commission now acts when quakes of magnitude three point five or more strike, and it has already ordered deep disposal suspended in at least one area.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.75,
+           "lat": 31.66,
+           "span": 1.0
+          },
+          "date": "2025-10-01/2025-11-30",
+          "places": [
+           {
+            "name": "2022 quake",
+            "lon": -104.0,
+            "lat": 31.64,
+            "kind": "site",
+            "label": "M5.4, 16 Nov 2022",
+            "icon": "warning"
+           },
+           {
+            "name": "Mentone",
+            "lon": -103.6,
+            "lat": 31.7,
+            "kind": "city",
+            "label": "Mentone"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -103.75,
+           "lat": 31.66,
+           "span": 0.62
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the only community in",
+       "photo": "File:Honorable Mentone (4557178429).jpg",
+       "on_screen_text": "Mentone, Loving County"
+      },
+      {
+       "type": "stat",
+       "at": "At the 2020 census,",
+       "stat": {
+        "value": "64",
+        "label": "Residents of Loving County, 2020: fewest of any U.S. county",
+        "source": "U.S. Census Bureau, 2020 census"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "residents, the fewest of",
+       "photo": "File:Road in Loving County, Texas.jpg",
+       "on_screen_text": "Loving County"
+      },
+      {
+       "type": "stat",
+       "at": "The USGS measured it",
+       "stat": {
+        "value": "M5.4",
+        "label": "Earthquake west of Pecos, 16 November 2022",
+        "source": "USGS (TexNet: M5.3)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was felt as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99.35,
+           "lat": 31.46,
+           "span": 11.7
+          },
+          "highlight": [
+           "Texas@alt"
+          ],
+          "places": [
+           {
+            "name": "2022 quake",
+            "lon": -104.0,
+            "lat": 31.64,
+            "kind": "site",
+            "label": "M5.4, 16 Nov 2022",
+            "icon": "warning"
+           },
+           {
+            "name": "El Paso",
+            "lon": -106.44,
+            "lat": 31.76,
+            "kind": "city",
+            "label": "El Paso"
+           },
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           }
+          ]
+         },
+         {
+          "at": "and called it the",
+          "view": {
+           "lon": -103.0,
+           "lat": 31.5,
+           "span": 6.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The Railroad Commission now",
+       "stat": {
+        "value": "M3.5+",
+        "label": "Quakes that trigger action by the Railroad Commission",
+        "source": "Railroad Commission of Texas"
+       }
+      },
+      {
+       "type": "map",
+       "at": "strike, and it has",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.55,
+           "lat": 31.8,
+           "span": 0.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Well pads, Delaware Basin"
+      }
+     ]
+    },
+    {
+     "text": "The second cost you can see from space. The oil comes up mixed with natural gas, and where there are not enough pipelines to carry the gas away, it is burned at the wellhead in tall flares. Satellite instruments run by NOAA pick these flares up at night. A peer-reviewed study estimated that Permian flaring had grown about fourfold since 2012, and averaged about five point nine billion cubic metres of gas a year in the period it studied. That's gas burned in the open air, with no use at all.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Natural gas flare at petroleum well site (Whites City, New Mexico, USA) 2.jpg",
+       "on_screen_text": "Gas flare, Permian Basin, New Mexico"
+      },
+      {
+       "type": "photo",
+       "at": "natural gas, and where",
+       "photo": "File:Natural Gas Flare.jpg",
+       "on_screen_text": "A gas flare"
+      },
+      {
+       "type": "map",
+       "at": "it is burned at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.62,
+           "lat": 31.9,
+           "span": 0.1
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads in the Delaware Basin"
+      },
+      {
+       "type": "map",
+       "at": "Satellite instruments run by",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.0,
+           "lat": 31.9,
+           "span": 3.2
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Odessa",
+            "lon": -102.37,
+            "lat": 31.85,
+            "kind": "city",
+            "label": "Odessa"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           },
+           {
+            "name": "Pecos",
+            "lon": -103.49,
+            "lat": 31.42,
+            "kind": "city",
+            "label": "Pecos"
+           }
+          ]
+         },
+         {
+          "at": "A peer-reviewed study estimated",
+          "view": {
+           "lon": -103.6,
+           "lat": 31.9,
+           "span": 2.6
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and averaged about five",
+       "stat": {
+        "value": "5.9 BILLION M³",
+        "label": "Gas flared a year in the Permian, study period",
+        "source": "Peer-reviewed study (PMC7176423), VIIRS data"
+       }
+      },
+      {
+       "type": "map",
+       "at": "period it studied. That's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.9,
+           "lat": 32.1,
+           "span": 0.15
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 83,
+          "view": {
+           "lon": -103.9,
+           "lat": 32.1,
+           "span": 0.093
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Well pads, Eddy County, New Mexico"
+      }
+     ]
+    },
+    {
+     "text": "And the third cost brings us back to the salt. On the third of June, 1980, near the town of Wink, the ground collapsed into a hole about a hundred and ten feet deep. Wink Sink sits right above the buried Capitan Reef. Geologists traced it to the Salado salt below. Water had reached the salt, dissolved a cavity, and the roof had fallen in. A 1989 study concluded that the collapse was likely influenced by oil activity: an old well, drilled in 1928, stood inside the rim of the hole, and may have let water run down to the salt.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Wink City Limits (15217979052).jpg",
+       "on_screen_text": "Wink, Texas"
+      },
+      {
+       "type": "map",
+       "at": "On the third of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.14,
+           "lat": 31.79,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Wink sinkholes from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "the ground collapsed into",
+       "stat": {
+        "value": "110 FT",
+        "label": "Depth of Wink Sink, 3 June 1980",
+        "source": "Bureau of Economic Geology, UT Austin"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Wink Sink sits right",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.0,
+           "lat": 31.69,
+           "span": 3.201
+          },
+          "highlight": [
+           "file:capitan_reef.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Wink",
+            "lon": -103.16,
+            "lat": 31.75,
+            "kind": "city",
+            "label": "Wink"
+           }
+          ]
+         },
+         {
+          "at": "Reef. Geologists traced it",
+          "view": {
+           "lon": -103.4,
+           "lat": 32.0,
+           "span": 2.6
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Water had reached the",
+       "photo": "File:Rock salt (halitite) (Haselgebirge Formation, Upper Permian to Lower Triassic; salt mine at or near Halle-in-Tyrol, Northern Calcareous Alps, western Austria) (15195697744).jpg",
+       "on_screen_text": "Rock salt"
+      },
+      {
+       "type": "stat",
+       "at": "A 1989 study concluded",
+       "stat": {
+        "value": "1928",
+        "label": "An old oil well stood inside the sinkhole's rim",
+        "source": "Johnson 1989, Environ. Geology and Water Sciences"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "activity: an old well,",
+       "photo": "File:Superior Oil Co. drill site, West Texas 1949.jpg",
+       "on_screen_text": "A West Texas drill site, 1949"
+      },
+      {
+       "type": "map",
+       "at": "the hole, and may",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.14,
+           "lat": 31.79,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Around Wink Sink"
+      }
+     ]
+    },
+    {
+     "text": "In 2002, a second sinkhole opened nearby. Using radar satellites, researchers found that the ground around both holes was still sinking years later, and that one patch about a kilometre east of the second hole was sinking by more than sixty centimetres a year in 2015 and 2016. The salt that sealed the oil for two hundred and fifty million years is now dissolving under the oil field.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2002",
+        "label": "Wink Sink 2 opens nearby",
+        "source": "Bureau of Economic Geology, UT Austin"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Using radar satellites, researchers",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.13,
+           "lat": 31.79,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Around the Wink sinkholes"
+      },
+      {
+       "type": "photo",
+       "at": "years later, and that",
+       "photo": "File:Wink, Texas.jpg",
+       "on_screen_text": "Wink, Texas"
+      },
+      {
+       "type": "stat",
+       "at": "was sinking by more",
+       "stat": {
+        "value": "60+ CM/YR",
+        "label": "Ground 1 km east of Wink Sink 2, 2015-16",
+        "source": "Kim & Lu 2021, radar (InSAR) study"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The salt that sealed",
+       "photo": "File:Pink rhymes with Wink, which is the West Texas town in which this store window was photographed LCCN2014630679.tif",
+       "on_screen_text": "Wink, Texas"
+      },
+      {
+       "type": "photo",
+       "at": "fifty million years is",
+       "photo": "File:Pink halite (Holocene; Searles Lake, near Trona, California, USA) 1.jpg",
+       "on_screen_text": "Salt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Fly over the Permian Basin again, and every part of it now makes sense. The empty desert is the floor of a sea. The highest mountain in Texas is that sea's reef. The caves under Carlsbad were carved by its oil. The salt is its last water, dried in place. And the grid of pale squares is people pulling that sea back out, about six point six million barrels of it every day.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.6,
+           "lat": 31.43,
+           "span": 4.842
+          },
+          "highlight": [
+           "file:basin_extent.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The empty desert is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.65,
+           "lat": 31.82,
+           "span": 0.7
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The floor of a sea"
+      },
+      {
+       "type": "photo",
+       "at": "The highest mountain in",
+       "photo": "File:Guadalupe Mountains National Park - 53196461646.jpg",
+       "on_screen_text": "Guadalupe Mountains: the reef"
+      },
+      {
+       "type": "photo",
+       "at": "The caves under Carlsbad",
+       "photo": "File:Big Room, Carlsbad Cavern (51202438416).jpg",
+       "on_screen_text": "Carlsbad Cavern"
+      },
+      {
+       "type": "photo",
+       "at": "The salt is its",
+       "photo": "File:DOE Begins Mining Operations for Salt Disposal Investigations at WIPP 2.jpg",
+       "on_screen_text": "Permian salt, WIPP"
+      },
+      {
+       "type": "map",
+       "at": "And the grid of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.7,
+           "lat": 31.85,
+           "span": 0.14
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Drilling pads, Loving County"
+      },
+      {
+       "type": "map",
+       "at": "back out, about six",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.4,
+           "lat": 32.0,
+           "span": 0.5
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Permian Basin"
+      }
+     ]
+    },
+    {
+     "text": "The USGS thinks tens of billions of barrels may still be down there. The water, the quakes and the sinkholes say the ground is starting to answer back. So here is the question I'll leave you with: how long should Texas keep pumping its dead sea? Tell me in the comments.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Fond farewell to the Guadalupe Mountains (4570857897).jpg",
+       "on_screen_text": "West Texas"
+      },
+      {
+       "type": "photo",
+       "at": "The water, the quakes",
+       "photo": "File:Wink City Limits (15217979052).jpg",
+       "on_screen_text": "Wink, Texas"
+      },
+      {
+       "type": "map",
+       "at": "So here is the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.28,
+           "lat": 31.878,
+           "span": 5.42
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Midland",
+            "lon": -102.08,
+            "lat": 32.0,
+            "kind": "city",
+            "label": "Midland"
+           },
+           {
+            "name": "Odessa",
+            "lon": -102.37,
+            "lat": 31.85,
+            "kind": "city",
+            "label": "Odessa"
+           },
+           {
+            "name": "Carlsbad",
+            "lon": -104.23,
+            "lat": 32.42,
+            "kind": "city",
+            "label": "Carlsbad, NM"
+           }
+          ]
+         },
+         {
+          "at": "should Texas keep pumping",
+          "view": {
+           "lon": -103.2,
+           "lat": 31.8,
+           "span": 3.0
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "So here is the",
+      "text": "How long should Texas keep pumping its dead sea?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Half of America's Oil Comes From One Empty Corner of Texas",
+  "description": "A dry corner of West Texas and New Mexico, home to fewer people than many single cities, pumps about 6.6 million barrels of crude oil a day: 48 percent of all U.S. production in 2025. The reason is a sea that died about 250 million years ago. We follow it from orbit: the inland sea at the edge of Pangea, the Capitan Reef that became Guadalupe Peak, the highest point in Texas, the caves of Carlsbad dissolved by acid rising from the oil, the salt that sealed it all and now holds nuclear waste, the Santa Rita well on university land, the 1980s bust, the shale boom, and the bill: produced water, earthquakes, flares and the Wink sinkholes.",
+  "tags": [
+   "Permian Basin",
+   "West Texas",
+   "Texas oil",
+   "Midland",
+   "Odessa",
+   "Guadalupe Mountains",
+   "Capitan Reef",
+   "Carlsbad Caverns",
+   "WIPP",
+   "Santa Rita No. 1",
+   "fracking",
+   "shale oil",
+   "Wink sinkhole",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "How long should Texas keep pumping its dead sea?"
+ }
+}

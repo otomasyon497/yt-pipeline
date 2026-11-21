@@ -31,7 +31,7 @@ P12: Here is how. Hydrogen sulfide gas rose from the oil and gas deposits deep b
 
 P13: The reef ringed the deep basin, and the oil formed in the deep basin. But the reef could not seal anything on its own. What finally locked the oil in place came at the end, when the sea itself began to die.
 
-## 3. The Sea Dies (tense)
+## 3. The Sea Dies (tension)
 P14: Toward the end of the Permian, the narrow channel that fed this sea was gradually cut off. Fresh seawater could no longer flow in easily. And under the hot sun near the equator, the water kept evaporating. As it shrank, it grew saltier and saltier, until the salt began to fall out of the water and settle on the bottom.
 
 P15: Layer after layer of salt and gypsum piled up. Two formations hold most of it, the Castile and, above it, the Salado. The National Academies describe the Salado alone as two hundred to four hundred metres of beds, mostly rock salt. That is up to thirteen hundred feet of salt, left behind by a sea that dried in place.
@@ -44,7 +44,7 @@ P18: That salt is still there. Near Carlsbad, the U.S. Department of Energy runs
 
 P19: So by the end of the Permian, everything was ready. A thick layer of buried life, cooked into oil. A reef along the edge. And salt over the top. Then the oil waited for about two hundred and fifty million years, until someone came out to this empty country with a drilling rig.
 
-## 4. The First Boom (warm)
+## 4. The First Boom (calm)
 P20: Texas wrote a new constitution in 1876, and it gave its future state university one million acres of land in the dry west. In 1883, the legislature added another million acres, land a railroad had handed back because it was considered too worthless even to survey. Historians have called the first grant much less desirable land in arid western Texas. For decades, nobody disagreed.
 
 P21: Then, on the twenty-eighth of May, 1923, a well called Santa Rita Number One came in about thirteen miles west of the town of Big Lake, in Reagan County. It stood on university land. According to the University of Texas System, it was the first major oil discovery in the Permian Basin. Its rig now stands on the university's campus in Austin.
@@ -59,10 +59,10 @@ P25: Then prices fell too. In the 1980s, oil crashed to around ten dollars a bar
 
 P26: For years after that, the Permian looked like an old field. The easy oil had been found. The wells were aging. The rock that held the most oil of all was still down there, but nobody could make it flow. Who would make it flow, and what would it cost the ground above?
 
-## 5. The Second Boom (tense)
+## 5. The Second Boom (tension)
 P27: Remember the dark mud at the bottom of the sea, the source of all that oil? Much of the oil never left it. It stayed trapped inside the mud itself, now hard shale, in pores far too small for oil to flow through on its own. One of the richest of those layers is called the Wolfcamp.
 
-P28: Two techniques changed that. The first is horizontal drilling. A well goes straight down, then turns and runs sideways through the oil-bearing layer for a mile or more. The second is hydraulic fracturing: water, sand and chemicals pumped down at high pressure to crack the rock open, with the sand holding the cracks apart so the oil can flow.
+P28: Two techniques changed that. The first is horizontal drilling. A well goes straight down, then turns and runs sideways, along the oil-bearing layer itself. The second is hydraulic fracturing: water, sand and chemicals pumped down at high pressure to crack the rock open, with the sand holding the cracks apart so the oil can flow.
 
 P29: In the Permian, that combination took off fast. In May 2009, according to the Dallas Fed, just ninety-two drilling rigs were working in the basin. By June 2012, there were five hundred and twenty-five. Horizontal wells took over. By 2018, ninety percent of rigs in the basin were drilling horizontally. By 2022, ninety-five percent.
 
@@ -74,12 +74,12 @@ P32: How much is left? In 2018, the USGS assessed just the Wolfcamp and Bone Spr
 
 P33: But pulling oil out of a sea floor means pulling out the sea as well. And the bill for that is showing up across the basin.
 
-## 6. The Bill (somber)
+## 6. The Bill (tension)
 P34: The Permian Sea is still down there, in a way. Mixed with the oil comes salty water, trapped in the rock for millions of years. In the Midland Basin, the Bureau of Economic Geology at the University of Texas puts it at about two point six barrels of water for every barrel of oil. In the Delaware Basin, about five. Across the basin, estimates for 2025 run from about twenty-one to twenty-five million barrels of water a day.
 
 P35: That water is too salty to use as it is. Most of it is pumped back underground, into disposal wells. And that is where the ground starts to move. A member of the Railroad Commission of Texas, the state's oil and gas regulator, wrote in 2022 that seismologists had found the injection of water into the deeper formations likely responsible for the recent earthquakes in the Permian Basin.
 
-P36: On the sixteenth of November, 2022, a quake struck near Mentone, the only community in Loving County. At the 2020 census, the whole county had sixty-four residents, the fewest of any county in the United States. The USGS measured it at magnitude five point four. It was felt as far away as El Paso, and reports called it the third-largest earthquake in Texas history. The Railroad Commission now acts when quakes of magnitude three point five or more strike, and it has already ordered deep disposal suspended in at least one area.
+P36: On the sixteenth of November, 2022, a quake struck in empty country about twenty-four miles from Mentone, the only community in Loving County. At the 2020 census, the whole county had sixty-four residents, the fewest of any county in the United States. The USGS measured it at magnitude five point four. Reports said it was felt as far away as El Paso, and called it the third-largest earthquake in Texas history. The Railroad Commission now acts when quakes of magnitude three point five or more strike, and it has already ordered deep disposal suspended in at least one area.
 
 P37: The second cost you can see from space. The oil comes up mixed with natural gas, and where there are not enough pipelines to carry the gas away, it is burned at the wellhead in tall flares. Satellite instruments run by NOAA pick these flares up at night. A peer-reviewed study estimated that Permian flaring had grown about fourfold since 2012, and averaged about five point nine billion cubic metres of gas a year in the period it studied. That's gas burned in the open air, with no use at all.
 
@@ -87,7 +87,7 @@ P38: And the third cost brings us back to the salt. On the third of June, 1980, 
 
 P39: In 2002, a second sinkhole opened nearby. Using radar satellites, researchers found that the ground around both holes was still sinking years later, and that one patch about a kilometre east of the second hole was sinking by more than sixty centimetres a year in 2015 and 2016. The salt that sealed the oil for two hundred and fifty million years is now dissolving under the oil field.
 
-## 7. Ending (reflective)
+## 7. Ending (calm)
 P40: Fly over the Permian Basin again, and every part of it now makes sense. The empty desert is the floor of a sea. The highest mountain in Texas is that sea's reef. The caves under Carlsbad were carved by its oil. The salt is its last water, dried in place. And the grid of pale squares is people pulling that sea back out, about six point six million barrels of it every day.
 
 P41: The USGS thinks tens of billions of barrels may still be down there. The water, the quakes and the sinkholes say the ground is starting to answer back. So here is the question I'll leave you with: how long should Texas keep pumping its dead sea? Tell me in the comments.

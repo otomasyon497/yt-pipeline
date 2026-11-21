@@ -967,3 +967,7 @@ comment. Audio of the long render was never checked. No further work planned unl
   MODIS swath gaps (FL painted; Helene 26/27 Sep views moved; P32 MODIS 27 Sep, not 28 = cloudy), cloudy 1985 canal Landsat
   dropped. FULL RENDER = run 44912685105. NEXT: fetch -Delete, frame_audit, all sheets, approve, cover (cover_photo.json
   = St Marks lighthouse, NO BEACH / NO TOWNS), ask the user for the upload date (23:00 UTC slot).
+- Render 1 (44912685105, 15:41, -14.4 LUFS) fetched -Delete, audited 32 sheets, NOT approved: April-May Sentinel made the
+  sea purple with seams (fixed: SEA = March 2025 window on 20 sea-heavy views, scratch bbsea.py), ending night view off the
+  Big Bend (9 s black), Helene 26 Sep swath corner, 1884 bird's-eye shown twice (grey copy), short document card.
+  RENDER 2 = run 44917500417. NEXT: fetch -Delete, frame_audit, check sea views / ending, approve, ask upload date.

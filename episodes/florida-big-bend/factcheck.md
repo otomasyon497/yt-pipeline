@@ -169,7 +169,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 163 | c06p07 | chart | Highest water of the year, Cedar Key: Typical year 1.9, 1966 4, 1972 4.2, 1993 5.1, 1996 5.1, 2016 6, 2023 Idalia 6.8, 2024 Helene 9.3 | Own chart: own: NOAA CO-OPS 8727520 monthly highest, annual maxima 1914-2025 (research.md); narration values from NHC | own |
 | 164 | c06p07 | stat card | 2023 + 2024: The two highest years in 101 years of records | Own chart: NOAA CO-OPS 8727520 Cedar Key, monthly highest (ft above MHHW); own: NOAA CO-OPS 8727520 monthly highest, annual maxima 1914-2025 (research.md); story values from NHC | own |
 | 165 | c06p08 | on screen | The Gulf off the Big Bend, 28 September 2024 (NASA PACE) | NASA Earth Observatory image 153390 caption (PACE, 28 Sep 2024) | verified |
-| 166 | c06p08 | on screen | The Big Bend, 28 September 2024 (MODIS) | NASA GIBS MODIS Terra true colour of that date (checked in storyboard) | verified |
+| 166 | c06p08 | on screen | The Big Bend after Helene, 27 September 2024 (MODIS) | NASA GIBS MODIS Terra 2024-09-27, checked by eye (pale shelf, no swath gap over the view) | verified |
 | 167 | c07p01 | narration | So here are the five reasons. | framing / teaser of what the video shows (no new fact) | verified |
 | 168 | c07p01 | on screen | Cedar Key, 1852 | Wikimedia Commons file title/description (visuals.md) | verified |
 | 169 | c07p01 | on screen | Cross Florida Greenway over I-75 | Wikimedia Commons file title/description (visuals.md) | verified |

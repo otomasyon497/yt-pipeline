@@ -69,7 +69,7 @@ def v(view, at=None, **kw):
 
 
 SAT_MIN_SPAN = 0.08  # Netherlands storyboard: narrower Sentinel views were soft
-SPRING = "2025-03-01/2025-05-31"  # scratch bbsat.py 2026-11-21: clear scenes 2025-03-11 .. 2025-05-05 over every test view
+SPRING = "2025-04-10/2025-05-31"  # storyboard 2026-11-21: March scenes purple (dormant marsh, haze); bbsat clear days 04-12, 04-17, 05-05
 CK_DAY = "2025-01-25/2025-01-25"  # Cedar Key at low tide: flats and channels exposed (spring 2025 was hazy there)
 PRE_HELENE = "2024-09-01/2024-09-24"
 POST_HELENE = "2024-09-28/2024-10-25"
@@ -325,7 +325,7 @@ chapter(
 chapter(
     P("P3",
       m(0, v(GULF_FL, highlight=[SHALLOW], places=[PENSA, MIAMIB, CEDAR])),
-      m("Off Pensacola Beach, we", v(near(-87.13, 30.2, 0.6), date=SPRING, places=[PENSA])),
+      m("Off Pensacola Beach, we", v(near(-87.10, 30.36, 0.6), date=SPRING, places=[PENSA])),
       stat("about thirty-three feet, using", "10 METRES", "= 33 ft: the line we measured to", OWN),
       m("Off Miami Beach, about", v(near(-80.12, 25.80, 0.5), date=SPRING, places=[MIAMIB])),
       m("Off Panama City Beach,", v(near(-85.80, 30.15, 0.5), date=SPRING, places=[PCB]))),
@@ -364,7 +364,7 @@ chapter(
       doc("and the region as", "Big Bend region ... is considered sediment-starved", "Wood & Hine 2003, via USGS",
           highlight="sediment-starved"),
       photo("The Gulf in front", PH_SUWANNEE_PALMS, "Near the lower Suwannee"),
-      photo("its waves are weak,", PH_STM_1831, "Calm water at St. Marks"),
+      sat("its waves are weak,", -84.18, 30.075, 0.10, "Calm water off the St. Marks lighthouse"),
       sat("So instead of a", -83.98, 30.06, 0.25, "Marsh coast at the Aucilla"),
       photo("and the marsh runs", PH_MARSH_FIRE, "Marsh meets the bay, St. Marks refuge")),
     P("P8",
@@ -390,7 +390,7 @@ chapter(
       m(0, v(BB, highlight=[BBC], places=[TALLY, WAKULLA, AUCILLA])),
       photo("sits on limestone, covered", PH_LEON, "Leon Sinks, south of Tallahassee"),
       photo("Rainwater soaks straight through", PH_NATBRIDGE, "Natural Bridge, on the St. Marks River"),
-      sat("Over thousands of years,", -84.20, 30.28, 0.3, "Sinkhole ponds south of Tallahassee"),
+      sat("Over thousands of years,", -84.20, 30.28, 0.3, "The ground south of Tallahassee"),
       stat("Geologists call this kind", "KARST", "Ground dissolved into caves, sinkholes and underground channels", "Florida Geological Survey (via UF/IFAS)"),
       photo("and the Big Bend", PH_STM_RIVER, "The St. Marks River at Newport")),
     P("P11",
@@ -471,7 +471,7 @@ chapter(
     P("P20",
       m(0, v(NFL, highlight=[BBC], places=[JAX, CEDAR, YANKEE])),
       photo("The Cross Florida Barge", PH_CANAL_W, "The barge canal west of SR 19"),
-      m("so ships could cross", v(FL, arrows=[ARR_SHIP], places=[MIAMI, JAX])),
+      m("so ships could cross", v(FL, highlight=[FLR], arrows=[ARR_SHIP], places=[MIAMI, JAX])),
       m("Its western end was", v(NFL, routes=[CANAL], places=[YANKEE, CEDAR]))),
     P("P21",
       stat(0, "1930s", "A New Deal start; stalled after about three years", FLMNH),
@@ -483,11 +483,8 @@ chapter(
       stat("and around seventy-five million", "$75 MILLION", "Spent by 1971", FLMNH),
       photo("according to the Florida", PH_MARSHALL, "Along the old canal route")),
     P("P22",
-      m(0, v(near(-82.76, 29.00, 0.22), compare={"before": "1985-05-01/1985-09-30", "after": "2025-05-01/2025-09-30", "source": "landsat",
-                                                                    "seconds": 2.0, "until": "This is where the", "label_before": "1985", "label_after": "2025"}),
-        step("This is where the", view=near(-82.76, 29.00, 0.22)), text="Barge canal, Gulf end"),
-      sat("dredged channel runs out", -82.80, 28.99, 0.32, "The dredged channel"),
-      sat("marked by a line", -82.86, 28.97, 0.45, "The channel and its spoil islands"),
+      m(0, v(near(-82.76, 29.00, 0.30), date=SPRING), step("This is where the", view=near(-82.76, 29.00, 0.20)), text="Barge canal, Gulf end"),
+      sat("dredged channel runs out", -82.86, 28.97, 0.45, "The channel and its spoil islands"),
       sat("before the water gets", -82.98, 28.94, 0.7, "The Gulf off the canal"),
       photo("The rest of the", PH_GREENWAY_I75, "The Cross Florida Greenway crossing I-75"),
       photo("Today it's the Marjorie", PH_GREENWAY, "Cross Florida Greenway"),
@@ -514,7 +511,7 @@ chapter(
       doc("caused by a storm", "Storm surge is the rise in seawater level caused solely by a storm.", NOS,
           highlight="caused solely by a storm"),
       photo("NOAA lists what decides", PH_IDALIA_MODIS, "Hurricane Idalia, 30 August 2023 (MODIS)"),
-      m("its strength, its size,", v(USA_SE, date="2024-09-26"), text="Helene approaching, 26 September 2024 (MODIS)"),
+      m("its strength, its size,", v({"lon": -87.0, "lat": 28.5, "span": 9.0}, date="2024-09-26"), text="Helene approaching, 26 September 2024 (MODIS)"),
       m("and the shape of", v({"lon": -84.2, "lat": 29.2, "span": 2.6}, highlight=[SHALLOW], places=[CEDAR])),
       m("On the Big Bend,", v(BB, highlight=[SHALLOW], arrows=[ARR_SURGE], places=[KEATON, STEIN]), step("to push before it", view={"lon": -83.75, "lat": 29.75, "span": 2.6}))),
     P("P26",
@@ -550,7 +547,7 @@ chapter(
     P("P30",
       stat(0, "14", "Deaths in Helene's storm surge, all in Florida", NHC_H),
       stat("The storm went on", "175+", "Direct deaths across the United States", NHC_H),
-      m("across the southeastern United", v(USA_SE, date="2024-09-27"), text="Helene over the Southeast, 27 September 2024 (MODIS)"),
+      m("across the southeastern United", v({"lon": -83.0, "lat": 31.8, "span": 11.0}, date="2024-09-27"), text="Helene over the Southeast, 27 September 2024 (MODIS)"),
       sat("Media reports cited by", -83.035, 29.137, 0.09, "Cedar Key after Helene, 2024", date=POST_HELENE),
       stat("about a quarter of", "~25%", "Of Cedar Key's homes destroyed (media reports cited by NHC)", NHC_H),
       m("Three hurricanes had come", v(BB, places=[L_IDALIA, L_DEBBY, L_HELENE]))),
@@ -564,7 +561,7 @@ chapter(
       photo("thirteen months apart, in", PH_CK2, "Cedar Key")),
     P("P32",
       photo(0, PH_PACE, "The Gulf off the Big Bend, 28 September 2024 (NASA PACE)"),
-      m("Along the Big Bend,", v({"lon": -83.6, "lat": 29.5, "span": 2.6}, date="2024-09-28"), text="The Big Bend, 28 September 2024 (MODIS)"),
+      m("Along the Big Bend,", v({"lon": -83.6, "lat": 29.3, "span": 2.6}, date="2024-09-27"), text="The Big Bend after Helene, 27 September 2024 (MODIS)"),
       sat("The storm's winds and", -83.70, 29.60, 1.2, "The Big Bend shelf, calm"),
       m("That day, the shelf", v(GULF_FL, highlight=[SHALLOW], places=[CEDAR]))),
 )

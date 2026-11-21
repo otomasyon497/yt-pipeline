@@ -877,10 +877,22 @@
        "on_screen_text": "An old derrick at Texon, Reagan County"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Left alone, it creeps",
-       "photo": "File:Gulf Oil Corporation, Waddell Gasoline Plant, West Texas (9576013391).jpg",
-       "on_screen_text": "Oil equipment, West Texas, 1956"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.2,
+           "lat": 32.0,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Reef country near the New Mexico line"
       },
       {
        "type": "map",
@@ -2093,10 +2105,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "thousand barrels a day,",
-       "photo": "File:YatesOilfieldNASA.jpg",
-       "on_screen_text": "The Yates field from space (NASA)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -101.97,
+           "lat": 30.88,
+           "span": 0.15
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Yates field from orbit"
       },
       {
        "type": "map",
@@ -2140,10 +2164,31 @@
      "text": "Through the following decades, oil money built Midland and Odessa in the middle of the basin. Midland became the office town. By 1929, according to the Dallas Fed, thirty-six oil companies had opened offices there. Odessa, closer to the fields, became the working town of oilfield service companies, machinery and crews. And production kept rising, until 1973. According to the Federal Reserve Bank of Dallas, Permian oil production began to decline that year, and kept declining for decades.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:Greetings from Odessa, Texas, \"Hub City of Odessa West Texas Oil Field\" - Large Letter Postcard (9428792540).jpg",
-       "on_screen_text": "Odessa postcard: Hub City of the West Texas Oil Field"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.37,
+           "lat": 31.86,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-05-31"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -102.37,
+           "lat": 31.86,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Odessa"
       },
       {
        "type": "map",
@@ -2175,14 +2220,26 @@
       {
        "type": "photo",
        "at": "Odessa, closer to the",
-       "photo": "File:Navion at jackknife rig near Midland, Texas - Superior Oil Co. (8660568313).jpg",
-       "on_screen_text": "Jackknife rig near Midland"
+       "photo": "File:Superior Oil Co. drill site, West Texas 1949.jpg",
+       "on_screen_text": "Drill site, West Texas, 1949"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "And production kept rising,",
-       "photo": "File:Beech Bonanza at jackknife rig near Midland, Texas - Superior Oil Co. (8552972042).jpg",
-       "on_screen_text": "Oilmen at a rig near Midland"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.0,
+           "lat": 31.75,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oil field south of Midland"
       },
       {
        "type": "stat",
@@ -2422,10 +2479,22 @@
        "on_screen_text": "Pads in rows, Reeves County"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "The second is hydraulic",
-       "photo": "File:Navion at jackknife rig near Midland, Texas - Superior Oil Co. (8660568313).jpg",
-       "on_screen_text": "A drilling rig, West Texas"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -103.42,
+           "lat": 31.82,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "New pads, Reeves County"
       },
       {
        "type": "map",
@@ -2904,10 +2973,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "puts it at about",
-       "photo": "File:Gulf Oil Corporation, Waddell Gasoline Plant, West Texas (9576013391).jpg",
-       "on_screen_text": "Oil equipment, West Texas, 1956"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.15,
+           "lat": 31.7,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pads in the Midland Basin"
       },
       {
        "type": "stat",
@@ -3412,8 +3493,8 @@
       {
        "type": "photo",
        "at": "activity: an old well,",
-       "photo": "File:Superior Oil Co. drill site, West Texas 1949.jpg",
-       "on_screen_text": "A West Texas drill site, 1949"
+       "photo": "File:County courthouse for Winkler County, near the New Mexico line in far-west Texas LCCN2014630676.jpg",
+       "on_screen_text": "Winkler County courthouse, Kermit"
       },
       {
        "type": "map",

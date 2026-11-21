@@ -978,3 +978,4 @@ comment. Audio of the long render was never checked. No further work planned unl
 - 2026-11-21: Render 3 (44924820062, 15:43) fetched -Delete (release deleted), all 32 sheets audited, canal 9:47-9:59 seamless;
   approved (--accept-flags: cross-fades/fade-ins). UPLOADED: video DcTptiHYqZQ, private, publishAt 2026-11-25T23:00:00Z
   (26 Nov 02:00 TR), photo cover "NO BEACH / NO TOWNS" set. Pin the comment by hand in Studio. Florida Big Bend DONE.
+- 2026-11-21: Next topic = Permian Basin / West Texas (user chose West Texas first, Florida Keys after it; docs/topic-candidates-2026-11-26.md). topic_radar hit the daily search quota (429). episodes/permian-basin/research.md: round-1 facts + gate-1 outline (~2,750 words, 7 chapters). NEXT: demand check after quota reset, user approves outline (gate 1), "To read next" list.

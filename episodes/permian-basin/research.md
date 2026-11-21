@@ -97,3 +97,35 @@ crater (skip: Below The Map used it), photos: Commons / NPS / Library of Congres
 6. The bill (~400): water 2-5 barrels per barrel of oil, injected deep, earthquakes; flares seen from orbit;
    the Wink sinkholes in the salt.
 7. Ending (~100): question to the viewer, no generic CTA ("How long should Texas keep pumping its dead sea?").
+
+## Round 2 (2026-11-21, after gate 1)
+- Guadalupe Peak 8,751 ft, highest point in Texas (NPS park overview https://www.nps.gov/gumo/whatssospecial.htm);
+  El Capitan 8,085 ft, southern tip of the Guadalupe Mountains (NPS https://www.nps.gov/places/gumo_el_capitam.htm).
+  Culberson County, ~100 mi east of El Paso.
+- Basin size: ~250 x 300 miles (RRC https://rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/);
+  area 75,000+ sq mi (EIA map) vs 86,000 (Wikipedia/Enverus): use "about 250 by 300 miles" only.
+  Three parts: Delaware Basin, Central Basin Platform, Midland Basin (Enverus; RRC). Dallas Fed: 55 counties.
+- 2022 quake: 16 Nov 2022 ~15:32 local, Loving/Reeves area near Mentone; USGS M5.4 (first 5.3), TexNet M5.3; third-
+  largest in Texas history (reports: attributed). Say "magnitude 5.4 by the USGS count" or "about 5.3-5.4".
+  https://www.jsg.utexas.edu/news/2022/11/texnet-records-m5-3-and-m4-1-seismic-events-in-reeves-county-texas/
+- Wink Sink 2 formed 2002 (BEG https://www.beg.utexas.edu/node/1413). Kim & Lu 2021 (InSAR): both sinks still
+  subsiding, ~18 cm/yr 2011 -> ~8 cm/yr 2016; ground 1 km east of Sink 2 sank 40 -> 60+ cm/yr (2007-11 -> 2015-16).
+  https://airbornescience.nasa.gov/node/86777 (attributed to the study)
+- Midland 132,524 (2020 census), 143,687 (2024 est.); Odessa 114,428 (2020), 119,748 (2024) (City of Midland citing
+  Census). https://golf.midlandtexas.gov/CivicAlerts.asp?AID=1710
+- End-Permian extinction ~251.9 Ma, "Great Dying"; Britannica: ~90 % of species, >95 % of marine species.
+  https://www.britannica.com/science/Permian-extinction
+
+## Round 3 (narration support, 2026-11-21)
+- PUF: 1876 Constitution granted 1,000,000 acres in West Texas; 10 Apr 1883 legislature added 1,000,000 acres handed back
+  by the Texas and Pacific Railroad, "considered too worthless to survey" (UTIMCO timeline); Olien & Olien: "much less
+  desirable land in arid western Texas" (via Wikipedia: attributed). https://utimco.org/scripts/internet/puf_timeline.asp?print=true ;
+  https://universitylands.utsystem.edu/Home/History
+- Loving County: 64 residents at the 2020 census, least populous U.S. county; Mentone its only community / seat.
+  (Census 2020 via Wikipedia; CHECK census.gov before render)
+- Midland white-collar: by 1929, 36 oil companies had offices in Midland; Odessa nearer the fields -> blue-collar
+  oilfield service and machinery (Dallas Fed). https://www.dallasfed.org/-/media/documents/research/swe/2008/swe0802d.pdf
+- Flaring when gas outruns pipeline takeaway capacity (JPT citing EIA; East Daley/Validere). https://jpt.spe.org/led-permian-us-flaring-and-associated-gas-production-hit-new-highs
+- Flaring study: 5.9 +/- 1.2 bn m3/yr, ~4.6 % of gross gas, fourfold rise since 2012 (peer-reviewed, PMC7176423).
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC7176423
+- 2022 quake felt in El Paso (News 4 San Antonio). https://news4sanantonio.com/news/local/53-magnitude-earthquake-felt-in-southwest-texas-including-el-paso-earth-falt-lines-november-16-2022-weather

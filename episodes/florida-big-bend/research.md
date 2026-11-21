@@ -59,6 +59,19 @@ co-est2024 / sub-est2024_12 (Census), shelf.json (ETOPO), nws1896.pdf.
 | Helene | landfall ~10 n mi SW of Perry ~0310 UTC 27 Sep 2024, cat 4 (peak 120 kt 6 h before; 939 mb); "the strongest landfalling hurricane in the Florida Big Bend region since reliable records began around 1900"; 12-16 ft AGL from just west of Keaton Beach through Steinhatchee; 8-12 ft south of Steinhatchee through Cedar Key incl. Horseshoe Beach; Cedar Key gauge 9.30 ft above MHHW, "highest recorded water level since the station started reporting in 1914", breaking Idalia's 6.89 ft; ~25 % of homes in Cedar Key destroyed (media, per NHC); 14 surge deaths, all in Florida; 18 direct deaths in Florida; >=175 direct US deaths | OK |
 | Three landfalls in 13 months | Idalia 30 Aug 2023, Debby 5 Aug 2024, Helene 27 Sep 2024 | OK (arithmetic) |
 
+## Surge basics (pass 3)
+| Fact | Value | Source | Status |
+|---|---|---|---|
+| Definitions | storm surge = "the rise in seawater level caused solely by a storm", "primarily by a storm's winds pushing water onshore"; its amplitude depends on coast orientation vs track, the storm's intensity, size and speed, "and the local bathymetry"; storm tide = surge + astronomical tide | NOAA NOS oceanservice.noaa.gov/facts/stormsurge-stormtide.html (read 2026-11-21) | OK |
+| Helene stirred the shelf | NASA EO (PACE, 28 Sep 2024): Helene's winds and waves "churned up sediment from the seafloor along shallow coastal areas", making the water look bright | NASA EO image 153390 caption (Commons file description) | OK |
+| Shelf amplifies surge (mechanism) | NHC surge page 403 to our fetch; not said as a sourced fact: narration says only "NOAA lists the shape of the seafloor" + our measurements + the gauge record | - | framing only |
+
+## Not confirmed (pass 3, 2026-11-21)
+Florida State Parks, Florida Memory and FWC pages refused our fetch (403). Not confirmed from an official page: Yulee railroad date,
+pencil mills, Atsena Otie abandonment, Tampa 1880/1890 counts, clam share. Narration: attribute ("according to the town's
+historians", "census counts") or leave out. Net ban: Florida Constitution Art. X s.16, adopted 1994 (flsenate.gov, summary
+reading only) -> say "in the mid-1990s". UF/IFAS shellfish page: clam farming spread from the Indian River Lagoon (do not say it began at Cedar Key).
+
 ## Own measurement: Cedar Key gauge annual maxima (NOAA CO-OPS 8727520, monthly "highest", ft above MHHW, 1914-2025, 101 years)
 Top: 2024-09 9.30 | 2023-08 6.84 | 2016-09 5.98 | 1996-10 5.15 | 1993-03 5.13 | 1972-06 4.21 | 2018-10 4.04 | 1966-06 4.00 | 2005-07 3.99.
 The two highest in 101 years came in the last two. (Monthly product 6.84 vs NHC 6.89 for Idalia: use NHC values in narration.)

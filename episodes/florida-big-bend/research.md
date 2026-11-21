@@ -55,6 +55,14 @@ co-est2024 / sub-est2024_12 (Census), shelf.json (ETOPO), nws1896.pdf.
 Top: 2024-09 9.30 | 2023-08 6.84 | 2016-09 5.98 | 1996-10 5.15 | 1993-03 5.13 | 1972-06 4.21 | 2018-10 4.04 | 1966-06 4.00 | 2005-07 3.99.
 The two highest in 101 years came in the last two. (Monthly product 6.84 vs NHC 6.89 for Idalia: use NHC values in narration.)
 
+## Other attempts (pass 2)
+| Fact | Value | Source | Status |
+|---|---|---|---|
+| Plant / Tampa | Plant bought control of the South Florida Railroad in 1883; it reached Port Tampa by the end of 1883; full Sanford-Tampa service began 1884 | UF Libraries, Ingraham expedition page "South Florida Railroad" | OK (say "in 1884") |
+| Tampa population | 720 in 1880, 5,532 in 1890 | US census, via several sources | CHECK (secondary; fine to attribute) |
+| Cross Florida Barge Canal | New Deal start in the 1930s, stalled after ~3 years; revived 1964 (Johnson); Nixon "permanently halted construction" in 1971 citing ecological damage, 28 % complete, $75 M spent; corridor now the Marjorie Harris Carr Cross Florida Greenway, >70,000 acres, 110 miles | Florida Museum (UF), "Florida Environmental History: The Cross Florida Barge Canal" | OK |
+| Foley mill | Georgia-Pacific announced 18 Sep 2023 it would permanently close the Foley Cellulose mill in Perry; ~525 jobs; UF/IFAS estimated 1,879 potential job losses statewide; about two weeks after Idalia | GP news release 2023-09; UF/IFAS FRE report 2023 | OK |
+
 ## To do
 - Night-lights view (pipeline layer "night") for the dark arc; Sentinel-2 Keaton Beach / Steinhatchee / Horseshoe Beach before-after Helene (Sep 2024 vs Oct 2024).
 - Foley mill closure (Georgia-Pacific release 2023, jobs); Cross Florida Barge Canal (halt 1971, deauthorized 1990, Greenway); Wakulla/Aucilla karst (USGS/FGS); Plant/Tampa date; St Marks NWR; Sanborn maps Cedar Key (LOC).

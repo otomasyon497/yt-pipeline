@@ -953,5 +953,5 @@ comment. Audio of the long render was never checked. No further work planned unl
 - Demand PASS (214x, 185x, 28.8x). competitors.md (4 transcripts), research.md pass 1+2 (NHC TCRs Idalia/Debby/Helene,
   Cedar Key gauge 1914-2025 annual maxima = own chart, ETOPO shelf measurement = own, Census 2024, USGS OFR 01-303,
   FDEP preserve, UF Florida Museum barge canal, GP Foley mill), outline.md = gate-1 draft (~2,700 words, 6 parts).
-- AT GATE 1 (waiting for the user). Open before script: karst source (USGS/FGS), St Marks NWR (USFWS), photo licences
+- GATE 1 APPROVED by the user 2026-11-21 (title, cover words, 6 parts as in outline.md). Open before script: karst source (USGS/FGS), St Marks NWR (USFWS), photo licences
   (Florida Memory / LOC), night-lights view, S2 before/after Helene. Then visuals.md, narration, build_script, factcheck.

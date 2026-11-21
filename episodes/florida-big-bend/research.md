@@ -19,7 +19,15 @@ co-est2024 / sub-est2024_12 (Census), shelf.json (ETOPO), nws1896.pdf.
 | Fact | Value | Source | Status |
 |---|---|---|---|
 | Big Bend Seagrasses Aquatic Preserve | 984,325 acres ("nearly 1 million"), largest in Florida; Apalachee Bay to the Withlacoochee, >150 miles; Wakulla, Jefferson, Taylor, Dixie, Levy; established 1985; one of the largest contiguous seagrass meadows in the Gulf | FDEP / floridaaquaticpreserves.org page | OK |
-| St Marks NWR | established 1931 | competitor; USFWS to check | CHECK |
+| St Marks NWR | Executive Order 5740, 31 Oct 1931, "St. Marks Migratory Bird Refuge", wintering habitat for migratory birds; renamed NWR 1940; 86,000+ acres in Wakulla, Jefferson, Taylor; about 43 miles of Gulf coast; >17,000 acres wilderness | USFWS refuge page fws.gov/refuge/st-marks/about-us | OK |
+
+## Ground full of holes (karst)
+| Fact | Value | Source | Status |
+|---|---|---|---|
+| Wakulla Springs | first-magnitude (64.6 M gal/day or more); average flow ~623 cfs, ~400 M gal/day; one of 31 first-magnitude springs in Florida; vent ~180 ft below land surface, opening into a large cave network | NWFWMD Wakulla Springs page | OK |
+| Aucilla River | crosses karst, disappears underground and reappears ~30 times in the Aucilla River Sinks; last return above ground at Nuttall Rise before the Gulf | Wikipedia citing SRWMD 1991 SWIM plan p. 8 and FWC paddling trail guide | CHECK -> attribute ("the river goes underground again and again") |
+| Woodville Karst Plain | thin sand over the limestone aquifer; Wacissa and St Marks rivers also sink and rise | WFSU, UF/IFAS (secondary) | CHECK (general wording only) |
+| USGS FS 151-95 (Florida springs) | PDF 403 to our fetch | - | not used |
 
 ## People (Census Bureau population estimates, vintage 2024; base = April 2020)
 | Place | 2020 base | 2024 | Status |

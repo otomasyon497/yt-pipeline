@@ -934,3 +934,13 @@ comment. Audio of the long render was never checked. No further work planned unl
   fixed, factcheck row 95 updated. Render 2 run 44776122744. User chose upload 2026-11-23T23:00:00Z (24 Nov 02:00 TR).
 - Venice UPLOADED 2026-11-20: render 2 (44776122744) audited 32 sheets + approved; https://studio.youtube.com/video/msZ2iXpOyEA/edit,
   private, publishAt 2026-11-23T23:00Z (24 Nov 02:00 TR), photo cover "THE SEA IS WINNING" set. TODO user: pin comment by hand.
+
+## mississippi-old-river: "Why the Mississippi Wants to Leave New Orleans" (started 2026-11-20)
+- Demand PASS (5 videos at 3x). competitors.md (5 transcripts), research.md (Corps brochure 2009 + Fisk 1952 read in
+  full, NASA EO, USGS SIM 3381, USACE sill releases, NPS), outline.md, visuals.md (35 Commons searches, satellite tests:
+  Old River 1985->2025 and Atchafalaya/Wax Lake deltas 1986->2025 wipes are strong; Morganza 2011 Landsat cloudy).
+- Own measurement reused from louisiana-land-loss/landloss.json: deltas +115 km² 1985-2026 = 2.8 km²/yr (= LSU/NASA).
+- Script 2026-11-21: 2,665 words, 8 chapters, 214 hand-placed shots; episode_check OK (16.9 min est.); 18 soft photos
+  replaced (all NARA 1973 DOCUMERICA scans fail detail 0.65 -> exact-text quote cards + Landsat 1973 + maps);
+  factcheck 184 claims (177 verified, 7 own, 0 FIX). CLEAR_DAY 2025-10-14 (MODIS, scored Sep-Nov 2025).
+- Storyboard run 44878550992. NEXT: review sheets, full render, audit, cover_photo.json, upload date from the user.

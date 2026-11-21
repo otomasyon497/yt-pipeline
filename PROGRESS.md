@@ -944,3 +944,7 @@ comment. Audio of the long render was never checked. No further work planned unl
   replaced (all NARA 1973 DOCUMERICA scans fail detail 0.65 -> exact-text quote cards + Landsat 1973 + maps);
   factcheck 184 claims (177 verified, 7 own, 0 FIX). CLEAR_DAY 2025-10-14 (MODIS, scored Sep-Nov 2025).
 - Storyboard run 44878550992. NEXT: review sheets, full render, audit, cover_photo.json, upload date from the user.
+- Render 44881792324 (15:47) fetched -Delete, audited 32 sheets + approved (flags = count-ups/crossfades). Description
+  wording made accurate ("one of the few parts of the coast still growing"). UPLOADED 2026-11-21:
+  https://studio.youtube.com/video/DQ2vDBnWafM/edit, private, publishAt 2026-11-24T23:00Z (25 Nov 02:00 TR), photo cover
+  "IT WANTS / OUT" set. TODO user: pin comment by hand.

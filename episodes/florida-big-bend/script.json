@@ -2846,7 +2846,7 @@
            "before": "1985-05-01/1985-09-30",
            "after": "2025-05-01/2025-09-30",
            "source": "landsat",
-           "seconds": 2.4,
+           "seconds": 2.0,
            "until": "This is where the",
            "label_before": "1985",
            "label_after": "2025"
@@ -2867,7 +2867,7 @@
       },
       {
        "type": "map",
-       "at": "Look how far the",
+       "at": "dredged channel runs out",
        "map": {
         "steps": [
          {

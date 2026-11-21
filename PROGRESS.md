@@ -962,3 +962,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   build_script.py 235 shots, episode_check OK (~17.1 min est.), factcheck 175 rows (133 verified, 33 own, 9 attributed, 0 FIX).
   CLEAR_DAY 2025-04-17 (MODIS, by eye). Storyboard run 44908368320. NEXT: review sheets (check MODIS 2024-09-26/27/28
   views, post-Helene S2 dates, Landsat 1985 summer canal), full render, frame_audit, cover_photo.json, upload date from user.
+- Storyboard 3 (44910042528) OK after two stops (canal wipe cut at real pace): 15.7 min (941.5 s). Review of 23 sheets ->
+  fixed: SPRING window 04-10..05-31 (March scenes purple), Pensacola push into open sea, duplicate lighthouse photo,
+  MODIS swath gaps (FL painted; Helene 26/27 Sep views moved; P32 MODIS 27 Sep, not 28 = cloudy), cloudy 1985 canal Landsat
+  dropped. FULL RENDER = run 44912685105. NEXT: fetch -Delete, frame_audit, all sheets, approve, cover (cover_photo.json
+  = St Marks lighthouse, NO BEACH / NO TOWNS), ask the user for the upload date (23:00 UTC slot).

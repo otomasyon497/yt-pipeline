@@ -26,6 +26,16 @@ Primary documents read in full (text extracted locally):
 | Bayou Teche | the main course ~2,800-4,500 (or 3,800-5,500) years ago | Wikipedia; marker; sources disagree | CHECK: say "thousands of years ago" |
 | Lobe ages (Wikipedia, citing Coleman) | Maringouin ~7,500-5,500; Teche 5,500-3,500; St Bernard 4,000-2,000; Lafourche 2,500-500; Plaquemines-Balize last ~1,500 yrs | Wikipedia "Mississippi River Delta"; NSF paper (Yao et al. 2020, Geomorphology) gives a younger set | CHECK: do not put per-lobe ages on screen |
 
+## Scale and archive (added 2026-11-21)
+
+| Fact | Value | Source | Status |
+|---|---|---|---|
+| Basin | drains ~1.2 million sq mi, all or parts of 31 states and 2 Canadian provinces, "about 40% of the continental United States" | NPS, Mississippi National River & Recreation Area, "River Facts" (read 2026-11-21) | OK |
+| Atchafalaya Basin | "America's largest river swamp" | NPS, Atchafalaya National Heritage Area page (read 2026-11-21) | OK |
+| Flow at New Orleans | average 600,000 cubic feet per second | NPS River Facts | OK |
+| Fisk 1944 maps | "Ancient Courses, Mississippi River Meander Belt", Plate 22 of Fisk, Geological Investigation of the Alluvial Valley of the Lower Mississippi River (MRC / Corps, 1 Dec 1944) | Commons file metadata (PD, USACE) | OK |
+| 1973 flood caption | "In the spring of 1973 the Mississippi River reached its highest level in more than 150 years" | NARA DOCUMERICA captions (EPA, 1973) | OK (attributed: federal photographers' caption) |
+
 ## The shortcut next door
 
 | Fact | Value | Source | Status |
@@ -106,5 +116,12 @@ Primary documents read in full (text extracted locally):
   Atchafalaya swamp, Wax Lake delta, the 2023 sill barges, the river at New Orleans, refineries along the corridor.
 - Painted regions: Atchafalaya Basin (USGS NHD / state layer), the six delta complexes only if a data layer exists
   (otherwise use the old bayous Lafourche and Teche as routes, which are on every river layer).
-</content>
-</invoke>
+
+## Own measurement: delta land gain (reused from louisiana-land-loss, tools/louisiana_landloss.py -> episodes/louisiana-land-loss/landloss.json)
+Landsat C2 L2, Oct-Nov median MNDWI, 15 m grid, fixed boxes. Land area (ha):
+| Box | 1985 | 2026 | gain |
+|---|---|---|---|
+| Wax Lake Delta (-91.50, 29.44, -91.38, 29.56) | 2,602 | 8,103 | +5,500 ha = 55 km² |
+| Atchafalaya Delta (-91.36, 29.40, -91.22, 29.52) | 6,047 | 12,088 | +6,041 ha = 60 km² |
+Together ~115 km² in 41 years = ~2.8 km²/yr: the same as NASA/LSU's 2.8 km²/yr (own, agrees with the published figure).
+Wipe pair for this episode: Landsat 5 1986-08-25 -> Landsat 9 2025-10-15 (scratch msat.py; seasons within 2 months).

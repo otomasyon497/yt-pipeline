@@ -1,0 +1,4344 @@
+{
+ "title": "Why the Mississippi Wants to Leave New Orleans",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/mississippi-old-river/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Landsat imagery courtesy of the U.S. Geological Survey"
+ ],
+ "thumbnail": {
+  "text": "IT WANTS OUT"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Every second, about six hundred thousand cubic feet of water slide past New Orleans. This is the Mississippi near the end of its journey, carrying rain from all or part of thirty-one states, about forty percent of the continental United States. But upstream, about fifty miles northwest of Baton Rouge, this river is trying to leave. Why does the biggest river in the country want to abandon its own cities, and what is holding it back?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ronald Keohane visit 8.23.2024-08-23 Greater New Orleans Mississippi River.jpg",
+       "on_screen_text": "The Mississippi at New Orleans"
+      },
+      {
+       "type": "stat",
+       "at": "about six hundred thousand",
+       "stat": {
+        "value": "600,000 FT³/S",
+        "label": "Average flow of the Mississippi at New Orleans",
+        "source": "National Park Service, Mississippi River facts"
+       }
+      },
+      {
+       "type": "map",
+       "at": "This is the Mississippi",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.06,
+           "lat": 29.95,
+           "span": 0.25
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "New Orleans"
+      },
+      {
+       "type": "stat",
+       "at": "carrying rain from all",
+       "stat": {
+        "value": "31 STATES",
+        "label": "All or part of them drain into the Mississippi",
+        "source": "National Park Service, Mississippi River facts"
+       }
+      },
+      {
+       "type": "map",
+       "at": "about forty percent of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -95.5,
+           "lat": 38.0,
+           "span": 34.0
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 40 % of the continental US drains here"
+      },
+      {
+       "type": "map",
+       "at": "But upstream, about fifty",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 30.5,
+           "span": 5.6
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "this river is trying",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.075,
+           "span": 0.16
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River, Louisiana"
+      },
+      {
+       "type": "photo",
+       "at": "Why does the biggest",
+       "photo": "File:Old River Control Structure Complex.jpg",
+       "on_screen_text": "Old River Control, where the river is held"
+      },
+      {
+       "type": "photo",
+       "at": "and what is holding",
+       "photo": "File:Old River Control Complex, Louisiana, 17 June 2024 - 5.jpg",
+       "on_screen_text": "Old River Control Complex, June 2024"
+      }
+     ]
+    },
+    {
+     "text": "The answer involves a fire set on a log jam twenty miles long, a government geologist who gave the river a deadline, and a spring in 1973 when the floodwater dug a hole under the gates that hold it in place. It also involves one of the few stretches of the Louisiana coast that are still growing, and a summer when the Gulf of Mexico crept up the riverbed toward the drinking water of New Orleans.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Photographic Views of Red River Raft 27.jpg",
+       "on_screen_text": "A log raft on the Red River, 1873"
+      },
+      {
+       "type": "photo",
+       "at": "a government geologist who",
+       "photo": "File:Ancient Courses Mississippi River Meander Belt, Plate 22 Sheet 01.jpg",
+       "on_screen_text": "Old courses of the Mississippi, Harold Fisk, 1944"
+      },
+      {
+       "type": "photo",
+       "at": "and a spring in",
+       "photo": "File:Morganza Spillway, Louisiana 5 May 1973.jpg",
+       "on_screen_text": "The Morganza Floodway area, 5 May 1973 (Landsat 1)"
+      },
+      {
+       "type": "map",
+       "at": "dug a hole under",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.598,
+           "lat": 31.077,
+           "span": 0.09
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Structure"
+      },
+      {
+       "type": "map",
+       "at": "It also involves one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.35,
+           "lat": 29.48,
+           "span": 0.45
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 49,
+          "view": {
+           "lon": -91.35,
+           "lat": 29.48,
+           "span": 0.279
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "photo",
+       "at": "and a summer when",
+       "photo": "File:Sill Construction on Lower Mississippi River, July 2023 - 1.jpg",
+       "on_screen_text": "Building an underwater sill, July 2023"
+      },
+      {
+       "type": "photo",
+       "at": "toward the drinking water",
+       "photo": "File:First Water Barge to Plaquemines Parish Louisiana, 1 October 2023 - 07.jpg",
+       "on_screen_text": "Fresh water by barge, Plaquemines Parish, October 2023"
+      }
+     ]
+    },
+    {
+     "text": "Along the river's last stretch sit the busiest port in the United States by tonnage, a long row of refineries and chemical plants, and the water intakes of the city itself. All of it depends on the Mississippi staying exactly where it is. The first reason it might not is that this river has never stayed in one place for long.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.55,
+           "lat": 30.05,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river above New Orleans"
+      },
+      {
+       "type": "stat",
+       "at": "the busiest port in",
+       "stat": {
+        "value": "#1",
+        "label": "US port by tonnage: the Port of South Louisiana (2023)",
+        "source": "USACE Waterborne Commerce, 2023"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a long row of",
+       "photo": "File:Dow Chemical St. Charles plant at Taft LA on the Mississippi River.jpg",
+       "on_screen_text": "A chemical plant on the river at Taft"
+      },
+      {
+       "type": "photo",
+       "at": "and the water intakes",
+       "photo": "File:New Orleans from the Air September 2019 - French Quarter and CBD - River to Lake.jpg",
+       "on_screen_text": "New Orleans"
+      },
+      {
+       "type": "photo",
+       "at": "All of it depends",
+       "photo": "File:Garyville and Reserve, Louisiana, and the Marathon Petroleum oil refinery.tif",
+       "on_screen_text": "Garyville and Reserve, and the Marathon refinery"
+      },
+      {
+       "type": "map",
+       "at": "The first reason it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.3,
+           "lat": 29.6,
+           "span": 4.2
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           }
+          ]
+         },
+         {
+          "at": "has never stayed in",
+          "routes": [
+           {
+            "from": [
+             -90.99,
+             30.1
+            ],
+            "via": [
+             [
+              -91.03,
+              29.94
+             ],
+             [
+              -90.82,
+              29.8
+             ],
+             [
+              -90.6,
+              29.73
+             ],
+             [
+              -90.54,
+              29.65
+             ],
+             [
+              -90.38,
+              29.57
+             ],
+             [
+              -90.27,
+              29.38
+             ]
+            ],
+            "to": [
+             -90.21,
+             29.25
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.2,
+            "label": "Bayou Lafourche"
+           },
+           {
+            "from": [
+             -91.95,
+             30.56
+            ],
+            "via": [
+             [
+              -91.9,
+              30.27
+             ],
+             [
+              -91.83,
+              30.12
+             ],
+             [
+              -91.82,
+              30.0
+             ],
+             [
+              -91.66,
+              29.91
+             ],
+             [
+              -91.51,
+              29.8
+             ]
+            ],
+            "to": [
+             -91.3,
+             29.69
+            ],
+            "mode": "line",
+            "color": "alt",
+            "seconds": 2.2,
+            "label": "Bayou Teche"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rivers Like This Don't Stay Put",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "A river that builds a delta is always building its own trap. When the water reaches the sea it slows down and drops its mud, and over centuries the mouth creeps further out into the Gulf. Every mile of new land makes the route to the sea longer and the slope gentler. The water slows even more, drops more sediment in its own bed, and the bed rises. In time, the river is running higher than the land around it, held in by the banks it built itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.09,
+           "lat": 29.684,
+           "span": 3.78
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           },
+           {
+            "name": "Head of Passes",
+            "lon": -89.25,
+            "lat": 29.15,
+            "kind": "site",
+            "label": "Mouth of the Mississippi",
+            "icon": "sea"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "When the water reaches",
+       "photo": "File:Reshaping Coastal Louisiana.jpeg",
+       "on_screen_text": "Coastal Louisiana from orbit (NASA, 2020)"
+      },
+      {
+       "type": "map",
+       "at": "and over centuries the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.35,
+           "lat": 29.15,
+           "span": 0.6
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river's mouth today"
+      },
+      {
+       "type": "photo",
+       "at": "Every mile of new",
+       "photo": "File:Empire-View of Mississippi River and south Plaquemines Parish near.jpg",
+       "on_screen_text": "The Mississippi near Empire, Plaquemines Parish"
+      },
+      {
+       "type": "map",
+       "at": "The water slows even",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.5,
+           "lat": 29.38,
+           "span": 0.25
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 60,
+          "view": {
+           "lon": -89.5,
+           "lat": 29.38,
+           "span": 0.155
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Plaquemines Parish: the river between its banks"
+      },
+      {
+       "type": "photo",
+       "at": "In time, the river",
+       "photo": "File:Mississippi River high water in Baton Rouge.jpg",
+       "on_screen_text": "The Mississippi at high water, Baton Rouge, 2011"
+      },
+      {
+       "type": "photo",
+       "at": "held in by the",
+       "photo": "File:East Jefferson Levee District Police - Louisiana Levee Inspection, April 2025.jpg",
+       "on_screen_text": "Levee inspection, Jefferson Parish, April 2025"
+      }
+     ]
+    },
+    {
+     "text": "Then one big flood breaks through a bank, finds a shorter and steeper way down to the sea, and the river takes it. Geologists call that jump an avulsion. The old channel is left behind with only a trickle of water, and the river starts building a brand new delta somewhere else.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Floods - Mississippi River Flood - NARA - 68157473.jpg",
+       "on_screen_text": "Mississippi River flood, April 1927"
+      },
+      {
+       "type": "photo",
+       "at": "finds a shorter and",
+       "photo": "File:Floods - Mississippi River Flood - NARA - 68157471.jpg",
+       "on_screen_text": "Mississippi River flood, April 1927"
+      },
+      {
+       "type": "stat",
+       "at": "Geologists call that jump",
+       "stat": {
+        "value": "AVULSION",
+        "label": "A river jumping to a new course",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "is left behind with",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.7,
+           "lat": 31.05,
+           "span": 0.25
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Abandoned river loops near Old River"
+      },
+      {
+       "type": "photo",
+       "at": "and the river starts",
+       "photo": "File:Atchafalaya River delta.jpg",
+       "on_screen_text": "A young delta: the Atchafalaya, 1999"
+      }
+     ]
+    },
+    {
+     "text": "The lower Mississippi has done this again and again. According to the Army Corps of Engineers, in the five to six thousand years since the sea rose close to today's level, the river below Baton Rouge has migrated back and forth across Louisiana at least seven times, each time building a new delta. Geologists who dated the buried deposits counted sixteen separate delta lobes. Left alone, NASA's Earth Observatory notes, the lower river would probably swing across a two-hundred-mile arc every few thousand years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.12,
+           "lat": 30.612,
+           "span": 5.04
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "According to the Army",
+       "stat": {
+        "value": "5,000-6,000 YRS",
+        "label": "Since the sea rose close to today's level",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "since the sea rose",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.4,
+           "lat": 29.2,
+           "span": 1.0
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river's present delta"
+      },
+      {
+       "type": "stat",
+       "at": "has migrated back and",
+       "stat": {
+        "value": "7+ TIMES",
+        "label": "The river below Baton Rouge moved across Louisiana",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Geologists who dated the",
+       "stat": {
+        "value": "16 LOBES",
+        "label": "Separate delta lobes in the buried deposits",
+        "source": "Frazier 1967"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Left alone, NASA's Earth",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.68,
+           "lat": 30.388,
+           "span": 6.16
+          },
+          "places": [
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ],
+          "date": "2025-10-14"
+         },
+         {
+          "at": "would probably swing across",
+          "arrows": [
+           {
+            "from": [
+             -92.2,
+             29.7
+            ],
+            "to": [
+             -89.2,
+             29.5
+            ],
+            "color": "accent",
+            "label": "About a 200-mile arc",
+            "bend": 0.45
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 1944, the geologist Harold Fisk published maps of the river's ancient courses for the Mississippi River Commission, every abandoned channel in its own colour. They look like tangled ribbons, because that is what the valley floor really is: thousands of years of a river that kept changing its mind.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ancient Courses Mississippi River Meander Belt, Plate 22 Sheet 07.jpg",
+       "on_screen_text": "Old courses of the Mississippi, Fisk 1944 (plate 22, sheet 7)"
+      },
+      {
+       "type": "photo",
+       "at": "courses for the Mississippi",
+       "photo": "File:Ancient Courses Mississippi River Meander Belt, Plate 22 Sheet 01.jpg",
+       "on_screen_text": "Ancient courses of the Mississippi, Fisk 1944 (plate 22, sheet 1)"
+      },
+      {
+       "type": "map",
+       "at": "They look like tangled",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.45,
+           "lat": 31.45,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river valley near Natchez today"
+      },
+      {
+       "type": "photo",
+       "at": "thousands of years of",
+       "photo": "File:AtchafalayaBasinPanorama.jpg",
+       "on_screen_text": "The Atchafalaya Basin"
+      }
+     ]
+    },
+    {
+     "text": "You can still see the old routes from space. This thin line of towns south of Donaldsonville follows Bayou Lafourche, which carried the main flow of the Mississippi within the last couple of thousand years. The houses stand on the strip of high ground the old river built along its banks, with long, narrow fields running back from the road into the marsh. Further west, Bayou Teche traces another course the river abandoned thousands of years ago.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.9,
+           "lat": 29.9,
+           "span": 3.0
+          },
+          "routes": [
+           {
+            "from": [
+             -90.99,
+             30.1
+            ],
+            "via": [
+             [
+              -91.03,
+              29.94
+             ],
+             [
+              -90.82,
+              29.8
+             ],
+             [
+              -90.6,
+              29.73
+             ],
+             [
+              -90.54,
+              29.65
+             ],
+             [
+              -90.38,
+              29.57
+             ],
+             [
+              -90.27,
+              29.38
+             ]
+            ],
+            "to": [
+             -90.21,
+             29.25
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.2,
+            "label": "Bayou Lafourche"
+           }
+          ],
+          "places": [
+           {
+            "name": "Donaldsonville",
+            "lon": -90.99,
+            "lat": 30.1,
+            "kind": "city",
+            "label": "Donaldsonville"
+           },
+           {
+            "name": "Thibodaux",
+            "lon": -90.82,
+            "lat": 29.8,
+            "kind": "city",
+            "label": "Thibodaux"
+           },
+           {
+            "name": "Golden Meadow",
+            "lon": -90.27,
+            "lat": 29.38,
+            "kind": "city",
+            "label": "Golden Meadow"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "This thin line of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.4,
+           "lat": 29.62,
+           "span": 0.35
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": -90.4,
+           "lat": 29.62,
+           "span": 0.217
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayou Lafourche"
+      },
+      {
+       "type": "photo",
+       "at": "The houses stand on",
+       "photo": "File:VIEW NORTHEAST AT NORTHERN BANK OF BAYOU LAFOURCHE; M-V 'FOX' LIES UNDER TREES AT CENTER OF PHOTOGRAPH - Motorized Sailing Vessel \"Fox\", Beached on East Bank ofBayou Lafourche, HAER LA,29-LAR,1-2.tif",
+       "on_screen_text": "Bayou Lafourche at Larose"
+      },
+      {
+       "type": "map",
+       "at": "with long, narrow fields",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.55,
+           "lat": 29.7,
+           "span": 0.12
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Long lots on the bayou ridge"
+      },
+      {
+       "type": "map",
+       "at": "Further west, Bayou Teche",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.75,
+           "lat": 29.96,
+           "span": 2.7
+          },
+          "routes": [
+           {
+            "from": [
+             -91.95,
+             30.56
+            ],
+            "via": [
+             [
+              -91.9,
+              30.27
+             ],
+             [
+              -91.83,
+              30.12
+             ],
+             [
+              -91.82,
+              30.0
+             ],
+             [
+              -91.66,
+              29.91
+             ],
+             [
+              -91.51,
+              29.8
+             ]
+            ],
+            "to": [
+             -91.3,
+             29.69
+            ],
+            "mode": "line",
+            "color": "alt",
+            "seconds": 2.2,
+            "label": "Bayou Teche"
+           }
+          ],
+          "places": [
+           {
+            "name": "New Iberia",
+            "lon": -91.82,
+            "lat": 30.0,
+            "kind": "city",
+            "label": "New Iberia"
+           },
+           {
+            "name": "Franklin",
+            "lon": -91.51,
+            "lat": 29.8,
+            "kind": "city",
+            "label": "Franklin"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Every one of those moves started the same way: a shorter road opened up, and the river found it. Today, a shorter road runs right beside the Mississippi, and for most of the last two centuries, people have been widening it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Harper's weekly (1867) Coming from the Church, Bayou LaFourche, Louisiana.jpg",
+       "on_screen_text": "Bayou Lafourche, Harper's Weekly, 1867"
+      },
+      {
+       "type": "photo",
+       "at": "and the river found",
+       "photo": "File:Shrimp Boat on Bayou Lafourche in Golden Meadows, LA.jpg",
+       "on_screen_text": "A shrimp boat on Bayou Lafourche"
+      },
+      {
+       "type": "map",
+       "at": "Today, a shorter road",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.65,
+           "lat": 31.05,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": -91.65,
+           "lat": 31.05,
+           "span": 0.248
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the Mississippi meets the Atchafalaya"
+      },
+      {
+       "type": "photo",
+       "at": "people have been widening",
+       "photo": "File:Sea Grant - Atchafalaya Basin West Guide Levee.jpg",
+       "on_screen_text": "West guide levee of the Atchafalaya Basin"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Shorter Road Next Door",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "About fifty miles northwest of Baton Rouge, three rivers almost touch. The Mississippi comes down from the north, the Red River comes in from the west, and the Atchafalaya leaves toward the south. According to the Corps, sometime around the fifteenth century a westward loop of the Mississippi, later called Turnbull's Bend, cut into the valley of the Red River and captured it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.232,
+           "lat": 30.276,
+           "span": 4.592
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Mississippi comes down",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.75,
+           "lat": 31.05,
+           "span": 0.7
+          },
+          "date": "2025-09-01/2025-10-31",
+          "arrows": [
+           {
+            "from": [
+             -91.5,
+             31.45
+            ],
+            "to": [
+             -91.58,
+             31.12
+            ],
+            "color": "blue",
+            "label": "Mississippi",
+            "bend": 0.1
+           }
+          ]
+         },
+         {
+          "at": "the Red River comes",
+          "arrows": [
+           {
+            "from": [
+             -92.15,
+             31.15
+            ],
+            "to": [
+             -91.82,
+             31.01
+            ],
+            "color": "accent",
+            "label": "Red River",
+            "bend": 0.1
+           }
+          ]
+         },
+         {
+          "at": "and the Atchafalaya leaves",
+          "arrows": [
+           {
+            "from": [
+             -91.79,
+             30.95
+            ],
+            "to": [
+             -91.75,
+             30.65
+            ],
+            "color": "red",
+            "label": "Atchafalaya",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "According to the Corps,",
+       "stat": {
+        "value": "1400s",
+        "label": "A Mississippi loop captures the Red River",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "later called Turnbull's Bend,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.7,
+           "lat": 31.0,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 55,
+          "view": {
+           "lon": -91.7,
+           "lat": 31.0,
+           "span": 0.186
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The old loops around Old River"
+      }
+     ]
+    },
+    {
+     "text": "Back then, the Atchafalaya was only a small branch flowing out of the Red, a few miles to the south. Once the loop had joined the two systems, the Red stopped flowing into the Mississippi and flowed into the Atchafalaya instead, and a channel connected all three. Usually the current ran west, out of the Mississippi and into the Atchafalaya.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Atchafalaya Basin. Prepared by order of Maj. Gen. N. P. Banks. Henry L. Abbot, Capt. & Chief Top. Eng'rs., Feb.... - NARA - 305632.jpg",
+       "on_screen_text": "The Atchafalaya Basin, Union army map, 1860s"
+      },
+      {
+       "type": "map",
+       "at": "out of the Red,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.78,
+           "lat": 31.0,
+           "span": 0.2
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the Atchafalaya leaves the Red"
+      },
+      {
+       "type": "map",
+       "at": "Once the loop had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.7,
+           "lat": 31.02,
+           "span": 0.45
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": -91.7,
+           "lat": 31.02,
+           "span": 0.279
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Red now feeds the Atchafalaya"
+      },
+      {
+       "type": "map",
+       "at": "Usually the current ran",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.07,
+           "span": 0.12
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River"
+      }
+     ]
+    },
+    {
+     "text": "Now look at where each road goes. From here the Mississippi winds south and east, past Baton Rouge and New Orleans and out through its delta: three hundred and fifteen miles to the Gulf of Mexico. The Atchafalaya runs almost straight south, through the largest river swamp in the country, to the Gulf at Atchafalaya Bay: one hundred and forty-two miles. Less than half the distance, for the same drop to sea level.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.568,
+           "lat": 30.724,
+           "span": 6.608
+          },
+          "routes": [
+           {
+            "from": [
+             -91.6,
+             31.07
+            ],
+            "via": [
+             [
+              -91.52,
+              30.9
+             ],
+             [
+              -91.38,
+              30.76
+             ],
+             [
+              -91.19,
+              30.45
+             ],
+             [
+              -91.23,
+              30.28
+             ],
+             [
+              -90.99,
+              30.1
+             ],
+             [
+              -90.7,
+              30.03
+             ],
+             [
+              -90.4,
+              30.02
+             ],
+             [
+              -90.07,
+              29.95
+             ],
+             [
+              -89.95,
+              29.86
+             ],
+             [
+              -89.79,
+              29.58
+             ],
+             [
+              -89.55,
+              29.4
+             ],
+             [
+              -89.35,
+              29.27
+             ]
+            ],
+            "to": [
+             -89.25,
+             29.15
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 3.0,
+            "label": "Mississippi: 315 miles"
+           }
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ],
+          "date": "2025-10-14"
+         },
+         {
+          "at": "past Baton Rouge and",
+          "places": [
+           {
+            "name": "Donaldsonville",
+            "lon": -90.99,
+            "lat": 30.1,
+            "kind": "city",
+            "label": "Donaldsonville"
+           }
+          ]
+         },
+         {
+          "at": "and out through its",
+          "places": [
+           {
+            "name": "Head of Passes",
+            "lon": -89.25,
+            "lat": 29.15,
+            "kind": "site",
+            "label": "Mouth of the Mississippi",
+            "icon": "sea"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "three hundred and fifteen",
+       "stat": {
+        "value": "315 MILES",
+        "label": "Old River to the Gulf, down the Mississippi",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Atchafalaya runs almost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.008,
+           "lat": 30.5,
+           "span": 5.32
+          },
+          "routes": [
+           {
+            "from": [
+             -91.6,
+             31.07
+            ],
+            "via": [
+             [
+              -91.52,
+              30.9
+             ],
+             [
+              -91.38,
+              30.76
+             ],
+             [
+              -91.19,
+              30.45
+             ],
+             [
+              -91.23,
+              30.28
+             ],
+             [
+              -90.99,
+              30.1
+             ],
+             [
+              -90.7,
+              30.03
+             ],
+             [
+              -90.4,
+              30.02
+             ],
+             [
+              -90.07,
+              29.95
+             ],
+             [
+              -89.95,
+              29.86
+             ],
+             [
+              -89.79,
+              29.58
+             ],
+             [
+              -89.55,
+              29.4
+             ],
+             [
+              -89.35,
+              29.27
+             ]
+            ],
+            "to": [
+             -89.25,
+             29.15
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 3.0,
+            "label": "Mississippi: 315 miles"
+           },
+           {
+            "from": [
+             -91.63,
+             31.05
+            ],
+            "via": [
+             [
+              -91.8,
+              30.97
+             ],
+             [
+              -91.74,
+              30.69
+             ],
+             [
+              -91.75,
+              30.54
+             ],
+             [
+              -91.7,
+              30.28
+             ],
+             [
+              -91.52,
+              30.02
+             ],
+             [
+              -91.33,
+              29.85
+             ],
+             [
+              -91.2,
+              29.7
+             ]
+            ],
+            "to": [
+             -91.27,
+             29.45
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Atchafalaya: 142 miles"
+           }
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Morgan City",
+            "lon": -91.2,
+            "lat": 29.7,
+            "kind": "city",
+            "label": "Morgan City"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "through the largest river",
+       "photo": "File:AtchafalayaBasinPanorama.jpg",
+       "on_screen_text": "The Atchafalaya Basin"
+      },
+      {
+       "type": "stat",
+       "at": "one hundred and forty-two",
+       "stat": {
+        "value": "142 MILES",
+        "label": "Old River to the Gulf, down the Atchafalaya",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "for the same drop",
+       "chart": {
+        "type": "bar",
+        "title": "Old River to the Gulf of Mexico",
+        "unit": " mi",
+        "data": [
+         [
+          "Mississippi",
+          315
+         ],
+         [
+          "Atchafalaya",
+          142
+         ]
+        ],
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "Water does not read maps, but it always follows the slope. A steeper channel runs faster, a faster current digs its bed deeper and wider, and a bigger channel draws in still more water, which digs it deeper again. For a long time the Atchafalaya could not start that cycle. Two things stood in the way, and people removed both of them.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sea Grant - Atchafalaya River looking towards Avoca Island Cutoff.jpg",
+       "on_screen_text": "The Atchafalaya near its mouth"
+      },
+      {
+       "type": "photo",
+       "at": "A steeper channel runs",
+       "photo": "File:Atchafalaya Bridge.jpg",
+       "on_screen_text": "A highway bridge across the Atchafalaya Basin"
+      },
+      {
+       "type": "map",
+       "at": "and a bigger channel",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.75,
+           "lat": 30.7,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Atchafalaya"
+      },
+      {
+       "type": "map",
+       "at": "For a long time",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.8,
+           "lat": 30.95,
+           "span": 0.2
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": -91.8,
+           "lat": 30.95,
+           "span": 0.124
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The head of the Atchafalaya"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "People Opened the Door",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The first was the loop itself. In 1831, Captain Henry Miller Shreve, a famous steamboat man and the founder of Shreveport, dug a cut across the narrow neck of Turnbull's Bend. The Mississippi accepted the shortcut and abandoned its old channel. The upper part of the loop silted up over the years, but the lower part stayed open, a short channel tying the Mississippi to the Red and the Atchafalaya. People called it, simply, Old River.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.792,
+           "lat": 30.5,
+           "span": 4.816
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Shreveport",
+            "lon": -93.75,
+            "lat": 32.52,
+            "kind": "city",
+            "label": "Shreveport"
+           },
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1831, Captain Henry",
+       "stat": {
+        "value": "1831",
+        "label": "Henry M. Shreve cuts across Turnbull's Bend",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "dug a cut across",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.66,
+           "lat": 31.02,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": -91.66,
+           "lat": 31.02,
+           "span": 0.248
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Around Shreve's cut, today"
+      },
+      {
+       "type": "map",
+       "at": "The upper part of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.7,
+           "lat": 31.06,
+           "span": 0.18
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 55,
+          "view": {
+           "lon": -91.7,
+           "lat": 31.06,
+           "span": 0.112
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old loops beside the river"
+      },
+      {
+       "type": "map",
+       "at": "People called it, simply,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.62,
+           "lat": 31.06,
+           "span": 0.1
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River"
+      }
+     ]
+    },
+    {
+     "text": "The second obstacle was a raft. Not a boat: a log jam, built up from drifting trees over decades, that blocked the head of the Atchafalaya for some twenty to thirty miles. It may have started forming in the late seventeen hundreds, and settlers had failed to break it apart. As long as it sat there, the Atchafalaya stayed a minor stream.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Photographic Views of Red River Raft 05.jpg",
+       "on_screen_text": "Drift logs on the Red River, 1873"
+      },
+      {
+       "type": "photo",
+       "at": "Not a boat: a",
+       "photo": "File:Photographic Views of Red River Raft 27.jpg",
+       "on_screen_text": "Part of the Red River raft, 1873"
+      },
+      {
+       "type": "stat",
+       "at": "that blocked the head",
+       "stat": {
+        "value": "20-30 MI",
+        "label": "The log raft at the head of the Atchafalaya",
+        "source": "Fisk 1952; USACE"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It may have started",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.78,
+           "lat": 30.9,
+           "span": 0.22
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 42,
+          "view": {
+           "lon": -91.78,
+           "lat": 30.9,
+           "span": 0.136
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 52,
+          "view": {
+           "lon": -91.78,
+           "lat": 30.9,
+           "span": 0.218
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The head of the Atchafalaya today"
+      }
+     ]
+    },
+    {
+     "text": "In 1839, during a drought, the water was so low that people crossed the channel on a plank fifteen feet long. Local residents set the raft on fire. According to an account quoted in a 1952 report for the Mississippi River Commission, the fire burned about twenty miles of it down to the waterline. The state of Louisiana sent snagboats to pull out what was left, and by 1855 the last of it was gone.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1839",
+        "label": "A drought on the Atchafalaya",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "people crossed the channel",
+       "stat": {
+        "value": "15 FT",
+        "label": "A plank was enough to cross the channel",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Local residents set the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 30.78,
+           "span": 5.936
+          },
+          "places": [
+           {
+            "name": "The raft",
+            "lon": -91.78,
+            "lat": 30.92,
+            "kind": "site",
+            "label": "The raft, 1839",
+            "icon": "fire"
+           },
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "According to an account",
+       "photo": "File:Sea Grant - Atchafalaya River's west bank near Sweetbay Lake.jpg",
+       "on_screen_text": "The Atchafalaya River"
+      },
+      {
+       "type": "stat",
+       "at": "the fire burned about",
+       "stat": {
+        "value": "~20 MI",
+        "label": "Of the raft burned to the waterline",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The state of Louisiana",
+       "photo": "File:Photographic Views of Red River Raft 22.jpg",
+       "on_screen_text": "Clearing the Red River raft, 1873"
+      },
+      {
+       "type": "stat",
+       "at": "and by 1855 the",
+       "stat": {
+        "value": "1855",
+        "label": "The last of the raft removed",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "This is how such a jam looked, on the Red River upstream, being cleared in 1873. Imagine twenty miles of it, and then imagine it gone. Without the raft, the Atchafalaya was a free, straight, steep channel to the sea, connected to the biggest river in the country.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Photographic Views of Red River Raft 16.jpg",
+       "on_screen_text": "From the Red River raft album, 1873"
+      },
+      {
+       "type": "photo",
+       "at": "being cleared in 1873.",
+       "photo": "File:Photographic Views of Red River Raft 26.jpg",
+       "on_screen_text": "The Red River after clearing, 1873"
+      },
+      {
+       "type": "photo",
+       "at": "Imagine twenty miles of",
+       "photo": "File:Photographic Views of Red River Raft 20.jpg",
+       "on_screen_text": "Steam saws on the Red River raft, 1873"
+      },
+      {
+       "type": "photo",
+       "at": "and then imagine it",
+       "photo": "File:Photographic Views of Red River Raft 01.jpg",
+       "on_screen_text": "Explosives camp on the Red River raft, 1873"
+      },
+      {
+       "type": "map",
+       "at": "Without the raft, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.76,
+           "lat": 30.8,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": -91.76,
+           "lat": 30.8,
+           "span": 0.186
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Atchafalaya today"
+      }
+     ]
+    },
+    {
+     "text": "The door was open. An 1881 report of the Mississippi River Commission noted that rapid enlargement of the Atchafalaya had begun. In 1900 it was taking about five percent of the Mississippi's flow. By 1950 it was taking about a quarter. Counting the Red River too, its share had doubled from fifteen percent to thirty in fifty years. Every year the shortcut got bigger, and every year it pulled a little harder.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sea Grant - Atchafalaya River looking towards Avoca Island Cutoff.2.jpg",
+       "on_screen_text": "The Atchafalaya River"
+      },
+      {
+       "type": "stat",
+       "at": "An 1881 report of",
+       "stat": {
+        "value": "1881",
+        "label": "Rapid enlargement of the Atchafalaya noted",
+        "source": "Mississippi River Commission, via Fisk 1952"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "In 1900 it was",
+       "chart": {
+        "type": "line",
+        "title": "Atchafalaya's share of the Mississippi's flow",
+        "unit": " %",
+        "data": [
+         [
+          "1900",
+          5
+         ],
+         [
+          "1950",
+          25
+         ]
+        ],
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)",
+        "highlight": 1,
+        "reveal": [
+         "By 1950 it"
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Counting the Red River",
+       "stat": {
+        "value": "15 → 30 %",
+        "label": "Share of the Mississippi + Red flow, 1900-1950",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Every year the shortcut",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 30.22,
+           "span": 4.368
+          },
+          "arrows": [
+           {
+            "from": [
+             -91.62,
+             31.04
+            ],
+            "to": [
+             -91.4,
+             29.8
+            ],
+            "color": "red",
+            "label": "The shortcut pulls harder",
+            "bend": -0.15
+           }
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Deadline and the Gates",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In 1952, Harold Fisk, the same geologist who had mapped the river's old courses, delivered a report on the Atchafalaya to the Mississippi River Commission. He measured the trend and followed it forward. Sometime between 1965 and 1975, he wrote, the Atchafalaya would reach a critical stage, taking about forty percent of the flow. After that, closure of the Mississippi below Old River would be rapid, and the diversion uncontrollable.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.12,
+           "lat": 30.612,
+           "span": 4.889
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the same geologist who",
+       "photo": "File:Ancient Courses Mississippi River Meander Belt, Plate 22 Sheet 07.jpg",
+       "on_screen_text": "Fisk's 1944 map of the river's old courses"
+      },
+      {
+       "type": "stat",
+       "at": "delivered a report on",
+       "stat": {
+        "value": "1952",
+        "label": "Fisk's report to the Mississippi River Commission",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "He measured the trend",
+       "photo": "File:Department of the Gulf Map No. 48. Atchafalaya Basin - NARA - 102278585.jpg",
+       "on_screen_text": "The Atchafalaya Basin, Civil War-era map"
+      },
+      {
+       "type": "stat",
+       "at": "Sometime between 1965 and",
+       "stat": {
+        "value": "1965-75",
+        "label": "When the Atchafalaya would reach a critical stage",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "taking about forty percent",
+       "stat": {
+        "value": "~40 %",
+        "label": "Share of the flow at the critical stage",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)"
+       }
+      },
+      {
+       "type": "document",
+       "at": "After that, closure of",
+       "document": {
+        "text": "closure of the Mississippi River below Old River will be rapid and diversion will be uncontrollable",
+        "source": "H. N. Fisk, report to the Mississippi River Commission (1952)",
+        "highlight": "uncontrollable",
+        "title": "Fisk, 1952"
+       }
+      }
+     ]
+    },
+    {
+     "text": "According to NASA's Earth Observatory, the Corps concluded in 1953 that, left unchecked, the Mississippi would change course by about 1990. The Corps' own description of that future is blunt. The old channel past Baton Rouge and New Orleans would become a saltwater estuary. The refineries, chemical plants, grain elevators and power plants along it all depend on that fresh water. Cities down to New Orleans would be hard-pressed to find drinking water. And the Atchafalaya Basin could not take the whole Mississippi without massive flooding.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "BY ~1990",
+        "label": "When the Corps expected the river to change course (1953)",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "map",
+       "at": "left unchecked, the Mississippi",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.68,
+           "lat": 30.388,
+           "span": 5.975
+          },
+          "routes": [
+           {
+            "from": [
+             -91.63,
+             31.05
+            ],
+            "via": [
+             [
+              -91.8,
+              30.97
+             ],
+             [
+              -91.74,
+              30.69
+             ],
+             [
+              -91.75,
+              30.54
+             ],
+             [
+              -91.7,
+              30.28
+             ],
+             [
+              -91.52,
+              30.02
+             ],
+             [
+              -91.33,
+              29.85
+             ],
+             [
+              -91.2,
+              29.7
+             ]
+            ],
+            "to": [
+             -91.27,
+             29.45
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Atchafalaya: 142 miles"
+           }
+          ],
+          "places": [
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Corps' own description",
+       "photo": "File:Aerial view of the winding Mississippi River through New Orleans, Louisiana LCCN2011634562.tif",
+       "on_screen_text": "The Mississippi winding through New Orleans"
+      },
+      {
+       "type": "map",
+       "at": "The old channel past",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.55,
+           "lat": 30.05,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river between Baton Rouge and New Orleans"
+      },
+      {
+       "type": "photo",
+       "at": "The refineries, chemical plants,",
+       "photo": "File:Dow Chemical Plant, Taft, St. Charles Parish, Louisiana on the Mississippi River - panoramio.jpg",
+       "on_screen_text": "Taft, St. Charles Parish"
+      },
+      {
+       "type": "photo",
+       "at": "Cities down to New",
+       "photo": "File:Aerial - New Orleans Skyline 2013 - panoramio.jpg",
+       "on_screen_text": "New Orleans"
+      },
+      {
+       "type": "photo",
+       "at": "And the Atchafalaya Basin",
+       "photo": "File:Sea Grant - Atchafalaya Basin Guide Levee.jpg",
+       "on_screen_text": "A guide levee in the Atchafalaya Basin"
+      }
+     ]
+    },
+    {
+     "text": "So on the third of September 1954, Congress authorized a project to hold the river where it was. The rule was simple: freeze the river the way it was in 1950. About seventy percent of the combined flow of the Mississippi and the Red stays in the Mississippi, and about thirty percent goes down the Atchafalaya, averaged over the year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3 SEP 1954",
+        "label": "Congress authorizes Old River Control",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a project to hold",
+       "photo": "File:Old River Control Structure Complex.jpg",
+       "on_screen_text": "Old River Control, 1999"
+      },
+      {
+       "type": "map",
+       "at": "The rule was simple:",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.232,
+           "lat": 30.276,
+           "span": 4.454
+          },
+          "routes": [
+           {
+            "from": [
+             -91.6,
+             31.07
+            ],
+            "via": [
+             [
+              -91.52,
+              30.9
+             ],
+             [
+              -91.38,
+              30.76
+             ],
+             [
+              -91.19,
+              30.45
+             ],
+             [
+              -91.23,
+              30.28
+             ],
+             [
+              -90.99,
+              30.1
+             ],
+             [
+              -90.7,
+              30.03
+             ],
+             [
+              -90.4,
+              30.02
+             ],
+             [
+              -90.07,
+              29.95
+             ],
+             [
+              -89.95,
+              29.86
+             ],
+             [
+              -89.79,
+              29.58
+             ],
+             [
+              -89.55,
+              29.4
+             ],
+             [
+              -89.35,
+              29.27
+             ]
+            ],
+            "to": [
+             -89.25,
+             29.15
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 3.0,
+            "label": "Mississippi: 315 miles"
+           },
+           {
+            "from": [
+             -91.63,
+             31.05
+            ],
+            "via": [
+             [
+              -91.8,
+              30.97
+             ],
+             [
+              -91.74,
+              30.69
+             ],
+             [
+              -91.75,
+              30.54
+             ],
+             [
+              -91.7,
+              30.28
+             ],
+             [
+              -91.52,
+              30.02
+             ],
+             [
+              -91.33,
+              29.85
+             ],
+             [
+              -91.2,
+              29.7
+             ]
+            ],
+            "to": [
+             -91.27,
+             29.45
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Atchafalaya: 142 miles"
+           }
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "About seventy percent of",
+       "chart": {
+        "type": "bar",
+        "title": "The 1950 split, kept every year",
+        "unit": " %",
+        "data": [
+         [
+          "Mississippi",
+          70
+         ],
+         [
+          "Atchafalaya",
+          30
+         ]
+        ],
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": 1,
+        "reveal": [
+         "and about thirty percent"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Construction began in 1955. The Corps built the first structures in a dry hole beside the river and only then dredged the channels that connected them. The Low Sill Structure has eleven gates, each forty-four feet wide. Next to it, the Overbank Structure, seventy-three bays long, takes extra water in flood years. Old River itself was dammed, and a navigation lock opened in 1963 so boats could still pass between the rivers.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1955",
+        "label": "Construction begins at Old River",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "in a dry hole",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.08,
+           "span": 0.1
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": -91.6,
+           "lat": 31.08,
+           "span": 0.08
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Complex"
+      },
+      {
+       "type": "stat",
+       "at": "The Low Sill Structure",
+       "stat": {
+        "value": "11 GATES",
+        "label": "Low Sill Structure, each 44 ft wide",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Next to it, the",
+       "photo": "File:Old River Control Complex, Louisiana, 17 June 2024 - 5.jpg",
+       "on_screen_text": "Old River Control Complex, June 2024"
+      },
+      {
+       "type": "stat",
+       "at": "seventy-three bays long,",
+       "stat": {
+        "value": "73 BAYS",
+        "label": "Overbank Structure, for flood years",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Old River itself was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.62,
+           "lat": 31.06,
+           "span": 0.1
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River"
+      },
+      {
+       "type": "stat",
+       "at": "and a navigation lock",
+       "stat": {
+        "value": "1963",
+        "label": "Old River Lock opens",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The structures went into operation in 1962. By then the complex had cost sixty-seven million dollars. For the first time, the shortcut had a gate on it. The Corps could decide how much of the Mississippi the Atchafalaya was allowed to have, and for about ten years, the river let them. Then came the spring of 1973.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$67 M",
+        "label": "Cost of the Old River complex by 1962",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "For the first time,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.58,
+           "lat": 31.07,
+           "span": 0.22
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control"
+      },
+      {
+       "type": "photo",
+       "at": "The Corps could decide",
+       "photo": "File:Sea Grant - Atchafalaya at Morgan City.jpg",
+       "on_screen_text": "The Atchafalaya at Morgan City"
+      },
+      {
+       "type": "map",
+       "at": "and for about ten",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.75,
+           "lat": 30.7,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Atchafalaya"
+      },
+      {
+       "type": "stat",
+       "at": "Then came the spring",
+       "stat": {
+        "value": "1973",
+        "label": "The Great Flood of 1973",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "April 1973",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The autumn of 1972 had been wet across the Mississippi valley, and the spring of 1973 was worse. The river crested again and again, and a long flood fight raged up and down the valley. The federal photographers sent to document it recorded that the Mississippi had reached its highest level in more than one hundred and fifty years. Across Louisiana, homes and camps went under water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.568,
+           "lat": 30.724,
+           "span": 6.41
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Morganza Floodway",
+            "lon": -91.59,
+            "lat": 30.74,
+            "kind": "site",
+            "label": "Morganza Floodway",
+            "icon": "water"
+           },
+           {
+            "name": "Morgan City",
+            "lon": -91.2,
+            "lat": 29.7,
+            "kind": "city",
+            "label": "Morgan City"
+           }
+          ]
+         },
+         {
+          "at": "and the spring of",
+          "places": [
+           {
+            "name": "Natchez",
+            "lon": -91.4,
+            "lat": 31.56,
+            "kind": "city",
+            "label": "Natchez"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "document",
+       "at": "The river crested again",
+       "document": {
+        "text": "The Mississippi crested several times that spring, and a prolonged flood fight raged up and down the big river, its tributaries and distributaries.",
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": "crested several times",
+        "title": "US Army Corps of Engineers"
+       }
+      },
+      {
+       "type": "document",
+       "at": "The federal photographers sent",
+       "document": {
+        "text": "In the spring of 1973 the Mississippi River reached its highest level in more than 150 years.",
+        "source": "EPA DOCUMERICA caption, 1973 (NARA)",
+        "highlight": "highest level in more than 150 years",
+        "title": "EPA DOCUMERICA, 1973"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "reached its highest level",
+       "stat": {
+        "value": "150+ YEARS",
+        "label": "The river's highest level in that time (1973)",
+        "source": "EPA DOCUMERICA caption (NARA)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Across Louisiana, homes and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.65,
+           "lat": 30.3,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Atchafalaya Basin"
+      }
+     ]
+    },
+    {
+     "text": "At Old River, the Low Sill Structure took the brunt. By the Corps' account, the Mississippi below the structure could not carry as much water as it had in 1950, while the Atchafalaya had been deepening and flowing faster, demanding even more. The gates did regulate the flow. But the turbulence of the water scoured the ground around them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.075,
+           "span": 0.16
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control"
+      },
+      {
+       "type": "photo",
+       "at": "By the Corps' account,",
+       "photo": "File:Mississippi River high water in Baton Rouge.jpg",
+       "on_screen_text": "The Mississippi at Baton Rouge (2011)"
+      },
+      {
+       "type": "map",
+       "at": "could not carry as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.5,
+           "lat": 30.95,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Mississippi below Old River"
+      },
+      {
+       "type": "photo",
+       "at": "while the Atchafalaya had",
+       "photo": "File:Sea Grant - Atchafalaya River looking towards Avoca Island Cutoff.jpg",
+       "on_screen_text": "The Atchafalaya River"
+      },
+      {
+       "type": "document",
+       "at": "The gates did regulate",
+       "document": {
+        "text": "The Low Sill Structure was designed to regulate flow, and it did so.",
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": "and it did so",
+        "title": "US Army Corps of Engineers"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In April 1973, the floodwater undermined a concrete wing wall sixty-seven feet high on the south end of the structure, the wall that guided the river into the gates, and it collapsed. Under the structure, it was worse. A large scour hole had opened in front of and beneath the Low Sill. The structure stood on steel pilings ninety feet long, and about fifty feet of them were now exposed.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "APRIL 1973",
+        "label": "The south wing wall of the Low Sill collapses",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "sixty-seven feet high on",
+       "stat": {
+        "value": "67 FT",
+        "label": "Height of the concrete wing wall",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "document",
+       "at": "the wall that guided",
+       "document": {
+        "text": "Flood waters undermine the south wing wall of the Low Sill Structure, causing it to collapse.",
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": "causing it to collapse",
+        "title": "US Army Corps of Engineers"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Under the structure, it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.598,
+           "lat": 31.077,
+           "span": 0.12
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Low Sill Structure site"
+      },
+      {
+       "type": "document",
+       "at": "A large scour hole",
+       "document": {
+        "text": "A large scour hole also developed in front of and beneath the structure, exposing approximately 50 feet of the 90-foot-long steel pilings",
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": "exposing approximately 50 feet",
+        "title": "US Army Corps of Engineers"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "The structure stood on",
+       "chart": {
+        "type": "bar",
+        "title": "Steel pilings under the Low Sill, 1973",
+        "unit": " ft",
+        "data": [
+         [
+          "Piling length",
+          90
+         ],
+         [
+          "Left exposed",
+          50
+         ]
+        ],
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": 1,
+        "reveal": [
+         "and about fifty feet"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "The gate that was supposed to hold the Mississippi in place was standing on bare stilts over a hole, with the river at its highest in a century and a half. Downstream, the Corps opened the Morganza Floodway for the first time since its completion in 1954. Its one hundred and twenty-five gates can send up to six hundred thousand cubic feet a second into the Atchafalaya Basin, away from Baton Rouge and New Orleans.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.008,
+           "lat": 30.5,
+           "span": 5.16
+          },
+          "places": [
+           {
+            "name": "Low Sill",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Low Sill: undermined",
+            "icon": "warning"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ],
+          "date": "2025-10-14"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -91.008,
+           "lat": 30.5,
+           "span": 4.386
+          },
+          "date": "2025-10-14"
+         },
+         {
+          "at": "with the river at",
+          "places": [
+           {
+            "name": "Morganza Floodway",
+            "lon": -91.59,
+            "lat": 30.74,
+            "kind": "site",
+            "label": "Morganza Floodway",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Downstream, the Corps opened",
+       "photo": "File:Morganza Spillway, Louisiana 5 May 1973.jpg",
+       "on_screen_text": "The Morganza Floodway area, 5 May 1973 (Landsat 1)"
+      },
+      {
+       "type": "stat",
+       "at": "Its one hundred and",
+       "stat": {
+        "value": "125 GATES",
+        "label": "Morganza Floodway: up to 600,000 ft³/s",
+        "source": "USACE; NASA EO"
+       }
+      },
+      {
+       "type": "map",
+       "at": "into the Atchafalaya Basin,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.792,
+           "lat": 30.5,
+           "span": 4.672
+          },
+          "arrows": [
+           {
+            "from": [
+             -91.59,
+             30.74
+            ],
+            "to": [
+             -91.55,
+             30.1
+            ],
+            "color": "blue",
+            "label": "Into the Atchafalaya Basin",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Morganza Floodway",
+            "lon": -91.59,
+            "lat": 30.74,
+            "kind": "site",
+            "label": "Morganza Floodway",
+            "icon": "water"
+           },
+           {
+            "name": "Baton Rouge",
+            "lon": -91.15,
+            "lat": 30.45,
+            "kind": "city",
+            "label": "Baton Rouge"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Low Sill held. When the water went down, the Corps built a stone dike to replace the wall and pumped grout into the void beneath the structure; the rehabilitation took until 1981. But the Low Sill would never again be trusted at full strength. It had been designed for a difference in water level of thirty-seven feet across its gates. After 1973, the Corps limited it to no more than twenty-two.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.598,
+           "lat": 31.077,
+           "span": 0.09
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Structure"
+      },
+      {
+       "type": "document",
+       "at": "the Corps built a",
+       "document": {
+        "text": "Emergency repairs involve construction of a stone dike at the end of the ramp to replace the failed wall.",
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": "a stone dike",
+        "title": "US Army Corps of Engineers"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and pumped grout into",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.08,
+           "span": 0.1
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Complex"
+      },
+      {
+       "type": "stat",
+       "at": "the rehabilitation took until",
+       "stat": {
+        "value": "1981",
+        "label": "Repairs at the Low Sill finished",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "It had been designed",
+       "chart": {
+        "type": "bar",
+        "title": "Water-level difference allowed across the Low Sill",
+        "unit": " ft",
+        "data": [
+         [
+          "Designed for",
+          37
+         ],
+         [
+          "After 1973",
+          22
+         ]
+        ],
+        "source": "USACE New Orleans District, Old River Control (2009)",
+        "highlight": 1,
+        "reveal": [
+         "After 1973, the Corps"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "So the Corps built a second line of defence. The Auxiliary Structure was started in July 1981 and finished in December 1986, for two hundred and six million dollars: six gates, each sixty-two feet wide. Here is the site in 1985, still a construction ground, and here it is today. The new channel is the Auxiliary Structure, and beside the Low Sill now stands a power plant.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Old River Control Complex, Louisiana, 17 June 2024 - 1.jpg",
+       "on_screen_text": "The Auxiliary Structure, 2024"
+      },
+      {
+       "type": "stat",
+       "at": "was started in July",
+       "stat": {
+        "value": "1981-86",
+        "label": "The Auxiliary Structure is built",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "for two hundred and",
+       "stat": {
+        "value": "$206 M",
+        "label": "Cost of the Auxiliary Structure: six 62-ft gates",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Here is the site",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.075,
+           "span": 0.15
+          },
+          "compare": {
+           "before": "1985-08-01/1985-10-31",
+           "after": "2025-09-01/2025-10-31",
+           "source": "landsat",
+           "seconds": 2.8,
+           "hold": 1.0,
+           "label_before": "1985",
+           "label_after": "2025"
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control"
+      },
+      {
+       "type": "map",
+       "at": "The new channel is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.615,
+           "lat": 31.08,
+           "span": 0.1
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 58,
+          "view": {
+           "lon": -91.615,
+           "lat": 31.08,
+           "span": 0.08
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Complex, 2025"
+      }
+     ]
+    },
+    {
+     "text": "That is the Sidney A. Murray Junior hydroelectric station. It was built far downriver, near New Orleans, then towed two hundred and eight miles up the Mississippi and went online in 1990. It turns the water the Atchafalaya is allowed to take into up to one hundred and ninety-two megawatts of electricity. Together, the structures here can pass about seven hundred thousand cubic feet of water a second.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.61,
+           "lat": 31.08,
+           "span": 0.12
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Complex today"
+      },
+      {
+       "type": "map",
+       "at": "It was built far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 30.78,
+           "span": 5.758
+          },
+          "places": [
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           },
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-14"
+         },
+         {
+          "at": "then towed two hundred",
+          "arrows": [
+           {
+            "from": [
+             -90.15,
+             29.92
+            ],
+            "to": [
+             -91.58,
+             31.05
+            ],
+            "color": "accent",
+            "label": "Towed 208 miles upriver",
+            "bend": 0.25
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and went online in",
+       "photo": "File:Old River Auxillary Control Structure.jpg",
+       "on_screen_text": "Old River Auxiliary Structure, 2009"
+      },
+      {
+       "type": "map",
+       "at": "It turns the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.605,
+           "lat": 31.085,
+           "span": 0.08
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control Complex"
+      },
+      {
+       "type": "stat",
+       "at": "into up to one",
+       "stat": {
+        "value": "192 MW",
+        "label": "Sidney A. Murray Jr. hydroelectric station, online 1990",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Together, the structures here",
+       "stat": {
+        "value": "700,000 FT³/S",
+        "label": "Combined capacity of the Old River structures",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Since then, the system has been tested again. In May 2011, during another enormous flood, the Corps opened Morganza for only the second time: two bays on the first day, seventeen by late May. In 2019 Morganza was readied and then left shut, while the Bonnet Carré Spillway above New Orleans had to be opened twice in the same year for the first time. Every big flood is one more test of the same concrete.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Floodway opening, geo tagged stills 05.16.11 049.jpg",
+       "on_screen_text": "Morganza Floodway, May 2011"
+      },
+      {
+       "type": "photo",
+       "at": "In May 2011, during",
+       "photo": "File:May 2011 Morganza Spillway Opens in Louisiana.jpg",
+       "on_screen_text": "Morganza Floodway open, 15 May 2011 (NASA EO-1)"
+      },
+      {
+       "type": "photo",
+       "at": "two bays on the",
+       "photo": "File:Floodway opening, geo tagged stills 05.16.11 006.jpg",
+       "on_screen_text": "Morganza Floodway, May 2011"
+      },
+      {
+       "type": "photo",
+       "at": "In 2019 Morganza was",
+       "photo": "File:Bonnet Carre' Spillway test operation, 21 April 2025 - 1.jpg",
+       "on_screen_text": "Bonnet Carré Spillway, test opening, April 2025"
+      },
+      {
+       "type": "stat",
+       "at": "had to be opened",
+       "stat": {
+        "value": "2 OPENINGS",
+        "label": "Bonnet Carré Spillway in 2019, a first",
+        "source": "USACE"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Every big flood is",
+       "photo": "File:Bonnet Carre' Spillway test operation, 21 April 2025 - 3.jpg",
+       "on_screen_text": "Bonnet Carré Spillway, April 2025"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The River Is Already Winning",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Old River Control has held for more than sixty years. The Atchafalaya still gets its thirty percent and no more. But thirty percent of the Mississippi is a great deal of water, and it brings mud with it. Follow it south to the sea, and you find something this coast has very little of: new land.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.4,
+           "lat": 30.22,
+           "span": 4.237
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           },
+           {
+            "name": "Morgan City",
+            "lon": -91.2,
+            "lat": 29.7,
+            "kind": "city",
+            "label": "Morgan City"
+           }
+          ]
+         },
+         {
+          "at": "The Atchafalaya still gets",
+          "routes": [
+           {
+            "from": [
+             -91.63,
+             31.05
+            ],
+            "via": [
+             [
+              -91.8,
+              30.97
+             ],
+             [
+              -91.74,
+              30.69
+             ],
+             [
+              -91.75,
+              30.54
+             ],
+             [
+              -91.7,
+              30.28
+             ],
+             [
+              -91.52,
+              30.02
+             ],
+             [
+              -91.33,
+              29.85
+             ],
+             [
+              -91.2,
+              29.7
+             ]
+            ],
+            "to": [
+             -91.27,
+             29.45
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Atchafalaya: 142 miles"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But thirty percent of",
+       "photo": "File:Sea Grant - Atchafalaya at Morgan City.jpg",
+       "on_screen_text": "The Atchafalaya at Morgan City"
+      },
+      {
+       "type": "photo",
+       "at": "and it brings mud",
+       "photo": "File:Sea Grant - Atchafalaya Delta flank.jpg",
+       "on_screen_text": "The edge of the Atchafalaya delta"
+      },
+      {
+       "type": "map",
+       "at": "Follow it south to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.35,
+           "lat": 29.5,
+           "span": 0.5
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": -91.35,
+           "lat": 29.5,
+           "span": 0.31
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      }
+     ]
+    },
+    {
+     "text": "In 1941 the Corps dug a second mouth for the Atchafalaya, the Wax Lake Outlet, to lower flood levels at Morgan City. Today it carries about forty percent of the Atchafalaya's water. Mud began building up in the bay in the 1950s, and after the great flood of 1973, new land rose above the water for the first time.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1941",
+        "label": "Wax Lake Outlet dug to protect Morgan City",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "map",
+       "at": "to lower flood levels",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.2,
+           "lat": 29.7,
+           "span": 0.12
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Morgan City"
+      },
+      {
+       "type": "map",
+       "at": "Today it carries about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.42,
+           "lat": 29.62,
+           "span": 0.25
+          },
+          "places": [
+           {
+            "name": "Wax Lake Outlet",
+            "lon": -91.44,
+            "lat": 29.58,
+            "kind": "site",
+            "label": "Wax Lake Outlet",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wax Lake Outlet"
+      },
+      {
+       "type": "photo",
+       "at": "Mud began building up",
+       "photo": "File:Waxlake 2014298 lrg.jpg",
+       "on_screen_text": "Wax Lake delta, October 2014 (NASA, Landsat 8)"
+      },
+      {
+       "type": "photo",
+       "at": "and after the great",
+       "photo": "File:Sea Grant - Atchafalaya Delta landscape.jpg",
+       "on_screen_text": "The Atchafalaya delta"
+      }
+     ]
+    },
+    {
+     "text": "Here is that stretch of coast in 1986: only a few mud bars. And here it is in 2025, with two young deltas, branching like trees. We measured them on Landsat images: between 1985 and 2026, the Wax Lake delta gained about fifty-five square kilometers of land and the Atchafalaya delta about sixty. That is roughly two point eight square kilometers a year, the same rate scientists at Louisiana State University have estimated.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.35,
+           "lat": 29.5,
+           "span": 0.46
+          },
+          "compare": {
+           "before": "1986-08-01/1986-08-31",
+           "after": "2025-09-01/2025-10-31",
+           "source": "landsat",
+           "seconds": 3.0,
+           "until": "And here it is",
+           "label_before": "1986",
+           "label_after": "2025"
+          }
+         },
+         {
+          "at": "And here it is",
+          "view": {
+           "lon": -91.35,
+           "lat": 29.5,
+           "span": 0.46
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Atchafalaya Bay"
+      },
+      {
+       "type": "map",
+       "at": "We measured them on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.28,
+           "lat": 29.46,
+           "span": 0.2
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Atchafalaya delta"
+      },
+      {
+       "type": "chart",
+       "at": "between 1985 and 2026,",
+       "chart": {
+        "type": "bar",
+        "title": "Land gained 1985-2026 (our Landsat measurement)",
+        "unit": " km²",
+        "data": [
+         [
+          "Wax Lake delta",
+          55
+         ],
+         [
+          "Atchafalaya delta",
+          60
+         ]
+        ],
+        "source": "Own measurement: Landsat (USGS), Oct-Nov water index",
+        "highlight": 1,
+        "reveal": [
+         "and the Atchafalaya delta"
+        ]
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is roughly two",
+       "stat": {
+        "value": "2.8 KM²/YR",
+        "label": "Delta growth: our measurement matches LSU's estimate",
+        "source": "Own measurement: Landsat (USGS), Oct-Nov water index; NASA EO (LSU)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the same rate scientists",
+       "photo": "File:Sea Grant - Atchafalaya Delta channels and associated landscape.jpg",
+       "on_screen_text": "The Atchafalaya delta"
+      }
+     ]
+    },
+    {
+     "text": "Almost everywhere else, the coast is going the other way. The US Geological Survey found that coastal Louisiana lost about four thousand eight hundred square kilometers of land between 1932 and 2016, about a quarter of what it had. At the worst of it, in the 1970s, a football field of land disappeared every thirty-four minutes. And the river now brings far less mud to rebuild it: about one hundred and seventy million tonnes a year, NASA estimates, down from about four hundred.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.0,
+           "lat": 29.45,
+           "span": 0.4
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Barataria Bay"
+      },
+      {
+       "type": "stat",
+       "at": "The US Geological Survey",
+       "stat": {
+        "value": "~4,800 KM²",
+        "label": "Coastal Louisiana land lost, 1932-2016",
+        "source": "USGS, Couvillion et al. 2017 (SIM 3381)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "of land between 1932",
+       "photo": "File:Land loss in coastal Louisiana since 1932 NOAA2013.jpg",
+       "on_screen_text": "Coastal Louisiana land, 1932 and 2011 (NOAA)"
+      },
+      {
+       "type": "map",
+       "at": "about a quarter of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.55,
+           "lat": 29.4,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Terrebonne marshes"
+      },
+      {
+       "type": "stat",
+       "at": "At the worst of",
+       "stat": {
+        "value": "34 MIN",
+        "label": "A football field of land lost (1970s peak)",
+        "source": "USGS, Couvillion et al. 2017 (SIM 3381)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "And the river now",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.25,
+           "lat": 29.1,
+           "span": 0.35
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river's mouth"
+      },
+      {
+       "type": "chart",
+       "at": "about one hundred and",
+       "chart": {
+        "type": "bar",
+        "title": "Mud carried by the river",
+        "unit": " Mt/yr",
+        "data": [
+         [
+          "Today",
+          170
+         ],
+         [
+          "Historically",
+          400
+         ]
+        ],
+        "source": "NASA Earth Observatory",
+        "highlight": 0,
+        "reveal": [
+         "down from about four"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Where the river is allowed to spill part of its load, the land grows. It is a small picture of what the Mississippi did for thousands of years, and of what it is still trying to do.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sea Grant - Atchafalaya Delta channels.jpg",
+       "on_screen_text": "Channels of the Atchafalaya delta"
+      },
+      {
+       "type": "photo",
+       "at": "It is a small",
+       "photo": "File:Sea Grant - Atchafalaya delta looking north.jpg",
+       "on_screen_text": "The Atchafalaya delta, looking north"
+      },
+      {
+       "type": "map",
+       "at": "thousands of years, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.45,
+           "lat": 29.5,
+           "span": 0.2
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Wax Lake delta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What Leaving Would Look Like",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "The other half of that picture has already had a preview. The bed of the Mississippi between Natchez and the Gulf lies below sea level. When the river runs low, there is too little current to push back, and the heavier salt water of the Gulf creeps upstream along the bottom, like a wedge under the fresh water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.12,
+           "lat": 30.612,
+           "span": 4.742
+          },
+          "highlight": [
+           "Louisiana@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -91.6,
+             31.07
+            ],
+            "via": [
+             [
+              -91.52,
+              30.9
+             ],
+             [
+              -91.38,
+              30.76
+             ],
+             [
+              -91.19,
+              30.45
+             ],
+             [
+              -91.23,
+              30.28
+             ],
+             [
+              -90.99,
+              30.1
+             ],
+             [
+              -90.7,
+              30.03
+             ],
+             [
+              -90.4,
+              30.02
+             ],
+             [
+              -90.07,
+              29.95
+             ],
+             [
+              -89.95,
+              29.86
+             ],
+             [
+              -89.79,
+              29.58
+             ],
+             [
+              -89.55,
+              29.4
+             ],
+             [
+              -89.35,
+              29.27
+             ]
+            ],
+            "to": [
+             -89.25,
+             29.15
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 3.0,
+            "label": "Mississippi: 315 miles"
+           }
+          ],
+          "places": [
+           {
+            "name": "Natchez",
+            "lon": -91.4,
+            "lat": 31.56,
+            "kind": "city",
+            "label": "Natchez"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The bed of the",
+       "stat": {
+        "value": "BELOW SEA LEVEL",
+        "label": "The riverbed from Natchez to the Gulf",
+        "source": "USACE New Orleans District, Sep 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "When the river runs",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.51,
+           "lat": 29.516,
+           "span": 4.62
+          },
+          "arrows": [
+           {
+            "from": [
+             -89.4,
+             29.1
+            ],
+            "to": [
+             -89.98,
+             29.63
+            ],
+            "color": "red",
+            "label": "Salt water along the bottom",
+            "bend": 0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Myrtle Grove",
+            "lon": -89.98,
+            "lat": 29.63,
+            "kind": "site",
+            "label": "Myrtle Grove sill",
+            "icon": "warning"
+           },
+           {
+            "name": "New Orleans",
+            "lon": -90.07,
+            "lat": 29.95,
+            "kind": "city",
+            "label": "New Orleans"
+           }
+          ],
+          "date": "2025-10-14"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "to push back, and",
+       "photo": "File:Saltwater Wedge Press Conference, 2022-09-28 New Orleans - 04.jpg",
+       "on_screen_text": "Salt-wedge briefing, New Orleans, September 2022"
+      },
+      {
+       "type": "map",
+       "at": "creeps upstream along the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.98,
+           "lat": 29.63,
+           "span": 0.2
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The river at Myrtle Grove"
+      }
+     ]
+    },
+    {
+     "text": "The Corps has built underwater barriers across the riverbed near Myrtle Grove to stop it, in 1988, 1999, 2012, 2022 and again in 2023. That year the river fell so low that on the twentieth of September the salt water flowed over the top of the sill. The Corps raised its crest from fifty-five feet below to thirty, and barges carried fresh water down to Plaquemines Parish, where the salt had reached the water intakes.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sill Construction on Lower Mississippi River, July 2023 - 9.jpg",
+       "on_screen_text": "Sill construction, July 2023"
+      },
+      {
+       "type": "stat",
+       "at": "in 1988, 1999, 2012,",
+       "stat": {
+        "value": "5 SILLS",
+        "label": "1988, 1999, 2012, 2022, 2023",
+        "source": "USACE New Orleans District, Sep 2024"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That year the river",
+       "photo": "File:Sill Construction on Lower Mississippi River, July 2023 - 6.jpg",
+       "on_screen_text": "Sill construction, July 2023"
+      },
+      {
+       "type": "stat",
+       "at": "on the twentieth of",
+       "stat": {
+        "value": "20 SEP 2023",
+        "label": "Salt water flows over the sill",
+        "source": "USACE"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Corps raised its",
+       "photo": "File:Underwater Sill Augmentation in Mississippi River 26 Sept 2023 - 10.jpg",
+       "on_screen_text": "Raising the sill, 26 September 2023"
+      },
+      {
+       "type": "photo",
+       "at": "and barges carried fresh",
+       "photo": "File:First Water Barge to Plaquemines Parish Louisiana, 1 October 2023 - 07.jpg",
+       "on_screen_text": "First water barge to Plaquemines Parish, 1 October 2023"
+      },
+      {
+       "type": "photo",
+       "at": "where the salt had",
+       "photo": "File:First Water Barge to Plaquemines Parish Louisiana, 1 October 2023 - 28.jpg",
+       "on_screen_text": "Plaquemines Parish, October 2023"
+      }
+     ]
+    },
+    {
+     "text": "That was a few months of low water. If the Mississippi ever did take the Atchafalaya, the old channel would be low all year. In the Corps' words, it would become a saltwater estuary, right through the stretch where the Port of South Louisiana alone handled more than two hundred and seventeen million tons of cargo in 2023, and where New Orleans takes its water from the river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.7,
+           "lat": 30.08,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -90.7,
+           "lat": 30.08,
+           "span": 0.186
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Plants along the river"
+      },
+      {
+       "type": "stat",
+       "at": "In the Corps' words,",
+       "stat": {
+        "value": "SALTWATER ESTUARY",
+        "label": "What the Corps says the old channel would become",
+        "source": "USACE New Orleans District, Old River Control (2009)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "right through the stretch",
+       "photo": "File:Garyville and Reserve, Louisiana, and the Marathon Petroleum oil refinery.tif",
+       "on_screen_text": "Garyville and Reserve, Louisiana"
+      },
+      {
+       "type": "stat",
+       "at": "two hundred and seventeen",
+       "stat": {
+        "value": "217.5 M TONS",
+        "label": "Port of South Louisiana, 2023 (#1 in the US)",
+        "source": "USACE Waterborne Commerce, 2023"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and where New Orleans",
+       "photo": "File:New Orleans from the Air September 2019 - French Quarter and CBD - River to Lake.jpg",
+       "on_screen_text": "New Orleans"
+      }
+     ]
+    },
+    {
+     "text": "For now, the gates hold. Every year the Corps gives the Atchafalaya its thirty percent and keeps the rest in the old channel. But the shortcut is still there: one hundred and forty-two miles to the sea, against three hundred and fifteen. Should the Corps keep holding the Mississippi in place forever, or let more of it go and rebuild the coast?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Old River Control Complex, Louisiana, 17 June 2024 - 1.jpg",
+       "on_screen_text": "Old River Control Complex, 2024"
+      },
+      {
+       "type": "map",
+       "at": "Atchafalaya its thirty percent",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.58,
+           "lat": 31.07,
+           "span": 0.22
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River Control"
+      },
+      {
+       "type": "map",
+       "at": "But the shortcut is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.68,
+           "lat": 30.388,
+           "span": 5.796
+          },
+          "routes": [
+           {
+            "from": [
+             -91.63,
+             31.05
+            ],
+            "via": [
+             [
+              -91.8,
+              30.97
+             ],
+             [
+              -91.74,
+              30.69
+             ],
+             [
+              -91.75,
+              30.54
+             ],
+             [
+              -91.7,
+              30.28
+             ],
+             [
+              -91.52,
+              30.02
+             ],
+             [
+              -91.33,
+              29.85
+             ],
+             [
+              -91.2,
+              29.7
+             ]
+            ],
+            "to": [
+             -91.27,
+             29.45
+            ],
+            "mode": "line",
+            "color": "red",
+            "seconds": 2.5,
+            "label": "Atchafalaya: 142 miles"
+           }
+          ],
+          "places": [
+           {
+            "name": "Old River Control",
+            "lon": -91.598,
+            "lat": 31.076,
+            "kind": "site",
+            "label": "Old River Control",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-14"
+         },
+         {
+          "at": "against three hundred and",
+          "routes": [
+           {
+            "from": [
+             -91.6,
+             31.07
+            ],
+            "via": [
+             [
+              -91.52,
+              30.9
+             ],
+             [
+              -91.38,
+              30.76
+             ],
+             [
+              -91.19,
+              30.45
+             ],
+             [
+              -91.23,
+              30.28
+             ],
+             [
+              -90.99,
+              30.1
+             ],
+             [
+              -90.7,
+              30.03
+             ],
+             [
+              -90.4,
+              30.02
+             ],
+             [
+              -90.07,
+              29.95
+             ],
+             [
+              -89.95,
+              29.86
+             ],
+             [
+              -89.79,
+              29.58
+             ],
+             [
+              -89.55,
+              29.4
+             ],
+             [
+              -89.35,
+              29.27
+             ]
+            ],
+            "to": [
+             -89.25,
+             29.15
+            ],
+            "mode": "line",
+            "color": "blue",
+            "seconds": 3.0,
+            "label": "Mississippi: 315 miles"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Should the Corps keep",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -91.6,
+           "lat": 31.07,
+           "span": 0.3
+          },
+          "date": "2025-09-01/2025-10-31"
+         },
+         {
+          "at": 52,
+          "view": {
+           "lon": -91.6,
+           "lat": 31.07,
+           "span": 0.186
+          },
+          "date": "2025-09-01/2025-10-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old River"
+      }
+     ],
+     "ask": {
+      "at": "Should the Corps keep",
+      "text": "Hold the river in place forever, or let it move?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why the Mississippi Wants to Leave New Orleans",
+  "description": "Fifty miles northwest of Baton Rouge, the Mississippi River sits right next to a much shorter road to the sea: the Atchafalaya. This video follows how the river has moved across Louisiana again and again, how a steamboat captain's shortcut and a burned log jam opened the door, why a 1952 report gave the river a deadline, the night-and-day fight to save Old River Control in the flood of 1973, the only part of the coast that is still growing, and what the 2023 salt wedge showed about a Mississippi that leaves.",
+  "tags": [
+   "Mississippi River",
+   "Atchafalaya River",
+   "Old River Control Structure",
+   "New Orleans",
+   "Louisiana",
+   "Army Corps of Engineers",
+   "1973 flood",
+   "Morganza Spillway",
+   "Wax Lake delta",
+   "river avulsion",
+   "saltwater wedge",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Should the Corps keep holding the Mississippi in place forever, or let it move and rebuild the coast?"
+ }
+}

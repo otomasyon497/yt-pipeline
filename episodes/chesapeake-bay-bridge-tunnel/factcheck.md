@@ -90,7 +90,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 84 | c05p07 | narration | Accounts of the project say seven workers died building it. | Wikipedia; WHRO 2024 ('seven workers lost their lives'); said as 'accounts of the project say' | attributed |
 | 85 | c05p07 | stat card | 15 APRIL 1964: The bridge-tunnel opens, 42 months after work began | Chesapeake Bay Bridge-Tunnel District | verified |
 | 86 | c05p07 | stat card | 1965: Named one of the Seven Engineering Wonders of the Modern World | Chesapeake Bay Bridge-Tunnel District | verified |
-| 87 | c05p07 | on screen | On the crossing, 2004 | | |
+| 87 | c05p07 | on screen | On the crossing, 2004 | Commons file description (Virginia Brunnel01, 2004) | verified |
 | 88 | c06p01 | narration | In the night of January twenty-first, nineteen seventy, a gale came up. | Hampton Roads Naval Museum blog 13 Jul 2023 (from the 1971 ruling); said as 'according to a later account' | attributed |
 | 89 | c06p01 | narration | According to a later account from the Hampton Roads Naval Museum, gusts reached thirty-five to fifty knots, and six other ships dragged their anchors that night. | Hampton Roads Naval Museum blog 13 Jul 2023 (from the 1971 ruling); said as 'according to a later account' | attributed |
 | 90 | c06p01 | narration | One of them was the Navy cargo ship Yancey. | Hampton Roads Naval Museum blog 13 Jul 2023 (from the 1971 ruling); said as 'according to a later account' | attributed |

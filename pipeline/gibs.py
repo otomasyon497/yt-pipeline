@@ -112,7 +112,7 @@ def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, 
         hole = a[..., :3].max(axis=2) < 4
         if hole.any():
             keep = Image.fromarray(np.where(hole, 0, 255).astype(np.uint8), "L")
-            keep = keep.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(max(2, img.width // 120)))
+            keep = keep.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(max(2, img.width // 40)))
             a[..., 3] = np.minimum(a[..., 3], np.asarray(keep))  # soft edge into the world image, no hard seam
             img = Image.fromarray(a, "RGBA")
     if mask is not None:

@@ -32,7 +32,7 @@ P12: But why not simply build a very tall bridge? Engineers built tall bridges a
 ## 3. The Navy's Veto (tension)
 P13: Just inside the mouth of the bay is Hampton Roads, one of the great natural harbors of the world, where the James and the Elizabeth rivers meet the bay. And on its southern shore, on the grounds of a nineteen-oh-seven world's fair, the United States Navy built a base in nineteen seventeen. It grew into Naval Station Norfolk, which the Navy describes as the world's largest naval installation, home port of aircraft carriers, destroyers and dozens of other ships.
 
-P14: Every one of those ships reaches the Atlantic the same way. Through the deep, dredged Thimble Shoal Channel, straight across the line where the crossing would have to go. In the middle of the Cold War, that made a bridge a problem. According to histories of the project, the Navy objected to any bridge over the channel. If a bridge collapsed, by accident, in a storm or through sabotage, the wreckage could close the channel and trap the fleet inside the bay.
+P14: The big ships reach the Atlantic through one deep, dredged path, the Thimble Shoal Channel, straight across the line where the crossing would have to go. In the middle of the Cold War, that made a bridge a problem. According to histories of the project, the Navy objected to any bridge over the channel. If a bridge collapsed, by accident, in a storm or through sabotage, the wreckage could close the channel and trap the fleet inside the bay.
 
 P15: There was a second channel too, farther north, the Chesapeake Channel, which carried ships up the bay to Baltimore. Maryland officials wanted that one kept clear as well. So the plan became a chain. Long, low trestles across the shallow water. Two higher bridges over smaller channels. And at the two places where the big ships pass, the road would leave the surface and go under them.
 
@@ -69,7 +69,7 @@ P29: For thirty-five years, the whole crossing was one two-lane road, one lane e
 ## 6. Chessie and the Anchor (curious)
 P30: The fix is a second tunnel. In twenty sixteen, the crossing signed a contract worth about seven hundred and fifty-seven million dollars for a new tube under Thimble Shoal Channel. This time it would not be sunk into a trench across a channel used by the Navy. It would be bored underneath it, by a German-built tunnel boring machine forty-three feet across and three hundred and eight feet long. Its name, chosen by a schoolgirl in a public contest, was Chessie.
 
-P31: Chessie started mining in February twenty twenty-three. In May, it hit something it could not cut. It turned out to be a large ship's anchor, buried in the mud of the channel, made in England around the turn of the twentieth century. Someone had lost it there, more than a hundred years ago, at the mouth of a busy harbor.
+P31: Chessie started mining in February twenty twenty-three. In May, it hit something it could not cut. It turned out to be a large ship's anchor, buried in the mud of the channel, made in England around the turn of the twentieth century. Some ship lost it there, long ago, at the mouth of a busy harbor.
 
 P32: Removing it, deep under the channel, safely, took eight more months of work. Tunnelling only resumed in May twenty twenty-four, at about fifty feet a day. On January twenty-seventh, twenty twenty-five, after more than six thousand three hundred feet, Chessie broke through into its receiving pit on the second island. The crossing's current forecast for opening the new tunnel is early twenty twenty-eight.
 

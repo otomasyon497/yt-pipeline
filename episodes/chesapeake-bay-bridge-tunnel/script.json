@@ -1,0 +1,4100 @@
+{
+ "title": "Why This American Highway Dives Under the Sea",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/chesapeake-bay-bridge-tunnel/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Sea level trends: NOAA CO-OPS (tidesandcurrents.noaa.gov)",
+  "Crater outline: approximate, after USGS and the Earth Impact Database"
+ ],
+ "thumbnail": {
+  "text": "THE ROAD GOES UNDER"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "You leave the shore of Virginia Beach and the road runs straight out to sea. Low concrete, a few feet of railing, and water on both sides. After a few miles the land behind you is a thin line. Ahead, the highway runs onto a tiny island, about five acres of rock and sand in the middle of the bay. And then the road tips down and disappears into the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge-Tunnel, Virginia Beach Area.jpg",
+       "on_screen_text": "Virginia Beach and the Chesapeake Bay Bridge-Tunnel"
+      },
+      {
+       "type": "map",
+       "at": 8,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.115,
+           "lat": 36.93,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The south end, Virginia Beach"
+      },
+      {
+       "type": "photo",
+       "at": "Low concrete, a few",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (14).jpg",
+       "on_screen_text": "The Chesapeake Bay Bridge-Tunnel"
+      },
+      {
+       "type": "photo",
+       "at": "After a few miles",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (12).jpg",
+       "on_screen_text": "Miles out in the bay"
+      },
+      {
+       "type": "map",
+       "at": "Ahead, the highway runs",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.105,
+           "lat": 36.975,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Two islands at Thimble Shoal Channel"
+      },
+      {
+       "type": "map",
+       "at": "and sand in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.10000000000001,
+           "lat": 36.965,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "An island of rock and sand"
+      },
+      {
+       "type": "photo",
+       "at": "And then the road",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (7).jpg",
+       "on_screen_text": "Thimble Shoal Channel Tunnel"
+      }
+     ]
+    },
+    {
+     "text": "This is the Chesapeake Bay Bridge-Tunnel. Seventeen point six miles from shore to shore, across the mouth of the largest estuary in the United States. Twice on the way across, it dives under the sea, and while you drive through the tunnel, a cargo ship or a navy destroyer can pass over your head.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.03,
+           "lat": 37.02,
+           "span": 0.34
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Chesapeake Bay Bridge-Tunnel from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "Seventeen point six miles from",
+       "stat": {
+        "value": "17.6 MILES",
+        "label": "Shore to shore across the mouth of the bay",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": "across the mouth of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.8,
+           "lat": 37.6,
+           "span": 6.0
+          },
+          "places": [
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "Cape Charles",
+            "lon": -76.01,
+            "lat": 37.265,
+            "kind": "city",
+            "label": "Cape Charles"
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Twice on the way",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (5).jpg",
+       "on_screen_text": "Into the tunnel"
+      },
+      {
+       "type": "map",
+       "at": 36,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.07,
+           "lat": 37.06,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chesapeake Channel"
+      },
+      {
+       "type": "photo",
+       "at": "a cargo ship or",
+       "photo": "File:US Navy 031109-N-6278K-002 The USS George Washington (CVN 73), sails past the Chesapeake Bay Bridge Tunnel on the way to sea, as it prepares for the Composite Training Unit Exercise (COMPTUEX) in the Atlantic Ocean.jpg",
+       "on_screen_text": "USS George Washington passing the crossing, 2003 (U.S. Navy)"
+      }
+     ]
+    },
+    {
+     "text": "Most people ask how they built it. The better question is why it had to be built like this at all. Why is there seventeen miles of open water here, with two deep channels cut through it? Why would anyone pay to send a highway under the sea, when a bridge would have been cheaper? The answers go back to a rock from space, an ice age, and the largest naval base in the world. And there is one more thing, which we will come to at the end. There is a tide gauge on this crossing. Since nineteen seventy-five, the sea it measures has risen by about a foot.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tight and Light - Kite Over The Chesapeake Bay Bridge Tunnel.jpg",
+       "on_screen_text": "The crossing from a kite, 2010"
+      },
+      {
+       "type": "photo",
+       "at": 13,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (13).jpg",
+       "on_screen_text": "Why build it like this?"
+      },
+      {
+       "type": "map",
+       "at": "Why is there seventeen",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.1,
+           "span": 1.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mouth of the Chesapeake Bay"
+      },
+      {
+       "type": "map",
+       "at": "with two deep channels",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.05,
+           "lat": 37.010000000000005,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Two shipping channels"
+      },
+      {
+       "type": "photo",
+       "at": "Why would anyone pay",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (8).jpg",
+       "on_screen_text": "Where the road leaves the surface"
+      },
+      {
+       "type": "map",
+       "at": 47,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.12,
+           "lat": 36.96,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Under the shipping lane"
+      },
+      {
+       "type": "map",
+       "at": "The answers go back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.98,
+           "lat": 37.22,
+           "span": 1.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Under the mouth of the bay"
+      },
+      {
+       "type": "photo",
+       "at": "and the largest naval",
+       "photo": "File:CVN 69 departs Naval Station Norfolk with the USS Dwight D. Eisenhower Carrier Strike Group (CSG). 160601-N-XG464-054.jpg",
+       "on_screen_text": "Leaving Naval Station Norfolk, 2016 (U.S. Navy)"
+      },
+      {
+       "type": "photo",
+       "at": "And there is one",
+       "photo": "File:Island 1 and Western Section of Bridge - panoramio.jpg",
+       "on_screen_text": "Island 1 at night"
+      },
+      {
+       "type": "map",
+       "at": "There is a tide",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.083,
+           "lat": 37.033,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The bridge-tunnel's tide gauge, Chesapeake Channel"
+      },
+      {
+       "type": "stat",
+       "at": "Since nineteen seventy-five, the",
+       "stat": {
+        "value": "~1 FOOT",
+        "label": "Sea level rise at the bridge-tunnel's gauge since 1975",
+        "source": "NOAA tide gauge, Chesapeake Channel, 1975-2025"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Hole Older Than the Bay",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "About thirty-five million years ago, there was no Chesapeake Bay. The coast of North America ran much farther inland, roughly where Richmond is today, and everything east of it was shallow sea. Then, according to the U.S. Geological Survey, an asteroid or comet a few miles wide came down into that sea, right about where the mouth of the bay is now.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 37.25,
+           "span": 1.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lower Chesapeake today"
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.5,
+           "lat": 37.72,
+           "span": 5.4
+          },
+          "places": [
+           {
+            "name": "Richmond",
+            "lon": -77.44,
+            "lat": 37.54,
+            "kind": "city",
+            "label": "Richmond"
+           },
+           {
+            "name": "Washington",
+            "lon": -77.04,
+            "lat": 38.9,
+            "kind": "city",
+            "label": "Washington, D.C."
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and everything east of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.1,
+           "lat": 37.48,
+           "span": 6.6
+          },
+          "places": [
+           {
+            "name": "Richmond",
+            "lon": -77.44,
+            "lat": 37.54,
+            "kind": "city",
+            "label": "Richmond"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 30,
+          "view": {
+           "lon": -76.6,
+           "lat": 37.4,
+           "span": 3.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Then, according to the",
+       "stat": {
+        "value": "35 MILLION YEARS",
+        "label": "Since an asteroid or comet hit the lower bay",
+        "source": "USGS Fact Sheet 2015-3071"
+       }
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.9,
+           "lat": 37.3,
+           "span": 2.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where it came down"
+      },
+      {
+       "type": "map",
+       "at": "right about where the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 37.6,
+           "span": 3.4
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "Cape Charles",
+            "lon": -76.01,
+            "lat": 37.265,
+            "kind": "city",
+            "label": "Cape Charles"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The impact blasted a crater that is among the twenty largest known on Earth. Glassy drops of melted rock rained down as far away as Texas and the Caribbean. Tsunamis spread across most of the North Atlantic. And then, over millions of years, the hole slowly filled in. Today the crater lies buried under a thousand to fifteen hundred feet of sand, mud and rock. You cannot see it from the road. But it never really went away.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Boundaries of the Chesapeake Bay impact crater.png",
+       "on_screen_text": "The buried Chesapeake Bay impact crater"
+      },
+      {
+       "type": "stat",
+       "at": 6,
+       "stat": {
+        "value": "TOP 20",
+        "label": "Among the largest known impact structures on Earth",
+        "source": "USGS Fact Sheet 2015-3071"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Glassy drops of melted",
+       "photo": "File:Bediasite (35 Ma, Late Eocene; southeastern Texas) 3.jpg",
+       "on_screen_text": "Bediasite: impact glass found in Texas"
+      },
+      {
+       "type": "map",
+       "at": "Tsunamis spread across most",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.0,
+           "lat": 36.5,
+           "span": 22.0
+          },
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "over millions of years,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.0,
+           "lat": 37.25,
+           "span": 0.8
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The crater filled in"
+      },
+      {
+       "type": "stat",
+       "at": "Today the crater lies",
+       "stat": {
+        "value": "1,000-1,500 FT",
+        "label": "Of sediment and rock now cover the crater",
+        "source": "U.S. Geological Survey"
+       }
+      },
+      {
+       "type": "map",
+       "at": "You cannot see it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.017,
+           "lat": 37.283,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Above the crater today: Cape Charles"
+      },
+      {
+       "type": "photo",
+       "at": "But it never really",
+       "photo": "File:1853 U.S.C.S. Map of Cape Charles and Vicinity, Virginia - Geographicus - CapeCharles-uscs-1853.jpg",
+       "on_screen_text": "Cape Charles, 1853 survey chart"
+      }
+     ]
+    },
+    {
+     "text": "Its rim is still there under the ground, and the rubble inside it kept settling for millions of years, so the land above it stayed a little lower than the land around it. The National Park Service puts it simply: this large depression helped determine where the Chesapeake Bay would form, millions of years later. The rock from space did not dig the bay. It left a low spot, and the rivers found it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.13,
+           "lat": 37.668,
+           "span": 3.06
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red",
+           "file:crater_inner.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "kept settling for millions",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.35,
+           "span": 1.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Over the buried crater"
+      },
+      {
+       "type": "map",
+       "at": "little lower than the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.47,
+           "lat": 37.532,
+           "span": 3.74
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "Richmond",
+            "lon": -77.44,
+            "lat": 37.54,
+            "kind": "city",
+            "label": "Richmond"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The National Park Service",
+       "stat": {
+        "value": "THE LOW SPOT",
+        "label": "\"Helped determine the location of the Chesapeake Bay\"",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": 45,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.25,
+           "lat": 37.45,
+           "span": 1.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the bay would form"
+      },
+      {
+       "type": "map",
+       "at": "of years later. The",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.62,
+           "lat": 37.36,
+           "span": 4.92
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The rock from space",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.6,
+           "lat": 37.45,
+           "span": 1.8
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rivers of the lower bay"
+      },
+      {
+       "type": "map",
+       "at": "left a low spot,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.45,
+           "lat": 37.2,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The James and the York bend toward the bay"
+      }
+     ]
+    },
+    {
+     "text": "The bay itself is young. About twenty thousand years ago, at the height of the last ice age, so much water was locked up in ice sheets that the sea stood far below where it is now. The shore lay far to the east, out on what is now the seafloor. Where the bay is now, there was a river valley. The Susquehanna River ran down it, joined by the Potomac, the Rappahannock, the York and the James, and flowed out across dry land to a distant shore.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Old Cape Henry Lighthouse (27866899213).jpg",
+       "on_screen_text": "Cape Henry, the south cape of the bay"
+      },
+      {
+       "type": "stat",
+       "at": "About twenty thousand years",
+       "stat": {
+        "value": "~20,000 YEARS AGO",
+        "label": "Height of the last ice age",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "so much water was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.98,
+           "lat": 37.84,
+           "span": 7.08
+          },
+          "places": [
+           {
+            "name": "Susquehanna",
+            "lon": -76.09,
+            "lat": 39.55,
+            "kind": "site",
+            "label": "Susquehanna River",
+            "icon": "water"
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": -76.98,
+           "lat": 37.84,
+           "span": 6.018
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The shore lay far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.85,
+           "lat": 37.05,
+           "span": 1.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Today's shore; the ice-age coast lay far offshore"
+      },
+      {
+       "type": "map",
+       "at": "Where the bay is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.38,
+           "lat": 37.6,
+           "span": 5.7
+          },
+          "places": [
+           {
+            "name": "Susquehanna",
+            "lon": -76.09,
+            "lat": 39.55,
+            "kind": "site",
+            "label": "Susquehanna River",
+            "icon": "water"
+           },
+           {
+            "name": "Washington",
+            "lon": -77.04,
+            "lat": 38.9,
+            "kind": "city",
+            "label": "Washington, D.C."
+           },
+           {
+            "name": "Richmond",
+            "lon": -77.44,
+            "lat": 37.54,
+            "kind": "city",
+            "label": "Richmond"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": "The Susquehanna River ran",
+          "view": {
+           "lon": -76.3,
+           "lat": 38.3,
+           "span": 3.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "joined by the Potomac,",
+       "photo": "File:A Ferry Scene on the Susquehanna at Wright's Ferry, near Havre de Grace MET DT1813.jpg",
+       "on_screen_text": "The Susquehanna near Havre de Grace (19th-century painting)"
+      },
+      {
+       "type": "map",
+       "at": "and flowed out across",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.1,
+           "span": 1.6
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the old river left the land"
+      }
+     ]
+    },
+    {
+     "text": "Then the ice melted, and the ocean came back. By about ten thousand years ago, the rising sea had flooded the lower end of that valley. The water kept climbing up the old river and its branches, until about three thousand years ago the bay reached roughly the shape it has today. A drowned river system, opening to the Atlantic through one wide gap.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:New Cape Henry Lighthouse (28482794045).jpg",
+       "on_screen_text": "Cape Henry"
+      },
+      {
+       "type": "stat",
+       "at": "By about ten thousand",
+       "stat": {
+        "value": "~10,000 YEARS AGO",
+        "label": "The sea floods the lower river valley",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The water kept climbing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.22,
+           "lat": 37.6,
+           "span": 5.16
+          },
+          "places": [
+           {
+            "name": "Susquehanna",
+            "lon": -76.09,
+            "lat": 39.55,
+            "kind": "site",
+            "label": "Susquehanna River",
+            "icon": "water"
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           },
+           {
+            "name": "Washington",
+            "lon": -77.04,
+            "lat": 38.9,
+            "kind": "city",
+            "label": "Washington, D.C."
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "three thousand years ago",
+       "stat": {
+        "value": "~3,000 YEARS AGO",
+        "label": "The bay reaches roughly its present shape",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A drowned river system,",
+       "photo": "File:Chesapeakelandsat.jpeg",
+       "on_screen_text": "The Chesapeake Bay, the largest estuary in the U.S."
+      }
+     ]
+    },
+    {
+     "text": "That gap is where the bridge-tunnel crosses. And the drowned river did not disappear. The Geological Survey notes that remnants of the old Susquehanna still run along the bottom of the bay as a deep channel. Big ships need deep water. That is the first part of the answer. The road had to cross a seventeen-mile mouth, and it had to cross the deep paths that ships still follow. Which raises the next question: who needed to cross it so badly?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.08,
+           "lat": 37.12,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The gap at the mouth of the bay"
+      },
+      {
+       "type": "map",
+       "at": "The Geological Survey notes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.2,
+           "lat": 37.4,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": -76.2,
+           "lat": 37.4,
+           "span": 0.558
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The bay's deep channel"
+      },
+      {
+       "type": "photo",
+       "at": "Big ships need deep",
+       "photo": "File:US Navy 040120-N-6278K-001 USS George Washington (CVN 73) sails past the Chesapeake Bay Bridge tunnel into the Atlantic Ocean to start her deployment.jpg",
+       "on_screen_text": "USS George Washington heading for sea, 2004 (U.S. Navy)"
+      },
+      {
+       "type": "map",
+       "at": "The road had to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.03,
+           "lat": 37.03,
+           "span": 0.28
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Seventeen miles of water"
+      },
+      {
+       "type": "map",
+       "at": "and it had to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.11500000000001,
+           "lat": 36.980000000000004,
+           "span": 0.14
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A deep path for ships"
+      },
+      {
+       "type": "photo",
+       "at": "Which raises the next",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (16).jpg",
+       "on_screen_text": "The crossing today"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cut Off",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Look at the map again. North of the bay's mouth is a long, flat peninsula, shared by Delaware, Maryland and Virginia. Its southern tip is the Eastern Shore of Virginia, two counties of farms, fishing villages and marsh. To reach the rest of Virginia, the people who lived there had a choice. Drive north and all the way around the bay, a trip of hours. Or take a boat.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.8,
+           "lat": 37.9,
+           "span": 6.36
+          },
+          "places": [
+           {
+            "name": "Cape Charles",
+            "lon": -76.01,
+            "lat": 37.265,
+            "kind": "city",
+            "label": "Cape Charles"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -76.8,
+           "lat": 37.9,
+           "span": 5.406
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its southern tip is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.95,
+           "lat": 37.3,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Eastern Shore of Virginia"
+      },
+      {
+       "type": "map",
+       "at": "two counties of farms,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.99,
+           "lat": 37.19,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farms on the Eastern Shore"
+      },
+      {
+       "type": "photo",
+       "at": "To reach the rest",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (1).jpg",
+       "on_screen_text": "The road south"
+      },
+      {
+       "type": "map",
+       "at": "Drive north and all",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.8,
+           "lat": 37.3,
+           "span": 4.68
+          },
+          "places": [
+           {
+            "name": "Cape Charles",
+            "lon": -76.01,
+            "lat": 37.265,
+            "kind": "city",
+            "label": "Cape Charles"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           },
+           {
+            "name": "Washington",
+            "lon": -77.04,
+            "lat": 38.9,
+            "kind": "city",
+            "label": "Washington, D.C."
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Or take a boat.",
+       "photo": "File:The S. S. Princess Anne Ferry Boat between Kiptopeke Beach and Norfolk, Virginia (8618851013).jpg",
+       "on_screen_text": "Princess Anne, one of the bay ferries (postcard)"
+      }
+     ]
+    },
+    {
+     "text": "For most of the twentieth century, the boat was a ferry. By the late years of the service, the crossing ran from Little Creek near Norfolk to Kiptopeke, near Cape Charles. A ferry could carry about sixty cars and took about ninety minutes for the eighteen-mile trip. In fog or a hard wind, the boats waited, and so did everyone on them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.03,
+           "span": 0.55
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The ferry route across the mouth"
+      },
+      {
+       "type": "map",
+       "at": "late years of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.18,
+           "lat": 36.92,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Little Creek, the southern ferry landing"
+      },
+      {
+       "type": "map",
+       "at": "to Kiptopeke, near Cape",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.99,
+           "lat": 37.165,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kiptopeke, the northern landing"
+      },
+      {
+       "type": "stat",
+       "at": "A ferry could carry",
+       "stat": {
+        "value": "90 MINUTES",
+        "label": "For the 18-mile ferry crossing",
+        "source": "Virginia Places (virginiaplaces.org)",
+        "note": "Up to about 60 cars a trip"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In fog or a",
+       "photo": "File:Aerial of concrete ships in Bay (12680358583).jpg",
+       "on_screen_text": "Old concrete ships sunk as a breakwater at Kiptopeke"
+      }
+     ]
+    },
+    {
+     "text": "In nineteen fifty-four, Virginia created a public commission to take over the ferries, and soon it was asked a bigger question. Could the mouth of the bay be crossed by road? A few miles to the west, the answer was already being built. In nineteen fifty-seven, the Hampton Roads Bridge-Tunnel opened, a three and a half mile crossing that ran out on trestles and then dived under the channel into Norfolk harbor. It proved a road could go under a shipping lane. The Chesapeake crossing would have to do it twice, on a crossing five times as long.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1954",
+        "label": "Virginia creates a commission to take over the ferries",
+        "source": "Encyclopedia Virginia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 13,
+       "photo": "File:Aerial (12680379975).jpg",
+       "on_screen_text": "Kiptopeke today"
+      },
+      {
+       "type": "map",
+       "at": "Could the mouth of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.06,
+           "span": 0.7
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mouth of the bay"
+      },
+      {
+       "type": "map",
+       "at": "A few miles to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.198,
+           "lat": 37.464,
+           "span": 2.788
+          },
+          "places": [
+           {
+            "name": "HRBT",
+            "lon": -76.3,
+            "lat": 36.99,
+            "kind": "site",
+            "label": "Hampton Roads Bridge-Tunnel (1957)"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "Naval Station Norfolk",
+            "lon": -76.31,
+            "lat": 36.945,
+            "kind": "site",
+            "label": "Naval Station Norfolk",
+            "icon": "warning"
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In nineteen fifty-seven, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 36.99,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hampton Roads Bridge-Tunnel (1957)"
+      },
+      {
+       "type": "map",
+       "at": "three and a half",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.31,
+           "lat": 37.0,
+           "span": 0.18
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 62,
+          "view": {
+           "lon": -76.31,
+           "lat": 37.0,
+           "span": 0.112
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trestles, then a tunnel"
+      },
+      {
+       "type": "photo",
+       "at": "It proved a road",
+       "photo": "File:USS Dwight D. Eisenhower departs Norfolk, crossing over the - Hampton Roads Bridge Tunnel 130221-N-GC639-125.jpg",
+       "on_screen_text": "A carrier passing over the Hampton Roads tunnel, 2013 (U.S. Navy)"
+      },
+      {
+       "type": "map",
+       "at": "The Chesapeake crossing would",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.03,
+           "lat": 37.02,
+           "span": 0.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 90,
+          "view": {
+           "lon": -76.03,
+           "lat": 37.02,
+           "span": 0.248
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Two channels to cross"
+      }
+     ]
+    },
+    {
+     "text": "But why not simply build a very tall bridge? Engineers built tall bridges all over the country in the nineteen fifties. Here, though, someone else had a say. And they were the most powerful neighbor on the bay.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (10).jpg",
+       "on_screen_text": "The open bay"
+      },
+      {
+       "type": "photo",
+       "at": "Engineers built tall bridges",
+       "photo": "File:Aerial view of the Chesapeake Bay Bridge, connecting Annapolis with Maryland's Eastern Shore LCCN2011635445.tif",
+       "on_screen_text": "Maryland's Chesapeake Bay Bridge, opened 1952 (LoC)"
+      },
+      {
+       "type": "photo",
+       "at": "Here, though, someone else",
+       "photo": "File:CVN 69 departs Naval Station Norfolk with the USS Dwight D. Eisenhower Carrier Strike Group (CSG). 160601-N-XG464-054.jpg",
+       "on_screen_text": "Naval Station Norfolk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Navy's Veto",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Just inside the mouth of the bay is Hampton Roads, one of the great natural harbors of the world, where the James and the Elizabeth rivers meet the bay. And on its southern shore, on the grounds of a nineteen-oh-seven world's fair, the United States Navy built a base in nineteen seventeen. It grew into Naval Station Norfolk, which the Navy describes as the world's largest naval installation, home port of aircraft carriers, destroyers and dozens of other ships.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.402,
+           "lat": 37.736,
+           "span": 4.012
+          },
+          "places": [
+           {
+            "name": "Naval Station Norfolk",
+            "lon": -76.31,
+            "lat": 36.945,
+            "kind": "site",
+            "label": "Naval Station Norfolk",
+            "icon": "warning"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           },
+           {
+            "name": "HRBT",
+            "lon": -76.3,
+            "lat": 36.99,
+            "kind": "site",
+            "label": "Hampton Roads Bridge-Tunnel (1957)"
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 13,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.32,
+           "lat": 36.98,
+           "span": 0.35
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 21,
+          "view": {
+           "lon": -76.32,
+           "lat": 36.98,
+           "span": 0.217
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hampton Roads"
+      },
+      {
+       "type": "map",
+       "at": "And on its southern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.31,
+           "lat": 36.945,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Naval Station Norfolk"
+      },
+      {
+       "type": "map",
+       "at": "nineteen-oh-seven world's fair, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.305,
+           "lat": 36.955,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The piers of the naval base"
+      },
+      {
+       "type": "photo",
+       "at": "It grew into Naval",
+       "photo": "File:US Navy 110707-N-XZ912-104 An aerial view of Norfolk Naval Station, the largest naval base in the world.jpg",
+       "on_screen_text": "Naval Station Norfolk, 2011 (U.S. Navy)"
+      },
+      {
+       "type": "photo",
+       "at": "home port of aircraft",
+       "photo": "File:9 Flattops at Norfolk naval base, December 20, 2012.jpg",
+       "on_screen_text": "Nine carriers at Norfolk, December 2012 (U.S. Navy)"
+      }
+     ]
+    },
+    {
+     "text": "The big ships reach the Atlantic through one deep, dredged path, the Thimble Shoal Channel, straight across the line where the crossing would have to go. In the middle of the Cold War, that made a bridge a problem. According to histories of the project, the Navy objected to any bridge over the channel. If a bridge collapsed, by accident, in a storm or through sabotage, the wreckage could close the channel and trap the fleet inside the bay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.2,
+           "lat": 36.98,
+           "span": 0.45
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "From the base to the open sea"
+      },
+      {
+       "type": "map",
+       "at": "one deep, dredged path,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.105,
+           "lat": 36.975,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": -76.105,
+           "lat": 36.975,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thimble Shoal Channel"
+      },
+      {
+       "type": "photo",
+       "at": "In the middle of",
+       "photo": "File:US Navy Amphibious Group underway in April 1964.jpg",
+       "on_screen_text": "Navy ships off Virginia, April 1964"
+      },
+      {
+       "type": "photo",
+       "at": "According to histories of",
+       "photo": "File:US Navy 031109-N-6278K-002 The USS George Washington (CVN 73), sails past the Chesapeake Bay Bridge Tunnel on the way to sea, as it prepares for the Composite Training Unit Exercise (COMPTUEX) in the Atlantic Ocean.jpg",
+       "on_screen_text": "The channel the Navy needed open"
+      },
+      {
+       "type": "map",
+       "at": "If a bridge collapsed,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.15,
+           "lat": 36.98,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "One channel between the fleet and the Atlantic"
+      },
+      {
+       "type": "map",
+       "at": "storm or through sabotage,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.062,
+           "lat": 37.6,
+           "span": 3.23
+          },
+          "places": [
+           {
+            "name": "Naval Station Norfolk",
+            "lon": -76.31,
+            "lat": 36.945,
+            "kind": "site",
+            "label": "Naval Station Norfolk",
+            "icon": "warning"
+           },
+           {
+            "name": "Thimble Shoal Channel",
+            "lon": -76.1,
+            "lat": 36.977,
+            "kind": "site",
+            "label": "Thimble Shoal Channel",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": -76.062,
+           "lat": 37.6,
+           "span": 2.745
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "There was a second channel too, farther north, the Chesapeake Channel, which carried ships up the bay to Baltimore. Maryland officials wanted that one kept clear as well. So the plan became a chain. Long, low trestles across the shallow water. Two higher bridges over smaller channels. And at the two places where the big ships pass, the road would leave the surface and go under them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.08,
+           "lat": 37.04,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chesapeake Channel"
+      },
+      {
+       "type": "map",
+       "at": "ships up the bay",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.5,
+           "lat": 37.72,
+           "span": 5.238
+          },
+          "places": [
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           },
+           {
+            "name": "Cape Charles",
+            "lon": -76.01,
+            "lat": 37.265,
+            "kind": "city",
+            "label": "Cape Charles"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": -76.5,
+           "lat": 37.72,
+           "span": 4.452
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So the plan became",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (11).jpg",
+       "on_screen_text": "Long, low trestles"
+      },
+      {
+       "type": "photo",
+       "at": "Two higher bridges over",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (17).jpg",
+       "on_screen_text": "A high bridge over a smaller channel"
+      },
+      {
+       "type": "map",
+       "at": "And at the two",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.03,
+           "lat": 37.010000000000005,
+           "span": 0.26
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Two tunnels, four islands"
+      },
+      {
+       "type": "photo",
+       "at": "where the big ships",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (5).jpg",
+       "on_screen_text": "The road goes under"
+      }
+     ]
+    },
+    {
+     "text": "But a tunnel needs a place to start. There is no land at the edge of a shipping channel in the middle of a bay, only open water. So before anyone could build a tunnel, they had to build the ground it would start from. Four islands, in the open sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (6).jpg",
+       "on_screen_text": "An island at the mouth of a tunnel"
+      },
+      {
+       "type": "map",
+       "at": "There is no land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.09,
+           "lat": 37.05,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": -76.09,
+           "lat": 37.05,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islands built in open water"
+      },
+      {
+       "type": "photo",
+       "at": "So before anyone could",
+       "photo": "File:Virginia Brunnel04.jpg",
+       "on_screen_text": "Building land in the sea"
+      },
+      {
+       "type": "map",
+       "at": "Four islands, in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.099,
+           "lat": 36.979,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thimble Shoal: islands 1 and 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Building Land in the Sea",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "First, the money. In nineteen sixty, the commission sold two hundred million dollars in bonds to private investors, to be paid back by the tolls drivers would pay. According to the crossing's own history, no local, state or federal tax money went into the construction. If the road failed to earn its tolls, the investors would lose, not the taxpayers.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "$200 MILLION",
+        "label": "In revenue bonds sold to private investors, 1960",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.11,
+           "lat": 36.94,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The toll plaza, south end"
+      },
+      {
+       "type": "photo",
+       "at": "to be paid back",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (2).jpg",
+       "on_screen_text": "Paid for by tolls"
+      },
+      {
+       "type": "stat",
+       "at": "According to the crossing's",
+       "stat": {
+        "value": "$0",
+        "label": "Local, state or federal tax money in the construction",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "If the road failed",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (3).jpg",
+       "on_screen_text": "The crossing"
+      }
+     ]
+    },
+    {
+     "text": "Work began in the autumn of nineteen sixty. To make each island, crews first built rings of rock on the bottom of the bay, then pumped sand into the middle until it rose above the water. Then they covered the outside with armor. Granite boulders of two to four tons each, brought from a quarry in central Virginia. Each island ended up about five and a quarter acres, roughly the size of four football fields.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1960",
+        "label": "Construction begins",
+        "source": "American Society of Civil Engineers"
+       }
+      },
+      {
+       "type": "map",
+       "at": "To make each island,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.07,
+           "lat": 37.03,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": -76.07,
+           "lat": 37.03,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islands of sand and rock"
+      },
+      {
+       "type": "map",
+       "at": "sand into the middle",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.10900000000001,
+           "lat": 36.967,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pumped sand"
+      },
+      {
+       "type": "photo",
+       "at": "Then they covered the",
+       "photo": "File:Virginia Brunnel02.jpg",
+       "on_screen_text": "Granite armour on an island"
+      },
+      {
+       "type": "map",
+       "at": "Granite boulders of two",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.095,
+           "lat": 36.965,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": -76.095,
+           "lat": 36.965,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Armour of granite"
+      },
+      {
+       "type": "stat",
+       "at": "Each island ended up",
+       "stat": {
+        "value": "~5.25 ACRES",
+        "label": "Each of the four islands",
+        "source": "American Society of Civil Engineers"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The tunnels were not dug. They were built somewhere else and sunk into place. Steel tubes, each about three hundred feet long and thirty-five feet across, were made at a shipyard in Orange, Texas, sealed at the ends so they would float, and towed all the way around Florida to Virginia. Thirty-seven of them for each tunnel. On the way, two broke away from their tugs in the Gulf of Mexico, and both were caught again.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (8).jpg",
+       "on_screen_text": "A tunnel under a shipping channel"
+      },
+      {
+       "type": "map",
+       "at": "Steel tubes, each about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.9,
+           "lat": 36.94,
+           "span": 19.8
+          },
+          "places": [
+           {
+            "name": "Orange, Texas",
+            "lon": -93.74,
+            "lat": 30.09,
+            "kind": "city",
+            "label": "Orange, Texas"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           }
+          ],
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "were made at a",
+       "stat": {
+        "value": "300 FT",
+        "label": "Each steel tube section; 35 feet across",
+        "source": "Virginia Places (virginiaplaces.org)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "they would float, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.1,
+           "lat": 36.06,
+           "span": 24.2
+          },
+          "places": [
+           {
+            "name": "Orange, Texas",
+            "lon": -93.74,
+            "lat": 30.09,
+            "kind": "city",
+            "label": "Orange, Texas"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 48,
+          "view": {
+           "lon": -82.0,
+           "lat": 29.0,
+           "span": 16.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Thirty-seven of them for",
+       "stat": {
+        "value": "37",
+        "label": "Steel tube sections for each tunnel",
+        "source": "Virginia Places (virginiaplaces.org)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "two broke away from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -79.34,
+           "lat": 35.62,
+           "span": 18.04
+          },
+          "places": [
+           {
+            "name": "Orange, Texas",
+            "lon": -93.74,
+            "lat": 30.09,
+            "kind": "city",
+            "label": "Orange, Texas"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": "were caught again.",
+          "view": {
+           "lon": -88.0,
+           "lat": 27.5,
+           "span": 9.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "At Norfolk the tubes got a thick shell of concrete. Then, one by one, they were sunk into a trench dug across the bottom of each channel, joined underwater, pumped dry, and buried. When it was done, ships could pass over the tunnels with no idea that a highway lay underneath.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.29,
+           "lat": 36.86,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Norfolk"
+      },
+      {
+       "type": "map",
+       "at": "Then, one by one,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.095,
+           "lat": 36.975,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 21,
+          "view": {
+           "lon": -76.095,
+           "lat": 36.975,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The tubes lie under the channel"
+      },
+      {
+       "type": "photo",
+       "at": "When it was done,",
+       "photo": "File:US Navy 040120-N-6278K-001 USS George Washington (CVN 73) sails past the Chesapeake Bay Bridge tunnel into the Atlantic Ocean to start her deployment.jpg",
+       "on_screen_text": "Ships pass over the tunnels"
+      },
+      {
+       "type": "map",
+       "at": "with no idea that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 36.97,
+           "span": 0.15
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "A highway under the channel"
+      }
+     ]
+    },
+    {
+     "text": "The trestles were a different problem. There is no bedrock to stand on here. Under the bay is the fill of that old crater and the sediments that came after it, and solid rock lies more than six thousand feet down. So the concrete piles hold the road up by friction alone, gripping the mud. The longest was driven a hundred and seventy-two feet deep.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (9).jpg",
+       "on_screen_text": "Trestle piles in the bay"
+      },
+      {
+       "type": "map",
+       "at": "Under the bay is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.538,
+           "lat": 37.6,
+           "span": 2.924
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": 23,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.0,
+           "lat": 37.1,
+           "span": 0.7
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The bay mouth lies over the crater"
+      },
+      {
+       "type": "stat",
+       "at": "solid rock lies more",
+       "stat": {
+        "value": "6,000+ FT",
+        "label": "Down to bedrock under the bay mouth",
+        "source": "Virginia Places (virginiaplaces.org)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So the concrete piles",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (4).jpg",
+       "on_screen_text": "Held up by friction"
+      },
+      {
+       "type": "stat",
+       "at": "The longest was driven",
+       "stat": {
+        "value": "172 FT",
+        "label": "The deepest pile",
+        "source": "Virginia Places (virginiaplaces.org)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then, in March of nineteen sixty-two, the Atlantic tested the project. A nor'easter stalled off the coast for days, the storm later called the Ash Wednesday Storm. Tides ran high through Norfolk, waves broke over the work sites, and according to reporting from the time, the storm stripped away great amounts of fill and sand, knocked over a tunnel section, and wrecked the crew's main pile driver, a giant platform called the Big D.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "MARCH 1962",
+        "label": "The Ash Wednesday Storm",
+        "source": "Weather Bureau records"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A nor'easter stalled off",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.7,
+           "lat": 37.0,
+           "span": 2.0
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": -75.7,
+           "lat": 37.0,
+           "span": 1.24
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Off the Atlantic coast"
+      },
+      {
+       "type": "map",
+       "at": "Tides ran high through",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.27,
+           "lat": 36.87,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Norfolk"
+      },
+      {
+       "type": "map",
+       "at": "and according to reporting",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.0,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": -76.1,
+           "lat": 37.0,
+           "span": 0.31
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The work sites at the mouth of the bay"
+      },
+      {
+       "type": "photo",
+       "at": "knocked over a tunnel",
+       "photo": "File:Virginia Brunnel05.jpg",
+       "on_screen_text": "An island today"
+      },
+      {
+       "type": "photo",
+       "at": 64,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (13).jpg",
+       "on_screen_text": "The trestle in open water"
+      }
+     ]
+    },
+    {
+     "text": "The work went on. On April fifteenth, nineteen sixty-four, forty-two months after construction began, the Chesapeake Bay Bridge-Tunnel opened. The ferries were retired. The next year, a competition among more than a hundred major projects named it one of the Seven Engineering Wonders of the Modern World. Accounts of the project say seven workers died building it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "15 APRIL 1964",
+        "label": "The bridge-tunnel opens, 42 months after work began",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 9,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.04,
+           "lat": 37.04,
+           "span": 0.45
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The whole crossing"
+      },
+      {
+       "type": "photo",
+       "at": "The ferries were retired.",
+       "photo": "File:Fisherman Island National Wildlife Refuge, VA. Credit- USFWS (11804450384).jpg",
+       "on_screen_text": "Fisherman Island, at the crossing's north end (USFWS)"
+      },
+      {
+       "type": "stat",
+       "at": "The next year, a",
+       "stat": {
+        "value": "1965",
+        "label": "Named one of the Seven Engineering Wonders of the Modern World",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 33,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (14).jpg",
+       "on_screen_text": "The crossing"
+      },
+      {
+       "type": "photo",
+       "at": "Accounts of the project",
+       "photo": "File:Virginia Brunnel01.jpg",
+       "on_screen_text": "A plaque on the crossing"
+      }
+     ]
+    },
+    {
+     "text": "For the first time, the Eastern Shore was joined to the rest of Virginia by road. But the bay had not agreed to anything. And it was about to make that clear.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.97,
+           "lat": 37.1,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -75.97,
+           "lat": 37.1,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fisherman Island, the Eastern Shore end"
+      },
+      {
+       "type": "photo",
+       "at": "But the bay had",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (15).jpg",
+       "on_screen_text": "Open water on both sides"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Bay Pushes Back",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The trestles stand in open water, and the ships that wait to enter Hampton Roads anchor all around them. In the night of January twenty-first, nineteen seventy, a gale came up. According to a later account from the Hampton Roads Naval Museum, gusts reached thirty-five to fifty knots, and six other ships dragged their anchors that night. One of them was the Navy cargo ship Yancey.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.06,
+           "lat": 37.0,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -76.06,
+           "lat": 37.0,
+           "span": 0.31
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ships anchor around the crossing"
+      },
+      {
+       "type": "stat",
+       "at": "In the night of",
+       "stat": {
+        "value": "21 JAN 1970",
+        "label": "A gale over the mouth of the bay",
+        "source": "Hampton Roads Naval Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "According to a later",
+       "photo": "File:US Navy Amphibious Group underway in April 1964.jpg",
+       "on_screen_text": "Navy ships off Virginia"
+      },
+      {
+       "type": "map",
+       "at": 44,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.15,
+           "lat": 36.99,
+           "span": 0.35
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The anchorage off the crossing"
+      },
+      {
+       "type": "photo",
+       "at": "One of them was",
+       "photo": "File:USS Yancey (AKA-93) underway c1952.jpg",
+       "on_screen_text": "USS Yancey, about 1952 (U.S. Navy)"
+      }
+     ]
+    },
+    {
+     "text": "The Yancey's anchor would not hold. The wind pushed her across the bay, stern first, and at one thirty-seven in the morning she hit the trestle. At three thirty she hit it again, and went through. She left a gap of about four hundred feet in the road. The crossing had stockpiled spare seventy-five-foot spans, and that helped, but in the cold and the heavy seas it was still about six weeks before the road reopened. It was not the first ship to strike the trestle, and it would not be the last.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.06,
+           "lat": 37.0,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -76.06,
+           "lat": 37.0,
+           "span": 0.186
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Across the bay, stern first"
+      },
+      {
+       "type": "stat",
+       "at": "at one thirty-seven in",
+       "stat": {
+        "value": "1:37 AM",
+        "label": "First impact; at 3:30 she went through",
+        "source": "Hampton Roads Naval Museum"
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.07,
+           "lat": 36.98,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The trestle"
+      },
+      {
+       "type": "stat",
+       "at": "She left a gap",
+       "stat": {
+        "value": "~400 FT",
+        "label": "Of trestle knocked out",
+        "source": "Hampton Roads Naval Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The crossing had stockpiled",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (12).jpg",
+       "on_screen_text": "Spans of 75 feet"
+      },
+      {
+       "type": "map",
+       "at": "in the cold and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.09,
+           "lat": 36.95,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 67,
+          "view": {
+           "lon": -76.09,
+           "lat": 36.95,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The south trestle"
+      },
+      {
+       "type": "photo",
+       "at": "It was not the",
+       "photo": "File:Fisherman Island National Wildlife Refuge, VA. Credit- USFWS (11804792806).jpg",
+       "on_screen_text": "The north end of the crossing (USFWS)"
+      }
+     ]
+    },
+    {
+     "text": "Then there is the wind itself. The crossing runs across open water, and nothing breaks the wind coming off the Atlantic. So it has rules you will find on very few roads. At thirty-five miles an hour of wind, the speed limit drops to forty-five and passing is banned. At forty, motorcycles, campers, anything being towed, box trucks, buses and empty tractor-trailers are turned away. At fifty, only cars, empty pickups, minivans and SUVs may cross. At sixty, the crossing closes.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio.jpg",
+       "on_screen_text": "Open water, no shelter"
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.02,
+           "lat": 37.08,
+           "span": 0.2
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nothing breaks the wind"
+      },
+      {
+       "type": "map",
+       "at": "So it has rules",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.06,
+           "lat": 37.06,
+           "span": 0.6
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wind off the Atlantic"
+      },
+      {
+       "type": "stat",
+       "at": "At thirty-five miles an",
+       "stat": {
+        "value": "35 MPH WIND",
+        "label": "Speed limit 45, no passing",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At forty, motorcycles, campers,",
+       "stat": {
+        "value": "40 MPH",
+        "label": "Motorcycles, campers, towed loads, box trucks, buses, empty trucks banned",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At fifty, only cars,",
+       "stat": {
+        "value": "50 MPH",
+        "label": "Only cars, empty pickups, minivans and SUVs",
+        "source": "Chesapeake Bay Bridge-Tunnel District",
+        "note": "At 60 mph the crossing closes"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Even so, vehicles have gone over the side more than a dozen times since the nineteen eighties, most of them trucks. By one count, at least twenty people have died in them. Some crashes came in high wind. Others came on calm days, when a driver swerved, a tire blew, or a truck simply drifted.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (11).jpg",
+       "on_screen_text": "No shoulder, low railing"
+      },
+      {
+       "type": "map",
+       "at": 11,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.08,
+           "lat": 36.96,
+           "span": 0.13
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Low trestle, open water"
+      },
+      {
+       "type": "stat",
+       "at": "By one count, at",
+       "stat": {
+        "value": "20+",
+        "label": "People killed in over-the-side crashes, by one count to 2023",
+        "source": "Virginia Places (virginiaplaces.org)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Some crashes came in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.05,
+           "lat": 37.07,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open trestle"
+      },
+      {
+       "type": "photo",
+       "at": "Others came on calm",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (10).jpg",
+       "on_screen_text": "Calm days too"
+      }
+     ]
+    },
+    {
+     "text": "For thirty-five years, the whole crossing was one two-lane road, one lane each way, with nothing in between. In nineteen ninety-nine, a second, parallel trestle opened, and each direction got its own bridge. But not its own tunnel. The new tunnels were left out to save money. So even today, when you reach an island, four lanes squeeze into two, and you drive under the sea in a single tube, with traffic coming toward you a few feet away.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "35 YEARS",
+        "label": "One two-lane road, one lane each way",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 10,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.0,
+           "lat": 37.09,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Two lanes for 35 years"
+      },
+      {
+       "type": "photo",
+       "at": "In nineteen ninety-nine, a",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (17).jpg",
+       "on_screen_text": "Two parallel trestles since 1999"
+      },
+      {
+       "type": "map",
+       "at": "But not its own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.111,
+           "lat": 36.981,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Four lanes, then one tunnel"
+      },
+      {
+       "type": "photo",
+       "at": "So even today, when",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (7).jpg",
+       "on_screen_text": "Into a single tube"
+      },
+      {
+       "type": "photo",
+       "at": "and you drive under",
+       "photo": "File:Virginia Brunnel06.jpg",
+       "on_screen_text": "Traffic both ways in one tube"
+      },
+      {
+       "type": "map",
+       "at": 70,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.09,
+           "lat": 37.0,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "One tube under each channel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chessie and the Anchor",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The fix is a second tunnel. In twenty sixteen, the crossing signed a contract worth about seven hundred and fifty-seven million dollars for a new tube under Thimble Shoal Channel. This time it would not be sunk into a trench across a channel used by the Navy. It would be bored underneath it, by a German-built tunnel boring machine forty-three feet across and three hundred and eight feet long. Its name, chosen by a schoolgirl in a public contest, was Chessie.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.093,
+           "lat": 36.971000000000004,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Thimble Shoal: the new tunnel runs beside the old one"
+      },
+      {
+       "type": "stat",
+       "at": "In twenty sixteen, the",
+       "stat": {
+        "value": "$757 MILLION",
+        "label": "Contract for a second tunnel under Thimble Shoal Channel, 2016",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.12,
+           "lat": 36.97,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Under Thimble Shoal Channel"
+      },
+      {
+       "type": "photo",
+       "at": "This time it would",
+       "photo": "File:USS Dwight D. Eisenhower departs Norfolk, crossing over the - Hampton Roads Bridge Tunnel 130221-N-GC639-125.jpg",
+       "on_screen_text": "Navy ships use the channels above"
+      },
+      {
+       "type": "stat",
+       "at": "It would be bored",
+       "stat": {
+        "value": "43 FT",
+        "label": "Across the cutterhead; the machine is 308 ft long",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 58,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.13,
+           "lat": 36.96,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Island 1, where the machine started"
+      },
+      {
+       "type": "map",
+       "at": "Its name, chosen by",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.11,
+           "lat": 36.965,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Island 1, where the new tunnel begins"
+      }
+     ]
+    },
+    {
+     "text": "Chessie started mining in February twenty twenty-three. In May, it hit something it could not cut. It turned out to be a large ship's anchor, buried in the mud of the channel, made in England around the turn of the twentieth century. Some ship lost it there, long ago, at the mouth of a busy harbor.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "FEB 2023",
+        "label": "Chessie starts mining",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In May, it hit",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.11,
+           "lat": 36.98,
+           "span": 0.13
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Somewhere under the channel"
+      },
+      {
+       "type": "stat",
+       "at": "It turned out to",
+       "stat": {
+        "value": "1900s",
+        "label": "A ship's anchor made in England, buried in the channel",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 28,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 36.99,
+           "span": 0.11
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Near the old tube"
+      },
+      {
+       "type": "map",
+       "at": "Some ship lost it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.05,
+           "lat": 36.97,
+           "span": 0.4
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mouth of a busy harbor"
+      },
+      {
+       "type": "photo",
+       "at": 51,
+       "photo": "File:New Cape Henry Lighthouse (28482794045).jpg",
+       "on_screen_text": "Cape Henry, at the harbor mouth"
+      }
+     ]
+    },
+    {
+     "text": "Removing it, deep under the channel, safely, took eight more months of work. Tunnelling only resumed in May twenty twenty-four, at about fifty feet a day. On January twenty-seventh, twenty twenty-five, after more than six thousand three hundred feet, Chessie broke through into its receiving pit on the second island. The crossing's current forecast for opening the new tunnel is early twenty twenty-eight.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "8 MONTHS",
+        "label": "Of extra work to remove the anchor",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Tunnelling only resumed in",
+       "stat": {
+        "value": "~50 FT A DAY",
+        "label": "From May 2024",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On January twenty-seventh, twenty",
+       "stat": {
+        "value": "6,300+ FT",
+        "label": "Mined before breakthrough, 27 January 2025",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      },
+      {
+       "type": "map",
+       "at": 38,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.09,
+           "lat": 36.98,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Breakthrough at Two Island"
+      },
+      {
+       "type": "stat",
+       "at": "The crossing's current forecast",
+       "stat": {
+        "value": "EARLY 2028",
+        "label": "Forecast opening of the new tunnel",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And that is only one of the two tunnels. The second, under the Chesapeake Channel, is still decades away. So the bay keeps doing what it has done for millions of years. It slows things down. Which brings us back to the number from the beginning.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.08,
+           "lat": 37.05,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -76.08,
+           "lat": 37.05,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chesapeake Channel: still one tube"
+      },
+      {
+       "type": "photo",
+       "at": "So the bay keeps",
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (16).jpg",
+       "on_screen_text": "The crossing"
+      },
+      {
+       "type": "map",
+       "at": "Which brings us back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.083,
+           "lat": 37.033,
+           "span": 0.14
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Back to the tide gauge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sinking Ground",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Across the water from the first island is a tide gauge at Sewells Point, on the Navy base in Norfolk. It has measured the sea there since nineteen twenty-seven, almost a hundred years. Over that time, according to the National Oceanic and Atmospheric Administration, the average sea level has risen at about one point nine inches every ten years. That adds up to about a foot and a half since the gauge went in.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.33,
+           "lat": 36.947,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -76.33,
+           "lat": 36.947,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sewells Point, Naval Station Norfolk"
+      },
+      {
+       "type": "stat",
+       "at": "It has measured the",
+       "stat": {
+        "value": "1927",
+        "label": "The Sewells Point tide gauge starts recording",
+        "source": "NOAA tide gauges (sea level trends, 1927-2025)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Over that time, according",
+       "stat": {
+        "value": "+1.90 IN",
+        "label": "Per decade, Sewells Point, 1927-2025",
+        "source": "NOAA tide gauges (sea level trends, 1927-2025)"
+       }
+      },
+      {
+       "type": "map",
+       "at": 46,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 36.93,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The naval base"
+      },
+      {
+       "type": "map",
+       "at": "That adds up to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.32,
+           "lat": 36.95,
+           "span": 0.16
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Norfolk's waterfront"
+      },
+      {
+       "type": "stat",
+       "at": 66,
+       "stat": {
+        "value": "~1.5 FEET",
+        "label": "Since 1927 (1.90 in per decade x 9.8 decades)",
+        "source": "NOAA tide gauges (sea level trends, 1927-2025)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "We compared that with every tide gauge NOAA lists on the Atlantic coast of the United States whose record goes back to the nineteen thirties or earlier. There are twenty-three. Sewells Point has the fastest rise of all of them. Faster than New York, faster than Boston, almost twice as fast as Key West. And the gauge on the bridge-tunnel itself, out in the channel, has measured about two point four inches per decade since nineteen seventy-five. About a foot in fifty years.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.66,
+           "lat": 37.38,
+           "span": 25.96
+          },
+          "places": [
+           {
+            "name": "Sewells Point gauge",
+            "lon": -76.33,
+            "lat": 36.947,
+            "kind": "site",
+            "label": "Sewells Point tide gauge (1927)",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": -80.66,
+           "lat": 37.38,
+           "span": 22.066
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "There are twenty-three.",
+       "chart": {
+        "type": "bar",
+        "title": "Sea level rise, U.S. Atlantic gauges with records from 1935 or earlier",
+        "unit": "inches per decade",
+        "data": [
+         [
+          "Sewells Point, VA",
+          1.9
+         ],
+         [
+          "Sandy Hook, NJ",
+          1.68
+         ],
+         [
+          "Atlantic City, NJ",
+          1.67
+         ],
+         [
+          "Annapolis, MD",
+          1.52
+         ],
+         [
+          "Charleston, SC",
+          1.38
+         ],
+         [
+          "Baltimore, MD",
+          1.3
+         ],
+         [
+          "Boston, MA",
+          1.17
+         ],
+         [
+          "New York (Battery)",
+          1.16
+         ],
+         [
+          "Key West, FL",
+          1.04
+         ],
+         [
+          "Portland, ME",
+          0.78
+         ]
+        ],
+        "source": "Own ranking of NOAA tide gauge trends",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Sewells Point has the",
+       "stat": {
+        "value": "FASTEST",
+        "label": "Of 23 U.S. Atlantic gauges with records from 1935 or earlier",
+        "source": "Own ranking of NOAA tide gauge trends"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Faster than New York,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -74.02,
+           "lat": 40.69,
+           "span": 0.15
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "New York harbor"
+      },
+      {
+       "type": "map",
+       "at": "And the gauge on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.09,
+           "lat": 37.02,
+           "span": 0.09
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 65,
+          "view": {
+           "lon": -76.09,
+           "lat": 37.02,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The bridge-tunnel's own gauge"
+      },
+      {
+       "type": "stat",
+       "at": "About a foot in",
+       "stat": {
+        "value": "+2.42 IN",
+        "label": "Per decade at the bridge-tunnel gauge, 1975-2025",
+        "source": "NOAA tide gauge, Chesapeake Channel, 1975-2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Part of that is the ocean rising everywhere. But here the land is also going down. The U.S. Geological Survey says coastal Virginia has the highest rates of relative sea level rise on the entire Atlantic coast, because the ground is sinking at the same time. Much of it comes from pumping. For decades, towns and industry have drawn water from deep aquifers, and as the water comes out, the clay layers squeeze together and the land settles. Part of it is the slow sag of the crust as it adjusts to the vanished ice sheets of the north. And researchers studying the sinking around Hampton Roads list one more cause among the others: ongoing shifts in the buried crater.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (15).jpg",
+       "on_screen_text": "Water close to the road"
+      },
+      {
+       "type": "stat",
+       "at": "The U.S. Geological Survey",
+       "stat": {
+        "value": "HIGHEST",
+        "label": "Relative sea level rise on the Atlantic coast: coastal Virginia",
+        "source": "USGS, land subsidence in coastal Virginia"
+       }
+      },
+      {
+       "type": "map",
+       "at": 26,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 37.0,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hampton Roads"
+      },
+      {
+       "type": "photo",
+       "at": "because the ground is",
+       "photo": "File:Tangier Island flooding.jpg",
+       "on_screen_text": "Tangier Island, Virginia: high water in the streets, 2023"
+      },
+      {
+       "type": "map",
+       "at": "Much of it comes",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.55,
+           "lat": 36.75,
+           "span": 0.9
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 54,
+          "view": {
+           "lon": -76.55,
+           "lat": 36.75,
+           "span": 0.558
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Suffolk and Franklin: wells and sinking ground"
+      },
+      {
+       "type": "map",
+       "at": "and as the water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.92,
+           "lat": 36.68,
+           "span": 0.3
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Franklin, Virginia"
+      },
+      {
+       "type": "stat",
+       "at": "the clay layers squeeze",
+       "stat": {
+        "value": "1.5-3.7 MM/YR",
+        "label": "Measured sinking, Franklin and Suffolk, 1979-1995",
+        "source": "Bekaert et al. 2017, Scientific Reports"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Part of it is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.1,
+           "lat": 37.48,
+           "span": 6.402
+          },
+          "places": [
+           {
+            "name": "Baltimore",
+            "lon": -76.61,
+            "lat": 39.29,
+            "kind": "city",
+            "label": "Baltimore"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 88,
+          "view": {
+           "lon": -77.1,
+           "lat": 37.48,
+           "span": 5.442
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And researchers studying the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 37.77,
+           "span": 3.604
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           },
+           {
+            "name": "Norfolk",
+            "lon": -76.29,
+            "lat": 36.85,
+            "kind": "city",
+            "label": "Norfolk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "ongoing shifts in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.05,
+           "lat": 37.27,
+           "span": 0.6
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Over the crater"
+      }
+     ]
+    },
+    {
+     "text": "The crater is still there in other ways too. Deep under the bay, the rock is soaked in water that is about twice as salty as today's ocean. In twenty thirteen, USGS scientists showed that it is seawater from the Early Cretaceous, the time of the dinosaurs, a hundred to a hundred and forty-five million years old, trapped and kept in place partly by the shattered rock of the impact.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Boundaries of the Chesapeake Bay impact crater.png",
+       "on_screen_text": "The buried crater"
+      },
+      {
+       "type": "stat",
+       "at": "Deep under the bay,",
+       "stat": {
+        "value": "2x",
+        "label": "As salty as today's ocean: water deep in the crater",
+        "source": "Sanford et al. 2013, Nature (USGS)"
+       }
+      },
+      {
+       "type": "map",
+       "at": 18,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.1,
+           "lat": 37.2,
+           "span": 1.0
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The crater under the bay"
+      },
+      {
+       "type": "stat",
+       "at": "In twenty thirteen, USGS",
+       "stat": {
+        "value": "100-145 MILLION YEARS",
+        "label": "Age of the seawater trapped in the crater",
+        "source": "Sanford et al. 2013, Nature (USGS)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": 42,
+       "photo": "File:1853 U.S.C.S. Map of Cape Charles and Vicinity, Virginia - Geographicus - CapeCharles-uscs-1853.jpg",
+       "on_screen_text": "Cape Charles, above the crater (1853 chart)"
+      },
+      {
+       "type": "map",
+       "at": "trapped and kept in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.017,
+           "lat": 37.283,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Above the crater"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So this is why the highway dives under the sea. A rock from space left a low spot. An ice age carved a river valley through it, and the melting ice drowned it. The deepest parts of the drowned river became shipping channels. And a navy that needed those channels open made the road go underneath.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.03,
+           "lat": 37.02,
+           "span": 0.36
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Chesapeake Bay Bridge-Tunnel"
+      },
+      {
+       "type": "map",
+       "at": "A rock from space",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.3,
+           "lat": 37.43,
+           "span": 2.652
+          },
+          "highlight": [
+           "file:crater_outer.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Crater centre",
+            "lon": -76.017,
+            "lat": 37.283,
+            "kind": "site",
+            "label": "Buried crater (approximate)",
+            "icon": "warning"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "An ice age carved",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.62,
+           "lat": 37.36,
+           "span": 4.772
+          },
+          "places": [
+           {
+            "name": "Susquehanna",
+            "lon": -76.09,
+            "lat": 39.55,
+            "kind": "site",
+            "label": "Susquehanna River",
+            "icon": "water"
+           }
+          ],
+          "date": "2025-10-31"
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": -76.62,
+           "lat": 37.36,
+           "span": 4.056
+          },
+          "date": "2025-10-31"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The deepest parts of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.105,
+           "lat": 36.969,
+           "span": 0.12
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The channels"
+      },
+      {
+       "type": "photo",
+       "at": "And a navy that",
+       "photo": "File:US Navy 110707-N-XZ912-104 An aerial view of Norfolk Naval Station, the largest naval base in the world.jpg",
+       "on_screen_text": "Naval Station Norfolk"
+      }
+     ]
+    },
+    {
+     "text": "The islands were built in the early nineteen sixties for the sea of the early nineteen sixties. Since then the water around them has risen by about a foot, and the ground under Norfolk is still sinking. The next tunnel under the Chesapeake Channel is planned for decades from now. So here is the question to leave in the comments: should it be built for the sea we have today, or for the sea of twenty one hundred?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.09,
+           "lat": 37.03,
+           "span": 0.1
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -76.09,
+           "lat": 37.03,
+           "span": 0.08
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islands built in the early 1960s"
+      },
+      {
+       "type": "photo",
+       "at": "Since then the water",
+       "photo": "File:Island 1 and Western Section of Bridge - panoramio.jpg",
+       "on_screen_text": "Island 1"
+      },
+      {
+       "type": "map",
+       "at": "and the ground under",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.28,
+           "lat": 36.9,
+           "span": 0.25
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Norfolk"
+      },
+      {
+       "type": "map",
+       "at": "The next tunnel under",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.08,
+           "lat": 37.04,
+           "span": 0.18
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chesapeake Channel"
+      },
+      {
+       "type": "photo",
+       "at": "So here is the",
+       "photo": "File:Tight and Light - Kite Over The Chesapeake Bay Bridge Tunnel.jpg",
+       "on_screen_text": "The crossing"
+      },
+      {
+       "type": "map",
+       "at": 64,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.03,
+           "lat": 37.0,
+           "span": 0.5
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mouth of the bay"
+      }
+     ],
+     "ask": {
+      "at": "So here is the",
+      "text": "Should the next tunnel be built for today's sea, or the sea of 2100?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why This American Highway Dives Under the Sea",
+  "description": "At the mouth of the Chesapeake Bay, a highway runs 17.6 miles out to sea, onto islands built in open water, and twice dives under the shipping channels. Why build it like that? We follow the answer from orbit: an asteroid crater buried under the bay 35 million years ago, the drowned valley of the Susquehanna, the ferries of the Eastern Shore, the Navy's fear of a fallen bridge, four man-made islands and steel tubes towed from Texas, the 1962 storm, the night USS Yancey went through the trestle, the tunnel machine Chessie and the century-old anchor it hit, and the tide gauges that show the sea rising faster here than anywhere else on the U.S. Atlantic coast.",
+  "tags": [
+   "Chesapeake Bay Bridge-Tunnel",
+   "Chesapeake Bay",
+   "Virginia",
+   "Norfolk",
+   "Virginia Beach",
+   "Eastern Shore",
+   "Naval Station Norfolk",
+   "Chesapeake Bay impact crater",
+   "Thimble Shoal tunnel",
+   "Chessie TBM",
+   "sea level rise",
+   "engineering",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Should the next tunnel be built for today's sea, or the sea of 2100?"
+ }
+}

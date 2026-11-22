@@ -11,5 +11,9 @@ from the radars of 8-13 Nov. Run the demand check (`python tools/topic_radar.py 
 | 3 | Namibia: "Why Nobody Lives on Africa's Skeleton Coast" | Geography By Geoff 3.9M on the same coast (big rival) | Medium: Benguela upwelling, fog, <10 mm rain, 1,000+ wrecks, Skeleton Coast NP 16,000 km2, diamonds (Sperrgebiet) | Excellent: dunes into the sea, wrecks |
 | 4 | Doggerland: "The Land Under the North Sea" | Passed demand on 16 Nov (13 at 3x) | Medium-deep: end of the Ice Age, Storegga tsunami ~8,200 BP and the debate over it (Hill vs Gaffney 2020), Europe's Lost Frontiers, trawled finds | Weak: mostly painted bathymetry maps, few real photos; close to the Mediterranean and Green Sahara episodes |
 
-Recommendation: 1 (strongest lead, best pictures, a clear story). The risk is a second Florida episode in a row, so it
+Correction 2026-11-22: the 238-288x lead ("America Built a Highway That Disappears Into the Atlantic", TitanFold) is
+about the Chesapeake Bay Bridge-Tunnel (Virginia, 1964), not the Florida Keys (transcript read). Keys has no demand
+data yet; demand check for both after the search quota resets.
+
+Original recommendation (lead misread): 1 (strongest lead, best pictures, a clear story). The risk is a second Florida episode in a row, so it
 should go out with another episode between them.

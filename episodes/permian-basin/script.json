@@ -393,9 +393,9 @@
          {
           "at": "years ago, when this",
           "view": {
-           "lon": -101.5,
+           "lon": -100.5,
            "lat": 31.5,
-           "span": 9.0
+           "span": 15.0
           }
          }
         ],
@@ -661,7 +661,7 @@
           "view": {
            "lon": -102.6,
            "lat": 31.8,
-           "span": 5.5
+           "span": 11.0
           }
          }
         ],
@@ -712,7 +712,7 @@
           "view": {
            "lon": -102.8,
            "lat": 31.9,
-           "span": 8.0
+           "span": 12.0
           }
          }
         ],
@@ -757,7 +757,7 @@
           "view": {
            "lon": -103.9,
            "lat": 31.6,
-           "span": 4.2
+           "span": 7.5
           }
          }
         ],
@@ -913,9 +913,9 @@
          {
           "at": "fifty million years, something",
           "view": {
-           "lon": -103.2,
+           "lon": -103.0,
            "lat": 31.9,
-           "span": 7.5
+           "span": 12.0
           }
          }
         ],
@@ -1073,8 +1073,8 @@
       {
        "type": "photo",
        "at": "Today that block is",
-       "photo": "File:Guadalupe Mountains National Park - 53196461806.jpg",
-       "on_screen_text": "Guadalupe Mountains National Park"
+       "photo": "File:Carlsbad Caverns National Park and White's City, New Mexico, USA - 48344858762.jpg",
+       "on_screen_text": "Reef cliffs, Guadalupe Mountains, New Mexico"
       },
       {
        "type": "photo",
@@ -1105,7 +1105,7 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Guadalupe Mountains National Park - 53196001807.jpg",
+       "photo": "File:El Cap GUMO.jpg",
        "on_screen_text": "El Capitan, the south end of the Guadalupe Mountains"
       },
       {
@@ -1351,9 +1351,9 @@
          {
           "at": "the end, when the",
           "view": {
-           "lon": -103.0,
+           "lon": -102.6,
            "lat": 31.9,
-           "span": 7.5
+           "span": 12.0
           }
          }
         ],
@@ -1400,7 +1400,7 @@
           "view": {
            "lon": -104.0,
            "lat": 31.6,
-           "span": 4.5
+           "span": 8.0
           }
          }
         ],
@@ -1544,7 +1544,7 @@
           "view": {
            "lon": -103.3,
            "lat": 31.9,
-           "span": 7.8
+           "span": 12.0
           }
          }
         ],
@@ -1777,7 +1777,7 @@
           "view": {
            "lon": -102.7,
            "lat": 31.7,
-           "span": 7.6
+           "span": 12.0
           }
          }
         ],
@@ -2254,7 +2254,7 @@
        "type": "photo",
        "at": "production began to decline",
        "photo": "File:Directory Map, City of Midland - NARA - 109182530.jpg",
-       "on_screen_text": "Midland street map, 1928"
+       "on_screen_text": "Midland street map (U.S. National Archives)"
       }
      ]
     },
@@ -2344,7 +2344,7 @@
           "view": {
            "lon": -102.9,
            "lat": 31.8,
-           "span": 7.6
+           "span": 12.0
           }
          }
         ],
@@ -2388,7 +2388,7 @@
           "view": {
            "lon": -103.7,
            "lat": 31.8,
-           "span": 4.2
+           "span": 7.5
           }
          }
         ],
@@ -2779,7 +2779,7 @@
           "view": {
            "lon": -103.7,
            "lat": 31.9,
-           "span": 4.2
+           "span": 7.5
           }
          }
         ],
@@ -3238,9 +3238,9 @@
          {
           "at": "and called it the",
           "view": {
-           "lon": -102.0,
+           "lon": -101.0,
            "lat": 31.4,
-           "span": 9.5
+           "span": 16.0
           }
          }
         ],
@@ -3487,7 +3487,7 @@
           "view": {
            "lon": -103.4,
            "lat": 31.8,
-           "span": 4.2
+           "span": 7.5
           }
          }
         ],

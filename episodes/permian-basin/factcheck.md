@@ -87,61 +87,60 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 81 | c05p05 | stat card | 36: Oil companies with offices in Midland by 1929 | Dallas Fed SWE 2008 (36 companies by 1929; Odessa blue-collar) | verified |
 | 82 | c05p05 | on screen | Drill site, West Texas, 1949 | Commons file description (visuals.md) | verified |
 | 83 | c05p05 | stat card | 1973: Permian oil production begins to decline | Dallas Fed SWE 2022 (decline from 1973) | verified |
-| 84 | c05p05 | on screen | Midland street map, 1928 | Commons file description (NARA 109182530, 6 April 1928) | verified |
-| 85 | c05p06 | narration | In the 1980s, oil crashed to around ten dollars a barrel. | FDIC History of the Eighties, vol. 1 | verified |
-| 86 | c05p06 | narration | The FDIC, the agency that insures American bank deposits, counts four hundred and twenty-five Texas commercial banks that failed between 1980 and 1989, including nine of the state's ten largest bank holding companies. | FDIC History of the Eighties, vol. 1 | verified |
-| 87 | c05p06 | stat card | ~$10: A barrel of oil after the 1980s crash | FDIC History of the Eighties, vol. 1 | verified |
-| 88 | c05p06 | stat card | 425: Texas commercial banks failed, 1980-1989 | FDIC History of the Eighties, vol. 1 | verified |
-| 89 | c05p06 | stat card | 9 OF 10: Largest Texas bank holding companies among them | FDIC History of the Eighties, vol. 1 | verified |
-| 90 | c05p07 | narration | The easy oil had been found. | Dallas Fed SWE 2022 (decline after 1973; shale revival) | verified |
-| 91 | c06p01 | narration | One of the richest of those layers is called the Wolfcamp. | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
-| 92 | c06p01 | stat card | WOLFCAMP: One of the richest oil-bearing shale layers | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
-| 93 | c06p02 | narration | Two techniques changed that. | Dallas Fed (horizontal drilling + hydraulic fracturing) | verified |
-| 94 | c06p03 | narration | In May 2009, according to the Dallas Fed, just ninety-two drilling rigs were working in the basin. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 95 | c06p03 | narration | By June 2012, there were five hundred and twenty-five. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 96 | c06p03 | narration | By 2018, ninety percent of rigs in the basin were drilling horizontally. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 97 | c06p03 | narration | By 2022, ninety-five percent. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 98 | c06p03 | stat card | 92: Drilling rigs working in the Permian Basin, May 2009 | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 99 | c06p03 | chart | Drilling rigs working in the Permian Basin: May 2009 92, June 2012 525 | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 100 | c06p03 | stat card | 90% → 95%: Permian rigs drilling horizontally, 2018 → 2022 | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
-| 101 | c06p05 | narration | In 2017, according to an analysis by IHS Markit, the Permian produced more oil in a year than it had in its old record year of 1973. | IHS Markit via BIC Magazine (said as 'according to an analysis by IHS Markit') | attributed |
-| 102 | c06p05 | narration | By 2025, the EIA put the basin at six point six million barrels a day. | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
-| 103 | c06p05 | narration | That is close to half of all U.S. crude oil, and the United States set a national record that year at thirteen point six million barrels a day. | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
-| 104 | c06p05 | stat card | 2017: Permian output passes its 1973 record | IHS Markit via BIC Magazine (said as 'according to an analysis by IHS Markit') | attributed |
-| 105 | c06p05 | stat card | 6.6 MILLION: Barrels a day, Permian Basin, 2025 | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
-| 106 | c06p05 | stat card | 13.6 MILLION: U.S. crude oil a day, 2025: a national record | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
-| 107 | c06p06 | narration | In 2018, the USGS assessed just the Wolfcamp and Bone Spring layers of the Delaware Basin. | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
-| 108 | c06p06 | narration | It estimated forty-six point three billion barrels of oil that has not been discovered yet but could be recovered with today's technology. | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
-| 109 | c06p06 | narration | That is an estimate of what may be there, not oil that is proven and ready to pump. | USGS FS 2018-3073 (undiscovered resources, not reserves) | verified |
-| 110 | c06p06 | stat card | 46.3 BILLION: Barrels, undiscovered but recoverable: Delaware Basin shale (Wolfcamp + Bone Spring, USGS 2018 estimate) | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
-| 111 | c06p06 | stat card | LARGEST: Continuous oil and gas resource the USGS had ever assessed | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
-| 112 | c07p01 | narration | In the Midland Basin, the Bureau of Economic Geology at the University of Texas puts it at about two point six barrels of water for every barrel of oil. | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
-| 113 | c07p01 | narration | In the Delaware Basin, about five. | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
-| 114 | c07p01 | narration | Across the basin, estimates for 2025 run from about twenty-one to twenty-five million barrels of water a day. | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
-| 115 | c07p01 | stat card | 2.6 : 1: Barrels of water per barrel of oil, Midland Basin | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
-| 116 | c07p01 | stat card | 5 : 1: Barrels of water per barrel of oil, Delaware Basin | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
-| 117 | c07p01 | stat card | 21-25 MILLION: Barrels of produced water a day, 2025 estimates | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
-| 118 | c07p02 | narration | A member of the Railroad Commission of Texas, the state's oil and gas regulator, wrote in 2022 that seismologists had found the injection of water into the deeper formations likely responsible for the recent earthquakes in the Permian Basin. | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
-| 119 | c07p02 | stat card | DEEP INJECTION: Likely cause of recent Permian quakes (RRC commissioner, 2022) | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
-| 120 | c07p03 | narration | On the sixteenth of November, 2022, a quake struck in empty country about twenty-four miles from Mentone, the only community in Loving County. | USGS event tx2022wmmd (M5.4, Coalson Draw, 31.637 N 104.000 W); own distance to Mentone 38.5 km = 23.9 mi | verified |
-| 121 | c07p03 | narration | At the 2020 census, the whole county had sixty-four residents, the fewest of any county in the United States. | U.S. Census 2020 (Loving County 64; least populous county) | verified |
-| 122 | c07p03 | narration | The USGS measured it at magnitude five point four. | USGS event tx2022wmmd (M5.4, Coalson Draw, 31.637 N 104.000 W); own distance to Mentone 38.5 km = 23.9 mi | verified |
-| 123 | c07p03 | narration | Reports said it was felt as far away as El Paso, and called it the third-largest earthquake in Texas history. | News reports (News 4 San Antonio, KUT); said as 'reports said' | attributed |
-| 124 | c07p03 | narration | The Railroad Commission now acts when quakes of magnitude three point five or more strike, and it has already ordered deep disposal suspended in at least one area. | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
-| 125 | c07p03 | stat card | 64: Residents of Loving County, 2020: fewest of any U.S. county | U.S. Census 2020 (Loving County 64; least populous county) | verified |
-| 126 | c07p03 | stat card | M5.4: Earthquake west of Pecos, 16 November 2022 | USGS event tx2022wmmd (M5.4, Coalson Draw, 31.637 N 104.000 W); own distance to Mentone 38.5 km = 23.9 mi | verified |
-| 127 | c07p03 | stat card | M3.5+: Quakes that trigger action by the Railroad Commission | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
-| 128 | c07p04 | narration | A peer-reviewed study estimated that Permian flaring had grown about fourfold since 2012, and averaged about five point nine billion cubic metres of gas a year in the period it studied. | NOAA NESDIS VIIRS flares; peer-reviewed study PMC7176423; JPT/EIA (takeaway capacity) | verified |
-| 129 | c07p04 | stat card | 5.9 BILLION M³: Gas flared a year in the Permian, study period | NOAA NESDIS VIIRS flares; peer-reviewed study PMC7176423; JPT/EIA (takeaway capacity) | verified |
-| 130 | c07p05 | narration | And the third cost brings us back to the salt. | transition sentence (no claim) | verified |
-| 131 | c07p05 | narration | On the third of June, 1980, near the town of Wink, the ground collapsed into a hole about a hundred and ten feet deep. | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
-| 132 | c07p05 | narration | A 1989 study concluded that the collapse was likely influenced by oil activity: an old well, drilled in 1928, stood inside the rim of the hole, and may have let water run down to the salt. | Johnson 1989, Environ. Geol. Water Sci. 14 (USGS pubs 70015673); BEG RI 114 | verified |
-| 133 | c07p05 | stat card | 110 FT: Depth of Wink Sink, 3 June 1980 | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
-| 134 | c07p05 | stat card | 1928: An old oil well stood inside the sinkhole's rim | Johnson 1989, Environ. Geol. Water Sci. 14 (USGS pubs 70015673); BEG RI 114 | verified |
-| 135 | c07p06 | narration | In 2002, a second sinkhole opened nearby. | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
-| 136 | c07p06 | narration | Using radar satellites, researchers found that the ground around both holes was still sinking years later, and that one patch about a kilometre east of the second hole was sinking by more than sixty centimetres a year in 2015 and 2016. | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
-| 137 | c07p06 | narration | The salt that sealed the oil for two hundred and fifty million years is now dissolving under the oil field. | DOE WIPP (salt ~250 Ma); USGS (reef 277-275 Ma, so the sea existed ~260 Ma) | verified |
-| 138 | c07p06 | stat card | 2002: Wink Sink 2 opens nearby | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
-| 139 | c07p06 | stat card | 60+ CM/YR: Ground 1 km east of Wink Sink 2, 2015-16 | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
-| 140 | c08p01 | narration | And the grid of pale squares is people pulling that sea back out, about six point six million barrels of it every day. | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
-| 141 | c08p02 | narration | The USGS thinks tens of billions of barrels may still be down there. | USGS FS 2018-3073 (46.3 bn bbl undiscovered) | verified |
+| 84 | c05p06 | narration | In the 1980s, oil crashed to around ten dollars a barrel. | FDIC History of the Eighties, vol. 1 | verified |
+| 85 | c05p06 | narration | The FDIC, the agency that insures American bank deposits, counts four hundred and twenty-five Texas commercial banks that failed between 1980 and 1989, including nine of the state's ten largest bank holding companies. | FDIC History of the Eighties, vol. 1 | verified |
+| 86 | c05p06 | stat card | ~$10: A barrel of oil after the 1980s crash | FDIC History of the Eighties, vol. 1 | verified |
+| 87 | c05p06 | stat card | 425: Texas commercial banks failed, 1980-1989 | FDIC History of the Eighties, vol. 1 | verified |
+| 88 | c05p06 | stat card | 9 OF 10: Largest Texas bank holding companies among them | FDIC History of the Eighties, vol. 1 | verified |
+| 89 | c05p07 | narration | The easy oil had been found. | Dallas Fed SWE 2022 (decline after 1973; shale revival) | verified |
+| 90 | c06p01 | narration | One of the richest of those layers is called the Wolfcamp. | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
+| 91 | c06p01 | stat card | WOLFCAMP: One of the richest oil-bearing shale layers | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
+| 92 | c06p02 | narration | Two techniques changed that. | Dallas Fed (horizontal drilling + hydraulic fracturing) | verified |
+| 93 | c06p03 | narration | In May 2009, according to the Dallas Fed, just ninety-two drilling rigs were working in the basin. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 94 | c06p03 | narration | By June 2012, there were five hundred and twenty-five. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 95 | c06p03 | narration | By 2018, ninety percent of rigs in the basin were drilling horizontally. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 96 | c06p03 | narration | By 2022, ninety-five percent. | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 97 | c06p03 | stat card | 92: Drilling rigs working in the Permian Basin, May 2009 | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 98 | c06p03 | chart | Drilling rigs working in the Permian Basin: May 2009 92, June 2012 525 | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 99 | c06p03 | stat card | 90% → 95%: Permian rigs drilling horizontally, 2018 → 2022 | Dallas Fed Energy (Permian rig counts, horizontal share) | verified |
+| 100 | c06p05 | narration | In 2017, according to an analysis by IHS Markit, the Permian produced more oil in a year than it had in its old record year of 1973. | IHS Markit via BIC Magazine (said as 'according to an analysis by IHS Markit') | attributed |
+| 101 | c06p05 | narration | By 2025, the EIA put the basin at six point six million barrels a day. | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
+| 102 | c06p05 | narration | That is close to half of all U.S. crude oil, and the United States set a national record that year at thirteen point six million barrels a day. | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
+| 103 | c06p05 | stat card | 2017: Permian output passes its 1973 record | IHS Markit via BIC Magazine (said as 'according to an analysis by IHS Markit') | attributed |
+| 104 | c06p05 | stat card | 6.6 MILLION: Barrels a day, Permian Basin, 2025 | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
+| 105 | c06p05 | stat card | 13.6 MILLION: U.S. crude oil a day, 2025: a national record | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
+| 106 | c06p06 | narration | In 2018, the USGS assessed just the Wolfcamp and Bone Spring layers of the Delaware Basin. | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
+| 107 | c06p06 | narration | It estimated forty-six point three billion barrels of oil that has not been discovered yet but could be recovered with today's technology. | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
+| 108 | c06p06 | narration | That is an estimate of what may be there, not oil that is proven and ready to pump. | USGS FS 2018-3073 (undiscovered resources, not reserves) | verified |
+| 109 | c06p06 | stat card | 46.3 BILLION: Barrels, undiscovered but recoverable: Delaware Basin shale (Wolfcamp + Bone Spring, USGS 2018 estimate) | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
+| 110 | c06p06 | stat card | LARGEST: Continuous oil and gas resource the USGS had ever assessed | USGS FS 2018-3073; DOI press release Dec 2018 | verified |
+| 111 | c07p01 | narration | In the Midland Basin, the Bureau of Economic Geology at the University of Texas puts it at about two point six barrels of water for every barrel of oil. | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
+| 112 | c07p01 | narration | In the Delaware Basin, about five. | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
+| 113 | c07p01 | narration | Across the basin, estimates for 2025 run from about twenty-one to twenty-five million barrels of water a day. | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
+| 114 | c07p01 | stat card | 2.6 : 1: Barrels of water per barrel of oil, Midland Basin | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
+| 115 | c07p01 | stat card | 5 : 1: Barrels of water per barrel of oil, Delaware Basin | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
+| 116 | c07p01 | stat card | 21-25 MILLION: Barrels of produced water a day, 2025 estimates | BEG produced-water page; TTU Water Consortium 2026 report (estimates) | verified |
+| 117 | c07p02 | narration | A member of the Railroad Commission of Texas, the state's oil and gas regulator, wrote in 2022 that seismologists had found the injection of water into the deeper formations likely responsible for the recent earthquakes in the Permian Basin. | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
+| 118 | c07p02 | stat card | DEEP INJECTION: Likely cause of recent Permian quakes (RRC commissioner, 2022) | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
+| 119 | c07p03 | narration | On the sixteenth of November, 2022, a quake struck in empty country about twenty-four miles from Mentone, the only community in Loving County. | USGS event tx2022wmmd (M5.4, Coalson Draw, 31.637 N 104.000 W); own distance to Mentone 38.5 km = 23.9 mi | verified |
+| 120 | c07p03 | narration | At the 2020 census, the whole county had sixty-four residents, the fewest of any county in the United States. | U.S. Census 2020 (Loving County 64; least populous county) | verified |
+| 121 | c07p03 | narration | The USGS measured it at magnitude five point four. | USGS event tx2022wmmd (M5.4, Coalson Draw, 31.637 N 104.000 W); own distance to Mentone 38.5 km = 23.9 mi | verified |
+| 122 | c07p03 | narration | Reports said it was felt as far away as El Paso, and called it the third-largest earthquake in Texas history. | News reports (News 4 San Antonio, KUT); said as 'reports said' | attributed |
+| 123 | c07p03 | narration | The Railroad Commission now acts when quakes of magnitude three point five or more strike, and it has already ordered deep disposal suspended in at least one area. | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
+| 124 | c07p03 | stat card | 64: Residents of Loving County, 2020: fewest of any U.S. county | U.S. Census 2020 (Loving County 64; least populous county) | verified |
+| 125 | c07p03 | stat card | M5.4: Earthquake west of Pecos, 16 November 2022 | USGS event tx2022wmmd (M5.4, Coalson Draw, 31.637 N 104.000 W); own distance to Mentone 38.5 km = 23.9 mi | verified |
+| 126 | c07p03 | stat card | M3.5+: Quakes that trigger action by the Railroad Commission | RRC commissioner op-ed 31 Jan 2022; RRC seismicity page (M3.5, Gardendale SRA) | verified |
+| 127 | c07p04 | narration | A peer-reviewed study estimated that Permian flaring had grown about fourfold since 2012, and averaged about five point nine billion cubic metres of gas a year in the period it studied. | NOAA NESDIS VIIRS flares; peer-reviewed study PMC7176423; JPT/EIA (takeaway capacity) | verified |
+| 128 | c07p04 | stat card | 5.9 BILLION M³: Gas flared a year in the Permian, study period | NOAA NESDIS VIIRS flares; peer-reviewed study PMC7176423; JPT/EIA (takeaway capacity) | verified |
+| 129 | c07p05 | narration | And the third cost brings us back to the salt. | transition sentence (no claim) | verified |
+| 130 | c07p05 | narration | On the third of June, 1980, near the town of Wink, the ground collapsed into a hole about a hundred and ten feet deep. | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
+| 131 | c07p05 | narration | A 1989 study concluded that the collapse was likely influenced by oil activity: an old well, drilled in 1928, stood inside the rim of the hole, and may have let water run down to the salt. | Johnson 1989, Environ. Geol. Water Sci. 14 (USGS pubs 70015673); BEG RI 114 | verified |
+| 132 | c07p05 | stat card | 110 FT: Depth of Wink Sink, 3 June 1980 | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
+| 133 | c07p05 | stat card | 1928: An old oil well stood inside the sinkhole's rim | Johnson 1989, Environ. Geol. Water Sci. 14 (USGS pubs 70015673); BEG RI 114 | verified |
+| 134 | c07p06 | narration | In 2002, a second sinkhole opened nearby. | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
+| 135 | c07p06 | narration | Using radar satellites, researchers found that the ground around both holes was still sinking years later, and that one patch about a kilometre east of the second hole was sinking by more than sixty centimetres a year in 2015 and 2016. | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
+| 136 | c07p06 | narration | The salt that sealed the oil for two hundred and fifty million years is now dissolving under the oil field. | DOE WIPP (salt ~250 Ma); USGS (reef 277-275 Ma, so the sea existed ~260 Ma) | verified |
+| 137 | c07p06 | stat card | 2002: Wink Sink 2 opens nearby | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
+| 138 | c07p06 | stat card | 60+ CM/YR: Ground 1 km east of Wink Sink 2, 2015-16 | BEG RI 114 (Baumgardner 1982); Johnson 1989 (USGS pubs); BEG node 1413; Kim & Lu 2021 (InSAR) | verified |
+| 139 | c08p01 | narration | And the grid of pale squares is people pulling that sea back out, about six point six million barrels of it every day. | EIA Today in Energy 67404 (2025 annual: 6.6 M b/d, 48 %, U.S. 13.6 M b/d) | verified |
+| 140 | c08p02 | narration | The USGS thinks tens of billions of barrels may still be down there. | USGS FS 2018-3073 (46.3 bn bbl undiscovered) | verified |

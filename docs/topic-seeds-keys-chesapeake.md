@@ -24,3 +24,34 @@ result. Facts below are first-round search notes, not yet read from the primary 
 - Rival: TitanFold "America Built a Highway That Disappears Into the Atlantic" (238-288x its channel, radar 8-10 Nov).
   https://encyclopediavirginia.org/entries/chesapeake-bay-bridge-tunnel/ ; https://www.cbbt.com/ ;
   https://asce.org/publications-and-news/civil-engineering-source/article/2021/04/12/chesapeake-bay-bridge-tunnel-opens
+
+## Round 2 (2026-11-22, pages read)
+Failed (do not retry): flaglermuseum.us page (301 -> 404), nps.gov/nr/travel/geo-flor/48.htm (404), AOML blog (403),
+floridamemory.com (403), weather.gov mfl/key 1935 pages (404). Keys still needs a primary source for mileage and cost.
+
+### Keys (Wikipedia: Overseas Railroad, 1935 Labor Day hurricane, Overseas Highway; secondary)
+- Work began 1905; operated 1912-1935; three hurricanes (1906, 1909, 1910) during construction; "four thousand men" (no cite).
+- Cost "more than $20 million at the time" (cited to keyshistory.org: weak). Still no primary figure.
+- 1935: landfall late 2 Sep near Long Key, 892 mb, 185 mph 1-min winds (Landsea et al. 2014 reanalysis), surge ~18-20 ft;
+  deaths: counts differ by source and date (NWS 408; FERA Nov 1935 423 = 259 veterans + 164 civilians; FERA Mar 1936 485;
+  VA 488): say "more than 400". Rescue train overturned at Islamorada except locomotive 447. Over 40 mi of track washed
+  away (Hopkins, Tequesta 1986). Veterans were WWI veterans in highway work camps.
+- State bought the right-of-way south of Florida City for $640,000 (Wikipedia, uncited: CHECK). Overseas Highway opened
+  29 Mar 1938; tolls to 15 Apr 1954. NRHP: "Overseas Highway and Railway Bridges", ref 79000684, 13 Aug 1979 (corrects
+  "2004" above). Bridges replaced early 1980s. Highway length: 113 mi (lead) vs 106.5 mi (infobox): CHECK FDOT.
+- Read next: Hopkins "The Development of the Overseas Highway" (Tequesta 1986, FIU digital collections); Landsea 2014;
+  Standiford "Last Train to Paradise"; FDOT; NRHP nomination 79000684 (NPGallery).
+
+### Chesapeake (CBBT history, tunnel-project and tolls pages; Encyclopedia Virginia; ASCE 2021)
+- Construction began Sep (CBBT) or Oct (ASCE) 1960; opened 15 Apr 1964 "42 months after construction began" (fits Oct).
+- 17.6 mi shore to shore; 23 mi with 5.5 mi of approach roads; >12 mi low trestle, two one-mile tunnels, two bridges,
+  ~2 mi causeway; four man-made islands ~5.25 acres each (ASCE). Saves >95 mi of driving (EV).
+- $200 M revenue bonds sold to private investors, repaid by tolls; "No local, state or federal tax money" (CBBT).
+- 1965: ASCE "Outstanding Civil Engineering Achievement"; "Seven Engineering Wonders of the Modern World" (out of >100
+  projects). 2000: one of "Seven Structural Engineering Wonders of America for the 20th Century".
+- Parallel crossing: 1995 contract $197,185,777 (tunnels left out for cost); four lanes opened 19 Apr 1999.
+- Parallel Thimble Shoal Tunnel: 2016 contract $756,987,318 (Chesapeake Tunnel Joint Venture); funding 37 % toll bonds,
+  30 % TIFIA loan, 29 % CBBT general fund, 4 % VTIB loan; construction began 2017; TBM "Chessie" (Herrenknecht, EPB,
+  43.5 ft cutterhead, 308 ft, 3,075 tons); first bored transportation tunnel in the Mid-Atlantic. Status/completion: CHECK news.
+- Tolls (from 1 Jan 2024): car $16 off-peak / $21 peak. Gaps: worker deaths, 1962 Ash Wednesday storm, ship/barge strikes,
+  traffic counts -> read cbbt.com/faqs, news archive, Virginian-Pilot.

@@ -146,3 +146,16 @@ Cover idea: aerial photo of an island where the road drops into the tunnel; word
    (OWN); the bridge-tunnel's own gauge +2.42 in/decade since 1975; land sinks (pumped aquifers, post-glacial settling,
    the crater among the causes); 145-million-year-old seawater still trapped below. Closing question for comments:
    should the next tube be built for the sea of 2100?
+
+# Round 3 (2026-11-22, while drafting)
+- V: "The Chesapeake Bay is the largest estuary in the United States" (NOAA Ocean Service, oceanservice.noaa.gov/facts/chesapeake.html).
+- V: Sewells Point gauge 8638610 is on Naval Station Norfolk (NOAA benchmark sheets: Pier 2 / Pier 6).
+- V: NAVFAC: Naval Station Norfolk "has expanded to become the world's largest naval installation", ~105 ships homeported
+  (navfac.navy.mil Norfolk-NS environmental restoration page). Narration: "aircraft carriers, destroyers and dozens of
+  other ships" (counts differ 75-105).
+- A: Ash Wednesday storm (5-9 Mar 1962); WHRO 2024 quoting the Virginian-Pilot of April 1962: stripped fill and sand,
+  "upended one tunnel section", destroyed "Big D". Big D ~$1.5 M (several secondary). Seven deaths "at various times"
+  (Wikipedia; WHRO): attributed in narration ("Accounts of the project say").
+- V: Chessie named by a 6th grader (Grace Bentley) after a public vote (CBBT news, PTST page).
+- Narration decisions: bay length dropped (sources 180-200 mi); the deep channel = Susquehanna remnant per USGS FS 102-98
+  snippet (CHECK wording); "Richmond shoreline" from Poag FS 049-98.

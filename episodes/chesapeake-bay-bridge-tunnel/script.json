@@ -166,8 +166,7 @@
             "kind": "city",
             "label": "Baltimore"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -301,8 +300,8 @@
       {
        "type": "photo",
        "at": "and the largest naval",
-       "photo": "File:CVN 69 departs Naval Station Norfolk with the USS Dwight D. Eisenhower Carrier Strike Group (CSG). 160601-N-XG464-054.jpg",
-       "on_screen_text": "Leaving Naval Station Norfolk, 2016 (U.S. Navy)"
+       "photo": "File:9 Flattops at Norfolk naval base, December 20, 2012.jpg",
+       "on_screen_text": "Carriers at Naval Station Norfolk, 2012 (U.S. Navy)"
       },
       {
        "type": "photo",
@@ -399,8 +398,7 @@
             "kind": "city",
             "label": "Baltimore"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -425,8 +423,7 @@
             "kind": "city",
             "label": "Richmond"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 30,
@@ -482,14 +479,6 @@
            "file:crater_outer.geojson@red"
           ],
           "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           },
            {
             "name": "Norfolk",
             "lon": -76.29,
@@ -556,8 +545,7 @@
             "label": "Buried crater (approximate)",
             "icon": "warning"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -574,7 +562,7 @@
            "lat": 37.25,
            "span": 0.8
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -601,7 +589,7 @@
            "lat": 37.283,
            "span": 0.25
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -633,16 +621,6 @@
           "highlight": [
            "file:crater_outer.geojson@red",
            "file:crater_inner.geojson@accent"
-          ],
-          "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           }
           ]
          }
         ],
@@ -660,7 +638,7 @@
            "lat": 37.35,
            "span": 1.1
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -682,14 +660,6 @@
            "file:crater_outer.geojson@red"
           ],
           "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           },
            {
             "name": "Norfolk",
             "lon": -76.29,
@@ -730,7 +700,7 @@
            "lat": 37.45,
            "span": 1.4
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -752,14 +722,6 @@
            "file:crater_outer.geojson@red"
           ],
           "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           },
            {
             "name": "Baltimore",
             "lon": -76.61,
@@ -856,8 +818,7 @@
             "kind": "city",
             "label": "Baltimore"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 27,
@@ -865,8 +826,7 @@
            "lon": -76.98,
            "lat": 37.84,
            "span": 6.018
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true
@@ -924,8 +884,7 @@
             "kind": "city",
             "label": "Richmond"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": "The Susquehanna River ran",
@@ -1017,8 +976,7 @@
             "kind": "city",
             "label": "Washington, D.C."
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -1073,7 +1031,7 @@
            "lat": 37.4,
            "span": 0.9
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          },
          {
           "at": 25,
@@ -1082,7 +1040,7 @@
            "lat": 37.4,
            "span": 0.558
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -1181,8 +1139,7 @@
             "kind": "city",
             "label": "Baltimore"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 10,
@@ -1190,8 +1147,7 @@
            "lon": -76.8,
            "lat": 37.9,
            "span": 5.406
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true
@@ -1279,8 +1235,7 @@
             "kind": "city",
             "label": "Washington, D.C."
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -1439,8 +1394,7 @@
             "label": "Naval Station Norfolk",
             "icon": "warning"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -1542,9 +1496,30 @@
        "on_screen_text": "Maryland's Chesapeake Bay Bridge, opened 1952 (LoC)"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Here, though, someone else",
-       "photo": "File:CVN 69 departs Naval Station Norfolk with the USS Dwight D. Eisenhower Carrier Strike Group (CSG). 160601-N-XG464-054.jpg",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.31,
+           "lat": 36.96,
+           "span": 0.22
+          },
+          "date": "2025-10-01/2025-11-30"
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -76.31,
+           "lat": 36.96,
+           "span": 0.136
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
        "on_screen_text": "Naval Station Norfolk"
       }
      ]
@@ -1592,8 +1567,7 @@
             "kind": "site",
             "label": "Hampton Roads Bridge-Tunnel (1957)"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -1782,8 +1756,7 @@
             "label": "Thimble Shoal Channel",
             "icon": "water"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 70,
@@ -1791,8 +1764,7 @@
            "lon": -76.062,
            "lat": 37.6,
            "span": 2.745
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true
@@ -1854,8 +1826,7 @@
             "kind": "city",
             "label": "Norfolk"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 20,
@@ -1863,8 +1834,7 @@
            "lon": -76.5,
            "lat": 37.72,
            "span": 4.452
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true
@@ -1948,7 +1918,7 @@
        "type": "photo",
        "at": "So before anyone could",
        "photo": "File:Virginia Brunnel04.jpg",
-       "on_screen_text": "Building land in the sea"
+       "on_screen_text": "The fishing pier on island 1, 2004"
       },
       {
        "type": "map",
@@ -1980,17 +1950,8 @@
      "text": "First, the money. In nineteen sixty, the commission sold two hundred million dollars in bonds to private investors, to be paid back by the tolls drivers would pay. According to the crossing's own history, no local, state or federal tax money went into the construction. If the road failed to earn its tolls, the investors would lose, not the taxpayers.",
      "shots": [
       {
-       "type": "stat",
-       "at": 0,
-       "stat": {
-        "value": "$200 MILLION",
-        "label": "In revenue bonds sold to private investors, 1960",
-        "source": "Chesapeake Bay Bridge-Tunnel District"
-       }
-      },
-      {
        "type": "map",
-       "at": 10,
+       "at": 0,
        "map": {
         "steps": [
          {
@@ -2004,7 +1965,16 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The toll plaza, south end"
+       "on_screen_text": "The trestle leaving Virginia Beach"
+      },
+      {
+       "type": "stat",
+       "at": "In nineteen sixty, the",
+       "stat": {
+        "value": "$200 MILLION",
+        "label": "In revenue bonds sold to private investors, 1960",
+        "source": "Chesapeake Bay Bridge-Tunnel District"
+       }
       },
       {
        "type": "photo",
@@ -2090,7 +2060,7 @@
        "type": "photo",
        "at": "Then they covered the",
        "photo": "File:Virginia Brunnel02.jpg",
-       "on_screen_text": "Granite armour on an island"
+       "on_screen_text": "Granite armour and a plaque on an island"
       },
       {
        "type": "map",
@@ -2165,8 +2135,7 @@
             "kind": "city",
             "label": "Norfolk"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          }
         ],
         "cut": true
@@ -2207,8 +2176,7 @@
             "kind": "city",
             "label": "Norfolk"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 48,
@@ -2250,8 +2218,7 @@
             "kind": "city",
             "label": "Orange, Texas"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": "were caught again.",
@@ -2363,16 +2330,6 @@
           },
           "highlight": [
            "file:crater_outer.geojson@red"
-          ],
-          "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           }
           ]
          }
         ],
@@ -2567,16 +2524,28 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": 33,
-       "photo": "File:Chesapeake Bay Bridge–Tunnel connects Virginia Beach Hampton Roads to the Delmarva Peninsula - panoramio (14).jpg",
-       "on_screen_text": "The crossing"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -75.99,
+           "lat": 37.1,
+           "span": 0.14
+          },
+          "date": "2025-10-01/2025-11-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The north end of the crossing"
       },
       {
        "type": "photo",
        "at": "Accounts of the project",
        "photo": "File:Virginia Brunnel01.jpg",
-       "on_screen_text": "A plaque on the crossing"
+       "on_screen_text": "On the crossing, 2004"
       }
      ]
     },
@@ -2798,7 +2767,7 @@
        "type": "photo",
        "at": "It was not the",
        "photo": "File:Fisherman Island National Wildlife Refuge, VA. Credit- USFWS (11804792806).jpg",
-       "on_screen_text": "The north end of the crossing (USFWS)"
+       "on_screen_text": "Fisherman Island (USFWS)"
       }
      ]
     },
@@ -3003,7 +2972,7 @@
        "type": "photo",
        "at": "and you drive under",
        "photo": "File:Virginia Brunnel06.jpg",
-       "on_screen_text": "Traffic both ways in one tube"
+       "on_screen_text": "Island 1, 2004"
       },
       {
        "type": "map",
@@ -3454,8 +3423,7 @@
             "label": "Sewells Point tide gauge (1927)",
             "icon": "water"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 13,
@@ -3463,8 +3431,7 @@
            "lon": -80.66,
            "lat": 37.38,
            "span": 22.066
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true
@@ -3475,7 +3442,7 @@
        "at": "There are twenty-three.",
        "chart": {
         "type": "bar",
-        "title": "Sea level rise, U.S. Atlantic gauges with records from 1935 or earlier",
+        "title": "Sea level trend, long-record U.S. Atlantic gauges",
         "unit": "inches per decade",
         "data": [
          [
@@ -3521,15 +3488,6 @@
         ],
         "source": "Own ranking of NOAA tide gauge trends",
         "highlight": 0
-       }
-      },
-      {
-       "type": "stat",
-       "at": "Sewells Point has the",
-       "stat": {
-        "value": "FASTEST",
-        "label": "Of 23 U.S. Atlantic gauges with records from 1935 or earlier",
-        "source": "Own ranking of NOAA tide gauge trends"
        }
       },
       {
@@ -3710,8 +3668,7 @@
             "kind": "city",
             "label": "Norfolk"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 88,
@@ -3719,8 +3676,7 @@
            "lon": -77.1,
            "lat": 37.48,
            "span": 5.442
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true
@@ -3741,14 +3697,6 @@
            "file:crater_outer.geojson@red"
           ],
           "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           },
            {
             "name": "Norfolk",
             "lon": -76.29,
@@ -3773,7 +3721,7 @@
            "lat": 37.27,
            "span": 0.6
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -3811,7 +3759,7 @@
            "lat": 37.2,
            "span": 1.0
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -3844,7 +3792,7 @@
            "lat": 37.283,
            "span": 0.5
           },
-          "date": "2025-10-01/2025-11-30"
+          "date": "2025-10-16"
          }
         ],
         "cut": true
@@ -3893,16 +3841,6 @@
           },
           "highlight": [
            "file:crater_outer.geojson@red"
-          ],
-          "places": [
-           {
-            "name": "Crater centre",
-            "lon": -76.017,
-            "lat": 37.283,
-            "kind": "site",
-            "label": "Buried crater (approximate)",
-            "icon": "warning"
-           }
           ]
          }
         ],
@@ -3929,8 +3867,7 @@
             "label": "Susquehanna River",
             "icon": "water"
            }
-          ],
-          "date": "2025-10-31"
+          ]
          },
          {
           "at": 25,
@@ -3938,8 +3875,7 @@
            "lon": -76.62,
            "lat": 37.36,
            "span": 4.056
-          },
-          "date": "2025-10-31"
+          }
          }
         ],
         "cut": true

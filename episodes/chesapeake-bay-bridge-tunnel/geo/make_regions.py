@@ -22,12 +22,12 @@ def circle(radius_km: float, n: int = 120) -> list:
     return pts
 
 
-def write(name: str, radius_km: float) -> None:
-    gj = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": name},
+def write(name: str, radius_km: float, label: str) -> None:
+    gj = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": label},
           "geometry": {"type": "Polygon", "coordinates": [circle(radius_km)]}}]}
     (HERE / f"{name}.geojson").write_text(json.dumps(gj), encoding="utf-8")
 
 
-write("crater_outer", 42.5)   # ~85 km across
-write("crater_inner", 19.0)   # ~38 km inner basin
+write("crater_outer", 42.5, "Buried impact crater (approximate)")   # ~85 km across
+write("crater_inner", 19.0, "Inner basin")   # ~38 km inner basin
 print("ok")

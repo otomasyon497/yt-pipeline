@@ -1,7 +1,7 @@
 # Why Russia's Pacific Coast Is Almost Empty — narration draft (sourced: research.md)
 
 ## Hook (curious)
-P0: In January, on the seafront in Nice, people sit outside in the sun under palm trees. The average temperature that month is about nine and a half degrees Celsius. Now go east along the same line of latitude, a little to the south of it in fact, across Europe and Asia, all the way to the Pacific. You arrive in Vladivostok, Russia's biggest port on the Pacific Ocean. Its average January temperature is about minus twelve.
+P0: In January, on the seafront in Nice, people sit outside in the sun under palm trees. The average temperature that month is about nine and a half degrees Celsius. Now go east along the same line of latitude, a little to the south of it in fact, across Europe and Asia, all the way to the Pacific. You arrive in Vladivostok, the biggest city on Russia's Pacific coast. Its average January temperature is about minus twelve.
 
 P1: The bay on the west side of the city freezes so thick that people walk out on it with drills and folding stools, and fish through holes in the ice. Same latitude as the French Riviera. Twenty-one degrees colder. And north of Vladivostok begins the largest and emptiest part of Russia.
 
@@ -9,7 +9,7 @@ P2: The Far Eastern Federal District covers almost seven million square kilometr
 
 P3: So why is Russia's Pacific coast almost empty? Part of the answer is in the air above it, and part is in the ground. Part of it is in two treaties, a railway built twice, and a system of camps. And part of it happened very recently. Since the Soviet Union ended, some regions here have lost two out of every three people they had. To see why, we have to start with the wind.
 
-## 1. The Wind off the Coldest Land (calm)
+## 1. The Wind from Siberia (calm)
 P4: Look at where Vladivostok sits. Nice has the Mediterranean to the south and the Atlantic to the west, and in winter the wind that reaches it has mostly crossed water. Vladivostok has the Pacific in front of it, but the winter wind does not come from the Pacific. It comes from behind the city, out of the middle of Asia.
 
 P5: Every winter, the land of Siberia and Mongolia loses its heat. The days are short, the ground is covered in snow, and the snow reflects what little sunlight there is. The air over it gets very cold and very heavy, and it piles up into a huge dome of high pressure. Meteorologists call it the Siberian High. It is one of the strongest weather systems on the planet in winter, and it sits there for months.
@@ -23,7 +23,7 @@ P8: And then summer comes, and the same land swings the other way. On the twenti
 P9: Nice gets its winter from the sea. Vladivostok gets its winter from Yakutia. And the cold does not stop at the shore. A few hundred kilometres to the north, it does something to the sea itself.
 
 ## 2. A Sea That Freezes (curious)
-P10: North of Japan, between the Russian mainland, the long island of Sakhalin and the Kamchatka Peninsula, is the Sea of Okhotsk. It covers more than one and a half million square kilometres, almost three times the size of France. And every winter, much of it freezes.
+P10: North of Japan, between the Russian mainland, the long island of Sakhalin and the Kamchatka Peninsula, is the Sea of Okhotsk. It covers more than one and a half million square kilometres, almost three times the size of mainland France. And every winter, much of it freezes.
 
 P11: According to NASA's Earth Observatory, at the annual peak, ice can cover between fifty and ninety percent of the sea. On average it stays for about a hundred and eighty days, half the year. NASA calls it the lowest latitude in the world where sea ice forms every season. The sea reaches south to about forty-five degrees north, the latitude of Venice.
 
@@ -45,11 +45,11 @@ P18: So the climate keeps people away, the sea is frozen half the year, and the 
 ## 4. Taken Before It Was Settled (tension)
 P19: Russian explorers and fur traders crossed Siberia in the sixteen hundreds and reached the Pacific coast by the sixteen-forties. But the southern part of this coast, the part with the mildest climate and the best harbours, was not Russian at all. It belonged, at least on paper, to the Qing dynasty of China. The border ran far to the north, along mountains.
 
-P20: That changed in two steps, in two years. In eighteen fifty-eight, China's Qing government was fighting a rebellion at home and a war with Britain and France. The Russian governor of eastern Siberia, Nikolay Muravyov, used the moment. At the town of Aigun, on the twenty-eighth of May, eighteen fifty-eight, he and a Qing official signed a treaty. Russia received more than six hundred thousand square kilometres between the Stanovoy Mountains and the Amur River.
+P20: That changed in two steps, in two years. In eighteen fifty-eight, China's Qing government was fighting a rebellion at home and a war with Britain and France. The Russian governor of eastern Siberia, Nikolay Muravyov, used the moment. At the town of Aigun, on the twenty-eighth of May, eighteen fifty-eight, he and a Qing official signed a treaty. Russia received the land between the Stanovoy Mountains and the Amur River, by most estimates more than six hundred thousand square kilometres.
 
 P21: Two years later, British and French troops had taken Beijing. A Russian envoy, Nikolay Ignatyev, offered to help negotiate, and in November eighteen sixty, a second agreement, the Convention of Peking, gave Russia the coast east of the Ussuri River, down to the border of Korea. That is today's Primorsky Krai. China calls these the unequal treaties, and the land they gave away is sometimes called Outer Manchuria.
 
-P22: In July eighteen sixty, a few months before that second treaty was signed, a Russian military ship landed soldiers on a bay at the southern tip of this coast. They set up a post and named it Vladivostok. Roughly translated, the name means Ruler of the East. Russia now had a Pacific harbour much further south than any it had before. But it was still almost empty, and it was more than nine thousand kilometres from Moscow.
+P22: In July eighteen sixty, a few months before that second treaty was signed, a Russian military ship landed soldiers on a bay at the southern tip of this coast. They set up a post and named it Vladivostok. Roughly translated, the name means Ruler of the East. Russia now had a Pacific harbour much further south than any it had before. But it was still almost empty, and it was more than six thousand kilometres from Moscow, even in a straight line.
 
 P23: The answer was a railway. Work on the Trans-Siberian began in the eighteen-nineties, and it linked Moscow to Vladivostok. Look at the Far East at night today, from space, and you can still see where it runs. A thin chain of lights, tucked along the southern edge of the region close to the Chinese border. Khabarovsk, about six hundred and seventeen thousand people. Vladivostok, about six hundred thousand. A few cities along the line, and north of them, darkness. Most people in the Far East still live close to that one railway.
 
@@ -96,8 +96,8 @@ P41: The second thing is across a river. Upstream from Khabarovsk, the Amur and 
 P42: But those Chinese provinces are emptying too. At their census, all three held a smaller share of China's people than ten years before. Analyses of that census found that many people had moved away, to the richer south. On both sides of the Amur, the cold north of Asia is losing people to the places where life is easier.
 
 ## Ending (calm)
-P43: So why is Russia's Pacific coast almost empty? Start with the wind. Every winter, the coldest air in the Northern Hemisphere pours out of Siberia onto a coast that, on a map, looks like it should be as mild as southern Europe. That air freezes the Sea of Okhotsk further south than any sea on Earth, and it keeps the ground frozen underneath the towns.
+P43: So why is Russia's Pacific coast almost empty? Start with the wind. Every winter, some of the coldest air in the Northern Hemisphere pours out of Siberia onto a coast that, on a map, looks like it should be as mild as southern Europe. That air freezes the Sea of Okhotsk closer to the equator than sea ice forms anywhere else on Earth, and it keeps the ground frozen underneath the towns.
 
 P44: Then add history. Russia took the southern coast by treaty, before it had people to put on it. It filled the north first with prisoners, then with wages, and when the wages ended, the people went home. What is left is a thin line of cities along one railway, and behind it, an area bigger than India with fewer people than London.
 
-P45: Vladivostok and Nice still sit at the same latitude. One faces a warm sea with the wind at its back. The other faces the Pacific with the coldest land on Earth behind it. A free hectare of land cannot change which way the wind blows. The open question is whether anything Russia can offer will make people choose to live here, now that no one is ordering them to.
+P45: Vladivostok and Nice still sit at the same latitude. One faces a warm sea with the wind at its back. The other faces the Pacific with the frozen heart of Siberia behind it. A free hectare of land cannot change which way the wind blows. The open question is whether anything Russia can offer will make people choose to live here, now that no one is ordering them to.

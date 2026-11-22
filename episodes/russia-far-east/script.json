@@ -1,0 +1,5281 @@
+{
+ "title": "Why Russia's Pacific Coast Is Almost Empty",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/russia-far-east/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "NASA MODIS imagery (NASA EOSDIS GIBS)",
+  "Regions: Natural Earth (public domain); 1858 area approximate",
+  "Railway and highway lines drawn through their main towns (approximate)"
+ ],
+ "thumbnail": {
+  "text": "WHY SO EMPTY?"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In January, on the seafront in Nice, people sit outside in the sun under palm trees. The average temperature that month is about nine and a half degrees Celsius. Now go east along the same line of latitude, a little to the south of it in fact, across Europe and Asia, all the way to the Pacific. You arrive in Vladivostok, the biggest city on Russia's Pacific coast. Its average January temperature is about minus twelve.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Nice-plage-baie-des-Anges.jpg",
+       "on_screen_text": "Nice, on the French Riviera"
+      },
+      {
+       "type": "photo",
+       "at": "under palm trees.",
+       "photo": "File:Palmae in Nice (FR-06000).jpg",
+       "on_screen_text": "Palms in Nice"
+      },
+      {
+       "type": "stat",
+       "at": "The average temperature that",
+       "stat": {
+        "value": "+9.5 °C",
+        "label": "Average January temperature in Nice, 1991-2020",
+        "source": "1991-2020 normals: Pogoda i Klimat / NOAA; Meteo-France"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Now go east along",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 70.0,
+           "lat": 45.0,
+           "span": 150.0
+          },
+          "places": [
+           {
+            "name": "Nice",
+            "lon": 7.26,
+            "lat": 43.7,
+            "kind": "city",
+            "label": "Nice, 43.7° N"
+           }
+          ]
+         },
+         {
+          "at": 38,
+          "view": {
+           "lon": 70.0,
+           "lat": 45.0,
+           "span": 127.5
+          }
+         },
+         {
+          "at": "across Europe and Asia,",
+          "routes": [
+           {
+            "from": [
+             7.26,
+             43.5
+            ],
+            "to": [
+             131.89,
+             43.5
+            ],
+            "mode": "line",
+            "label": "Same latitude",
+            "color": "accent",
+            "seconds": 4.0
+           }
+          ]
+         },
+         {
+          "at": "You arrive in Vladivostok,",
+          "places": [
+           {
+            "name": "Nice",
+            "lon": 7.26,
+            "lat": 43.7,
+            "kind": "city",
+            "label": "Nice, 43.7° N"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok, 43.1° N"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the biggest city on",
+       "photo": "File:Golden Horn bay and Egersheld peninsula.jpg",
+       "on_screen_text": "Vladivostok, 2022"
+      },
+      {
+       "type": "stat",
+       "at": "Its average January temperature",
+       "stat": {
+        "value": "-11.9 °C",
+        "label": "Average January temperature in Vladivostok, 1991-2020",
+        "source": "1991-2020 normals: Pogoda i Klimat / NOAA; Meteo-France"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The bay on the west side of the city freezes so thick that people walk out on it with drills and folding stools, and fish through holes in the ice. Same latitude as the French Riviera. Twenty-one degrees colder. And north of Vladivostok begins the largest and emptiest part of Russia.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.9,
+           "lat": 43.11,
+           "span": 0.2
+          },
+          "date": "2024-01-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ice beside Vladivostok, January 2024"
+      },
+      {
+       "type": "photo",
+       "at": "that people walk out",
+       "photo": "File:Тумнин 03.jpg",
+       "on_screen_text": "Ice fishing in the Russian Far East (Tumnin River)"
+      },
+      {
+       "type": "map",
+       "at": "fish through holes in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.8,
+           "lat": 43.15,
+           "span": 0.5
+          },
+          "date": "2024-01-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Amur Bay, frozen, 19 January 2024"
+      },
+      {
+       "type": "stat",
+       "at": "Same latitude as the",
+       "stat": {
+        "value": "21 °C",
+        "label": "Colder in January than Nice, at the same latitude",
+        "source": "1991-2020 normals: Pogoda i Klimat / NOAA; Meteo-France"
+       }
+      },
+      {
+       "type": "map",
+       "at": "And north of Vladivostok",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 140.0,
+           "lat": 58.0,
+           "span": 72.0
+          },
+          "highlight": [
+           "file:fefd.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Far Eastern Federal District covers almost seven million square kilometres. That is about forty percent of Russia, an area bigger than India and Argentina put together. At the last census, fewer than eight million people lived in all of it. More people than that live in the city of London alone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 105.0,
+           "lat": 62.0,
+           "span": 140.0
+          },
+          "highlight": [
+           "file:fefd.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Far Eastern Federal District"
+      },
+      {
+       "type": "stat",
+       "at": "covers almost seven million",
+       "stat": {
+        "value": "6.95 MILLION KM²",
+        "label": "Area of the Far Eastern Federal District",
+        "source": "Rosstat, 2021 census",
+        "note": "About 40 % of Russia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "an area bigger than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 143.6,
+           "lat": 59.44,
+           "span": 64.8
+          },
+          "highlight": [
+           "file:fefd.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At the last census,",
+       "stat": {
+        "value": "7.98 MILLION",
+        "label": "People in the whole district, 2021 census",
+        "source": "Rosstat, 2021 census"
+       }
+      },
+      {
+       "type": "map",
+       "at": "More people than that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -0.13,
+           "lat": 51.51,
+           "span": 4.0
+          },
+          "places": [
+           {
+            "name": "London",
+            "lon": -0.13,
+            "lat": 51.51,
+            "kind": "capital",
+            "label": "London"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "London: about 8.8 million people (2021)"
+      }
+     ]
+    },
+    {
+     "text": "So why is Russia's Pacific coast almost empty? Part of the answer is in the air above it, and part is in the ground. Part of it is in two treaties, a railway built twice, and a system of camps. And part of it happened very recently. Since the Soviet Union ended, some regions here have lost two out of every three people they had. To see why, we have to start with the wind.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Vladivostok Golden Horn bay 2022-08.jpg",
+       "on_screen_text": "Vladivostok, Golden Horn Bay"
+      },
+      {
+       "type": "map",
+       "at": "Part of the answer",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 120.0,
+           "lat": 50.0,
+           "span": 60.0
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ],
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and part is in",
+       "photo": "File:Jakutsk Pfahlbau.jpg",
+       "on_screen_text": "Yakutsk: a building on piles"
+      },
+      {
+       "type": "photo",
+       "at": "Part of it is",
+       "photo": "File:MANCHURIA-U.S.S.R BOUNDARY Ct002999.jpg",
+       "on_screen_text": "The China-USSR border along the Amur, 1960 map"
+      },
+      {
+       "type": "photo",
+       "at": "a railway built twice,",
+       "photo": "File:Tynda rail.jpg",
+       "on_screen_text": "The BAM at Tynda"
+      },
+      {
+       "type": "photo",
+       "at": "and a system of",
+       "photo": "File:Butugichag-mill.JPG",
+       "on_screen_text": "Ruins of a Kolyma camp mill, Butugychag"
+      },
+      {
+       "type": "photo",
+       "at": "Since the Soviet Union",
+       "photo": "File:View of Pevek from the south.jpg",
+       "on_screen_text": "Pevek, Chukotka"
+      },
+      {
+       "type": "stat",
+       "at": "some regions here have",
+       "stat": {
+        "value": "-70 %",
+        "label": "Chukotka's population, 1989 to 2021",
+        "source": "Own calculation: 1989 USSR census, Rosstat 2021"
+       }
+      },
+      {
+       "type": "map",
+       "at": "To see why, we",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 123.0,
+           "lat": 51.2,
+           "span": 54.0
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wind from Siberia",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Look at where Vladivostok sits. Nice has the Mediterranean to the south and the Atlantic to the west, and in winter the wind that reaches it has mostly crossed water. Vladivostok has the Pacific in front of it, but the winter wind does not come from the Pacific. It comes from behind the city, out of the middle of Asia.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 77.5,
+           "lat": 48.0,
+           "span": 135.0
+          },
+          "places": [
+           {
+            "name": "Nice",
+            "lon": 7.26,
+            "lat": 43.7,
+            "kind": "city",
+            "label": "Nice, 43.7° N"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok, 43.1° N"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Nice has the Mediterranean",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 8.0,
+           "lat": 42.0,
+           "span": 30.0
+          },
+          "places": [
+           {
+            "name": "Nice",
+            "lon": 7.26,
+            "lat": 43.7,
+            "kind": "city",
+            "label": "Nice, 43.7° N"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in winter the wind",
+       "photo": "File:Plage à Nice (promenade des anglais) en mars 2022 (4).JPG",
+       "on_screen_text": "Nice in March"
+      },
+      {
+       "type": "map",
+       "at": "Vladivostok has the Pacific",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.0,
+           "lat": 44.0,
+           "span": 8.0
+          },
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ],
+          "date": "2025-01-25"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": 132.0,
+           "lat": 44.0,
+           "span": 6.8
+          },
+          "date": "2025-01-25"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It comes from behind",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 117.0,
+           "lat": 48.8,
+           "span": 66.0
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ],
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Every winter, the land of Siberia and Mongolia loses its heat. The days are short, the ground is covered in snow, and the snow reflects what little sunlight there is. The air over it gets very cold and very heavy, and it piles up into a huge dome of high pressure. Meteorologists call it the Siberian High. It is one of the strongest weather systems on the planet in winter, and it sits there for months.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Snow in eastern Russia (MODIS 2015-01-02).jpg",
+       "on_screen_text": "Siberia under snow (NASA MODIS, January 2015)"
+      },
+      {
+       "type": "photo",
+       "at": "the ground is covered",
+       "photo": "File:Frost indicator in Yakutia.jpg",
+       "on_screen_text": "Frost in Yakutia"
+      },
+      {
+       "type": "map",
+       "at": "The air over it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 121.8,
+           "lat": 47.6,
+           "span": 49.2
+          },
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           }
+          ]
+         },
+         {
+          "at": 40,
+          "view": {
+           "lon": 121.8,
+           "lat": 47.6,
+           "span": 41.82
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Meteorologists call it the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 95.0,
+           "lat": 55.0,
+           "span": 130.0
+          },
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It is one of",
+       "photo": "File:Talkessel von Werchojansk.JPG",
+       "on_screen_text": "Verkhoyansk valley in March"
+      },
+      {
+       "type": "photo",
+       "at": "and it sits there",
+       "photo": "File:Flughafen Werchojansk I.JPG",
+       "on_screen_text": "Verkhoyansk airport in March"
+      }
+     ]
+    },
+    {
+     "text": "Air flows out of a high toward lower pressure, and in winter the lower pressure is over the warmer Pacific. So for months on end, the wind blows from the frozen interior out to the coast. This is the winter half of the East Asian monsoon. The same pattern that brings summer rain to China and Japan brings bitter, dry continental air down onto Russia's Pacific shore in winter.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.2,
+           "lat": 52.4,
+           "span": 70.8
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ],
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 118.2,
+           "lat": 52.4,
+           "span": 60.18
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "So for months on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.4,
+           "lat": 44.16,
+           "span": 7.2
+          },
+          "arrows": [
+           {
+            "from": [
+             127.0,
+             47.5
+            ],
+            "to": [
+             132.5,
+             43.3
+            ],
+            "color": "blue",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": 132.4,
+           "lat": 44.16,
+           "span": 6.12
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "This is the winter",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 128.0,
+           "lat": 46.0,
+           "span": 26.0
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ]
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 128.0,
+           "lat": 46.0,
+           "span": 22.1
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "brings bitter, dry continental",
+       "photo": "File:Cloud Streets and Sea Ice in Sea of Okhotsk (MODIS 2024-01-02).jpg",
+       "on_screen_text": "Winter wind over the Sea of Okhotsk (NASA MODIS)"
+      }
+     ]
+    },
+    {
+     "text": "How cold is that air at its source? Inland, in the Republic of Sakha, also called Yakutia, there are two small towns that compete for the title of the coldest inhabited place in the Northern Hemisphere. In eighteen ninety-two, Verkhoyansk recorded about minus sixty-eight degrees. In nineteen thirty-three, the weather station at Oymyakon recorded minus sixty-seven point seven.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": 64.0,
+           "span": 32.0
+          },
+          "places": [
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 134.0,
+           "lat": 64.0,
+           "span": 27.2
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "there are two small",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.6,
+           "lat": 64.64,
+           "span": 28.8
+          },
+          "places": [
+           {
+            "name": "Verkhoyansk",
+            "lon": 133.39,
+            "lat": 67.55,
+            "kind": "site",
+            "label": "Verkhoyansk",
+            "icon": "warning"
+           },
+           {
+            "name": "Oymyakon",
+            "lon": 142.78,
+            "lat": 63.46,
+            "kind": "site",
+            "label": "Oymyakon",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": 135.6,
+           "lat": 64.64,
+           "span": 24.48
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In eighteen ninety-two, Verkhoyansk",
+       "stat": {
+        "value": "-67.8 °C",
+        "label": "Verkhoyansk, February 1892",
+        "source": "Station records (Stepanova; Burt)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In nineteen thirty-three, the",
+       "stat": {
+        "value": "-67.7 °C",
+        "label": "Oymyakon, 6 February 1933",
+        "source": "Station records (Stepanova; Burt)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And then summer comes, and the same land swings the other way. On the twentieth of June, twenty twenty, Verkhoyansk reached thirty-eight degrees. The World Meteorological Organization checked that reading and accepted it as the highest temperature ever recorded in the Arctic. One town, a range of more than a hundred degrees between its coldest and its hottest day.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 133.39,
+           "lat": 67.55,
+           "span": 0.2
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Verkhoyansk in summer"
+      },
+      {
+       "type": "stat",
+       "at": "On the twentieth of",
+       "stat": {
+        "value": "+38 °C",
+        "label": "Verkhoyansk, 20 June 2020: the Arctic's highest recorded temperature",
+        "source": "World Meteorological Organization"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The World Meteorological Organization",
+       "photo": "File:Werchojansk, Kältepoldenkmal.JPG",
+       "on_screen_text": "Verkhoyansk: monument to the Pole of Cold"
+      },
+      {
+       "type": "map",
+       "at": "accepted it as the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 133.42,
+           "lat": 67.54,
+           "span": 0.5
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Yana valley at Verkhoyansk"
+      },
+      {
+       "type": "stat",
+       "at": "One town, a range",
+       "stat": {
+        "value": "~106 °C",
+        "label": "Between Verkhoyansk's coldest and hottest readings",
+        "source": "Own calculation from the records above"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nice gets its winter from the sea. Vladivostok gets its winter from Yakutia. And the cold does not stop at the shore. A few hundred kilometres to the north, it does something to the sea itself.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Baie des Anges - Vue aérienne (2024).jpg",
+       "on_screen_text": "Nice: the Baie des Anges"
+      },
+      {
+       "type": "map",
+       "at": "Vladivostok gets its winter",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 124.2,
+           "lat": 50.0,
+           "span": 57.0
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ],
+          "places": [
+           {
+            "name": "Verkhoyansk",
+            "lon": 133.39,
+            "lat": 67.55,
+            "kind": "site",
+            "label": "Verkhoyansk",
+            "icon": "warning"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": 124.2,
+           "lat": 50.0,
+           "span": 48.45
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A few hundred kilometres",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.0,
+           "lat": 53.0,
+           "span": 30.0
+          },
+          "date": "2024-03-08"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Sea That Freezes",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "North of Japan, between the Russian mainland, the long island of Sakhalin and the Kamchatka Peninsula, is the Sea of Okhotsk. It covers more than one and a half million square kilometres, almost three times the size of mainland France. And every winter, much of it freezes.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.5,
+           "lat": 53.6,
+           "span": 27.0
+          },
+          "places": [
+           {
+            "name": "Sea of Okhotsk",
+            "lon": 149.0,
+            "lat": 54.5,
+            "kind": "sea",
+            "label": "SEA OF OKHOTSK"
+           },
+           {
+            "name": "Sakhalin",
+            "lon": 142.8,
+            "lat": 50.5,
+            "kind": "label",
+            "label": "Sakhalin"
+           },
+           {
+            "name": "Kamchatka",
+            "lon": 159.5,
+            "lat": 56.5,
+            "kind": "label",
+            "label": "Kamchatka"
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 148.5,
+           "lat": 53.6,
+           "span": 22.95
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It covers more than",
+       "stat": {
+        "value": "1.5 MILLION KM²",
+        "label": "Area of the Sea of Okhotsk",
+        "source": "NASA Earth Observatory",
+        "note": "Almost three times the size of mainland France"
+       }
+      },
+      {
+       "type": "map",
+       "at": "almost three times the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.5,
+           "lat": 53.3,
+           "span": 29.0
+          },
+          "compare": {
+           "before": "2024-09-15",
+           "after": "2024-03-08",
+           "source": "modis",
+           "seconds": 2.6,
+           "label_before": "SEPTEMBER",
+           "label_after": "MARCH"
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "According to NASA's Earth Observatory, at the annual peak, ice can cover between fifty and ninety percent of the sea. On average it stays for about a hundred and eighty days, half the year. NASA calls it the lowest latitude in the world where sea ice forms every season. The sea reaches south to about forty-five degrees north, the latitude of Venice.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sea Ice in the Sea of Okhotsk (MODIS 2020-02-02).jpg",
+       "on_screen_text": "The Sea of Okhotsk, 2 February 2020 (NASA MODIS)"
+      },
+      {
+       "type": "stat",
+       "at": "ice can cover between",
+       "stat": {
+        "value": "50-90 %",
+        "label": "Of the sea under ice at the yearly peak",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On average it stays",
+       "stat": {
+        "value": "180 DAYS",
+        "label": "Average time the ice stays",
+        "source": "NASA Earth Observatory"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "NASA calls it the",
+       "photo": "File:The Icy Heart of the North Pacific (MODIS 2021-03-09).jpg",
+       "on_screen_text": "The icy heart of the North Pacific, March 2021 (NASA MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "The sea reaches south",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 80.0,
+           "lat": 48.0,
+           "span": 150.0
+          },
+          "places": [
+           {
+            "name": "Venice",
+            "lon": 12.33,
+            "lat": 45.44,
+            "kind": "city",
+            "label": "Venice, 45.4° N"
+           },
+           {
+            "name": "Ice edge",
+            "lon": 143.5,
+            "lat": 45.0,
+            "kind": "site",
+            "label": "Sea ice, ~45° N",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Why does it freeze? NASA names three reasons. The winds from East Siberia, the same outflow we just followed. Frigid air temperatures. And a large amount of fresh water pouring in from rivers, most of it from the Amur. Fresh water floats on top of salt water and freezes more easily, so the great river spreads a lid across the sea that the cold can turn to ice.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sea ice swirls in the Sea of Okhotsk (MODIS 2019-03-21).jpg",
+       "on_screen_text": "Ice swirls in the Sea of Okhotsk, March 2019 (NASA MODIS)"
+      },
+      {
+       "type": "map",
+       "at": "The winds from East",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.5,
+           "lat": 52.4,
+           "span": 33.0
+          },
+          "arrows": [
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And a large amount",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.0,
+           "lat": 50.0,
+           "span": 24.0
+          },
+          "places": [
+           {
+            "name": "Amur mouth",
+            "lon": 140.7,
+            "lat": 53.1,
+            "kind": "site",
+            "label": "Mouth of the Amur",
+            "icon": "water"
+           }
+          ]
+         },
+         {
+          "at": 30,
+          "view": {
+           "lon": 131.0,
+           "lat": 50.0,
+           "span": 20.4
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Fresh water floats on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.0,
+           "lat": 53.5,
+           "span": 9.0
+          },
+          "arrows": [
+           {
+            "from": [
+             137.5,
+             51.5
+            ],
+            "to": [
+             142.5,
+             53.8
+            ],
+            "color": "blue",
+            "label": "Fresh water from the Amur",
+            "bend": 0.2
+           }
+          ],
+          "places": [
+           {
+            "name": "Amur mouth",
+            "lon": 140.7,
+            "lat": 53.1,
+            "kind": "site",
+            "label": "Mouth of the Amur",
+            "icon": "water"
+           }
+          ],
+          "date": "2024-03-08"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "so the great river",
+       "photo": "File:Sea Ice in the Gulf of Sakhalin and the Tartar Strait (MODIS 2020-02-19).jpg",
+       "on_screen_text": "Ice in the Gulf of Sakhalin, February 2020 (NASA MODIS)"
+      }
+     ]
+    },
+    {
+     "text": "The ice then drifts south. Between mid-January and early February, it usually reaches the waters off Abashiri, a port on the northeast coast of Hokkaido in Japan.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.9,
+           "lat": 51.8,
+           "span": 24.6
+          },
+          "arrows": [
+           {
+            "from": [
+             146.0,
+             51.0
+            ],
+            "to": [
+             144.5,
+             44.6
+            ],
+            "color": "blue",
+            "label": "Drift ice",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Abashiri",
+            "lon": 144.27,
+            "lat": 44.02,
+            "kind": "port",
+            "label": "Abashiri, Japan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Between mid-January and early",
+       "photo": "File:Swirls of Sea Ice approaching Hokkaido, Japan (MODIS 2021-03-24).jpg",
+       "on_screen_text": "Sea ice approaching Hokkaido, March 2021 (NASA MODIS)"
+      },
+      {
+       "type": "photo",
+       "at": "a port on the",
+       "photo": "File:Abashiri Drift ice01.JPG",
+       "on_screen_text": "Drift ice at Abashiri, Hokkaido"
+      }
+     ]
+    },
+    {
+     "text": "Now think about what this means for a coast. A frozen sea is no use for shipping for months, and the cold water keeps the spring and summer cool, foggy and short. Along the northern shores of the Sea of Okhotsk, the coastline runs for thousands of kilometres with only a handful of towns. The biggest is Magadan. We will come back to Magadan, because what happened there tells the whole story of this region. But first, look at what is under the snow.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Hokkaido-Abashiri Drift Icebreaker Ship Aurora-xl.jpg",
+       "on_screen_text": "An icebreaker sightseeing boat off Abashiri"
+      },
+      {
+       "type": "photo",
+       "at": "A frozen sea is",
+       "photo": "File:Sea Ice off Russia (MODIS 2022-04-07).jpg",
+       "on_screen_text": "Ice off the Russian coast, April 2022 (NASA MODIS)"
+      },
+      {
+       "type": "photo",
+       "at": "and the cold water",
+       "photo": "File:Ice floes of Hokkaido PIA12056.jpg",
+       "on_screen_text": "Ice floes off Hokkaido (NASA)"
+      },
+      {
+       "type": "map",
+       "at": "Along the northern shores",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.0,
+           "lat": 59.0,
+           "span": 18.0
+          },
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           }
+          ]
+         },
+         {
+          "at": 43,
+          "view": {
+           "lon": 147.0,
+           "lat": 59.0,
+           "span": 15.3
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The biggest is Magadan.",
+       "photo": "File:Вид Магадана.jpg",
+       "on_screen_text": "Magadan"
+      },
+      {
+       "type": "map",
+       "at": "We will come back",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 150.8,
+           "lat": 59.56,
+           "span": 0.25
+          },
+          "date": "2025-06-15/2025-08-31"
+         },
+         {
+          "at": 66,
+          "view": {
+           "lon": 150.8,
+           "lat": 59.56,
+           "span": 0.155
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Magadan on the Sea of Okhotsk"
+      },
+      {
+       "type": "photo",
+       "at": "But first, look at",
+       "photo": "File:Lena River (near Yakutsk, Siberia, Russia) 1 (21473479995).jpg",
+       "on_screen_text": "The Lena near Yakutsk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ground That Never Thaws",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Over much of the Far East, the ground below the surface stays frozen all year round. This is permafrost: soil, rock and ice that have stayed below zero for at least two years in a row, and in much of Siberia for many thousands of years. In summer only the top layer thaws. Below it, the ground stays as hard as concrete.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.4,
+           "lat": 63.36,
+           "span": 35.2
+          },
+          "highlight": [
+           "Sakha Republic@accent"
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 132.4,
+           "lat": 63.36,
+           "span": 29.92
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "This is permafrost: soil,",
+       "photo": "File:Frost indicator in Yakutia.jpg",
+       "on_screen_text": "Frozen ground, Yakutia"
+      },
+      {
+       "type": "map",
+       "at": "that have stayed below",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 143.23,
+           "lat": 64.57,
+           "span": 0.2
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ust-Nera, on the Indigirka"
+      },
+      {
+       "type": "map",
+       "at": "and in much of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.85,
+           "lat": 62.1,
+           "span": 1.0
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lena valley at Yakutsk"
+      },
+      {
+       "type": "photo",
+       "at": "In summer only the",
+       "photo": "File:Lena River (near Yakutsk, Siberia, Russia) 4 (21447252376).jpg",
+       "on_screen_text": "Summer on the Lena"
+      }
+     ]
+    },
+    {
+     "text": "That sounds solid, until you heat it. A house warms the ground beneath it. The ice in the soil melts, the ground sinks unevenly, and walls crack. A road, a pipe or a rail line does the same. So in the far north, buildings are often raised on piles driven deep into the frozen ground, with a gap underneath so the cold air can keep the soil frozen.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.72,
+           "lat": 62.035,
+           "span": 0.08
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yakutsk: a city on frozen ground"
+      },
+      {
+       "type": "photo",
+       "at": "The ice in the",
+       "photo": "File:Raised pipes in permafrost.jpg",
+       "on_screen_text": "Pipes raised above the permafrost"
+      },
+      {
+       "type": "photo",
+       "at": "A road, a pipe",
+       "photo": "File:R504 kolyma.jpg",
+       "on_screen_text": "A road across Yakutia"
+      },
+      {
+       "type": "photo",
+       "at": "So in the far",
+       "photo": "File:Jakutsk Pfahlbau.jpg",
+       "on_screen_text": "Yakutsk: a building on piles"
+      },
+      {
+       "type": "photo",
+       "at": "with a gap underneath",
+       "photo": "File:Улица Пояркова Якутск-(SmallSonMarex).jpg",
+       "on_screen_text": "A street in Yakutsk"
+      }
+     ]
+    },
+    {
+     "text": "The capital of Yakutia, Yakutsk, had about three hundred and fifty-five thousand people at the last census. It is described as the largest city built on continuous permafrost. The river Lena flows past it, and there is still no bridge across the river there. Cars cross on the ice in winter and by ferry in summer.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.73,
+           "lat": 62.03,
+           "span": 0.25
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yakutsk"
+      },
+      {
+       "type": "stat",
+       "at": "had about three hundred",
+       "stat": {
+        "value": "355,443",
+        "label": "People in Yakutsk, 2021 census",
+        "source": "Rosstat, 2021 census"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is described as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.7,
+           "lat": 62.06,
+           "span": 0.12
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yakutsk"
+      },
+      {
+       "type": "map",
+       "at": "The river Lena flows",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.95,
+           "lat": 62.0,
+           "span": 0.45
+          },
+          "date": "2024-06-15/2024-08-31"
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": 129.95,
+           "lat": 62.0,
+           "span": 0.279
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lena at Yakutsk: no bridge"
+      },
+      {
+       "type": "photo",
+       "at": "Cars cross on the",
+       "photo": "File:Lena River (near Yakutsk, Siberia, Russia) 1 (21473479995).jpg",
+       "on_screen_text": "The Lena near Yakutsk"
+      }
+     ]
+    },
+    {
+     "text": "So the climate keeps people away, the sea is frozen half the year, and the ground fights everything you build. And yet Russia came here, and stayed, and built a great port at Vladivostok. Which raises a different question. If the land was this hard, why did Russia want it so much?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.4,
+           "lat": 56.56,
+           "span": 79.2
+          },
+          "places": [
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           },
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the sea is frozen",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.1,
+           "lat": 54.2,
+           "span": 35.4
+          },
+          "date": "2024-03-08",
+          "places": [
+           {
+            "name": "Sea of Okhotsk",
+            "lon": 149.0,
+            "lat": 54.5,
+            "kind": "sea",
+            "label": "SEA OF OKHOTSK"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And yet Russia came",
+       "photo": "File:Overview of Zolotoy Rog.JPEG",
+       "on_screen_text": "Vladivostok, 1992"
+      },
+      {
+       "type": "photo",
+       "at": "Which raises a different",
+       "photo": "File:Russky bridge in the morning (21466395884).jpg",
+       "on_screen_text": "Vladivostok today"
+      },
+      {
+       "type": "photo",
+       "at": "If the land was",
+       "photo": "File:Vladivostok skyline 2022-08.jpg",
+       "on_screen_text": "Vladivostok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Taken Before It Was Settled",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Russian explorers and fur traders crossed Siberia in the sixteen hundreds and reached the Pacific coast by the sixteen-forties. But the southern part of this coast, the part with the mildest climate and the best harbours, was not Russian at all. It belonged, at least on paper, to the Qing dynasty of China. The border ran far to the north, along mountains.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 112.0,
+           "lat": 64.8,
+           "span": 126.0
+          },
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           },
+           {
+            "name": "Okhotsk",
+            "lon": 143.3,
+            "lat": 59.36,
+            "kind": "port",
+            "label": "Okhotsk (1647)"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 112.0,
+           "lat": 64.8,
+           "span": 107.1
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But the southern part",
+       "photo": "File:John-Tallis-1851-Tibet-Mongolia-and-Manchuria-33621.jpg",
+       "on_screen_text": "Manchuria on an 1851 map"
+      },
+      {
+       "type": "map",
+       "at": "the part with the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.9,
+           "lat": 43.11,
+           "span": 0.15
+          },
+          "date": "2024-06-15/2024-08-31"
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": 131.9,
+           "lat": 43.11,
+           "span": 0.093
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Vladivostok's sheltered harbour"
+      },
+      {
+       "type": "map",
+       "at": "It belonged, at least",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.2,
+           "lat": 50.48,
+           "span": 21.6
+          },
+          "highlight": [
+           "file:aigun.geojson@red",
+           "file:primorye.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The border ran far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.8,
+           "lat": 49.52,
+           "span": 26.4
+          },
+          "places": [
+           {
+            "name": "Stanovoy Range",
+            "lon": 128.0,
+            "lat": 56.0,
+            "kind": "site",
+            "label": "Stanovoy Range",
+            "icon": "mountain"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "That changed in two steps, in two years. In eighteen fifty-eight, China's Qing government was fighting a rebellion at home and a war with Britain and France. The Russian governor of eastern Siberia, Nikolay Muravyov, used the moment. At the town of Aigun, on the twenty-eighth of May, eighteen fifty-eight, he and a Qing official signed a treaty. Russia received the land between the Stanovoy Mountains and the Amur River, by most estimates more than six hundred thousand square kilometres.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 127.48,
+           "lat": 49.98,
+           "span": 0.2
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Aigun (Aihui) on the Amur, today in China"
+      },
+      {
+       "type": "map",
+       "at": "In eighteen fifty-eight, China's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.3,
+           "lat": 46.52,
+           "span": 23.4
+          },
+          "places": [
+           {
+            "name": "Beijing",
+            "lon": 116.4,
+            "lat": 39.9,
+            "kind": "capital",
+            "label": "Beijing"
+           }
+          ]
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": 129.3,
+           "lat": 46.52,
+           "span": 19.89
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Russian governor of",
+       "photo": "File:Nikolay-Muravyov-Amursky.png",
+       "on_screen_text": "Nikolay Muravyov(-Amursky)"
+      },
+      {
+       "type": "map",
+       "at": "At the town of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.72,
+           "lat": 49.04,
+           "span": 19.68
+          },
+          "places": [
+           {
+            "name": "Aigun",
+            "lon": 127.46,
+            "lat": 49.97,
+            "kind": "site",
+            "label": "Aigun (Aihui)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "on the twenty-eighth of",
+       "stat": {
+        "value": "28 MAY 1858",
+        "label": "Treaty of Aigun",
+        "source": "Treaty texts as summarised by historians"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Russia received the land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 130.28,
+           "lat": 50.96,
+           "span": 28.32
+          },
+          "highlight": [
+           "file:aigun.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Aigun",
+            "lon": 127.46,
+            "lat": 49.97,
+            "kind": "site",
+            "label": "Aigun (Aihui)"
+           }
+          ]
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": 130.28,
+           "lat": 50.96,
+           "span": 24.072
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Two years later, British and French troops had taken Beijing. A Russian envoy, Nikolay Ignatyev, offered to help negotiate, and in November eighteen sixty, a second agreement, the Convention of Peking, gave Russia the coast east of the Ussuri River, down to the border of Korea. That is today's Primorsky Krai. China calls these the unequal treaties, and the land they gave away is sometimes called Outer Manchuria.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 126.7,
+           "lat": 45.48,
+           "span": 28.6
+          },
+          "places": [
+           {
+            "name": "Beijing",
+            "lon": 116.4,
+            "lat": 39.9,
+            "kind": "capital",
+            "label": "Beijing"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A Russian envoy, Nikolay",
+       "photo": "File:Ignatiev NP by Timm.jpg",
+       "on_screen_text": "Nikolay Ignatyev"
+      },
+      {
+       "type": "stat",
+       "at": "and in November eighteen",
+       "stat": {
+        "value": "14 NOV 1860",
+        "label": "Convention of Peking: the coast east of the Ussuri",
+        "source": "Treaty texts as summarised by historians"
+       }
+      },
+      {
+       "type": "map",
+       "at": "gave Russia the coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.68,
+           "lat": 50.0,
+           "span": 22.8
+          },
+          "highlight": [
+           "file:aigun.geojson@red",
+           "file:primorye.geojson@red"
+          ]
+         },
+         {
+          "at": 38,
+          "view": {
+           "lon": 132.68,
+           "lat": 50.0,
+           "span": 19.38
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is today's Primorsky",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.6,
+           "lat": 43.84,
+           "span": 8.8
+          },
+          "highlight": [
+           "file:primorye.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "China calls these the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 128.78,
+           "lat": 44.96,
+           "span": 21.32
+          },
+          "highlight": [
+           "file:aigun.geojson@red",
+           "file:primorye.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Beijing",
+            "lon": 116.4,
+            "lat": 39.9,
+            "kind": "capital",
+            "label": "Beijing"
+           }
+          ]
+         },
+         {
+          "at": 59,
+          "view": {
+           "lon": 128.78,
+           "lat": 44.96,
+           "span": 18.122
+          }
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Outer Manchuria"
+      }
+     ]
+    },
+    {
+     "text": "In July eighteen sixty, a few months before that second treaty was signed, a Russian military ship landed soldiers on a bay at the southern tip of this coast. They set up a post and named it Vladivostok. Roughly translated, the name means Ruler of the East. Russia now had a Pacific harbour much further south than any it had before. But it was still almost empty, and it was more than six thousand kilometres from Moscow, even in a straight line.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Golden Horn bay and Egersheld peninsula.jpg",
+       "on_screen_text": "Vladivostok, Golden Horn Bay"
+      },
+      {
+       "type": "map",
+       "at": "a Russian military ship",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.9,
+           "lat": 43.115,
+           "span": 0.08
+          },
+          "date": "2024-06-15/2024-08-31"
+         },
+         {
+          "at": 21,
+          "view": {
+           "lon": 131.9,
+           "lat": 43.115,
+           "span": 0.08
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Golden Horn Bay"
+      },
+      {
+       "type": "stat",
+       "at": "They set up a",
+       "stat": {
+        "value": "2 JULY 1860",
+        "label": "Vladivostok founded as a military post",
+        "source": "Vladivostok city history"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Roughly translated, the name",
+       "photo": "File:Zolotoy Bridge from downtown Vladivostok Russia (14782664096).jpg",
+       "on_screen_text": "Vladivostok: 'Ruler of the East'"
+      },
+      {
+       "type": "map",
+       "at": "Russia now had a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.16,
+           "lat": 55.12,
+           "span": 59.04
+          },
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           },
+           {
+            "name": "Okhotsk",
+            "lon": 143.3,
+            "lat": 59.36,
+            "kind": "port",
+            "label": "Okhotsk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "But it was still",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 88.0,
+           "lat": 52.0,
+           "span": 110.0
+          },
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         },
+         {
+          "at": 71,
+          "view": {
+           "lon": 88.0,
+           "lat": 52.0,
+           "span": 93.5
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The answer was a railway. Work on the Trans-Siberian began in the eighteen-nineties, and it linked Moscow to Vladivostok. Look at the Far East at night today, from space, and you can still see where it runs. A thin chain of lights, tucked along the southern edge of the region close to the Chinese border. Khabarovsk, about six hundred and seventeen thousand people. Vladivostok, about six hundred thousand. A few cities along the line, and north of them, darkness. Most people in the Far East still live close to that one railway.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 93.5,
+           "lat": 54.2,
+           "span": 99.0
+          },
+          "routes": [
+           {
+            "from": [
+             37.62,
+             55.75
+            ],
+            "via": [
+             [
+              60.6,
+              56.84
+             ],
+             [
+              73.37,
+              54.99
+             ],
+             [
+              82.92,
+              55.03
+             ],
+             [
+              92.87,
+              56.01
+             ],
+             [
+              104.28,
+              52.29
+             ],
+             [
+              107.58,
+              51.83
+             ],
+             [
+              113.5,
+              52.03
+             ],
+             [
+              123.93,
+              54.0
+             ],
+             [
+              128.47,
+              50.92
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             131.89,
+             43.12
+            ],
+            "mode": "line",
+            "label": "Trans-Siberian Railway",
+            "color": "accent",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Work on the Trans-Siberian",
+       "photo": "File:East end, Amur Bridge 1 7-8 miles LCCN2014709643.jpg",
+       "on_screen_text": "The Amur bridge at Khabarovsk, 1916"
+      },
+      {
+       "type": "map",
+       "at": "and it linked Moscow",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.07,
+           "lat": 48.48,
+           "span": 0.3
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Khabarovsk on the Amur"
+      },
+      {
+       "type": "map",
+       "at": "Look at the Far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.84,
+           "lat": 60.88,
+           "span": 84.96
+          },
+          "layer": "night"
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": 137.84,
+           "lat": 60.88,
+           "span": 72.216
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A thin chain of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.32,
+           "lat": 50.0,
+           "span": 20.64
+          },
+          "layer": "night",
+          "routes": [
+           {
+            "from": [
+             113.5,
+             52.03
+            ],
+            "via": [
+             [
+              123.93,
+              54.0
+             ],
+             [
+              128.47,
+              50.92
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             131.89,
+             43.12
+            ],
+            "mode": "line",
+            "label": "Trans-Siberian",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 129.32,
+           "lat": 50.0,
+           "span": 17.544
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Khabarovsk, about six hundred",
+       "stat": {
+        "value": "603,519",
+        "label": "People in Vladivostok, 2021 census",
+        "source": "Rosstat, 2021 census",
+        "note": "Khabarovsk: 617,441"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A few cities along",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": 52.0,
+           "span": 30.0
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           },
+           {
+            "name": "Blagoveshchensk",
+            "lon": 127.53,
+            "lat": 50.27,
+            "kind": "city",
+            "label": "Blagoveshchensk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Most people in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.04,
+           "lat": 58.0,
+           "span": 68.4
+          },
+          "layer": "night",
+          "routes": [
+           {
+            "from": [
+             113.5,
+             52.03
+            ],
+            "via": [
+             [
+              123.93,
+              54.0
+             ],
+             [
+              128.47,
+              50.92
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             131.89,
+             43.12
+            ],
+            "mode": "line",
+            "label": "Trans-Siberian",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The gold, the timber, the coal and the fish were far to the north, in the dark part of the map. Few people would move there for an ordinary wage. So in the twentieth century, the Soviet Union tried two other ways of filling it. The first was force.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.96,
+           "lat": 58.0,
+           "span": 61.92
+          },
+          "places": [
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           },
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in the dark part",
+       "photo": "File:R504 Kolyma in autumn.jpg",
+       "on_screen_text": "The Kolyma region in autumn"
+      },
+      {
+       "type": "photo",
+       "at": "So in the twentieth",
+       "photo": "File:2019-07-16-khv-Amur-bridge.jpg",
+       "on_screen_text": "The Amur at Khabarovsk, 2019"
+      },
+      {
+       "type": "map",
+       "at": "The first was force.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.0,
+           "lat": 62.0,
+           "span": 22.0
+          },
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Filled by Force",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "In November nineteen thirty-one, the Soviet government created a trust called Dalstroy, the Far North Construction Trust. Its job was to dig gold out of the valley of the Kolyma River, in the far northeast. There were no roads and almost no people. Dalstroy turned the small settlement of Magadan, on the Sea of Okhotsk, into its port, and from there it pushed a road inland across the mountains and the permafrost.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "13 NOV 1931",
+        "label": "Dalstroy, the Far North Construction Trust, is created",
+        "source": "Archival count cited by historians of Dalstroy"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its job was to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.1,
+           "lat": 62.44,
+           "span": 19.8
+          },
+          "places": [
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           }
+          ]
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": 147.1,
+           "lat": 62.44,
+           "span": 16.83
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "There were no roads",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.5,
+           "lat": 62.0,
+           "span": 1.5
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The upper Kolyma basin"
+      },
+      {
+       "type": "map",
+       "at": "Dalstroy turned the small",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 150.75,
+           "lat": 59.53,
+           "span": 0.12
+          },
+          "date": "2025-06-15/2025-08-31"
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": 150.75,
+           "lat": 59.53,
+           "span": 0.08
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Nagaev Bay, Magadan's harbour"
+      },
+      {
+       "type": "map",
+       "at": "and from there it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 144.9,
+           "lat": 61.56,
+           "span": 24.2
+          },
+          "routes": [
+           {
+            "from": [
+             150.8,
+             59.56
+            ],
+            "via": [
+             [
+              150.9,
+              60.1
+             ],
+             [
+              151.4,
+              61.3
+             ],
+             [
+              148.16,
+              62.78
+             ],
+             [
+              145.0,
+              63.9
+             ],
+             [
+              143.23,
+              64.57
+             ],
+             [
+              135.6,
+              62.65
+             ]
+            ],
+            "to": [
+             129.73,
+             62.03
+            ],
+            "mode": "line",
+            "label": "Kolyma Highway",
+            "color": "red",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "That road became the Kolyma Highway, about two thousand kilometres long, built between nineteen thirty-two and the early nineteen-fifties. Most of the people who built it, and who worked the gold mines it led to, were prisoners of the Gulag, the Soviet system of labour camps. By one archival count, in nineteen fifty-two the camps under Dalstroy held close to two hundred thousand prisoners.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Kolyma Highway (Road of Bones).jpg",
+       "on_screen_text": "The Kolyma Highway, 2001"
+      },
+      {
+       "type": "stat",
+       "at": "about two thousand kilometres",
+       "stat": {
+        "value": "~2,000 KM",
+        "label": "Kolyma Highway, built 1932 to the early 1950s",
+        "source": "Archival count cited by historians of Dalstroy"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most of the people",
+       "photo": "File:R504 kolyma.jpg",
+       "on_screen_text": "On the Kolyma Highway"
+      },
+      {
+       "type": "map",
+       "at": "and who worked the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 146.66,
+           "lat": 61.12,
+           "span": 18.04
+          },
+          "places": [
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           },
+           {
+            "name": "Susuman",
+            "lon": 148.16,
+            "lat": 62.78,
+            "kind": "site",
+            "label": "Susuman",
+            "icon": "mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the Soviet system of",
+       "photo": "File:Butugichag-admin.JPG",
+       "on_screen_text": "Butugychag camp ruins"
+      },
+      {
+       "type": "photo",
+       "at": "By one archival count,",
+       "photo": "File:Gulag Lazo (2914364802).jpg",
+       "on_screen_text": "Remains of a Gulag camp in Kolyma"
+      },
+      {
+       "type": "stat",
+       "at": "in nineteen fifty-two the",
+       "stat": {
+        "value": "~200,000",
+        "label": "Prisoners in camps under Dalstroy, 1952",
+        "source": "Archival count cited by historians of Dalstroy"
+       }
+      }
+     ]
+    },
+    {
+     "text": "How many died in Kolyma is still argued over. Estimates by historians range from around a hundred and thirty thousand to more than a million. We do not know the true number, and we are not going to pretend we do. What is not in dispute is the name people gave the highway. They called it the Road of Bones.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.34,
+           "lat": 62.88,
+           "span": 25.96
+          },
+          "routes": [
+           {
+            "from": [
+             150.8,
+             59.56
+            ],
+            "via": [
+             [
+              150.9,
+              60.1
+             ],
+             [
+              151.4,
+              61.3
+             ],
+             [
+              148.16,
+              62.78
+             ],
+             [
+              145.0,
+              63.9
+             ],
+             [
+              143.23,
+              64.57
+             ],
+             [
+              135.6,
+              62.65
+             ]
+            ],
+            "to": [
+             129.73,
+             62.03
+            ],
+            "mode": "line",
+            "label": "Kolyma Highway",
+            "color": "red",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Estimates by historians range",
+       "stat": {
+        "value": "130,000 TO 1 MILLION+",
+        "label": "Estimates of deaths in Kolyma: no agreed number",
+        "source": "Historians' estimates differ"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "We do not know",
+       "photo": "File:Butugichag-mill.JPG",
+       "on_screen_text": "Butugychag"
+      },
+      {
+       "type": "photo",
+       "at": "What is not in",
+       "photo": "File:R-504 highway 08.2024.jpg",
+       "on_screen_text": "The R504 Kolyma Highway, 2024"
+      },
+      {
+       "type": "map",
+       "at": "They called it the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.54,
+           "lat": 62.0,
+           "span": 20.9
+          },
+          "routes": [
+           {
+            "from": [
+             150.8,
+             59.56
+            ],
+            "via": [
+             [
+              150.9,
+              60.1
+             ],
+             [
+              151.4,
+              61.3
+             ],
+             [
+              148.16,
+              62.78
+             ],
+             [
+              145.0,
+              63.9
+             ],
+             [
+              143.23,
+              64.57
+             ],
+             [
+              135.6,
+              62.65
+             ]
+            ],
+            "to": [
+             129.73,
+             62.03
+            ],
+            "mode": "line",
+            "label": "Kolyma Highway",
+            "color": "red",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Susuman",
+            "lon": 148.16,
+            "lat": 62.78,
+            "kind": "site",
+            "label": "Susuman",
+            "icon": "mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "After Stalin died in nineteen fifty-three, the camps emptied, and in nineteen fifty-seven Dalstroy itself was dissolved. Some former prisoners stayed, because they had nowhere else to go. So the state turned to the second way. Money.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 150.78,
+           "lat": 59.575,
+           "span": 0.15
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Magadan"
+      },
+      {
+       "type": "stat",
+       "at": "and in nineteen fifty-seven",
+       "stat": {
+        "value": "1957",
+        "label": "Dalstroy dissolved",
+        "source": "Archival count cited by historians of Dalstroy"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Some former prisoners stayed,",
+       "photo": "File:Nagaevo bay - panoramio.jpg",
+       "on_screen_text": "Magadan, Nagaev Bay"
+      },
+      {
+       "type": "photo",
+       "at": "So the state turned",
+       "photo": "File:Magadan, Russia (Unsplash fk3XUcfTAvk).jpg",
+       "on_screen_text": "Magadan"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Filled by Money",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "For decades, the Soviet Union paid people to go north and east. Workers in the Far North and other remote zones received wage bonuses on top of their pay, cost-of-living extras and earlier pensions, and they were guaranteed housing. For many people, that was the deal: go to the edge of the country, work hard, save, and come back richer.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Огни Магадана.jpg",
+       "on_screen_text": "Magadan at night"
+      },
+      {
+       "type": "map",
+       "at": "Workers in the Far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 140.0,
+           "lat": 61.6,
+           "span": 76.32
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ]
+         },
+         {
+          "at": 23,
+          "view": {
+           "lon": 140.0,
+           "lat": 61.6,
+           "span": 64.872
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and they were guaranteed",
+       "photo": "File:Pevek 2008.jpg",
+       "on_screen_text": "Pevek, Chukotka, 2008"
+      },
+      {
+       "type": "photo",
+       "at": "For many people, that",
+       "photo": "File:Anadyr harbour2.jpg",
+       "on_screen_text": "Anadyr harbour, Chukotka"
+      },
+      {
+       "type": "map",
+       "at": "work hard, save, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 177.5,
+           "lat": 64.73,
+           "span": 0.3
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Anadyr, June 2024"
+      }
+     ]
+    },
+    {
+     "text": "And the state was still building. In March nineteen seventy-four, it revived an old plan for a second line across Siberia: the Baikal-Amur Mainline, or BAM. It would run about four hundred miles north of the Trans-Siberian, further from the Chinese border, across seven mountain ranges, swamps and taiga. About forty percent of its track was laid on permafrost. The full line runs for more than four thousand three hundred kilometres.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 120.0,
+           "lat": 53.0,
+           "span": 48.0
+          },
+          "routes": [
+           {
+            "from": [
+             113.5,
+             52.03
+            ],
+            "via": [
+             [
+              123.93,
+              54.0
+             ],
+             [
+              128.47,
+              50.92
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             131.89,
+             43.12
+            ],
+            "mode": "line",
+            "label": "Trans-Siberian",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 120.0,
+           "lat": 53.0,
+           "span": 40.8
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Baikal-Amur Mainline, or",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 122.4,
+           "lat": 53.96,
+           "span": 43.2
+          },
+          "routes": [
+           {
+            "from": [
+             113.5,
+             52.03
+            ],
+            "via": [
+             [
+              123.93,
+              54.0
+             ],
+             [
+              128.47,
+              50.92
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             131.89,
+             43.12
+            ],
+            "mode": "line",
+            "label": "Trans-Siberian",
+            "color": "accent",
+            "seconds": 3.0
+           },
+           {
+            "from": [
+             98.0,
+             55.94
+            ],
+            "via": [
+             [
+              105.76,
+              56.79
+             ],
+             [
+              109.31,
+              55.64
+             ],
+             [
+              114.0,
+              56.9
+             ],
+             [
+              124.72,
+              55.15
+             ],
+             [
+              132.6,
+              51.07
+             ],
+             [
+              137.02,
+              50.55
+             ]
+            ],
+            "to": [
+             140.3,
+             48.97
+            ],
+            "mode": "line",
+            "label": "Baikal-Amur Mainline (BAM)",
+            "color": "red",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Tayshet",
+            "lon": 98.0,
+            "lat": 55.94,
+            "kind": "city",
+            "label": "Tayshet"
+           },
+           {
+            "name": "Sovetskaya Gavan",
+            "lon": 140.3,
+            "lat": 48.97,
+            "kind": "port",
+            "label": "Sovetskaya Gavan"
+           }
+          ]
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": 122.4,
+           "lat": 53.96,
+           "span": 36.72
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "across seven mountain ranges,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 117.0,
+           "lat": 56.8,
+           "span": 1.2
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Along the BAM: the Kodar Range"
+      },
+      {
+       "type": "stat",
+       "at": "About forty percent of",
+       "stat": {
+        "value": "~40 %",
+        "label": "Of BAM track laid on permafrost",
+        "source": "Seventeen Moments in Soviet History (MSU)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The full line runs",
+       "stat": {
+        "value": "4,324 KM",
+        "label": "Tayshet to Sovetskaya Gavan",
+        "source": "Russian Railways (via Wikipedia)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The BAM was sold as the project of a generation. Young volunteers from across the Soviet Union came to build it, and new towns grew along the route. In nineteen eighty-four, a golden spike joined the eastern and western sections. But at that point, less than a third of the line was actually working. The line was cut back to a single track as the money ran out, and it was only declared complete in nineteen ninety-one.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Tynda-26-april-2007.jpg",
+       "on_screen_text": "Tynda, the 'capital of the BAM'"
+      },
+      {
+       "type": "map",
+       "at": "Young volunteers from across",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.02,
+           "lat": 50.55,
+           "span": 0.3
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Komsomolsk-on-Amur, the BAM's eastern junction"
+      },
+      {
+       "type": "map",
+       "at": "and new towns grew",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 124.72,
+           "lat": 55.15,
+           "span": 0.2
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tynda"
+      },
+      {
+       "type": "stat",
+       "at": "In nineteen eighty-four, a",
+       "stat": {
+        "value": "1984",
+        "label": "Golden spike: less than a third of the line working",
+        "source": "Seventeen Moments in Soviet History (MSU)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "But at that point,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 117.6,
+           "lat": 52.04,
+           "span": 52.8
+          },
+          "routes": [
+           {
+            "from": [
+             98.0,
+             55.94
+            ],
+            "via": [
+             [
+              105.76,
+              56.79
+             ],
+             [
+              109.31,
+              55.64
+             ],
+             [
+              114.0,
+              56.9
+             ],
+             [
+              124.72,
+              55.15
+             ],
+             [
+              132.6,
+              51.07
+             ],
+             [
+              137.02,
+              50.55
+             ]
+            ],
+            "to": [
+             140.3,
+             48.97
+            ],
+            "mode": "line",
+            "label": "Baikal-Amur Mainline (BAM)",
+            "color": "red",
+            "seconds": 5.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The line was cut",
+       "photo": "File:Tynda rail.jpg",
+       "on_screen_text": "Single track at Tynda"
+      },
+      {
+       "type": "stat",
+       "at": "and it was only",
+       "stat": {
+        "value": "1991",
+        "label": "The BAM is declared complete",
+        "source": "Seventeen Moments in Soviet History (MSU)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nineteen ninety-one. The same year the Soviet Union came apart. So now picture all of these places at that moment. Mining towns on the permafrost, railway towns in the taiga, ports on a frozen sea, all built by a state that paid people extra to live there and shipped in their food and fuel. And then, at the end of nineteen ninety-one, that state stopped existing.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 98.0,
+           "lat": 59.2,
+           "span": 154.0
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 98.0,
+           "lat": 59.2,
+           "span": 130.9
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Mining towns on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.16,
+           "lat": 62.78,
+           "span": 0.3
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Susuman, a Kolyma mining town"
+      },
+      {
+       "type": "map",
+       "at": "railway towns in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.31,
+           "lat": 55.64,
+           "span": 0.3
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Severobaikalsk, a BAM town"
+      },
+      {
+       "type": "photo",
+       "at": "all built by a",
+       "photo": "File:View of Pevek from the south.jpg",
+       "on_screen_text": "Pevek, Chukotka"
+      },
+      {
+       "type": "map",
+       "at": "and shipped in their",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 140.0,
+           "lat": 54.4,
+           "span": 56.16
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Anadyr",
+            "lon": 177.5,
+            "lat": 64.73,
+            "kind": "city",
+            "label": "Anadyr"
+           },
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And then, at the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 109.2,
+           "lat": 56.4,
+           "span": 114.8
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Great Emptying",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "What happened next shows up very clearly in the census. In nineteen eighty-nine, the last Soviet census counted three hundred and eighty-five thousand people in Magadan Oblast, the region around the city of Magadan. At Russia's census of twenty twenty-one, it had about a hundred and thirty-six thousand. That is a loss of sixty-five percent. Almost two out of every three people gone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 144.46,
+           "lat": 62.0,
+           "span": 18.92
+          },
+          "highlight": [
+           "Magadan@red"
+          ],
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the last Soviet census",
+       "stat": {
+        "value": "385,340",
+        "label": "Magadan Oblast, 1989 (without Chukotka)",
+        "source": "1989 USSR census (Demoscope); Rosstat 2021"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in Magadan Oblast, the",
+       "photo": "File:Magadan, Gertner Bay.jpg",
+       "on_screen_text": "Magadan, Gertner Bay"
+      },
+      {
+       "type": "stat",
+       "at": "At Russia's census of",
+       "stat": {
+        "value": "136,085",
+        "label": "Magadan Oblast, 2021",
+        "source": "Rosstat, 2021 census"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is a loss",
+       "stat": {
+        "value": "-65 %",
+        "label": "Magadan Oblast, 1989 to 2021",
+        "source": "Own calculation: 1989 USSR census, Rosstat 2021"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Almost two out of",
+       "photo": "File:Magadan, Russia (Unsplash fk3XUcfTAvk).jpg",
+       "on_screen_text": "Magadan"
+      }
+     ]
+    },
+    {
+     "text": "Chukotka, the far northeastern tip of Russia across the strait from Alaska, had about a hundred and fifty-eight thousand people in nineteen eighty-nine. In twenty twenty-one: about forty-seven thousand. That is seventy percent gone. Kamchatka lost more than a third of its people. So did Sakhalin. Even the southern Primorsky Krai, with Vladivostok in it, lost close to a fifth.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 170.0,
+           "lat": 66.0,
+           "span": 24.0
+          },
+          "highlight": [
+           "Chukotka Autonomous Okrug@red"
+          ],
+          "places": [
+           {
+            "name": "Anadyr",
+            "lon": 177.5,
+            "lat": 64.73,
+            "kind": "city",
+            "label": "Anadyr"
+           },
+           {
+            "name": "Alaska",
+            "lon": -165.0,
+            "lat": 64.8,
+            "kind": "label",
+            "label": "Alaska"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "had about a hundred",
+       "stat": {
+        "value": "157,528 → 47,490",
+        "label": "Chukotka, 1989 to 2021",
+        "source": "1989 USSR census (Demoscope); Rosstat 2021"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "That is seventy percent",
+       "chart": {
+        "type": "bar",
+        "title": "Population change, 1989 to 2021",
+        "unit": "%",
+        "data": [
+         [
+          "Chukotka",
+          -70
+         ],
+         [
+          "Magadan",
+          -65
+         ],
+         [
+          "Kamchatka",
+          -37
+         ],
+         [
+          "Sakhalin",
+          -34
+         ],
+         [
+          "Primorsky",
+          -18
+         ]
+        ],
+        "source": "Own calculation: 1989 USSR census, Rosstat 2021",
+        "highlight": 0,
+        "reveal": [
+         "Kamchatka lost more",
+         "So did Sakhalin.",
+         "Even the southern Primorsky",
+         "with Vladivostok in it,"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "text": "Why so fast? When the bonuses lost their value and the state stopped paying for food, fuel and flights, life in a place like this became very expensive. The mines and factories that had been kept running for strategic reasons closed. People who could leave, left. Some mining settlements were abandoned completely, and in many towns, whole apartment blocks stand empty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 170.3,
+           "lat": 69.7,
+           "span": 0.3
+          },
+          "date": "2025-06-15/2025-08-31"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 170.3,
+           "lat": 69.7,
+           "span": 0.186
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pevek, Chukotka"
+      },
+      {
+       "type": "photo",
+       "at": "life in a place",
+       "photo": "File:Anadyr harbour2.jpg",
+       "on_screen_text": "Anadyr"
+      },
+      {
+       "type": "photo",
+       "at": "The mines and factories",
+       "photo": "File:Butugichag-admin.JPG",
+       "on_screen_text": "Abandoned camp buildings, Butugychag"
+      },
+      {
+       "type": "map",
+       "at": "People who could leave,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 150.82,
+           "lat": 59.55,
+           "span": 0.4
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Magadan, 2025"
+      },
+      {
+       "type": "photo",
+       "at": "Some mining settlements were",
+       "photo": "File:Огни Магадана.jpg",
+       "on_screen_text": "Magadan today"
+      }
+     ]
+    },
+    {
+     "text": "The Far East is empty partly because nature made it hard. But it was emptier in twenty twenty-one than it had been in nineteen eighty-nine. Most of those people did not leave because the climate changed. They left because the reason they had come was gone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 143.6,
+           "lat": 59.44,
+           "span": 62.856
+          },
+          "highlight": [
+           "file:fefd.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But it was emptier",
+       "photo": "File:Вид Магадана.jpg",
+       "on_screen_text": "Magadan"
+      },
+      {
+       "type": "photo",
+       "at": "Most of those people",
+       "photo": "File:R504 Kolyma in autumn.jpg",
+       "on_screen_text": "Kolyma"
+      },
+      {
+       "type": "photo",
+       "at": "They left because the",
+       "photo": "File:Nagaevo bay - panoramio.jpg",
+       "on_screen_text": "Magadan"
+      }
+     ]
+    },
+    {
+     "text": "Russia has tried to reverse it. In twenty sixteen, it launched a programme known as the Far Eastern Hectare. Russian citizens can apply for a free plot of land here, about one hectare, to build a house, start a farm or run a business. According to the state corporation that runs it, by August twenty twenty-five, about a hundred and fifty-one thousand people had received a plot in the Far East. Just over half of the land is used for housing, and about a quarter for farming.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 136.4,
+           "lat": 56.56,
+           "span": 76.824
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In twenty sixteen, it",
+       "stat": {
+        "value": "2016",
+        "label": "The Far Eastern Hectare: free land for Russian citizens",
+        "source": "Far East and Arctic Development Corporation"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Russian citizens can apply",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.73,
+           "lat": 46.96,
+           "span": 0.25
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yuzhno-Sakhalinsk"
+      },
+      {
+       "type": "photo",
+       "at": "to build a house,",
+       "photo": "File:Yuzhno-sakhalinsk-in-sakhalin-oblast-russia-september-2015-001.jpg",
+       "on_screen_text": "Yuzhno-Sakhalinsk"
+      },
+      {
+       "type": "map",
+       "at": "According to the state",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 142.16,
+           "lat": 55.12,
+           "span": 57.269
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           },
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           },
+           {
+            "name": "Petropavlovsk-Kamchatsky",
+            "lon": 158.65,
+            "lat": 53.02,
+            "kind": "city",
+            "label": "Petropavlovsk-Kamchatsky"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "by August twenty twenty-five,",
+       "stat": {
+        "value": "151,103",
+        "label": "People given a plot in the Far East, by 27 Aug 2025",
+        "source": "Far East and Arctic Development Corporation"
+       }
+      },
+      {
+       "type": "map",
+       "at": "people had received a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 158.65,
+           "lat": 53.02,
+           "span": 0.4
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Petropavlovsk-Kamchatsky"
+      },
+      {
+       "type": "stat",
+       "at": "Just over half of",
+       "stat": {
+        "value": "53 %",
+        "label": "Of the land used for housing",
+        "source": "Far East and Arctic Development Corporation",
+        "note": "Farming: 28 %"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That sounds like a lot until you set it against the losses. Magadan and Chukotka alone lost more than three hundred and fifty thousand people. So here is a question for you. If you were offered a free hectare of land anywhere in Russia's Far East, would you take it, and where would you put it? Tell me in the comments. Because before you answer, there are two more things you should know about this coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 137.84,
+           "lat": 60.88,
+           "span": 82.411
+          },
+          "highlight": [
+           "Magadan@red",
+           "Chukotka Autonomous Okrug@red"
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 137.84,
+           "lat": 60.88,
+           "span": 70.049
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "lost more than three",
+       "stat": {
+        "value": "~359,000",
+        "label": "People lost by Magadan Oblast and Chukotka, 1989-2021",
+        "source": "Own calculation: 1989 USSR census, Rosstat 2021",
+        "note": "vs 151,103 hectare plots"
+       }
+      },
+      {
+       "type": "map",
+       "at": "If you were offered",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 145.04,
+           "lat": 58.0,
+           "span": 66.348
+          },
+          "highlight": [
+           "file:fefd.geojson@accent"
+          ],
+          "places": [
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           },
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           },
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           },
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Petropavlovsk-Kamchatsky",
+            "lon": 158.65,
+            "lat": 53.02,
+            "kind": "city",
+            "label": "Petropavlovsk-Kamchatsky"
+           }
+          ]
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 145.04,
+           "lat": 58.0,
+           "span": 56.396
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Because before you answer,",
+       "photo": "File:Koryaksky volcano rising above Petropavlovsk-Kamchatsky (53160200107).jpg",
+       "on_screen_text": "Koryaksky volcano above Petropavlovsk-Kamchatsky"
+      }
+     ],
+     "ask": {
+      "at": "If you were offered",
+      "text": "Would you take a free hectare in Russia's Far East? Where?"
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Edge of the Plate, and the Edge of China",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The first is under the sea. On the twenty-ninth of July, twenty twenty-five, at twenty-four minutes past eleven at night, universal time, the seafloor off the coast of Kamchatka moved. The U.S. Geological Survey measured it at magnitude eight point eight. It is among the ten largest earthquakes recorded anywhere since nineteen hundred, and the largest on Earth since the Tōhoku earthquake in Japan in twenty eleven. Tsunami warnings went out across the Pacific.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 159.0,
+           "lat": 54.0,
+           "span": 14.0
+          },
+          "places": [
+           {
+            "name": "Petropavlovsk-Kamchatsky",
+            "lon": 158.65,
+            "lat": 53.02,
+            "kind": "city",
+            "label": "Petropavlovsk-Kamchatsky"
+           },
+           {
+            "name": "Epicentre",
+            "lon": 160.24,
+            "lat": 52.49,
+            "kind": "site",
+            "label": "M8.8, 29 July 2025",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 159.0,
+           "lat": 54.0,
+           "span": 11.9
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the seafloor off the",
+       "photo": "File:2025-07-29 Petropavlovsk-Kamchatsky, Russia M8.7 earthquake shakemap (USGS).jpg",
+       "on_screen_text": "USGS ShakeMap, 29 July 2025"
+      },
+      {
+       "type": "stat",
+       "at": "The U.S. Geological Survey",
+       "stat": {
+        "value": "M 8.8",
+        "label": "Kamchatka, 29 July 2025, 23:24 UTC",
+        "source": "U.S. Geological Survey"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It is among the",
+       "stat": {
+        "value": "TOP 10",
+        "label": "Among the largest earthquakes recorded since 1900",
+        "source": "U.S. Geological Survey",
+        "note": "The largest since Tohoku, 2011"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and the largest on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 150.0,
+           "lat": 46.0,
+           "span": 32.0
+          },
+          "places": [
+           {
+            "name": "Epicentre",
+            "lon": 160.24,
+            "lat": 52.49,
+            "kind": "site",
+            "label": "M8.8, 29 July 2025",
+            "icon": "warning"
+           },
+           {
+            "name": "Tohoku",
+            "lon": 142.37,
+            "lat": 38.3,
+            "kind": "site",
+            "label": "Tohoku, 2011",
+            "icon": "warning"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Tsunami warnings went out",
+       "photo": "File:SWOT Spots Tsunami Wave After Kamchatka Quake (154666).jpg",
+       "on_screen_text": "The tsunami seen by the SWOT satellite (NASA)"
+      }
+     ]
+    },
+    {
+     "text": "It happened because the Pacific plate is sliding under this coast at about eighty millimetres a year, one of the fastest collisions between plates in the world. That same push lifts the volcanoes of Kamchatka and the Kuril Islands. In nineteen fifty-two, the same stretch of coast produced a magnitude nine earthquake. Russia's Pacific edge is not only cold. It is some of the most restless ground on the planet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 159.7,
+           "lat": 54.28,
+           "span": 12.6
+          },
+          "arrows": [
+           {
+            "from": [
+             167.0,
+             49.5
+            ],
+            "to": [
+             161.0,
+             52.0
+            ],
+            "color": "red",
+            "label": "Pacific plate, ~80 mm a year",
+            "bend": 0.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Epicentre",
+            "lon": 160.24,
+            "lat": 52.49,
+            "kind": "site",
+            "label": "M8.8, 29 July 2025",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 159.7,
+           "lat": 54.28,
+           "span": 10.71
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That same push lifts",
+       "photo": "File:Klyuchevskaya Sopka (Klyuchevskoi), Kamchatka, Russia - January 12th, 2021 (50828886532).jpg",
+       "on_screen_text": "Klyuchevskaya Sopka, January 2021"
+      },
+      {
+       "type": "photo",
+       "at": "In nineteen fifty-two, the",
+       "photo": "File:Petropavlovsk-Kamchatsky (51605162749).jpg",
+       "on_screen_text": "Petropavlovsk-Kamchatsky"
+      },
+      {
+       "type": "photo",
+       "at": "Russia's Pacific edge is",
+       "photo": "File:Kamchatka Volcano Avachinsky (Kamchatka) (16084696896).jpg",
+       "on_screen_text": "Avachinsky volcano"
+      },
+      {
+       "type": "photo",
+       "at": "It is some of",
+       "photo": "File:Kamchatka Volcano Tolbachik (23200636942).jpg",
+       "on_screen_text": "Tolbachik volcano, Kamchatka"
+      }
+     ]
+    },
+    {
+     "text": "The second thing is across a river. Upstream from Khabarovsk, the Amur and its branch, the Ussuri, form a long stretch of the border between Russia and China. On the Russian side, the whole Far Eastern Federal District has fewer than eight million people. On the Chinese side, the three northeastern provinces of Heilongjiang, Jilin and Liaoning had about ninety-eight and a half million people at China's census of twenty twenty. Heilongjiang alone, the province right across the river, has about four times as many people as the entire Russian Far East.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.0,
+           "lat": 51.2,
+           "span": 25.44
+          },
+          "routes": [
+           {
+            "from": [
+             121.5,
+             53.3
+            ],
+            "via": [
+             [
+              127.5,
+              50.25
+             ],
+             [
+              130.6,
+              48.0
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             133.1,
+             45.0
+            ],
+            "mode": "line",
+            "label": "Border on the Amur and Ussuri",
+            "color": "alt",
+            "seconds": 4.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 131.0,
+           "lat": 51.2,
+           "span": 21.624
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "form a long stretch",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 127.52,
+           "lat": 50.26,
+           "span": 0.2
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Blagoveshchensk (Russia) and Heihe (China), across the Amur"
+      },
+      {
+       "type": "map",
+       "at": "On the Russian side,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.96,
+           "lat": 58.0,
+           "span": 60.062
+          },
+          "highlight": [
+           "file:fefd.geojson@red"
+          ]
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": 134.96,
+           "lat": 58.0,
+           "span": 51.053
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "On the Chinese side,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 127.22,
+           "lat": 47.04,
+           "span": 30.68
+          },
+          "highlight": [
+           "file:china_ne.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Harbin",
+            "lon": 126.63,
+            "lat": 45.75,
+            "kind": "city",
+            "label": "Harbin"
+           },
+           {
+            "name": "Changchun",
+            "lon": 125.32,
+            "lat": 43.88,
+            "kind": "city",
+            "label": "Changchun"
+           },
+           {
+            "name": "Shenyang",
+            "lon": 123.43,
+            "lat": 41.8,
+            "kind": "city",
+            "label": "Shenyang"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "had about ninety-eight and",
+       "stat": {
+        "value": "98.5 MILLION",
+        "label": "Heilongjiang, Jilin and Liaoning, 2020 census",
+        "source": "National Bureau of Statistics of China, 2020 census",
+        "note": "Russian Far East: 7.98 million (2021)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Heilongjiang alone, the province",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 126.63,
+           "lat": 45.75,
+           "span": 0.4
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Harbin, capital of Heilongjiang"
+      },
+      {
+       "type": "stat",
+       "at": "has about four times",
+       "stat": {
+        "value": "~4×",
+        "label": "Heilongjiang (31.9 M) vs the whole Russian Far East",
+        "source": "Own calculation: NBS 2020, Rosstat 2021"
+       }
+      }
+     ]
+    },
+    {
+     "text": "But those Chinese provinces are emptying too. At their census, all three held a smaller share of China's people than ten years before. Analyses of that census found that many people had moved away, to the richer south. On both sides of the Amur, the cold north of Asia is losing people to the places where life is easier.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.82,
+           "lat": 46.0,
+           "span": 24.7
+          },
+          "highlight": [
+           "file:china_ne.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Harbin",
+            "lon": 126.63,
+            "lat": 45.75,
+            "kind": "city",
+            "label": "Harbin"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At their census, all",
+       "stat": {
+        "value": "6.98 %",
+        "label": "Northeast's share of China's people, 2020",
+        "source": "National Bureau of Statistics of China, 2020 census",
+        "note": "2010: 8.18 %"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Analyses of that census",
+       "photo": "File:Blagoveshchensk, Russia --- Heihe, China (8789415981).jpg",
+       "on_screen_text": "Heihe and Blagoveshchensk"
+      },
+      {
+       "type": "map",
+       "at": "On both sides of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 126.18,
+           "lat": 46.0,
+           "span": 22.36
+          },
+          "highlight": [
+           "file:china_ne.geojson@alt",
+           "file:fefd.geojson@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             121.5,
+             53.3
+            ],
+            "via": [
+             [
+              127.5,
+              50.25
+             ],
+             [
+              130.6,
+              48.0
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             133.1,
+             45.0
+            ],
+            "mode": "line",
+            "label": "Border on the Amur and Ussuri",
+            "color": "alt",
+            "seconds": 4.0
+           }
+          ]
+         },
+         {
+          "at": 48,
+          "view": {
+           "lon": 126.18,
+           "lat": 46.0,
+           "span": 19.006
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why is Russia's Pacific coast almost empty? Start with the wind. Every winter, some of the coldest air in the Northern Hemisphere pours out of Siberia onto a coast that, on a map, looks like it should be as mild as southern Europe. That air freezes the Sea of Okhotsk closer to the equator than sea ice forms anywhere else on Earth, and it keeps the ground frozen underneath the towns.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Vladivostok skyline 2022-08.jpg",
+       "on_screen_text": "Vladivostok"
+      },
+      {
+       "type": "map",
+       "at": "Every winter, some of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.8,
+           "lat": 50.0,
+           "span": 51.6
+          },
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             52.0
+            ],
+            "to": [
+             131.0,
+             44.0
+            ],
+            "color": "blue",
+            "bend": -0.12
+           },
+           {
+            "from": [
+             112.0,
+             58.0
+            ],
+            "to": [
+             140.0,
+             52.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             118.0,
+             64.0
+            ],
+            "to": [
+             150.0,
+             59.0
+            ],
+            "color": "blue",
+            "bend": -0.08
+           }
+          ],
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": 115.8,
+           "lat": 50.0,
+           "span": 43.86
+          }
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": 115.8,
+           "lat": 50.0,
+           "span": 37.281
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That air freezes the",
+       "photo": "File:Cloud Streets and Sea Ice in Sea of Okhotsk (MODIS 2024-01-02).jpg",
+       "on_screen_text": "The Sea of Okhotsk in winter"
+      },
+      {
+       "type": "photo",
+       "at": "than sea ice forms",
+       "photo": "File:The Icy Heart of the North Pacific (MODIS 2021-03-09).jpg",
+       "on_screen_text": "The Sea of Okhotsk, March 2021 (NASA MODIS)"
+      },
+      {
+       "type": "photo",
+       "at": "and it keeps the",
+       "photo": "File:Улица Пояркова Якутск-(SmallSonMarex).jpg",
+       "on_screen_text": "Yakutsk in winter"
+      }
+     ]
+    },
+    {
+     "text": "Then add history. Russia took the southern coast by treaty, before it had people to put on it. It filled the north first with prisoners, then with wages, and when the wages ended, the people went home. What is left is a thin line of cities along one railway, and behind it, an area bigger than India with fewer people than London.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:John-Tallis-1851-Tibet-Mongolia-and-Manchuria-33621.jpg",
+       "on_screen_text": "Manchuria on an 1851 map"
+      },
+      {
+       "type": "map",
+       "at": "Russia took the southern",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.0,
+           "lat": 48.8,
+           "span": 18.72
+          },
+          "highlight": [
+           "file:aigun.geojson@red",
+           "file:primorye.geojson@red"
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": 131.0,
+           "lat": 48.8,
+           "span": 15.912
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It filled the north",
+       "photo": "File:Kolyma Highway (Road of Bones).jpg",
+       "on_screen_text": "The Kolyma Highway"
+      },
+      {
+       "type": "photo",
+       "at": "and when the wages",
+       "photo": "File:Pevek 2008.jpg",
+       "on_screen_text": "Pevek, Chukotka, 2008"
+      },
+      {
+       "type": "map",
+       "at": "What is left is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 140.0,
+           "lat": 61.6,
+           "span": 74.03
+          },
+          "layer": "night",
+          "routes": [
+           {
+            "from": [
+             113.5,
+             52.03
+            ],
+            "via": [
+             [
+              123.93,
+              54.0
+             ],
+             [
+              128.47,
+              50.92
+             ],
+             [
+              135.07,
+              48.48
+             ]
+            ],
+            "to": [
+             131.89,
+             43.12
+            ],
+            "mode": "line",
+            "label": "Trans-Siberian",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and behind it, an",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 100.8,
+           "lat": 67.6,
+           "span": 165.2
+          },
+          "highlight": [
+           "file:fefd.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Vladivostok and Nice still sit at the same latitude. One faces a warm sea with the wind at its back. The other faces the Pacific with the frozen heart of Siberia behind it. A free hectare of land cannot change which way the wind blows. The open question is whether anything Russia can offer will make people choose to live here, now that no one is ordering them to.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 62.5,
+           "lat": 42.0,
+           "span": 165.0
+          },
+          "routes": [
+           {
+            "from": [
+             7.26,
+             43.5
+            ],
+            "to": [
+             131.89,
+             43.5
+            ],
+            "mode": "line",
+            "label": "Same latitude",
+            "color": "accent",
+            "seconds": 4.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Nice",
+            "lon": 7.26,
+            "lat": 43.7,
+            "kind": "city",
+            "label": "Nice, 43.7° N"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok, 43.1° N"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "One faces a warm",
+       "photo": "File:La baie des Anges (Nice) (3293122147).jpg",
+       "on_screen_text": "Nice"
+      },
+      {
+       "type": "map",
+       "at": "The other faces the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.75,
+           "lat": 43.25,
+           "span": 1.2
+          },
+          "date": "2024-01-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Amur Bay in January"
+      },
+      {
+       "type": "photo",
+       "at": "A free hectare of",
+       "photo": "File:Amursky bay 2022.jpg",
+       "on_screen_text": "Amur Bay in summer"
+      },
+      {
+       "type": "photo",
+       "at": "The open question is",
+       "photo": "File:Overview of Zolotoy Rog.JPEG",
+       "on_screen_text": "Vladivostok"
+      },
+      {
+       "type": "map",
+       "at": "will make people choose",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 131.92,
+           "lat": 43.12,
+           "span": 0.15
+          },
+          "date": "2024-06-15/2024-08-31"
+         },
+         {
+          "at": 61,
+          "view": {
+           "lon": 131.92,
+           "lat": 43.12,
+           "span": 0.093
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Vladivostok"
+      }
+     ],
+     "ask": {
+      "at": "The open question is",
+      "text": "Would anything make you move to Russia's Far East?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Russia's Pacific Coast Is Almost Empty",
+  "description": "Vladivostok sits at the same latitude as Nice on the French Riviera, yet its January average is about minus twelve, and the bay beside it freezes. North of it lies Russia's Far East: about 40 % of Russia, with fewer than eight million people. We follow the answer from orbit: the Siberian High and the winter monsoon, the Sea of Okhotsk freezing closer to the equator than any other sea ice, permafrost under Yakutsk, the treaties of 1858 and 1860, the Trans-Siberian, the camps of Dalstroy and the Kolyma Highway, the BAM railway, the emptying after 1991 (Magadan -65 %, Chukotka -70 %), the Far Eastern Hectare, the 2025 Kamchatka earthquake, and the hundred million people across the Amur in China.",
+  "tags": [
+   "Russian Far East",
+   "Vladivostok",
+   "Siberia",
+   "Sea of Okhotsk",
+   "Siberian High",
+   "permafrost",
+   "Yakutsk",
+   "Magadan",
+   "Kolyma",
+   "Chukotka",
+   "Kamchatka",
+   "Trans-Siberian",
+   "BAM railway",
+   "Far Eastern Hectare",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Would you take a free hectare in Russia's Far East? Where would you put it?"
+ }
+}

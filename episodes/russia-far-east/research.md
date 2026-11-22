@@ -94,3 +94,16 @@ Title: "Why Russia's Pacific Coast Is Almost Empty" (alt "Why Almost Nobody Live
 - A (Wikipedia Oymyakon): -67.7 C on 6 Feb 1933; Verkhoyansk -67.8 C Feb 1892 (cited Stepanova, NOAA archive).
   Use "close to minus sixty-eight", "the coldest towns in the Northern Hemisphere" as attributed.
 - Permafrost share of Russia (~65 %): NOT confirmed -> use "most of the region" only, or cut.
+
+# Round 3 (2026-11-22, while scripting)
+- A (Wikipedia Siberian High): September-April, usually centred on Lake Baikal, "the strongest semi-permanent high in the
+  northern hemisphere"; record 1083.8 mbar (Agata, 31 Dec 1968; Oliver 2005); northeast monsoon link (Chang, The East
+  Asian Monsoon). Narration: "one of the strongest weather systems on the planet in winter".
+- A (Wikipedia Okhotsk): Moskvitin reached the Pacific in 1639; Okhotsk founded 1647.
+- A (Moscow Times 2 Feb 2026; Wikipedia Lena Bridge): no bridge across the Lena at Yakutsk yet; construction began Oct
+  2024; ice road in winter, ferries in summer.
+- OWN: Moscow-Vladivostok great circle 6,415 km ("more than six thousand kilometres, even in a straight line");
+  Okhotsk 1.5 M km2 / mainland France 551,695 km2 = 2.7; Heilongjiang / FEFD = 4.0; India + Argentina = 6.07 M km2.
+- Narration softened: Vladivostok "the biggest city on Russia's Pacific coast" (not "biggest port"); 1858 area "by
+  most estimates"; Siberia "some of the coldest air in the Northern Hemisphere"; Okhotsk ice "closer to the equator
+  than sea ice forms anywhere else on Earth" (NASA: lowest latitude for seasonal sea ice in the world).

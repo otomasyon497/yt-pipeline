@@ -399,8 +399,8 @@
       {
        "type": "photo",
        "at": "and a system of",
-       "photo": "File:Butugichag-mill.JPG",
-       "on_screen_text": "Ruins of a Kolyma camp mill, Butugychag"
+       "photo": "File:R-504 highway 08.2024.jpg",
+       "on_screen_text": "The Kolyma Highway, 2024"
       },
       {
        "type": "photo",
@@ -1748,10 +1748,29 @@
        "on_screen_text": "Yakutsk: a city on frozen ground"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "The ice in the",
-       "photo": "File:Raised pipes in permafrost.jpg",
-       "on_screen_text": "Pipes raised above the permafrost"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.7,
+           "lat": 62.0,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "photo",
@@ -1760,16 +1779,37 @@
        "on_screen_text": "A road across Yakutia"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "So in the far",
-       "photo": "File:Jakutsk Pfahlbau.jpg",
-       "on_screen_text": "Yakutsk: a building on piles"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 129.74,
+           "lat": 62.02,
+           "span": 0.12
+          },
+          "date": "2025-06-15/2025-08-31"
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": 129.74,
+           "lat": 62.02,
+           "span": 0.08
+          },
+          "date": "2025-06-15/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yakutsk"
       },
       {
        "type": "photo",
        "at": "with a gap underneath",
-       "photo": "File:Улица Пояркова Якутск-(SmallSonMarex).jpg",
-       "on_screen_text": "A street in Yakutsk"
+       "photo": "File:Jakutsk Pfahlbau.jpg",
+       "on_screen_text": "Yakutsk: a building on piles"
       }
      ]
     },
@@ -2140,8 +2180,8 @@
       {
        "type": "photo",
        "at": "The Russian governor of",
-       "photo": "File:Nikolay-Muravyov-Amursky.png",
-       "on_screen_text": "Nikolay Muravyov(-Amursky)"
+       "photo": "File:Monument of Muravyov-Amursky, Khabarovsk (remake).jpg",
+       "on_screen_text": "Monument to Nikolay Muravyov-Amursky, Khabarovsk"
       },
       {
        "type": "map",
@@ -2244,10 +2284,29 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "A Russian envoy, Nikolay",
-       "photo": "File:Ignatiev NP by Timm.jpg",
-       "on_screen_text": "Nikolay Ignatyev"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.4,
+           "lat": 39.9,
+           "span": 6.0
+          },
+          "places": [
+           {
+            "name": "Beijing",
+            "lon": 116.4,
+            "lat": 39.9,
+            "kind": "capital",
+            "label": "Beijing"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "stat",
@@ -2816,8 +2875,8 @@
       {
        "type": "photo",
        "at": "in the dark part",
-       "photo": "File:R504 Kolyma in autumn.jpg",
-       "on_screen_text": "The Kolyma region in autumn"
+       "photo": "File:Berelekh reka.jpg",
+       "on_screen_text": "The Berelekh valley, Kolyma"
       },
       {
        "type": "photo",
@@ -3032,8 +3091,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Kolyma Highway (Road of Bones).jpg",
-       "on_screen_text": "The Kolyma Highway, 2001"
+       "photo": "File:R-504 Stele.jpg",
+       "on_screen_text": "The Kolyma Highway: Magadan one way, Yakutsk the other"
       },
       {
        "type": "stat",
@@ -3085,16 +3144,38 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "the Soviet system of",
-       "photo": "File:Butugichag-admin.JPG",
-       "on_screen_text": "Butugychag camp ruins"
-      },
-      {
-       "type": "photo",
-       "at": "By one archival count,",
-       "photo": "File:Gulag Lazo (2914364802).jpg",
-       "on_screen_text": "Remains of a Gulag camp in Kolyma"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.0,
+           "lat": 62.0,
+           "span": 8.0
+          },
+          "places": [
+           {
+            "name": "Susuman",
+            "lon": 148.16,
+            "lat": 62.78,
+            "kind": "site",
+            "label": "Susuman",
+            "icon": "mine"
+           },
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "stat",
@@ -3187,10 +3268,45 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "We do not know",
-       "photo": "File:Butugichag-mill.JPG",
-       "on_screen_text": "Butugychag"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.54,
+           "lat": 62.0,
+           "span": 20.9
+          },
+          "places": [
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           },
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           }
+          ]
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": 147.54,
+           "lat": 62.0,
+           "span": 17.765
+          }
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "photo",
@@ -3205,9 +3321,9 @@
         "steps": [
          {
           "view": {
-           "lon": 147.54,
+           "lon": 144.46,
            "lat": 62.0,
-           "span": 20.9
+           "span": 18.92
           },
           "routes": [
            {
@@ -3887,9 +4003,9 @@
         "steps": [
          {
           "view": {
-           "lon": 144.46,
-           "lat": 62.0,
-           "span": 18.92
+           "lon": 146.0,
+           "lat": 63.1,
+           "span": 23.32
           },
           "highlight": [
            "Magadan@red"
@@ -3920,8 +4036,8 @@
       {
        "type": "photo",
        "at": "in Magadan Oblast, the",
-       "photo": "File:Magadan, Gertner Bay.jpg",
-       "on_screen_text": "Magadan, Gertner Bay"
+       "photo": "File:МАГАДАН - panoramio.jpg",
+       "on_screen_text": "Entering Magadan"
       },
       {
        "type": "stat",
@@ -4074,10 +4190,22 @@
        "on_screen_text": "Anadyr"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "The mines and factories",
-       "photo": "File:Butugichag-admin.JPG",
-       "on_screen_text": "Abandoned camp buildings, Butugychag"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 148.2,
+           "lat": 62.76,
+           "span": 0.6
+          },
+          "date": "2024-06-15/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Susuman, a Kolyma gold-mining town"
       },
       {
        "type": "map",
@@ -4136,8 +4264,8 @@
       {
        "type": "photo",
        "at": "Most of those people",
-       "photo": "File:R504 Kolyma in autumn.jpg",
-       "on_screen_text": "Kolyma"
+       "photo": "File:Mikrorayon berelekh.jpg",
+       "on_screen_text": "Berelekh, a Kolyma mining settlement"
       },
       {
        "type": "photo",
@@ -4451,10 +4579,30 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "the seafloor off the",
-       "photo": "File:2025-07-29 Petropavlovsk-Kamchatsky, Russia M8.7 earthquake shakemap (USGS).jpg",
-       "on_screen_text": "USGS ShakeMap, 29 July 2025"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 160.24,
+           "lat": 52.49,
+           "span": 5.0
+          },
+          "places": [
+           {
+            "name": "Epicentre",
+            "lon": 160.24,
+            "lat": 52.49,
+            "kind": "site",
+            "label": "M8.8, 29 July 2025",
+            "icon": "warning"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "stat",
@@ -4510,10 +4658,37 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Tsunami warnings went out",
-       "photo": "File:SWOT Spots Tsunami Wave After Kamchatka Quake (154666).jpg",
-       "on_screen_text": "The tsunami seen by the SWOT satellite (NASA)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 160.0,
+           "lat": 40.0,
+           "span": 50.0
+          },
+          "places": [
+           {
+            "name": "Epicentre",
+            "lon": 160.24,
+            "lat": 52.49,
+            "kind": "site",
+            "label": "M8.8, 29 July 2025",
+            "icon": "warning"
+           },
+           {
+            "name": "Japan",
+            "lon": 138.0,
+            "lat": 36.5,
+            "kind": "label",
+            "label": "Japan"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
@@ -5010,8 +5185,8 @@
       {
        "type": "photo",
        "at": "and it keeps the",
-       "photo": "File:Улица Пояркова Якутск-(SmallSonMarex).jpg",
-       "on_screen_text": "Yakutsk in winter"
+       "photo": "File:Magadan, Magadan Oblast, Russia - panoramio (4).jpg",
+       "on_screen_text": "Magadan"
       }
      ]
     },
@@ -5055,7 +5230,7 @@
       {
        "type": "photo",
        "at": "It filled the north",
-       "photo": "File:Kolyma Highway (Road of Bones).jpg",
+       "photo": "File:R-504 Stele.jpg",
        "on_screen_text": "The Kolyma Highway"
       },
       {

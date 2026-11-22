@@ -213,12 +213,9 @@
          {
           "view": {
            "lon": 140.0,
-           "lat": 58.0,
-           "span": 72.0
+           "lat": 52.328,
+           "span": 91.949
           },
-          "highlight": [
-           "file:fefd.geojson@red"
-          ],
           "places": [
            {
             "name": "Vladivostok",
@@ -226,6 +223,20 @@
             "lat": 43.12,
             "kind": "city",
             "label": "Vladivostok"
+           },
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           },
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
            }
           ]
          }
@@ -245,9 +256,9 @@
         "steps": [
          {
           "view": {
-           "lon": 105.0,
-           "lat": 62.0,
-           "span": 140.0
+           "lon": 128.5,
+           "lat": 62.465,
+           "span": 226.348
           },
           "highlight": [
            "file:fefd.geojson@red"
@@ -275,12 +286,25 @@
         "steps": [
          {
           "view": {
-           "lon": 143.6,
-           "lat": 59.44,
-           "span": 64.8
+           "lon": 87.41,
+           "lat": 57.382,
+           "span": 150.797
           },
-          "highlight": [
-           "file:fefd.geojson@red"
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
           ]
          }
         ],
@@ -340,9 +364,9 @@
         "steps": [
          {
           "view": {
-           "lon": 120.0,
-           "lat": 50.0,
-           "span": 60.0
+           "lon": 126.0,
+           "lat": 53.863,
+           "span": 100.928
           },
           "arrows": [
            {
@@ -442,9 +466,9 @@
         "steps": [
          {
           "view": {
-           "lon": 123.0,
-           "lat": 51.2,
-           "span": 54.0
+           "lon": 127.0,
+           "lat": 53.863,
+           "span": 100.928
           },
           "arrows": [
            {
@@ -507,9 +531,9 @@
         "steps": [
          {
           "view": {
-           "lon": 77.5,
-           "lat": 48.0,
-           "span": 135.0
+           "lon": 69.575,
+           "lat": 45.311,
+           "span": 167.214
           },
           "places": [
            {
@@ -605,9 +629,9 @@
         "steps": [
          {
           "view": {
-           "lon": 117.0,
-           "lat": 48.8,
-           "span": 66.0
+           "lon": 126.9,
+           "lat": 53.455,
+           "span": 104.441
           },
           "arrows": [
            {
@@ -760,9 +784,9 @@
         "steps": [
          {
           "view": {
-           "lon": 118.2,
-           "lat": 52.4,
-           "span": 70.8
+           "lon": 126.0,
+           "lat": 53.863,
+           "span": 100.928
           },
           "arrows": [
            {
@@ -829,7 +853,12 @@
             "kind": "sea",
             "label": "PACIFIC: lower pressure"
            }
-          ]
+          ],
+          "view": {
+           "lon": 126.0,
+           "lat": 49.714,
+           "span": 92.041
+          }
          }
         ],
         "cut": true
@@ -842,9 +871,9 @@
         "steps": [
          {
           "view": {
-           "lon": 132.4,
-           "lat": 44.16,
-           "span": 7.2
+           "lon": 130.42,
+           "lat": 45.055,
+           "span": 18.028
           },
           "arrows": [
            {
@@ -881,9 +910,9 @@
         "steps": [
          {
           "view": {
-           "lon": 128.0,
-           "lat": 46.0,
-           "span": 26.0
+           "lon": 127.0,
+           "lat": 53.831,
+           "span": 101.206
           },
           "arrows": [
            {
@@ -998,9 +1027,9 @@
         "steps": [
          {
           "view": {
-           "lon": 135.6,
-           "lat": 64.64,
-           "span": 28.8
+           "lon": 136.31,
+           "lat": 65.178,
+           "span": 30.168
           },
           "places": [
            {
@@ -1134,9 +1163,9 @@
         "steps": [
          {
           "view": {
-           "lon": 124.2,
-           "lat": 50.0,
-           "span": 57.0
+           "lon": 127.0,
+           "lat": 55.627,
+           "span": 129.509
           },
           "arrows": [
            {
@@ -1233,9 +1262,9 @@
         "steps": [
          {
           "view": {
-           "lon": 148.5,
-           "lat": 53.6,
-           "span": 27.0
+           "lon": 151.15,
+           "lat": 53.198,
+           "span": 29.239
           },
           "places": [
            {
@@ -1349,9 +1378,9 @@
         "steps": [
          {
           "view": {
-           "lon": 80.0,
-           "lat": 48.0,
-           "span": 150.0
+           "lon": 77.915,
+           "lat": 45.166,
+           "span": 175.989
           },
           "places": [
            {
@@ -1393,9 +1422,9 @@
         "steps": [
          {
           "view": {
-           "lon": 145.5,
-           "lat": 52.4,
-           "span": 33.0
+           "lon": 132.05,
+           "lat": 56.748,
+           "span": 75.099
           },
           "arrows": [
            {
@@ -1469,9 +1498,9 @@
         "steps": [
          {
           "view": {
-           "lon": 141.0,
-           "lat": 53.5,
-           "span": 9.0
+           "lon": 140.15,
+           "lat": 52.642,
+           "span": 12.434
           },
           "arrows": [
            {
@@ -1523,8 +1552,8 @@
          {
           "view": {
            "lon": 147.9,
-           "lat": 51.8,
-           "span": 24.6
+           "lat": 48.328,
+           "span": 41.667
           },
           "arrows": [
            {
@@ -1680,9 +1709,9 @@
         "steps": [
          {
           "view": {
-           "lon": 132.4,
-           "lat": 63.36,
-           "span": 35.2
+           "lon": 134.194,
+           "lat": 67.315,
+           "span": 167.956
           },
           "highlight": [
            "Sakha Republic@accent"
@@ -1922,9 +1951,9 @@
         "steps": [
          {
           "view": {
-           "lon": 136.4,
-           "lat": 56.56,
-           "span": 79.2
+           "lon": 143.145,
+           "lat": 52.844,
+           "span": 97.629
           },
           "places": [
            {
@@ -2016,9 +2045,9 @@
         "steps": [
          {
           "view": {
-           "lon": 112.0,
-           "lat": 64.8,
-           "span": 126.0
+           "lon": 98.0,
+           "lat": 59.2,
+           "span": 154.0
           },
           "places": [
            {
@@ -2040,9 +2069,9 @@
          {
           "at": 9,
           "view": {
-           "lon": 112.0,
-           "lat": 64.8,
-           "span": 107.1
+           "lon": 98.0,
+           "lat": 59.2,
+           "span": 130.9
           }
          }
         ],
@@ -2089,9 +2118,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.0,
-           "lat": 50.0,
-           "span": 24.0
+           "lon": 130.616,
+           "lat": 49.225,
+           "span": 66.599
           },
           "highlight": [
            "file:aigun.geojson@red",
@@ -2119,8 +2148,8 @@
          {
           "view": {
            "lon": 132.2,
-           "lat": 50.48,
-           "span": 21.6
+           "lat": 52.114,
+           "span": 33.755
           },
           "places": [
            {
@@ -2167,9 +2196,9 @@
         "steps": [
          {
           "view": {
-           "lon": 129.3,
-           "lat": 46.52,
-           "span": 23.4
+           "lon": 125.19,
+           "lat": 43.678,
+           "span": 33.927
           },
           "places": [
            {
@@ -2240,9 +2269,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.72,
-           "lat": 49.04,
-           "span": 19.68
+           "lon": 130.616,
+           "lat": 51.426,
+           "span": 49.034
           },
           "highlight": [
            "file:aigun.geojson@red"
@@ -2300,9 +2329,9 @@
         "steps": [
          {
           "view": {
-           "lon": 126.7,
-           "lat": 45.48,
-           "span": 28.6
+           "lon": 124.41,
+           "lat": 43.392,
+           "span": 31.288
           },
           "places": [
            {
@@ -2359,12 +2388,11 @@
         "steps": [
          {
           "view": {
-           "lon": 130.28,
-           "lat": 50.96,
-           "span": 28.32
+           "lon": 131.821,
+           "lat": 47.156,
+           "span": 45.824
           },
           "highlight": [
-           "file:aigun.geojson@red",
            "file:primorye.geojson@red"
           ]
          }
@@ -2379,9 +2407,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.6,
-           "lat": 43.84,
-           "span": 8.8
+           "lon": 134.433,
+           "lat": 45.035,
+           "span": 25.356
           },
           "highlight": [
            "file:primorye.geojson@red"
@@ -2407,9 +2435,9 @@
         "steps": [
          {
           "view": {
-           "lon": 128.78,
-           "lat": 44.96,
-           "span": 21.32
+           "lon": 128.978,
+           "lat": 48.032,
+           "span": 75.794
           },
           "highlight": [
            "file:aigun.geojson@red",
@@ -2490,9 +2518,9 @@
         "steps": [
          {
           "view": {
-           "lon": 142.16,
-           "lat": 55.12,
-           "span": 59.04
+           "lon": 136.4,
+           "lat": 51.836,
+           "span": 86.585
           },
           "places": [
            {
@@ -2522,9 +2550,9 @@
         "steps": [
          {
           "view": {
-           "lon": 88.0,
-           "lat": 52.0,
-           "span": 110.0
+           "lon": 84.755,
+           "lat": 49.871,
+           "span": 126.481
           },
           "places": [
            {
@@ -2567,9 +2595,9 @@
         "steps": [
          {
           "view": {
-           "lon": 93.5,
-           "lat": 54.2,
-           "span": 99.0
+           "lon": 86.345,
+           "lat": 50.584,
+           "span": 130.747
           },
           "routes": [
            {
@@ -2681,18 +2709,18 @@
         "steps": [
          {
           "view": {
-           "lon": 137.84,
-           "lat": 60.88,
-           "span": 84.96
+           "lon": 142.16,
+           "lat": 55.12,
+           "span": 59.04
           },
           "layer": "night"
          },
          {
           "at": 28,
           "view": {
-           "lon": 137.84,
-           "lat": 60.88,
-           "span": 72.216
+           "lon": 142.16,
+           "lat": 55.12,
+           "span": 50.184
           },
           "layer": "night"
          }
@@ -2707,9 +2735,9 @@
         "steps": [
          {
           "view": {
-           "lon": 132.68,
-           "lat": 50.0,
-           "span": 22.8
+           "lon": 125.37,
+           "lat": 48.112,
+           "span": 47.807
           },
           "layer": "night",
           "routes": [
@@ -2783,9 +2811,9 @@
         "steps": [
          {
           "view": {
-           "lon": 134.0,
-           "lat": 52.0,
-           "span": 30.0
+           "lon": 133.765,
+           "lat": 48.127,
+           "span": 47.954
           },
           "layer": "night",
           "places": [
@@ -2823,9 +2851,9 @@
         "steps": [
          {
           "view": {
-           "lon": 145.04,
-           "lat": 58.0,
-           "span": 68.4
+           "lon": 134.166,
+           "lat": 54.171,
+           "span": 112.562
           },
           "layer": "night",
           "routes": [
@@ -2875,9 +2903,9 @@
         "steps": [
          {
           "view": {
-           "lon": 134.96,
+           "lon": 145.04,
            "lat": 58.0,
-           "span": 61.92
+           "span": 68.4
           },
           "places": [
            {
@@ -2920,9 +2948,9 @@
         "steps": [
          {
           "view": {
-           "lon": 146.0,
-           "lat": 62.0,
-           "span": 22.0
+           "lon": 146.2,
+           "lat": 61.158,
+           "span": 21.624
           },
           "places": [
            {
@@ -3052,9 +3080,9 @@
         "steps": [
          {
           "view": {
-           "lon": 144.9,
-           "lat": 61.56,
-           "span": 24.2
+           "lon": 140.565,
+           "lat": 61.827,
+           "span": 31.014
           },
           "routes": [
            {
@@ -3227,52 +3255,10 @@
         "steps": [
          {
           "view": {
-           "lon": 145.34,
-           "lat": 62.88,
-           "span": 25.96
+           "lon": 145.474,
+           "lat": 61.643,
+           "span": 28.415
           },
-          "routes": [
-           {
-            "from": [
-             150.8,
-             59.56
-            ],
-            "via": [
-             [
-              150.9,
-              60.1
-             ],
-             [
-              151.4,
-              61.3
-             ],
-             [
-              148.16,
-              62.78
-             ],
-             [
-              145.0,
-              63.9
-             ],
-             [
-              143.23,
-              64.57
-             ],
-             [
-              135.6,
-              62.65
-             ]
-            ],
-            "to": [
-             129.73,
-             62.03
-            ],
-            "mode": "line",
-            "label": "Kolyma Highway",
-            "color": "red",
-            "seconds": 5.0
-           }
-          ],
           "places": [
            {
             "name": "Magadan",
@@ -3280,6 +3266,14 @@
             "lat": 59.56,
             "kind": "port",
             "label": "Magadan"
+           },
+           {
+            "name": "Susuman",
+            "lon": 148.16,
+            "lat": 62.78,
+            "kind": "site",
+            "label": "Susuman",
+            "icon": "mine"
            }
           ]
          }
@@ -3304,8 +3298,8 @@
          {
           "view": {
            "lon": 147.54,
-           "lat": 62.0,
-           "span": 20.9
+           "lat": 61.132,
+           "span": 21.266
           },
           "places": [
            {
@@ -3350,9 +3344,9 @@
         "steps": [
          {
           "view": {
-           "lon": 144.46,
-           "lat": 62.0,
-           "span": 18.92
+           "lon": 139.0,
+           "lat": 60.5,
+           "span": 40.0
           },
           "routes": [
            {
@@ -3394,23 +3388,6 @@
             "label": "Kolyma Highway",
             "color": "red",
             "seconds": 5.0
-           }
-          ],
-          "places": [
-           {
-            "name": "Magadan",
-            "lon": 150.8,
-            "lat": 59.56,
-            "kind": "port",
-            "label": "Magadan"
-           },
-           {
-            "name": "Susuman",
-            "lon": 148.16,
-            "lat": 62.78,
-            "kind": "site",
-            "label": "Susuman",
-            "icon": "mine"
            }
           ]
          }
@@ -3486,13 +3463,10 @@
         "steps": [
          {
           "view": {
-           "lon": 140.0,
-           "lat": 61.6,
-           "span": 76.32
-          },
-          "highlight": [
-           "file:fefd.geojson@accent"
-          ]
+           "lon": 134.96,
+           "lat": 58.0,
+           "span": 61.92
+          }
          },
          {
           "at": "received wage bonuses on",
@@ -3518,7 +3492,12 @@
             "kind": "port",
             "label": "Pevek"
            }
-          ]
+          ],
+          "view": {
+           "lon": 150.038,
+           "lat": 61.858,
+           "span": 98.215
+          }
          }
         ],
         "cut": true
@@ -3566,9 +3545,9 @@
         "steps": [
          {
           "view": {
-           "lon": 120.0,
-           "lat": 53.0,
-           "span": 48.0
+           "lon": 122.735,
+           "lat": 49.174,
+           "span": 58.563
           },
           "routes": [
            {
@@ -3624,9 +3603,9 @@
         "steps": [
          {
           "view": {
-           "lon": 122.4,
-           "lat": 53.96,
-           "span": 43.2
+           "lon": 119.15,
+           "lat": 49.567,
+           "span": 62.606
           },
           "routes": [
            {
@@ -3746,9 +3725,9 @@
         "steps": [
          {
           "view": {
-           "lon": 118.0,
-           "lat": 55.5,
-           "span": 18.0
+           "lon": 119.15,
+           "lat": 52.312,
+           "span": 56.753
           },
           "routes": [
            {
@@ -3966,13 +3945,10 @@
         "steps": [
          {
           "view": {
-           "lon": 98.0,
-           "lat": 59.2,
-           "span": 154.0
-          },
-          "highlight": [
-           "file:fefd.geojson@accent"
-          ]
+           "lon": 109.2,
+           "lat": 56.4,
+           "span": 114.8
+          }
          },
          {
           "at": "So now picture all",
@@ -4054,13 +4030,10 @@
         "steps": [
          {
           "view": {
-           "lon": 140.0,
-           "lat": 54.4,
-           "span": 56.16
+           "lon": 151.118,
+           "lat": 60.801,
+           "span": 70.793
           },
-          "highlight": [
-           "file:fefd.geojson@accent"
-          ],
           "places": [
            {
             "name": "Magadan",
@@ -4096,13 +4069,10 @@
         "steps": [
          {
           "view": {
-           "lon": 109.2,
-           "lat": 56.4,
-           "span": 114.8
+           "lon": 81.26,
+           "lat": 56.099,
+           "span": 117.102
           },
-          "highlight": [
-           "file:fefd.geojson@accent"
-          ],
           "places": [
            {
             "name": "Moscow",
@@ -4135,9 +4105,9 @@
         "steps": [
          {
           "view": {
-           "lon": 146.0,
-           "lat": 63.1,
-           "span": 23.32
+           "lon": 152.068,
+           "lat": 62.322,
+           "span": 47.592
           },
           "highlight": [
            "Magadan@red"
@@ -4207,9 +4177,9 @@
         "steps": [
          {
           "view": {
-           "lon": 170.0,
-           "lat": 66.0,
-           "span": 24.0
+           "lon": 168.846,
+           "lat": 66.496,
+           "span": 72.05
           },
           "highlight": [
            "file:chukotka.geojson@red"
@@ -4362,23 +4332,10 @@
      "text": "The Far East is empty partly because nature made it hard. But it was emptier in twenty twenty-one than it had been in nineteen eighty-nine. Most of those people did not leave because the climate changed. They left because the reason they had come was gone.",
      "shots": [
       {
-       "type": "map",
+       "type": "photo",
        "at": 0,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 143.6,
-           "lat": 59.44,
-           "span": 62.856
-          },
-          "highlight": [
-           "file:fefd.geojson@red"
-          ]
-         }
-        ],
-        "cut": true
-       }
+       "photo": "File:Snow in eastern Russia (MODIS 2015-01-02).jpg",
+       "on_screen_text": "Eastern Russia in winter (NASA MODIS)"
       },
       {
        "type": "photo",
@@ -4410,12 +4367,25 @@
         "steps": [
          {
           "view": {
-           "lon": 136.4,
-           "lat": 56.56,
-           "span": 76.824
+           "lon": 140.0,
+           "lat": 50.093,
+           "span": 68.06
           },
-          "highlight": [
-           "file:fefd.geojson@accent"
+          "places": [
+           {
+            "name": "Yuzhno-Sakhalinsk",
+            "lon": 142.73,
+            "lat": 46.96,
+            "kind": "city",
+            "label": "Yuzhno-Sakhalinsk"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
           ]
          }
         ],
@@ -4462,13 +4432,10 @@
         "steps": [
          {
           "view": {
-           "lon": 142.16,
-           "lat": 55.12,
-           "span": 57.269
+           "lon": 144.19,
+           "lat": 55.351,
+           "span": 74.733
           },
-          "highlight": [
-           "file:fefd.geojson@accent"
-          ],
           "places": [
            {
             "name": "Yakutsk",
@@ -4546,9 +4513,9 @@
         "steps": [
          {
           "view": {
-           "lon": 137.84,
-           "lat": 60.88,
-           "span": 82.411
+           "lon": 150.518,
+           "lat": 61.824,
+           "span": 126.789
           },
           "highlight": [
            "Magadan@red",
@@ -4576,13 +4543,10 @@
         "steps": [
          {
           "view": {
-           "lon": 145.04,
-           "lat": 58.0,
-           "span": 66.348
+           "lon": 142.16,
+           "lat": 50.472,
+           "span": 72.03
           },
-          "highlight": [
-           "file:fefd.geojson@accent"
-          ],
           "places": [
            {
             "name": "Vladivostok",
@@ -4624,7 +4588,20 @@
             "kind": "city",
             "label": "Petropavlovsk-Kamchatsky"
            }
-          ]
+          ],
+          "view": {
+           "lon": 143.202,
+           "lat": 53.235,
+           "span": 84.185
+          }
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": 142.16,
+           "lat": 55.12,
+           "span": 48.679
+          }
          }
         ],
         "cut": true
@@ -4659,8 +4636,8 @@
          {
           "view": {
            "lon": 159.0,
-           "lat": 54.0,
-           "span": 14.0
+           "lat": 53.555,
+           "span": 11.856
           },
           "places": [
            {
@@ -4744,9 +4721,9 @@
         "steps": [
          {
           "view": {
-           "lon": 150.0,
-           "lat": 46.0,
-           "span": 32.0
+           "lon": 151.305,
+           "lat": 44.875,
+           "span": 58.913
           },
           "places": [
            {
@@ -4778,9 +4755,9 @@
         "steps": [
          {
           "view": {
-           "lon": 160.0,
-           "lat": 40.0,
-           "span": 50.0
+           "lon": 154.0,
+           "lat": 43.477,
+           "span": 68.842
           },
           "places": [
            {
@@ -4816,9 +4793,9 @@
         "steps": [
          {
           "view": {
-           "lon": 159.7,
-           "lat": 54.28,
-           "span": 12.6
+           "lon": 162.09,
+           "lat": 52.007,
+           "span": 26.53
           },
           "arrows": [
            {
@@ -4906,9 +4883,9 @@
         "steps": [
          {
           "view": {
-           "lon": 129.32,
-           "lat": 50.0,
-           "span": 20.64
+           "lon": 128.285,
+           "lat": 48.907,
+           "span": 37.384
           },
           "routes": [
            {
@@ -5011,9 +4988,9 @@
         "steps": [
          {
           "view": {
-           "lon": 134.96,
-           "lat": 58.0,
-           "span": 60.062
+           "lon": 139.315,
+           "lat": 62.465,
+           "span": 226.348
           },
           "highlight": [
            "file:fefd.geojson@red"
@@ -5030,9 +5007,9 @@
         "steps": [
          {
           "view": {
-           "lon": 127.22,
-           "lat": 47.04,
-           "span": 30.68
+           "lon": 126.811,
+           "lat": 45.635,
+           "span": 62.541
           },
           "highlight": [
            "file:china_ne.geojson@alt"
@@ -5114,13 +5091,10 @@
         "steps": [
          {
           "view": {
-           "lon": 129.82,
-           "lat": 46.0,
-           "span": 24.7
+           "lon": 129.095,
+           "lat": 44.514,
+           "span": 24.908
           },
-          "highlight": [
-           "file:china_ne.geojson@alt"
-          ],
           "places": [
            {
             "name": "Harbin",
@@ -5128,6 +5102,20 @@
             "lat": 45.75,
             "kind": "city",
             "label": "Harbin"
+           },
+           {
+            "name": "Changchun",
+            "lon": 125.32,
+            "lat": 43.88,
+            "kind": "city",
+            "label": "Changchun"
+           },
+           {
+            "name": "Shenyang",
+            "lon": 123.43,
+            "lat": 41.8,
+            "kind": "city",
+            "label": "Shenyang"
            }
           ]
          }
@@ -5158,14 +5146,10 @@
         "steps": [
          {
           "view": {
-           "lon": 126.18,
-           "lat": 46.0,
-           "span": 22.36
+           "lon": 128.285,
+           "lat": 48.446,
+           "span": 40.942
           },
-          "highlight": [
-           "file:china_ne.geojson@alt",
-           "file:fefd.geojson@red"
-          ],
           "routes": [
            {
             "from": [
@@ -5276,9 +5260,9 @@
         "steps": [
          {
           "view": {
-           "lon": 115.8,
-           "lat": 50.0,
-           "span": 51.6
+           "lon": 126.0,
+           "lat": 53.455,
+           "span": 104.441
           },
           "arrows": [
            {
@@ -5394,9 +5378,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.0,
-           "lat": 51.2,
-           "span": 25.44
+           "lon": 130.616,
+           "lat": 49.225,
+           "span": 66.599
           },
           "highlight": [
            "file:aigun.geojson@red",
@@ -5426,9 +5410,9 @@
         "steps": [
          {
           "view": {
-           "lon": 140.0,
-           "lat": 61.6,
-           "span": 74.03
+           "lon": 135.905,
+           "lat": 52.16,
+           "span": 90.11
           },
           "layer": "night",
           "routes": [
@@ -5473,12 +5457,32 @@
         "steps": [
          {
           "view": {
-           "lon": 100.8,
-           "lat": 67.6,
-           "span": 165.2
+           "lon": 65.88,
+           "lat": 49.794,
+           "span": 177.129
           },
-          "highlight": [
-           "file:fefd.geojson@red"
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           },
+           {
+            "name": "London",
+            "lon": -0.13,
+            "lat": 51.51,
+            "kind": "capital",
+            "label": "London"
+           }
           ]
          }
         ],

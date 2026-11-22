@@ -330,11 +330,11 @@ chapter(
       photo("that people walk out", PH_ICEFISH, "Ice fishing in the Russian Far East (Tumnin River)"),
       sat("fish through holes in", 131.80, 43.15, 0.5, "Amur Bay, frozen, 19 January 2024", date=ICE_DAY),
       stat("Same latitude as the", "21 °C", "Colder in January than Nice, at the same latitude", CLIM),
-      m("And north of Vladivostok", v(FAR_EAST, highlight=[FEFD], places=[VLAD_C]))),
+      m("And north of Vladivostok", v(FAR_EAST, places=[VLAD_C, YAKUTSK, MAGADAN]))),
     P("P2",
       m(0, v(RUSSIA, highlight=[FEFD]), text="The Far Eastern Federal District"),
       stat("covers almost seven million", "6.95 MILLION KM²", "Area of the Far Eastern Federal District", ROSSTAT, note="About 40 % of Russia"),
-      m("an area bigger than", v(FAR_EAST, highlight=[FEFD])),
+      m("an area bigger than", v(RUSSIA, places=[MOSCOW, VLAD_C])),
       stat("At the last census,", "7.98 MILLION", "People in the whole district, 2021 census", ROSSTAT),
       m("More people than that", v(near(-0.13, 51.51, 4.0), places=[LONDON]), text="London")),
     P("P3",
@@ -466,7 +466,7 @@ chapter(
       m(0, v(CHINA_V, places=[BEIJING])),
       m("A Russian envoy, Nikolay", v(near(116.4, 39.9, 6.0), places=[BEIJING])),
       stat("and in November eighteen", "14 NOV 1860", "Convention of Peking: the coast east of the Ussuri", HIST),
-      m("gave Russia the coast", v(AMUR_V, highlight=[AIGUN, PRIM])),
+      m("gave Russia the coast", v(AMUR_V, highlight=[PRIM])),
       m("That is today's Primorsky", v(PRIMORYE, highlight=[PRIM], places=[VLAD_C])),
       m("China calls these the", v(CHINA_V, highlight=[AIGUN, PRIM], places=[BEIJING]), text="Outer Manchuria")),
     P("P22",
@@ -508,11 +508,11 @@ chapter(
       m("the Soviet system of", v(near(148.0, 62.0, 8.0), places=[SUSUMAN, KOLYMA_GOLD])),
       stat("in nineteen fifty-two the", "~200,000", "Prisoners in camps under Dalstroy, 1952", DAL)),
     P("P27",
-      m(0, v(KOLYMA, routes=[KOLYMA_RD], places=[MAGADAN])),
+      m(0, v(KOLYMA, places=[MAGADAN, SUSUMAN])),
       stat("Estimates by historians range", "130,000 TO 1 MILLION+", "Estimates of deaths in Kolyma: no agreed number", "Historians' estimates differ"),
       m("We do not know", v(KOLYMA, places=[KOLYMA_GOLD, MAGADAN])),
       photo("What is not in", PH_R504_2024, "The R504 Kolyma Highway, 2024"),
-      m("They called it the", v(KOLYMA, routes=[KOLYMA_RD], places=[MAGADAN, SUSUMAN]))),
+      m("They called it the", v({"lon": 139.0, "lat": 60.5, "span": 40.0}, routes=[KOLYMA_RD]))),
     P("P28",
       sat(0, 150.78, 59.575, 0.15, "Magadan"),
       stat("and in nineteen fifty-seven", "1957", "Dalstroy dissolved", DAL),
@@ -524,7 +524,7 @@ chapter(
 chapter(
     P("P29",
       photo(0, PH_MAG_LIGHTS, "Magadan at night"),
-      m("Workers in the Far", v(FAR_EAST, highlight=[FEFD_A]), step("received wage bonuses on", places=[MAGADAN, ANADYR, place("Pevek", 170.30, 69.70, "Pevek", "port")])),
+      m("Workers in the Far", v(FAR_EAST), step("received wage bonuses on", places=[MAGADAN, ANADYR, place("Pevek", 170.30, 69.70, "Pevek", "port")])),
       photo("and they were guaranteed", PH_PEVEK, "Pevek, Chukotka, 2008"),
       photo("For many people, that", PH_ANADYR, "Anadyr harbour, Chukotka"),
       sat("work hard, save, and", 177.50, 64.73, 0.3, "Anadyr, June 2024", date=SUMMER24)),
@@ -544,12 +544,12 @@ chapter(
       photo("The line was cut", PH_TYNDA_RAIL, "Single track at Tynda"),
       stat("and it was only", "1991", "The BAM is declared complete", MSU)),
     P("P32",
-      m(0, v(RUSSIA, highlight=[FEFD_A]), step("So now picture all", places=[MAGADAN, YAKUTSK, TYNDA])),
+      m(0, v(RUSSIA), step("So now picture all", places=[MAGADAN, YAKUTSK, TYNDA])),
       sat("Mining towns on the", 148.16, 62.78, 0.3, "Susuman, a Kolyma mining town", date=SUMMER24),
       sat("railway towns in the", 109.31, 55.64, 0.3, "Severobaikalsk, a BAM town"),
       photo("all built by a", PH_PEVEK_S, "Pevek, Chukotka"),
-      m("and shipped in their", v(FAR_EAST, highlight=[FEFD_A], places=[MAGADAN, ANADYR, YAKUTSK])),
-      m("And then, at the", v(RUSSIA, highlight=[FEFD_A], places=[MOSCOW]))),
+      m("and shipped in their", v(FAR_EAST, places=[MAGADAN, ANADYR, YAKUTSK])),
+      m("And then, at the", v(EURASIA, places=[MOSCOW]))),
 )
 
 # ================================================================== 7. The emptying
@@ -574,23 +574,23 @@ chapter(
       sat("People who could leave,", 150.82, 59.55, 0.4, "Magadan, 2025"),
       photo("Some mining settlements were", PH_MAG_LIGHTS, "Magadan today")),
     P("P36",
-      m(0, v(FAR_EAST, highlight=[FEFD])),
+      photo(0, PH_MOD_SNOW, "Eastern Russia in winter (NASA MODIS)"),
       photo("But it was emptier", PH_MAG_VIEW, "Magadan"),
       photo("Most of those people", PH_BEREL_MICRO, "Berelekh, a Kolyma mining settlement"),
       photo("They left because the", PH_NAGAEVO, "Magadan")),
     P("P37",
-      m(0, v(FAR_EAST, highlight=[FEFD_A])),
+      m(0, v(FAR_EAST, places=[YUZHNO, VLAD_C])),
       stat("In twenty sixteen, it", "2016", "The Far Eastern Hectare: free land for Russian citizens", ERDC),
       sat("Russian citizens can apply", 142.73, 46.96, 0.25, "Yuzhno-Sakhalinsk"),
       photo("to build a house,", PH_YUZHNO, "Yuzhno-Sakhalinsk"),
-      m("According to the state", v(FAR_EAST, highlight=[FEFD_A], places=[YAKUTSK, KHAB, PETRO])),
+      m("According to the state", v(FAR_EAST, places=[YAKUTSK, KHAB, PETRO])),
       stat("by August twenty twenty-five,", "151,103", "People given a plot in the Far East, by 27 Aug 2025", ERDC),
       sat("people had received a", 158.65, 53.02, 0.4, "Petropavlovsk-Kamchatsky"),
       stat("Just over half of", "53 %", "Of the land used for housing", ERDC, note="Farming: 28 %")),
     P("P38",
       m(0, v(FAR_EAST, highlight=["Magadan@red", "file:chukotka.geojson@red"])),
       stat("lost more than three", "~359,000", "People lost by Magadan Oblast and Chukotka, 1989-2021", OWNCEN, note="vs 151,103 hectare plots"),
-      m("If you were offered", v(FAR_EAST, highlight=[FEFD_A], places=[VLAD_C, KHAB]), step("would you take it,", places=[YAKUTSK, MAGADAN, PETRO])),
+      m("If you were offered", v(FAR_EAST, places=[VLAD_C, KHAB]), step("would you take it,", places=[YAKUTSK, MAGADAN, PETRO])),
       photo("Because before you answer,", PH_KORYAK, "Koryaksky volcano above Petropavlovsk-Kamchatsky"),
       ask=("If you were offered", "Would you take a free hectare in Russia's Far East? Where?")),
 )
@@ -619,10 +619,10 @@ chapter(
       sat("Heilongjiang alone, the province", 126.63, 45.75, 0.4, "Harbin, capital of Heilongjiang"),
       stat("has about four times", "~4×", "Heilongjiang (31.9 M) vs the whole Russian Far East", "Own calculation: NBS 2020, Rosstat 2021")),
     P("P42",
-      m(0, v(CHINA_V, highlight=[CHINA_NE], places=[HARBIN])),
+      m(0, v(CHINA_V, places=[HARBIN, CHANGCHUN, SHENYANG])),
       stat("At their census, all", "6.98 %", "Northeast's share of China's people, 2020", NBS, note="2010: 8.18 %"),
       photo("Analyses of that census", PH_BLAG_HEIHE2, "Heihe and Blagoveshchensk"),
-      m("On both sides of", v(CHINA_V, highlight=[CHINA_NE, FEFD], routes=[AMUR_BORDER]), step("is losing people to", places=[HARBIN, KHAB]))),
+      m("On both sides of", v(CHINA_V, routes=[AMUR_BORDER]), step("is losing people to", places=[HARBIN, KHAB]))),
 )
 
 # ================================================================== Ending
@@ -639,7 +639,7 @@ chapter(
       photo("It filled the north", PH_R504_STELE, "The Kolyma Highway"),
       photo("and when the wages", PH_PEVEK, "Pevek, Chukotka, 2008"),
       m("What is left is", v(FAR_EAST, layer="night", routes=[TRANSSIB_E])),
-      m("and behind it, an", v(RUSSIA, highlight=[FEFD]))),
+      m("and behind it, an", v(EURASIA, places=[MOSCOW, VLAD_C, LONDON]))),
     P("P45",
       m(0, v(LATLINE, routes=[LAT43], places=[NICE, VLAD])),
       photo("One faces a warm", PH_NICE_BAY, "Nice"),
@@ -697,6 +697,58 @@ for ch in chapters:
                     steps.append(move)
             steps[1:] = sorted(steps[1:], key=lambda st: word_at(para["text"], st["at"]) if st.get("at") is not None else 0)
 
+
+def prefit_views():
+    """Write the camera the pipeline would choose into the script. When places, arrows, routes or painted areas fall
+    outside a hand-picked view, maps.py zooms out around them; render 1 then showed the edge of the imagery fetched
+    for the hand-picked view (black vertical strips, 10 shots). With the fitted view written here, view and imagery
+    agree. Views past 180 degrees get a second world image east of it (pipeline/maps.py)."""
+    import math
+    import geo
+    from maps import _arrow_hull, _inside_safe, _bounds_of, _span_for, fit, resolve_area, union_box, unit_pt, view_box
+
+    def items_of(st):
+        out = [("pt", (*unit_pt(pl["lon"], pl["lat"]), "site")) for pl in st.get("places", [])]
+        for a in st.get("arrows", []):
+            out.append(("line", _arrow_hull(unit_pt(*a["from"]), unit_pt(*a["to"]), a.get("bend", 0.2))))
+        for r in st.get("routes", []):
+            out.append(("line", [unit_pt(*q) for q in [r["from"], *r.get("via", []), r["to"]]]))
+        for h in st.get("highlight", []):
+            area = resolve_area(h.split("@")[0], HERE)
+            if area:
+                out.append(("geom", area[2]))
+        return out
+
+    def to_view(t):
+        lat = math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * t["y"]))))
+        span = t["w"] * 360
+        lon = t["x"] * 360 - 180
+        return {"lon": round(lon, 3), "lat": round(lat, 3), "span": round(span, 3)}
+
+    n = 0
+    for ch in chapters:
+        for para in ch["paragraphs"]:
+            for sh in para["shots"]:
+                if sh["type"] != "map":
+                    continue
+                cur = None
+                for st in sh["map"]["steps"]:
+                    if st.get("compare"):
+                        cur = None
+                        continue
+                    if st.get("view"):
+                        cur = {"x": float(geo.mx(st["view"]["lon"])), "y": float(geo.my(st["view"]["lat"])), "w": st["view"]["span"] / 360.0}
+                    items = items_of(st)
+                    if cur is None or not items or _inside_safe(_bounds_of(items), cur, True, slack=0.0):
+                        continue
+                    span0 = cur["w"] * 360
+                    cur = fit(union_box([_bounds_of(items), view_box(cur, 0.4)]), True, min(_span_for(items), span0))
+                    st["view"] = to_view(cur)
+                    n += 1
+    print(f"prefit: {n} views widened to fit their content")
+
+
+prefit_views()
 
 TITLE = "Why Russia's Pacific Coast Is Almost Empty"
 script = {

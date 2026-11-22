@@ -809,6 +809,13 @@ def build_block(block_id: str, subs: list[dict], style: str, captions: bool, fra
             rasters.append(world_cache[world_name])
         else:
             world_cache[world_name] = add(layer, (0.0, 0.0, 1.0, 1.0), 4096, False, world_name)
+        # Views that reach past 180 degrees (Chukotka, the Bering Strait) showed black there: the world image ends at
+        # x = 1. A second copy of it, one world to the east (or west), fills the frame (Russia's Far East, render 1).
+        world = world_cache.get(world_name)
+        if world and layer != "relief":
+            for side in (1.0, -1.0):
+                if any((view_box(c)[2] > 1.0) if side > 0 else (view_box(c)[0] < 0.0) for c in plan.cams):
+                    rasters.append({**world, "x0": world["x0"] + side, "x1": world["x1"] + side})
         done: list[dict] = []
         for c in (plan.cams if layer != "night" else _night_cams(plan)):
             if c["w"] > 0.45:  # the world image is sharp enough for continent-sized views

@@ -50,3 +50,47 @@ Title: "Why Russia's Pacific Coast Is Almost Empty" (alt "Why Almost Nobody Live
 6. Filled by force and money: Dalstroy, Kolyma, BAM, Soviet northern pay.
 7. Emptied by 1991: Magadan -65 %, Chukotka -70 % (Rosstat), the hectare.
 8. The edge of the Ring of Fire and the border: Kamchatka 2025, China's NE across the Amur. Closing question.
+
+# Round 2 (2026-11-22): primary sources
+- V (1989 USSR census, vol. 1 part 1 table 3, "численность наличного населения", Demoscope
+  http://www.demoscope.ru/weekly/ssp/rus89_reg1.php, cp1251 decoded): Magadan Oblast incl. Chukotka 542,868;
+  Chukotka AO 157,528 -> Magadan without Chukotka 385,340 OWN; Kamchatka 466,096; Sakhalin 709,629; Primorsky 2,258,391;
+  Khabarovsk (incl. Jewish AO) 1,824,506; Jewish AO 215,937; Amur 1,057,781; Yakut ASSR 1,081,408.
+  Note: 1989 = present population, 2021 = permanent; small definitional gap, so round ("about two-thirds").
+  OWN changes 1989 -> 2021: Magadan -65 %, Chukotka -70 %, Kamchatka -37 %, Sakhalin -34 %, Amur -27 %, Primorsky -18 %.
+  Khabarovsk 1989 includes the Jewish AO: compare 1,824,506 with 1,292,944 + 150,453 = 1,443,397 -> -21 % OWN.
+- A (Wikipedia citing Rosstat 2021 census): FEFD 6,952,555 km2 (40.6 % of Russia), 7,975,762 (5.6 %);
+  Vladivostok 603,519; Khabarovsk 617,441 (check digits, Rosstat); Yakutsk 355,443, "largest city located in
+  continuous permafrost".
+- A (Wikipedia; Pogoda i Klimat + NOAA, 1991-2020): Vladivostok January mean -11.9 C (max -7.8, min -15.0); the
+  pogodaiklimat.ru station 31960 page gives the same row. Nice January mean 9.5 C (max 13.3, min 5.8), 1991-2020,
+  Meteo-France (via Wikipedia; meteofrance page 404). Use "about minus twelve" vs "about plus nine and a half".
+- V (NASA Earth Observatory, 11 Jan 2015, "Southernmost Seasonal Sea Ice in the Northern Hemisphere",
+  science.nasa.gov/earth/earth-observatory/southernmost-seasonal-sea-ice-in-the-northern-hemisphere-85053):
+  "the lowest latitude for seasonal sea ice formation in the world"; sea >1,500,000 km2, stretches to 45 N;
+  ice "can spread across 50 to 90 percent of it at its annual peak"; persists 180 days on average; winds from East
+  Siberia, frigid air and river freshwater, much from the Amur; ice production -11 % 1974-2008.
+- V (USGS ComCat us6000qw60 geojson): M 8.8 mww, 2025-07-29 23:24:52 UTC, reviewed, tsunami flag 1, depth 35 km
+  (DYFI product), 52.49 N 160.24 E; tectonic summary: "among the top ten largest earthquakes ... since 1900",
+  largest since 2011 Tohoku; shallow reverse faulting on the Kuril-Kamchatka subduction interface; Pacific plate
+  ~80 mm/yr; 1952 Mw 9.0 Kamchatka the largest on this section. Place string not read verbatim: say "off Kamchatka".
+- V (NBS China, Communique of the 7th census No. 3, 11 May 2021): Liaoning 42,591,407; Jilin 24,073,453;
+  Heilongjiang 31,850,088; northeast total 98,514,948 (6.98 %); shares fell from 3.27/2.05/2.86 % (2010).
+  Heilongjiang alone 31.9 M ~ 4x the whole FEFD (OWN).
+- A (Wikipedia: Treaty of Aigun, Convention of Peking; Britannica 403): Aigun 28 May 1858 (Muravyov, Yishan),
+  >600,000 km2 between the Stanovoy Range and the Amur; Peking 14 Nov 1860 (Ignatyev, Prince Gong) Ussuri krai /
+  Primorye (article gives 400,000 km2 for "Outer Manchuria", citation weak): say "a second treaty two years later
+  added the coast down to Korea". Vladivostok founded 2 July 1860 (Gregorian) as a military post; name ~ "Ruler of
+  the East" (V-ish: etymology on page).
+- A (soviethistory.msu.edu, BAM): revived March 1974; golden spike 1984 with less than a third operational;
+  "only declared complete in 1991"; "forty percent of its rail laid on permafrost"; seven mountain ranges; scaled to
+  single track as money ran out; one of Russia's least profitable railroads by the mid-1990s; earlier section built
+  1944-46 by POWs and political prisoners. Length 4,324 km Tayshet-Sovetskaya Gavan (Wikipedia). Cost and volunteer
+  numbers: not confirmed -> leave out.
+- V (Far East and Arctic Development Corporation, erdc.ru): Hectare since 2016 (Arctic from Aug 2021); 151,103
+  people got a hectare in the Far East by 27 Aug 2025; ~180,000 Far East + Arctic by June 2026; 38,500 moved to
+  ownership or long lease (June 2026); uses: housing 53 %, farming 28 %. 17,400 in 2024, 21,600 in 2025.
+  The ownership rule (years) not confirmed -> do not state.
+- A (Wikipedia Oymyakon): -67.7 C on 6 Feb 1933; Verkhoyansk -67.8 C Feb 1892 (cited Stepanova, NOAA archive).
+  Use "close to minus sixty-eight", "the coldest towns in the Northern Hemisphere" as attributed.
+- Permafrost share of Russia (~65 %): NOT confirmed -> use "most of the region" only, or cut.

@@ -11,5 +11,14 @@ if (-not $tag) { Write-Error "No release found for $Slug"; exit 1 }
 $dest = Join-Path $env:USERPROFILE "Videos\yt-pipeline\$Slug"
 New-Item -ItemType Directory -Force $dest | Out-Null
 gh release download $tag -R $repo -D $dest --clobber
+$dlOk = ($LASTEXITCODE -eq 0)
+# Every asset of the release must be on disk at its full size before the release may be deleted (a dropped
+# connection once left the mp4 behind and the release was deleted anyway, 2026-11-22).
+$assets = (gh release view $tag -R $repo --json assets | ConvertFrom-Json).assets
+$missing = @($assets | Where-Object { $f = Join-Path $dest $_.name; -not (Test-Path $f) -or (Get-Item $f).Length -ne $_.size })
+if (-not $dlOk -or $missing.Count -gt 0) {
+    Write-Error ("Download incomplete for $tag (missing or short: " + (($missing | ForEach-Object { $_.name }) -join ", ") + "); release kept. Run again.")
+    exit 1
+}
 Write-Output "Downloaded $tag to $dest"
 if ($Delete) { gh release delete $tag -R $repo -y --cleanup-tag; Write-Output "Deleted release $tag" }

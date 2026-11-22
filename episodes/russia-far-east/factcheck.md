@@ -19,44 +19,44 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 13 | c01p03 | narration | At the last census, fewer than eight million people lived in all of it. | Rosstat via Wikipedia FEFD (6,952,555 km2, 40.6 %; 7,975,762 in 2021) | verified |
 | 14 | c01p03 | stat card | 6.95 MILLION KM²: Area of the Far Eastern Federal District (About 40 % of Russia) | Rosstat via Wikipedia FEFD (6,952,555 km2, 40.6 %; 7,975,762 in 2021) | verified |
 | 15 | c01p03 | stat card | 7.98 MILLION: People in the whole district, 2021 census | Rosstat via Wikipedia FEFD (7,975,762 at the 2021 census) | verified |
-| 16 | c01p03 | on screen | London: about 8.8 million people (2021) | ONS 2021 census: London 8,799,800 | verified |
-| 17 | c01p04 | narration | Part of it is in two treaties, a railway built twice, and a system of camps. | Framing / transition (no new fact) | verified |
-| 18 | c01p04 | narration | Since the Soviet Union ended, some regions here have lost two out of every three people they had. | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
-| 19 | c01p04 | on screen | The China-USSR border along the Amur, 1960 map | Commons file description / Sentinel-2 or map view (place shown) | verified |
-| 20 | c01p04 | on screen | The Kolyma Highway, 2024 | Wikipedia Dalstroy / Kolyma Highway (archival figures cited there); research.md section 3 | verified |
-| 21 | c01p04 | stat card | -70 %: Chukotka's population, 1989 to 2021 | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
-| 22 | c02p01 | on screen | Nice in March | Commons file description / Sentinel-2 or map view (place shown) | verified |
-| 23 | c02p02 | narration | It is one of the strongest weather systems on the planet in winter, and it sits there for months. | Wikipedia Siberian High ('strongest semi-permanent high in the northern hemisphere', September-April, centred near Baikal; Oliver 2005) | verified |
-| 24 | c02p02 | on screen | Siberia under snow (NASA MODIS, January 2015) | Commons file description (NASA, public domain) | verified |
-| 25 | c02p02 | on screen | Verkhoyansk valley in March | Commons file description / Sentinel-2 view (place shown) | verified |
-| 26 | c02p02 | on screen | Verkhoyansk airport in March | Commons file description / Sentinel-2 view (place shown) | verified |
-| 27 | c02p03 | narration | This is the winter half of the East Asian monsoon. | Wikipedia Siberian High (Chang, The East Asian Monsoon); standard climatology | verified |
-| 28 | c02p04 | narration | Inland, in the Republic of Sakha, also called Yakutia, there are two small towns that compete for the title of the coldest inhabited place in the Northern Hemisphere. | Wikipedia Oymyakon/Verkhoyansk (rival claims to the Northern Hemisphere's coldest inhabited place) | verified |
-| 29 | c02p04 | narration | In eighteen ninety-two, Verkhoyansk recorded about minus sixty-eight degrees. | Wikipedia Oymyakon (Verkhoyansk -67.8 C, 5 and 7 Feb 1892; Stepanova, NOAA archive) | verified |
-| 30 | c02p04 | narration | In nineteen thirty-three, the weather station at Oymyakon recorded minus sixty-seven point seven. | Wikipedia Oymyakon (-67.7 C on 6 Feb 1933; Stepanova; Burt) | verified |
-| 31 | c02p04 | stat card | -67.8 °C: Verkhoyansk, February 1892 | Wikipedia Oymyakon (Verkhoyansk -67.8 C, 5 and 7 Feb 1892; Stepanova, NOAA archive) | verified |
-| 32 | c02p04 | stat card | -67.7 °C: Oymyakon, 6 February 1933 | Wikipedia Oymyakon (-67.7 C on 6 Feb 1933; Stepanova; Burt) | verified |
-| 33 | c02p05 | narration | On the twentieth of June, twenty twenty, Verkhoyansk reached thirty-eight degrees. | WMO press release 14 Dec 2021 (Verkhoyansk 38 C, 20 June 2020, Arctic record) | verified |
-| 34 | c02p05 | narration | One town, a range of more than a hundred degrees between its coldest and its hottest day. | Own arithmetic: 38 - (-67.8) = 105.8 C | own |
-| 35 | c02p05 | stat card | +38 °C: Verkhoyansk, 20 June 2020: the Arctic's highest recorded temperature | WMO press release 14 Dec 2021 (Verkhoyansk 38 C, 20 June 2020, Arctic record) | verified |
-| 36 | c02p05 | stat card | ~106 °C: Between Verkhoyansk's coldest and hottest readings | Own arithmetic: 38 - (-67.8) = 105.8 C | own |
-| 37 | c02p06 | narration | A few hundred kilometres to the north, it does something to the sea itself. | Framing / transition (no new fact) | verified |
-| 38 | c03p01 | narration | It covers more than one and a half million square kilometres, almost three times the size of mainland France. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere'; own ratio 1.5 M / 551,695 km2 = 2.7 | verified |
-| 39 | c03p01 | stat card | 1.5 MILLION KM²: Area of the Sea of Okhotsk (Almost three times the size of mainland France) | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere'; own ratio 1.5 M / 551,695 km2 = 2.7 | verified |
-| 40 | c03p02 | narration | According to NASA's Earth Observatory, at the annual peak, ice can cover between fifty and ninety percent of the sea. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
-| 41 | c03p02 | narration | On average it stays for about a hundred and eighty days, half the year. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
-| 42 | c03p02 | narration | The sea reaches south to about forty-five degrees north, the latitude of Venice. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
-| 43 | c03p02 | on screen | The Sea of Okhotsk, 2 February 2020 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
-| 44 | c03p02 | stat card | 50-90 %: Of the sea under ice at the yearly peak | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
-| 45 | c03p02 | stat card | 180 DAYS: Average time the ice stays | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
-| 46 | c03p02 | on screen | The icy heart of the North Pacific, March 2021 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
-| 47 | c03p03 | narration | NASA names three reasons. | Framing / transition (no new fact) | verified |
-| 48 | c03p03 | on screen | Ice swirls in the Sea of Okhotsk, March 2019 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
-| 49 | c03p03 | on screen | Ice in the Gulf of Sakhalin, February 2020 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
-| 50 | c03p04 | narration | Between mid-January and early February, it usually reaches the waters off Abashiri, a port on the northeast coast of Hokkaido in Japan. | NASA Earth Observatory 20 Mar 2020 'Drift Ice in the Sea of Okhotsk' | verified |
-| 51 | c03p04 | on screen | Sea ice approaching Hokkaido, March 2021 (NASA MODIS) | NASA Earth Observatory 20 Mar 2020 'Drift Ice in the Sea of Okhotsk' | verified |
-| 52 | c03p05 | narration | We will come back to Magadan, because what happened there tells the whole story of this region. | Framing / transition (no new fact) | verified |
-| 53 | c03p05 | on screen | Ice off the Russian coast, April 2022 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
+| 16 | c01p04 | narration | Part of it is in two treaties, a railway built twice, and a system of camps. | Framing / transition (no new fact) | verified |
+| 17 | c01p04 | narration | Since the Soviet Union ended, some regions here have lost two out of every three people they had. | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
+| 18 | c01p04 | on screen | The China-USSR border along the Amur, 1960 map | Commons file description / Sentinel-2 or map view (place shown) | verified |
+| 19 | c01p04 | on screen | The Kolyma Highway, 2024 | Wikipedia Dalstroy / Kolyma Highway (archival figures cited there); research.md section 3 | verified |
+| 20 | c01p04 | stat card | -70 %: Chukotka's population, 1989 to 2021 | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
+| 21 | c02p01 | on screen | Nice in March | Commons file description / Sentinel-2 or map view (place shown) | verified |
+| 22 | c02p02 | narration | It is one of the strongest weather systems on the planet in winter, and it sits there for months. | Wikipedia Siberian High ('strongest semi-permanent high in the northern hemisphere', September-April, centred near Baikal; Oliver 2005) | verified |
+| 23 | c02p02 | on screen | Siberia under snow (NASA MODIS, January 2015) | Commons file description (NASA, public domain) | verified |
+| 24 | c02p02 | on screen | Verkhoyansk valley in March | Commons file description / Sentinel-2 view (place shown) | verified |
+| 25 | c02p02 | on screen | Verkhoyansk airport in March | Commons file description / Sentinel-2 view (place shown) | verified |
+| 26 | c02p03 | narration | This is the winter half of the East Asian monsoon. | Wikipedia Siberian High (Chang, The East Asian Monsoon); standard climatology | verified |
+| 27 | c02p04 | narration | Inland, in the Republic of Sakha, also called Yakutia, there are two small towns that compete for the title of the coldest inhabited place in the Northern Hemisphere. | Wikipedia Oymyakon/Verkhoyansk (rival claims to the Northern Hemisphere's coldest inhabited place) | verified |
+| 28 | c02p04 | narration | In eighteen ninety-two, Verkhoyansk recorded about minus sixty-eight degrees. | Wikipedia Oymyakon (Verkhoyansk -67.8 C, 5 and 7 Feb 1892; Stepanova, NOAA archive) | verified |
+| 29 | c02p04 | narration | In nineteen thirty-three, the weather station at Oymyakon recorded minus sixty-seven point seven. | Wikipedia Oymyakon (-67.7 C on 6 Feb 1933; Stepanova; Burt) | verified |
+| 30 | c02p04 | stat card | -67.8 °C: Verkhoyansk, February 1892 | Wikipedia Oymyakon (Verkhoyansk -67.8 C, 5 and 7 Feb 1892; Stepanova, NOAA archive) | verified |
+| 31 | c02p04 | stat card | -67.7 °C: Oymyakon, 6 February 1933 | Wikipedia Oymyakon (-67.7 C on 6 Feb 1933; Stepanova; Burt) | verified |
+| 32 | c02p05 | narration | On the twentieth of June, twenty twenty, Verkhoyansk reached thirty-eight degrees. | WMO press release 14 Dec 2021 (Verkhoyansk 38 C, 20 June 2020, Arctic record) | verified |
+| 33 | c02p05 | narration | One town, a range of more than a hundred degrees between its coldest and its hottest day. | Own arithmetic: 38 - (-67.8) = 105.8 C | own |
+| 34 | c02p05 | stat card | +38 °C: Verkhoyansk, 20 June 2020: the Arctic's highest recorded temperature | WMO press release 14 Dec 2021 (Verkhoyansk 38 C, 20 June 2020, Arctic record) | verified |
+| 35 | c02p05 | stat card | ~106 °C: Between Verkhoyansk's coldest and hottest readings | Own arithmetic: 38 - (-67.8) = 105.8 C | own |
+| 36 | c02p06 | narration | A few hundred kilometres to the north, it does something to the sea itself. | Framing / transition (no new fact) | verified |
+| 37 | c03p01 | narration | It covers more than one and a half million square kilometres, almost three times the size of mainland France. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere'; own ratio 1.5 M / 551,695 km2 = 2.7 | verified |
+| 38 | c03p01 | stat card | 1.5 MILLION KM²: Area of the Sea of Okhotsk (Almost three times the size of mainland France) | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere'; own ratio 1.5 M / 551,695 km2 = 2.7 | verified |
+| 39 | c03p02 | narration | According to NASA's Earth Observatory, at the annual peak, ice can cover between fifty and ninety percent of the sea. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
+| 40 | c03p02 | narration | On average it stays for about a hundred and eighty days, half the year. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
+| 41 | c03p02 | narration | The sea reaches south to about forty-five degrees north, the latitude of Venice. | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
+| 42 | c03p02 | on screen | The Sea of Okhotsk, 2 February 2020 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
+| 43 | c03p02 | stat card | 50-90 %: Of the sea under ice at the yearly peak | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
+| 44 | c03p02 | stat card | 180 DAYS: Average time the ice stays | NASA Earth Observatory 11 Jan 2015 'Southernmost Seasonal Sea Ice in the Northern Hemisphere' | verified |
+| 45 | c03p02 | on screen | The icy heart of the North Pacific, March 2021 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
+| 46 | c03p03 | narration | NASA names three reasons. | Framing / transition (no new fact) | verified |
+| 47 | c03p03 | on screen | Ice swirls in the Sea of Okhotsk, March 2019 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
+| 48 | c03p03 | on screen | Ice in the Gulf of Sakhalin, February 2020 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
+| 49 | c03p04 | narration | Between mid-January and early February, it usually reaches the waters off Abashiri, a port on the northeast coast of Hokkaido in Japan. | NASA Earth Observatory 20 Mar 2020 'Drift Ice in the Sea of Okhotsk' | verified |
+| 50 | c03p04 | on screen | Sea ice approaching Hokkaido, March 2021 (NASA MODIS) | NASA Earth Observatory 20 Mar 2020 'Drift Ice in the Sea of Okhotsk' | verified |
+| 51 | c03p05 | narration | We will come back to Magadan, because what happened there tells the whole story of this region. | Framing / transition (no new fact) | verified |
+| 52 | c03p05 | on screen | Ice off the Russian coast, April 2022 (NASA MODIS) | Commons file description (NASA, public domain) | verified |
+| 53 | c03p05 | on screen | Drift ice beside the railway, Hokkaido, February 2025 | Commons file description (CC0, Senmo Main Line, 23 Feb 2025) | verified |
 | 54 | c04p01 | narration | This is permafrost: soil, rock and ice that have stayed below zero for at least two years in a row, and in much of Siberia for many thousands of years. | Standard permafrost definition (ground at or below 0 C for 2+ years; Wikipedia Permafrost); active layer | verified |
 | 55 | c04p03 | narration | The capital of Yakutia, Yakutsk, had about three hundred and fifty-five thousand people at the last census. | Wikipedia Yakutsk (2021 census 355,443) | verified |
 | 56 | c04p03 | stat card | 355,443: People in Yakutsk, 2021 census | Wikipedia Yakutsk (2021 census 355,443; 'largest city located in continuous permafrost') | verified |
@@ -122,7 +122,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 116 | c08p02 | narration | That is seventy percent gone. | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
 | 117 | c08p02 | narration | Kamchatka lost more than a third of its people. | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
 | 118 | c08p02 | stat card | 157,528 → 47,490: Chukotka, 1989 to 2021 | 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | verified |
-| 119 | c08p02 | chart | Population change, 1989 to 2021: Chukotka -70, Magadan -65, Kamchatka -37, Sakhalin -34, Primorsky -18 | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | own |
+| 119 | c08p02 | chart | Population lost, 1989 to 2021: Chukotka 70, Magadan 65, Kamchatka 37, Sakhalin 34, Primorsky 18 | Own calculation from 1989 USSR census vol.1 table 3 (Demoscope) and Rosstat 2021 | own |
 | 120 | c08p03 | on screen | Magadan, 2025 | Commons file description / Sentinel-2 or map view (place shown) | verified |
 | 121 | c08p04 | narration | The Far East is empty partly because nature made it hard. | Framing / transition (no new fact) | verified |
 | 122 | c08p04 | narration | But it was emptier in twenty twenty-one than it had been in nineteen eighty-nine. | 1989 USSR census vol.1 table 3 (Demoscope rus89_reg1, decoded); Rosstat 2021 census (via Wikipedia) | verified |

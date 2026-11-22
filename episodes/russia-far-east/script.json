@@ -67,15 +67,7 @@
           ]
          },
          {
-          "at": 38,
-          "view": {
-           "lon": 70.0,
-           "lat": 45.0,
-           "span": 127.5
-          }
-         },
-         {
-          "at": "across Europe and Asia,",
+          "at": "a little to the",
           "routes": [
            {
             "from": [
@@ -90,6 +82,32 @@
             "label": "Same latitude",
             "color": "accent",
             "seconds": 4.0
+           }
+          ]
+         },
+         {
+          "at": "across Europe and Asia,",
+          "places": [
+           {
+            "name": "Nice",
+            "lon": 7.26,
+            "lat": 43.7,
+            "kind": "city",
+            "label": "Nice, 43.7° N"
+           },
+           {
+            "name": "Black Sea",
+            "lon": 34.0,
+            "lat": 43.3,
+            "kind": "sea",
+            "label": "Black Sea"
+           },
+           {
+            "name": "Caspian",
+            "lon": 50.5,
+            "lat": 42.5,
+            "kind": "sea",
+            "label": "Caspian Sea"
            }
           ]
          },
@@ -302,7 +320,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "London: about 8.8 million people (2021)"
+       "on_screen_text": "London"
       }
      ]
     },
@@ -795,12 +813,23 @@
           ]
          },
          {
-          "at": 10,
-          "view": {
-           "lon": 118.2,
-           "lat": 52.4,
-           "span": 60.18
-          }
+          "at": "and in winter the",
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           },
+           {
+            "name": "Pacific",
+            "lon": 150.0,
+            "lat": 40.0,
+            "kind": "sea",
+            "label": "PACIFIC: lower pressure"
+           }
+          ]
          }
         ],
         "cut": true
@@ -840,14 +869,6 @@
             "label": "Vladivostok"
            }
           ]
-         },
-         {
-          "at": 28,
-          "view": {
-           "lon": 132.4,
-           "lat": 44.16,
-           "span": 6.12
-          }
          }
         ],
         "cut": true
@@ -904,12 +925,23 @@
           ]
          },
          {
-          "at": 46,
-          "view": {
-           "lon": 128.0,
-           "lat": 46.0,
-           "span": 22.1
-          }
+          "at": "The same pattern that",
+          "places": [
+           {
+            "name": "Harbin",
+            "lon": 126.63,
+            "lat": 45.75,
+            "kind": "city",
+            "label": "Harbin"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok"
+           }
+          ]
          }
         ],
         "cut": true
@@ -1161,14 +1193,6 @@
             "label": "Vladivostok"
            }
           ]
-         },
-         {
-          "at": 14,
-          "view": {
-           "lon": 124.2,
-           "lat": 50.0,
-           "span": 48.45
-          }
          }
         ],
         "cut": true
@@ -1411,9 +1435,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.0,
-           "lat": 50.0,
-           "span": 24.0
+           "lon": 134.0,
+           "lat": 51.5,
+           "span": 20.0
           },
           "places": [
            {
@@ -1429,9 +1453,9 @@
          {
           "at": 30,
           "view": {
-           "lon": 131.0,
-           "lat": 50.0,
-           "span": 20.4
+           "lon": 134.0,
+           "lat": 51.5,
+           "span": 17.0
           }
          }
         ],
@@ -1563,8 +1587,8 @@
       {
        "type": "photo",
        "at": "and the cold water",
-       "photo": "File:Ice floes of Hokkaido PIA12056.jpg",
-       "on_screen_text": "Ice floes off Hokkaido (NASA)"
+       "photo": "File:JRH Senmo-main-line Kiha40 Drift-ice.jpg",
+       "on_screen_text": "Drift ice beside the railway, Hokkaido, February 2025"
       },
       {
        "type": "map",
@@ -1663,14 +1687,6 @@
           "highlight": [
            "Sakha Republic@accent"
           ]
-         },
-         {
-          "at": 8,
-          "view": {
-           "lon": 132.4,
-           "lat": 63.36,
-           "span": 29.92
-          }
          }
         ],
         "cut": true
@@ -2073,9 +2089,9 @@
         "steps": [
          {
           "view": {
-           "lon": 132.2,
-           "lat": 50.48,
-           "span": 21.6
+           "lon": 131.0,
+           "lat": 50.0,
+           "span": 24.0
           },
           "highlight": [
            "file:aigun.geojson@red",
@@ -2102,9 +2118,9 @@
         "steps": [
          {
           "view": {
-           "lon": 129.8,
-           "lat": 49.52,
-           "span": 26.4
+           "lon": 132.2,
+           "lat": 50.48,
+           "span": 21.6
           },
           "places": [
            {
@@ -2190,9 +2206,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.72,
-           "lat": 49.04,
-           "span": 19.68
+           "lon": 129.8,
+           "lat": 49.52,
+           "span": 26.4
           },
           "places": [
            {
@@ -2224,9 +2240,9 @@
         "steps": [
          {
           "view": {
-           "lon": 130.28,
-           "lat": 50.96,
-           "span": 28.32
+           "lon": 131.72,
+           "lat": 49.04,
+           "span": 19.68
           },
           "highlight": [
            "file:aigun.geojson@red"
@@ -2242,12 +2258,31 @@
           ]
          },
          {
-          "at": 69,
-          "view": {
-           "lon": 130.28,
-           "lat": 50.96,
-           "span": 24.072
-          }
+          "at": "by most estimates more",
+          "places": [
+           {
+            "name": "Aigun",
+            "lon": 127.46,
+            "lat": 49.97,
+            "kind": "site",
+            "label": "Aigun (Aihui)"
+           },
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           },
+           {
+            "name": "Stanovoy",
+            "lon": 128.0,
+            "lat": 56.0,
+            "kind": "site",
+            "label": "Stanovoy Range",
+            "icon": "mountain"
+           }
+          ]
          }
         ],
         "cut": true
@@ -2324,22 +2359,14 @@
         "steps": [
          {
           "view": {
-           "lon": 132.68,
-           "lat": 50.0,
-           "span": 22.8
+           "lon": 130.28,
+           "lat": 50.96,
+           "span": 28.32
           },
           "highlight": [
            "file:aigun.geojson@red",
            "file:primorye.geojson@red"
           ]
-         },
-         {
-          "at": 38,
-          "view": {
-           "lon": 132.68,
-           "lat": 50.0,
-           "span": 19.38
-          }
          }
         ],
         "cut": true
@@ -2397,14 +2424,6 @@
             "label": "Beijing"
            }
           ]
-         },
-         {
-          "at": 59,
-          "view": {
-           "lon": 128.78,
-           "lat": 44.96,
-           "span": 18.122
-          }
          }
         ],
         "cut": true
@@ -2688,9 +2707,9 @@
         "steps": [
          {
           "view": {
-           "lon": 129.32,
+           "lon": 132.68,
            "lat": 50.0,
-           "span": 20.64
+           "span": 22.8
           },
           "layer": "night",
           "routes": [
@@ -2725,13 +2744,23 @@
           ]
          },
          {
-          "at": 46,
-          "view": {
-           "lon": 129.32,
-           "lat": 50.0,
-           "span": 17.544
-          },
-          "layer": "night"
+          "at": "close to the Chinese",
+          "places": [
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           },
+           {
+            "name": "Blagoveshchensk",
+            "lon": 127.53,
+            "lat": 50.27,
+            "kind": "city",
+            "label": "Blagoveshchensk"
+           }
+          ]
          }
         ],
         "cut": true
@@ -3466,12 +3495,30 @@
           ]
          },
          {
-          "at": 23,
-          "view": {
-           "lon": 140.0,
-           "lat": 61.6,
-           "span": 64.872
-          }
+          "at": "received wage bonuses on",
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Anadyr",
+            "lon": 177.5,
+            "lat": 64.73,
+            "kind": "city",
+            "label": "Anadyr"
+           },
+           {
+            "name": "Pevek",
+            "lon": 170.3,
+            "lat": 69.7,
+            "kind": "port",
+            "label": "Pevek"
+           }
+          ]
          }
         ],
         "cut": true
@@ -3555,12 +3602,16 @@
           ]
          },
          {
-          "at": 10,
-          "view": {
-           "lon": 120.0,
-           "lat": 53.0,
-           "span": 40.8
-          }
+          "at": "it revived an old",
+          "places": [
+           {
+            "name": "Baikal",
+            "lon": 108.0,
+            "lat": 53.5,
+            "kind": "sea",
+            "label": "Lake Baikal"
+           }
+          ]
          }
         ],
         "cut": true
@@ -3665,12 +3716,24 @@
           ]
          },
          {
-          "at": 31,
-          "view": {
-           "lon": 122.4,
-           "lat": 53.96,
-           "span": 36.72
-          }
+          "at": "further from the Chinese",
+          "places": [
+           {
+            "name": "Tynda",
+            "lon": 124.72,
+            "lat": 55.15,
+            "kind": "site",
+            "label": "Tynda",
+            "icon": "train"
+           },
+           {
+            "name": "China",
+            "lon": 124.0,
+            "lat": 47.5,
+            "kind": "label",
+            "label": "CHINA"
+           }
+          ]
          }
         ],
         "cut": true
@@ -3683,16 +3746,66 @@
         "steps": [
          {
           "view": {
-           "lon": 117.0,
-           "lat": 56.8,
-           "span": 1.2
+           "lon": 118.0,
+           "lat": 55.5,
+           "span": 18.0
           },
-          "date": "2025-06-15/2025-08-31"
+          "routes": [
+           {
+            "from": [
+             98.0,
+             55.94
+            ],
+            "via": [
+             [
+              105.76,
+              56.79
+             ],
+             [
+              109.31,
+              55.64
+             ],
+             [
+              114.0,
+              56.9
+             ],
+             [
+              124.72,
+              55.15
+             ],
+             [
+              132.6,
+              51.07
+             ],
+             [
+              137.02,
+              50.55
+             ]
+            ],
+            "to": [
+             140.3,
+             48.97
+            ],
+            "mode": "line",
+            "label": "Baikal-Amur Mainline (BAM)",
+            "color": "red",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Tynda",
+            "lon": 124.72,
+            "lat": 55.15,
+            "kind": "site",
+            "label": "Tynda",
+            "icon": "train"
+           }
+          ]
          }
         ],
         "cut": true
-       },
-       "on_screen_text": "Along the BAM: the Kodar Range"
+       }
       },
       {
        "type": "stat",
@@ -3862,12 +3975,31 @@
           ]
          },
          {
-          "at": 10,
-          "view": {
-           "lon": 98.0,
-           "lat": 59.2,
-           "span": 130.9
-          }
+          "at": "So now picture all",
+          "places": [
+           {
+            "name": "Magadan",
+            "lon": 150.8,
+            "lat": 59.56,
+            "kind": "port",
+            "label": "Magadan"
+           },
+           {
+            "name": "Yakutsk",
+            "lon": 129.73,
+            "lat": 62.03,
+            "kind": "city",
+            "label": "Yakutsk"
+           },
+           {
+            "name": "Tynda",
+            "lon": 124.72,
+            "lat": 55.15,
+            "kind": "site",
+            "label": "Tynda",
+            "icon": "train"
+           }
+          ]
          }
         ],
         "cut": true
@@ -4080,7 +4212,7 @@
            "span": 24.0
           },
           "highlight": [
-           "Chukotka Autonomous Okrug@red"
+           "file:chukotka.geojson@red"
           ],
           "places": [
            {
@@ -4089,13 +4221,6 @@
             "lat": 64.73,
             "kind": "city",
             "label": "Anadyr"
-           },
-           {
-            "name": "Alaska",
-            "lon": -165.0,
-            "lat": 64.8,
-            "kind": "label",
-            "label": "Alaska"
            }
           ]
          }
@@ -4117,28 +4242,28 @@
        "at": "That is seventy percent",
        "chart": {
         "type": "bar",
-        "title": "Population change, 1989 to 2021",
+        "title": "Population lost, 1989 to 2021",
         "unit": "%",
         "data": [
          [
           "Chukotka",
-          -70
+          70
          ],
          [
           "Magadan",
-          -65
+          65
          ],
          [
           "Kamchatka",
-          -37
+          37
          ],
          [
           "Sakhalin",
-          -34
+          34
          ],
          [
           "Primorsky",
-          -18
+          18
          ]
         ],
         "source": "Own calculation: 1989 USSR census, Rosstat 2021",
@@ -4427,16 +4552,8 @@
           },
           "highlight": [
            "Magadan@red",
-           "Chukotka Autonomous Okrug@red"
+           "file:chukotka.geojson@red"
           ]
-         },
-         {
-          "at": 8,
-          "view": {
-           "lon": 137.84,
-           "lat": 60.88,
-           "span": 70.049
-          }
          }
         ],
         "cut": true
@@ -4480,7 +4597,12 @@
             "lat": 48.48,
             "kind": "city",
             "label": "Khabarovsk"
-           },
+           }
+          ]
+         },
+         {
+          "at": "would you take it,",
+          "places": [
            {
             "name": "Yakutsk",
             "lon": 129.73,
@@ -4503,14 +4625,6 @@
             "label": "Petropavlovsk-Kamchatsky"
            }
           ]
-         },
-         {
-          "at": 46,
-          "view": {
-           "lon": 145.04,
-           "lat": 58.0,
-           "span": 56.396
-          }
          }
         ],
         "cut": true
@@ -4733,12 +4847,24 @@
           ]
          },
          {
-          "at": 13,
-          "view": {
-           "lon": 159.7,
-           "lat": 54.28,
-           "span": 10.71
-          }
+          "at": "one of the fastest",
+          "places": [
+           {
+            "name": "Epicentre",
+            "lon": 160.24,
+            "lat": 52.49,
+            "kind": "site",
+            "label": "M8.8, 29 July 2025",
+            "icon": "warning"
+           },
+           {
+            "name": "Petropavlovsk-Kamchatsky",
+            "lon": 158.65,
+            "lat": 53.02,
+            "kind": "city",
+            "label": "Petropavlovsk-Kamchatsky"
+           }
+          ]
          }
         ],
         "cut": true
@@ -4780,9 +4906,9 @@
         "steps": [
          {
           "view": {
-           "lon": 131.0,
-           "lat": 51.2,
-           "span": 25.44
+           "lon": 129.32,
+           "lat": 50.0,
+           "span": 20.64
           },
           "routes": [
            {
@@ -4792,21 +4918,53 @@
             ],
             "via": [
              [
+              123.5,
+              53.5
+             ],
+             [
+              125.5,
+              53.0
+             ],
+             [
+              126.6,
+              51.8
+             ],
+             [
               127.5,
               50.25
              ],
              [
-              130.6,
-              48.0
+              129.5,
+              49.4
+             ],
+             [
+              130.4,
+              48.9
+             ],
+             [
+              131.8,
+              47.7
+             ],
+             [
+              133.4,
+              48.1
              ],
              [
               135.07,
               48.48
+             ],
+             [
+              134.4,
+              47.3
+             ],
+             [
+              133.9,
+              46.0
              ]
             ],
             "to": [
-             133.1,
-             45.0
+             132.6,
+             45.1
             ],
             "mode": "line",
             "label": "Border on the Amur and Ussuri",
@@ -4823,14 +4981,6 @@
             "label": "Khabarovsk"
            }
           ]
-         },
-         {
-          "at": 8,
-          "view": {
-           "lon": 131.0,
-           "lat": 51.2,
-           "span": 21.624
-          }
          }
         ],
         "cut": true
@@ -4868,14 +5018,6 @@
           "highlight": [
            "file:fefd.geojson@red"
           ]
-         },
-         {
-          "at": 36,
-          "view": {
-           "lon": 134.96,
-           "lat": 58.0,
-           "span": 51.053
-          }
          }
         ],
         "cut": true
@@ -5032,21 +5174,53 @@
             ],
             "via": [
              [
+              123.5,
+              53.5
+             ],
+             [
+              125.5,
+              53.0
+             ],
+             [
+              126.6,
+              51.8
+             ],
+             [
               127.5,
               50.25
              ],
              [
-              130.6,
-              48.0
+              129.5,
+              49.4
+             ],
+             [
+              130.4,
+              48.9
+             ],
+             [
+              131.8,
+              47.7
+             ],
+             [
+              133.4,
+              48.1
              ],
              [
               135.07,
               48.48
+             ],
+             [
+              134.4,
+              47.3
+             ],
+             [
+              133.9,
+              46.0
              ]
             ],
             "to": [
-             133.1,
-             45.0
+             132.6,
+             45.1
             ],
             "mode": "line",
             "label": "Border on the Amur and Ussuri",
@@ -5056,12 +5230,23 @@
           ]
          },
          {
-          "at": 48,
-          "view": {
-           "lon": 126.18,
-           "lat": 46.0,
-           "span": 19.006
-          }
+          "at": "is losing people to",
+          "places": [
+           {
+            "name": "Harbin",
+            "lon": 126.63,
+            "lat": 45.75,
+            "kind": "city",
+            "label": "Harbin"
+           },
+           {
+            "name": "Khabarovsk",
+            "lon": 135.07,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Khabarovsk"
+           }
+          ]
          }
         ],
         "cut": true
@@ -5151,20 +5336,23 @@
           ]
          },
          {
-          "at": 22,
-          "view": {
-           "lon": 115.8,
-           "lat": 50.0,
-           "span": 43.86
-          }
-         },
-         {
-          "at": 33,
-          "view": {
-           "lon": 115.8,
-           "lat": 50.0,
-           "span": 37.281
-          }
+          "at": "onto a coast that,",
+          "places": [
+           {
+            "name": "Siberian High",
+            "lon": 102.0,
+            "lat": 51.0,
+            "kind": "label",
+            "label": "SIBERIAN HIGH (winter)"
+           },
+           {
+            "name": "Vladivostok",
+            "lon": 131.89,
+            "lat": 43.12,
+            "kind": "city",
+            "label": "Vladivostok, 43.1° N"
+           }
+          ]
          }
         ],
         "cut": true
@@ -5207,21 +5395,13 @@
          {
           "view": {
            "lon": 131.0,
-           "lat": 48.8,
-           "span": 18.72
+           "lat": 51.2,
+           "span": 25.44
           },
           "highlight": [
            "file:aigun.geojson@red",
            "file:primorye.geojson@red"
           ]
-         },
-         {
-          "at": 10,
-          "view": {
-           "lon": 131.0,
-           "lat": 48.8,
-           "span": 15.912
-          }
          }
         ],
         "cut": true

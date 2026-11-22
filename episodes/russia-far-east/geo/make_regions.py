@@ -7,6 +7,7 @@ china_ne.geojson   Heilongjiang, Jilin, Liaoning
 aigun.geojson      Left bank of the Amur ceded in 1858, APPROXIMATE: Amur Oblast + Jewish AO + Khabarovsk Krai
                    south of 54.5 N (the Uda / Stanovoy line of the 1689 Nerchinsk border); captions say "approx."
 primorye.geojson   Ceded in 1860 (Convention of Peking): today's Primorsky Krai
+chukotka.geojson   Chukotka west of 180 degrees
 """
 import json
 import sys
@@ -32,7 +33,9 @@ def write(name, geom, label):
     print(name, round(geom.area, 1))
 
 
-write("fefd", shapely.union_all([ADM[n] for n in FEFD]), "Far Eastern Federal District")
+EAST = box(0, -90, 180, 90)  # drop the sliver of Chukotka east of 180 degrees: it would frame the whole world
+write("fefd", shapely.union_all([ADM[n] for n in FEFD]).intersection(EAST), "Far Eastern Federal District")
+write("chukotka", ADM["Chukotka Autonomous Okrug"].intersection(EAST), "Chukotka")
 cn = [k for k in ADM if k in ("Heilongjiang", "Jilin", "Liaoning")]
 assert len(cn) == 3, cn
 write("china_ne", shapely.union_all([ADM[n] for n in cn]), "China's northeast: three provinces")

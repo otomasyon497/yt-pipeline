@@ -89,13 +89,6 @@
           "at": "across Europe and Asia,",
           "places": [
            {
-            "name": "Nice",
-            "lon": 7.26,
-            "lat": 43.7,
-            "kind": "city",
-            "label": "Nice, 43.7° N"
-           },
-           {
             "name": "Black Sea",
             "lon": 34.0,
             "lat": 43.3,
@@ -114,13 +107,6 @@
          {
           "at": "You arrive in Vladivostok,",
           "places": [
-           {
-            "name": "Nice",
-            "lon": 7.26,
-            "lat": 43.7,
-            "kind": "city",
-            "label": "Nice, 43.7° N"
-           },
            {
             "name": "Vladivostok",
             "lon": 131.89,
@@ -840,13 +826,6 @@
           "at": "and in winter the",
           "places": [
            {
-            "name": "Siberian High",
-            "lon": 102.0,
-            "lat": 51.0,
-            "kind": "label",
-            "label": "SIBERIAN HIGH (winter)"
-           },
-           {
             "name": "Pacific",
             "lon": 150.0,
             "lat": 40.0,
@@ -855,7 +834,7 @@
            }
           ],
           "view": {
-           "lon": 126.0,
+           "lon": 127.907,
            "lat": 49.714,
            "span": 92.041
           }
@@ -2290,13 +2269,6 @@
           "at": "by most estimates more",
           "places": [
            {
-            "name": "Aigun",
-            "lon": 127.46,
-            "lat": 49.97,
-            "kind": "site",
-            "label": "Aigun (Aihui)"
-           },
-           {
             "name": "Khabarovsk",
             "lon": 135.07,
             "lat": 48.48,
@@ -2986,8 +2958,41 @@
      "text": "In November nineteen thirty-one, the Soviet government created a trust called Dalstroy, the Far North Construction Trust. Its job was to dig gold out of the valley of the Kolyma River, in the far northeast. There were no roads and almost no people. Dalstroy turned the small settlement of Magadan, on the Sea of Okhotsk, into its port, and from there it pushed a road inland across the mountains and the permafrost.",
      "shots": [
       {
-       "type": "stat",
+       "type": "map",
        "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 93.56,
+           "lat": 54.403,
+           "span": 150.108
+          },
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": 37.62,
+            "lat": 55.75,
+            "kind": "capital",
+            "label": "Moscow"
+           },
+           {
+            "name": "Kolyma gold fields",
+            "lon": 149.5,
+            "lat": 62.5,
+            "kind": "site",
+            "label": "Kolyma gold fields",
+            "icon": "mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the Soviet government created",
        "stat": {
         "value": "13 NOV 1931",
         "label": "Dalstroy, the Far North Construction Trust, is created",
@@ -3945,9 +3950,9 @@
         "steps": [
          {
           "view": {
-           "lon": 109.2,
-           "lat": 56.4,
-           "span": 114.8
+           "lon": 100.8,
+           "lat": 67.6,
+           "span": 165.2
           }
          },
          {
@@ -4827,14 +4832,6 @@
           "at": "one of the fastest",
           "places": [
            {
-            "name": "Epicentre",
-            "lon": 160.24,
-            "lat": 52.49,
-            "kind": "site",
-            "label": "M8.8, 29 July 2025",
-            "icon": "warning"
-           },
-           {
             "name": "Petropavlovsk-Kamchatsky",
             "lon": 158.65,
             "lat": 53.02,
@@ -5323,18 +5320,11 @@
           "at": "onto a coast that,",
           "places": [
            {
-            "name": "Siberian High",
-            "lon": 102.0,
-            "lat": 51.0,
-            "kind": "label",
-            "label": "SIBERIAN HIGH (winter)"
-           },
-           {
-            "name": "Vladivostok",
+            "name": "Nice latitude",
             "lon": 131.89,
-            "lat": 43.12,
-            "kind": "city",
-            "label": "Vladivostok, 43.1° N"
+            "lat": 41.6,
+            "kind": "label",
+            "label": "43° N, like Nice"
            }
           ]
          }

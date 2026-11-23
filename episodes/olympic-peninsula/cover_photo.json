@@ -1,0 +1,13 @@
+{
+ "photo": "File:Hoh rainforest hall of mosses 0096 (22656775187).jpg",
+ "focus": [0.5, 0.5],
+ "zoom": 1.0,
+ "lines": [
+  {"t": "RAINFOREST", "color": "white"},
+  {"t": "NEXT TO", "color": "yellow"},
+  {"t": "A DESERT", "color": "white"}
+ ],
+ "text_at": [0.04, 0.05],
+ "text_size": 150,
+ "underline": true
+}

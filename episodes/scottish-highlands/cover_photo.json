@@ -1,0 +1,13 @@
+{
+ "photo": "File:The Three Sisters Valley, Glencoe, Scotland - 53744377929.jpg",
+ "focus": [0.55, 0.5],
+ "zoom": 1.0,
+ "lines": [
+  {"t": "EMPTIER", "color": "white"},
+  {"t": "THAN", "color": "yellow"},
+  {"t": "NORWAY", "color": "white"}
+ ],
+ "text_at": [0.04, 0.05],
+ "text_size": 165,
+ "underline": true
+}

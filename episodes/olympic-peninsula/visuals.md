@@ -32,3 +32,11 @@ Rialto/La Push 124.64W 47.92N; Mount Olympus 123.71W 47.80N (snow, August).
   "Cape Flattery (4301328607).jpg" (CC BY 2.0), "Cape Flattery looking north.JPG" (CC BY 3.0), "Dense forest canopy quinault
   rainforest c bubar march 05 2015 (22655664738).jpg" (PD), "Quinault Rainforest.jpg" (CC0, 2026), "Olympic National Park, 2023 -
   002.jpg" (CC BY 2.0). No free photo found: Copalis ghost forest, Ocosta tower, Japanese 1700 records -> satellite + stat cards.
+
+## Sentinel-2 results (scratch op_s2/op1.jpg, 2026-11-23)
+Window 2025-07-01/2025-09-15 clear on all 11 views (single days 07-13, 07-16, 07-28, 08-22): Hoh valley (dark forest, braided
+river) strong; Sequim (tan farm fields, town) strong and the best contrast with the Hoh; Dungeness Spit strong; Elwha mouth
+(delta and plume) good; Lake Mills (drained reservoir, river through old lakebed) good; Copalis river mouth ok; North Cove
+(sand spit) ok; Westport/Grays Harbor strong; Forks clear-cut patchwork vs dark park forest strong; Rialto/La Push ok;
+Mount Olympus glaciers strong (2025-07-28). The 2024 window is clear too. Still to test: Elwha mouth compare (Landsat
+summer 2010 vs Sentinel 2025), North Cove compare (Landsat 1990s vs 2025).

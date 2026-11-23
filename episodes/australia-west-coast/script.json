@@ -1792,9 +1792,9 @@
         "steps": [
          {
           "view": {
-           "lon": 118.342,
-           "lat": -31.344,
-           "span": 5.856
+           "lon": 118.815,
+           "lat": -31.369,
+           "span": 7.124
           },
           "places": [
            {
@@ -1804,10 +1804,7 @@
             "kind": "site",
             "label": "Mundaring Weir"
            }
-          ]
-         },
-         {
-          "at": "all the way to",
+          ],
           "routes": [
            {
             "from": [
@@ -1837,7 +1834,10 @@
             "color": "blue",
             "seconds": 4.0
            }
-          ],
+          ]
+         },
+         {
+          "at": "all the way to",
           "places": [
            {
             "name": "Kalgoorlie",
@@ -1846,12 +1846,7 @@
             "kind": "city",
             "label": "Kalgoorlie"
            }
-          ],
-          "view": {
-           "lon": 118.815,
-           "lat": -31.494,
-           "span": 7.124
-          }
+          ]
          }
         ],
         "cut": true

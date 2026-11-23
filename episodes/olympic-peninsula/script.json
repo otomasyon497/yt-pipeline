@@ -804,7 +804,7 @@
       {
        "type": "photo",
        "at": "So the clouds drop",
-       "photo": "File:Hoh Rain Forest - 54018551112.jpg",
+       "photo": "File:Hoh Rain Forest - 54019687363.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
@@ -1311,13 +1311,13 @@
       {
        "type": "photo",
        "at": "that are hundreds of",
-       "photo": "File:Hoh Rain Forest - 54018538707.jpg",
+       "photo": "File:Hoh Rain Forest - 54018560002.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
        "type": "photo",
        "at": "It rarely freezes here,",
-       "photo": "File:Hoh Rain Forest - 54018561167.jpg",
+       "photo": "File:Hoh pond reflection fall foliage NPS Photo (22983767311).jpg",
        "on_screen_text": "Hoh rainforest"
       }
      ]
@@ -1374,7 +1374,7 @@
       {
        "type": "photo",
        "at": "Rivers here rise fast.",
-       "photo": "File:Hoh Rain Forest - 54018538822.jpg",
+       "photo": "File:Hoh Rain Forest - 54019458796.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
@@ -1397,13 +1397,13 @@
       {
        "type": "photo",
        "at": "and young trees sprout",
-       "photo": "File:Hoh Rain Forest - 54019454206.jpg",
+       "photo": "File:Hoh Rain Forest - 54019898805.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
        "type": "photo",
        "at": "until a whole row",
-       "photo": "File:Hoh Rain Forest - 54018550762.jpg",
+       "photo": "File:Hoh Rain Forest - 54019791019.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
@@ -1415,7 +1415,7 @@
       {
        "type": "photo",
        "at": "It looks untouched because,",
-       "photo": "File:Hoh Rain Forest - 54019461571.jpg",
+       "photo": "File:Hoh Rain Forest - 54019899830.jpg",
        "on_screen_text": "Hoh rainforest"
       }
      ]
@@ -1823,8 +1823,8 @@
       {
        "type": "photo",
        "at": "They come for the",
-       "photo": "File:Hoh Rain Forest - 54018563472.jpg",
-       "on_screen_text": "Hoh rainforest"
+       "photo": "File:Hoh mist forest trees Hoh NPS Photo j preston (17115216790).jpg",
+       "on_screen_text": "Mist in the Hoh valley (NPS)"
       },
       {
        "type": "photo",
@@ -1968,7 +1968,7 @@
       {
        "type": "photo",
        "at": "In nineteen eighty-one, the",
-       "photo": "File:Hoh Rain Forest - 54018551112.jpg",
+       "photo": "File:Hoh Rain Forest - 54019687363.jpg",
        "on_screen_text": "Olympic rainforest"
       },
       {
@@ -2811,10 +2811,31 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "It is one of",
-       "photo": "File:Olympic National Park, 2023 - 002.jpg",
-       "on_screen_text": "Olympic National Park"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.585,
+           "lat": 48.04,
+           "span": 0.18
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 56,
+          "view": {
+           "lon": -123.585,
+           "lat": 48.04,
+           "span": 0.112
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Elwha, running free"
       },
       {
        "type": "photo",

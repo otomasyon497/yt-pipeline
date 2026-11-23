@@ -135,17 +135,17 @@ CENSUS = "U.S. Census 2020"
 
 # ------------------------------------------------------------------ photos (Commons, licence checked: visuals.md)
 PH_HOH_MOSS = "File:Hall of Mosses, Hoh Rainforest, Olympic National Park, Washington (2015).jpg"
-PH_HOH_LOG = "File:Hoh Rain Forest - 54019454206.jpg"
+PH_HOH_LOG = "File:Hoh Rain Forest - 54019898805.jpg"
 PH_HOH_COL = "File:Hoh rainforest colanade 0090 (22453931843).jpg"
 PH_HOH_HALL = "File:Hoh rainforest hall of mosses 0096 (22656775187).jpg"
 PH_HOH_STUMP = "File:Stair step moss stump hoh rainforest c bubar july 2014 (17302171651).jpg"
 PH_HOH_SPRUCE = "File:Visitor big spruce tree fallen hoh rainforest c bubar march 05 2015 (22972414455).jpg"
-PH_HOH_STREAM = "File:Hoh Rain Forest - 54018561167.jpg"
+PH_HOH_STREAM = "File:Hoh pond reflection fall foliage NPS Photo (22983767311).jpg"
 PH_HOH_BRANCH = "File:Hanging mossy branch hoh rainforest c bubar march 05-2015 (22656700368).jpg"
-PH_HOH_F1 = "File:Hoh Rain Forest - 54018538707.jpg"
-PH_HOH_F2 = "File:Hoh Rain Forest - 54019461571.jpg"
-PH_HOH_B = "File:Hoh Rain Forest - 54018538822.jpg"
-PH_HOH_C = "File:Hoh Rain Forest - 54018550762.jpg"
+PH_HOH_F1 = "File:Hoh Rain Forest - 54018560002.jpg"
+PH_HOH_F2 = "File:Hoh Rain Forest - 54019899830.jpg"
+PH_HOH_B = "File:Hoh Rain Forest - 54019458796.jpg"
+PH_HOH_C = "File:Hoh Rain Forest - 54019791019.jpg"
 PH_DUNG = "File:Dungeness Spit NWR.jpg"
 PH_DUNG_HEAD = "File:Dungeness Spit Headland.jpg"
 PH_DUNG_TRAIL = "File:Dungeness Spit Trail (7638331612).jpg"
@@ -180,11 +180,11 @@ PH_MAKAH = "File:Makah Tribal Cemetery in Neah Bay, Washington.jpg"
 PH_FLATTERY = "File:Cape Flattery (4301328607).jpg"
 PH_FLATTERY_N = "File:Cape Flattery looking north.JPG"
 PH_QUINAULT = "File:Dense forest canopy quinault rainforest c bubar march 05 2015 (22655664738).jpg"
-PH_QUINAULT2 = "File:Hoh Rain Forest - 54018551112.jpg"
+PH_QUINAULT2 = "File:Hoh Rain Forest - 54019687363.jpg"
 PH_ONP2023 = "File:Olympic National Park, 2023 - 002.jpg"
 PH_WESTPORT_NARA = "File:WASHINGTON-WESTPORT - NARA - 545162.jpg"
 PH_LAKECRES = "File:Lake Crescent Recreation.JPG"
-PH_HOH_D = "File:Hoh Rain Forest - 54018563472.jpg"
+PH_HOH_D = "File:Hoh mist forest trees Hoh NPS Photo j preston (17115216790).jpg"
 PH_RIALTO_D = "File:Rialto Beach - 54019750719.jpg"
 PH_RIALTO_E = "File:Rialto Beach - 54019846500.jpg"
 
@@ -354,7 +354,7 @@ chapter(
       photo("Sea stacks stand offshore,", PH_RUBY_SUN, "Sea stacks, Ruby Beach")),
     P("P16b",
       stat(0, "~2.9 MILLION", "Recreational visits to Olympic National Park, 2023", NPS),
-      photo("They come for the", PH_HOH_D, "Hoh rainforest"),
+      photo("They come for the", PH_HOH_D, "Mist in the Hoh valley (NPS)"),
       photo("and then most of", PH_RIALTO_D, "Rialto Beach"),
       sat("People have lived on", -124.60, 48.36, 0.1, "Neah Bay", date=SUMMER25),
       stat("more than thirteen thousand", "13,500+ YEARS", "People living on the Olympic Peninsula", NPS),
@@ -423,7 +423,7 @@ chapter(
       sat(0, -123.548, 48.142, 0.13, "Elwha mouth, July 2025", date=SUMMER25),
       photo("The park says eleven", PH_ELWHA_SILT, "Sediment drifting off the Elwha mouth, 2012 (NPS)"),
       stat("A study published in", "2024 STUDY", "Fish numbers rose once the way upstream was open", "Pess et al. 2024, Frontiers in Ecology and Evolution"),
-      photo("It is one of", PH_ONP2023, "Olympic National Park"),
+      sat("It is one of", -123.585, 48.04, 0.18, "The Elwha, running free", date=SUMMER25),
       photo("But the oldest story", PH_RIALTO_A, "Rialto Beach"),
       photo("It is written in", PH_HOH_STUMP, "A dead stump, Hoh rainforest (NPS)")),
 )

@@ -1,6 +1,6 @@
 {
  "legacy_length": true,
-"title": "The Line",
+ "title": "The Line",
  "voice": "am_michael",
  "music": "procedural",
  "map_style": "satellite",
@@ -16,7 +16,7 @@
   "text": "NO CITY YET"
  },
  "youtube": {
-  "title": "What Happened to Saudi Arabia's 170 km Megacity?",
+  "title": "What Satellites Show at Saudi Arabia's 170 km City",
   "description": "In 2021 Saudi Arabia announced The Line: one building 170 kilometres long, for nine million people. We traced the works on Copernicus Sentinel-2 satellite images from 2020 to 2026 and found about 110 kilometres of graded ground, and a pit that kept growing after the work was reported to have stopped. The promise, the Howeitat families who lived there, the costs that rose to 8.8 trillion dollars, and why work is now on hold until after 2030.\n\nReal Copernicus Sentinel-2 images, NASA astronaut photographs and our own measurements.",
   "tags": [
    "The Line",
@@ -30,7 +30,8 @@
    "Howeitat",
    "OXAGON"
   ],
-  "pinned_comment": "If they restart after 2030, should Saudi Arabia build The Line as planned, a smaller city, or nothing at all?"
+  "pinned_comment": "If they restart after 2030, should Saudi Arabia build The Line as planned, a smaller city, or nothing at all?",
+  "title_before_repackage": "What Happened to Saudi Arabia's 170 km Megacity?"
  },
  "chapters": [
   {

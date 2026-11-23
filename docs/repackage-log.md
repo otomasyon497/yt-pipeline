@@ -10,3 +10,11 @@
 - 2026-11-23 jakarta-sinking (ucTWIvj9Xf0): 'Indonesia Is Building a 575 km Wall Against the Sea' -> 'Why Jakarta Is Sinking Into the Sea'; cover set
 - 2026-11-23 louisiana-land-loss (CKHRMZp-s0M): 'Louisiana Had a Plan to Save Its Coast. It Cancelled It' -> 'Why Louisiana Is Disappearing Into the Sea'; cover set
 - 2026-11-23 green-sahara (Mw00DGzLiV8): 'When the Sahara Was Green' -> 'Why the Sahara Was Once Green'; cover set
+- 2026-11-23 gerd-nile (bR4wVyHqct4): 'Egypt Called This Dam an Existential Threat. Then It Filled' -> 'Why Egypt Fears Ethiopia's Giant Nile Dam'; cover set
+- 2026-11-23 neom-the-line (ASK-m4AyjOU): 'What Happened to Saudi Arabia's 170 km Megacity?' -> 'What Satellites Show at Saudi Arabia's 170 km City'; cover set
+- 2026-11-23 kansai-airport (WhvKbsw_z0Q): 'Why Japan's $20 Billion Airport Is Sinking' -> 'Why Japan's $20 Billion Airport Is Sinking'; cover NOT set
+- 2026-11-23 australia-interior (1PkX-Z5feoQ): 'Why Almost Nobody Lives in Most of Australia' -> 'Why Almost Nobody Lives in Most of Australia'; cover set
+- 2026-11-23 nevada-empty (MhYL1LwTY5I): 'Why Almost Nobody Lives in Most of Nevada' -> 'Why Almost Nobody Lives in Most of Nevada'; cover set
+- 2026-11-23 northern-maine-empty (MaiFqokoUdM): 'Why Almost Nobody Lives in Northern Maine' -> 'Why Almost Nobody Lives in Northern Maine'; cover NOT set
+- 2026-11-23 mongolia-empty (rziBDyJaeqk): 'Why Mongolia Is the Emptiest Country on Earth' -> 'Why Mongolia Is the Emptiest Country on Earth'; cover set
+- 2026-11-23 mediterranean-dried (TXF3-pYORUs): 'How the Mediterranean Sea Dried Up' -> 'How the Mediterranean Sea Dried Up'; cover set

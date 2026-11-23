@@ -1,6 +1,6 @@
 {
  "legacy_length": true,
-"title": "Egypt Called This Dam an Existential Threat. Then It Filled.",
+ "title": "Egypt Called This Dam an Existential Threat. Then It Filled.",
  "legacy_stock": true,
  "voice": "am_michael",
  "music": "procedural",
@@ -2128,7 +2128,7 @@
   "prompt": "aerial view of a giant concrete dam holding back a vast blue lake between green mountains, river valley below, dramatic sunlight"
  },
  "youtube": {
-  "title": "Egypt Called This Dam an Existential Threat. Then It Filled.",
+  "title": "Why Egypt Fears Ethiopia's Giant Nile Dam",
   "description": "In 2020 it was a river valley in western Ethiopia. Today it is a lake bigger than Greater London. Africa's biggest hydropower dam is finished and full, so what did it really do to the Nile, and why do the researchers who modelled the river say the real test hasn't come yet?\n\nReal Copernicus Sentinel-2 satellite images, NASA archive photos, World Bank data and our own calculations.",
   "tags": [
    "GERD",
@@ -2145,6 +2145,7 @@
    "drought",
    "Africa"
   ],
-  "pinned_comment": "Prediction time: when the next long drought hits the Nile, will Egypt, Sudan and Ethiopia have rules in place, or a crisis? And from the video: should a river belong more to where it rises, or to where it's used?"
+  "pinned_comment": "Prediction time: when the next long drought hits the Nile, will Egypt, Sudan and Ethiopia have rules in place, or a crisis? And from the video: should a river belong more to where it rises, or to where it's used?",
+  "title_before_repackage": "Egypt Called This Dam an Existential Threat. Then It Filled."
  }
 }

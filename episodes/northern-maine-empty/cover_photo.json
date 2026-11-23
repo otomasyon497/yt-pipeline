@@ -1,0 +1,24 @@
+{
+ "photo": "File:Allagash River 2003.jpg",
+ "focus": [
+  0.5,
+  0.5
+ ],
+ "zoom": 1.0,
+ "lines": [
+  {
+   "t": "NO TOWN.",
+   "color": "white"
+  },
+  {
+   "t": "NO MAYOR.",
+   "color": "yellow"
+  }
+ ],
+ "text_at": [
+  0.04,
+  0.06
+ ],
+ "text_size": 170,
+ "underline": true
+}

@@ -1,0 +1,24 @@
+{
+ "photo": "File:View of Sky Gate Bridge R from Kansai international airport.jpg",
+ "focus": [
+  0.5,
+  0.5
+ ],
+ "zoom": 1.0,
+ "lines": [
+  {
+   "t": "45 FEET",
+   "color": "yellow"
+  },
+  {
+   "t": "DOWN",
+   "color": "white"
+  }
+ ],
+ "text_at": [
+  0.04,
+  0.06
+ ],
+ "text_size": 170,
+ "underline": true
+}

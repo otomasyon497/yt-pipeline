@@ -3,9 +3,9 @@
 ## Hook (curious)
 P0: In the Hoh valley, on the western side of Washington's Olympic Peninsula, it rains so much that moss hangs from the trees in long green curtains. The National Park Service puts the rain here at between a hundred and forty and a hundred and sixty-seven inches a year. That is twelve to fourteen feet of water falling on the forest every year.
 
-P1: Now drive around the mountains to the other side of the same peninsula, to the small town of Sequim. Here, the official average is about seventeen inches a year. Sequim is about as dry as Los Angeles. Farmers here once dug irrigation ditches. And the two places are only about forty miles apart as the crow flies.
+P1: Now drive around the mountains to the other side of the same peninsula, to the small town of Sequim. Here, the official average is about seventeen inches a year. Sequim is about as dry as Los Angeles. Irrigation canals first brought water to its prairie in the eighteen-nineties, and the town still holds an Irrigation Festival every spring. And the two places are only about forty miles apart as the crow flies.
 
-P2: The same mountains make both. And they also help explain something stranger. Washington is home to almost eight million people, and most of them live just a few hours' drive from the Pacific. Yet the state's ocean coast is almost empty. There are no beach cities, no coastal highway that follows the surf, and seventy-three miles of the shore are protected wilderness with no road at all.
+P2: The same mountains make both. And they also help explain something stranger. Washington is home to nearly eight million people, and most of them live just a few hours' drive from the Pacific. Yet the state's ocean coast is almost empty. There are no beach cities, no coastal highway that follows the surf, and seventy-three miles of the shore are protected wilderness with no road at all.
 
 P3: Why did one of the busiest states on the West Coast leave its ocean almost untouched? The answer runs through rain, rock and timber, through two dams on a salmon river, and back to one winter night in the year seventeen hundred, a night that was written down on the other side of the Pacific, in Japan. And it ends with a question about the next one.
 
@@ -36,7 +36,7 @@ P12: One local count found that by twenty sixteen, sixty homes and more than two
 P13: So nature put up three barriers: a wall of mountains, a curtain of rain, and a coast that will not stay still. But nature is only half of why the coast is empty. The other half is a decision people made about a century ago.
 
 ## 3. Saved Before It Was Built (calm)
-P14: In nineteen-oh-nine, President Theodore Roosevelt set aside the heart of the mountains as Mount Olympus National Monument, partly to protect the herds of elk that live there. Today the animals are still called Roosevelt elk.
+P14: In nineteen-oh-nine, President Theodore Roosevelt set aside the heart of the mountains as Mount Olympus National Monument. To this day, one of the park's stated purposes is permanent protection for its herds of native Roosevelt elk.
 
 P15: In nineteen thirty-eight, the monument became Olympic National Park. Over the years, a narrow strip of the Pacific shore was added to it. Today, according to the park service, the park covers about nine hundred and twenty-two thousand acres, and ninety-five percent of it is designated wilderness, including seventy-three miles of wilderness coast.
 
@@ -49,7 +49,7 @@ P18: For most of the twentieth century, the forests of the Olympic Peninsula wer
 
 P19: Forks called itself the Logging Capital of the World. The boom ran from the nineteen-fifties to the nineteen-seventies, as trucks carried huge old-growth logs out of the hills. On satellite images today, you can still see what that left behind: a patchwork of squares and strips, forests of different ages, ending sharply at the straight line of the park boundary.
 
-P20: Then, in the nineteen-eighties and nineties, the boom ended. Much of the old growth outside the park had been cut, and environmental rules changed, including protections for owls and seabirds that nest in old forests. Mills closed and jobs went with them. Forks, a town of about three thousand people, had to look for something else.
+P20: Then, in the nineteen-eighties and nineties, the boom ended. Much of the old growth outside the park had been cut, and environmental rules changed. Mills closed and jobs went with them. Forks, a town of about three thousand people, had to look for something else.
 
 P21: Help came from an unexpected place. Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. The films followed. And suddenly, the wettest town in the lower forty-eight had fans arriving from around the world to see it rain. But the timber years left another mark on this peninsula, one that took almost a hundred years to undo.
 
@@ -60,7 +60,7 @@ P23: In the early nineteen-hundreds, two dams were built on the Elwha to make el
 
 P23b: These were not small structures. By most published figures, the Elwha Dam stood about a hundred and eight feet high, and Glines Canyon about two hundred and ten. For almost a century, the lakes behind them filled with sand and gravel that the river would normally have carried to the sea, and the beaches at the river's mouth slowly wasted away.
 
-P24: By the end of the century, the returns had fallen to fewer than three thousand fish. The Lower Elwha Klallam Tribe, whose people had fished this river for generations, pushed for decades to have the dams taken out. In nineteen ninety-two, Congress passed a law that set out to restore the river and its fish.
+P24: By the end of the century, the returns had fallen to fewer than three thousand fish. The Lower Elwha Klallam Tribe, whose people had fished this river for generations, had sought the removal of the dams ever since they were built. In nineteen ninety-two, Congress passed the Elwha River Ecosystem and Fisheries Restoration Act, which allowed the government to buy the dams and take them out.
 
 P25: On the seventeenth of September, twenty eleven, work began on what the park service calls the largest dam removal in United States history. Within six months, the Elwha Dam was gone. The Glines Canyon Dam followed in twenty fourteen. Behind them, a century of trapped sand and gravel began to move downstream again, and on satellite images you can watch the river's mouth grow new beaches and a delta.
 

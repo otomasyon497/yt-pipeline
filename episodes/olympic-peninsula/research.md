@@ -78,3 +78,9 @@ Title: "Why Almost Nobody Lives on Washington's Wild Coast" (alt "The Rainforest
   say "nearly eight million"), Sequim irrigation history, T. Roosevelt and the elk (1909 monument), Lower Elwha Klallam
   campaign and the 1992 Elwha River Ecosystem and Fisheries Restoration Act, Seattle annual rain (~39 in) for "three times",
   spotted owl/murrelet listings, Forks Twilight wording.
+- Verified (Wikipedia verbatim): T. Roosevelt designated the monument 2 Mar 1909; park purpose includes "permanent
+  protection for the herds of native Roosevelt elk" (NPS statement on the page); Elwha River Ecosystem and Fisheries
+  Restoration Act of 1992 authorized acquiring and removing the dams; the Lower Elwha Klallam Tribe "had sought the removal
+  of the two dams since they were built"; Sequim irrigation canals 1890s, Irrigation Festival since 1 May 1896. Seattle
+  39.34 in (1991-2020, summary only); Washington 7,705,281 (2020), ~8.1 M (OFM 2025, summary only) -> "nearly eight million".
+  Spotted owl not on the Forks page -> removed from narration.

@@ -689,8 +689,8 @@
       {
        "type": "photo",
        "at": "So the clouds drop",
-       "photo": "File:Quinault Rainforest.jpg",
-       "on_screen_text": "Quinault rainforest"
+       "photo": "File:Hoh Rain Forest - 54018551112.jpg",
+       "on_screen_text": "Hoh rainforest"
       },
       {
        "type": "map",
@@ -1260,8 +1260,8 @@
       {
        "type": "photo",
        "at": "It rarely freezes here,",
-       "photo": "File:Fallen mossy logs stream hoh rainforest d archuleta march 05 2015 (23086722282).jpg",
-       "on_screen_text": "Hoh rainforest stream (NPS)"
+       "photo": "File:Hoh Rain Forest - 54018561167.jpg",
+       "on_screen_text": "Hoh rainforest"
       }
      ]
     },
@@ -1340,8 +1340,8 @@
       {
        "type": "photo",
        "at": "and young trees sprout",
-       "photo": "File:Hoh Rainforest, mossy log tree NPS Photo (16680304244).jpg",
-       "on_screen_text": "Nurse log, Hoh rainforest (NPS)"
+       "photo": "File:Hoh Rain Forest - 54019454206.jpg",
+       "on_screen_text": "Hoh rainforest"
       },
       {
        "type": "photo",
@@ -1798,8 +1798,8 @@
       {
        "type": "photo",
        "at": "In nineteen eighty-one, the",
-       "photo": "File:Quinault Rainforest.jpg",
-       "on_screen_text": "Quinault rainforest"
+       "photo": "File:Hoh Rain Forest - 54018551112.jpg",
+       "on_screen_text": "Olympic rainforest"
       },
       {
        "type": "map",
@@ -1855,10 +1855,31 @@
      "text": "For most of the twentieth century, the forests of the Olympic Peninsula were a resource, not a view. Mills, logging camps and rail spurs spread along the rivers. Ports like Port Angeles and Aberdeen shipped lumber around the Pacific.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:EDIZ HOOK AND LOG RAFTS - NARA - 552170.jpg",
-       "on_screen_text": "Log rafts at Port Angeles, 1973 (NARA)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.43,
+           "lat": 48.12,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -123.43,
+           "lat": 48.12,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Port Angeles harbor"
       },
       {
        "type": "map",
@@ -1900,10 +1921,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Ports like Port Angeles",
-       "photo": "File:Water-Front and Harbor, Port Angeles, Wash.jpg",
-       "on_screen_text": "Port Angeles waterfront, about 1910"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.81,
+           "lat": 46.98,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Aberdeen on Grays Harbor"
       }
      ]
     },
@@ -1961,10 +1994,22 @@
      "text": "Then, in the nineteen-eighties and nineties, the boom ended. Much of the old growth outside the park had been cut, and environmental rules changed. Mills closed and jobs went with them. Forks, a town of about three thousand people, had to look for something else.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:PORT ANGELES HARBOR ON THE OLYMPIC PENINSULA - NARA - 552155.jpg",
-       "on_screen_text": "Port Angeles harbor, 1973 (NARA)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.1,
+           "lat": 47.95,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Logged hills near Forks"
       },
       {
        "type": "map",
@@ -2299,16 +2344,49 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "For almost a century,",
-       "photo": "File:Aldwell Delta tree stump elwha river silt deposit NPS Photo 3-6-12 (21) (17137799068).jpg",
-       "on_screen_text": "Old stumps in Lake Aldwell's silt, 2012 (NPS)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.56,
+           "lat": 48.07,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -123.56,
+           "lat": 48.07,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old Lake Aldwell, drained"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "and the beaches at",
-       "photo": "File:PORT ANGELES HARBOR ON THE OLYMPIC PENINSULA - NARA - 552155.jpg",
-       "on_screen_text": "The strait at Port Angeles, 1973 (NARA)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.57,
+           "lat": 48.135,
+           "span": 0.2
+          },
+          "date": "2010-07-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Elwha coast, July 2010"
       }
      ]
     },
@@ -2384,10 +2462,13 @@
      "text": "On the seventeenth of September, twenty eleven, work began on what the park service calls the largest dam removal in United States history. Within six months, the Elwha Dam was gone. The Glines Canyon Dam followed in twenty fourteen. Behind them, a century of trapped sand and gravel began to move downstream again, and on satellite images you can watch the river's mouth grow new beaches and a delta.",
      "shots": [
       {
-       "type": "photo",
+       "type": "stat",
        "at": 0,
-       "photo": "File:Elwha Dam Removal - first bite of removal process.jpg",
-       "on_screen_text": "First bite of the Elwha Dam removal, 2011"
+       "stat": {
+        "value": "17 SEP 2011",
+        "label": "Removal of the Elwha dams begins",
+        "source": "National Park Service"
+       }
       },
       {
        "type": "stat",
@@ -3380,10 +3461,22 @@
      "text": "That is one more reason why so few people live right on this shore, and why the towns that are here are getting ready. In twenty sixteen, at Westport, the Ocosta school district finished what the state calls the first vertical tsunami evacuation structure in North America: a reinforced platform above a school gym, designed to hold a thousand people above the water.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:WASHINGTON-WESTPORT - NARA - 545162.jpg",
-       "on_screen_text": "Westport (NARA)"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.11,
+           "lat": 46.9,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Westport marina"
       },
       {
        "type": "map",

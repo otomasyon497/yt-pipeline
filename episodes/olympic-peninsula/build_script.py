@@ -135,12 +135,12 @@ CENSUS = "U.S. Census 2020"
 
 # ------------------------------------------------------------------ photos (Commons, licence checked: visuals.md)
 PH_HOH_MOSS = "File:Hall of Mosses, Hoh Rainforest, Olympic National Park, Washington (2015).jpg"
-PH_HOH_LOG = "File:Hoh Rainforest, mossy log tree NPS Photo (16680304244).jpg"
+PH_HOH_LOG = "File:Hoh Rain Forest - 54019454206.jpg"
 PH_HOH_COL = "File:Hoh rainforest colanade 0090 (22453931843).jpg"
 PH_HOH_HALL = "File:Hoh rainforest hall of mosses 0096 (22656775187).jpg"
 PH_HOH_STUMP = "File:Stair step moss stump hoh rainforest c bubar july 2014 (17302171651).jpg"
 PH_HOH_SPRUCE = "File:Visitor big spruce tree fallen hoh rainforest c bubar march 05 2015 (22972414455).jpg"
-PH_HOH_STREAM = "File:Fallen mossy logs stream hoh rainforest d archuleta march 05 2015 (23086722282).jpg"
+PH_HOH_STREAM = "File:Hoh Rain Forest - 54018561167.jpg"
 PH_HOH_BRANCH = "File:Hanging mossy branch hoh rainforest c bubar march 05-2015 (22656700368).jpg"
 PH_HOH_F1 = "File:Hoh Rain Forest - 54018538707.jpg"
 PH_HOH_F2 = "File:Hoh Rain Forest - 54019461571.jpg"
@@ -175,7 +175,7 @@ PH_MAKAH = "File:Makah Tribal Cemetery in Neah Bay, Washington.jpg"
 PH_FLATTERY = "File:Cape Flattery (4301328607).jpg"
 PH_FLATTERY_N = "File:Cape Flattery looking north.JPG"
 PH_QUINAULT = "File:Dense forest canopy quinault rainforest c bubar march 05 2015 (22655664738).jpg"
-PH_QUINAULT2 = "File:Quinault Rainforest.jpg"
+PH_QUINAULT2 = "File:Hoh Rain Forest - 54018551112.jpg"
 PH_ONP2023 = "File:Olympic National Park, 2023 - 002.jpg"
 PH_WESTPORT_NARA = "File:WASHINGTON-WESTPORT - NARA - 545162.jpg"
 PH_LAKECRES = "File:Lake Crescent Recreation.JPG"
@@ -262,7 +262,7 @@ chapter(
     P("P6",
       photo(0, PH_QUINAULT, "Rainforest canopy, Quinault valley (NPS)"),
       m("As it rises, it", v(PEN, arrows=STORMS, places=[HOH])),
-      photo("So the clouds drop", PH_QUINAULT2, "Quinault rainforest"),
+      photo("So the clouds drop", PH_QUINAULT2, "Hoh rainforest"),
       sat("The Olympic Mountains carry", -123.68, 47.78, 0.15, "Glaciers on Mount Olympus", date=SUMMER25)),
     P("P6b",
       photo(0, PH_ONP2023, "Olympic National Park, 2023"),
@@ -290,7 +290,7 @@ chapter(
       sat("the Queets and the", -124.10, 47.55, 0.3, "The Queets valley", date=SUMMER25),
       photo("The park service describes", PH_HOH_SPRUCE, "A fallen Sitka spruce, Hoh rainforest (NPS)"),
       photo("that are hundreds of", PH_HOH_F1, "Hoh rainforest"),
-      photo("It rarely freezes here,", PH_HOH_STREAM, "Hoh rainforest stream (NPS)")),
+      photo("It rarely freezes here,", PH_HOH_STREAM, "Hoh rainforest")),
     P("P10",
       sat(0, -124.39, 47.95, 0.2, "Forks", date=SUMMER25),
       stat("records about a hundred", "~120 IN", "Rain a year in Forks, 1991-2020", NOAA, note="Seattle: about 39"),
@@ -299,7 +299,7 @@ chapter(
       photo("Everything that people build", PH_FORKS_DOWN, "Forks, 2007")),
     P("P10b",
       photo(0, PH_HOH_STUMP, "A nurse stump, Hoh rainforest (NPS)"),
-      photo("and young trees sprout", PH_HOH_LOG, "Nurse log, Hoh rainforest (NPS)"),
+      photo("and young trees sprout", PH_HOH_LOG, "Hoh rainforest"),
       photo("Roosevelt elk graze the", PH_ELK, "Roosevelt elk, Olympic Peninsula"),
       photo("It looks untouched because,", PH_HOH_F2, "Hoh rainforest")),
     P("P11",
@@ -335,7 +335,7 @@ chapter(
       photo("Sea stacks stand offshore,", PH_RUBY_SUN, "Sea stacks, Ruby Beach")),
     P("P17",
       m(0, v(PEN, places=[NEAH, LAPUSH, FORKS])),
-      photo("In nineteen eighty-one, the", PH_QUINAULT2, "Quinault rainforest"),
+      photo("In nineteen eighty-one, the", PH_QUINAULT2, "Olympic rainforest"),
       sat("The emptiness of this", -124.40, 47.60, 0.6, "The Kalaloch coast", date=SUMMER25),
       photo("And it was chosen", PH_MAKAH, "Neah Bay, Makah Reservation"),
       sat("over the one thing", -124.20, 47.80, 0.4, "Logged land outside the park", date=SUMMER25)),
@@ -343,16 +343,16 @@ chapter(
 
 chapter(
     P("P18",
-      photo(0, PH_LOGRAFTS, "Log rafts at Port Angeles, 1973 (NARA)"),
+      sat(0, -123.43, 48.12, 0.12, "Port Angeles harbor", date=SUMMER25),
       m("Mills, logging camps and", v({"lon": -123.8, "lat": 47.6, "span": 3.8}, places=[PA, FORKS, ABERDEEN])),
-      photo("Ports like Port Angeles", PH_PA_1910, "Port Angeles waterfront, about 1910")),
+      sat("Ports like Port Angeles", -123.81, 46.98, 0.15, "Aberdeen on Grays Harbor", date=SUMMER25)),
     P("P19",
       photo(0, PH_FORKS_MUSEUM, "Forks Timber Museum"),
       photo("The boom ran from", PH_FORKS_1981, "Forks, 1981"),
       sat("On satellite images today,", -124.30, 47.95, 0.5, "Clear-cuts meet the park forest near Forks", date=SUMMER25),
       photo("ending sharply at the", PH_ISS_OZETTE, "Ozette Lake and Forks from the ISS, 2024 (NASA)")),
     P("P20",
-      photo(0, PH_PA_1973, "Port Angeles harbor, 1973 (NARA)"),
+      sat(0, -124.10, 47.95, 0.5, "Logged hills near Forks", date=SUMMER25),
       sat("Much of the old", -124.25, 47.70, 0.4, "Second-growth forest", date=SUMMER25),
       stat("Forks, a town of", "3,335", "People in Forks, 2020 census", CENSUS)),
     P("P21",
@@ -376,15 +376,15 @@ chapter(
     P("P23b",
       photo(0, PH_GLINES_NOTCH, "Glines Canyon Dam during removal, 2011 (NPS)"),
       stat("By most published figures,", "210 FT", "Glines Canyon Dam (Elwha Dam: about 108 ft)", "Restoration of the Elwha River (Wikipedia)"),
-      photo("For almost a century,", PH_ALDWELL, "Old stumps in Lake Aldwell's silt, 2012 (NPS)"),
-      photo("and the beaches at", PH_PA_1973, "The strait at Port Angeles, 1973 (NARA)")),
+      sat("For almost a century,", -123.56, 48.07, 0.15, "Old Lake Aldwell, drained", date=SUMMER25),
+      sat("and the beaches at", -123.57, 48.135, 0.2, "The Elwha coast, July 2010", date="2010-07-25")),
     P("P24",
       stat(0, "<3,000", "Fish returning by the late 20th century", WDFW),
       sat("The Lower Elwha Klallam", -123.56, 48.13, 0.2, "The Elwha River reaches the strait", date=SUMMER25),
       stat("In nineteen ninety-two, Congress", "1992", "Elwha River Ecosystem and Fisheries Restoration Act", "Restoration of the Elwha River (Wikipedia)"),
       sat("which allowed the government", -123.555, 48.095, 0.1, "The Elwha Dam site", date=SUMMER25)),
     P("P25",
-      photo(0, PH_ELWHA_BITE, "First bite of the Elwha Dam removal, 2011"),
+      stat(0, "17 SEP 2011", "Removal of the Elwha dams begins", NPS),
       stat("what the park service", "2011-2014", "The largest dam removal in U.S. history", NPS),
       sat("Within six months, the", -123.552, 48.092, 0.08, "Where the Elwha Dam stood", date=SUMMER25),
       photo("The Glines Canyon Dam", PH_GLINES_CRANE, "Glines Canyon Dam removal, 2012 (NPS)"),
@@ -444,7 +444,7 @@ chapter(
       stat("Washington's natural resources department", "TENS OF MINUTES", "To reach high ground after a Cascadia quake", DNR),
       sat("to get to high", -124.10, 46.95, 0.6, "Ocean Shores and Westport: low, flat ground", date=SUMMER25)),
     P("P34",
-      photo(0, PH_WESTPORT_NARA, "Westport (NARA)"),
+      sat(0, -124.11, 46.90, 0.12, "Westport marina", date=SUMMER25),
       sat("and why the towns", -124.15, 47.00, 0.4, "Ocean Shores", date=SUMMER25),
       sat("In twenty sixteen, at", -124.10, 46.88, 0.2, "Westport", date=SUMMER25),
       stat("a reinforced platform above", "1,000 PEOPLE", "Ocosta school tsunami refuge, Westport, 2016", DNR)),

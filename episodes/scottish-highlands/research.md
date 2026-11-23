@@ -56,3 +56,37 @@ Title: "Why Almost Nobody Lives in the Scottish Highlands" (48 chars). Cover: br
    the Highlands but did not refill them.
 8. Who owns it now: ~400 owners hold half the private rural land (Wightman); Assynt, Eigg, Land Reform 2003; holiday homes.
 9. Ending question: "Should Scotland break up the big estates to bring people back to the glens?"
+
+# Round 2 (2026-11-23): primary and better sources
+- V (Vision of Britain, Highland Council area on constant boundaries, from census tables; GBHGIS/Portsmouth):
+  1801 175,368; 1831 222,989; 1851 231,865; 1861 253,534 (peak shown); 1881 248,636; 1911 188,667; 1931 163,860;
+  1951 161,782; 1971 161,631 (lowest); 2001 208,914; 2011 232,132; 2021/22 235,336.
+  OWN: today still ~18,000 fewer than in 1861; 1861 -> 1971 fell by ~36 %.
+- V (Met Office 1991-2020): Edinburgh RBG 639.3 mm a year; Fort Augustus 1,359.4 mm. V (Bergen kommune, 1991-2020):
+  Bergen 2,495 mm. -> Bergen is wetter than the Great Glen; rain alone does not empty a coast.
+- A (Wikipedia citing BGS / Geoscientist 2020): Highland Boundary Fault >240 km NE-SW, Stonehaven to Arran (Lochranza);
+  separates the Highlands from the Midland Valley.
+- V (ScotlandsPeople, NRS guide): HIES assisted 4,919 people to Australia 1852-1857; Skye first, 2,569 left in 1852.
+- V (Hansard 1988; Estates Gazette; Wightman): March 1988 budget (Nigel Lawson) ended income-tax relief on commercial
+  woodland that had driven Flow Country planting (Sitka spruce); celebrity investors reported. RSPB: ~20 % drained/planted.
+- V (Scotsman, Wikipedia Assynt): Assynt Crofters' Trust took title to the North Lochinver estate on 1 Feb 1993,
+  ~21,300 acres, final bid GBP 300,000 (about half from public donations).
+- A (NTS): St Kilda's 36 islanders taken off 29 Aug 1930 at their own request after a petition in May 1930.
+
+# Round 3 (2026-11-23, while writing)
+- V (UNESCO WHC 59, Riksantikvaren): Bryggen, Hanseatic kontor from ~1350, stockfish from northern Norway, World Heritage 1979.
+- V (Highland HER MHG9364; Scotsman): Duke of Sutherland monument on Beinn a' Bhragaidh above Golspie, 1837, statue ~9 m
+  on plinth, overall ~30-33 m; vandals have tried to topple it (Scotsman).
+- V (Wikipedia Crofters Act; Highlife Highland archives): Battle of the Braes 19 Apr 1882; Napier Commission appointed
+  17 Mar 1883; Crofters Holdings (Scotland) Act royal assent 25 Jun 1886: security of tenure, fair rents (Crofters
+  Commission), right to bequeath.
+- V (NAM; NTS Culloden): 16 Apr 1746, fighting "less than an hour" / "hardly an hour". A: last pitched battle on British soil.
+- A (CBC, Canadian Encyclopedia): Hector 1773 to Pictou, 178-189 passengers -> "close to two hundred".
+- V (ScotlandsPeople): HIES 4,919 to Australia 1852-57; 1852 alone 2,569; Wikipedia: Skye 59 % (2,818).
+- A (Wikipedia NoSHEB): 54 power stations, 78 dams, ~200 miles of tunnels; first scheme Morar Dec 1948 ("by most accounts").
+- A (isleofeigg.org, Scotsman): Eigg 12 Jun 1997, 65 residents, Isle of Eigg Heritage Trust = residents + Highland
+  Council + Scottish Wildlife Trust. Eigg Electric (own grid, hydro/wind/solar, 2008): CHECK before factcheck.
+- OWN: Scotland's 8 cities (Aberdeen, Dundee, Dunfermline, Edinburgh, Glasgow, Inverness, Perth, Stirling): only
+  Aberdeen and Inverness north of the Highland Boundary Fault. Vestland ~658k / 33,871 km2 = 19.4 per km2.
+  2.57 M acres = 10,400 km2 = 13 % of Scotland's 78,800 km2 ("roughly an eighth"). Scotland 1861 3,062,294 -> 1971
+  5,228,965 = +71 % (CHECK NRS). Flow Country ~400,000 ha blanket bog (theflowcountry.org.uk).

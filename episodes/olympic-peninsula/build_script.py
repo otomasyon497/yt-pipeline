@@ -144,6 +144,8 @@ PH_HOH_STREAM = "File:Hoh Rain Forest - 54018561167.jpg"
 PH_HOH_BRANCH = "File:Hanging mossy branch hoh rainforest c bubar march 05-2015 (22656700368).jpg"
 PH_HOH_F1 = "File:Hoh Rain Forest - 54018538707.jpg"
 PH_HOH_F2 = "File:Hoh Rain Forest - 54019461571.jpg"
+PH_HOH_B = "File:Hoh Rain Forest - 54018538822.jpg"
+PH_HOH_C = "File:Hoh Rain Forest - 54018550762.jpg"
 PH_DUNG = "File:Dungeness Spit NWR.jpg"
 PH_DUNG_HEAD = "File:Dungeness Spit Headland.jpg"
 PH_DUNG_TRAIL = "File:Dungeness Spit Trail (7638331612).jpg"
@@ -151,6 +153,9 @@ PH_OLYMPUS = "File:2016. Mt. Olympus. Olympic National Park, Washington. (388972
 PH_RIALTO1 = "File:Rialto Beach - 54018507487.jpg"
 PH_RIALTO2 = "File:Rialto Beach - 54019636128.jpg"
 PH_RIALTO_PANO = "File:Rialto Beach - 54019732359.jpg"
+PH_RIALTO_A = "File:Rialto Beach - 54018510802.jpg"
+PH_RIALTO_B = "File:Rialto Beach - 54019642278.jpg"
+PH_RIALTO_C = "File:Rialto Beach - 54018515092.jpg"
 PH_RUBY_DOOR = "File:Doorway to Ruby Beach in Washington.jpg"
 PH_RUBY_ROCKS = "File:Ruby Beach rocks and waves.jpg"
 PH_RUBY_SUN = "File:Sunset at Ruby Beach (Olympic Peninsula, Washinton, USA).jpg"
@@ -275,13 +280,13 @@ chapter(
       m("The land behind the", v({"lon": -123.25, "lat": 48.0, "span": 3.0}, places=[SEQUIM])),
       sat("That is where Sequim", -123.13, 48.16, 0.2, "Dungeness Spit, north of Sequim", date=SUMMER25)),
     P("P8",
-      m(0, v(PEN, places=[HOH, SEQUIM])),
+      m(0, v({"lon": -123.6, "lat": 47.95, "span": 2.6}, places=[HOH, SEQUIM])),
       chart("On the wet side,", "Rain a year", "inches",
             [["Hoh rainforest", 140], ["Forks", 120], ["Seattle", 39], ["Sequim", 17]], "NPS; NOAA 1991-2020 normals",
             reveal=["On the dry side,", "and a town that", "And notice where the"]),
       m("Highway 101, the only", v(PEN, routes=[US101])),
       m("It can't. It loops", v(PNW, routes=[US101], places=[PA, FORKS, ABERDEEN])),
-      m("Everything on the outer", v(PEN, routes=[US101], places=[FORKS]))),
+      m("Everything on the outer", v({"lon": -124.2, "lat": 47.85, "span": 1.8}, places=[FORKS]))),
 )
 
 chapter(
@@ -295,11 +300,12 @@ chapter(
       sat(0, -124.39, 47.95, 0.2, "Forks", date=SUMMER25),
       stat("records about a hundred", "~120 IN", "Rain a year in Forks, 1991-2020", NOAA, note="Seattle: about 39"),
       sat("That is roughly three", -122.30, 47.45, 0.3, "Seattle", date=SUMMER25),
-      photo("Rivers here rise fast.", PH_HOH_F1, "Hoh rainforest"),
+      photo("Rivers here rise fast.", PH_HOH_B, "Hoh rainforest"),
       photo("Everything that people build", PH_FORKS_DOWN, "Forks, 2007")),
     P("P10b",
       photo(0, PH_HOH_STUMP, "A nurse stump, Hoh rainforest (NPS)"),
       photo("and young trees sprout", PH_HOH_LOG, "Hoh rainforest"),
+      photo("until a whole row", PH_HOH_C, "Hoh rainforest"),
       photo("Roosevelt elk graze the", PH_ELK, "Roosevelt elk, Olympic Peninsula"),
       photo("It looks untouched because,", PH_HOH_F2, "Hoh rainforest")),
     P("P11",
@@ -349,6 +355,7 @@ chapter(
     P("P19",
       photo(0, PH_FORKS_MUSEUM, "Forks Timber Museum"),
       photo("The boom ran from", PH_FORKS_1981, "Forks, 1981"),
+      sat("as trucks carried huge", -124.20, 48.05, 0.3, "Hills north of Forks", date=SUMMER25),
       sat("On satellite images today,", -124.30, 47.95, 0.5, "Clear-cuts meet the park forest near Forks", date=SUMMER25),
       photo("ending sharply at the", PH_ISS_OZETTE, "Ozette Lake and Forks from the ISS, 2024 (NASA)")),
     P("P20",
@@ -357,8 +364,9 @@ chapter(
       stat("Forks, a town of", "3,335", "People in Forks, 2020 census", CENSUS)),
     P("P21",
       photo(0, PH_TWILIGHT, "Forks welcomes Twilight fans, 2010"),
+      sat("Between two thousand and", -124.39, 47.95, 0.25, "Forks from above", date=SUMMER25),
       photo("set her Twilight novels", PH_FORKS_DOWN, "Forks"),
-      sat("And suddenly, the wettest", -124.385, 47.948, 0.08, "Forks", date=SUMMER25),
+      sat("And suddenly, one of", -124.385, 47.948, 0.08, "Forks", date=SUMMER25),
       sat("But the timber years", -123.62, 47.98, 0.6, "The Elwha valley", date=SUMMER25)),
 )
 
@@ -375,7 +383,8 @@ chapter(
       sat("for thousands of years", -123.60, 47.96, 0.3, "The upper Elwha valley", date=SUMMER25)),
     P("P23b",
       photo(0, PH_GLINES_NOTCH, "Glines Canyon Dam during removal, 2011 (NPS)"),
-      stat("By most published figures,", "210 FT", "Glines Canyon Dam (Elwha Dam: about 108 ft)", "Restoration of the Elwha River (Wikipedia)"),
+      stat("By most published figures,", "108 FT", "Elwha Dam height", "Restoration of the Elwha River (Wikipedia)"),
+      stat("and Glines Canyon about", "210 FT", "Glines Canyon Dam height", "Restoration of the Elwha River (Wikipedia)"),
       sat("For almost a century,", -123.56, 48.07, 0.15, "Old Lake Aldwell, drained", date=SUMMER25),
       sat("and the beaches at", -123.57, 48.135, 0.2, "The Elwha coast, July 2010", date="2010-07-25")),
     P("P24",
@@ -394,7 +403,9 @@ chapter(
       sat(0, -123.548, 48.142, 0.13, "Elwha mouth, July 2025", date=SUMMER25),
       photo("The park says eleven", PH_ELWHA_SILT, "Sediment drifting off the Elwha mouth, 2012 (NPS)"),
       stat("A study published in", "2024 STUDY", "Fish numbers rose once the way upstream was open", "Pess et al. 2024, Frontiers in Ecology and Evolution"),
-      photo("It is one of", PH_ONP2023, "Olympic National Park")),
+      photo("It is one of", PH_ONP2023, "Olympic National Park"),
+      photo("But the oldest story", PH_RIALTO_A, "Rialto Beach"),
+      photo("It is written in", PH_HOH_STUMP, "A dead stump, Hoh rainforest (NPS)")),
 )
 
 chapter(
@@ -422,6 +433,7 @@ chapter(
       stat("The magnitude was probably", "M 8.7-9.2", "The 1700 Cascadia earthquake", PNSN)),
     P("P30b",
       m(0, v(WEST, routes=[CSZ])),
+      photo("after crossing the whole", PH_RIALTO_B, "Rialto Beach"),
       stat("Scientists estimate that the", "~1,000 KM", "Of fault that broke, ~20 m average slip", ATW),
       m("from Vancouver Island to", v(WEST, places=[VANC_I, NCAL]))),
     P("P31",
@@ -435,11 +447,14 @@ chapter(
     P("P32",
       m(0, v(WEST, routes=[CSZ], places=[SEATTLE])),
       m("where the ocean floor", v({"lon": -125.5, "lat": 46.5, "span": 6.0}, routes=[CSZ])),
-      stat("at least nineteen great", "19", "Great (M8+) Cascadia earthquakes in ~10,000 years", PNSN, note="About every 500 years on average"),
+      photo("The Pacific Northwest Seismic", PH_RIALTO_C, "The outer coast, Rialto Beach"),
+      stat("at least nineteen great", "19", "Great (M8+) Cascadia earthquakes in ~10,000 years", PNSN),
+      stat("on average about every", "~500 YEARS", "Average gap between great Cascadia earthquakes", PNSN),
       photo("The last one was", PH_QUINAULT, "Rainforest canopy, Quinault valley (NPS)")),
     P("P33",
       stat(0, "10-15 %", "Chance of a full-margin ~M9 in the next 50 years", USGS_P),
       photo("The United States Geological", PH_ISS_OZETTE, "The outer coast from the ISS, 2024 (NASA)"),
+      sat("a magnitude nine, at", -124.30, 47.45, 0.4, "The outer coast", date=SUMMER25),
       m("When it comes, the", v(SOUTH, places=[WESTPORT, NCOVE, ABERDEEN])),
       stat("Washington's natural resources department", "TENS OF MINUTES", "To reach high ground after a Cascadia quake", DNR),
       sat("to get to high", -124.10, 46.95, 0.6, "Ocean Shores and Westport: low, flat ground", date=SUMMER25)),

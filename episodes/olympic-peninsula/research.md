@@ -84,3 +84,14 @@ Title: "Why Almost Nobody Lives on Washington's Wild Coast" (alt "The Rainforest
   of the two dams since they were built"; Sequim irrigation canals 1890s, Irrigation Festival since 1 May 1896. Seattle
   39.34 in (1991-2020, summary only); Washington 7,705,281 (2020), ~8.1 M (OFM 2025, summary only) -> "nearly eight million".
   Spotted owl not on the Forks page -> removed from narration.
+
+# Round 4 (2026-11-23, factcheck)
+- V (NPS "Tides and Your Safety", nps.gov/olym/planyourvisit/tides-and-your-safety.htm): a map showing "the headlands that
+  are only passable at lower tides ... along with your tide table are essential".
+- V (WA Emergency Management, mil.wa.gov): the state is helping build "the Nation's first vertical evacuation structures
+  capable of withstanding 9.0+ magnitude earthquakes and 30-foot waves". Our earlier "M9.2 / deep pilings" wording was not
+  found -> narration now says "the state says it was built to withstand a magnitude nine earthquake and the waves that follow".
+  Capacity: DNR 1,000 people (FEMA page says ~700) -> narration keeps "what the state calls ... designed to hold a thousand".
+- A (Forks tourism site, olympicpeninsula.org; UW state climatologist lists Forks as the annual record holder in WA):
+  Forks is widely called the wettest town in the contiguous US; not an official ranking -> narration says "one of the wettest
+  towns in the lower forty-eight".

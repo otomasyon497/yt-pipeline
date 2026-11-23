@@ -51,7 +51,7 @@ P19: Forks called itself the Logging Capital of the World. The boom ran from the
 
 P20: Then, in the nineteen-eighties and nineties, the boom ended. Much of the old growth outside the park had been cut, and environmental rules changed. Mills closed and jobs went with them. Forks, a town of about three thousand people, had to look for something else.
 
-P21: Help came from an unexpected place. Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. The films followed. And suddenly, the wettest town in the lower forty-eight had fans arriving from around the world to see it rain. But the timber years left another mark on this peninsula, one that took almost a hundred years to undo.
+P21: Help came from an unexpected place. Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. The films followed. And suddenly, one of the wettest towns in the lower forty-eight had fans arriving from around the world to see it rain. But the timber years left another mark on this peninsula, one that took almost a hundred years to undo.
 
 ## 5. The River They Set Free (curious)
 P22: The Elwha River runs north out of the Olympic Mountains into the Strait of Juan de Fuca, just west of Port Angeles. Before the twentieth century, it was one of the richest salmon rivers in the Northwest. Washington's fish and wildlife agency estimated that some three hundred and ninety thousand fish once came back up it every year to spawn.
@@ -88,7 +88,7 @@ P33: Nobody can say when the next one will come. The United States Geological Su
 
 P34: That is one more reason why so few people live right on this shore, and why the towns that are here are getting ready. In twenty sixteen, at Westport, the Ocosta school district finished what the state calls the first vertical tsunami evacuation structure in North America: a reinforced platform above a school gym, designed to hold a thousand people above the water.
 
-P34b: The platform stands about fifty-three feet above sea level, on concrete walls and deep pilings, and was built to survive a magnitude nine point two earthquake before the water arrives. On a coast where the nearest hill can be miles away, a roof may be the only high ground there is.
+P34b: The platform stands about fifty-three feet above sea level, and the state says it was built to withstand a magnitude nine earthquake and the waves that follow. On a coast where the nearest hill can be miles away, a roof may be the only high ground there is.
 
 ## Ending (calm)
 P35: So why is Washington's wild coast so empty? Start with the mountain. It pulls the rain out of the Pacific sky and drops it on the western side, more than twelve feet a year, while the other side stays as dry as Los Angeles. Add a shore of crumbling bluffs and moving sand, a park drawn around the wildest of it, the end of the timber boom, and a fault that has already broken this coast before.

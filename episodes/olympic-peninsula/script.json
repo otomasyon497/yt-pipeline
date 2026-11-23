@@ -896,9 +896,9 @@
         "steps": [
          {
           "view": {
-           "lon": -123.75,
-           "lat": 47.92,
-           "span": 3.604
+           "lon": -123.6,
+           "lat": 47.95,
+           "span": 2.6
           },
           "places": [
            {
@@ -963,9 +963,9 @@
         "steps": [
          {
           "view": {
-           "lon": -123.645,
-           "lat": 47.476,
-           "span": 4.886
+           "lon": -123.685,
+           "lat": 47.507,
+           "span": 5.194
           },
           "routes": [
            {
@@ -1134,68 +1134,10 @@
         "steps": [
          {
           "view": {
-           "lon": -123.645,
-           "lat": 47.476,
-           "span": 4.886
+           "lon": -124.2,
+           "lat": 47.85,
+           "span": 1.8
           },
-          "routes": [
-           {
-            "from": [
-             -122.9,
-             47.04
-            ],
-            "via": [
-             [
-              -123.1,
-              47.4
-             ],
-             [
-              -122.9,
-              47.7
-             ],
-             [
-              -122.95,
-              48.0
-             ],
-             [
-              -123.1,
-              48.08
-             ],
-             [
-              -123.43,
-              48.12
-             ],
-             [
-              -123.85,
-              48.06
-             ],
-             [
-              -124.39,
-              47.95
-             ],
-             [
-              -124.2,
-              47.55
-             ],
-             [
-              -124.1,
-              47.3
-             ],
-             [
-              -123.81,
-              46.98
-             ]
-            ],
-            "to": [
-             -123.1,
-             47.05
-            ],
-            "mode": "line",
-            "label": "Highway 101",
-            "color": "accent",
-            "seconds": 5.0
-           }
-          ],
           "places": [
            {
             "name": "Forks",
@@ -1317,7 +1259,7 @@
       {
        "type": "photo",
        "at": "Rivers here rise fast.",
-       "photo": "File:Hoh Rain Forest - 54018538707.jpg",
+       "photo": "File:Hoh Rain Forest - 54018538822.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
@@ -1341,6 +1283,12 @@
        "type": "photo",
        "at": "and young trees sprout",
        "photo": "File:Hoh Rain Forest - 54019454206.jpg",
+       "on_screen_text": "Hoh rainforest"
+      },
+      {
+       "type": "photo",
+       "at": "until a whole row",
+       "photo": "File:Hoh Rain Forest - 54018550762.jpg",
        "on_screen_text": "Hoh rainforest"
       },
       {
@@ -1536,9 +1484,9 @@
         "steps": [
          {
           "view": {
-           "lon": -123.92,
-           "lat": 47.682,
-           "span": 3.628
+           "lon": -123.75,
+           "lat": 47.58,
+           "span": 2.652
           },
           "places": [
            {
@@ -1638,9 +1586,9 @@
         "steps": [
          {
           "view": {
-           "lon": -123.648,
-           "lat": 47.614,
-           "span": 2.704
+           "lon": -123.58,
+           "lat": 47.818,
+           "span": 2.968
           },
           "places": [
            {
@@ -1663,8 +1611,8 @@
          {
           "at": 19,
           "view": {
-           "lon": -123.648,
-           "lat": 47.614,
+           "lon": -123.58,
+           "lat": 47.818,
            "span": 2.55
           }
          }
@@ -1755,9 +1703,9 @@
         "steps": [
          {
           "view": {
-           "lon": -123.852,
-           "lat": 47.886,
-           "span": 3.892
+           "lon": -123.92,
+           "lat": 47.825,
+           "span": 4.156
           },
           "places": [
            {
@@ -1786,9 +1734,9 @@
          {
           "at": 12,
           "view": {
-           "lon": -123.852,
-           "lat": 47.886,
-           "span": 3.308
+           "lon": -123.92,
+           "lat": 47.682,
+           "span": 3.084
           }
          }
         ],
@@ -1957,6 +1905,24 @@
       },
       {
        "type": "map",
+       "at": "as trucks carried huge",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.2,
+           "lat": 48.05,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hills north of Forks"
+      },
+      {
+       "type": "map",
        "at": "On satellite images today,",
        "map": {
         "steps": [
@@ -2050,13 +2016,31 @@
      ]
     },
     {
-     "text": "Help came from an unexpected place. Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. The films followed. And suddenly, the wettest town in the lower forty-eight had fans arriving from around the world to see it rain. But the timber years left another mark on this peninsula, one that took almost a hundred years to undo.",
+     "text": "Help came from an unexpected place. Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. The films followed. And suddenly, one of the wettest towns in the lower forty-eight had fans arriving from around the world to see it rain. But the timber years left another mark on this peninsula, one that took almost a hundred years to undo.",
      "shots": [
       {
        "type": "photo",
        "at": 0,
        "photo": "File:\"Welcome Twilight fans\" in Forks, Washington.jpg",
        "on_screen_text": "Forks welcomes Twilight fans, 2010"
+      },
+      {
+       "type": "map",
+       "at": "Between two thousand and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.39,
+           "lat": 47.95,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forks from above"
       },
       {
        "type": "photo",
@@ -2066,7 +2050,7 @@
       },
       {
        "type": "map",
-       "at": "And suddenly, the wettest",
+       "at": "And suddenly, one of",
        "map": {
         "steps": [
          {
@@ -2078,7 +2062,7 @@
           "date": "2025-07-01/2025-09-15"
          },
          {
-          "at": 39,
+          "at": 40,
           "view": {
            "lon": -124.385,
            "lat": 47.948,
@@ -2105,7 +2089,7 @@
           "date": "2025-07-01/2025-09-15"
          },
          {
-          "at": 58,
+          "at": 60,
           "view": {
            "lon": -123.62,
            "lat": 47.98,
@@ -2136,9 +2120,9 @@
         "steps": [
          {
           "view": {
-           "lon": -123.512,
-           "lat": 47.75,
-           "span": 3.133
+           "lon": -123.648,
+           "lat": 47.717,
+           "span": 3.062
           },
           "places": [
            {
@@ -2161,16 +2145,16 @@
          {
           "at": 12,
           "view": {
-           "lon": -123.512,
-           "lat": 47.75,
-           "span": 2.663
+           "lon": -123.648,
+           "lat": 47.614,
+           "span": 2.55
           }
          },
          {
           "at": 24,
           "view": {
-           "lon": -123.512,
-           "lat": 47.75,
+           "lon": -123.648,
+           "lat": 47.614,
            "span": 2.55
           }
          }
@@ -2338,8 +2322,17 @@
        "type": "stat",
        "at": "By most published figures,",
        "stat": {
+        "value": "108 FT",
+        "label": "Elwha Dam height",
+        "source": "Restoration of the Elwha River (Wikipedia)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and Glines Canyon about",
+       "stat": {
         "value": "210 FT",
-        "label": "Glines Canyon Dam (Elwha Dam: about 108 ft)",
+        "label": "Glines Canyon Dam height",
         "source": "Restoration of the Elwha River (Wikipedia)"
        }
       },
@@ -2600,6 +2593,18 @@
        "at": "It is one of",
        "photo": "File:Olympic National Park, 2023 - 002.jpg",
        "on_screen_text": "Olympic National Park"
+      },
+      {
+       "type": "photo",
+       "at": "But the oldest story",
+       "photo": "File:Rialto Beach - 54018510802.jpg",
+       "on_screen_text": "Rialto Beach"
+      },
+      {
+       "type": "photo",
+       "at": "It is written in",
+       "photo": "File:Stair step moss stump hoh rainforest c bubar july 2014 (17302171651).jpg",
+       "on_screen_text": "A dead stump, Hoh rainforest (NPS)"
       }
      ]
     }
@@ -3121,6 +3126,12 @@
        }
       },
       {
+       "type": "photo",
+       "at": "after crossing the whole",
+       "photo": "File:Rialto Beach - 54019642278.jpg",
+       "on_screen_text": "Rialto Beach"
+      },
+      {
        "type": "stat",
        "at": "Scientists estimate that the",
        "stat": {
@@ -3187,9 +3198,9 @@
         "steps": [
          {
           "view": {
-           "lon": -124.03,
-           "lat": 47.898,
-           "span": 3.606
+           "lon": -123.852,
+           "lat": 47.886,
+           "span": 3.892
           },
           "places": [
            {
@@ -3211,9 +3222,9 @@
          {
           "at": 22,
           "view": {
-           "lon": -123.988,
-           "lat": 47.75,
-           "span": 2.55
+           "lon": -123.852,
+           "lat": 47.886,
+           "span": 3.308
           }
          }
         ],
@@ -3353,13 +3364,27 @@
        }
       },
       {
+       "type": "photo",
+       "at": "The Pacific Northwest Seismic",
+       "photo": "File:Rialto Beach - 54018515092.jpg",
+       "on_screen_text": "The outer coast, Rialto Beach"
+      },
+      {
        "type": "stat",
        "at": "at least nineteen great",
        "stat": {
         "value": "19",
         "label": "Great (M8+) Cascadia earthquakes in ~10,000 years",
-        "source": "Pacific Northwest Seismic Network",
-        "note": "About every 500 years on average"
+        "source": "Pacific Northwest Seismic Network"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "on average about every",
+       "stat": {
+        "value": "~500 YEARS",
+        "label": "Average gap between great Cascadia earthquakes",
+        "source": "Pacific Northwest Seismic Network"
        }
       },
       {
@@ -3387,6 +3412,24 @@
        "at": "The United States Geological",
        "photo": "File:View from ISS Expedition 71, Ozette Lake, Forks, Washington, June 7, 2024 (ISS071-E-176451).jpg",
        "on_screen_text": "The outer coast from the ISS, 2024 (NASA)"
+      },
+      {
+       "type": "map",
+       "at": "a magnitude nine, at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.3,
+           "lat": 47.45,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The outer coast"
       },
       {
        "type": "map",
@@ -3535,7 +3578,7 @@
      ]
     },
     {
-     "text": "The platform stands about fifty-three feet above sea level, on concrete walls and deep pilings, and was built to survive a magnitude nine point two earthquake before the water arrives. On a coast where the nearest hill can be miles away, a roof may be the only high ground there is.",
+     "text": "The platform stands about fifty-three feet above sea level, and the state says it was built to withstand a magnitude nine earthquake and the waves that follow. On a coast where the nearest hill can be miles away, a roof may be the only high ground there is.",
      "shots": [
       {
        "type": "map",
@@ -3551,20 +3594,11 @@
           "date": "2025-07-01/2025-09-15"
          },
          {
-          "at": 10,
+          "at": 13,
           "view": {
            "lon": -124.105,
            "lat": 46.885,
            "span": 0.08
-          },
-          "date": "2025-07-01/2025-09-15"
-         },
-         {
-          "at": 20,
-          "view": {
-           "lon": -124.105,
-           "lat": 46.885,
-           "span": 0.128
           },
           "date": "2025-07-01/2025-09-15"
          }
@@ -3606,7 +3640,7 @@
         "steps": [
          {
           "view": {
-           "lon": -124.625,
+           "lon": -124.543,
            "lat": 47.778,
            "span": 4.741
           },
@@ -3684,7 +3718,7 @@
         "steps": [
          {
           "view": {
-           "lon": -123.645,
+           "lon": -123.728,
            "lat": 47.476,
            "span": 4.886
           },

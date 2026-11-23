@@ -1,0 +1,129 @@
+# olympic-peninsula - fact-check
+
+Status: verified (primary source) | attributed (secondary source, said in the script as "X reported") | own (our measurement or calculation, reproducible) | FIX (wrong, unsupported or quoted without the original text). Sources: R-items of research.md or a URL.
+
+| # | Where | Kind | Claim | Source | Status |
+|---|---|---|---|---|---|
+| 1 | c01p01 | narration | The National Park Service puts the rain here at between a hundred and forty and a hundred and sixty-seven inches a year. | NPS 'Temperate Rain Forests' (updated 11 Apr 2025) ('140 to 167 inches (12 to 14 feet)') | verified |
+| 2 | c01p01 | stat card | 140-167 IN: Rain a year in Olympic's rainforest valleys (12 to 14 feet of water) | NPS 'Temperate Rain Forests' (updated 11 Apr 2025) ('140 to 167 inches (12 to 14 feet)') | verified |
+| 3 | c01p02 | narration | And the two places are only about forty miles apart as the crow flies. | Own great-circle Hoh (47.86 N, 123.93 W) - Sequim (48.08 N, 123.10 W): 66 km = 41 mi | own |
+| 4 | c01p02 | stat card | ~17 IN: Rain a year in Sequim, 1991-2020 (About as dry as Los Angeles) | NOAA 1991-2020 normals via Wikipedia Sequim (16.85 in; 'about the same as Los Angeles') | verified |
+| 5 | c01p02 | on screen | About 40 miles apart | Own great-circle Hoh (47.86 N, 123.93 W) - Sequim (48.08 N, 123.10 W): 66 km = 41 mi | own |
+| 6 | c01p03 | narration | Washington is home to nearly eight million people, and most of them live just a few hours' drive from the Pacific. | US Census 2020 (7,705,281); WA OFM 2025 estimate ~8.1 M | verified |
+| 7 | c01p03 | narration | There are no beach cities, no coastal highway that follows the surf, and seventy-three miles of the shore are protected wilderness with no road at all. | NPS 'Olympic Fun Facts' (updated 13 Feb 2025) (922,651 acres; 876,447 acres = 95 % wilderness; 73 miles of wilderness coast) | verified |
+| 8 | c01p03 | stat card | 73 MILES: Of wilderness coast in Olympic National Park | NPS 'Olympic Fun Facts' (updated 13 Feb 2025) (922,651 acres; 876,447 acres = 95 % wilderness; 73 miles of wilderness coast) | verified |
+| 9 | c01p04 | narration | Why did one of the busiest states on the West Coast leave its ocean almost untouched? | Framing / summary of facts cited elsewhere in this table | verified |
+| 10 | c01p04 | narration | The answer runs through rain, rock and timber, through two dams on a salmon river, and back to one winter night in the year seventeen hundred, a night that was written down on the other side of the Pacific, in Japan. | Framing / summary of facts cited elsewhere in this table | verified |
+| 11 | c01p04 | narration | And it ends with a question about the next one. | Framing / summary of facts cited elsewhere in this table | verified |
+| 12 | c01p04 | on screen | Forks, 1981 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 13 | c01p04 | on screen | The Elwha Dam, 2011 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 14 | c02p01 | narration | The Olympic Peninsula is the far northwestern corner of the lower forty-eight states. | Geography (Cape Flattery is the NW-most point of the contiguous US) | verified |
+| 15 | c02p02 | narration | They rise from near sea level to almost eight thousand feet at Mount Olympus, and they sit right in the path of the storms that roll in off the Pacific, one after another, through the winter. | NPS / Wikipedia Mount Olympus (7,980 ft); Commons photo | verified |
+| 16 | c02p02 | on screen | Mount Olympus, 2016 | NPS / Wikipedia Mount Olympus (7,980 ft); Commons photo | verified |
+| 17 | c02p04 | narration | Researchers count well over a hundred glaciers and permanent snowfields in the Olympics, and studies cited on the range's encyclopedia page expect most of them to be gone by about twenty seventy. | Wikipedia Olympic Mountains (~184 glaciers, expected to largely disappear by 2070); said as 'studies cited on the range's encyclopedia page' | attributed |
+| 18 | c02p04 | on screen | Olympic National Park, 2023 | Commons file description | verified |
+| 19 | c02p06 | narration | So one mountain range splits the peninsula into two worlds. | Framing / summary of facts cited elsewhere in this table | verified |
+| 20 | c02p06 | narration | Highway 101, the only main road, does not cross the mountains. | WSDOT US 101 route (loops around the Olympics; no highway crosses the range) | verified |
+| 21 | c02p06 | chart | Rain a year: Hoh rainforest 140, Forks 120, Seattle 39, Sequim 17 | NPS 'Temperate Rain Forests' (updated 11 Apr 2025) ('140 to 167 inches (12 to 14 feet)') | verified |
+| 22 | c03p01 | narration | The park service describes Sitka spruce and western hemlock that are hundreds of years old and can grow to two hundred and fifty feet tall. | NPS 'Temperate Rain Forests' (updated 11 Apr 2025) ('can reach 250 feet') | verified |
+| 23 | c03p02 | narration | Forks, the biggest town on this side, records about a hundred and twenty inches of rain a year in the official climate normals. | NOAA 1991-2020 normals via Wikipedia Forks (119.94 in); Seattle 39.34 in | verified |
+| 24 | c03p02 | narration | That is roughly three times what Seattle gets. | Own: 119.94 / 39.34 = 3.05 | own |
+| 25 | c03p02 | stat card | ~120 IN: Rain a year in Forks, 1991-2020 (Seattle: about 39) | NOAA 1991-2020 normals via Wikipedia Forks (119.94 in); Seattle 39.34 in | verified |
+| 26 | c03p02 | on screen | Forks, 2007 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 27 | c03p03 | narration | It looks untouched because, in large parts of these valleys, it is. | Framing / summary of facts cited elsewhere in this table | verified |
+| 28 | c03p04 | narration | At North Cove on Willapa Bay, NBC News reported that the shore was retreating by more than a hundred feet in some years, and called it the fastest-eroding shoreline on the West Coast. | NBC News 2018 via Wikipedia North Cove; attributed in narration | attributed |
+| 29 | c03p04 | on screen | North Cove, August 1994 | Landsat 1994-08-23 / Sentinel-2 summer 2025 (place shown) | verified |
+| 30 | c03p04 | on screen | North Cove, July 2025 | Landsat 1994-08-23 / Sentinel-2 summer 2025 (place shown) | verified |
+| 31 | c03p05 | narration | One local count found that by twenty sixteen, sixty homes and more than two thousand acres had gone into the sea there. | WA Coastal Hazards Resilience Network 2017 via Wikipedia North Cove (60 homes, >2,018 acres); 'by one local count' | attributed |
+| 32 | c03p05 | stat card | 2,000+ ACRES: Lost to the sea at North Cove by 2016, by one local count | WA Coastal Hazards Resilience Network 2017 via Wikipedia North Cove (60 homes, >2,018 acres); 'by one local count' | attributed |
+| 33 | c03p06 | narration | So nature put up three barriers: a wall of mountains, a curtain of rain, and a coast that will not stay still. | Framing / summary of facts cited elsewhere in this table | verified |
+| 34 | c03p06 | narration | But nature is only half of why the coast is empty. | Framing / summary of facts cited elsewhere in this table | verified |
+| 35 | c03p06 | narration | The other half is a decision people made about a century ago. | Framing / summary of facts cited elsewhere in this table | verified |
+| 36 | c04p01 | narration | In nineteen-oh-nine, President Theodore Roosevelt set aside the heart of the mountains as Mount Olympus National Monument. | NPS history page; Wikipedia Olympic NP (proclamation 2 Mar 1909; purpose 'permanent protection for the herds of native Roosevelt elk') | verified |
+| 37 | c04p01 | narration | To this day, one of the park's stated purposes is permanent protection for its herds of native Roosevelt elk. | NPS history page; Wikipedia Olympic NP (proclamation 2 Mar 1909; purpose 'permanent protection for the herds of native Roosevelt elk') | verified |
+| 38 | c04p01 | stat card | 1909: Mount Olympus National Monument, by Theodore Roosevelt | NPS history page; Wikipedia Olympic NP (proclamation 2 Mar 1909; purpose 'permanent protection for the herds of native Roosevelt elk') | verified |
+| 39 | c04p02 | narration | In nineteen thirty-eight, the monument became Olympic National Park. | NPS history page (park 29 Jun 1938) | verified |
+| 40 | c04p02 | narration | Today, according to the park service, the park covers about nine hundred and twenty-two thousand acres, and ninety-five percent of it is designated wilderness, including seventy-three miles of wilderness coast. | NPS 'Olympic Fun Facts' (updated 13 Feb 2025) (922,651 acres; 876,447 acres = 95 % wilderness; 73 miles of wilderness coast) | verified |
+| 41 | c04p02 | stat card | 1938: Olympic National Park | NPS history page (park 29 Jun 1938) | verified |
+| 42 | c04p02 | stat card | 922,651 ACRES: Olympic National Park; 95 % designated wilderness | NPS 'Olympic Fun Facts' (updated 13 Feb 2025) (922,651 acres; 876,447 acres = 95 % wilderness; 73 miles of wilderness coast) | verified |
+| 43 | c04p03 | narration | Hikers carry tide tables, because some headlands can only be passed at low tide. | NPS 'Tides and Your Safety' (headlands only passable at lower tides; tide table essential) | verified |
+| 44 | c04p04 | narration | In nineteen eighty-one, the park became a UNESCO World Heritage Site. | UNESCO World Heritage List, Olympic National Park (inscribed 1981) | verified |
+| 45 | c04p04 | narration | And it was chosen in the middle of a fight over the one thing everyone here wanted from the forest. | Framing / summary of facts cited elsewhere in this table | verified |
+| 46 | c05p02 | on screen | Forks, 1981 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 47 | c05p02 | on screen | Ozette Lake and Forks from the ISS, 2024 (NASA) | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 48 | c05p03 | narration | Forks, a town of about three thousand people, had to look for something else. | US Census 2020: Forks 3,335 | verified |
+| 49 | c05p03 | stat card | 3,335: People in Forks, 2020 census | US Census 2020: Forks 3,335 | verified |
+| 50 | c05p04 | narration | Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. | Wikipedia Forks / Twilight (novels 2005-2008, set in Forks); Commons photo | verified |
+| 51 | c05p04 | narration | And suddenly, one of the wettest towns in the lower forty-eight had fans arriving from around the world to see it rain. | NOAA normals (Forks 119.94 in); Forks widely described as the wettest town in the contiguous US (research round 4) | verified |
+| 52 | c05p04 | narration | But the timber years left another mark on this peninsula, one that took almost a hundred years to undo. | Framing (Elwha dams, chapter 6) | verified |
+| 53 | c05p04 | on screen | Forks welcomes Twilight fans, 2010 | Wikipedia Forks / Twilight (novels 2005-2008, set in Forks); Commons photo | verified |
+| 54 | c06p01 | narration | Before the twentieth century, it was one of the richest salmon rivers in the Northwest. | WDFW 2010 estimates, via Wikipedia 'Restoration of the Elwha River'; said as 'the agency estimated' | attributed |
+| 55 | c06p01 | narration | Washington's fish and wildlife agency estimated that some three hundred and ninety thousand fish once came back up it every year to spawn. | WDFW 2010 estimates, via Wikipedia 'Restoration of the Elwha River'; said as 'the agency estimated' | attributed |
+| 56 | c06p01 | stat card | ~392,000: Fish a year returning up the Elwha before the dams (estimate) | WDFW 2010 estimates, via Wikipedia 'Restoration of the Elwha River'; said as 'the agency estimated' | attributed |
+| 57 | c06p02 | narration | In the early nineteen-hundreds, two dams were built on the Elwha to make electricity for the growing mills and towns. | NPS Elwha River Restoration page ('built in the early 1900s'); Wikipedia (Elwha Dam operational 1913, Glines Canyon 1927) | verified |
+| 58 | c06p02 | narration | The Glines Canyon Dam, upstream, followed in nineteen twenty-seven. | NPS Elwha River Restoration page ('built in the early 1900s'); Wikipedia (Elwha Dam operational 1913, Glines Canyon 1927) | verified |
+| 59 | c06p02 | on screen | Elwha Dam powerhouse, about 1913 | NPS Elwha River Restoration page ('built in the early 1900s'); Wikipedia (Elwha Dam operational 1913, Glines Canyon 1927) | verified |
+| 60 | c06p02 | on screen | The Elwha Dam, 2011 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 61 | c06p03 | narration | By most published figures, the Elwha Dam stood about a hundred and eight feet high, and Glines Canyon about two hundred and ten. | Wikipedia 'Restoration of the Elwha River' (108 ft, 210 ft); said as 'by most published figures' | attributed |
+| 62 | c06p03 | on screen | Glines Canyon Dam during removal, 2011 (NPS) | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 63 | c06p03 | stat card | 108 FT: Elwha Dam height | Wikipedia 'Restoration of the Elwha River' (108 ft, 210 ft); said as 'by most published figures' | attributed |
+| 64 | c06p03 | stat card | 210 FT: Glines Canyon Dam height | Wikipedia 'Restoration of the Elwha River' (108 ft, 210 ft); said as 'by most published figures' | attributed |
+| 65 | c06p03 | on screen | The Elwha coast, July 2010 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 66 | c06p04 | narration | By the end of the century, the returns had fallen to fewer than three thousand fish. | WDFW 2010 estimates, via Wikipedia 'Restoration of the Elwha River'; said as 'the agency estimated' | attributed |
+| 67 | c06p04 | narration | In nineteen ninety-two, Congress passed the Elwha River Ecosystem and Fisheries Restoration Act, which allowed the government to buy the dams and take them out. | Elwha River Ecosystem and Fisheries Restoration Act, Pub. L. 102-495 (1992) | verified |
+| 68 | c06p04 | stat card | <3,000: Fish returning by the late 20th century | WDFW 2010 estimates, via Wikipedia 'Restoration of the Elwha River'; said as 'the agency estimated' | attributed |
+| 69 | c06p04 | stat card | 1992: Elwha River Ecosystem and Fisheries Restoration Act | Elwha River Ecosystem and Fisheries Restoration Act, Pub. L. 102-495 (1992) | verified |
+| 70 | c06p05 | narration | On the seventeenth of September, twenty eleven, work began on what the park service calls the largest dam removal in United States history. | NPS Elwha River Restoration page | verified |
+| 71 | c06p05 | narration | Within six months, the Elwha Dam was gone. | NPS Elwha River Restoration page | verified |
+| 72 | c06p05 | narration | The Glines Canyon Dam followed in twenty fourteen. | NPS Elwha River Restoration page | verified |
+| 73 | c06p05 | stat card | 17 SEP 2011: Removal of the Elwha dams begins | NPS Elwha River Restoration page | verified |
+| 74 | c06p05 | stat card | 2011-2014: The largest dam removal in U.S. history | NPS Elwha River Restoration page | verified |
+| 75 | c06p05 | on screen | Glines Canyon Dam removal, 2012 (NPS) | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 76 | c06p05 | on screen | Elwha mouth, July 2010 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 77 | c06p06 | narration | The park says eleven kinds of salmon and trout now use the river. | NPS Elwha River Restoration page | verified |
+| 78 | c06p06 | narration | A study published in twenty twenty-four found that their numbers rose once the way upstream was open. | Pess et al. 2024, Frontiers in Ecology and Evolution (abundance rose after passage restored) | verified |
+| 79 | c06p06 | narration | It is one of the clearest experiments anywhere in what happens when you give a river back. | Framing / summary of facts cited elsewhere in this table | verified |
+| 80 | c06p06 | on screen | Elwha mouth, July 2025 | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 81 | c06p06 | on screen | Sediment drifting off the Elwha mouth, 2012 (NPS) | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 82 | c06p06 | stat card | 2024 STUDY: Fish numbers rose once the way upstream was open | Pess et al. 2024, Frontiers in Ecology and Evolution (abundance rose after passage restored) | verified |
+| 83 | c07p02 | narration | The ground had dropped by one to two meters, all at once. | PNSN Cascadia subduction zone and 1700 earthquake pages; Yamaguchi et al. 1997 tree rings | verified |
+| 84 | c07p02 | narration | Something enormous had happened along this coast, but no one had written it down here. | Framing / summary of facts cited elsewhere in this table | verified |
+| 85 | c07p02 | stat card | 1-2 METERS: Sudden drop of the coast, killing the ghost forests | PNSN Cascadia subduction zone and 1700 earthquake pages; Yamaguchi et al. 1997 tree rings | verified |
+| 86 | c07p03 | narration | The answer was found in Japan. | Framing / summary of facts cited elsewhere in this table | verified |
+| 87 | c07p03 | narration | Old records from villages on Japan's Pacific coast described a tsunami that arrived in the winter of seventeen hundred with no earthquake felt there at all. | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 88 | c07p03 | narration | Because nothing had shaken the ground in Japan, scientists later called it an orphan tsunami: a wave without a parent. | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 89 | c07p04 | narration | In the modern calendar, that is the twenty-seventh and twenty-eighth of January, seventeen hundred. | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 90 | c07p04 | narration | The waves were probably two to five meters high when they reached Japan. | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 91 | c07p04 | stat card | 27-28 JAN 1700: Genroku 12, 12th month, 8th-9th days: the tsunami in Japan | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 92 | c07p04 | stat card | 2-5 M: Estimated tsunami height in Japan | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 93 | c07p05 | narration | By modelling how long the waves would have taken to cross the Pacific, about nine hours, scientists worked backwards. | PNSN Cascadia subduction zone and 1700 earthquake pages | verified |
+| 94 | c07p05 | narration | The parent earthquake must have struck the Cascadia coast at about nine in the evening on the twenty-sixth of January, seventeen hundred. | PNSN Cascadia subduction zone and 1700 earthquake pages | verified |
+| 95 | c07p05 | narration | Tree rings agreed: the dead cedars had grown their last ring in sixteen ninety-nine and died that winter. | PNSN Cascadia subduction zone and 1700 earthquake pages; Yamaguchi et al. 1997 tree rings | verified |
+| 96 | c07p05 | narration | The magnitude was probably between eight point seven and nine point two. | PNSN Cascadia subduction zone and 1700 earthquake pages | verified |
+| 97 | c07p05 | stat card | ~9 HOURS: For the tsunami to cross the Pacific | PNSN Cascadia subduction zone and 1700 earthquake pages | verified |
+| 98 | c07p05 | stat card | 26 JAN 1700: About 9 pm, Cascadia | PNSN Cascadia subduction zone and 1700 earthquake pages | verified |
+| 99 | c07p05 | stat card | M 8.7-9.2: The 1700 Cascadia earthquake | PNSN Cascadia subduction zone and 1700 earthquake pages | verified |
+| 100 | c07p06 | narration | Scientists estimate that the fault broke along roughly a thousand kilometres of coast, from Vancouver Island to northern California, and that the two sides slipped past each other by an average of about twenty meters. | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 101 | c07p06 | stat card | ~1,000 KM: Of fault that broke, ~20 m average slip | Atwater et al. 2005, USGS Professional Paper 1707 'The Orphan Tsunami of 1700' (via Wikipedia 1700 Cascadia earthquake) | verified |
+| 102 | c07p07 | narration | They had remembered for three hundred years what science found again only in the twentieth century. | Framing / summary of facts cited elsewhere in this table | verified |
+| 103 | c08p01 | narration | The fault that broke in seventeen hundred is the Cascadia subduction zone, where the ocean floor slides under North America just off this coast. | PNSN Cascadia subduction zone and 1700 earthquake pages ('at least 19 great earthquakes (M8+) over ~10,000 years', average ~500 years) | verified |
+| 104 | c08p01 | narration | The Pacific Northwest Seismic Network says the geological record shows at least nineteen great earthquakes over the past ten thousand years, on average about every five hundred years. | PNSN Cascadia subduction zone and 1700 earthquake pages ('at least 19 great earthquakes (M8+) over ~10,000 years', average ~500 years) | verified |
+| 105 | c08p01 | narration | The last one was in seventeen hundred. | PNSN Cascadia subduction zone and 1700 earthquake pages ('at least 19 great earthquakes (M8+) over ~10,000 years', average ~500 years) | verified |
+| 106 | c08p01 | stat card | 19: Great (M8+) Cascadia earthquakes in ~10,000 years | PNSN Cascadia subduction zone and 1700 earthquake pages ('at least 19 great earthquakes (M8+) over ~10,000 years', average ~500 years) | verified |
+| 107 | c08p01 | stat card | ~500 YEARS: Average gap between great Cascadia earthquakes | PNSN Cascadia subduction zone and 1700 earthquake pages ('at least 19 great earthquakes (M8+) over ~10,000 years', average ~500 years) | verified |
+| 108 | c08p02 | narration | Nobody can say when the next one will come. | Framing / summary of facts cited elsewhere in this table | verified |
+| 109 | c08p02 | narration | The United States Geological Survey puts the chance of a full rupture, a magnitude nine, at ten to fifteen percent in the next fifty years. | PNSN Cascadia subduction zone and 1700 earthquake pages ('The USGS estimates a 10-15% chance of a full-margin ~M9 in the next 50 years') | verified |
+| 110 | c08p02 | narration | When it comes, the tsunami will not take nine hours. | Framing / summary of facts cited elsewhere in this table | verified |
+| 111 | c08p02 | narration | Washington's natural resources department says people on the Pacific coast will have tens of minutes to get to high ground. | WA DNR tsunami page (Ocosta: first vertical evacuation structure in North America, 1,000 people; 'tens of minutes') | verified |
+| 112 | c08p02 | stat card | 10-15 %: Chance of a full-margin ~M9 in the next 50 years | PNSN Cascadia subduction zone and 1700 earthquake pages ('The USGS estimates a 10-15% chance of a full-margin ~M9 in the next 50 years') | verified |
+| 113 | c08p02 | on screen | The outer coast from the ISS, 2024 (NASA) | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 114 | c08p02 | stat card | TENS OF MINUTES: To reach high ground after a Cascadia quake | WA DNR tsunami page (Ocosta: first vertical evacuation structure in North America, 1,000 people; 'tens of minutes') | verified |
+| 115 | c08p03 | narration | That is one more reason why so few people live right on this shore, and why the towns that are here are getting ready. | Framing / summary of facts cited elsewhere in this table | verified |
+| 116 | c08p03 | narration | In twenty sixteen, at Westport, the Ocosta school district finished what the state calls the first vertical tsunami evacuation structure in North America: a reinforced platform above a school gym, designed to hold a thousand people above the water. | WA DNR tsunami page (Ocosta: first vertical evacuation structure in North America, 1,000 people; 'tens of minutes') | verified |
+| 117 | c08p03 | stat card | 1,000 PEOPLE: Ocosta school tsunami refuge, Westport, 2016 | WA DNR tsunami page (Ocosta: first vertical evacuation structure in North America, 1,000 people; 'tens of minutes') | verified |
+| 118 | c08p04 | narration | The platform stands about fifty-three feet above sea level, and the state says it was built to withstand a magnitude nine earthquake and the waves that follow. | Seattle Times 9 Jun 2016 via Wikipedia (53 ft); WA EMD (built to withstand M9.0+ and 30-ft waves) | attributed |
+| 119 | c08p04 | narration | On a coast where the nearest hill can be miles away, a roof may be the only high ground there is. | Framing / summary of facts cited elsewhere in this table | verified |
+| 120 | c08p04 | stat card | 53 FT: Height of the Ocosta refuge above sea level | Seattle Times 9 Jun 2016 via Wikipedia (53 ft) | attributed |
+| 121 | c09p01 | on screen | Glines Canyon Dam coming down, 2011 (NPS) | Commons file description / Sentinel-2 or Landsat view (place shown) | verified |
+| 122 | c09p02 | narration | The result is one of the few places in the United States where the land looks much as it did when the cedars on the Copalis River were still alive. | NPS 'Olympic Fun Facts' (updated 13 Feb 2025) (95 % wilderness); framing | verified |
+| 123 | c09p02 | narration | If you knew the ground could drop and the sea could come in within half an hour, would you build your home on this coast, or would you keep it wild? | Question to the viewer; 'within half an hour' restates WA DNR 'tens of minutes' | verified |

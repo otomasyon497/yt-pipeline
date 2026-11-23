@@ -40,3 +40,7 @@ river) strong; Sequim (tan farm fields, town) strong and the best contrast with 
 (sand spit) ok; Westport/Grays Harbor strong; Forks clear-cut patchwork vs dark park forest strong; Rialto/La Push ok;
 Mount Olympus glaciers strong (2025-07-28). The 2024 window is clear too. Still to test: Elwha mouth compare (Landsat
 summer 2010 vs Sentinel 2025), North Cove compare (Landsat 1990s vs 2025).
+- Landsat compares (scratch op_ls/ls.jpg): Elwha mouth 2010-07-25 (Landsat, before removal, narrow mouth) vs Sentinel-2
+  2025-07-13 (delta and new beach) -> compare source landsat, before "2010-07-25", after Sentinel needs same source: use
+  landsat both sides (try 2024-07/08 Landsat 8/9) or two map shots. North Cove 1994-08-23 (Landsat 5) vs 2025: the coast
+  north of the bay mouth has retreated -> compare. 2009 cloudy, 1999 no scene.

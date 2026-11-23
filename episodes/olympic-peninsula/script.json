@@ -1,0 +1,3015 @@
+{
+ "title": "Why Almost Nobody Lives on Washington's Wild Coast",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/olympic-peninsula/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Landsat imagery courtesy of NASA/USGS",
+  "Highway 101 and the Cascadia fault drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "RAINFOREST NEXT TO A DESERT"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "In the Hoh valley, on the western side of Washington's Olympic Peninsula, it rains so much that moss hangs from the trees in long green curtains. The National Park Service puts the rain here at between a hundred and forty and a hundred and sixty-seven inches a year. That is twelve to fourteen feet of water falling on the forest every year.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Hoh rainforest hall of mosses 0096 (22656775187).jpg",
+       "on_screen_text": "Hoh rainforest, Olympic National Park"
+      },
+      {
+       "type": "photo",
+       "at": "moss hangs from the",
+       "photo": "File:Hanging mossy branch hoh rainforest c bubar march 05-2015 (22656700368).jpg",
+       "on_screen_text": "Moss on bigleaf maple, Hoh rainforest (NPS)"
+      },
+      {
+       "type": "stat",
+       "at": "The National Park Service",
+       "stat": {
+        "value": "140-167 IN",
+        "label": "Rain a year in Olympic's rainforest valleys",
+        "source": "National Park Service",
+        "note": "12 to 14 feet of water"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is twelve to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.93,
+           "lat": 47.86,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Hoh valley from orbit"
+      }
+     ]
+    },
+    {
+     "text": "Now drive around the mountains to the other side of the same peninsula, to the small town of Sequim. Here, the official average is about seventeen inches a year. Sequim is about as dry as Los Angeles. Irrigation canals first brought water to its prairie in the eighteen-nineties, and the town still holds an Irrigation Festival every spring. And the two places are only about forty miles apart as the crow flies.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.75,
+           "lat": 47.75,
+           "span": 3.4
+          },
+          "places": [
+           {
+            "name": "Hoh",
+            "lon": -123.93,
+            "lat": 47.86,
+            "kind": "site",
+            "label": "Hoh rainforest",
+            "icon": "water"
+           }
+          ]
+         },
+         {
+          "at": "to the small town",
+          "places": [
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Here, the official average",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.1,
+           "lat": 48.08,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sequim from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "about seventeen inches a",
+       "stat": {
+        "value": "~17 IN",
+        "label": "Rain a year in Sequim, 1991-2020",
+        "source": "NOAA 1991-2020 climate normals",
+        "note": "About as dry as Los Angeles"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Irrigation canals first brought",
+       "photo": "File:Dungeness Spit Trail (7638331612).jpg",
+       "on_screen_text": "The dry side: Dungeness, near Sequim"
+      },
+      {
+       "type": "map",
+       "at": "And the two places",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.58,
+           "lat": 47.818,
+           "span": 3.06
+          },
+          "places": [
+           {
+            "name": "Hoh",
+            "lon": -123.93,
+            "lat": 47.86,
+            "kind": "site",
+            "label": "Hoh rainforest",
+            "icon": "water"
+           },
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "About 40 miles apart"
+      }
+     ]
+    },
+    {
+     "text": "The same mountains make both. And they also help explain something stranger. Washington is home to nearly eight million people, and most of them live just a few hours' drive from the Pacific. Yet the state's ocean coast is almost empty. There are no beach cities, no coastal highway that follows the surf, and seventy-three miles of the shore are protected wilderness with no road at all.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.92,
+           "lat": 47.682,
+           "span": 3.74
+          },
+          "places": [
+           {
+            "name": "Mount Olympus",
+            "lon": -123.71,
+            "lat": 47.8,
+            "kind": "site",
+            "label": "Mount Olympus",
+            "icon": "mountain"
+           },
+           {
+            "name": "Hoh",
+            "lon": -123.93,
+            "lat": 47.86,
+            "kind": "site",
+            "label": "Hoh rainforest",
+            "icon": "water"
+           },
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Washington is home to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -120.6,
+           "lat": 47.3,
+           "span": 9.5
+          },
+          "places": [
+           {
+            "name": "Seattle",
+            "lon": -122.33,
+            "lat": 47.61,
+            "kind": "city",
+            "label": "Seattle"
+           },
+           {
+            "name": "Tacoma",
+            "lon": -122.44,
+            "lat": 47.25,
+            "kind": "city",
+            "label": "Tacoma"
+           },
+           {
+            "name": "Olympia",
+            "lon": -122.9,
+            "lat": 47.04,
+            "kind": "capital",
+            "label": "Olympia"
+           }
+          ]
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": -120.6,
+           "lat": 47.3,
+           "span": 8.075
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Yet the state's ocean",
+       "photo": "File:Rialto Beach - 54019732359.jpg",
+       "on_screen_text": "Rialto Beach, Olympic coast"
+      },
+      {
+       "type": "photo",
+       "at": "There are no beach",
+       "photo": "File:Ruby Beach rocks and waves.jpg",
+       "on_screen_text": "Ruby Beach"
+      },
+      {
+       "type": "stat",
+       "at": "and seventy-three miles of",
+       "stat": {
+        "value": "73 MILES",
+        "label": "Of wilderness coast in Olympic National Park",
+        "source": "National Park Service"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Why did one of the busiest states on the West Coast leave its ocean almost untouched? The answer runs through rain, rock and timber, through two dams on a salmon river, and back to one winter night in the year seventeen hundred, a night that was written down on the other side of the Pacific, in Japan. And it ends with a question about the next one.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sunset at Ruby Beach (Olympic Peninsula, Washinton, USA).jpg",
+       "on_screen_text": "Ruby Beach at sunset"
+      },
+      {
+       "type": "photo",
+       "at": "The answer runs through",
+       "photo": "File:Forks Washington 1981.jpg",
+       "on_screen_text": "Forks, 1981"
+      },
+      {
+       "type": "photo",
+       "at": "through two dams on",
+       "photo": "File:2011-06-01, Elwha River Dam.jpg",
+       "on_screen_text": "The Elwha Dam, 2011"
+      },
+      {
+       "type": "map",
+       "at": "and back to one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.17,
+           "lat": 47.12,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Copalis River, Washington coast"
+      },
+      {
+       "type": "map",
+       "at": "a night that was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.6,
+           "lat": 39.5,
+           "span": 7.0
+          },
+          "places": [
+           {
+            "name": "Otsuchi",
+            "lon": 141.88,
+            "lat": 39.36,
+            "kind": "site",
+            "label": "Otsuchi"
+           },
+           {
+            "name": "Kuwagasaki",
+            "lon": 141.96,
+            "lat": 39.64,
+            "kind": "site",
+            "label": "Kuwagasaki (Miyako)"
+           }
+          ]
+         },
+         {
+          "at": 49,
+          "view": {
+           "lon": 141.6,
+           "lat": 39.5,
+           "span": 5.95
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And it ends with",
+       "photo": "File:Rialto Beach - 54018507487.jpg",
+       "on_screen_text": "Rialto Beach"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Mountain That Makes the Weather",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Start with the map. The Olympic Peninsula is the far northwestern corner of the lower forty-eight states. To the west is the open Pacific. To the north is the Strait of Juan de Fuca, and across it, Canada. To the east is Puget Sound, where Seattle, Tacoma and Olympia hold most of Washington's people.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.0,
+           "lat": 44.597,
+           "span": 22.145
+          },
+          "places": [
+           {
+            "name": "Seattle",
+            "lon": -122.33,
+            "lat": 47.61,
+            "kind": "city",
+            "label": "Seattle"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -122.0,
+           "lat": 44.0,
+           "span": 18.7
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "To the west is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.8,
+           "lat": 47.4,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Seattle",
+            "lon": -122.33,
+            "lat": 47.61,
+            "kind": "city",
+            "label": "Seattle"
+           },
+           {
+            "name": "Tacoma",
+            "lon": -122.44,
+            "lat": 47.25,
+            "kind": "city",
+            "label": "Tacoma"
+           },
+           {
+            "name": "Olympia",
+            "lon": -122.9,
+            "lat": 47.04,
+            "kind": "capital",
+            "label": "Olympia"
+           },
+           {
+            "name": "Port Angeles",
+            "lon": -123.43,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Angeles"
+           }
+          ]
+         },
+         {
+          "at": 27,
+          "view": {
+           "lon": -122.8,
+           "lat": 47.4,
+           "span": 6.375
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "To the east is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.4,
+           "lat": 47.55,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 46,
+          "view": {
+           "lon": -122.4,
+           "lat": 47.55,
+           "span": 0.248
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Seattle and Puget Sound"
+      }
+     ]
+    },
+    {
+     "text": "In the middle of the peninsula, almost in a circle, stand the Olympic Mountains. They rise from near sea level to almost eight thousand feet at Mount Olympus, and they sit right in the path of the storms that roll in off the Pacific, one after another, through the winter.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.648,
+           "lat": 47.614,
+           "span": 2.788
+          },
+          "places": [
+           {
+            "name": "Mount Olympus",
+            "lon": -123.71,
+            "lat": 47.8,
+            "kind": "site",
+            "label": "Mount Olympus",
+            "icon": "mountain"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "They rise from near",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.71,
+           "lat": 47.8,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mount Olympus and its glaciers"
+      },
+      {
+       "type": "photo",
+       "at": "and they sit right",
+       "photo": "File:2016. Mt. Olympus. Olympic National Park, Washington. (38897209971).jpg",
+       "on_screen_text": "Mount Olympus, 2016"
+      },
+      {
+       "type": "map",
+       "at": "the storms that roll",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.625,
+           "lat": 47.778,
+           "span": 4.741
+          },
+          "arrows": [
+           {
+            "from": [
+             -126.2,
+             47.3
+            ],
+            "to": [
+             -124.3,
+             47.8
+            ],
+            "color": "blue",
+            "label": "Pacific storms",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -126.0,
+             48.4
+            ],
+            "to": [
+             -124.4,
+             48.1
+            ],
+            "color": "blue",
+            "bend": -0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "When that wet ocean air hits the mountains, it is forced up. As it rises, it cools, and cool air cannot hold as much water. So the clouds drop their rain on the western slopes, and higher up, their snow. The Olympic Mountains carry dozens of glaciers, an unusual sight this close to the sea and this far south.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dense forest canopy quinault rainforest c bubar march 05 2015 (22655664738).jpg",
+       "on_screen_text": "Rainforest canopy, Quinault valley (NPS)"
+      },
+      {
+       "type": "map",
+       "at": "As it rises, it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.533,
+           "lat": 47.778,
+           "span": 4.741
+          },
+          "arrows": [
+           {
+            "from": [
+             -126.2,
+             47.3
+            ],
+            "to": [
+             -124.3,
+             47.8
+            ],
+            "color": "blue",
+            "label": "Pacific storms",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -126.0,
+             48.4
+            ],
+            "to": [
+             -124.4,
+             48.1
+            ],
+            "color": "blue",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Hoh",
+            "lon": -123.93,
+            "lat": 47.86,
+            "kind": "site",
+            "label": "Hoh rainforest",
+            "icon": "water"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Olympic Mountains carry",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.68,
+           "lat": 47.78,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 49,
+          "view": {
+           "lon": -123.68,
+           "lat": 47.78,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Glaciers on Mount Olympus"
+      }
+     ]
+    },
+    {
+     "text": "Those glaciers are shrinking. Researchers count well over a hundred glaciers and permanent snowfields in the Olympics, and studies cited on the range's encyclopedia page expect most of them to be gone by about twenty seventy. When they go, the rivers that run from them in late summer will run lower and warmer.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Olympic National Park, 2023 - 002.jpg",
+       "on_screen_text": "Olympic National Park, 2023"
+      },
+      {
+       "type": "map",
+       "at": "and studies cited on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.72,
+           "lat": 47.82,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": -123.72,
+           "lat": 47.82,
+           "span": 0.372
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Olympic high country"
+      },
+      {
+       "type": "photo",
+       "at": "When they go, the",
+       "photo": "File:Lake Crescent Recreation.JPG",
+       "on_screen_text": "Lake Crescent"
+      }
+     ]
+    },
+    {
+     "text": "By the time the air has crossed the peaks and comes down the other side, most of its water is gone. As it sinks, it warms and dries out. The land behind the mountains sits in what geographers call a rain shadow. That is where Sequim is, on the northeast side of the range, where the clouds have already given up their rain.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.988,
+           "lat": 47.75,
+           "span": 2.924
+          },
+          "arrows": [
+           {
+            "from": [
+             -123.6,
+             47.85
+            ],
+            "to": [
+             -123.1,
+             48.05
+            ],
+            "color": "alt",
+            "label": "Dry air sinking",
+            "bend": 0.15
+           }
+          ],
+          "places": [
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "As it sinks, it",
+       "photo": "File:Dungeness Spit Headland.jpg",
+       "on_screen_text": "Dungeness, in the rain shadow"
+      },
+      {
+       "type": "map",
+       "at": "That is where Sequim",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.13,
+           "lat": 48.16,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 52,
+          "view": {
+           "lon": -123.13,
+           "lat": 48.16,
+           "span": 0.124
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dungeness Spit, north of Sequim"
+      }
+     ]
+    },
+    {
+     "text": "So one mountain range splits the peninsula into two worlds. On the wet side, rainforest. On the dry side, prairies, farms and retirement homes, and a town that calls itself sunny. And notice where the road goes. Highway 101, the only main road, does not cross the mountains. It can't. It loops all the way around them. Everything on the outer coast sits at the far end of that loop.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.75,
+           "lat": 47.92,
+           "span": 3.604
+          },
+          "places": [
+           {
+            "name": "Hoh",
+            "lon": -123.93,
+            "lat": 47.86,
+            "kind": "site",
+            "label": "Hoh rainforest",
+            "icon": "water"
+           },
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "On the wet side,",
+       "chart": {
+        "type": "bar",
+        "title": "Rain a year",
+        "unit": "inches",
+        "data": [
+         [
+          "Hoh rainforest",
+          140
+         ],
+         [
+          "Forks",
+          120
+         ],
+         [
+          "Seattle",
+          39
+         ],
+         [
+          "Sequim",
+          17
+         ]
+        ],
+        "source": "NPS; NOAA 1991-2020 normals",
+        "highlight": 0,
+        "reveal": [
+         "On the dry side,",
+         "and a town that",
+         "And notice where the"
+        ]
+       }
+      },
+      {
+       "type": "map",
+       "at": "Highway 101, the only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.645,
+           "lat": 47.476,
+           "span": 4.886
+          },
+          "routes": [
+           {
+            "from": [
+             -122.9,
+             47.04
+            ],
+            "via": [
+             [
+              -123.1,
+              47.4
+             ],
+             [
+              -122.9,
+              47.7
+             ],
+             [
+              -122.95,
+              48.0
+             ],
+             [
+              -123.1,
+              48.08
+             ],
+             [
+              -123.43,
+              48.12
+             ],
+             [
+              -123.85,
+              48.06
+             ],
+             [
+              -124.39,
+              47.95
+             ],
+             [
+              -124.2,
+              47.55
+             ],
+             [
+              -124.1,
+              47.3
+             ],
+             [
+              -123.81,
+              46.98
+             ]
+            ],
+            "to": [
+             -123.1,
+             47.05
+            ],
+            "mode": "line",
+            "label": "Highway 101",
+            "color": "accent",
+            "seconds": 5.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Everything on the outer",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.645,
+           "lat": 47.476,
+           "span": 4.886
+          },
+          "routes": [
+           {
+            "from": [
+             -122.9,
+             47.04
+            ],
+            "via": [
+             [
+              -123.1,
+              47.4
+             ],
+             [
+              -122.9,
+              47.7
+             ],
+             [
+              -122.95,
+              48.0
+             ],
+             [
+              -123.1,
+              48.08
+             ],
+             [
+              -123.43,
+              48.12
+             ],
+             [
+              -123.85,
+              48.06
+             ],
+             [
+              -124.39,
+              47.95
+             ],
+             [
+              -124.2,
+              47.55
+             ],
+             [
+              -124.1,
+              47.3
+             ],
+             [
+              -123.81,
+              46.98
+             ]
+            ],
+            "to": [
+             -123.1,
+             47.05
+            ],
+            "mode": "line",
+            "label": "Highway 101",
+            "color": "accent",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Forks",
+            "lon": -124.39,
+            "lat": 47.95,
+            "kind": "city",
+            "label": "Forks"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Too Wet to Build",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Follow the loop to the wet side and you reach the Hoh, the Queets and the Quinault, valleys of temperate rainforest. The park service describes Sitka spruce and western hemlock that are hundreds of years old and can grow to two hundred and fifty feet tall. It rarely freezes here, and the rain hardly stops through the winter.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Hoh rainforest colanade 0090 (22453931843).jpg",
+       "on_screen_text": "Hoh rainforest (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "The park service describes",
+       "photo": "File:Visitor big spruce tree fallen hoh rainforest c bubar march 05 2015 (22972414455).jpg",
+       "on_screen_text": "A fallen Sitka spruce, Hoh rainforest (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "It rarely freezes here,",
+       "photo": "File:Fallen mossy logs stream hoh rainforest d archuleta march 05 2015 (23086722282).jpg",
+       "on_screen_text": "Hoh rainforest stream (NPS)"
+      }
+     ]
+    },
+    {
+     "text": "Forks, the biggest town on this side, records about a hundred and twenty inches of rain a year in the official climate normals. That is roughly three times what Seattle gets. Rivers here rise fast. Hillsides slide. Wood rots. Everything that people build has to be fought for against the water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.39,
+           "lat": 47.95,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forks"
+      },
+      {
+       "type": "stat",
+       "at": "records about a hundred",
+       "stat": {
+        "value": "~120 IN",
+        "label": "Rain a year in Forks, 1991-2020",
+        "source": "NOAA 1991-2020 climate normals",
+        "note": "Seattle: about 39"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Rivers here rise fast.",
+       "photo": "File:Hoh Rain Forest - 54018538707.jpg",
+       "on_screen_text": "Hoh rainforest"
+      },
+      {
+       "type": "photo",
+       "at": "Everything that people build",
+       "photo": "File:Forks WA Downtown.JPG",
+       "on_screen_text": "Forks, 2007"
+      }
+     ]
+    },
+    {
+     "text": "The rain also shapes the forest floor. Fallen trunks become nurse logs, and young trees sprout along their backs until a whole row stands on stilts of roots where the old log has rotted away. Roosevelt elk graze the valleys and keep the understory open. It looks untouched because, in large parts of these valleys, it is.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Stair step moss stump hoh rainforest c bubar july 2014 (17302171651).jpg",
+       "on_screen_text": "A nurse stump, Hoh rainforest (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "Roosevelt elk graze the",
+       "photo": "File:Bull Roosevelt elk (36904820472).jpg",
+       "on_screen_text": "Roosevelt elk, Olympic Peninsula"
+      },
+      {
+       "type": "photo",
+       "at": "It looks untouched because,",
+       "photo": "File:Hoh Rain Forest - 54019461571.jpg",
+       "on_screen_text": "Hoh rainforest"
+      }
+     ]
+    },
+    {
+     "text": "Then there is the coast itself. Much of Washington's outer shore is steep bluffs of loose sediment, battered by some of the biggest winter waves in the country. Further south, the land changes to low sand spits and bays, and there, the sea moves even faster. At North Cove on Willapa Bay, NBC News reported that the shore was retreating by more than a hundred feet in some years, and called it the fastest-eroding shoreline on the West Coast.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Rialto Beach - 54019636128.jpg",
+       "on_screen_text": "Rialto Beach"
+      },
+      {
+       "type": "photo",
+       "at": "battered by some of",
+       "photo": "File:Doorway to Ruby Beach in Washington.jpg",
+       "on_screen_text": "Ruby Beach"
+      },
+      {
+       "type": "map",
+       "at": "Further south, the land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.9,
+           "lat": 46.95,
+           "span": 2.8
+          },
+          "places": [
+           {
+            "name": "North Cove",
+            "lon": -124.07,
+            "lat": 46.73,
+            "kind": "site",
+            "label": "North Cove (Washaway Beach)",
+            "icon": "warning"
+           },
+           {
+            "name": "Westport",
+            "lon": -124.1,
+            "lat": 46.88,
+            "kind": "city",
+            "label": "Westport"
+           },
+           {
+            "name": "Aberdeen",
+            "lon": -123.81,
+            "lat": 46.98,
+            "kind": "port",
+            "label": "Aberdeen"
+           }
+          ]
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": -123.9,
+           "lat": 46.95,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "At North Cove on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.07,
+           "lat": 46.73,
+           "span": 0.15
+          },
+          "date": "1994-08-23"
+         },
+         {
+          "at": 57,
+          "view": {
+           "lon": -124.07,
+           "lat": 46.73,
+           "span": 0.093
+          },
+          "date": "1994-08-23"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Cove, August 1994"
+      },
+      {
+       "type": "map",
+       "at": "and called it the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.06,
+           "lat": 46.735,
+           "span": 0.16
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Cove, July 2025"
+      }
+     ]
+    },
+    {
+     "text": "One local count found that by twenty sixteen, sixty homes and more than two thousand acres had gone into the sea there. People call it Washaway Beach. It is hard to sell anyone a seaside lot when the seaside keeps moving inland.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2,000+ ACRES",
+        "label": "Lost to the sea at North Cove by 2016, by one local count",
+        "source": "WA Coastal Hazards Resilience Network (via Wikipedia)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "People call it Washaway",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.08,
+           "lat": 46.74,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 32,
+          "view": {
+           "lon": -124.08,
+           "lat": 46.74,
+           "span": 0.186
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Washaway Beach, Willapa Bay"
+      }
+     ]
+    },
+    {
+     "text": "So nature put up three barriers: a wall of mountains, a curtain of rain, and a coast that will not stay still. But nature is only half of why the coast is empty. The other half is a decision people made about a century ago.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.92,
+           "lat": 47.682,
+           "span": 3.628
+          },
+          "places": [
+           {
+            "name": "Mount Olympus",
+            "lon": -123.71,
+            "lat": 47.8,
+            "kind": "site",
+            "label": "Mount Olympus",
+            "icon": "mountain"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and a coast that",
+       "photo": "File:Cape Flattery (4301328607).jpg",
+       "on_screen_text": "Cape Flattery"
+      },
+      {
+       "type": "photo",
+       "at": "The other half is",
+       "photo": "File:Cape Flattery looking north.JPG",
+       "on_screen_text": "Cape Flattery, looking north"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Saved Before It Was Built",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "In nineteen-oh-nine, President Theodore Roosevelt set aside the heart of the mountains as Mount Olympus National Monument. To this day, one of the park's stated purposes is permanent protection for its herds of native Roosevelt elk.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1909",
+        "label": "Mount Olympus National Monument, by Theodore Roosevelt",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "To this day, one",
+       "photo": "File:Roosevelt elk cow & calf (36904812482).jpg",
+       "on_screen_text": "Roosevelt elk, cow and calf"
+      }
+     ]
+    },
+    {
+     "text": "In nineteen thirty-eight, the monument became Olympic National Park. Over the years, a narrow strip of the Pacific shore was added to it. Today, according to the park service, the park covers about nine hundred and twenty-two thousand acres, and ninety-five percent of it is designated wilderness, including seventy-three miles of wilderness coast.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1938",
+        "label": "Olympic National Park",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Over the years, a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.648,
+           "lat": 47.614,
+           "span": 2.704
+          },
+          "places": [
+           {
+            "name": "La Push",
+            "lon": -124.64,
+            "lat": 47.91,
+            "kind": "site",
+            "label": "La Push"
+           },
+           {
+            "name": "Mount Olympus",
+            "lon": -123.71,
+            "lat": 47.8,
+            "kind": "site",
+            "label": "Mount Olympus",
+            "icon": "mountain"
+           }
+          ]
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": -123.648,
+           "lat": 47.614,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the park covers about",
+       "stat": {
+        "value": "922,651 ACRES",
+        "label": "Olympic National Park; 95 % designated wilderness",
+        "source": "National Park Service"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On that coast, there are no beachfront hotels, no harbors and no road along the water. You walk. Hikers carry tide tables, because some headlands can only be passed at low tide. Sea stacks stand offshore, the remains of old cliffs the ocean has cut away.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Rialto Beach - 54018507487.jpg",
+       "on_screen_text": "Rialto Beach"
+      },
+      {
+       "type": "map",
+       "at": "You walk. Hikers carry",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.64,
+           "lat": 47.92,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": -124.64,
+           "lat": 47.92,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "La Push and Rialto Beach"
+      },
+      {
+       "type": "photo",
+       "at": "Sea stacks stand offshore,",
+       "photo": "File:Sunset at Ruby Beach (Olympic Peninsula, Washinton, USA).jpg",
+       "on_screen_text": "Sea stacks, Ruby Beach"
+      }
+     ]
+    },
+    {
+     "text": "Inside the park, nobody can build a town. Outside it, much of the land belongs to tribes, to the state, and to timber companies. In nineteen eighty-one, the park became a UNESCO World Heritage Site. The emptiness of this coast is not an accident. It was chosen. And it was chosen in the middle of a fight over the one thing everyone here wanted from the forest.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.852,
+           "lat": 47.886,
+           "span": 3.892
+          },
+          "places": [
+           {
+            "name": "Neah Bay",
+            "lon": -124.62,
+            "lat": 48.37,
+            "kind": "site",
+            "label": "Neah Bay"
+           },
+           {
+            "name": "La Push",
+            "lon": -124.64,
+            "lat": 47.91,
+            "kind": "site",
+            "label": "La Push"
+           },
+           {
+            "name": "Forks",
+            "lon": -124.39,
+            "lat": 47.95,
+            "kind": "city",
+            "label": "Forks"
+           }
+          ]
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -123.852,
+           "lat": 47.886,
+           "span": 3.308
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In nineteen eighty-one, the",
+       "photo": "File:Quinault Rainforest.jpg",
+       "on_screen_text": "Quinault rainforest"
+      },
+      {
+       "type": "photo",
+       "at": "And it was chosen",
+       "photo": "File:Makah Tribal Cemetery in Neah Bay, Washington.jpg",
+       "on_screen_text": "Neah Bay, Makah Reservation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Logging Capital of the World",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "For most of the twentieth century, the forests of the Olympic Peninsula were a resource, not a view. Mills, logging camps and rail spurs spread along the rivers. Ports like Port Angeles and Aberdeen shipped lumber around the Pacific.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:EDIZ HOOK AND LOG RAFTS - NARA - 552170.jpg",
+       "on_screen_text": "Log rafts at Port Angeles, 1973 (NARA)"
+      },
+      {
+       "type": "photo",
+       "at": "Ports like Port Angeles",
+       "photo": "File:Water-Front and Harbor, Port Angeles, Wash.jpg",
+       "on_screen_text": "Port Angeles waterfront, about 1910"
+      }
+     ]
+    },
+    {
+     "text": "Forks called itself the Logging Capital of the World. The boom ran from the nineteen-fifties to the nineteen-seventies, as trucks carried huge old-growth logs out of the hills. On satellite images today, you can still see what that left behind: a patchwork of squares and strips, forests of different ages, ending sharply at the straight line of the park boundary.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Forks timber museum.JPG",
+       "on_screen_text": "Forks Timber Museum"
+      },
+      {
+       "type": "map",
+       "at": "On satellite images today,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.3,
+           "lat": 47.95,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -124.3,
+           "lat": 47.95,
+           "span": 0.31
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Clear-cuts meet the park forest near Forks"
+      },
+      {
+       "type": "photo",
+       "at": "ending sharply at the",
+       "photo": "File:View from ISS Expedition 71, Ozette Lake, Forks, Washington, June 7, 2024 (ISS071-E-176451).jpg",
+       "on_screen_text": "Ozette Lake and Forks from the ISS, 2024 (NASA)"
+      }
+     ]
+    },
+    {
+     "text": "Then, in the nineteen-eighties and nineties, the boom ended. Much of the old growth outside the park had been cut, and environmental rules changed. Mills closed and jobs went with them. Forks, a town of about three thousand people, had to look for something else.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:PORT ANGELES HARBOR ON THE OLYMPIC PENINSULA - NARA - 552155.jpg",
+       "on_screen_text": "Port Angeles harbor, 1973 (NARA)"
+      },
+      {
+       "type": "stat",
+       "at": "Forks, a town of",
+       "stat": {
+        "value": "3,335",
+        "label": "People in Forks, 2020 census",
+        "source": "U.S. Census 2020"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Help came from an unexpected place. Between two thousand and five and two thousand and eight, the author Stephenie Meyer set her Twilight novels in Forks. The films followed. And suddenly, the wettest town in the lower forty-eight had fans arriving from around the world to see it rain. But the timber years left another mark on this peninsula, one that took almost a hundred years to undo.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:\"Welcome Twilight fans\" in Forks, Washington.jpg",
+       "on_screen_text": "Forks welcomes Twilight fans, 2010"
+      },
+      {
+       "type": "map",
+       "at": "And suddenly, the wettest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.385,
+           "lat": 47.948,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -124.385,
+           "lat": 47.948,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forks"
+      },
+      {
+       "type": "map",
+       "at": "But the timber years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.58,
+           "lat": 48.03,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 58,
+          "view": {
+           "lon": -123.58,
+           "lat": 48.03,
+           "span": 0.31
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Elwha valley"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The River They Set Free",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Elwha River runs north out of the Olympic Mountains into the Strait of Juan de Fuca, just west of Port Angeles. Before the twentieth century, it was one of the richest salmon rivers in the Northwest. Washington's fish and wildlife agency estimated that some three hundred and ninety thousand fish once came back up it every year to spawn.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.512,
+           "lat": 47.75,
+           "span": 3.133
+          },
+          "places": [
+           {
+            "name": "Port Angeles",
+            "lon": -123.43,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Angeles"
+           },
+           {
+            "name": "Elwha Dam",
+            "lon": -123.553,
+            "lat": 48.093,
+            "kind": "site",
+            "label": "Elwha Dam (1913)",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -123.512,
+           "lat": 47.75,
+           "span": 2.663
+          }
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": -123.512,
+           "lat": 47.75,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Washington's fish and wildlife",
+       "stat": {
+        "value": "~392,000",
+        "label": "Fish a year returning up the Elwha before the dams (estimate)",
+        "source": "Washington Dept. of Fish and Wildlife (via Restoration of the Elwha River)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the early nineteen-hundreds, two dams were built on the Elwha to make electricity for the growing mills and towns. The Elwha Dam was finished in nineteen thirteen. The Glines Canyon Dam, upstream, followed in nineteen twenty-seven. Neither had a way for salmon to get past. The fish that had spawned in the upper river for thousands of years were cut off from it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Historic Elwha Dam Power House, circa 1913.jpg",
+       "on_screen_text": "Elwha Dam powerhouse, about 1913"
+      },
+      {
+       "type": "map",
+       "at": "The Glines Canyon Dam,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.58,
+           "lat": 48.03,
+           "span": 0.5
+          },
+          "places": [
+           {
+            "name": "Elwha Dam",
+            "lon": -123.553,
+            "lat": 48.093,
+            "kind": "site",
+            "label": "Elwha Dam (1913)",
+            "icon": "warning"
+           },
+           {
+            "name": "Glines Canyon Dam",
+            "lon": -123.6,
+            "lat": 48.0,
+            "kind": "site",
+            "label": "Glines Canyon Dam (1927)",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 37,
+          "view": {
+           "lon": -123.58,
+           "lat": 48.03,
+           "span": 0.31
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The fish that had",
+       "photo": "File:2011-06-01, Elwha River Dam.jpg",
+       "on_screen_text": "The Elwha Dam, 2011"
+      }
+     ]
+    },
+    {
+     "text": "These were not small structures. By most published figures, the Elwha Dam stood about a hundred and eight feet high, and Glines Canyon about two hundred and ten. For almost a century, the lakes behind them filled with sand and gravel that the river would normally have carried to the sea, and the beaches at the river's mouth slowly wasted away.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Glines canyon dam removal notching NPS Photo 11-30-11 from spillway (16703097944).jpg",
+       "on_screen_text": "Glines Canyon Dam during removal, 2011 (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "For almost a century,",
+       "photo": "File:Aldwell Delta tree stump elwha river silt deposit NPS Photo 3-6-12 (21) (17137799068).jpg",
+       "on_screen_text": "Old stumps in Lake Aldwell's silt, 2012 (NPS)"
+      }
+     ]
+    },
+    {
+     "text": "By the end of the century, the returns had fallen to fewer than three thousand fish. The Lower Elwha Klallam Tribe, whose people had fished this river for generations, had sought the removal of the dams ever since they were built. In nineteen ninety-two, Congress passed the Elwha River Ecosystem and Fisheries Restoration Act, which allowed the government to buy the dams and take them out.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "<3,000",
+        "label": "Fish returning by the late 20th century",
+        "source": "Washington Dept. of Fish and Wildlife (via Restoration of the Elwha River)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Lower Elwha Klallam",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.56,
+           "lat": 48.13,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": -123.56,
+           "lat": 48.13,
+           "span": 0.124
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Elwha River reaches the strait"
+      },
+      {
+       "type": "stat",
+       "at": "In nineteen ninety-two, Congress",
+       "stat": {
+        "value": "1992",
+        "label": "Elwha River Ecosystem and Fisheries Restoration Act",
+        "source": "Restoration of the Elwha River (Wikipedia)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the seventeenth of September, twenty eleven, work began on what the park service calls the largest dam removal in United States history. Within six months, the Elwha Dam was gone. The Glines Canyon Dam followed in twenty fourteen. Behind them, a century of trapped sand and gravel began to move downstream again, and on satellite images you can watch the river's mouth grow new beaches and a delta.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Elwha Dam Removal - first bite of removal process.jpg",
+       "on_screen_text": "First bite of the Elwha Dam removal, 2011"
+      },
+      {
+       "type": "stat",
+       "at": "what the park service",
+       "stat": {
+        "value": "2011-2014",
+        "label": "The largest dam removal in U.S. history",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Glines Canyon Dam",
+       "photo": "File:Glines canyon dam removal crane NPS Photo 3-1-12 NPS photo J Burger (2) (17139325269).jpg",
+       "on_screen_text": "Glines Canyon Dam removal, 2012 (NPS)"
+      },
+      {
+       "type": "map",
+       "at": "Behind them, a century",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.6,
+           "lat": 47.99,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Old Lake Mills: the river runs through it again"
+      },
+      {
+       "type": "map",
+       "at": "and on satellite images",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.56,
+           "lat": 48.14,
+           "span": 0.12
+          },
+          "date": "2010-07-25"
+         },
+         {
+          "at": 61,
+          "view": {
+           "lon": -123.56,
+           "lat": 48.14,
+           "span": 0.08
+          },
+          "date": "2010-07-25"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elwha mouth, July 2010"
+      }
+     ]
+    },
+    {
+     "text": "And the fish came back. Salmon and steelhead have since returned to spawn above the old dam sites. The park says eleven kinds of salmon and trout now use the river. A study published in twenty twenty-four found that their numbers rose once the way upstream was open. It is one of the clearest experiments anywhere in what happens when you give a river back. But the oldest story on this coast is not written in salmon counts. It is written in dead trees.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.555,
+           "lat": 48.142,
+           "span": 0.13
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -123.555,
+           "lat": 48.142,
+           "span": 0.081
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elwha mouth, July 2025"
+      },
+      {
+       "type": "photo",
+       "at": "The park says eleven",
+       "photo": "File:Elwha river nearshore silt drift NPS Photo 2012 (17137801028).jpg",
+       "on_screen_text": "Sediment drifting off the Elwha mouth, 2012 (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "It is one of",
+       "photo": "File:Hoh Rainforest, mossy log tree NPS Photo (16680304244).jpg",
+       "on_screen_text": "Olympic rainforest (NPS)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Orphan Tsunami",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Along the Copalis River, near Washington's outer coast, there are ghost forests: grey, dead stumps of red cedar standing in salt marsh. For a long time, nobody knew exactly what had killed them. Something had made the land here drop, suddenly, and let the sea flood in.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.17,
+           "lat": 47.125,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": -124.17,
+           "lat": 47.125,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Copalis River marshes"
+      },
+      {
+       "type": "map",
+       "at": "For a long time,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.76,
+           "lat": 47.006,
+           "span": 2.52
+          },
+          "places": [
+           {
+            "name": "Copalis",
+            "lon": -124.17,
+            "lat": 47.12,
+            "kind": "site",
+            "label": "Copalis River ghost forest",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 34,
+          "view": {
+           "lon": -123.76,
+           "lat": 47.006,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the nineteen-eighties and nineties, scientists began to find more of these buried marshes and dead forests up and down the coast, from British Columbia to northern California. The ground had dropped by one to two meters, all at once. Something enormous had happened along this coast, but no one had written it down here.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -121.22,
+           "lat": 44.564,
+           "span": 36.929
+          },
+          "places": [
+           {
+            "name": "Vancouver Island",
+            "lon": -125.5,
+            "lat": 49.5,
+            "kind": "label",
+            "label": "Vancouver Island"
+           },
+           {
+            "name": "N. California",
+            "lon": -123.8,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "Northern California"
+           }
+          ]
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": -120.9,
+           "lat": 44.44,
+           "span": 16.83
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The ground had dropped",
+       "stat": {
+        "value": "1-2 METERS",
+        "label": "Sudden drop of the coast, killing the ghost forests",
+        "source": "Pacific Northwest Seismic Network"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Something enormous had happened",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.1,
+           "lat": 44.749,
+           "span": 39.548
+          },
+          "routes": [
+           {
+            "from": [
+             -127.0,
+             50.0
+            ],
+            "via": [
+             [
+              -126.0,
+              48.5
+             ],
+             [
+              -125.3,
+              47.0
+             ],
+             [
+              -125.0,
+              45.0
+             ],
+             [
+              -124.9,
+              43.0
+             ]
+            ],
+            "to": [
+             -124.6,
+             40.4
+            ],
+            "mode": "line",
+            "label": "Cascadia subduction zone",
+            "color": "red",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The answer was found in Japan. Old records from villages on Japan's Pacific coast described a tsunami that arrived in the winter of seventeen hundred with no earthquake felt there at all. The waves damaged coastal villages. Because nothing had shaken the ground in Japan, scientists later called it an orphan tsunami: a wave without a parent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 160.0,
+           "lat": 38.0,
+           "span": 60.0
+          },
+          "places": [
+           {
+            "name": "Otsuchi",
+            "lon": 141.88,
+            "lat": 39.36,
+            "kind": "site",
+            "label": "Otsuchi"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Old records from villages",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.95,
+           "lat": 39.64,
+           "span": 6.3
+          },
+          "places": [
+           {
+            "name": "Otsuchi",
+            "lon": 141.88,
+            "lat": 39.36,
+            "kind": "site",
+            "label": "Otsuchi"
+           },
+           {
+            "name": "Kuwagasaki",
+            "lon": 141.96,
+            "lat": 39.64,
+            "kind": "site",
+            "label": "Kuwagasaki (Miyako)"
+           }
+          ]
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": 141.95,
+           "lat": 39.64,
+           "span": 5.355
+          }
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": 141.95,
+           "lat": 39.64,
+           "span": 4.552
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Because nothing had shaken",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.9,
+           "lat": 39.5,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Otsuchi",
+            "lon": 141.88,
+            "lat": 39.36,
+            "kind": "site",
+            "label": "Otsuchi"
+           },
+           {
+            "name": "Kuwagasaki",
+            "lon": 141.96,
+            "lat": 39.64,
+            "kind": "site",
+            "label": "Kuwagasaki (Miyako)"
+           }
+          ]
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": 141.9,
+           "lat": 39.5,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The records are precise. They name the villages, including Otsuchi and Kuwagasaki, and they give the days: the eighth and ninth days of the twelfth month of the twelfth year of the Genroku era. In the modern calendar, that is the twenty-seventh and twenty-eighth of January, seventeen hundred. The waves were probably two to five meters high when they reached Japan.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "27-28 JAN 1700",
+        "label": "Genroku 12, 12th month, 8th-9th days: the tsunami in Japan",
+        "source": "Atwater et al. 2005; Satake et al. 1996"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The waves were probably",
+       "stat": {
+        "value": "2-5 M",
+        "label": "Estimated tsunami height in Japan",
+        "source": "Atwater et al. 2005; Satake et al. 1996"
+       }
+      }
+     ]
+    },
+    {
+     "text": "By modelling how long the waves would have taken to cross the Pacific, about nine hours, scientists worked backwards. The parent earthquake must have struck the Cascadia coast at about nine in the evening on the twenty-sixth of January, seventeen hundred. Tree rings agreed: the dead cedars had grown their last ring in sixteen ninety-nine and died that winter. The magnitude was probably between eight point seven and nine point two.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~9 HOURS",
+        "label": "For the tsunami to cross the Pacific",
+        "source": "Pacific Northwest Seismic Network"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The parent earthquake must",
+       "stat": {
+        "value": "26 JAN 1700",
+        "label": "About 9 pm, Cascadia",
+        "source": "Pacific Northwest Seismic Network"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Tree rings agreed: the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.165,
+           "lat": 47.118,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": -124.165,
+           "lat": 47.118,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Copalis ghost forest site"
+      },
+      {
+       "type": "stat",
+       "at": "The magnitude was probably",
+       "stat": {
+        "value": "M 8.7-9.2",
+        "label": "The 1700 Cascadia earthquake",
+        "source": "Pacific Northwest Seismic Network"
+       }
+      }
+     ]
+    },
+    {
+     "text": "For a wave to do that much damage after crossing the whole Pacific, the earthquake had to be enormous. Scientists estimate that the fault broke along roughly a thousand kilometres of coast, from Vancouver Island to northern California, and that the two sides slipped past each other by an average of about twenty meters.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.366,
+           "lat": 44.749,
+           "span": 39.548
+          },
+          "routes": [
+           {
+            "from": [
+             -127.0,
+             50.0
+            ],
+            "via": [
+             [
+              -126.0,
+              48.5
+             ],
+             [
+              -125.3,
+              47.0
+             ],
+             [
+              -125.0,
+              45.0
+             ],
+             [
+              -124.9,
+              43.0
+             ]
+            ],
+            "to": [
+             -124.6,
+             40.4
+            ],
+            "mode": "line",
+            "label": "Cascadia subduction zone",
+            "color": "red",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Scientists estimate that the",
+       "stat": {
+        "value": "~1,000 KM",
+        "label": "Of fault that broke, ~20 m average slip",
+        "source": "Atwater et al. 2005; Satake et al. 1996"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The people of this coast had their own record of that night. Makah stories describe a great earthquake at night, when the only survivors were those who ran inland before the water came. A Quileute story tells of a flood so strong that canoes were swept far inland. They had remembered for three hundred years what science found again only in the twentieth century.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Makah Tribal Cemetery in Neah Bay, Washington.jpg",
+       "on_screen_text": "Neah Bay"
+      },
+      {
+       "type": "map",
+       "at": "Makah stories describe a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.03,
+           "lat": 47.898,
+           "span": 3.606
+          },
+          "places": [
+           {
+            "name": "Neah Bay",
+            "lon": -124.62,
+            "lat": 48.37,
+            "kind": "site",
+            "label": "Neah Bay"
+           },
+           {
+            "name": "La Push",
+            "lon": -124.64,
+            "lat": 47.91,
+            "kind": "site",
+            "label": "La Push"
+           }
+          ]
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": -123.988,
+           "lat": 47.75,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A Quileute story tells",
+       "photo": "File:Rialto Beach - 54019732359.jpg",
+       "on_screen_text": "Near La Push, Quileute land"
+      },
+      {
+       "type": "photo",
+       "at": "They had remembered for",
+       "photo": "File:Cape Flattery looking north.JPG",
+       "on_screen_text": "Cape Flattery"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Next One",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "The fault that broke in seventeen hundred is the Cascadia subduction zone, where the ocean floor slides under North America just off this coast. The Pacific Northwest Seismic Network says the geological record shows at least nineteen great earthquakes over the past ten thousand years, on average about every five hundred years. The last one was in seventeen hundred.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.66,
+           "lat": 44.749,
+           "span": 39.548
+          },
+          "routes": [
+           {
+            "from": [
+             -127.0,
+             50.0
+            ],
+            "via": [
+             [
+              -126.0,
+              48.5
+             ],
+             [
+              -125.3,
+              47.0
+             ],
+             [
+              -125.0,
+              45.0
+             ],
+             [
+              -124.9,
+              43.0
+             ]
+            ],
+            "to": [
+             -124.6,
+             40.4
+            ],
+            "mode": "line",
+            "label": "Cascadia subduction zone",
+            "color": "red",
+            "seconds": 4.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Seattle",
+            "lon": -122.33,
+            "lat": 47.61,
+            "kind": "city",
+            "label": "Seattle"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "at least nineteen great",
+       "stat": {
+        "value": "19",
+        "label": "Great (M8+) Cascadia earthquakes in ~10,000 years",
+        "source": "Pacific Northwest Seismic Network",
+        "note": "About every 500 years on average"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Nobody can say when the next one will come. The United States Geological Survey puts the chance of a full rupture, a magnitude nine, at ten to fifteen percent in the next fifty years. When it comes, the tsunami will not take nine hours. Washington's natural resources department says people on the Pacific coast will have tens of minutes to get to high ground.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "10-15 %",
+        "label": "Chance of a full-margin ~M9 in the next 50 years",
+        "source": "USGS, as cited by PNSN"
+       }
+      },
+      {
+       "type": "map",
+       "at": "When it comes, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.04,
+           "lat": 46.894,
+           "span": 3.08
+          },
+          "places": [
+           {
+            "name": "Westport",
+            "lon": -124.1,
+            "lat": 46.88,
+            "kind": "city",
+            "label": "Westport"
+           },
+           {
+            "name": "North Cove",
+            "lon": -124.07,
+            "lat": 46.73,
+            "kind": "site",
+            "label": "North Cove (Washaway Beach)",
+            "icon": "warning"
+           },
+           {
+            "name": "Aberdeen",
+            "lon": -123.81,
+            "lat": 46.98,
+            "kind": "port",
+            "label": "Aberdeen"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Washington's natural resources department",
+       "stat": {
+        "value": "TENS OF MINUTES",
+        "label": "To reach high ground after a Cascadia quake",
+        "source": "Washington Dept. of Natural Resources"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is one more reason why so few people live right on this shore, and why the towns that are here are getting ready. In twenty sixteen, at Westport, the Ocosta school district finished what the state calls the first vertical tsunami evacuation structure in North America: a reinforced platform above a school gym, designed to hold a thousand people above the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:WASHINGTON-WESTPORT - NARA - 545162.jpg",
+       "on_screen_text": "Westport (NARA)"
+      },
+      {
+       "type": "map",
+       "at": "In twenty sixteen, at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.1,
+           "lat": 46.88,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -124.1,
+           "lat": 46.88,
+           "span": 0.124
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Westport"
+      },
+      {
+       "type": "stat",
+       "at": "a reinforced platform above",
+       "stat": {
+        "value": "1,000 PEOPLE",
+        "label": "Ocosta school tsunami refuge, Westport, 2016",
+        "source": "Washington Dept. of Natural Resources"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The platform stands about fifty-three feet above sea level, on concrete walls and deep pilings, and was built to survive a magnitude nine point two earthquake before the water arrives. On a coast where the nearest hill can be miles away, a roof may be the only high ground there is.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.105,
+           "lat": 46.885,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -124.105,
+           "lat": 46.885,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": -124.105,
+           "lat": 46.885,
+           "span": 0.128
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Westport and the open coast"
+      },
+      {
+       "type": "photo",
+       "at": "On a coast where",
+       "photo": "File:Rialto Beach - 54019636128.jpg",
+       "on_screen_text": "Rialto Beach"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why is Washington's wild coast so empty? Start with the mountain. It pulls the rain out of the Pacific sky and drops it on the western side, more than twelve feet a year, while the other side stays as dry as Los Angeles. Add a shore of crumbling bluffs and moving sand, a park drawn around the wildest of it, the end of the timber boom, and a fault that has already broken this coast before.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.625,
+           "lat": 47.778,
+           "span": 4.741
+          },
+          "arrows": [
+           {
+            "from": [
+             -126.2,
+             47.3
+            ],
+            "to": [
+             -124.3,
+             47.8
+            ],
+            "color": "blue",
+            "label": "Pacific storms",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -126.0,
+             48.4
+            ],
+            "to": [
+             -124.4,
+             48.1
+            ],
+            "color": "blue",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Hoh",
+            "lon": -123.93,
+            "lat": 47.86,
+            "kind": "site",
+            "label": "Hoh rainforest",
+            "icon": "water"
+           },
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "more than twelve feet",
+       "photo": "File:Hall of Mosses, Hoh Rainforest, Olympic National Park, Washington (2015).jpg",
+       "on_screen_text": "Hoh rainforest"
+      },
+      {
+       "type": "photo",
+       "at": "while the other side",
+       "photo": "File:Dungeness Spit NWR.jpg",
+       "on_screen_text": "Dungeness Spit, in the rain shadow"
+      },
+      {
+       "type": "map",
+       "at": "Add a shore of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.645,
+           "lat": 47.476,
+           "span": 4.886
+          },
+          "routes": [
+           {
+            "from": [
+             -122.9,
+             47.04
+            ],
+            "via": [
+             [
+              -123.1,
+              47.4
+             ],
+             [
+              -122.9,
+              47.7
+             ],
+             [
+              -122.95,
+              48.0
+             ],
+             [
+              -123.1,
+              48.08
+             ],
+             [
+              -123.43,
+              48.12
+             ],
+             [
+              -123.85,
+              48.06
+             ],
+             [
+              -124.39,
+              47.95
+             ],
+             [
+              -124.2,
+              47.55
+             ],
+             [
+              -124.1,
+              47.3
+             ],
+             [
+              -123.81,
+              46.98
+             ]
+            ],
+            "to": [
+             -123.1,
+             47.05
+            ],
+            "mode": "line",
+            "label": "Highway 101",
+            "color": "accent",
+            "seconds": 5.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and a fault that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -121.64,
+           "lat": 44.749,
+           "span": 39.548
+          },
+          "routes": [
+           {
+            "from": [
+             -127.0,
+             50.0
+            ],
+            "via": [
+             [
+              -126.0,
+              48.5
+             ],
+             [
+              -125.3,
+              47.0
+             ],
+             [
+              -125.0,
+              45.0
+             ],
+             [
+              -124.9,
+              43.0
+             ]
+            ],
+            "to": [
+             -124.6,
+             40.4
+            ],
+            "mode": "line",
+            "label": "Cascadia subduction zone",
+            "color": "red",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The result is one of the few places in the United States where the land looks much as it did when the cedars on the Copalis River were still alive. So here is the question I'll leave you with. If you knew the ground could drop and the sea could come in within half an hour, would you build your home on this coast, or would you keep it wild? Tell me in the comments.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Doorway to Ruby Beach in Washington.jpg",
+       "on_screen_text": "Ruby Beach"
+      },
+      {
+       "type": "map",
+       "at": "So here is the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.17,
+           "lat": 47.13,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 43,
+          "view": {
+           "lon": -124.17,
+           "lat": 47.13,
+           "span": 0.248
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Copalis coast"
+      },
+      {
+       "type": "photo",
+       "at": "would you build your",
+       "photo": "File:Ruby Beach rocks and waves.jpg",
+       "on_screen_text": "Ruby Beach"
+      }
+     ],
+     "ask": {
+      "at": "So here is the",
+      "text": "Would you build on this coast, or keep it wild?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives on Washington's Wild Coast",
+  "description": "On Washington's Olympic Peninsula, the Hoh rainforest gets 12 to 14 feet of rain a year, while Sequim, about 40 miles away, is as dry as Los Angeles. The same mountains help explain why the state's Pacific coast is almost empty. We follow the answer from orbit: the rain shadow, the rainforest and a coast that will not stay still, Olympic National Park and its 73 miles of wilderness shore, the timber boom of Forks, the Elwha dams and the largest dam removal in U.S. history, and the night of 26 January 1700, when a Cascadia earthquake sent a tsunami to Japan.",
+  "tags": [
+   "Olympic Peninsula",
+   "Olympic National Park",
+   "Hoh Rainforest",
+   "Sequim",
+   "rain shadow",
+   "Washington coast",
+   "Forks",
+   "Elwha River",
+   "dam removal",
+   "Cascadia earthquake",
+   "1700 tsunami",
+   "ghost forest",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Would you build on this coast, or keep it wild?"
+ }
+}

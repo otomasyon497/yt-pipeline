@@ -46,6 +46,12 @@
        }
       },
       {
+       "type": "photo",
+       "at": "a hundred and sixty-seven",
+       "photo": "File:Hall of Mosses, Hoh Rainforest, Olympic National Park, Washington (2015).jpg",
+       "on_screen_text": "Hall of Mosses, Hoh rainforest"
+      },
+      {
        "type": "map",
        "at": "That is twelve to",
        "map": {
@@ -139,6 +145,24 @@
        "at": "Irrigation canals first brought",
        "photo": "File:Dungeness Spit Trail (7638331612).jpg",
        "on_screen_text": "The dry side: Dungeness, near Sequim"
+      },
+      {
+       "type": "map",
+       "at": "and the town still",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.12,
+           "lat": 48.07,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Sequim's farm fields"
       },
       {
        "type": "map",
@@ -663,6 +687,12 @@
        }
       },
       {
+       "type": "photo",
+       "at": "So the clouds drop",
+       "photo": "File:Quinault Rainforest.jpg",
+       "on_screen_text": "Quinault rainforest"
+      },
+      {
        "type": "map",
        "at": "The Olympic Mountains carry",
        "map": {
@@ -779,10 +809,53 @@
        }
       },
       {
+       "type": "map",
+       "at": "comes down the other",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.3,
+           "lat": 48.0,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dry northeast foothills"
+      },
+      {
        "type": "photo",
        "at": "As it sinks, it",
        "photo": "File:Dungeness Spit Headland.jpg",
        "on_screen_text": "Dungeness, in the rain shadow"
+      },
+      {
+       "type": "map",
+       "at": "The land behind the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.25,
+           "lat": 48.0,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Sequim",
+            "lon": -123.1,
+            "lat": 48.08,
+            "kind": "city",
+            "label": "Sequim"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "map",
@@ -959,6 +1032,103 @@
       },
       {
        "type": "map",
+       "at": "It can't. It loops",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.425,
+           "lat": 47.55,
+           "span": 6.75
+          },
+          "routes": [
+           {
+            "from": [
+             -122.9,
+             47.04
+            ],
+            "via": [
+             [
+              -123.1,
+              47.4
+             ],
+             [
+              -122.9,
+              47.7
+             ],
+             [
+              -122.95,
+              48.0
+             ],
+             [
+              -123.1,
+              48.08
+             ],
+             [
+              -123.43,
+              48.12
+             ],
+             [
+              -123.85,
+              48.06
+             ],
+             [
+              -124.39,
+              47.95
+             ],
+             [
+              -124.2,
+              47.55
+             ],
+             [
+              -124.1,
+              47.3
+             ],
+             [
+              -123.81,
+              46.98
+             ]
+            ],
+            "to": [
+             -123.1,
+             47.05
+            ],
+            "mode": "line",
+            "label": "Highway 101",
+            "color": "accent",
+            "seconds": 5.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Port Angeles",
+            "lon": -123.43,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Angeles"
+           },
+           {
+            "name": "Forks",
+            "lon": -124.39,
+            "lat": 47.95,
+            "kind": "city",
+            "label": "Forks"
+           },
+           {
+            "name": "Aberdeen",
+            "lon": -123.81,
+            "lat": 46.98,
+            "kind": "port",
+            "label": "Aberdeen"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
        "at": "Everything on the outer",
        "map": {
         "steps": [
@@ -1058,10 +1228,34 @@
        "on_screen_text": "Hoh rainforest (NPS)"
       },
       {
+       "type": "map",
+       "at": "the Queets and the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.1,
+           "lat": 47.55,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Queets valley"
+      },
+      {
        "type": "photo",
        "at": "The park service describes",
        "photo": "File:Visitor big spruce tree fallen hoh rainforest c bubar march 05 2015 (22972414455).jpg",
        "on_screen_text": "A fallen Sitka spruce, Hoh rainforest (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "that are hundreds of",
+       "photo": "File:Hoh Rain Forest - 54018538707.jpg",
+       "on_screen_text": "Hoh rainforest"
       },
       {
        "type": "photo",
@@ -1103,6 +1297,24 @@
        }
       },
       {
+       "type": "map",
+       "at": "That is roughly three",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.3,
+           "lat": 47.45,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Seattle"
+      },
+      {
        "type": "photo",
        "at": "Rivers here rise fast.",
        "photo": "File:Hoh Rain Forest - 54018538707.jpg",
@@ -1124,6 +1336,12 @@
        "at": 0,
        "photo": "File:Stair step moss stump hoh rainforest c bubar july 2014 (17302171651).jpg",
        "on_screen_text": "A nurse stump, Hoh rainforest (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "and young trees sprout",
+       "photo": "File:Hoh Rainforest, mossy log tree NPS Photo (16680304244).jpg",
+       "on_screen_text": "Nurse log, Hoh rainforest (NPS)"
       },
       {
        "type": "photo",
@@ -1263,6 +1481,24 @@
       },
       {
        "type": "map",
+       "at": "sixty homes and more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.075,
+           "lat": 46.725,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Cove"
+      },
+      {
+       "type": "map",
        "at": "People call it Washaway",
        "map": {
         "steps": [
@@ -1326,6 +1562,24 @@
        "on_screen_text": "Cape Flattery"
       },
       {
+       "type": "map",
+       "at": "But nature is only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.72,
+           "lat": 48.38,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Flattery"
+      },
+      {
        "type": "photo",
        "at": "The other half is",
        "photo": "File:Cape Flattery looking north.JPG",
@@ -1356,6 +1610,12 @@
        "at": "To this day, one",
        "photo": "File:Roosevelt elk cow & calf (36904812482).jpg",
        "on_screen_text": "Roosevelt elk, cow and calf"
+      },
+      {
+       "type": "photo",
+       "at": "permanent protection for its",
+       "photo": "File:Bull Roosevelt elk (36904820472).jpg",
+       "on_screen_text": "Roosevelt elk, Olympic Peninsula"
       }
      ]
     },
@@ -1420,6 +1680,24 @@
         "label": "Olympic National Park; 95 % designated wilderness",
         "source": "National Park Service"
        }
+      },
+      {
+       "type": "map",
+       "at": "and ninety-five percent of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.75,
+           "lat": 47.7,
+           "span": 1.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Olympic wilderness"
       }
      ]
     },
@@ -1524,10 +1802,46 @@
        "on_screen_text": "Quinault rainforest"
       },
       {
+       "type": "map",
+       "at": "The emptiness of this",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.4,
+           "lat": 47.6,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kalaloch coast"
+      },
+      {
        "type": "photo",
        "at": "And it was chosen",
        "photo": "File:Makah Tribal Cemetery in Neah Bay, Washington.jpg",
        "on_screen_text": "Neah Bay, Makah Reservation"
+      },
+      {
+       "type": "map",
+       "at": "over the one thing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.2,
+           "lat": 47.8,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Logged land outside the park"
       }
      ]
     }
@@ -1547,6 +1861,45 @@
        "on_screen_text": "Log rafts at Port Angeles, 1973 (NARA)"
       },
       {
+       "type": "map",
+       "at": "Mills, logging camps and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.8,
+           "lat": 47.476,
+           "span": 4.886
+          },
+          "places": [
+           {
+            "name": "Port Angeles",
+            "lon": -123.43,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Angeles"
+           },
+           {
+            "name": "Forks",
+            "lon": -124.39,
+            "lat": 47.95,
+            "kind": "city",
+            "label": "Forks"
+           },
+           {
+            "name": "Aberdeen",
+            "lon": -123.81,
+            "lat": 46.98,
+            "kind": "port",
+            "label": "Aberdeen"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "photo",
        "at": "Ports like Port Angeles",
        "photo": "File:Water-Front and Harbor, Port Angeles, Wash.jpg",
@@ -1562,6 +1915,12 @@
        "at": 0,
        "photo": "File:Forks timber museum.JPG",
        "on_screen_text": "Forks Timber Museum"
+      },
+      {
+       "type": "photo",
+       "at": "The boom ran from",
+       "photo": "File:Forks Washington 1981.jpg",
+       "on_screen_text": "Forks, 1981"
       },
       {
        "type": "map",
@@ -1608,6 +1967,33 @@
        "on_screen_text": "Port Angeles harbor, 1973 (NARA)"
       },
       {
+       "type": "map",
+       "at": "Much of the old",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.25,
+           "lat": 47.7,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": -124.25,
+           "lat": 47.7,
+           "span": 0.248
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Second-growth forest"
+      },
+      {
        "type": "stat",
        "at": "Forks, a town of",
        "stat": {
@@ -1626,6 +2012,12 @@
        "at": 0,
        "photo": "File:\"Welcome Twilight fans\" in Forks, Washington.jpg",
        "on_screen_text": "Forks welcomes Twilight fans, 2010"
+      },
+      {
+       "type": "photo",
+       "at": "set her Twilight novels",
+       "photo": "File:Forks WA Downtown.JPG",
+       "on_screen_text": "Forks"
       },
       {
        "type": "map",
@@ -1661,18 +2053,18 @@
         "steps": [
          {
           "view": {
-           "lon": -123.58,
-           "lat": 48.03,
-           "span": 0.5
+           "lon": -123.62,
+           "lat": 47.98,
+           "span": 0.6
           },
           "date": "2025-07-01/2025-09-15"
          },
          {
           "at": 58,
           "view": {
-           "lon": -123.58,
-           "lat": 48.03,
-           "span": 0.31
+           "lon": -123.62,
+           "lat": 47.98,
+           "span": 0.372
           },
           "date": "2025-07-01/2025-09-15"
          }
@@ -1749,6 +2141,24 @@
         "label": "Fish a year returning up the Elwha before the dams (estimate)",
         "source": "Washington Dept. of Fish and Wildlife (via Restoration of the Elwha River)"
        }
+      },
+      {
+       "type": "map",
+       "at": "once came back up",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.55,
+           "lat": 48.1,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The lower Elwha"
       }
      ]
     },
@@ -1760,6 +2170,47 @@
        "at": 0,
        "photo": "File:Historic Elwha Dam Power House, circa 1913.jpg",
        "on_screen_text": "Elwha Dam powerhouse, about 1913"
+      },
+      {
+       "type": "map",
+       "at": "to make electricity for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.5,
+           "lat": 48.05,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Port Angeles",
+            "lon": -123.43,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Angeles"
+           },
+           {
+            "name": "Elwha Dam",
+            "lon": -123.553,
+            "lat": 48.093,
+            "kind": "site",
+            "label": "Elwha Dam (1913)",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": -123.5,
+           "lat": 48.05,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "map",
@@ -1808,6 +2259,24 @@
        "at": "The fish that had",
        "photo": "File:2011-06-01, Elwha River Dam.jpg",
        "on_screen_text": "The Elwha Dam, 2011"
+      },
+      {
+       "type": "map",
+       "at": "for thousands of years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.6,
+           "lat": 47.96,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The upper Elwha valley"
       }
      ]
     },
@@ -1821,10 +2290,25 @@
        "on_screen_text": "Glines Canyon Dam during removal, 2011 (NPS)"
       },
       {
+       "type": "stat",
+       "at": "By most published figures,",
+       "stat": {
+        "value": "210 FT",
+        "label": "Glines Canyon Dam (Elwha Dam: about 108 ft)",
+        "source": "Restoration of the Elwha River (Wikipedia)"
+       }
+      },
+      {
        "type": "photo",
        "at": "For almost a century,",
        "photo": "File:Aldwell Delta tree stump elwha river silt deposit NPS Photo 3-6-12 (21) (17137799068).jpg",
        "on_screen_text": "Old stumps in Lake Aldwell's silt, 2012 (NPS)"
+      },
+      {
+       "type": "photo",
+       "at": "and the beaches at",
+       "photo": "File:PORT ANGELES HARBOR ON THE OLYMPIC PENINSULA - NARA - 552155.jpg",
+       "on_screen_text": "The strait at Port Angeles, 1973 (NARA)"
       }
      ]
     },
@@ -1875,6 +2359,24 @@
         "label": "Elwha River Ecosystem and Fisheries Restoration Act",
         "source": "Restoration of the Elwha River (Wikipedia)"
        }
+      },
+      {
+       "type": "map",
+       "at": "which allowed the government",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.555,
+           "lat": 48.095,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Elwha Dam site"
       }
      ]
     },
@@ -1895,6 +2397,24 @@
         "label": "The largest dam removal in U.S. history",
         "source": "National Park Service"
        }
+      },
+      {
+       "type": "map",
+       "at": "Within six months, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.552,
+           "lat": 48.092,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the Elwha Dam stood"
       },
       {
        "type": "photo",
@@ -1959,7 +2479,7 @@
         "steps": [
          {
           "view": {
-           "lon": -123.555,
+           "lon": -123.548,
            "lat": 48.142,
            "span": 0.13
           },
@@ -1968,7 +2488,7 @@
          {
           "at": 9,
           "view": {
-           "lon": -123.555,
+           "lon": -123.548,
            "lat": 48.142,
            "span": 0.081
           },
@@ -1986,10 +2506,19 @@
        "on_screen_text": "Sediment drifting off the Elwha mouth, 2012 (NPS)"
       },
       {
+       "type": "stat",
+       "at": "A study published in",
+       "stat": {
+        "value": "2024 STUDY",
+        "label": "Fish numbers rose once the way upstream was open",
+        "source": "Pess et al. 2024, Frontiers in Ecology and Evolution"
+       }
+      },
+      {
        "type": "photo",
        "at": "It is one of",
-       "photo": "File:Hoh Rainforest, mossy log tree NPS Photo (16680304244).jpg",
-       "on_screen_text": "Olympic rainforest (NPS)"
+       "photo": "File:Olympic National Park, 2023 - 002.jpg",
+       "on_screen_text": "Olympic National Park"
       }
      ]
     }
@@ -2009,8 +2538,8 @@
         "steps": [
          {
           "view": {
-           "lon": -124.17,
-           "lat": 47.125,
+           "lon": -124.18,
+           "lat": 47.14,
            "span": 0.12
           },
           "date": "2025-07-01/2025-09-15"
@@ -2018,8 +2547,8 @@
          {
           "at": 11,
           "view": {
-           "lon": -124.17,
-           "lat": 47.125,
+           "lon": -124.18,
+           "lat": 47.14,
            "span": 0.08
           },
           "date": "2025-07-01/2025-09-15"
@@ -2300,6 +2829,54 @@
        }
       },
       {
+       "type": "map",
+       "at": "and they give the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 141.95,
+           "lat": 39.5,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Otsuchi",
+            "lon": 141.88,
+            "lat": 39.36,
+            "kind": "site",
+            "label": "Otsuchi"
+           },
+           {
+            "name": "Kuwagasaki",
+            "lon": 141.96,
+            "lat": 39.64,
+            "kind": "site",
+            "label": "Kuwagasaki (Miyako)"
+           }
+          ]
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": 141.95,
+           "lat": 39.5,
+           "span": 2.55
+          }
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": 141.95,
+           "lat": 39.5,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "stat",
        "at": "The waves were probably",
        "stat": {
@@ -2323,6 +2900,40 @@
        }
       },
       {
+       "type": "map",
+       "at": "scientists worked backwards.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -121.34,
+           "lat": 44.061,
+           "span": 22.277
+          },
+          "places": [
+           {
+            "name": "Copalis",
+            "lon": -124.17,
+            "lat": 47.12,
+            "kind": "site",
+            "label": "Copalis River ghost forest",
+            "icon": "warning"
+           },
+           {
+            "name": "North Cove",
+            "lon": -124.07,
+            "lat": 46.73,
+            "kind": "site",
+            "label": "North Cove (Washaway Beach)",
+            "icon": "warning"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "stat",
        "at": "The parent earthquake must",
        "stat": {
@@ -2332,23 +2943,29 @@
        }
       },
       {
+       "type": "photo",
+       "at": "on the twenty-sixth of",
+       "photo": "File:Cape Flattery (4301328607).jpg",
+       "on_screen_text": "The outer coast at night's edge: Cape Flattery"
+      },
+      {
        "type": "map",
        "at": "Tree rings agreed: the",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -124.165,
-           "lat": 47.118,
-           "span": 0.08
+           "lon": -124.16,
+           "lat": 47.1,
+           "span": 0.1
           },
           "date": "2025-07-01/2025-09-15"
          },
          {
           "at": 50,
           "view": {
-           "lon": -124.165,
-           "lat": 47.118,
+           "lon": -124.16,
+           "lat": 47.1,
            "span": 0.08
           },
           "date": "2025-07-01/2025-09-15"
@@ -2379,7 +2996,7 @@
         "steps": [
          {
           "view": {
-           "lon": -122.366,
+           "lon": -122.66,
            "lat": 44.749,
            "span": 39.548
           },
@@ -2429,6 +3046,46 @@
         "value": "~1,000 KM",
         "label": "Of fault that broke, ~20 m average slip",
         "source": "Atwater et al. 2005; Satake et al. 1996"
+       }
+      },
+      {
+       "type": "map",
+       "at": "from Vancouver Island to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -120.89,
+           "lat": 44.564,
+           "span": 36.929
+          },
+          "places": [
+           {
+            "name": "Vancouver Island",
+            "lon": -125.5,
+            "lat": 49.5,
+            "kind": "label",
+            "label": "Vancouver Island"
+           },
+           {
+            "name": "N. California",
+            "lon": -123.8,
+            "lat": 40.5,
+            "kind": "label",
+            "label": "Northern California"
+           }
+          ]
+         },
+         {
+          "at": 43,
+          "view": {
+           "lon": -120.46,
+           "lat": 44.0,
+           "span": 17.765
+          }
+         }
+        ],
+        "cut": true
        }
       }
      ]
@@ -2512,7 +3169,7 @@
         "steps": [
          {
           "view": {
-           "lon": -122.66,
+           "lon": -123.54,
            "lat": 44.749,
            "span": 39.548
           },
@@ -2565,6 +3222,56 @@
        }
       },
       {
+       "type": "map",
+       "at": "where the ocean floor",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -125.65,
+           "lat": 44.749,
+           "span": 39.548
+          },
+          "routes": [
+           {
+            "from": [
+             -127.0,
+             50.0
+            ],
+            "via": [
+             [
+              -126.0,
+              48.5
+             ],
+             [
+              -125.3,
+              47.0
+             ],
+             [
+              -125.0,
+              45.0
+             ],
+             [
+              -124.9,
+              43.0
+             ]
+            ],
+            "to": [
+             -124.6,
+             40.4
+            ],
+            "mode": "line",
+            "label": "Cascadia subduction zone",
+            "color": "red",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
        "type": "stat",
        "at": "at least nineteen great",
        "stat": {
@@ -2573,6 +3280,12 @@
         "source": "Pacific Northwest Seismic Network",
         "note": "About every 500 years on average"
        }
+      },
+      {
+       "type": "photo",
+       "at": "The last one was",
+       "photo": "File:Dense forest canopy quinault rainforest c bubar march 05 2015 (22655664738).jpg",
+       "on_screen_text": "Rainforest canopy, Quinault valley (NPS)"
       }
      ]
     },
@@ -2587,6 +3300,12 @@
         "label": "Chance of a full-margin ~M9 in the next 50 years",
         "source": "USGS, as cited by PNSN"
        }
+      },
+      {
+       "type": "photo",
+       "at": "The United States Geological",
+       "photo": "File:View from ISS Expedition 71, Ozette Lake, Forks, Washington, June 7, 2024 (ISS071-E-176451).jpg",
+       "on_screen_text": "The outer coast from the ISS, 2024 (NASA)"
       },
       {
        "type": "map",
@@ -2636,6 +3355,24 @@
         "label": "To reach high ground after a Cascadia quake",
         "source": "Washington Dept. of Natural Resources"
        }
+      },
+      {
+       "type": "map",
+       "at": "to get to high",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.1,
+           "lat": 46.95,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ocean Shores and Westport: low, flat ground"
       }
      ]
     },
@@ -2647,6 +3384,24 @@
        "at": 0,
        "photo": "File:WASHINGTON-WESTPORT - NARA - 545162.jpg",
        "on_screen_text": "Westport (NARA)"
+      },
+      {
+       "type": "map",
+       "at": "and why the towns",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.15,
+           "lat": 47.0,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ocean Shores"
       },
       {
        "type": "map",
@@ -2730,6 +3485,15 @@
        "at": "On a coast where",
        "photo": "File:Rialto Beach - 54019636128.jpg",
        "on_screen_text": "Rialto Beach"
+      },
+      {
+       "type": "stat",
+       "at": "a roof may be",
+       "stat": {
+        "value": "53 FT",
+        "label": "Height of the Ocosta refuge above sea level",
+        "source": "Seattle Times 2016, via Wikipedia"
+       }
       }
      ]
     }
@@ -2801,6 +3565,12 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "photo",
+       "at": "It pulls the rain",
+       "photo": "File:Hanging mossy branch hoh rainforest c bubar march 05-2015 (22656700368).jpg",
+       "on_screen_text": "Moss and rain, Hoh rainforest (NPS)"
       },
       {
        "type": "photo",
@@ -2889,13 +3659,19 @@
        }
       },
       {
+       "type": "photo",
+       "at": "a park drawn around",
+       "photo": "File:Glines canyon dam removal notching NPS Photo 11-30-11 from spillway (16703097944).jpg",
+       "on_screen_text": "Glines Canyon Dam coming down, 2011 (NPS)"
+      },
+      {
        "type": "map",
        "at": "and a fault that",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -121.64,
+           "lon": -122.168,
            "lat": 44.749,
            "span": 39.548
           },
@@ -2951,6 +3727,33 @@
       },
       {
        "type": "map",
+       "at": "where the land looks",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.42,
+           "lat": 47.66,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 21,
+          "view": {
+           "lon": -124.42,
+           "lat": 47.66,
+           "span": 0.186
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Olympic coast"
+      },
+      {
+       "type": "map",
        "at": "So here is the",
        "map": {
         "steps": [
@@ -2981,6 +3784,12 @@
        "at": "would you build your",
        "photo": "File:Ruby Beach rocks and waves.jpg",
        "on_screen_text": "Ruby Beach"
+      },
+      {
+       "type": "photo",
+       "at": "Tell me in the",
+       "photo": "File:Hoh rainforest hall of mosses 0096 (22656775187).jpg",
+       "on_screen_text": "Hoh rainforest"
       }
      ],
      "ask": {

@@ -1,0 +1,12 @@
+- 2026-11-23 caspian-sea (W9OoIMD4Hlg): 'The USSR Used Nukes to Save This Sea. It's Falling Again' -> 'Why the Caspian Sea Is Shrinking So Fast'; cover set
+- 2026-11-23 colorado-river (nkPJ4_MNiiw): 'The US Cut Arizona's Water. Now Arizona Is Suing' -> 'Why Lake Powell and Lake Mead Hit Record Lows'; cover set
+- 2026-11-23 dubai-islands (vaPwByI5fjs): 'In 25 Years, Dubai Built a Manhattan in the Sea' -> 'How Dubai Built New Land Out of the Sea'; cover set
+- 2026-11-23 great-salt-lake (js3Ns7faPPQ): 'Utah Once Pumped This Lake Into the Desert' -> 'Why the Great Salt Lake Is Disappearing'; cover set
+- 2026-11-23 aral-sea (hrVgUCtEEKo): 'The Aral Sea Shrank 93%. Then One Part Came Back' -> 'Why the Aral Sea Disappeared'; cover set
+- 2026-11-23 indus-waters (nbB4DKNWp7Y): 'India Froze a 65 Year Old Water Treaty With Pakistan' -> 'Why India and Pakistan Fight Over the Indus River'; cover set
+- 2026-11-23 ogallala-aquifer (903F5prq9EM): 'Kansas Rejected Farmers' Plan to Save Their Water' -> 'Why Kansas and Texas Are Running Out of Water'; cover set
+- 2026-11-23 outer-banks (6zrm-jh4Lo4): '32 Houses Fell Into the Atlantic. Insurance Paid Only After' -> 'Why Houses Keep Falling Into the Sea in North Carolina'; cover set
+- 2026-11-23 langtang-collapse (7j0S1PUwPvU): 'Nepal's Flood Warning Came 38 Minutes Too Late' -> 'How a Falling Glacier Flooded a Valley in Nepal'; cover set
+- 2026-11-23 jakarta-sinking (ucTWIvj9Xf0): 'Indonesia Is Building a 575 km Wall Against the Sea' -> 'Why Jakarta Is Sinking Into the Sea'; cover set
+- 2026-11-23 louisiana-land-loss (CKHRMZp-s0M): 'Louisiana Had a Plan to Save Its Coast. It Cancelled It' -> 'Why Louisiana Is Disappearing Into the Sea'; cover set
+- 2026-11-23 green-sahara (Mw00DGzLiV8): 'When the Sahara Was Green' -> 'Why the Sahara Was Once Green'; cover set

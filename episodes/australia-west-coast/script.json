@@ -242,8 +242,8 @@
        "at": "Carnarvon gets about two",
        "chart": {
         "type": "bar",
-        "title": "Rain in an average year",
-        "unit": "mm",
+        "title": "Rain in an average year (mm)",
+        "unit": "",
         "data": [
          [
           "Brisbane",
@@ -931,8 +931,8 @@
         "steps": [
          {
           "view": {
-           "lon": 113.78,
-           "lat": -24.86,
+           "lon": 113.86,
+           "lat": -24.89,
            "span": 0.1
           },
           "date": "2025-06-01/2025-09-30"
@@ -1004,8 +1004,8 @@
       {
        "type": "photo",
        "at": "Since then the state",
-       "photo": "File:Shark Bay, Australia (Unsplash).jpg",
-       "on_screen_text": "Near Carnarvon"
+       "photo": "File:Gascoyne River Outflow (51225476925).png",
+       "on_screen_text": "The Gascoyne in flood, 2021, from orbit"
       }
      ]
     },
@@ -1303,9 +1303,9 @@
         "steps": [
          {
           "view": {
-           "lon": 113.17,
-           "lat": -25.62,
-           "span": 0.35
+           "lon": 113.05,
+           "lat": -25.85,
+           "span": 0.5
           },
           "date": "2025-06-01/2025-09-30"
          }
@@ -2211,8 +2211,8 @@
       {
        "type": "photo",
        "at": "many crewed by Japanese",
-       "photo": "File:Japanese Cemetery, Broome, WA, Australia 01.jpg",
-       "on_screen_text": "Japanese cemetery, Broome"
+       "photo": "File:Japanese Cemetery Broome 1939 SLNSW FL18913679.jpg",
+       "on_screen_text": "Japanese cemetery, Broome, 1939"
       },
       {
        "type": "map",
@@ -2291,8 +2291,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Japanese Cemetery Broome 1939 SLNSW FL18913679.jpg",
-       "on_screen_text": "Japanese cemetery, Broome, 1939"
+       "photo": "File:Dusk at Cable Beach, Broome, WA, Australia 01.jpg",
+       "on_screen_text": "Cable Beach, Broome"
       },
       {
        "type": "photo",
@@ -2378,8 +2378,8 @@
       {
        "type": "photo",
        "at": "In the year to",
-       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350968938).jpg",
-       "on_screen_text": "Iron ore, Pilbara"
+       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350969378).jpg",
+       "on_screen_text": "Iron ore machinery, Pilbara"
       },
       {
        "type": "stat",
@@ -2446,8 +2446,8 @@
       {
        "type": "photo",
        "at": "Yet the town around",
-       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350969378).jpg",
-       "on_screen_text": "Port machinery, Pilbara"
+       "photo": "File:Admiralty Chart No 1437 Australia - North West coast Port Hedland, Published 1897.jpg",
+       "on_screen_text": "Port Hedland on an Admiralty chart, 1897"
       },
       {
        "type": "stat",
@@ -2797,8 +2797,8 @@
        "at": 0,
        "chart": {
         "type": "bar",
-        "title": "Water flowing into Perth's dams",
-        "unit": "billion litres a year",
+        "title": "Into Perth's dams (billion litres a year)",
+        "unit": "",
         "data": [
          [
           "Before 1975",
@@ -3172,14 +3172,14 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Exmouth WA ex US Base.JPG",
-       "on_screen_text": "Exmouth"
+       "photo": "File:Lighthouse (7893989706).jpg",
+       "on_screen_text": "Vlamingh Head lighthouse, Exmouth"
       },
       {
        "type": "photo",
        "at": "with new ports, new",
-       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350968938).jpg",
-       "on_screen_text": "Iron ore, Pilbara"
+       "photo": "File:CSIRO ScienceImage 11678 A Rio Tinto iron ore shiploader in operation in the Pilbara.jpg",
+       "on_screen_text": "Loading iron ore, Pilbara"
       },
       {
        "type": "photo",

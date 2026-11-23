@@ -69,3 +69,12 @@ Title: "Why Almost Nobody Lives on Washington's Wild Coast" (alt "The Rainforest
   Wikipedia (392,000 fish -> <3,000). Sediment 10.5 Mt uncited -> drop or attribute. CHECK returns since 2014 if possible.
 - Kalaloch relocation: NPS page 404 -> keep generic ("bluffs are retreating; the park has moved facilities back") only if
   sourced; otherwise cut.
+
+# Round 3 (2026-11-23, while writing)
+- A (search summary, NPS/Daily Astorian 2020): Elwha adult Chinook 2019 >7,600, highest since the late 1980s; Pess et al. 2024
+  (Frontiers in Ecology and Evolution): abundances rose after adult passage was restored; Chinook still hatchery-dominated.
+- OWN: Hoh (47.86 N, 123.93 W) to Sequim (48.08 N, 123.10 W) ~66 km = ~41 miles straight line ("about forty miles").
+- CHECK before factcheck: Washington population (2020 census 7,705,281: "almost eight million" -> verify 2024 estimate or
+  say "nearly eight million"), Sequim irrigation history, T. Roosevelt and the elk (1909 monument), Lower Elwha Klallam
+  campaign and the 1992 Elwha River Ecosystem and Fisheries Restoration Act, Seattle annual rain (~39 in) for "three times",
+  spotted owl/murrelet listings, Forks Twilight wording.

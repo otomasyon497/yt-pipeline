@@ -16,6 +16,8 @@ P5: In the middle of the peninsula, almost in a circle, stand the Olympic Mounta
 
 P6: When that wet ocean air hits the mountains, it is forced up. As it rises, it cools, and cool air cannot hold as much water. So the clouds drop their rain on the western slopes, and higher up, their snow. The Olympic Mountains carry dozens of glaciers, an unusual sight this close to the sea and this far south.
 
+P6b: Those glaciers are shrinking. Researchers count well over a hundred glaciers and permanent snowfields in the Olympics, and studies cited on the range's encyclopedia page expect most of them to be gone by about twenty seventy. When they go, the rivers that run from them in late summer will run lower and warmer.
+
 P7: By the time the air has crossed the peaks and comes down the other side, most of its water is gone. As it sinks, it warms and dries out. The land behind the mountains sits in what geographers call a rain shadow. That is where Sequim is, on the northeast side of the range, where the clouds have already given up their rain.
 
 P8: So one mountain range splits the peninsula into two worlds. On the wet side, rainforest. On the dry side, prairies, farms and retirement homes, and a town that calls itself sunny. And notice where the road goes. Highway 101, the only main road, does not cross the mountains. It can't. It loops all the way around them. Everything on the outer coast sits at the far end of that loop.
@@ -24,6 +26,8 @@ P8: So one mountain range splits the peninsula into two worlds. On the wet side,
 P9: Follow the loop to the wet side and you reach the Hoh, the Queets and the Quinault, valleys of temperate rainforest. The park service describes Sitka spruce and western hemlock that are hundreds of years old and can grow to two hundred and fifty feet tall. It rarely freezes here, and the rain hardly stops through the winter.
 
 P10: Forks, the biggest town on this side, records about a hundred and twenty inches of rain a year in the official climate normals. That is roughly three times what Seattle gets. Rivers here rise fast. Hillsides slide. Wood rots. Everything that people build has to be fought for against the water.
+
+P10b: The rain also shapes the forest floor. Fallen trunks become nurse logs, and young trees sprout along their backs until a whole row stands on stilts of roots where the old log has rotted away. Roosevelt elk graze the valleys and keep the understory open. It looks untouched because, in large parts of these valleys, it is.
 
 P11: Then there is the coast itself. Much of Washington's outer shore is steep bluffs of loose sediment, battered by some of the biggest winter waves in the country. Further south, the land changes to low sand spits and bays, and there, the sea moves even faster. At North Cove on Willapa Bay, NBC News reported that the shore was retreating by more than a hundred feet in some years, and called it the fastest-eroding shoreline on the West Coast.
 
@@ -54,6 +58,8 @@ P22: The Elwha River runs north out of the Olympic Mountains into the Strait of 
 
 P23: In the early nineteen-hundreds, two dams were built on the Elwha to make electricity for the growing mills and towns. The Elwha Dam was finished in nineteen thirteen. The Glines Canyon Dam, upstream, followed in nineteen twenty-seven. Neither had a way for salmon to get past. The fish that had spawned in the upper river for thousands of years were cut off from it.
 
+P23b: These were not small structures. By most published figures, the Elwha Dam stood about a hundred and eight feet high, and Glines Canyon about two hundred and ten. For almost a century, the lakes behind them filled with sand and gravel that the river would normally have carried to the sea, and the beaches at the river's mouth slowly wasted away.
+
 P24: By the end of the century, the returns had fallen to fewer than three thousand fish. The Lower Elwha Klallam Tribe, whose people had fished this river for generations, pushed for decades to have the dams taken out. In nineteen ninety-two, Congress passed a law that set out to restore the river and its fish.
 
 P25: On the seventeenth of September, twenty eleven, work began on what the park service calls the largest dam removal in United States history. Within six months, the Elwha Dam was gone. The Glines Canyon Dam followed in twenty fourteen. Behind them, a century of trapped sand and gravel began to move downstream again, and on satellite images you can watch the river's mouth grow new beaches and a delta.
@@ -67,7 +73,11 @@ P28: In the nineteen-eighties and nineties, scientists began to find more of the
 
 P29: The answer was found in Japan. Old records from villages on Japan's Pacific coast described a tsunami that arrived in the winter of seventeen hundred with no earthquake felt there at all. The waves damaged coastal villages. Because nothing had shaken the ground in Japan, scientists later called it an orphan tsunami: a wave without a parent.
 
+P29b: The records are precise. They name the villages, including Otsuchi and Kuwagasaki, and they give the days: the eighth and ninth days of the twelfth month of the twelfth year of the Genroku era. In the modern calendar, that is the twenty-seventh and twenty-eighth of January, seventeen hundred. The waves were probably two to five meters high when they reached Japan.
+
 P30: By modelling how long the waves would have taken to cross the Pacific, about nine hours, scientists worked backwards. The parent earthquake must have struck the Cascadia coast at about nine in the evening on the twenty-sixth of January, seventeen hundred. Tree rings agreed: the dead cedars had grown their last ring in sixteen ninety-nine and died that winter. The magnitude was probably between eight point seven and nine point two.
+
+P30b: For a wave to do that much damage after crossing the whole Pacific, the earthquake had to be enormous. Scientists estimate that the fault broke along roughly a thousand kilometres of coast, from Vancouver Island to northern California, and that the two sides slipped past each other by an average of about twenty meters.
 
 P31: The people of this coast had their own record of that night. Makah stories describe a great earthquake at night, when the only survivors were those who ran inland before the water came. A Quileute story tells of a flood so strong that canoes were swept far inland. They had remembered for three hundred years what science found again only in the twentieth century.
 
@@ -77,6 +87,8 @@ P32: The fault that broke in seventeen hundred is the Cascadia subduction zone, 
 P33: Nobody can say when the next one will come. The United States Geological Survey puts the chance of a full rupture, a magnitude nine, at ten to fifteen percent in the next fifty years. When it comes, the tsunami will not take nine hours. Washington's natural resources department says people on the Pacific coast will have tens of minutes to get to high ground.
 
 P34: That is one more reason why so few people live right on this shore, and why the towns that are here are getting ready. In twenty sixteen, at Westport, the Ocosta school district finished what the state calls the first vertical tsunami evacuation structure in North America: a reinforced platform above a school gym, designed to hold a thousand people above the water.
+
+P34b: The platform stands about fifty-three feet above sea level, on concrete walls and deep pilings, and was built to survive a magnitude nine point two earthquake before the water arrives. On a coast where the nearest hill can be miles away, a roof may be the only high ground there is.
 
 ## Ending (calm)
 P35: So why is Washington's wild coast so empty? Start with the mountain. It pulls the rain out of the Pacific sky and drops it on the western side, more than twelve feet a year, while the other side stays as dry as Los Angeles. Add a shore of crumbling bluffs and moving sand, a park drawn around the wildest of it, the end of the timber boom, and a fault that has already broken this coast before.

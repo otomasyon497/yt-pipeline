@@ -27,3 +27,8 @@ Hoh valley 123.93W 47.86N; Sequim 123.10W 48.08N; Dungeness Spit 123.13W 48.16N;
 2024 Landsat/S2: delta growth); Lake Mills / Glines Canyon 123.60W 47.99N; Copalis River 124.17W 47.12N; North Cove 124.07W
 46.73N (compare 2016 vs 2025); Westport/Ocosta 124.10W 46.88N; Forks clear-cut patchwork 124.3W 47.95N (park boundary edge);
 Rialto/La Push 124.64W 47.92N; Mount Olympus 123.71W 47.80N (snow, August).
+- More (scratch op_lic2.txt): "PORT ANGELES HARBOR ON THE OLYMPIC PENINSULA - NARA - 552155.jpg" (PD), "Water-Front and Harbor,
+  Port Angeles, Wash.jpg" (1910, PD), "Makah Tribal Cemetery in Neah Bay, Washington.jpg" (CC BY 2.0), Makah treaty print (PD),
+  "Cape Flattery (4301328607).jpg" (CC BY 2.0), "Cape Flattery looking north.JPG" (CC BY 3.0), "Dense forest canopy quinault
+  rainforest c bubar march 05 2015 (22655664738).jpg" (PD), "Quinault Rainforest.jpg" (CC0, 2026), "Olympic National Park, 2023 -
+  002.jpg" (CC BY 2.0). No free photo found: Copalis ghost forest, Ocosta tower, Japanese 1700 records -> satellite + stat cards.

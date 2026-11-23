@@ -10,7 +10,7 @@ P2: But here is the strange part. The other side of Australia is lined with citi
 
 P3: Same continent. Nearly the same latitude. More than four times the rain on one side. And now even Perth, the one city that made it, is losing the rain it was built on.
 
-P4: So why does Australia's west coast have only one city? The answer runs through a wind that blows the wrong way, a river that hides underground, a Dutch shipwreck and a massacre, the strongest winds ever measured on the mainland, a town that was wiped off the map, and a city that now makes its own water from the sea. The first reason is the air itself.
+P4: So why does Australia's west coast have only one city? The answer runs through a wind that blows the wrong way, a river that hides underground, a Dutch shipwreck and a massacre, one of the strongest gusts ever measured on the Australian mainland, a town that was wiped off the map, and a city that now makes its own water from the sea. The first reason is the air itself.
 
 ## 1. The Wrong Side of the Wind (calm)
 
@@ -30,9 +30,9 @@ P10: Reason two. Without rain, there are no great rivers. The east coast has riv
 
 P11: The Gascoyne, which reaches the sea at Carnarvon, is the longest river in Western Australia. For most of the year its bed is dry sand. Locals call it the upside-down river, because its water is still there, flowing underneath, in the sand and gravel below the dry bed.
 
-P12: That hidden water is the only fresh water Carnarvon has. Since about the nineteen twenties, farmers have pumped it to grow bananas, tomatoes and other crops, and Carnarvon became a major supplier of fresh fruit and vegetables for Perth. In the nineteen sixties, so many wells pulled so much water that the groundwater turned salty, and many of the plantations failed. Since then the state has limited how much anyone can pump.
+P12: That hidden water is the only fresh water Carnarvon has. Since about the nineteen twenties, farmers have pumped it to grow bananas, tomatoes and other crops, and Carnarvon became a major supplier of fresh fruit and vegetables for Perth. In the nineteen sixties, so many wells pulled so much water that the groundwater fell, and many of the plantations failed. Since then the state has limited how much anyone can pump.
 
-P12b: Shark Bay, just south of Carnarvon, shows how harsh this water can be. In a shallow arm of the bay called Hamelin Pool, the sea is about twice as salty as normal. Almost nothing can live in it. So on its floor, mats of microbes build rocky mounds called stromatolites, the same kind of structures that fossils show on Earth billions of years ago. They survive here because nothing else does. Shark Bay became a World Heritage area in nineteen ninety-one.
+P12b: Shark Bay, just south of Carnarvon, shows how harsh this water can be. In a shallow arm of the bay called Hamelin Pool, the sea is about twice as salty as normal. Few of the animals that graze on microbes can live in it. So on its floor, mats of microbes build rocky mounds called stromatolites, the same kind of structures that fossils show on Earth billions of years ago. They survive here because the animals that would eat them cannot. Shark Bay became a World Heritage area in nineteen ninety-one.
 
 P13: One small town, living on one hidden river, under strict limits. That is roughly the most this land can carry without help. And for a long time, the outsiders who saw it decided it could not carry anything at all.
 
@@ -56,7 +56,7 @@ P19: For more than two hundred years after Hartog, Europeans mapped this coast, 
 
 P20: Reason four. When settlers finally came to the west, the land fought them too. In May eighteen twenty-nine, the Swan River Colony was founded where Perth stands today. Its founders had expected rich farmland.
 
-P21: The soil turned out to be mostly sand. The good farmland was a narrow strip along the banks of the Swan and Canning rivers, and officials took most of it first. Gardens failed. Early settlements along the coast were abandoned. Twenty-one years after it was founded, the colony still had fewer than six thousand settlers.
+P21: The soil turned out to be mostly sand. The good farmland was a narrow strip along the banks of the Swan and Canning rivers. Gardens failed. Twenty-one years after it was founded, the colony still had fewer than six thousand settlers.
 
 P22: What changed things was gold, found far inland in the eighteen nineties. Thousands of miners rushed to Kalgoorlie and Coolgardie, into country with almost no water at all. So the colony did something huge. Its chief engineer, Charles Yelverton O'Connor, planned a steel pipeline to pump water from a dam in the hills near Perth all the way to the goldfields: five hundred and sixty-six kilometres, uphill, with eight pumping stations.
 
@@ -92,7 +92,7 @@ P33: The state began winding Wittenoom down in nineteen seventy-eight. In two th
 
 ## 7. The One City Runs Dry (tension)
 
-P34: Reason seven. Even the one city is under pressure, and from the same thing that emptied the rest of the coast: rain. Perth was built on wet winters, carried in from the Indian Ocean by storms from the south-west. The south-west corner is the only part of the coast where those winter storms reliably reach land, and that is exactly where the city grew. Its water came from dams in the hills east of the city.
+P34: Reason seven. Even the one city is under pressure, and from the same thing that emptied the rest of the coast: rain. Perth was built on wet winters, carried in from the Indian Ocean by storms from the south-west. The south-west corner is where those winter storms reach the coast most reliably, and that is exactly where the city grew. Its water came from dams in the hills east of the city.
 
 P35: Since the middle of the nineteen seventies, those winter storms have weakened. According to Perth's water utility, the Water Corporation, rainfall in the dam catchments has dropped by fifteen to twenty percent. But the flow of water into the dams has fallen by about eighty percent, because dry ground soaks up most of the rain before it can run off.
 

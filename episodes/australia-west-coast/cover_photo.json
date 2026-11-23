@@ -1,0 +1,66 @@
+{
+ "photo": "File:AUS Perth, Central Business District, Kings Park, View 005.jpg",
+ "focus": [
+  0.5,
+  0.45
+ ],
+ "zoom": 1.0,
+ "lines": [
+  {
+   "t": "8 IN 10",
+   "color": "yellow"
+  },
+  {
+   "t": "LIVE HERE",
+   "color": "white"
+  }
+ ],
+ "text_at": [
+  0.04,
+  0.05
+ ],
+ "text_size": 175,
+ "underline": true,
+ "variants": [
+  {
+   "photo": "File:Australia exmouth sandy bay.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "text_size": 160,
+   "lines": [
+    {
+     "t": "13,000 KM",
+     "color": "yellow"
+    },
+    {
+     "t": "ALMOST",
+     "color": "white"
+    },
+    {
+     "t": "EMPTY",
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "photo": "File:AUS Perth, Central Business District, Kings Park, View 015.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "text_size": 185,
+   "lines": [
+    {
+     "t": "RUNNING",
+     "color": "white"
+    },
+    {
+     "t": "DRY",
+     "color": "yellow"
+    }
+   ]
+  }
+ ]
+}

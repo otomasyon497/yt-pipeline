@@ -1,0 +1,3342 @@
+{
+ "title": "Why Australia's West Coast Has Only One City",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/australia-west-coast/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Dutch route, pipeline and wind arrows drawn through main points (approximate)",
+  "Coast strip, cyclone coast and Greater Perth: geo/make_regions.py (Natural Earth, buffers; approximate)",
+  "Share of WA in Perth, 1911: 'about one third' shown as 33 %"
+ ],
+ "thumbnail": {
+  "text": "ONLY ONE CITY"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Western Australia has nearly thirteen thousand kilometres of mainland coast. Fly along it at night, from the south-west corner to the Kimberley, and almost all of it is dark.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 120.96,
+           "lat": -26.342,
+           "span": 68.599
+          },
+          "highlight": [
+           "Western Australia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "nearly thirteen thousand kilometres",
+       "stat": {
+        "value": "12,889 KM",
+        "label": "Mainland coastline of Western Australia",
+        "source": "Geoscience Australia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Fly along it at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 122.85,
+           "lat": -24.96,
+           "span": 24.3
+          },
+          "layer": "night"
+         },
+         {
+          "at": 19,
+          "view": {
+           "lon": 122.85,
+           "lat": -24.96,
+           "span": 20.655
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "There is one exception. Perth. About eight in every ten Western Australians live in and around that single city. Leave it behind and you can drive for days along the coast and pass only small towns, mining ports and empty beaches.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.2,
+           "lat": -32.2,
+           "span": 4.6
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "About eight in every",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 015.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "stat",
+       "at": "live in and around",
+       "stat": {
+        "value": "80 %",
+        "label": "Western Australians living in Greater Perth, 2023-24",
+        "source": "Population Statement 2025, WA (Centre for Population)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Leave it behind and",
+       "photo": "File:Little yellow caravan on the prairie.JPG",
+       "on_screen_text": "Near Exmouth"
+      },
+      {
+       "type": "photo",
+       "at": "drive for days along",
+       "photo": "File:Cape Ranges National Park - Flickr - GregTheBusker.jpg",
+       "on_screen_text": "Cape Range, near Exmouth"
+      },
+      {
+       "type": "photo",
+       "at": "mining ports and empty",
+       "photo": "File:Australia exmouth sandy bay.jpg",
+       "on_screen_text": "Sandy Bay, Cape Range"
+      }
+     ]
+    },
+    {
+     "text": "But here is the strange part. The other side of Australia is lined with cities. And Carnarvon, on the west coast, sits almost as far from the equator as Brisbane does on the east. Brisbane gets about a thousand millimetres of rain in an average year. Carnarvon gets about two hundred and thirty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 134.0,
+           "lat": -27.5,
+           "span": 58.0
+          },
+          "layer": "night"
+         },
+         {
+          "at": 7,
+          "view": {
+           "lon": 134.0,
+           "lat": -27.5,
+           "span": 49.3
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And Carnarvon, on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 130.5,
+           "lat": -27.285,
+           "span": 45.188
+          },
+          "places": [
+           {
+            "name": "Carnarvon",
+            "lon": 113.66,
+            "lat": -24.88,
+            "kind": "city",
+            "label": "Carnarvon"
+           }
+          ]
+         },
+         {
+          "at": "as Brisbane does on",
+          "places": [
+           {
+            "name": "Brisbane",
+            "lon": 153.03,
+            "lat": -27.47,
+            "kind": "city",
+            "label": "Brisbane"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             113.66,
+             -24.88
+            ],
+            "to": [
+             153.03,
+             -27.47
+            ],
+            "mode": "line",
+            "label": "Almost the same distance from the equator",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ],
+          "view": {
+           "lon": 133.345,
+           "lat": -28.38,
+           "span": 52.822
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Brisbane gets about a",
+       "photo": "File:AUS Brisbane, South Brisbane, Clem Jones Promenade, View 002.jpg",
+       "on_screen_text": "Brisbane"
+      },
+      {
+       "type": "chart",
+       "at": "Carnarvon gets about two",
+       "chart": {
+        "type": "bar",
+        "title": "Rain in an average year",
+        "unit": "mm",
+        "data": [
+         [
+          "Brisbane",
+          1031
+         ],
+         [
+          "Carnarvon",
+          230
+         ]
+        ],
+        "source": "Bureau of Meteorology",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "Same continent. Nearly the same latitude. More than four times the rain on one side. And now even Perth, the one city that made it, is losing the rain it was built on.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Still morning at the Fascine, Carnarvon (cropped).png",
+       "on_screen_text": "Carnarvon, about 1930"
+      },
+      {
+       "type": "photo",
+       "at": "More than four times",
+       "photo": "File:Brisbane - City view 4 (4028603547).jpg",
+       "on_screen_text": "Brisbane"
+      },
+      {
+       "type": "photo",
+       "at": "And now even Perth,",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 005.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "photo",
+       "at": "is losing the rain",
+       "photo": "File:Lake O'Connor SMC.jpg",
+       "on_screen_text": "Mundaring Weir, in the hills above Perth"
+      }
+     ]
+    },
+    {
+     "text": "So why does Australia's west coast have only one city? The answer runs through a wind that blows the wrong way, a river that hides underground, a Dutch shipwreck and a massacre, one of the strongest gusts ever measured on the Australian mainland, a town that was wiped off the map, and a city that now makes its own water from the sea. The first reason is the air itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 121.05,
+           "lat": -26.342,
+           "span": 68.599
+          },
+          "highlight": [
+           "file:wa_coast.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a wind that blows",
+       "photo": "File:Kalbarri (2052466486).jpg",
+       "on_screen_text": "Kalbarri"
+      },
+      {
+       "type": "photo",
+       "at": "a river that hides",
+       "photo": "File:Dry Gascoyne River Bed - panoramio.jpg",
+       "on_screen_text": "The dry bed of the Gascoyne"
+      },
+      {
+       "type": "photo",
+       "at": "a Dutch shipwreck and",
+       "photo": "File:Batavia Pl.1 State Library of New South Wales FL3726277.jpg",
+       "on_screen_text": "The Batavia, from Pelsaert's journal (1647)"
+      },
+      {
+       "type": "photo",
+       "at": "one of the strongest",
+       "photo": "File:Vance 1999 track.png",
+       "on_screen_text": "Cyclone Vance, March 1999"
+      },
+      {
+       "type": "photo",
+       "at": "a town that was",
+       "photo": "File:1966 WITTENOOM (3371782555).jpg",
+       "on_screen_text": "Wittenoom, 1966"
+      },
+      {
+       "type": "map",
+       "at": "and a city that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.765,
+           "lat": -32.2,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-03-31"
+         },
+         {
+          "at": 60,
+          "view": {
+           "lon": 115.765,
+           "lat": -32.2,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kwinana desalination plant, Perth"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wrong Side of the Wind",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. The west coast sits on the wrong side of the wind. Australia lies under a belt of high pressure that circles the globe at about thirty degrees south. Air in that belt sinks, warms and dries out. It is the same belt that makes the Atacama in Chile and the Namib in Africa, two deserts that also sit on the western edge of a continent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.783,
+           "lat": -26.074,
+           "span": 33.647
+          },
+          "highlight": [
+           "file:dry_coast.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Australia lies under a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 45.0,
+           "lat": -22.0,
+           "span": 260.0
+          },
+          "highlight": [
+           "file:ridge.geojson@alt"
+          ]
+         },
+         {
+          "view": {
+           "lon": 95.0,
+           "lat": -26.0,
+           "span": 150.0
+          },
+          "at": "circles the globe at"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Air in that belt",
+       "photo": "File:A challenging wasteland (img 0285-cc).jpg",
+       "on_screen_text": "Atacama Desert, Chile"
+      },
+      {
+       "type": "map",
+       "at": "It is the same",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 21.88,
+           "lat": -22.238,
+           "span": 246.28
+          },
+          "highlight": [
+           "file:ridge.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Atacama",
+            "lon": -69.9,
+            "lat": -24.0,
+            "kind": "label",
+            "label": "Atacama"
+           },
+           {
+            "name": "Namib",
+            "lon": 15.0,
+            "lat": -24.0,
+            "kind": "label",
+            "label": "Namib"
+           },
+           {
+            "name": "Carnarvon",
+            "lon": 113.66,
+            "lat": -24.88,
+            "kind": "city",
+            "label": "Carnarvon"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "two deserts that also",
+       "photo": "File:A portion of the Atacama Desert along Peru’s southern Pacific coast (iss074e0315662).jpg",
+       "on_screen_text": "The Atacama meets the Pacific"
+      }
+     ]
+    },
+    {
+     "text": "Around that high pressure, the winds blow from the south-east. On the east coast, those winds come in off the Pacific, loaded with moisture, and hit a long line of mountains. The air rises, cools and drops its rain. That is why Brisbane is green.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.944,
+           "lat": -24.319,
+           "span": 80.506
+          },
+          "highlight": [
+           "Queensland@alt"
+          ]
+         },
+         {
+          "at": "On the east coast,",
+          "arrows": [
+           {
+            "from": [
+             165.0,
+             -20.0
+            ],
+            "to": [
+             153.8,
+             -26.0
+            ],
+            "color": "blue",
+            "label": "Moist Pacific air",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             163.0,
+             -29.0
+            ],
+            "to": [
+             153.6,
+             -31.0
+            ],
+            "color": "blue",
+            "bend": -0.05
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and hit a long",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 147.99,
+           "lat": -27.738,
+           "span": 82.158
+          },
+          "highlight": [
+           "file:range.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Brisbane",
+            "lon": 153.03,
+            "lat": -27.47,
+            "kind": "city",
+            "label": "Brisbane"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The air rises, cools",
+       "photo": "File:AUS Brisbane, Central Business District, Brisbane River 007.jpg",
+       "on_screen_text": "Brisbane"
+      },
+      {
+       "type": "photo",
+       "at": "That is why Brisbane",
+       "photo": "File:Brisbane - City view 4 (4028603547).jpg",
+       "on_screen_text": "Brisbane"
+      }
+     ]
+    },
+    {
+     "text": "By the time the same air reaches the west coast, it has crossed thousands of kilometres of dry land. It arrives from the land, not the sea. And there are no high mountains on this side to squeeze out what little moisture is left. The highest peak in the whole state, Mount Meharry, reaches only about twelve hundred and fifty metres, and it sits far inland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 135.74,
+           "lat": -29.82,
+           "span": 47.56
+          },
+          "arrows": [
+           {
+            "from": [
+             146.0,
+             -24.0
+            ],
+            "to": [
+             128.0,
+             -23.5
+            ],
+            "color": "alt",
+            "label": "Over dry land",
+            "bend": 0.08
+           }
+          ]
+         },
+         {
+          "at": "it has crossed thousands",
+          "arrows": [
+           {
+            "from": [
+             128.0,
+             -23.5
+            ],
+            "to": [
+             114.5,
+             -24.5
+            ],
+            "color": "red",
+            "label": "Arrives dry",
+            "bend": 0.05
+           }
+          ],
+          "view": {
+           "lon": 129.876,
+           "lat": -29.882,
+           "span": 41.26
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It arrives from the",
+       "photo": "File:147 Nr Pt Hedland, July 1976 (51764953624).jpg",
+       "on_screen_text": "Near Port Hedland"
+      },
+      {
+       "type": "photo",
+       "at": "And there are no",
+       "photo": "File:In the Kalbarri National Park (15003005389).jpg",
+       "on_screen_text": "Murchison River gorge, Kalbarri"
+      },
+      {
+       "type": "photo",
+       "at": "to squeeze out what",
+       "photo": "File:In the Kalbarri National Park (15003350020).jpg",
+       "on_screen_text": "Kalbarri"
+      },
+      {
+       "type": "map",
+       "at": "The highest peak in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 117.938,
+           "lat": -22.224,
+           "span": 5.481
+          },
+          "highlight": [
+           "file:hamersley.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Mount Meharry",
+            "lon": 118.59,
+            "lat": -22.98,
+            "kind": "site",
+            "label": "Mount Meharry, 1,249 m"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "reaches only about twelve",
+       "stat": {
+        "value": "1,249 M",
+        "label": "Mount Meharry, highest point of Western Australia",
+        "source": "Geoscience Australia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and it sits far",
+       "photo": "File:Karijini National Park (2052475590).jpg",
+       "on_screen_text": "Hamersley Range"
+      }
+     ]
+    },
+    {
+     "text": "The ocean should help. Off most desert coasts, like Chile and Namibia, cold water wells up from the deep and keeps the air cool and dry. Off Western Australia, something unusual happens. A warm current, the Leeuwin Current, flows south from the tropics, along the coast. Scientists describe it as the only current of its kind in the world, an eastern boundary current that carries tropical heat towards the pole.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Huge Dunes at Skeleton Coast (37714628376).jpg",
+       "on_screen_text": "Skeleton Coast, Namibia"
+      },
+      {
+       "type": "photo",
+       "at": "cold water wells up",
+       "photo": "File:Namibie Skeleton Coast 01.JPG",
+       "on_screen_text": "Skeleton Coast, Namibia"
+      },
+      {
+       "type": "map",
+       "at": "Off Western Australia, something",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.65,
+           "lat": -25.84,
+           "span": 18.7
+          }
+         },
+         {
+          "at": "the Leeuwin Current, flows",
+          "arrows": [
+           {
+            "from": [
+             113.2,
+             -21.5
+            ],
+            "to": [
+             113.6,
+             -28.0
+            ],
+            "color": "red",
+            "label": "Leeuwin Current",
+            "bend": 0.08
+           },
+           {
+            "from": [
+             113.6,
+             -28.0
+            ],
+            "to": [
+             115.0,
+             -34.6
+            ],
+            "color": "red",
+            "bend": 0.1
+           }
+          ],
+          "view": {
+           "lon": 115.65,
+           "lat": -29.136,
+           "span": 43.082
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Scientists describe it as",
+       "photo": "File:Exmouth, Australia (Unsplash SiLz-4N33sk).jpg",
+       "on_screen_text": "Ningaloo, off Exmouth"
+      },
+      {
+       "type": "photo",
+       "at": "an eastern boundary current",
+       "photo": "File:Ningaloo Coast and Lake Macleod, Western Australia (MODIS 2021-10-01).jpg",
+       "on_screen_text": "The Ningaloo coast from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "carries tropical heat towards",
+       "photo": "File:CapeLeeuwinLighthouse gobeirne.jpg",
+       "on_screen_text": "Cape Leeuwin"
+      }
+     ]
+    },
+    {
+     "text": "The water off this coast is four to six degrees warmer than off other desert coasts at the same latitude. That warmth gives Perth and the south-west their mild, wetter winters. It feeds coral reefs far further south than usual. But it cannot fight the wind. North of Perth, the warm sea sits beside a dry shore.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Monkey Mia from the water - panoramio.jpg",
+       "on_screen_text": "Shark Bay"
+      },
+      {
+       "type": "stat",
+       "at": "four to six degrees",
+       "stat": {
+        "value": "+4-6 °C",
+        "label": "Sea off Western Australia, against other desert coasts at its latitude",
+        "source": "CSIRO"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That warmth gives Perth",
+       "photo": "File:AUS Perth, Cottesloe, Cottesloe Beach 002.jpg",
+       "on_screen_text": "Cottesloe, Perth"
+      },
+      {
+       "type": "photo",
+       "at": "It feeds coral reefs",
+       "photo": "File:Exmouth, Australia (Unsplash hIyWlsCKjkQ).jpg",
+       "on_screen_text": "Ningaloo Reef"
+      },
+      {
+       "type": "map",
+       "at": "North of Perth, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 114.1,
+           "lat": -22.1,
+           "span": 0.45
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North West Cape"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rivers That Hide",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason two. Without rain, there are no great rivers. The east coast has rivers that run all year. Most rivers in the west run only after a storm, and then vanish.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.477,
+           "lat": -26.074,
+           "span": 33.647
+          },
+          "highlight": [
+           "file:dry_coast.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Carnarvon",
+            "lon": 113.66,
+            "lat": -24.88,
+            "kind": "city",
+            "label": "Carnarvon"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The east coast has",
+       "photo": "File:AUS Brisbane, Central Business District, Merivale Bridge 002.jpg",
+       "on_screen_text": "The Brisbane River"
+      },
+      {
+       "type": "photo",
+       "at": "Most rivers in the",
+       "photo": "File:Gascoyne River Crossing - panoramio.jpg",
+       "on_screen_text": "Gascoyne River crossing"
+      }
+     ]
+    },
+    {
+     "text": "The Gascoyne, which reaches the sea at Carnarvon, is the longest river in Western Australia. For most of the year its bed is dry sand. Locals call it the upside-down river, because its water is still there, flowing underneath, in the sand and gravel below the dry bed.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.68,
+           "lat": -24.87,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 7,
+          "view": {
+           "lon": 113.68,
+           "lat": -24.87,
+           "span": 0.124
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gascoyne reaches the sea at Carnarvon"
+      },
+      {
+       "type": "photo",
+       "at": "For most of the",
+       "photo": "File:Dry Gascoyne River Bed - panoramio.jpg",
+       "on_screen_text": "The dry bed of the Gascoyne"
+      },
+      {
+       "type": "photo",
+       "at": "Locals call it the",
+       "photo": "File:Rocky Pool - Gascoyne River - panoramio.jpg",
+       "on_screen_text": "Rocky Pool, Gascoyne River"
+      },
+      {
+       "type": "map",
+       "at": "in the sand and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.78,
+           "lat": -24.86,
+           "span": 0.1
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dry bed of the Gascoyne"
+      }
+     ]
+    },
+    {
+     "text": "That hidden water is the only fresh water Carnarvon has. Since about the nineteen twenties, farmers have pumped it to grow bananas, tomatoes and other crops, and Carnarvon became a major supplier of fresh fruit and vegetables for Perth. In the nineteen sixties, so many wells pulled so much water that the groundwater fell, and many of the plantations failed. Since then the state has limited how much anyone can pump.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Bathing in the big tank on Perret's plantation, Carnarvon (full).png",
+       "on_screen_text": "A plantation water tank, Carnarvon, about 1930"
+      },
+      {
+       "type": "map",
+       "at": "Since about the nineteen",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.74,
+           "lat": -24.86,
+           "span": 0.14
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": 113.74,
+           "lat": -24.86,
+           "span": 0.087
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Plantations along the Gascoyne"
+      },
+      {
+       "type": "photo",
+       "at": "and Carnarvon became a",
+       "photo": "File:Kybra alongside jetty slwa b2392712 1.png",
+       "on_screen_text": "MV Kybra at Carnarvon jetty, 1930s"
+      },
+      {
+       "type": "stat",
+       "at": "In the nineteen sixties,",
+       "stat": {
+        "value": "1960s",
+        "label": "Limits on pumping after the plantations failed",
+        "source": "WA Government, Lower Gascoyne"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and many of the",
+       "photo": "File:Street in Carnarvon.png",
+       "on_screen_text": "Carnarvon, about 1920"
+      },
+      {
+       "type": "photo",
+       "at": "Since then the state",
+       "photo": "File:Shark Bay, Australia (Unsplash).jpg",
+       "on_screen_text": "Near Carnarvon"
+      }
+     ]
+    },
+    {
+     "text": "Shark Bay, just south of Carnarvon, shows how harsh this water can be. In a shallow arm of the bay called Hamelin Pool, the sea is about twice as salty as normal. Few of the animals that graze on microbes can live in it. So on its floor, mats of microbes build rocky mounds called stromatolites, the same kind of structures that fossils show on Earth billions of years ago. They survive here because the animals that would eat them cannot. Shark Bay became a World Heritage area in nineteen ninety-one.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.9,
+           "lat": -25.745,
+           "span": 4.877
+          },
+          "places": [
+           {
+            "name": "Hamelin Pool",
+            "lon": 114.2,
+            "lat": -26.4,
+            "kind": "site",
+            "label": "Hamelin Pool"
+           },
+           {
+            "name": "Carnarvon",
+            "lon": 113.66,
+            "lat": -24.88,
+            "kind": "city",
+            "label": "Carnarvon"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In a shallow arm",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 114.2,
+           "lat": -26.4,
+           "span": 0.25
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hamelin Pool"
+      },
+      {
+       "type": "stat",
+       "at": "the sea is about",
+       "stat": {
+        "value": "2×",
+        "label": "Salt in Hamelin Pool, against normal seawater",
+        "source": "DBCA, Shark Bay World Heritage"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Few of the animals",
+       "photo": "File:Hamelin Pool (39922169782).jpg",
+       "on_screen_text": "Stromatolites, Hamelin Pool"
+      },
+      {
+       "type": "photo",
+       "at": "So on its floor,",
+       "photo": "File:Hamelin Pool (26081546618).jpg",
+       "on_screen_text": "Hamelin Pool"
+      },
+      {
+       "type": "photo",
+       "at": "the same kind of",
+       "photo": "File:Hamelin Pool (Stromatolites) (2051681949).jpg",
+       "on_screen_text": "Stromatolites, Hamelin Pool"
+      },
+      {
+       "type": "photo",
+       "at": "They survive here because",
+       "photo": "File:Hamelin Pool (Stromatolites) (2051681681).jpg",
+       "on_screen_text": "Hamelin Pool"
+      },
+      {
+       "type": "stat",
+       "at": "Shark Bay became a",
+       "stat": {
+        "value": "1991",
+        "label": "Shark Bay on the World Heritage List",
+        "source": "UNESCO"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One small town, living on one hidden river, under strict limits. That is roughly the most this land can carry without help. And for a long time, the outsiders who saw it decided it could not carry anything at all.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Shelly Beach - panoramio - Halooch (1).jpg",
+       "on_screen_text": "Shell Beach, Shark Bay"
+      },
+      {
+       "type": "photo",
+       "at": "That is roughly the",
+       "photo": "File:Monkey Mia (2052469310).jpg",
+       "on_screen_text": "Peron Peninsula, Shark Bay"
+      },
+      {
+       "type": "photo",
+       "at": "And for a long",
+       "photo": "File:Admiralty Chart No 1056 West Coast of Australia. Sheet VIII, Published 1835.jpg",
+       "on_screen_text": "The west coast on an Admiralty chart, 1835"
+      },
+      {
+       "type": "photo",
+       "at": "decided it could not",
+       "photo": "File:In the Kalbarri National Park (15002665629).jpg",
+       "on_screen_text": "Kalbarri"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ships That Kept Going",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. Europeans found this coast early, and they did not like what they found. The first Europeans known to have landed on the west coast were Dutch. Their ships sailed from the Cape of Good Hope on the strong westerly winds of the Southern Ocean, then turned north towards the spice islands of the East Indies. Turn too late, and you hit Australia.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 87.0,
+           "lat": -25.368,
+           "span": 112.702
+          },
+          "highlight": [
+           "Western Australia@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The first Europeans known",
+       "photo": "File:De BATAVIA voor de film onderweg als de NIEUW HOORN (01).jpg",
+       "on_screen_text": "A Dutch East India ship (replica)"
+      },
+      {
+       "type": "map",
+       "at": "Their ships sailed from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 56.46,
+           "lat": -24.179,
+           "span": 101.941
+          },
+          "places": [
+           {
+            "name": "Cape of Good Hope",
+            "lon": 18.47,
+            "lat": -34.36,
+            "kind": "port",
+            "label": "Cape of Good Hope"
+           }
+          ]
+         },
+         {
+          "at": "on the strong westerly",
+          "routes": [
+           {
+            "from": [
+             18.47,
+             -34.36
+            ],
+            "via": [
+             [
+              45.0,
+              -38.5
+             ],
+             [
+              80.0,
+              -38.5
+             ],
+             [
+              104.0,
+              -36.0
+             ],
+             [
+              107.0,
+              -20.0
+             ]
+            ],
+            "to": [
+             106.82,
+             -6.13
+            ],
+            "mode": "line",
+            "label": "The Dutch route to Java",
+            "color": "accent",
+            "seconds": 4.5
+           }
+          ],
+          "view": {
+           "lon": 62.735,
+           "lat": -25.821,
+           "span": 118.78
+          }
+         },
+         {
+          "at": "then turned north towards",
+          "places": [
+           {
+            "name": "Batavia (Jakarta)",
+            "lon": 106.82,
+            "lat": -6.13,
+            "kind": "port",
+            "label": "Batavia (Jakarta)"
+           }
+          ]
+         },
+         {
+          "at": "Turn too late, and",
+          "arrows": [
+           {
+            "from": [
+             104.0,
+             -36.0
+            ],
+            "to": [
+             113.3,
+             -28.5
+            ],
+            "color": "red",
+            "label": "Turn too late",
+            "bend": -0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In October sixteen sixteen, a Dutch captain named Dirk Hartog did exactly that. He landed on an island at the edge of Shark Bay, nailed a flattened pewter plate to a post, and scratched a record of his visit onto it. It is the oldest European object known from Australia. Then he sailed on. There was no water, no trade and no reason to stay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 114.06,
+           "lat": -25.836,
+           "span": 2.88
+          },
+          "places": [
+           {
+            "name": "Dirk Hartog Island",
+            "lon": 113.05,
+            "lat": -25.6,
+            "kind": "site",
+            "label": "Dirk Hartog Island, 1616"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "He landed on an",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.17,
+           "lat": -25.62,
+           "span": 0.35
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Dirk Hartog Island"
+      },
+      {
+       "type": "photo",
+       "at": "nailed a flattened pewter",
+       "photo": "File:Drik hartog's plate, 1616 and vlaming's plate, 1697 - cyclopedia of western australia.jpg",
+       "on_screen_text": "Hartog's plate (1616) and Vlamingh's plate (1697)"
+      },
+      {
+       "type": "stat",
+       "at": "It is the oldest",
+       "stat": {
+        "value": "1616",
+        "label": "Hartog's plate: the oldest European object known from Australia",
+        "source": "WA Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Then he sailed on.",
+       "photo": "File:- panoramio - Halooch.jpg",
+       "on_screen_text": "Shark Bay coast"
+      }
+     ]
+    },
+    {
+     "text": "Eighty years later, another Dutch captain, Willem de Vlamingh, came looking for a lost ship. On the same island he found Hartog's plate, its post almost rotted away. He put up a new plate in its place and took the old one with him. It ended up in Amsterdam, where it is still on display in the Rijksmuseum. Two visits, eighty years apart, and in between no European had settled anywhere on this coast.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:ISS006-E-35196 - View of Western Australia.jpg",
+       "on_screen_text": "Shark Bay from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "On the same island",
+       "photo": "File:ISS014-E-18727 - View of Western Australia.jpg",
+       "on_screen_text": "Shark Bay from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "He put up a",
+       "stat": {
+        "value": "1697",
+        "label": "Vlamingh replaces Hartog's plate and takes the original",
+        "source": "WA Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It ended up in",
+       "photo": "File:Rijksmuseum (tram cables digitally removed) (5821431193).jpg",
+       "on_screen_text": "The Rijksmuseum, Amsterdam"
+      },
+      {
+       "type": "photo",
+       "at": "Two visits, eighty years",
+       "photo": "File:In the Kalbarri National Park (15003540857).jpg",
+       "on_screen_text": "The coast south of Shark Bay"
+      }
+     ]
+    },
+    {
+     "text": "Thirteen years later, the coast showed what it could do to a ship. On the fourth of June sixteen twenty-nine, the Batavia, one of the Dutch East India Company's newest ships, struck a reef in the Houtman Abrolhos, a chain of low islands off today's Geraldton. Most of the people aboard made it onto bare coral islands with almost no fresh water.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 114.4,
+           "lat": -28.6,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Houtman Abrolhos",
+            "lon": 113.8,
+            "lat": -28.6,
+            "kind": "site",
+            "label": "Houtman Abrolhos",
+            "icon": "warning"
+           },
+           {
+            "name": "Geraldton",
+            "lon": 114.61,
+            "lat": -28.78,
+            "kind": "city",
+            "label": "Geraldton"
+           }
+          ]
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 114.4,
+           "lat": -28.6,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "one of the Dutch",
+       "photo": "File:De BATAVIA voor de film onderweg als de NIEUW HOORN (03).jpg",
+       "on_screen_text": "A replica of the Batavia"
+      },
+      {
+       "type": "map",
+       "at": "struck a reef in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 113.8,
+           "lat": -28.47,
+           "span": 0.15
+          },
+          "date": "2024-10-01/2025-05-31"
+         },
+         {
+          "at": 38,
+          "view": {
+           "lon": 113.8,
+           "lat": -28.47,
+           "span": 0.093
+          },
+          "date": "2024-10-01/2025-05-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wallabi Group, Houtman Abrolhos"
+      },
+      {
+       "type": "photo",
+       "at": "Most of the people",
+       "photo": "File:Batavia Pl.1 State Library of New South Wales FL3726277.jpg",
+       "on_screen_text": "The wreck, from Pelsaert's journal (1647)"
+      }
+     ]
+    },
+    {
+     "text": "The commander, Francisco Pelsaert, took a small boat north to the Dutch base in Java for help. While he was gone, a group of mutineers led by a company merchant named Jeronimus Cornelisz took control of the survivors. According to the Western Australian Museum, they killed about a hundred and twenty-five men, women and children. When Pelsaert returned with a rescue ship, the ringleaders were tried and executed on the islands. Almost four hundred years later, archaeologists digging on Beacon Island, where most of the killings happened, are still finding the graves of the victims. Two young mutineers were put ashore on the mainland instead. What happened to them is unknown. The wreck itself was found again in nineteen sixty-three, and part of its hull now stands in the Shipwreck Galleries in Fremantle, a short drive from Perth.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Batavia Pl.2 State Library of New South Wales FL3726280.jpg",
+       "on_screen_text": "From Pelsaert's journal (1647)"
+      },
+      {
+       "type": "photo",
+       "at": "While he was gone,",
+       "photo": "File:Batavia Pl.5 State Library of New South Wales FL3726286.jpg",
+       "on_screen_text": "From Pelsaert's journal (1647)"
+      },
+      {
+       "type": "photo",
+       "at": "took control of the",
+       "photo": "File:Batavia Pl.3 State Library of New South Wales M DSM C530.jpg",
+       "on_screen_text": "From Pelsaert's journal (1647)"
+      },
+      {
+       "type": "stat",
+       "at": "According to the Western",
+       "stat": {
+        "value": "~125",
+        "label": "Men, women and children killed by the mutineers",
+        "source": "WA Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "When Pelsaert returned with",
+       "photo": "File:Batavia Pl.6 State Library of New South Wales FL3726288.jpg",
+       "on_screen_text": "The trial and executions (1647)"
+      },
+      {
+       "type": "photo",
+       "at": "Almost four hundred years",
+       "photo": "File:STS107-E-5578 - View of Western Australia.jpg",
+       "on_screen_text": "The Abrolhos from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "where most of the",
+       "photo": "File:STS107-E-5575 - View of Western Australia.jpg",
+       "on_screen_text": "The Abrolhos from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Two young mutineers were",
+       "photo": "File:In the Kalbarri National Park (15167082876).jpg",
+       "on_screen_text": "The mainland opposite the Abrolhos"
+      },
+      {
+       "type": "photo",
+       "at": "The wreck itself was",
+       "photo": "File:WTF Marlene Oostryck Maritime Museum Batavia from above.jpg",
+       "on_screen_text": "Part of the Batavia's hull, Fremantle"
+      },
+      {
+       "type": "photo",
+       "at": "and part of its",
+       "photo": "File:WTF Marlene Oostryck Maritime Museum Batavia stern.jpg",
+       "on_screen_text": "WA Shipwreck Galleries, Fremantle"
+      },
+      {
+       "type": "map",
+       "at": "a short drive from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.75,
+           "lat": -32.05,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fremantle"
+      }
+     ]
+    },
+    {
+     "text": "The English came next. In sixteen eighty-eight, William Dampier landed on the north-west coast. In the account he published in sixteen ninety-seven, he described the soil as dry and sandy, with no water unless you dug wells. His bleak picture of the land stayed the common view for a long time.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Schrijver William Dampier in een kleine open prauw op reis naar Aceh (Indonesië), Caspar Luyken, Abraham de Hondt, 1698 - Rijksmuseum.jpg",
+       "on_screen_text": "William Dampier (print, 1698)"
+      },
+      {
+       "type": "photo",
+       "at": "In the account he",
+       "photo": "File:Map-dampier-roebuck-1699.jpg",
+       "on_screen_text": "Dampier's voyage of 1699, chart by Emanuel Bowen"
+      },
+      {
+       "type": "photo",
+       "at": "with no water unless",
+       "photo": "File:Moll - A map of the world shewing the course of Mr Dampiers voyage round it from 1679 to 1691.png",
+       "on_screen_text": "Map of Dampier's voyage round the world"
+      },
+      {
+       "type": "photo",
+       "at": "His bleak picture of",
+       "photo": "File:Low tide at Roebuck Bay, Broome, WA, Australia 01.jpg",
+       "on_screen_text": "Roebuck Bay, Broome"
+      }
+     ]
+    },
+    {
+     "text": "For more than two hundred years after Hartog, Europeans mapped this coast, wrecked ships on it, and sailed past it. Nobody stayed. When Britain finally did settle Australia, it chose the other side.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Admiralty Chart No 1723 The Houtman Rocks, Published 1845.jpg",
+       "on_screen_text": "The Houtman Rocks, Admiralty chart, 1845"
+      },
+      {
+       "type": "photo",
+       "at": "and sailed past it.",
+       "photo": "File:20140612 Batavia replica2 Lelystad.jpg",
+       "on_screen_text": "A Dutch East India ship (replica)"
+      },
+      {
+       "type": "map",
+       "at": "When Britain finally did",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 132.26,
+           "lat": -25.18,
+           "span": 68.44
+          },
+          "places": [
+           {
+            "name": "Sydney",
+            "lon": 151.21,
+            "lat": -33.87,
+            "kind": "city",
+            "label": "Sydney"
+           },
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Colony on Sand",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason four. When settlers finally came to the west, the land fought them too. In May eighteen twenty-nine, the Swan River Colony was founded where Perth stands today. Its founders had expected rich farmland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.394,
+           "lat": -32.149,
+           "span": 4.743
+          },
+          "highlight": [
+           "file:perth.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           },
+           {
+            "name": "Fremantle",
+            "lon": 115.75,
+            "lat": -32.05,
+            "kind": "site",
+            "label": "Fremantle"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In May eighteen twenty-nine,",
+       "stat": {
+        "value": "1829",
+        "label": "The Swan River Colony is founded",
+        "source": "Swan River Colony (via Wikipedia)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its founders had expected",
+       "photo": "File:View of Freemantle (Western Australia) From Church Hill E. of the Town.jpg",
+       "on_screen_text": "Fremantle, 1832"
+      }
+     ]
+    },
+    {
+     "text": "The soil turned out to be mostly sand. The good farmland was a narrow strip along the banks of the Swan and Canning rivers. Gardens failed. Twenty-one years after it was founded, the colony still had fewer than six thousand settlers.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.85,
+           "lat": -31.95,
+           "span": 0.6
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Swan River and the coastal plain"
+      },
+      {
+       "type": "photo",
+       "at": "The good farmland was",
+       "photo": "File:Perth, Australia, is split by the Swan River (iss074e0376130).jpg",
+       "on_screen_text": "The Swan River from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Gardens failed. Twenty-one years",
+       "photo": "File:Fremantle, 1832 from original sketch by r morrell - cyclopedia of western australia.jpg",
+       "on_screen_text": "Fremantle, 1832 (sketch)"
+      },
+      {
+       "type": "stat",
+       "at": "still had fewer than",
+       "stat": {
+        "value": "5,886",
+        "label": "Settlers in the colony, 1850",
+        "source": "Swan River Colony records (via Wikipedia)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "What changed things was gold, found far inland in the eighteen nineties. Thousands of miners rushed to Kalgoorlie and Coolgardie, into country with almost no water at all. So the colony did something huge. Its chief engineer, Charles Yelverton O'Connor, planned a steel pipeline to pump water from a dam in the hills near Perth all the way to the goldfields: five hundred and sixty-six kilometres, uphill, with eight pumping stations.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.8,
+           "lat": -31.3,
+           "span": 7.5
+          },
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           },
+           {
+            "name": "Kalgoorlie",
+            "lon": 121.47,
+            "lat": -30.75,
+            "kind": "city",
+            "label": "Kalgoorlie"
+           },
+           {
+            "name": "Coolgardie",
+            "lon": 121.17,
+            "lat": -30.95,
+            "kind": "site",
+            "label": "Coolgardie"
+           }
+          ]
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": 118.8,
+           "lat": -31.3,
+           "span": 6.375
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So the colony did",
+       "photo": "File:Porcelli with O'Connor statue.png",
+       "on_screen_text": "Pietro Porcelli at work on O'Connor's statue, about 1910"
+      },
+      {
+       "type": "map",
+       "at": "planned a steel pipeline",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.342,
+           "lat": -31.344,
+           "span": 5.856
+          },
+          "places": [
+           {
+            "name": "Mundaring Weir",
+            "lon": 116.16,
+            "lat": -31.95,
+            "kind": "site",
+            "label": "Mundaring Weir"
+           }
+          ]
+         },
+         {
+          "at": "all the way to",
+          "routes": [
+           {
+            "from": [
+             116.16,
+             -31.95
+            ],
+            "via": [
+             [
+              116.67,
+              -31.65
+             ],
+             [
+              118.28,
+              -31.48
+             ],
+             [
+              119.33,
+              -31.23
+             ]
+            ],
+            "to": [
+             121.47,
+             -30.75
+            ],
+            "mode": "line",
+            "label": "Goldfields pipeline, 566 km",
+            "color": "blue",
+            "seconds": 4.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Kalgoorlie",
+            "lon": 121.47,
+            "lat": -30.75,
+            "kind": "city",
+            "label": "Kalgoorlie"
+           }
+          ],
+          "view": {
+           "lon": 118.815,
+           "lat": -31.494,
+           "span": 7.124
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "five hundred and sixty-six",
+       "stat": {
+        "value": "566 KM",
+        "label": "Mundaring Weir to Kalgoorlie, eight pumping stations",
+        "source": "WA Government heritage record"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The water arrived in January nineteen-oh-three. O'Connor did not see it. He had taken his own life ten months earlier, after fierce attacks on him and the project in the press. His pipeline still runs today.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:2000 Mundaring Weir-04.jpg",
+       "on_screen_text": "Mundaring Weir"
+      },
+      {
+       "type": "photo",
+       "at": "O'Connor did not see",
+       "photo": "File:E37 Clackline Lion Park - Goldfields pipeline.JPG",
+       "on_screen_text": "The Goldfields pipeline at Clackline"
+      },
+      {
+       "type": "photo",
+       "at": "after fierce attacks on",
+       "photo": "File:CY O'Connor statue at sunset.jpg",
+       "on_screen_text": "O'Connor's statue"
+      },
+      {
+       "type": "photo",
+       "at": "His pipeline still runs",
+       "photo": "File:CSIRO ScienceImage 6380 Section of the Perth Kalgoorlie water supply pipeline near Merredin WA 1976.jpg",
+       "on_screen_text": "The pipeline near Merredin, 1976"
+      }
+     ]
+    },
+    {
+     "text": "That pipeline shows the pattern of the whole state. Wealth was found far from the coast. And the water to keep people there had to come from Perth. The city became the place everything else depended on.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 116.16,
+           "lat": -31.955,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-03-31"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 116.16,
+           "lat": -31.955,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mundaring Weir"
+      },
+      {
+       "type": "photo",
+       "at": "And the water to",
+       "photo": "File:Goldfields Pipeline SMC.JPG",
+       "on_screen_text": "The Goldfields pipeline"
+      },
+      {
+       "type": "photo",
+       "at": "The city became the",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 022.jpg",
+       "on_screen_text": "Perth"
+      }
+     ]
+    },
+    {
+     "text": "And the state kept pulling towards it. In nineteen eleven, about one in three Western Australians lived in Perth. By nineteen forty-seven it was one in two. Today it is eight in ten. Every decade, a larger share of the state moved to the one corner where the rain was reliable.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 019.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "chart",
+       "at": "In nineteen eleven, about",
+       "chart": {
+        "type": "bar",
+        "title": "People of WA living in Perth",
+        "unit": "%",
+        "data": [
+         [
+          "1911",
+          33
+         ],
+         [
+          "1947",
+          50
+         ],
+         [
+          "2024",
+          80
+         ]
+        ],
+        "source": "Engineers Australia; WA Population Statement 2025 (about one third in 1911)",
+        "highlight": 2,
+        "reveal": [
+         "By nineteen forty-seven it",
+         "Today it is eight"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Every decade, a larger",
+       "photo": "File:Perth skyline from the Swan River, August 2024.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "photo",
+       "at": "moved to the one",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 020.jpg",
+       "on_screen_text": "Perth"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Cyclone Coast",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason five. North of Perth, the coast is not just dry. It is dangerous. According to the Bureau of Meteorology, the north-west coast between Broome and Exmouth is Australia's most cyclone-prone stretch of coastline. Tropical cyclones cross it more often than anywhere else on the continent, mostly between December and April.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.0,
+           "lat": -20.3,
+           "span": 10.5
+          }
+         },
+         {
+          "at": "According to the Bureau",
+          "highlight": [
+           "file:cyclone_coast.geojson@red"
+          ],
+          "view": {
+           "lon": 118.123,
+           "lat": -20.635,
+           "span": 18.503
+          }
+         },
+         {
+          "at": "between Broome and Exmouth",
+          "places": [
+           {
+            "name": "Broome",
+            "lon": 122.24,
+            "lat": -17.96,
+            "kind": "city",
+            "label": "Broome"
+           },
+           {
+            "name": "Exmouth",
+            "lon": 114.13,
+            "lat": -21.93,
+            "kind": "site",
+            "label": "Exmouth"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Tropical cyclones cross it",
+       "photo": "File:Clouds above Exmouth WA.jpg",
+       "on_screen_text": "Exmouth"
+      },
+      {
+       "type": "stat",
+       "at": "else on the continent,",
+       "stat": {
+        "value": "DEC-APR",
+        "label": "Cyclone season on the north-west coast",
+        "source": "Bureau of Meteorology"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In March nineteen ninety-nine, Severe Tropical Cyclone Vance passed close to Exmouth. Just before midday on the twenty-second, the weather office at Learmonth, thirty-five kilometres to the south, recorded a gust of two hundred and sixty-seven kilometres an hour. The Bureau listed it as a record for the Australian mainland.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Vance 1999-03-21 0425Z.png",
+       "on_screen_text": "Cyclone Vance, 21 March 1999"
+      },
+      {
+       "type": "map",
+       "at": "Just before midday on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 114.09,
+           "lat": -22.24,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": 114.09,
+           "lat": -22.24,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Learmonth, south of Exmouth"
+      },
+      {
+       "type": "stat",
+       "at": "recorded a gust of",
+       "stat": {
+        "value": "267 KM/H",
+        "label": "Gust at Learmonth, 22 March 1999",
+        "source": "Bureau of Meteorology",
+        "note": "Listed by the Bureau as a mainland record"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Bureau listed it",
+       "photo": "File:Vance 1999 track.png",
+       "on_screen_text": "The track of Cyclone Vance"
+      }
+     ]
+    },
+    {
+     "text": "Inland, it is the heat. On the Bureau's original records, the Pilbara town of Marble Bar reached at least thirty-seven point eight degrees, a hundred degrees Fahrenheit, on one hundred and sixty days in a row, from the end of October nineteen twenty-three to April nineteen twenty-four.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:146 Nr Pt Hedland, July 1976 (51765181685).jpg",
+       "on_screen_text": "The Pilbara, 1976"
+      },
+      {
+       "type": "map",
+       "at": "the Pilbara town of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 119.74,
+           "lat": -21.17,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": 119.74,
+           "lat": -21.17,
+           "span": 0.08
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marble Bar"
+      },
+      {
+       "type": "stat",
+       "at": "on one hundred and",
+       "stat": {
+        "value": "160 DAYS",
+        "label": "In a row at 37.8 °C or more, Marble Bar, 1923-24",
+        "source": "Bureau of Meteorology (original records)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "from the end of",
+       "photo": "File:Karijini National Park (2051688725).jpg",
+       "on_screen_text": "The Pilbara"
+      }
+     ]
+    },
+    {
+     "text": "The sea itself has killed whole fleets here. In the early twentieth century, Broome, on the north-west coast, was a pearling town, and hundreds of small sailing boats called luggers worked the shallow banks offshore, many crewed by Japanese and Malay divers. In March nineteen thirty-five, a cyclone passed north of the town and caught the fleet at sea near the Lacepede Islands. Twenty-one luggers were lost. About a hundred and forty men drowned.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 122.23,
+           "lat": -17.96,
+           "span": 0.2
+          },
+          "date": "2025-06-01/2025-09-30"
+         },
+         {
+          "at": 11,
+          "view": {
+           "lon": 122.23,
+           "lat": -17.96,
+           "span": 0.124
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Broome"
+      },
+      {
+       "type": "photo",
+       "at": "and hundreds of small",
+       "photo": "File:Pearlingluggerpenguin.JPG",
+       "on_screen_text": "A pearling lugger (museum ship)"
+      },
+      {
+       "type": "photo",
+       "at": "many crewed by Japanese",
+       "photo": "File:Japanese Cemetery, Broome, WA, Australia 01.jpg",
+       "on_screen_text": "Japanese cemetery, Broome"
+      },
+      {
+       "type": "map",
+       "at": "In March nineteen thirty-five,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 122.4,
+           "lat": -17.481,
+           "span": 3.365
+          },
+          "places": [
+           {
+            "name": "Broome",
+            "lon": 122.24,
+            "lat": -17.96,
+            "kind": "city",
+            "label": "Broome"
+           },
+           {
+            "name": "Lacepede Islands",
+            "lon": 122.12,
+            "lat": -16.85,
+            "kind": "site",
+            "label": "Lacepede Islands",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 50,
+          "view": {
+           "lon": 122.4,
+           "lat": -17.6,
+           "span": 2.72
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "near the Lacepede Islands.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 122.12,
+           "lat": -16.85,
+           "span": 0.25
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Lacepede Islands"
+      },
+      {
+       "type": "stat",
+       "at": "Twenty-one luggers were lost.",
+       "stat": {
+        "value": "21 LUGGERS",
+        "label": "Lost in the cyclone of March 1935",
+        "source": "Bureau of Meteorology; Federal Cabinet report, April 1935",
+        "note": "About 140 men drowned"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Put those together, a dry coast, cyclones in summer and long runs of extreme heat, and you get a place where building a town is expensive and keeping people in it is harder. Yet some of the richest ground on Earth lies right here.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Japanese Cemetery Broome 1939 SLNSW FL18913679.jpg",
+       "on_screen_text": "Japanese cemetery, Broome, 1939"
+      },
+      {
+       "type": "photo",
+       "at": "you get a place",
+       "photo": "File:149c Pt Hedland, July 1976 (51764307101).jpg",
+       "on_screen_text": "Port Hedland, 1976"
+      },
+      {
+       "type": "photo",
+       "at": "Yet some of the",
+       "photo": "File:Banded iron formation Dales Gorge.jpg",
+       "on_screen_text": "Banded iron, Karijini"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rich, But No Cities",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason six. The west coast is rich, but its riches do not need cities. Inland from the cyclone coast lies the Pilbara, with some of the largest iron ore deposits in the world. In the year to June twenty twenty-five, the ports of the Pilbara shipped about seven hundred and thirty million tonnes of iron ore. The state says that is around forty-three percent of the world's seaborne trade in it, and about four fifths of Australia's.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.287,
+           "lat": -21.39,
+           "span": 5.886
+          },
+          "places": [
+           {
+            "name": "Port Hedland",
+            "lon": 118.6,
+            "lat": -20.31,
+            "kind": "port",
+            "label": "Port Hedland"
+           },
+           {
+            "name": "Dampier",
+            "lon": 116.71,
+            "lat": -20.66,
+            "kind": "port",
+            "label": "Dampier"
+           }
+          ]
+         },
+         {
+          "at": "Inland from the cyclone",
+          "highlight": [
+           "file:hamersley.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Tom Price",
+            "lon": 117.79,
+            "lat": -22.69,
+            "kind": "site",
+            "label": "Tom Price"
+           }
+          ],
+          "view": {
+           "lon": 117.904,
+           "lat": -21.993,
+           "span": 6.681
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "with some of the",
+       "photo": "File:Mount Newman Mining Co. - panoramio.jpg",
+       "on_screen_text": "An iron ore mine, Pilbara"
+      },
+      {
+       "type": "photo",
+       "at": "In the year to",
+       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350968938).jpg",
+       "on_screen_text": "Iron ore, Pilbara"
+      },
+      {
+       "type": "stat",
+       "at": "shipped about seven hundred",
+       "stat": {
+        "value": "730.8 MT",
+        "label": "Iron ore shipped from Pilbara ports, 2024-25",
+        "source": "Pilbara Ports (WA Government, July 2025)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The state says that",
+       "stat": {
+        "value": "~43 %",
+        "label": "Of the world's seaborne iron ore trade",
+        "source": "Pilbara Ports (WA Government, July 2025)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and about four fifths",
+       "photo": "File:CSIRO ScienceImage 11678 A Rio Tinto iron ore shiploader in operation in the Pilbara.jpg",
+       "on_screen_text": "Loading iron ore, Pilbara"
+      }
+     ]
+    },
+    {
+     "text": "Most of it leaves through one port. Port Hedland shipped almost five hundred and seventy-eight million tonnes, more than any other bulk export port in Australia. Yet the town around it, including South Hedland, had only about fifteen thousand people at the last census.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.59,
+           "lat": -20.31,
+           "span": 0.15
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Port Hedland"
+      },
+      {
+       "type": "stat",
+       "at": "Port Hedland shipped almost",
+       "stat": {
+        "value": "577.7 MT",
+        "label": "Iron ore through Port Hedland, 2024-25",
+        "source": "Pilbara Ports (WA Government, July 2025)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "more than any other",
+       "photo": "File:Port Headland - panoramio.jpg",
+       "on_screen_text": "Loading ore, Port Hedland"
+      },
+      {
+       "type": "photo",
+       "at": "Yet the town around",
+       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350969378).jpg",
+       "on_screen_text": "Port machinery, Pilbara"
+      },
+      {
+       "type": "stat",
+       "at": "had only about fifteen",
+       "stat": {
+        "value": "~15,300",
+        "label": "People in Port Hedland, incl. South Hedland, 2021",
+        "source": "ABS Census 2021"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The reason is simple. Mines here run on huge machines and long trains, not on large crowds of workers. Many workers do not live in the Pilbara at all. They fly in from Perth for a couple of weeks, work long shifts, and fly home. The money is made in the north. The families, the schools and the shops stay in Perth.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Iron train loading paraburdoo mine.jpg",
+       "on_screen_text": "An ore train loading, Paraburdoo"
+      },
+      {
+       "type": "photo",
+       "at": "not on large crowds",
+       "photo": "File:Mining operations paraburdoo mine.jpg",
+       "on_screen_text": "Paraburdoo mine"
+      },
+      {
+       "type": "photo",
+       "at": "Many workers do not",
+       "photo": "File:Mount Newman Mining Co. - panoramio - Seko Naotomo.jpg",
+       "on_screen_text": "An iron ore mine, Pilbara"
+      },
+      {
+       "type": "photo",
+       "at": "They fly in from",
+       "photo": "File:CG Gainer Pilbara Visit September 2020 (50351659681).jpg",
+       "on_screen_text": "Landing in the Pilbara"
+      },
+      {
+       "type": "map",
+       "at": "The money is made",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.62,
+           "lat": -20.36,
+           "span": 0.35
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Port Hedland and South Hedland"
+      },
+      {
+       "type": "photo",
+       "at": "The families, the schools",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 021.jpg",
+       "on_screen_text": "Perth"
+      }
+     ]
+    },
+    {
+     "text": "And sometimes a mining town does not just stay small. It disappears. In the gorges of the Pilbara, a town called Wittenoom grew up around a blue asbestos mine. The company closed the mine at the end of nineteen sixty-six, and the government later found the town itself was contaminated.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.325,
+           "lat": -21.91,
+           "span": 6.05
+          },
+          "places": [
+           {
+            "name": "Tom Price",
+            "lon": 117.79,
+            "lat": -22.69,
+            "kind": "site",
+            "label": "Tom Price"
+           }
+          ]
+         },
+         {
+          "at": "In the gorges of",
+          "highlight": [
+           "file:hamersley.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Wittenoom",
+            "lon": 118.34,
+            "lat": -22.24,
+            "kind": "site",
+            "label": "Wittenoom",
+            "icon": "warning"
+           }
+          ],
+          "view": {
+           "lon": 117.904,
+           "lat": -22.21,
+           "span": 5.115
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a town called Wittenoom",
+       "photo": "File:1966 WITTENOOM (3371782555).jpg",
+       "on_screen_text": "Wittenoom, 1966"
+      },
+      {
+       "type": "photo",
+       "at": "The company closed the",
+       "photo": "File:69-07 Centralian Tours 330 Wittenoom Gorge, Australia 1969 (51239610298).jpg",
+       "on_screen_text": "Wittenoom Gorge, 1969"
+      },
+      {
+       "type": "photo",
+       "at": "and the government later",
+       "photo": "File:Quonsett hut at wittenoom.jpg",
+       "on_screen_text": "Wittenoom"
+      }
+     ]
+    },
+    {
+     "text": "The state began winding Wittenoom down in nineteen seventy-eight. In two thousand and six it cut off the power. In two thousand and seven, the town was officially removed from the map. More than two thousand of the roughly twenty thousand people who worked or lived there have since died of asbestos diseases, according to health groups and the state. The last resident left in twenty twenty-two. About three million tonnes of mine waste still lie in the gorge, and the road signs warn visitors to stay away.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1978-2007",
+        "label": "Wittenoom wound down, its power cut (2006), then removed from the map",
+        "source": "WA Government"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In two thousand and",
+       "photo": "File:Deserted traffic island wittenoom.jpg",
+       "on_screen_text": "Wittenoom"
+      },
+      {
+       "type": "map",
+       "at": "the town was officially",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 118.34,
+           "lat": -22.25,
+           "span": 0.12
+          },
+          "date": "2025-06-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wittenoom today"
+      },
+      {
+       "type": "photo",
+       "at": "More than two thousand",
+       "photo": "File:Karijini National Park (2051689193).jpg",
+       "on_screen_text": "The Hamersley gorges"
+      },
+      {
+       "type": "stat",
+       "at": "of the roughly twenty",
+       "stat": {
+        "value": "2,000+",
+        "label": "Former workers and residents dead of asbestos diseases",
+        "source": "Asbestos Diseases Society; WA Government",
+        "note": "Of roughly 20,000"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "according to health groups",
+       "photo": "File:Karijini National Park (2052475590).jpg",
+       "on_screen_text": "Hamersley Range"
+      },
+      {
+       "type": "photo",
+       "at": "The last resident left",
+       "photo": "File:Dales Gorge, WA.jpg",
+       "on_screen_text": "Dales Gorge, Hamersley Range"
+      },
+      {
+       "type": "photo",
+       "at": "About three million tonnes",
+       "photo": "File:Asbestos tailings wittenoom gorge.jpg",
+       "on_screen_text": "Asbestos tailings, Wittenoom Gorge"
+      },
+      {
+       "type": "photo",
+       "at": "and the road signs",
+       "photo": "File:Joffre Gorge, Karijini National Park.jpg",
+       "on_screen_text": "Gorges of the Hamersley Range"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The One City Runs Dry",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason seven. Even the one city is under pressure, and from the same thing that emptied the rest of the coast: rain. Perth was built on wet winters, carried in from the Indian Ocean by storms from the south-west. The south-west corner is where those winter storms reach the coast most reliably, and that is exactly where the city grew. Its water came from dams in the hills east of the city.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 120.15,
+           "lat": -28.172,
+           "span": 29.223
+          },
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ]
+         },
+         {
+          "at": "and from the same",
+          "highlight": [
+           "file:perth.geojson@red"
+          ],
+          "view": {
+           "lon": 120.15,
+           "lat": -29.568,
+           "span": 24.867
+          }
+         },
+         {
+          "view": {
+           "lon": 106.4,
+           "lat": -36.037,
+           "span": 33.681
+          },
+          "arrows": [
+           {
+            "from": [
+             98.0,
+             -40.0
+            ],
+            "to": [
+             114.8,
+             -33.0
+            ],
+            "color": "blue",
+            "label": "Winter storms",
+            "bend": -0.12
+           }
+          ],
+          "at": "Perth was built on"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The south-west corner is",
+       "photo": "File:Sunset at Cape Leeuwin (January 2005).jpg",
+       "on_screen_text": "Cape Leeuwin"
+      },
+      {
+       "type": "photo",
+       "at": "and that is exactly",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 007.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "photo",
+       "at": "Its water came from",
+       "photo": "File:Serpentine Dam View.jpg",
+       "on_screen_text": "Serpentine Dam"
+      }
+     ]
+    },
+    {
+     "text": "Since the middle of the nineteen seventies, those winter storms have weakened. According to Perth's water utility, the Water Corporation, rainfall in the dam catchments has dropped by fifteen to twenty percent. But the flow of water into the dams has fallen by about eighty percent, because dry ground soaks up most of the rain before it can run off.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Canningdam spillway.jpg",
+       "on_screen_text": "Canning Dam"
+      },
+      {
+       "type": "photo",
+       "at": "According to Perth's water",
+       "photo": "File:Serpentine Dam Intake Tower.jpg",
+       "on_screen_text": "Serpentine Dam"
+      },
+      {
+       "type": "stat",
+       "at": "rainfall in the dam",
+       "stat": {
+        "value": "−15-20 %",
+        "label": "Rain in Perth's dam catchments since the mid-1970s",
+        "source": "Water Corporation"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "But the flow of",
+       "stat": {
+        "value": "−80 %",
+        "label": "Water flowing into Perth's dams",
+        "source": "Water Corporation"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "because dry ground soaks",
+       "photo": "File:2000 Mundaring Weir-08.jpg",
+       "on_screen_text": "Mundaring Weir"
+      }
+     ]
+    },
+    {
+     "text": "Before nineteen seventy-five, the dams received about four hundred and twenty billion litres a year. In the last decade, the average has been about seventy-five billion. This year, after a dry winter, the utility says little more than twelve and a half billion litres flowed in.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Water flowing into Perth's dams",
+        "unit": "billion litres a year",
+        "data": [
+         [
+          "Before 1975",
+          420
+         ],
+         [
+          "Last decade",
+          75
+         ],
+         [
+          "2026",
+          12.5
+         ]
+        ],
+        "source": "Water Corporation",
+        "highlight": 2,
+        "reveal": [
+         "In the last decade,",
+         "This year, after a"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "little more than twelve",
+       "photo": "File:Canningdam panorama2.jpg",
+       "on_screen_text": "Canning Dam"
+      }
+     ]
+    },
+    {
+     "text": "So Perth turned to the sea. It opened its first large desalination plant in two thousand and six, and a second one south of the city later. Together, the plants can now supply about half of Perth's drinking water. The southern plant alone provides, on average, about thirty percent. A third plant, at Alkimos, north of the city, is due to add about fifty billion litres a year from twenty twenty-eight.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.765,
+           "lat": -32.2,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-03-31"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 115.765,
+           "lat": -32.2,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kwinana desalination plant, 2006"
+      },
+      {
+       "type": "map",
+       "at": "and a second one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.71,
+           "lat": -33.15,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Southern Seawater plant, Binningup"
+      },
+      {
+       "type": "stat",
+       "at": "Together, the plants can",
+       "stat": {
+        "value": "~1/2",
+        "label": "Of Perth's drinking water made from the sea",
+        "source": "BoM National Water Account 2025"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The southern plant alone",
+       "stat": {
+        "value": "~30 %",
+        "label": "From the Southern Seawater plant, on average",
+        "source": "Water Corporation"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A third plant, at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.66,
+           "lat": -31.62,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Alkimos, north of Perth"
+      },
+      {
+       "type": "stat",
+       "at": "is due to add",
+       "stat": {
+        "value": "+50 GL",
+        "label": "A year from the Alkimos plant, from 2028",
+        "source": "Water Corporation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Perth has also been drawing down the water under its feet. In parts of the Gnangara Mound, the great body of groundwater north of the city, levels have fallen by up to ten metres since nineteen eighty. The state estimates about a thousand billion litres of stored water have been lost. So Perth now cleans its own wastewater to drinking standard and pumps it back underground, up to twenty-eight billion litres a year, to refill the aquifers for later.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.86,
+           "lat": -31.66,
+           "span": 0.3
+          },
+          "date": "2025-01-01/2025-03-31"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 115.86,
+           "lat": -31.66,
+           "span": 0.186
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gnangara, north of Perth"
+      },
+      {
+       "type": "stat",
+       "at": "levels have fallen by",
+       "stat": {
+        "value": "UP TO 10 M",
+        "label": "Fall in Gnangara groundwater levels since 1980",
+        "source": "WA Government"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The state estimates about",
+       "stat": {
+        "value": "~1,000 GL",
+        "label": "Groundwater storage lost",
+        "source": "WA Government"
+       }
+      },
+      {
+       "type": "map",
+       "at": "So Perth now cleans",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.77,
+           "lat": -31.79,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-03-31"
+         },
+         {
+          "at": 58,
+          "view": {
+           "lon": 115.77,
+           "lat": -31.79,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-03-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Craigie: recycled water pumped underground"
+      },
+      {
+       "type": "stat",
+       "at": "up to twenty-eight billion",
+       "stat": {
+        "value": "28 GL",
+        "label": "A year recharged into the aquifers",
+        "source": "Water Corporation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Think about what that means. The one city on Australia's west coast now makes a large share of its water from the ocean. The coast's only success story is fighting the same dry wind that kept the rest of the coast empty.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 002.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "photo",
+       "at": "now makes a large",
+       "photo": "File:Applecross viewed from Kings Park (cropped).jpg",
+       "on_screen_text": "Perth and the Swan River"
+      },
+      {
+       "type": "photo",
+       "at": "The coast's only success",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 023.jpg",
+       "on_screen_text": "Perth and the Swan River"
+      },
+      {
+       "type": "photo",
+       "at": "that kept the rest",
+       "photo": "File:Yardi Creek - Flickr - GregTheBusker.jpg",
+       "on_screen_text": "Yardie Creek, Cape Range"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why does the west coast have only one city? The wind comes from the land, not the sea. The rivers hide underground. The first Europeans who saw this coast sailed on, or wrecked on it. The soil was sand. The north is a cyclone coast. And the wealth that was found could be dug up and shipped out without building towns to hold it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 120.199,
+           "lat": -26.102,
+           "span": 44.792
+          },
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           },
+           {
+            "name": "Carnarvon",
+            "lon": 113.66,
+            "lat": -24.88,
+            "kind": "city",
+            "label": "Carnarvon"
+           },
+           {
+            "name": "Broome",
+            "lon": 122.24,
+            "lat": -17.96,
+            "kind": "city",
+            "label": "Broome"
+           }
+          ]
+         },
+         {
+          "at": "The wind comes from",
+          "arrows": [
+           {
+            "from": [
+             128.0,
+             -23.5
+            ],
+            "to": [
+             114.5,
+             -24.5
+            ],
+            "color": "red",
+            "label": "Arrives dry",
+            "bend": 0.05
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The rivers hide underground.",
+       "photo": "File:Gascoyne River Crossing - panoramio.jpg",
+       "on_screen_text": "The Gascoyne"
+      },
+      {
+       "type": "photo",
+       "at": "The first Europeans who",
+       "photo": "File:Batavia Pl.4 State Library of New South Wales FL3726284.jpg",
+       "on_screen_text": "From Pelsaert's journal (1647)"
+      },
+      {
+       "type": "photo",
+       "at": "The soil was sand.",
+       "photo": "File:Kalbarri (2051678983).jpg",
+       "on_screen_text": "Kalbarri"
+      },
+      {
+       "type": "photo",
+       "at": "The north is a",
+       "photo": "File:Vance 1999-03-21 0425Z.png",
+       "on_screen_text": "Cyclone Vance, 1999"
+      },
+      {
+       "type": "photo",
+       "at": "And the wealth that",
+       "photo": "File:Dampier Port panorama Nov06 SMC.jpg",
+       "on_screen_text": "Dampier port"
+      },
+      {
+       "type": "photo",
+       "at": "without building towns to",
+       "photo": "File:ISS045-E-3246 - View of Western Australia.jpg",
+       "on_screen_text": "Port Hedland from orbit"
+      }
+     ]
+    },
+    {
+     "text": "Perth survived because it had the one corner of mild, wet winters, and then because everything else in the state came to depend on it. Now even that corner is drying.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 014.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "photo",
+       "at": "and then because everything",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 009.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "photo",
+       "at": "Now even that corner",
+       "photo": "File:Mundaring Weir - April 2025.jpg",
+       "on_screen_text": "Mundaring Weir, April 2025"
+      }
+     ]
+    },
+    {
+     "text": "Some Australians argue the country should build up the north and west, with new ports, new towns and new water. Others say the coast is empty for good reasons, and that the money is better spent where people already live.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Exmouth WA ex US Base.JPG",
+       "on_screen_text": "Exmouth"
+      },
+      {
+       "type": "photo",
+       "at": "with new ports, new",
+       "photo": "File:CG Gainer Pilbara Visit September 2020 (50350968938).jpg",
+       "on_screen_text": "Iron ore, Pilbara"
+      },
+      {
+       "type": "photo",
+       "at": "Others say the coast",
+       "photo": "File:Australia exmouth yardie creek gorge.jpg",
+       "on_screen_text": "Yardie Creek, Cape Range"
+      },
+      {
+       "type": "photo",
+       "at": "that the money is",
+       "photo": "File:AUS Perth, Cottesloe, Cottesloe Beach 011.jpg",
+       "on_screen_text": "Cottesloe, Perth"
+      }
+     ]
+    },
+    {
+     "text": "Whichever way that argument goes, the west coast will keep its shape for a long time. The wind will still come off the land. The rivers will still hide. And the one city on that long, dark coast will keep doing what it has done for almost two hundred years: finding water where the sky will not give it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Karijini National Park (2052472982).jpg",
+       "on_screen_text": "Karijini"
+      },
+      {
+       "type": "photo",
+       "at": "The wind will still",
+       "photo": "File:Karijini National Park (2052473138).jpg",
+       "on_screen_text": "Karijini"
+      },
+      {
+       "type": "photo",
+       "at": "And the one city",
+       "photo": "File:Dusk at Cable Beach, Broome, WA, Australia 04.jpg",
+       "on_screen_text": "Cable Beach, Broome"
+      },
+      {
+       "type": "photo",
+       "at": "what it has done",
+       "photo": "File:AUS Perth, Central Business District, Kings Park, View 022.jpg",
+       "on_screen_text": "Perth"
+      },
+      {
+       "type": "map",
+       "at": "finding water where the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 120.69,
+           "lat": -27.394,
+           "span": 35.106
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Should Australia try to build a second big city on its west coast, or leave it as it is? Tell me what you think.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 115.99,
+           "lat": -24.064,
+           "span": 20.659
+          },
+          "places": [
+           {
+            "name": "Carnarvon",
+            "lon": 113.66,
+            "lat": -24.88,
+            "kind": "city",
+            "label": "Carnarvon"
+           },
+           {
+            "name": "Port Hedland",
+            "lon": 118.6,
+            "lat": -20.31,
+            "kind": "port",
+            "label": "Port Hedland"
+           }
+          ]
+         },
+         {
+          "at": "or leave it as",
+          "places": [
+           {
+            "name": "Perth",
+            "lon": 115.86,
+            "lat": -31.95,
+            "kind": "city",
+            "label": "Perth"
+           }
+          ],
+          "view": {
+           "lon": 115.99,
+           "lat": -27.727,
+           "span": 32.589
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Should Australia try to",
+      "text": "A second big city on the west coast, or leave it as it is?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Australia's West Coast Has Only One City",
+  "title_candidates": [
+   "Why Australia's West Coast Has Only One City",
+   "Why Almost Nobody Lives on Australia's West Coast",
+   "Why Perth Is the Only City on Australia's West Coast"
+  ],
+  "description": "Western Australia has nearly 13,000 km of mainland coast, yet eight in ten Western Australians live in one city, Perth. Carnarvon sits almost as far from the equator as Brisbane and gets less than a quarter of its rain. We follow the answer from orbit: the wind that blows the wrong way, the Leeuwin Current, the upside-down Gascoyne River and Shark Bay's stromatolites, Dirk Hartog's plate and the Batavia massacre, the Swan River Colony and C. Y. O'Connor's pipeline, Cyclone Vance and the Broome pearling fleet, Port Hedland's iron ore and the erased town of Wittenoom, and the city that now makes its water from the sea.",
+  "tags": [
+   "Western Australia",
+   "Australia",
+   "Perth",
+   "west coast",
+   "Carnarvon",
+   "Shark Bay",
+   "Batavia",
+   "Houtman Abrolhos",
+   "Port Hedland",
+   "Pilbara",
+   "Wittenoom",
+   "Cyclone Vance",
+   "Broome",
+   "desalination",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Should Australia try to build a second big city on its west coast, or leave it as it is?"
+ }
+}

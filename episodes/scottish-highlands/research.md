@@ -90,3 +90,7 @@ Title: "Why Almost Nobody Lives in the Scottish Highlands" (48 chars). Cover: br
   Aberdeen and Inverness north of the Highland Boundary Fault. Vestland ~658k / 33,871 km2 = 19.4 per km2.
   2.57 M acres = 10,400 km2 = 13 % of Scotland's 78,800 km2 ("roughly an eighth"). Scotland 1861 3,062,294 -> 1971
   5,228,965 = +71 % (CHECK NRS). Flow Country ~400,000 ha blanket bog (theflowcountry.org.uk).
+- V (isleofeigg.org/eigg-electric): Eigg's island grid switched on 1 Feb 2008 (hydro ~110 kW, wind, solar), run by Eigg Electric
+  (subsidiary of the Isle of Eigg Heritage Trust). Narration corrected: "In two thousand and eight" (not "within a few years").
+- FIX in narration during factcheck: deer forest growth 1883-91 is +30 % ("nearly a third", not "a quarter"); Bergen = biggest
+  city of Vestland (administrative centre), not "capital".

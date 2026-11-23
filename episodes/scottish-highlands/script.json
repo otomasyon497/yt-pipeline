@@ -1,0 +1,3213 @@
+{
+ "title": "Why Almost Nobody Lives in the Scottish Highlands",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/scottish-highlands/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Highland Boundary Fault and emigration routes drawn through main points (approximate)",
+  "Vestland outline: Natural Earth (Hordaland + Sogn og Fjordane)"
+ ],
+ "thumbnail": {
+  "text": "EMPTIER THAN NORWAY"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Look at the north of Scotland on a map. The Highland council area alone is bigger than Wales, about twenty-five and a half thousand square kilometres of mountains, glens and sea lochs. About two hundred and thirty-five thousand people live there. That is roughly nine people for every square kilometre. Among Scotland's council areas, only the Western Isles are emptier.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.742,
+           "lat": 57.455,
+           "span": 11.769
+          },
+          "highlight": [
+           "Highland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Highland council area",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.901,
+           "lat": 57.455,
+           "span": 11.769
+          },
+          "highlight": [
+           "Highland@red"
+          ],
+          "places": [
+           {
+            "name": "Inverness",
+            "lon": -4.22,
+            "lat": 57.48,
+            "kind": "city",
+            "label": "Inverness"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "twenty-five and a half",
+       "photo": "File:Torridon panoramic view June 2024.jpg",
+       "on_screen_text": "Torridon, Wester Ross"
+      },
+      {
+       "type": "stat",
+       "at": "About two hundred and",
+       "stat": {
+        "value": "~235,000",
+        "label": "People in the Highland council area",
+        "source": "National Records of Scotland, Census 2022",
+        "note": "On about 25,650 square kilometres"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That is roughly nine",
+       "photo": "File:Suilven from the North West1.JPG",
+       "on_screen_text": "Suilven, Assynt"
+      },
+      {
+       "type": "stat",
+       "at": "Among Scotland's council areas,",
+       "stat": {
+        "value": "9 / KM²",
+        "label": "People per square kilometre, Highland, 2022",
+        "source": "National Records of Scotland, Census 2022"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Now cross the North Sea to the west coast of Norway. The county of Vestland is somewhat larger, and it is made of the same ancient rock. It faces the same Atlantic storms. In fact, Bergen, its biggest city, gets almost twice as much rain as the Great Glen. Yet Vestland has more than six hundred thousand people, about twice as many to every square kilometre, and Bergen alone is home to close to three hundred thousand.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 0.762,
+           "lat": 59.086,
+           "span": 32.526
+          },
+          "highlight": [
+           "Highland@red",
+           "file:vestland.geojson@red"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -2.0,
+             58.0
+            ],
+            "to": [
+             4.6,
+             60.3
+            ],
+            "color": "alt",
+            "label": "Across the North Sea",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The county of Vestland",
+       "photo": "File:Nærøyfjord - 49522345691.jpg",
+       "on_screen_text": "Nærøyfjord, Vestland"
+      },
+      {
+       "type": "map",
+       "at": "It faces the same",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.154,
+           "lat": 60.69,
+           "span": 16.236
+          },
+          "highlight": [
+           "file:vestland.geojson@alt"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -2.0,
+             61.5
+            ],
+            "to": [
+             4.9,
+             60.9
+            ],
+            "color": "blue",
+            "label": "The same storms",
+            "bend": -0.1
+           }
+          ],
+          "places": [
+           {
+            "name": "Bergen",
+            "lon": 5.32,
+            "lat": 60.39,
+            "kind": "city",
+            "label": "Bergen"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In fact, Bergen, its",
+       "photo": "File:Bergen in the morning in june.JPG",
+       "on_screen_text": "Bergen"
+      },
+      {
+       "type": "stat",
+       "at": "Yet Vestland has more",
+       "stat": {
+        "value": "~650,000",
+        "label": "People in Vestland, Norway",
+        "source": "Statistics Norway (via citypopulation.de)",
+        "note": "On about 33,900 square kilometres"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and Bergen alone is",
+       "photo": "File:Bryggen - 5003 Bergen Norway.jpg",
+       "on_screen_text": "Bryggen, Bergen"
+      }
+     ]
+    },
+    {
+     "text": "Put the two side by side and the gap is hard to miss. Vestland has about nineteen people for every square kilometre. The Highlands have nine. Both coasts are wet, steep and cut by long arms of the sea. One filled up. The other emptied.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Hardangerfjorden from krokavatn 2.jpg",
+       "on_screen_text": "Hardangerfjord, Vestland"
+      },
+      {
+       "type": "chart",
+       "at": "Vestland has about nineteen",
+       "chart": {
+        "type": "bar",
+        "title": "People per km²",
+        "unit": "people / km²",
+        "data": [
+         [
+          "Vestland",
+          19
+         ],
+         [
+          "Highland",
+          9
+         ]
+        ],
+        "source": "SSB; NRS (own division)",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Both coasts are wet,",
+       "photo": "File:Sognefjord-Norway-April-2011.jpg",
+       "on_screen_text": "Sognefjord, Vestland"
+      },
+      {
+       "type": "photo",
+       "at": "cut by long arms",
+       "photo": "File:Loch Assynt - Ardvreck Castle.JPG",
+       "on_screen_text": "Loch Assynt, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "The other emptied.",
+       "photo": "File:Ruined Shielings - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Ruined shielings, Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "And here is the strangest part. The Highlands were not always empty. In eighteen sixty-one, the same area held more people than it does today. About a century later, more than a third of them were gone.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Foinaven - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Foinaven, Sutherland"
+      },
+      {
+       "type": "stat",
+       "at": "In eighteen sixty-one, the",
+       "stat": {
+        "value": "253,534",
+        "label": "People in the Highland area, 1861",
+        "source": "Census tables on today's boundaries (A Vision of Britain)",
+        "note": "Today: about 235,000"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "About a century later,",
+       "stat": {
+        "value": "161,631",
+        "label": "People in the same area, 1971",
+        "source": "Census tables on today's boundaries (A Vision of Britain)",
+        "note": "More than a third fewer than in 1861"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So why did two coasts that look almost the same end up so different? The answer runs through rock and ice, through a battle on a moor near Inverness, through sheep and potatoes and ships, through hunting estates the size of small countries, and through a question that Scotland is still arguing about today. And it ends with a question for you.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53718314137.jpg",
+       "on_screen_text": "The Quiraing, Skye"
+      },
+      {
+       "type": "photo",
+       "at": "The answer runs through",
+       "photo": "File:The Three Sisters Valley, Glencoe, Scotland - 53744377929.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "through a battle on",
+       "photo": "File:Culloden Battlefield- Leanach Cottage in Culloden Moor.jpg",
+       "on_screen_text": "Leanach Cottage, Culloden Moor"
+      },
+      {
+       "type": "photo",
+       "at": "through sheep and potatoes",
+       "photo": "File:Sheep in the highlands with shepard.jpg",
+       "on_screen_text": "Sheep in the Highlands"
+      },
+      {
+       "type": "photo",
+       "at": "through hunting estates the",
+       "photo": "File:Cervus elaphus (51307220686).jpg",
+       "on_screen_text": "Red deer"
+      },
+      {
+       "type": "photo",
+       "at": "and through a question",
+       "photo": "File:Isle of Eigg - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Isle of Eigg"
+      },
+      {
+       "type": "photo",
+       "at": "And it ends with",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland.jpg",
+       "on_screen_text": "The Quiraing, Skye"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rock, Ice and Bog",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Start with the ground. A straight line cuts across Scotland on any relief map, from the Isle of Arran in the west to Stonehaven on the north-east coast. Geologists call it the Highland Boundary Fault. It runs for more than two hundred and forty kilometres. South of it lies the Midland Valley, the lower, gentler country where Glasgow and Edinburgh grew. North of it, the land rises into the Highlands.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.742,
+           "lat": 57.455,
+           "span": 11.769
+          },
+          "highlight": [
+           "Highland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "from the Isle of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.75,
+           "lat": 56.183,
+           "span": 7.189
+          },
+          "routes": [
+           {
+            "from": [
+             -5.29,
+             55.71
+            ],
+            "via": [
+             [
+              -4.95,
+              55.92
+             ],
+             [
+              -4.6,
+              56.07
+             ],
+             [
+              -4.25,
+              56.22
+             ],
+             [
+              -3.95,
+              56.36
+             ],
+             [
+              -3.58,
+              56.56
+             ],
+             [
+              -3.2,
+              56.66
+             ],
+             [
+              -2.7,
+              56.82
+             ]
+            ],
+            "to": [
+             -2.21,
+             56.96
+            ],
+            "mode": "line",
+            "label": "Highland Boundary Fault",
+            "color": "red",
+            "seconds": 4.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Arran",
+            "lon": -5.25,
+            "lat": 55.58,
+            "kind": "label",
+            "label": "Isle of Arran"
+           },
+           {
+            "name": "Stonehaven",
+            "lon": -2.21,
+            "lat": 56.96,
+            "kind": "site",
+            "label": "Stonehaven"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Geologists call it the",
+       "photo": "File:Conic Hill with sheep.jpg",
+       "on_screen_text": "Conic Hill, on the Highland Boundary Fault"
+      },
+      {
+       "type": "stat",
+       "at": "It runs for more",
+       "stat": {
+        "value": "240+ KM",
+        "label": "Length of the Highland Boundary Fault",
+        "source": "British Geological Survey (via Wikipedia)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "South of it lies",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.9,
+           "lat": 56.0,
+           "span": 2.8
+          },
+          "places": [
+           {
+            "name": "Glasgow",
+            "lon": -4.25,
+            "lat": 55.86,
+            "kind": "city",
+            "label": "Glasgow"
+           },
+           {
+            "name": "Edinburgh",
+            "lon": -3.19,
+            "lat": 55.95,
+            "kind": "capital",
+            "label": "Edinburgh"
+           }
+          ]
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": -3.9,
+           "lat": 56.0,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "North of it, the",
+       "photo": "File:Loch Lomond (25052553995).jpg",
+       "on_screen_text": "Loch Lomond, where the Highlands begin"
+      }
+     ]
+    },
+    {
+     "text": "That one line still divides Scotland's people. Scotland has eight cities. Six of them lie south of the fault, in or near the Midland Valley. Only two, Aberdeen and Inverness, lie north of it, and both sit on the lower, drier east coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.6,
+           "lat": 56.311,
+           "span": 5.413
+          },
+          "places": [
+           {
+            "name": "Glasgow",
+            "lon": -4.25,
+            "lat": 55.86,
+            "kind": "city",
+            "label": "Glasgow"
+           },
+           {
+            "name": "Edinburgh",
+            "lon": -3.19,
+            "lat": 55.95,
+            "kind": "capital",
+            "label": "Edinburgh"
+           },
+           {
+            "name": "Dundee",
+            "lon": -2.97,
+            "lat": 56.46,
+            "kind": "city",
+            "label": "Dundee"
+           },
+           {
+            "name": "Perth",
+            "lon": -3.44,
+            "lat": 56.4,
+            "kind": "city",
+            "label": "Perth"
+           },
+           {
+            "name": "Stirling",
+            "lon": -3.94,
+            "lat": 56.12,
+            "kind": "city",
+            "label": "Stirling"
+           },
+           {
+            "name": "Dunfermline",
+            "lon": -3.46,
+            "lat": 56.07,
+            "kind": "city",
+            "label": "Dunfermline"
+           }
+          ]
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -3.6,
+           "lat": 56.6,
+           "span": 4.08
+          }
+         },
+         {
+          "at": "Only two, Aberdeen and",
+          "places": [
+           {
+            "name": "Aberdeen",
+            "lon": -2.1,
+            "lat": 57.15,
+            "kind": "city",
+            "label": "Aberdeen"
+           },
+           {
+            "name": "Inverness",
+            "lon": -4.22,
+            "lat": 57.48,
+            "kind": "city",
+            "label": "Inverness"
+           }
+          ],
+          "view": {
+           "lon": -3.258,
+           "lat": 56.841,
+           "span": 6.006
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and both sit on",
+       "photo": "File:From Inverness Castle towards the sea. - panoramio.jpg",
+       "on_screen_text": "Inverness, looking to the Moray Firth"
+      }
+     ]
+    },
+    {
+     "text": "The rocks up here are old and hard. They are the worn-down roots of a mountain chain that once ran from Norway through Scotland to North America. Then, during the ice ages, glaciers ground across them again and again. They carved the deep glens and the long lochs, and they scraped much of the soil away. What the ice left behind was bare rock, boulders and thin, stony ground.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Quinag, Sutherland, Scotland, 14 April 2011 - Flickr - PhillipC.jpg",
+       "on_screen_text": "Quinag, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "mountain chain that once",
+       "photo": "File:Cul Mor.jpg",
+       "on_screen_text": "Cul Mor, Sutherland"
+      },
+      {
+       "type": "map",
+       "at": "Then, during the ice",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.1,
+           "lat": 58.17,
+           "span": 0.4
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Assynt: rock scraped by ice"
+      },
+      {
+       "type": "photo",
+       "at": "They carved the deep",
+       "photo": "File:Aerial view of Loch Ness.jpg",
+       "on_screen_text": "Loch Ness from the air"
+      },
+      {
+       "type": "photo",
+       "at": "What the ice left",
+       "photo": "File:CulMorPath.jpg",
+       "on_screen_text": "Bare rock and thin ground, Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "In the cool, wet climate that followed, dead plants did not rot away. They piled up as peat, layer on layer, for thousands of years. In the far north, in Caithness and Sutherland, the peat spreads into one of the largest blanket bogs in the world. It is called the Flow Country. In July twenty twenty-four, UNESCO made about one hundred and ninety thousand hectares of it the first peatland World Heritage Site. And that is only about half of the whole bog, which covers some four hundred thousand hectares.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Peat-Stack in Ness, Outer Hebrides, Scotland.jpg",
+       "on_screen_text": "A stack of cut peat, Lewis"
+      },
+      {
+       "type": "photo",
+       "at": "They piled up as",
+       "photo": "File:A Lot of Lochs and Lochans - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Lochans and bog, Sutherland"
+      },
+      {
+       "type": "map",
+       "at": "In the far north,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.3,
+           "lat": 58.25,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Forsinard",
+            "lon": -3.9,
+            "lat": 58.36,
+            "kind": "site",
+            "label": "Flow Country"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -4.3,
+           "lat": 58.25,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is called the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.85,
+           "lat": 58.4,
+           "span": 0.6
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Flow Country"
+      },
+      {
+       "type": "stat",
+       "at": "In July twenty twenty-four,",
+       "stat": {
+        "value": "190,000 HA",
+        "label": "The Flow Country World Heritage Site, 2024",
+        "source": "UNESCO"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the first peatland World",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.95,
+           "lat": 58.45,
+           "span": 0.3
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Blanket bog, the Flow Country"
+      },
+      {
+       "type": "stat",
+       "at": "And that is only",
+       "stat": {
+        "value": "~400,000 HA",
+        "label": "The whole blanket bog",
+        "source": "The Flow Country Partnership"
+       }
+      }
+     ]
+    },
+    {
+     "text": "You cannot plough a bog. But in the nineteen-seventies and eighties, people tried to make money from it anyway. Tax breaks for commercial forestry made it worthwhile for wealthy investors to drain the bog and plant rows of Sitka spruce. The RSPB says nearly a fifth of the Flow Country was drained and planted. In March nineteen eighty-eight, the British government ended the tax relief that had paid for it, and today parts of those plantations are being cut down so the bog can recover.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Canisp from the east.jpg",
+       "on_screen_text": "Bog moorland below Canisp"
+      },
+      {
+       "type": "photo",
+       "at": "people tried to make",
+       "photo": "File:Drumbeg to Kylesku road, Sutherland, Scotland, 14 April 2011 - Flickr - PhillipC.jpg",
+       "on_screen_text": "Sutherland"
+      },
+      {
+       "type": "map",
+       "at": "Tax breaks for commercial",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.75,
+           "lat": 58.3,
+           "span": 0.25
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -3.75,
+           "lat": 58.3,
+           "span": 0.155
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Conifer blocks in the Flow Country"
+      },
+      {
+       "type": "stat",
+       "at": "The RSPB says nearly",
+       "stat": {
+        "value": "~20 %",
+        "label": "Of the Flow Country drained and planted",
+        "source": "RSPB"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In March nineteen eighty-eight,",
+       "stat": {
+        "value": "1988",
+        "label": "Tax relief for commercial forestry ended",
+        "source": "UK budget, March 1988 (Hansard)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and today parts of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.88,
+           "lat": 58.37,
+           "span": 0.15
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 77,
+          "view": {
+           "lon": -3.88,
+           "lat": 58.37,
+           "span": 0.093
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forsinard: bog being restored"
+      }
+     ]
+    },
+    {
+     "text": "So the ground is poor. But poor ground alone does not explain an empty country. Norway's west coast is made of the same kind of rock, scraped by the same ice. Something else must be different.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Stoer peninsula (2498227507).jpg",
+       "on_screen_text": "Stoer, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "Norway's west coast is",
+       "photo": "File:Dalsfjorden Rivedal.jpg",
+       "on_screen_text": "Dalsfjorden, Vestland"
+      },
+      {
+       "type": "photo",
+       "at": "Something else must be",
+       "photo": "File:Suilven in cloud (23282141404).jpg",
+       "on_screen_text": "Suilven in cloud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Rain Wall",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The obvious suspect is the weather. Scotland's weather comes mostly from the west, off the Atlantic. When those wet winds hit the mountains, the air is forced up, it cools, and it drops its rain. On the Met Office's long-term averages, Fort Augustus, in the middle of the Great Glen, gets about one thousand three hundred and sixty millimetres a year. Edinburgh, on the dry east side, gets about six hundred and forty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -8.35,
+           "lat": 57.26,
+           "span": 12.932
+          },
+          "arrows": [
+           {
+            "from": [
+             -12.5,
+             56.2
+            ],
+            "to": [
+             -6.3,
+             56.9
+            ],
+            "color": "blue",
+            "label": "Atlantic winds",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -12.0,
+             58.6
+            ],
+            "to": [
+             -6.0,
+             58.0
+            ],
+            "color": "blue",
+            "bend": -0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "When those wet winds",
+       "photo": "File:Ben Nevis and Fort William from west.jpg",
+       "on_screen_text": "Ben Nevis and Fort William"
+      },
+      {
+       "type": "photo",
+       "at": "it cools, and it",
+       "photo": "File:Lost Valley Trail, Glencoe, Scotland - 53739047188.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "map",
+       "at": "On the Met Office's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.955,
+           "lat": 56.471,
+           "span": 6.271
+          },
+          "places": [
+           {
+            "name": "Fort Augustus",
+            "lon": -4.68,
+            "lat": 57.145,
+            "kind": "site",
+            "label": "Fort Augustus"
+           },
+           {
+            "name": "Edinburgh",
+            "lon": -3.19,
+            "lat": 55.95,
+            "kind": "capital",
+            "label": "Edinburgh"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in the middle of",
+       "photo": "File:Loch Ness (42064602492).jpg",
+       "on_screen_text": "Loch Ness, in the Great Glen"
+      },
+      {
+       "type": "stat",
+       "at": "gets about one thousand",
+       "stat": {
+        "value": "1,359 MM",
+        "label": "Rain a year, Fort Augustus",
+        "source": "Met Office 1991-2020 averages"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Edinburgh, on the dry",
+       "stat": {
+        "value": "639 MM",
+        "label": "Rain a year, Edinburgh",
+        "source": "Met Office 1991-2020 averages"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Wet summers mean a short growing season. Grain struggles to ripen, and hay is hard to dry. That is why the best farmland in the north hugs the drier east coast, around the Moray Firth and Aberdeenshire.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Cuillin Mountains of Skye (51148080435).jpg",
+       "on_screen_text": "The Cuillin, Skye"
+      },
+      {
+       "type": "map",
+       "at": "That is why the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.3,
+           "lat": 57.6,
+           "span": 0.6
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland along the Moray Firth"
+      },
+      {
+       "type": "photo",
+       "at": "around the Moray Firth",
+       "photo": "File:Inverness - panoramio (13).jpg",
+       "on_screen_text": "Inverness"
+      }
+     ]
+    },
+    {
+     "text": "But now look across the sea again. Bergen's official average, by the city's own climate figures, is about two thousand five hundred millimetres a year. That is nearly twice the rain of Fort Augustus and four times that of Edinburgh. And Bergen became one of the great trading cities of northern Europe.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 0.32,
+           "lat": 57.937,
+           "span": 24.388
+          },
+          "places": [
+           {
+            "name": "Bergen",
+            "lon": 5.32,
+            "lat": 60.39,
+            "kind": "city",
+            "label": "Bergen"
+           },
+           {
+            "name": "Fort Augustus",
+            "lon": -4.68,
+            "lat": 57.145,
+            "kind": "site",
+            "label": "Fort Augustus"
+           },
+           {
+            "name": "Edinburgh",
+            "lon": -3.19,
+            "lat": 55.95,
+            "kind": "capital",
+            "label": "Edinburgh"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Bergen's official average, by",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.32,
+           "lat": 60.39,
+           "span": 0.25
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bergen and its fjords"
+      },
+      {
+       "type": "chart",
+       "at": "is about two thousand",
+       "chart": {
+        "type": "bar",
+        "title": "Rain a year",
+        "unit": "mm",
+        "data": [
+         [
+          "Bergen",
+          2495
+         ],
+         [
+          "Fort Augustus",
+          1359
+         ],
+         [
+          "Edinburgh",
+          639
+         ]
+        ],
+        "source": "Bergen kommune; Met Office 1991-2020",
+        "highlight": 0,
+        "reveal": [
+         "That is nearly twice",
+         "and four times that"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And Bergen became one",
+       "photo": "File:Bergen (View from Fløyen) (Fylkesarkivet i Sogn og Fjordane).jpg",
+       "on_screen_text": "Bergen from Fløyen, about 1910"
+      }
+     ]
+    },
+    {
+     "text": "For centuries, Bergen lived on the sea. From the fourteenth century, merchants of the Hanseatic League ran a trading office on its wharf, Bryggen, and shipped dried cod from northern Norway to the Baltic and the rest of Europe. Bryggen's wooden warehouses still stand, and UNESCO listed them as a World Heritage Site in nineteen seventy-nine.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 5.32,
+           "lat": 60.395,
+           "span": 0.1
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bergen"
+      },
+      {
+       "type": "photo",
+       "at": "merchants of the Hanseatic",
+       "photo": "File:Bryggen i Bergen - vinter 2025.jpg",
+       "on_screen_text": "Bryggen, Bergen"
+      },
+      {
+       "type": "map",
+       "at": "and shipped dried cod",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 9.66,
+           "lat": 61.783,
+           "span": 19.282
+          },
+          "places": [
+           {
+            "name": "Bergen",
+            "lon": 5.32,
+            "lat": 60.39,
+            "kind": "city",
+            "label": "Bergen"
+           }
+          ]
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": 10.0,
+           "lat": 62.5,
+           "span": 17.0
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Bryggen's wooden warehouses still",
+       "photo": "File:Bryggen-Bergen-April-2011 01.jpg",
+       "on_screen_text": "Bryggen"
+      },
+      {
+       "type": "stat",
+       "at": "and UNESCO listed them",
+       "stat": {
+        "value": "1979",
+        "label": "Bryggen on the World Heritage List",
+        "source": "UNESCO"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Same rock, same ice, even more rain. So the land made the Highlands hard to live in. It did not make them empty. To understand what did, we have to go back to one cold morning in seventeen forty-six.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Nærøyfjord - 49534246726.jpg",
+       "on_screen_text": "Nærøyfjord, Vestland"
+      },
+      {
+       "type": "photo",
+       "at": "So the land made",
+       "photo": "File:Main ridge of the cuillin in skye arp.jpg",
+       "on_screen_text": "The Cuillin, Skye"
+      },
+      {
+       "type": "map",
+       "at": "To understand what did,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.3,
+           "lat": 57.4,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Culloden",
+            "lon": -4.07,
+            "lat": 57.48,
+            "kind": "site",
+            "label": "Culloden Moor, 1746",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": -4.3,
+           "lat": 57.4,
+           "span": 2.55
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From Clans to Cash",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "For most of their history, the Highlands were full of people. Glens that are silent today were lined with townships, small clusters of stone houses with shared fields and cattle on the hills above. Families belonged to clans, and a chief's power was measured in the number of men he could call out to fight.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Gearranan Blackhouse Village.jpg",
+       "on_screen_text": "A restored blackhouse village, Lewis"
+      },
+      {
+       "type": "photo",
+       "at": "Glens that are silent",
+       "photo": "File:The Lost Valley, Glencoe, Scotland.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "small clusters of stone",
+       "photo": "File:Ruined Shielings - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Ruined shielings, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "Families belonged to clans,",
+       "photo": "File:Eilean Donan castle - 95mm.jpg",
+       "on_screen_text": "Eilean Donan Castle"
+      },
+      {
+       "type": "photo",
+       "at": "the number of men",
+       "photo": "File:Loch Assynt - Ardvreck Castle.JPG",
+       "on_screen_text": "Ardvreck Castle, Loch Assynt"
+      }
+     ]
+    },
+    {
+     "text": "On the sixteenth of April, seventeen forty-six, the Jacobite army of Charles Edward Stuart met government troops on Culloden Moor, just east of Inverness. By the National Trust for Scotland's account, hardly an hour passed between the first shots and the flight of the Prince's army. It was the last pitched battle fought on British soil.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.07,
+           "lat": 57.48,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Culloden Moor"
+      },
+      {
+       "type": "photo",
+       "at": "met government troops on",
+       "photo": "File:The Battle of Culloden.jpg",
+       "on_screen_text": "The Battle of Culloden (18th-century painting)"
+      },
+      {
+       "type": "stat",
+       "at": "By the National Trust",
+       "stat": {
+        "value": "< 1 HOUR",
+        "label": "The Battle of Culloden, 16 April 1746",
+        "source": "National Trust for Scotland; National Army Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "between the first shots",
+       "photo": "File:Culloden Battlefield- Leanach Cottage in Culloden Moor.jpg",
+       "on_screen_text": "Leanach Cottage, Culloden Moor"
+      },
+      {
+       "type": "stat",
+       "at": "It was the last",
+       "stat": {
+        "value": "1746",
+        "label": "The last pitched battle on British soil",
+        "source": "Wikipedia (Battle of Culloden)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "What followed was meant to make sure the clans could never rise again. The government banned Highland dress, took away the chiefs' old legal powers and pushed more military roads deep into the glens. But the biggest change was quieter. A chief without a private army no longer needed hundreds of fighting men. What he needed was money. And to a landowner short of cash, a glen full of tenants began to look like a glen full of wasted rent.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.6,
+           "lat": 57.2,
+           "span": 2.7
+          },
+          "places": [
+           {
+            "name": "Culloden",
+            "lon": -4.07,
+            "lat": 57.48,
+            "kind": "site",
+            "label": "Culloden Moor, 1746",
+            "icon": "warning"
+           },
+           {
+            "name": "Inverness",
+            "lon": -4.22,
+            "lat": 57.48,
+            "kind": "city",
+            "label": "Inverness"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The government banned Highland",
+       "photo": "File:Lost Valley Trail, Glencoe, Scotland - 53737911447.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "and pushed more military",
+       "photo": "File:Urquhart Castle on Loch Ness.jpg",
+       "on_screen_text": "Urquhart Castle, Loch Ness"
+      },
+      {
+       "type": "photo",
+       "at": "But the biggest change",
+       "photo": "File:Dunrobin Castle -Sutherland -Scotland-26May2008 (2).jpg",
+       "on_screen_text": "Dunrobin Castle, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "no longer needed hundreds",
+       "photo": "File:Glenfinnan bay.jpg",
+       "on_screen_text": "Glenfinnan"
+      },
+      {
+       "type": "photo",
+       "at": "What he needed was",
+       "photo": "File:Kylesku Bridge (14859799060).jpg",
+       "on_screen_text": "Kylesku, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "a glen full of",
+       "photo": "File:Loch Assynt 4.JPG",
+       "on_screen_text": "Loch Assynt"
+      }
+     ]
+    },
+    {
+     "text": "The people had stopped being the chief's strength. Now they were in the way. And the animal that would replace them was already being driven north.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Inchnadamph.jpg",
+       "on_screen_text": "Inchnadamph, Assynt"
+      },
+      {
+       "type": "photo",
+       "at": "And the animal that",
+       "photo": "File:Sheep in the highlands with shepard.jpg",
+       "on_screen_text": "Sheep in the Highlands"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Clearances",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "From the late seventeen-hundreds, Highland landowners found that sheep paid far better than people. Sheep farmers from the south would pay high rents for whole glens. But families were already living on that land, so they were moved. Over roughly a century, in waves, this became known as the Highland Clearances.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53718314137.jpg",
+       "on_screen_text": "The Quiraing, Skye"
+      },
+      {
+       "type": "map",
+       "at": "Sheep farmers from the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.6,
+           "lat": 57.744,
+           "span": 6.319
+          },
+          "places": [
+           {
+            "name": "Inverness",
+            "lon": -4.22,
+            "lat": 57.48,
+            "kind": "city",
+            "label": "Inverness"
+           },
+           {
+            "name": "Strathnaver",
+            "lon": -4.22,
+            "lat": 58.4,
+            "kind": "site",
+            "label": "Strathnaver"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But families were already",
+       "photo": "File:Gearranan Blackhouse Village.jpg",
+       "on_screen_text": "A blackhouse village, Lewis"
+      },
+      {
+       "type": "photo",
+       "at": "Over roughly a century,",
+       "photo": "File:Foinaven - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Foinaven, Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "Some families were shifted to small coastal plots called crofts, often too small to live on, so that they would have to fish or gather seaweed as well. Others were simply told to leave.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.24,
+           "lat": 58.15,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -5.24,
+           "lat": 58.15,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lochinver: crofts on the coast"
+      },
+      {
+       "type": "photo",
+       "at": "so that they would",
+       "photo": "File:Lochinver, Sutherland, Scotland, 15 April 2011 - Flickr - PhillipC.jpg",
+       "on_screen_text": "Lochinver"
+      },
+      {
+       "type": "photo",
+       "at": "Others were simply told",
+       "photo": "File:Oldshoremore Bay - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Oldshoremore Bay, Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "The most notorious removals came in Sutherland, in the far north. In Strathnaver, the estate's factor, Patrick Sellar, served notices in December eighteen thirteen, and the first removals cleared twenty-eight families. Houses were burned so that people could not return. In April eighteen sixteen, Sellar stood trial in Inverness, accused of arson and culpable homicide. He was acquitted.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.17,
+           "lat": 58.174,
+           "span": 2.581
+          },
+          "places": [
+           {
+            "name": "Strathnaver",
+            "lon": -4.22,
+            "lat": 58.4,
+            "kind": "site",
+            "label": "Strathnaver"
+           },
+           {
+            "name": "Golspie",
+            "lon": -3.98,
+            "lat": 57.97,
+            "kind": "site",
+            "label": "Golspie"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In Strathnaver, the estate's",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.22,
+           "lat": 58.4,
+           "span": 0.3
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Strathnaver"
+      },
+      {
+       "type": "stat",
+       "at": "and the first removals",
+       "stat": {
+        "value": "28 FAMILIES",
+        "label": "The first Strathnaver removals, 1814",
+        "source": "Wikipedia (Patrick Sellar); NLS"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Houses were burned so",
+       "photo": "File:A Lot of Lochs and Lochans - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Sutherland"
+      },
+      {
+       "type": "stat",
+       "at": "In April eighteen sixteen,",
+       "stat": {
+        "value": "1816",
+        "label": "Patrick Sellar tried at Inverness and acquitted",
+        "source": "Wikipedia (Patrick Sellar)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "He was acquitted.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.22,
+           "lat": 57.48,
+           "span": 0.2
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Inverness"
+      }
+     ]
+    },
+    {
+     "text": "The man who owned the Sutherland estates at the height of the clearances was George Granville Leveson-Gower, later the first Duke of Sutherland. After his death in eighteen thirty-three, a monument was raised to him on Ben Bhraggie above Golspie. The statue and its plinth stand about thirty metres tall, and they still look down over the coast. It is one of the most argued-over monuments in the country, and over the years vandals have tried to bring it down.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dunrobin Castle -Sutherland -Scotland-26May2008 (2).jpg",
+       "on_screen_text": "Dunrobin Castle, seat of the Sutherland estates"
+      },
+      {
+       "type": "photo",
+       "at": "later the first Duke",
+       "photo": "File:Loch Assynt (187501557).jpeg",
+       "on_screen_text": "Loch Assynt"
+      },
+      {
+       "type": "map",
+       "at": "After his death in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.98,
+           "lat": 57.98,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": -3.98,
+           "lat": 57.98,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ben Bhraggie and Golspie"
+      },
+      {
+       "type": "stat",
+       "at": "The statue and its",
+       "stat": {
+        "value": "~30 M",
+        "label": "The Duke of Sutherland's monument, 1837",
+        "source": "Highland Historic Environment Record"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and they still look",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.99,
+           "lat": 57.99,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ben Bhraggie"
+      },
+      {
+       "type": "map",
+       "at": "It is one of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.96,
+           "lat": 57.96,
+           "span": 0.3
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 69,
+          "view": {
+           "lon": -3.96,
+           "lat": 57.96,
+           "span": 0.186
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Golspie coast"
+      }
+     ]
+    },
+    {
+     "text": "Walk up Strathnaver today and you can still find the low stone outlines of those townships in the grass. In glen after glen, the same traces survive: green patches of old fields and the rings of fallen walls. Whole valleys were emptied within a single lifetime. But the clearances alone did not empty the Highlands. Something else was coming for the people who were left.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.205,
+           "lat": 58.45,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -4.205,
+           "lat": 58.45,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Strathnaver: green fields along the river"
+      },
+      {
+       "type": "photo",
+       "at": "In glen after glen,",
+       "photo": "File:CulMorPath.jpg",
+       "on_screen_text": "Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "green patches of old",
+       "photo": "File:Stoer peninsula (2498227507).jpg",
+       "on_screen_text": "Stoer, Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "Whole valleys were emptied",
+       "photo": "File:Loch Assynt.JPG",
+       "on_screen_text": "Loch Assynt"
+      },
+      {
+       "type": "photo",
+       "at": "Something else was coming",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53722135434.jpg",
+       "on_screen_text": "Skye"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Hunger and the Ships",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "By the eighteen-forties, many families on the crofts lived on little except potatoes. Then, in eighteen forty-six, the same blight that devastated Ireland reached the Highlands. Crops rotted in the ground, and famine spread along the west coast and through the islands.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Peat-Stack in Ness, Outer Hebrides, Scotland.jpg",
+       "on_screen_text": "Peat for the fire, Lewis"
+      },
+      {
+       "type": "photo",
+       "at": "Then, in eighteen forty-six,",
+       "photo": "File:Road from Stornoway to Callanish - Isle of Lewis, Scotland, UK - May 24, 1989.jpg",
+       "on_screen_text": "Lewis"
+      },
+      {
+       "type": "stat",
+       "at": "the same blight that",
+       "stat": {
+        "value": "1846",
+        "label": "Potato blight reaches the Highlands",
+        "source": "Wikipedia (Highland Potato Famine)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and famine spread along",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -7.0,
+           "lat": 57.4,
+           "span": 5.0
+          },
+          "places": [
+           {
+            "name": "Skye",
+            "lon": -6.25,
+            "lat": 57.3,
+            "kind": "label",
+            "label": "Isle of Skye"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "For many, the only way out was a ship. Between eighteen fifty-two and eighteen fifty-seven, one charity, the Highland and Island Emigration Society, helped four thousand nine hundred and nineteen men, women and children sail to Australia. Skye was the first place chosen. In eighteen fifty-two alone, more than two and a half thousand people left on the Society's ships.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Portree Harbour, Isle of Skye, Scotland.jpg",
+       "on_screen_text": "Portree, Skye"
+      },
+      {
+       "type": "stat",
+       "at": "one charity, the Highland",
+       "stat": {
+        "value": "4,919",
+        "label": "People sent to Australia, 1852-1857",
+        "source": "ScotlandsPeople (NRS)",
+        "note": "Highland and Island Emigration Society"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "men, women and children",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53727735228.jpg",
+       "on_screen_text": "Skye"
+      },
+      {
+       "type": "map",
+       "at": "Skye was the first",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 64.98,
+           "lat": 4.041,
+           "span": 337.335
+          },
+          "routes": [
+           {
+            "from": [
+             -6.2,
+             57.3
+            ],
+            "via": [
+             [
+              -15.0,
+              30.0
+             ],
+             [
+              10.0,
+              -35.0
+             ],
+             [
+              80.0,
+              -42.0
+             ]
+            ],
+            "to": [
+             144.96,
+             -37.81
+            ],
+            "mode": "line",
+            "label": "To Australia, 1852-57",
+            "color": "accent",
+            "seconds": 4.5
+           }
+          ],
+          "places": [
+           {
+            "name": "Australia",
+            "lon": 144.96,
+            "lat": -37.81,
+            "kind": "port",
+            "label": "Australia"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In eighteen fifty-two alone,",
+       "stat": {
+        "value": "2,569",
+        "label": "Emigrants in 1852 alone",
+        "source": "ScotlandsPeople (NRS)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Skye gave more than any other place. By the time the Society closed, about six in ten of all its emigrants had come from that one island.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.15,
+           "lat": 57.3,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Skye",
+            "lon": -6.25,
+            "lat": 57.3,
+            "kind": "label",
+            "label": "Isle of Skye"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "By the time the",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53727655796.jpg",
+       "on_screen_text": "The Quiraing, Skye"
+      },
+      {
+       "type": "stat",
+       "at": "about six in ten",
+       "stat": {
+        "value": "59 %",
+        "label": "Of the Society's emigrants came from Skye",
+        "source": "Wikipedia (Highland and Island Emigration Society)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Thousands more went to Canada, often with the landlord paying the fare to clear the land. The road had been opened long before. In seventeen seventy-three, a ship called the Hector had carried close to two hundred Highlanders to Pictou, in a colony with a telling name: Nova Scotia, New Scotland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -35.0,
+           "lat": 52.0,
+           "span": 75.0
+          },
+          "routes": [
+           {
+            "from": [
+             -6.2,
+             57.3
+            ],
+            "via": [
+             [
+              -20.0,
+              57.0
+             ],
+             [
+              -40.0,
+              52.0
+             ]
+            ],
+            "to": [
+             -62.7,
+             45.68
+            ],
+            "mode": "line",
+            "label": "Hector, 1773",
+            "color": "accent",
+            "seconds": 4.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Pictou",
+            "lon": -62.7,
+            "lat": 45.68,
+            "kind": "port",
+            "label": "Pictou, Nova Scotia"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The road had been",
+       "photo": "File:Eilean Donan castle - 95mm.jpg",
+       "on_screen_text": "Eilean Donan"
+      },
+      {
+       "type": "photo",
+       "at": "In seventeen seventy-three, a",
+       "photo": "File:Hector (ship).jpg",
+       "on_screen_text": "Replica of the Hector, Pictou"
+      },
+      {
+       "type": "map",
+       "at": "in a colony with",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -63.0,
+           "lat": 45.3,
+           "span": 6.0
+          },
+          "places": [
+           {
+            "name": "Pictou",
+            "lon": -62.7,
+            "lat": 45.68,
+            "kind": "port",
+            "label": "Pictou, Nova Scotia"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The census shows what all of this did. Measured on today's council boundaries, the Highland population peaked at about two hundred and fifty-three thousand in eighteen sixty-one. By nineteen seventy-one it had fallen to about one hundred and sixty-two thousand. That is more than a third of the people gone, while Scotland as a whole grew by about seventy percent. So when the people left, what filled the glens?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Achnahaird Bay - Flickr - Graham Grinner Lewis (1).jpg",
+       "on_screen_text": "Achnahaird Bay"
+      },
+      {
+       "type": "chart",
+       "at": "Measured on today's council",
+       "chart": {
+        "type": "bar",
+        "title": "Highland population",
+        "unit": "people",
+        "data": [
+         [
+          "1801",
+          175368
+         ],
+         [
+          "1861",
+          253534
+         ],
+         [
+          "1911",
+          188667
+         ],
+         [
+          "1971",
+          161631
+         ],
+         [
+          "2021",
+          235336
+         ]
+        ],
+        "source": "Census tables on today's boundaries (A Vision of Britain)",
+        "highlight": 3,
+        "reveal": [
+         "peaked at about two",
+         "By nineteen seventy-one it",
+         "That is more than a"
+        ]
+       }
+      },
+      {
+       "type": "photo",
+       "at": "while Scotland as a",
+       "photo": "File:Loch Lomond (25052553995).jpg",
+       "on_screen_text": "Loch Lomond"
+      },
+      {
+       "type": "photo",
+       "at": "So when the people",
+       "photo": "File:Torridon panoramic view June 2024.jpg",
+       "on_screen_text": "Torridon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Deer Forests and St Kilda",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Not sheep, in the end. By the late eighteen-hundreds, wool prices were falling and many Highland sheep farms stopped paying. Landowners found a new use for the hills: hunting. Wealthy Victorians would pay well to stalk red deer, and estate after estate was turned into a deer forest, which, despite the name, usually has hardly any trees.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Cuillin Mountains of Skye (51148080435).jpg",
+       "on_screen_text": "Skye"
+      },
+      {
+       "type": "photo",
+       "at": "many Highland sheep farms",
+       "photo": "File:Lost Valley Trail, Glencoe, Scotland - 53744443330.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "Landowners found a new",
+       "photo": "File:Professional stalker standing next to red deer stag Ardnamurchan Estate Scotland 01.png",
+       "on_screen_text": "A stalker and a red deer stag, Ardnamurchan"
+      },
+      {
+       "type": "photo",
+       "at": "Wealthy Victorians would pay",
+       "photo": "File:Cervo rosso - Red Deer.jpg",
+       "on_screen_text": "Red deer"
+      },
+      {
+       "type": "photo",
+       "at": "and estate after estate",
+       "photo": "File:Cervus elaphus (51382686946).jpg",
+       "on_screen_text": "Red deer stags"
+      },
+      {
+       "type": "photo",
+       "at": "which, despite the name,",
+       "photo": "File:Cul Mor.jpg",
+       "on_screen_text": "Open hill, Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "The landowners' own returns, read out in Parliament in eighteen ninety-three, counted about one point nine eight million acres of deer forest in eighteen eighty-three. By eighteen ninety-one, it was about two point five seven million. That is nearly a third more land kept empty for sport in just eight years. A deer forest needs even fewer people than a sheep farm: a few stalkers, a gamekeeper and a lodge used for some weeks a year.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Lost Valley, Glencoe, Scotland.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "stat",
+       "at": "counted about one point",
+       "stat": {
+        "value": "1.98 M ACRES",
+        "label": "Deer forests, 1883",
+        "source": "Deer forest returns, Hansard 17 Apr 1893"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By eighteen ninety-one, it",
+       "stat": {
+        "value": "2.57 M ACRES",
+        "label": "Deer forests, 1891",
+        "source": "Deer forest returns, Hansard 17 Apr 1893"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is nearly a",
+       "stat": {
+        "value": "+30 %",
+        "label": "Deer forests, 1883 to 1891",
+        "source": "Own: 2.57 / 1.98 = 1.30"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A deer forest needs",
+       "photo": "File:Cervus elaphus (51307220686).jpg",
+       "on_screen_text": "Red deer"
+      },
+      {
+       "type": "photo",
+       "at": "a gamekeeper and a",
+       "photo": "File:Loch Assynt (187501557).jpeg",
+       "on_screen_text": "Loch Assynt"
+      }
+     ]
+    },
+    {
+     "text": "Two and a half million acres is about ten thousand square kilometres. That is roughly an eighth of Scotland's land, given over to a few weeks of stalking each autumn.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.792,
+           "lat": 57.455,
+           "span": 11.769
+          },
+          "highlight": [
+           "Highland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "That is roughly an",
+       "stat": {
+        "value": "~1/8",
+        "label": "Of Scotland's land in deer forests, 1891",
+        "source": "Own: 2.57 M acres = 10,400 km² of 78,800 km²"
+       }
+      },
+      {
+       "type": "map",
+       "at": "given over to a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.0,
+           "lat": 57.9,
+           "span": 0.6
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open hill, Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "The crofters fought back. In April eighteen eighty-two, on Skye, crofters at Braes faced the police over the arrest of five of their men, in what became known as the Battle of the Braes. In March eighteen eighty-three, the government appointed a royal commission under Lord Napier, which travelled the Highlands and took evidence from crofters themselves. And in June eighteen eighty-six, the Crofters Act gave crofters security of tenure at last, fair rents set by a commission and the right to pass their crofts to their heirs. They could no longer be thrown off their plots. But the act did not give them back the hills.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.02,
+           "lat": 57.352,
+           "span": 2.34
+          },
+          "places": [
+           {
+            "name": "Braes",
+            "lon": -6.12,
+            "lat": 57.35,
+            "kind": "site",
+            "label": "Braes, 1882",
+            "icon": "warning"
+           }
+          ]
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -6.02,
+           "lat": 57.352,
+           "span": 2.05
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in what became known",
+       "photo": "File:Portree Harbour, Isle of Skye, Scotland.jpg",
+       "on_screen_text": "Portree, Skye"
+      },
+      {
+       "type": "stat",
+       "at": "In March eighteen eighty-three,",
+       "stat": {
+        "value": "1883",
+        "label": "A royal commission under Lord Napier",
+        "source": "High Life Highland archives"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "which travelled the Highlands",
+       "photo": "File:Inchnadamph.jpg",
+       "on_screen_text": "Crofts at Inchnadamph"
+      },
+      {
+       "type": "stat",
+       "at": "And in June eighteen",
+       "stat": {
+        "value": "1886",
+        "label": "The Crofters Act",
+        "source": "Crofters Holdings (Scotland) Act 1886"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "fair rents set by",
+       "stat": {
+        "value": "SECURE",
+        "label": "Tenure, fair rents and the right to inherit",
+        "source": "Crofters Holdings (Scotland) Act 1886"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "They could no longer",
+       "photo": "File:Kylesku Bridge (14859799060).jpg",
+       "on_screen_text": "Kylesku"
+      },
+      {
+       "type": "photo",
+       "at": "But the act did",
+       "photo": "File:Main ridge of the cuillin in skye arp.jpg",
+       "on_screen_text": "The Cuillin, Skye"
+      }
+     ]
+    },
+    {
+     "text": "The last emptying came by request. Far out in the Atlantic, the islanders of St Kilda had lived for centuries on seabirds, sheep and fishing. After a hard winter, they sent a petition in May nineteen thirty asking the government to move them. Many of the young had already left, and most of those who remained were older. On the twenty-ninth of August, nineteen thirty, the last thirty-six islanders were taken to the mainland. The island has had no permanent community since. Today it belongs to the National Trust for Scotland.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.75,
+           "lat": 57.5,
+           "span": 4.5
+          },
+          "places": [
+           {
+            "name": "St Kilda",
+            "lon": -8.57,
+            "lat": 57.81,
+            "kind": "site",
+            "label": "St Kilda"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the islanders of St",
+       "photo": "File:Dividing the catch of fulmar, St Kilda - George Washington Wilson.jpg",
+       "on_screen_text": "Dividing the catch of fulmar, St Kilda, about 1886"
+      },
+      {
+       "type": "photo",
+       "at": "After a hard winter,",
+       "photo": "File:Macaulay Map of St Kilda, Published 1764.jpg",
+       "on_screen_text": "St Kilda, map of 1764"
+      },
+      {
+       "type": "photo",
+       "at": "asking the government to",
+       "photo": "File:Dùn St Kilda.jpg",
+       "on_screen_text": "Dùn, St Kilda"
+      },
+      {
+       "type": "photo",
+       "at": "Many of the young",
+       "photo": "File:Village Bay St Kilda10.jpg",
+       "on_screen_text": "Village Bay, St Kilda"
+      },
+      {
+       "type": "map",
+       "at": "On the twenty-ninth of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -8.57,
+           "lat": 57.81,
+           "span": 0.08
+          },
+          "date": "2023-05-01/2023-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hirta, St Kilda"
+      },
+      {
+       "type": "stat",
+       "at": "the last thirty-six islanders",
+       "stat": {
+        "value": "36",
+        "label": "Islanders taken off St Kilda, 29 August 1930",
+        "source": "National Trust for Scotland"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The island has had",
+       "photo": "File:Village Bay St Kilda7.jpg",
+       "on_screen_text": "The empty street, Village Bay, St Kilda"
+      },
+      {
+       "type": "photo",
+       "at": "Today it belongs to",
+       "photo": "File:Village Bay Dùn Stac Levenish.jpg",
+       "on_screen_text": "Village Bay, St Kilda"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Norway's Different Path",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Now go back to the question from the start. Norway had the same hard rock, the same ice-scraped soil and even more rain. Why did its west coast keep its people?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 0.762,
+           "lat": 59.086,
+           "span": 32.526
+          },
+          "highlight": [
+           "Highland@red",
+           "file:vestland.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Norway had the same",
+       "photo": "File:Hardangerfjorden from krokavatn 2.jpg",
+       "on_screen_text": "Hardangerfjord"
+      },
+      {
+       "type": "photo",
+       "at": "Why did its west",
+       "photo": "File:Sognefjord-Norway-April-2011.jpg",
+       "on_screen_text": "Sognefjord, Vestland"
+      }
+     ]
+    },
+    {
+     "text": "Part of the answer is who owned the land. Historians of Norway have argued that tenant farmers there were already buying their farms in the late sixteen-hundreds, and that by about seventeen-fifty freeholders may have been the majority. Norway's constitution of eighteen fourteen protected an old family right to the farm, called the odal right. A farmer who owns his land cannot be cleared to make room for sheep.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dalsfjorden Rivedal.jpg",
+       "on_screen_text": "Farms on Dalsfjorden, Vestland"
+      },
+      {
+       "type": "photo",
+       "at": "tenant farmers there were",
+       "photo": "File:Nærøyfjord - 49534246726.jpg",
+       "on_screen_text": "Nærøyfjord"
+      },
+      {
+       "type": "stat",
+       "at": "and that by about",
+       "stat": {
+        "value": "~1750",
+        "label": "Freeholders may be most of Norway's farmers",
+        "source": "Historians of Norway (1961 study)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Norway's constitution of eighteen",
+       "stat": {
+        "value": "1814",
+        "label": "The odal right in Norway's constitution",
+        "source": "Odelsrett (Wikipedia)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A farmer who owns",
+       "photo": "File:Bryggen-Bergen-April-2011 01.jpg",
+       "on_screen_text": "Bryggen, Bergen"
+      }
+     ]
+    },
+    {
+     "text": "In the Highlands, by contrast, almost everyone was a tenant on someone else's land. When the land became more valuable without them, they had no right to stay.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sheep Village Bay St Kilda.jpg",
+       "on_screen_text": "Village Bay, St Kilda"
+      },
+      {
+       "type": "photo",
+       "at": "When the land became",
+       "photo": "File:Drumbeg to Kylesku road, Sutherland, Scotland, 14 April 2011 - Flickr - PhillipC.jpg",
+       "on_screen_text": "Sutherland"
+      }
+     ]
+    },
+    {
+     "text": "Scotland did try to bring life back. In August nineteen forty-three, Parliament created the North of Scotland Hydro-Electric Board, pushed through by Tom Johnston. Its motto was Gaelic: Neart nan Glean, power from the glens. In the decades that followed, it built dozens of power stations and dams, and electricity reached crofts that had never had it. By the nineteen-seventies, the Highland population had stopped falling. But the hydro schemes made power, not farms. The land itself stayed in very few hands.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Pitlochry Power Station.JPG",
+       "on_screen_text": "Pitlochry Power Station"
+      },
+      {
+       "type": "stat",
+       "at": "In August nineteen forty-three,",
+       "stat": {
+        "value": "1943",
+        "label": "North of Scotland Hydro-Electric Board",
+        "source": "Hydro-Electric Development (Scotland) Act 1943"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its motto was Gaelic:",
+       "photo": "File:Dam at Cruachan reservoir.jpg",
+       "on_screen_text": "Cruachan dam"
+      },
+      {
+       "type": "stat",
+       "at": "power from the glens.",
+       "stat": {
+        "value": "NEART NAN GLEAN",
+        "label": "Power from the glens: the board's motto",
+        "source": "North of Scotland Hydro-Electric Board"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and electricity reached crofts",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.775,
+           "lat": 56.961,
+           "span": 3.4
+          },
+          "places": [
+           {
+            "name": "Pitlochry",
+            "lon": -3.73,
+            "lat": 56.7,
+            "kind": "site",
+            "label": "Pitlochry"
+           },
+           {
+            "name": "Morar",
+            "lon": -5.82,
+            "lat": 56.97,
+            "kind": "site",
+            "label": "River Morar, 1948"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "By the nineteen-seventies, the",
+       "photo": "File:Urquhart Castle on Loch Ness.jpg",
+       "on_screen_text": "Loch Ness"
+      },
+      {
+       "type": "photo",
+       "at": "But the hydro schemes",
+       "photo": "File:Loch Assynt 4.JPG",
+       "on_screen_text": "Loch Assynt"
+      }
+     ]
+    },
+    {
+     "text": "The board's engineers worked across the whole north. By most accounts, there were in the end fifty-four power stations, seventy-eight dams and some two hundred miles of tunnels. The first scheme to switch on, on the River Morar, started up in December nineteen forty-eight. Many of those dams still hold back the lochs you see in Highland postcards today.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Glenfinnan bay.jpg",
+       "on_screen_text": "Glenfinnan"
+      },
+      {
+       "type": "stat",
+       "at": "By most accounts, there",
+       "stat": {
+        "value": "54",
+        "label": "Power stations built by the Hydro Board",
+        "source": "North of Scotland Hydro-Electric Board (Wikipedia)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "seventy-eight dams and some",
+       "stat": {
+        "value": "78",
+        "label": "Dams built by the Hydro Board",
+        "source": "North of Scotland Hydro-Electric Board (Wikipedia)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The first scheme to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.82,
+           "lat": 56.97,
+           "span": 0.1
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": -5.82,
+           "lat": 56.97,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Morar"
+      },
+      {
+       "type": "map",
+       "at": "Many of those dams",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.75,
+           "lat": 56.7,
+           "span": 0.12
+          },
+          "date": "2025-04-01/2025-06-15"
+         },
+         {
+          "at": 51,
+          "view": {
+           "lon": -3.75,
+           "lat": 56.7,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Loch Faskally, Pitlochry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who Owns the Glens",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "How few? According to the land researcher Andy Wightman, about four hundred owners hold half of all the privately owned rural land in Scotland. Some estates cover tens of thousands of acres. If you want to build a house or start a farm in a Highland glen, you often need the permission of one landowner who may have other plans.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lost Valley Trail, Glencoe, Scotland - 53739047188.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "stat",
+       "at": "about four hundred owners",
+       "stat": {
+        "value": "~400",
+        "label": "Owners of half Scotland's private rural land",
+        "source": "Andy Wightman, Who Owns Scotland (2024)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Some estates cover tens",
+       "photo": "File:Cervus elaphus (51382686946).jpg",
+       "on_screen_text": "Red deer"
+      },
+      {
+       "type": "photo",
+       "at": "If you want to",
+       "photo": "File:Quinag, Sutherland, Scotland, 14 April 2011 - Flickr - PhillipC.jpg",
+       "on_screen_text": "Quinag, Sutherland"
+      },
+      {
+       "type": "map",
+       "at": "you often need the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.0,
+           "lat": 57.05,
+           "span": 0.5
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Highland glens"
+      }
+     ]
+    },
+    {
+     "text": "That began to change in a small way in nineteen ninety-three. In Assynt, in the far north-west, crofters bought the estate they lived on, about twenty-one thousand acres, for three hundred thousand pounds, about half of it raised from public donations. Four years later, in June nineteen ninety-seven, the residents of the Isle of Eigg became their own landlords.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.6,
+           "lat": 57.454,
+           "span": 6.844
+          },
+          "places": [
+           {
+            "name": "Assynt",
+            "lon": -5.1,
+            "lat": 58.17,
+            "kind": "site",
+            "label": "Assynt"
+           },
+           {
+            "name": "Eigg",
+            "lon": -6.16,
+            "lat": 56.9,
+            "kind": "site",
+            "label": "Isle of Eigg"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In Assynt, in the",
+       "photo": "File:Suilven from the North West1.JPG",
+       "on_screen_text": "Suilven, Assynt"
+      },
+      {
+       "type": "stat",
+       "at": "about twenty-one thousand acres,",
+       "stat": {
+        "value": "£300,000",
+        "label": "The Assynt crofters' buyout, 1993",
+        "source": "The Scotsman"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Four years later, in",
+       "photo": "File:Sgurr of Eigg in Scotland 20060517 F.jpg",
+       "on_screen_text": "The Sgurr of Eigg"
+      },
+      {
+       "type": "map",
+       "at": "the residents of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.13,
+           "lat": 56.88,
+           "span": 0.1
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Isle of Eigg"
+      }
+     ]
+    },
+    {
+     "text": "Eigg was bought by a partnership of its sixty-five residents, the Highland Council and the Scottish Wildlife Trust. In two thousand and eight, the island switched on its own power grid, run on water, wind and sun. The people who had been tenants for centuries were now deciding what happened to their own land.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.16,
+           "lat": 56.9,
+           "span": 0.25
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Isle of Eigg"
+      },
+      {
+       "type": "stat",
+       "at": "of its sixty-five residents,",
+       "stat": {
+        "value": "65",
+        "label": "Residents who bought Eigg, 12 June 1997",
+        "source": "Isle of Eigg Heritage Trust"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In two thousand and",
+       "photo": "File:Isle of Eigg - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Isle of Eigg"
+      },
+      {
+       "type": "stat",
+       "at": "switched on its own",
+       "stat": {
+        "value": "2008",
+        "label": "Eigg switches on its own island grid",
+        "source": "Eigg Electric (isleofeigg.org)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The people who had",
+       "photo": "File:Isle of Eigg in Scotland from north-east.jpg",
+       "on_screen_text": "Isle of Eigg"
+      }
+     ]
+    },
+    {
+     "text": "Those buyouts changed the law. The Land Reform Act of two thousand and three gave rural communities a right to buy. A community can register an interest in the land around it, and when the owner decides to sell, the community gets the first chance to buy. Since then, many more communities have bought the land they live on. And the Highland population has grown back, to about two hundred and thirty-five thousand in the last census.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lochinver, Sutherland, Scotland, 15 April 2011 - Flickr - PhillipC.jpg",
+       "on_screen_text": "Lochinver"
+      },
+      {
+       "type": "stat",
+       "at": "The Land Reform Act",
+       "stat": {
+        "value": "2003",
+        "label": "Land Reform (Scotland) Act: a community right to buy",
+        "source": "Land Reform (Scotland) Act 2003"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A community can register",
+       "photo": "File:Achnahaird Bay - Flickr - Graham Grinner Lewis (1).jpg",
+       "on_screen_text": "Achnahaird Bay"
+      },
+      {
+       "type": "photo",
+       "at": "and when the owner",
+       "photo": "File:Oldshoremore Bay - Flickr - Graham Grinner Lewis.jpg",
+       "on_screen_text": "Oldshoremore"
+      },
+      {
+       "type": "map",
+       "at": "Since then, many more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.2,
+           "lat": 58.2,
+           "span": 0.3
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Assynt, community-owned since 1993"
+      },
+      {
+       "type": "stat",
+       "at": "And the Highland population",
+       "stat": {
+        "value": "~235,000",
+        "label": "Highland, Census 2022",
+        "source": "National Records of Scotland, Census 2022",
+        "note": "1861: 253,534"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in the last census.",
+       "photo": "File:From Inverness Castle towards the sea. - panoramio.jpg",
+       "on_screen_text": "Inverness"
+      }
+     ]
+    },
+    {
+     "text": "But it has not grown back to eighteen sixty-one. Young people still leave for the cities. In the prettiest villages, houses are bought as holiday homes, and prices climb beyond what local wages can pay. The deer forests are still there, and so are the big estates.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Loch Ness (42064602492).jpg",
+       "on_screen_text": "Loch Ness"
+      },
+      {
+       "type": "map",
+       "at": "In the prettiest villages,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -6.19,
+           "lat": 57.41,
+           "span": 0.08
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Portree"
+      },
+      {
+       "type": "photo",
+       "at": "and prices climb beyond",
+       "photo": "File:Inverness - panoramio (13).jpg",
+       "on_screen_text": "Inverness"
+      },
+      {
+       "type": "map",
+       "at": "The deer forests are",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -5.3,
+           "lat": 57.65,
+           "span": 0.4
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Highland hill ground"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why are the Scottish Highlands so empty? The land made it hard: old rock scraped bare by ice, smothered in peat and soaked by Atlantic rain. But Norway shows that hard land does not empty itself. In the Highlands, the people never owned the ground they lived on. After Culloden, they became a cost. Sheep replaced them, famine and ships took them away, and deer forests kept the hills empty for sport.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Bryggen - 5003 Bergen Norway.jpg",
+       "on_screen_text": "Bryggen, Bergen"
+      },
+      {
+       "type": "photo",
+       "at": "old rock scraped bare",
+       "photo": "File:Canisp from the east.jpg",
+       "on_screen_text": "Sutherland"
+      },
+      {
+       "type": "photo",
+       "at": "But Norway shows that",
+       "photo": "File:Bergen in the morning in june.JPG",
+       "on_screen_text": "Bergen"
+      },
+      {
+       "type": "photo",
+       "at": "In the Highlands, the",
+       "photo": "File:Loch Assynt 3.JPG",
+       "on_screen_text": "Loch Assynt"
+      },
+      {
+       "type": "photo",
+       "at": "After Culloden, they became",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53727655796.jpg",
+       "on_screen_text": "Skye"
+      },
+      {
+       "type": "photo",
+       "at": "and deer forests kept",
+       "photo": "File:Professional stalker standing next to red deer stag Ardnamurchan Estate Scotland 01.png",
+       "on_screen_text": "Stalking on a Highland estate"
+      }
+     ]
+    },
+    {
+     "text": "Scotland is still debating how far to go. In recent years, its government has proposed new rules for the largest estates, including splitting them into smaller lots when they are sold. Supporters say breaking them up is the only way to bring people back to the glens. Opponents say the land is too poor to support many more farms, and that the estates pay for jobs and conservation.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Three Sisters Valley, Glencoe, Scotland - 53744377929.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "In recent years, its",
+       "photo": "File:Lost Valley Trail, Glencoe, Scotland - 53744443330.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "including splitting them into",
+       "photo": "File:Lost Valley Trail, Glencoe, Scotland - 53739259125.jpg",
+       "on_screen_text": "Glencoe"
+      },
+      {
+       "type": "photo",
+       "at": "Supporters say breaking them",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland - 53719571489.jpg",
+       "on_screen_text": "Skye"
+      },
+      {
+       "type": "photo",
+       "at": "Opponents say the land",
+       "photo": "File:The Quiraing, Isle of Skye, Scotland.jpg",
+       "on_screen_text": "The Quiraing, Skye"
+      },
+      {
+       "type": "map",
+       "at": "and that the estates",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.95,
+           "lat": 57.27,
+           "span": 0.3
+          },
+          "date": "2025-04-01/2025-06-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Glen Affric"
+      }
+     ]
+    },
+    {
+     "text": "So here is the question I will leave you with. Should Scotland break up the big Highland estates to bring people back to the glens, or keep the hills as they are? Tell me in the comments.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -4.901,
+           "lat": 57.455,
+           "span": 11.769
+          },
+          "highlight": [
+           "Highland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Should Scotland break up",
+       "photo": "File:Suilven in cloud (23282141404).jpg",
+       "on_screen_text": "Suilven"
+      },
+      {
+       "type": "photo",
+       "at": "or keep the hills",
+       "photo": "File:Loch Assynt.JPG",
+       "on_screen_text": "Loch Assynt"
+      }
+     ],
+     "ask": {
+      "at": "So here is the",
+      "text": "Break up the big estates, or keep the hills as they are?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives in the Scottish Highlands",
+  "description": "The Highland council area is bigger than Wales, yet only about 235,000 people live there, nine to a square kilometre. Across the North Sea, Norway's Vestland has the same ancient rock, the same Atlantic storms and even more rain, and twice the people. We follow the answer from orbit: the Highland Boundary Fault, ice, peat and the Flow Country, the rain, Culloden, the Highland Clearances and Strathnaver, the potato famine and the emigrant ships, the deer forests, St Kilda, Norway's freehold farmers, the Hydro Board, and who owns the glens today.",
+  "tags": [
+   "Scottish Highlands",
+   "Highlands",
+   "Scotland",
+   "Highland Clearances",
+   "Strathnaver",
+   "Culloden",
+   "St Kilda",
+   "Flow Country",
+   "deer forests",
+   "land reform",
+   "Isle of Eigg",
+   "Norway",
+   "Bergen",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Should Scotland break up the big Highland estates to bring people back to the glens?"
+ }
+}

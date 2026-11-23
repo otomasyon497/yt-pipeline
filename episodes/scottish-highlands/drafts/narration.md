@@ -4,7 +4,7 @@
 
 P0: Look at the north of Scotland on a map. The Highland council area alone is bigger than Wales, about twenty-five and a half thousand square kilometres of mountains, glens and sea lochs. About two hundred and thirty-five thousand people live there. That is roughly nine people for every square kilometre. Among Scotland's council areas, only the Western Isles are emptier.
 
-P1: Now cross the North Sea to the west coast of Norway. The county of Vestland is somewhat larger, and it is made of the same ancient rock. It faces the same Atlantic storms. In fact, Bergen, its capital, gets almost twice as much rain as the Great Glen. Yet Vestland has more than six hundred thousand people, about twice as many to every square kilometre, and Bergen alone is home to close to three hundred thousand.
+P1: Now cross the North Sea to the west coast of Norway. The county of Vestland is somewhat larger, and it is made of the same ancient rock. It faces the same Atlantic storms. In fact, Bergen, its biggest city, gets almost twice as much rain as the Great Glen. Yet Vestland has more than six hundred thousand people, about twice as many to every square kilometre, and Bergen alone is home to close to three hundred thousand.
 
 P1b: Put the two side by side and the gap is hard to miss. Vestland has about nineteen people for every square kilometre. The Highlands have nine. Both coasts are wet, steep and cut by long arms of the sea. One filled up. The other emptied.
 
@@ -76,7 +76,7 @@ P24: The census shows what all of this did. Measured on today's council boundari
 
 P25: Not sheep, in the end. By the late eighteen-hundreds, wool prices were falling and many Highland sheep farms stopped paying. Landowners found a new use for the hills: hunting. Wealthy Victorians would pay well to stalk red deer, and estate after estate was turned into a deer forest, which, despite the name, usually has hardly any trees.
 
-P26: The landowners' own returns, read out in Parliament in eighteen ninety-three, counted about one point nine eight million acres of deer forest in eighteen eighty-three. By eighteen ninety-one, it was about two point five seven million. That is a quarter more land kept empty for sport in just eight years. A deer forest needs even fewer people than a sheep farm: a few stalkers, a gamekeeper and a lodge used for some weeks a year.
+P26: The landowners' own returns, read out in Parliament in eighteen ninety-three, counted about one point nine eight million acres of deer forest in eighteen eighty-three. By eighteen ninety-one, it was about two point five seven million. That is nearly a third more land kept empty for sport in just eight years. A deer forest needs even fewer people than a sheep farm: a few stalkers, a gamekeeper and a lodge used for some weeks a year.
 
 P26b: Two and a half million acres is about ten thousand square kilometres. That is roughly an eighth of Scotland's land, given over to a few weeks of stalking each autumn.
 
@@ -94,7 +94,7 @@ P31: In the Highlands, by contrast, almost everyone was a tenant on someone else
 
 P32: Scotland did try to bring life back. In August nineteen forty-three, Parliament created the North of Scotland Hydro-Electric Board, pushed through by Tom Johnston. Its motto was Gaelic: Neart nan Glean, power from the glens. In the decades that followed, it built dozens of power stations and dams, and electricity reached crofts that had never had it. By the nineteen-seventies, the Highland population had stopped falling. But the hydro schemes made power, not farms. The land itself stayed in very few hands.
 
-P32b: The board's engineers built dozens of schemes across the north. By most accounts, there were in the end fifty-four power stations, seventy-eight dams and some two hundred miles of tunnels. The first scheme to switch on, on the River Morar, started up in December nineteen forty-eight. Many of those dams still hold back the lochs you see in Highland postcards today.
+P32b: The board's engineers worked across the whole north. By most accounts, there were in the end fifty-four power stations, seventy-eight dams and some two hundred miles of tunnels. The first scheme to switch on, on the River Morar, started up in December nineteen forty-eight. Many of those dams still hold back the lochs you see in Highland postcards today.
 
 ## 8. Who Owns the Glens (tension)
 
@@ -102,7 +102,7 @@ P33: How few? According to the land researcher Andy Wightman, about four hundred
 
 P34: That began to change in a small way in nineteen ninety-three. In Assynt, in the far north-west, crofters bought the estate they lived on, about twenty-one thousand acres, for three hundred thousand pounds, about half of it raised from public donations. Four years later, in June nineteen ninety-seven, the residents of the Isle of Eigg became their own landlords.
 
-P34b: Eigg was bought by a partnership of its sixty-five residents, the Highland Council and the Scottish Wildlife Trust. Within a few years, the island had its own power grid, run on water, wind and sun. The people who had been tenants for centuries were now deciding what happened to their own land.
+P34b: Eigg was bought by a partnership of its sixty-five residents, the Highland Council and the Scottish Wildlife Trust. In two thousand and eight, the island switched on its own power grid, run on water, wind and sun. The people who had been tenants for centuries were now deciding what happened to their own land.
 
 P35: Those buyouts changed the law. The Land Reform Act of two thousand and three gave rural communities a right to buy. A community can register an interest in the land around it, and when the owner decides to sell, the community gets the first chance to buy. Since then, many more communities have bought the land they live on. And the Highland population has grown back, to about two hundred and thirty-five thousand in the last census.
 
@@ -110,7 +110,7 @@ P36: But it has not grown back to eighteen sixty-one. Young people still leave f
 
 ## Ending (calm)
 
-P37: So why is the Scottish Highlands so empty? The land made it hard: old rock scraped bare by ice, smothered in peat and soaked by Atlantic rain. But Norway shows that hard land does not empty itself. In the Highlands, the people never owned the ground they lived on. After Culloden, they became a cost. Sheep replaced them, famine and ships took them away, and deer forests kept the hills empty for sport.
+P37: So why are the Scottish Highlands so empty? The land made it hard: old rock scraped bare by ice, smothered in peat and soaked by Atlantic rain. But Norway shows that hard land does not empty itself. In the Highlands, the people never owned the ground they lived on. After Culloden, they became a cost. Sheep replaced them, famine and ships took them away, and deer forests kept the hills empty for sport.
 
 P38: Scotland is still debating how far to go. In recent years, its government has proposed new rules for the largest estates, including splitting them into smaller lots when they are sold. Supporters say breaking them up is the only way to bring people back to the glens. Opponents say the land is too poor to support many more farms, and that the estates pay for jobs and conservation.
 

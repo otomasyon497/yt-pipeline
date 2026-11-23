@@ -104,9 +104,10 @@ def backdrop(layer: str, box: tuple[float, float, float, float], px_width: int, 
     if layer == "day":  # baked-in grade (cheaper than a CSS filter on every frame); 0.8 -> 0.92 on 2026-11-13: episodes read too dark
         img = ImageEnhance.Color(ImageEnhance.Contrast(ImageEnhance.Brightness(img).enhance(0.92)).enhance(1.06)).enhance(1.0)
     img = _relief(img) if layer == "relief" else img.convert("RGBA")
-    if layer in ("day", "modis"):
+    if layer in ("day", "modis", "night"):
         # GIBS returns pure black where it has no data: Blue Marble past ~170 E in close 3857 requests (Russia's Far
-        # East render 2 showed a black strip and the world image beyond it), MODIS between swaths. Imagery is never
+        # East render 2 showed a black strip and the world image beyond it), Black Marble the same (render 3; its night
+        # ocean is ~14, no-data 0-2), MODIS between swaths. Imagery is never
         # that black, so those pixels become transparent and the world image under them shows.
         a = np.asarray(img, dtype=np.uint8).copy()
         hole = a[..., :3].max(axis=2) < 4

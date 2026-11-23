@@ -62,3 +62,51 @@ Each fact has its source; secondary sources are marked. Round 2 should open the 
 
 ## Ancient land and life
 - TODO round 2: Shark Bay stromatolites at Hamelin Pool (UNESCO 1991), Jack Hills zircons 4.4 billion years (paper).
+
+# Round 2 (2026-11-23)
+- R13 BoM Tropical Cyclone Knowledge Centre: "Australia's most cyclone-prone area is the north-west coast between
+  Broome and Exmouth. Tropical cyclones cross this coast more often than anywhere else around the continent."
+  BoM Exmouth page: Pilbara season mid-December to April, peaking in February and March.
+  https://www.bom.gov.au/resources/learn-and-explore/tropical-cyclone-knowledge-centre ; https://www.bom.gov.au/cyclone/history/wa/exmouth.shtml
+- R14 Marble Bar: maximum at or above 100 F (37.8 C) on 160 consecutive days, 31 Oct 1923 to 7 Apr 1924 (BoM
+  records page, "About Rainfall and Temperature Records"); the homogenised ACORN-SAT series gives a shorter run, so
+  say "on the Bureau's original records". https://www.bom.gov.au/climate/extreme/records/about.shtml
+- R15 Leeuwin Current: warm, poleward boundary current driven by the pressure gradient of the south-east Indian
+  Ocean; despite upwelling-favourable winds there is no large-scale upwelling off this coast (Pearce, CSIRO); the
+  only eastern boundary current that carries tropical heat to mid-latitudes (Domingues 2006 thesis); SST 4-6 C warmer
+  than upwelling eastern boundary systems at the same latitude (CSIRO study).
+- R16 Dampier, January 1688, north-west coast: in his 1697 account the soil is dry and sandy, with no water unless
+  wells are dug (australianculture.org transcription of the 1697 text); NMA: "unimpressed with the sandy, dry and
+  barren coast"; WA Maritime Museum: his disparaging view of the land long remained the common view. No quote card.
+- R17 Gascoyne River: ephemeral, mostly dry, fresh alluvial aquifer recharged in sporadic flows; sole fresh water
+  for Carnarvon town and the horticultural area, which since ~1928 became a major supplier of fruit and vegetables
+  for Perth; abstraction controls from the 1960s after groundwater decline and failed plantations (WA Government
+  Lower Gascoyne fact sheet / NGWA 2013 paper). "Upside-down river" nickname (Wikipedia, local usage).
+- R18 Port Hedland urban population 15,298 incl. South Hedland, 2021 Census (via Wikipedia/ABS UCL513004).
+- R19 Swan River Colony from 2 May 1829: only a narrow strip of alluvial soil along the Swan and Canning was good
+  farmland, the rest sandy; first reports disappointing; settler population only 5,886 by 1850 (Wikipedia, Swan River
+  Colony; attributed).
+- R20 Hamelin Pool, Shark Bay: World Heritage 13 Dec 1991; most diverse and abundant living stromatolites; the
+  microbes resemble fossils about 3.5 billion years old (Britannica; DBCA: "three billion years"). Say "billions".
+- R21 Mount Meharry 1,249 m, highest point of WA, in the Hamersley Range (Wikipedia; Geoscience Australia highest
+  mountains list: check). Gascoyne River ~865 km, longest in WA (Wikipedia: attributed). O'Connor faced sustained
+  press attacks before his death (Wikipedia C. Y. O'Connor; ADB). Kwinana desalination plant opened November 2006,
+  Southern Seawater (Binningup) 2011 (Water Corporation).
+- R22 Broome cyclone, March 1935: passed north of Broome and devastated the pearling fleet at the Lacepede Islands,
+  about 141 lives lost (BoM, Tropical Cyclones Affecting Broome); 21 luggers lost and 140 drowned (Federal Cabinet
+  report, April 1935, via Papers Past); crews largely Japanese and Malay (contemporary reports).
+  https://www.bom.gov.au/cyclone/history/wa/broome.shtml
+- R23 Vlamingh found Hartog's plate on Dirk Hartog Island in early February 1697, with the post almost rotted,
+  put up a new plate copying Hartog's text and adding his own, and took the original away; it reached Amsterdam via
+  Batavia and is in the Rijksmuseum (WA Museum, "Hartog & de Vlamingh"; Wikipedia Hartog Plate).
+- R24 Perth's share of WA: about one third in 1911, half by 1947 (Engineers Australia heritage page); ~80 % in
+  2023-24 (R2). Own chart: 1911 ~33 %, 1947 ~50 %, 2024 80 %.
+- R25 Groundwater: Gnangara Mound levels fell up to 10 m since 1980 in places, ~1,000 GL of storage lost (WA Gov,
+  Rebalancing our groundwater); Groundwater Replenishment Scheme at Craigie recharges up to 28 GL a year of purified
+  recycled water into deep aquifers (stage 2, Aug 2022); 100 GL recharged by March 2025 (Water Corporation).
+- R26 Hamelin Pool water about twice the salinity of normal seawater (DBCA / Shark Bay World Heritage fact sheet:
+  check exact wording in round 3; say "about twice"). Batavia wreck found 1963; part of the hull displayed at the WA
+  Shipwreck Galleries, Fremantle (WA Museum). Wittenoom ~3 Mt tailings in the gorge (WA Gov). Southern Seawater
+  Desalination Plant ~30 % of Perth's supply on average (Water Corporation). Pilbara Ports ~81 % of national iron ore
+  trade (R11).
+- R27 Beacon Island: most killings there; excavations (UWA/WA Museum, 2015-2018) found more graves (National Geographic; WA Museum audio tour).

@@ -1,0 +1,28 @@
+{
+ "photo": "File:Palm Jumeirah from Dubai Marina.jpg",
+ "focus": [
+  0.5,
+  0.5
+ ],
+ "zoom": 1.0,
+ "lines": [
+  {
+   "t": "58 KM²",
+   "color": "yellow"
+  },
+  {
+   "t": "OF NEW",
+   "color": "white"
+  },
+  {
+   "t": "LAND",
+   "color": "white"
+  }
+ ],
+ "text_at": [
+  0.04,
+  0.06
+ ],
+ "text_size": 170,
+ "underline": true
+}

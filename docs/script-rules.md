@@ -101,3 +101,14 @@ end CTA, the closing question as the pinned comment, never bend facts).
   follows, never more than two in a row.
 - Imagery is brighter since this date (sentinel.TONE_GAMMA, lighter Blue Marble grade and vignette); the frame audit
   flags map stretches darker than 22/255 for 3 s.
+
+## From the retention curves, second read (2026-11-23: docs/retention-2026-11-23.md, API audienceWatchRatio)
+- Known-place "why" hooks hold: still watching at ~0:45 Maine 69 %, Mongolia 83 %, against 50-60 % for the
+  news-style openings (Kansai, GERD) and 25 % for Colorado. Keep the scale-fact -> "But" -> question hook.
+- In the hook, one number per sentence and then the question: Mongolia lost 15 points at 0:36 on a run of
+  borders, sea distance and three census figures.
+- Side stories with their own dates and names lose a sixth of the room: Maine 5:48 (Acadian settlers of 1785,
+  -15 points), Maine 8:46 (potato history, -12), Mongolia 4:15 (the dinosaur-egg expedition, -15). Every
+  paragraph must answer the episode's question in its first sentence; a side story gets two sentences at most.
+- From about 60 % of the video the curve is flat at ~20 %: the people who reach the middle stay. The fight is
+  still the first five minutes.

@@ -5552,7 +5552,7 @@
   }
  ],
  "youtube": {
-  "title": "Indonesia Is Building a 575 km Wall Against the Sea",
+  "title": "Why Jakarta Is Sinking Into the Sea",
   "description": "Jakarta has sunk faster than almost any city on Earth. Indonesia's answers: a coastal wall that leaked in December 2025, a new capital cut out of the forest of Borneo that is still not the capital, and now a Giant Sea Wall of about 575 kilometres along Java's north coast, which began in October 2026 with a row of mangroves in Timbulsloko. We follow it from orbit with Landsat and Sentinel-2 images and measure the coast at Demak, where the sea has already taken the fields.",
   "tags": [
    "Jakarta",
@@ -5570,6 +5570,7 @@
    "Sentinel-2",
    "Java"
   ],
-  "pinned_comment": "With US$80 billion: build the 575 km wall, pipe clean water to every house so the pumping stops, or help the villages move inland?"
+  "pinned_comment": "With US$80 billion: build the 575 km wall, pipe clean water to every house so the pumping stops, or help the villages move inland?",
+  "title_before_repackage": "Indonesia Is Building a 575 km Wall Against the Sea"
  }
 }

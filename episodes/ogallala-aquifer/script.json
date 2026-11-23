@@ -4687,7 +4687,7 @@
   }
  ],
  "youtube": {
-  "title": "Kansas Rejected Farmers' Plan to Save Their Water",
+  "title": "Why Kansas and Texas Are Running Out of Water",
   "description": "From orbit, the circles of the High Plains look like a triumph: we measured far more green land near Dalhart, Texas in 2024 than in 1986. Below them, the water under eight states is falling, and on September 30, 2026 the Kansas chief engineer rejected the plan of the farmers around Garden City, saying levels would not stabilize in sixty years. We follow it from the Dust Bowl to the wells, the Texas law that lets the biggest pump win, and the Kansas farmers who cut their own water and proved it works.",
   "tags": [
    "Ogallala aquifer",
@@ -4703,6 +4703,7 @@
    "Garden City Kansas",
    "water crisis"
   ],
-  "pinned_comment": "Who should decide how fast the water goes: the farmers who own the wells, or the state?"
+  "pinned_comment": "Who should decide how fast the water goes: the farmers who own the wells, or the state?",
+  "title_before_repackage": "Kansas Rejected Farmers' Plan to Save Their Water"
  }
 }

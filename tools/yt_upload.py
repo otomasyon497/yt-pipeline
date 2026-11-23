@@ -8,7 +8,9 @@
 Reads %USERPROFILE%\\Videos\\yt-pipeline\\<slug>\\ (<slug>.mp4, youtube.txt, cover.jpg [else thumbnail_D.jpg] or cover_short.jpg).
 A video goes up only with an approved second-by-second audit of that exact render (tools/frame_audit.py).
 Private is fixed in the code on purpose, there is no option for anything else; --publish-at only schedules a private
-video for a time the user chose (used to replace a scheduled upload). Left for Studio: publishing, the pinned
+video for a time the user chose (used to replace a scheduled upload). `playlists` syncs docs/playlists.json (a new upload joins its playlists automatically); `repackage --video ID
+--slug-of SLUG` gives an old video the title in script.json and Videos/<slug>/cover.jpg (logged in docs/repackage-log.md).
+Left for Studio: publishing, Test & Compare covers (tools/package.py makes them), the pinned
 comment (the API cannot pin), end screens, a Short's cover if YouTube refuses it here.
 The write token is its own file, so the read-only analytics token stays read-only. Quota: 1 unit per upload in the
 upload bucket (100 a day), about 50 for a thumbnail.
@@ -177,10 +179,84 @@ def set_thumbnail(yt, vid: str, thumb: Path) -> bool:
         return False
 
 
+
+PLAYLISTS = ROOT / "docs" / "playlists.json"
+
+
+def playlist_ids(yt) -> dict:
+    found, token = {}, None
+    while True:
+        r = yt.playlists().list(part="snippet", mine=True, maxResults=50, pageToken=token).execute()
+        found.update({p["snippet"]["title"]: p["id"] for p in r.get("items", [])})
+        token = r.get("nextPageToken")
+        if not token:
+            return found
+
+
+def playlist_videos(yt, pl: str) -> list[str]:
+    found, token = [], None
+    while True:
+        r = yt.playlistItems().list(part="contentDetails", playlistId=pl, maxResults=50, pageToken=token).execute()
+        found += [i["contentDetails"]["videoId"] for i in r.get("items", [])]
+        token = r.get("nextPageToken")
+        if not token:
+            return found
+
+
+def sync_playlists(yt, only: dict | None = None, dry: bool = False) -> None:
+    """Create missing playlists (public) and append missing videos; `only` = {slug: id} limits it to new uploads."""
+    cfg = json.loads(PLAYLISTS.read_text(encoding="utf-8"))
+    ids = {**cfg["video_ids"], **(only or {})}
+    have = playlist_ids(yt)
+    for p in cfg["playlists"]:
+        want = [ids[s] for s in p["slugs"] if s in ids and (only is None or s in only)]
+        if not want:
+            continue
+        pl, new = have.get(p["title"]), False
+        if pl is None:
+            print(f"  playlist '{p['title']}': create (public)")
+            if dry:
+                print(f"    add {len(want)} videos")
+                continue
+            pl = yt.playlists().insert(part="snippet,status", body={
+                "snippet": {"title": p["title"], "description": p["description"], "defaultLanguage": "en"},
+                "status": {"privacyStatus": "public"}}).execute()["id"]
+            new = True
+        inside = [] if new else playlist_videos(yt, pl)  # a just-created playlist 404s on reads for a while
+        todo = [v for v in want if v not in inside]
+        print(f"  playlist '{p['title']}': {len(inside)} inside, adding {len(todo)}")
+        for v in todo if not dry else []:
+            yt.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": pl,
+                                      "resourceId": {"kind": "youtube#video", "videoId": v}}}).execute()
+
+
+def repackage(yt, vid: str, slug: str, dry: bool) -> None:
+    """New title (script.json youtube.title) and cover (Videos/<slug>/cover.jpg) for a video already on the channel."""
+    y = json.loads((ROOT / "episodes" / slug / "script.json").read_text(encoding="utf-8"))["youtube"]
+    thumb = VIDEOS / slug / "cover.jpg"
+    it = yt.videos().list(part="snippet", id=vid).execute()["items"][0]
+    sn = it["snippet"]
+    old = sn["title"]
+    print(f"{vid}: '{old}' -> '{y['title']}'; cover {thumb if thumb.exists() else 'NOT FOUND'}")
+    if len(y["title"]) > 100:
+        sys.exit("title over 100 characters")
+    if dry:
+        return print("Dry run: nothing was sent.")
+    body = {"id": vid, "snippet": {k: sn[k] for k in ("title", "description", "tags", "categoryId",
+                                                       "defaultLanguage", "defaultAudioLanguage") if k in sn}}
+    body["snippet"]["title"] = y["title"]
+    yt.videos().update(part="snippet", body=body).execute()
+    ok = thumb.exists() and set_thumbnail(yt, vid, thumb)
+    log = ROOT / "docs" / "repackage-log.md"
+    with log.open("a", encoding="utf-8") as f:
+        f.write(f"- {time.strftime('%Y-%m-%d')} {slug} ({vid}): '{old}' -> '{y['title']}'; cover {'set' if ok else 'NOT set'}\n")
+    print(f"  done; cover set: {ok}; logged in {log.name}")
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("slug", help="episode folder name, `auth`, or `reschedule` (with --video ID --publish-at TIME)")
+    ap.add_argument("slug", help="episode folder name, `auth`, `playlists`, `repackage`, `comment` or `reschedule`")
     ap.add_argument("--video", help="reschedule / comment: the video id")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true", help="upload even if a video with this title exists")
@@ -203,6 +279,12 @@ def main() -> None:
         r = yt.commentThreads().insert(part="snippet", body={"snippet": {"channelId": CHANNEL_ID, "videoId": a.video,
                                        "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
         return print(f"{a.video}: comment posted ({r['id']}); pin it in Studio")
+    if a.slug == "playlists":  # python tools/yt_upload.py playlists [--dry-run]
+        return sync_playlists(service(), dry=a.dry_run)
+    if a.slug == "repackage":  # python tools/yt_upload.py repackage --video ID --slug-of SLUG [--dry-run]
+        if not (a.video and a.slug_of):
+            sys.exit("repackage needs --video ID and --slug-of SLUG")
+        return repackage(service(), a.video, a.slug_of, a.dry_run)
     if a.slug == "reschedule":
         if not (a.video and a.publish_at):
             sys.exit("reschedule needs --video ID and --publish-at TIME")
@@ -267,6 +349,10 @@ def main() -> None:
           f"publishAt {got.get('publishAt')}")
     if publish_at and not got.get("publishAt"):
         print("WARNING: YouTube did not keep the schedule; set it in Studio.")
+    try:
+        sync_playlists(yt, only={a.slug: vid})
+    except Exception as e:  # the video is up; a playlist can be fixed with `yt_upload.py playlists`
+        print(f"WARNING: playlists not updated ({e}); run `python tools/yt_upload.py playlists`")
     if got["privacyStatus"] != PRIVACY:
         sys.exit(f"WARNING: the video is {got['privacyStatus']}, not {PRIVACY}. Check it in Studio now.")
 

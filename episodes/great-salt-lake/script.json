@@ -18,7 +18,7 @@
     "text": "NEAR RECORD LOW"
   },
   "youtube": {
-    "title": "Utah Once Pumped This Lake Into the Desert",
+    "title": "Why the Great Salt Lake Is Disappearing",
     "description": "On October 10, 2026, the Great Salt Lake fell to 4,189.4 feet, less than a foot above its all-time low, and Utah's officials say one more dry winter would make a new record in 2027 unavoidable. Forty years ago the same lake was flooding, and the state pumped it into the desert. We follow the water from the 1980s flood to today's exposed lakebed: what drained it, what its dust may mean for the Wasatch Front, and what it would take to refill it.\n\nReal Copernicus Sentinel-2 and NASA MODIS images, USGS lake-level data and our own calculations.",
     "tags": [
       "Great Salt Lake",
@@ -32,7 +32,8 @@
       "water rights"
     ],
     "pinned_comment": "Who should give up water first so the Great Salt Lake can recover: the farms, the cities, or no one at all? Where do you stand?",
-    "title_v1": "How the Great Salt Lake Lost 22 Feet"
+    "title_v1": "How the Great Salt Lake Lost 22 Feet",
+    "title_before_repackage": "Utah Once Pumped This Lake Into the Desert"
   },
   "chapters": [
     {

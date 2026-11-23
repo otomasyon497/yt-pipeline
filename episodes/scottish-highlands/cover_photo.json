@@ -1,13 +1,70 @@
 {
  "photo": "File:The Three Sisters Valley, Glencoe, Scotland - 53744377929.jpg",
- "focus": [0.55, 0.5],
+ "focus": [
+  0.55,
+  0.5
+ ],
  "zoom": 1.0,
  "lines": [
-  {"t": "EMPTIER", "color": "white"},
-  {"t": "THAN", "color": "yellow"},
-  {"t": "NORWAY", "color": "white"}
+  {
+   "t": "EMPTIER",
+   "color": "white"
+  },
+  {
+   "t": "THAN",
+   "color": "yellow"
+  },
+  {
+   "t": "NORWAY",
+   "color": "white"
+  }
  ],
- "text_at": [0.04, 0.05],
+ "text_at": [
+  0.04,
+  0.05
+ ],
  "text_size": 165,
- "underline": true
+ "underline": true,
+ "variants": [
+  {
+   "photo": "File:The Quiraing, Isle of Skye, Scotland.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "text_size": 190,
+   "lines": [
+    {
+     "t": "ONLY 9",
+     "color": "yellow"
+    },
+    {
+     "t": "PER KM²",
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "photo": "File:Village Bay St Kilda7.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "text_size": 170,
+   "lines": [
+    {
+     "t": "THEY",
+     "color": "white"
+    },
+    {
+     "t": "EMPTIED",
+     "color": "yellow"
+    },
+    {
+     "t": "IT",
+     "color": "white"
+    }
+   ]
+  }
+ ]
 }

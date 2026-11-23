@@ -1,6 +1,6 @@
 {
  "legacy_length": true,
-"title": "Out of the Sea",
+ "title": "Out of the Sea",
  "voice": "am_michael",
  "music": "procedural",
  "map_style": "satellite",
@@ -15,7 +15,7 @@
   "text": "IS IT SINKING?"
  },
  "youtube": {
-  "title": "In 25 Years, Dubai Built a Manhattan in the Sea",
+  "title": "How Dubai Built New Land Out of the Sea",
   "description": "In May 2001 the coast of Dubai was a straight line of sand. By September 2026 it had two palm-shaped islands, a map of the world made of about 300 islands, and a fourth archipelago. We measured the new land ourselves from Landsat images: about 58 square kilometres, roughly the size of Manhattan. How it was built, the 2009 debt crisis that froze it, whether it is sinking, and why the building has started again.\n\nReal Landsat and Copernicus Sentinel-2 images, NASA astronaut photographs and our own measurements.",
   "tags": [
    "Dubai",
@@ -29,7 +29,8 @@
    "Landsat",
    "Dubai World debt crisis"
   ],
-  "pinned_comment": "Would you live on land that was open sea 25 years ago? Yes, no, or only on the first palm?"
+  "pinned_comment": "Would you live on land that was open sea 25 years ago? Yes, no, or only on the first palm?",
+  "title_before_repackage": "In 25 Years, Dubai Built a Manhattan in the Sea"
  },
  "chapters": [
   {

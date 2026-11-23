@@ -5701,7 +5701,7 @@
   }
  ],
  "youtube": {
-  "title": "Louisiana Had a Plan to Save Its Coast. It Cancelled It",
+  "title": "Why Louisiana Is Disappearing Into the Sea",
   "description": "Louisiana has lost about 2,000 square miles of land since 1932. In 2016 the US paid for the first time to move a whole community, Isle de Jean Charles, away from the sea; in 2025 the state cancelled the Mid-Barataria sediment diversion after spending $618 million. From orbit with Landsat and Sentinel-2 images we follow the island, Barataria Bay, the Bird's Foot delta at the end of Highway 23, LA-1 to Port Fourchon, and the Wax Lake and Atchafalaya deltas, the one place where the coast still grows, and measure the land ourselves.",
   "tags": [
    "Louisiana",
@@ -5719,6 +5719,7 @@
    "Landsat",
    "Sentinel-2"
   ],
-  "pinned_comment": "Open the river and change the fishing towns for good, or keep today's coast and watch it shrink?"
+  "pinned_comment": "Open the river and change the fishing towns for good, or keep today's coast and watch it shrink?",
+  "title_before_repackage": "Louisiana Had a Plan to Save Its Coast. It Cancelled It"
  }
 }

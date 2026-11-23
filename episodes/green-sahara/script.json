@@ -4775,7 +4775,7 @@
   }
  ],
  "youtube": {
-  "title": "When the Sahara Was Green",
+  "title": "Why the Sahara Was Once Green",
   "description": "About ten thousand years ago the Sahara was not a desert. It had lakes, one of them the size of the Caspian Sea, rivers flowing toward the Nile, hippos, crocodiles, fishers and cattle herders. This video follows the clues in the rock art, the graves and the dry riverbeds, explains how a slow wobble of the Earth brought the monsoon rains north and then took them away, and shows what the green Sahara left behind: dust that feeds the Amazon and ancient water under the sand.",
   "tags": [
    "Sahara",
@@ -4792,6 +4792,7 @@
    "geography",
    "satellite images"
   ],
-  "pinned_comment": "If you could visit the green Sahara for one day, ten thousand years ago, where would you go: fishing on Lake Mega-Chad, along the Yellow Nile with the herders, or to the painters at Tassili?"
+  "pinned_comment": "If you could visit the green Sahara for one day, ten thousand years ago, where would you go: fishing on Lake Mega-Chad, along the Yellow Nile with the herders, or to the painters at Tassili?",
+  "title_before_repackage": "When the Sahara Was Green"
  }
 }

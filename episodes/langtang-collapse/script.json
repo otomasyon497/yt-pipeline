@@ -5091,7 +5091,7 @@
   }
  ],
  "youtube": {
-  "title": "Nepal's Flood Warning Came 38 Minutes Too Late",
+  "title": "How a Falling Glacier Flooded a Valley in Nepal",
   "description": "On 26 August 2026 a block of ice and rock broke off Langtang Lirung, on Nepal's border with Tibet, and became a flood that ran about 100 km down the Bhotekoshi and Trishuli rivers. We follow it from orbit with Sentinel-2 and Landsat images: the scar on the mountain, the border crossing at Rasuwagadhi, the 38 minutes before the text alerts, the same valley's disasters in 2015 and 2025, the hydropower tunnels in its path, and what the shrinking glaciers of the Himalaya mean for the next valley.",
   "tags": [
    "Nepal flood",
@@ -5107,6 +5107,7 @@
    "Nepal Tibet",
    "early warning"
   ],
-  "pinned_comment": "Who should watch the ice above a river two countries share, and who should have the power to pull the alarm?"
+  "pinned_comment": "Who should watch the ice above a river two countries share, and who should have the power to pull the alarm?",
+  "title_before_repackage": "Nepal's Flood Warning Came 38 Minutes Too Late"
  }
 }

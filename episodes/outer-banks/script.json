@@ -4622,7 +4622,7 @@
   }
  ],
  "youtube": {
-  "title": "32 Houses Fell Into the Atlantic. Insurance Paid Only After",
+  "title": "Why Houses Keep Falling Into the Sea in North Carolina",
   "description": "Since 2020, 32 houses have collapsed into the Atlantic on Cape Hatteras National Seashore, 20 in Buxton and 12 in Rodanthe. We measured the shoreline in Landsat images from 1985 to 2026: at Rodanthe it moved about 155 metres inland. We follow the lighthouse that was moved in 1999, Highway 12 and its bridges and closures in autumn 2026, the flood-insurance rule that pays only after a house falls, and the choice between pumping sand and moving back.",
   "tags": [
    "Outer Banks",
@@ -4639,6 +4639,7 @@
    "satellite images",
    "Landsat"
   ],
-  "pinned_comment": "Owner, county or insurer: who should decide when a house on a collapsing shore comes down?"
+  "pinned_comment": "Owner, county or insurer: who should decide when a house on a collapsing shore comes down?",
+  "title_before_repackage": "32 Houses Fell Into the Atlantic. Insurance Paid Only After"
  }
 }

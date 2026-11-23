@@ -48,3 +48,24 @@ Title: "Why Almost Nobody Lives on Washington's Wild Coast" (alt "The Rainforest
 6. The river they dammed and set free: Elwha 1913-2014, salmon, sediment, the largest dam removal.
 7. 26 January 1700: ghost forests, Makah and Quileute stories, a tsunami with no parent in Japan, how it was dated.
 8. The next one: Cascadia odds, coastal towns, tsunami towers (CHECK), closing question.
+
+# Round 2 (2026-11-23): primary sources
+- V (NPS "Olympic Fun Facts", updated 13 Feb 2025): 922,651 acres; 876,447 acres (95 %) designated wilderness; "73 miles
+  of wilderness coast"; 32 named glaciers; >3,000 miles of rivers; 2,947,503 recreational visits (2023). Use 73 miles (NPS).
+- V (NPS history page, 9 Jun 2026): monument 1909, park 1938; people on the peninsula "for more than 13,500 years".
+  The year the coast strip was added (1953?) NOT confirmed -> do not state.
+- V (PNSN CSZ page): M9+ quakes in the past; last 26 Jan 1700, M8.7-9.2; "at least 19 great earthquakes (M8+) ... over the
+  past ~10,000 years", average ~500 years; "The USGS estimates a 10-15% chance of a full-margin ~M9 ... in the next 50 years."
+- V (PNSN 1700 page): tsunami reached Japan "unaccompanied by strong ground shaking"; ~9 h across the Pacific; quake ~9 pm
+  Cascadia (05:00 27 Jan UTC); tree rings (Yamaguchi et al.) show trees died winter 1699-1700; ghost forests killed when the
+  coast "suddenly dropped 1-2 meters (3.3-6.6 feet)".
+- V (WA DNR tsunamis): Cascadia tsunami "Time to evacuate: Tens of minutes" for Pacific coastal communities; "The first
+  vertical tsunami evacuation structure in North America ... Ocosta School District at Westport ... designed to hold 1,000
+  people above the gymnasium." A (Wikipedia, Seattle Times 9 Jun 2016): dedicated 11 Jun 2016, 53 ft above sea level.
+- A (Wikipedia North Cove, citing NBC News 2018 and WA Coastal Hazards Resilience Network 2017): Washaway Beach / North Cove
+  "over 100 feet ... per year", "fastest-eroding shoreline on the West Coast"; by 2016, 60 homes and 537 parcels, >2,018 acres
+  lost. Use attributed ("NBC News reported") or as "by one count". Rival's 837->20 acres not confirmed -> drop.
+- Not found: USGS/NOAA Elwha pages (404). Elwha numbers stay at NPS (largest US dam removal, 2011-2014) + WDFW via
+  Wikipedia (392,000 fish -> <3,000). Sediment 10.5 Mt uncited -> drop or attribute. CHECK returns since 2014 if possible.
+- Kalaloch relocation: NPS page 404 -> keep generic ("bluffs are retreating; the park has moved facilities back") only if
+  sourced; otherwise cut.

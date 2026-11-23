@@ -7,6 +7,8 @@ P1: Now drive around the mountains to the other side of the same peninsula, to t
 
 P2: The same mountains make both. And they also help explain something stranger. Washington is home to nearly eight million people, and most of them live just a few hours' drive from the Pacific. Yet the state's ocean coast is almost empty. There are no beach cities, no coastal highway that follows the surf, and seventy-three miles of the shore are protected wilderness with no road at all.
 
+P2b: The census shows the gap. In twenty twenty, King County, home to Seattle, had more than a thousand people per square mile. Clallam County, across most of the northern peninsula, had about forty-four. Jefferson County, which reaches from Puget Sound over the mountains to the Pacific, had about eighteen. And even on the peninsula, the biggest towns, Port Angeles and Port Townsend, sit on the strait and the sound, not on the ocean.
+
 P3: Why did one of the busiest states on the West Coast leave its ocean almost untouched? The answer runs through rain, rock and timber, through two dams on a salmon river, and back to one winter night in the year seventeen hundred, a night that was written down on the other side of the Pacific, in Japan. And it ends with a question about the next one.
 
 ## 1. The Mountain That Makes the Weather (calm)
@@ -41,6 +43,8 @@ P14: In nineteen-oh-nine, President Theodore Roosevelt set aside the heart of th
 P15: In nineteen thirty-eight, the monument became Olympic National Park. Over the years, a narrow strip of the Pacific shore was added to it. Today, according to the park service, the park covers about nine hundred and twenty-two thousand acres, and ninety-five percent of it is designated wilderness, including seventy-three miles of wilderness coast.
 
 P16: On that coast, there are no beachfront hotels, no harbors and no road along the water. You walk. Hikers carry tide tables, because some headlands can only be passed at low tide. Sea stacks stand offshore, the remains of old cliffs the ocean has cut away.
+
+P16b: People come anyway. The park service counted almost three million recreational visits in twenty twenty-three. They come for the rainforest, the mountains and the beaches, and then most of them drive home. People have lived on this peninsula far longer than the park has existed: more than thirteen thousand five hundred years, according to the park service. Today, the Makah, the Quileute, the Hoh and the Quinault still have reservations on this coast.
 
 P17: Inside the park, nobody can build a town. Outside it, much of the land belongs to tribes, to the state, and to timber companies. In nineteen eighty-one, the park became a UNESCO World Heritage Site. The emptiness of this coast is not an accident. It was chosen. And it was chosen in the middle of a fight over the one thing everyone here wanted from the forest.
 
@@ -83,6 +87,8 @@ P31: The people of this coast had their own record of that night. Makah stories 
 
 ## 7. The Next One (tension)
 P32: The fault that broke in seventeen hundred is the Cascadia subduction zone, where the ocean floor slides under North America just off this coast. The Pacific Northwest Seismic Network says the geological record shows at least nineteen great earthquakes over the past ten thousand years, on average about every five hundred years. The last one was in seventeen hundred.
+
+P32b: Studies of the buried marshes suggest the gaps are far from regular, from about three hundred to about nine hundred years. So a five-hundred-year average does not mean the next one is centuries away. By twenty twenty-six, it has been three hundred and twenty-six years since the last one.
 
 P33: Nobody can say when the next one will come. The United States Geological Survey puts the chance of a full rupture, a magnitude nine, at ten to fifteen percent in the next fifty years. When it comes, the tsunami will not take nine hours. Washington's natural resources department says people on the Pacific coast will have tens of minutes to get to high ground.
 

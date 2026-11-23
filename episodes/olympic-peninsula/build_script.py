@@ -184,6 +184,9 @@ PH_QUINAULT2 = "File:Hoh Rain Forest - 54018551112.jpg"
 PH_ONP2023 = "File:Olympic National Park, 2023 - 002.jpg"
 PH_WESTPORT_NARA = "File:WASHINGTON-WESTPORT - NARA - 545162.jpg"
 PH_LAKECRES = "File:Lake Crescent Recreation.JPG"
+PH_HOH_D = "File:Hoh Rain Forest - 54018563472.jpg"
+PH_RIALTO_D = "File:Rialto Beach - 54019750719.jpg"
+PH_RIALTO_E = "File:Rialto Beach - 54019846500.jpg"
 
 # ------------------------------------------------------------------ places
 HOH = place("Hoh", -123.93, 47.86, "Hoh rainforest", icon="water")
@@ -201,6 +204,9 @@ NCOVE = place("North Cove", -124.07, 46.73, "North Cove (Washaway Beach)", icon=
 WESTPORT = place("Westport", -124.10, 46.88, "Westport", "city")
 LAPUSH = place("La Push", -124.64, 47.91, "La Push", "site")
 NEAH = place("Neah Bay", -124.62, 48.37, "Neah Bay", "site")
+PT = place("Port Townsend", -122.76, 48.12, "Port Townsend", "port")
+HOH_RES = place("Hoh Reservation", -124.42, 47.74, "Hoh", "site")
+TAHOLAH = place("Taholah", -124.29, 47.35, "Taholah (Quinault)", "site")
 ABERDEEN = place("Aberdeen", -123.81, 46.98, "Aberdeen", "port")
 OTSUCHI = place("Otsuchi", 141.88, 39.36, "Otsuchi", "site")
 KUWA = place("Kuwagasaki", 141.96, 39.64, "Kuwagasaki (Miyako)", "site")
@@ -245,6 +251,13 @@ chapter(
       photo("Yet the state's ocean", PH_RIALTO_PANO, "Rialto Beach, Olympic coast"),
       photo("There are no beach", PH_RUBY_ROCKS, "Ruby Beach"),
       stat("and seventy-three miles of", "73 MILES", "Of wilderness coast in Olympic National Park", NPS)),
+    P("P2b",
+      m(0, v({"lon": -122.3, "lat": 47.5, "span": 1.4}, places=[SEATTLE])),
+      stat("had more than a thousand", "1,073", "People per square mile, King County (Seattle), 2020", CENSUS),
+      stat("Clallam County, across most", "44", "People per square mile, Clallam County, 2020", CENSUS),
+      stat("Jefferson County, which reaches", "18", "People per square mile, Jefferson County, 2020", "U.S. Census 2020 (own: 32,977 / 1,804 sq mi)"),
+      m("And even on the", v({"lon": -123.1, "lat": 48.0, "span": 2.2}, places=[PA, PT])),
+      sat("not on the ocean.", -124.55, 47.80, 0.4, "The outer coast", date=SUMMER25)),
     P("P3",
       photo(0, PH_RUBY_SUN, "Ruby Beach at sunset"),
       photo("The answer runs through", PH_FORKS_1981, "Forks, 1981"),
@@ -339,6 +352,13 @@ chapter(
       photo(0, PH_RIALTO1, "Rialto Beach"),
       sat("You walk. Hikers carry", -124.64, 47.92, 0.15, "La Push and Rialto Beach", date=SUMMER25),
       photo("Sea stacks stand offshore,", PH_RUBY_SUN, "Sea stacks, Ruby Beach")),
+    P("P16b",
+      stat(0, "~2.9 MILLION", "Recreational visits to Olympic National Park, 2023", NPS),
+      photo("They come for the", PH_HOH_D, "Hoh rainforest"),
+      photo("and then most of", PH_RIALTO_D, "Rialto Beach"),
+      sat("People have lived on", -124.60, 48.36, 0.1, "Neah Bay", date=SUMMER25),
+      stat("more than thirteen thousand", "13,500+ YEARS", "People living on the Olympic Peninsula", NPS),
+      m("Today, the Makah, the", v({"lon": -124.4, "lat": 47.85, "span": 1.9}, places=[NEAH, LAPUSH, HOH_RES, TAHOLAH]))),
     P("P17",
       m(0, v(PEN, places=[NEAH, LAPUSH, FORKS])),
       photo("In nineteen eighty-one, the", PH_QUINAULT2, "Olympic rainforest"),
@@ -451,6 +471,11 @@ chapter(
       stat("at least nineteen great", "19", "Great (M8+) Cascadia earthquakes in ~10,000 years", PNSN),
       stat("on average about every", "~500 YEARS", "Average gap between great Cascadia earthquakes", PNSN),
       photo("The last one was", PH_QUINAULT, "Rainforest canopy, Quinault valley (NPS)")),
+    P("P32b",
+      sat(0, -124.02, 46.62, 0.3, "Willapa Bay marshes", date=SUMMER25),
+      stat("from about three hundred", "300-900 YEARS", "Gaps between great Cascadia earthquakes", "Atwater et al. 2005 (via Wikipedia)"),
+      photo("So a five-hundred-year average", PH_RIALTO_E, "Rialto Beach"),
+      stat("By twenty twenty-six, it", "326 YEARS", "Since the last great Cascadia earthquake (as of 2026)", "Own: 2026 - 1700")),
     P("P33",
       stat(0, "10-15 %", "Chance of a full-margin ~M9 in the next 50 years", USGS_P),
       photo("The United States Geological", PH_ISS_OZETTE, "The outer coast from the ISS, 2024 (NASA)"),

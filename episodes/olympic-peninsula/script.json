@@ -315,6 +315,121 @@
      ]
     },
     {
+     "text": "The census shows the gap. In twenty twenty, King County, home to Seattle, had more than a thousand people per square mile. Clallam County, across most of the northern peninsula, had about forty-four. Jefferson County, which reaches from Puget Sound over the mountains to the Pacific, had about eighteen. And even on the peninsula, the biggest towns, Port Angeles and Port Townsend, sit on the strait and the sound, not on the ocean.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -122.3,
+           "lat": 47.5,
+           "span": 1.4
+          },
+          "places": [
+           {
+            "name": "Seattle",
+            "lon": -122.33,
+            "lat": 47.61,
+            "kind": "city",
+            "label": "Seattle"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "had more than a thousand",
+       "stat": {
+        "value": "1,073",
+        "label": "People per square mile, King County (Seattle), 2020",
+        "source": "U.S. Census 2020"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Clallam County, across most",
+       "stat": {
+        "value": "44",
+        "label": "People per square mile, Clallam County, 2020",
+        "source": "U.S. Census 2020"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Jefferson County, which reaches",
+       "stat": {
+        "value": "18",
+        "label": "People per square mile, Jefferson County, 2020",
+        "source": "U.S. Census 2020 (own: 32,977 / 1,804 sq mi)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "And even on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -123.1,
+           "lat": 48.0,
+           "span": 2.2
+          },
+          "places": [
+           {
+            "name": "Port Angeles",
+            "lon": -123.43,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Angeles"
+           },
+           {
+            "name": "Port Townsend",
+            "lon": -122.76,
+            "lat": 48.12,
+            "kind": "port",
+            "label": "Port Townsend"
+           }
+          ]
+         },
+         {
+          "at": 59,
+          "view": {
+           "lon": -123.1,
+           "lat": 48.0,
+           "span": 2.05
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "not on the ocean.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.55,
+           "lat": 47.8,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The outer coast"
+      }
+     ]
+    },
+    {
      "text": "Why did one of the busiest states on the West Coast leave its ocean almost untouched? The answer runs through rain, rock and timber, through two dams on a salmon river, and back to one winter night in the year seventeen hundred, a night that was written down on the other side of the Pacific, in Japan. And it ends with a question about the next one.",
      "shots": [
       {
@@ -1690,6 +1805,113 @@
        "at": "Sea stacks stand offshore,",
        "photo": "File:Sunset at Ruby Beach (Olympic Peninsula, Washinton, USA).jpg",
        "on_screen_text": "Sea stacks, Ruby Beach"
+      }
+     ]
+    },
+    {
+     "text": "People come anyway. The park service counted almost three million recreational visits in twenty twenty-three. They come for the rainforest, the mountains and the beaches, and then most of them drive home. People have lived on this peninsula far longer than the park has existed: more than thirteen thousand five hundred years, according to the park service. Today, the Makah, the Quileute, the Hoh and the Quinault still have reservations on this coast.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~2.9 MILLION",
+        "label": "Recreational visits to Olympic National Park, 2023",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "They come for the",
+       "photo": "File:Hoh Rain Forest - 54018563472.jpg",
+       "on_screen_text": "Hoh rainforest"
+      },
+      {
+       "type": "photo",
+       "at": "and then most of",
+       "photo": "File:Rialto Beach - 54019750719.jpg",
+       "on_screen_text": "Rialto Beach"
+      },
+      {
+       "type": "map",
+       "at": "People have lived on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.6,
+           "lat": 48.36,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Neah Bay"
+      },
+      {
+       "type": "stat",
+       "at": "more than thirteen thousand",
+       "stat": {
+        "value": "13,500+ YEARS",
+        "label": "People living on the Olympic Peninsula",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Today, the Makah, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.4,
+           "lat": 47.793,
+           "span": 4.397
+          },
+          "places": [
+           {
+            "name": "Neah Bay",
+            "lon": -124.62,
+            "lat": 48.37,
+            "kind": "site",
+            "label": "Neah Bay"
+           },
+           {
+            "name": "La Push",
+            "lon": -124.64,
+            "lat": 47.91,
+            "kind": "site",
+            "label": "La Push"
+           },
+           {
+            "name": "Hoh Reservation",
+            "lon": -124.42,
+            "lat": 47.74,
+            "kind": "site",
+            "label": "Hoh"
+           },
+           {
+            "name": "Taholah",
+            "lon": -124.29,
+            "lat": 47.35,
+            "kind": "site",
+            "label": "Taholah (Quinault)"
+           }
+          ]
+         },
+         {
+          "at": 65,
+          "view": {
+           "lon": -124.4,
+           "lat": 47.85,
+           "span": 1.178
+          }
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
@@ -3392,6 +3614,53 @@
        "at": "The last one was",
        "photo": "File:Dense forest canopy quinault rainforest c bubar march 05 2015 (22655664738).jpg",
        "on_screen_text": "Rainforest canopy, Quinault valley (NPS)"
+      }
+     ]
+    },
+    {
+     "text": "Studies of the buried marshes suggest the gaps are far from regular, from about three hundred to about nine hundred years. So a five-hundred-year average does not mean the next one is centuries away. By twenty twenty-six, it has been three hundred and twenty-six years since the last one.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -124.02,
+           "lat": 46.62,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Willapa Bay marshes"
+      },
+      {
+       "type": "stat",
+       "at": "from about three hundred",
+       "stat": {
+        "value": "300-900 YEARS",
+        "label": "Gaps between great Cascadia earthquakes",
+        "source": "Atwater et al. 2005 (via Wikipedia)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So a five-hundred-year average",
+       "photo": "File:Rialto Beach - 54019846500.jpg",
+       "on_screen_text": "Rialto Beach"
+      },
+      {
+       "type": "stat",
+       "at": "By twenty twenty-six, it",
+       "stat": {
+        "value": "326 YEARS",
+        "label": "Since the last great Cascadia earthquake (as of 2026)",
+        "source": "Own: 2026 - 1700"
+       }
       }
      ]
     },

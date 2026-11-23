@@ -300,7 +300,7 @@ chapter(
       photo("and Bergen alone is", PH_BRYGGEN, "Bryggen, Bergen")),
     P("P1b",
       photo(0, PH_HARDANGER, "Hardangerfjord, Vestland"),
-      chart("Vestland has about nineteen", "People per km²", "people / km²", [["Vestland", 19], ["Highland", 9]], "SSB; NRS (own division)"),
+      chart("Vestland has about nineteen", "People per km²", "", [["Vestland", 19], ["Highland", 9]], "SSB; NRS (own division)"),
       photo("Both coasts are wet,", PH_SOGNE, "Sognefjord, Vestland"),
       photo("cut by long arms", PH_ARDVRECK, "Loch Assynt, Sutherland"),
       photo("The other emptied.", PH_SHIELINGS, "Ruined shielings, Sutherland")),
@@ -385,7 +385,7 @@ chapter(
     P("P12",
       photo(0, PH_NAEROY2, "Nærøyfjord, Vestland"),
       photo("So the land made", PH_CUILLIN, "The Cuillin, Skye"),
-      m("To understand what did,", v({"lon": -4.3, "lat": 57.4, "span": 3.0}, places=[CULLODEN]))),
+      m("To understand what did,", v({"lon": -4.15, "lat": 57.6, "span": 2.8}, places=[CULLODEN]))),
 )
 
 chapter(
@@ -402,7 +402,7 @@ chapter(
       photo("between the first shots", PH_LEANACH, "Leanach Cottage, Culloden Moor"),
       stat("It was the last", "1746", "The last pitched battle on British soil", "Wikipedia (Battle of Culloden)")),
     P("P15",
-      m(0, v({"lon": -4.6, "lat": 57.2, "span": 2.7}, places=[CULLODEN, INVERNESS])),
+      m(0, v({"lon": -3.9, "lat": 57.65, "span": 3.4}, places=[CULLODEN, INVERNESS])),
       photo("The government banned Highland", PH_GLENCOE2, "Glencoe"),
       photo("and pushed more military", PH_URQUHART, "Urquhart Castle, Loch Ness"),
       photo("But the biggest change", PH_DUNROBIN, "Dunrobin Castle, Sutherland"),
@@ -470,7 +470,7 @@ chapter(
       m("in a colony with", v({"lon": -63.0, "lat": 45.3, "span": 6.0}, places=[PICTOU]))),
     P("P24",
       photo(0, PH_ACHNAHAIRD, "Achnahaird Bay"),
-      chart("Measured on today's council", "Highland population", "people", [["1801", 175368], ["1861", 253534], ["1911", 188667], ["1971", 161631], ["2021", 235336]],
+      chart("Measured on today's council", "Highland population", "", [["1801", 175368], ["1861", 253534], ["1911", 188667], ["1971", 161631], ["2021", 235336]],
             VOB, highlight=3, reveal=["peaked at about two", "By nineteen seventy-one it", "That is more than a"]),
       photo("while Scotland as a", PH_LOMOND, "Loch Lomond"),
       photo("So when the people", PH_TORRIDON, "Torridon")),

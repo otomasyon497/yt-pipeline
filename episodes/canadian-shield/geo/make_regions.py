@@ -41,7 +41,10 @@ def write(name, label, g, tol=0.03):
 
 zones = {k.strip(): v for k, v in load(sys.argv[1], "ZONE_NAME").items()}
 regions = load(sys.argv[2], "ECOREGION")
-write("mixedwood.geojson", "Great Lakes-St Lawrence lowlands", zones["MixedWood Plain"])
+sys.path.insert(0, str(HERE.parents[2] / "pipeline"))
+import geo  # noqa: E402
+canada = unary_union([g for pp, g in geo.ne_geoms("ne_10m_admin_0_countries") if pp.get("ADM0_A3") == "CAN"])
+write("mixedwood.geojson", "Great Lakes-St Lawrence lowlands", zones["MixedWood Plain"].intersection(canada))  # land only (the ecozone takes in lake water)
 write("prairie.geojson", "The Prairies", zones["Prairie"])
 write("hudsonbay_low.geojson", "Hudson Bay Lowlands", zones["Hudson Plain"])
 write("claybelt.geojson", "The Great Clay Belt (approx.)", regions[96], tol=0.01)

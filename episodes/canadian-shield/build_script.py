@@ -64,7 +64,9 @@ def v(view, at=None, **kw):
 
 SAT_MIN_SPAN = 0.08
 SU = "2025-07-01/2025-08-31"    # northern summer 2025: scratch cssat 2026-11-24, clear on the Ontario/Quebec/Finland views
-S24 = "2024-07-01/2024-08-31"   # summer 2024: Churchill, Pine Point, Churchill Falls (2025 had wildfire smoke there)
+S24 = "2024-07-01/2024-08-31"
+CH1 = "2024-07-23/2024-07-23"   # Churchill: one clear day (the two-day mosaic had a seam)
+HB1 = "2025-08-06/2025-08-06"   # Haileybury: one day   # summer 2024: Churchill, Pine Point, Churchill Falls (2025 had wildfire smoke there)
 
 
 def sat(at, lon, lat, span, label=None, date=SU, **kw):
@@ -150,7 +152,7 @@ PH_TONNERRE = "Riviere au Tonnerre 032.jpg"
 PH_BOG = "Bog in Northern Ontario.jpg"
 PH_STRAIGHT = "Straight Lake, Timiskaming District, Ontario.jpg"
 PH_TBAY_SUNSET = "Thunder Bay Ontario.jpg"
-PH_SUPERIOR = "North Shore of Lake Superior (35840825081).jpg"
+PH_KENORA_QUAY = "Quay of Kenora, Ontario (0068).jpg"
 PH_SLAVE = "UtsingiPoint-GreatSlaveLake.JPG"
 PH_STRIAE = "Glacial striations (Straight Lake West roadcut, north of Temagami, Ontario, Canada) (40859886953).jpg"
 PH_HEL_AIR = "Aerial photograph of Helsinki, Finland, 2020 May.jpg"
@@ -318,12 +320,12 @@ chapter(
       photo("In most places, the", PH_TONNERRE, "Rivière au Tonnerre, Quebec"),
       photo("Here, those layers are", PH_GNEISS, "Gneiss, near Sudbury"),
       m("What you stand on", v(SOUTH_EDGE, places=[SUDBURY, TBAY])),
-      photo("is Precambrian rock, more", PH_SUPERIOR, "North shore of Lake Superior"),
+      photo("is Precambrian rock, more", PH_SHIELD_CUT, "Shield rock, Ontario"),
       stat("more than five hundred", "500 MILLION+", "Years since the Shield's youngest rock formed", TCE)),
     P("P5",
       m(0, v(CANADA)),
       photo("As it crept outward,", PH_STRIAE, "Scratches left by the ice, near Temagami"),
-      photo("and ground across the", PH_SUPERIOR_MN, "Ice-scoured rock, Lake Superior"),
+      sat("and ground across the", -81.00, 46.49, 0.8, "Scoured rock and lakes around Sudbury"),
       m("It scraped off the", v(CANADA, arrows=ICE_PUSH))),
     P("P6",
       photo(0, PH_STRAIGHT, "Straight Lake, Timiskaming District"),
@@ -348,7 +350,7 @@ chapter(
       photo("For most of the", PH_MODIS_HB, "Hudson Bay from orbit, July 2016")),
     P("P9",
       m(0, v(RAIL_V, places=[CHURCHILL])),
-      sat("on its western shore,", -94.17, 58.77, 0.12, "Churchill, Manitoba", date=S24),
+      sat("on its western shore,", -94.17, 58.77, 0.12, "Churchill, Manitoba", date=CH1),
       photo("and to freeze again", PH_ICE_CAPE, "Ice on Hudson Bay near Cape Churchill"),
       stat("That leaves about eight", "~8 MONTHS", "Ice on the route to Churchill, 1981-2014 average", "Own arithmetic, from Arctic journal dates"),
       photo("When the ice melts,", PH_BEAR_WATER, "Polar bear, Churchill"),
@@ -415,7 +417,7 @@ chapter(
       photo("It is often called", PH_MATHESON_AIR, "Black River-Matheson today")),
     P("P19",
       m(0, v(TIMISK, places=[HAILEYBURY])),
-      sat("fires in the smaller", -79.64, 47.45, 0.2, "Haileybury on Lake Timiskaming"),
+      sat("fires in the smaller", -79.64, 47.45, 0.2, "Haileybury on Lake Timiskaming", date=HB1),
       stat("Within hours, about ninety", "90 %", "Share of Haileybury destroyed, 4 October 1922", OHT),
       stat("Around forty-three people died", "3,500", "People left homeless by the 1922 fire", OHT),
       photo("The fire stopped only", PH_STRAIGHT, "Timiskaming District")),
@@ -425,7 +427,7 @@ chapter(
       sat("in the heart of", -82.43, 49.42, 0.2, "Kapuskasing on the clay", date=S24),
       photo("for soldiers coming home", PH_KAP_AIR, "Kapuskasing today"),
       stat("The scheme was dropped", "1920", "Ontario drops its soldier settlement scheme at Kapuskasing", OHT),
-      photo("left for the cities", PH_REGINA_1910, "Threshing on the prairies, 1910")),
+      photo("left for the cities", PH_REGINA_1910, "Threshing near Regina, Saskatchewan, 1910")),
     P("P20b",
       sat(0, -80.60, 48.60, 0.5, "Clay Belt farms near Matheson"),
       photo("and the rain came", PH_SESS1913, "Northern Ontario, 1913"),
@@ -450,9 +452,9 @@ chapter(
       photo("Under the Dominion Lands", PH_WEST_MAP, "Canada West, a settlers' guide, 1916"),
       stat("a hundred and sixty", "160 ACRES", "A homestead under the Dominion Lands Act, 1872, for a $10 fee", TCE),
       m("Much of the prairies", v(CANADA, highlight=[PRAIRIE_RED], arrows=SETTLERS)),
-      photo("and the railways carried", PH_REGINA_1910, "Regina, Saskatchewan, 1910"),
-      photo("For a family looking", PH_SUPERIOR, "The railway's way across the Shield, Lake Superior"),
-      photo("Why fight the rock", PH_SHIELD_CUT, "Shield rock, Ontario")),
+      photo("and the railways carried", PH_REGINA_1910, "Threshing near Regina, Saskatchewan, 1910"),
+      photo("For a family looking", PH_KENORA_QUAY, "Kenora, on the railway across the Shield"),
+      sat("Why fight the rock", -90.50, 50.50, 0.25, "Shield rock and lakes, north-western Ontario")),
     P("P24",
       m(0, v(FIN, highlight=[FIN_RED], places=[HELSINKI, OULU])),
       photo("People cleared fields wherever", PH_OULU_BRIDGE, "Oulu, Finland"),
@@ -515,7 +517,7 @@ chapter(
       photo("A crew of about", PH_SHORELINE, "Wet ground on Hudson Bay, Churchill"),
       photo("across frozen muskeg, the", PH_BOG, "Muskeg and spruce"),
       photo("The port was finished", PH_HARBOUR_1927, "Plan of Churchill Harbour, 1927"),
-      sat("to ship prairie grain", -94.19, 58.78, 0.05, "The grain port at Churchill", date=S24)),
+      sat("to ship prairie grain", -94.19, 58.78, 0.05, "The grain port at Churchill", date=CH1)),
     P("P33",
       m(0, v(RAIL_V, places=[CHURCHILL, GILLAM])),
       stat("washed out the track", "~20", "Places where floods cut the line, May 2017", "CBC"),
@@ -524,13 +526,13 @@ chapter(
       photo("Food and fuel had", PH_WATERFRONT, "Churchill waterfront")),
     P("P34",
       stat(0, "18 MONTHS", "Churchill without its railway, 2017-2018", "CBC; Government of Canada"),
-      sat("except by air.", -94.17, 58.77, 0.4, "Churchill from orbit", date=S24),
+      sat("except by air.", -94.17, 58.77, 0.4, "Churchill from orbit", date=CH1),
       stat("and the federal government", "$117 MILLION", "Federal money to buy and repair the line", "Government of Canada"),
       photo("When the first passenger", PH_VIA, "The train at Churchill"),
       photo("people came out to", PH_DINER, "On the Winnipeg-Churchill train")),
     P("P35",
       photo(0, PH_SLAVE, "Great Slave Lake"),
-      sat("and the one thin", -94.25, 58.60, 0.5, "The railway across the muskeg near Churchill", date=S24),
+      sat("and the one thin", -94.25, 58.60, 0.5, "Muskeg south of Churchill", date=S24),
       photo("Yet the most important", PH_CF_SIGN, "Power lines at Churchill Falls"),
       photo("They carry electricity.", PH_RB_TRANSF, "Robert-Bourassa station, James Bay")),
 )
@@ -566,11 +568,11 @@ chapter(
       m("In September 1984, thousands", v(QUE_N, places=[CANIAP])),
       stat("Quebec officials first estimated", "10,000+", "Caribou drowned, September 1984 (early official estimate)", "Time; The New York Times"),
       sat("Inuit leaders blamed water", -69.50, 54.50, 1.2, "Caniapiscau reservoir"),
-      photo("Fences were later built", PH_BRINK, "Falls in Labrador, 1892")),
+      m("Fences were later built", v(QUE_N, places=[CANIAP]))),
     P("P39c",
       sat(0, -69.50, 54.50, 0.5, "Flooded forest, Caniapiscau"),
       stat("Hydro-Québec's own monitoring found", "2-8×", "Mercury in fish after the reservoirs filled", "Hydro-Québec monitoring 1978-2012"),
-      photo("to between two and", PH_CANON, "Labrador river canyon, 1892"),
+      sat("to between two and", -69.50, 54.50, 2.0, "Caniapiscau reservoir"),
       photo("and took twenty to", PH_RB_RES, "Robert-Bourassa reservoir"),
       photo("The Cree, who fish", PH_RADISSON, "Radisson")),
     P("P40",
@@ -583,7 +585,7 @@ chapter(
     P("P41",
       stat(0, "1.8 ¢", "Starting price per kilowatt-hour from 2027 under the 2026 deal", "Hydro-Québec; NL Hydro"),
       sat("Under it, the price", -64.80, 53.70, 2.0, "Labrador's reservoirs", date=S24),
-      sat("and rises from there.", -64.30, 53.53, 0.2, "Churchill Falls from orbit", date=S24),
+      sat("and rises from there.", -64.30, 53.53, 0.2, "Churchill Falls from orbit"),
       m("But the pattern stays", v(QUE_N, places=[CFALLS, MONTREAL], routes=[POWER_CF])),
       m("where almost nobody lives,", v(CANADA, layer="night", places=[MONTREAL, TORONTO]))),
 )

@@ -394,8 +394,8 @@
       {
        "type": "photo",
        "at": "is Precambrian rock, more",
-       "photo": "File:North Shore of Lake Superior (35840825081).jpg",
-       "on_screen_text": "North shore of Lake Superior"
+       "photo": "File:Canadian Shield.jpg",
+       "on_screen_text": "Shield rock, Ontario"
       },
       {
        "type": "stat",
@@ -442,10 +442,22 @@
        "on_screen_text": "Scratches left by the ice, near Temagami"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "and ground across the",
-       "photo": "File:Lake Superior North Shore Minnesota Tony Webster 19283970576.jpg",
-       "on_screen_text": "Ice-scoured rock, Lake Superior"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.0,
+           "lat": 46.49,
+           "span": 0.8
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Scoured rock and lakes around Sudbury"
       },
       {
        "type": "map",
@@ -713,7 +725,7 @@
            "lat": 58.77,
            "span": 0.12
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2024-07-23/2024-07-23"
          },
          {
           "at": 15,
@@ -722,7 +734,7 @@
            "lat": 58.77,
            "span": 0.08
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2024-07-23/2024-07-23"
          }
         ],
         "cut": true
@@ -1536,7 +1548,7 @@
            "lat": 47.45,
            "span": 0.2
           },
-          "date": "2025-07-01/2025-08-31"
+          "date": "2025-08-06/2025-08-06"
          }
         ],
         "cut": true
@@ -1644,7 +1656,7 @@
        "type": "photo",
        "at": "left for the cities",
        "photo": "File:Regina, Saskatchewan, Canada (1910) (14595380219).jpg",
-       "on_screen_text": "Threshing on the prairies, 1910"
+       "on_screen_text": "Threshing near Regina, Saskatchewan, 1910"
       }
      ]
     },
@@ -1755,8 +1767,8 @@
          {
           "view": {
            "lon": -76.956,
-           "lat": 44.324,
-           "span": 24.259
+           "lat": 44.31,
+           "span": 24.124
           },
           "highlight": [
            "file:mixedwood.geojson@red"
@@ -1943,19 +1955,31 @@
        "type": "photo",
        "at": "and the railways carried",
        "photo": "File:Regina, Saskatchewan, Canada (1910) (14595380219).jpg",
-       "on_screen_text": "Regina, Saskatchewan, 1910"
+       "on_screen_text": "Threshing near Regina, Saskatchewan, 1910"
       },
       {
        "type": "photo",
        "at": "For a family looking",
-       "photo": "File:North Shore of Lake Superior (35840825081).jpg",
-       "on_screen_text": "The railway's way across the Shield, Lake Superior"
+       "photo": "File:Quay of Kenora, Ontario (0068).jpg",
+       "on_screen_text": "Kenora, on the railway across the Shield"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Why fight the rock",
-       "photo": "File:Canadian Shield.jpg",
-       "on_screen_text": "Shield rock, Ontario"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 50.5,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Shield rock and lakes, north-western Ontario"
       }
      ]
     },
@@ -2813,7 +2837,7 @@
            "lat": 58.78,
            "span": 0.08
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2024-07-23/2024-07-23"
          }
         ],
         "cut": true
@@ -2909,7 +2933,7 @@
            "lat": 58.77,
            "span": 0.4
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2024-07-23/2024-07-23"
          },
          {
           "at": 22,
@@ -2918,7 +2942,7 @@
            "lat": 58.77,
            "span": 0.248
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2024-07-23/2024-07-23"
          }
         ],
         "cut": true
@@ -2973,7 +2997,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "The railway across the muskeg near Churchill"
+       "on_screen_text": "Muskeg south of Churchill"
       },
       {
        "type": "photo",
@@ -3446,10 +3470,38 @@
        "on_screen_text": "Caniapiscau reservoir"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Fences were later built",
-       "photo": "File:At the Brink of the Grand Falls.png",
-       "on_screen_text": "Falls in Labrador, 1892"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.58,
+           "lat": 52.577,
+           "span": 15.61
+          },
+          "places": [
+           {
+            "name": "Caniapiscau reservoir",
+            "lon": -69.5,
+            "lat": 54.4,
+            "kind": "site",
+            "label": "Caniapiscau reservoir",
+            "icon": "water"
+           }
+          ]
+         },
+         {
+          "at": 70,
+          "view": {
+           "lon": -67.58,
+           "lat": 51.94,
+           "span": 9.758
+          }
+         }
+        ],
+        "cut": true
+       }
       }
      ]
     },
@@ -3493,10 +3545,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "to between two and",
-       "photo": "File:The Canon a Quarter of a Mile below the Grand Falls.png",
-       "on_screen_text": "Labrador river canyon, 1892"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.5,
+           "lat": 54.5,
+           "span": 2.0
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Caniapiscau reservoir"
       },
       {
        "type": "photo",
@@ -3629,7 +3693,7 @@
            "lat": 53.53,
            "span": 0.2
           },
-          "date": "2024-07-01/2024-08-31"
+          "date": "2025-07-01/2025-08-31"
          }
         ],
         "cut": true
@@ -3644,8 +3708,8 @@
          {
           "view": {
            "lon": -68.935,
-           "lat": 49.133,
-           "span": 35.885
+           "lat": 49.435,
+           "span": 38.986
           },
           "places": [
            {

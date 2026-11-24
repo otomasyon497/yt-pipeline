@@ -67,7 +67,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 61 | c04p05 | stat card | 3,500: People left homeless by the 1922 fire | R18 Ontario Heritage Trust plaque and markers: 4-5 Oct 1922, ~43 dead, 90 % of Haileybury in 3-6 hours, 3,500 homeless | verified |
 | 62 | c04p06 | narration | The scheme was dropped in 1920, and many of its farmers left for the cities or for the prairies. | R28 Ontario Heritage Trust 'Founding of Kapuskasing' (scheme discontinued 1920); Wikipedia Clay Belt (farmers left) | verified |
 | 63 | c04p06 | stat card | 1920: Ontario drops its soldier settlement scheme at Kapuskasing | R28 Ontario Heritage Trust 'Founding of Kapuskasing' (scheme discontinued 1920); Wikipedia Clay Belt (farmers left) | verified |
-| 64 | c04p06 | on screen | Threshing on the prairies, 1910 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
+| 64 | c04p06 | on screen | Threshing near Regina, Saskatchewan, 1910 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
 | 65 | c04p07 | on screen | Northern Ontario, 1913 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
 | 66 | c05p01 | narration | Reason four. | Framing / summary of facts cited elsewhere in this table | verified |
 | 67 | c05p02 | narration | It covers only about two percent of Canada's land. | R11 own count (geo/measure_population.txt): Mixedwood Plain 19.8 M = 51 %, 176,000 km2 of ~9 M km2 land (~2 %) | own |
@@ -77,7 +77,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 71 | c05p03 | narration | Under the Dominion Lands Act of 1872, a settler could claim a quarter section, a hundred and sixty acres of flat, deep soil, for a ten dollar fee, and farm it. | R27 Dominion Lands Act 1872: 160-acre quarter section for a $10 fee (TCE; Saskatchewan Archives) | verified |
 | 72 | c05p03 | on screen | Canada West, a settlers' guide, 1916 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
 | 73 | c05p03 | stat card | 160 ACRES: A homestead under the Dominion Lands Act, 1872, for a $10 fee | R27 Dominion Lands Act 1872: 160-acre quarter section for a $10 fee (TCE; Saskatchewan Archives) | verified |
-| 74 | c05p03 | on screen | Regina, Saskatchewan, 1910 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
+| 74 | c05p03 | on screen | Threshing near Regina, Saskatchewan, 1910 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
 | 75 | c05p04 | narration | People cleared fields wherever they could, built their towns along the coasts, and made the best of what they had, because there was nowhere else to go. | R13 Finland nearly all shield bedrock; framing | verified |
 | 76 | c05p05 | narration | The largest are Greater Sudbury, with about a hundred and seventy thousand people, Saguenay, with about a hundred and sixty thousand, and Thunder Bay, with about a hundred and twenty thousand. | R24 StatCan 2021 CMAs: Sudbury 170,605, Saguenay 161,567, Thunder Bay 123,258 | verified |
 | 77 | c05p05 | narration | All three sit close to its southern edge, on a railway, a lake or a river that leads to the St Lawrence. | Own: positions against geo/shield.geojson; largest interior town Yellowknife (~20,000) | own |
@@ -130,18 +130,16 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 124 | c08p05 | narration | Quebec officials first estimated at least ten thousand. | R25 Time/SI/NYT 1984 reports: early Quebec estimates at least 10,000; Inuit blamed releases, Hydro-Québec blamed rain - attributed both sides | attributed |
 | 125 | c08p05 | narration | Hydro-Québec said heavy rain had raised the river. | R25 Time/SI/NYT 1984 reports: early Quebec estimates at least 10,000; Inuit blamed releases, Hydro-Québec blamed rain - attributed both sides | attributed |
 | 126 | c08p05 | stat card | 10,000+: Caribou drowned, September 1984 (early official estimate) | R25 Time/SI/NYT 1984 reports: early Quebec estimates at least 10,000; Inuit blamed releases, Hydro-Québec blamed rain - attributed both sides | attributed |
-| 127 | c08p05 | on screen | Falls in Labrador, 1892 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
-| 128 | c08p06 | narration | Flooding the forest caused a slower problem. | Framing / summary of facts cited elsewhere in this table | verified |
-| 129 | c08p06 | narration | Hydro-Québec's own monitoring found that mercury in fish rose to between two and eight times its normal level after the reservoirs were filled, and took twenty to thirty years to come back down in the fish that eat other fish. | R26 Hydro-Québec synthesis 1978-2012 (2-8x, 20-30 years in piscivores, Cree advisories) | verified |
-| 130 | c08p06 | stat card | 2-8×: Mercury in fish after the reservoirs filled | R26 Hydro-Québec synthesis 1978-2012 (2-8x, 20-30 years in piscivores, Cree advisories) | verified |
-| 131 | c08p06 | on screen | Labrador river canyon, 1892 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
-| 132 | c08p07 | narration | In 1969, Newfoundland signed a contract to sell power from the Churchill Falls station to Hydro-Québec until 2041, at a fixed price. | R10 NL Government / Hydro-Québec MOU releases: 1969 contract to 2041, ~0.2 cents/kWh | verified |
-| 133 | c08p07 | stat card | 0.2 ¢: Price per kilowatt-hour under the 1969 contract | R10 NL Government / Hydro-Québec MOU releases: 1969 contract to 2041, ~0.2 cents/kWh | verified |
-| 134 | c08p08 | narration | In 2026, the two provinces agreed a new deal. | R22 DCIA 17 Aug 2026 (Hydro-Québec PDF; CP24; BLG): 1.8 cents/kWh from 2027, rising | verified |
-| 135 | c08p08 | narration | Under it, the price starts at one point eight cents in 2027 and rises from there. | R22 DCIA 17 Aug 2026 (Hydro-Québec PDF; CP24; BLG): 1.8 cents/kWh from 2027, rising | verified |
-| 136 | c08p08 | stat card | 1.8 ¢: Starting price per kilowatt-hour from 2027 under the 2026 deal | R22 DCIA 17 Aug 2026 (Hydro-Québec PDF; CP24; BLG): 1.8 cents/kWh from 2027, rising | verified |
-| 137 | c09p01 | narration | So why does almost nobody live on half of Canada? | Framing / summary of facts cited elsewhere in this table | verified |
-| 138 | c09p01 | on screen | Matheson, 1916 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
-| 139 | c09p01 | on screen | Grand Falls, Labrador, 1896 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
-| 140 | c09p02 | narration | Finland made a home on its shield because it had to. | Framing / summary of facts cited elsewhere in this table | verified |
-| 141 | c09p02 | narration | Would you move to a town on the Shield, with its lakes and its winters, if the job paid twice as much? | Question to the viewer (no claim) | verified |
+| 127 | c08p06 | narration | Flooding the forest caused a slower problem. | Framing / summary of facts cited elsewhere in this table | verified |
+| 128 | c08p06 | narration | Hydro-Québec's own monitoring found that mercury in fish rose to between two and eight times its normal level after the reservoirs were filled, and took twenty to thirty years to come back down in the fish that eat other fish. | R26 Hydro-Québec synthesis 1978-2012 (2-8x, 20-30 years in piscivores, Cree advisories) | verified |
+| 129 | c08p06 | stat card | 2-8×: Mercury in fish after the reservoirs filled | R26 Hydro-Québec synthesis 1978-2012 (2-8x, 20-30 years in piscivores, Cree advisories) | verified |
+| 130 | c08p07 | narration | In 1969, Newfoundland signed a contract to sell power from the Churchill Falls station to Hydro-Québec until 2041, at a fixed price. | R10 NL Government / Hydro-Québec MOU releases: 1969 contract to 2041, ~0.2 cents/kWh | verified |
+| 131 | c08p07 | stat card | 0.2 ¢: Price per kilowatt-hour under the 1969 contract | R10 NL Government / Hydro-Québec MOU releases: 1969 contract to 2041, ~0.2 cents/kWh | verified |
+| 132 | c08p08 | narration | In 2026, the two provinces agreed a new deal. | R22 DCIA 17 Aug 2026 (Hydro-Québec PDF; CP24; BLG): 1.8 cents/kWh from 2027, rising | verified |
+| 133 | c08p08 | narration | Under it, the price starts at one point eight cents in 2027 and rises from there. | R22 DCIA 17 Aug 2026 (Hydro-Québec PDF; CP24; BLG): 1.8 cents/kWh from 2027, rising | verified |
+| 134 | c08p08 | stat card | 1.8 ¢: Starting price per kilowatt-hour from 2027 under the 2026 deal | R22 DCIA 17 Aug 2026 (Hydro-Québec PDF; CP24; BLG): 1.8 cents/kWh from 2027, rising | verified |
+| 135 | c09p01 | narration | So why does almost nobody live on half of Canada? | Framing / summary of facts cited elsewhere in this table | verified |
+| 136 | c09p01 | on screen | Matheson, 1916 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
+| 137 | c09p01 | on screen | Grand Falls, Labrador, 1896 | Caption of a Commons photo; place and date from the file description (visuals.md) | verified |
+| 138 | c09p02 | narration | Finland made a home on its shield because it had to. | Framing / summary of facts cited elsewhere in this table | verified |
+| 139 | c09p02 | narration | Would you move to a town on the Shield, with its lakes and its winters, if the job paid twice as much? | Question to the viewer (no claim) | verified |

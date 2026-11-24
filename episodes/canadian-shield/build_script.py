@@ -124,6 +124,7 @@ TIMISK = {"lon": -79.8, "lat": 47.6, "span": 3.0}      # Lake Timiskaming
 SOUTH_ON = {"lon": -76.5, "lat": 45.3, "span": 15.0}   # Windsor to Quebec City
 PRAIRIE_V = {"lon": -104.0, "lat": 51.5, "span": 24.0}  # the prairies
 QUE_N = {"lon": -68.0, "lat": 52.5, "span": 14.0}      # Schefferville to the coast
+CANIAP_V = {"lon": -69.3, "lat": 54.3, "span": 6.0}   # Caniapiscau reservoir, label inside the frame
 GSL = {"lon": -114.4, "lat": 61.2, "span": 5.0}        # Great Slave Lake
 RAIL_V = {"lon": -97.5, "lat": 56.4, "span": 11.0}     # the line to Churchill
 JAMES = {"lon": -74.0, "lat": 53.5, "span": 16.0}      # James Bay and La Grande
@@ -367,9 +368,10 @@ chapter(
       photo("We pulled thirty years", PH_HEL_AIR, "Helsinki"),
       photo("from a global weather", PH_HEL_2015, "Helsinki")),
     P("P11",
-      chart(0, "Days a year below freezing, 1991-2020", "", [["Helsinki", 93], ["Churchill", 214]], OWN_T, highlight=1),
+      sat(0, 25.00, 60.22, 1.2, "Helsinki and the Gulf of Finland"),
+      photo("Churchill averages six", PH_AURORA, "Churchill in the dark season"),
       stat("In January, Helsinki sits", "-26 °C", "Churchill in January; Helsinki: -4 °C (1991-2020 averages)", OWN_T),
-      photo("Churchill spends more than", PH_AURORA, "Churchill in the dark season"),
+      chart("Churchill spends more than", "Days a year below freezing, 1991-2020", "", [["Helsinki", 93], ["Churchill", 214]], OWN_T, highlight=1),
       photo("Helsinki spends fewer than", PH_HEL_AIR2, "Helsinki")),
     P("P12",
       m(0, v(SOUTH_EDGE, places=[TIMMINS])),
@@ -458,7 +460,7 @@ chapter(
     P("P24",
       m(0, v(FIN, highlight=[FIN_RED], places=[HELSINKI, OULU])),
       photo("People cleared fields wherever", PH_OULU_BRIDGE, "Oulu, Finland"),
-      sat("built their towns along", 25.47, 65.01, 0.4, "Oulu on the Gulf of Bothnia"),
+      sat("built their towns along", 21.62, 63.10, 0.3, "Vaasa on the Gulf of Bothnia"),
       photo("Canada did have somewhere", PH_YK2, "Yellowknife"),
       photo("so the Shield was", PH_YK_WINTER, "Yellowknife in winter")),
     P("P24b",
@@ -565,10 +567,10 @@ chapter(
       m("The power travels about", v(JAMES, places=[RADISSON, MONTREAL], routes=[POWER_LG]))),
     P("P39b",
       sat(0, -77.55, 53.79, 0.25, "Robert-Bourassa dam", date=S24),
-      m("In September 1984, thousands", v(QUE_N, places=[CANIAP])),
+      m("In September 1984, thousands", v(CANIAP_V, places=[CANIAP])),
       stat("Quebec officials first estimated", "10,000+", "Caribou drowned, September 1984 (early official estimate)", "Time; The New York Times"),
       sat("Inuit leaders blamed water", -69.50, 54.50, 1.2, "Caniapiscau reservoir"),
-      m("Fences were later built", v(QUE_N, places=[CANIAP]))),
+      m("Fences were later built", v(CANIAP_V, places=[CANIAP]))),
     P("P39c",
       sat(0, -69.50, 54.50, 0.5, "Flooded forest, Caniapiscau"),
       stat("Hydro-Québec's own monitoring found", "2-8×", "Mercury in fish after the reservoirs filled", "Hydro-Québec monitoring 1978-2012"),

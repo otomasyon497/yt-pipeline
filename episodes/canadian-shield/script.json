@@ -895,8 +895,41 @@
      "text": "Helsinki averages about six degrees above zero over the year. Churchill averages six degrees below. In January, Helsinki sits around minus four. Churchill sits around minus twenty-six. Churchill spends more than two hundred days a year with a daily average below freezing. Helsinki spends fewer than a hundred.",
      "shots": [
       {
-       "type": "chart",
+       "type": "map",
        "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.0,
+           "lat": 60.22,
+           "span": 1.2
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Helsinki and the Gulf of Finland"
+      },
+      {
+       "type": "photo",
+       "at": "Churchill averages six",
+       "photo": "File:Aurora Borealis - Churchill, Manitoba (27426660778).jpg",
+       "on_screen_text": "Churchill in the dark season"
+      },
+      {
+       "type": "stat",
+       "at": "In January, Helsinki sits",
+       "stat": {
+        "value": "-26 °C",
+        "label": "Churchill in January; Helsinki: -4 °C (1991-2020 averages)",
+        "source": "Own calculation: ERA5 daily means 1991-2020 (Open-Meteo)"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Churchill spends more than",
        "chart": {
         "type": "bar",
         "title": "Days a year below freezing, 1991-2020",
@@ -914,21 +947,6 @@
         "source": "Own calculation: ERA5 daily means 1991-2020 (Open-Meteo)",
         "highlight": 1
        }
-      },
-      {
-       "type": "stat",
-       "at": "In January, Helsinki sits",
-       "stat": {
-        "value": "-26 °C",
-        "label": "Churchill in January; Helsinki: -4 °C (1991-2020 averages)",
-        "source": "Own calculation: ERA5 daily means 1991-2020 (Open-Meteo)"
-       }
-      },
-      {
-       "type": "photo",
-       "at": "Churchill spends more than",
-       "photo": "File:Aurora Borealis - Churchill, Manitoba (27426660778).jpg",
-       "on_screen_text": "Churchill in the dark season"
       },
       {
        "type": "photo",
@@ -2034,25 +2052,25 @@
         "steps": [
          {
           "view": {
-           "lon": 25.47,
-           "lat": 65.01,
-           "span": 0.4
+           "lon": 21.62,
+           "lat": 63.1,
+           "span": 0.3
           },
           "date": "2025-07-01/2025-08-31"
          },
          {
           "at": 29,
           "view": {
-           "lon": 25.47,
-           "lat": 65.01,
-           "span": 0.248
+           "lon": 21.62,
+           "lat": 63.1,
+           "span": 0.186
           },
           "date": "2025-07-01/2025-08-31"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Oulu on the Gulf of Bothnia"
+       "on_screen_text": "Vaasa on the Gulf of Bothnia"
       },
       {
        "type": "photo",
@@ -3406,9 +3424,9 @@
         "steps": [
          {
           "view": {
-           "lon": -68.7,
-           "lat": 52.582,
-           "span": 15.568
+           "lon": -69.3,
+           "lat": 54.3,
+           "span": 6.0
           },
           "places": [
            {
@@ -3424,9 +3442,9 @@
          {
           "at": 22,
           "view": {
-           "lon": -68.7,
-           "lat": 52.22,
-           "span": 13.09
+           "lon": -69.3,
+           "lat": 54.3,
+           "span": 5.1
           }
          }
         ],
@@ -3476,9 +3494,9 @@
         "steps": [
          {
           "view": {
-           "lon": -67.58,
-           "lat": 52.577,
-           "span": 15.61
+           "lon": -69.0,
+           "lat": 54.42,
+           "span": 5.4
           },
           "places": [
            {
@@ -3494,9 +3512,9 @@
          {
           "at": 70,
           "view": {
-           "lon": -67.58,
-           "lat": 51.94,
-           "span": 9.758
+           "lon": -69.0,
+           "lat": 54.42,
+           "span": 4.59
           }
          }
         ],
@@ -3708,8 +3726,8 @@
          {
           "view": {
            "lon": -68.935,
-           "lat": 49.435,
-           "span": 38.986
+           "lat": 49.133,
+           "span": 35.885
           },
           "places": [
            {

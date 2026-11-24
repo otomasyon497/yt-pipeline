@@ -45,3 +45,11 @@ write("mixedwood.geojson", "Great Lakes-St Lawrence lowlands", zones["MixedWood 
 write("prairie.geojson", "The Prairies", zones["Prairie"])
 write("hudsonbay_low.geojson", "Hudson Bay Lowlands", zones["Hudson Plain"])
 write("claybelt.geojson", "The Great Clay Belt (approx.)", regions[96], tol=0.01)
+
+# hudsonbay.geojson: Natural Earth marine polygon "Hudson Bay" (public domain), added after the storyboard refused the name
+sys.path.insert(0, str(HERE.parents[2] / "pipeline"))
+import geo  # noqa: E402
+hb = unary_union([g for pp, g in geo.ne_geoms("ne_10m_geography_marine_polys") if (pp.get("name") or pp.get("NAME")) == "Hudson Bay"])
+(HERE / "hudsonbay.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": [
+    {"type": "Feature", "properties": {"name": "Hudson Bay", "credit": "Natural Earth"}, "geometry": mapping(shapely.make_valid(hb.simplify(0.03)))}]}), encoding="utf-8")
+print(f"hudsonbay.geojson: {area(hb):,.0f} km2")

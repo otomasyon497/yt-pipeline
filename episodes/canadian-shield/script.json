@@ -263,8 +263,13 @@
          {
           "at": "a frozen sea in",
           "highlight": [
-           "Hudson Bay@blue"
-          ]
+           "file:hudsonbay.geojson@blue"
+          ],
+          "view": {
+           "lon": -85.189,
+           "lat": 59.884,
+           "span": 69.057
+          }
          }
         ],
         "cut": true
@@ -634,12 +639,12 @@
         "steps": [
          {
           "view": {
-           "lon": -85.0,
-           "lat": 59.0,
-           "span": 28.0
+           "lon": -85.738,
+           "lat": 60.085,
+           "span": 67.013
           },
           "highlight": [
-           "Hudson Bay@blue"
+           "file:hudsonbay.geojson@blue"
           ]
          }
         ],

@@ -303,7 +303,7 @@ chapter(
       sat("Finland has a city", 25.47, 65.01, 0.25, "Oulu, Finland"),
       photo("Canada's Shield has nothing", PH_SLAVE, "Great Slave Lake, Northwest Territories")),
     P("P3",
-      m(0, v(SHIELD_V, places=[CHURCHILL]), step("a frozen sea in", highlight=["Hudson Bay@blue"])),
+      m(0, v(SHIELD_V, places=[CHURCHILL]), step("a frozen sea in", highlight=["file:hudsonbay.geojson@blue"])),
       photo("a farming dream that", PH_NUSHKA, "Nushka, Ontario, after the fire of 1916"),
       sat("a town whose houses", -114.455, 60.835, 0.1, "Pine Point, Northwest Territories", date=S24),
       photo("a railway that vanished", PH_END_LINE, "End of the line, Churchill"),
@@ -342,7 +342,7 @@ chapter(
 # ================================================================== 2. The Freezer in the Middle
 chapter(
     P("P8",
-      m(0, v(HUDSON, highlight=["Hudson Bay@blue"])),
+      m(0, v(HUDSON, highlight=["file:hudsonbay.geojson@blue"])),
       photo("Together with James Bay", PH_HB_AIR, "Hudson Bay at Churchill"),
       stat("Hudson Bay covers more", "1.2 MILLION KM²", "Hudson Bay with James Bay", "Wikipedia; Britannica (wider definition)"),
       photo("For most of the", PH_MODIS_HB, "Hudson Bay from orbit, July 2016")),

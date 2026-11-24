@@ -1,0 +1,19 @@
+ecozones: ['Arctic Cordillera', 'Atlantic Maritime', 'Boreal Cordillera', 'Boreal PLain', 'Boreal Shield', 'Hudson Plain', 'MixedWood Plain', 'Montane Cordillera', 'Northern Arctic', 'Pacific Maritime', 'Prairie', 'Southern Arctic', 'Taiga Cordillera', 'Taiga Plain', 'Taiga Shield']
+Kontur total population: 38,810,039
+MixedWood Plain        pop   19,838,548 (51.12 %)  area      176,283 km2
+Prairie                pop    6,324,080 (16.29 %)  area      460,800 km2
+Pacific Maritime       pop    4,031,285 (10.39 %)  area      245,514 km2
+Boreal Shield          pop    3,321,861 ( 8.56 %)  area    2,055,627 km2
+Atlantic Maritime      pop    2,866,991 ( 7.39 %)  area      289,377 km2
+Boreal PLain           pop    1,108,808 ( 2.86 %)  area      713,753 km2
+Montane Cordillera     pop    1,073,106 ( 2.77 %)  area      478,102 km2
+Taiga Shield           pop       51,445 ( 0.13 %)  area    1,387,235 km2
+Boreal Cordillera      pop       47,287 ( 0.12 %)  area      444,760 km2
+Northern Arctic        pop       30,385 ( 0.08 %)  area    2,740,859 km2
+Taiga Plain            pop       25,036 ( 0.06 %)  area      620,257 km2
+Southern Arctic        pop       18,636 ( 0.05 %)  area    1,591,005 km2
+Hudson Plain           pop       14,116 ( 0.04 %)  area      434,895 km2
+Arctic Cordillera      pop        2,104 ( 0.01 %)  area      335,061 km2
+Taiga Cordillera       pop          449 ( 0.00 %)  area      251,247 km2
+SHIELD ecozones ['Taiga Shield', 'Boreal Shield']: pop 3,373,306 = 8.69 % of people, area 3,442,862 km2 = 28.2 % of land+
+wrote C:\projeler\yt-pipeline\episodes\canadian-shield\geo\shield.geojson

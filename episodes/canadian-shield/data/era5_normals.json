@@ -1,0 +1,58 @@
+{
+ "Churchill": {
+  "lat": 58.77,
+  "lon": -94.17,
+  "annual": -6.0,
+  "jan": -25.8,
+  "jul": 12.0,
+  "days_below_0_per_year": 214
+ },
+ "Helsinki": {
+  "lat": 60.17,
+  "lon": 24.94,
+  "annual": 6.0,
+  "jan": -3.8,
+  "jul": 17.9,
+  "days_below_0_per_year": 93
+ },
+ "Stockholm": {
+  "lat": 59.33,
+  "lon": 18.07,
+  "annual": 7.2,
+  "jan": -1.4,
+  "jul": 17.8,
+  "days_below_0_per_year": 67
+ },
+ "Thunder Bay": {
+  "lat": 48.38,
+  "lon": -89.25,
+  "annual": 3.8,
+  "jan": -13.0,
+  "jul": 18.7,
+  "days_below_0_per_year": 133
+ },
+ "Timmins": {
+  "lat": 48.48,
+  "lon": -81.33,
+  "annual": 2.7,
+  "jan": -15.4,
+  "jul": 18.3,
+  "days_below_0_per_year": 147
+ },
+ "Oulu": {
+  "lat": 65.01,
+  "lon": 25.47,
+  "annual": 3.3,
+  "jan": -7.8,
+  "jul": 16.6,
+  "days_below_0_per_year": 136
+ },
+ "Schefferville": {
+  "lat": 54.8,
+  "lon": -66.82,
+  "annual": -4.4,
+  "jan": -23.0,
+  "jul": 12.5,
+  "days_below_0_per_year": 207
+ }
+}

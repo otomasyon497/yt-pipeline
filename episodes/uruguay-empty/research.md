@@ -42,3 +42,35 @@ Demand: PASS (Tom Garrison 442x, Retirement Unlocked 116x, Around The Top 20x; d
 | **Total** | **2,750** | |
 
 Pictures: estancias and open grass (Commons), gauchos and old estancia photos (Biblioteca Nacional / Commons, pre-1930 public domain), Montevideo port and Rambla, Colonia, Salto/Paysandú, UPM mills from Sentinel, wind farms, fence lines from Sentinel (field patterns), Rio Grande do Sul colonies (Gramado/Caxias) vs Campanha.
+
+## Round 2 (2026-11-24)
+
+| # | Fact | Source | Strength |
+|---|---|---|---|
+| R14 | Census 2023 final 3,499,451 (+2.5 % on 2011); Montevideo department lost ~5 % (-72,586), still ~37 % of people; Maldonado +23.7 % to 212,951 | Presidencia/INE; El Observador 10 Dec 2024 | primary + press |
+| R15 | Immigration to Uruguay 1880-1930 estimated 273,000-579,000; Montevideo 1889 census 215,061 people, 100,739 (46.8 %) foreign-born, Italians ~half of them; 1908 national census 17 % foreign-born | Wikipedia (Immigration to Uruguay), Beretta Curi table (scielo) | good |
+| R16 | Divorce: 1907 law (with cause), 1910 mutual consent, 1912/1913 at the sole will of the wife (date disputed: say "a few years later") | Ramos Palomo & Ortega Muñoz (CCEC), LOC country study, Barrán review | good |
+| R17 | Colonia del Sacramento founded by Portugal 1680; Zabala expelled a Portuguese post Feb 1724; Montevideo a fort from 1724, a city from 24 Dec 1726 | Wikipedia, Britannica, UNLP anuario | good |
+| R18 | "Pueblos de ratas": rancheríos between estancias, named so by ranchers' associations and intellectuals 1900-1960 | Udelar studies (Redalyc 357/35771093011) | good; link to fencing = historians' reading, attribute |
+| R19 | Battle of Masoller 1 Sep 1904; Saravia died of wounds 10 Sep 1904 in Brazil; Peace of Aceguá 24 Sep 1904; last civil war | Wikipedia (Revolution of 1904), Encyclopedia.com | good |
+| R20 | Electricity 2024: 99 % renewable (hydro 42, wind 28, biomass 26) per MIEM via trade.gov | trade.gov country guide | good |
+
+## Own measurements, results (geo/measure_population.py -> geo/measure_population.txt; Kontur 2023 grid)
+- M1: 49.3 % of people within 30 km of central Montevideo (Plaza Independencia), 54.2 % within 50 km, 60.9 % within 100 km.
+- M1: half of all people on 251 km2 of densest grid cells = 0.14 % of the land; 90 % on 1,186 km2 = 0.67 %.
+- M1: six southern coastal departments (Montevideo, Canelones, San José, Maldonado, Rocha, Colonia) hold 69.9 % of people on 18.0 % of land; the other 13 departments 6.9 people/km2 (Durazno, Flores 4.8).
+- M2: Rio Grande do Sul 40 people/km2 overall (Kontur 11.28 M); Sudoeste Rio-grandense (the Campanha pampa on Uruguay's border) 10.9/km2; Nordeste (Serra Gaúcha, old Italian/German colonies) 47.0; Metropolitana de Porto Alegre 172.
+- Not used: "86 % of the land has no one" (Kontur only lists populated cells; artefact risk).
+
+## Round 3 (2026-11-24, for length)
+| # | Fact | Source |
+|---|---|---|
+| R21 | Saladeros made tasajo (salted dried beef) shipped to Brazil and Cuba to feed enslaved plantation workers | Cambridge "tasajo trail" (LARR), Encyclopedia.com Saladero, LOC country study |
+| R22 | Artigas's Reglamento Provisorio, 10 Sep 1815 (Purificación): state land and enemies' land to free Black people, Indigenous people, poor creoles; "los más infelices sean los más privilegiados"; Portuguese invasion 1816, Artigas exiled to Paraguay 1820; reform abandoned | UFMG, La Izquierda Diario (text), globalsecurity/LOC, Wikipedia Artigas |
+| R23 | Fray Bentos: Liebig Extract of Meat Company plant (1860s; Wikipedia 1863), meat extract then corned beef, thousands worked there; UNESCO World Heritage "Fray Bentos Industrial Landscape" 2015 (39 COM 8B.39) | UNESCO, Wikipedia |
+| R24 | Cerro, Montevideo: Frigorífico Montevideo -> Swift (Sep 1916), Frigorífico Artigas opened Oct 1917, later Armour; closed end of 1957 | FHCE-Udelar "Una historia del Cerro" 2025, INAC |
+| R25 | Thirty-Three Orientals landed at Agraciada 19 Apr 1825 (Lavalleja); Banda Oriental had been the Cisplatine Province of Portugal/Brazil | gub.uy MEC, Wikipedia |
+| R26 | 65+: 7.9 % in 1963; ~16 % (15.6-15.8 %) in 2023-24; projected 32.5 % in 2070 | INE projections 2025 revision, La Mañana |
+| R27 | Sheep: ~25 M around 1990 (25-28 M best years); 4.75 M in 2025 (historic low, preliminary) | MercoPress 2002, 2025 |
+| R28 | 2023 water crisis: Paso Severino (Santa Lucía) supplies ~60 % of people; fell to 3.5 of 67 million m3 in June; estuary water mixed in; sodium over limits since May; ended after rains late Aug | dialogue.earth, AP/WLRN, phys.org (AFP) |
+| R29 | RS Italian colonisation from 1875 (Caxias 20 May 1875 official date), ~100,000 Italians 1875-1914 | Wikipedia (Italian immigration in RS, History of Caxias do Sul) |

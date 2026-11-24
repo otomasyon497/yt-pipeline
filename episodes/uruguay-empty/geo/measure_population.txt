@@ -1,0 +1,40 @@
+URUGUAY Kontur total 3,454,087; populated hexagons 46,436 covering 25,463 km2
+Uruguay land (Natural Earth departments) 177,342 km2
+  within  30 km of central Montevideo:    1,702,290 =  49.3 %
+  within  50 km of central Montevideo:    1,873,838 =  54.2 %
+  within 100 km of central Montevideo:    2,102,688 =  60.9 %
+  50 % of people live on 251 km2 = 0.14 % of the land
+  90 % of people live on 1,186 km2 = 0.67 % of the land
+  land with no one counted at all: 151,879 km2 = 86 % (approx.)
+  six southern coastal departments: pop 69.9 %, area 18.0 %
+  Durazno              57,025    12,005 km2      4.8 /km2
+  Flores               24,649     5,128 km2      4.8 /km2
+  Treinta y Tres       47,910     9,591 km2      5.0 /km2
+  Artigas              64,600    12,182 km2      5.3 /km2
+  Lavalleja            58,589    10,143 km2      5.8 /km2
+  Tacuarembó           93,405    15,946 km2      5.9 /km2
+  Río Negro            57,314     9,487 km2      6.0 /km2
+  Cerro Largo          84,512    13,810 km2      6.1 /km2
+  Florida              69,842    10,425 km2      6.7 /km2
+  Rocha                75,423    10,831 km2      7.0 /km2
+  Paysandú            117,111    14,056 km2      8.3 /km2
+  Salto               130,476    14,309 km2      9.1 /km2
+  Soriano              91,202     9,029 km2     10.1 /km2
+  Rivera              111,736     9,371 km2     11.9 /km2
+  Colonia             118,430     6,191 km2     19.1 /km2
+  San José            117,476     4,914 km2     23.9 /km2
+  Maldonado           211,994     4,814 km2     44.0 /km2
+  Canelones           575,202     4,571 km2    125.8 /km2
+  Montevideo        1,316,475       540 km2   2438.9 /km2
+  outside the six: 6.9 people/km2
+
+RIO GRANDE DO SUL Kontur 11,279,150 on 281,707 km2 = 40.0 /km2
+  Centro Ocidental Rio-grandense               547,531    25,942 km2     21.1 /km2
+  Centro Oriental Rio-grandense                820,461    17,184 km2     47.7 /km2
+  Lagoa Mirim                                        7     2,884 km2      0.0 /km2
+  Lagoa dos Patos                               26,509    10,202 km2      2.6 /km2
+  Metropolitana de Porto Alegre              5,124,719    29,795 km2    172.0 /km2
+  Nordeste Rio-grandense                     1,216,275    25,883 km2     47.0 /km2
+  Noroeste Rio-grandense                     1,933,874    64,939 km2     29.8 /km2
+  Sudeste Rio-grandense                        923,786    42,215 km2     21.9 /km2
+  Sudoeste Rio-grandense                       685,988    62,664 km2     10.9 /km2

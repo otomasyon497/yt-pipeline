@@ -8,7 +8,7 @@ P1: Geologists call it the Canadian Shield. It covers about five million square 
 
 P2: But here is the strange part. On the other side of the Atlantic, Finland stands on the same kind of rock. Ancient, hard, scraped bare by the same kind of ice sheet, and covered in lakes. More than five and a half million people live there. Finland has a city of over two hundred thousand people close to the Arctic Circle. Canada's Shield has nothing like it that far north.
 
-P3: So why does half of Canada stay almost empty? The answer runs through a frozen sea in the middle of the continent, a farming dream that ended in fire, a town that was loaded onto trucks and driven away, a railway that vanished for a year and a half, and a river of electricity that flows south. The first reason is under your feet.
+P3: So why does half of Canada stay almost empty? The answer runs through a frozen sea in the middle of the continent, a farming dream that ended in fire, a town whose houses were sold and hauled away, a railway that vanished for a year and a half, and a river of electricity that flows south. The first reason is under your feet.
 
 ## 1. Rock Without Soil (calm)
 
@@ -22,7 +22,7 @@ P7: But that is only half an answer. Finland went through the same thing. Its be
 
 ## 2. The Freezer in the Middle (curious)
 
-P8: Reason two. Canada's Shield has a frozen sea at its centre. Hudson Bay covers more than a million square kilometres, and it sits deep inside the continent. For most of the year, it is covered in ice.
+P8: Reason two. Canada's Shield has a frozen sea at its centre. Together with James Bay at its southern end, Hudson Bay covers more than a million square kilometres, deep inside the continent. For most of the year, it is covered in ice.
 
 P9: Ships heading for the port of Churchill, on its western shore, could expect the ice to break up around the middle of July and to freeze again in the second half of November. That leaves about eight months of ice. When the ice melts, the polar bears come ashore and wait, fasting, for about four months until it returns.
 
@@ -62,7 +62,7 @@ P22: We measured how many people live in that strip, the band of mixed forest an
 
 P23: And to the west lay the prairies. Under the Dominion Lands Act of 1872, a settler could claim a quarter section, a hundred and sixty acres of flat, deep soil, for a ten dollar fee, and farm it. Much of the prairies was settled this way, and the railways carried the settlers straight across the Shield to reach them. For a family looking for land, the choice was easy. Why fight the rock when you could ride past it?
 
-P24: Finland never had that choice. Almost the whole country stands on shield rock. People farmed the clay plains along its coasts, built towns at the river mouths, and made the best of what they had, because there was nowhere else to go. Canada did have somewhere else, so the Shield was left for the people who needed what was under it.
+P24: Finland never had that choice. Almost the whole country stands on shield rock. People cleared fields wherever they could, built their towns along the coasts, and made the best of what they had, because there was nowhere else to go. Canada did have somewhere else, so the Shield was left for the people who needed what was under it.
 
 P24b: And look where the Shield's few cities stand. The largest are Greater Sudbury, with about a hundred and seventy thousand people, Saguenay, with about a hundred and sixty thousand, and Thunder Bay, with about a hundred and twenty thousand. All three sit close to its southern edge, on a railway, a lake or a river that leads to the St Lawrence. Not one city of that size has grown in its interior.
 
@@ -94,13 +94,13 @@ P35: That is what living on the Shield means. Not just cold and rock, but distan
 
 ## 7. The Empty Half Lights the Full Half (curious)
 
-P36: Reason seven. The empty half of Canada powers the full half. The ice that scraped the Shield bare also left it covered in rivers and lakes, dropping from the high ground towards Hudson Bay and the Atlantic. That falling water is one of the largest sources of hydroelectric power in the world.
+P36: Reason seven. The empty half of Canada powers the full half. The ice that scraped the Shield bare also left it covered in rivers and lakes, dropping from the high ground towards Hudson Bay and the Atlantic. Canada is the third largest producer of hydroelectricity in the world, and more than half of it is made in Quebec.
 
 P37: On the thirtieth of April, 1971, the Premier of Quebec, Robert Bourassa, announced what he called the project of the century. Huge dams on the rivers that run into James Bay, the southern arm of Hudson Bay. The Cree and Inuit who lived there had not been asked. They went to court and won an injunction to stop the work, but it was soon overturned.
 
 P38: In November 1975, after years of talks, the Cree, the Inuit, Quebec, Canada and Hydro-Québec signed the James Bay and Northern Quebec Agreement. The Cree and Inuit gave up claims to much of the land in return for two hundred and twenty-five million dollars and rights over hunting, fishing and their own communities. It is known as Canada's first modern treaty.
 
-P39: Today, the La Grande complex has about seventeen thousand megawatts of generating capacity, close to half of everything Hydro-Québec can produce. The largest station alone, Robert-Bourassa, can deliver more than five and a half thousand megawatts. The power travels more than a thousand kilometres south, to Montreal and beyond.
+P39: Today, the La Grande complex has about seventeen thousand megawatts of generating capacity, close to half of everything Hydro-Québec can produce. The largest station alone, Robert-Bourassa, can deliver more than five and a half thousand megawatts. The power travels about a thousand kilometres south, to Montreal and beyond.
 
 P39b: The dams changed the land they were built on. In September 1984, thousands of caribou of the George River herd drowned while crossing the Caniapiscau River at Limestone Falls, on a river the project had changed. Quebec officials first estimated at least ten thousand. Inuit leaders blamed water released from the new reservoir upstream. Hydro-Québec said heavy rain had raised the river. Fences were later built near the falls to keep the herds away from the worst stretch.
 

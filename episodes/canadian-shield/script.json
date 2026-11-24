@@ -1,0 +1,3926 @@
+{
+ "title": "Why Almost Nobody Lives on Half of Canada",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/canadian-shield/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Shield, lowlands, prairies and Clay Belt: Ecological Framework of Canada (AAFC) ecozones/ecoregion 96 (geo/)",
+  "People on the Shield: own count, Kontur Population 2023 (CC BY 4.0) in Boreal + Taiga Shield ecozones (geo/measure_population.py)",
+  "Temperatures: own calculation from ERA5 reanalysis 1991-2020 via Open-Meteo (data/era5_normals.py)",
+  "Railway, power-line and wind arrows drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "HALF OF CANADA EMPTY"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Canada is the second largest country on Earth. Look at it from space at night and almost all of it is dark. And the darkest part is a huge horseshoe of rock wrapped around Hudson Bay, from the Arctic down to the Great Lakes and out to Labrador.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -96.811,
+           "lat": 68.678,
+           "span": 333.048
+          },
+          "highlight": [
+           "Canada@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Look at it from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -92.4,
+           "lat": 62.44,
+           "span": 64.8
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And the darkest part",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.504,
+           "lat": 55.853,
+           "span": 120.249
+          },
+          "highlight": [
+           "file:shield.geojson@red"
+          ]
+         },
+         {
+          "at": "from the Arctic down",
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           },
+           {
+            "name": "Thunder Bay",
+            "lon": -89.25,
+            "lat": 48.38,
+            "kind": "city",
+            "label": "Thunder Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Geologists call it the Canadian Shield. It covers about five million square kilometres, roughly half of the country. We counted the people who live on its forest belt, using a population map built from satellite images and census data. About three point four million. Fewer than one Canadian in ten.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Canadian Shield.jpg",
+       "on_screen_text": "The Canadian Shield, Ontario"
+      },
+      {
+       "type": "stat",
+       "at": "It covers about five",
+       "stat": {
+        "value": "5 MILLION KM²",
+        "label": "Area of the Canadian Shield, about half of Canada",
+        "source": "The Canadian Encyclopedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "We counted the people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 50.5,
+           "span": 0.8
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": -90.5,
+           "lat": 50.5,
+           "span": 0.496
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lakes of the Shield, north-western Ontario"
+      },
+      {
+       "type": "stat",
+       "at": "About three point four",
+       "stat": {
+        "value": "3.4 MILLION",
+        "label": "People on the Shield's forest belt: 8.7 % of Canadians",
+        "source": "Own count: Kontur Population 2023 in AAFC Shield ecozones"
+       }
+      }
+     ]
+    },
+    {
+     "text": "But here is the strange part. On the other side of the Atlantic, Finland stands on the same kind of rock. Ancient, hard, scraped bare by the same kind of ice sheet, and covered in lakes. More than five and a half million people live there. Finland has a city of over two hundred thousand people close to the Arctic Circle. Canada's Shield has nothing like it that far north.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lake Abitibi2.jpg",
+       "on_screen_text": "Lake Abitibi, Ontario-Quebec border"
+      },
+      {
+       "type": "map",
+       "at": "On the other side",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -43.528,
+           "lat": 57.123,
+           "span": 201.514
+          },
+          "highlight": [
+           "file:shield.geojson@alt",
+           "Finland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Ancient, hard, scraped bare",
+       "photo": "File:Lake Saimaa morning.jpg",
+       "on_screen_text": "Lake Saimaa, Finland"
+      },
+      {
+       "type": "stat",
+       "at": "More than five and",
+       "stat": {
+        "value": "5.6 MILLION",
+        "label": "People in Finland, end of 2024",
+        "source": "Statistics Finland"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Finland has a city",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.47,
+           "lat": 65.01,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": 25.47,
+           "lat": 65.01,
+           "span": 0.155
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oulu, Finland"
+      },
+      {
+       "type": "photo",
+       "at": "Canada's Shield has nothing",
+       "photo": "File:UtsingiPoint-GreatSlaveLake.JPG",
+       "on_screen_text": "Great Slave Lake, Northwest Territories"
+      }
+     ]
+    },
+    {
+     "text": "So why does half of Canada stay almost empty? The answer runs through a frozen sea in the middle of the continent, a farming dream that ended in fire, a town whose houses were sold and hauled away, a railway that vanished for a year and a half, and a river of electricity that flows south. The first reason is under your feet.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -83.7,
+           "lat": 56.92,
+           "span": 41.4
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           }
+          ]
+         },
+         {
+          "at": "a frozen sea in",
+          "highlight": [
+           "Hudson Bay@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a farming dream that",
+       "photo": "File:Nushka (Val Gagné), Ontario (1916).jpg",
+       "on_screen_text": "Nushka, Ontario, after the fire of 1916"
+      },
+      {
+       "type": "map",
+       "at": "a town whose houses",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.455,
+           "lat": 60.835,
+           "span": 0.1
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pine Point, Northwest Territories"
+      },
+      {
+       "type": "photo",
+       "at": "a railway that vanished",
+       "photo": "File:End of the line, Churchill Manitoba (30352378547).jpg",
+       "on_screen_text": "End of the line, Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "and a river of",
+       "photo": "File:Churchill Falls Generating Station.jpg",
+       "on_screen_text": "Churchill Falls, Labrador"
+      },
+      {
+       "type": "photo",
+       "at": "The first reason is",
+       "photo": "File:Canadian Shield Ontario.jpg",
+       "on_screen_text": "The Canadian Shield, Ontario"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rock Without Soil",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. The Shield is the bare core of North America. In most places, the oldest rock of a continent is buried under kilometres of younger layers. Here, those layers are mostly gone. What you stand on near Sudbury or Thunder Bay is Precambrian rock, more than five hundred million years old, and in places some of the oldest rock ever found.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.504,
+           "lat": 55.853,
+           "span": 120.249
+          },
+          "highlight": [
+           "file:shield.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In most places, the",
+       "photo": "File:Riviere au Tonnerre 032.jpg",
+       "on_screen_text": "Rivière au Tonnerre, Quebec"
+      },
+      {
+       "type": "photo",
+       "at": "Here, those layers are",
+       "photo": "File:Gneiss (Archean; Windy Lake Northwest roadcut, Sudbury Impact Structure, Ontario, Canada) 1 (32792412377).jpg",
+       "on_screen_text": "Gneiss, near Sudbury"
+      },
+      {
+       "type": "map",
+       "at": "What you stand on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.0,
+           "lat": 47.5,
+           "span": 22.0
+          },
+          "places": [
+           {
+            "name": "Greater Sudbury",
+            "lon": -81.0,
+            "lat": 46.49,
+            "kind": "city",
+            "label": "Greater Sudbury"
+           },
+           {
+            "name": "Thunder Bay",
+            "lon": -89.25,
+            "lat": 48.38,
+            "kind": "city",
+            "label": "Thunder Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "is Precambrian rock, more",
+       "photo": "File:North Shore of Lake Superior (35840825081).jpg",
+       "on_screen_text": "North shore of Lake Superior"
+      },
+      {
+       "type": "stat",
+       "at": "more than five hundred",
+       "stat": {
+        "value": "500 MILLION+",
+        "label": "Years since the Shield's youngest rock formed",
+        "source": "The Canadian Encyclopedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then came the ice. During the last ice age, an ice sheet kilometres thick covered almost all of Canada. As it crept outward, it froze rocks and gravel into its base and ground across the land like sandpaper. It scraped off the soil and pushed much of it south.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -99.6,
+           "lat": 59.56,
+           "span": 79.2
+          }
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -99.6,
+           "lat": 59.56,
+           "span": 67.32
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "As it crept outward,",
+       "photo": "File:Glacial striations (Straight Lake West roadcut, north of Temagami, Ontario, Canada) (40859886953).jpg",
+       "on_screen_text": "Scratches left by the ice, near Temagami"
+      },
+      {
+       "type": "photo",
+       "at": "and ground across the",
+       "photo": "File:Lake Superior North Shore Minnesota Tony Webster 19283970576.jpg",
+       "on_screen_text": "Ice-scoured rock, Lake Superior"
+      },
+      {
+       "type": "map",
+       "at": "It scraped off the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -92.824,
+           "lat": 53.882,
+           "span": 72.491
+          },
+          "arrows": [
+           {
+            "from": [
+             -80.0,
+             60.0
+            ],
+            "to": [
+             -80.5,
+             47.0
+            ],
+            "color": "blue",
+            "label": "Ice pushed the soil south",
+            "bend": 0.05
+           },
+           {
+            "from": [
+             -95.0,
+             60.0
+            ],
+            "to": [
+             -97.0,
+             49.5
+            ],
+            "color": "blue",
+            "bend": -0.05
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "When the ice melted, it left bare ridges, a thin layer of sand and boulders, and hollows that filled with water. That is why the Shield looks the way it does from a plane. Rock, black spruce, and lakes. Lakes beyond counting.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Straight Lake, Timiskaming District, Ontario.jpg",
+       "on_screen_text": "Straight Lake, Timiskaming District"
+      },
+      {
+       "type": "map",
+       "at": "a thin layer of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.49,
+           "lat": 49.77,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake of the Woods at Kenora"
+      },
+      {
+       "type": "map",
+       "at": "That is why the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.5,
+           "lat": 50.5,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North-western Ontario from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Rock, black spruce, and",
+       "photo": "File:Bog in Northern Ontario.jpg",
+       "on_screen_text": "Bog in northern Ontario"
+      },
+      {
+       "type": "map",
+       "at": "Lakes beyond counting.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.5,
+           "lat": 54.5,
+           "span": 1.2
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lakes of northern Quebec"
+      }
+     ]
+    },
+    {
+     "text": "But that is only half an answer. Finland went through the same thing. Its bedrock is part of the Fennoscandian Shield, just as old, and the ice scraped it too. The soil there is thin. The lakes are everywhere. So the rock cannot be the whole story. Something else must make the Canadian side so much harder.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.096,
+           "lat": 64.74,
+           "span": 71.076
+          },
+          "highlight": [
+           "Finland@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its bedrock is part",
+       "photo": "File:Aerial view of Helsinki. 2025-07-23.jpg",
+       "on_screen_text": "Helsinki"
+      },
+      {
+       "type": "photo",
+       "at": "The soil there is",
+       "photo": "File:Lake Saimaa morning.jpg",
+       "on_screen_text": "Lake Saimaa"
+      },
+      {
+       "type": "map",
+       "at": "So the rock cannot",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 24.94,
+           "lat": 60.17,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Helsinki from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "Something else must make",
+       "photo": "File:Thunder Bay Ontario.jpg",
+       "on_screen_text": "Thunder Bay, Ontario"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Freezer in the Middle",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason two. Canada's Shield has a frozen sea at its centre. Together with James Bay at its southern end, Hudson Bay covers more than a million square kilometres, deep inside the continent. For most of the year, it is covered in ice.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -85.0,
+           "lat": 59.0,
+           "span": 28.0
+          },
+          "highlight": [
+           "Hudson Bay@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Together with James Bay",
+       "photo": "File:Hudson Bay - Churchill, Manitoba (40402865225).jpg",
+       "on_screen_text": "Hudson Bay at Churchill"
+      },
+      {
+       "type": "stat",
+       "at": "Hudson Bay covers more",
+       "stat": {
+        "value": "1.2 MILLION KM²",
+        "label": "Hudson Bay with James Bay",
+        "source": "Wikipedia; Britannica (wider definition)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "For most of the",
+       "photo": "File:Sea ice in Hudson Bay (MODIS 2016-07-13).jpg",
+       "on_screen_text": "Hudson Bay from orbit, July 2016"
+      }
+     ]
+    },
+    {
+     "text": "Ships heading for the port of Churchill, on its western shore, could expect the ice to break up around the middle of July and to freeze again in the second half of November. That leaves about eight months of ice. When the ice melts, the polar bears come ashore and wait, fasting, for about four months until it returns.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -96.935,
+           "lat": 57.063,
+           "span": 16.373
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "on its western shore,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.17,
+           "lat": 58.77,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-08-31"
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -94.17,
+           "lat": 58.77,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Churchill, Manitoba"
+      },
+      {
+       "type": "photo",
+       "at": "and to freeze again",
+       "photo": "File:Sea ice on Hudson Bay near Cape Churchill.JPG",
+       "on_screen_text": "Ice on Hudson Bay near Cape Churchill"
+      },
+      {
+       "type": "stat",
+       "at": "That leaves about eight",
+       "stat": {
+        "value": "~8 MONTHS",
+        "label": "Ice on the route to Churchill, 1981-2014 average",
+        "source": "Own arithmetic, from Arctic journal dates"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "When the ice melts,",
+       "photo": "File:Polar Bear in Hudson Bay - Churchill, Manitoba (27426282558).jpg",
+       "on_screen_text": "Polar bear, Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "fasting, for about four",
+       "photo": "File:Hudson Bay - Churchill, Manitoba (27426253488).jpg",
+       "on_screen_text": "Hudson Bay shore at Churchill"
+      }
+     ]
+    },
+    {
+     "text": "In Churchill itself, the bears are part of daily life. Since 1983, the town has run a Polar Bear Alert program. Anyone who sees a bear calls a hotline, and conservation officers scare it away or trap it. Bears that keep coming back are held in a building on the edge of town, opened in 1982, until the bay freezes and they can be released onto the ice.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Churchill, Manitoba (16885476409).jpg",
+       "on_screen_text": "Churchill in winter"
+      },
+      {
+       "type": "stat",
+       "at": "Since 1983, the town",
+       "stat": {
+        "value": "SINCE 1983",
+        "label": "Churchill's Polar Bear Alert program",
+        "source": "Polar Bears International"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Anyone who sees a",
+       "photo": "File:Churchill, Manitoba (2010).jpg",
+       "on_screen_text": "Churchill, Manitoba"
+      },
+      {
+       "type": "photo",
+       "at": "Bears that keep coming",
+       "photo": "File:Polar Bear Jail (6360633055).jpg",
+       "on_screen_text": "The polar bear holding facility, Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "opened in 1982,",
+       "photo": "File:Bear jail (6360643033).jpg",
+       "on_screen_text": "The holding facility"
+      },
+      {
+       "type": "photo",
+       "at": "until the bay freezes",
+       "photo": "File:Polar Bear and Tundra Buggy - Churchill, Manitoba (26427267077).jpg",
+       "on_screen_text": "Waiting for the ice, Churchill"
+      }
+     ]
+    },
+    {
+     "text": "Now compare two places at almost the same latitude. Churchill sits a little south of Stockholm and a little south of Helsinki. We pulled thirty years of daily temperatures, from 1991 to 2020, from a global weather record for each place.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -34.615,
+           "lat": 58.92,
+           "span": 159.808
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           },
+           {
+            "name": "Helsinki",
+            "lon": 24.94,
+            "lat": 60.17,
+            "kind": "capital",
+            "label": "Helsinki"
+           }
+          ]
+         },
+         {
+          "at": "Churchill sits a little",
+          "places": [
+           {
+            "name": "Stockholm",
+            "lon": 18.07,
+            "lat": 59.33,
+            "kind": "capital",
+            "label": "Stockholm"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -94.17,
+             58.77
+            ],
+            "to": [
+             24.94,
+             60.17
+            ],
+            "mode": "line",
+            "label": "Almost the same latitude",
+            "color": "accent",
+            "seconds": 3.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "We pulled thirty years",
+       "photo": "File:Aerial photograph of Helsinki, Finland, 2020 May.jpg",
+       "on_screen_text": "Helsinki"
+      },
+      {
+       "type": "photo",
+       "at": "from a global weather",
+       "photo": "File:Suomen Ilmakuva - Aerial photograph from the center of Helsinki to the sea in 2015.jpg",
+       "on_screen_text": "Helsinki"
+      }
+     ]
+    },
+    {
+     "text": "Helsinki averages about six degrees above zero over the year. Churchill averages six degrees below. In January, Helsinki sits around minus four. Churchill sits around minus twenty-six. Churchill spends more than two hundred days a year with a daily average below freezing. Helsinki spends fewer than a hundred.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Days a year below freezing, 1991-2020",
+        "unit": "",
+        "data": [
+         [
+          "Helsinki",
+          93
+         ],
+         [
+          "Churchill",
+          214
+         ]
+        ],
+        "source": "Own calculation: ERA5 daily means 1991-2020 (Open-Meteo)",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In January, Helsinki sits",
+       "stat": {
+        "value": "-26 °C",
+        "label": "Churchill in January; Helsinki: -4 °C (1991-2020 averages)",
+        "source": "Own calculation: ERA5 daily means 1991-2020 (Open-Meteo)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Churchill spends more than",
+       "photo": "File:Aurora Borealis - Churchill, Manitoba (27426660778).jpg",
+       "on_screen_text": "Churchill in the dark season"
+      },
+      {
+       "type": "photo",
+       "at": "Helsinki spends fewer than",
+       "photo": "File:Aerial view of Helsinki. 2025-07-23.jpg",
+       "on_screen_text": "Helsinki"
+      }
+     ]
+    },
+    {
+     "text": "Go further south in Canada and it is still colder than you would expect. Timmins, a mining city in northern Ontario, lies at about the same latitude as Paris. Oulu, in Finland, lies near the Arctic Circle, about eighteen hundred kilometres further north. And yet, over a whole year, Oulu is slightly warmer than Timmins.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.9,
+           "lat": 47.94,
+           "span": 19.8
+          },
+          "places": [
+           {
+            "name": "Timmins",
+            "lon": -81.33,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Timmins"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Timmins, a mining city",
+       "photo": "File:Timmins, Ontario.jpg",
+       "on_screen_text": "Timmins, Ontario"
+      },
+      {
+       "type": "map",
+       "at": "lies at about the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -42.0,
+           "lat": 55.2,
+           "span": 154.0
+          },
+          "places": [
+           {
+            "name": "Timmins",
+            "lon": -81.33,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Timmins"
+           },
+           {
+            "name": "Paris",
+            "lon": 2.35,
+            "lat": 48.86,
+            "kind": "capital",
+            "label": "Paris"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -81.33,
+             48.48
+            ],
+            "to": [
+             2.35,
+             48.86
+            ],
+            "mode": "line",
+            "label": "The latitude of Paris",
+            "color": "accent",
+            "seconds": 3.5
+           }
+          ]
+         },
+         {
+          "at": "Oulu, in Finland, lies",
+          "places": [
+           {
+            "name": "Oulu",
+            "lon": 25.47,
+            "lat": 65.01,
+            "kind": "city",
+            "label": "Oulu"
+           }
+          ],
+          "view": {
+           "lon": -23.665,
+           "lat": 54.145,
+           "span": 131.848
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And yet, over a",
+       "photo": "File:View of Oulu 20240904 01.jpg",
+       "on_screen_text": "Oulu, Finland"
+      },
+      {
+       "type": "chart",
+       "at": "slightly warmer than Timmins.",
+       "chart": {
+        "type": "bar",
+        "title": "Average temperature over the year (°C)",
+        "unit": "",
+        "data": [
+         [
+          "Oulu, 65° N",
+          3.3
+         ],
+         [
+          "Timmins, 48° N",
+          2.7
+         ]
+        ],
+        "source": "Own calculation: ERA5 daily means 1991-2020 (Open-Meteo)",
+        "highlight": 0
+       }
+      }
+     ]
+    },
+    {
+     "text": "Why? Part of it is the wind. Northern Europe gets its weather mostly from the west, off a warm Atlantic Ocean. Scientists still argue about how much of that warmth comes from ocean currents and how much from the winds themselves. But the result is the same. Finland's air comes off the sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:MS Oulu Toppila 20241020 02.jpg",
+       "on_screen_text": "Oulu harbour"
+      },
+      {
+       "type": "map",
+       "at": "Northern Europe gets its",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -3.0,
+           "lat": 56.707,
+           "span": 72.451
+          },
+          "arrows": [
+           {
+            "from": [
+             -30.0,
+             52.0
+            ],
+            "to": [
+             8.0,
+             60.0
+            ],
+            "color": "red",
+            "label": "Winds off the Atlantic",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             8.0,
+             60.0
+            ],
+            "to": [
+             24.0,
+             62.5
+            ],
+            "color": "red",
+            "bend": 0.05
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Scientists still argue about",
+       "photo": "File:Tuira Bridges Oulu 20130715.JPG",
+       "on_screen_text": "Oulu, Finland"
+      },
+      {
+       "type": "map",
+       "at": "comes from ocean currents",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.3,
+           "lat": 65.05,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Gulf of Bothnia at Oulu"
+      },
+      {
+       "type": "photo",
+       "at": "But the result is",
+       "photo": "File:View of Oulu 20240904 03.jpg",
+       "on_screen_text": "Oulu"
+      },
+      {
+       "type": "map",
+       "at": "Finland's air comes off",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.47,
+           "lat": 65.01,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oulu on the Gulf of Bothnia"
+      }
+     ]
+    },
+    {
+     "text": "The Canadian Shield gets its weather off a continent, and off a bay that stays frozen for most of the year. The same rock, at the same latitude, sits in a completely different climate. And that difference decided what happened when people tried to farm it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.538,
+           "lat": 56.421,
+           "span": 66.698
+          },
+          "arrows": [
+           {
+            "from": [
+             -112.0,
+             63.0
+            ],
+            "to": [
+             -96.0,
+             57.0
+            ],
+            "color": "blue",
+            "label": "Air off the continent",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -86.0,
+             60.0
+            ],
+            "to": [
+             -82.0,
+             50.5
+            ],
+            "color": "blue",
+            "label": "Air off the frozen bay",
+            "bend": -0.05
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and off a bay",
+       "photo": "File:Ice on Hudson Bay (MODIS 2026-05-06).jpg",
+       "on_screen_text": "Hudson Bay, still frozen in May 2026"
+      },
+      {
+       "type": "photo",
+       "at": "The same rock, at",
+       "photo": "File:Kenora, Ontario.jpg",
+       "on_screen_text": "Kenora, Ontario"
+      },
+      {
+       "type": "map",
+       "at": "And that difference decided",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.47,
+           "lat": 48.53,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farms near Matheson, Ontario"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Farm Dream That Burned",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. Canada tried to farm the Shield, and the Shield fought back. At the end of the ice age, a huge lake of meltwater sat against the ice in what is now northern Ontario and Quebec. When it drained, it left behind a wide, flat floor of clay. It became known as the Great Clay Belt.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.505,
+           "lat": 47.899,
+           "span": 26.524
+          },
+          "highlight": [
+           "file:claybelt.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "At the end of",
+       "photo": "File:Lake Abitibi2.jpg",
+       "on_screen_text": "Lake Abitibi"
+      },
+      {
+       "type": "map",
+       "at": "sat against the ice",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.8,
+           "lat": 48.9,
+           "span": 6.0
+          },
+          "places": [
+           {
+            "name": "Timmins",
+            "lon": -81.33,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Timmins"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "When it drained, it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.505,
+           "lat": 49.012,
+           "span": 17.972
+          },
+          "highlight": [
+           "file:claybelt.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Kapuskasing",
+            "lon": -82.43,
+            "lat": 49.42,
+            "kind": "site",
+            "label": "Kapuskasing",
+            "icon": "farm"
+           },
+           {
+            "name": "Matheson",
+            "lon": -80.47,
+            "lat": 48.53,
+            "kind": "site",
+            "label": "Matheson",
+            "icon": "fire"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It became known as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.43,
+           "lat": 49.42,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fields around Kapuskasing, on the clay"
+      }
+     ]
+    },
+    {
+     "text": "To officials in Toronto, it looked like a second Ontario. A geologist named Alfred Barlow praised the clay in a report in 1899. The next year, the province sent ten survey parties into the north. Pamphlets promised the great Clay Belt of northern Ontario, containing over fifteen million acres.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ontario Sessional Papers, 1918, No.47-49 (1918) (14790006293).jpg",
+       "on_screen_text": "Northern Ontario, about 1918"
+      },
+      {
+       "type": "stat",
+       "at": "A geologist named Alfred",
+       "stat": {
+        "value": "1899",
+        "label": "Alfred Barlow's report praises the Clay Belt",
+        "source": "Clay Belt histories (TCE; Wikipedia)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The next year, the",
+       "photo": "File:Timmins, Ontario by Charles A See (16809126075).jpg",
+       "on_screen_text": "Timmins, about 1915"
+      },
+      {
+       "type": "stat",
+       "at": "Pamphlets promised the great",
+       "stat": {
+        "value": "15,000,000 ACRES",
+        "label": "The Clay Belt, as promoted around 1901",
+        "source": "Pamphlet, c. 1901 (Canadiana)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Settlers came by the new railways. They cut the forest and burned the brush to clear their fields. In the summer of 1916, there was little rain. On the twenty-ninth of July, small clearing fires around the settlements joined together into one.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ontario Sessional Papers, 1918, No.47-49 (1918) (14583495169).jpg",
+       "on_screen_text": "Clearing land in northern Ontario, 1918"
+      },
+      {
+       "type": "photo",
+       "at": "They cut the forest",
+       "photo": "File:Ontario Sessional Papers, 1913, No.49-113 (1913) (14594606530).jpg",
+       "on_screen_text": "Cleared land, northern Ontario, 1913"
+      },
+      {
+       "type": "map",
+       "at": "In the summer of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.1,
+           "lat": 48.78,
+           "span": 6.6
+          },
+          "places": [
+           {
+            "name": "Matheson",
+            "lon": -80.47,
+            "lat": 48.53,
+            "kind": "site",
+            "label": "Matheson",
+            "icon": "fire"
+           },
+           {
+            "name": "Nushka (Val Gagné)",
+            "lon": -80.67,
+            "lat": 48.62,
+            "kind": "site",
+            "label": "Nushka",
+            "icon": "fire"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On the twenty-ninth of",
+       "stat": {
+        "value": "29 JULY 1916",
+        "label": "Clearing fires join into one",
+        "source": "CBC; Ontario Heritage Trust"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The fire swept through towns and farms along the railway. Matheson was almost destroyed. In the hamlet of Nushka, people ran from the flames, and many never got out. The official count was about two hundred and twenty-three dead, and the real number is unknown. It is often called the deadliest fire in Canadian history.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Nushka (Val Gagné), Ontario (1916).jpg",
+       "on_screen_text": "Nushka, after the fire"
+      },
+      {
+       "type": "map",
+       "at": "Matheson was almost destroyed.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.47,
+           "lat": 48.53,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Matheson today"
+      },
+      {
+       "type": "photo",
+       "at": "people ran from the",
+       "photo": "File:Temporary morgue at Matheson, Ontario (1916).jpg",
+       "on_screen_text": "Temporary morgue at Matheson, 1916"
+      },
+      {
+       "type": "stat",
+       "at": "The official count was",
+       "stat": {
+        "value": "223",
+        "label": "Official death toll of the 1916 fire; the real number is unknown",
+        "source": "Alexander 2010; CBC"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It is often called",
+       "photo": "File:Black River-Matheson, Ontario.jpg",
+       "on_screen_text": "Black River-Matheson today"
+      }
+     ]
+    },
+    {
+     "text": "Six years later, it happened again. On the fourth of October, 1922, fires in the smaller clay belt near Lake Timiskaming were driven by strong winds. Within hours, about ninety percent of the town of Haileybury was gone. Around forty-three people died and about three thousand five hundred lost their homes. The fire stopped only when the wind dropped and snow and rain arrived.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -79.8,
+           "lat": 47.6,
+           "span": 3.0
+          },
+          "places": [
+           {
+            "name": "Haileybury",
+            "lon": -79.64,
+            "lat": 47.45,
+            "kind": "site",
+            "label": "Haileybury",
+            "icon": "fire"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "fires in the smaller",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -79.64,
+           "lat": 47.45,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Haileybury on Lake Timiskaming"
+      },
+      {
+       "type": "stat",
+       "at": "Within hours, about ninety",
+       "stat": {
+        "value": "90 %",
+        "label": "Share of Haileybury destroyed, 4 October 1922",
+        "source": "Ontario Heritage Trust"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Around forty-three people died",
+       "stat": {
+        "value": "3,500",
+        "label": "People left homeless by the 1922 fire",
+        "source": "Ontario Heritage Trust"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The fire stopped only",
+       "photo": "File:Straight Lake, Timiskaming District, Ontario.jpg",
+       "on_screen_text": "Timiskaming District"
+      }
+     ]
+    },
+    {
+     "text": "Even after the fires, the government kept trying. After the First World War, it set up a farm colony at Kapuskasing, in the heart of the Clay Belt, for soldiers coming home from Europe. The scheme was dropped in 1920, and many of its farmers left for the cities or for the prairies.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.505,
+           "lat": 49.012,
+           "span": 17.972
+          },
+          "highlight": [
+           "file:claybelt.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Kapuskasing",
+            "lon": -82.43,
+            "lat": 49.42,
+            "kind": "site",
+            "label": "Kapuskasing",
+            "icon": "farm"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "After the First World",
+       "photo": "File:Cochrane Ontario.jpg",
+       "on_screen_text": "Cochrane station, on the Clay Belt railway"
+      },
+      {
+       "type": "map",
+       "at": "in the heart of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.43,
+           "lat": 49.42,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kapuskasing on the clay"
+      },
+      {
+       "type": "photo",
+       "at": "for soldiers coming home",
+       "photo": "File:Kapuskasing, Ontario.jpg",
+       "on_screen_text": "Kapuskasing today"
+      },
+      {
+       "type": "stat",
+       "at": "The scheme was dropped",
+       "stat": {
+        "value": "1920",
+        "label": "Ontario drops its soldier settlement scheme at Kapuskasing",
+        "source": "Ontario Heritage Trust"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "left for the cities",
+       "photo": "File:Regina, Saskatchewan, Canada (1910) (14595380219).jpg",
+       "on_screen_text": "Threshing on the prairies, 1910"
+      }
+     ]
+    },
+    {
+     "text": "The fires were not the only problem. The clay was fertile, but the winters were long and snowy, and the rain came at the wrong times in a short growing season. Most farms gave little. The Clay Belt became logging country, with paper mills where the wheat was supposed to grow. And there was another reason the settlers did not have to stay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.6,
+           "lat": 48.6,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -80.6,
+           "lat": 48.6,
+           "span": 0.31
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Clay Belt farms near Matheson"
+      },
+      {
+       "type": "photo",
+       "at": "and the rain came",
+       "photo": "File:Ontario Sessional Papers, 1913, No.49-113 (1913) (14594606530).jpg",
+       "on_screen_text": "Northern Ontario, 1913"
+      },
+      {
+       "type": "photo",
+       "at": "The Clay Belt became",
+       "photo": "File:Thunder Bay Pulp and Paper.jpg",
+       "on_screen_text": "Paper mill, Thunder Bay"
+      },
+      {
+       "type": "photo",
+       "at": "And there was another",
+       "photo": "File:Kenora, Ontario.jpg",
+       "on_screen_text": "Kenora"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Somewhere Better to Go",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason four. Canada had better land, and Finland did not. Look at the map again. South of the Shield lies a narrow strip of younger, flatter rock, from Windsor through Toronto and Ottawa to Montreal and Quebec City. The soil the ice scraped off the north ended up partly here.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.361,
+           "lat": 56.01,
+           "span": 129.188
+          },
+          "places": [
+           {
+            "name": "Toronto",
+            "lon": -79.38,
+            "lat": 43.65,
+            "kind": "city",
+            "label": "Toronto"
+           },
+           {
+            "name": "Montreal",
+            "lon": -73.57,
+            "lat": 45.5,
+            "kind": "city",
+            "label": "Montreal"
+           }
+          ]
+         },
+         {
+          "at": 7,
+          "view": {
+           "lon": -98.16,
+           "lat": 63.88,
+           "span": 72.216
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "South of the Shield",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.956,
+           "lat": 44.324,
+           "span": 24.259
+          },
+          "highlight": [
+           "file:mixedwood.geojson@red"
+          ]
+         },
+         {
+          "at": "from Windsor through Toronto",
+          "places": [
+           {
+            "name": "Windsor",
+            "lon": -83.03,
+            "lat": 42.31,
+            "kind": "city",
+            "label": "Windsor"
+           },
+           {
+            "name": "Toronto",
+            "lon": -79.38,
+            "lat": 43.65,
+            "kind": "city",
+            "label": "Toronto"
+           }
+          ]
+         },
+         {
+          "at": "to Montreal and Quebec",
+          "places": [
+           {
+            "name": "Montreal",
+            "lon": -73.57,
+            "lat": 45.5,
+            "kind": "city",
+            "label": "Montreal"
+           },
+           {
+            "name": "Quebec City",
+            "lon": -71.21,
+            "lat": 46.81,
+            "kind": "city",
+            "label": "Quebec City"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The soil the ice",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -76.4,
+           "lat": 44.4,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the Shield meets the farmland, near Kingston"
+      }
+     ]
+    },
+    {
+     "text": "We measured how many people live in that strip, the band of mixed forest and farmland along the Great Lakes and the St Lawrence. It covers only about two percent of Canada's land. More than half of all Canadians live in it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Toronto skyline 2025.jpg",
+       "on_screen_text": "Toronto"
+      },
+      {
+       "type": "photo",
+       "at": "the band of mixed",
+       "photo": "File:Montreal skyline from Milton-Parc.jpg",
+       "on_screen_text": "Montreal"
+      },
+      {
+       "type": "stat",
+       "at": "It covers only about",
+       "stat": {
+        "value": "2 %",
+        "label": "Share of Canada's land in the Great Lakes-St Lawrence lowlands",
+        "source": "Own count: Kontur Population 2023 in AAFC Shield ecozones"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "More than half of",
+       "stat": {
+        "value": "51 %",
+        "label": "Share of Canadians living there",
+        "source": "Own count: Kontur Population 2023 in AAFC Shield ecozones"
+       }
+      }
+     ]
+    },
+    {
+     "text": "And to the west lay the prairies. Under the Dominion Lands Act of 1872, a settler could claim a quarter section, a hundred and sixty acres of flat, deep soil, for a ten dollar fee, and farm it. Much of the prairies was settled this way, and the railways carried the settlers straight across the Shield to reach them. For a family looking for land, the choice was easy. Why fight the rock when you could ride past it?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.61,
+           "lat": 51.337,
+           "span": 24.471
+          },
+          "highlight": [
+           "file:prairie.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Winnipeg",
+            "lon": -97.14,
+            "lat": 49.9,
+            "kind": "city",
+            "label": "Winnipeg"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Under the Dominion Lands",
+       "photo": "File:Canada west - 350,000,000 bushels wheat in 1915 - Manitoba, Saskatchewan, Alberta (1916) (14591304049).jpg",
+       "on_screen_text": "Canada West, a settlers' guide, 1916"
+      },
+      {
+       "type": "stat",
+       "at": "a hundred and sixty",
+       "stat": {
+        "value": "160 ACRES",
+        "label": "A homestead under the Dominion Lands Act, 1872, for a $10 fee",
+        "source": "The Canadian Encyclopedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Much of the prairies",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -95.946,
+           "lat": 54.166,
+           "span": 104.375
+          },
+          "highlight": [
+           "file:prairie.geojson@red"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -79.4,
+             44.0
+            ],
+            "to": [
+             -97.0,
+             50.0
+            ],
+            "color": "red",
+            "label": "Settlers ride past the Shield",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and the railways carried",
+       "photo": "File:Regina, Saskatchewan, Canada (1910) (14595380219).jpg",
+       "on_screen_text": "Regina, Saskatchewan, 1910"
+      },
+      {
+       "type": "photo",
+       "at": "For a family looking",
+       "photo": "File:North Shore of Lake Superior (35840825081).jpg",
+       "on_screen_text": "The railway's way across the Shield, Lake Superior"
+      },
+      {
+       "type": "photo",
+       "at": "Why fight the rock",
+       "photo": "File:Canadian Shield.jpg",
+       "on_screen_text": "Shield rock, Ontario"
+      }
+     ]
+    },
+    {
+     "text": "Finland never had that choice. Almost the whole country stands on shield rock. People cleared fields wherever they could, built their towns along the coasts, and made the best of what they had, because there was nowhere else to go. Canada did have somewhere else, so the Shield was left for the people who needed what was under it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 26.096,
+           "lat": 64.74,
+           "span": 71.076
+          },
+          "highlight": [
+           "Finland@red"
+          ],
+          "places": [
+           {
+            "name": "Helsinki",
+            "lon": 24.94,
+            "lat": 60.17,
+            "kind": "capital",
+            "label": "Helsinki"
+           },
+           {
+            "name": "Oulu",
+            "lon": 25.47,
+            "lat": 65.01,
+            "kind": "city",
+            "label": "Oulu"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "People cleared fields wherever",
+       "photo": "File:Tuira Bridges Oulu 20130715.JPG",
+       "on_screen_text": "Oulu, Finland"
+      },
+      {
+       "type": "map",
+       "at": "built their towns along",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 25.47,
+           "lat": 65.01,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": 25.47,
+           "lat": 65.01,
+           "span": 0.248
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oulu on the Gulf of Bothnia"
+      },
+      {
+       "type": "photo",
+       "at": "Canada did have somewhere",
+       "photo": "File:Yellowknife 201809.jpg",
+       "on_screen_text": "Yellowknife"
+      },
+      {
+       "type": "photo",
+       "at": "so the Shield was",
+       "photo": "File:Yellowknife -27 (25302183098).jpg",
+       "on_screen_text": "Yellowknife in winter"
+      }
+     ]
+    },
+    {
+     "text": "And look where the Shield's few cities stand. The largest are Greater Sudbury, with about a hundred and seventy thousand people, Saguenay, with about a hundred and sixty thousand, and Thunder Bay, with about a hundred and twenty thousand. All three sit close to its southern edge, on a railway, a lake or a river that leads to the St Lawrence. Not one city of that size has grown in its interior.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -79.34,
+           "lat": 46.62,
+           "span": 18.04
+          }
+         },
+         {
+          "at": "The largest are Greater",
+          "places": [
+           {
+            "name": "Greater Sudbury",
+            "lon": -81.0,
+            "lat": 46.49,
+            "kind": "city",
+            "label": "Greater Sudbury"
+           }
+          ]
+         },
+         {
+          "at": "Saguenay, with about a",
+          "places": [
+           {
+            "name": "Saguenay",
+            "lon": -71.07,
+            "lat": 48.43,
+            "kind": "city",
+            "label": "Saguenay"
+           }
+          ],
+          "view": {
+           "lon": -77.009,
+           "lat": 46.587,
+           "span": 15.937
+          }
+         },
+         {
+          "at": "and Thunder Bay, with",
+          "places": [
+           {
+            "name": "Thunder Bay",
+            "lon": -89.25,
+            "lat": 48.38,
+            "kind": "city",
+            "label": "Thunder Bay"
+           }
+          ],
+          "view": {
+           "lon": -81.536,
+           "lat": 46.549,
+           "span": 20.7
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "All three sit close",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.0,
+           "lat": 46.49,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Greater Sudbury"
+      },
+      {
+       "type": "photo",
+       "at": "on a railway, a",
+       "photo": "File:Thunder Bay and Lake Superior 1929.jpg",
+       "on_screen_text": "Thunder Bay and Lake Superior, chart of 1929"
+      },
+      {
+       "type": "map",
+       "at": "Not one city of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -87.38,
+           "lat": 57.84,
+           "span": 54.28
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Towns That Live as Long as the Mine",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason five. On the Shield, a town lives as long as its mine. The rock that is so bad for farming is rich in iron, nickel, gold, copper, zinc and uranium. So towns grew where the ore was, not where people wanted to live. And when the ore ran out, or the price fell, the town had no reason left.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -90.64,
+           "lat": 56.375,
+           "span": 63.891
+          },
+          "places": [
+           {
+            "name": "Schefferville",
+            "lon": -66.83,
+            "lat": 54.8,
+            "kind": "site",
+            "label": "Schefferville",
+            "icon": "mine"
+           },
+           {
+            "name": "Pine Point",
+            "lon": -114.45,
+            "lat": 60.84,
+            "kind": "site",
+            "label": "Pine Point",
+            "icon": "mine"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The rock that is",
+       "photo": "File:Dolomite-sphalerite-galena (Pine Point Mine, Northwest Territories, Canada) (40704477664).jpg",
+       "on_screen_text": "Zinc and lead ore, Pine Point mine"
+      },
+      {
+       "type": "photo",
+       "at": "copper, zinc and uranium.",
+       "photo": "File:Gneiss (Archean; Windy Lake Northwest roadcut, Sudbury Impact Structure, Ontario, Canada) 1 (32792412377).jpg",
+       "on_screen_text": "Shield rock near Sudbury"
+      },
+      {
+       "type": "map",
+       "at": "So towns grew where",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.33,
+           "lat": 48.47,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Timmins and its mines"
+      },
+      {
+       "type": "photo",
+       "at": "And when the ore",
+       "photo": "File:Yellowknife, Northwest Territories.jpg",
+       "on_screen_text": "Yellowknife, a gold-mining town"
+      }
+     ]
+    },
+    {
+     "text": "In the early nineteen fifties, the Iron Ore Company of Canada built a town in the far north of Quebec, near the Labrador border. They called it Schefferville. A railway hundreds of kilometres long carried the ore south to the coast. By its peak, around five thousand people lived there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.0,
+           "lat": 52.974,
+           "span": 15.783
+          },
+          "places": [
+           {
+            "name": "Schefferville",
+            "lon": -66.83,
+            "lat": 54.8,
+            "kind": "site",
+            "label": "Schefferville",
+            "icon": "mine"
+           }
+          ]
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -68.0,
+           "lat": 52.5,
+           "span": 11.9
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "They called it Schefferville.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -66.83,
+           "lat": 54.8,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Schefferville and its old pits"
+      },
+      {
+       "type": "map",
+       "at": "A railway hundreds of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -67.3,
+           "lat": 52.253,
+           "span": 21.837
+          },
+          "places": [
+           {
+            "name": "Schefferville",
+            "lon": -66.83,
+            "lat": 54.8,
+            "kind": "site",
+            "label": "Schefferville",
+            "icon": "mine"
+           },
+           {
+            "name": "Sept-Îles",
+            "lon": -66.38,
+            "lat": 50.21,
+            "kind": "port",
+            "label": "Sept-Îles"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -66.83,
+             54.8
+            ],
+            "via": [
+             [
+              -66.6,
+              53.6
+             ],
+             [
+              -66.4,
+              52.95
+             ],
+             [
+              -66.5,
+              51.6
+             ]
+            ],
+            "to": [
+             -66.38,
+             50.21
+            ],
+            "mode": "line",
+            "label": "Ore railway to the coast",
+            "color": "accent",
+            "seconds": 3.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "carried the ore south",
+       "photo": "File:Emeril station, Labrador.jpg",
+       "on_screen_text": "On the ore railway, Labrador"
+      },
+      {
+       "type": "stat",
+       "at": "By its peak, around",
+       "stat": {
+        "value": "~5,000",
+        "label": "People in Schefferville at its peak, late 1960s",
+        "source": "Wikipedia (secondary)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the second of November, 1982, the company announced that the mine would close. Mining stopped the next year. Families left, and buildings were pulled down. In 2021, the census counted two hundred and forty-four people in Schefferville.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2 NOV 1982",
+        "label": "The Iron Ore Company announces the mine will close",
+        "source": "Canadian Historical Review"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Mining stopped the next",
+       "photo": "File:Downtown Schefferville, QC.jpg",
+       "on_screen_text": "Schefferville today"
+      },
+      {
+       "type": "map",
+       "at": "In 2021, the census",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -66.8,
+           "lat": 54.85,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The empty pits around Schefferville"
+      },
+      {
+       "type": "stat",
+       "at": "two hundred and forty-four",
+       "stat": {
+        "value": "244",
+        "label": "People in Schefferville, 2021 census",
+        "source": "Statistics Canada, 2021 census"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Pine Point, on the south shore of Great Slave Lake, went even further. It was a zinc and lead mining town with a school, an arena and nearly two thousand people in 1976. The mine closed in 1987. The town was closed the next year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.4,
+           "lat": 61.546,
+           "span": 9.808
+          },
+          "places": [
+           {
+            "name": "Pine Point",
+            "lon": -114.45,
+            "lat": 60.84,
+            "kind": "site",
+            "label": "Pine Point",
+            "icon": "mine"
+           },
+           {
+            "name": "Yellowknife",
+            "lon": -114.37,
+            "lat": 62.45,
+            "kind": "city",
+            "label": "Yellowknife"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was a zinc",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.45,
+           "lat": 60.84,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pine Point townsite"
+      },
+      {
+       "type": "stat",
+       "at": "a school, an arena",
+       "stat": {
+        "value": "1,915",
+        "label": "People in Pine Point, 1976",
+        "source": "Wikipedia (secondary)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The mine closed in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.3,
+           "lat": 60.85,
+           "span": 0.35
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pine Point's open pits"
+      }
+     ]
+    },
+    {
+     "text": "Its houses were sold cheaply and moved away, many of them to Hay River and Fort Resolution. Other buildings were knocked down. By 1991, nine people were left. From above, you can still see the streets, laid out in loops in the forest, leading to houses that are no longer there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.15,
+           "lat": 61.142,
+           "span": 4.5
+          },
+          "places": [
+           {
+            "name": "Pine Point",
+            "lon": -114.45,
+            "lat": 60.84,
+            "kind": "site",
+            "label": "Pine Point",
+            "icon": "mine"
+           }
+          ]
+         },
+         {
+          "at": "many of them to",
+          "places": [
+           {
+            "name": "Hay River",
+            "lon": -115.8,
+            "lat": 60.82,
+            "kind": "site",
+            "label": "Hay River"
+           },
+           {
+            "name": "Fort Resolution",
+            "lon": -113.68,
+            "lat": 61.17,
+            "kind": "site",
+            "label": "Fort Resolution"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Other buildings were knocked",
+       "stat": {
+        "value": "9",
+        "label": "People left in Pine Point, 1991",
+        "source": "Wikipedia (secondary)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "From above, you can",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.455,
+           "lat": 60.835,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -114.455,
+           "lat": 60.835,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The streets of Pine Point"
+      }
+     ]
+    },
+    {
+     "text": "These towns were never failures. They did exactly what they were built for. But a town built only for a mine cannot grow into a city, and the Shield is full of towns like that. Which brings us to the next problem. Even the towns that survive have to be reached.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.3,
+           "lat": 60.85,
+           "span": 0.6
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pine Point's pits"
+      },
+      {
+       "type": "photo",
+       "at": "But a town built",
+       "photo": "File:Yellowknife, Northwest Territories.jpg",
+       "on_screen_text": "Yellowknife"
+      },
+      {
+       "type": "photo",
+       "at": "and the Shield is",
+       "photo": "File:Yellowknife -27 (25302183098).jpg",
+       "on_screen_text": "Yellowknife in winter"
+      },
+      {
+       "type": "map",
+       "at": "Which brings us to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -89.22,
+           "lat": 56.0,
+           "span": 39.56
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           }
+          ]
+         },
+         {
+          "at": 43,
+          "view": {
+           "lon": -89.22,
+           "lat": 56.0,
+           "span": 33.626
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "One Line to the Sea",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason six. On the Shield, every road and railway is a fight, and many places have only one. Churchill, on Hudson Bay, has no road to the rest of Canada at all. For almost a century, its link to the south has been a single railway line.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -96.55,
+           "lat": 57.224,
+           "span": 14.862
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and many places have",
+       "photo": "File:Churchill River - Churchill, Manitoba (39488866070).jpg",
+       "on_screen_text": "Mouth of the Churchill River"
+      },
+      {
+       "type": "photo",
+       "at": "Churchill, on Hudson Bay,",
+       "photo": "File:Port of Churchill aerial view.JPG",
+       "on_screen_text": "Churchill and its port"
+      },
+      {
+       "type": "photo",
+       "at": "For almost a century,",
+       "photo": "File:Hudson Bay - Churchill, Manitoba (40402865225).jpg",
+       "on_screen_text": "The coast near Churchill"
+      },
+      {
+       "type": "map",
+       "at": "its link to the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -97.71,
+           "lat": 56.044,
+           "span": 25.797
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           },
+           {
+            "name": "The Pas",
+            "lon": -101.25,
+            "lat": 53.83,
+            "kind": "site",
+            "label": "The Pas"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -101.25,
+             53.83
+            ],
+            "via": [
+             [
+              -98.6,
+              54.9
+             ],
+             [
+              -97.86,
+              55.74
+             ],
+             [
+              -94.71,
+              56.35
+             ],
+             [
+              -94.2,
+              57.6
+             ]
+            ],
+            "to": [
+             -94.17,
+             58.77
+            ],
+            "mode": "line",
+            "label": "Hudson Bay line",
+            "color": "accent",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "That line reached Churchill on the twenty-ninth of March, 1929. A crew of about three thousand men had laid track with picks and wheelbarrows across frozen muskeg, the boggy ground that covers much of the land around the bay. The port was finished two years later, to ship prairie grain to Europe through the bay.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "29 MARCH 1929",
+        "label": "The railway reaches Churchill",
+        "source": "Manitoba Heritage Council plaque"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A crew of about",
+       "photo": "File:Hudson Bay Shoreline - Churchill, Manitoba (39488969890).jpg",
+       "on_screen_text": "Wet ground on Hudson Bay, Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "across frozen muskeg, the",
+       "photo": "File:Bog in Northern Ontario.jpg",
+       "on_screen_text": "Muskeg and spruce"
+      },
+      {
+       "type": "photo",
+       "at": "The port was finished",
+       "photo": "File:Hudson Bay Route Plan of Churchill Harbour (1927).jpg",
+       "on_screen_text": "Plan of Churchill Harbour, 1927"
+      },
+      {
+       "type": "map",
+       "at": "to ship prairie grain",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.19,
+           "lat": 58.78,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The grain port at Churchill"
+      }
+     ]
+    },
+    {
+     "text": "In May 2017, record floods washed out the track in about twenty places along roughly four hundred kilometres. The owner of the line said it would not pay for the repairs without government help. The trains stopped. Food and fuel had to be flown in.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -96.572,
+           "lat": 56.888,
+           "span": 18.016
+          },
+          "places": [
+           {
+            "name": "Churchill",
+            "lon": -94.17,
+            "lat": 58.77,
+            "kind": "port",
+            "label": "Churchill"
+           },
+           {
+            "name": "Gillam",
+            "lon": -94.71,
+            "lat": 56.35,
+            "kind": "site",
+            "label": "Gillam"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "washed out the track",
+       "stat": {
+        "value": "~20",
+        "label": "Places where floods cut the line, May 2017",
+        "source": "CBC"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The owner of the",
+       "photo": "File:End of the line, Churchill Manitoba (30352378547).jpg",
+       "on_screen_text": "The end of the line, Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "The trains stopped.",
+       "photo": "File:Churchill, Manitoba (16885476409).jpg",
+       "on_screen_text": "Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "Food and fuel had",
+       "photo": "File:Waterfront Park - Churchill, Manitoba (26427327227).jpg",
+       "on_screen_text": "Churchill waterfront"
+      }
+     ]
+    },
+    {
+     "text": "For eighteen months, Churchill was cut off from the rest of the country, except by air. The line reopened on the first of November, 2018, after a deal that brought new owners, and the federal government put in one hundred and seventeen million dollars to buy and repair it. When the first passenger train arrived that December, people came out to meet it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "18 MONTHS",
+        "label": "Churchill without its railway, 2017-2018",
+        "source": "CBC; Government of Canada"
+       }
+      },
+      {
+       "type": "map",
+       "at": "except by air.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.17,
+           "lat": 58.77,
+           "span": 0.4
+          },
+          "date": "2024-07-01/2024-08-31"
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": -94.17,
+           "lat": 58.77,
+           "span": 0.248
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Churchill from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "and the federal government",
+       "stat": {
+        "value": "$117 MILLION",
+        "label": "Federal money to buy and repair the line",
+        "source": "Government of Canada"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "When the first passenger",
+       "photo": "File:Hudsonbayvia2.JPG",
+       "on_screen_text": "The train at Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "people came out to",
+       "photo": "File:WinnipegChurchillDiningCar2015.jpg",
+       "on_screen_text": "On the Winnipeg-Churchill train"
+      }
+     ]
+    },
+    {
+     "text": "That is what living on the Shield means. Not just cold and rock, but distance, and the one thin line that crosses it. Yet the most important lines on the Shield do not carry people at all. They carry electricity.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:UtsingiPoint-GreatSlaveLake.JPG",
+       "on_screen_text": "Great Slave Lake"
+      },
+      {
+       "type": "map",
+       "at": "and the one thin",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -94.25,
+           "lat": 58.6,
+           "span": 0.5
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The railway across the muskeg near Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "Yet the most important",
+       "photo": "File:Churchill Falls, Labrador welcome sign.jpg",
+       "on_screen_text": "Power lines at Churchill Falls"
+      },
+      {
+       "type": "photo",
+       "at": "They carry electricity.",
+       "photo": "File:Transformateur CentraleR-B.jpg",
+       "on_screen_text": "Robert-Bourassa station, James Bay"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Empty Half Lights the Full Half",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason seven. The empty half of Canada powers the full half. The ice that scraped the Shield bare also left it covered in rivers and lakes, dropping from the high ground towards Hudson Bay and the Atlantic. Canada is the third largest producer of hydroelectricity in the world, and more than half of it is made in Quebec.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -74.0,
+           "lat": 53.5,
+           "span": 16.0
+          },
+          "places": [
+           {
+            "name": "Robert-Bourassa",
+            "lon": -77.55,
+            "lat": 53.79,
+            "kind": "site",
+            "label": "Robert-Bourassa station",
+            "icon": "power"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The ice that scraped",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.5,
+           "lat": 53.78,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 24,
+          "view": {
+           "lon": -77.5,
+           "lat": 53.78,
+           "span": 0.372
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "La Grande River and its reservoir"
+      },
+      {
+       "type": "photo",
+       "at": "Canada is the third",
+       "photo": "File:Grand or McLean Falls Hamilton River.png",
+       "on_screen_text": "Grand Falls, Labrador, 1896"
+      },
+      {
+       "type": "stat",
+       "at": "and more than half",
+       "stat": {
+        "value": "53 %",
+        "label": "Quebec's share of Canada's hydroelectricity, 2021",
+        "source": "The Canadian Encyclopedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the thirtieth of April, 1971, the Premier of Quebec, Robert Bourassa, announced what he called the project of the century. Huge dams on the rivers that run into James Bay, the southern arm of Hudson Bay. The Cree and Inuit who lived there had not been asked. They went to court and won an injunction to stop the work, but it was soon overturned.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "30 APRIL 1971",
+        "label": "Quebec announces the James Bay project",
+        "source": "The Canadian Encyclopedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "announced what he called",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.6,
+           "lat": 53.75,
+           "span": 1.5
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "La Grande reservoirs"
+      },
+      {
+       "type": "map",
+       "at": "Huge dams on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -73.2,
+           "lat": 53.82,
+           "span": 14.4
+          },
+          "places": [
+           {
+            "name": "Robert-Bourassa",
+            "lon": -77.55,
+            "lat": 53.79,
+            "kind": "site",
+            "label": "Robert-Bourassa station",
+            "icon": "power"
+           },
+           {
+            "name": "Caniapiscau reservoir",
+            "lon": -69.5,
+            "lat": 54.4,
+            "kind": "site",
+            "label": "Caniapiscau reservoir",
+            "icon": "water"
+           }
+          ]
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -73.2,
+           "lat": 53.82,
+           "span": 12.24
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The Cree and Inuit",
+       "photo": "File:Réservoir R-B.jpg",
+       "on_screen_text": "Robert-Bourassa reservoir"
+      },
+      {
+       "type": "photo",
+       "at": "They went to court",
+       "photo": "File:Radisson, Quebec, Canada.jpg",
+       "on_screen_text": "Radisson, the town built for the dams"
+      }
+     ]
+    },
+    {
+     "text": "In November 1975, after years of talks, the Cree, the Inuit, Quebec, Canada and Hydro-Québec signed the James Bay and Northern Quebec Agreement. The Cree and Inuit gave up claims to much of the land in return for two hundred and twenty-five million dollars and rights over hunting, fishing and their own communities. It is known as Canada's first modern treaty.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "11 NOV 1975",
+        "label": "The James Bay and Northern Quebec Agreement is signed",
+        "source": "The Canadian Encyclopedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Cree, the Inuit,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.0,
+           "lat": 53.0,
+           "span": 8.0
+          },
+          "places": [
+           {
+            "name": "Chisasibi",
+            "lon": -78.91,
+            "lat": 53.79,
+            "kind": "site",
+            "label": "Chisasibi"
+           },
+           {
+            "name": "Robert-Bourassa",
+            "lon": -77.55,
+            "lat": 53.79,
+            "kind": "site",
+            "label": "Robert-Bourassa station",
+            "icon": "power"
+           }
+          ]
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -77.0,
+           "lat": 53.0,
+           "span": 6.8
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Cree and Inuit gave",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.91,
+           "lat": 53.79,
+           "span": 0.8
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mouth of La Grande River"
+      },
+      {
+       "type": "stat",
+       "at": "in return for two",
+       "stat": {
+        "value": "$225 MILLION",
+        "label": "Compensation under the 1975 agreement",
+        "source": "The Canadian Encyclopedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and rights over hunting,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -78.91,
+           "lat": 53.79,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Chisasibi, a Cree town on La Grande"
+      },
+      {
+       "type": "photo",
+       "at": "It is known as",
+       "photo": "File:Évacuateur de crues R-B.jpg",
+       "on_screen_text": "Robert-Bourassa spillway"
+      }
+     ]
+    },
+    {
+     "text": "Today, the La Grande complex has about seventeen thousand megawatts of generating capacity, close to half of everything Hydro-Québec can produce. The largest station alone, Robert-Bourassa, can deliver more than five and a half thousand megawatts. The power travels about a thousand kilometres south, to Montreal and beyond.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~17,000 MW",
+        "label": "La Grande complex, close to half of Hydro-Québec's capacity",
+        "source": "Hydro-Québec"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "close to half of",
+       "photo": "File:Transformateur CentraleR-B.jpg",
+       "on_screen_text": "Robert-Bourassa station"
+      },
+      {
+       "type": "photo",
+       "at": "The largest station alone,",
+       "photo": "File:Déversoir, Centrale hydro-électrique Robert-Bourassa.jpg",
+       "on_screen_text": "Robert-Bourassa spillway"
+      },
+      {
+       "type": "stat",
+       "at": "can deliver more than",
+       "stat": {
+        "value": "5,616 MW",
+        "label": "Robert-Bourassa generating station",
+        "source": "Hydro-Québec"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The power travels about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -74.8,
+           "lat": 49.526,
+           "span": 39.916
+          },
+          "places": [
+           {
+            "name": "Robert-Bourassa",
+            "lon": -77.55,
+            "lat": 53.79,
+            "kind": "site",
+            "label": "Robert-Bourassa station",
+            "icon": "power"
+           },
+           {
+            "name": "Montreal",
+            "lon": -73.57,
+            "lat": 45.5,
+            "kind": "city",
+            "label": "Montreal"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -77.55,
+             53.79
+            ],
+            "via": [
+             [
+              -76.5,
+              51.0
+             ],
+             [
+              -75.0,
+              48.5
+             ]
+            ],
+            "to": [
+             -73.57,
+             45.5
+            ],
+            "mode": "line",
+            "label": "Power lines south (approx.)",
+            "color": "blue",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The dams changed the land they were built on. In September 1984, thousands of caribou of the George River herd drowned while crossing the Caniapiscau River at Limestone Falls, on a river the project had changed. Quebec officials first estimated at least ten thousand. Inuit leaders blamed water released from the new reservoir upstream. Hydro-Québec said heavy rain had raised the river. Fences were later built near the falls to keep the herds away from the worst stretch.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.55,
+           "lat": 53.79,
+           "span": 0.25
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Robert-Bourassa dam"
+      },
+      {
+       "type": "map",
+       "at": "In September 1984, thousands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.7,
+           "lat": 52.582,
+           "span": 15.568
+          },
+          "places": [
+           {
+            "name": "Caniapiscau reservoir",
+            "lon": -69.5,
+            "lat": 54.4,
+            "kind": "site",
+            "label": "Caniapiscau reservoir",
+            "icon": "water"
+           }
+          ]
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": -68.7,
+           "lat": 52.22,
+           "span": 13.09
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Quebec officials first estimated",
+       "stat": {
+        "value": "10,000+",
+        "label": "Caribou drowned, September 1984 (early official estimate)",
+        "source": "Time; The New York Times"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Inuit leaders blamed water",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.5,
+           "lat": 54.5,
+           "span": 1.2
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 53,
+          "view": {
+           "lon": -69.5,
+           "lat": 54.5,
+           "span": 0.744
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Caniapiscau reservoir"
+      },
+      {
+       "type": "photo",
+       "at": "Fences were later built",
+       "photo": "File:At the Brink of the Grand Falls.png",
+       "on_screen_text": "Falls in Labrador, 1892"
+      }
+     ]
+    },
+    {
+     "text": "Flooding the forest caused a slower problem. When land goes under water, bacteria in the drowned plants turn natural mercury into a form that builds up in fish. Hydro-Québec's own monitoring found that mercury in fish rose to between two and eight times its normal level after the reservoirs were filled, and took twenty to thirty years to come back down in the fish that eat other fish. The Cree, who fish these waters, were given advice on which fish were safe to eat.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -69.5,
+           "lat": 54.5,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-08-31"
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": -69.5,
+           "lat": 54.5,
+           "span": 0.31
+          },
+          "date": "2025-07-01/2025-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Flooded forest, Caniapiscau"
+      },
+      {
+       "type": "stat",
+       "at": "Hydro-Québec's own monitoring found",
+       "stat": {
+        "value": "2-8×",
+        "label": "Mercury in fish after the reservoirs filled",
+        "source": "Hydro-Québec monitoring 1978-2012"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "to between two and",
+       "photo": "File:The Canon a Quarter of a Mile below the Grand Falls.png",
+       "on_screen_text": "Labrador river canyon, 1892"
+      },
+      {
+       "type": "photo",
+       "at": "and took twenty to",
+       "photo": "File:Réservoir R-B.jpg",
+       "on_screen_text": "Robert-Bourassa reservoir"
+      },
+      {
+       "type": "photo",
+       "at": "The Cree, who fish",
+       "photo": "File:Radisson, Quebec, Canada.jpg",
+       "on_screen_text": "Radisson"
+      }
+     ]
+    },
+    {
+     "text": "In Labrador, there is another story. In 1969, Newfoundland signed a contract to sell power from the Churchill Falls station to Hydro-Québec until 2041, at a fixed price. That price was about a fifth of a cent for each kilowatt-hour. For decades, Hydro-Québec earned far more from that power than Newfoundland did, and the contract became a lasting grievance in the province.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -63.5,
+           "lat": 53.4,
+           "span": 8.0
+          },
+          "places": [
+           {
+            "name": "Churchill Falls",
+            "lon": -64.3,
+            "lat": 53.53,
+            "kind": "site",
+            "label": "Churchill Falls",
+            "icon": "power"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 1969, Newfoundland signed",
+       "photo": "File:Churchill Falls Generating Station.jpg",
+       "on_screen_text": "Churchill Falls Generating Station"
+      },
+      {
+       "type": "photo",
+       "at": "until 2041, at a",
+       "photo": "File:Churchill Falls, Labrador welcome sign.jpg",
+       "on_screen_text": "Churchill Falls"
+      },
+      {
+       "type": "stat",
+       "at": "That price was about",
+       "stat": {
+        "value": "0.2 ¢",
+        "label": "Price per kilowatt-hour under the 1969 contract",
+        "source": "Government of Newfoundland and Labrador"
+       }
+      },
+      {
+       "type": "map",
+       "at": "For decades, Hydro-Québec earned",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -64.8,
+           "lat": 53.7,
+           "span": 1.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The reservoir behind Churchill Falls"
+      },
+      {
+       "type": "photo",
+       "at": "and the contract became",
+       "photo": "File:Churchill Falls, Labrador.jpg",
+       "on_screen_text": "Churchill Falls, Labrador"
+      }
+     ]
+    },
+    {
+     "text": "In 2026, the two provinces agreed a new deal. Under it, the price starts at one point eight cents in 2027 and rises from there. But the pattern stays the same. The power is made on the Shield, where almost nobody lives, and used in the south, where almost everybody does.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1.8 ¢",
+        "label": "Starting price per kilowatt-hour from 2027 under the 2026 deal",
+        "source": "Hydro-Québec; NL Hydro"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Under it, the price",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -64.8,
+           "lat": 53.7,
+           "span": 2.0
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Labrador's reservoirs"
+      },
+      {
+       "type": "map",
+       "at": "and rises from there.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -64.3,
+           "lat": 53.53,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-08-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Churchill Falls from orbit"
+      },
+      {
+       "type": "map",
+       "at": "But the pattern stays",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -68.935,
+           "lat": 49.133,
+           "span": 35.885
+          },
+          "places": [
+           {
+            "name": "Churchill Falls",
+            "lon": -64.3,
+            "lat": 53.53,
+            "kind": "site",
+            "label": "Churchill Falls",
+            "icon": "power"
+           },
+           {
+            "name": "Montreal",
+            "lon": -73.57,
+            "lat": 45.5,
+            "kind": "city",
+            "label": "Montreal"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -64.3,
+             53.53
+            ],
+            "via": [
+             [
+              -67.0,
+              51.5
+             ],
+             [
+              -70.0,
+              48.5
+             ]
+            ],
+            "to": [
+             -73.57,
+             45.5
+            ],
+            "mode": "line",
+            "label": "Churchill Falls power to Quebec (approx.)",
+            "color": "blue",
+            "seconds": 4.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "where almost nobody lives,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -93.497,
+           "lat": 53.819,
+           "span": 103.67
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Montreal",
+            "lon": -73.57,
+            "lat": 45.5,
+            "kind": "city",
+            "label": "Montreal"
+           },
+           {
+            "name": "Toronto",
+            "lon": -79.38,
+            "lat": 43.65,
+            "kind": "city",
+            "label": "Toronto"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why does almost nobody live on half of Canada? The ice took the soil. A frozen sea in the middle makes it far colder than Finland at the same latitude. The farms burned and failed. The country had better land to the south and west. Its towns live and die with their mines. Every place is a long way from the next, often joined by a single road or a single railway. And its greatest wealth, the rock and the falling water, can be taken south without anyone having to stay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.66,
+           "lat": 48.38,
+           "span": 25.96
+          },
+          "places": [
+           {
+            "name": "Matheson",
+            "lon": -80.47,
+            "lat": 48.53,
+            "kind": "site",
+            "label": "Matheson",
+            "icon": "fire"
+           },
+           {
+            "name": "Timmins",
+            "lon": -81.33,
+            "lat": 48.48,
+            "kind": "city",
+            "label": "Timmins"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The ice took the",
+       "photo": "File:Glacial striations (Straight Lake West roadcut, north of Temagami, Ontario, Canada) (40859886953).jpg",
+       "on_screen_text": "Ice scratches, Ontario"
+      },
+      {
+       "type": "photo",
+       "at": "A frozen sea in",
+       "photo": "File:Sea ice in Hudson Bay (MODIS 2016-07-13).jpg",
+       "on_screen_text": "Hudson Bay"
+      },
+      {
+       "type": "photo",
+       "at": "The farms burned and",
+       "photo": "File:Temporary morgue at Matheson, Ontario (1916).jpg",
+       "on_screen_text": "Matheson, 1916"
+      },
+      {
+       "type": "photo",
+       "at": "The country had better",
+       "photo": "File:Toronto skyline 2025.jpg",
+       "on_screen_text": "Toronto"
+      },
+      {
+       "type": "photo",
+       "at": "Its towns live and",
+       "photo": "File:Emeril station, Labrador.jpg",
+       "on_screen_text": "The ore railway, Labrador"
+      },
+      {
+       "type": "photo",
+       "at": "Every place is a",
+       "photo": "File:Hudsonbayvia2.JPG",
+       "on_screen_text": "The train to Churchill"
+      },
+      {
+       "type": "photo",
+       "at": "often joined by a",
+       "photo": "File:WinnipegChurchillDiningCar2015.jpg",
+       "on_screen_text": "On the Churchill train"
+      },
+      {
+       "type": "photo",
+       "at": "And its greatest wealth,",
+       "photo": "File:Grand or McLean Falls Hamilton River.png",
+       "on_screen_text": "Grand Falls, Labrador, 1896"
+      },
+      {
+       "type": "photo",
+       "at": "can be taken south",
+       "photo": "File:Montreal skyline from Milton-Parc.jpg",
+       "on_screen_text": "Montreal"
+      }
+     ]
+    },
+    {
+     "text": "Finland made a home on its shield because it had to. Canada never had to. Would you move to a town on the Shield, with its lakes and its winters, if the job paid twice as much?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aerial photograph of Helsinki, Finland, 2020 May.jpg",
+       "on_screen_text": "Helsinki"
+      },
+      {
+       "type": "photo",
+       "at": "Canada never had to.",
+       "photo": "File:Thunder Bay Ontario.jpg",
+       "on_screen_text": "Thunder Bay"
+      },
+      {
+       "type": "map",
+       "at": "Would you move to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.291,
+           "lat": 53.423,
+           "span": 72.287
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Greater Sudbury",
+            "lon": -81.0,
+            "lat": 46.49,
+            "kind": "city",
+            "label": "Greater Sudbury"
+           },
+           {
+            "name": "Thunder Bay",
+            "lon": -89.25,
+            "lat": 48.38,
+            "kind": "city",
+            "label": "Thunder Bay"
+           },
+           {
+            "name": "Schefferville",
+            "lon": -66.83,
+            "lat": 54.8,
+            "kind": "site",
+            "label": "Schefferville",
+            "icon": "mine"
+           }
+          ]
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": -86.0,
+           "lat": 58.3,
+           "span": 41.446
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Would you move to",
+      "text": "Would you move to a Shield town for double the pay?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives on Half of Canada",
+  "title_candidates": [
+   "Why Almost Nobody Lives on Half of Canada",
+   "Why Almost Nobody Lives on the Canadian Shield",
+   "Why Half of Canada Is Still Empty"
+  ],
+  "description": "The Canadian Shield covers about half of Canada, yet fewer than one Canadian in ten lives on it. Finland stands on the same kind of ancient rock, scraped by the same ice, and holds 5.6 million people. We follow the answer from orbit: the frozen sea in the middle of the continent, the Great Clay Belt and the fires of 1916 and 1922, the prairies that pulled settlers past the rock, the mining towns of Schefferville and Pine Point, the single railway to Churchill, and the James Bay and Churchill Falls power that flows south.",
+  "tags": [
+   "Canadian Shield",
+   "Canada",
+   "Hudson Bay",
+   "Finland",
+   "Churchill Manitoba",
+   "Clay Belt",
+   "Matheson fire",
+   "Schefferville",
+   "Pine Point",
+   "James Bay project",
+   "Churchill Falls",
+   "northern Ontario",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Would you move to a town on the Shield, with its lakes and its winters, if the job paid twice as much?"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "photo": "File:Straight Lake, Timiskaming District, Ontario.jpg",
+ "focus": [
+  0.5,
+  0.5
+ ],
+ "zoom": 1.0,
+ "lines": [
+  {
+   "t": "FEWER THAN",
+   "color": "white"
+  },
+  {
+   "t": "1 IN 10",
+   "color": "yellow"
+  },
+  {
+   "t": "LIVE HERE",
+   "color": "white"
+  }
+ ],
+ "text_at": [
+  0.04,
+  0.05
+ ],
+ "text_size": 150,
+ "underline": true,
+ "variants": [
+  {
+   "photo": "File:Polar Bear and Tundra Buggy - Churchill, Manitoba (26427267077).jpg",
+   "focus": [
+    0.62,
+    0.62
+   ],
+   "text_size": 160,
+   "lines": [
+    {
+     "t": "SAME LATITUDE",
+     "color": "white"
+    },
+    {
+     "t": "AS HELSINKI",
+     "color": "yellow"
+    }
+   ],
+   "zoom": 1.5
+  },
+  {
+   "photo": "File:Churchill, Manitoba (16885476409).jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "text_size": 185,
+   "lines": [
+    {
+     "t": "-26 °C",
+     "color": "yellow"
+    },
+    {
+     "t": "IN JANUARY",
+     "color": "white"
+    }
+   ]
+  }
+ ]
+}

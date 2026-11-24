@@ -51,5 +51,5 @@ print(f"SHIELD ecozones {shield}: pop {sp:,.0f} = {sp/total*100:.2f} % of people
 out = Path(__file__).with_name("shield.geojson")
 g = unary_union([zones[k] for k in shield]).simplify(0.05)
 out.write_text(json.dumps({"type": "FeatureCollection", "features": [{"type": "Feature",
-    "properties": {"name": "The Canadian Shield (ecozones)"}, "geometry": mapping(g)}]}), encoding="utf-8")
+    "properties": {"name": "The Canadian Shield", "credit": "Ecological Framework of Canada (AAFC), Boreal + Taiga Shield ecozones"}, "geometry": mapping(g)}]}), encoding="utf-8")
 print("wrote", out)

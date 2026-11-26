@@ -462,7 +462,7 @@ chapter(
       photo(0, PH_GAUCHO_PORTRAIT, "A gaucho"),
       stat("From 1839 to 1851,", "1839-1851", "The Guerra Grande", "Library of Congress country study"),
       m("pulled in Argentina, Brazil,", v(REGION, highlight=[UY_RED], places=[L_BRAZIL, L_ARG])),
-      photo("For about eight years,", PH_SIEGE_PLAN, "Plan of the siege of Montevideo, 1843-1851"),
+      sat("For about eight years,", -56.19, -34.89, 0.15, "Montevideo, besieged 1843-1851"),
       photo("The interior was fought", PH_PG42, "Riders, Tacuarembó"),
       photo("and the herds were", PH_CAMPO_VACAS, "Cattle on Uruguayan grass, early 1900s")),
     P("P14",

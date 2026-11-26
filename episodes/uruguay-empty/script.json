@@ -1375,10 +1375,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "For about eight years,",
-       "photo": "File:PlanoMontevideoSitioGrande.JPG",
-       "on_screen_text": "Plan of the siege of Montevideo, 1843-1851"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.19,
+           "lat": -34.89,
+           "span": 0.15
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Montevideo, besieged 1843-1851"
       },
       {
        "type": "photo",

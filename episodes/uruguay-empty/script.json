@@ -1155,6 +1155,15 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "stat",
+       "at": "sent a diplomat to",
+       "stat": {
+        "value": "LORD PONSONBY",
+        "label": "The British diplomat who brokered the 1828 peace",
+        "source": "Wikipedia (Ponsonby); LOC country study"
+       }
       }
      ]
     },

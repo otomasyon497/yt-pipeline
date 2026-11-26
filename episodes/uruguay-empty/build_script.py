@@ -174,7 +174,7 @@ PH_PG42 = "El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuar
 PH_PG60 = "El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 60.jpg"
 PH_SALADERO = "Faenas de saladero.tif#crop=0.07,0.07,0.07,0.3"   # book page: caption cut
 PH_LIEBIG_1907 = "Saladero Liebig's - Fray Bentos - Río Negro.tif#crop=0.07,0.07,0.07,0.3"
-PH_LIEBIG_PAN = "Vista panorámica - Saladero Liebig's - Río Negro.tif#crop=0.07,0.07,0.07,0.3"
+PH_LIEBIG_PAN = "Vista panorámica - Saladero Liebig's - Río Negro.tif#crop=0.07,0.33,0.07,0.3"
 PH_LIEBIG_1919 = "Frigorífico Liebig - 01792FMHGE.tif" + G
 PH_LIEBIG_POSTER = "Liebig Poster french 1890.jpg"
 PH_ANGLO = "El Frigorífico ANGLO en acción.jpg"
@@ -200,7 +200,7 @@ PH_PERU_1944 = "Rambla República del Perú - 07994FMHGE.tif" + G
 PH_STATION_1900 = "Estación Central de Ferrocarriles - 03428FMHGE.tif" + G
 PH_STATION_1917 = "Estación Central de Ferrocarriles Gral - 01210FMHGE.tif" + G
 PH_SALTO_STATION = "Salto Uruguay train station 1.jpg"
-PH_SALTO_1919 = "Ciudad de Salto - 01794FMHGE.tif" + G
+PH_SALTO_1919 = "Ciudad de Salto - 01794FMHGE.tif#crop=0.07,0.3,0.06,0.16"
 PH_IMM_HOTEL = "Hotel de Inmigrantes - 0522FMHB.tif" + G
 PH_LAZARETO = "Instalaciones del lazareto de inmigrantes - 02627FMHGE.tif" + G
 PH_FLORES_PIER = "Isla de Flores - 02626FMHGE.tif" + G
@@ -442,7 +442,7 @@ chapter(
       sat("a beach called Agraciada.", -58.335, -33.80, 0.1, "Agraciada, on the Uruguay River"),
       m("They raised the countryside", v(URU, places=[AGRACIADA]), step("against Brazil.", highlight=[UY_RED])),
       m("Argentina joined in, and", v(REGION, highlight=[UY_RED]), step("went to war over", places=[L_BRAZIL, L_ARG])),
-      m("Britain, whose merchants wanted", v(ATL, places=[LONDON, MVD]))),
+      m("Britain, whose merchants wanted", v(ATL, places=[LONDON, MVD], arrows=[{"from": [-0.13, 51.0], "to": [-56.5, -34.8], "color": "red", "label": "British trade", "bend": 0.12}]))),
     P("P10",
       stat(0, "27 AUG 1828", "Peace convention signed in Rio de Janeiro", "Preliminary Peace Convention, 1828"),
       m("The disputed land would", v(REGION, places=[L_BRAZIL, L_ARG]), step("It would be a", highlight=[UY_RED])),

@@ -628,7 +628,7 @@
       {
        "type": "photo",
        "at": "It was the country's",
-       "photo": "File:Vista panorámica - Saladero Liebig's - Río Negro.tif#crop=0.07,0.07,0.07,0.3",
+       "photo": "File:Vista panorámica - Saladero Liebig's - Río Negro.tif#crop=0.07,0.33,0.07,0.3",
        "on_screen_text": "Fray Bentos, 1907"
       },
       {
@@ -1116,7 +1116,7 @@
         "steps": [
          {
           "view": {
-           "lon": -27.135,
+           "lon": -27.29,
            "lat": 4.885,
            "span": 282.241
           },
@@ -1135,15 +1135,22 @@
             "kind": "capital",
             "label": "Montevideo"
            }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -0.13,
+             51.0
+            ],
+            "to": [
+             -56.5,
+             -34.8
+            ],
+            "color": "red",
+            "label": "British trade",
+            "bend": 0.12
+           }
           ]
-         },
-         {
-          "at": 98,
-          "view": {
-           "lon": -24.0,
-           "lat": 10.4,
-           "span": 110.16
-          }
          }
         ],
         "cut": true
@@ -2318,7 +2325,7 @@
       {
        "type": "photo",
        "at": "about one person in",
-       "photo": "File:Ciudad de Salto - 01794FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "photo": "File:Ciudad de Salto - 01794FMHGE.tif#crop=0.07,0.3,0.06,0.16",
        "on_screen_text": "Salto, 1919"
       },
       {

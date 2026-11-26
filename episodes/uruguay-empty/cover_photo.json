@@ -1,0 +1,62 @@
+{
+ "photo": "File:Countryside of Tacuarembó Department.jpg",
+ "focus": [
+  0.5,
+  0.55
+ ],
+ "zoom": 1.0,
+ "lines": [
+  {
+   "t": "11.8 M COWS",
+   "color": "white"
+  },
+  {
+   "t": "3.5 M PEOPLE",
+   "color": "yellow"
+  }
+ ],
+ "text_at": [
+  0.04,
+  0.05
+ ],
+ "text_size": 170,
+ "underline": true,
+ "variants": [
+  {
+   "photo": "File:GRU - MVD flight (2026-06-21) (34806).jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "text_size": 160,
+   "lines": [
+    {
+     "t": "HALF LIVE",
+     "color": "white"
+    },
+    {
+     "t": "RIGHT HERE",
+     "color": "yellow"
+    }
+   ]
+  },
+  {
+   "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 17.jpg",
+   "focus": [
+    0.6,
+    0.5
+   ],
+   "text_size": 170,
+   "lines": [
+    {
+     "t": "3 COWS",
+     "color": "yellow"
+    },
+    {
+     "t": "PER PERSON",
+     "color": "white"
+    }
+   ]
+  }
+ ]
+}

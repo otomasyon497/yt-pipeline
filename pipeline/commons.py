@@ -36,9 +36,13 @@ def _clean(value: str) -> str:
 
 
 def fetch(title: str) -> tuple[Path, str]:
-    """Download a Commons file (2400 px rendition) and return (local path, credit line)."""
+    """Download a Commons file (2400 px rendition) and return (local path, credit line).
+
+    "File:X.tif#crop=l,t,r,b" cuts those fractions off the left, top, right and bottom edges (for glass-negative
+    scans with black frames and a grey-scale strip); the cropped copy is cached under its own key."""
     title = title if title.startswith("File:") else f"File:{title}"
     key = hashlib.sha1(title.encode()).hexdigest()
+    title, _, crop = title.partition("#crop=")
     img_path = CACHE_DIR / "commons" / f"{key}.jpg"
     meta_path = img_path.with_suffix(".json")
     if img_path.exists() and meta_path.exists():
@@ -76,6 +80,9 @@ def fetch(title: str) -> tuple[Path, str]:
             time.sleep(3 * (attempt + 1))
     img = Image.open(io.BytesIO(data.content))
     img = img.convert("RGB")
+    if crop:
+        l, t, r, b = (float(x) for x in crop.split(","))
+        img = img.crop((round(img.width * l), round(img.height * t), round(img.width * (1 - r)), round(img.height * (1 - b))))
     img_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(img_path, "JPEG", quality=92)
     name = re.sub(r"\.(jpe?g|png|tiff?|gif|webp)$", "", title[5:], flags=re.I)

@@ -74,3 +74,11 @@ Pictures: estancias and open grass (Commons), gauchos and old estancia photos (B
 | R27 | Sheep: ~25 M around 1990 (25-28 M best years); 4.75 M in 2025 (historic low, preliminary) | MercoPress 2002, 2025 |
 | R28 | 2023 water crisis: Paso Severino (Santa Lucía) supplies ~60 % of people; fell to 3.5 of 67 million m3 in June; estuary water mixed in; sodium over limits since May; ended after rains late Aug | dialogue.earth, AP/WLRN, phys.org (AFP) |
 | R29 | RS Italian colonisation from 1875 (Caxias 20 May 1875 official date), ~100,000 Italians 1875-1914 | Wikipedia (Italian immigration in RS, History of Caxias do Sul) |
+
+## Round 4 (2026-11-26, for the script)
+| # | Fact | Source |
+|---|---|---|
+| R30 | England 57.7 million (mid-2023); Uruguay 177,342 km2 vs England 130,365 km2 (own, Natural Earth, geo/make_regions.py) | ONS mid-year estimates; own |
+| R31 | Rio Grande do Sul 10,882,965 people (census 2022) | IBGE |
+| R32 | Argentina's 1876 immigration law (Ley 817, "Avellaneda"): immigrants' hotel lodging on arrival, free transport inland, land in colonies | Ley 817 as summarised by bpb / Wikipedia (attributed) |
+| R33 | Narration P8 softened: "A single family could hold thousands of hectares" (the "duchy" comparison had no source) | LOC country study (large grants) |

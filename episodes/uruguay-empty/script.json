@@ -1,0 +1,3970 @@
+{
+ "title": "Why Uruguay Has More Cows Than People",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/uruguay-empty/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2026",
+  "Where Uruguayans live: own count, Kontur Population 2023 (CC BY 4.0) (geo/measure_population.py)",
+  "Departments and England: Natural Earth; Rio Grande do Sul regions: IBGE mesorregiões (geo/make_regions.py)",
+  "Railway, ship and water arrows drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "MORE COWS THAN PEOPLE"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Uruguay is bigger than England. It has soft green hills, mild winters, good rain, no deserts and no mountains in the way. And it has fewer than three and a half million people. England has more than fifty million.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.8,
+           "lat": -32.8,
+           "span": 17.0
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It has soft green",
+       "photo": "File:Countryside of Tacuarembó Department.jpg",
+       "on_screen_text": "Tacuarembó, northern Uruguay"
+      },
+      {
+       "type": "photo",
+       "at": "no deserts and no",
+       "photo": "File:Paisaje del departamento de Río Negro.jpg",
+       "on_screen_text": "Río Negro department"
+      },
+      {
+       "type": "stat",
+       "at": "And it has fewer",
+       "stat": {
+        "value": "3.5 MILLION",
+        "label": "People in Uruguay, census 2023",
+        "source": "INE Uruguay, census 2023"
+       }
+      },
+      {
+       "type": "map",
+       "at": "England has more than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -28.334,
+           "lat": 7.951,
+           "span": 303.489
+          },
+          "highlight": [
+           "Uruguay@red",
+           "file:england.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Now count the cattle. Ranchers in Uruguay declare every animal they own, every year. The last count came to almost twelve million head. That is more than three cows for every person in the country.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:La Tablada - 23407FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Cattle at La Tablada market, Montevideo, 1920"
+      },
+      {
+       "type": "photo",
+       "at": "Ranchers in Uruguay declare",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 23.jpg",
+       "on_screen_text": "Tacuarembó, 2026"
+      },
+      {
+       "type": "stat",
+       "at": "The last count came",
+       "stat": {
+        "value": "11.8 MILLION",
+        "label": "Cattle declared in Uruguay, 2025",
+        "source": "MGAP DICOSE declaration 2025 (via Montevideo Portal)"
+       }
+      },
+      {
+       "type": "chart",
+       "at": "That is more than",
+       "chart": {
+        "type": "bar",
+        "title": "Uruguay, 2023-2025 (millions)",
+        "unit": "",
+        "data": [
+         [
+          "People",
+          3.5
+         ],
+         [
+          "Cattle",
+          11.8
+         ]
+        ],
+        "source": "INE Uruguay, census 2023; MGAP DICOSE declaration 2025 (via Montevideo Portal)",
+        "highlight": 1
+       }
+      }
+     ]
+    },
+    {
+     "text": "And the people are not spread out either. We measured where Uruguayans live, using a population map built from satellite images and census data. Almost half of them live within thirty kilometres of one square in central Montevideo. Half the country lives on a fifth of one percent of its land.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:GRU - MVD flight (2026-06-21) (34806).jpg",
+       "on_screen_text": "Montevideo from the air, 2026"
+      },
+      {
+       "type": "map",
+       "at": "We measured where Uruguayans",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.95,
+           "lat": -32.46,
+           "span": 18.36
+          },
+          "highlight": [
+           "file:mvd30.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "using a population map",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.18,
+           "lat": -34.88,
+           "span": 0.3
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Montevideo"
+      },
+      {
+       "type": "stat",
+       "at": "Almost half of them",
+       "stat": {
+        "value": "49 %",
+        "label": "Uruguayans living within 30 km of Plaza Independencia",
+        "source": "Own count: Kontur Population 2023 (geo/measure_population.py)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "one square in central",
+       "photo": "File:Plaza Independencia, Montevideo.jpg",
+       "on_screen_text": "Plaza Independencia, Montevideo"
+      },
+      {
+       "type": "stat",
+       "at": "Half the country lives",
+       "stat": {
+        "value": "0.14 %",
+        "label": "Share of the land where half of Uruguayans live",
+        "source": "Own count: Kontur Population 2023 (geo/measure_population.py)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "But here is the strange part. Across the border, in the south of Brazil, the same grass rolls on into a state called Rio Grande do Sul. It holds nearly eleven million people. So why is Uruguay so empty? The answer runs through a herd of cattle set loose four hundred years ago, a country designed in London's interest, a law that fenced the countryside, ships that sailed past to Buenos Aires, and families that shrank long before anyone else's. The first reason arrived before the people did.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.2,
+           "lat": -31.639,
+           "span": 26.706
+          },
+          "highlight": [
+           "Uruguay@alt",
+           "Rio Grande do Sul@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the same grass rolls",
+       "photo": "File:Plaza Internacional.jpg",
+       "on_screen_text": "The border at Rivera and Santana do Livramento"
+      },
+      {
+       "type": "stat",
+       "at": "It holds nearly eleven",
+       "stat": {
+        "value": "10.9 MILLION",
+        "label": "People in Rio Grande do Sul, census 2022",
+        "source": "IBGE, census 2022"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The answer runs through",
+       "photo": "File:A herd of cattle in Uruguay LCCN2016819438.jpg#crop=0.2,0.22,0.2,0.2",
+       "on_screen_text": "A herd of cattle in Uruguay, about 1918-1920"
+      },
+      {
+       "type": "photo",
+       "at": "a country designed in",
+       "photo": "File:Vista aérea del puerto de Montevideo y la Ciudad Vieja - 0102FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The port of Montevideo, 1931"
+      },
+      {
+       "type": "photo",
+       "at": "a law that fenced",
+       "photo": "File:El Uruguay a través de un siglo page 489 recorte 01.tif#crop=0.03,0.03,0.03,0.13",
+       "on_screen_text": "Prize cattle at an estancia, 1910"
+      },
+      {
+       "type": "photo",
+       "at": "ships that sailed past",
+       "photo": "File:Vista aérea de la bahía de Montevideo - 0086FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Ships off Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "and families that shrank",
+       "photo": "File:PlazaIndependencia2.jpg",
+       "on_screen_text": "Plaza Independencia"
+      },
+      {
+       "type": "photo",
+       "at": "The first reason arrived",
+       "photo": "File:Río Tacuarembó, Departamento de Tacuarembó.jpg",
+       "on_screen_text": "The Tacuarembó River"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Cows Came First",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. In the early sixteen hundreds, this coast was the edge of the Spanish empire. On the far bank of the river, the governor of Buenos Aires, Hernando Arias de Saavedra, known as Hernandarias, had a plan for the empty land to the east.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -58.0,
+           "lat": -30.023,
+           "span": 39.305
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "On the far bank",
+       "photo": "File:Colonia Del Sacramento, Uruguay (Unsplash).jpg",
+       "on_screen_text": "The River Plate at Colonia"
+      },
+      {
+       "type": "map",
+       "at": "the governor of Buenos",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.4,
+           "lat": -34.4,
+           "span": 4.6
+          },
+          "places": [
+           {
+            "name": "Buenos Aires",
+            "lon": -58.38,
+            "lat": -34.6,
+            "kind": "capital",
+            "label": "Buenos Aires"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "had a plan for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.3,
+           "lat": -33.6,
+           "span": 0.4
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The eastern bank of the river"
+      }
+     ]
+    },
+    {
+     "text": "The dates usually given are 1611 and 1617. Hernandarias sent cattle across the river and let them go on the grassland. Nobody herded them. The grass was endless and the winters were mild.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1611 AND 1617",
+        "label": "Dates usually given for Hernandarias's cattle",
+        "source": "INAC; Library of Congress country study"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Hernandarias sent cattle across",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.17,
+           "lat": -34.308,
+           "span": 4.968
+          },
+          "places": [
+           {
+            "name": "Buenos Aires",
+            "lon": -58.38,
+            "lat": -34.6,
+            "kind": "capital",
+            "label": "Buenos Aires"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -58.45,
+             -34.4
+            ],
+            "to": [
+             -57.3,
+             -33.55
+            ],
+            "color": "red",
+            "label": "Cattle sent across",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Nobody herded them.",
+       "photo": "File:Ernesto Laroche - Paisaje de campo con tajamar.jpg",
+       "on_screen_text": "Ernesto Laroche, countryside painting, 1906"
+      },
+      {
+       "type": "map",
+       "at": "The grass was endless",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.0,
+           "lat": -32.3,
+           "span": 0.3
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open grassland, central Uruguay"
+      }
+     ]
+    },
+    {
+     "text": "A century later, the herds had grown into the millions. The land the Spanish called the Banda Oriental, the eastern bank, became one vast wild ranch. Hunters rode in from Buenos Aires and from Portuguese Brazil to kill cattle for their hides, which were shipped to Europe. Often the hide was all they took.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.842,
+           "lat": -32.649,
+           "span": 18.722
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "places": [
+           {
+            "name": "Buenos Aires",
+            "lon": -58.38,
+            "lat": -34.6,
+            "kind": "capital",
+            "label": "Buenos Aires"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the herds had grown",
+       "stat": {
+        "value": "MILLIONS",
+        "label": "Wild cattle on the eastern bank by the early 1700s",
+        "source": "Library of Congress country study"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The land the Spanish",
+       "photo": "File:Tropa de ganado en Molles.tif#crop=0.05,0.05,0.05,0.22",
+       "on_screen_text": "A cattle drive at Molles, 1907"
+      },
+      {
+       "type": "photo",
+       "at": "one vast wild ranch.",
+       "photo": "File:Escena campestre.jpg",
+       "on_screen_text": "Country scene, 19th century"
+      },
+      {
+       "type": "map",
+       "at": "Hunters rode in from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.256,
+           "lat": -32.273,
+           "span": 21.707
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "places": [
+           {
+            "name": "Brazil",
+            "lon": -53.2,
+            "lat": -28.6,
+            "kind": "label",
+            "label": "BRAZIL"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -58.4,
+             -34.55
+            ],
+            "to": [
+             -56.8,
+             -32.8
+            ],
+            "color": "red",
+            "label": "Hide hunters",
+            "bend": 0.12
+           },
+           {
+            "from": [
+             -52.5,
+             -30.2
+            ],
+            "to": [
+             -55.4,
+             -32.2
+            ],
+            "color": "red",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "which were shipped to",
+       "photo": "File:Gaucho 1868c.jpg",
+       "on_screen_text": "A gaucho, about 1868"
+      },
+      {
+       "type": "photo",
+       "at": "Often the hide was",
+       "photo": "File:C34f334. Marcando un caballo.jpg",
+       "on_screen_text": "Branding a horse, Uruguay, 1904"
+      }
+     ]
+    },
+    {
+     "text": "Later came the saladeros, salting plants on the riverbanks. Their workers cut the beef into strips, salted it and dried it in the sun. The product was called tasajo. Ships carried it to Brazil and Cuba, where it fed enslaved people on the sugar and coffee plantations. It was the country's first real industry, and it needed cattle, salt and a harbour. It did not need a countryside full of people.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Faenas de saladero.tif#crop=0.07,0.07,0.07,0.3",
+       "on_screen_text": "Work at a saladero, Uruguay, 1907"
+      },
+      {
+       "type": "photo",
+       "at": "Their workers cut the",
+       "photo": "File:Saladero Liebig's - Fray Bentos - Río Negro.tif#crop=0.07,0.07,0.07,0.3",
+       "on_screen_text": "The Liebig saladero at Fray Bentos, 1907"
+      },
+      {
+       "type": "photo",
+       "at": "The product was called",
+       "photo": "File:Saladero en Salto.jpg",
+       "on_screen_text": "Chimney of an old saladero, Salto"
+      },
+      {
+       "type": "map",
+       "at": "Ships carried it to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -59.6,
+           "lat": -19.995,
+           "span": 113.49
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "places": [
+           {
+            "name": "Rio de Janeiro",
+            "lon": -43.2,
+            "lat": -22.9,
+            "kind": "city",
+            "label": "Rio de Janeiro"
+           }
+          ]
+         },
+         {
+          "at": "where it fed enslaved",
+          "places": [
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.11,
+            "kind": "city",
+            "label": "Cuba"
+           }
+          ],
+          "view": {
+           "lon": -59.636,
+           "lat": -8.538,
+           "span": 164.712
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It was the country's",
+       "photo": "File:Vista panorámica - Saladero Liebig's - Río Negro.tif#crop=0.07,0.07,0.07,0.3",
+       "on_screen_text": "Fray Bentos, 1907"
+      },
+      {
+       "type": "photo",
+       "at": "It did not need",
+       "photo": "File:Paisaje del departamento de Río Negro.jpg",
+       "on_screen_text": "Río Negro department"
+      }
+     ]
+    },
+    {
+     "text": "That was the first shape of the country. Not farms and villages, but animals on open grass, and men on horseback who came and went. When Spain and Portugal began to fight over this shore, they built forts, not farms. Portugal founded Colonia del Sacramento in 1680, right across the river from Buenos Aires. Spain answered with a fortress on a fine natural harbour further east. It became a city in 1726. Its name was Montevideo.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Field (2884212928).jpg",
+       "on_screen_text": "Uruguayan countryside"
+      },
+      {
+       "type": "photo",
+       "at": "and men on horseback",
+       "photo": "File:Portrait of a Gaucho (5464643263).jpg",
+       "on_screen_text": "A gaucho"
+      },
+      {
+       "type": "map",
+       "at": "When Spain and Portugal",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.63,
+           "lat": -34.492,
+           "span": 5.336
+          },
+          "places": [
+           {
+            "name": "Buenos Aires",
+            "lon": -58.38,
+            "lat": -34.6,
+            "kind": "capital",
+            "label": "Buenos Aires"
+           },
+           {
+            "name": "Colonia del Sacramento",
+            "lon": -57.84,
+            "lat": -34.47,
+            "kind": "site",
+            "label": "Colonia del Sacramento"
+           }
+          ]
+         },
+         {
+          "at": 32,
+          "view": {
+           "lon": -57.63,
+           "lat": -34.492,
+           "span": 4.536
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Portugal founded Colonia del",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.845,
+           "lat": -34.47,
+           "span": 0.08
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Colonia del Sacramento"
+      },
+      {
+       "type": "photo",
+       "at": "right across the river",
+       "photo": "File:Colonia del sacramento.JPG",
+       "on_screen_text": "Colonia del Sacramento"
+      },
+      {
+       "type": "photo",
+       "at": "Spain answered with a",
+       "photo": "File:Vista aérea del Cerro - 0152FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo Bay and the Cerro from the air"
+      },
+      {
+       "type": "map",
+       "at": "It became a city",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.205,
+           "lat": -34.905,
+           "span": 0.08
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Montevideo's old town"
+      }
+     ]
+    },
+    {
+     "text": "Around those forts, the crown handed out the land in huge grants. A single family could hold thousands of hectares. The cattle did the work. So when the time came to make a country, there was already a pattern. A port, a few towns, and empty pasture between them.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Montevideo old town from air.JPG",
+       "on_screen_text": "Montevideo's old town"
+      },
+      {
+       "type": "photo",
+       "at": "A single family could",
+       "photo": "File:Countryside of Tacuarembó Department.jpg",
+       "on_screen_text": "Tacuarembó"
+      },
+      {
+       "type": "photo",
+       "at": "The cattle did the",
+       "photo": "File:A herd of cattle in Uruguay LCCN2016819438.jpg#crop=0.2,0.22,0.2,0.2",
+       "on_screen_text": "Cattle in Uruguay, about 1918-1920"
+      },
+      {
+       "type": "map",
+       "at": "So when the time",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.65,
+           "lat": -33.14,
+           "span": 19.72
+          },
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           },
+           {
+            "name": "Colonia del Sacramento",
+            "lon": -57.84,
+            "lat": -34.47,
+            "kind": "site",
+            "label": "Colonia del Sacramento"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A port, a few",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.52,
+           "lat": -33.38,
+           "span": 0.15
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Durazno and its pastures"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Country With One Door",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "There was one moment when it could have gone differently. In 1815, during the wars of independence, the leader of the eastern bank, José Artigas, issued a land regulation. It ordered the land of his enemies and of the state to be divided up and given out to free Black people, to Indigenous families, to poor creoles and widows. Its most famous line says that the most unfortunate should be the most privileged. A year later, Portuguese troops invaded from Brazil. Artigas was driven into exile in Paraguay, and his land reform was abandoned. The big estates stayed.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.29,
+           "lat": -33.48,
+           "span": 21.08
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 1815, during the",
+       "stat": {
+        "value": "10 SEP 1815",
+        "label": "Artigas's land regulation",
+        "source": "Reglamento Provisorio, 1815"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the leader of the",
+       "photo": "File:Juan Manuel Blanes - Artigas en la Ciudadela.jpg",
+       "on_screen_text": "Artigas, painted by Juan Manuel Blanes"
+      },
+      {
+       "type": "photo",
+       "at": "It ordered the land",
+       "photo": "File:Ernesto Laroche - Paisaje de campo con tajamar.jpg",
+       "on_screen_text": "Countryside, painted by Ernesto Laroche, 1906"
+      },
+      {
+       "type": "photo",
+       "at": "divided up and given",
+       "photo": "File:El Uruguay a través de un siglo page 461 recorte 02.tif#crop=0.03,0.03,0.03,0.13",
+       "on_screen_text": "An estancia house, 1910"
+      },
+      {
+       "type": "stat",
+       "at": "Its most famous line",
+       "stat": {
+        "value": "MOST UNFORTUNATE FIRST",
+        "label": "Its principle: the most unfortunate should be the most privileged (1815)",
+        "source": "Reglamento Provisorio, 1815 (text: La Izquierda Diario)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "A year later, Portuguese",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.02,
+           "lat": -32.14,
+           "span": 19.84
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -53.0,
+             -30.0
+            ],
+            "to": [
+             -56.0,
+             -33.0
+            ],
+            "color": "red",
+            "label": "Portuguese troops, 1816",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Artigas was driven into",
+       "photo": "File:Eduardo Carbajal - 1873 - Artigas en el Paraguay.jpg",
+       "on_screen_text": "Artigas in Paraguay, by Eduardo Carbajal, 1873"
+      }
+     ]
+    },
+    {
+     "text": "Reason two. Uruguay was not planned by Uruguayans alone. After Artigas fell, the eastern bank was ruled from Rio de Janeiro, first by Portugal and then by the new Empire of Brazil, as its Cisplatine Province. At dawn on the nineteenth of April, 1825, thirty-three exiles led by Juan Antonio Lavalleja crossed the Uruguay River from Argentina and landed on a beach called Agraciada. They raised the countryside against Brazil. Argentina joined in, and the two big neighbours went to war over the eastern bank. Neither could win. Britain, whose merchants wanted the river open for trade, sent a diplomat to broker a peace. His name was Lord Ponsonby.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.1,
+           "lat": -29.576,
+           "span": 42.753
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         },
+         {
+          "at": "After Artigas fell, the",
+          "places": [
+           {
+            "name": "Rio de Janeiro",
+            "lon": -43.2,
+            "lat": -22.9,
+            "kind": "city",
+            "label": "Rio de Janeiro"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "first by Portugal and",
+       "stat": {
+        "value": "CISPLATINE PROVINCE",
+        "label": "The eastern bank under Portugal, then the Empire of Brazil",
+        "source": "MEC Uruguay; Wikipedia"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "At dawn on the",
+       "stat": {
+        "value": "19 APRIL 1825",
+        "label": "Thirty-three exiles land at Agraciada",
+        "source": "MEC Uruguay"
+       }
+      },
+      {
+       "type": "map",
+       "at": "crossed the Uruguay River",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.9,
+           "lat": -33.309,
+           "span": 3.943
+          },
+          "places": [
+           {
+            "name": "Agraciada",
+            "lon": -58.33,
+            "lat": -33.8,
+            "kind": "site",
+            "label": "Agraciada beach",
+            "icon": "ship"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -58.55,
+             -33.7
+            ],
+            "to": [
+             -58.33,
+             -33.8
+            ],
+            "color": "red",
+            "label": "The Thirty-Three",
+            "bend": 0.2
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a beach called Agraciada.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -58.335,
+           "lat": -33.8,
+           "span": 0.1
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Agraciada, on the Uruguay River"
+      },
+      {
+       "type": "map",
+       "at": "They raised the countryside",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.31,
+           "lat": -32.12,
+           "span": 19.04
+          },
+          "places": [
+           {
+            "name": "Agraciada",
+            "lon": -58.33,
+            "lat": -33.8,
+            "kind": "site",
+            "label": "Agraciada beach",
+            "icon": "ship"
+           }
+          ]
+         },
+         {
+          "at": "against Brazil.",
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "view": {
+           "lon": -56.31,
+           "lat": -32.898,
+           "span": 16.74
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Argentina joined in, and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.98,
+           "lat": -32.487,
+           "span": 20.01
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         },
+         {
+          "at": "went to war over",
+          "places": [
+           {
+            "name": "Brazil",
+            "lon": -53.2,
+            "lat": -28.6,
+            "kind": "label",
+            "label": "BRAZIL"
+           },
+           {
+            "name": "Argentina",
+            "lon": -60.3,
+            "lat": -31.8,
+            "kind": "label",
+            "label": "ARGENTINA"
+           }
+          ],
+          "view": {
+           "lon": -56.139,
+           "lat": -31.917,
+           "span": 19.57
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Britain, whose merchants wanted",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -27.135,
+           "lat": 4.885,
+           "span": 282.241
+          },
+          "places": [
+           {
+            "name": "London",
+            "lon": -0.13,
+            "lat": 51.51,
+            "kind": "capital",
+            "label": "London"
+           },
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ]
+         },
+         {
+          "at": 98,
+          "view": {
+           "lon": -24.0,
+           "lat": 10.4,
+           "span": 110.16
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the twenty-seventh of August, 1828, the two sides signed a peace convention in Rio de Janeiro. The disputed land would be neither Brazilian nor Argentine. It would be a new, independent state between them. A buffer.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "27 AUG 1828",
+        "label": "Peace convention signed in Rio de Janeiro",
+        "source": "Preliminary Peace Convention, 1828"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The disputed land would",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.38,
+           "lat": -31.5,
+           "span": 19.2
+          },
+          "places": [
+           {
+            "name": "Brazil",
+            "lon": -53.2,
+            "lat": -28.6,
+            "kind": "label",
+            "label": "BRAZIL"
+           },
+           {
+            "name": "Argentina",
+            "lon": -60.3,
+            "lat": -31.8,
+            "kind": "label",
+            "label": "ARGENTINA"
+           }
+          ]
+         },
+         {
+          "at": "It would be a",
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "view": {
+           "lon": -54.49,
+           "lat": -32.707,
+           "span": 18.263
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A buffer.",
+       "photo": "File:Anochecer en Colonia del Sacramento.jpg",
+       "on_screen_text": "Colonia del Sacramento"
+      }
+     ]
+    },
+    {
+     "text": "The new country had one real door to the world, the harbour at Montevideo. Everything that mattered ran through it. The customs house, the merchants, the banks, the government. And the countryside around it was still a place of horsemen and cattle.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.61,
+           "lat": -32.8,
+           "span": 20.4
+          },
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the harbour at Montevideo.",
+       "photo": "File:Ciudad Vieja y puerto de Montevideo - 02493FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo's old town and port, 1919"
+      },
+      {
+       "type": "photo",
+       "at": "The customs house, the",
+       "photo": "File:Vista aérea de la Ciudad Vieja - 0311FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo's old town, 1936"
+      },
+      {
+       "type": "photo",
+       "at": "And the countryside around",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 17.jpg",
+       "on_screen_text": "Riders in Tacuarembó, 2026"
+      }
+     ]
+    },
+    {
+     "text": "The young state cleared that countryside in its own way. On the eleventh of April, 1831, the army of President Fructuoso Rivera attacked the Charrúa, the Indigenous people of the plains, at a creek called Salsipuedes. Rivera's own report counted about forty dead and three hundred prisoners, who were handed out to families in Montevideo.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.99,
+           "lat": -32.8,
+           "span": 17.68
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "On the eleventh of",
+       "stat": {
+        "value": "11 APRIL 1831",
+        "label": "Rivera's army attacks the Charrúa at Salsipuedes",
+        "source": "INDDHH Uruguay"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "attacked the Charrúa, the",
+       "photo": "File:Juan Manuel Blanes - Retrato del General Fructuoso Rivera.png",
+       "on_screen_text": "Fructuoso Rivera, by Juan Manuel Blanes"
+      },
+      {
+       "type": "stat",
+       "at": "Rivera's own report counted",
+       "stat": {
+        "value": "~40 / 300",
+        "label": "Dead and prisoners in Rivera's own report",
+        "source": "INDDHH Uruguay"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "who were handed out",
+       "photo": "File:Vista aérea de la Ciudad Vieja - 0310FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo's old town"
+      }
+     ]
+    },
+    {
+     "text": "Then the country turned on itself. From 1839 to 1851, a civil war known as the Guerra Grande, the Great War, pulled in Argentina, Brazil, Britain and France. For about eight years, Montevideo was under siege. The interior was fought over by riders from both sides, and the herds were slaughtered and stolen.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Portrait of a Gaucho (5464643263).jpg",
+       "on_screen_text": "A gaucho"
+      },
+      {
+       "type": "stat",
+       "at": "From 1839 to 1851,",
+       "stat": {
+        "value": "1839-1851",
+        "label": "The Guerra Grande",
+        "source": "Library of Congress country study"
+       }
+      },
+      {
+       "type": "map",
+       "at": "pulled in Argentina, Brazil,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.705,
+           "lat": -32.273,
+           "span": 21.707
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "places": [
+           {
+            "name": "Brazil",
+            "lon": -53.2,
+            "lat": -28.6,
+            "kind": "label",
+            "label": "BRAZIL"
+           },
+           {
+            "name": "Argentina",
+            "lon": -60.3,
+            "lat": -31.8,
+            "kind": "label",
+            "label": "ARGENTINA"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "For about eight years,",
+       "photo": "File:PlanoMontevideoSitioGrande.JPG",
+       "on_screen_text": "Plan of the siege of Montevideo, 1843-1851"
+      },
+      {
+       "type": "photo",
+       "at": "The interior was fought",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 42.jpg",
+       "on_screen_text": "Riders, Tacuarembó"
+      },
+      {
+       "type": "photo",
+       "at": "and the herds were",
+       "photo": "File:C48f515. Campo con vacas.jpg",
+       "on_screen_text": "Cattle on Uruguayan grass, early 1900s"
+      }
+     ]
+    },
+    {
+     "text": "When peace finally held, the railways came, built and owned mostly by British companies. The first line opened in 1869. Look at the network on a map. The lines reach out into the cattle country like the ribs of a fan, and every one of them runs back to the same place. The port. Montevideo.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1869",
+        "label": "Uruguay's first railway opens",
+        "source": "Rail transport in Uruguay (Wikipedia)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "built and owned mostly",
+       "photo": "File:Estación Central de Ferrocarriles - 03428FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Central Station, Montevideo, about 1900"
+      },
+      {
+       "type": "map",
+       "at": "Look at the network",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.8,
+           "lat": -31.95,
+           "span": 21.76
+          },
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           },
+           {
+            "name": "Rivera",
+            "lon": -55.55,
+            "lat": -30.9,
+            "kind": "city",
+            "label": "Rivera"
+           },
+           {
+            "name": "Paysandú",
+            "lon": -58.08,
+            "lat": -32.32,
+            "kind": "city",
+            "label": "Paysandú"
+           },
+           {
+            "name": "Melo",
+            "lon": -54.18,
+            "lat": -32.37,
+            "kind": "city",
+            "label": "Melo"
+           }
+          ]
+         },
+         {
+          "at": "The lines reach out",
+          "routes": [
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "via": [
+             [
+              -56.25,
+              -34.45
+             ],
+             [
+              -56.52,
+              -33.38
+             ],
+             [
+              -56.52,
+              -32.82
+             ],
+             [
+              -55.98,
+              -31.71
+             ]
+            ],
+            "to": [
+             -55.55,
+             -30.9
+            ],
+            "mode": "line",
+            "label": "Railways to the port (approx.)",
+            "color": "accent",
+            "seconds": 3.0
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "via": [
+             [
+              -56.75,
+              -34.3
+             ],
+             [
+              -57.45,
+              -33.25
+             ]
+            ],
+            "to": [
+             -58.08,
+             -32.32
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 3.0
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "via": [
+             [
+              -55.25,
+              -34.37
+             ],
+             [
+              -54.95,
+              -33.23
+             ]
+            ],
+            "to": [
+             -54.18,
+             -32.37
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 3.0
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "via": [
+             [
+              -56.75,
+              -34.35
+             ]
+            ],
+            "to": [
+             -57.84,
+             -34.47
+            ],
+            "mode": "line",
+            "color": "accent",
+            "seconds": 2.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "into the cattle country",
+       "photo": "File:El Libro Del Centenario Del Uruguay-page 466-recorte3.tif#crop=0.02,0.02,0.02,0.12",
+       "on_screen_text": "A cattle wagon of the Central Uruguay Railway, 1925"
+      },
+      {
+       "type": "photo",
+       "at": "runs back to the",
+       "photo": "File:Vista aérea del puerto y la Ciudad Vieja - 0103FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo's port, 1931"
+      }
+     ]
+    },
+    {
+     "text": "So the country had one door, and the rails pointed to it. But a railway can carry people inland as well as out. Why didn't they go? Because by then, the land itself had been closed.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Estación Central de Ferrocarriles Gral - 01210FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Central Station, Montevideo, 1917"
+      },
+      {
+       "type": "photo",
+       "at": "But a railway can",
+       "photo": "File:Salto Uruguay train station 1.jpg",
+       "on_screen_text": "The old station at Salto"
+      },
+      {
+       "type": "map",
+       "at": "Because by then, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.95,
+           "lat": -31.85,
+           "span": 0.2
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ranch land near Tacuarembó"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Fences",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason three. For two hundred years, the grass of the eastern bank had been mostly open. Boundaries were streams, stone walls, hedges of cactus. Cattle wandered, and so did the people who worked them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.8,
+           "lat": -33.65,
+           "span": 22.44
+          },
+          "highlight": [
+           "file:interior.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Boundaries were streams, stone",
+       "photo": "File:Field (2884212928).jpg",
+       "on_screen_text": "Old stone huts on the grassland"
+      },
+      {
+       "type": "photo",
+       "at": "Cattle wandered, and so",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 34.jpg",
+       "on_screen_text": "Riders, Tacuarembó"
+      }
+     ]
+    },
+    {
+     "text": "In the 1860s, sheep arrived in huge numbers, and with them, a demand for order. On the twenty-seventh of July, 1875, a Rural Code came into force. It was written by the ranchers' own association and passed without debate. Landowners now had to mark out their properties. From 1876, imports of fencing wire took off.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:C34f335. Esquila.jpg",
+       "on_screen_text": "Sheep shearing, Uruguay, 1904"
+      },
+      {
+       "type": "stat",
+       "at": "On the twenty-seventh of",
+       "stat": {
+        "value": "27 JULY 1875",
+        "label": "The Rural Code comes into force",
+        "source": "IMPO, Código Rural"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It was written by",
+       "photo": "File:C34f337. Corral con ovejas.jpg",
+       "on_screen_text": "A sheep pen, 1904"
+      },
+      {
+       "type": "map",
+       "at": "Landowners now had to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.7,
+           "lat": -33.4,
+           "span": 0.25
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fenced pastures, central Uruguay"
+      },
+      {
+       "type": "stat",
+       "at": "From 1876, imports of",
+       "stat": {
+        "value": "1876",
+        "label": "Fencing wire imports take off",
+        "source": "Montevideo Portal history series"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Within a generation, the open range was cut into fenced estancias. And a fence changes a ranch. A ranch without fences needs many riders to keep its herds from wandering off. A fenced one needs a few hands to check the wire.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.15,
+           "lat": -33.6,
+           "span": 0.4
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Estancias of central Uruguay"
+      },
+      {
+       "type": "photo",
+       "at": "And a fence changes",
+       "photo": "File:Ruta 30, cerca de Tranqueras.JPG",
+       "on_screen_text": "Fenced grassland, Rivera"
+      },
+      {
+       "type": "photo",
+       "at": "A ranch without fences",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 60.jpg",
+       "on_screen_text": "Riders, Tacuarembó"
+      },
+      {
+       "type": "photo",
+       "at": "A fenced one needs",
+       "photo": "File:El Uruguay a través de un siglo page 489 recorte 01.tif#crop=0.03,0.03,0.03,0.13",
+       "on_screen_text": "Prize cattle at an estancia, 1910"
+      }
+     ]
+    },
+    {
+     "text": "Historians of rural Uruguay describe what came next. Workers who had lived on the ranches were no longer needed. Many drifted to clusters of shacks on the edges of the estates, along the roads and creeks. The ranchers' associations had a name for these places. They called them pueblos de ratas. Rat towns.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Escena campestre.jpg",
+       "on_screen_text": "Rural Uruguay, 19th century"
+      },
+      {
+       "type": "photo",
+       "at": "Workers who had lived",
+       "photo": "File:C34f334. Marcando un caballo.jpg",
+       "on_screen_text": "Ranch work, 1904"
+      },
+      {
+       "type": "map",
+       "at": "Many drifted to clusters",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.95,
+           "lat": -31.85,
+           "span": 0.1
+          },
+          "date": "2024-12-15/2025-02-28"
+         },
+         {
+          "at": 32,
+          "view": {
+           "lon": -55.95,
+           "lat": -31.85,
+           "span": 0.08
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Small settlements on the ranch roads, Tacuarembó"
+      },
+      {
+       "type": "stat",
+       "at": "They called them pueblos",
+       "stat": {
+        "value": "PUEBLOS DE RATAS",
+        "label": "\"Rat towns\": the ranchers' name for the shack settlements",
+        "source": "Udelar studies (Redalyc)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The countryside became productive and almost empty at the same time. The last great revolt of the horsemen came from that countryside. In 1904, the rebel leader Aparicio Saravia led thousands of riders against the government. He was shot at the Battle of Masoller on the first of September and died nine days later. It was Uruguay's last civil war. The age of the gaucho was over.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:La Tablada - 20425FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "La Tablada cattle market, Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "The last great revolt",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 42.jpg",
+       "on_screen_text": "Riders, Tacuarembó"
+      },
+      {
+       "type": "photo",
+       "at": "In 1904, the rebel",
+       "photo": "File:Aparicio Saravia a caballo.jpg",
+       "on_screen_text": "Aparicio Saravia"
+      },
+      {
+       "type": "photo",
+       "at": "led thousands of riders",
+       "photo": "File:Desfile militar de Aparicio Saravia el 30 de marzo de 1903.jpg",
+       "on_screen_text": "Saravia's riders, March 1903"
+      },
+      {
+       "type": "map",
+       "at": "He was shot at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.0,
+           "lat": -31.4,
+           "span": 4.2
+          },
+          "places": [
+           {
+            "name": "Masoller",
+            "lon": -55.99,
+            "lat": -31.08,
+            "kind": "site",
+            "label": "Masoller",
+            "icon": "conflict"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "on the first of",
+       "stat": {
+        "value": "1 SEP 1904",
+        "label": "Battle of Masoller: Uruguay's last civil war",
+        "source": "Encyclopedia.com; Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was Uruguay's last",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.99,
+           "lat": -31.08,
+           "span": 0.12
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Masoller today"
+      },
+      {
+       "type": "photo",
+       "at": "The age of the",
+       "photo": "File:Gaucho 1868c.jpg",
+       "on_screen_text": "A gaucho, about 1868"
+      }
+     ]
+    },
+    {
+     "text": "When industry did come to the cattle, it came to the riverbanks and the port. In the 1860s, the Liebig Extract of Meat Company built a factory at Fray Bentos, on the Uruguay River. It boiled down beef into a dark extract and later canned corned beef that fed European armies. Thousands worked there, and today the site is on UNESCO's World Heritage list.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.72,
+           "lat": -32.928,
+           "span": 3.888
+          },
+          "places": [
+           {
+            "name": "Fray Bentos",
+            "lon": -58.31,
+            "lat": -33.12,
+            "kind": "site",
+            "label": "Fray Bentos",
+            "icon": "factory"
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -57.72,
+           "lat": -32.928,
+           "span": 3.305
+          }
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": -57.72,
+           "lat": -32.928,
+           "span": 2.809
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "on the Uruguay River.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -58.33,
+           "lat": -33.12,
+           "span": 0.08
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fray Bentos and the old plant"
+      },
+      {
+       "type": "photo",
+       "at": "It boiled down beef",
+       "photo": "File:Oxo P-FG-ES-05537.jpg",
+       "on_screen_text": "Liebig's OXO, advertising"
+      },
+      {
+       "type": "photo",
+       "at": "and later canned corned",
+       "photo": "File:Frigorífico Liebig - 01792FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Fray Bentos plant, 1919"
+      },
+      {
+       "type": "photo",
+       "at": "Thousands worked there, and",
+       "photo": "File:El Frigorífico ANGLO en acción.jpg",
+       "on_screen_text": "The old plant at Fray Bentos"
+      },
+      {
+       "type": "stat",
+       "at": "today the site is",
+       "stat": {
+        "value": "UNESCO 2015",
+        "label": "Fray Bentos Industrial Landscape, World Heritage",
+        "source": "UNESCO 39 COM 8B.39"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then came the frozen-meat plants. In 1916 and 1917, the American meatpackers Swift and Armour took over plants on the Cerro, the hill across the bay from Montevideo. Cattle were raised in the empty interior, sent by rail to the capital, and turned into jobs there. The work went to the port, and so did the people.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Frigorífico Swift - 01890FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Swift plant on the Cerro, 1918"
+      },
+      {
+       "type": "map",
+       "at": "took over plants on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.25,
+           "lat": -34.885,
+           "span": 0.12
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Cerro and Montevideo Bay"
+      },
+      {
+       "type": "photo",
+       "at": "the hill across the",
+       "photo": "File:Vista aérea del Cerro - 0152FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Cerro from the air"
+      },
+      {
+       "type": "photo",
+       "at": "Cattle were raised in",
+       "photo": "File:La Tablada - 23412FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "La Tablada cattle market, 1920"
+      },
+      {
+       "type": "photo",
+       "at": "and turned into jobs",
+       "photo": "File:Arroyo Pantanoso - 04317FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Meat plants by the Pantanoso creek, 1926"
+      },
+      {
+       "type": "photo",
+       "at": "The work went to",
+       "photo": "File:Frigorífico Swift - 09587FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Cerro plants, 1958"
+      }
+     ]
+    },
+    {
+     "text": "So the countryside was closed by the time Europe's great wave of emigrants set sail. And that is where the story gets its sharpest contrast.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Vista aérea de la Ciudad Vieja - 0311FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo, 1936"
+      },
+      {
+       "type": "map",
+       "at": "Europe's great wave of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -22.661,
+           "lat": 1.905,
+           "span": 262.856
+          },
+          "highlight": [
+           "Uruguay@red",
+           "Italy@alt",
+           "Spain@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ships Went to Buenos Aires",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason four. Between about 1870 and 1930, some six million Europeans crossed the Atlantic to Argentina. Italians and Spaniards above all. Argentina's immigration law of 1876 offered free lodging on arrival, free train tickets inland and public land on a moving frontier.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -24.725,
+           "lat": 0.298,
+           "span": 251.505
+          },
+          "places": [
+           {
+            "name": "Genoa",
+            "lon": 8.93,
+            "lat": 44.41,
+            "kind": "port",
+            "label": "Genoa"
+           },
+           {
+            "name": "Vigo",
+            "lon": -8.72,
+            "lat": 42.24,
+            "kind": "port",
+            "label": "Vigo"
+           },
+           {
+            "name": "Buenos Aires",
+            "lon": -58.38,
+            "lat": -34.6,
+            "kind": "capital",
+            "label": "Buenos Aires"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             8.5,
+             43.8
+            ],
+            "to": [
+             -57.9,
+             -34.7
+            ],
+            "color": "red",
+            "label": "Emigrant ships",
+            "bend": 0.12
+           },
+           {
+            "from": [
+             -9.2,
+             42.0
+            ],
+            "to": [
+             -57.9,
+             -34.9
+            ],
+            "color": "red",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "some six million Europeans",
+       "stat": {
+        "value": "~6 MILLION",
+        "label": "Europeans to Argentina, about 1870-1930",
+        "source": "bpb country profile Argentina"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Italians and Spaniards above",
+       "photo": "File:Immigrant Hotel, Buenos Aires, Argentina LCCN 91739070.tif#crop=0.05,0.07,0.08,0.11",
+       "on_screen_text": "The Immigrants' Hotel, Buenos Aires, early 1900s"
+      },
+      {
+       "type": "photo",
+       "at": "offered free lodging on",
+       "photo": "File:Hotel de Inmigrantes c. 1912 - Google Arts & Culture.jpg",
+       "on_screen_text": "The Immigrants' Hotel, Buenos Aires, about 1912"
+      },
+      {
+       "type": "map",
+       "at": "free train tickets inland",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -62.328,
+           "lat": -42.659,
+           "span": 126.955
+          },
+          "highlight": [
+           "Argentina@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Uruguay got far fewer. Estimates for the half century after 1880 run from under three hundred thousand to nearly six hundred thousand. And most of the newcomers who did come stayed exactly where the ship docked. In 1889, almost half the people of Montevideo had been born abroad.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.201,
+           "lat": -34.944,
+           "span": 5.907
+          },
+          "places": [
+           {
+            "name": "Buenos Aires",
+            "lon": -58.38,
+            "lat": -34.6,
+            "kind": "capital",
+            "label": "Buenos Aires"
+           },
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -54.0,
+             -35.6
+            ],
+            "to": [
+             -58.2,
+             -34.7
+            ],
+            "color": "red",
+            "label": "Most ships sail on to Buenos Aires",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Estimates for the half",
+       "photo": "File:Vista aérea de la bahía de Montevideo - 0086FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Ships in Montevideo Bay"
+      },
+      {
+       "type": "chart",
+       "at": "run from under three",
+       "chart": {
+        "type": "bar",
+        "title": "Immigrants, about 1880-1930",
+        "unit": "",
+        "data": [
+         [
+          "Argentina",
+          6000
+         ],
+         [
+          "Uruguay, high estimate",
+          579
+         ],
+         [
+          "Uruguay, low estimate",
+          273
+         ]
+        ],
+        "source": "bpb; Immigration to Uruguay (Wikipedia)",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And most of the",
+       "photo": "File:Isla de Flores - 02626FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Immigrants at the Isla de Flores quarantine station, 1921"
+      },
+      {
+       "type": "photo",
+       "at": "stayed exactly where the",
+       "photo": "File:C25f241. Muelle de entrada para control de inmigrantes.jpg",
+       "on_screen_text": "The immigrants' pier, Montevideo, 1904"
+      },
+      {
+       "type": "stat",
+       "at": "In 1889, almost half",
+       "stat": {
+        "value": "47 %",
+        "label": "Foreign-born share of Montevideo, 1889 census",
+        "source": "Beretta Curi (SciELO)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Italians were the largest group, nearly half of all foreigners in the capital. Even in 1908, when the whole country was counted, about one person in six had been born abroad. Most of them lived in Montevideo.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Instalaciones del lazareto de inmigrantes - 0762FMHB.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The immigrant quarantine station, Isla de Flores"
+      },
+      {
+       "type": "photo",
+       "at": "nearly half of all",
+       "photo": "File:Ciudad Vieja y puerto de Montevideo - 02493FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo, 1919"
+      },
+      {
+       "type": "stat",
+       "at": "Even in 1908, when",
+       "stat": {
+        "value": "1 IN 6",
+        "label": "Uruguayans born abroad, 1908 census",
+        "source": "Immigration to Uruguay (Wikipedia)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "about one person in",
+       "photo": "File:Ciudad de Salto - 01794FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Salto, 1919"
+      },
+      {
+       "type": "photo",
+       "at": "Most of them lived",
+       "photo": "File:Rambla de Pocitos - 01778FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Rambla at Pocitos, 1919"
+      }
+     ]
+    },
+    {
+     "text": "The reason was the same fence. Out in the interior there was no frontier to claim. The good land was already held, in units of thousands of hectares, by families who did not need more workers. An Italian peasant could find work in Montevideo's port and workshops. He could not find a farm.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.7,
+           "lat": -33.4,
+           "span": 0.4
+          },
+          "date": "2024-12-15/2025-02-28"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -56.7,
+           "lat": -33.4,
+           "span": 0.248
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Estancias of central Uruguay"
+      },
+      {
+       "type": "photo",
+       "at": "The good land was",
+       "photo": "File:La Tablada - 20425FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "La Tablada, Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "by families who did",
+       "photo": "File:El Uruguay a través de un siglo page 461 recorte 02.tif#crop=0.03,0.03,0.03,0.13",
+       "on_screen_text": "An estancia, 1910"
+      },
+      {
+       "type": "photo",
+       "at": "An Italian peasant could",
+       "photo": "File:Instalaciones del lazareto de inmigrantes - 02627FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The immigrant quarantine station, 1921"
+      },
+      {
+       "type": "photo",
+       "at": "He could not find",
+       "photo": "File:Río Negro, Uruguay.jpg",
+       "on_screen_text": "The Río Negro"
+      }
+     ]
+    },
+    {
+     "text": "Now look across the border again. In 1824, the first German families arrived at São Leopoldo, in the forested hills of northern Rio Grande do Sul. From 1875, Italians followed, about a hundred thousand of them before the First World War, most of them to the highlands around a new colony that became the city of Caxias do Sul. They were given family-sized lots, cleared the forest and built farming villages, then towns, then cities.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -53.7,
+           "lat": -30.9,
+           "span": 22.5
+          },
+          "highlight": [
+           "Rio Grande do Sul@red"
+          ],
+          "places": [
+           {
+            "name": "São Leopoldo",
+            "lon": -51.15,
+            "lat": -29.76,
+            "kind": "site",
+            "label": "São Leopoldo",
+            "icon": "farm"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 1824, the first",
+       "photo": "File:Centenário alemão em São Leopoldo.jpg",
+       "on_screen_text": "Centenary of German settlement, São Leopoldo, 1924"
+      },
+      {
+       "type": "photo",
+       "at": "in the forested hills",
+       "photo": "File:São Leopoldo (RS).tif",
+       "on_screen_text": "São Leopoldo, 1971"
+      },
+      {
+       "type": "map",
+       "at": "From 1875, Italians followed,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -52.575,
+           "lat": -30.45,
+           "span": 24.3
+          },
+          "highlight": [
+           "file:rs_nordeste.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Caxias do Sul",
+            "lon": -51.18,
+            "lat": -29.17,
+            "kind": "city",
+            "label": "Caxias do Sul"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "about a hundred thousand",
+       "photo": "File:Caxias do Sul - RS, Brazil - panoramio.jpg",
+       "on_screen_text": "The hills around Caxias do Sul"
+      },
+      {
+       "type": "photo",
+       "at": "most of them to",
+       "photo": "File:Igreja de Caxias do Sul em 1883. (6615475477).jpg",
+       "on_screen_text": "Caxias do Sul in 1883"
+      },
+      {
+       "type": "photo",
+       "at": "the city of Caxias",
+       "photo": "File:Amadeo Rossi & Cia - Caxias do Sul, RS - 1932.jpg",
+       "on_screen_text": "Caxias do Sul, 1932"
+      },
+      {
+       "type": "photo",
+       "at": "They were given family-sized",
+       "photo": "File:Planta Geral da Colonia Jaguary.png",
+       "on_screen_text": "Plan of the Jaguari colony lots, 1898"
+      },
+      {
+       "type": "photo",
+       "at": "cleared the forest and",
+       "photo": "File:Grape vine in Gramado.jpg",
+       "on_screen_text": "Vineyards in the Serra Gaúcha, Gramado"
+      },
+      {
+       "type": "map",
+       "at": "then towns, then cities.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -51.18,
+           "lat": -29.17,
+           "span": 0.25
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Caxias do Sul"
+      }
+     ]
+    },
+    {
+     "text": "We split Rio Grande do Sul into its official regions and measured them with the same population map. In the southwest, on the open pampa along Uruguay's border, the old cattle country, there are about eleven people per square kilometre. In the northeast, the hills of the old colonies, there are forty-seven. In Uruguay's interior, away from the southern coast, there are about seven.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.825,
+           "lat": -31.35,
+           "span": 26.1
+          },
+          "highlight": [
+           "Rio Grande do Sul@alt"
+          ]
+         },
+         {
+          "at": "into its official regions",
+          "highlight": [
+           "file:rs_sudoeste.geojson@red",
+           "file:rs_nordeste.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the southwest, on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.67,
+           "lat": -30.98,
+           "span": 0.25
+          },
+          "date": "2024-12-15/2025-02-28"
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -54.67,
+           "lat": -30.98,
+           "span": 0.155
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Campanha near Dom Pedrito"
+      },
+      {
+       "type": "photo",
+       "at": "In the northeast, the",
+       "photo": "File:Serra Gaúcha de Bento Gonçalves.jpg",
+       "on_screen_text": "Serra Gaúcha, Bento Gonçalves"
+      },
+      {
+       "type": "chart",
+       "at": "In Uruguay's interior, away",
+       "chart": {
+        "type": "bar",
+        "title": "People per km², 2023",
+        "unit": "",
+        "data": [
+         [
+          "Old colonies, Brazil",
+          47.0
+         ],
+         [
+          "Campanha, Brazil",
+          10.9
+         ],
+         [
+          "Uruguay's interior",
+          6.9
+         ]
+        ],
+        "source": "Own count: Kontur Population 2023 (geo/measure_population.py)",
+        "highlight": 2
+       }
+      }
+     ]
+    },
+    {
+     "text": "So the grass is not the reason. On the Brazilian side, the cattle country is almost as empty as Uruguay's. The people are where small farmers were given land. Uruguay never had that frontier.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Border between Rivera and Santana do Livramento.jpg",
+       "on_screen_text": "The border at Rivera"
+      },
+      {
+       "type": "map",
+       "at": "On the Brazilian side,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.53,
+           "lat": -30.9,
+           "span": 0.12
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rivera and Santana do Livramento"
+      },
+      {
+       "type": "photo",
+       "at": "The people are where",
+       "photo": "File:Bairro Planalto em Gramado.jpg",
+       "on_screen_text": "Gramado, in the old colony hills"
+      },
+      {
+       "type": "photo",
+       "at": "Uruguay never had that",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 33.jpg",
+       "on_screen_text": "Tacuarembó"
+      }
+     ]
+    },
+    {
+     "text": "Still, a country can fill up slowly from within, if its families are large. Uruguay's were not.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:PlazaIndependencia2.jpg",
+       "on_screen_text": "Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "Uruguay's were not.",
+       "photo": "File:Montevideo walking MRD 07.jpg",
+       "on_screen_text": "Montevideo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Small Families, Early",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason five. Uruguay changed its family life decades before the rest of Latin America. Demographers count it among the first countries in the region to see both death rates and birth rates fall, at least thirty years ahead of its neighbours.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.86,
+           "lat": -28.52,
+           "span": 47.12
+          },
+          "highlight": [
+           "Uruguay@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Demographers count it among",
+       "photo": "File:Rambla Wilson - 03340FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Rambla, Montevideo, 1922"
+      },
+      {
+       "type": "photo",
+       "at": "to see both death",
+       "photo": "File:Rambla República Argenitna - 08278FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "The Rambla, Montevideo, 1948"
+      },
+      {
+       "type": "stat",
+       "at": "at least thirty years",
+       "stat": {
+        "value": "30+ YEARS",
+        "label": "Uruguay's head start in the demographic transition",
+        "source": "Pellegrino 2013; Cabella et al."
+       }
+      }
+     ]
+    },
+    {
+     "text": "Part of that was a country turning secular and urban early. A large share of the people lived in one city, with jobs, schools and newspapers, far from the large rural families of the interior. In the early nineteen hundreds, under President José Batlle y Ordóñez, the state separated from the church. Divorce became legal in 1907. A few years later, a wife could end a marriage simply because she wished to.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Vista aérea del Puerto y la Ciudad Vieja - 0017FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo from the air"
+      },
+      {
+       "type": "photo",
+       "at": "A large share of",
+       "photo": "File:Rambla Presidente Wilson - 05453FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo, 1930"
+      },
+      {
+       "type": "photo",
+       "at": "with jobs, schools and",
+       "photo": "File:Rambla República del Perú - 07994FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo, 1944"
+      },
+      {
+       "type": "photo",
+       "at": "In the early nineteen",
+       "photo": "File:José Batlle y Ordóñez (1904).jpg",
+       "on_screen_text": "José Batlle y Ordóñez, 1904"
+      },
+      {
+       "type": "stat",
+       "at": "Divorce became legal in",
+       "stat": {
+        "value": "1907",
+        "label": "Uruguay's divorce law",
+        "source": "Ramos Palomo & Ortega Muñoz; LOC"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a wife could end",
+       "photo": "File:Rambla de Pocitos - 01778FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Pocitos, Montevideo, 1919"
+      }
+     ]
+    },
+    {
+     "text": "By 1950, Uruguayan women had on average about two point seven children. Most of Latin America did not reach that level until the end of the century. Brazil and Argentina grew through the twentieth century, while Uruguay's population grew slowly.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Children per woman",
+        "unit": "",
+        "data": [
+         [
+          "Uruguay, 1950",
+          2.7
+         ],
+         [
+          "Uruguay, 2021",
+          1.4
+         ]
+        ],
+        "source": "Cabella et al.; Nathan, Pardo & Cabella",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most of Latin America",
+       "photo": "File:Rambla - Montevideo (4278689373).jpg",
+       "on_screen_text": "The Rambla, Montevideo"
+      },
+      {
+       "type": "map",
+       "at": "Brazil and Argentina grew",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -59.14,
+           "lat": -29.193,
+           "span": 45.691
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "places": [
+           {
+            "name": "Brazil",
+            "lon": -53.2,
+            "lat": -28.6,
+            "kind": "label",
+            "label": "BRAZIL"
+           },
+           {
+            "name": "Argentina",
+            "lon": -60.3,
+            "lat": -31.8,
+            "kind": "label",
+            "label": "ARGENTINA"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The country aged with it. In 1963, fewer than one Uruguayan in twelve was sixty-five or older. In the 2023 census it was about one in six, and the statistics office expects one in three by 2070.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Uruguayans aged 65 or older (%)",
+        "unit": "",
+        "data": [
+         [
+          "1963",
+          7.9
+         ],
+         [
+          "2023",
+          15.7
+         ],
+         [
+          "2070 (projected)",
+          32.5
+         ]
+        ],
+        "source": "INE Uruguay projections",
+        "highlight": 2
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In the 2023 census",
+       "photo": "File:Rambla Francia MRD 01.jpg",
+       "on_screen_text": "The Rambla, Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "and the statistics office",
+       "photo": "File:GRU - MVD flight (2026-06-21) (13644).jpg",
+       "on_screen_text": "Montevideo"
+      }
+     ]
+    },
+    {
+     "text": "And the fall never stopped. By 2021, the rate was down to about one point four children per woman, far below the two needed to keep a population level. Every new generation is smaller than the last.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Montevideo from Punta Carretas.JPG",
+       "on_screen_text": "Montevideo from Punta Carretas"
+      },
+      {
+       "type": "stat",
+       "at": "By 2021, the rate",
+       "stat": {
+        "value": "1.4",
+        "label": "Children per woman in Uruguay, 2021",
+        "source": "Cabella et al."
+       }
+      },
+      {
+       "type": "photo",
+       "at": "far below the two",
+       "photo": "File:Montevideo skyline (282952662).jpg",
+       "on_screen_text": "Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "Every new generation is",
+       "photo": "File:Punta Carretas from air.JPG",
+       "on_screen_text": "Punta Carretas, Montevideo"
+      }
+     ]
+    },
+    {
+     "text": "A country with small families can still grow if people arrive. Uruguay had the opposite problem. Its people left.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Puerto de Montevideo, Uruguay.jpg",
+       "on_screen_text": "The port of Montevideo"
+      },
+      {
+       "type": "map",
+       "at": "Its people left.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -36.231,
+           "lat": -1.879,
+           "span": 236.93
+          },
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "to": [
+             -58.3,
+             -34.6
+            ],
+            "color": "red",
+            "label": "Emigrants",
+            "bend": 0.3
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "to": [
+             -3.7,
+             40.4
+            ],
+            "color": "red",
+            "bend": 0.12
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "to": [
+             -74.0,
+             40.7
+            ],
+            "color": "red",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Ones Who Left",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason six. In 1973, the military took power in Uruguay. Over the next twelve years, thousands were jailed for their politics. By the time democracy returned in 1985, about three hundred and eighty thousand people had left the country. In a nation of about three million, that was more than one person in ten.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.95,
+           "lat": -32.46,
+           "span": 18.911
+          },
+          "highlight": [
+           "Uruguay@red"
+          ],
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 1973, the military",
+       "photo": "File:Asunción a la Presidencia de la Republica de Juan María Bordaberry - 11442FMHGE (cropped).tif",
+       "on_screen_text": "Juan María Bordaberry takes office, 1 March 1972"
+      },
+      {
+       "type": "photo",
+       "at": "Over the next twelve",
+       "photo": "File:Plaza Huelga General de 1973 A.jpg",
+       "on_screen_text": "Square of the 1973 General Strike, Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "By the time democracy",
+       "photo": "File:Marcha del silencio, Montevideo, Uruguay 2024 (3).jpg",
+       "on_screen_text": "Silent march for the disappeared, Montevideo, 2024"
+      },
+      {
+       "type": "stat",
+       "at": "about three hundred and",
+       "stat": {
+        "value": "380,000",
+        "label": "Uruguayans who left by 1985",
+        "source": "Wilson Center"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In a nation of",
+       "photo": "File:Marcha del silencio, Montevideo, Uruguay 2024 (1).jpg",
+       "on_screen_text": "Silent march for the disappeared, Montevideo, 2024"
+      }
+     ]
+    },
+    {
+     "text": "Then, in 2002, a banking crisis spread from Argentina. Banks closed their doors, and between 1999 and 2002 about a hundred thousand more people left. Studies found that the ones leaving were often the ones with university degrees.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2002",
+        "label": "Banking crisis",
+        "source": "Pellegrino & Vigorito 2005"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Banks closed their doors,",
+       "photo": "File:Montevideo old town from air.JPG",
+       "on_screen_text": "Montevideo's old town"
+      },
+      {
+       "type": "stat",
+       "at": "about a hundred thousand",
+       "stat": {
+        "value": "~100,000",
+        "label": "Uruguayans who left, 1999-2002",
+        "source": "Pellegrino & Vigorito 2005"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Studies found that the",
+       "photo": "File:GRU - MVD flight (2026-06-21) (33670).jpg",
+       "on_screen_text": "Montevideo"
+      }
+     ]
+    },
+    {
+     "text": "They went to Buenos Aires, to Spain, to the United States. Today there are hundreds of thousands of Uruguayans abroad.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -30.951,
+           "lat": -1.873,
+           "span": 236.968
+          },
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           },
+           {
+            "name": "Madrid",
+            "lon": -3.7,
+            "lat": 40.42,
+            "kind": "capital",
+            "label": "Spain"
+           },
+           {
+            "name": "New York",
+            "lon": -74.0,
+            "lat": 40.71,
+            "kind": "city",
+            "label": "United States"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "to": [
+             -58.3,
+             -34.6
+            ],
+            "color": "red",
+            "label": "Emigrants",
+            "bend": 0.3
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "to": [
+             -3.7,
+             40.4
+            ],
+            "color": "red",
+            "bend": 0.12
+           },
+           {
+            "from": [
+             -56.19,
+             -34.9
+            ],
+            "to": [
+             -74.0,
+             40.7
+            ],
+            "color": "red",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Today there are hundreds",
+       "photo": "File:Puerto de Montevideo.jpg",
+       "on_screen_text": "The port of Montevideo"
+      }
+     ]
+    },
+    {
+     "text": "The latest census, in 2023, counted three point five million people, only a little more than twelve years earlier. The national statistics office said that without immigrants, the population would have fallen. Even Montevideo is getting smaller. The capital lost about five percent of its people between the two counts, as families moved out to the coast and suburbs nearby.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "3,499,451",
+        "label": "People counted in the 2023 census",
+        "source": "INE Uruguay, census 2023"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "only a little more",
+       "photo": "File:GRU - MVD flight (2026-06-21) (54649).jpg",
+       "on_screen_text": "Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "The national statistics office",
+       "photo": "File:GRU - MVD flight (2026-06-21) (86584).jpg",
+       "on_screen_text": "Montevideo"
+      },
+      {
+       "type": "map",
+       "at": "Even Montevideo is getting",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.0,
+           "lat": -34.529,
+           "span": 3.36
+          },
+          "highlight": [
+           "Montevideo@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The capital lost about",
+       "stat": {
+        "value": "-5 %",
+        "label": "Montevideo department, 2011-2023",
+        "source": "INE Uruguay, census 2023; El Observador"
+       }
+      },
+      {
+       "type": "map",
+       "at": "as families moved out",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.95,
+           "lat": -34.92,
+           "span": 0.2
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Maldonado and Punta del Este"
+      }
+     ]
+    },
+    {
+     "text": "Living in one corner has its risks. In 2023, after a record drought, the main reservoir for the capital, Paso Severino on the Santa Lucía River, fell to a few percent of its capacity. More than half the country drinks from that one river system. For months, the water company mixed salty water from the River Plate estuary into the supply, and people in Montevideo opened their taps to water that tasted of salt. The crisis ended only when the rains came back in late August.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.83,
+           "lat": -34.467,
+           "span": 3.672
+          },
+          "places": [
+           {
+            "name": "Paso Severino",
+            "lon": -56.31,
+            "lat": -34.23,
+            "kind": "site",
+            "label": "Paso Severino reservoir",
+            "icon": "water"
+           },
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "after a record drought,",
+       "photo": "File:Reserva Paso Severino (Uruguay) Junio 2022.jpg",
+       "on_screen_text": "Paso Severino from orbit, June 2022"
+      },
+      {
+       "type": "photo",
+       "at": "fell to a few",
+       "photo": "File:Reserva Paso Severino (Uruguay) Junio 2023.jpg",
+       "on_screen_text": "Paso Severino from orbit, June 2023"
+      },
+      {
+       "type": "map",
+       "at": "More than half the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.17,
+           "lat": -34.368,
+           "span": 3.944
+          },
+          "places": [
+           {
+            "name": "Paso Severino",
+            "lon": -56.31,
+            "lat": -34.23,
+            "kind": "site",
+            "label": "Paso Severino reservoir",
+            "icon": "water"
+           },
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -56.31,
+             -34.23
+            ],
+            "via": [
+             [
+              -56.4,
+              -34.52
+             ]
+            ],
+            "to": [
+             -56.19,
+             -34.85
+            ],
+            "mode": "line",
+            "label": "Water to the capital (approx.)",
+            "color": "blue",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the water company mixed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.31,
+           "lat": -34.23,
+           "span": 0.25
+          },
+          "date": "2023-06-01/2023-07-31"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Paso Severino, July 2023"
+      },
+      {
+       "type": "photo",
+       "at": "and people in Montevideo",
+       "photo": "File:Edificio OSE Montevideo.JPG",
+       "on_screen_text": "Headquarters of OSE, the water company"
+      },
+      {
+       "type": "map",
+       "at": "The crisis ended only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.31,
+           "lat": -34.23,
+           "span": 0.35
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Paso Severino, summer 2025"
+      }
+     ]
+    },
+    {
+     "text": "So the people who might have filled the interior never came, and many of those who were born there went somewhere else. But the interior is not standing still. Something is growing on the old ranches.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Río Tacuarembó, Departamento de Tacuarembó.jpg",
+       "on_screen_text": "The Tacuarembó River"
+      },
+      {
+       "type": "photo",
+       "at": "and many of those",
+       "photo": "File:Estación Central General Artigas 2008 (2978564213).jpg",
+       "on_screen_text": "The old Central Station, Montevideo, 2008"
+      },
+      {
+       "type": "map",
+       "at": "But the interior is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.65,
+           "lat": -33.14,
+           "span": 20.312
+          },
+          "highlight": [
+           "file:interior.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Something is growing on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.9,
+           "lat": -31.8,
+           "span": 0.35
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Tree plantations near Tacuarembó"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Our population map shows how lopsided it has become. The six departments along the southern coast hold seven in ten Uruguayans on less than a fifth of the land. In Durazno and Flores, in the middle of the country, there are fewer than five people per square kilometre. Montevideo, the smallest department of all, holds well over a million.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.29,
+           "lat": -33.48,
+           "span": 21.712
+          },
+          "highlight": [
+           "file:coast6.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "seven in ten Uruguayans",
+       "chart": {
+        "type": "bar",
+        "title": "Six coastal departments",
+        "unit": "%",
+        "data": [
+         [
+          "Share of people",
+          69.9
+         ],
+         [
+          "Share of land",
+          18.0
+         ]
+        ],
+        "source": "Own count: Kontur Population 2023 (geo/measure_population.py)",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "In Durazno and Flores,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.179,
+           "lat": -33.317,
+           "span": 5.397
+          },
+          "highlight": [
+           "Durazno@red",
+           "Flores@red"
+          ],
+          "places": [
+           {
+            "name": "Durazno",
+            "lon": -56.52,
+            "lat": -33.38,
+            "kind": "city",
+            "label": "Durazno"
+           },
+           {
+            "name": "Trinidad",
+            "lon": -56.9,
+            "lat": -33.52,
+            "kind": "city",
+            "label": "Trinidad (Flores)"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "there are fewer than",
+       "photo": "File:Casa de la Cultura, Durazno, Uruguay.jpg",
+       "on_screen_text": "Durazno"
+      },
+      {
+       "type": "stat",
+       "at": "Montevideo, the smallest department",
+       "stat": {
+        "value": "1.3 MILLION",
+        "label": "People in Montevideo department (Kontur 2023)",
+        "source": "Own count: Kontur Population 2023 (geo/measure_population.py)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Drive north from Montevideo today and you will see it. Long straight rows of eucalyptus, planted where cattle used to graze. More than a million hectares of the country are now pine and eucalyptus plantations.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.31,
+           "lat": -32.12,
+           "span": 19.611
+          },
+          "places": [
+           {
+            "name": "Montevideo",
+            "lon": -56.19,
+            "lat": -34.9,
+            "kind": "capital",
+            "label": "Montevideo"
+           },
+           {
+            "name": "Tacuarembó",
+            "lon": -55.98,
+            "lat": -31.71,
+            "kind": "city",
+            "label": "Tacuarembó"
+           },
+           {
+            "name": "Rivera",
+            "lon": -55.55,
+            "lat": -30.9,
+            "kind": "city",
+            "label": "Rivera"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Long straight rows of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.55,
+           "lat": -31.55,
+           "span": 0.15
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Plantations in Rivera"
+      },
+      {
+       "type": "photo",
+       "at": "planted where cattle used",
+       "photo": "File:Countryside in Montevideo, Uruguay.jpg",
+       "on_screen_text": "Eucalyptus and pasture"
+      },
+      {
+       "type": "stat",
+       "at": "More than a million",
+       "stat": {
+        "value": "1.1 MILLION HA",
+        "label": "Pine and eucalyptus plantations in Uruguay, 2023",
+        "source": "Dialogue Earth; UPM"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The sheep that once came with the fences are going too. In the late 1980s, Uruguay had about twenty-five million of them. By 2025, the flock had fallen to under five million, as pasture went to crops, cattle and trees.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ovinos.jpg",
+       "on_screen_text": "Sheep in Uruguay"
+      },
+      {
+       "type": "chart",
+       "at": "In the late 1980s,",
+       "chart": {
+        "type": "bar",
+        "title": "Sheep in Uruguay (millions)",
+        "unit": "",
+        "data": [
+         [
+          "About 1990",
+          25.0
+         ],
+         [
+          "2025",
+          4.75
+         ]
+        ],
+        "source": "MercoPress",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "photo",
+       "at": "By 2025, the flock",
+       "photo": "File:C34f337. Corral con ovejas.jpg",
+       "on_screen_text": "A sheep pen, 1904"
+      },
+      {
+       "type": "map",
+       "at": "as pasture went to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -57.9,
+           "lat": -33.5,
+           "span": 0.2
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Crop fields, Soriano"
+      }
+     ]
+    },
+    {
+     "text": "In April 2023, a Finnish company, UPM, started a new pulp mill at Paso de los Toros, in the middle of the country. It can produce two point one million tonnes of pulp a year, from trees grown on the old grassland. And on the hilltops, wind turbines turn. In 2024, almost all of Uruguay's electricity came from renewable sources, more than a quarter of it from wind.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.2,
+           "lat": -32.92,
+           "span": 4.32
+          },
+          "places": [
+           {
+            "name": "Paso de los Toros",
+            "lon": -56.52,
+            "lat": -32.82,
+            "kind": "site",
+            "label": "Paso de los Toros",
+            "icon": "factory"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "started a new pulp",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.55,
+           "lat": -32.84,
+           "span": 0.12
+          },
+          "date": "2024-12-15/2025-02-28"
+         },
+         {
+          "at": 15,
+          "view": {
+           "lon": -56.55,
+           "lat": -32.84,
+           "span": 0.08
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The UPM mill at Paso de los Toros"
+      },
+      {
+       "type": "photo",
+       "at": "It can produce two",
+       "photo": "File:UPM 2 psdlt.jpg",
+       "on_screen_text": "UPM mill, Paso de los Toros"
+      },
+      {
+       "type": "stat",
+       "at": "from trees grown on",
+       "stat": {
+        "value": "2.1 MILLION T",
+        "label": "Pulp a year from the Paso de los Toros mill",
+        "source": "UPM"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And on the hilltops,",
+       "photo": "File:Windmills in northern Uruguay 1.jpg",
+       "on_screen_text": "Wind turbines in northern Uruguay"
+      },
+      {
+       "type": "stat",
+       "at": "In 2024, almost all",
+       "stat": {
+        "value": "99 %",
+        "label": "Renewable share of Uruguay's electricity, 2024 (wind 28 %)",
+        "source": "MIEM via trade.gov"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "more than a quarter",
+       "photo": "File:Windmills in northern Uruguay 2.jpg",
+       "on_screen_text": "Wind turbines, northern Uruguay"
+      }
+     ]
+    },
+    {
+     "text": "But planted forests and wind farms, like cattle ranches, cover a great deal of land with very few workers. The interior is producing more than ever, and it is still nearly empty.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -58.255,
+           "lat": -33.105,
+           "span": 0.1
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The UPM mill at Fray Bentos"
+      },
+      {
+       "type": "photo",
+       "at": "cover a great deal",
+       "photo": "File:Planta de celulosa de UPM II 12.jpg",
+       "on_screen_text": "The UPM mill at Paso de los Toros"
+      },
+      {
+       "type": "photo",
+       "at": "The interior is producing",
+       "photo": "File:Planta de celulosa de UPM II 26.jpg",
+       "on_screen_text": "UPM pulp mill, Paso de los Toros"
+      },
+      {
+       "type": "map",
+       "at": "and it is still",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -55.95,
+           "lat": -31.85,
+           "span": 0.25
+          },
+          "date": "2024-12-15/2025-02-28"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The interior near Tacuarembó"
+      }
+     ]
+    },
+    {
+     "text": "The cows came first, on open grass. The country was built around one port. Fences closed the land, the ships sailed past to Buenos Aires, the families were small, and in hard times the young left. None of these alone would empty a country. Together, they made a nation that lives on its southern coast and keeps its interior for cattle, trees and wind.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:La Tablada - 23407FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Cattle, La Tablada, 1920"
+      },
+      {
+       "type": "photo",
+       "at": "The country was built",
+       "photo": "File:Vista aérea de la bahía de Montevideo - 0016FMHE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo Bay from the air"
+      },
+      {
+       "type": "photo",
+       "at": "Fences closed the land,",
+       "photo": "File:Ruta 30, cerca de Tranqueras.JPG",
+       "on_screen_text": "Fenced grassland, Rivera"
+      },
+      {
+       "type": "photo",
+       "at": "the ships sailed past",
+       "photo": "File:Immigrant Hotel, Buenos Aires, Argentina LCCN 91739070.tif#crop=0.05,0.07,0.08,0.11",
+       "on_screen_text": "Buenos Aires"
+      },
+      {
+       "type": "photo",
+       "at": "the families were small,",
+       "photo": "File:Rambla Wilson - 03340FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Montevideo, 1922"
+      },
+      {
+       "type": "photo",
+       "at": "and in hard times",
+       "photo": "File:Marcha del silencio, Montevideo, Uruguay 2024 (1).jpg",
+       "on_screen_text": "Montevideo, 2024"
+      },
+      {
+       "type": "photo",
+       "at": "None of these alone",
+       "photo": "File:El Embajador de los Estados Unidos, Lou Rinaldi, participó en Tacuarembó del desfile de la 39a Fiesta de la Patria Gaucha en 14 Marzo 2026 - 60.jpg",
+       "on_screen_text": "Tacuarembó"
+      },
+      {
+       "type": "map",
+       "at": "Together, they made a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -54.61,
+           "lat": -32.8,
+           "span": 21.012
+          },
+          "highlight": [
+           "file:coast6.geojson@red",
+           "file:interior.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and keeps its interior",
+       "photo": "File:Río Negro, Uruguay.jpg",
+       "on_screen_text": "The Río Negro"
+      }
+     ]
+    },
+    {
+     "text": "Would you trade a city flat for a house in Uruguay's quiet interior, with more cows than neighbours? Tell me in the comments.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:GRU - MVD flight (2026-06-21) (99393).jpg",
+       "on_screen_text": "Montevideo"
+      },
+      {
+       "type": "photo",
+       "at": "with more cows than",
+       "photo": "File:C48f515. Campo con vacas.jpg",
+       "on_screen_text": "Cattle on Uruguayan grass"
+      },
+      {
+       "type": "map",
+       "at": "Tell me in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -56.99,
+           "lat": -32.8,
+           "span": 18.21
+          },
+          "highlight": [
+           "file:interior.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Tacuarembó",
+            "lon": -55.98,
+            "lat": -31.71,
+            "kind": "city",
+            "label": "Tacuarembó"
+           },
+           {
+            "name": "Durazno",
+            "lon": -56.52,
+            "lat": -33.38,
+            "kind": "city",
+            "label": "Durazno"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Would you trade a",
+      "text": "City flat or a house in Uruguay's interior?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Uruguay Has More Cows Than People",
+  "title_candidates": [
+   "Why Uruguay Has More Cows Than People",
+   "Why Almost Nobody Lives in Uruguay's Interior",
+   "Why Half of Uruguay Lives in One City"
+  ],
+  "description": "Uruguay is bigger than England, with mild winters, good rain and endless grass, yet it has fewer than 3.5 million people and almost 12 million cattle. Half of all Uruguayans live within 30 km of one square in Montevideo. Across the border, the same grass in southern Brazil holds nearly 11 million. We follow the answer from orbit and the archives: cattle set loose in the 1600s, a buffer state with one port, the Rural Code and the fences of 1875, the emigrant ships that sailed on to Buenos Aires, families that shrank decades early, the exiles of 1973 and 2002, and the eucalyptus, pulp mills and wind farms on the old ranches.",
+  "tags": [
+   "Uruguay",
+   "Montevideo",
+   "Uruguay geography",
+   "cattle",
+   "gaucho",
+   "Rio Grande do Sul",
+   "Fray Bentos",
+   "River Plate",
+   "Buenos Aires",
+   "immigration",
+   "estancia",
+   "UPM pulp mill",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Would you trade a city flat for a house in Uruguay's quiet interior, with more cows than neighbours?"
+ }
+}

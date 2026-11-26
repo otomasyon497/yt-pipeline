@@ -22,7 +22,7 @@ P6b: Later came the saladeros, salting plants on the riverbanks. Their workers c
 
 P7: That was the first shape of the country. Not farms and villages, but animals on open grass, and men on horseback who came and went. When Spain and Portugal began to fight over this shore, they built forts, not farms. Portugal founded Colonia del Sacramento in 1680, right across the river from Buenos Aires. Spain answered with a fortress on a fine natural harbour further east. It became a city in 1726. Its name was Montevideo.
 
-P8: Around those forts, the crown handed out the land in huge grants. A single family could hold more grass than a small European duchy. The cattle did the work. So when the time came to make a country, there was already a pattern. A port, a few towns, and empty pasture between them.
+P8: Around those forts, the crown handed out the land in huge grants. A single family could hold thousands of hectares. The cattle did the work. So when the time came to make a country, there was already a pattern. A port, a few towns, and empty pasture between them.
 
 ## 2. A Country With One Door (curious)
 

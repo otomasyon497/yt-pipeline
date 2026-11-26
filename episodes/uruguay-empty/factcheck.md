@@ -66,8 +66,8 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 60 | c03p06 | narration | From 1839 to 1851, a civil war known as the Guerra Grande, the Great War, pulled in Argentina, Brazil, Britain and France. | R6 LOC country study; Wikipedia: 1839-1851, siege of Montevideo ~1843-1851, Anglo-French and Brazilian intervention | verified |
 | 61 | c03p06 | narration | For about eight years, Montevideo was under siege. | R6 LOC country study; Wikipedia: 1839-1851, siege of Montevideo ~1843-1851, Anglo-French and Brazilian intervention | verified |
 | 62 | c03p06 | stat card | 1839-1851: The Guerra Grande | Library of Congress country study; R6 LOC country study; Wikipedia: 1839-1851, siege of Montevideo ~1843-1851, Anglo-French and Brazilian intervention | verified |
-| 63 | c03p06 | on screen | Plan of the siege of Montevideo, 1843-1851 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
-| 64 | c03p06 | on screen | Cattle on Uruguayan grass, early 1900s | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
+| 63 | c03p06 | on screen | Montevideo, besieged 1843-1851 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
+| 64 | c03p06 | on screen | A cattle drive at Molles, 1907 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
 | 65 | c03p07 | narration | The first line opened in 1869. | R8 Rail transport in Uruguay (Wikipedia); Díaz AUDHE 2012 (British Central Uruguay Railway ~60 % of network by 1913) | verified |
 | 66 | c03p07 | narration | The lines reach out into the cattle country like the ribs of a fan, and every one of them runs back to the same place. | R8 1884 Ley de Trazado General radial plan, lines meeting in Montevideo (Wikipedia, citation-needed; Díaz) | attributed |
 | 67 | c03p07 | stat card | 1869: Uruguay's first railway opens | Rail transport in Uruguay (Wikipedia); R8 Rail transport in Uruguay (Wikipedia); Díaz AUDHE 2012 (British Central Uruguay Railway ~60 % of network by 1913) | verified |
@@ -202,3 +202,4 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 196 | c08p06 | on screen | Cattle, La Tablada, 1920 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
 | 197 | c08p06 | on screen | Montevideo, 1922 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
 | 198 | c08p06 | on screen | Montevideo, 2024 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
+| 199 | c08p07 | on screen | Cattle at La Tablada, 1920 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |

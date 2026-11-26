@@ -149,9 +149,9 @@
         "steps": [
          {
           "view": {
-           "lon": -54.95,
-           "lat": -32.46,
-           "span": 18.36
+           "lon": -56.0,
+           "lat": -34.529,
+           "span": 3.36
           },
           "highlight": [
            "file:mvd30.geojson@red"
@@ -715,7 +715,7 @@
       {
        "type": "photo",
        "at": "right across the river",
-       "photo": "File:Colonia del sacramento.JPG",
+       "photo": "File:Uruguay - Colonia del Sacramento 06.jpg",
        "on_screen_text": "Colonia del Sacramento"
       },
       {
@@ -772,9 +772,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.65,
-           "lat": -33.14,
-           "span": 19.72
+           "lon": -54.95,
+           "lat": -32.46,
+           "span": 18.36
           },
           "places": [
            {
@@ -833,9 +833,9 @@
         "steps": [
          {
           "view": {
-           "lon": -55.29,
-           "lat": -33.48,
-           "span": 21.08
+           "lon": -56.65,
+           "lat": -33.14,
+           "span": 19.72
           },
           "highlight": [
            "Uruguay@red"
@@ -1041,9 +1041,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.31,
-           "lat": -32.12,
-           "span": 19.04
+           "lon": -55.29,
+           "lat": -33.48,
+           "span": 21.08
           },
           "places": [
            {
@@ -1060,12 +1060,7 @@
           "at": "against Brazil.",
           "highlight": [
            "Uruguay@red"
-          ],
-          "view": {
-           "lon": -56.31,
-           "lat": -32.898,
-           "span": 16.74
-          }
+          ]
          }
         ],
         "cut": true
@@ -1229,9 +1224,9 @@
         "steps": [
          {
           "view": {
-           "lon": -54.61,
-           "lat": -32.8,
-           "span": 20.4
+           "lon": -56.31,
+           "lat": -32.12,
+           "span": 19.04
           },
           "places": [
            {
@@ -1277,9 +1272,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.99,
+           "lon": -54.61,
            "lat": -32.8,
-           "span": 17.68
+           "span": 20.4
           },
           "highlight": [
            "Uruguay@red"
@@ -1401,8 +1396,8 @@
       {
        "type": "photo",
        "at": "and the herds were",
-       "photo": "File:C48f515. Campo con vacas.jpg",
-       "on_screen_text": "Cattle on Uruguayan grass, early 1900s"
+       "photo": "File:Tropa de ganado en Molles.tif#crop=0.05,0.05,0.05,0.22",
+       "on_screen_text": "A cattle drive at Molles, 1907"
       }
      ]
     },
@@ -1431,9 +1426,9 @@
         "steps": [
          {
           "view": {
-           "lon": -55.8,
-           "lat": -31.95,
-           "span": 21.76
+           "lon": -56.99,
+           "lat": -32.8,
+           "span": 17.68
           },
           "places": [
            {
@@ -1574,7 +1569,7 @@
       },
       {
        "type": "photo",
-       "at": "into the cattle country",
+       "at": "and every one of",
        "photo": "File:El Libro Del Centenario Del Uruguay-page 466-recorte3.tif#crop=0.02,0.02,0.02,0.12",
        "on_screen_text": "A cattle wagon of the Central Uruguay Railway, 1925"
       },
@@ -1638,8 +1633,8 @@
          {
           "view": {
            "lon": -55.8,
-           "lat": -33.65,
-           "span": 22.44
+           "lat": -31.95,
+           "span": 21.76
           },
           "highlight": [
            "file:interior.geojson@red"
@@ -2543,7 +2538,7 @@
       },
       {
        "type": "map",
-       "at": "In the southwest, on",
+       "at": "on the open pampa",
        "map": {
         "steps": [
          {
@@ -2555,7 +2550,7 @@
           "date": "2024-12-15/2025-02-28"
          },
          {
-          "at": 29,
+          "at": 30,
           "view": {
            "lon": -54.67,
            "lat": -30.98,
@@ -2986,9 +2981,9 @@
         "steps": [
          {
           "view": {
-           "lon": -54.95,
-           "lat": -32.46,
-           "span": 18.911
+           "lon": -55.8,
+           "lat": -33.65,
+           "span": 22.44
           },
           "highlight": [
            "Uruguay@red"
@@ -3197,9 +3192,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.0,
-           "lat": -34.529,
-           "span": 3.36
+           "lon": -55.83,
+           "lat": -34.488,
+           "span": 3.687
           },
           "highlight": [
            "Montevideo@red"
@@ -3248,9 +3243,9 @@
         "steps": [
          {
           "view": {
-           "lon": -55.83,
-           "lat": -34.467,
-           "span": 3.672
+           "lon": -56.17,
+           "lat": -34.368,
+           "span": 3.944
           },
           "places": [
            {
@@ -3293,9 +3288,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.17,
-           "lat": -34.368,
-           "span": 3.944
+           "lon": -55.898,
+           "lat": -34.436,
+           "span": 4.216
           },
           "places": [
            {
@@ -3407,9 +3402,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.65,
-           "lat": -33.14,
-           "span": 20.312
+           "lon": -54.95,
+           "lat": -32.46,
+           "span": 18.911
           },
           "highlight": [
            "file:interior.geojson@red"
@@ -3455,9 +3450,9 @@
         "steps": [
          {
           "view": {
-           "lon": -55.29,
-           "lat": -33.48,
-           "span": 21.712
+           "lon": -56.65,
+           "lat": -33.14,
+           "span": 20.312
           },
           "highlight": [
            "file:coast6.geojson@red"
@@ -3551,9 +3546,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.31,
-           "lat": -32.12,
-           "span": 19.611
+           "lon": -55.29,
+           "lat": -33.48,
+           "span": 21.712
           },
           "places": [
            {
@@ -3684,10 +3679,13 @@
         "steps": [
          {
           "view": {
-           "lon": -56.2,
-           "lat": -32.92,
-           "span": 4.32
+           "lon": -55.775,
+           "lat": -32.898,
+           "span": 16.74
           },
+          "highlight": [
+           "Uruguay@alt"
+          ],
           "places": [
            {
             "name": "Paso de los Toros",
@@ -3696,6 +3694,13 @@
             "kind": "site",
             "label": "Paso de los Toros",
             "icon": "factory"
+           },
+           {
+            "name": "Durazno",
+            "lon": -56.52,
+            "lat": -33.38,
+            "kind": "city",
+            "label": "Durazno"
            }
           ]
          }
@@ -3873,9 +3878,9 @@
         "steps": [
          {
           "view": {
-           "lon": -54.61,
-           "lat": -32.8,
-           "span": 21.012
+           "lon": -56.31,
+           "lat": -32.12,
+           "span": 19.611
           },
           "highlight": [
            "file:coast6.geojson@red",
@@ -3906,8 +3911,8 @@
       {
        "type": "photo",
        "at": "with more cows than",
-       "photo": "File:C48f515. Campo con vacas.jpg",
-       "on_screen_text": "Cattle on Uruguayan grass"
+       "photo": "File:La Tablada - 23412FMHGE.tif#crop=0.07,0.07,0.06,0.16",
+       "on_screen_text": "Cattle at La Tablada, 1920"
       },
       {
        "type": "map",
@@ -3916,9 +3921,9 @@
         "steps": [
          {
           "view": {
-           "lon": -56.99,
+           "lon": -54.61,
            "lat": -32.8,
-           "span": 18.21
+           "span": 21.012
           },
           "highlight": [
            "file:interior.geojson@red"

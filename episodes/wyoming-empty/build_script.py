@@ -119,7 +119,7 @@ FARW = {"lon": -112.0, "lat": 42.0, "span": 34.0}      # Oregon to Nebraska
 SOUTH = {"lon": -107.6, "lat": 41.75, "span": 7.2}     # the railway corridor
 NORTH = {"lon": -106.4, "lat": 44.0, "span": 3.6}      # Johnson County, Buffalo to Casper
 TETONV = {"lon": -110.95, "lat": 43.6, "span": 2.8}    # Jackson Hole and the Idaho side
-FRONT = {"lon": -105.3, "lat": 40.6, "span": 6.0}      # Laramie to Denver
+FRONT = {"lon": -105.2, "lat": 40.45, "span": 7.2}      # Laramie to Denver
 ATL = {"lon": -50.0, "lat": 46.0, "span": 105.0}       # Britain to Wyoming
 CIRC10 = {"lon": -103.0, "lat": 38.5, "span": 24.0}    # the six states of the 10th Circuit
 
@@ -251,15 +251,15 @@ TRAIL = [{"from": [-104.05, 41.95], "via": [[-104.56, 42.21], [-105.40, 42.55], 
           "to": [-111.05, 41.40], "mode": "line", "label": "Emigrant trails (approx.)", "color": "accent", "seconds": 3.0}]
 TRAIL_US = [{"from": [-95.9, 41.2], "via": [[-104.56, 42.21], [-108.90, 42.35]], "to": [-122.6, 45.4], "mode": "line",
              "label": "Oregon Trail (approx.)", "color": "accent", "seconds": 3.0}]
-THREE = [{"from": [-108.9, 42.35], "to": [-122.6, 44.9], "color": "red", "label": "Rain", "bend": 0.12},
-         {"from": [-108.9, 42.35], "to": [-121.0, 38.8], "color": "red", "label": "Gold", "bend": -0.1},
-         {"from": [-108.9, 42.35], "to": [-111.9, 40.8], "color": "red", "label": "A church", "bend": 0.15}]
+THREE = [{"from": [-108.9, 42.35], "to": [-122.6, 44.9], "color": "red", "bend": 0.12},
+         {"from": [-108.9, 42.35], "to": [-121.0, 38.8], "color": "red", "bend": -0.1},
+         {"from": [-108.9, 42.35], "to": [-111.9, 40.8], "color": "red", "bend": 0.15}]
 RAIL1868 = [{"from": [-104.05, 41.18], "via": [[-104.82, 41.14], [-105.59, 41.31], [-106.20, 41.90], [-107.24, 41.79], [-108.78, 41.68],
              [-109.22, 41.59], [-109.97, 41.60]], "to": [-111.05, 41.25], "mode": "line", "label": "Union Pacific, 1868", "color": "accent", "seconds": 3.0}]
 TRAIN = {"from": [-104.82, 41.14], "via": [[-105.40, 42.30]], "to": [-106.31, 42.85], "mode": "line", "label": "Special train, April 1892", "color": "red", "seconds": 2.5}
 RIDE = [{"from": [-106.31, 42.85], "to": [-106.64, 43.71], "color": "red", "label": "On horseback", "bend": 0.1}]
-POSSE = [{"from": [-106.70, 44.35], "to": [-106.62, 44.29], "color": "blue", "label": "The posse", "bend": 0.3}]
-CAVALRY = [{"from": [-106.78, 44.34], "to": [-106.63, 44.28], "color": "blue", "label": "Cavalry", "bend": -0.3}]
+POSSE = [{"from": [-106.70, 44.35], "to": [-106.62, 44.29], "color": "blue", "bend": 0.3}]
+CAVALRY = [{"from": [-106.78, 44.34], "to": [-106.63, 44.28], "color": "blue", "bend": -0.3}]
 MONEY = [{"from": [-0.13, 51.51], "to": [-104.82, 41.14], "color": "red", "label": "British money", "bend": 0.12}]
 LEAVERS = [{"from": [-105.59, 41.31], "to": [-104.99, 39.74], "color": "red", "label": "The young leave", "bend": 0.2},
            {"from": [-105.59, 41.31], "to": [-105.08, 40.59], "color": "red", "bend": -0.2},
@@ -441,7 +441,7 @@ chapter(
       stat(0, "~900,000", "Cattle in Wyoming, late 1886", "Wyoming SHPO"),
       sat("far more than the", -106.05, 42.75, 0.25, "Grassland, central Wyoming"),
       photo("Then came the winter", PH_SAGESNOW, "Sagebrush under snow"),
-      photo("Storm after storm buried", PH_ELKREF, "Winter on the range, Jackson Hole")),
+      stat("Storm after storm buried", "1886-87", "The winter that ended the open range", "Wyoming SHPO")),
     P("P26",
       photo(0, PH_MOULTON, "A homestead in Jackson Hole"),
       m("Small ranchers and homesteaders", v(NORTH, highlight=[JOHNSON_RED], places=[BUFFALO])),
@@ -473,7 +473,7 @@ chapter(
       photo(0, PH_SUFFRAGE, "Women at the polls in Cheyenne, 1888"),
       stat("In December 1869, Wyoming", "10 DEC 1869", "Women's vote in Wyoming Territory, the first in the US", WYOHIST),
       m("where women could vote", v(US, highlight=[WY_RED])),
-      sat("Men far outnumbered women", -104.81, 41.14, 0.8, "Cheyenne"),
+      photo("Men far outnumbered women", PH_SANDERS, "Fort Sanders, near Laramie, 1868"),
       photo("Others hoped it would", PH_BARN, "A homestead barn, Mormon Row"),
       m("It did not make", v(WYV, highlight=[WY_RED]))),
     P("P32",
@@ -515,7 +515,7 @@ chapter(
     P("P38",
       m(0, v(WYV, highlight=[TETON_RED])),
       stat("More than nine-tenths of", "92 %", "Federal land in Teton County", OWN_SMA),
-      sat("The private land is", -110.75, 43.55, 0.35, "Jackson Hole")),
+      sat("The private land is", -110.75, 43.55, 0.35, "Jackson Hole", date=L24)),
     P("P39",
       photo(0, PH_JACKSON, "Jackson"),
       photo("and the sliver became", PH_ELKREF, "The National Elk Refuge beside Jackson"),

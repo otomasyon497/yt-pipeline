@@ -1032,7 +1032,6 @@
              44.9
             ],
             "color": "red",
-            "label": "Rain",
             "bend": 0.12
            },
            {
@@ -1045,7 +1044,6 @@
              38.8
             ],
             "color": "red",
-            "label": "Gold",
             "bend": -0.1
            },
            {
@@ -1058,7 +1056,6 @@
              40.8
             ],
             "color": "red",
-            "label": "A church",
             "bend": 0.15
            }
           ]
@@ -2461,10 +2458,13 @@
        "on_screen_text": "Sagebrush under snow"
       },
       {
-       "type": "photo",
+       "type": "stat",
        "at": "Storm after storm buried",
-       "photo": "File:National Elk Refuge (7467049882).jpg",
-       "on_screen_text": "Winter on the range, Jackson Hole"
+       "stat": {
+        "value": "1886-87",
+        "label": "The winter that ended the open range",
+        "source": "Wyoming SHPO"
+       }
       }
      ]
     },
@@ -2855,7 +2855,6 @@
              44.29
             ],
             "color": "blue",
-            "label": "The posse",
             "bend": 0.3
            }
           ]
@@ -2935,7 +2934,6 @@
              44.28
             ],
             "color": "blue",
-            "label": "Cavalry",
             "bend": -0.3
            }
           ]
@@ -3053,22 +3051,10 @@
        }
       },
       {
-       "type": "map",
+       "type": "photo",
        "at": "Men far outnumbered women",
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": -104.81,
-           "lat": 41.14,
-           "span": 0.8
-          },
-          "date": "2025-07-01/2025-09-20"
-         }
-        ],
-        "cut": true
-       },
-       "on_screen_text": "Cheyenne"
+       "photo": "File:Generals Grant, Sherman, Sheridan, Hooker, Harney, Dodge, Gibbon, and Potter at Fort Sanders LCCN2013647598.jpg",
+       "on_screen_text": "Fort Sanders, near Laramie, 1868"
       },
       {
        "type": "photo",
@@ -3545,7 +3531,7 @@
            "lat": 43.55,
            "span": 0.35
           },
-          "date": "2025-07-01/2025-09-20"
+          "date": "2024-07-01/2024-09-15"
          }
         ],
         "cut": true
@@ -4320,9 +4306,9 @@
         "steps": [
          {
           "view": {
-           "lon": -105.3,
-           "lat": 40.423,
-           "span": 5.975
+           "lon": -105.2,
+           "lat": 40.45,
+           "span": 7.2
           },
           "places": [
            {
@@ -4468,9 +4454,9 @@
         "steps": [
          {
           "view": {
-           "lon": -105.0,
-           "lat": 40.423,
-           "span": 5.975
+           "lon": -104.84,
+           "lat": 40.594,
+           "span": 7.776
           },
           "places": [
            {
@@ -4499,9 +4485,9 @@
          {
           "at": 12,
           "view": {
-           "lon": -105.0,
-           "lat": 40.72,
-           "span": 5.508
+           "lon": -104.84,
+           "lat": 40.594,
+           "span": 6.61
           }
          }
         ],
@@ -4587,9 +4573,9 @@
         "steps": [
          {
           "view": {
-           "lon": -105.6,
-           "lat": 40.48,
-           "span": 6.96
+           "lon": -105.56,
+           "lat": 40.306,
+           "span": 8.352
           },
           "places": [
            {

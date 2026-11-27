@@ -87,7 +87,7 @@ P18: They tried to make one of their own at Swakopmund, thirty kilometres to the
 P19: Within about two years the sea had filled it with sand. Ships had to unload into small boats again, and later onto a wooden jetty.
 [ON SCREEN: photo of the Swakopmund jetty (CC BY)]
 
-P19b: So the Germans built a railway instead, to carry everything from the poor landing at Swakopmund up to the capital. The line to Windhoek, three hundred and eighty-two kilometres of narrow track, opened in June 1902.
+P19b: They had already built a railway, to carry everything from the poor landing at Swakopmund up to the capital. The line to Windhoek, three hundred and eighty-two kilometres of narrow track, opened in June 1902.
 [ON SCREEN: map, the 1902 line drawn from Swakopmund to Windhoek; stat card "382 KM, 1902"]
 
 P19c: Swakopmund grew as a German town at the end of that line, and today it is Namibia's seaside resort. But its sea front was never a real harbour.
@@ -113,16 +113,16 @@ P24: Fog hides the shore, the surf is heavy, and sandbanks shift. Over the centu
 P25: The story that shows it best began on the twenty-ninth of November 1942.
 [ON SCREEN: stat card "29 NOV 1942"]
 
-P26: The British cargo ship Dunedin Star, carrying ammunition and 106 people, struck a shoal off the northern coast. Her captain ran her onto the beach to save her.
+P26: The British cargo ship Dunedin Star, carrying 106 people, struck a shoal off the northern coast. Her captain ran her onto the beach to save her.
 [ON SCREEN: map, the wreck site near Clan Alpine Shoal labelled]
 
-P27: Most of the passengers and crew reached the shore. The beach was dry, cold at night and hundreds of kilometres from any town.
+P27: Many of the passengers and crew got ashore through the surf. The beach was dry, cold at night and hundreds of kilometres from any town.
 [ON SCREEN: Sentinel-2 of the empty coast at the wreck site]
 
 P28: A rescue began from three sides. A tug, the Sir Charles Elliott, came up from Walvis Bay. It too ran aground on the coast, and two of its crew drowned.
 [ON SCREEN: map arrows: tug from Walvis Bay; stat card "2 DEAD"]
 
-P29: The air force sent a Ventura bomber to drop supplies. It landed on the beach to help, and its wheels sank into the sand. The plane never flew again.
+P29: The air force sent a Ventura bomber to drop supplies. It landed on the beach to help, and its wheels sank into the sand, and it could not take off again.
 [ON SCREEN: photo of a Lockheed Ventura (PD); map]
 
 P29b: Its pilot, Captain Naude, and his three crew were now stranded too. The rescuers needed rescuing.

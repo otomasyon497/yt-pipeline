@@ -1,32 +1,99 @@
 {
- "_doc": "Channel playlists (user's decision 2026-11-23). `python tools/yt_upload.py playlists` creates missing ones (public) and adds missing videos in this order; `yt_upload.py <slug>` adds a new upload to every playlist that lists its slug. Entries are slugs; `video_ids` maps a slug to its YouTube id.",
- "playlists": [
-  {"title": "Why Almost Nobody Lives Here",
-   "description": "Empty places on the map and the reasons behind them: climate, rock, water, history and money. Satellite images, maps and sourced numbers.",
-   "slugs": ["northern-maine-empty", "mongolia-empty", "scottish-highlands", "olympic-peninsula", "russia-far-east",
-             "florida-big-bend", "nevada-empty", "australia-interior", "australia-west-coast", "canadian-shield", "uruguay-empty", "wyoming-empty", "skeleton-coast"]},
-  {"title": "Sinking Cities and Vanishing Coasts",
-   "description": "Places the sea is taking back, and what people build to stop it.",
-   "slugs": ["kansai-airport", "venice-sinking", "netherlands-below-sea", "mississippi-old-river", "jakarta-sinking",
-             "louisiana-land-loss", "outer-banks", "chesapeake-bay-bridge-tunnel", "florida-keys"]},
-  {"title": "Seas, Lakes and Deserts That Changed",
-   "description": "Seas that dried up, deserts that were green, lakes that are shrinking: how the map changes.",
-   "slugs": ["mediterranean-dried", "green-sahara", "aral-sea", "caspian-sea", "great-salt-lake"]},
-  {"title": "Rivers, Dams and Megaprojects",
-   "description": "Who controls the water, and the giant projects built on land, rivers and oil.",
-   "slugs": ["gerd-nile", "colorado-river", "indus-waters", "ogallala-aquifer", "langtang-collapse", "permian-basin",
-             "dubai-islands", "neom-the-line"]}
- ],
- "video_ids": {
-  "gerd-nile": "bR4wVyHqct4", "caspian-sea": "W9OoIMD4Hlg", "colorado-river": "nkPJ4_MNiiw", "dubai-islands": "vaPwByI5fjs",
-  "great-salt-lake": "js3Ns7faPPQ", "neom-the-line": "ASK-m4AyjOU", "aral-sea": "hrVgUCtEEKo", "indus-waters": "nbB4DKNWp7Y",
-  "ogallala-aquifer": "903F5prq9EM", "outer-banks": "6zrm-jh4Lo4", "langtang-collapse": "7j0S1PUwPvU",
-  "jakarta-sinking": "ucTWIvj9Xf0", "louisiana-land-loss": "CKHRMZp-s0M", "kansai-airport": "WhvKbsw_z0Q",
-  "australia-interior": "1PkX-Z5feoQ", "nevada-empty": "MhYL1LwTY5I", "northern-maine-empty": "MaiFqokoUdM",
-  "mongolia-empty": "rziBDyJaeqk", "venice-sinking": "msZ2iXpOyEA", "mediterranean-dried": "TXF3-pYORUs",
-  "mississippi-old-river": "DQ2vDBnWafM", "florida-big-bend": "DcTptiHYqZQ", "green-sahara": "Mw00DGzLiV8",
-  "permian-basin": "DY9tPP97kDo", "chesapeake-bay-bridge-tunnel": "CN8g4i3Hq14", "netherlands-below-sea": "oz6fFSsriRw",
-  "russia-far-east": "BLEVtVpOAW0", "olympic-peninsula": "ZlRs2PvO66I", "scottish-highlands": "4gZtm88kG04",
-  "uruguay-empty": "3gYIJQgTDrM", "wyoming-empty": "hXposmDIvsI", "florida-keys": "n2rTnSIlBmg"
- }
+  "_doc": "Channel playlists (user's decision 2026-11-23). `python tools/yt_upload.py playlists` creates missing ones (public) and adds missing videos in this order; `yt_upload.py <slug>` adds a new upload to every playlist that lists its slug. Entries are slugs; `video_ids` maps a slug to its YouTube id.",
+  "playlists": [
+    {
+      "title": "Why Almost Nobody Lives Here",
+      "description": "Empty places on the map and the reasons behind them: climate, rock, water, history and money. Satellite images, maps and sourced numbers.",
+      "slugs": [
+        "northern-maine-empty",
+        "mongolia-empty",
+        "scottish-highlands",
+        "olympic-peninsula",
+        "russia-far-east",
+        "florida-big-bend",
+        "nevada-empty",
+        "australia-interior",
+        "australia-west-coast",
+        "canadian-shield",
+        "uruguay-empty",
+        "wyoming-empty",
+        "skeleton-coast"
+      ]
+    },
+    {
+      "title": "Sinking Cities and Vanishing Coasts",
+      "description": "Places the sea is taking back, and what people build to stop it.",
+      "slugs": [
+        "kansai-airport",
+        "venice-sinking",
+        "netherlands-below-sea",
+        "mississippi-old-river",
+        "jakarta-sinking",
+        "louisiana-land-loss",
+        "outer-banks",
+        "chesapeake-bay-bridge-tunnel",
+        "florida-keys"
+      ]
+    },
+    {
+      "title": "Seas, Lakes and Deserts That Changed",
+      "description": "Seas that dried up, deserts that were green, lakes that are shrinking: how the map changes.",
+      "slugs": [
+        "mediterranean-dried",
+        "green-sahara",
+        "aral-sea",
+        "caspian-sea",
+        "great-salt-lake"
+      ]
+    },
+    {
+      "title": "Rivers, Dams and Megaprojects",
+      "description": "Who controls the water, and the giant projects built on land, rivers and oil.",
+      "slugs": [
+        "gerd-nile",
+        "colorado-river",
+        "indus-waters",
+        "ogallala-aquifer",
+        "langtang-collapse",
+        "permian-basin",
+        "dubai-islands",
+        "neom-the-line"
+      ]
+    }
+  ],
+  "video_ids": {
+    "gerd-nile": "bR4wVyHqct4",
+    "caspian-sea": "W9OoIMD4Hlg",
+    "colorado-river": "nkPJ4_MNiiw",
+    "dubai-islands": "vaPwByI5fjs",
+    "great-salt-lake": "js3Ns7faPPQ",
+    "neom-the-line": "ASK-m4AyjOU",
+    "aral-sea": "hrVgUCtEEKo",
+    "indus-waters": "nbB4DKNWp7Y",
+    "ogallala-aquifer": "903F5prq9EM",
+    "outer-banks": "6zrm-jh4Lo4",
+    "langtang-collapse": "7j0S1PUwPvU",
+    "jakarta-sinking": "ucTWIvj9Xf0",
+    "louisiana-land-loss": "CKHRMZp-s0M",
+    "kansai-airport": "WhvKbsw_z0Q",
+    "australia-interior": "1PkX-Z5feoQ",
+    "nevada-empty": "MhYL1LwTY5I",
+    "northern-maine-empty": "MaiFqokoUdM",
+    "mongolia-empty": "rziBDyJaeqk",
+    "venice-sinking": "msZ2iXpOyEA",
+    "mediterranean-dried": "TXF3-pYORUs",
+    "mississippi-old-river": "DQ2vDBnWafM",
+    "florida-big-bend": "DcTptiHYqZQ",
+    "green-sahara": "Mw00DGzLiV8",
+    "permian-basin": "DY9tPP97kDo",
+    "chesapeake-bay-bridge-tunnel": "CN8g4i3Hq14",
+    "netherlands-below-sea": "oz6fFSsriRw",
+    "russia-far-east": "BLEVtVpOAW0",
+    "olympic-peninsula": "ZlRs2PvO66I",
+    "scottish-highlands": "4gZtm88kG04",
+    "uruguay-empty": "3gYIJQgTDrM",
+    "wyoming-empty": "hXposmDIvsI",
+    "florida-keys": "n2rTnSIlBmg",
+    "skeleton-coast": "A9ClOEqdqVE"
+  }
 }

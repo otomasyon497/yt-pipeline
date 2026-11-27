@@ -1,7 +1,7 @@
 # Florida Keys: research (round 1, 2026-11-27)
 
-Slot: 5 Dec 2026 23:00 UTC. Working title: "Why America Built a Highway Across the Sea" (alternative with the place
-name: "Why the Florida Keys Hang on a Single Road"). Rivals and our room: competitors.md.
+Slot: 5 Dec 2026 23:00 UTC. TITLE (gate 1, user 2026-11-27): "Why the Florida Keys Hang on a Single Road" (backup:
+"Why America Built a Highway Across the Sea"). Rivals and our room: competitors.md.
 Round 1 = search notes; [CHECK] = read the primary page in round 2. Earlier seeds: docs/topic-seeds-keys-chesapeake.md.
 
 ## Facts (round 1)
@@ -71,3 +71,51 @@ Round 1 = search notes; [CHECK] = read the primary page in round 2. Earlier seed
   sea, or let the islands go back to boats?" (pinned comment, two-sided).
 
 Cover idea: Sentinel turquoise shallows with the Seven Mile Bridge, words "ONE ROAD" / "113 MILES OF SEA".
+
+## Round 2 (2026-11-27)
+- M1 DONE (geo/measure_sealevel.py -> measure_sealevel.txt, NOAA CO-OPS monthly means, 1,345 months 1913-2025):
+  trend 1913-2025 2.65 mm/yr (NOAA's published 2.64 +/- 0.15); 1996-2025 6.42 mm/yr; 2011-2025 7.64 mm/yr. Mean of
+  2016-2025 is 11.6 in above 1913-1922. Narration: "about a foot higher than when the gauge was installed in 1913, and
+  over the last thirty years it has risen more than twice as fast as the century average."
+- R2 checked: Key West 18,080 in the 1890 census, the largest city in Florida (Jacksonville 17,201); 17,114 in 1900
+  (Census twps0076 FL table; USF FCIT). Flagler's case: Key West the closest deep-water US port to the Panama Canal
+  (announced 1905, opened 1914) and to Cuba; FEC car ferries Key West-Havana from 1915; freight stayed disappointing
+  (Wikipedia Overseas Railroad; KWAHS FEC timeline).
+- R7 checked: before 1942 rainwater cisterns (tDAR "No fresh water except that furnished by the rains"); Aqueduct
+  Commission act signed 11 Jun 1937; Navy paid about two-thirds; pipeline along the old railroad right-of-way, 128-130 mi
+  from the Florida City wellfield; first water at Key West 22 Sep 1942; water took ~6 days to arrive (Wilkinson,
+  keyshistory.org). Today 1,086 mi of pipe, 45 bridges, ~17 M gallons a day (Keys Weekly). Use "about 130 miles".
+- R9 checked: F.S. 380.0552(9)(a)2 (2025): "hurricane evacuation clearance time for permanent residents of no more than
+  24.5 hours" (was 24 h; raised by ch. 2025-190, which also orders new modelling to set permit allocations); mobile home
+  residents are not counted as permanent residents (they leave first); Key West included in the study.
+- R4 checked: state bought the right-of-way and bridges for $640,000 out of a $3.5 M PWA loan (Wilkinson, keyshistory.org
+  osh; Overseas Road and Toll Bridge District, Fla. Sup. Ct. 1936). NWS official estimate 408 dead (commonly cited).
+  ~350 of the 718 camp veterans were in Miami for a Labor Day ball game; rescue train held at the Miami River
+  drawbridge; at Islamorada a surge of ~17 ft swept the cars off the track; everyone on the train survived
+  (myfloridahistory.org / NOAA AOML 80th-anniversary blog). Memorial and crypt 1937.
+- R5 checked: Bahia Honda: deepest channel on the line, 24 ft (not 30); a through truss too narrow for cars, so the
+  highway deck was built on top of the truss, 65 ft up; replaced 1972, two spans removed for boats (Wikipedia Bahia Honda
+  Rail Bridge; NPGallery NRHP). Highway opening: 29 Mar 1938 (Wikipedia) vs a July 1938 celebration: say "in 1938".
+- R10 checked: Irma landfall Cudjoe Key 10 Sep 2017; by 12 Sep all 42 bridges inspected and safe; two 300-ft washouts
+  of US 1 near mile 74 repaired; Upper Keys residents back 12 Sep; Keys reopened to visitors ~1 Oct (CBS, CSM, NBC).
+- M3 DONE (geo/measure_road.py -> measure_road.txt; 2020 Census blocks via TIGERweb, US 1 from TIGER 2023 roads):
+  Keys 82,783 people, 53,932 homes; within 0.25 mi of US 1: 49.2 % of people; 0.5 mi: 75.7 %; 1 mi: 92.9 %; 2 mi: 96.8 %.
+  Farthest populated block 12.5 mi (Ocean Reef area on CR 905, north Key Largo).
+- M2 DONE (geo/measure_height.py -> measure_height.txt; 1,500 random land points, Census land blocks minus TIGER area
+  water, mangrove islands included; USGS EPQS 3DEP, ft NAVD88): median 0.4 ft; below 3 ft 81.3 %; below 5 ft 91.3 %;
+  below 10 ft 98.5 %; highest sampled 20.7 ft. Narration: "four-fifths of the land, mangroves included, stands less
+  than three feet above the sea". (NAVD88 is within a few inches of today's mean sea level at Key West: CHECK datum page.)
+- R15 Key West in the Depression: Navy base closed 1930/31; July 1934 the city handed its powers to Gov. Sholtz; FERA
+  (Julius Stone Jr.) ran the "Key West Administration", ~80 % of ~11,600 residents on relief, pushed tourism (38,000
+  visitors by the first anniversary) (Florida Trend; KWAHS; HMdb 249644).
+- R16 Mariel 1980: more than 125,000 Cubans reached Florida by boat, Apr-Oct 1980, most landing at Key West; record day
+  11 May 1980, 4,588 on 58 vessels; processing at the Navy's Truman Annex (Seattle Times; Miami Herald; Britannica).
+- R17 Monroe County census: 1930 13,624; 1940 14,078; 1950 29,957; 1960 47,921 (Key West 33,956) (USF FCIT; Wikipedia).
+- R18 more checks: Trumbo Point ~134 acres of fill, Trumbo American Dredging Co., FEC port and terminus (Wikipedia; Key
+  West historic marker 477; USGS PP 1751). 1928 road: opened 25 Jan 1928; ferries Lower Matecumbe - No Name Key, ~40-41
+  mi, ~4 h, 8 a.m. and 1 p.m. (keyshistory.org osh1ferries; Keys Weekly). Irma: visitor evacuation 7 a.m. 6 Sep 2017,
+  residents 7 p.m. the same day (Monroe County Irma page). Stillwright Point: streets under king tides 94 days in a row,
+  autumn 2019 (Keys Weekly; WLRN). FKAA RO: Kermit H. Lewin plant, Stock Island, opened May 2025, 4 MGD (was 2), $48 M;
+  Crawl Key plant due 2028; RO plants ran when Irma cut the pipe (Keys Weekly; WGCU). Coral: Science 2025 (Precht et
+  al.?): 97.8-100 % of elkhorn and staghorn died in 2023, "functionally extinct" (U. Miami Rosenstiel; NBC). Seven Mile
+  replacement $677 M from an FDOT slide (Miami Herald 2024): attribute "the state's early estimate".

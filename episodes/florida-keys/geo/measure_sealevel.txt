@@ -1,0 +1,6 @@
+months with data: 1345 (1913.0-2026.0)
+trend 1913-2025: 2.65 mm/yr = 10.4 in per century
+trend 1996-2025: 6.42 mm/yr = 25.3 in per century
+trend 2011-2025: 7.64 mm/yr = 30.1 in per century
+mean 1913-1922 vs 2016-2025: +11.6 in
+full-record fit, 1913 -> 2025: +11.7 in

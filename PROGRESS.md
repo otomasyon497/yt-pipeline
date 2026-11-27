@@ -1052,3 +1052,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   the one-road door (1982 roadblock / Conch Republic, 24-hour evacuation rule behind the permit cap), Irma, the bill to
   keep the road. research.md round 1 (R1-R14) + gate-1 outline (~2,750 words, ~17.3 min). NEXT: gate 1 (title choice),
   then round 2 primary sources + M1-M3.
+- 2026-11-27: Florida Keys GATE 1 APPROVED by the user, title "Why the Florida Keys Hang on a Single Road". Round 2
+  sources (R2-R18) + own measurements M1 sea level (Key West +11.6 in since 1913-22; 6.4 mm/yr since 1996), M2 land
+  height (81 % of land under 3 ft, 1,500 EPQS points), M3 people near US 1 (49 % within 0.25 mi, 93 % within 1 mi).
+  drafts/narration.md v1: 2,715 words, hook 6/6 on hook_check (5 options in drafts/hooks.txt), no open CHECK.
+  NEXT: visuals.md (find_media per reason), geo regions, build_script.py from the wyoming-empty template.

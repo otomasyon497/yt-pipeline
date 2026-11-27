@@ -1,0 +1,8 @@
+land points: 1500 of 1500 (area 136 sq mi approx)
+median 0.4 ft NAVD88
+below 2 ft: 72.2 %
+below 3 ft: 81.3 %
+below 5 ft: 91.3 %
+below 6 ft: 93.1 %
+below 10 ft: 98.5 %
+highest sampled: 20.7 ft

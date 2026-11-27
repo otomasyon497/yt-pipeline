@@ -1,0 +1,7 @@
+US 1 segments: 31, length in the Keys 147.3 mi
+Keys blocks: 2716, people 82,783, housing units 53,932, land 135.8 sq mi
+within 0.25 mi of US 1: 49.2 % of people, 48.9 % of homes
+within 0.5 mi of US 1: 75.7 % of people, 72.9 % of homes
+within 1 mi of US 1: 92.9 % of people, 91.2 % of homes
+within 2 mi of US 1: 96.8 % of people, 95.2 % of homes
+farthest populated block: 12.48 mi

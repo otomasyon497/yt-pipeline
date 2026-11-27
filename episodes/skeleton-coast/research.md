@@ -72,3 +72,11 @@ Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why
 - R16 Cape Cross: up to 210,000 Cape fur seals in the breeding season, largest colony (MET brochure).
 - R17 Offshore oil: Shell Graff-1 (Feb 2022), TotalEnergies Venus (2022), Orange Basin; S&P Global forecasts first
   oil ~2029-2030; Kudu gas pipeline planned to Elizabeth Bay near Luderitz (S&P; World Oil 2024) [CHECK 2026 status].
+- R18 Fishing: ~7 % of GDP, ~16,000 direct jobs, hake ~10,000; landings and plants mostly at Walvis Bay and Luderitz
+  (2026 report via New Era / AllAfrica; MSC 2020).
+- R19 Coastal lions: Stander 2019, two prides in Skeleton Coast NP hunt Cape fur seals, flamingos, cormorants; only
+  lions known to take marine prey; MEFT 2025: 100-110 desert-adapted lions in the northwest (Namibian.org; PBS 2024).
+- R2 checked: padrao return decided 16 May 2019 (DHM), shipped Aug 2019, stored at Walvis Bay (Bundestag hib 736/2021).
+- Sand sea 320 x 120 km, Kuiseb the northern boundary (UNESCO datasheet; NASA EO).
+- Dunedin Star: Ventura captain Naude + 3 airmen stranded; land convoy from Windhoek under Capt. J.W.B. Smith (SAP)
+  (Wikipedia; SAAF Museum).

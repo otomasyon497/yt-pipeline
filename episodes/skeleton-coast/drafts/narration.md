@@ -37,7 +37,7 @@ P8: What the sea does give is fog. On many mornings it rolls inland, and the bee
 P9: Behind the beach lies the Namib, a desert of gravel plains and some of the tallest dunes on earth. In many places they run straight into the sea.
 [ON SCREEN: Sentinel-2 of the dune sea meeting the coast south of Walvis Bay]
 
-P9b: South of Walvis Bay the sand sea is about three hundred kilometres long. Its northern edge is a dry river, the Kuiseb, and the dunes stop at its bed as if at a wall. [CHECK length]
+P9b: South of Walvis Bay the sand sea is about three hundred and twenty kilometres long. Its northern edge is a dry river, the Kuiseb, and the dunes stop at its bed as if at a wall.
 [ON SCREEN: Sentinel-2 of the Kuiseb with red dunes to the south and grey gravel plains to the north]
 
 P10: Rivers cross it rarely. Most of them reach the coast only after heavy rain far inland, and some years not at all.
@@ -57,10 +57,10 @@ P13: In January 1486, the Portuguese captain Diogo Cão landed at a headland nor
 P13b: The headland is still called Cape Cross. Today it belongs to seals. In the breeding season up to two hundred and ten thousand Cape fur seals crowd its rocks, the largest colony of its kind in the world.
 [ON SCREEN: photo of the Cape Cross seal colony (CC BY); stat card "210,000 SEALS"]
 
-P14: That cross stood there for four hundred years. In 1893 a German naval officer took it to Berlin, and Namibia later asked for it back. [CHECK return date]
+P14: That cross stood there for four hundred years. In 1893 a German naval officer took it to Berlin, where it stood in a museum for more than a century. Namibia asked for it back in 2017, and in 2019 it was shipped home.
 [ON SCREEN: photo of the original padrão in the German Historical Museum (if licensed) or map arrow to Berlin]
 
-P14b: For four centuries, sailors passed by. Whalers came for the whales in the cold, rich water, and left again. The people who did live near the shore, small groups of Nama and others, lived by fishing and by the few springs inland. [CHECK whalers 18th-19th c.]
+P14b: For four centuries after Cão, sailors mostly passed by. There was nothing on the shore to stop for.
 [ON SCREEN: map, ship tracks passing offshore]
 
 P15: Along the whole coast there was one good natural harbour: Walvis Bay, a deep bay sheltered by a sandspit.
@@ -119,11 +119,20 @@ P28: A rescue began from three sides. A tug, the Sir Charles Elliott, came up fr
 P29: The air force sent a Ventura bomber to drop supplies. It landed on the beach to help, and its wheels sank into the sand. The plane never flew again.
 [ON SCREEN: photo of a Lockheed Ventura (PD); map]
 
-P30: In the end, trucks crossed the desert from inland to fetch the survivors. They reached Windhoek on Christmas Eve, almost four weeks after the wreck.
+P29b: Its pilot, Captain Naude, and his three crew were now stranded too. The rescuers needed rescuing.
+[ON SCREEN: stat card "4 AIRMEN STRANDED"]
+
+P30: In the end, a police convoy of trucks under Captain Smith crossed the desert from Windhoek to fetch the people ashore. They reached Windhoek on Christmas Eve, almost four weeks after the wreck.
 [ON SCREEN: map arrow from the coast to Windhoek; stat card "24 DEC 1942"]
 
 P31: Every one of the ship's passengers survived. But the coast had taken a ship, a tug and a bomber in a single month. That is the coast people were trying to live on.
 [ON SCREEN: photo of the wreck coast today]
+
+P31b: Most of that northern coast is now the Skeleton Coast National Park, proclaimed in 1971. Its southern half can be driven with a permit. The northern half can only be reached by small plane, with one licensed tour company.
+[ON SCREEN: painted map, the park red from the Ugab to the Kunene; stat card "1971"]
+
+P31c: Even the park's fishing camps open only for the season. Torra Bay takes campers in December and January, and is closed the rest of the year.
+[ON SCREEN: Sentinel-2 Torra Bay]
 
 P32: And on the southern coast, it was not the sea that kept people out. It was a law.
 [ON SCREEN: map flies south to Lüderitz]
@@ -189,10 +198,13 @@ P48: One reason is the port: Walvis Bay is Namibia's door to the world, for fish
 P48b: In 2019 a new container terminal opened there, built on about forty hectares of land reclaimed from the bay. It more than doubled the port's capacity, to about seven hundred and fifty thousand containers a year.
 [ON SCREEN: Sentinel-2 of the new terminal; stat card "750,000 TEU"]
 
+P48c: The cold, rich sea also feeds one of Africa's big fisheries. Fishing gives about sixteen thousand direct jobs, most of them in the fish plants of Walvis Bay and Lüderitz, and hake alone gives more than ten thousand.
+[ON SCREEN: photo of fishing boats in Walvis Bay (CC BY); stat card "~16,000 JOBS"]
+
 P49: The other is uranium. Inland from Swakopmund lie some of the largest uranium mines in the world. Rössing has been digging since 1976, and in 2024 Namibia produced about an eighth of the world's uranium.
 [ON SCREEN: Sentinel-2 Rössing open pit; stat card "~12 %"]
 
-P49b: The towns drink from under a dry river. Walvis Bay's water is pumped from the sands of the Kuiseb, through a pipeline built in the 1970s, and the town has no other source. In 2021 the water company warned that the town was taking more than the aquifer can replace. [CHECK wording]
+P49b: The towns drink from under a dry river. Walvis Bay's water is pumped from the sands of the Kuiseb, through a pipeline built in the 1970s, and the town has no other source. A 2021 report by the water company, cited by The Namibian, found the town using more than the aquifer can sustainably give.
 [ON SCREEN: Sentinel-2 of the Kuiseb delta wellfield; stat card "NO BACKUP"]
 
 P50: Mines and towns need water, and there is almost none. So in 2010 a plant was built on the coast to turn seawater into fresh water. It was the first large plant of its kind in sub-Saharan Africa.
@@ -224,6 +236,12 @@ P56b: And offshore there is another bet. In 2022 Shell and TotalEnergies found o
 P56c: If those projects go ahead, the empty south could fill with workers again, a century after the diamond rush.
 [ON SCREEN: photo of Kolmanskop]
 
+P56d: The empty coast has users of its own. In the national park, two prides of desert lions have learned to hunt on the beach, taking seals, flamingos and cormorants. They are the only lions known to live on prey from the sea.
+[ON SCREEN: photo of a desert lion (CC BY); Sentinel-2 of the Hoanib mouth]
+
+P56e: The ministry counts only about a hundred desert lions in the whole northwest. Every road and pipe on this coast passes through their range.
+[ON SCREEN: stat card "~100-110 LIONS"]
+
 P57: It is the same question the coast has always asked. Is it worth bringing people, water and power to a place that never wanted them?
 [ON SCREEN: Sentinel-2 dunes and sea]
 
@@ -237,6 +255,9 @@ P59: The cold sea gives fog instead of rain. The one good harbour belonged to so
 
 P60: About one Namibian in fourteen lives near this coast. Almost all of them live in two towns, with hundreds of kilometres of empty beach on either side.
 [ON SCREEN: map, the two towns, empty stretches marked]
+
+P60b: Every attempt to settle this shore has needed something rare: a deep bay, a diamond, a mine, or a machine that makes water. Where those were missing, the coast stayed empty, and it still is.
+[ON SCREEN: Kolmanskop photo, then the empty beach from orbit]
 
 P61: Should Namibia open its empty coast to new industry, or keep it the way the desert made it?
 [ON SCREEN: question card; pinned comment]

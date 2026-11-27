@@ -1076,3 +1076,10 @@ comment. Audio of the long render was never checked. No further work planned unl
   Rivals read (Geography By Geoff 3.9 M covers climate/diamonds/Kolmanskop) -> competitors.md; our room: Walvis Bay
   British until 1994, Swakopmund Mole, Dunedin Star 1942, uranium + desalination, Oranjemund 2017, green hydrogen,
   own measurements. research.md round 1 + gate-1 outline. GATE 1 APPROVED (title "Why Almost Nobody Lives on Namibia's Skeleton Coast"). M1-M2 done (7.3 % of Namibians within 50 km of the sea; 481 km empty stretch). NEXT: rest of round 2 (see research.md), M3 rainfall, narration, then the Florida Keys pipeline steps.
+- 2026-11-27: Skeleton Coast narration v1 done: drafts/narration.md, 2,514 words (~15.1 min at Florida's real pace
+  2.78 w/s), no open CHECK (header only). research.md R1-R20 + M1/M2 (7.3 % of Namibians within 50 km of the sea;
+  481 km and 347 km empty stretches). NEXT: hook_check on P0-P2, geo/make_regions.py (coast red, Sperrgebiet / Tsau
+  //Khaeb, Skeleton Coast NP, Walvis Bay enclave, empty stretches), Sentinel tests (southern summer clear window, e.g.
+  2024-12-01/2025-03-31), visuals (wpimg/catlist: Kolmanskop, Swakopmund, Luderitz, Cape Cross, Walvis Bay, Dunedin
+  Star, Eduard Bohlen, Zeila, Ventura, lions, seals), build_script.py from episodes/florida-keys, episode_check,
+  claim_log + fill, covers, storyboard, render, audit, upload 6 Dec 23:00 UTC.

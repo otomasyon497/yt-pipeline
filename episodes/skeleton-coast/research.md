@@ -50,3 +50,11 @@ Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why
   276 km (Henties Bay to Terrace Bay area). [CHECK the settlement names at -20.0 S on a map]
 - R3/R7 as above; still to read: Namibia census total, Swakopmund Mole, Dunedin Star numbers, Skeleton Coast Park year,
   rainfall normals (M3), Rossing 1976, Tsau //Khaeb year, Cape Cross return date.
+- R7 checked: Namibia 2023 census 3,022,401 (NSA main report Oct 2024; preliminary Mar 2024 unchanged).
+- R10 checked: Skeleton Coast Park proclaimed 1971, present form 1973, Ugab to Kunene, 16,845 km2; south open to 4x4
+  with permits (Terrace Bay rest camp all year, Torra Bay Dec-Jan), north only by fly-in concession (MEFT; Wikipedia).
+- M3 (secondary for now): Walvis Bay ~13 mm/yr (Wikipedia climate table; estimates 13-40 mm), Windhoek ~350-360 mm
+  (sum of monthly normals; sources range to 530): narration "about half an inch a year at Walvis Bay; Windhoek gets
+  roughly twenty-five times as much" -> say "more than twenty times as much" [CHECK NMS normals if time].
+- R8 checked: Rossing open pit since 1976 (WNA); Husab (CGN / Swakop Uranium) Namibia's largest uranium producer;
+  Namibia ~12 % of world uranium in 2024, third after Kazakhstan and Canada (WNA; Namibian 2025).

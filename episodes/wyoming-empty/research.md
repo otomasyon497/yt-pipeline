@@ -44,7 +44,7 @@ Rivals: competitors.md (crowded: RealLifeLore + Pin & Ponder cover the basics; o
 | R25 | Benton, ~11 mi east of Rawlins, end of track July-Sept 1868, ~3,000 people, gone in ~3 months; ~100 graves left. "100 murders" is a period claim: not used. Newspaper claim dropped | Carbon County Museum; WyoHistory railroad toolkit; HMdb marker | good |
 | R26 | Carbon County jury (six members) found the four hunters not guilty of criminal trespass on 29 Apr 2022 after under two hours | WyoFile, Outdoor Life, Cowboy State Daily 29 Apr 2022 | good |
 | R27 | ~8.3 M acres of public land corner-locked across the West (onX 2022); district court for hunters 26 May 2023 (Skavdahl); claim $3.1-7.75 M, up to $9.4 M | onX / Earthjustice; court record | good |
-| R28 | Teton County ~97 % public land (federal + state; ~45 % parks, ~51 % national forest) | ACHP; Mountain Journal; Snake River Fund | consistent secondary; PAD-US for exact (M2) |
+| R28 | Teton County ~97 % public land in secondary sources; OUR measurement (geo/make_regions.py, BLM SMA): 91.9 % federal, 92.1 % with state land -> script says "more than nine-tenths" | ACHP; Mountain Journal; own measurement | own measurement wins |
 | R29 | Teton County highest per-capita personal income of any US county (BEA, every year at least 2010-2017 in BEA releases; 2023 $471,751 via WyoFile) | BEA Local Area Personal Income releases | primary |
 | R30 | UP switched to diesel by the early 1950s; Hanna and Reliance mines closed Jan/Feb 1954 (180 jobs); last UP Wyoming mine, Rock Springs No. 8, closed 28 Aug 1962 (WSGS says 1963); last UP steam run 1959 | WyoHistory "Wyoming's First Coal Bust", "A Brief History of Hanna"; WSGS coal history | good |
 | R31 | North Antelope Rochelle (largest US coal mine): ~65 Mt in 2025, ~1,125 employees (Peabody page); 60 Mt in 2024 | peabodyenergy.com NARM page; Industrial Info | primary (company) |
@@ -57,7 +57,8 @@ Rivals: competitors.md (crowded: RealLifeLore + Pin & Ponder cover the basics; o
 
 ## Own measurements (planned)
 - **M1 The railroad band (done 27 Nov, geo/measure_rail.py):** 2020 census block-group centres of population (576,851, matches the census) vs the 1868 Union Pacific line drawn through its 12 stations (631 km). Within 10 km: 33.7 % of people on 5.0 % of the land; 20 km: 35.3 % on 9.9 %; 30 km: 36.1 % on 14.4 %; 50 km: 37.6 % on 22.8 %. So "more than a third on a tenth of the land", not "most": Casper, Gillette, Sheridan and Jackson are off the line.
-- **M2 Where the land is closed:** federal + state share by county (PAD-US / BLM surface management) next to people per km2.
+- **M2 done 27 Nov (geo/make_regions.txt):** federal surface (BLM SMA, without BIA trust land) = 47.0 % of Wyoming (CRS 48.19 %), BLM 17.5 M acres (generalised; BLM says 18.3 M), NPS 3.6 %. UK 243,783 km2 vs Wyoming 253,484 km2.
+- **M2 (plan) Where the land is closed:** federal + state share by county (PAD-US / BLM surface management) next to people per km2.
 - **M3 Pronghorn vs people:** WGFD herd unit estimates by region vs census; only if the numbers are published.
 
 ## Gate-1 outline (word budget 2,750, about 17.3 min)

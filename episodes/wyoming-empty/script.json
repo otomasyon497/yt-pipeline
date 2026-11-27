@@ -1,0 +1,5096 @@
+{
+ "title": "Why Almost Nobody Lives in Wyoming",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/wyoming-empty/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2024-2025",
+  "Railway band: own count from 2020 census block groups (US Census Bureau) (geo/measure_rail.py)",
+  "Federal land: BLM Surface Management Agency; counties: US Census Bureau; states and countries: Natural Earth (geo/make_regions.py)",
+  "Checkerboard squares at Elk Mountain: illustration of the 1862 grant pattern, not surveyed parcels",
+  "Trail, railway, train and route lines drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "ALMOST EMPTY"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Half a million people crossed Wyoming on the way west. Almost none of them stayed.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -97.0,
+           "lat": 39.5,
+           "span": 62.0
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "on the way west.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -93.9,
+           "lat": 40.74,
+           "span": 66.96
+          },
+          "highlight": [
+           "Wyoming@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -95.9,
+             41.2
+            ],
+            "via": [
+             [
+              -104.56,
+              42.21
+             ],
+             [
+              -108.9,
+              42.35
+             ]
+            ],
+            "to": [
+             -122.6,
+             45.4
+            ],
+            "mode": "line",
+            "label": "Oregon Trail (approx.)",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Almost none of them",
+       "photo": "File:Emigrant National Historic Trail, Wyoming (36346399930).jpg",
+       "on_screen_text": "Emigrant trail country, Wyoming"
+      }
+     ]
+    },
+    {
+     "text": "Today Wyoming is bigger than the United Kingdom. But fewer people live in the whole state than in Washington, D.C.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -109.869,
+           "lat": 43.756,
+           "span": 44.387
+          },
+          "highlight": [
+           "Wyoming@alt",
+           "file:uk_on_wy.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The United Kingdom at the same scale"
+      },
+      {
+       "type": "chart",
+       "at": "But fewer people live",
+       "chart": {
+        "type": "bar",
+        "title": "People, July 2025",
+        "unit": "",
+        "data": [
+         [
+          "Wyoming",
+          588753
+         ],
+         [
+          "Washington, D.C.",
+          693645
+         ]
+        ],
+        "source": "US Census Bureau, Vintage 2025 estimates",
+        "highlight": 0
+       }
+      }
+     ]
+    },
+    {
+     "text": "Its biggest town, Cheyenne, has about sixty-five thousand people. Drive west from it on the interstate, and the houses run out within minutes.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cheyenne WY UP depot.JPG",
+       "on_screen_text": "The old Union Pacific depot, Cheyenne"
+      },
+      {
+       "type": "map",
+       "at": "has about sixty-five thousand",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.8,
+           "lat": 41.14,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cheyenne"
+      },
+      {
+       "type": "photo",
+       "at": "Drive west from it",
+       "photo": "File:I-80 toward Rawlins and Laramie - Wyoming (53577131945).jpg",
+       "on_screen_text": "Interstate 80, Wyoming"
+      },
+      {
+       "type": "map",
+       "at": "and the houses run",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.0,
+           "lat": 41.17,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "West of Cheyenne"
+      }
+     ]
+    },
+    {
+     "text": "This is a state where cattle barons once hired gunmen to decide who could own a piece of it. Where four hunters were sued for millions because of a single step across a corner. And where a whole town of four thousand people emptied in a few years.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cattle Drive near Pinedale, WY (14963962303).jpg",
+       "on_screen_text": "A cattle drive near Pinedale"
+      },
+      {
+       "type": "photo",
+       "at": "once hired gunmen to",
+       "photo": "File:Invaders.gif",
+       "on_screen_text": "The invaders of 1892 after their surrender"
+      },
+      {
+       "type": "map",
+       "at": "Where four hunters were",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.432,
+           "lat": 41.66,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-20",
+          "highlight": [
+           "file:checker.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elk Mountain"
+      },
+      {
+       "type": "photo",
+       "at": "And where a whole",
+       "photo": "File:Jeffrey City, Wyoming 1.JPG",
+       "on_screen_text": "Jeffrey City today"
+      },
+      {
+       "type": "map",
+       "at": "emptied in a few",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.83,
+           "lat": 42.495,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jeffrey City"
+      }
+     ]
+    },
+    {
+     "text": "So why does almost nobody live in Wyoming? There are six reasons, and every one of them still shows on the map today. The first is the reason all those travellers kept walking.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 17.28
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "There are six reasons,",
+       "photo": "File:Seedskadee nwr sunset.jpg",
+       "on_screen_text": "Seedskadee National Wildlife Refuge"
+      },
+      {
+       "type": "map",
+       "at": "still shows on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.3,
+           "lat": 41.95,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Great Divide Basin"
+      },
+      {
+       "type": "photo",
+       "at": "The first is the",
+       "photo": "File:Emigrant National Historic Trail, Wyoming (36346409040).jpg",
+       "on_screen_text": "On the emigrant trails, Wyoming"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Road, Not a Destination",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. Wyoming was built as a way through, not a place to stop.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 18.56
+          },
+          "highlight": [
+           "Wyoming@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.95
+            ],
+            "via": [
+             [
+              -104.56,
+              42.21
+             ],
+             [
+              -105.4,
+              42.55
+             ],
+             [
+              -106.32,
+              42.85
+             ],
+             [
+              -107.13,
+              42.49
+             ],
+             [
+              -108.9,
+              42.35
+             ],
+             [
+              -110.39,
+              41.32
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.4
+            ],
+            "mode": "line",
+            "label": "Emigrant trails (approx.)",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "not a place to",
+       "photo": "File:B-14. South Pass Overlook (west of South Pass City) on the California, Mormon Pioneer, and Oregon National Historic Trails (2003) (49008a89-8329-4aac-93d1-cd43c3407933).JPG",
+       "on_screen_text": "South Pass overlook"
+      }
+     ]
+    },
+    {
+     "text": "Between 1840 and 1869, about half a million emigrants crossed it on the Oregon, California and Mormon trails. Almost all of them used one gap in the Rocky Mountains: South Pass.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~500,000",
+        "label": "Emigrants on the Oregon, California and Mormon trails, 1840-1869",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "crossed it on the",
+       "photo": "File:Alfred Jacob Miller - Fort Laramie - Walters 37194049.jpg",
+       "on_screen_text": "Fort Laramie, painted by Alfred Jacob Miller, 1850s"
+      },
+      {
+       "type": "map",
+       "at": "Almost all of them",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 19.84
+          },
+          "places": [
+           {
+            "name": "South Pass",
+            "lon": -108.9,
+            "lat": 42.35,
+            "kind": "site",
+            "label": "South Pass"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.95
+            ],
+            "via": [
+             [
+              -104.56,
+              42.21
+             ],
+             [
+              -105.4,
+              42.55
+             ],
+             [
+              -106.32,
+              42.85
+             ],
+             [
+              -107.13,
+              42.49
+             ],
+             [
+              -108.9,
+              42.35
+             ],
+             [
+              -110.39,
+              41.32
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.4
+            ],
+            "mode": "line",
+            "label": "Emigrant trails (approx.)",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "South Pass.",
+       "photo": "File:South Pass Area of Critical Environmental Concern, Wyoming (15472769319).jpg",
+       "on_screen_text": "South Pass"
+      }
+     ]
+    },
+    {
+     "text": "South Pass is so wide and gentle that wagons could roll over the Continental Divide without a road. It is also more than seven thousand feet above the sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:This broad open saddle called South Pass in Wyoming located on the continental divide is one of the high points along the Oregon (f87089a1-155d-451f-67c6-1277b1f30ec3).JPG",
+       "on_screen_text": "South Pass, on the Continental Divide"
+      },
+      {
+       "type": "map",
+       "at": "wagons could roll over",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.9,
+           "lat": 42.35,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "South Pass from orbit"
+      },
+      {
+       "type": "stat",
+       "at": "It is also more",
+       "stat": {
+        "value": "7,412 FT",
+        "label": "South Pass, the emigrants' crossing",
+        "source": "WyoHistory; NPS"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The travellers stopped only where they had to. Fort Laramie, on the North Platte, was a trading post and later an army fort where wagons rested and mended. Fort Bridger, in the far southwest, sold supplies to the people heading for Utah and California. These were service stations, not towns.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 17.92
+          },
+          "places": [
+           {
+            "name": "Fort Laramie",
+            "lon": -104.56,
+            "lat": 42.21,
+            "kind": "site",
+            "label": "Fort Laramie"
+           },
+           {
+            "name": "Fort Bridger",
+            "lon": -110.39,
+            "lat": 41.32,
+            "kind": "site",
+            "label": "Fort Bridger"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.95
+            ],
+            "via": [
+             [
+              -104.56,
+              42.21
+             ],
+             [
+              -105.4,
+              42.55
+             ],
+             [
+              -106.32,
+              42.85
+             ],
+             [
+              -107.13,
+              42.49
+             ],
+             [
+              -108.9,
+              42.35
+             ],
+             [
+              -110.39,
+              41.32
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.4
+            ],
+            "mode": "line",
+            "label": "Emigrant trails (approx.)",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Fort Laramie, on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.56,
+           "lat": 42.21,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fort Laramie and the North Platte"
+      },
+      {
+       "type": "photo",
+       "at": "and later an army",
+       "photo": "File:Fort Laramie. Post as it appeared in 1868. Orginally located as a fur trading post in 1834, known as Fort William... - NARA - 516878.jpg",
+       "on_screen_text": "Fort Laramie as it was in 1868"
+      },
+      {
+       "type": "map",
+       "at": "Fort Bridger, in the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.39,
+           "lat": 41.32,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 36,
+          "view": {
+           "lon": -110.39,
+           "lat": 41.32,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fort Bridger"
+      },
+      {
+       "type": "photo",
+       "at": "These were service stations,",
+       "photo": "File:Register Cliff - panoramio.jpg",
+       "on_screen_text": "Register Cliff, where emigrants carved their names"
+      }
+     ]
+    },
+    {
+     "text": "So many wagons used the same track near today's town of Guernsey that their wheels cut grooves into the sandstone, in places five feet deep. You can still walk in them.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Oregon Trail ruts Guernsey Wy.jpg",
+       "on_screen_text": "The Oregon Trail ruts at Guernsey"
+      },
+      {
+       "type": "map",
+       "at": "near today's town of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.752,
+           "lat": 42.255,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Guernsey and the North Platte"
+      },
+      {
+       "type": "photo",
+       "at": "in places five feet",
+       "photo": "File:Oregon Trail Wagon Ruts - panoramio.jpg",
+       "on_screen_text": "The Guernsey ruts"
+      },
+      {
+       "type": "photo",
+       "at": "You can still walk",
+       "photo": "File:A-12. The Bedlam Ruts (west of Fort Laramie National Historic Site) on the California, Mormon Pioneer, and Oregon National Historic Trails (2006) (a3b55225-3e5d-4675-8d62-e97ef09219a1).jpg",
+       "on_screen_text": "Wagon ruts west of Fort Laramie"
+      }
+     ]
+    },
+    {
+     "text": "And that is Wyoming's first problem. The average height of the whole state is about six thousand seven hundred feet. Only Colorado sits higher.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 19.2
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The average height of",
+       "stat": {
+        "value": "6,700 FT",
+        "label": "Wyoming's average elevation",
+        "source": "USGS"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Only Colorado sits higher.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.12,
+           "lat": 40.577,
+           "span": 30.724
+          },
+          "highlight": [
+           "Wyoming@alt",
+           "Colorado@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Up there, summer is short. In the high basins, frost can come in any month. On average the state gets about thirteen inches of rain and snow a year. In the western basins it is under ten. Iowa's farms get more than twice as much.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Greater Sage-Grouse in Red Desert, WY (7487155676).jpg",
+       "on_screen_text": "The Red Desert"
+      },
+      {
+       "type": "photo",
+       "at": "In the high basins,",
+       "photo": "File:Artemesia tridentata var wyomingensis Wyoming big sagebrush (52752054243).jpg",
+       "on_screen_text": "Sagebrush in winter"
+      },
+      {
+       "type": "stat",
+       "at": "On average the state",
+       "stat": {
+        "value": "~13 IN",
+        "label": "Rain and snow a year, Wyoming average (1961-1990)",
+        "source": "National Atlas of the United States"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In the western basins",
+       "photo": "File:Muddy Water Red desert.jpg",
+       "on_screen_text": "The Red Desert"
+      },
+      {
+       "type": "map",
+       "at": "Iowa's farms get more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -100.1,
+           "lat": 38.26,
+           "span": 71.92
+          },
+          "highlight": [
+           "Iowa@red",
+           "Wyoming@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "more than twice as",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -93.6,
+           "lat": 42.0,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Farmland in Iowa"
+      }
+     ]
+    },
+    {
+     "text": "In the middle of the state lies the Great Divide Basin, where the Continental Divide splits in two. Rain that falls here never reaches any ocean. It sinks into the ground or dries up where it lands.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.67,
+           "lat": 42.76,
+           "span": 16.64
+          },
+          "places": [
+           {
+            "name": "Great Divide Basin",
+            "lon": -108.2,
+            "lat": 42.0,
+            "kind": "label",
+            "label": "GREAT DIVIDE BASIN"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "where the Continental Divide",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.3,
+           "lat": 41.95,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Great Divide Basin"
+      },
+      {
+       "type": "photo",
+       "at": "Rain that falls here",
+       "photo": "File:Bikepacking through Great Divide Basin, Wyoming, USA.jpg",
+       "on_screen_text": "Inside the Great Divide Basin"
+      },
+      {
+       "type": "photo",
+       "at": "It sinks into the",
+       "photo": "File:Red Desert.jpg",
+       "on_screen_text": "The Red Desert"
+      }
+     ]
+    },
+    {
+     "text": "And then there is the wind. Southern Wyoming is one of the windiest places in the lower forty-eight states. On Interstate 80, gusts of sixty miles an hour close the road to light, high-sided trucks. Even so, the wind blows over about forty-seven vehicles a year on that one highway.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.6,
+           "lat": 41.75,
+           "span": 7.2
+          },
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           },
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -107.6,
+           "lat": 41.75,
+           "span": 6.12
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "On Interstate 80, gusts",
+       "photo": "File:I-80 toward Rawlins and Laramie - Wyoming (53577131945).jpg",
+       "on_screen_text": "Interstate 80"
+      },
+      {
+       "type": "stat",
+       "at": "of sixty miles an",
+       "stat": {
+        "value": "60 MPH",
+        "label": "Gusts that close I-80 to light, high-profile vehicles",
+        "source": "Wyoming Department of Transportation"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Even so, the wind",
+       "stat": {
+        "value": "~47 A YEAR",
+        "label": "Vehicles blown over on I-80 (five-year average)",
+        "source": "Wyoming Department of Transportation"
+       }
+      }
+     ]
+    },
+    {
+     "text": "For a family with an ox team and a plough, none of this looked like home. Oregon had rain. California had gold. Utah had a church waiting. Wyoming was the hard part in between.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Emigrant National Historic Trail, Wyoming (36346399930).jpg",
+       "on_screen_text": "A replica wagon on the emigrant trail"
+      },
+      {
+       "type": "map",
+       "at": "Oregon had rain.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -112.0,
+           "lat": 42.0,
+           "span": 34.0
+          },
+          "places": [
+           {
+            "name": "Oregon",
+            "lon": -122.6,
+            "lat": 44.9,
+            "kind": "label",
+            "label": "OREGON"
+           },
+           {
+            "name": "California",
+            "lon": -121.0,
+            "lat": 38.8,
+            "kind": "label",
+            "label": "CALIFORNIA"
+           },
+           {
+            "name": "Utah",
+            "lon": -111.9,
+            "lat": 40.4,
+            "kind": "label",
+            "label": "SALT LAKE"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -108.9,
+             42.35
+            ],
+            "to": [
+             -122.6,
+             44.9
+            ],
+            "color": "red",
+            "label": "Rain",
+            "bend": 0.12
+           },
+           {
+            "from": [
+             -108.9,
+             42.35
+            ],
+            "to": [
+             -121.0,
+             38.8
+            ],
+            "color": "red",
+            "label": "Gold",
+            "bend": -0.1
+           },
+           {
+            "from": [
+             -108.9,
+             42.35
+            ],
+            "to": [
+             -111.9,
+             40.8
+            ],
+            "color": "red",
+            "label": "A church",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Wyoming was the hard",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.3,
+           "lat": 42.68,
+           "span": 36.72
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "So for thirty years, people walked through. What finally made some of them stop was not the land. It was a railway.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Emigrant National Historic Trail, Wyoming (36346409040).jpg",
+       "on_screen_text": "The emigrant trail"
+      },
+      {
+       "type": "map",
+       "at": "What finally made some",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.9,
+           "lat": 42.3,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "South Pass country"
+      },
+      {
+       "type": "photo",
+       "at": "It was a railway.",
+       "photo": "File:Captain Andrew Joseph Russell - General John S. Casement and His Outfit - Google Art Project.jpg",
+       "on_screen_text": "A Union Pacific track crew, 1868"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Railway Drew the Map",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason two. Wyoming's towns were not settled. They were placed, one by one, along a railway line.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 20.48
+          },
+          "highlight": [
+           "Wyoming@alt"
+          ],
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.18
+            ],
+            "via": [
+             [
+              -104.82,
+              41.14
+             ],
+             [
+              -105.59,
+              41.31
+             ],
+             [
+              -106.2,
+              41.9
+             ],
+             [
+              -107.24,
+              41.79
+             ],
+             [
+              -108.78,
+              41.68
+             ],
+             [
+              -109.22,
+              41.59
+             ],
+             [
+              -109.97,
+              41.6
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.25
+            ],
+            "mode": "line",
+            "label": "Union Pacific, 1868",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "They were placed, one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.551,
+           "lat": 41.672,
+           "span": 9.388
+          },
+          "highlight": [
+           "file:line1868.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In July 1867, there was nothing at the spot the railway surveyors picked beside Crow Creek. In November the tracks arrived. By then about four thousand people were living there in tents and shacks. They called it Cheyenne, the Magic City of the Plains.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Granite cut, near Dale Creek bridge, West Cheyenne. Albany County, Wyoming. - NARA - 516612.jpg",
+       "on_screen_text": "The Union Pacific cut west of Cheyenne, about 1869"
+      },
+      {
+       "type": "stat",
+       "at": "In November the tracks",
+       "stat": {
+        "value": "~4,000",
+        "label": "People in Cheyenne when the tracks arrived, November 1867",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "were living there in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.82,
+           "lat": 41.15,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Crow Creek and Cheyenne"
+      },
+      {
+       "type": "photo",
+       "at": "They called it Cheyenne,",
+       "photo": "File:\"Cheyenne, Wyo., 1876.\" General view of this town on the Oregon Trail - NARA - 531115.tif",
+       "on_screen_text": "Cheyenne in 1876"
+      },
+      {
+       "type": "map",
+       "at": "the Magic City of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.82,
+           "lat": 41.135,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cheyenne today"
+      }
+     ]
+    },
+    {
+     "text": "Then the line moved on, and new towns sprang up along it every few dozen miles. Laramie. Rawlins. Rock Springs. Green River. Evanston.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:CitadelRockGreenRiverWyoming1868.jpg",
+       "on_screen_text": "Citadel Rock and the new line near Green River, 1868"
+      },
+      {
+       "type": "map",
+       "at": "Laramie.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.551,
+           "lat": 41.441,
+           "span": 9.388
+          },
+          "highlight": [
+           "file:line1868.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           }
+          ]
+         },
+         {
+          "at": "Rawlins.",
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           }
+          ]
+         },
+         {
+          "at": "Rock Springs.",
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           },
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           }
+          ]
+         },
+         {
+          "at": "Green River.",
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           },
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           },
+           {
+            "name": "Green River",
+            "lon": -109.47,
+            "lat": 41.53,
+            "kind": "city",
+            "label": "Green River"
+           }
+          ]
+         },
+         {
+          "at": "Evanston.",
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           },
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           },
+           {
+            "name": "Green River",
+            "lon": -109.47,
+            "lat": 41.53,
+            "kind": "city",
+            "label": "Green River"
+           },
+           {
+            "name": "Evanston",
+            "lon": -110.96,
+            "lat": 41.27,
+            "kind": "city",
+            "label": "Evanston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Some of those towns did not survive the summer. Benton, in the desert east of Rawlins, was the end of the track in 1868. For a few weeks it had about three thousand people, saloons and gambling halls. Then the tracks moved west, the people followed, and within about three months Benton was gone. Today there is nothing on the spot but sagebrush.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.1,
+           "lat": 41.78,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The desert east of Rawlins"
+      },
+      {
+       "type": "map",
+       "at": "Benton, in the desert",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.384,
+           "lat": 41.462,
+           "span": 8.928
+          },
+          "highlight": [
+           "file:line1868.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Benton",
+            "lon": -107.03,
+            "lat": 41.8,
+            "kind": "site",
+            "label": "Benton, 1868"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "For a few weeks",
+       "stat": {
+        "value": "~3,000",
+        "label": "People in Benton, summer 1868",
+        "source": "Carbon County Museum; WyoHistory"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Then the tracks moved",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 41.765,
+           "span": 9.392
+          },
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.18
+            ],
+            "via": [
+             [
+              -104.82,
+              41.14
+             ],
+             [
+              -105.59,
+              41.31
+             ],
+             [
+              -106.2,
+              41.9
+             ],
+             [
+              -107.24,
+              41.79
+             ],
+             [
+              -108.78,
+              41.68
+             ],
+             [
+              -109.22,
+              41.59
+             ],
+             [
+              -109.97,
+              41.6
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.25
+            ],
+            "mode": "line",
+            "label": "Union Pacific, 1868",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Benton",
+            "lon": -107.03,
+            "lat": 41.8,
+            "kind": "site",
+            "label": "Benton, 1868"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Today there is nothing",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.03,
+           "lat": 41.8,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Near the Benton site, by today's Sinclair"
+      }
+     ]
+    },
+    {
+     "text": "Towns like this were called Hell on Wheels. They were not settlements. They were the railway's camp, packed up and carried west on flatcars.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Dale Creek Bridge Union Pacific Railroad Company by Andrew J Russell.jpg",
+       "on_screen_text": "Dale Creek Bridge, Union Pacific, 1868"
+      },
+      {
+       "type": "photo",
+       "at": "They were the railway's",
+       "photo": "File:Generals Grant, Sherman, Sheridan, Hooker, Harney, Dodge, Gibbon, and Potter at Fort Sanders LCCN2013647598.jpg",
+       "on_screen_text": "Grant, Sherman and the railway's engineer Dodge at Fort Sanders, 1868"
+      }
+     ]
+    },
+    {
+     "text": "We measured where Wyoming's people live today, using every neighbourhood in the 2020 census. A band twelve miles either side of the old line covers a tenth of the state. More than a third of all Wyomingites live inside it. Most of the rest live in towns that later booms built, like Casper and Gillette.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 41.96,
+           "span": 21.12
+          },
+          "highlight": [
+           "file:line1868.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A band twelve miles",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 17.798
+          },
+          "highlight": [
+           "file:rail20.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "More than a third",
+       "chart": {
+        "type": "bar",
+        "title": "Within 20 km of the 1868 line",
+        "unit": "%",
+        "data": [
+         [
+          "Share of the land",
+          9.9
+         ],
+         [
+          "Share of the people",
+          35.3
+         ]
+        ],
+        "source": "Own count: 2020 census block groups vs the 1868 line (geo/measure_rail.py)",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "Most of the rest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 19.117
+          },
+          "highlight": [
+           "file:rail20.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Casper",
+            "lon": -106.31,
+            "lat": 42.85,
+            "kind": "city",
+            "label": "Casper"
+           },
+           {
+            "name": "Gillette",
+            "lon": -105.5,
+            "lat": 44.29,
+            "kind": "city",
+            "label": "Gillette"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Look at the map with the railway hidden, and you can still draw it from the lights at night. A line of towns across the south, and in the north and the middle, darkness with a few bright spots, mostly mine and oil towns.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 20.435
+          },
+          "layer": "night"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 17.37
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "A line of towns",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 18.458
+          },
+          "layer": "night",
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.18
+            ],
+            "via": [
+             [
+              -104.82,
+              41.14
+             ],
+             [
+              -105.59,
+              41.31
+             ],
+             [
+              -106.2,
+              41.9
+             ],
+             [
+              -107.24,
+              41.79
+             ],
+             [
+              -108.78,
+              41.68
+             ],
+             [
+              -109.22,
+              41.59
+             ],
+             [
+              -109.97,
+              41.6
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.25
+            ],
+            "mode": "line",
+            "label": "Union Pacific, 1868",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and in the north",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 19.776
+          },
+          "layer": "night"
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "mostly mine and oil",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.67,
+           "lat": 42.76,
+           "span": 17.139
+          },
+          "layer": "night",
+          "places": [
+           {
+            "name": "Gillette",
+            "lon": -105.5,
+            "lat": 44.29,
+            "kind": "city",
+            "label": "Gillette"
+           },
+           {
+            "name": "Casper",
+            "lon": -106.31,
+            "lat": 42.85,
+            "kind": "city",
+            "label": "Casper"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The railway left something else behind. To pay for it, Congress gave the Union Pacific every other square mile of land for twenty miles on each side of the track. The government kept the squares in between.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 41.586,
+           "span": 9.392
+          },
+          "routes": [
+           {
+            "from": [
+             -104.05,
+             41.18
+            ],
+            "via": [
+             [
+              -104.82,
+              41.14
+             ],
+             [
+              -105.59,
+              41.31
+             ],
+             [
+              -106.2,
+              41.9
+             ],
+             [
+              -107.24,
+              41.79
+             ],
+             [
+              -108.78,
+              41.68
+             ],
+             [
+              -109.22,
+              41.59
+             ],
+             [
+              -109.97,
+              41.6
+             ]
+            ],
+            "to": [
+             -111.05,
+             41.25
+            ],
+            "mode": "line",
+            "label": "Union Pacific, 1868",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Congress gave the Union",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.0,
+           "lat": 41.9,
+           "span": 10.8
+          },
+          "highlight": [
+           "file:line1868.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "for twenty miles on",
+       "stat": {
+        "value": "20 MILES",
+        "label": "Railroad grant on each side of the track: every other square mile",
+        "source": "Pacific Railway Acts, 1862 and 1864"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The government kept the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.47,
+           "lat": 41.63,
+           "span": 0.7
+          },
+          "date": "2025-07-01/2025-09-20",
+          "highlight": [
+           "file:checker.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elk Mountain: the grant pattern (illustration)"
+      }
+     ]
+    },
+    {
+     "text": "The result is a checkerboard, hundreds of miles long. Private square, public square, private square. They touch only at their corners.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.0,
+           "lat": 42.4,
+           "span": 17.5
+          },
+          "highlight": [
+           "file:blm.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Private square, public square,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.422,
+           "lat": 41.668,
+           "span": 0.604
+          },
+          "date": "2025-07-01/2025-09-20",
+          "highlight": [
+           "file:checker.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Railroad squares (illustration)"
+      },
+      {
+       "type": "stat",
+       "at": "They touch only at",
+       "stat": {
+        "value": "CORNER LOCKED",
+        "label": "Public squares meet only at their corners",
+        "source": "BLM; onX"
+       }
+      }
+     ]
+    },
+    {
+     "text": "For a century and a half, that left a question nobody had settled. Can you step from one public square to the next, across the corner, without touching private land?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:PronghornAntelopeHerdYNP2009.jpg",
+       "on_screen_text": "Pronghorn"
+      },
+      {
+       "type": "map",
+       "at": "Can you step from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.5,
+           "lat": 41.61,
+           "span": 0.8
+          },
+          "date": "2025-07-01/2025-09-20",
+          "highlight": [
+           "file:checker.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "One corner, Elk Mountain (illustration)"
+      }
+     ]
+    },
+    {
+     "text": "In 2021, four hunters from Missouri did exactly that on Elk Mountain, using a small ladder. The ranch belonged to a North Carolina businessman. His company sued them, claiming the step had cost the ranch up to seven point seven five million dollars in value.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2021",
+        "label": "Four Missouri hunters cross a corner at Elk Mountain",
+        "source": "WyoFile"
+       }
+      },
+      {
+       "type": "map",
+       "at": "on Elk Mountain, using",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.4,
+           "lat": 41.7,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elk Mountain"
+      },
+      {
+       "type": "photo",
+       "at": "The ranch belonged to",
+       "photo": "File:BLM Wyoming- Salt Wells Creek Herd Management Area (19834956313).jpg",
+       "on_screen_text": "Public range in southern Wyoming"
+      },
+      {
+       "type": "stat",
+       "at": "claiming the step had",
+       "stat": {
+        "value": "$7.75 M",
+        "label": "Damage the ranch's company claimed",
+        "source": "Court filings, via WyoFile"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The hunters won in court in 2023, and again on appeal in 2025. In October 2025 the Supreme Court declined to hear the case. Across the West, about eight million acres of public land are locked in corners like these.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2023 / 2025",
+        "label": "District court, then the 10th Circuit, rule for the hunters",
+        "source": "Iron Bar Holdings v. Cape"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In October 2025 the",
+       "stat": {
+        "value": "20 OCT 2025",
+        "label": "The Supreme Court declines the case (No. 25-64)",
+        "source": "US Supreme Court docket"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Across the West, about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -113.7,
+           "lat": 41.32,
+           "span": 39.44
+          },
+          "highlight": [
+           "Wyoming@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about eight million acres",
+       "stat": {
+        "value": "~8 MILLION ACRES",
+        "label": "Public land locked behind corners in the West",
+        "source": "onX, 2022"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Before that, the hunters had also been charged with criminal trespass in Carbon County. In April 2022 a local jury found them not guilty, after deliberating for less than two hours.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 21.094
+          },
+          "highlight": [
+           "file:county_carbon.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In April 2022 a",
+       "stat": {
+        "value": "NOT GUILTY",
+        "label": "Carbon County jury, 29 April 2022, after under two hours",
+        "source": "WyoFile"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "after deliberating for less",
+       "photo": "File:2009-0722-Hanna.jpg",
+       "on_screen_text": "Carbon County from the air"
+      }
+     ]
+    },
+    {
+     "text": "A railway decided where Wyoming's towns would be. But who would own the land between them was decided by something else. Cattle, and the men who owned them.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:\"Cheyenne, Wyo., 1876.\" General view of this town on the Oregon Trail - NARA - 531115.tif",
+       "on_screen_text": "Cheyenne, 1876"
+      },
+      {
+       "type": "map",
+       "at": "But who would own",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.9,
+           "lat": 42.7,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Grassland, central Wyoming"
+      },
+      {
+       "type": "photo",
+       "at": "Cattle, and the men",
+       "photo": "File:Cattle branding (Grabill 1888).jpg",
+       "on_screen_text": "Branding cattle, 1888"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Cattle Kings",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. Wyoming's open land was claimed early by a few very large cattle companies, and they fought to keep it that way.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 41.96,
+           "span": 21.754
+          },
+          "highlight": [
+           "file:county_johnson.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "by a few very",
+       "photo": "File:Cattle Drive near Pinedale, WY (14963962303).jpg",
+       "on_screen_text": "Cattle on the open range, Pinedale"
+      }
+     ]
+    },
+    {
+     "text": "In the 1870s and early 1880s, the grass between the railway and the mountains was open range. Anyone could graze it. Investors in Britain and in the eastern states poured money into cattle companies. In Cheyenne, their managers built a club with a wine cellar and a chef.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.0,
+           "lat": 42.8,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -106.0,
+           "lat": 42.8,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open range, central Wyoming"
+      },
+      {
+       "type": "photo",
+       "at": "Anyone could graze it.",
+       "photo": "File:Cowboy1902.jpg",
+       "on_screen_text": "A cowboy and his herd, about 1902"
+      },
+      {
+       "type": "map",
+       "at": "Investors in Britain and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -52.475,
+           "lat": 43.666,
+           "span": 140.461
+          },
+          "places": [
+           {
+            "name": "London",
+            "lon": -0.13,
+            "lat": 51.51,
+            "kind": "capital",
+            "label": "London"
+           },
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -0.13,
+             51.51
+            ],
+            "to": [
+             -104.82,
+             41.14
+            ],
+            "color": "red",
+            "label": "British money",
+            "bend": 0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In Cheyenne, their managers",
+       "photo": "File:Cheyenne WY UP depot.JPG",
+       "on_screen_text": "Cheyenne's Union Pacific depot"
+      }
+     ]
+    },
+    {
+     "text": "By late 1886 there were close to nine hundred thousand cattle in Wyoming, far more than the grass could carry. Then came the winter of 1886 and 1887. Storm after storm buried the range. Many herds were never found again until the spring melt.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~900,000",
+        "label": "Cattle in Wyoming, late 1886",
+        "source": "Wyoming SHPO"
+       }
+      },
+      {
+       "type": "map",
+       "at": "far more than the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.05,
+           "lat": 42.75,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Grassland, central Wyoming"
+      },
+      {
+       "type": "photo",
+       "at": "Then came the winter",
+       "photo": "File:Artemesia tridentata var wyomingensis Wyoming big sagebrush (52752054243).jpg",
+       "on_screen_text": "Sagebrush under snow"
+      },
+      {
+       "type": "photo",
+       "at": "Storm after storm buried",
+       "photo": "File:National Elk Refuge (7467049882).jpg",
+       "on_screen_text": "Winter on the range, Jackson Hole"
+      }
+     ]
+    },
+    {
+     "text": "The big companies came out of that winter weaker and angrier. Small ranchers and homesteaders were moving onto the land they had treated as theirs. The big outfits called many of them rustlers, cattle thieves.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Looking northwest past Ranch House and Barn toward Grand Teton - T. A. Moulton Ranch, Mormon Row Road, Kelly, Teton County, WY HABS WYO,20-KEL.V,2-9.tif",
+       "on_screen_text": "A homestead in Jackson Hole"
+      },
+      {
+       "type": "map",
+       "at": "Small ranchers and homesteaders",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.525,
+           "lat": 43.958,
+           "span": 4.311
+          },
+          "highlight": [
+           "file:county_johnson.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Buffalo",
+            "lon": -106.7,
+            "lat": 44.35,
+            "kind": "city",
+            "label": "Buffalo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The big outfits called",
+       "stat": {
+        "value": "\"RUSTLERS\"",
+        "label": "What the big outfits called many small ranchers",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In April 1892, the Wyoming Stock Growers Association acted. A special train left Cheyenne carrying about fifty armed men, among them two dozen gunmen hired in Texas. They carried a list of names.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Invaders.gif",
+       "on_screen_text": "The invaders of 1892"
+      },
+      {
+       "type": "map",
+       "at": "A special train left",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 18.332
+          },
+          "places": [
+           {
+            "name": "Cheyenne",
+            "lon": -104.82,
+            "lat": 41.14,
+            "kind": "capital",
+            "label": "Cheyenne"
+           },
+           {
+            "name": "Casper",
+            "lon": -106.31,
+            "lat": 42.85,
+            "kind": "city",
+            "label": "Casper"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -104.82,
+             41.14
+            ],
+            "via": [
+             [
+              -105.4,
+              42.3
+             ]
+            ],
+            "to": [
+             -106.31,
+             42.85
+            ],
+            "mode": "line",
+            "label": "Special train, April 1892",
+            "color": "red",
+            "seconds": 2.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about fifty armed men,",
+       "stat": {
+        "value": "~50",
+        "label": "Armed men on the train, two dozen hired in Texas",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "They carried a list",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 19.69
+          },
+          "places": [
+           {
+            "name": "Casper",
+            "lon": -106.31,
+            "lat": 42.85,
+            "kind": "city",
+            "label": "Casper"
+           },
+           {
+            "name": "KC Ranch",
+            "lon": -106.64,
+            "lat": 43.71,
+            "kind": "site",
+            "label": "KC Ranch",
+            "icon": "conflict"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -104.82,
+             41.14
+            ],
+            "via": [
+             [
+              -105.4,
+              42.3
+             ]
+            ],
+            "to": [
+             -106.31,
+             42.85
+            ],
+            "mode": "line",
+            "label": "Special train, April 1892",
+            "color": "red",
+            "seconds": 2.5
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -106.31,
+             42.85
+            ],
+            "to": [
+             -106.64,
+             43.71
+            ],
+            "color": "red",
+            "label": "On horseback",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the ninth of April they surrounded a cabin at the KC Ranch. Inside was Nate Champion, a small rancher who had stood up to the big outfits. He held them off all day. Between the shots, he wrote in a pocket diary. His last line was signed: \"Nathan D. Champion.\" That evening they set the cabin on fire and shot him as he ran.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.64,
+           "lat": 43.71,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kaycee, by the old KC Ranch"
+      },
+      {
+       "type": "stat",
+       "at": "Inside was Nate Champion,",
+       "stat": {
+        "value": "9 APRIL 1892",
+        "label": "Nate Champion besieged at the KC Ranch",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "He held them off",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.22,
+           "lat": 44.072,
+           "span": 3.888
+          },
+          "places": [
+           {
+            "name": "KC Ranch",
+            "lon": -106.64,
+            "lat": 43.71,
+            "kind": "site",
+            "label": "KC Ranch",
+            "icon": "conflict"
+           },
+           {
+            "name": "Buffalo",
+            "lon": -106.7,
+            "lat": 44.35,
+            "kind": "city",
+            "label": "Buffalo"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -106.22,
+           "lat": 44.072,
+           "span": 3.305
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "His last line was",
+       "stat": {
+        "value": "NATHAN D. CHAMPION",
+        "label": "How his diary ends, 9 April 1892",
+        "source": "Champion's diary, published 1894"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That evening they set",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.62,
+           "lat": 43.72,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Powder River country near Kaycee"
+      }
+     ]
+    },
+    {
+     "text": "The delay cost them. Word reached Buffalo, the county seat, and a posse of several hundred local men rode out. They trapped the invaders at the TA Ranch and laid siege for two days.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.58,
+           "lat": 43.928,
+           "span": 4.176
+          },
+          "places": [
+           {
+            "name": "KC Ranch",
+            "lon": -106.64,
+            "lat": 43.71,
+            "kind": "site",
+            "label": "KC Ranch",
+            "icon": "conflict"
+           },
+           {
+            "name": "Buffalo",
+            "lon": -106.7,
+            "lat": 44.35,
+            "kind": "city",
+            "label": "Buffalo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and a posse of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.292,
+           "lat": 43.856,
+           "span": 4.464
+          },
+          "places": [
+           {
+            "name": "KC Ranch",
+            "lon": -106.64,
+            "lat": 43.71,
+            "kind": "site",
+            "label": "KC Ranch",
+            "icon": "conflict"
+           },
+           {
+            "name": "Buffalo",
+            "lon": -106.7,
+            "lat": 44.35,
+            "kind": "city",
+            "label": "Buffalo"
+           },
+           {
+            "name": "TA Ranch",
+            "lon": -106.62,
+            "lat": 44.27,
+            "kind": "site",
+            "label": "TA Ranch",
+            "icon": "conflict"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -106.7,
+             44.35
+            ],
+            "to": [
+             -106.62,
+             44.29
+            ],
+            "color": "blue",
+            "label": "The posse",
+            "bend": 0.3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "They trapped the invaders",
+       "photo": "File:TAranch.jpg",
+       "on_screen_text": "Plan of the siege at the TA Ranch, 1892"
+      }
+     ]
+    },
+    {
+     "text": "Then a telegram reached the White House. President Benjamin Harrison sent the cavalry from Fort McKinney. The invaders surrendered to the soldiers, not to the sheriff. None of them was ever convicted.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "13 APRIL 1892",
+        "label": "President Harrison orders the cavalry in",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "sent the cavalry from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.508,
+           "lat": 44.144,
+           "span": 4.032
+          },
+          "places": [
+           {
+            "name": "Fort McKinney",
+            "lon": -106.78,
+            "lat": 44.34,
+            "kind": "site",
+            "label": "Fort McKinney"
+           },
+           {
+            "name": "TA Ranch",
+            "lon": -106.62,
+            "lat": 44.27,
+            "kind": "site",
+            "label": "TA Ranch",
+            "icon": "conflict"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -106.78,
+             44.34
+            ],
+            "to": [
+             -106.63,
+             44.28
+            ],
+            "color": "blue",
+            "label": "Cavalry",
+            "bend": -0.3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "None of them was",
+       "stat": {
+        "value": "NO CONVICTIONS",
+        "label": "None of the invaders was ever convicted",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Wyoming had become a state less than two years before. The census of 1890 had counted about sixty-two thousand people in it. In the place where Wyoming's open land was divided, the people with the most land were also the people with the most power.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 21.048
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The census of 1890",
+       "stat": {
+        "value": "62,555",
+        "label": "People in Wyoming, 1890 census",
+        "source": "US Census 1890"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the place where",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.3,
+           "lat": 44.1,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": -106.3,
+           "lat": 44.1,
+           "span": 0.217
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Ranch country, Johnson County"
+      }
+     ]
+    },
+    {
+     "text": "The territory had already tried an unusual way to attract settlers. In December 1869, Wyoming became the first place in the United States where women could vote and hold office. Men far outnumbered women in the territory. Some lawmakers backed the vote on principle. Others hoped it would bring families west. It made Wyoming the Equality State. It did not make it crowded.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Woman suffrage in Wyoming Territory. - Scene at the polls in Cheyenne - from a photo. by Kirkland. LCCN92516129.jpg#crop=0.12,0.22,0.12,0.06",
+       "on_screen_text": "Women at the polls in Cheyenne, 1888"
+      },
+      {
+       "type": "stat",
+       "at": "In December 1869, Wyoming",
+       "stat": {
+        "value": "10 DEC 1869",
+        "label": "Women's vote in Wyoming Territory, the first in the US",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "where women could vote",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -95.14,
+           "lat": 37.02,
+           "span": 76.88
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Men far outnumbered women",
+       "photo": "File:Cowboy1902.jpg",
+       "on_screen_text": "A cowboy, about 1902"
+      },
+      {
+       "type": "photo",
+       "at": "Others hoped it would",
+       "photo": "File:Barns grand tetons.jpg",
+       "on_screen_text": "A homestead barn, Mormon Row"
+      },
+      {
+       "type": "map",
+       "at": "It did not make",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 19.011
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "And there was a deeper reason the small homesteads struggled. A federal homestead was a hundred and sixty acres. In Iowa that was a farm. In Wyoming's dry grass, it could not feed a herd big enough to live on.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": "A federal homestead was",
+       "stat": {
+        "value": "160 ACRES",
+        "label": "A homestead under the 1862 Act",
+        "source": "Homestead Act, 1862"
+       }
+      },
+      {
+       "type": "map",
+       "at": "In Iowa that was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -93.7,
+           "lat": 42.05,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Iowa: farms on 160-acre squares"
+      },
+      {
+       "type": "map",
+       "at": "In Wyoming's dry grass,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.95,
+           "lat": 42.85,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 32,
+          "view": {
+           "lon": -105.95,
+           "lat": 42.85,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wyoming range"
+      }
+     ]
+    },
+    {
+     "text": "Much of the land the homesteaders never took stayed with the government. And that is where the story of Wyoming's emptiness gets bigger than any ranch.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 20.369
+          },
+          "highlight": [
+           "file:federal.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "And that is where",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.6,
+           "lat": 41.9,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Federal range, Red Desert"
+      },
+      {
+       "type": "photo",
+       "at": "gets bigger than any",
+       "photo": "File:BLM Wyoming- Salt Wells Creek Herd Management Area (19834956313).jpg",
+       "on_screen_text": "BLM range, Salt Wells Creek"
+      }
+     ]
+    },
+    {
+     "text": "Hold on to that, because the last three reasons are the ones that still decide where people live in Wyoming today.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Downtown Laramie Wyoming (52953967558).jpg",
+       "on_screen_text": "Laramie"
+      },
+      {
+       "type": "map",
+       "at": "still decide where people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.67,
+           "lat": 42.76,
+           "span": 17.653
+          },
+          "highlight": [
+           "file:rail20.geojson@red",
+           "file:federal.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Land Nobody Can Buy",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason four. Almost half of Wyoming still belongs to the federal government, and it is not for sale.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 21.727
+          },
+          "highlight": [
+           "file:federal.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Almost half of Wyoming",
+       "stat": {
+        "value": "48 %",
+        "label": "Federal share of Wyoming's land (our own count: 47 %)",
+        "source": "CRS 2012; BLM SMA"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It started in 1872, when Congress set aside Yellowstone in the corner of the territory as the world's first national park.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.4,
+           "lat": 44.4,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yellowstone"
+      },
+      {
+       "type": "map",
+       "at": "when Congress set aside",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 41.96,
+           "span": 22.406
+          },
+          "highlight": [
+           "file:parks.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "as the world's first",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.6,
+           "lat": 44.45,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Yellowstone Lake"
+      }
+     ]
+    },
+    {
+     "text": "Then came national forests in the mountains. And the leftover range that nobody had claimed became public grazing land, run since 1946 by the Bureau of Land Management. Today it holds more than eighteen million acres in Wyoming alone.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:South Pass Area of Critical Environmental Concern, Wyoming (15472769319).jpg",
+       "on_screen_text": "BLM land near South Pass"
+      },
+      {
+       "type": "map",
+       "at": "became public grazing land,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 18.882
+          },
+          "highlight": [
+           "file:blm.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Today it holds more",
+       "stat": {
+        "value": "18.3 M ACRES",
+        "label": "BLM land in Wyoming",
+        "source": "Bureau of Land Management"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "in Wyoming alone.",
+       "photo": "File:Red Desert.jpg",
+       "on_screen_text": "BLM land in the Red Desert"
+      }
+     ]
+    },
+    {
+     "text": "The turning point came in 1934. The Taylor Grazing Act put the remaining open range under federal management, and within a year most of it was closed to new homestead claims. The last great chance to hand Wyoming's land to settlers, one family at a time, was over.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1934",
+        "label": "Taylor Grazing Act",
+        "source": "US Congress"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "put the remaining open",
+       "photo": "File:Greater Sage-Grouse in Red Desert, WY (7487155676).jpg",
+       "on_screen_text": "Open range in the Red Desert"
+      },
+      {
+       "type": "map",
+       "at": "and within a year",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.5,
+           "lat": 41.6,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Public range, southern Wyoming"
+      },
+      {
+       "type": "photo",
+       "at": "The last great chance",
+       "photo": "File:Looking northwest past Ranch House and Barn toward Grand Teton - T. A. Moulton Ranch, Mormon Row Road, Kelly, Teton County, WY HABS WYO,20-KEL.V,2-9.tif",
+       "on_screen_text": "A homestead in Jackson Hole"
+      }
+     ]
+    },
+    {
+     "text": "Federal land is open to hikers, hunters and grazing. But you cannot build a town on it. Most of the land in Wyoming where a new suburb could go is simply not available.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:PronghornAntelopeHerdYNP2009.jpg",
+       "on_screen_text": "Pronghorn"
+      },
+      {
+       "type": "map",
+       "at": "But you cannot build",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.1,
+           "lat": 43.1,
+           "span": 18.6
+          },
+          "highlight": [
+           "file:blm.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Most of the land",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -109.22,
+           "lat": 41.59,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": -109.22,
+           "lat": 41.59,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rock Springs"
+      }
+     ]
+    },
+    {
+     "text": "Nowhere is that clearer than in Jackson Hole. More than nine-tenths of Teton County is national park, national forest or wildlife refuge. The private land is a sliver along the valley floor.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 20.281
+          },
+          "highlight": [
+           "file:county_teton.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "More than nine-tenths of",
+       "stat": {
+        "value": "92 %",
+        "label": "Federal land in Teton County",
+        "source": "Own measurement: BLM Surface Management Agency data (geo/make_regions.py)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The private land is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.75,
+           "lat": 43.55,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jackson Hole"
+      }
+     ]
+    },
+    {
+     "text": "The view brought the wealthy, and the sliver became some of the most expensive land in America. By the government's own count, Teton County has the highest income per person of any county in the country. Many of the people who work there cannot afford to live there, and drive in over a mountain pass from Idaho.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Downtown Jackson Wyoming.jpg",
+       "on_screen_text": "Jackson"
+      },
+      {
+       "type": "photo",
+       "at": "and the sliver became",
+       "photo": "File:National Elk Refuge (7467049882).jpg",
+       "on_screen_text": "The National Elk Refuge beside Jackson"
+      },
+      {
+       "type": "stat",
+       "at": "Teton County has the",
+       "stat": {
+        "value": "#1",
+        "label": "Income per person, of all US counties",
+        "source": "Bureau of Economic Analysis"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Many of the people",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.76,
+           "lat": 43.48,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jackson"
+      },
+      {
+       "type": "map",
+       "at": "and drive in over",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.95,
+           "lat": 43.6,
+           "span": 2.8
+          },
+          "places": [
+           {
+            "name": "Jackson",
+            "lon": -110.76,
+            "lat": 43.48,
+            "kind": "city",
+            "label": "Jackson"
+           },
+           {
+            "name": "Victor",
+            "lon": -111.11,
+            "lat": 43.6,
+            "kind": "city",
+            "label": "Idaho side"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -111.11,
+             43.6
+            ],
+            "via": [
+             [
+              -110.95,
+              43.5
+             ]
+            ],
+            "to": [
+             -110.76,
+             43.48
+            ],
+            "mode": "line",
+            "label": "Over Teton Pass",
+            "color": "red",
+            "seconds": 2.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "So the land is high, dry and largely closed. But Wyoming is rich, not poor. Under that land lies some of the biggest energy wealth in America. And that is where the fifth reason begins, because the wealth itself kept emptying the towns.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Muddy Water Red desert.jpg",
+       "on_screen_text": "The Red Desert"
+      },
+      {
+       "type": "photo",
+       "at": "Under that land lies",
+       "photo": "File:New Antelope Rochelle Coal Mine.png",
+       "on_screen_text": "Coal at North Antelope Rochelle"
+      },
+      {
+       "type": "map",
+       "at": "And that is where",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 21.68
+          },
+          "places": [
+           {
+            "name": "Gillette",
+            "lon": -105.5,
+            "lat": 44.29,
+            "kind": "city",
+            "label": "Gillette"
+           },
+           {
+            "name": "Casper",
+            "lon": -106.31,
+            "lat": 42.85,
+            "kind": "city",
+            "label": "Casper"
+           },
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           }
+          ]
+         },
+         {
+          "at": 35,
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 18.428
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Boom and Bust Underground",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason five. In Wyoming, minerals bring people in fast, and take them away just as fast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 19.582
+          },
+          "highlight": [
+           "file:county_campbell.geojson@red",
+           "file:county_natrona.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and take them away",
+       "photo": "File:Jeffrey City, Wyoming 2.JPG",
+       "on_screen_text": "Jeffrey City"
+      }
+     ]
+    },
+    {
+     "text": "The railway had found the first underground wealth. The Union Pacific needed coal for its locomotives, and it opened mines at Rock Springs, Hanna and Carbon. In the early 1950s the railway switched to diesel. It closed its Hanna mines in 1954 and its last Rock Springs mine in 1962, and the towns around them shrank.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Front Street, downtown Rock Springs in 1919.jpg",
+       "on_screen_text": "Rock Springs, 1919"
+      },
+      {
+       "type": "map",
+       "at": "and it opened mines",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.104,
+           "lat": 41.75,
+           "span": 7.488
+          },
+          "places": [
+           {
+            "name": "Rock Springs",
+            "lon": -109.22,
+            "lat": 41.59,
+            "kind": "city",
+            "label": "Rock Springs"
+           },
+           {
+            "name": "Hanna",
+            "lon": -106.56,
+            "lat": 41.87,
+            "kind": "site",
+            "label": "Hanna",
+            "icon": "factory"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In the early 1950s",
+       "stat": {
+        "value": "DIESEL",
+        "label": "Union Pacific trades steam for diesel, early 1950s",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It closed its Hanna",
+       "stat": {
+        "value": "1954",
+        "label": "Union Pacific shuts its Hanna mines",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and its last Rock",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -109.24,
+           "lat": 41.6,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rock Springs"
+      },
+      {
+       "type": "photo",
+       "at": "and the towns around",
+       "photo": "File:2009-0722-Hanna.jpg",
+       "on_screen_text": "Hanna from the air"
+      }
+     ]
+    },
+    {
+     "text": "Even the oil was decided far away. In 1922, the Secretary of the Interior quietly leased a naval oil reserve north of Casper, called Teapot Dome, to an oil tycoon who had sent him hundreds of thousands of dollars in bonds. Albert Fall became the first cabinet secretary in American history to go to prison.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.25,
+           "lat": 43.25,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Teapot Dome"
+      },
+      {
+       "type": "photo",
+       "at": "the Secretary of the",
+       "photo": "File:Albert B. Fall.jpg",
+       "on_screen_text": "Albert Fall, Secretary of the Interior"
+      },
+      {
+       "type": "map",
+       "at": "north of Casper, called",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 20.98
+          },
+          "places": [
+           {
+            "name": "Casper",
+            "lon": -106.31,
+            "lat": 42.85,
+            "kind": "city",
+            "label": "Casper"
+           },
+           {
+            "name": "Teapot Dome",
+            "lon": -106.23,
+            "lat": 43.27,
+            "kind": "site",
+            "label": "Teapot Dome",
+            "icon": "factory"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "to an oil tycoon",
+       "photo": "File:Harry F. Sinclair, multimillionaire oil magnate (left) and his counsel Martin W. Littleton. Teapot Dome hearing LCCN2016893277.jpg",
+       "on_screen_text": "Harry Sinclair at the Teapot Dome hearings"
+      },
+      {
+       "type": "photo",
+       "at": "Albert Fall became the",
+       "photo": "File:Former Secretary of Interior found guilty of bribery. Albert B. Fall, former Secretary of Interior, leaving the District and Supreme Court in Washington today surrounded by members of his LCCN2016889499.jpg",
+       "on_screen_text": "Albert Fall after the guilty verdict, 1929"
+      }
+     ]
+    },
+    {
+     "text": "Uranium told the same story in a smaller place. In 1957 a mill opened in central Wyoming, and Jeffrey City grew around it. By 1980 more than four thousand people lived there, with a school, a swimming pool and a bowling alley.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.67,
+           "lat": 42.76,
+           "span": 18.183
+          },
+          "places": [
+           {
+            "name": "Jeffrey City",
+            "lon": -107.83,
+            "lat": 42.5,
+            "kind": "site",
+            "label": "Jeffrey City"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -108.67,
+           "lat": 42.76,
+           "span": 15.456
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and Jeffrey City grew",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.82,
+           "lat": 42.49,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jeffrey City"
+      },
+      {
+       "type": "stat",
+       "at": "By 1980 more than",
+       "stat": {
+        "value": "4,000+",
+        "label": "People in Jeffrey City, 1980",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "with a school, a",
+       "photo": "File:Jeffrey City, Wyoming 1.JPG",
+       "on_screen_text": "Jeffrey City"
+      }
+     ]
+    },
+    {
+     "text": "But after the accident at Three Mile Island in 1979, the price of uranium fell. In the early 1980s the mines closed. By 1988 Jeffrey City was nearly empty. In 2010 the census counted fifty-eight people.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1979",
+        "label": "Three Mile Island; uranium prices fall",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In the early 1980s",
+       "photo": "File:Jeffrey City, Wyoming 2.JPG",
+       "on_screen_text": "Jeffrey City"
+      },
+      {
+       "type": "map",
+       "at": "By 1988 Jeffrey City",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.84,
+           "lat": 42.5,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jeffrey City and the empty plain"
+      },
+      {
+       "type": "stat",
+       "at": "In 2010 the census",
+       "stat": {
+        "value": "58",
+        "label": "People in Jeffrey City, 2010 census",
+        "source": "US Census 2010"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Coal made the biggest boom of all. In the Powder River Basin, the coal lies in seams so thick and so close to the surface that it is scraped up by machines the size of buildings.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 22.379
+          },
+          "highlight": [
+           "file:county_campbell.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the Powder River",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.25,
+           "lat": 43.68,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Antelope Rochelle mine"
+      },
+      {
+       "type": "photo",
+       "at": "so thick and so",
+       "photo": "File:New Antelope Rochelle Coal Mine.png",
+       "on_screen_text": "North Antelope Rochelle"
+      },
+      {
+       "type": "photo",
+       "at": "machines the size of",
+       "photo": "File:Coal Mining Dragline.png",
+       "on_screen_text": "A dragline, Powder River Basin"
+      }
+     ]
+    },
+    {
+     "text": "Gillette grew so fast in the 1970s that a psychologist gave the problems a name: the Gillette Syndrome. Crime, drinking, broken marriages, and families living in trailers in the mud.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.52,
+           "lat": 44.27,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gillette and its mines"
+      },
+      {
+       "type": "stat",
+       "at": "a psychologist gave the",
+       "stat": {
+        "value": "1974",
+        "label": "\"Gillette Syndrome\": a psychologist names the boomtown's troubles",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Crime, drinking, broken marriages,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.5,
+           "lat": 44.29,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gillette"
+      }
+     ]
+    },
+    {
+     "text": "Wyoming's coal peaked in 2008, at more than four hundred and sixty million tons. By 2024 it had fallen to about one hundred and ninety million, the lowest since 1992. Power plants across America were switching to gas and wind.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Wyoming coal output (million tons)",
+        "unit": "",
+        "data": [
+         [
+          "2008",
+          466.3
+         ],
+         [
+          "2024",
+          190
+         ]
+        ],
+        "source": "Wyoming State Geological Survey; EIA",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "By 2024 it had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.55,
+           "lat": 41.96,
+           "span": 23.078
+          },
+          "highlight": [
+           "file:county_campbell.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the lowest since 1992.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.28,
+           "lat": 43.66,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coal country, Campbell County"
+      },
+      {
+       "type": "photo",
+       "at": "Power plants across America",
+       "photo": "File:Wind Power 4892597382.jpg",
+       "on_screen_text": "Wind turbines"
+      }
+     ]
+    },
+    {
+     "text": "And even at the top of the boom, coal never needed many people. The machines did the work. North Antelope Rochelle, the biggest coal mine in the country, dug about sixty-five million tons in 2025. It did it with around eleven hundred workers.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Coal Haul Truck at North Antelope Rochelle.png",
+       "on_screen_text": "A haul truck at North Antelope Rochelle"
+      },
+      {
+       "type": "map",
+       "at": "The machines did the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.22,
+           "lat": 43.7,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": -105.22,
+           "lat": 43.7,
+           "span": 0.248
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "North Antelope Rochelle mine"
+      },
+      {
+       "type": "stat",
+       "at": "dug about sixty-five million",
+       "stat": {
+        "value": "65 M TONS",
+        "label": "North Antelope Rochelle, 2025",
+        "source": "Peabody Energy"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It did it with",
+       "stat": {
+        "value": "~1,100",
+        "label": "Workers at the mine",
+        "source": "Peabody Energy"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So the money stayed. Wyoming has no state income tax and billions saved in a mineral trust fund. But the jobs did not. And the people who notice that first are the young.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Downtown Gillette Wyoming in Summer (54271653951).jpg",
+       "on_screen_text": "Gillette"
+      },
+      {
+       "type": "stat",
+       "at": "Wyoming has no state",
+       "stat": {
+        "value": "NO INCOME TAX",
+        "label": "Wyoming levies no state income tax",
+        "source": "Wyoming Department of Revenue"
+       }
+      },
+      {
+       "type": "map",
+       "at": "But the jobs did",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.48,
+           "lat": 44.3,
+           "span": 0.25
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Gillette"
+      },
+      {
+       "type": "photo",
+       "at": "And the people who",
+       "photo": "File:Wyoming Union 2009.jpg",
+       "on_screen_text": "The Wyoming Union, University of Wyoming"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Children Leave",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason six. Wyoming raises its children well, and then loses most of them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.3,
+           "lat": 40.423,
+           "span": 5.975
+          },
+          "places": [
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Fort Collins",
+            "lon": -105.08,
+            "lat": 40.59,
+            "kind": "city",
+            "label": "Fort Collins"
+           },
+           {
+            "name": "Denver",
+            "lon": -104.99,
+            "lat": 39.74,
+            "kind": "city",
+            "label": "Denver"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -105.59,
+             41.31
+            ],
+            "to": [
+             -104.99,
+             39.74
+            ],
+            "color": "red",
+            "label": "The young leave",
+            "bend": 0.2
+           },
+           {
+            "from": [
+             -105.59,
+             41.31
+            ],
+            "to": [
+             -105.08,
+             40.59
+            ],
+            "color": "red",
+            "bend": -0.2
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The state has one public four-year university, in Laramie, a town of about thirty thousand. There is no big city with offices, hospitals and companies where a graduate can build a career.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Arts and Sciences Building - University of Wyoming - Laramie (52040416492).jpg",
+       "on_screen_text": "University of Wyoming, Laramie"
+      },
+      {
+       "type": "map",
+       "at": "in Laramie, a town",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.59,
+           "lat": 41.31,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Laramie"
+      },
+      {
+       "type": "photo",
+       "at": "There is no big",
+       "photo": "File:Natrona County Courthouse.JPG",
+       "on_screen_text": "Casper"
+      }
+     ]
+    },
+    {
+     "text": "A study by Harvard's Growth Lab in 2024 followed people born in Wyoming. By their thirties, nearly two in every three had left the state. That is one of the highest rates in the country.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2024",
+        "label": "Harvard Growth Lab: Wyoming growth diagnostic",
+        "source": "Harvard Growth Lab"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By their thirties, nearly",
+       "stat": {
+        "value": "2 IN 3",
+        "label": "Born in Wyoming, gone by their thirties",
+        "source": "Harvard Growth Lab, 2024"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That is one of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -98.86,
+           "lat": 41.98,
+           "span": 69.44
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Most of them did not go far. Fort Collins and Denver are an hour or two south. The same mountains, the same dry air, but a metro of about three million people, an airport with flights to the world, and jobs that do not depend on the price of coal.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.0,
+           "lat": 40.423,
+           "span": 5.975
+          },
+          "places": [
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           },
+           {
+            "name": "Fort Collins",
+            "lon": -105.08,
+            "lat": 40.59,
+            "kind": "city",
+            "label": "Fort Collins"
+           },
+           {
+            "name": "Denver",
+            "lon": -104.99,
+            "lat": 39.74,
+            "kind": "city",
+            "label": "Denver"
+           }
+          ]
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -105.0,
+           "lat": 40.72,
+           "span": 5.508
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "but a metro of",
+       "stat": {
+        "value": "~3 MILLION",
+        "label": "People in the Denver metro area",
+        "source": "US Census Bureau"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and jobs that do",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.763,
+           "lat": 40.577,
+           "span": 30.724
+          },
+          "highlight": [
+           "Colorado@red",
+           "Wyoming@alt"
+          ],
+          "places": [
+           {
+            "name": "Denver",
+            "lon": -104.99,
+            "lat": 39.74,
+            "kind": "city",
+            "label": "Denver"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Colorado had the same Rockies and the same dry plains. But it found gold in 1858, became a state in 1876, and gained federal offices, universities and an airline hub that Wyoming never had. Colorado now has just over six million people, ten times Wyoming's population, on a state not much bigger.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.981,
+           "lat": 40.577,
+           "span": 30.724
+          },
+          "highlight": [
+           "Colorado@alt",
+           "Wyoming@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "But it found gold",
+       "stat": {
+        "value": "1858",
+        "label": "Gold found near today's Denver",
+        "source": "History Colorado"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and gained federal offices,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -105.6,
+           "lat": 40.48,
+           "span": 6.96
+          },
+          "places": [
+           {
+            "name": "Denver",
+            "lon": -104.99,
+            "lat": 39.74,
+            "kind": "city",
+            "label": "Denver"
+           },
+           {
+            "name": "Laramie",
+            "lon": -105.59,
+            "lat": 41.31,
+            "kind": "city",
+            "label": "Laramie"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "chart",
+       "at": "Colorado now has just",
+       "chart": {
+        "type": "bar",
+        "title": "People, July 2025 (millions)",
+        "unit": "",
+        "data": [
+         [
+          "Colorado",
+          6.01
+         ],
+         [
+          "Wyoming",
+          0.59
+         ]
+        ],
+        "source": "US Census Bureau, Vintage 2025 estimates",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "on a state not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.309,
+           "lat": 40.577,
+           "span": 30.724
+          },
+          "highlight": [
+           "Colorado@red",
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is the loop Wyoming is caught in. Few people means few employers. Few employers means the young leave. And when they leave, there are fewer people again.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 19.449
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Few employers means the",
+       "photo": "File:Downtown Laramie Wyoming (52953967558).jpg",
+       "on_screen_text": "Laramie"
+      },
+      {
+       "type": "photo",
+       "at": "And when they leave,",
+       "photo": "File:Seedskadee nwr sunset.jpg",
+       "on_screen_text": "Seedskadee, at dusk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So that is why almost nobody lives in Wyoming. The land is high and dry, so the travellers kept walking. The railway put the towns in a single line. The cattle kings fought to keep the range in a few hands. The government kept the rest. The minerals came and went in booms. And the young leave for Colorado.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 20.889
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "so the travellers kept",
+       "photo": "File:This broad open saddle called South Pass in Wyoming located on the continental divide is one of the high points along the Oregon (f87089a1-155d-451f-67c6-1277b1f30ec3).JPG",
+       "on_screen_text": "South Pass"
+      },
+      {
+       "type": "map",
+       "at": "The railway put the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 22.33
+          },
+          "highlight": [
+           "file:line1868.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The cattle kings fought",
+       "photo": "File:TAranch.jpg",
+       "on_screen_text": "The TA Ranch siege, 1892"
+      },
+      {
+       "type": "map",
+       "at": "The government kept the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 20.169
+          },
+          "highlight": [
+           "file:federal.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The minerals came and",
+       "photo": "File:Coal Haul Truck at North Antelope Rochelle.png",
+       "on_screen_text": "North Antelope Rochelle"
+      },
+      {
+       "type": "photo",
+       "at": "And the young leave",
+       "photo": "File:Arts and Sciences Building - University of Wyoming - Laramie (52040416492).jpg",
+       "on_screen_text": "University of Wyoming"
+      }
+     ]
+    },
+    {
+     "text": "The four hunters won their case, and the ruling now covers corners like theirs in six western states. The men who rode north from Cheyenne in 1892 were never punished, and the big ranches are still there. And Jeffrey City, the town of four thousand, is a street grid in the sagebrush with a few dozen people.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.36,
+           "lat": 41.66,
+           "span": 0.9
+          },
+          "date": "2025-07-01/2025-09-20",
+          "highlight": [
+           "file:checker.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elk Mountain (squares: illustration)"
+      },
+      {
+       "type": "map",
+       "at": "in six western states.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.241,
+           "lat": 37.553,
+           "span": 50.569
+          },
+          "highlight": [
+           "Wyoming@red",
+           "Colorado@red",
+           "Utah@red",
+           "New Mexico@red",
+           "Kansas@red",
+           "Oklahoma@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The men who rode",
+       "stat": {
+        "value": "1892",
+        "label": "The invaders were never punished",
+        "source": "WyoHistory.org (Wyoming State Historical Society)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and the big ranches",
+       "photo": "File:Barns grand tetons.jpg",
+       "on_screen_text": "Ranch land under the Tetons"
+      },
+      {
+       "type": "map",
+       "at": "And Jeffrey City, the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.8,
+           "lat": 42.48,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-20"
+         },
+         {
+          "at": 47,
+          "view": {
+           "lon": -107.8,
+           "lat": 42.48,
+           "span": 0.186
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Jeffrey City in the sagebrush"
+      }
+     ]
+    },
+    {
+     "text": "Now Wyoming is betting on something new. In Carbon County, on the same windy range the railway crossed, a wind farm of about six hundred turbines is being built. It will be the largest power plant in the state.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.6,
+           "lat": 42.11,
+           "span": 9.216
+          },
+          "highlight": [
+           "file:county_carbon.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Chokecherry",
+            "lon": -107.2,
+            "lat": 41.6,
+            "kind": "site",
+            "label": "Wind farm site",
+            "icon": "factory"
+           },
+           {
+            "name": "Rawlins",
+            "lon": -107.24,
+            "lat": 41.79,
+            "kind": "city",
+            "label": "Rawlins"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In Carbon County, on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.3,
+           "lat": 41.7,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Carbon County range"
+      },
+      {
+       "type": "map",
+       "at": "a wind farm of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.2,
+           "lat": 41.6,
+           "span": 0.35
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Chokecherry and Sierra Madre site"
+      },
+      {
+       "type": "stat",
+       "at": "about six hundred turbines.",
+       "stat": {
+        "value": "~600 TURBINES",
+        "label": "Chokecherry and Sierra Madre wind project",
+        "source": "Power Company of Wyoming"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It will be the",
+       "photo": "File:Wind Power 4892597382.jpg",
+       "on_screen_text": "Wind turbines"
+      }
+     ]
+    },
+    {
+     "text": "And in Kemmerer, a coal town in the southwest, construction began in 2026 on a new kind of nuclear plant, next to the coal plant it is meant to replace.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 21.61
+          },
+          "places": [
+           {
+            "name": "Kemmerer",
+            "lon": -110.54,
+            "lat": 41.79,
+            "kind": "site",
+            "label": "Kemmerer",
+            "icon": "factory"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "construction began in 2026",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.6,
+           "lat": 41.76,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kemmerer: the Naughton coal plant"
+      },
+      {
+       "type": "stat",
+       "at": "on a new kind",
+       "stat": {
+        "value": "NATRIUM",
+        "label": "TerraPower's reactor: construction permit 4 March 2026",
+        "source": "US Nuclear Regulatory Commission"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Both bring money and, while they are built, thousands of workers. But once they run, the wind farm expects about a hundred and fourteen permanent jobs. The reactor, about two hundred and fifty. Wind and atoms will not fill Wyoming either.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.15,
+           "lat": 41.55,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The wind farm site, Carbon County"
+      },
+      {
+       "type": "stat",
+       "at": "But once they run,",
+       "stat": {
+        "value": "114",
+        "label": "Permanent jobs at the wind farm (developer's estimate)",
+        "source": "Power Company of Wyoming"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The reactor, about two",
+       "stat": {
+        "value": "~250",
+        "label": "Permanent jobs at the Natrium plant (estimate)",
+        "source": "TerraPower / Bechtel"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Wind and atoms will",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -108.67,
+           "lat": 42.76,
+           "span": 18.728
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Maybe that is not a failure. Wyoming has fewer people than any other state, and many of the people who live there would like it to stay that way. Would you take that much space, if the nearest city were three hours away?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:B-14. South Pass Overlook (west of South Pass City) on the California, Mormon Pioneer, and Oregon National Historic Trails (2003) (49008a89-8329-4aac-93d1-cd43c3407933).JPG",
+       "on_screen_text": "South Pass"
+      },
+      {
+       "type": "photo",
+       "at": "and many of the",
+       "photo": "File:Bikepacking through Great Divide Basin, Wyoming, USA.jpg",
+       "on_screen_text": "The Great Divide Basin"
+      },
+      {
+       "type": "map",
+       "at": "Would you take that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -92.66,
+           "lat": 39.5,
+           "span": 74.4
+          },
+          "highlight": [
+           "Wyoming@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Would you take that",
+      "text": "Would you take that much space, three hours from the nearest city?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives in Wyoming",
+  "title_candidates": [
+   "Why Almost Nobody Lives in Wyoming",
+   "Why Wyoming Is Bigger Than Britain but Almost Empty",
+   "Why Wyoming Has Fewer People Than Washington, D.C."
+  ],
+  "description": "Wyoming is bigger than the United Kingdom, yet fewer people live in the whole state than in Washington, D.C. Half a million emigrants crossed it on the way west and almost none stayed. We follow the answer on the map and in the archives: South Pass and the emigrant trails, the 1868 Union Pacific line that still holds a third of the people on a tenth of the land, the checkerboard and the corner-crossing hunters, the cattle kings and the Johnson County War, the federal land nobody can buy, Teapot Dome, Jeffrey City and the Powder River coal, and the young people who leave for Colorado.",
+  "tags": [
+   "Wyoming",
+   "Cheyenne",
+   "Wyoming geography",
+   "Union Pacific",
+   "Oregon Trail",
+   "South Pass",
+   "corner crossing",
+   "Johnson County War",
+   "Teapot Dome",
+   "Jeffrey City",
+   "Powder River Basin",
+   "Jackson Hole",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Would you take that much space, if the nearest city were three hours away?"
+ }
+}

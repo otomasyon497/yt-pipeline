@@ -1,0 +1,16 @@
+Wyoming (Natural Earth) 253,484 km2
+federal 47.0 % of Wyoming; BLM 27.9 % = 17.5 M acres; NPS 3.6 %
+federal.geojson            112,574 km2     2051 kB
+blm.geojson                 64,731 km2     1724 kB
+parks.geojson                9,002 km2       57 kB
+county_campbell.geojson     12,460 km2        1 kB
+county_teton.geojson        10,920 km2        2 kB
+   Teton County federal share (SMA): 91.9 %; + state: 92.1 %
+county_natrona.geojson      13,904 km2        1 kB
+county_carbon.geojson       20,658 km2        1 kB
+county_johnson.geojson      10,833 km2        1 kB
+rail20.geojson              24,948 km2        2 kB
+line1868.geojson             1,871 km2        1 kB
+uk_on_wy.geojson           243,512 km2       92 kB
+   UK 243,783 km2 vs Wyoming 253,484 km2
+checker.geojson                120 km2       11 kB

@@ -101,7 +101,7 @@ P21b: Before that, the hunters had also been charged with criminal trespass in C
 P22: A railway decided where Wyoming's towns would be. But who would own the land between them was decided by something else. Cattle, and the men who owned them.
 [ON SCREEN: archive photo of a roundup]
 
-## 3. The Cattle Kings (tense)
+## 3. The Cattle Kings (tension)
 
 P23: Reason three. Wyoming's open land was claimed early by a few very large cattle companies, and they fought to keep it that way.
 [ON SCREEN: painted map, northern Wyoming ranges highlighted, Powder River labelled]
@@ -159,7 +159,7 @@ P36b: The turning point came in 1934. The Taylor Grazing Act put the remaining o
 P37: Federal land is open to hikers, hunters and grazing. But you cannot build a town on it. Most of the land in Wyoming where a new suburb could go is simply not available.
 [ON SCREEN: push-in on a public-land border, a fence line from orbit]
 
-P38: Nowhere is that clearer than in Jackson Hole. About ninety-seven percent of Teton County is national park, national forest, refuge or other public land. The private land is a sliver along the valley floor.
+P38: Nowhere is that clearer than in Jackson Hole. More than nine-tenths of Teton County is national park, national forest or wildlife refuge. The private land is a sliver along the valley floor.
 [ON SCREEN: Sentinel-2 Jackson Hole; public land overlay (R28)]
 
 P39: The view brought the wealthy, and the sliver became some of the most expensive land in America. By the government's own count, Teton County has the highest income per person of any county in the country. Many of the people who work there cannot afford to live there, and drive in over a mountain pass from Idaho.
@@ -168,7 +168,7 @@ P39: The view brought the wealthy, and the sliver became some of the most expens
 P40: So the land is high, dry and largely closed. But Wyoming is rich, not poor. Under that land lies some of the biggest energy wealth in America. And that is where the fifth reason begins, because the wealth itself kept emptying the towns.
 [ON SCREEN: map of coal, oil and gas basins appearing]
 
-## 5. Boom and Bust Underground (tense)
+## 5. Boom and Bust Underground (tension)
 
 P41: Reason five. In Wyoming, minerals bring people in fast, and take them away just as fast.
 [ON SCREEN: painted map, energy basins; Powder River Basin in red]
@@ -211,7 +211,7 @@ P51: The state has one public four-year university, in Laramie, a town of about 
 P52: A study by Harvard's Growth Lab in 2024 followed people born in Wyoming. By their thirties, nearly two in every three had left the state. That is one of the highest rates in the country.
 [ON SCREEN: stat card "2 IN 3 GONE BY 30"; document card of the study]
 
-P53: Most of them did not go far. Fort Collins and Denver are an hour or two south. The same mountains, the same dry air, but a metro of nearly three million people, an airport with flights to the world, and jobs that do not depend on the price of coal.
+P53: Most of them did not go far. Fort Collins and Denver are an hour or two south. The same mountains, the same dry air, but a metro of about three million people, an airport with flights to the world, and jobs that do not depend on the price of coal.
 [ON SCREEN: map pull-back to the Front Range; night lights Colorado vs Wyoming]
 
 P53b: Colorado had the same Rockies and the same dry plains. But it found gold in 1858, became a state in 1876, and gained federal offices, universities and an airline hub that Wyoming never had. Colorado now has just over six million people, ten times Wyoming's population, on a state not much bigger.
@@ -220,12 +220,12 @@ P53b: Colorado had the same Rockies and the same dry plains. But it found gold i
 P54: That is the loop Wyoming is caught in. Few people means few employers. Few employers means the young leave. And when they leave, there are fewer people again.
 [ON SCREEN: loop diagram over the map]
 
-## Ending (hopeful, open)
+## Ending (calm)
 
 P55: So that is why almost nobody lives in Wyoming. The land is high and dry, so the travellers kept walking. The railway put the towns in a single line. The cattle kings fought to keep the range in a few hands. The government kept the rest. The minerals came and went in booms. And the young leave for Colorado.
 [ON SCREEN: the six numbered dots light up one by one]
 
-P55b: The four hunters won their case, and the corners of the checkerboard are open to the public across six states. The men who rode north from Cheyenne in 1892 were never punished, and the big ranches are still there. And Jeffrey City, the town of four thousand, is a street grid in the sagebrush with a few dozen people.
+P55b: The four hunters won their case, and the ruling now covers corners like theirs in six western states. The men who rode north from Cheyenne in 1892 were never punished, and the big ranches are still there. And Jeffrey City, the town of four thousand, is a street grid in the sagebrush with a few dozen people.
 [ON SCREEN: three quick callbacks: corner point, TA Ranch, Jeffrey City from orbit]
 
 P56: Now Wyoming is betting on something new. In Carbon County, on the same windy range the railway crossed, a wind farm of about six hundred turbines is being built. It will be the largest power plant in the state.
@@ -237,5 +237,5 @@ P57: And in Kemmerer, a coal town in the southwest, construction began in 2026 o
 P58: Both bring money and, while they are built, thousands of workers. But once they run, the wind farm expects about a hundred and fourteen permanent jobs. The reactor, about two hundred and fifty. Wind and atoms will not fill Wyoming either.
 [ON SCREEN: two stat cards "114" / "~250" (PCW + DOI 2012; Bechtel/TerraPower, R33); then wide map, Wyoming red again (cover view)]
 
-P59: Maybe that is not a failure. Wyoming is the emptiest state in America, and many of the people who live there would like it to stay that way. Would you take that much space, if the nearest city were three hours away?
+P59: Maybe that is not a failure. Wyoming has fewer people than any other state, and many of the people who live there would like it to stay that way. Would you take that much space, if the nearest city were three hours away?
 [ON SCREEN: closing photo, ranch under a big sky; question card]

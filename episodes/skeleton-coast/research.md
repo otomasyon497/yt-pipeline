@@ -58,3 +58,17 @@ Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why
   roughly twenty-five times as much" -> say "more than twenty times as much" [CHECK NMS normals if time].
 - R8 checked: Rossing open pit since 1976 (WNA); Husab (CGN / Swakop Uranium) Namibia's largest uranium producer;
   Namibia ~12 % of world uranium in 2024, third after Kazakhstan and Canada (WNA; Namibian 2025).
+- R11 Luderitz: May 1883 Angra Pequena + 5 miles bought from Josef Frederiks II for GBP 100 in gold and 200 rifles;
+  August 1883 strip to the Orange River in "miles" (German geographical miles, 7.4 km) -> "Meilenschwindel";
+  Luderitz set off to the Orange River July 1886 and did not return (Wikipedia; Britannica; Dierks chronology).
+- R12 Shark Island camp, Luderitz: Sept 1906 - Mar 1907, 1,032 of 1,795 prisoners died (cited in Nybooks / New Era);
+  2021 German-Namibian joint declaration: "genocide from today's perspective", request for forgiveness; talks
+  ongoing (Bundesregierung; Goethe-Institut).
+- R13 Walvis Bay water: Kuiseb aquifer, Kuiseb Collector pipeline (1970s, 80 km), no alternative source (UN-Habitat
+  GWOPA case study; New Era 2025); 2021 NamWater report: use exceeds sustainable limit (via The Namibian) - attribute.
+- R14 Kolmanskop: hospital up to 200 patients, early X-ray (reportedly first in the southern hemisphere, said to
+  check for swallowed diamonds), ice factory, ballroom; abandoned 1956 (Wikipedia; Atlas Obscura; The Namibian).
+- R15 Walvis Bay container terminal Aug 2019, ~40 ha reclaimed land, capacity 350,000 -> 750,000 TEU (Namport).
+- R16 Cape Cross: up to 210,000 Cape fur seals in the breeding season, largest colony (MET brochure).
+- R17 Offshore oil: Shell Graff-1 (Feb 2022), TotalEnergies Venus (2022), Orange Basin; S&P Global forecasts first
+  oil ~2029-2030; Kudu gas pipeline planned to Elizabeth Bay near Luderitz (S&P; World Oil 2024) [CHECK 2026 status].

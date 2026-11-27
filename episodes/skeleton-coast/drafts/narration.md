@@ -54,6 +54,9 @@ P12: Reason two. Ships need water and a safe harbour, and this coast had almost 
 P13: In January 1486, the Portuguese captain Diogo Cão landed at a headland north of today's Swakopmund and set up a stone cross to claim it. Then he sailed on.
 [ON SCREEN: photo of the Cape Cross replica cross (CC BY); stat card "1486"]
 
+P13b: The headland is still called Cape Cross. Today it belongs to seals. In the breeding season up to two hundred and ten thousand Cape fur seals crowd its rocks, the largest colony of its kind in the world.
+[ON SCREEN: photo of the Cape Cross seal colony (CC BY); stat card "210,000 SEALS"]
+
 P14: That cross stood there for four hundred years. In 1893 a German naval officer took it to Berlin, and Namibia later asked for it back. [CHECK return date]
 [ON SCREEN: photo of the original padrão in the German Historical Museum (if licensed) or map arrow to Berlin]
 
@@ -142,10 +145,10 @@ P34: In April 1908, a railway worker named Zacharias Lewala was clearing sand fr
 P35: The desert floor was scattered with them. Within months the colonial government closed off a huge strip of the coast, about twenty-six thousand square kilometres. It was called the Sperrgebiet, the forbidden area.
 [ON SCREEN: map, Sperrgebiet red; stat card "~26,000 km²"]
 
-P36: Inside it, the mining companies built towns for their own workers. At Kolmanskop they had a hospital, a school and a ballroom, in the middle of the dunes. [CHECK]
+P36: Inside it, the mining companies built towns for their own workers. At Kolmanskop there was a hospital for up to two hundred patients, an ice factory and a ballroom, in the middle of the dunes. The hospital is said to have had one of the first X-ray machines in the southern hemisphere, and some accounts say it was used to look for stolen diamonds.
 [ON SCREEN: photos of Kolmanskop buildings (CC BY)]
 
-P37: When richer deposits were found further south, the workers moved on. Kolmanskop was left to the sand, which now fills its rooms.
+P37: When richer deposits were found further south, the workers moved on. By 1956 Kolmanskop was empty, left to the sand, which now fills its rooms to the windowsills.
 [ON SCREEN: photos of Kolmanskop interiors full of sand (CC BY)]
 
 P38: The new centre was Oranjemund, at the mouth of the Orange River. It was a company town. For decades nobody could go there without a permit from the mining company.
@@ -183,6 +186,9 @@ P47: And they are growing fast. The region around them grew by almost sixty per 
 P48: One reason is the port: Walvis Bay is Namibia's door to the world, for fishing boats, ships and trucks to the interior.
 [ON SCREEN: photo of Walvis Bay port (CC BY)]
 
+P48b: In 2019 a new container terminal opened there, built on about forty hectares of land reclaimed from the bay. It more than doubled the port's capacity, to about seven hundred and fifty thousand containers a year.
+[ON SCREEN: Sentinel-2 of the new terminal; stat card "750,000 TEU"]
+
 P49: The other is uranium. Inland from Swakopmund lie some of the largest uranium mines in the world. Rössing has been digging since 1976, and in 2024 Namibia produced about an eighth of the world's uranium.
 [ON SCREEN: Sentinel-2 Rössing open pit; stat card "~12 %"]
 
@@ -211,6 +217,12 @@ P55: Namibia's government has taken a stake of about a quarter. The decision on 
 
 P56: Lüderitz badly needs work, and many of its people want the project. Conservationists warn about penguins and seabirds on the islands nearby and about building inside a park.
 [ON SCREEN: photo of African penguins near Lüderitz (CC BY); photo of Lüderitz town]
+
+P56b: And offshore there is another bet. In 2022 Shell and TotalEnergies found oil deep under the sea off the southern coast. Analysts expect the first oil around the end of this decade, and a gas pipeline is planned to come ashore near Lüderitz.
+[ON SCREEN: map, the Orange Basin discoveries offshore; stat card "2022"]
+
+P56c: If those projects go ahead, the empty south could fill with workers again, a century after the diamond rush.
+[ON SCREEN: photo of Kolmanskop]
 
 P57: It is the same question the coast has always asked. Is it worth bringing people, water and power to a place that never wanted them?
 [ON SCREEN: Sentinel-2 dunes and sea]

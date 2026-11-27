@@ -1099,3 +1099,4 @@ comment. Audio of the long render was never checked. No further work planned unl
   Bohlen), B "1,300 KM ALMOST EMPTY", C "LEFT TO THE SAND" (Kolmanskop); added to playlist "Why Almost Nobody Lives
   Here". STORYBOARD render started. NEXT: fetch artifact (gh run download -n skeleton-coast-storyboard, delete it),
   review 20+ sheets, fix, full render, fetch_episode -Delete, frame_audit, upload --publish-at 2026-12-06T23:00:00Z.
+- 2026-11-27: Skeleton Coast storyboard run 46043465459 finished (see conclusion); NEXT after /compact: gh run download 46043465459 -n skeleton-coast-storyboard to scratch, delete the artifact, review sheets.

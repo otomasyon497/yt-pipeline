@@ -30,3 +30,10 @@ oranjemund 16.45,-28.55 has cloud (try another window or 16.43,-28.55 0.15); des
 - Still missing: Lüderitz town today, Oranjemund, desert lion, African penguin, Ventura, fishing boats, Rössing pit photo,
   Dunedin Star (1942 photos likely not free) -> use Sentinel / maps / stat cards.
 - Do not use: "Padrão de Santo Agostinho MRAC" (a Congo padrão, not Cape Cross); "Caopillar.JPG" (small).
+- Added (catlist skc3): Lüderitz CC BY 4.0 set: "Lüderitz, Namibia (55528882907).jpg" (wide), "Lüderitz - view from
+  port.jpg", "Lüderitz - Art Nouveau-style building.jpg", "Lüderitz - Grunewald House.jpg", "Lüderitz - Kelp on
+  beach.jpg"; penguins: "Penguins at Halifax Island (37051158333).jpg" (CC BY 2.0, Halifax Island is off Lüderitz);
+  Ventura: "Lockheed PV-1 Ventura in flight, circa in late 1943 (NH 94917).jpg" (PD, US Navy PV-1 - caption "A Lockheed
+  Ventura, the type used"); Orange River: "ISS-62 Orange River, Namibia and South Africa.jpg" (PD NASA); "Wild desert
+  between Oranjemond and Rosh Pinah South Namibia (1).jpg" (CC BY 4.0 panorama).
+- Still missing: desert lion photo (try "search:lion Skeleton Coast" / "search:Panthera leo Hoanib"), fishing boats.

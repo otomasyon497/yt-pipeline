@@ -468,9 +468,21 @@
        "on_screen_text": "The Namib sand sea"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "In many places they",
-       "photo": "File:Sandwich Harbour, Walvis Bay (37731184332).jpg",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.48,
+           "lat": -23.37,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
        "on_screen_text": "Sandwich Harbour: dunes into the sea"
       }
      ]
@@ -639,9 +651,9 @@
         "steps": [
          {
           "view": {
-           "lon": 14.35,
+           "lon": 14.5,
            "lat": -23.9,
-           "span": 0.3
+           "span": 0.2
           },
           "date": "2025-05-01/2025-09-30"
          }
@@ -2316,7 +2328,7 @@
            "lat": -28.55,
            "span": 0.08
           },
-          "date": "2025-05-01/2025-09-30"
+          "date": "2025-10-01/2026-03-31"
          }
         ],
         "cut": true
@@ -2810,7 +2822,7 @@
        "type": "photo",
        "at": "Together they hold most",
        "photo": "File:Sandwich Harbour, Walvis Bay (37731184332).jpg",
-       "on_screen_text": "South of Walvis Bay"
+       "on_screen_text": "Walvis Bay's port from the air"
       }
      ]
     },

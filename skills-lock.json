@@ -72,6 +72,86 @@
       "skillPath": "skills/yt-retention/SKILL.md",
       "computedHash": "",
       "installMode": "copy"
+    },
+    "yt-audit": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-audit/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-chapters": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-chapters/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-comment": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-comment/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-edit": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-edit/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-plan": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-plan/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-script": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-script/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-seo": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-seo/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-shorts": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-shorts/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "yt-viral": {
+      "source": "jakeschincariol/youtube-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/yt-viral/SKILL.md",
+      "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+      "computedHash": "",
+      "installMode": "copy"
+    },
+    "youtube": {
+      "source": "AgriciDaniel/claude-youtube",
+      "sourceType": "github",
+      "skillPath": "skills/claude-youtube/SKILL.md",
+      "commit": "84c3fa6805200632fadb4fe2795ef265511271c7",
+      "computedHash": "",
+      "installMode": "copy"
     }
   }
 }

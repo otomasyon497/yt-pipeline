@@ -31,25 +31,25 @@ P6: Between 1840 and 1869, about half a million emigrants crossed it on the Oreg
 [ON SCREEN: NPS/LoC photo of wagon ruts at Guernsey; route glows to South Pass]
 
 P7: South Pass is so wide and gentle that wagons could roll over the Continental Divide without a road. It is also more than seven thousand feet above the sea.
-[ON SCREEN: Sentinel-2 South Pass, wide flat saddle; label "7,412 ft" [CHECK NPS]]
+[ON SCREEN: Sentinel-2 South Pass, wide flat saddle; label "7,412 ft" (WyoHistory: just over 7,400 ft; R21)]
 
 P7b: The travellers stopped only where they had to. Fort Laramie, on the North Platte, was a trading post and later an army fort where wagons rested and mended. Fort Bridger, in the far southwest, sold supplies to the people heading for Utah and California. These were service stations, not towns.
 [ON SCREEN: archive photo of Fort Laramie; two place labels on the trail line]
 
-P7c: So many wagons used the same track near today's town of Guernsey that their wheels cut grooves into the sandstone, in places several feet deep. You can still walk in them.
-[ON SCREEN: photo of the Guernsey ruts (Oregon Trail Ruts State Historic Site) [CHECK depth, NPS/Wyoming State Parks]]
+P7c: So many wagons used the same track near today's town of Guernsey that their wheels cut grooves into the sandstone, in places five feet deep. You can still walk in them.
+[ON SCREEN: photo of the Guernsey ruts (Oregon Trail Ruts State Historic Site; depth R22)]
 
 P8: And that is Wyoming's first problem. The average height of the whole state is about six thousand seven hundred feet. Only Colorado sits higher.
 [ON SCREEN: relief map, colour ramp; stat card "6,700 FT AVERAGE"]
 
-P9: Up there, summer is short. In the high basins, frost can come in any month. Most of the state gets between ten and sixteen inches of rain and snow a year. That is less than half of what falls on Iowa's farms.
-[ON SCREEN: precipitation map from NOAA normals; Iowa comparison label [CHECK NOAA]]
+P9: Up there, summer is short. In the high basins, frost can come in any month. On average the state gets about thirteen inches of rain and snow a year. In the western basins it is under ten. Iowa's farms get more than twice as much.
+[ON SCREEN: precipitation map (PRISM / National Atlas normals); Iowa comparison label (R23)]
 
 P10: In the middle of the state lies the Great Divide Basin, where the Continental Divide splits in two. Rain that falls here never reaches any ocean. It sinks into the ground or dries up where it lands.
 [ON SCREEN: painted map, basin outline in red; Sentinel-2 of dry lake beds in the Red Desert]
 
-P10b: And then there is the wind. Southern Wyoming is one of the windiest places in the lower forty-eight states. On Interstate 80, gusts regularly close the road to light, high-sided trucks and trailers, and wind still blows some of them over.
-[ON SCREEN: WYDOT photo of an overturned trailer on I-80 [CHECK WYDOT source, PD]; wind map]
+P10b: And then there is the wind. Southern Wyoming is one of the windiest places in the lower forty-eight states. On Interstate 80, gusts of sixty miles an hour close the road to light, high-sided trucks. Even so, the wind blows over about forty-seven vehicles a year on that one highway.
+[ON SCREEN: WYDOT photo of an overturned trailer on I-80 (licence to check at visuals); wind map (R24)]
 
 P11: For a family with an ox team and a plough, none of this looked like home. Oregon had rain. California had gold. Utah had a church waiting. Wyoming was the hard part in between.
 [ON SCREEN: three arrows leave South Pass to Oregon, California, Salt Lake]
@@ -68,14 +68,14 @@ P14: In July 1867, there was nothing at the spot the railway surveyors picked be
 P15: Then the line moved on, and new towns sprang up along it every few dozen miles. Laramie. Rawlins. Rock Springs. Green River. Evanston.
 [ON SCREEN: town labels appear one per name along the line]
 
-P15b: Some of those towns did not survive the summer. Benton, in the desert east of Rawlins, was the end of the track in 1868. For a few weeks it had thousands of people, saloons, gambling halls and a newspaper. Then the tracks moved west, the people followed, and within about three months Benton was gone. Today there is nothing on the spot but sagebrush.
-[ON SCREEN: Sentinel-2 empty ground at the Benton site; label "Benton, 1868" [CHECK WyoHistory: population, duration]]
+P15b: Some of those towns did not survive the summer. Benton, in the desert east of Rawlins, was the end of the track in 1868. For a few weeks it had about three thousand people, saloons and gambling halls. Then the tracks moved west, the people followed, and within about three months Benton was gone. Today there is nothing on the spot but sagebrush.
+[ON SCREEN: Sentinel-2 empty ground at the Benton site; label "Benton, 1868" (R25)]
 
 P15c: Towns like this were called Hell on Wheels. They were not settlements. They were the railway's camp, packed up and carried west on flatcars.
 [ON SCREEN: archive photo of a Hell on Wheels town (Bear River City or Benton, 1868)]
 
-P16: We measured where Wyoming's people live today, using a population map built from census data and satellite images. [M1 result: share of people within 20 km of the 1868 line, against the share of land in that band.] A route drawn in the 1860s still holds the state together.
-[ON SCREEN: population dots glow along the line; stat card with M1]
+P16: We measured where Wyoming's people live today, using every neighbourhood in the 2020 census. A band twelve miles either side of the old line covers a tenth of the state. More than a third of all Wyomingites live inside it. Most of the rest live in towns that later booms built, like Casper and Gillette.
+[ON SCREEN: census population dots; the 20 km band glows along the line; stat card "35 % OF PEOPLE / 10 % OF THE LAND" (M1, geo/measure_rail.py)]
 
 P16b: Look at the map with the railway hidden, and you can still draw it from the lights at night. A line of towns across the south, and in the north and the middle, darkness with a few bright spots, mostly mine and oil towns.
 [ON SCREEN: VIIRS night lights, then the railway line drawn over the lit towns]
@@ -93,10 +93,10 @@ P20: In 2021, four hunters from Missouri did exactly that on Elk Mountain, using
 [ON SCREEN: Sentinel-2 Elk Mountain; stat card "$7.75 M" with "claimed"]
 
 P21: The hunters won in court in 2023, and again on appeal in 2025. In October 2025 the Supreme Court declined to hear the case. Across the West, about eight million acres of public land are locked in corners like these.
-[ON SCREEN: court dates as a timeline card; western map with corner-locked areas [CHECK onX/Earthjustice figure]]
+[ON SCREEN: court dates as a timeline card; western map with corner-locked areas (onX 2022, R27)]
 
-P21b: Before that, the hunters had also been charged with criminal trespass in Carbon County. In 2022 a local jury found them not guilty, after deliberating for less than three hours.
-[ON SCREEN: Carbon County courthouse photo [CHECK WyoFile: verdict date, deliberation time]]
+P21b: Before that, the hunters had also been charged with criminal trespass in Carbon County. In April 2022 a local jury found them not guilty, after deliberating for less than two hours.
+[ON SCREEN: Carbon County courthouse photo (WyoFile 29 Apr 2022, R26)]
 
 P22: A railway decided where Wyoming's towns would be. But who would own the land between them was decided by something else. Cattle, and the men who owned them.
 [ON SCREEN: archive photo of a roundup]
@@ -131,7 +131,7 @@ P31: Wyoming had become a state less than two years before. The census of 1890 h
 [ON SCREEN: stat card "62,555 PEOPLE, 1890"; painted map of the new state]
 
 P31b: The territory had already tried an unusual way to attract settlers. In December 1869, Wyoming became the first place in the United States where women could vote and hold office. Men far outnumbered women in the territory. Some lawmakers backed the vote on principle. Others hoped it would bring families west. It made Wyoming the Equality State. It did not make it crowded.
-[ON SCREEN: archive photo of women voting in Cheyenne, 1888 (Frank Leslie's, PD); stat card "1869" [CHECK 1870 census sex ratio before giving a number]]
+[ON SCREEN: archive photo of women voting in Cheyenne, 1888 (Frank Leslie's, PD); stat card "1869" (no ratio given: only secondary 5:1 / 6:1 estimates exist)]
 
 P32: And there was a deeper reason the small homesteads struggled. A federal homestead was a hundred and sixty acres. In Iowa that was a farm. In Wyoming's dry grass, it could not feed a herd big enough to live on.
 [ON SCREEN: card 160 acres; side-by-side Sentinel-2: Iowa farm grid vs Wyoming range]
@@ -159,11 +159,11 @@ P36b: The turning point came in 1934. The Taylor Grazing Act put the remaining o
 P37: Federal land is open to hikers, hunters and grazing. But you cannot build a town on it. Most of the land in Wyoming where a new suburb could go is simply not available.
 [ON SCREEN: push-in on a public-land border, a fence line from orbit]
 
-P38: Nowhere is that clearer than in Jackson Hole. Almost all of Teton County is national park, national forest or wildlife refuge. The private land is a sliver along the valley floor.
-[ON SCREEN: Sentinel-2 Jackson Hole; public land overlay [CHECK county share]]
+P38: Nowhere is that clearer than in Jackson Hole. About ninety-seven percent of Teton County is national park, national forest, refuge or other public land. The private land is a sliver along the valley floor.
+[ON SCREEN: Sentinel-2 Jackson Hole; public land overlay (R28)]
 
-P39: The view brought the wealthy, and the sliver became some of the most expensive land in America. Teton County is often ranked as the richest county in the country by income per person. Many of the people who work there cannot afford to live there, and drive in over a mountain pass from Idaho.
-[ON SCREEN: photo of Jackson town square; route arrow over Teton Pass from Idaho [CHECK BEA rank]]
+P39: The view brought the wealthy, and the sliver became some of the most expensive land in America. By the government's own count, Teton County has the highest income per person of any county in the country. Many of the people who work there cannot afford to live there, and drive in over a mountain pass from Idaho.
+[ON SCREEN: photo of Jackson town square; route arrow over Teton Pass from Idaho (BEA, R29)]
 
 P40: So the land is high, dry and largely closed. But Wyoming is rich, not poor. Under that land lies some of the biggest energy wealth in America. And that is where the fifth reason begins, because the wealth itself kept emptying the towns.
 [ON SCREEN: map of coal, oil and gas basins appearing]
@@ -173,8 +173,8 @@ P40: So the land is high, dry and largely closed. But Wyoming is rich, not poor.
 P41: Reason five. In Wyoming, minerals bring people in fast, and take them away just as fast.
 [ON SCREEN: painted map, energy basins; Powder River Basin in red]
 
-P42b: The railway had found the first underground wealth. The Union Pacific needed coal for its locomotives, and it opened mines at Rock Springs, Hanna and Carbon. When diesel engines replaced steam after the Second World War, those mines lost their best customer, and the towns around them shrank.
-[ON SCREEN: archive photo of Rock Springs mine; locomotive photo [CHECK dates of the steam-to-diesel switch on the UP]]
+P42b: The railway had found the first underground wealth. The Union Pacific needed coal for its locomotives, and it opened mines at Rock Springs, Hanna and Carbon. In the early 1950s the railway switched to diesel. It closed its Hanna mines in 1954 and its last Rock Springs mine in 1962, and the towns around them shrank.
+[ON SCREEN: archive photo of Rock Springs mine; locomotive photo (WyoHistory "Wyoming's First Coal Bust", R30)]
 
 P42: Even the oil was decided far away. In 1922, the Secretary of the Interior quietly leased a naval oil reserve north of Casper, called Teapot Dome, to an oil tycoon who had sent him hundreds of thousands of dollars in bonds. Albert Fall became the first cabinet secretary in American history to go to prison.
 [ON SCREEN: photo of Teapot Rock; 1924 Senate hearing photo]
@@ -182,7 +182,7 @@ P42: Even the oil was decided far away. In 1922, the Secretary of the Interior q
 P43: Uranium told the same story in a smaller place. In 1957 a mill opened in central Wyoming, and Jeffrey City grew around it. By 1980 more than four thousand people lived there, with a school, a swimming pool and a bowling alley.
 [ON SCREEN: Jeffrey City label; archive photo of the mill]
 
-P44: Then came the accident at Three Mile Island in 1979, and the price of uranium fell. The mines closed. By 1988 Jeffrey City was nearly empty. In 2010 the census counted fifty-eight people.
+P44: But after the accident at Three Mile Island in 1979, the price of uranium fell. In the early 1980s the mines closed. By 1988 Jeffrey City was nearly empty. In 2010 the census counted fifty-eight people.
 [ON SCREEN: Sentinel-2 Jeffrey City, street grid with empty lots; stat card "4,000 -> 58"]
 
 P45: Coal made the biggest boom of all. In the Powder River Basin, the coal lies in seams so thick and so close to the surface that it is scraped up by machines the size of buildings.
@@ -194,8 +194,8 @@ P46: Gillette grew so fast in the 1970s that a psychologist gave the problems a 
 P47: Wyoming's coal peaked in 2008, at more than four hundred and sixty million tons. By 2024 it had fallen to about one hundred and ninety million, the lowest since 1992. Power plants across America were switching to gas and wind.
 [ON SCREEN: chart, coal output 1990-2024, bars revealed on the numbers]
 
-P48: And even at the top of the boom, coal never needed many people. The machines did the work. A mine that moves a hundred million tons a year runs with a few hundred workers. [CHECK mine size and staff]
-[ON SCREEN: haul truck photo; stat card]
+P48: And even at the top of the boom, coal never needed many people. The machines did the work. North Antelope Rochelle, the biggest coal mine in the country, dug about sixty-five million tons in 2025. It did it with around eleven hundred workers.
+[ON SCREEN: haul truck photo; stat card "65 M TONS / ~1,100 WORKERS" (Peabody, R31)]
 
 P49: So the money stayed. Wyoming has no state income tax and billions saved in a mineral trust fund. But the jobs did not. And the people who notice that first are the young.
 [ON SCREEN: card "NO STATE INCOME TAX"; photo of University of Wyoming]
@@ -214,8 +214,8 @@ P52: A study by Harvard's Growth Lab in 2024 followed people born in Wyoming. By
 P53: Most of them did not go far. Fort Collins and Denver are an hour or two south. The same mountains, the same dry air, but a metro of nearly three million people, an airport with flights to the world, and jobs that do not depend on the price of coal.
 [ON SCREEN: map pull-back to the Front Range; night lights Colorado vs Wyoming]
 
-P53b: Colorado had the same Rockies and the same dry plains. But it found gold in 1858, became a state in 1876, and gained federal offices, universities and an airline hub that Wyoming never had. Colorado now has nearly six million people, ten times Wyoming's population, on a state not much bigger.
-[ON SCREEN: map of both states side by side; population stat cards [CHECK Census 2025 Colorado]]
+P53b: Colorado had the same Rockies and the same dry plains. But it found gold in 1858, became a state in 1876, and gained federal offices, universities and an airline hub that Wyoming never had. Colorado now has just over six million people, ten times Wyoming's population, on a state not much bigger.
+[ON SCREEN: map of both states side by side; population stat cards (Census V2025: 6,012,561, R32)]
 
 P54: That is the loop Wyoming is caught in. Few people means few employers. Few employers means the young leave. And when they leave, there are fewer people again.
 [ON SCREEN: loop diagram over the map]
@@ -234,8 +234,8 @@ P56: Now Wyoming is betting on something new. In Carbon County, on the same wind
 P57: And in Kemmerer, a coal town in the southwest, construction began in 2026 on a new kind of nuclear plant, next to the coal plant it is meant to replace.
 [ON SCREEN: Sentinel-2 Kemmerer, Naughton plant; label "Natrium"]
 
-P58: Both bring money and some jobs. But like the coal mines, once they are built they need only a few hundred people to run. Wind and atoms will not fill Wyoming either. [CHECK staffing figures]
-[ON SCREEN: wide map, Wyoming red again (cover view)]
+P58: Both bring money and, while they are built, thousands of workers. But once they run, the wind farm expects about a hundred and fourteen permanent jobs. The reactor, about two hundred and fifty. Wind and atoms will not fill Wyoming either.
+[ON SCREEN: two stat cards "114" / "~250" (PCW + DOI 2012; Bechtel/TerraPower, R33); then wide map, Wyoming red again (cover view)]
 
 P59: Maybe that is not a failure. Wyoming is the emptiest state in America, and many of the people who live there would like it to stay that way. Would you take that much space, if the nearest city were three hours away?
 [ON SCREEN: closing photo, ranch under a big sky; question card]

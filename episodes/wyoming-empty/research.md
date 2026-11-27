@@ -32,8 +32,31 @@ Rivals: competitors.md (crowded: RealLifeLore + Pin & Ponder cover the basics; o
 | R19 | TerraPower Natrium, Kemmerer (coal town, Naughton plant): nonnuclear work from June 2024, NRC construction permit 4 Mar 2026, construction from April 2026, operation ~2030 | NRC, DOE, ANS | primary |
 | R20 | Average elevation ~6,700 ft (2nd after Colorado); most of the state 10-16 in precipitation, basins under 8; Laramie frost-free season short | USGS elevations, NOAA normals (round 2) | to fetch |
 
+## Sources, round 2 (27 Nov 2026; settles the [CHECK] marks in drafts/narration.md)
+
+| # | Fact | Source | Strength |
+|---|---|---|---|
+| R3b | ~500,000 crossed South Pass 1840-1869 (replaces R3's 400,000 in the script) | NPS "Gateway to the West" / South Pass pages | primary |
+| R21 | South Pass (historic crossing) 7,412 ft; WyoHistory: "just over 7,400", the 7,550 often quoted is the divide north of it | WyoHistory "South Pass"; NPS NHL text says ">7,500" | good; script says "more than seven thousand" |
+| R22 | Guernsey ruts worn into sandstone "more than five feet deep" (Wyoming State Parks); SHPO: 2 to 6 ft | wyoparks.wyo.gov "About Oregon Trail Ruts"; NPS OREG page; wyoshpo NHL listing | primary |
+| R23 | Statewide average precipitation 12.68 in (1961-90, National Atlas); SW basins 7-10 in, western basins 4-8 in (WRCC); Iowa ~35 in | National Atlas pageprecip_wy3; WRCC narrative_wy; NOAA Iowa normals | good; "about thirteen", "under ten" |
+| R24 | WYDOT closes roads to light, high-profile vehicles at gusts of 60 mph+; average 47.4 blow-overs a year on I-80 (5-yr WYDOT study); November worst month | dot.state.wy.us news + wyoming-wind page | primary |
+| R25 | Benton, ~11 mi east of Rawlins, end of track July-Sept 1868, ~3,000 people, gone in ~3 months; ~100 graves left. "100 murders" is a period claim: not used. Newspaper claim dropped | Carbon County Museum; WyoHistory railroad toolkit; HMdb marker | good |
+| R26 | Carbon County jury (six members) found the four hunters not guilty of criminal trespass on 29 Apr 2022 after under two hours | WyoFile, Outdoor Life, Cowboy State Daily 29 Apr 2022 | good |
+| R27 | ~8.3 M acres of public land corner-locked across the West (onX 2022); district court for hunters 26 May 2023 (Skavdahl); claim $3.1-7.75 M, up to $9.4 M | onX / Earthjustice; court record | good |
+| R28 | Teton County ~97 % public land (federal + state; ~45 % parks, ~51 % national forest) | ACHP; Mountain Journal; Snake River Fund | consistent secondary; PAD-US for exact (M2) |
+| R29 | Teton County highest per-capita personal income of any US county (BEA, every year at least 2010-2017 in BEA releases; 2023 $471,751 via WyoFile) | BEA Local Area Personal Income releases | primary |
+| R30 | UP switched to diesel by the early 1950s; Hanna and Reliance mines closed Jan/Feb 1954 (180 jobs); last UP Wyoming mine, Rock Springs No. 8, closed 28 Aug 1962 (WSGS says 1963); last UP steam run 1959 | WyoHistory "Wyoming's First Coal Bust", "A Brief History of Hanna"; WSGS coal history | good |
+| R31 | North Antelope Rochelle (largest US coal mine): ~65 Mt in 2025, ~1,125 employees (Peabody page); 60 Mt in 2024 | peabodyenergy.com NARM page; Industrial Info | primary (company) |
+| R32 | Colorado 6,012,561 (1 Jul 2025, Census V2025) = 10.2x Wyoming | Census QuickFacts / Colorado SDO | primary |
+| R33 | Chokecherry-Sierra Madre: 114 permanent O&M jobs (developer, repeated by DOI 2012); peak construction ~1,000-1,200. Natrium: ~250 permanent positions (Bechtel/TerraPower) | powercompanyofwyoming.com; doi.gov 2012 release; Bechtel Natrium page | developer figures: script says "expects" |
+| R34 | Jeffrey City: mill 1957, >4,000 people by 1980, mines/mill closed early 1980s, nearly vacant by 1988, 58 people in 2010 census | WyoHistory "Jeffrey City"; Census 2010 | good |
+| R35 | Federal land 48.19 % of Wyoming (CRS 2012 via Ballotpedia); BLM 18.3 M surface acres | CRS R42346; BLM Wyoming | primary |
+| R36 | Women's suffrage: no census sex ratio found for 1870 (total 9,118); the 6:1 / 5:1 ratios are secondary, so the script gives no number | Census 1900 bulletin; WyoHistory | n/a |
+| R37 | Nate Champion's diary (9 Apr 1892) ends "Goodbye, boys, if I never see you again. Nathan D. Champion." (public domain, 1892) | WyoHistory "Johnson County War"; diary text in Mercer 1894 | primary (PD) |
+
 ## Own measurements (planned)
-- **M1 The railroad still holds the people:** Kontur 2023 grid -> share of Wyomingites within 20 km of the 1868 Union Pacific line (OSM railway) vs the share of land in that band.
+- **M1 The railroad band (done 27 Nov, geo/measure_rail.py):** 2020 census block-group centres of population (576,851, matches the census) vs the 1868 Union Pacific line drawn through its 12 stations (631 km). Within 10 km: 33.7 % of people on 5.0 % of the land; 20 km: 35.3 % on 9.9 %; 30 km: 36.1 % on 14.4 %; 50 km: 37.6 % on 22.8 %. So "more than a third on a tenth of the land", not "most": Casper, Gillette, Sheridan and Jackson are off the line.
 - **M2 Where the land is closed:** federal + state share by county (PAD-US / BLM surface management) next to people per km2.
 - **M3 Pronghorn vs people:** WGFD herd unit estimates by region vs census; only if the numbers are published.
 

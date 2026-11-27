@@ -1067,3 +1067,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   smoky Florida City Sentinel views -> 2024-11-15/2025-01-31 window, Windley Key view moved onto the island, shipping
   arrow through the Straits, 49 % card held longer, Key Haven flood photo out (it was a storm, the line is about
   no-storm floods). factcheck regenerated, 0 FIX. FULL RENDER next.
+- 2026-11-27: Florida Keys render 46023882866 (16.3 min) fetched -Delete (release + artifacts deleted); frame_audit: all
+  33 sheets reviewed, approved. UPLOADED n2rTnSIlBmg, private, publishAt 2026-12-05T23:00:00Z (6 Dec 02:00 TR), cover A
+  ("ONE ROAD IN OR OUT"), added to "Sinking Cities and Vanishing Coasts". By hand (user): Test & Compare with
+  cover_A/B/C (Videos\yt-pipeline\florida-keys); pin "Would you keep paying to hold a road above a rising sea, or
+  should the Keys one day go back to boats?" after it goes public. Next free slot: 6 Dec 23:00 UTC.

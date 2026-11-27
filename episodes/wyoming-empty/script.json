@@ -207,10 +207,23 @@
        "on_screen_text": "A cattle drive near Pinedale"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "once hired gunmen to",
-       "photo": "File:Invaders.gif",
-       "on_screen_text": "The invaders of 1892 after their surrender"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 17.28
+          },
+          "highlight": [
+           "file:county_johnson.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
       },
       {
        "type": "map",
@@ -269,9 +282,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.75,
-           "lat": 43.08,
-           "span": 17.28
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 18.56
           },
           "highlight": [
            "Wyoming@red"
@@ -329,9 +342,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.35,
-           "lat": 42.44,
-           "span": 18.56
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 19.84
           },
           "highlight": [
            "Wyoming@red"
@@ -416,9 +429,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 19.84
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 17.92
           },
           "places": [
            {
@@ -532,9 +545,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.03,
-           "lat": 43.4,
-           "span": 17.92
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 19.2
           },
           "places": [
            {
@@ -709,9 +722,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.43,
+           "lon": -108.67,
            "lat": 42.76,
-           "span": 19.2
+           "span": 16.64
           },
           "highlight": [
            "Wyoming@red"
@@ -832,9 +845,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.67,
-           "lat": 42.76,
-           "span": 16.64
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 20.48
           },
           "places": [
            {
@@ -1127,8 +1140,8 @@
          {
           "view": {
            "lon": -107.55,
-           "lat": 43.56,
-           "span": 20.48
+           "lat": 41.96,
+           "span": 21.12
           },
           "highlight": [
            "Wyoming@alt"
@@ -1665,9 +1678,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.55,
-           "lat": 41.96,
-           "span": 21.12
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 17.798
           },
           "highlight": [
            "file:line1868.geojson@red"
@@ -1684,9 +1697,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.75,
-           "lat": 43.08,
-           "span": 17.798
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 19.117
           },
           "highlight": [
            "file:rail20.geojson@red"
@@ -1724,9 +1737,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.35,
-           "lat": 42.44,
-           "span": 19.117
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 20.435
           },
           "highlight": [
            "file:rail20.geojson@alt"
@@ -1764,18 +1777,18 @@
         "steps": [
          {
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 20.435
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 18.458
           },
           "layer": "night"
          },
          {
           "at": 9,
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 17.37
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 15.689
           },
           "layer": "night"
          }
@@ -1790,9 +1803,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.03,
-           "lat": 43.4,
-           "span": 18.458
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 19.776
           },
           "layer": "night",
           "routes": [
@@ -1853,9 +1866,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.43,
+           "lon": -108.67,
            "lat": 42.76,
-           "span": 19.776
+           "span": 17.139
           },
           "layer": "night"
          }
@@ -1870,9 +1883,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.67,
-           "lat": 42.76,
-           "span": 17.139
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 21.094
           },
           "layer": "night",
           "places": [
@@ -2209,8 +2222,8 @@
          {
           "view": {
            "lon": -107.55,
-           "lat": 43.56,
-           "span": 21.094
+           "lat": 41.96,
+           "span": 21.754
           },
           "highlight": [
            "file:county_carbon.geojson@red"
@@ -2288,9 +2301,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.55,
-           "lat": 41.96,
-           "span": 21.754
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 18.332
           },
           "highlight": [
            "file:county_johnson.geojson@red"
@@ -2495,10 +2508,22 @@
      "text": "In April 1892, the Wyoming Stock Growers Association acted. A special train left Cheyenne carrying about fifty armed men, among them two dozen gunmen hired in Texas. They carried a list of names.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:Invaders.gif",
-       "on_screen_text": "The invaders of 1892"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.83,
+           "lat": 41.13,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cheyenne, where the special train left"
       },
       {
        "type": "map",
@@ -2507,9 +2532,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.75,
-           "lat": 43.08,
-           "span": 18.332
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 19.69
           },
           "places": [
            {
@@ -2570,9 +2595,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.35,
-           "lat": 42.44,
-           "span": 19.69
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 21.048
           },
           "places": [
            {
@@ -2828,10 +2853,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "They trapped the invaders",
-       "photo": "File:TAranch.jpg",
-       "on_screen_text": "Plan of the siege at the TA Ranch, 1892"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.62,
+           "lat": 44.27,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The TA Ranch, on Crazy Woman Creek"
       }
      ]
     },
@@ -2916,9 +2953,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 21.048
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 19.011
           },
           "highlight": [
            "Wyoming@red"
@@ -3022,9 +3059,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.03,
-           "lat": 43.4,
-           "span": 19.011
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 20.369
           },
           "highlight": [
            "Wyoming@red"
@@ -3105,9 +3142,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.43,
+           "lon": -108.67,
            "lat": 42.76,
-           "span": 20.369
+           "span": 17.653
           },
           "highlight": [
            "file:federal.geojson@red"
@@ -3159,9 +3196,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.67,
-           "lat": 42.76,
-           "span": 17.653
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 21.727
           },
           "highlight": [
            "file:rail20.geojson@red",
@@ -3191,8 +3228,8 @@
          {
           "view": {
            "lon": -107.55,
-           "lat": 43.56,
-           "span": 21.727
+           "lat": 41.96,
+           "span": 22.406
           },
           "highlight": [
            "file:federal.geojson@red"
@@ -3241,9 +3278,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.55,
-           "lat": 41.96,
-           "span": 22.406
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 18.882
           },
           "highlight": [
            "file:parks.geojson@red"
@@ -3289,9 +3326,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.75,
-           "lat": 43.08,
-           "span": 18.882
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 20.281
           },
           "highlight": [
            "file:blm.geojson@red"
@@ -3452,9 +3489,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.35,
-           "lat": 42.44,
-           "span": 20.281
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 21.68
           },
           "highlight": [
            "file:county_teton.geojson@red"
@@ -3613,9 +3650,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 21.68
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 19.582
           },
           "places": [
            {
@@ -3644,9 +3681,9 @@
          {
           "at": 35,
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 18.428
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 16.645
           }
          }
         ],
@@ -3671,9 +3708,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.03,
-           "lat": 43.4,
-           "span": 19.582
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 20.98
           },
           "highlight": [
            "file:county_campbell.geojson@red",
@@ -3812,9 +3849,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.43,
+           "lon": -108.67,
            "lat": 42.76,
-           "span": 20.98
+           "span": 18.183
           },
           "places": [
            {
@@ -3862,9 +3899,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.67,
-           "lat": 42.76,
-           "span": 18.183
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 22.379
           },
           "places": [
            {
@@ -3879,9 +3916,9 @@
          {
           "at": 8,
           "view": {
-           "lon": -108.67,
-           "lat": 42.76,
-           "span": 15.456
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 19.022
           }
          }
         ],
@@ -3981,8 +4018,8 @@
          {
           "view": {
            "lon": -107.55,
-           "lat": 43.56,
-           "span": 22.379
+           "lat": 41.96,
+           "span": 23.078
           },
           "highlight": [
            "file:county_campbell.geojson@red"
@@ -4105,9 +4142,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.55,
-           "lat": 41.96,
-           "span": 23.078
+           "lon": -106.75,
+           "lat": 43.08,
+           "span": 19.449
           },
           "highlight": [
            "file:county_campbell.geojson@red"
@@ -4604,9 +4641,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.75,
-           "lat": 43.08,
-           "span": 19.449
+           "lon": -108.35,
+           "lat": 42.44,
+           "span": 20.889
           },
           "highlight": [
            "Wyoming@red"
@@ -4646,9 +4683,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.35,
-           "lat": 42.44,
-           "span": 20.889
+           "lon": -107.07,
+           "lat": 42.12,
+           "span": 22.33
           },
           "highlight": [
            "Wyoming@red"
@@ -4671,9 +4708,9 @@
         "steps": [
          {
           "view": {
-           "lon": -107.07,
-           "lat": 42.12,
-           "span": 22.33
+           "lon": -108.03,
+           "lat": 43.4,
+           "span": 20.169
           },
           "highlight": [
            "file:line1868.geojson@red"
@@ -4686,8 +4723,8 @@
       {
        "type": "photo",
        "at": "The cattle kings fought",
-       "photo": "File:TAranch.jpg",
-       "on_screen_text": "The TA Ranch siege, 1892"
+       "photo": "File:Cattle branding (Grabill 1888).jpg",
+       "on_screen_text": "Branding cattle, 1888"
       },
       {
        "type": "map",
@@ -4696,9 +4733,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.03,
-           "lat": 43.4,
-           "span": 20.169
+           "lon": -106.43,
+           "lat": 42.76,
+           "span": 21.61
           },
           "highlight": [
            "file:federal.geojson@red"
@@ -4916,9 +4953,9 @@
         "steps": [
          {
           "view": {
-           "lon": -106.43,
+           "lon": -108.67,
            "lat": 42.76,
-           "span": 21.61
+           "span": 18.728
           },
           "places": [
            {
@@ -5010,9 +5047,9 @@
         "steps": [
          {
           "view": {
-           "lon": -108.67,
-           "lat": 42.76,
-           "span": 18.728
+           "lon": -107.55,
+           "lat": 43.56,
+           "span": 23.05
           },
           "highlight": [
            "Wyoming@red"

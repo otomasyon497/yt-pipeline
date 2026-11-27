@@ -1,0 +1,5744 @@
+{
+ "title": "Why the Florida Keys Hang on a Single Road",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/florida-keys/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2025",
+  "Sea level: own calculation from NOAA CO-OPS monthly means, Key West 8724580 (geo/measure_sealevel.py)",
+  "People near US 1: own count from 2020 census blocks (US Census Bureau) and TIGER/Line roads (geo/measure_road.py)",
+  "Land height: own sample of 1,500 points, USGS 3DEP via EPQS (geo/measure_height.py)",
+  "Islands: 2020 census land blocks minus TIGER area water (geo/make_regions.py)",
+  "Road, railway, pipe, ferry, train and storm lines drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "ONE ROAD"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "The Florida Keys hang on a single road. It runs more than a hundred miles out into the sea, farther than New York is from Philadelphia.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.0,
+           "lat": 25.841,
+           "span": 9.757
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It runs more than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.203,
+           "lat": 24.952,
+           "span": 3.176
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "farther than New York",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -79.0,
+           "lat": 31.879,
+           "span": 55.933
+          },
+          "places": [
+           {
+            "name": "New York",
+            "lon": -74.0,
+            "lat": 40.71,
+            "kind": "city",
+            "label": "New York"
+           }
+          ],
+          "highlight": [
+           "file:keys.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "But it is the only road. Everything the islands need comes down it, even every drop of drinking water. And most of it sits only a few feet above the sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Seven Mile Bridge, Florida Keys aerial (2003).jpg",
+       "on_screen_text": "The Seven Mile Bridge"
+      },
+      {
+       "type": "map",
+       "at": "Everything the islands need",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.17,
+           "lat": 24.7,
+           "span": 0.2
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Seven Mile Bridge from orbit"
+      },
+      {
+       "type": "photo",
+       "at": "And most of it",
+       "photo": "File:Overseas Highway to Key West - panoramio.jpg",
+       "on_screen_text": "The Overseas Highway"
+      }
+     ]
+    },
+    {
+     "text": "So why would anyone build a highway across the sea, and can Florida keep it there?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.203,
+           "lat": 24.923,
+           "span": 2.964
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and can Florida keep",
+       "photo": "File:The Lower Keys.jpg",
+       "on_screen_text": "The Lower Keys from the air"
+      }
+     ]
+    },
+    {
+     "text": "The road has already been lost once, to a storm that killed more than four hundred people. A city on it once declared that it had left the United States, because of a roadblock. And keeping the road out of the water now has a price that nobody wants to pay.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:1935 hurricane effects in the Florida Keys MM00003786x (15479759252).jpg",
+       "on_screen_text": "The Keys after the storm of 1935"
+      },
+      {
+       "type": "photo",
+       "at": "A city on it",
+       "photo": "File:Key West 2008 (2338775214).jpg",
+       "on_screen_text": "Key West"
+      },
+      {
+       "type": "photo",
+       "at": "And keeping the road",
+       "photo": "File:001 Key West Bay Point - Lower Sugarloaf Channel aerial view.jpg",
+       "on_screen_text": "Lower Sugarloaf Channel"
+      },
+      {
+       "type": "stat",
+       "at": "now has a price",
+       "stat": {
+        "value": "$1.8 BILLION",
+        "label": "To raise the county's roads above future tides",
+        "source": "Monroe County, Florida"
+       }
+      }
+     ]
+    },
+    {
+     "text": "To see why, start at the far end of the road, with the town that made it worth building.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.91,
+           "lat": 24.906,
+           "span": 3.024
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "with the town that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.78,
+           "lat": 24.56,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key West"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Town Worth the Trip",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. At the end of the chain sat a town that was, for a while, the biggest in Florida.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.6,
+           "lat": 24.2,
+           "span": 6.5
+          },
+          "highlight": [
+           "file:keywest.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           },
+           {
+            "name": "Straits",
+            "lon": -81.0,
+            "lat": 24.0,
+            "kind": "label",
+            "label": "STRAITS OF FLORIDA"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the biggest in Florida.",
+       "photo": "File:Bird's eye view of Key West, Fla., Key West Island, C.S. Monroe Co., 1884 LOC 83693954.jpg",
+       "on_screen_text": "Key West in 1884"
+      }
+     ]
+    },
+    {
+     "text": "Key West has a deep, sheltered harbour on the Straits of Florida, the channel every ship takes between the Gulf of Mexico and the Atlantic. Cuba is about ninety miles away.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.8,
+           "lat": 24.425,
+           "span": 8.587
+          },
+          "places": [
+           {
+            "name": "Gulf",
+            "lon": -84.5,
+            "lat": 25.6,
+            "kind": "label",
+            "label": "GULF OF MEXICO"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -86.0,
+             24.6
+            ],
+            "to": [
+             -79.6,
+             25.2
+            ],
+            "color": "blue",
+            "label": "Gulf - Atlantic shipping",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "between the Gulf of",
+       "photo": "File:MM00032290 (5837195542).jpg",
+       "on_screen_text": "Ships at Key West"
+      },
+      {
+       "type": "map",
+       "at": "Cuba is about ninety",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.925,
+           "lat": 24.07,
+           "span": 7.54
+          },
+          "places": [
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.13,
+            "kind": "capital",
+            "label": "Havana"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The town grew rich on that position. Ships wrecked on the reef offshore, and Key West salvaged them, under a federal court that sat in the town to divide the cargo. Later it rolled cigars with tobacco from Cuba, and the Navy kept a base there.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Harbor House, Front Street, Key West, Florida.jpg",
+       "on_screen_text": "Front Street, Key West"
+      },
+      {
+       "type": "photo",
+       "at": "Ships wrecked on the",
+       "photo": "File:1909 hurricane effects in Key West MM00000841x (15413985922).jpg",
+       "on_screen_text": "Key West's waterfront"
+      },
+      {
+       "type": "photo",
+       "at": "under a federal court",
+       "photo": "File:Old Post Office and Customshouse, Key West.jpg",
+       "on_screen_text": "The old federal building, Key West"
+      },
+      {
+       "type": "photo",
+       "at": "Later it rolled cigars",
+       "photo": "File:Key West Florida - Ann Street - Cortez Cigar Factory.jpg",
+       "on_screen_text": "A cigar factory on Ann Street"
+      },
+      {
+       "type": "photo",
+       "at": "and the Navy kept",
+       "photo": "File:Aerial view of Naval Air Station Key West - Boca Chica Field in April 2016.JPG",
+       "on_screen_text": "Naval Air Station Key West today"
+      }
+     ]
+    },
+    {
+     "text": "In the census of 1890, Key West had about eighteen thousand people. That was more than Jacksonville, and more than any other city in Florida.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "People, 1890 census",
+        "unit": "",
+        "data": [
+         [
+          "Key West",
+          18080
+         ],
+         [
+          "Jacksonville",
+          17201
+         ]
+        ],
+        "source": "US Census 1890",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and more than any",
+       "photo": "File:Pohalski City Key West Florida 1889.jpg",
+       "on_screen_text": "Pohalski's cigar works, Key West, 1889"
+      }
+     ]
+    },
+    {
+     "text": "It was a town that kept losing its trades. Lighthouses made the reef safer, so fewer ships wrecked. Then most of the cigar makers moved to Tampa, on the mainland.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Key West Florida Sponge Wagon 1930s.jpg",
+       "on_screen_text": "A sponge wagon, Key West"
+      },
+      {
+       "type": "photo",
+       "at": "Lighthouses made the reef",
+       "photo": "File:Key West Lighthouse 20080728.jpg",
+       "on_screen_text": "The Key West lighthouse"
+      },
+      {
+       "type": "map",
+       "at": "Then most of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.525,
+           "lat": 26.034,
+           "span": 10.952
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           },
+           {
+            "name": "Tampa",
+            "lon": -82.46,
+            "lat": 27.95,
+            "kind": "city",
+            "label": "Tampa"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -81.78,
+             24.56
+            ],
+            "to": [
+             -82.46,
+             27.95
+            ],
+            "color": "red",
+            "label": "Cigar makers move",
+            "bend": 0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "But it had no road to the rest of the country. Everything came and went by ship.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.015,
+           "lat": 25.029,
+           "span": 4.179
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           },
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Everything came and went",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.805,
+           "lat": 24.56,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key West harbour"
+      }
+     ]
+    },
+    {
+     "text": "In 1905 the United States began to dig the Panama Canal. Key West was the closest deep-water American port to it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.5,
+           "lat": 15.933,
+           "span": 46.871
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           },
+           {
+            "name": "Panama Canal",
+            "lon": -79.75,
+            "lat": 9.1,
+            "kind": "site",
+            "label": "Panama Canal"
+           },
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.13,
+            "kind": "capital",
+            "label": "Havana"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Key West was the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -79.0,
+           "lat": 15.931,
+           "span": 46.855
+          },
+          "arrows": [
+           {
+            "from": [
+             -79.75,
+             9.1
+            ],
+            "to": [
+             -81.78,
+             24.55
+            ],
+            "color": "red",
+            "label": "Canal trade?",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "A railroad owner named Henry Flagler saw a bet. His Florida East Coast Railway already ran down the coast to Miami and Homestead. If he could carry his tracks to Key West, the trade of the canal and of Cuba could come by rail.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Opening of Florida Keys Railway - J.R. Parott, H. M. Flagler LCCN2014680212.jpg",
+       "on_screen_text": "Henry Flagler and his railway men, 1912"
+      },
+      {
+       "type": "map",
+       "at": "His Florida East Coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.0,
+           "lat": 27.597,
+           "span": 15.914
+          },
+          "places": [
+           {
+            "name": "Jacksonville",
+            "lon": -81.66,
+            "lat": 30.33,
+            "kind": "city",
+            "label": "Jacksonville"
+           },
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           },
+           {
+            "name": "Homestead",
+            "lon": -80.48,
+            "lat": 25.47,
+            "kind": "city",
+            "label": "Homestead"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -81.66,
+             30.33
+            ],
+            "via": [
+             [
+              -81.31,
+              29.9
+             ],
+             [
+              -80.05,
+              26.7
+             ],
+             [
+              -80.19,
+              25.77
+             ]
+            ],
+            "to": [
+             -80.48,
+             25.47
+            ],
+            "mode": "line",
+            "label": "Florida East Coast Railway",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "If he could carry",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -77.7,
+           "lat": 31.143,
+           "span": 60.331
+          },
+          "places": [
+           {
+            "name": "New York",
+            "lon": -74.0,
+            "lat": 40.71,
+            "kind": "city",
+            "label": "New York"
+           },
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.13,
+            "kind": "capital",
+            "label": "Havana"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -74.0,
+             40.71
+            ],
+            "via": [
+             [
+              -81.66,
+              30.33
+             ],
+             [
+              -80.19,
+              25.77
+             ],
+             [
+              -81.78,
+              24.56
+             ]
+            ],
+            "to": [
+             -82.37,
+             23.13
+            ],
+            "mode": "line",
+            "label": "By rail and ferry",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the trade of the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.405,
+           "lat": 23.94,
+           "span": 8.06
+          },
+          "places": [
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.13,
+            "kind": "capital",
+            "label": "Havana"
+           },
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The problem was the hundred and twenty-eight miles in between. Most of it was water.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "128 MILES",
+        "label": "Homestead to Key West by the railway's route",
+        "source": "Florida East Coast Railway, 1912"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Most of it was",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.95,
+           "lat": 24.78,
+           "span": 0.6
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Middle Keys"
+      }
+     ]
+    },
+    {
+     "text": "The road we drive today started as his railroad. And the railroad was a far harder thing to build.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Long Key Viaduct, view showing typical method of construction for all concrete arches in 7-Mile Bridge (-214). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County HAER FLA,44-KNIKE,1-52.tif",
+       "on_screen_text": "Building the concrete arches"
+      },
+      {
+       "type": "photo",
+       "at": "And the railroad was",
+       "photo": "File:Knight's Key Bridge, view of derrick lowering cofferdam (Lindenberg Collection -1569). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-53.tif",
+       "on_screen_text": "Lowering a cofferdam, Knight's Key"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Railroad First",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason two. Before there was a road, there was a railroad across the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.203,
+           "lat": 24.845,
+           "span": 3.404
+          },
+          "highlight": [
+           "file:keys.geojson@alt"
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.79,
+             24.57
+            ],
+            "mode": "line",
+            "label": "Railway, 1912",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "there was a railroad",
+       "photo": "File:A guide to Florida for tourists, sportsmen and settlers (1912) (14576579758).jpg",
+       "on_screen_text": "The line over the sea, 1912 guidebook"
+      }
+     ]
+    },
+    {
+     "text": "Work began in 1905. Thousands of men cleared mangroves, dredged fill out of the shallows, and poured concrete into the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Knight's Key Bridge, view of first span, 1909 (-2518). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-51.tif",
+       "on_screen_text": "The first span at Knight's Key, 1909"
+      },
+      {
+       "type": "photo",
+       "at": "dredged fill out of",
+       "photo": "File:Knight's Key Bridge, View of steel girders in place and on barge (-571). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-44.tif",
+       "on_screen_text": "Steel girders on a barge"
+      },
+      {
+       "type": "map",
+       "at": "and poured concrete into",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.12,
+           "lat": 24.71,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Knight's Key"
+      }
+     ]
+    },
+    {
+     "text": "The surveyors barely knew the islands. Halfway down Key Largo they found a lake no map had shown. The fill kept sinking into its soft bottom, and they named it Lake Surprise.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.62,
+           "lat": 25.0,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Key Largo",
+            "lon": -80.43,
+            "lat": 25.1,
+            "kind": "city",
+            "label": "Key Largo"
+           },
+           {
+            "name": "Lake Surprise",
+            "lon": -80.39,
+            "lat": 25.175,
+            "kind": "site",
+            "label": "Lake Surprise"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "they found a lake",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.41,
+           "lat": 25.18,
+           "span": 0.25
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": -80.41,
+           "lat": 25.18,
+           "span": 0.155
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key Largo"
+      },
+      {
+       "type": "map",
+       "at": "and they named it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.39,
+           "lat": 25.17,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Surprise, with US 1 across it"
+      }
+     ]
+    },
+    {
+     "text": "Then came the storms. In October 1906 a hurricane tore a floating barracks loose from its moorings, and about a hundred workers died. More hurricanes hit in 1909 and 1910.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "OCT 1906",
+        "label": "A hurricane tears loose a floating workers' barracks",
+        "source": "Wikipedia: Overseas Railroad",
+        "note": "about 100 workers died"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "from its moorings, and",
+       "photo": "File:1910 hurricane effects in Key West MM00011137x (26387467093).jpg",
+       "on_screen_text": "Key West after the 1910 hurricane"
+      },
+      {
+       "type": "photo",
+       "at": "More hurricanes hit in",
+       "photo": "File:1909 hurricane effects in Key West MM00000841x (15413985922).jpg",
+       "on_screen_text": "Storm damage at Key West, 1909"
+      }
+     ]
+    },
+    {
+     "text": "Where the gaps were short, the crews built long rows of concrete arches. The Long Key Viaduct ran for about two miles just above the sea, and the railway put it on its posters.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.87,
+           "lat": 24.8,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": -80.87,
+           "lat": 24.8,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Long Key Viaduct's arches today"
+      },
+      {
+       "type": "photo",
+       "at": "and the railway put",
+       "photo": "File:Knight's Key Bridge, passenger train crossing bridge, no date (Bramson Collection, X-336-1). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-72.tif",
+       "on_screen_text": "A passenger train on the Knight's Key bridge"
+      }
+     ]
+    },
+    {
+     "text": "Where the water was deepest, at Bahia Honda, they built a steel truss bridge. West of Marathon came the longest gap of all, crossed by the Seven Mile Bridge. Its builders lived under it, on a five-acre island called Pigeon Key.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.45,
+           "lat": 24.68,
+           "span": 2.6
+          },
+          "places": [
+           {
+            "name": "Bahia Honda",
+            "lon": -81.27,
+            "lat": 24.66,
+            "kind": "site",
+            "label": "Bahia Honda"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "they built a steel",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.27,
+           "lat": 24.66,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bahia Honda"
+      },
+      {
+       "type": "map",
+       "at": "West of Marathon came",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.32,
+           "lat": 24.732,
+           "span": 2.808
+          },
+          "places": [
+           {
+            "name": "Marathon",
+            "lon": -81.07,
+            "lat": 24.72,
+            "kind": "city",
+            "label": "Marathon"
+           },
+           {
+            "name": "Pigeon Key",
+            "lon": -81.156,
+            "lat": 24.704,
+            "kind": "site",
+            "label": "Pigeon Key"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "crossed by the Seven",
+       "photo": "File:Knight's Key Bridge, long side perspective, 12-22-26 (Matlack 141-40). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-59.tif",
+       "on_screen_text": "The Seven Mile Bridge, 1926"
+      },
+      {
+       "type": "map",
+       "at": "Its builders lived under",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.155,
+           "lat": 24.704,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pigeon Key"
+      }
+     ]
+    },
+    {
+     "text": "Even Key West itself was too small for the railway. There was no room on the island for a big rail yard and docks, so a dredging company pumped up the shallows and built about a hundred and thirty acres of new land, at Trumbo Point.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.79,
+           "lat": 24.57,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": -81.79,
+           "lat": 24.57,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key West"
+      },
+      {
+       "type": "map",
+       "at": "so a dredging company",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.134,
+           "lat": 24.962,
+           "span": 3.136
+          },
+          "places": [
+           {
+            "name": "Trumbo Point",
+            "lon": -81.79,
+            "lat": 24.568,
+            "kind": "site",
+            "label": "Trumbo Point"
+           }
+          ]
+         },
+         {
+          "at": 33,
+          "view": {
+           "lon": -81.134,
+           "lat": 24.962,
+           "span": 2.666
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "at Trumbo Point.",
+       "photo": "File:Aerial photo of Trumbo Point Annex of Naval Air Station Key West in April 2016.JPG",
+       "on_screen_text": "Trumbo Point today"
+      }
+     ]
+    },
+    {
+     "text": "The work never stopped for long. Men came and went by the thousand, because few stayed more than a season in the heat, the mosquitoes and the storms.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Long Key Viaduct, view showing typical method of construction for all concrete arches in 7-Mile Bridge (-214). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County HAER FLA,44-KNIKE,1-52.tif",
+       "on_screen_text": "Arches under construction"
+      },
+      {
+       "type": "map",
+       "at": "because few stayed more",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.1,
+           "lat": 24.72,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": -81.1,
+           "lat": 24.72,
+           "span": 0.093
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Knight's Key and Marathon"
+      }
+     ]
+    },
+    {
+     "text": "On the twenty-second of January 1912, the first train rolled into Key West. Flagler was on board. He was eighty-two years old, and he died the next year.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "22 JAN 1912",
+        "label": "The first train arrives in Key West",
+        "source": "Library of Congress"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Flagler was on board.",
+       "photo": "File:Opening of Florida Keys Railway - J.R. Parott, H. M. Flagler LCCN2014680212.jpg",
+       "on_screen_text": "Flagler at the opening, 1912"
+      },
+      {
+       "type": "map",
+       "at": "He was eighty-two years",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.79,
+           "lat": 24.57,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Trumbo Point, the end of the line"
+      }
+     ]
+    },
+    {
+     "text": "From 1915, ferries carried whole freight cars from Key West to Havana, so a wagon loaded in New York could be unloaded in Cuba.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.795,
+           "lat": 24.03,
+           "span": 6.573
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           },
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.13,
+            "kind": "capital",
+            "label": "Havana"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -81.78,
+             24.56
+            ],
+            "to": [
+             -82.37,
+             23.13
+            ],
+            "color": "blue",
+            "label": "Car ferry, 1915",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "so a wagon loaded",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.166,
+           "lat": 31.143,
+           "span": 60.331
+          },
+          "places": [
+           {
+            "name": "New York",
+            "lon": -74.0,
+            "lat": 40.71,
+            "kind": "city",
+            "label": "New York"
+           },
+           {
+            "name": "Havana",
+            "lon": -82.37,
+            "lat": 23.13,
+            "kind": "capital",
+            "label": "Havana"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -74.0,
+             40.71
+            ],
+            "via": [
+             [
+              -81.66,
+              30.33
+             ],
+             [
+              -80.19,
+              25.77
+             ],
+             [
+              -81.78,
+              24.56
+             ]
+            ],
+            "to": [
+             -82.37,
+             23.13
+            ],
+            "mode": "line",
+            "label": "By rail and ferry",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then the business did not come. The canal opened in 1914, but the ships kept going where they had always gone. Freight on the single track stayed thin.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.0,
+           "lat": 15.933,
+           "span": 46.871
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           },
+           {
+            "name": "Panama Canal",
+            "lon": -79.75,
+            "lat": 9.1,
+            "kind": "site",
+            "label": "Panama Canal"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -79.75,
+             9.1
+            ],
+            "to": [
+             -75.5,
+             20.0
+            ],
+            "color": "blue",
+            "label": "Ships kept their routes",
+            "bend": -0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The canal opened in",
+       "stat": {
+        "value": "1914",
+        "label": "The Panama Canal opens",
+        "source": "Panama Canal Authority"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Freight on the single",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.854,
+           "lat": 24.85,
+           "span": 3.36
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.79,
+             24.57
+            ],
+            "mode": "line",
+            "label": "Railway, 1912",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Cars came too. In 1928 a road opened down the upper islands, but it stopped at Lower Matecumbe Key. From there, cars went on a ferry for about forty miles, a trip of around four hours, to the next stretch of road at No Name Key.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Photograph of a road sign along the highway in Key West, Florida, announcing the beginning of U.S. Route 1 to Fort... - NARA - 200542.jpg",
+       "on_screen_text": "US 1 begins at Key West"
+      },
+      {
+       "type": "map",
+       "at": "In 1928 a road",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.49,
+           "lat": 25.052,
+           "span": 2.808
+          },
+          "places": [
+           {
+            "name": "Lower Matecumbe",
+            "lon": -80.75,
+            "lat": 24.86,
+            "kind": "site",
+            "label": "Lower Matecumbe Key"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ]
+            ],
+            "to": [
+             -80.75,
+             24.86
+            ],
+            "mode": "line",
+            "label": "Road, 1928",
+            "color": "red",
+            "seconds": 2.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "From there, cars went",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.246,
+           "lat": 24.85,
+           "span": 2.912
+          },
+          "places": [
+           {
+            "name": "No Name Key",
+            "lon": -81.32,
+            "lat": 24.7,
+            "kind": "site",
+            "label": "No Name Key"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -80.75,
+             24.86
+            ],
+            "to": [
+             -81.32,
+             24.7
+            ],
+            "color": "blue",
+            "label": "Ferry, ~4 hours",
+            "bend": 0.25
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "to the next stretch",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.32,
+           "lat": 24.7,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "No Name Key"
+      }
+     ]
+    },
+    {
+     "text": "So for a few years, the Keys had two half-links to the mainland. Then the sea decided which one would stay.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.82,
+           "lat": 24.82,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Long Key"
+      },
+      {
+       "type": "map",
+       "at": "Then the sea decided",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.05,
+           "lat": 24.99,
+           "span": 3.584
+          },
+          "highlight": [
+           "file:upper_mid.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sea Took the Railroad",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. The road exists because the sea destroyed the railroad.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.75,
+           "lat": 24.948,
+           "span": 3.016
+          },
+          "highlight": [
+           "file:upper_mid.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the sea destroyed the",
+       "photo": "File:Labor Day hurricane weather map (enlarged), September 1, 1935 (4399800).jpg",
+       "on_screen_text": "Weather map, 1 September 1935"
+      }
+     ]
+    },
+    {
+     "text": "By then Key West was in deep trouble. The Navy had closed its base, and in the Depression most of the town lived on relief. In July 1934 the city gave up and handed its powers to the state. Federal relief officials took over, and they decided Key West's future was tourists. The tourists would need a road.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Key West Florida Sponge Wagon 1930s.jpg",
+       "on_screen_text": "Key West in the 1930s"
+      },
+      {
+       "type": "stat",
+       "at": "The Navy had closed",
+       "stat": {
+        "value": "80 %",
+        "label": "Share of Key West on relief, 1934",
+        "source": "Florida Trend; KWAHS"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In July 1934 the",
+       "stat": {
+        "value": "JULY 1934",
+        "label": "Key West hands its powers to the state",
+        "source": "Florida Trend; KWAHS"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Federal relief officials took",
+       "photo": "File:Florida - Key West - NARA - 23936667.jpg",
+       "on_screen_text": "Key West"
+      },
+      {
+       "type": "photo",
+       "at": "and they decided Key",
+       "photo": "File:Old Post Office and Customshouse, Key West.jpg",
+       "on_screen_text": "Old Post Office and Customs House, Key West"
+      },
+      {
+       "type": "map",
+       "at": "The tourists would need",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.05,
+           "lat": 24.71,
+           "span": 3.696
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -80.75,
+             24.86
+            ],
+            "to": [
+             -81.32,
+             24.7
+            ],
+            "color": "blue",
+            "label": "Ferry, ~4 hours",
+            "bend": 0.25
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 1934, the federal government sent hundreds of out-of-work veterans of the First World War to the Keys. They lived in camps of wooden huts and built bridges to close the ferry gap.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.542,
+           "lat": 24.896,
+           "span": 3.224
+          },
+          "places": [
+           {
+            "name": "Windley Key",
+            "lon": -80.67,
+            "lat": 24.955,
+            "kind": "site",
+            "label": "Windley Key camp"
+           },
+           {
+            "name": "Lower Matecumbe",
+            "lon": -80.75,
+            "lat": 24.86,
+            "kind": "site",
+            "label": "Lower Matecumbe Key"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -80.542,
+           "lat": 24.896,
+           "span": 2.74
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "They lived in camps",
+       "photo": "File:Veterans Storm Relief Map.jpg",
+       "on_screen_text": "Veterans' camps and the storm, 1936 relief map"
+      },
+      {
+       "type": "map",
+       "at": "and built bridges to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.74,
+           "lat": 24.86,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lower Matecumbe Key"
+      }
+     ]
+    },
+    {
+     "text": "On Labor Day, the second of September 1935, a small hurricane crossed the Keys near Long Key. Its central pressure was 892 millibars. No storm on record has come ashore in the United States with lower pressure.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.099,
+           "lat": 24.758,
+           "span": 4.836
+          },
+          "places": [
+           {
+            "name": "Long Key",
+            "lon": -80.82,
+            "lat": 24.82,
+            "kind": "site",
+            "label": "Long Key"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -78.6,
+             24.1
+            ],
+            "to": [
+             -80.84,
+             24.84
+            ],
+            "color": "red",
+            "label": "Labor Day storm, 2 Sep 1935",
+            "bend": 0.08
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Its central pressure was",
+       "stat": {
+        "value": "892 mb",
+        "label": "Lowest pressure of any US landfall on record",
+        "source": "National Weather Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "in the United States",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.82,
+           "lat": 24.81,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Long Key, where the eye crossed"
+      }
+     ]
+    },
+    {
+     "text": "Its winds are now estimated at about a hundred and eighty-five miles an hour. The sea rose over the islands with it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "185 MPH",
+        "label": "Estimated one-minute winds",
+        "source": "Landsea et al., NOAA reanalysis 2014"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The sea rose over",
+       "photo": "File:1935 Labor Day hurricane path.png",
+       "on_screen_text": "The storm's track, 1935"
+      }
+     ]
+    },
+    {
+     "text": "A train was sent from Miami to bring the veterans out. It was held at a drawbridge over the Miami River and reached Islamorada late, just as the surge did.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.18,
+           "lat": 25.078,
+           "span": 4.176
+          },
+          "places": [
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           },
+           {
+            "name": "Islamorada",
+            "lon": -80.63,
+            "lat": 24.92,
+            "kind": "city",
+            "label": "Islamorada"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.19,
+             25.77
+            ],
+            "via": [
+             [
+              -80.48,
+              25.45
+             ],
+             [
+              -80.43,
+              25.12
+             ]
+            ],
+            "to": [
+             -80.63,
+             24.92
+            ],
+            "mode": "line",
+            "label": "Rescue train",
+            "color": "red",
+            "seconds": 2.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was held at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.575,
+           "lat": 27.298,
+           "span": 11.434
+          },
+          "places": [
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and reached Islamorada late,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.63,
+           "lat": 24.92,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islamorada"
+      }
+     ]
+    },
+    {
+     "text": "The water swept every car off the track. Only the locomotive stayed on the rails. Everyone on the train lived, but the camps were gone.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:1935 hurricane effects in the Florida Keys MM00003786x (15479759252).jpg",
+       "on_screen_text": "After the surge, 1935"
+      },
+      {
+       "type": "map",
+       "at": "Everyone on the train",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.698,
+           "lat": 25.104,
+           "span": 2.912
+          },
+          "places": [
+           {
+            "name": "Windley Key",
+            "lon": -80.67,
+            "lat": 24.955,
+            "kind": "site",
+            "label": "Windley Key camp"
+           },
+           {
+            "name": "Lower Matecumbe",
+            "lon": -80.75,
+            "lat": 24.86,
+            "kind": "site",
+            "label": "Lower Matecumbe Key"
+           }
+          ],
+          "highlight": [
+           "file:upper_mid.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The official count is 408 dead, and later counts went higher. More than half of them were veterans. About half of the men in the camps were away in Miami that weekend, or the toll would have been worse.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "408",
+        "label": "Official count of the dead",
+        "source": "National Weather Service",
+        "note": "later counts went higher"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "More than half of",
+       "photo": "File:Burial of 1935 hurricane victims at Woodlawn Cemetery, Miami, FL.jpg",
+       "on_screen_text": "Burial of storm victims, Miami, September 1935"
+      },
+      {
+       "type": "stat",
+       "at": "About half of the",
+       "stat": {
+        "value": "~350 OF 718",
+        "label": "Camp veterans away in Miami that weekend",
+        "source": "Florida Historical Society"
+       }
+      },
+      {
+       "type": "map",
+       "at": "or the toll would",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.73,
+           "lat": 24.86,
+           "span": 0.3
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Matecumbe Keys"
+      }
+     ]
+    },
+    {
+     "text": "The storm washed away about forty miles of track. The railway was already bankrupt, and it did not rebuild.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.802,
+           "lat": 24.951,
+           "span": 2.809
+          },
+          "highlight": [
+           "file:upper_mid.geojson@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.79,
+             24.57
+            ],
+            "mode": "line",
+            "label": "Railway, 1912",
+            "color": "accent",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The railway was already",
+       "photo": "File:Labor Day hurricane weather map, September 4, 1935 (high quality) (3099770).jpg",
+       "on_screen_text": "Weather map, 4 September 1935"
+      }
+     ]
+    },
+    {
+     "text": "In 1936 the state of Florida bought the whole right-of-way, with its bridges, for six hundred and forty thousand dollars.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Knight's Key Bridge, long side perspective, 12-22-26 (Matlack 141-40). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-59.tif",
+       "on_screen_text": "The railway's bridges"
+      },
+      {
+       "type": "stat",
+       "at": "with its bridges, for",
+       "stat": {
+        "value": "$640,000",
+        "label": "Price of the railway right-of-way and bridges, 1936",
+        "source": "Keys historian J. Wilkinson; Fla. Supreme Court 1936"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then it laid a road on top. Concrete decks went over the old railway bridges. In 1938 the Overseas Highway opened, and for the first time you could drive to Key West.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Pigeon Key Bridge, aerial view w-auto traffic, April 23, 1938 (Matlack 397-13-7). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-66.tif",
+       "on_screen_text": "Cars on the new highway, April 1938"
+      },
+      {
+       "type": "map",
+       "at": "In 1938 the Overseas",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.021,
+           "lat": 24.945,
+           "span": 2.841
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and for the first",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.91,
+           "lat": 24.906,
+           "span": 3.115
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "At Bahia Honda, the steel truss was too narrow for two lanes of cars. So the road was laid across the top of it, sixty-five feet above the water.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Bahia Honda Bridge, highest span of Overseas Highway on way to Key West, Florida.jpg",
+       "on_screen_text": "The Bahia Honda bridge, road on top"
+      },
+      {
+       "type": "photo",
+       "at": "So the road was",
+       "photo": "File:FDR in an open car by the Bahia Honda Bridge on February 19, 1939 (8150911081).jpg",
+       "on_screen_text": "President Roosevelt at the Bahia Honda bridge, 1939"
+      },
+      {
+       "type": "photo",
+       "at": "sixty-five feet above the",
+       "photo": "File:Bahia Honda Rail Bridge(js).jpg",
+       "on_screen_text": "The Bahia Honda bridge today"
+      }
+     ]
+    },
+    {
+     "text": "Two weeks after the storm, the writer Ernest Hemingway, who lived in Key West, published an article about the camps. Its title was a question: who murdered the vets? He blamed Washington for leaving the men on low islands in the hurricane season.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Hemingwayhouse.jpg",
+       "on_screen_text": "Hemingway's house in Key West"
+      },
+      {
+       "type": "map",
+       "at": "published an article about",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.8,
+           "lat": 24.553,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key West"
+      },
+      {
+       "type": "stat",
+       "at": "Its title was a",
+       "stat": {
+        "value": "SEPT 1935",
+        "label": "Hemingway: \"Who Murdered the Vets?\"",
+        "source": "New Masses, 17 September 1935"
+       }
+      },
+      {
+       "type": "map",
+       "at": "He blamed Washington for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.72,
+           "lat": 24.87,
+           "span": 0.25
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The low islands of the Matecumbe Keys"
+      }
+     ]
+    },
+    {
+     "text": "Today a stone memorial stands at Islamorada. The remains of some of the dead are inside it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.632,
+           "lat": 24.918,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islamorada, where the memorial stands"
+      },
+      {
+       "type": "photo",
+       "at": "The remains of some",
+       "photo": "File:Veterans Storm Relief Map.jpg",
+       "on_screen_text": "The 1936 relief map of the storm"
+      }
+     ]
+    },
+    {
+     "text": "So the road won. But the road had a problem the railroad never solved. The islands it joined had nothing to drink.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Baihia Honda Bridge - Flickr - daniel.chodusov.jpg",
+       "on_screen_text": "The old Bahia Honda bridge"
+      },
+      {
+       "type": "map",
+       "at": "The islands it joined",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.95,
+           "lat": 24.76,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Grassy Key"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Islands With No Water",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason four. The Keys cannot live without the mainland, because they have no fresh water of their own.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.892,
+           "lat": 25.006,
+           "span": 4.464
+          },
+          "highlight": [
+           "file:keys.geojson@red",
+           "file:dade_south.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Florida City",
+            "lon": -80.48,
+            "lat": 25.45,
+            "kind": "city",
+            "label": "Florida City"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "because they have no",
+       "photo": "File:Fkeast 2000.jpg",
+       "on_screen_text": "The Keys from orbit"
+      }
+     ]
+    },
+    {
+     "text": "The upper islands are the top of an old coral reef. The rock is full of holes. Rain sinks straight through it and mixes with the sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Fossil Reef Windley Key 1.jpg",
+       "on_screen_text": "Fossil coral, Windley Key"
+      },
+      {
+       "type": "map",
+       "at": "Rain sinks straight through",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.655,
+           "lat": 24.96,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Windley Key"
+      }
+     ]
+    },
+    {
+     "text": "So for more than a century, Key West drank rain. Every house caught water from its roof in a cistern.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Pink and Blue House in Key West, Florida.jpg",
+       "on_screen_text": "A Key West house"
+      },
+      {
+       "type": "photo",
+       "at": "Every house caught water",
+       "photo": "File:CISTERNS AT REAR, LOOKING SOUTHEAST - Tift and Company, Ships Chandlery and Icehouse, Mallory Square, Key West, Monroe County, FL HABS FLA,44-KEY,8-3.tif",
+       "on_screen_text": "Cisterns behind a Key West warehouse"
+      }
+     ]
+    },
+    {
+     "text": "That worked for a town. It did not work for a naval base during a war.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:3-4 VIEW TO NORTHEAST - Naval Air Station Key West, Truman Annex, Fresh Water Cistern, Intersection of Front and Eaton Streets, Key West, Monroe County, FL HABS fl-530-C-4.tif",
+       "on_screen_text": "A Navy fresh-water cistern, Key West"
+      },
+      {
+       "type": "photo",
+       "at": "It did not work",
+       "photo": "File:Sally Rand Visits Key West Naval Hospital.jpg",
+       "on_screen_text": "The Key West naval hospital, 1940s"
+      }
+     ]
+    },
+    {
+     "text": "In 1941 the Navy bought land at Florida City on the mainland for wells. It laid a pipe down the old railroad route, island by island, about a hundred and thirty miles.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.108,
+           "lat": 25.294,
+           "span": 4.032
+          },
+          "places": [
+           {
+            "name": "Florida City",
+            "lon": -80.48,
+            "lat": 25.45,
+            "kind": "city",
+            "label": "Florida City"
+           }
+          ],
+          "highlight": [
+           "file:dade_south.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "It laid a pipe",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.748,
+           "lat": 25.15,
+           "span": 4.32
+          },
+          "routes": [
+           {
+            "from": [
+             -80.5,
+             25.43
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.77,
+             24.56
+            ],
+            "mode": "line",
+            "label": "Water main",
+            "color": "blue",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "island by island,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.05,
+           "lat": 24.72,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marathon"
+      }
+     ]
+    },
+    {
+     "text": "On the twenty-second of September 1942, fresh water from the mainland reached Key West for the first time. It took about six days to get there.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "22 SEP 1942",
+        "label": "Mainland water reaches Key West for the first time",
+        "source": "Florida Keys Aqueduct Authority history"
+       }
+      },
+      {
+       "type": "map",
+       "at": "reached Key West for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.252,
+           "lat": 25.15,
+           "span": 3.744
+          },
+          "routes": [
+           {
+            "from": [
+             -80.5,
+             25.43
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.77,
+             24.56
+            ],
+            "mode": "line",
+            "label": "Water main",
+            "color": "blue",
+            "seconds": 3.0
+           }
+          ],
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It took about six",
+       "photo": "File:Florida - Key West - NARA - 23936663.jpg",
+       "on_screen_text": "Key West"
+      }
+     ]
+    },
+    {
+     "text": "That pipe changed what the Keys could be. With water you could build hotels, and fill pools, and live there all year. In 1940, about fourteen thousand people lived in the county. Twenty years later, nearly forty-eight thousand did.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Florida - Key West - NARA - 23936671.jpg",
+       "on_screen_text": "Key West"
+      },
+      {
+       "type": "photo",
+       "at": "With water you could",
+       "photo": "File:Sunset Key and Sailboats, Florida, 2025.jpg",
+       "on_screen_text": "Sunset Key off Key West"
+      },
+      {
+       "type": "chart",
+       "at": "In 1940, about fourteen",
+       "chart": {
+        "type": "bar",
+        "title": "People in Monroe County",
+        "unit": "",
+        "data": [
+         [
+          "1940",
+          14078
+         ],
+         [
+          "1950",
+          29957
+         ],
+         [
+          "1960",
+          47921
+         ]
+        ],
+        "source": "US Census",
+        "highlight": 2
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Twenty years later, nearly",
+       "photo": "File:“Welcome to Marathon,” Marathon, Florida Keys.jpg",
+       "on_screen_text": "Marathon"
+      }
+     ]
+    },
+    {
+     "text": "Today the water still comes from the wellfield at Florida City. It runs down the chain in a big pipe beside the highway, across the same bridges, all the way to Key West.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.5,
+           "lat": 25.46,
+           "span": 0.2
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Florida City, where the wells are"
+      },
+      {
+       "type": "map",
+       "at": "It runs down the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.19,
+           "lat": 24.794,
+           "span": 3.345
+          },
+          "routes": [
+           {
+            "from": [
+             -80.5,
+             25.43
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.77,
+             24.56
+            ],
+            "mode": "line",
+            "label": "Water main",
+            "color": "blue",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "all the way to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.17,
+           "lat": 24.7,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The pipe crosses on the bridges"
+      }
+     ]
+    },
+    {
+     "text": "The pipe still carries about seventeen million gallons a day. The whole system now has more than a thousand miles of pipe.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "17 MILLION",
+        "label": "Gallons of water a day down the pipe",
+        "source": "Florida Keys Aqueduct Authority"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The whole system now",
+       "photo": "File:7 Mile Bridge www.florida-infos.com - panoramio (1).jpg",
+       "on_screen_text": "The Seven Mile Bridge"
+      }
+     ]
+    },
+    {
+     "text": "The power comes down the chain in the same way. So does the fuel, and almost all the food.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.966,
+           "lat": 24.738,
+           "span": 3.576
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So does the fuel,",
+       "photo": "File:Key West 2008 (2338775214).jpg",
+       "on_screen_text": "Key West"
+      }
+     ]
+    },
+    {
+     "text": "And the people live along it too. We took every block of the 2020 census in the Keys and measured how far it lies from US 1.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.134,
+           "lat": 24.962,
+           "span": 3.23
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "We took every block",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.854,
+           "lat": 24.85,
+           "span": 3.461
+          },
+          "highlight": [
+           "file:keys.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and measured how far",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.07,
+           "lat": 24.72,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marathon along US 1"
+      }
+     ]
+    },
+    {
+     "text": "Half of all the people in the Keys live within a quarter of a mile of the highway. More than nine in ten live within a mile of it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "49 %",
+        "label": "Keys residents within a quarter mile of US 1",
+        "source": "Own count: 2020 census blocks vs US 1 (geo/measure_road.py)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "within a quarter of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.63,
+           "lat": 24.93,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islamorada along US 1"
+      },
+      {
+       "type": "stat",
+       "at": "More than nine in",
+       "stat": {
+        "value": "93 %",
+        "label": "Keys residents within one mile of US 1",
+        "source": "Own count: 2020 census blocks vs US 1 (geo/measure_road.py)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "There is a backup. Two plants in the Keys can turn seawater into drinking water, and they are kept for the days when the pipe is cut. After Irma, they were switched on. The newer one, opened in 2025, makes about four million gallons a day, roughly a quarter of what the islands use.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.735,
+           "lat": 24.572,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": -81.735,
+           "lat": 24.572,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Stock Island"
+      },
+      {
+       "type": "photo",
+       "at": "After Irma, they were",
+       "photo": "File:Debris (36884162550).jpg",
+       "on_screen_text": "After Irma, 2017"
+      },
+      {
+       "type": "stat",
+       "at": "makes about four million",
+       "stat": {
+        "value": "4 MILLION",
+        "label": "Gallons a day from the Stock Island seawater plant (2025)",
+        "source": "Florida Keys Aqueduct Authority"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Everything the islands need comes in through one narrow strip. And a strip that narrow can be closed.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.45,
+           "lat": 25.3,
+           "span": 0.2
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the road leaves the mainland"
+      },
+      {
+       "type": "photo",
+       "at": "And a strip that",
+       "photo": "File:Overseas Highway to Key West - panoramio.jpg",
+       "on_screen_text": "The Overseas Highway"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "One Road, One Door",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason five. A chain of islands with one road has one door. In 1982, somebody shut it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.0,
+           "lat": 25.096,
+           "span": 3.956
+          },
+          "highlight": [
+           "file:dade_south.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Florida City",
+            "lon": -80.48,
+            "lat": 25.45,
+            "kind": "city",
+            "label": "Florida City"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1982, somebody shut",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.47,
+           "lat": 25.4,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "US 1 south of Florida City"
+      }
+     ]
+    },
+    {
+     "text": "Two years earlier, more than a hundred and twenty-five thousand Cubans had crossed the Straits in small boats. Most of them landed at Key West. On one day in May 1980, more than four and a half thousand arrived. The Border Patrol now watched the one road out.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.145,
+           "lat": 24.2,
+           "span": 7.8
+          },
+          "places": [
+           {
+            "name": "Mariel",
+            "lon": -82.76,
+            "lat": 23.01,
+            "kind": "city",
+            "label": "Mariel"
+           },
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -82.76,
+             23.01
+            ],
+            "to": [
+             -81.78,
+             24.55
+            ],
+            "color": "red",
+            "label": "Mariel boatlift, 1980",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "had crossed the Straits",
+       "stat": {
+        "value": "125,000+",
+        "label": "Cubans in the Mariel boatlift, 1980",
+        "source": "Britannica"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most of them landed",
+       "photo": "File:Mariel Boatlift refugee center (7164017325).jpg",
+       "on_screen_text": "A refugee centre, 1980"
+      },
+      {
+       "type": "stat",
+       "at": "On one day in",
+       "stat": {
+        "value": "4,588",
+        "label": "Cubans arriving at Key West on 11 May 1980",
+        "source": "Miami Herald"
+       }
+      },
+      {
+       "type": "map",
+       "at": "The Border Patrol now",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.0,
+           "lat": 24.97,
+           "span": 4.752
+          },
+          "places": [
+           {
+            "name": "Florida City",
+            "lon": -80.48,
+            "lat": 25.45,
+            "kind": "city",
+            "label": "Florida City"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In April 1982, the Border Patrol set up a roadblock on the highway just south of Florida City. Every car leaving the Keys was stopped and searched.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.867,
+           "lat": 24.953,
+           "span": 2.9
+          },
+          "places": [
+           {
+            "name": "Florida City",
+            "lon": -80.48,
+            "lat": 25.45,
+            "kind": "city",
+            "label": "Florida City"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "just south of Florida",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.47,
+           "lat": 25.42,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The highway at Florida City"
+      },
+      {
+       "type": "photo",
+       "at": "Every car leaving the",
+       "photo": "File:The Lower Keys.jpg",
+       "on_screen_text": "The Lower Keys"
+      }
+     ]
+    },
+    {
+     "text": "The queue ran for miles. Tourists stayed away. Key West's leaders went to a federal court, and the court refused to stop it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.44,
+           "lat": 25.2,
+           "span": 0.2
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The road onto Key Largo"
+      },
+      {
+       "type": "photo",
+       "at": "Key West's leaders went",
+       "photo": "File:Key West City Hall.jpg",
+       "on_screen_text": "Key West City Hall"
+      }
+     ]
+    },
+    {
+     "text": "So on the twenty-third of April, the mayor of Key West read out a proclamation. The city had left the United States, he said, and was now the Conch Republic.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "23 APR 1982",
+        "label": "Key West declares itself the Conch Republic",
+        "source": "Florida Historical Society"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The city had left",
+       "photo": "File:The Conch Republic Flag, Key West, Florida, June 2021.jpg",
+       "on_screen_text": "The Conch Republic flag, Key West"
+      }
+     ]
+    },
+    {
+     "text": "It was a joke, and everyone knew it. But the roadblock came down soon after, and the Keys still celebrate the day.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Mallory Square, Key West - panoramio (5).jpg",
+       "on_screen_text": "Mallory Square, Key West"
+      },
+      {
+       "type": "photo",
+       "at": "and the Keys still",
+       "photo": "File:Key West Florida 2014 - Conch Republic Passport Office.jpg",
+       "on_screen_text": "A Conch Republic 'passport office'"
+      }
+     ]
+    },
+    {
+     "text": "The joke was about a real thing. The same road that lets people in is the only way out. And in a hurricane, everyone has to use it at once.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.2,
+           "lat": 24.69,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -81.2,
+           "lat": 24.69,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "One road in, one road out"
+      },
+      {
+       "type": "map",
+       "at": "And in a hurricane,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.246,
+           "lat": 24.85,
+           "span": 2.999
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -81.0,
+             24.72
+            ],
+            "to": [
+             -80.48,
+             25.45
+            ],
+            "color": "red",
+            "label": "Everyone out",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "So Florida law sets a limit. All the permanent residents of the Keys must be able to drive out to the mainland in no more than twenty-four and a half hours.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.092,
+           "lat": 25.001,
+           "span": 3.538
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Florida City",
+            "lon": -80.48,
+            "lat": 25.45,
+            "kind": "city",
+            "label": "Florida City"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "All the permanent residents",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.6,
+           "lat": 24.95,
+           "span": 0.3
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": -80.6,
+           "lat": 24.95,
+           "span": 0.186
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Upper Keys"
+      },
+      {
+       "type": "stat",
+       "at": "in no more than",
+       "stat": {
+        "value": "24.5 HOURS",
+        "label": "Legal limit to evacuate the Keys' permanent residents",
+        "source": "Florida Statutes 380.0552"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Until 2025, the limit was twenty-four hours. The state added half an hour, and ordered a new count of how many more homes that would allow.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "24 → 24.5",
+        "label": "Hours allowed, before and after the 2025 law",
+        "source": "Laws of Florida, ch. 2025-190"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and ordered a new",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.4,
+           "lat": 25.1,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key Largo"
+      }
+     ]
+    },
+    {
+     "text": "That limit decides how many new homes may be built. More houses mean more cars on one road, so the state hands out building permits in small numbers each year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.4,
+           "lat": 24.66,
+           "span": 0.2
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -81.4,
+           "lat": 24.66,
+           "span": 0.124
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Big Pine Key"
+      },
+      {
+       "type": "map",
+       "at": "so the state hands",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.55,
+           "lat": 24.98,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Plantation Key"
+      }
+     ]
+    },
+    {
+     "text": "The rule has a hard edge. People in mobile homes do not count as permanent residents, because they are ordered out first, before everyone else.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.52,
+           "lat": 24.665,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -81.52,
+           "lat": 24.665,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cudjoe Key"
+      },
+      {
+       "type": "photo",
+       "at": "because they are ordered",
+       "photo": "File:Debris (36884162550).jpg",
+       "on_screen_text": "After Irma, 2017"
+      }
+     ]
+    },
+    {
+     "text": "In September 2017, the door was tested. Hurricane Irma was heading for the Keys. On the morning of the sixth of September, all visitors were ordered to leave. That evening, the order went out to every resident.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.82,
+           "lat": 24.15,
+           "span": 7.667
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -79.6,
+             23.1
+            ],
+            "to": [
+             -81.5,
+             24.66
+            ],
+            "color": "red",
+            "label": "Irma, 10 Sep 2017",
+            "bend": -0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Hurricane Irma was heading",
+       "photo": "File:Irma 2017-09-10 1315Z.jpg",
+       "on_screen_text": "Irma over the Keys, 10 September 2017"
+      },
+      {
+       "type": "stat",
+       "at": "On the morning of",
+       "stat": {
+        "value": "6 SEP 2017",
+        "label": "Visitors ordered out at 7 a.m., residents at 7 p.m.",
+        "source": "Monroe County, Florida"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That evening, the order",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.05,
+           "lat": 24.99,
+           "span": 3.692
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -81.0,
+             24.72
+            ],
+            "to": [
+             -80.48,
+             25.45
+            ],
+            "color": "red",
+            "label": "Everyone out",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "On the tenth of September it came ashore at Cudjoe Key, in the Lower Keys, as a category four storm.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.58,
+           "lat": 24.628,
+           "span": 3.016
+          },
+          "places": [
+           {
+            "name": "Cudjoe Key",
+            "lon": -81.5,
+            "lat": 24.67,
+            "kind": "site",
+            "label": "Cudjoe Key"
+           }
+          ],
+          "highlight": [
+           "file:lower.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "in the Lower Keys,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.5,
+           "lat": 24.67,
+           "span": 0.15
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cudjoe Key"
+      }
+     ]
+    },
+    {
+     "text": "Nearly twelve hundred homes were destroyed. Most of them were mobile homes and small, older houses.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1,179",
+        "label": "Homes destroyed by Irma in the Keys",
+        "source": "Monroe County, Florida"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "were mobile homes and",
+       "photo": "File:Hurricane Irma 19 (36977734710).jpg",
+       "on_screen_text": "After Irma, 2017"
+      }
+     ]
+    },
+    {
+     "text": "Before anyone could go back, engineers had to inspect all forty-two bridges. Two short stretches of the highway had washed out near Marathon and had to be rebuilt first.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:170914-H-OD937-209 (37474487341).jpg",
+       "on_screen_text": "Officials in the Keys after Irma"
+      },
+      {
+       "type": "map",
+       "at": "Two short stretches of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.62,
+           "lat": 24.87,
+           "span": 3.432
+          },
+          "places": [
+           {
+            "name": "Mile 74",
+            "lon": -80.78,
+            "lat": 24.85,
+            "kind": "site",
+            "label": "Washouts"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and had to be",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.78,
+           "lat": 24.85,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The highway near mile 74"
+      }
+     ]
+    },
+    {
+     "text": "The road came back within days. But the homes that blew away were the cheapest in the Keys, and with permits capped, many of them never came back.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Florida night-time satellite image before-and-after Hurricane Irma.jpg",
+       "on_screen_text": "Florida's lights before and after Irma"
+      },
+      {
+       "type": "map",
+       "at": "But the homes that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.372,
+           "lat": 24.576,
+           "span": 3.224
+          },
+          "highlight": [
+           "file:lower.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and with permits capped,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.36,
+           "lat": 24.69,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Big Pine Key"
+      }
+     ]
+    },
+    {
+     "text": "The door has held, so far. But the threat to it now is not one storm. It is the sea itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.83,
+           "lat": 24.82,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -80.83,
+           "lat": 24.82,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Long Key"
+      },
+      {
+       "type": "map",
+       "at": "It is the sea",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.05,
+           "lat": 24.71,
+           "span": 3.807
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sea Is Coming Up the Road",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason six. The road was built at the level of the sea in 1938. The sea is no longer there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.91,
+           "lat": 24.906,
+           "span": 3.208
+          },
+          "places": [
+           {
+            "name": "Key West",
+            "lon": -81.78,
+            "lat": 24.555,
+            "kind": "city",
+            "label": "Key West"
+           }
+          ],
+          "highlight": [
+           "file:keys.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The sea is no",
+       "photo": "File:Pigeon Key Bridge, aerial view w-auto traffic, April 23, 1938 (Matlack 397-13-7). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-66.tif",
+       "on_screen_text": "The highway, 1938"
+      }
+     ]
+    },
+    {
+     "text": "How low is the land? We took fifteen hundred random points on the land of the Keys, mangrove islands included, and looked up the height of each one in the federal elevation survey.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.19,
+           "lat": 24.794,
+           "span": 3.446
+          },
+          "highlight": [
+           "file:keys.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "mangrove islands included,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.45,
+           "lat": 24.7,
+           "span": 0.3
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 25,
+          "view": {
+           "lon": -81.45,
+           "lat": 24.7,
+           "span": 0.186
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Mangrove islands of the Lower Keys"
+      }
+     ]
+    },
+    {
+     "text": "Four-fifths of the land stands less than three feet above the sea. Nine-tenths is under five feet. The highest ground is only about twenty feet up.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Share of the Keys' land",
+        "unit": "%",
+        "data": [
+         [
+          "Under 3 ft",
+          81
+         ],
+         [
+          "Under 5 ft",
+          91
+         ],
+         [
+          "Under 10 ft",
+          98.5
+         ]
+        ],
+        "source": "Own sample: 1,500 land points, USGS 3DEP elevations (geo/measure_height.py)",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "map",
+       "at": "The highest ground is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.66,
+           "lat": 24.96,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Windley Key"
+      }
+     ]
+    },
+    {
+     "text": "Key West has measured the sea since 1913, one of the longest tide records in the country. We took NOAA's monthly readings and averaged them.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.808,
+           "lat": 24.553,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -81.808,
+           "lat": 24.553,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Key West tide gauge"
+      },
+      {
+       "type": "photo",
+       "at": "We took NOAA's monthly",
+       "photo": "File:MM00032290 (5837195542).jpg",
+       "on_screen_text": "Key West harbour"
+      }
+     ]
+    },
+    {
+     "text": "The sea at Key West is now about a foot higher than when the gauge began. And over the last thirty years it has risen more than twice as fast as the century before.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Sea level at Key West vs 1913-22",
+        "unit": "in",
+        "data": [
+         [
+          "1913-22",
+          0
+         ],
+         [
+          "2016-25",
+          11.6
+         ]
+        ],
+        "source": "Own calculation: NOAA monthly mean sea level, Key West, 1913-2025 (geo/measure_sealevel.py)",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "stat",
+       "at": "And over the last",
+       "stat": {
+        "value": "2.4×",
+        "label": "Rise since 1996 vs the 1913-2025 rate (6.4 vs 2.65 mm a year)",
+        "source": "Own calculation: NOAA monthly mean sea level, Key West, 1913-2025 (geo/measure_sealevel.py)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "as fast as the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.79,
+           "lat": 24.548,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key West's south shore"
+      }
+     ]
+    },
+    {
+     "text": "On the islands that shows up as water in the streets, on days with no storm at all. In the autumn of 2019, the streets of one Key Largo neighbourhood, Stillwright Point, stayed under the tide for ninety-four days in a row.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Flood102405.JPG",
+       "on_screen_text": "A flooded street in Key West"
+      },
+      {
+       "type": "map",
+       "at": "on days with no",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.49,
+           "lat": 25.052,
+           "span": 2.892
+          },
+          "places": [
+           {
+            "name": "Key Largo",
+            "lon": -80.43,
+            "lat": 25.1,
+            "kind": "city",
+            "label": "Key Largo"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the autumn of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.42,
+           "lat": 25.14,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Stillwright Point, Key Largo"
+      },
+      {
+       "type": "stat",
+       "at": "stayed under the tide",
+       "stat": {
+        "value": "94 DAYS",
+        "label": "Streets under the king tides, autumn 2019",
+        "source": "Keys Weekly; WLRN"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The county has worked out what it would take to raise its own roads, about a hundred and fifty miles of them, above the tides to come. The answer was about one point eight billion dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.966,
+           "lat": 24.738,
+           "span": 3.683
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "about a hundred and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.06,
+           "lat": 24.725,
+           "span": 0.18
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Streets of Marathon"
+      },
+      {
+       "type": "stat",
+       "at": "The answer was about",
+       "stat": {
+        "value": "$1.8 BILLION",
+        "label": "To raise about 150 miles of county roads",
+        "source": "Monroe County, Florida"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The first neighbourhood is being rebuilt now, at Twin Lakes in Key Largo. Less than a mile of road, with pumps and drains, for about twenty-two million dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.44,
+           "lat": 25.08,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Twin Lakes, Key Largo"
+      },
+      {
+       "type": "stat",
+       "at": "Less than a mile",
+       "stat": {
+        "value": "$22 MILLION",
+        "label": "Twin Lakes road project, under one mile",
+        "source": "Monroe County, Florida"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The state has rebuilt the highway before. In the early 1980s it replaced thirty-seven of the forty-four old bridges, most of them Flagler's railway spans with a road on top. The new Seven Mile Bridge opened in 1982.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:7 Mile Bridge www.florida-infos.com - panoramio (1).jpg",
+       "on_screen_text": "The Seven Mile Bridge"
+      },
+      {
+       "type": "stat",
+       "at": "In the early 1980s",
+       "stat": {
+        "value": "37 OF 44",
+        "label": "Old bridges replaced in the early 1980s",
+        "source": "Florida Memory"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "most of them Flagler's",
+       "photo": "File:Knight's Key Bridge, passenger train crossing bridge, no date (Bramson Collection, X-336-1). - Seven Mile Bridge, Linking Florida Keys, Marathon, Monroe County, FL HAER FLA,44-KNIKE,1-72.tif",
+       "on_screen_text": "One of Flagler's railway bridges"
+      },
+      {
+       "type": "map",
+       "at": "The new Seven Mile",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.12,
+           "lat": 24.71,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The new and old Seven Mile Bridges"
+      }
+     ]
+    },
+    {
+     "text": "And that is only the side streets. The highway belongs to the state. Its longest bridge, the Seven Mile Bridge of 1982, is likely to be replaced, and the state's early estimate for a new one is about six hundred and seventy-seven million dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.27,
+           "lat": 24.904,
+           "span": 3.075
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its longest bridge, the",
+       "photo": "File:Seven Mile Bridge, Florida Keys aerial (2003).jpg",
+       "on_screen_text": "The Seven Mile Bridge"
+      },
+      {
+       "type": "stat",
+       "at": "and the state's early",
+       "stat": {
+        "value": "$677 MILLION",
+        "label": "Early estimate for a new Seven Mile Bridge",
+        "source": "FDOT, via Miami Herald 2024"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Even the reason most visitors come is changing. In the summer of 2023 the sea around the Keys grew hotter than it had been in any record, and nearly all the remaining elkhorn and staghorn coral on the reef died. Scientists now call both species functionally extinct there.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Elkhorn coral 8 Molasses Reef 20080309.jpg",
+       "on_screen_text": "Elkhorn coral, Molasses Reef, 2008"
+      },
+      {
+       "type": "map",
+       "at": "In the summer of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.375,
+           "lat": 25.01,
+           "span": 0.12
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Molasses Reef, off Key Largo"
+      },
+      {
+       "type": "stat",
+       "at": "grew hotter than it",
+       "stat": {
+        "value": "150+ YEARS",
+        "label": "Hottest water on Florida's reef in the record",
+        "source": "Science, 2025"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and nearly all the",
+       "stat": {
+        "value": "97.8-100 %",
+        "label": "Of the remaining elkhorn and staghorn corals died, 2023",
+        "source": "Science, 2025"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Scientists now call both",
+       "stat": {
+        "value": "FUNCTIONALLY EXTINCT",
+        "label": "Elkhorn and staghorn coral in Florida after 2023",
+        "source": "Science, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "About eighty thousand people live in the Keys. Every road raised and every bridge replaced is paid for by them, by the state, and often by federal grants.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~80,000",
+        "label": "People in the Keys",
+        "source": "US Census Bureau"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Every road raised and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.06,
+           "lat": 24.725,
+           "span": 0.1
+          },
+          "date": "2025-01-01/2025-04-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": -81.06,
+           "lat": 24.725,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Marathon"
+      }
+     ]
+    },
+    {
+     "text": "The old Seven Mile Bridge is still there, beside the new one. Its first two miles are a footpath now, out to Pigeon Key. Further on, a span is missing, where the boats pass through.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Fred the Tree 2025-05-18.jpg",
+       "on_screen_text": "The old Seven Mile Bridge"
+      },
+      {
+       "type": "photo",
+       "at": "Its first two miles",
+       "photo": "File:Christmastime Fred the Tree.jpg",
+       "on_screen_text": "The old bridge, now a footpath"
+      },
+      {
+       "type": "map",
+       "at": "out to Pigeon Key.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.155,
+           "lat": 24.704,
+           "span": 0.08
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pigeon Key"
+      },
+      {
+       "type": "photo",
+       "at": "Further on, a span",
+       "photo": "File:Baihia Honda Bridge - Flickr - daniel.chodusov.jpg",
+       "on_screen_text": "A missing span: the old Bahia Honda bridge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So this is why the Florida Keys hang on a single road.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -82.46,
+           "lat": 25.824,
+           "span": 9.638
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "A town at the end of the chain was worth reaching. A railroad reached it, and the storm of 1935 took the railroad and left the road. The islands had no water, so the water came down the road too. And because it is the only road, it is also the only way out, the reason the Keys are allowed to grow so little.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Bird's eye view of Key West, Fla., Key West Island, C.S. Monroe Co., 1884 LOC 83693954.jpg",
+       "on_screen_text": "Key West, 1884"
+      },
+      {
+       "type": "photo",
+       "at": "A railroad reached it,",
+       "photo": "File:A guide to Florida for tourists, sportsmen and settlers (1912) (14576579758).jpg",
+       "on_screen_text": "The line over the sea, 1912"
+      },
+      {
+       "type": "photo",
+       "at": "The islands had no",
+       "photo": "File:3-4 VIEW TO NORTHEAST - Naval Air Station Key West, Truman Annex, Fresh Water Cistern, Intersection of Front and Eaton Streets, Key West, Monroe County, FL HABS fl-530-C-4.tif",
+       "on_screen_text": "A Key West cistern"
+      },
+      {
+       "type": "map",
+       "at": "And because it is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.134,
+           "lat": 24.962,
+           "span": 3.327
+          },
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -81.0,
+             24.72
+            ],
+            "to": [
+             -80.48,
+             25.45
+            ],
+            "color": "red",
+            "label": "Everyone out",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the reason the Keys",
+       "photo": "File:Sunset Key and Sailboats, Florida, 2025.jpg",
+       "on_screen_text": "Key West"
+      }
+     ]
+    },
+    {
+     "text": "The roadblock of 1982 showed what one door means. The storm of 1935 showed what the sea can take. The price of keeping the road is the open question.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Conch Republic Flag, Key West, Florida, June 2021.jpg",
+       "on_screen_text": "The Conch Republic flag"
+      },
+      {
+       "type": "photo",
+       "at": "The storm of 1935",
+       "photo": "File:1935 Labor Day hurricane path.png",
+       "on_screen_text": "The storm's track, 1935"
+      },
+      {
+       "type": "map",
+       "at": "The price of keeping",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.17,
+           "lat": 24.7,
+           "span": 0.25
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Seven Mile Bridge"
+      }
+     ]
+    },
+    {
+     "text": "The numbers we measured say how tight the bet is. Nine in ten people live within a mile of one road. Four-fifths of the land stands less than three feet above the sea. And that sea is about a foot higher than it was when the gauge at Key West began.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.63,
+           "lat": 24.92,
+           "span": 0.25
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Islamorada"
+      },
+      {
+       "type": "stat",
+       "at": "Nine in ten people",
+       "stat": {
+        "value": "93 %",
+        "label": "Within one mile of US 1",
+        "source": "Own count: 2020 census blocks vs US 1 (geo/measure_road.py)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Four-fifths of the land",
+       "stat": {
+        "value": "81 %",
+        "label": "Of the land under 3 feet",
+        "source": "Own sample: 1,500 land points, USGS 3DEP elevations (geo/measure_height.py)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "And that sea is",
+       "stat": {
+        "value": "+1 FT",
+        "label": "Sea level at Key West since the gauge began",
+        "source": "Own calculation: NOAA monthly mean sea level, Key West, 1913-2025 (geo/measure_sealevel.py)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "when the gauge at",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -81.808,
+           "lat": 24.553,
+           "span": 0.14
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Key West"
+      }
+     ]
+    },
+    {
+     "text": "Florida has rebuilt this road twice already, once from a railroad and once with new bridges. The next rebuild will have to lift it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Bahia Honda Rail Bridge(js).jpg",
+       "on_screen_text": "Old and new bridges at Bahia Honda"
+      },
+      {
+       "type": "map",
+       "at": "The next rebuild will",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.95,
+           "lat": 24.78,
+           "span": 0.6
+          },
+          "date": "2025-01-01/2025-04-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Middle Keys"
+      }
+     ]
+    },
+    {
+     "text": "Would you keep paying to hold a road above a rising sea, or should the Keys one day go back to boats?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:001 Key West Bay Point - Lower Sugarloaf Channel aerial view.jpg",
+       "on_screen_text": "The Lower Keys"
+      },
+      {
+       "type": "map",
+       "at": "or should the Keys",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -80.892,
+           "lat": 25.006,
+           "span": 4.598
+          },
+          "highlight": [
+           "file:keys.geojson@red"
+          ],
+          "routes": [
+           {
+            "from": [
+             -80.48,
+             25.45
+            ],
+            "via": [
+             [
+              -80.43,
+              25.12
+             ],
+             [
+              -80.63,
+              24.92
+             ],
+             [
+              -80.83,
+              24.82
+             ],
+             [
+              -81.05,
+              24.72
+             ],
+             [
+              -81.2,
+              24.68
+             ],
+             [
+              -81.27,
+              24.66
+             ],
+             [
+              -81.37,
+              24.67
+             ],
+             [
+              -81.5,
+              24.66
+             ],
+             [
+              -81.62,
+              24.6
+             ]
+            ],
+            "to": [
+             -81.78,
+             24.56
+            ],
+            "mode": "line",
+            "label": "US 1",
+            "color": "red",
+            "seconds": 3.0
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Would you keep paying",
+      "text": "Keep paying to hold the road above the sea, or go back to boats?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why the Florida Keys Hang on a Single Road",
+  "title_candidates": [
+   "Why the Florida Keys Hang on a Single Road",
+   "Why America Built a Highway Across the Sea",
+   "Why the Florida Keys Have Only One Way Out"
+  ],
+  "description": "The Florida Keys hang on one road, more than a hundred miles of highway and bridges over the sea. Their people, their drinking water and their only way out all depend on it. We follow why it was built and whether it can be kept: Key West, once the biggest city in Florida; Flagler's railroad across the sea; the Labor Day hurricane of 1935 that destroyed it and left the road; the 1942 Navy pipe that still carries every drop of water; the 1982 roadblock and the Conch Republic; the 24.5-hour evacuation rule that caps new homes; Hurricane Irma; and the rising sea, measured at the Key West tide gauge since 1913.",
+  "tags": [
+   "Florida Keys",
+   "Key West",
+   "Overseas Highway",
+   "Seven Mile Bridge",
+   "Overseas Railroad",
+   "Henry Flagler",
+   "1935 Labor Day hurricane",
+   "Conch Republic",
+   "Hurricane Irma",
+   "sea level rise",
+   "US 1",
+   "Florida geography",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Would you keep paying to hold a road above a rising sea, or should the Keys one day go back to boats?"
+ }
+}

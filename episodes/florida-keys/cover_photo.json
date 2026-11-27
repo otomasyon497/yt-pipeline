@@ -1,0 +1,15 @@
+{
+ "photo": "File:Seven Mile Bridge, Florida Keys aerial (2003).jpg",
+ "focus": [0.5, 0.55],
+ "zoom": 1.0,
+ "lines": [{"t": "ONE ROAD", "color": "white"}, {"t": "IN OR OUT", "color": "yellow"}],
+ "text_at": [0.04, 0.05],
+ "text_size": 165,
+ "underline": true,
+ "variants": [
+  {"photo": "File:Overseas Highway to Key West - panoramio.jpg", "focus": [0.5, 0.6], "text_size": 160,
+   "lines": [{"t": "THE ONLY", "color": "white"}, {"t": "WAY OUT", "color": "yellow"}]},
+  {"photo": "File:1935 hurricane effects in the Florida Keys MM00003786x (15479759252).jpg", "focus": [0.5, 0.55], "text_size": 160,
+   "lines": [{"t": "THE SEA", "color": "white"}, {"t": "TOOK IT ONCE", "color": "yellow"}]}
+ ]
+}

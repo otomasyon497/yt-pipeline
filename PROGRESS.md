@@ -1057,3 +1057,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   height (81 % of land under 3 ft, 1,500 EPQS points), M3 people near US 1 (49 % within 0.25 mi, 93 % within 1 mi).
   drafts/narration.md v1: 2,715 words, hook 6/6 on hook_check (5 options in drafts/hooks.txt), no open CHECK.
   NEXT: visuals.md (find_media per reason), geo regions, build_script.py from the wyoming-empty template.
+- 2026-11-27: Florida Keys build: geo/make_regions.py (islands from 2020 census land blocks minus TIGER water),
+  build_script.py from the wyoming-empty template (256 shots: 124 map, 90 photo, 38 stat, 4 chart; 17.5 min est.),
+  episode_check "OK, ready to render" after swapping 27 soft archive scans; factcheck.md 194 claims, 0 FIX (scratch
+  fkfill.py); visuals.md; cover_photo.json A/B/C (package.py); playlists.json: added to "Sinking Cities and Vanishing
+  Coasts". NEXT: storyboard render, look at it, full render, frame audit, upload for 5 Dec 23:00 UTC.

@@ -166,7 +166,7 @@ P43: That pipe changed what the Keys could be. With water you could build hotels
 P44: Today the water still comes from the wellfield at Florida City. It runs down the chain in a big pipe beside the highway, across the same bridges, all the way to Key West.
 [ON SCREEN: Sentinel-2 view of a bridge with the pipe line beside it; label "WATER MAIN"]
 
-P44b: The pipe still carries about seventeen million gallons a day. The whole system now has more than a thousand miles of pipe, and it crosses forty-five bridges.
+P44b: The pipe still carries about seventeen million gallons a day. The whole system now has more than a thousand miles of pipe.
 [ON SCREEN: stat card "17 MILLION GALLONS A DAY" (R7)]
 
 P45: The power comes down the chain in the same way. So does the fuel, and almost all the food.
@@ -272,10 +272,10 @@ P69: And that is only the side streets. The highway belongs to the state. Its lo
 P69b: Even the reason most visitors come is changing. In the summer of 2023 the sea around the Keys grew hotter than it had been in any record, and nearly all the remaining elkhorn and staghorn coral on the reef died. Scientists now call both species functionally extinct there.
 [ON SCREEN: photo of bleached elkhorn coral (NOAA, PD)]
 
-P70: About eighty thousand people live in the Keys. Every road raised, every bridge replaced, is paid for by them, and by everyone else in Florida.
+P70: About eighty thousand people live in the Keys. Every road raised and every bridge replaced is paid for by them, by the state, and often by federal grants.
 [ON SCREEN: stat card "~80,000 PEOPLE" (Census 2025 est.)]
 
-P71: The old Seven Mile Bridge is still there, beside the new one. It is a footpath now, and a piece of it is missing in the middle, where boats pass through.
+P71: The old Seven Mile Bridge is still there, beside the new one. Its first two miles are a footpath now, out to Pigeon Key. Further on, a span is missing, where the boats pass through.
 [ON SCREEN: photo of the old Seven Mile Bridge with its gap (CC BY)]
 
 ## Ending (calm)

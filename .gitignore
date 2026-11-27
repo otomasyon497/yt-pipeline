@@ -9,3 +9,4 @@ __pycache__/
 remotion/public/media/
 client_secret*.json
 *.token
+youtube-transcript/

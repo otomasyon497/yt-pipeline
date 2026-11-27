@@ -1344,20 +1344,6 @@
           "at": "Rawlins.",
           "places": [
            {
-            "name": "Cheyenne",
-            "lon": -104.82,
-            "lat": 41.14,
-            "kind": "capital",
-            "label": "Cheyenne"
-           },
-           {
-            "name": "Laramie",
-            "lon": -105.59,
-            "lat": 41.31,
-            "kind": "city",
-            "label": "Laramie"
-           },
-           {
             "name": "Rawlins",
             "lon": -107.24,
             "lat": 41.79,
@@ -1369,27 +1355,6 @@
          {
           "at": "Rock Springs.",
           "places": [
-           {
-            "name": "Cheyenne",
-            "lon": -104.82,
-            "lat": 41.14,
-            "kind": "capital",
-            "label": "Cheyenne"
-           },
-           {
-            "name": "Laramie",
-            "lon": -105.59,
-            "lat": 41.31,
-            "kind": "city",
-            "label": "Laramie"
-           },
-           {
-            "name": "Rawlins",
-            "lon": -107.24,
-            "lat": 41.79,
-            "kind": "city",
-            "label": "Rawlins"
-           },
            {
             "name": "Rock Springs",
             "lon": -109.22,
@@ -1403,34 +1368,6 @@
           "at": "Green River.",
           "places": [
            {
-            "name": "Cheyenne",
-            "lon": -104.82,
-            "lat": 41.14,
-            "kind": "capital",
-            "label": "Cheyenne"
-           },
-           {
-            "name": "Laramie",
-            "lon": -105.59,
-            "lat": 41.31,
-            "kind": "city",
-            "label": "Laramie"
-           },
-           {
-            "name": "Rawlins",
-            "lon": -107.24,
-            "lat": 41.79,
-            "kind": "city",
-            "label": "Rawlins"
-           },
-           {
-            "name": "Rock Springs",
-            "lon": -109.22,
-            "lat": 41.59,
-            "kind": "city",
-            "label": "Rock Springs"
-           },
-           {
             "name": "Green River",
             "lon": -109.47,
             "lat": 41.53,
@@ -1442,41 +1379,6 @@
          {
           "at": "Evanston.",
           "places": [
-           {
-            "name": "Cheyenne",
-            "lon": -104.82,
-            "lat": 41.14,
-            "kind": "capital",
-            "label": "Cheyenne"
-           },
-           {
-            "name": "Laramie",
-            "lon": -105.59,
-            "lat": 41.31,
-            "kind": "city",
-            "label": "Laramie"
-           },
-           {
-            "name": "Rawlins",
-            "lon": -107.24,
-            "lat": 41.79,
-            "kind": "city",
-            "label": "Rawlins"
-           },
-           {
-            "name": "Rock Springs",
-            "lon": -109.22,
-            "lat": 41.59,
-            "kind": "city",
-            "label": "Rock Springs"
-           },
-           {
-            "name": "Green River",
-            "lon": -109.47,
-            "lat": 41.53,
-            "kind": "city",
-            "label": "Green River"
-           },
            {
             "name": "Evanston",
             "lon": -110.96,
@@ -2161,13 +2063,22 @@
      "text": "The hunters won in court in 2023, and again on appeal in 2025. In October 2025 the Supreme Court declined to hear the case. Across the West, about eight million acres of public land are locked in corners like these.",
      "shots": [
       {
-       "type": "stat",
+       "type": "map",
        "at": 0,
-       "stat": {
-        "value": "2023 / 2025",
-        "label": "District court, then the 10th Circuit, rule for the hunters",
-        "source": "Iron Bar Holdings v. Cape"
-       }
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.3,
+           "lat": 41.75,
+           "span": 1.0
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Elk Mountain and the Medicine Bow range"
       },
       {
        "type": "stat",
@@ -2204,6 +2115,25 @@
         "value": "~8 MILLION ACRES",
         "label": "Public land locked behind corners in the West",
         "source": "onX, 2022"
+       }
+      },
+      {
+       "type": "map",
+       "at": "locked in corners like",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -107.2,
+           "lat": 42.2,
+           "span": 17.8
+          },
+          "highlight": [
+           "file:blm.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
        }
       }
      ]
@@ -4399,6 +4329,24 @@
        "at": "There is no big",
        "photo": "File:Natrona County Courthouse.JPG",
        "on_screen_text": "Casper"
+      },
+      {
+       "type": "map",
+       "at": "where a graduate can",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.32,
+           "lat": 42.85,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Casper"
       }
      ]
     },
@@ -4834,23 +4782,14 @@
       },
       {
        "type": "map",
-       "at": "And Jeffrey City, the",
+       "at": "is a street grid",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": -107.8,
-           "lat": 42.48,
-           "span": 0.3
-          },
-          "date": "2025-07-01/2025-09-20"
-         },
-         {
-          "at": 47,
-          "view": {
-           "lon": -107.8,
-           "lat": 42.48,
-           "span": 0.186
+           "lon": -107.828,
+           "lat": 42.496,
+           "span": 0.09
           },
           "date": "2025-07-01/2025-09-20"
          }

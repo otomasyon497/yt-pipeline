@@ -87,6 +87,12 @@ P18: They tried to make one of their own at Swakopmund, thirty kilometres to the
 P19: Within about two years the sea had filled it with sand. Ships had to unload into small boats again, and later onto a wooden jetty.
 [ON SCREEN: photo of the Swakopmund jetty (CC BY)]
 
+P19b: So the Germans built a railway instead, to carry everything from the poor landing at Swakopmund up to the capital. The line to Windhoek, three hundred and eighty-two kilometres of narrow track, opened in June 1902.
+[ON SCREEN: map, the 1902 line drawn from Swakopmund to Windhoek; stat card "382 KM, 1902"]
+
+P19c: Swakopmund grew as a German town at the end of that line, and today it is Namibia's seaside resort. But its sea front was never a real harbour.
+[ON SCREEN: photo of Swakopmund's old buildings (CC BY); Sentinel-2 of the town]
+
 P20: The bay stayed in other hands for a long time. When the British Cape became part of South Africa in 1910, Walvis Bay went with it.
 [ON SCREEN: map, enclave red, "South Africa" label]
 
@@ -172,6 +178,9 @@ P40: Today the diamonds are mined by Namdeb, owned half by the state and half by
 P41: The closed zone even kept a treasure safe. In 2008, mining near Oranjemund uncovered the wreck of the Bom Jesus, a Portuguese ship lost in 1533. It held more than two thousand gold and silver coins.
 [ON SCREEN: photo of Bom Jesus coins (if licensed); stat card "1533"]
 
+P41b: Under the sand the diggers found about seventeen tonnes of copper ingots and more than a hundred elephant tusks as well. Portugal gave up its claim, and the treasure stayed in Namibia.
+[ON SCREEN: stat card "17 TONNES OF COPPER"]
+
 P42: Diamonds made the southern coast rich, and they kept it nearly empty. So where do the people of the coast actually live?
 [ON SCREEN: map flies north to Walvis Bay and Swakopmund]
 
@@ -179,6 +188,12 @@ P42: Diamonds made the southern coast rich, and they kept it nearly empty. So wh
 
 P43: Reason five. The few who do live here are packed into two towns, and those towns run on water they make and rock they dig.
 [ON SCREEN: painted map, Walvis Bay and Swakopmund labelled]
+
+P43b: We wanted to know how many Namibians really live near this coast. So we took a population map of the whole country, made from satellite images and the census, and measured each small square's distance from the sea.
+[ON SCREEN: painted map, hexagon dots of population across Namibia (M1)]
+
+P43c: About seven per cent of Namibians live within fifty kilometres of the Atlantic. Go a hundred kilometres inland and the share barely moves. Beyond the towns, almost nobody lives anywhere near this coast.
+[ON SCREEN: chart: share of Namibians within 5 / 50 / 100 km of the sea (M1)]
 
 P44: We measured how far the coastline runs without a single settled square. South of Walvis Bay, almost five hundred kilometres of coast pass with nobody living by the sea.
 [ON SCREEN: map, the 481 km stretch highlighted (M2); stat card "481 KM"]
@@ -212,6 +227,9 @@ P50: Mines and towns need water, and there is almost none. So in 2010 a plant wa
 
 P51: In 2025 it produced about seventeen and a half million cubic metres of water, and most of it went to the mines.
 [ON SCREEN: stat card "17.6 MILLION m³"]
+
+P51b: The plant was built for up to forty-five million cubic metres a year, and the uranium miners want a second one. The towns, meanwhile, are short of homes. Walvis Bay counts a backlog of about thirty-five thousand houses, and Swakopmund about thirty-two thousand.
+[ON SCREEN: Sentinel-2 of Walvis Bay's new informal suburbs; stat card "35,000 HOMES SHORT"]
 
 P52: So people can live on this coast. But only where a port, a mine and a plant that makes water all come together.
 [ON SCREEN: map, the two towns with the mines and plant marked]

@@ -80,3 +80,8 @@ Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why
 - Sand sea 320 x 120 km, Kuiseb the northern boundary (UNESCO datasheet; NASA EO).
 - Dunedin Star: Ventura captain Naude + 3 airmen stranded; land convoy from Windhoek under Capt. J.W.B. Smith (SAP)
   (Wikipedia; SAAF Museum).
+- R20 Swakopmund-Windhoek Staatsbahn, 382 km, 600 mm gauge, opened June 1902 (Wikipedia; New Era 2025).
+- R6b Bom Jesus: >2,000 gold/silver coins, ~17 t copper ingots, 100+ tusks; Portugal waived its claim (Wikipedia
+  Bom Jesus; Discovery 10 summary) [verify on Wikipedia page in fact-check].
+- R8b Erongo desal design capacity 45 M m3/yr; second plant planned (Swakop Uranium 70 % / NamWater 30 %) (Namibian
+  Sun Nov 2025). Housing backlog: Walvis Bay ~35,000 units, Swakopmund ~32,000 (New Era Sep 2025).

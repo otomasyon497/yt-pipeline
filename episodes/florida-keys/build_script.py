@@ -63,6 +63,7 @@ def v(view, at=None, **kw):
 
 
 SAT_MIN_SPAN = 0.08
+W24 = "2024-11-15/2025-01-31"   # Florida City views: the 2025 spring scenes have smoke from Everglades fires
 SU = "2025-01-01/2025-04-30"    # dry season 2025: scratch fksat.py 2026-11-27, clear on the views used
 
 
@@ -125,7 +126,6 @@ KEYS_ALT = "file:keys.geojson@alt"
 UPMID_RED = "file:upper_mid.geojson@red"
 LOWER_RED = "file:lower.geojson@red"
 KW_RED = "file:keywest.geojson@red"
-DADE_RED = "file:dade_south.geojson@red"
 
 # ------------------------------------------------------------------ sources (research.md)
 CENSUS = "US Census Bureau"
@@ -226,7 +226,6 @@ PH_KW_NARA3 = "Florida - Key West - NARA - 23936671.jpg"
 PH_USCG = "USCGC Active (WMEC 618) Mariel Boatlift (7352293542).jpg"
 PH_CITYHALL = "Key West City Hall.jpg"
 PH_MALLORY = "Mallory Square, Key West - panoramio (5).jpg"
-PH_WILMA = "Flood102405.JPG"
 PH_IRMA_SAT = "Irma 2017-09-10 1315Z.jpg"
 
 PH_HEMHOUSE = "Hemingwayhouse.jpg"
@@ -272,7 +271,7 @@ FERRY = [{"from": [-80.75, 24.86], "to": [-81.32, 24.70], "color": "blue", "labe
 TRAIN35 = [{"from": [-80.19, 25.77], "via": [[-80.48, 25.45], [-80.43, 25.12]], "to": [-80.63, 24.92], "mode": "line", "label": "Rescue train", "color": "red", "seconds": 2.5}]
 STORM35 = [{"from": [-78.6, 24.1], "to": [-80.84, 24.84], "color": "red", "label": "Labor Day storm, 2 Sep 1935", "bend": 0.08}]
 IRMA = [{"from": [-79.6, 23.1], "to": [-81.50, 24.66], "color": "red", "label": "Irma, 10 Sep 2017", "bend": -0.1}]
-LANE = [{"from": [-86.0, 24.6], "to": [-79.6, 25.2], "color": "blue", "label": "Gulf - Atlantic shipping", "bend": -0.12}]
+LANE = [{"from": [-85.8, 23.9], "to": [-79.9, 24.2], "color": "blue", "label": "Gulf - Atlantic shipping", "bend": 0.06}]
 CANAL = [{"from": [-79.75, 9.1], "to": [-81.78, 24.55], "color": "red", "label": "Canal trade?", "bend": 0.1}]
 PAST = [{"from": [-79.75, 9.1], "to": [-75.5, 20.0], "color": "blue", "label": "Ships kept their routes", "bend": -0.15}]
 TOTAMPA = [{"from": [-81.78, 24.56], "to": [-82.46, 27.95], "color": "red", "label": "Cigar makers move", "bend": 0.12}]
@@ -317,7 +316,7 @@ chapter(
 # ================================================================== 1. A Town Worth the Trip
 chapter(
     P("P5",
-      m(0, v(STRAITS, highlight=[KW_RED], places=[KEYWEST, STRAITS_L])),
+      m(0, v(STRAITS, highlight=[KW_RED], places=[STRAITS_L])),
       photo("the biggest in Florida.", PH_KW_1884, "Key West in 1884")),
     P("P6",
       m(0, v(STRAITS, places=[GULF_L], arrows=LANE)),
@@ -474,11 +473,11 @@ chapter(
 # ================================================================== 4. Islands With No Water
 chapter(
     P("P37",
-      m(0, v(SFLA, highlight=[KEYS_RED, DADE_RED], places=[FLCITY])),
-      photo("because they have no", PH_FKEAST, "The Keys from orbit")),
+      m(0, v(SFLA, highlight=[KEYS_RED], places=[FLCITY])),
+      photo("because they have no", PH_FKEAST, "The Upper Keys, NOAA sanctuary map")),
     P("P38",
       photo(0, PH_FOSSIL, "Fossil coral, Windley Key"),
-      sat("Rain sinks straight through", -80.655, 24.96, 0.08, "Windley Key")),
+      sat("Rain sinks straight through", -80.605, 24.96, 0.08, "Windley Key")),
     P("P39",
       photo(0, PH_PINKHOUSE, "A Key West house"),
       photo("Every house caught water", PH_CISTERNS2, "Cisterns behind a Key West warehouse")),
@@ -486,7 +485,7 @@ chapter(
       photo(0, PH_CISTERN, "A Navy fresh-water cistern, Key West"),
       photo("It did not work", PH_NAVY_HOSP, "The Key West naval hospital, 1940s")),
     P("P41",
-      m(0, v(SFLA, places=[FLCITY], highlight=[DADE_RED])),
+      m(0, v(SFLA, places=[FLCITY, MIAMI])),
       m("It laid a pipe", v(SFLA, routes=PIPE)),
       sat("island by island,", -81.05, 24.72, 0.15, "Marathon")),
     P("P42",
@@ -514,22 +513,22 @@ chapter(
       sat("and measured how far", -81.07, 24.72, 0.12, "Marathon along US 1")),
     P("P45c",
       stat(0, "49 %", "Keys residents within a quarter mile of US 1", OWN_ROAD),
-      sat("within a quarter of", -80.63, 24.93, 0.1, "Islamorada along US 1"),
+      sat("of a mile of", -80.63, 24.93, 0.1, "Islamorada along US 1"),
       stat("More than nine in", "93 %", "Keys residents within one mile of US 1", OWN_ROAD)),
     P("P45d",
       sat(0, -81.735, 24.572, 0.08, "Stock Island"),
       photo("After Irma, they were", PH_IRMA_DEBRIS, "After Irma, 2017"),
       stat("makes about four million", "4 MILLION", "Gallons a day from the Stock Island seawater plant (2025)", FKAA)),
     P("P46",
-      sat(0, -80.45, 25.30, 0.2, "Where the road leaves the mainland"),
+      sat(0, -80.45, 25.30, 0.2, "Where the road leaves the mainland", date=W24),
       photo("And a strip that", PH_HWY, "The Overseas Highway")),
 )
 
 # ================================================================== 5. One Road, One Door
 chapter(
     P("P47",
-      m(0, v(SFLA, highlight=[DADE_RED], places=[FLCITY], routes=ROAD)),
-      sat("In 1982, somebody shut", -80.47, 25.40, 0.08, "US 1 south of Florida City")),
+      m(0, v(SFLA, places=[FLCITY], routes=ROAD)),
+      sat("In 1982, somebody shut", -80.47, 25.40, 0.08, "US 1 south of Florida City", date=W24)),
     P("P48",
       m(0, v(STRAITS, places=[MARIEL, KEYWEST], arrows=MARIELA)),
       stat("had crossed the Straits", "125,000+", "Cubans in the Mariel boatlift, 1980", "Britannica"),
@@ -538,7 +537,7 @@ chapter(
       m("The Border Patrol now", v(SFLA, places=[FLCITY], routes=ROAD))),
     P("P49",
       m(0, v(UPPER, places=[FLCITY], routes=ROAD)),
-      sat("just south of Florida", -80.47, 25.42, 0.1, "The highway at Florida City"),
+      sat("just south of Florida", -80.47, 25.42, 0.1, "The highway at Florida City", date=W24),
       photo("Every car leaving the", PH_LOWERKEYS, "The Lower Keys")),
     P("P50",
       sat(0, -80.44, 25.20, 0.2, "The road onto Key Largo"),
@@ -599,7 +598,7 @@ chapter(
       sat("mangrove islands included,", -81.45, 24.70, 0.3, "Mangrove islands of the Lower Keys")),
     P("P63c",
       chart(0, "Share of the Keys' land", "%", [["Under 3 ft", 81], ["Under 5 ft", 91], ["Under 10 ft", 98.5]], OWN_HEIGHT, highlight=0),
-      sat("The highest ground is", -80.66, 24.96, 0.1, "Windley Key")),
+      sat("The highest ground is", -80.605, 24.96, 0.12, "Windley Key")),
     P("P64",
       sat(0, -81.808, 24.553, 0.08, "The Key West tide gauge"),
       photo("We took NOAA's monthly", PH_KW_HARBOR, "Key West harbour")),
@@ -608,7 +607,7 @@ chapter(
       stat("And over the last", "2.4×", "Rise since 1996 vs the 1913-2025 rate (6.4 vs 2.65 mm a year)", OWN_SEA),
       sat("as fast as the", -81.79, 24.548, 0.12, "Key West's south shore")),
     P("P66",
-      photo(0, PH_WILMA, "A flooded street in Key West"),
+      photo(0, PH_PINKHOUSE, "A Key West street"),
       m("on days with no", v(UPPER, places=[KEYLARGO])),
       sat("In the autumn of", -80.42, 25.14, 0.08, "Stillwright Point, Key Largo"),
       stat("stayed under the tide", "94 DAYS", "Streets under the king tides, autumn 2019", "Keys Weekly; WLRN")),

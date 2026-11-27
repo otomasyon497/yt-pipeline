@@ -50,7 +50,8 @@ out = {
     "keywest": keys.intersection(box(-81.82, 24.53, -81.71, 24.59)),
     "dade_south": dade.intersection(box(-80.70, 25.25, -80.35, 25.52)),
 }
+NAMES = {"keys": "Florida Keys", "upper_mid": "Upper and Middle Keys", "lower": "Lower Keys", "keywest": "Key West", "dade_south": "Florida City"}
 for k, g in out.items():
     (HERE / f"{k}.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": [
-        {"type": "Feature", "properties": {"name": k, "source": "US Census Bureau (public domain)"}, "geometry": mapping(g)}]}))
+        {"type": "Feature", "properties": {"name": NAMES[k], "source": "US Census Bureau (public domain)"}, "geometry": mapping(g)}]}))
     print(f"{k}: {transform(alb, g).area/1e6:.1f} km2 = {transform(alb, g).area/2.59e6:.1f} sq mi")

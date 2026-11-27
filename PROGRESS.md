@@ -1062,3 +1062,8 @@ comment. Audio of the long render was never checked. No further work planned unl
   episode_check "OK, ready to render" after swapping 27 soft archive scans; factcheck.md 194 claims, 0 FIX (scratch
   fkfill.py); visuals.md; cover_photo.json A/B/C (package.py); playlists.json: added to "Sinking Cities and Vanishing
   Coasts". NEXT: storyboard render, look at it, full render, frame audit, upload for 5 Dec 23:00 UTC.
+- 2026-11-27: Florida Keys storyboard 46017899787 OK (16.3 min real; artifact downloaded + deleted). All 25 sheets reviewed.
+  Fixes: region labels (file names showed as "UPPER_MID"/"DADE_SOUTH" -> readable names), Florida City box removed,
+  smoky Florida City Sentinel views -> 2024-11-15/2025-01-31 window, Windley Key view moved onto the island, shipping
+  arrow through the Straits, 49 % card held longer, Key Haven flood photo out (it was a storm, the line is about
+  no-storm floods). factcheck regenerated, 0 FIX. FULL RENDER next.

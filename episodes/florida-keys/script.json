@@ -372,13 +372,6 @@
           ],
           "places": [
            {
-            "name": "Key West",
-            "lon": -81.78,
-            "lat": 24.555,
-            "kind": "city",
-            "label": "Key West"
-           },
-           {
             "name": "Straits",
             "lon": -81.0,
             "lat": 24.0,
@@ -409,9 +402,9 @@
         "steps": [
          {
           "view": {
-           "lon": -82.8,
-           "lat": 24.425,
-           "span": 8.587
+           "lon": -82.836,
+           "lat": 24.439,
+           "span": 7.955
           },
           "places": [
            {
@@ -425,16 +418,16 @@
           "arrows": [
            {
             "from": [
-             -86.0,
-             24.6
+             -85.8,
+             23.9
             ],
             "to": [
-             -79.6,
-             25.2
+             -79.9,
+             24.2
             ],
             "color": "blue",
             "label": "Gulf - Atlantic shipping",
-            "bend": -0.12
+            "bend": 0.06
            }
           ]
          }
@@ -2780,8 +2773,7 @@
            "span": 4.464
           },
           "highlight": [
-           "file:keys.geojson@red",
-           "file:dade_south.geojson@red"
+           "file:keys.geojson@red"
           ],
           "places": [
            {
@@ -2801,7 +2793,7 @@
        "type": "photo",
        "at": "because they have no",
        "photo": "File:Fkeast 2000.jpg",
-       "on_screen_text": "The Keys from orbit"
+       "on_screen_text": "The Upper Keys, NOAA sanctuary map"
       }
      ]
     },
@@ -2821,7 +2813,7 @@
         "steps": [
          {
           "view": {
-           "lon": -80.655,
+           "lon": -80.605,
            "lat": 24.96,
            "span": 0.08
           },
@@ -2889,10 +2881,14 @@
             "lat": 25.45,
             "kind": "city",
             "label": "Florida City"
+           },
+           {
+            "name": "Miami",
+            "lon": -80.19,
+            "lat": 25.77,
+            "kind": "city",
+            "label": "Miami"
            }
-          ],
-          "highlight": [
-           "file:dade_south.geojson@red"
           ]
          }
         ],
@@ -3477,7 +3473,7 @@
       },
       {
        "type": "map",
-       "at": "within a quarter of",
+       "at": "of a mile of",
        "map": {
         "steps": [
          {
@@ -3565,7 +3561,7 @@
            "lat": 25.3,
            "span": 0.2
           },
-          "date": "2025-01-01/2025-04-30"
+          "date": "2024-11-15/2025-01-31"
          }
         ],
         "cut": true
@@ -3600,9 +3596,6 @@
            "lat": 25.096,
            "span": 3.956
           },
-          "highlight": [
-           "file:dade_south.geojson@red"
-          ],
           "places": [
            {
             "name": "Florida City",
@@ -3682,7 +3675,7 @@
            "lat": 25.4,
            "span": 0.08
           },
-          "date": "2025-01-01/2025-04-30"
+          "date": "2024-11-15/2025-01-31"
          }
         ],
         "cut": true
@@ -3939,7 +3932,7 @@
            "lat": 25.42,
            "span": 0.1
           },
-          "date": "2025-01-01/2025-04-30"
+          "date": "2024-11-15/2025-01-31"
          }
         ],
         "cut": true
@@ -4826,9 +4819,9 @@
         "steps": [
          {
           "view": {
-           "lon": -80.66,
+           "lon": -80.605,
            "lat": 24.96,
-           "span": 0.1
+           "span": 0.12
           },
           "date": "2025-01-01/2025-04-30"
          }
@@ -4936,8 +4929,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Flood102405.JPG",
-       "on_screen_text": "A flooded street in Key West"
+       "photo": "File:Pink and Blue House in Key West, Florida.jpg",
+       "on_screen_text": "A Key West street"
       },
       {
        "type": "map",

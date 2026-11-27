@@ -1072,3 +1072,7 @@ comment. Audio of the long render was never checked. No further work planned unl
   ("ONE ROAD IN OR OUT"), added to "Sinking Cities and Vanishing Coasts". By hand (user): Test & Compare with
   cover_A/B/C (Videos\yt-pipeline\florida-keys); pin "Would you keep paying to hold a road above a rising sea, or
   should the Keys one day go back to boats?" after it goes public. Next free slot: 6 Dec 23:00 UTC.
+- 2026-11-27: Next topic (6 Dec 23:00 UTC): user chose SKELETON COAST (slug skeleton-coast). Demand PASS (15 at 3x).
+  Rivals read (Geography By Geoff 3.9 M covers climate/diamonds/Kolmanskop) -> competitors.md; our room: Walvis Bay
+  British until 1994, Swakopmund Mole, Dunedin Star 1942, uranium + desalination, Oranjemund 2017, green hydrogen,
+  own measurements. research.md round 1 + gate-1 outline. NEXT: gate 1 approval (title), round 2, M1-M3, narration.

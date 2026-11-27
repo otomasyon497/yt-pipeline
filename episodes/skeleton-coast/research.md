@@ -40,3 +40,13 @@ Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why
 - 4. Diamonds closed the door: 1908, Sperrgebiet, Kolmanskop, Oranjemund until 2017, Bom Jesus.
 - 5. Where people do live: Walvis Bay/Swakopmund boom, uranium + desalination, M1.
 - 6. The next bet: green hydrogen in the park; ending question (open the coast, or keep it closed?).
+
+## Round 2 (2026-11-27)
+- M1 DONE (geo/measure_population.py -> .txt; Kontur 2023 H3 400 m, CC BY 4.0; NE 10m coast, 1,354 km): Kontur total
+  2.64 M (below the 2023 census 3.02 M: use shares only). Within 5 km of the sea 7.0 %; 20 km 7.1 %; 50 km 7.3 %;
+  100 km 7.6 % -> "about one Namibian in fourteen lives near the sea, almost all of them in a handful of towns".
+- M2 DONE (same script; hexagons within 10 km of the sea with >= 25 people): longest empty stretches 481 km
+  (south of Walvis Bay to north of Luderitz, the Namib dune sea), 347 km (Terrace Bay/Mowe Bay area to the Kunene),
+  276 km (Henties Bay to Terrace Bay area). [CHECK the settlement names at -20.0 S on a map]
+- R3/R7 as above; still to read: Namibia census total, Swakopmund Mole, Dunedin Star numbers, Skeleton Coast Park year,
+  rainfall normals (M3), Rossing 1976, Tsau //Khaeb year, Cape Cross return date.

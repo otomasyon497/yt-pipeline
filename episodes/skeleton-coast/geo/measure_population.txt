@@ -1,0 +1,11 @@
+Kontur Namibia total 2,643,218; coastline length 1,354 km (NE 10m)
+within 5 km of the sea: 185,696 = 7.0 % of Namibians
+within 20 km of the sea: 187,483 = 7.1 % of Namibians
+within 50 km of the sea: 192,959 = 7.3 % of Namibians
+within 100 km of the sea: 201,956 = 7.6 % of Namibians
+main coast line 1,354 km; settled hexagons near the sea: 125
+  empty stretch 481 km: from (-26.62, 15.16) to (-22.98, 14.47)
+  empty stretch 347 km: from (-20.00, 13.02) to (-17.26, 11.76)
+  empty stretch 276 km: from (-22.11, 14.27) to (-20.00, 13.02)
+  empty stretch 133 km: from (-27.60, 15.50) to (-26.67, 15.15)
+  empty stretch 34 km: from (-22.41, 14.44) to (-22.14, 14.29)

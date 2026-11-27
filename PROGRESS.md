@@ -1075,4 +1075,4 @@ comment. Audio of the long render was never checked. No further work planned unl
 - 2026-11-27: Next topic (6 Dec 23:00 UTC): user chose SKELETON COAST (slug skeleton-coast). Demand PASS (15 at 3x).
   Rivals read (Geography By Geoff 3.9 M covers climate/diamonds/Kolmanskop) -> competitors.md; our room: Walvis Bay
   British until 1994, Swakopmund Mole, Dunedin Star 1942, uranium + desalination, Oranjemund 2017, green hydrogen,
-  own measurements. research.md round 1 + gate-1 outline. NEXT: gate 1 approval (title), round 2, M1-M3, narration.
+  own measurements. research.md round 1 + gate-1 outline. GATE 1 APPROVED (title "Why Almost Nobody Lives on Namibia's Skeleton Coast"). NEXT: round 2 primary sources, M1-M3 (Kontur Namibia), narration, then the Florida Keys pipeline steps.

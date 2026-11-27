@@ -1,6 +1,6 @@
 # Skeleton Coast: research (round 1, 2026-11-27)
 
-Slot: 6 Dec 2026 23:00 UTC. Working title: "Why Almost Nobody Lives on Namibia's Skeleton Coast". Rivals: competitors.md.
+Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why Almost Nobody Lives on Namibia's Skeleton Coast". Rivals: competitors.md.
 
 ## Facts (round 1; [CHECK] = read primary in round 2)
 - R1 Climate: Benguela upwelling, inversion; Walvis Bay rain ~13 mm/yr vs Windhoek ~360 mm [CHECK Namibia Met / WMO];

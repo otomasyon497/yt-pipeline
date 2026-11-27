@@ -117,7 +117,7 @@ def main() -> None:
         hits = [r for r in rows if r["ratio"] >= DEMAND_RATIO]
         small = [r for r in hits if r["subs"] < 100_000]
         for r in rows[:15]:
-            print(f"{r['ratio']:>6.1f}x {r['views']:>10,} views {r['subs']:>9,} subs {r['age']:>4} d  {r['title'][:70]} ({r['channel'][:24]})")
+            print(f"{r['ratio']:>6.1f}x {r['views']:>10,} views {r['subs']:>9,} subs {r['age']:>4} d  {r['title'][:70]} ({r['channel'][:24]}) {r['id']}")
         verdict = "PASS" if len(hits) >= DEMAND_HITS else "FAIL"
         print(f"demand: {verdict}: {len(hits)} video(s) at {DEMAND_RATIO:.0f}x their channel in {days} days "
               f"({len(small)} from channels under 100K); needs {DEMAND_HITS}. Read the titles: they must be about this topic.")

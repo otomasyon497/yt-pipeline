@@ -1,0 +1,3301 @@
+{
+ "title": "Why Almost Nobody Lives on Namibia's Skeleton Coast",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/skeleton-coast/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2025",
+  "Population near the sea and empty stretches: own count from Kontur Population 2023 (CC BY 4.0) (geo/measure_population.py)",
+  "Parks: (c) OpenStreetMap contributors (ODbL); coast and borders: Natural Earth (geo/make_regions.py)",
+  "Walvis Bay enclave drawn as an approximate area; current, railway, tug and convoy lines drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "EMPTY COAST"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Namibia's Skeleton Coast and the desert shore south of it run for more than thirteen hundred kilometres along the Atlantic. That is about as long as the whole coast of California.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.0,
+           "lat": -23.577,
+           "span": 79.119
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Cape Town",
+            "lon": 18.42,
+            "lat": -33.92,
+            "kind": "city",
+            "label": "Cape Town"
+           },
+           {
+            "name": "Luanda",
+            "lon": 13.23,
+            "lat": -8.84,
+            "kind": "capital",
+            "label": "Luanda"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "run for more than",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.489,
+           "lat": -23.902,
+           "span": 37.815
+          },
+          "highlight": [
+           "file:coast30.geojson@red",
+           "file:namibia.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "That is about as",
+       "photo": "File:Dune Formation Namib Skeleton Coast (37504515070).jpg",
+       "on_screen_text": "Where the Namib meets the Atlantic"
+      }
+     ]
+    },
+    {
+     "text": "But almost nobody lives on it. We counted where Namibians live, and only about one in fourteen lives within fifty kilometres of the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.55,
+           "lat": -23.6,
+           "span": 0.6
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dune sea meets the Atlantic"
+      },
+      {
+       "type": "stat",
+       "at": "We counted where Namibians",
+       "stat": {
+        "value": "7 %",
+        "label": "Of Namibians live within 50 km of the sea",
+        "source": "Own count: Kontur population 2023 (CC BY 4.0) vs the coastline (geo/measure_population.py)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So why does almost nobody live on Namibia's Skeleton Coast?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.259,
+           "lat": -23.322,
+           "span": 33.535
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           },
+           {
+            "name": "Lüderitz",
+            "lon": 15.16,
+            "lat": -26.65,
+            "kind": "city",
+            "label": "Lüderitz"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Namibia's Skeleton Coast?",
+       "photo": "File:Eduard Bohlen anagoria.jpg",
+       "on_screen_text": "The Eduard Bohlen, wrecked 1909"
+      }
+     ]
+    },
+    {
+     "text": "The answer runs through a harbour that belonged to another country until 1994, a rescue that wrecked a tug and a bomber, and a diamond town that was closed to outsiders until 2017.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.5,
+           "lat": -22.95,
+           "span": 0.25
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Walvis Bay"
+      },
+      {
+       "type": "photo",
+       "at": "a rescue that wrecked",
+       "photo": "File:Zeila (Ship).jpg",
+       "on_screen_text": "A wreck on the Skeleton Coast"
+      },
+      {
+       "type": "photo",
+       "at": "and a diamond town",
+       "photo": "File:Abandoned building, Kolmannskuppe, Namibia.jpg",
+       "on_screen_text": "Kolmanskop"
+      }
+     ]
+    },
+    {
+     "text": "The first reason is the sea itself.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.403,
+           "lat": -27.559,
+           "span": 50.217
+          },
+          "arrows": [
+           {
+            "from": [
+             14.0,
+             -34.0
+            ],
+            "to": [
+             11.3,
+             -18.5
+            ],
+            "color": "blue",
+            "label": "Benguela current",
+            "bend": -0.08
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Sea That Will Not Rain",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. The ocean off this coast is cold, and cold water does not make rain.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 19.884,
+           "lat": -23.064,
+           "span": 83.503
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ],
+          "arrows": [
+           {
+            "from": [
+             14.0,
+             -34.0
+            ],
+            "to": [
+             11.3,
+             -18.5
+            ],
+            "color": "blue",
+            "label": "Benguela current",
+            "bend": -0.08
+           }
+          ],
+          "places": [
+           {
+            "name": "Atlantic",
+            "lon": 9.0,
+            "lat": -24.0,
+            "kind": "label",
+            "label": "ATLANTIC OCEAN"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and cold water does",
+       "photo": "File:Swakopmund Brandung.jpg",
+       "on_screen_text": "Cold surf at Swakopmund"
+      }
+     ]
+    },
+    {
+     "text": "A current called the Benguela carries water up from the south, and winds lift colder water from the deep to the surface. The air above it is chilled from below. It stays low and heavy, and the clouds that would bring rain never build.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.941,
+           "lat": -27.559,
+           "span": 50.217
+          },
+          "arrows": [
+           {
+            "from": [
+             14.0,
+             -34.0
+            ],
+            "to": [
+             11.3,
+             -18.5
+            ],
+            "color": "blue",
+            "label": "Benguela current",
+            "bend": -0.08
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The air above it",
+       "photo": "File:Oceanic fog sossusvlei4.jpg",
+       "on_screen_text": "Fog rolling over the Namib"
+      },
+      {
+       "type": "photo",
+       "at": "and the clouds that",
+       "photo": "File:Namib desert MODIS.jpg",
+       "on_screen_text": "The Namib from orbit"
+      }
+     ]
+    },
+    {
+     "text": "Walvis Bay, the biggest town on the coast, gets about half an inch of rain a year. Windhoek, the capital, up on the plateau, gets more than twenty times as much.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Rain in a year",
+        "unit": "mm",
+        "data": [
+         [
+          "Walvis Bay",
+          13
+         ],
+         [
+          "Windhoek",
+          360
+         ]
+        ],
+        "source": "Climate normals (Wikipedia / NMS)",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Windhoek, the capital, up",
+       "photo": "File:Walvis Bay (37714794876).jpg",
+       "on_screen_text": "Walvis Bay"
+      }
+     ]
+    },
+    {
+     "text": "What the sea does give is fog. On many mornings it rolls inland, and the beetles and plants of the Namib live on the drops it leaves. People cannot.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Oceanic fog sossusvlei4.jpg",
+       "on_screen_text": "Fog over the dunes"
+      },
+      {
+       "type": "photo",
+       "at": "and the beetles and",
+       "photo": "File:Welwitschia mirabilis 002.jpg",
+       "on_screen_text": "Welwitschia, which lives on fog"
+      }
+     ]
+    },
+    {
+     "text": "Behind the beach lies the Namib, a desert of gravel plains and some of the tallest dunes on earth. In many places they run straight into the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.55,
+           "lat": -23.6,
+           "span": 0.6
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 14.55,
+           "lat": -23.6,
+           "span": 0.372
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Namib sand sea"
+      },
+      {
+       "type": "photo",
+       "at": "In many places they",
+       "photo": "File:Sandwich Harbour, Walvis Bay (37731184332).jpg",
+       "on_screen_text": "Sandwich Harbour: dunes into the sea"
+      }
+     ]
+    },
+    {
+     "text": "South of Walvis Bay the sand sea is about three hundred and twenty kilometres long. Its northern edge is a dry river, the Kuiseb, and the dunes stop at its bed as if at a wall.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.312,
+           "lat": -24.859,
+           "span": 13.737
+          },
+          "highlight": [
+           "file:namib_naukluft.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Its northern edge is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": -23.3,
+           "span": 0.4
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kuiseb: dunes stop at the riverbed"
+      },
+      {
+       "type": "photo",
+       "at": "and the dunes stop",
+       "photo": "File:Kuiseb Namibia anagoria.JPG",
+       "on_screen_text": "The Kuiseb"
+      }
+     ]
+    },
+    {
+     "text": "Rivers cross it rarely. Most of them reach the coast only after heavy rain far inland, and some years not at all.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Kuiseb River Nears the Ocean.jpg",
+       "on_screen_text": "The Kuiseb nearing the sea, from the ISS"
+      },
+      {
+       "type": "map",
+       "at": "and some years not",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 11.8,
+           "lat": -17.27,
+           "span": 0.2
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kunene, the only river that always flows"
+      }
+     ]
+    },
+    {
+     "text": "A coast with no rain, no rivers and no farmland gave people no reason to stop. And the first Europeans who saw it did not stop either.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.688,
+           "lat": -23.322,
+           "span": 33.535
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And the first Europeans",
+       "photo": "File:Skeleton Coast (23910020708).jpg",
+       "on_screen_text": "The Skeleton Coast"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "No Harbour, No Water",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason two. Ships need water and a safe harbour, and this coast had almost neither.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.27,
+           "lat": -22.36,
+           "span": 12.32
+          },
+          "places": [
+           {
+            "name": "Cape Cross",
+            "lon": 13.95,
+            "lat": -21.77,
+            "kind": "site",
+            "label": "Cape Cross"
+           },
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and this coast had",
+       "photo": "File:Swakopmund Brandung.jpg",
+       "on_screen_text": "Surf on the Namibian coast"
+      }
+     ]
+    },
+    {
+     "text": "In January 1486, the Portuguese captain Diogo Cão landed at a headland north of today's Swakopmund and set up a stone cross to claim it. Then he sailed on.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 3.0,
+           "lat": 5.499,
+           "span": 186.187
+          },
+          "places": [
+           {
+            "name": "Lisbon",
+            "lon": -9.14,
+            "lat": 38.72,
+            "kind": "capital",
+            "label": "Lisbon"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -9.14,
+             38.72
+            ],
+            "to": [
+             13.95,
+             -21.77
+            ],
+            "color": "blue",
+            "label": "Diogo Cão, 1486",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "landed at a headland",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.95,
+           "lat": -21.77,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Cross"
+      },
+      {
+       "type": "stat",
+       "at": "and set up a",
+       "stat": {
+        "value": "1486",
+        "label": "Diogo Cão's stone cross at Cape Cross",
+        "source": "German Foreign Office; DHM"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The headland is still called Cape Cross. Today it belongs to seals. In the breeding season up to two hundred and ten thousand Cape fur seals crowd its rocks, the largest colony of its kind in the world.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Cape Cross Seal Colony confrontation.jpg",
+       "on_screen_text": "Cape fur seals at Cape Cross"
+      },
+      {
+       "type": "stat",
+       "at": "In the breeding season",
+       "stat": {
+        "value": "210,000",
+        "label": "Seals at Cape Cross in the breeding season",
+        "source": "Namibia Ministry of Environment"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the largest colony of",
+       "photo": "File:Seals on the Skeleton Coast (5832914651).jpg",
+       "on_screen_text": "Seals on the Skeleton Coast"
+      }
+     ]
+    },
+    {
+     "text": "That cross stood there for four hundred years. In 1893 a German naval officer took it to Berlin, where it stood in a museum for more than a century. Namibia asked for it back in 2017, and in 2019 it was shipped home.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 6.75,
+           "lat": 13.96,
+           "span": 243.69
+          },
+          "places": [
+           {
+            "name": "Berlin",
+            "lon": 13.4,
+            "lat": 52.52,
+            "kind": "capital",
+            "label": "Berlin"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             13.95,
+             -21.77
+            ],
+            "to": [
+             13.4,
+             52.52
+            ],
+            "color": "red",
+            "label": "To Berlin, 1893",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Namibia asked for it",
+       "stat": {
+        "value": "2019",
+        "label": "The cross is shipped back to Namibia",
+        "source": "Deutsches Historisches Museum; Bundestag"
+       }
+      }
+     ]
+    },
+    {
+     "text": "For four centuries after Cão, sailors mostly passed by. There was nothing on the shore to stop for.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Skeleton Coast (23910020708).jpg",
+       "on_screen_text": "The empty shore"
+      }
+     ]
+    },
+    {
+     "text": "Along the whole coast there was one good natural harbour: Walvis Bay, a deep bay sheltered by a sandspit.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.43,
+           "lat": -22.88,
+           "span": 0.12
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Pelican Point, the sandspit that shelters Walvis Bay"
+      },
+      {
+       "type": "photo",
+       "at": "Walvis Bay, a deep",
+       "photo": "File:Walvis Bay (37731160902).jpg",
+       "on_screen_text": "Walvis Bay"
+      }
+     ]
+    },
+    {
+     "text": "Britain claimed it in 1878, and in 1884 made it part of its Cape Colony. That same year, Germany claimed the land all around it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.95,
+           "lat": -22.802,
+           "span": 2.75
+          },
+          "highlight": [
+           "file:walvis_enclave.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and in 1884 made",
+       "stat": {
+        "value": "1878",
+        "label": "Britain claims Walvis Bay; Cape Colony from 1884",
+        "source": "Britannica"
+       }
+      },
+      {
+       "type": "map",
+       "at": "That same year, Germany",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.489,
+           "lat": -23.902,
+           "span": 37.815
+          },
+          "highlight": [
+           "file:namibia.geojson@alt",
+           "file:walvis_enclave.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Germany's claim began with a merchant from Bremen, Adolf Lüderitz. In May 1883 he bought a sheltered cove in the south, Angra Pequena, and five miles of land around it from a Nama chief, Josef Frederiks, for a hundred pounds in gold and two hundred rifles.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lüderitz, Namibia (55528882907).jpg",
+       "on_screen_text": "Lüderitz, the old Angra Pequena"
+      },
+      {
+       "type": "photo",
+       "at": "In May 1883 he",
+       "photo": "File:Contract Frederiks-Vogelsang 1883 p1.jpg",
+       "on_screen_text": "The first contract, 1883"
+      },
+      {
+       "type": "stat",
+       "at": "for a hundred pounds",
+       "stat": {
+        "value": "£100 + 200 RIFLES",
+        "label": "Price of Angra Pequena, May 1883",
+        "source": "Wikipedia; Britannica"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A second contract that August took a strip of land to the Orange River, measured in miles. The chief understood English miles. The contract meant German geographical miles, almost five times longer. It became known as the mile swindle.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Deutsche kolonien 1885 ausschnitt lüderitzland.jpg",
+       "on_screen_text": "Lüderitzland on an 1885 map"
+      },
+      {
+       "type": "map",
+       "at": "The contract meant German",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.705,
+           "lat": -27.733,
+           "span": 6.202
+          },
+          "places": [
+           {
+            "name": "Lüderitz",
+            "lon": 15.16,
+            "lat": -26.65,
+            "kind": "city",
+            "label": "Lüderitz"
+           },
+           {
+            "name": "Oranjemund",
+            "lon": 16.43,
+            "lat": -28.55,
+            "kind": "city",
+            "label": "Oranjemund"
+           }
+          ]
+         },
+         {
+          "at": 30,
+          "view": {
+           "lon": 15.7,
+           "lat": -27.2,
+           "span": 3.06
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Lüderitz went to look for minerals on the Orange River in 1886 and never came back. The cove was renamed after him: Lüderitz.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:ISS-62 Orange River, Namibia and South Africa.jpg",
+       "on_screen_text": "The Orange River from the ISS"
+      },
+      {
+       "type": "map",
+       "at": "The cove was renamed",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.15,
+           "lat": -26.65,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lüderitz"
+      }
+     ]
+    },
+    {
+     "text": "So the Germans had a colony with a coast, but the only good harbour on that coast was British.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.65,
+           "lat": -22.76,
+           "span": 3.48
+          },
+          "highlight": [
+           "file:walvis_enclave.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           },
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "but the only good",
+       "photo": "File:Walvis Bay (37714794876).jpg",
+       "on_screen_text": "Walvis Bay"
+      }
+     ]
+    },
+    {
+     "text": "They tried to make one of their own at Swakopmund, thirty kilometres to the north. In 1903 they opened a stone pier, the Mole, to shelter the landing boats.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.53,
+           "lat": -22.68,
+           "span": 0.12
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 7,
+          "view": {
+           "lon": 14.53,
+           "lat": -22.68,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Swakopmund"
+      },
+      {
+       "type": "photo",
+       "at": "In 1903 they opened",
+       "photo": "File:Molo ve městě Swakopmund - Namibie - panoramio.jpg",
+       "on_screen_text": "The Mole at Swakopmund today"
+      }
+     ]
+    },
+    {
+     "text": "Within about two years the sea had filled it with sand. Ships had to unload into small boats again, and later onto a wooden jetty.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Molo ve městě Swakopmund - Namibie - panoramio (2).jpg",
+       "on_screen_text": "The Mole, long since filled with sand"
+      },
+      {
+       "type": "photo",
+       "at": "and later onto a",
+       "photo": "File:Swakopmund Jetty.jpg",
+       "on_screen_text": "The Swakopmund jetty"
+      }
+     ]
+    },
+    {
+     "text": "They had already built a railway, to carry everything from the poor landing at Swakopmund up to the capital. The line to Windhoek, three hundred and eighty-two kilometres of narrow track, opened in June 1902.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.613,
+           "lat": -22.655,
+           "span": 3.994
+          },
+          "places": [
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           },
+           {
+            "name": "Windhoek",
+            "lon": 17.08,
+            "lat": -22.56,
+            "kind": "capital",
+            "label": "Windhoek"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             14.53,
+             -22.68
+            ],
+            "via": [
+             [
+              15.85,
+              -21.93
+             ],
+             [
+              16.91,
+              -21.98
+             ]
+            ],
+            "to": [
+             17.08,
+             -22.56
+            ],
+            "mode": "line",
+            "label": "Railway, 1902",
+            "color": "accent",
+            "seconds": 2.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The line to Windhoek,",
+       "photo": "File:Trasseführung der Bahnstrecke Swakopmund–Windhoek.jpg",
+       "on_screen_text": "The 1902 line, route map"
+      },
+      {
+       "type": "stat",
+       "at": "opened in June 1902.",
+       "stat": {
+        "value": "382 KM",
+        "label": "Swakopmund-Windhoek railway, opened June 1902",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Swakopmund grew as a German town at the end of that line, and today it is Namibia's seaside resort. But its sea front was never a real harbour.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Mission Church and building - Rheinische Missionsgesellschaft - Swakopmund - 1938.jpg",
+       "on_screen_text": "Swakopmund, 1938"
+      },
+      {
+       "type": "photo",
+       "at": "and today it is",
+       "photo": "File:Swakopmund Brandung.jpg",
+       "on_screen_text": "Swakopmund's sea front"
+      }
+     ]
+    },
+    {
+     "text": "The bay stayed in other hands for a long time. When the British Cape became part of South Africa in 1910, Walvis Bay went with it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.71,
+           "lat": -22.77,
+           "span": 2.977
+          },
+          "highlight": [
+           "file:walvis_enclave.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "When the British Cape",
+       "stat": {
+        "value": "1910",
+        "label": "Walvis Bay passes to the Union of South Africa",
+        "source": "Britannica"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Namibia became independent in 1990. Walvis Bay did not. Its only deep-water port stayed South African for four more years, until the first of March 1994.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.489,
+           "lat": -23.902,
+           "span": 37.815
+          },
+          "highlight": [
+           "file:namibia.geojson@alt",
+           "file:walvis_enclave.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Its only deep-water port",
+       "stat": {
+        "value": "1 MAR 1994",
+        "label": "Walvis Bay handed over to Namibia",
+        "source": "Treaty on Walvis Bay"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So for a century, the one place where a coastal city could grow was the one place the country running the coast did not own. And the rest of the coast was busy sinking ships.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.48,
+           "lat": -22.95,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 12,
+          "view": {
+           "lon": 14.48,
+           "lat": -22.95,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The port of Walvis Bay"
+      },
+      {
+       "type": "map",
+       "at": "And the rest of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.888,
+           "lat": -19.459,
+           "span": 12.382
+          },
+          "highlight": [
+           "file:skeleton_np.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Coast of Wrecks",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason three. The coast is dangerous to reach even from the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.06,
+           "lat": -19.459,
+           "span": 12.382
+          },
+          "highlight": [
+           "file:skeleton_np.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Dunedin Star",
+            "lon": 12.2,
+            "lat": -18.62,
+            "kind": "site",
+            "label": "Dunedin Star, 1942",
+            "icon": "conflict"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The coast is dangerous",
+       "photo": "File:Skeleton Coast Wreck01.jpg",
+       "on_screen_text": "A wreck on the Skeleton Coast"
+      }
+     ]
+    },
+    {
+     "text": "Fog hides the shore, the surf is heavy, and sandbanks shift. Over the centuries hundreds of ships ran aground here. Their rusting hulls, with the bones of whales and seals on the beaches, gave the Skeleton Coast its name.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Eduard Bohlen anagoria.jpg",
+       "on_screen_text": "The Eduard Bohlen, now inland in the dunes"
+      },
+      {
+       "type": "photo",
+       "at": "Over the centuries hundreds",
+       "photo": "File:Zeila (Ship).jpg",
+       "on_screen_text": "The Zeila"
+      },
+      {
+       "type": "photo",
+       "at": "Their rusting hulls, with",
+       "photo": "File:The Suiderkus (1976) Shipwreck (37762745461).jpg",
+       "on_screen_text": "The Suiderkus, wrecked 1976"
+      }
+     ]
+    },
+    {
+     "text": "The story that shows it best began on the twenty-ninth of November 1942.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "29 NOV 1942",
+        "label": "The Dunedin Star strikes a shoal",
+        "source": "Wikipedia; Marsh, Skeleton Coast"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The British cargo ship Dunedin Star, carrying 106 people, struck a shoal off the northern coast. Her captain ran her onto the beach to save her.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.74,
+           "lat": -18.789,
+           "span": 8.19
+          },
+          "places": [
+           {
+            "name": "Dunedin Star",
+            "lon": 12.2,
+            "lat": -18.62,
+            "kind": "site",
+            "label": "Dunedin Star, 1942",
+            "icon": "conflict"
+           },
+           {
+            "name": "Kunene",
+            "lon": 11.8,
+            "lat": -17.26,
+            "kind": "site",
+            "label": "Kunene mouth"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 12.74,
+           "lat": -19.304,
+           "span": 5.127
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Her captain ran her",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.2,
+           "lat": -18.6,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The coast where the Dunedin Star was beached"
+      }
+     ]
+    },
+    {
+     "text": "Many of the passengers and crew got ashore through the surf. The beach was dry, cold at night and hundreds of kilometres from any town.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Skeleton Coast (23910020708).jpg",
+       "on_screen_text": "The Skeleton Coast"
+      },
+      {
+       "type": "map",
+       "at": "The beach was dry,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.6,
+           "lat": -19.2,
+           "span": 0.6
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hundreds of kilometres from any town"
+      }
+     ]
+    },
+    {
+     "text": "A rescue began from three sides. A tug, the Sir Charles Elliott, came up from Walvis Bay. It too ran aground on the coast, and two of its crew drowned.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.105,
+           "lat": -21.793,
+           "span": 17.225
+          },
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           },
+           {
+            "name": "Dunedin Star",
+            "lon": 12.2,
+            "lat": -18.62,
+            "kind": "site",
+            "label": "Dunedin Star, 1942",
+            "icon": "conflict"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             14.505,
+             -22.957
+            ],
+            "to": [
+             12.25,
+             -18.65
+            ],
+            "color": "blue",
+            "label": "Tug from Walvis Bay",
+            "bend": 0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It too ran aground",
+       "stat": {
+        "value": "2 DEAD",
+        "label": "Crew of the tug Sir Charles Elliott who drowned",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The air force sent a Ventura bomber to drop supplies. It landed on the beach to help, and its wheels sank into the sand, and it could not take off again.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lockheed PV-1 Ventura in flight, circa in late 1943 (NH 94917).jpg",
+       "on_screen_text": "A Lockheed Ventura, the type sent"
+      },
+      {
+       "type": "photo",
+       "at": "It landed on the",
+       "photo": "File:Dune Formation Namib Skeleton Coast (37504515070).jpg",
+       "on_screen_text": "Soft sand on the Skeleton Coast"
+      }
+     ]
+    },
+    {
+     "text": "Its pilot, Captain Naude, and his three crew were now stranded too. The rescuers needed rescuing.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "4 AIRMEN",
+        "label": "The Ventura's crew, now stranded too",
+        "source": "SAAF Museum"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In the end, a police convoy of trucks under Captain Smith crossed the desert from Windhoek to fetch the people ashore. They reached Windhoek on Christmas Eve, almost four weeks after the wreck.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.933,
+           "lat": -21.938,
+           "span": 18.025
+          },
+          "places": [
+           {
+            "name": "Windhoek",
+            "lon": 17.08,
+            "lat": -22.56,
+            "kind": "capital",
+            "label": "Windhoek"
+           },
+           {
+            "name": "Dunedin Star",
+            "lon": 12.2,
+            "lat": -18.62,
+            "kind": "site",
+            "label": "Dunedin Star, 1942",
+            "icon": "conflict"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             17.08,
+             -22.56
+            ],
+            "to": [
+             12.25,
+             -18.62
+            ],
+            "color": "red",
+            "label": "Police convoy",
+            "bend": -0.12
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "They reached Windhoek on",
+       "stat": {
+        "value": "24 DEC 1942",
+        "label": "Survivors and airmen reach Windhoek",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Every one of the ship's passengers survived. But the coast had taken a ship, a tug and a bomber in a single month. That is the coast people were trying to live on.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Skeleton Coast Wreck01.jpg",
+       "on_screen_text": "A wreck on the Skeleton Coast"
+      },
+      {
+       "type": "map",
+       "at": "That is the coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.45,
+           "lat": -19.0,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The northern Skeleton Coast"
+      }
+     ]
+    },
+    {
+     "text": "Most of that northern coast is now the Skeleton Coast National Park, proclaimed in 1971. Its southern half can be driven with a permit. The northern half can only be reached by small plane, with one licensed tour company.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.091,
+           "lat": -19.459,
+           "span": 12.382
+          },
+          "highlight": [
+           "file:skeleton_np.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "proclaimed in 1971.",
+       "stat": {
+        "value": "1971",
+        "label": "Skeleton Coast Park proclaimed",
+        "source": "Namibia Ministry of Environment"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Its southern half can",
+       "photo": "File:Springbok Gate.jpg",
+       "on_screen_text": "Springbok Gate, Skeleton Coast Park"
+      }
+     ]
+    },
+    {
+     "text": "Even the park's fishing camps open only for the season. Torra Bay takes campers in December and January, and is closed the rest of the year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.3,
+           "lat": -20.33,
+           "span": 0.1
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 13.3,
+           "lat": -20.33,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Torra Bay"
+      }
+     ]
+    },
+    {
+     "text": "And on the southern coast, it was not the sea that kept people out. It was a law.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.216,
+           "lat": -25.646,
+           "span": 22.459
+          },
+          "highlight": [
+           "file:sperrgebiet.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Diamonds Closed the Door",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Lüderitz carries a darker memory too. During the war against the Herero and Nama, from 1904 to 1908, the German army held prisoners on Shark Island in Lüderitz bay. Between September 1906 and March 1907, more than a thousand of its seventeen hundred prisoners died.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lüderitz - view from port.jpg",
+       "on_screen_text": "Lüderitz bay"
+      },
+      {
+       "type": "map",
+       "at": "held prisoners on Shark",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.15,
+           "lat": -26.64,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Shark Island, Lüderitz"
+      },
+      {
+       "type": "stat",
+       "at": "Between September 1906 and",
+       "stat": {
+        "value": "1,032 OF 1,795",
+        "label": "Prisoners who died on Shark Island, Sep 1906 - Mar 1907",
+        "source": "Cited by NYRB; New Era"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 2021 Germany said that the killings were, from today's perspective, a genocide, and asked Namibia for forgiveness. The talks about what that means are still going on.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "2021",
+        "label": "Germany: genocide 'from today's perspective'",
+        "source": "German Federal Government"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The talks about what",
+       "photo": "File:Lüderitz - Kelp on beach.jpg",
+       "on_screen_text": "The shore at Lüderitz"
+      }
+     ]
+    },
+    {
+     "text": "Reason four. In the south, the most valuable land on the coast was closed to almost everyone.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.91,
+           "lat": -27.502,
+           "span": 8.571
+          },
+          "highlight": [
+           "file:sperrgebiet.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Lüderitz",
+            "lon": 15.16,
+            "lat": -26.65,
+            "kind": "city",
+            "label": "Lüderitz"
+           },
+           {
+            "name": "Oranjemund",
+            "lon": 16.43,
+            "lat": -28.55,
+            "kind": "city",
+            "label": "Oranjemund"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the most valuable land",
+       "photo": "File:Wild desert between Oranjemond and Rosh Pinah South Namibia (1).jpg",
+       "on_screen_text": "The desert of the Sperrgebiet"
+      }
+     ]
+    },
+    {
+     "text": "In April 1908, a railway worker named Zacharias Lewala was clearing sand from the line near Lüderitz when he picked up a shiny stone. It was a diamond.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lüderitz - Art Nouveau-style building.jpg",
+       "on_screen_text": "Lüderitz"
+      },
+      {
+       "type": "stat",
+       "at": "near Lüderitz when he",
+       "stat": {
+        "value": "APRIL 1908",
+        "label": "Zacharias Lewala finds a diamond",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The desert floor was scattered with them. Within months the colonial government closed off a huge strip of the coast, about twenty-six thousand square kilometres. It was called the Sperrgebiet, the forbidden area.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.787,
+           "lat": -27.502,
+           "span": 8.571
+          },
+          "highlight": [
+           "file:sperrgebiet.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about twenty-six thousand square",
+       "stat": {
+        "value": "~26,000 km²",
+        "label": "The Sperrgebiet, the forbidden area, 1908",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Inside it, the mining companies built towns for their own workers. At Kolmanskop there was a hospital for up to two hundred patients, an ice factory and a ballroom, in the middle of the dunes. The hospital is said to have had one of the first X-ray machines in the southern hemisphere, and some accounts say it was used to look for stolen diamonds.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Abandoned building, Kolmannskuppe, Namibia.jpg",
+       "on_screen_text": "Kolmanskop"
+      },
+      {
+       "type": "photo",
+       "at": "At Kolmanskop there was",
+       "photo": "File:01Kolmannskuppe.jpg",
+       "on_screen_text": "Kolmanskop's houses"
+      },
+      {
+       "type": "photo",
+       "at": "The hospital is said",
+       "photo": "File:Ghost Town (37464568170).jpg",
+       "on_screen_text": "Inside Kolmanskop"
+      }
+     ]
+    },
+    {
+     "text": "When richer deposits were found further south, the workers moved on. By 1956 Kolmanskop was empty, left to the sand, which now fills its rooms to the windowsills.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ghost Town (37722079791).jpg",
+       "on_screen_text": "Sand in the rooms"
+      },
+      {
+       "type": "stat",
+       "at": "By 1956 Kolmanskop was",
+       "stat": {
+        "value": "1956",
+        "label": "Kolmanskop abandoned",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "which now fills its",
+       "photo": "File:Ghost Town (23869142088).jpg",
+       "on_screen_text": "Kolmanskop today"
+      }
+     ]
+    },
+    {
+     "text": "The new centre was Oranjemund, at the mouth of the Orange River. It was a company town. For decades nobody could go there without a permit from the mining company.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.48,
+           "lat": -28.63,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 16.48,
+           "lat": -28.63,
+           "span": 0.093
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Orange River mouth and Oranjemund"
+      },
+      {
+       "type": "photo",
+       "at": "For decades nobody could",
+       "photo": "File:Wild desert between Oranjemond and Rosh Pinah South Namibia (1).jpg",
+       "on_screen_text": "Desert near Oranjemund"
+      }
+     ]
+    },
+    {
+     "text": "Namibia made it a town in 2011, but it was only opened to the public on the twenty-first of October 2017.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "21 OCT 2017",
+        "label": "Oranjemund opens to the public",
+        "source": "Wikipedia; The Namibian"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Today the diamonds are mined by Namdeb, owned half by the state and half by De Beers. Most of the old forbidden area is now a national park, Tsau Khaeb.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.902,
+           "lat": -27.502,
+           "span": 8.571
+          },
+          "highlight": [
+           "file:sperrgebiet.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Oranjemund",
+            "lon": 16.43,
+            "lat": -28.55,
+            "kind": "city",
+            "label": "Oranjemund"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most of the old",
+       "photo": "File:ISS-62 Orange River, Namibia and South Africa.jpg",
+       "on_screen_text": "The Orange River"
+      }
+     ]
+    },
+    {
+     "text": "The closed zone even kept a treasure safe. In 2008, mining near Oranjemund uncovered the wreck of the Bom Jesus, a Portuguese ship lost in 1533. It held more than two thousand gold and silver coins.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.48,
+           "lat": -28.63,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 16.48,
+           "lat": -28.63,
+           "span": 0.186
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The mining coast at Oranjemund"
+      },
+      {
+       "type": "stat",
+       "at": "It held more than",
+       "stat": {
+        "value": "2,000+ COINS",
+        "label": "Gold and silver coins of the Bom Jesus (lost 1533)",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Under the sand the diggers found about seventeen tonnes of copper ingots and more than a hundred elephant tusks as well. Portugal gave up its claim, and the treasure stayed in Namibia.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "17 TONNES",
+        "label": "Copper ingots from the Bom Jesus",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Diamonds made the southern coast rich, and they kept it nearly empty. So where do the people of the coast actually live?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.6,
+           "lat": -22.25,
+           "span": 14.08
+          },
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           },
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "So where do the",
+       "photo": "File:Walvis Bay (37731160902).jpg",
+       "on_screen_text": "Walvis Bay"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Where the People Are",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason five. The few who do live here are packed into two towns, and those towns run on water they make and rock they dig.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.01,
+           "lat": -22.7,
+           "span": 3.6
+          },
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           },
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           },
+           {
+            "name": "Rossing",
+            "lon": 15.04,
+            "lat": -22.48,
+            "kind": "site",
+            "label": "Rössing mine",
+            "icon": "factory"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and those towns run",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.53,
+           "lat": -22.68,
+           "span": 0.12
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Swakopmund"
+      }
+     ]
+    },
+    {
+     "text": "We wanted to know how many Namibians really live near this coast. So we took a population map of the whole country, made from satellite images and the census, and measured each small square's distance from the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 18.489,
+           "lat": -23.902,
+           "span": 37.815
+          },
+          "highlight": [
+           "file:namibia.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and measured each small",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.77,
+           "lat": -23.322,
+           "span": 33.535
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "About seven per cent of Namibians live within fifty kilometres of the Atlantic. Go a hundred kilometres inland and the share barely moves. Beyond the towns, almost nobody lives anywhere near this coast.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Namibians living near the sea",
+        "unit": "%",
+        "data": [
+         [
+          "Within 5 km",
+          7.0
+         ],
+         [
+          "Within 50 km",
+          7.3
+         ],
+         [
+          "Within 100 km",
+          7.6
+         ]
+        ],
+        "source": "Own count: Kontur population 2023 (CC BY 4.0) vs the coastline (geo/measure_population.py)",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "map",
+       "at": "Beyond the towns, almost",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.9,
+           "lat": -25.0,
+           "span": 0.6
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The empty coast south of Walvis Bay"
+      }
+     ]
+    },
+    {
+     "text": "We measured how far the coastline runs without a single settled square. South of Walvis Bay, almost five hundred kilometres of coast pass with nobody living by the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.6,
+           "lat": -24.629,
+           "span": 15.454
+          },
+          "highlight": [
+           "file:empty_south.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "almost five hundred kilometres",
+       "stat": {
+        "value": "481 KM",
+        "label": "Of coast without a settled square",
+        "source": "Own count: Kontur population 2023 (CC BY 4.0) vs the coastline (geo/measure_population.py)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "North of the old diamond coast, the same is true for more than three hundred kilometres, up to the Angolan border.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.657,
+           "lat": -21.024,
+           "span": 20.43
+          },
+          "highlight": [
+           "file:empty_north.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Kunene",
+            "lon": 11.8,
+            "lat": -17.26,
+            "kind": "site",
+            "label": "Kunene mouth"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "the same is true",
+       "stat": {
+        "value": "347 KM",
+        "label": "Of empty coast up to the Kunene",
+        "source": "Own count: Kontur population 2023 (CC BY 4.0) vs the coastline (geo/measure_population.py)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Walvis Bay has about a hundred thousand people, and Swakopmund about seventy-six thousand. Together they hold most of the people on the whole coast.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "People, 2023 census",
+        "unit": "",
+        "data": [
+         [
+          "Walvis Bay",
+          102704
+         ],
+         [
+          "Swakopmund",
+          75921
+         ]
+        ],
+        "source": "Namibia Statistics Agency, 2023 census",
+        "highlight": 0
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Together they hold most",
+       "photo": "File:Walvis Bay (37714794876).jpg",
+       "on_screen_text": "Walvis Bay"
+      }
+     ]
+    },
+    {
+     "text": "And they are growing fast. The region around them grew by almost sixty per cent between 2011 and 2023.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "+59 %",
+        "label": "Growth of the Erongo region, 2011-2023",
+        "source": "Namibia Statistics Agency, 2023 census"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One reason is the port: Walvis Bay is Namibia's door to the world, for fishing boats, ships and trucks to the interior.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.48,
+           "lat": -22.95,
+           "span": 0.1
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Walvis Bay port"
+      },
+      {
+       "type": "photo",
+       "at": "for fishing boats, ships",
+       "photo": "File:Walvis Bay (37731160902).jpg",
+       "on_screen_text": "Walvis Bay"
+      }
+     ]
+    },
+    {
+     "text": "In 2019 a new container terminal opened there, built on about forty hectares of land reclaimed from the bay. It more than doubled the port's capacity, to about seven hundred and fifty thousand containers a year.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.485,
+           "lat": -22.945,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": 14.485,
+           "lat": -22.945,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The 2019 container terminal on reclaimed land"
+      },
+      {
+       "type": "stat",
+       "at": "It more than doubled",
+       "stat": {
+        "value": "750,000 TEU",
+        "label": "Container capacity a year after 2019",
+        "source": "Namport"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The cold, rich sea also feeds one of Africa's big fisheries. Fishing gives about sixteen thousand direct jobs, most of them in the fish plants of Walvis Bay and Lüderitz, and hake alone gives more than ten thousand.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lüderitz - view from port.jpg",
+       "on_screen_text": "Fishing harbour at Lüderitz"
+      },
+      {
+       "type": "stat",
+       "at": "Fishing gives about sixteen",
+       "stat": {
+        "value": "~16,000",
+        "label": "Direct jobs in fishing",
+        "source": "New Era 2026; MSC"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The other is uranium. Inland from Swakopmund lie some of the largest uranium mines in the world. Rössing has been digging since 1976, and in 2024 Namibia produced about an eighth of the world's uranium.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.59,
+           "lat": -22.7,
+           "span": 3.12
+          },
+          "places": [
+           {
+            "name": "Rossing",
+            "lon": 15.04,
+            "lat": -22.48,
+            "kind": "site",
+            "label": "Rössing mine",
+            "icon": "factory"
+           },
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           }
+          ]
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": 14.59,
+           "lat": -22.7,
+           "span": 2.652
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Rössing has been digging",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.04,
+           "lat": -22.48,
+           "span": 0.12
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Rössing open pit"
+      },
+      {
+       "type": "stat",
+       "at": "and in 2024 Namibia",
+       "stat": {
+        "value": "~12 %",
+        "label": "Namibia's share of world uranium, 2024",
+        "source": "World Nuclear Association"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The towns drink from under a dry river. Walvis Bay's water is pumped from the sands of the Kuiseb, through a pipeline built in the 1970s, and the town has no other source. A 2021 report by the water company, cited by The Namibian, found the town using more than the aquifer can sustainably give.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.7,
+           "lat": -23.3,
+           "span": 0.25
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 14.7,
+           "lat": -23.3,
+           "span": 0.155
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kuiseb, where Walvis Bay's water comes from"
+      },
+      {
+       "type": "stat",
+       "at": "and the town has",
+       "stat": {
+        "value": "NO BACKUP",
+        "label": "Walvis Bay's only water source: the Kuiseb aquifer",
+        "source": "UN-Habitat; New Era"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Mines and towns need water, and there is almost none. So in 2010 a plant was built on the coast to turn seawater into fresh water. It was the first large plant of its kind in sub-Saharan Africa.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.8,
+           "lat": -22.55,
+           "span": 3.84
+          },
+          "places": [
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           },
+           {
+            "name": "Henties Bay",
+            "lon": 14.28,
+            "lat": -22.12,
+            "kind": "city",
+            "label": "Henties Bay"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "So in 2010 a",
+       "stat": {
+        "value": "2010",
+        "label": "First large seawater desalination plant in sub-Saharan Africa",
+        "source": "Orano; Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It was the first",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.29,
+           "lat": -22.11,
+           "span": 0.1
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Henties Bay, north of the plant"
+      }
+     ]
+    },
+    {
+     "text": "In 2025 it produced about seventeen and a half million cubic metres of water, and most of it went to the mines.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "17.6 MILLION m³",
+        "label": "Water from the Erongo desalination plant, 2025",
+        "source": "New Era"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The plant was built for up to forty-five million cubic metres a year, and the uranium miners want a second one. The towns, meanwhile, are short of homes. Walvis Bay counts a backlog of about thirty-five thousand houses, and Swakopmund about thirty-two thousand.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.03,
+           "lat": -22.63,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 14,
+          "view": {
+           "lon": 15.03,
+           "lat": -22.63,
+           "span": 0.093
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Husab uranium mine"
+      },
+      {
+       "type": "stat",
+       "at": "Walvis Bay counts a",
+       "stat": {
+        "value": "35,000 HOMES",
+        "label": "Housing backlog in Walvis Bay",
+        "source": "New Era 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So people can live on this coast. But only where a port, a mine and a plant that makes water all come together.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.8,
+           "lat": -22.85,
+           "span": 3.96
+          },
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           },
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           },
+           {
+            "name": "Rossing",
+            "lon": 15.04,
+            "lat": -22.48,
+            "kind": "site",
+            "label": "Rössing mine",
+            "icon": "factory"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "But only where a",
+       "photo": "File:Swakopmund Jetty.jpg",
+       "on_screen_text": "Swakopmund"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Next Bet",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason six. The empty coast is valuable precisely because it is empty, and now someone wants to fill part of it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.837,
+           "lat": -27.502,
+           "span": 8.571
+          },
+          "highlight": [
+           "file:sperrgebiet.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Lüderitz",
+            "lon": 15.16,
+            "lat": -26.65,
+            "kind": "city",
+            "label": "Lüderitz"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and now someone wants",
+       "photo": "File:Lüderitz, Namibia (55528882907).jpg",
+       "on_screen_text": "Lüderitz"
+      }
+     ]
+    },
+    {
+     "text": "Near Lüderitz, a company called Hyphen plans to make green hydrogen with sun and wind. The project covers about four thousand square kilometres inside the national park and would cost around ten billion dollars.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.3,
+           "lat": -26.75,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 13,
+          "view": {
+           "lon": 15.3,
+           "lat": -26.75,
+           "span": 0.31
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The park around Lüderitz"
+      },
+      {
+       "type": "stat",
+       "at": "and would cost around",
+       "stat": {
+        "value": "~$10 BILLION",
+        "label": "Hyphen's green hydrogen project",
+        "source": "Engineering News 2026"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Namibia's government has taken a stake of about a quarter. The decision on whether to build is due by the end of 2026.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "24 %",
+        "label": "Namibian state stake in the project",
+        "source": "Engineering News 2023"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The decision on whether",
+       "photo": "File:Lüderitz - Grunewald House.jpg",
+       "on_screen_text": "Lüderitz"
+      }
+     ]
+    },
+    {
+     "text": "Lüderitz badly needs work, and many of its people want the project. Conservationists warn about penguins and seabirds on the islands nearby and about building inside a park.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lüderitz - Art Nouveau-style building.jpg",
+       "on_screen_text": "Lüderitz"
+      },
+      {
+       "type": "photo",
+       "at": "Conservationists warn about penguins",
+       "photo": "File:Penguins at Halifax Island (37051158333).jpg",
+       "on_screen_text": "African penguins at Halifax Island, off Lüderitz"
+      }
+     ]
+    },
+    {
+     "text": "And offshore there is another bet. In 2022 Shell and TotalEnergies found oil deep under the sea off the southern coast. Analysts expect the first oil around the end of this decade, and a gas pipeline is planned to come ashore near Lüderitz.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.952,
+           "lat": -27.733,
+           "span": 6.202
+          },
+          "places": [
+           {
+            "name": "Lüderitz",
+            "lon": 15.16,
+            "lat": -26.65,
+            "kind": "city",
+            "label": "Lüderitz"
+           },
+           {
+            "name": "Oranjemund",
+            "lon": 16.43,
+            "lat": -28.55,
+            "kind": "city",
+            "label": "Oranjemund"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "In 2022 Shell and",
+       "stat": {
+        "value": "2022",
+        "label": "Oil found offshore in the Orange Basin",
+        "source": "S&P Global"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and a gas pipeline",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.15,
+           "lat": -26.65,
+           "span": 0.25
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lüderitz"
+      }
+     ]
+    },
+    {
+     "text": "If those projects go ahead, the empty south could fill with workers again, a century after the diamond rush.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ghost Town (37464568170).jpg",
+       "on_screen_text": "Kolmanskop"
+      }
+     ]
+    },
+    {
+     "text": "The empty coast has users of its own. In the national park, two prides of desert lions have learned to hunt on the beach, taking seals, flamingos and cormorants. They are the only lions known to live on prey from the sea.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.844,
+           "lat": -19.459,
+           "span": 12.382
+          },
+          "highlight": [
+           "file:skeleton_np.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "taking seals, flamingos and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.7,
+           "lat": -19.45,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Hoanib mouth, where the lions hunt"
+      },
+      {
+       "type": "photo",
+       "at": "They are the only",
+       "photo": "File:Seals on the Skeleton Coast (5832914651).jpg",
+       "on_screen_text": "Seals, the lions' prey"
+      }
+     ]
+    },
+    {
+     "text": "The ministry counts only about a hundred desert lions in the whole northwest. Every road and pipe on this coast passes through their range.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "~100-110",
+        "label": "Desert lions in northwest Namibia",
+        "source": "Namibia Ministry of Environment, 2025"
+       }
+      }
+     ]
+    },
+    {
+     "text": "It is the same question the coast has always asked. Is it worth bringing people, water and power to a place that never wanted them?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.55,
+           "lat": -23.6,
+           "span": 0.4
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dune sea"
+      },
+      {
+       "type": "photo",
+       "at": "Is it worth bringing",
+       "photo": "File:Dune Formation Namib Skeleton Coast (37504515070).jpg",
+       "on_screen_text": "The Namib"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So this is why almost nobody lives on Namibia's Skeleton Coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.524,
+           "lat": -23.322,
+           "span": 33.535
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The cold sea gives fog instead of rain. The one good harbour belonged to someone else until 1994. Ships, tugs and even a bomber were lost on the shore. Diamonds closed the south for a century. And the towns that did grow live on a port, uranium and water made from the sea.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Oceanic fog sossusvlei4.jpg",
+       "on_screen_text": "Fog"
+      },
+      {
+       "type": "photo",
+       "at": "The one good harbour",
+       "photo": "File:Walvis Bay (37714794876).jpg",
+       "on_screen_text": "Walvis Bay"
+      },
+      {
+       "type": "photo",
+       "at": "Ships, tugs and even",
+       "photo": "File:Eduard Bohlen anagoria.jpg",
+       "on_screen_text": "The Eduard Bohlen"
+      },
+      {
+       "type": "photo",
+       "at": "Diamonds closed the south",
+       "photo": "File:Abandoned building, Kolmannskuppe, Namibia.jpg",
+       "on_screen_text": "Kolmanskop"
+      },
+      {
+       "type": "map",
+       "at": "And the towns that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.04,
+           "lat": -22.48,
+           "span": 0.2
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 44,
+          "view": {
+           "lon": 15.04,
+           "lat": -22.48,
+           "span": 0.124
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Rössing"
+      }
+     ]
+    },
+    {
+     "text": "About one Namibian in fourteen lives near this coast. Almost all of them live in two towns, with hundreds of kilometres of empty beach on either side.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.05,
+           "lat": -22.694,
+           "span": 29.597
+          },
+          "highlight": [
+           "file:empty_south.geojson@red",
+           "file:empty_north.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           },
+           {
+            "name": "Swakopmund",
+            "lon": 14.53,
+            "lat": -22.68,
+            "kind": "city",
+            "label": "Swakopmund"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Every attempt to settle this shore has needed something rare: a deep bay, a diamond, a mine, or a machine that makes water. Where those were missing, the coast stayed empty, and it still is.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Ghost Town (23869142088).jpg",
+       "on_screen_text": "Kolmanskop"
+      },
+      {
+       "type": "map",
+       "at": "Where those were missing,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.6,
+           "lat": -19.2,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The empty Skeleton Coast"
+      }
+     ]
+    },
+    {
+     "text": "Should Namibia open its empty coast to new industry, or keep it the way the desert made it?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Skeleton Coast (23910020708).jpg",
+       "on_screen_text": "The Skeleton Coast"
+      },
+      {
+       "type": "map",
+       "at": "or keep it the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.729,
+           "lat": -23.322,
+           "span": 33.535
+          },
+          "highlight": [
+           "file:coast30.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "Should Namibia open its",
+      "text": "Open the empty coast to industry, or keep it as the desert made it?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives on Namibia's Skeleton Coast",
+  "title_candidates": [
+   "Why Almost Nobody Lives on Namibia's Skeleton Coast",
+   "Why They Call It the Skeleton Coast",
+   "Why Namibia's Coast Is Almost Empty"
+  ],
+  "description": "Namibia's Atlantic coast runs for more than 1,300 km, yet only about one Namibian in fourteen lives within 50 km of the sea. We follow why: the cold Benguela sea that brings fog instead of rain, the one good harbour at Walvis Bay that stayed British and South African until 1994, Swakopmund's harbour that filled with sand, the Dunedin Star rescue of 1942 that cost a tug and a bomber, the diamond Sperrgebiet and the ghost town of Kolmanskop, Oranjemund closed until 2017, the uranium mines and the seawater plant that keep the coast towns alive, and the green hydrogen and oil bets on the empty south.",
+  "tags": [
+   "Skeleton Coast",
+   "Namibia",
+   "Walvis Bay",
+   "Swakopmund",
+   "Lüderitz",
+   "Kolmanskop",
+   "Namib Desert",
+   "Benguela Current",
+   "Dunedin Star",
+   "Sperrgebiet",
+   "Oranjemund",
+   "Cape Cross",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "Should Namibia open its empty coast to new industry, or keep it the way the desert made it?"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "photo": "File:Eduard Bohlen anagoria.jpg",
+ "focus": [0.5, 0.55],
+ "zoom": 1.0,
+ "lines": [{"t": "WHY IS IT", "color": "white"}, {"t": "SO EMPTY?", "color": "yellow"}],
+ "text_at": [0.04, 0.05],
+ "text_size": 160,
+ "underline": true,
+ "variants": [
+  {"photo": "File:Dune Formation Namib Skeleton Coast (37504515070).jpg", "focus": [0.5, 0.55], "text_size": 160,
+   "lines": [{"t": "1,300 KM", "color": "white"}, {"t": "ALMOST EMPTY", "color": "yellow"}]},
+  {"photo": "File:Abandoned building, Kolmannskuppe, Namibia.jpg", "focus": [0.5, 0.55], "text_size": 160,
+   "lines": [{"t": "LEFT TO", "color": "white"}, {"t": "THE SAND", "color": "yellow"}]}
+ ]
+}

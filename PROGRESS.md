@@ -1095,3 +1095,7 @@ comment. Audio of the long render was never checked. No further work planned unl
   (scratch fkfill.py pattern -> skfill.py with Skeleton rules from research.md R1-R20, M1-M2), cover_photo.json
   (A: dune coast "EMPTY COAST / 7 % LIVE HERE", B: Eduard Bohlen "WHY SO EMPTY?", C: Kolmanskop), package.py,
   playlists.json add to "Why Almost Nobody Lives Here", storyboard render, review, full render, audit, upload 6 Dec 23:00 UTC.
+- 2026-11-27: Skeleton Coast factcheck 133 claims, 0 FIX (scratch skfill.py); covers A "WHY IS IT SO EMPTY?" (Eduard
+  Bohlen), B "1,300 KM ALMOST EMPTY", C "LEFT TO THE SAND" (Kolmanskop); added to playlist "Why Almost Nobody Lives
+  Here". STORYBOARD render started. NEXT: fetch artifact (gh run download -n skeleton-coast-storyboard, delete it),
+  review 20+ sheets, fix, full render, fetch_episode -Delete, frame_audit, upload --publish-at 2026-12-06T23:00:00Z.

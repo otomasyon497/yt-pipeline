@@ -135,5 +135,5 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 129 | c07p08 | narration | The ministry counts only about a hundred desert lions in the whole northwest. | R19 Stander 2019; MEFT 2025 via Namibian.org | attributed |
 | 130 | c07p08 | stat card | ~100-110: Desert lions in northwest Namibia | R19 Stander 2019; MEFT 2025 via Namibian.org | attributed |
 | 131 | c08p02 | narration | The one good harbour belonged to someone else until 1994. | R3 Treaty on Walvis Bay, signed 28 Feb 1994, in force 1 Mar 1994 (Wikipedia; SAHO; Britannica) | verified |
-| 132 | c08p03 | narration | About one Namibian in fourteen lives near this coast. |  |  |
+| 132 | c08p03 | narration | About one Namibian in fourteen lives near this coast. | Framing / summary of R3, M1, M2 | verified |
 | 133 | c08p03 | narration | Almost all of them live in two towns, with hundreds of kilometres of empty beach on either side. | Framing / summary of R3, M1, M2 | verified |

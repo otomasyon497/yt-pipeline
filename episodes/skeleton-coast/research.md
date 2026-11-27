@@ -85,3 +85,4 @@ Slot: 6 Dec 2026 23:00 UTC. TITLE (gate 1 approved by the user 2026-11-27): "Why
   Bom Jesus; Discovery 10 summary) [verify on Wikipedia page in fact-check].
 - R8b Erongo desal design capacity 45 M m3/yr; second plant planned (Swakop Uranium 70 % / NamWater 30 %) (Namibian
   Sun Nov 2025). Housing backlog: Walvis Bay ~35,000 units, Swakopmund ~32,000 (New Era Sep 2025).
+- Regions (geo/make_regions.py): Skeleton Coast Park 16,822 km2 (OSM; official 16,845), Tsau //Khaeb 21,845 km2 (OSM; the 1908 Sperrgebiet ~26,000 km2 per Wikipedia - say 'about twenty-six thousand' only for 1908), Namib-Naukluft 50,733 km2.

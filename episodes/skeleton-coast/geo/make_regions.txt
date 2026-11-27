@@ -1,0 +1,8 @@
+namibia: 823,672 km2
+coast30: 39,070 km2
+skeleton_np: 16,822 km2
+sperrgebiet: 21,845 km2
+namib_naukluft: 50,733 km2
+walvis_enclave: 715 km2
+empty_south: 4,625 km2
+empty_north: 3,524 km2

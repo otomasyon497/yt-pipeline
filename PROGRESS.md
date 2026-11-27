@@ -1083,10 +1083,15 @@ comment. Audio of the long render was never checked. No further work planned unl
   2024-12-01/2025-03-31), visuals (wpimg/catlist: Kolmanskop, Swakopmund, Luderitz, Cape Cross, Walvis Bay, Dunedin
   Star, Eduard Bohlen, Zeila, Ventura, lions, seals), build_script.py from episodes/florida-keys, episode_check,
   claim_log + fill, covers, storyboard, render, audit, upload 6 Dec 23:00 UTC.
-- 2026-11-27: Skeleton Coast build_script.py v1 (181 shots, est. 16.2 min), regions done (geo/make_regions.py, OSM parks
+- 2026-11-27: [superseded below] Skeleton Coast build_script.py v1 (181 shots, est. 16.2 min), regions done (geo/make_regions.py, OSM parks
   saved in scratch osm_na), visuals.md pool. episode_check NOT yet OK: ~33 holds > 6.5 s (need ~40 more shots; target
   ~240 shots like Florida), repeats (Walvis Bay photos, Skeleton Coast photo, dunes, Bohlen, Kolmanskop 1, fog, Brandung;
   AFR view 4x; port sat 14.48,-22.95 4x), soft: Cape Cross seals confrontation, Frederiks contract, 1885 map, railway
   route map, Ventura NH 94917 -> replace; run episode_check with PYTHONIOENCODING=utf-8 (Czech file name of the Mole
   photo broke the charmap print). NEXT: fix (more Sentinel views from sksat list + Kolmanskop/Lüderitz photos), recheck,
   claim_log + fill, covers (cover_photo.json), playlists.json ("Why Almost Nobody Lives Here"), storyboard.
+- 2026-11-27: Skeleton Coast build fixed: 214 shots (103 map, 69 photo, 39 stat, 3 chart), episode_check "OK, ready
+  to render" (run with PYTHONIOENCODING=utf-8). claim_log written (factcheck.md). NEXT: fill factcheck Source/Status
+  (scratch fkfill.py pattern -> skfill.py with Skeleton rules from research.md R1-R20, M1-M2), cover_photo.json
+  (A: dune coast "EMPTY COAST / 7 % LIVE HERE", B: Eduard Bohlen "WHY SO EMPTY?", C: Kolmanskop), package.py,
+  playlists.json add to "Why Almost Nobody Lives Here", storyboard render, review, full render, audit, upload 6 Dec 23:00 UTC.

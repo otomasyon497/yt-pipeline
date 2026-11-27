@@ -116,6 +116,24 @@
         "label": "Of Namibians live within 50 km of the sea",
         "source": "Own count: Kontur population 2023 (CC BY 4.0) vs the coastline (geo/measure_population.py)"
        }
+      },
+      {
+       "type": "map",
+       "at": "lives within fifty kilometres",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.9,
+           "lat": -25.0,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The empty coast south of Walvis Bay"
       }
      ]
     },
@@ -210,29 +228,16 @@
         "steps": [
          {
           "view": {
-           "lon": 14.403,
-           "lat": -27.559,
-           "span": 50.217
+           "lon": 14.4,
+           "lat": -23.2,
+           "span": 0.3
           },
-          "arrows": [
-           {
-            "from": [
-             14.0,
-             -34.0
-            ],
-            "to": [
-             11.3,
-             -18.5
-            ],
-            "color": "blue",
-            "label": "Benguela current",
-            "bend": -0.08
-           }
-          ]
+          "date": "2025-05-01/2025-09-30"
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "The Atlantic off Walvis Bay"
       }
      ]
     }
@@ -252,27 +257,12 @@
         "steps": [
          {
           "view": {
-           "lon": 19.884,
-           "lat": -23.064,
-           "span": 83.503
+           "lon": 13.263,
+           "lat": -23.322,
+           "span": 33.535
           },
           "highlight": [
            "file:coast30.geojson@red"
-          ],
-          "arrows": [
-           {
-            "from": [
-             14.0,
-             -34.0
-            ],
-            "to": [
-             11.3,
-             -18.5
-            ],
-            "color": "blue",
-            "label": "Benguela current",
-            "bend": -0.08
-           }
           ],
           "places": [
            {
@@ -289,10 +279,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "and cold water does",
-       "photo": "File:Swakopmund Brandung.jpg",
-       "on_screen_text": "Cold surf at Swakopmund"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.5,
+           "lat": -24.0,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cold sea, dry shore"
       }
      ]
     },
@@ -329,6 +331,24 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": "and winds lift colder",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.45,
+           "lat": -24.4,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cold upwelled water along the shore"
       },
       {
        "type": "photo",
@@ -369,10 +389,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Windhoek, the capital, up",
-       "photo": "File:Walvis Bay (37714794876).jpg",
-       "on_screen_text": "Walvis Bay"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.08,
+           "lat": -22.56,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Windhoek"
       }
      ]
     },
@@ -380,10 +412,22 @@
      "text": "What the sea does give is fog. On many mornings it rolls inland, and the beetles and plants of the Namib live on the drops it leaves. People cannot.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:Oceanic fog sossusvlei4.jpg",
-       "on_screen_text": "Fog over the dunes"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.8,
+           "lat": -23.55,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The dunes inland of the coast"
       },
       {
        "type": "photo",
@@ -589,10 +633,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "and this coast had",
-       "photo": "File:Swakopmund Brandung.jpg",
-       "on_screen_text": "Surf on the Namibian coast"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.35,
+           "lat": -23.9,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Surf on the dune coast"
       }
      ]
     },
@@ -672,10 +728,22 @@
      "text": "The headland is still called Cape Cross. Today it belongs to seals. In the breeding season up to two hundred and ten thousand Cape fur seals crowd its rocks, the largest colony of its kind in the world.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:Cape Cross Seal Colony confrontation.jpg",
-       "on_screen_text": "Cape fur seals at Cape Cross"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.93,
+           "lat": -21.8,
+           "span": 0.14
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The seal colony at Cape Cross"
       },
       {
        "type": "stat",
@@ -738,6 +806,33 @@
        }
       },
       {
+       "type": "map",
+       "at": "In 1893 a German",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.95,
+           "lat": -21.77,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": 13.95,
+           "lat": -21.77,
+           "span": 0.093
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cape Cross today"
+      },
+      {
        "type": "stat",
        "at": "Namibia asked for it",
        "stat": {
@@ -754,8 +849,26 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Skeleton Coast (23910020708).jpg",
+       "photo": "File:The Suiderkus (1976) Shipwreck (37092522613).jpg",
        "on_screen_text": "The empty shore"
+      },
+      {
+       "type": "map",
+       "at": "There was nothing on",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.3,
+           "lat": -20.33,
+           "span": 0.25
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The coast north of Cape Cross"
       }
      ]
     },
@@ -860,10 +973,28 @@
        "on_screen_text": "Lüderitz, the old Angra Pequena"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "In May 1883 he",
-       "photo": "File:Contract Frederiks-Vogelsang 1883 p1.jpg",
-       "on_screen_text": "The first contract, 1883"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.15,
+           "lat": -26.62,
+           "span": 0.1
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Angra Pequena, the cove"
+      },
+      {
+       "type": "photo",
+       "at": "and five miles of",
+       "photo": "File:Lüderitz Territory (formerly Angra Pequena), today Lüderitz, Namibia German Medal 1884, obverse.jpg",
+       "on_screen_text": "German medal for the Lüderitz territory, 1884"
       },
       {
        "type": "stat",
@@ -880,14 +1011,8 @@
      "text": "A second contract that August took a strip of land to the Orange River, measured in miles. The chief understood English miles. The contract meant German geographical miles, almost five times longer. It became known as the mile swindle.",
      "shots": [
       {
-       "type": "photo",
-       "at": 0,
-       "photo": "File:Deutsche kolonien 1885 ausschnitt lüderitzland.jpg",
-       "on_screen_text": "Lüderitzland on an 1885 map"
-      },
-      {
        "type": "map",
-       "at": "The contract meant German",
+       "at": 0,
        "map": {
         "steps": [
          {
@@ -914,7 +1039,7 @@
           ]
          },
          {
-          "at": 30,
+          "at": 11,
           "view": {
            "lon": 15.7,
            "lat": -27.2,
@@ -924,6 +1049,21 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "stat",
+       "at": "The contract meant German",
+       "stat": {
+        "value": "~5×",
+        "label": "A German geographical mile against an English mile",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It became known as",
+       "photo": "File:Lüderitz - The Schroeder House.jpg",
+       "on_screen_text": "Lüderitz"
       }
      ]
     },
@@ -995,10 +1135,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "but the only good",
-       "photo": "File:Walvis Bay (37714794876).jpg",
-       "on_screen_text": "Walvis Bay"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.47,
+           "lat": -22.92,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Walvis Bay lagoon"
       }
      ]
     },
@@ -1048,6 +1200,12 @@
        "at": 0,
        "photo": "File:Molo ve městě Swakopmund - Namibie - panoramio (2).jpg",
        "on_screen_text": "The Mole, long since filled with sand"
+      },
+      {
+       "type": "photo",
+       "at": "Ships had to unload",
+       "photo": "File:Molo ve městě Swakopmund - Namibie - panoramio (3).jpg",
+       "on_screen_text": "The beach inside the Mole"
       },
       {
        "type": "photo",
@@ -1119,14 +1277,26 @@
        }
       },
       {
-       "type": "photo",
-       "at": "The line to Windhoek,",
-       "photo": "File:Trasseführung der Bahnstrecke Swakopmund–Windhoek.jpg",
-       "on_screen_text": "The 1902 line, route map"
+       "type": "map",
+       "at": "up to the capital.",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.5,
+           "lat": -22.3,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The railway route inland"
       },
       {
        "type": "stat",
-       "at": "opened in June 1902.",
+       "at": "The line to Windhoek,",
        "stat": {
         "value": "382 KM",
         "label": "Swakopmund-Windhoek railway, opened June 1902",
@@ -1147,8 +1317,8 @@
       {
        "type": "photo",
        "at": "and today it is",
-       "photo": "File:Swakopmund Brandung.jpg",
-       "on_screen_text": "Swakopmund's sea front"
+       "photo": "File:20100811 1607-DS3 2624 Swakopmund.jpg",
+       "on_screen_text": "Swakopmund today"
       }
      ]
     },
@@ -1204,13 +1374,21 @@
         "steps": [
          {
           "view": {
-           "lon": 18.489,
-           "lat": -23.902,
-           "span": 37.815
+           "lon": 16.75,
+           "lat": -22.2,
+           "span": 16.2
           },
           "highlight": [
-           "file:namibia.geojson@alt",
            "file:walvis_enclave.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Windhoek",
+            "lon": 17.08,
+            "lat": -22.56,
+            "kind": "capital",
+            "label": "Windhoek"
+           }
           ]
          }
         ],
@@ -1232,31 +1410,28 @@
      "text": "So for a century, the one place where a coastal city could grow was the one place the country running the coast did not own. And the rest of the coast was busy sinking ships.",
      "shots": [
       {
-       "type": "map",
+       "type": "photo",
        "at": 0,
+       "photo": "File:Walvis Bay (37714794876).jpg",
+       "on_screen_text": "The port of Walvis Bay"
+      },
+      {
+       "type": "map",
+       "at": "was the one place",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 14.48,
+           "lon": 14.52,
            "lat": -22.95,
-           "span": 0.08
-          },
-          "date": "2025-05-01/2025-09-30"
-         },
-         {
-          "at": 12,
-          "view": {
-           "lon": 14.48,
-           "lat": -22.95,
-           "span": 0.08
+           "span": 0.3
           },
           "date": "2025-05-01/2025-09-30"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "The port of Walvis Bay"
+       "on_screen_text": "Walvis Bay from orbit"
       },
       {
        "type": "map",
@@ -1345,6 +1520,24 @@
        "at": "Their rusting hulls, with",
        "photo": "File:The Suiderkus (1976) Shipwreck (37762745461).jpg",
        "on_screen_text": "The Suiderkus, wrecked 1976"
+      },
+      {
+       "type": "map",
+       "at": "gave the Skeleton Coast",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.9,
+           "lat": -19.7,
+           "span": 0.2
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Skeleton Coast from orbit"
       }
      ]
     },
@@ -1521,14 +1714,35 @@
      "text": "The air force sent a Ventura bomber to drop supplies. It landed on the beach to help, and its wheels sank into the sand, and it could not take off again.",
      "shots": [
       {
-       "type": "photo",
+       "type": "stat",
        "at": 0,
-       "photo": "File:Lockheed PV-1 Ventura in flight, circa in late 1943 (NH 94917).jpg",
-       "on_screen_text": "A Lockheed Ventura, the type sent"
+       "stat": {
+        "value": "VENTURA",
+        "label": "South African Air Force bomber sent to help",
+        "source": "SAAF Museum; Wikipedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It landed on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.22,
+           "lat": -18.64,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The beach near the wreck site"
       },
       {
        "type": "photo",
-       "at": "It landed on the",
+       "at": "and its wheels sank",
        "photo": "File:Dune Formation Namib Skeleton Coast (37504515070).jpg",
        "on_screen_text": "Soft sand on the Skeleton Coast"
       }
@@ -1558,9 +1772,9 @@
         "steps": [
          {
           "view": {
-           "lon": 15.933,
-           "lat": -21.938,
-           "span": 18.025
+           "lon": 16.479,
+           "lat": -21.58,
+           "span": 16.057
           },
           "places": [
            {
@@ -1600,6 +1814,24 @@
        }
       },
       {
+       "type": "map",
+       "at": "crossed the desert from",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.6,
+           "lat": -19.6,
+           "span": 0.6
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The desert between the coast and the interior"
+      },
+      {
        "type": "stat",
        "at": "They reached Windhoek on",
        "stat": {
@@ -1618,6 +1850,15 @@
        "at": 0,
        "photo": "File:Skeleton Coast Wreck01.jpg",
        "on_screen_text": "A wreck on the Skeleton Coast"
+      },
+      {
+       "type": "stat",
+       "at": "But the coast had",
+       "stat": {
+        "value": "SHIP + TUG + BOMBER",
+        "label": "Lost in one month, Nov-Dec 1942",
+        "source": "Wikipedia"
+       }
       },
       {
        "type": "map",
@@ -1643,27 +1884,8 @@
      "text": "Most of that northern coast is now the Skeleton Coast National Park, proclaimed in 1971. Its southern half can be driven with a permit. The northern half can only be reached by small plane, with one licensed tour company.",
      "shots": [
       {
-       "type": "map",
-       "at": 0,
-       "map": {
-        "steps": [
-         {
-          "view": {
-           "lon": 13.091,
-           "lat": -19.459,
-           "span": 12.382
-          },
-          "highlight": [
-           "file:skeleton_np.geojson@red"
-          ]
-         }
-        ],
-        "cut": true
-       }
-      },
-      {
        "type": "stat",
-       "at": "proclaimed in 1971.",
+       "at": 0,
        "stat": {
         "value": "1971",
         "label": "Skeleton Coast Park proclaimed",
@@ -1675,6 +1897,33 @@
        "at": "Its southern half can",
        "photo": "File:Springbok Gate.jpg",
        "on_screen_text": "Springbok Gate, Skeleton Coast Park"
+      },
+      {
+       "type": "map",
+       "at": "The northern half can",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.0,
+           "lat": -18.1,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 31,
+          "view": {
+           "lon": 12.0,
+           "lat": -18.1,
+           "span": 0.31
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The roadless north of the park"
       }
      ]
     },
@@ -1720,6 +1969,24 @@
         "steps": [
          {
           "view": {
+           "lon": 14.25,
+           "lat": -22.1,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Henties Bay, the last town before the park"
+      },
+      {
+       "type": "map",
+       "at": "It was a law.",
+       "map": {
+        "steps": [
+         {
+          "view": {
            "lon": 14.216,
            "lat": -25.646,
            "span": 22.459
@@ -1748,6 +2015,12 @@
        "at": 0,
        "photo": "File:Lüderitz - view from port.jpg",
        "on_screen_text": "Lüderitz bay"
+      },
+      {
+       "type": "photo",
+       "at": "During the war against",
+       "photo": "File:Lüderitz - Saint Peter and Saint Paul Catholic Church.jpg",
+       "on_screen_text": "Lüderitz"
       },
       {
        "type": "map",
@@ -1782,8 +2055,26 @@
      "text": "In 2021 Germany said that the killings were, from today's perspective, a genocide, and asked Namibia for forgiveness. The talks about what that means are still going on.",
      "shots": [
       {
-       "type": "stat",
+       "type": "map",
        "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.16,
+           "lat": -26.645,
+           "span": 0.12
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Shark Island and the harbour"
+      },
+      {
+       "type": "stat",
+       "at": "a genocide, and asked",
        "stat": {
         "value": "2021",
         "label": "Germany: genocide 'from today's perspective'",
@@ -1868,8 +2159,14 @@
      "text": "The desert floor was scattered with them. Within months the colonial government closed off a huge strip of the coast, about twenty-six thousand square kilometres. It was called the Sperrgebiet, the forbidden area.",
      "shots": [
       {
-       "type": "map",
+       "type": "photo",
        "at": 0,
+       "photo": "File:Lüderitz - Gemsbok grazing.jpg",
+       "on_screen_text": "Desert near Lüderitz"
+      },
+      {
+       "type": "map",
+       "at": "Within months the colonial",
        "map": {
         "steps": [
          {
@@ -1903,7 +2200,7 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Abandoned building, Kolmannskuppe, Namibia.jpg",
+       "photo": "File:Ghost Town (37012646394).jpg",
        "on_screen_text": "Kolmanskop"
       },
       {
@@ -1914,9 +2211,21 @@
       },
       {
        "type": "photo",
+       "at": "an ice factory and",
+       "photo": "File:Ghost Town (37052028253).jpg",
+       "on_screen_text": "Kolmanskop"
+      },
+      {
+       "type": "photo",
        "at": "The hospital is said",
        "photo": "File:Ghost Town (37464568170).jpg",
        "on_screen_text": "Inside Kolmanskop"
+      },
+      {
+       "type": "photo",
+       "at": "and some accounts say",
+       "photo": "File:Ghost Town (37464465660).jpg",
+       "on_screen_text": "Kolmanskop"
       }
      ]
     },
@@ -1995,6 +2304,24 @@
         "label": "Oranjemund opens to the public",
         "source": "Wikipedia; The Namibian"
        }
+      },
+      {
+       "type": "map",
+       "at": "but it was only",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.44,
+           "lat": -28.55,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Oranjemund"
       }
      ]
     },
@@ -2089,6 +2416,33 @@
         "label": "Copper ingots from the Bom Jesus",
         "source": "Wikipedia"
        }
+      },
+      {
+       "type": "map",
+       "at": "and more than a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 16.47,
+           "lat": -28.6,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 22,
+          "view": {
+           "lon": 16.47,
+           "lat": -28.6,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The beach mines at Oranjemund"
       }
      ]
     },
@@ -2130,8 +2484,8 @@
       {
        "type": "photo",
        "at": "So where do the",
-       "photo": "File:Walvis Bay (37731160902).jpg",
-       "on_screen_text": "Walvis Bay"
+       "photo": "File:20100811 1607-DS3 2624 Swakopmund.jpg",
+       "on_screen_text": "Swakopmund"
       }
      ]
     }
@@ -2214,12 +2568,25 @@
         "steps": [
          {
           "view": {
-           "lon": 18.489,
-           "lat": -23.902,
-           "span": 37.815
+           "lon": 14.6,
+           "lat": -23.35,
+           "span": 14.52
           },
-          "highlight": [
-           "file:namibia.geojson@alt"
+          "places": [
+           {
+            "name": "Windhoek",
+            "lon": 17.08,
+            "lat": -22.56,
+            "kind": "capital",
+            "label": "Windhoek"
+           },
+           {
+            "name": "Walvis Bay",
+            "lon": 14.505,
+            "lat": -22.957,
+            "kind": "city",
+            "label": "Walvis Bay"
+           }
           ]
          }
         ],
@@ -2228,12 +2595,39 @@
       },
       {
        "type": "map",
+       "at": "So we took a",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 17.08,
+           "lat": -22.56,
+           "span": 0.25
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 20,
+          "view": {
+           "lon": 17.08,
+           "lat": -22.56,
+           "span": 0.155
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Windhoek, where many Namibians live"
+      },
+      {
+       "type": "map",
        "at": "and measured each small",
        "map": {
         "steps": [
          {
           "view": {
-           "lon": 15.77,
+           "lon": 15.692,
            "lat": -23.322,
            "span": 33.535
           },
@@ -2277,14 +2671,32 @@
       },
       {
        "type": "map",
+       "at": "Go a hundred kilometres",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.2,
+           "lat": -22.8,
+           "span": 0.6
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Inland of Walvis Bay: empty"
+      },
+      {
+       "type": "map",
        "at": "Beyond the towns, almost",
        "map": {
         "steps": [
          {
           "view": {
            "lon": 14.9,
-           "lat": -25.0,
-           "span": 0.6
+           "lat": -25.2,
+           "span": 0.4
           },
           "date": "2025-05-01/2025-09-30"
          }
@@ -2305,9 +2717,9 @@
         "steps": [
          {
           "view": {
-           "lon": 14.6,
-           "lat": -24.629,
-           "span": 15.454
+           "lon": 15.15,
+           "lat": -24.401,
+           "span": 17.13
           },
           "highlight": [
            "file:empty_south.geojson@red"
@@ -2338,9 +2750,9 @@
         "steps": [
          {
           "view": {
-           "lon": 14.657,
-           "lat": -21.024,
-           "span": 20.43
+           "lon": 14.05,
+           "lat": -21.33,
+           "span": 22.106
           },
           "highlight": [
            "file:empty_north.geojson@red"
@@ -2397,8 +2809,8 @@
       {
        "type": "photo",
        "at": "Together they hold most",
-       "photo": "File:Walvis Bay (37714794876).jpg",
-       "on_screen_text": "Walvis Bay"
+       "photo": "File:Sandwich Harbour, Walvis Bay (37731184332).jpg",
+       "on_screen_text": "South of Walvis Bay"
       }
      ]
     },
@@ -2413,6 +2825,24 @@
         "label": "Growth of the Erongo region, 2011-2023",
         "source": "Namibia Statistics Agency, 2023 census"
        }
+      },
+      {
+       "type": "map",
+       "at": "grew by almost sixty",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.52,
+           "lat": -22.92,
+           "span": 0.15
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Walvis Bay's new suburbs"
       }
      ]
     },
@@ -2426,16 +2856,16 @@
         "steps": [
          {
           "view": {
-           "lon": 14.48,
-           "lat": -22.95,
-           "span": 0.1
+           "lon": 14.49,
+           "lat": -22.96,
+           "span": 0.2
           },
           "date": "2025-05-01/2025-09-30"
          }
         ],
         "cut": true
        },
-       "on_screen_text": "Walvis Bay port"
+       "on_screen_text": "Walvis Bay port and town"
       },
       {
        "type": "photo",
@@ -2503,6 +2933,18 @@
         "label": "Direct jobs in fishing",
         "source": "New Era 2026; MSC"
        }
+      },
+      {
+       "type": "photo",
+       "at": "most of them in",
+       "photo": "File:Lüderitz - Colonial home.jpg",
+       "on_screen_text": "Lüderitz"
+      },
+      {
+       "type": "photo",
+       "at": "and hake alone gives",
+       "photo": "File:Lüderitz, Namibia (55529882131).jpg",
+       "on_screen_text": "Lüderitz"
       }
      ]
     },
@@ -2617,6 +3059,33 @@
         "label": "Walvis Bay's only water source: the Kuiseb aquifer",
         "source": "UN-Habitat; New Era"
        }
+      },
+      {
+       "type": "map",
+       "at": "A 2021 report by",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.62,
+           "lat": -23.1,
+           "span": 0.12
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 44,
+          "view": {
+           "lon": 14.62,
+           "lat": -23.1,
+           "span": 0.08
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Kuiseb delta"
       }
      ]
     },
@@ -2695,6 +3164,24 @@
         "label": "Water from the Erongo desalination plant, 2025",
         "source": "New Era"
        }
+      },
+      {
+       "type": "map",
+       "at": "and most of it",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 15.0,
+           "lat": -22.6,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Uranium country inland of Swakopmund"
       }
      ]
     },
@@ -2958,6 +3445,12 @@
        }
       },
       {
+       "type": "photo",
+       "at": "Analysts expect the first",
+       "photo": "File:Lüderitz - Colonial commercial building.jpg",
+       "on_screen_text": "Lüderitz"
+      },
+      {
        "type": "map",
        "at": "and a gas pipeline",
        "map": {
@@ -2983,7 +3476,13 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Ghost Town (37464568170).jpg",
+       "photo": "File:Ghost Town (37722089131).jpg",
+       "on_screen_text": "Kolmanskop"
+      },
+      {
+       "type": "photo",
+       "at": "a century after the",
+       "photo": "File:Inhabited Series - Open-door policy.jpg",
        "on_screen_text": "Kolmanskop"
       }
      ]
@@ -2998,7 +3497,7 @@
         "steps": [
          {
           "view": {
-           "lon": 12.844,
+           "lon": 13.091,
            "lat": -19.459,
            "span": 12.382
           },
@@ -3009,6 +3508,33 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": "In the national park,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.85,
+           "lat": -19.55,
+           "span": 0.3
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 16,
+          "view": {
+           "lon": 12.85,
+           "lat": -19.55,
+           "span": 0.186
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The park around the Hoanib"
       },
       {
        "type": "map",
@@ -3047,6 +3573,24 @@
         "label": "Desert lions in northwest Namibia",
         "source": "Namibia Ministry of Environment, 2025"
        }
+      },
+      {
+       "type": "map",
+       "at": "Every road and pipe",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 13.1,
+           "lat": -19.95,
+           "span": 0.4
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lion range on the coast"
       }
      ]
     },
@@ -3072,10 +3616,31 @@
        "on_screen_text": "The dune sea"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Is it worth bringing",
-       "photo": "File:Dune Formation Namib Skeleton Coast (37504515070).jpg",
-       "on_screen_text": "The Namib"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.62,
+           "lat": -23.75,
+           "span": 0.5
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 17,
+          "view": {
+           "lon": 14.62,
+           "lat": -23.75,
+           "span": 0.31
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The sand sea"
       }
      ]
     }
@@ -3095,7 +3660,7 @@
         "steps": [
          {
           "view": {
-           "lon": 16.524,
+           "lon": 16.316,
            "lat": -23.322,
            "span": 33.535
           },
@@ -3115,8 +3680,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Oceanic fog sossusvlei4.jpg",
-       "on_screen_text": "Fog"
+       "photo": "File:Namib desert MODIS.jpg",
+       "on_screen_text": "The Namib from orbit"
       },
       {
        "type": "photo",
@@ -3127,13 +3692,13 @@
       {
        "type": "photo",
        "at": "Ships, tugs and even",
-       "photo": "File:Eduard Bohlen anagoria.jpg",
-       "on_screen_text": "The Eduard Bohlen"
+       "photo": "File:The Suiderkus (1976) Shipwreck (37092522613).jpg",
+       "on_screen_text": "A wreck on the coast"
       },
       {
        "type": "photo",
        "at": "Diamonds closed the south",
-       "photo": "File:Abandoned building, Kolmannskuppe, Namibia.jpg",
+       "photo": "File:Ghost Town (37722079791).jpg",
        "on_screen_text": "Kolmanskop"
       },
       {
@@ -3175,7 +3740,7 @@
         "steps": [
          {
           "view": {
-           "lon": 14.05,
+           "lon": 14.729,
            "lat": -22.694,
            "span": 29.597
           },
@@ -3203,6 +3768,33 @@
         ],
         "cut": true
        }
+      },
+      {
+       "type": "map",
+       "at": "Almost all of them",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 14.5,
+           "lat": -22.8,
+           "span": 0.4
+          },
+          "date": "2025-05-01/2025-09-30"
+         },
+         {
+          "at": 18,
+          "view": {
+           "lon": 14.5,
+           "lat": -22.8,
+           "span": 0.248
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Walvis Bay and Swakopmund"
       }
      ]
     },
@@ -3214,6 +3806,12 @@
        "at": 0,
        "photo": "File:Ghost Town (23869142088).jpg",
        "on_screen_text": "Kolmanskop"
+      },
+      {
+       "type": "photo",
+       "at": "a mine, or a",
+       "photo": "File:WelwitchiaMale.JPG",
+       "on_screen_text": "Welwitschia"
       },
       {
        "type": "map",
@@ -3239,9 +3837,21 @@
      "text": "Should Namibia open its empty coast to new industry, or keep it the way the desert made it?",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:Skeleton Coast (23910020708).jpg",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": 12.95,
+           "lat": -19.8,
+           "span": 0.4
+          },
+          "date": "2025-05-01/2025-09-30"
+         }
+        ],
+        "cut": true
+       },
        "on_screen_text": "The Skeleton Coast"
       },
       {
@@ -3251,7 +3861,7 @@
         "steps": [
          {
           "view": {
-           "lon": 14.729,
+           "lon": 14.263,
            "lat": -23.322,
            "span": 33.535
           },

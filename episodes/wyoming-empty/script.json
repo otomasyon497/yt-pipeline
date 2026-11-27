@@ -2352,10 +2352,22 @@
        "on_screen_text": "Open range, central Wyoming"
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Anyone could graze it.",
-       "photo": "File:Cowboy1902.jpg",
-       "on_screen_text": "A cowboy and his herd, about 1902"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.2,
+           "lat": 42.9,
+           "span": 0.4
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Open range, central Wyoming"
       },
       {
        "type": "map",
@@ -3041,10 +3053,22 @@
        }
       },
       {
-       "type": "photo",
+       "type": "map",
        "at": "Men far outnumbered women",
-       "photo": "File:Cowboy1902.jpg",
-       "on_screen_text": "A cowboy, about 1902"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -104.81,
+           "lat": 41.14,
+           "span": 0.8
+          },
+          "date": "2025-07-01/2025-09-20"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Cheyenne"
       },
       {
        "type": "photo",
@@ -3735,8 +3759,8 @@
       {
        "type": "photo",
        "at": 0,
-       "photo": "File:Front Street, downtown Rock Springs in 1919.jpg",
-       "on_screen_text": "Rock Springs, 1919"
+       "photo": "File:CitadelRockGreenRiverWyoming1868.jpg",
+       "on_screen_text": "The Union Pacific line at Green River, 1868"
       },
       {
        "type": "map",

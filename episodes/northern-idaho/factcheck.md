@@ -140,7 +140,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 134 | c05p12 | stat card | 75 MILLION TONS: Metal-rich sediment on the bed of Lake Coeur d'Alene | R17 USGS OFR 93-656; NASEM 2022 | verified |
 | 135 | c05p13 | narration | In 1970 Kellogg had about thirty-eight hundred people. | R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020) | verified |
 | 136 | c05p13 | narration | In 2020 it had about twenty-three hundred. | R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020) | verified |
-| 137 | c05p13 | stat card | -39 %: Kellogg: 3,811 people in 1970, 2,314 in 2020 |  |  |
+| 137 | c05p13 | stat card | -39 %: Kellogg: 3,811 people in 1970, 2,314 in 2020 | R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020) | verified |
 | 138 | c05p14 | narration | In 1990 it opened a ski area, Silver Mountain, with a gondola that climbs three point one miles from the edge of town, the longest single-stage gondola in North America. | R20 Silver Mountain Resort; Shoshone News-Press 2020 | verified |
 | 139 | c05p14 | stat card | 3.1 MILES: Silver Mountain gondola, opened 1990 | R20 Silver Mountain Resort; Shoshone News-Press 2020 | verified |
 | 140 | c06p01 | narration | Reason five. | Framing / summary of facts cited elsewhere in this table | verified |

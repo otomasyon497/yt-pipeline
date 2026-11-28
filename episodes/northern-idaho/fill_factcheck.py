@@ -54,7 +54,7 @@ RULES = [
     (r"blood lead|HIGHEST EVER|Lead dust", "R9 EPA (children's blood lead among the highest ever measured in the US)", V),
     (r"1981|Superfund|SUPERFUND|seven thousand|7,000", "R9 EPA (NPL 1983; 7,000+ properties) [closure 1981 per Wikipedia; some sources 1982]", V),
     (r"1968|tailings|seventy-five million|75 MILLION|bed of Lake Coeur", "R17 USGS OFR 93-656; NASEM 2022", V),
-    (r"thirty-eight hundred|twenty-three hundred|Kellogg, people|3811|2314", "R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020)", V),
+    (r"thirty-eight hundred|twenty-three hundred|Kellogg, people|3811|2314|3,811|-39 %", "R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020)", V),
     (r"Silver Mountain|gondola|3\.1|1990", "R20 Silver Mountain Resort; Shoshone News-Press 2020", V),
     (r"Potlatch|1906|white pine sawmill|1983|whole town", "R11 Idaho Capital Sun 2022 / Intermountain Histories", V),
     (r"Orofino, Pierce and St\. Maries|fewer of them|machines replaced|from Canada|Less federal land", "R11 NPR 2016; Idaho Capital Sun 2022", A),

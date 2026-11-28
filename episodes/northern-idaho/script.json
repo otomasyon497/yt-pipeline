@@ -1087,10 +1087,13 @@
         "steps": [
          {
           "view": {
-           "lon": -116.45,
-           "lat": 47.96,
-           "span": 3.24
+           "lon": -116.616,
+           "lat": 47.73,
+           "span": 3.605
           },
+          "highlight": [
+           "file:kootenai.geojson@red"
+          ],
           "places": [
            {
             "name": "Spokane",
@@ -1588,7 +1591,7 @@
        "type": "stat",
        "at": "and by 1935 the",
        "stat": {
-        "value": "10 AM",
+        "value": "TEN A.M.",
         "label": "From 1935: every fire out by 10 the next morning",
         "source": "US Forest Service history"
        }
@@ -3217,24 +3220,12 @@
      "text": "In 1970 Kellogg had about thirty-eight hundred people. In 2020 it had about twenty-three hundred. And the Silver Valley was not the only industry up here that collapsed.",
      "shots": [
       {
-       "type": "chart",
+       "type": "stat",
        "at": 0,
-       "chart": {
-        "type": "bar",
-        "title": "Kellogg, people",
-        "unit": "",
-        "data": [
-         [
-          "1970",
-          3811
-         ],
-         [
-          "2020",
-          2314
-         ]
-        ],
-        "source": "US Census",
-        "highlight": 1
+       "stat": {
+        "value": "-39 %",
+        "label": "Kellogg: 3,811 people in 1970, 2,314 in 2020",
+        "source": "US Census"
        }
       },
       {

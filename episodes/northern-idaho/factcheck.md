@@ -65,7 +65,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 59 | c03p08 | narration | The tool Pulaski designed after the fire, half axe and half hoe, is still carried by wildland firefighters today. | R23 USFS history (Pulaski tool from 1911) | verified |
 | 60 | c03p08 | on screen | The burned forest, 1910 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
 | 61 | c03p08 | on screen | Burned slopes, 1910 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
-| 62 | c03p08 | stat card | 10 AM: From 1935: every fire out by 10 the next morning | R23 USFS history (10 a.m. policy 1935; Pulaski tool from 1911) | verified |
+| 62 | c03p08 | stat card | TEN A.M.: From 1935: every fire out by 10 the next morning | R23 USFS history (10 a.m. policy 1935; Pulaski tool from 1911) | verified |
 | 63 | c03p08 | stat card | AXE + HOE: The Pulaski tool, designed after the fire | R23 USFS history (Pulaski tool from 1911) | verified |
 | 64 | c03p09 | on screen | Forest after the 1910 fires | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
 | 65 | c03p09 | on screen | The burned hills, 1910 | Caption of a Commons photo or a map label; place and date from the file description (visuals.md) or our own drawing | verified |
@@ -140,7 +140,7 @@ Status: verified (primary source) | attributed (secondary source, said in the sc
 | 134 | c05p12 | stat card | 75 MILLION TONS: Metal-rich sediment on the bed of Lake Coeur d'Alene | R17 USGS OFR 93-656; NASEM 2022 | verified |
 | 135 | c05p13 | narration | In 1970 Kellogg had about thirty-eight hundred people. | R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020) | verified |
 | 136 | c05p13 | narration | In 2020 it had about twenty-three hundred. | R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020) | verified |
-| 137 | c05p13 | chart | Kellogg, people: 1970 3811, 2020 2314 | R20 US Census via Wikipedia Kellogg (3,811 in 1970; 2,314 in 2020) | verified |
+| 137 | c05p13 | stat card | -39 %: Kellogg: 3,811 people in 1970, 2,314 in 2020 |  |  |
 | 138 | c05p14 | narration | In 1990 it opened a ski area, Silver Mountain, with a gondola that climbs three point one miles from the edge of town, the longest single-stage gondola in North America. | R20 Silver Mountain Resort; Shoshone News-Press 2020 | verified |
 | 139 | c05p14 | stat card | 3.1 MILES: Silver Mountain gondola, opened 1990 | R20 Silver Mountain Resort; Shoshone News-Press 2020 | verified |
 | 140 | c06p01 | narration | Reason five. | Framing / summary of facts cited elsewhere in this table | verified |

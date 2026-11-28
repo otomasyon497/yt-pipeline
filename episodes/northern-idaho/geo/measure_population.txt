@@ -1,0 +1,16 @@
+Idaho 2020: 1,839,106 people, 214,050 km2 land (82,645 sq mi)
+North Idaho (10 counties): 363,642 people = 19.8 %; land 54,369 km2 = 25.4 %
+density: north 6.7/km2 (17/sq mi), rest of Idaho 9.2/km2
+  Kootenai     171,362     3,206 km2    53.5/km2   47.1 % of the north
+  Bonner        47,110     4,489 km2    10.5/km2   13.0 % of the north
+  Nez Perce     42,090     2,197 km2    19.2/km2   11.6 % of the north
+  Latah         39,517     2,786 km2    14.2/km2   10.9 % of the north
+  Idaho         16,541    21,957 km2     0.8/km2    4.5 % of the north
+  Shoshone      13,169     6,831 km2     1.9/km2    3.6 % of the north
+  Boundary      12,056     3,286 km2     3.7/km2    3.3 % of the north
+  Benewah        9,530     2,012 km2     4.7/km2    2.6 % of the north
+  Clearwater     8,734     6,364 km2     1.4/km2    2.4 % of the north
+  Lewis          3,533     1,240 km2     2.8/km2    1.0 % of the north
+Kootenai alone: 47.1 % of the north's people on 5.9 % of its land
+north's people within 25 km of Coeur d'Alene, Lewiston or Moscow: 231,664 = 63.7 %
+Idaho County: 16,541 people on 21,957 km2 (8,477 sq mi) = 0.8/km2; its land = 10.3 % of Idaho

@@ -1,0 +1,4 @@
+M3 2026-11-28, public OSRM demo router (OpenStreetMap data, ODbL), Sandpoint (-116.553, 48.276) -> Boise (-116.202, 43.615):
+  route 1: 423 mi, 9.15 h (OSRM estimate), stays in Idaho (US 95; westmost point -117.04 at Lewiston)
+  route 2: 496 mi, 9.25 h, via Washington and Oregon (westmost -119.34, I-82/I-84)
+  -> the road through two other states is ~70 miles longer and about as fast.

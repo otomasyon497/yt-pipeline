@@ -56,3 +56,32 @@ Clearwater, Nez Perce, Lewis, Idaho counties.
 - 4. Silver, dynamite and lead: Silver Valley, 1899, Steunenberg 1905, Sunshine 1972, Bunker Hill 1973, Superfund.
 - 5. When the mills closed: timber boom and bust (Potlatch 1983, Pierce 2000, Orofino 2016).
 - 6. Where people do live, and the new rush: M1, Coeur d'Alene growth, the Navy lake; ending question.
+
+## Round 2 (2026-11-28)
+- M1 DONE (geo/measure_population.py -> .txt; 2020 census block groups, Census county land): Idaho 1,839,106 on
+  82,645 sq mi land. North (10 counties) 363,642 = 19.8 % of people on 25.4 % of land (20,992 sq mi: more than VT
+  9,217 + NH 8,953 land). Kootenai 171,362 = 47.1 % of the north's people on 5.9 % of its land. 63.7 % of the north
+  within 25 km (~15 mi) of Coeur d'Alene, Lewiston or Moscow. Idaho County 16,541 on 8,477 sq mi (NJ land 7,354).
+- M3 DONE (geo/drive_osrm.txt): Sandpoint -> Boise 423 mi inside Idaho vs 496 mi via WA/OR, both ~9.2 h (OSRM).
+- R14 Border with Canada 45 mi (International Boundary Commission; Britannica: state ~45 mi wide there).
+- R15 1887: Congress sent Cleveland a bill to return north Idaho to Washington Territory on 1 Mar 1887; pocket veto
+  after Gov. Stevenson's telegram (Wikipedia Idaho Territory; Spokesman 2015). Statehood 3 Jul 1890.
+  University of Idaho founded 30 Jan 1889 (Stevenson signed Council Bill 20), credited with stopping the annexation
+  push (UI catalog; Wikipedia); opened 1892.
+- R16 Nez Perce War: White Bird Canyon 17 Jun 1877 first battle, Nez Perce victory (US Army); 126 days, 1,170+ mi,
+  four states; Bear Paw, surrender 5 Oct 1877, ~40 mi short of Canada (NPS).
+- R17 Lake Coeur d'Alene: ~75 M metric tons of metal-rich sediment on the lakebed (USGS OFR 93-656); wastes
+  discharged straight into the South Fork until 1968; lake left out of Superfund (NASEM 2022).
+- R18 Port of Lewiston: most inland West Coast seaport, 465 river miles, 8 locks and dams; wheat, peas, lentils,
+  paper (Port of Lewiston).
+- R19 Wallace: last stoplight on I-90 Seattle-Boston, removed when the viaduct opened 12 Sep 1991; funeral for it
+  (ITD; Jalopnik). Wallace 1910 evacuation trains to Spokane and Missoula; soldiers kept men on the fire line (Wikipedia; Spokesman).
+- R20 Kellogg 3,811 (1970) -> 2,314 (2020) (census via Wikipedia). Silver Mountain gondola 3.1 mi, longest single
+  stage in North America, 30 years old in 2020 (Shoshone News-Press; resort).
+- R21 Aryan Nations compound near Hayden Lake (from the 1970s); Keenan v. Aryan Nations, Kootenai County jury
+  $6.3 M, 7 Sep 2000; bankruptcy; compound demolished May 2001, later a peace park (SPLC; ABC; Spokesman).
+- R22 Salmon "River of No Return": one-way freight scows, broken up for lumber at the end (USFWS rivers; Britannica).
+  Hells Canyon 7,993 ft, deepest river gorge in North America [CHECK USFS].
+- R23 National forests: Idaho Panhandle ~2.94 M acres, Nez Perce-Clearwater ~4.07 M (USFS LAR table 28) -> "about
+  seven million acres". 10 a.m. policy 1935 (USFS history). Pulaski tool 1911.
+- Narration v3: drafts/narration.md, 2,706 words (~16.2 min at 2.78 w/s). Hook 5/6 (ONE NUM flags "one in five").

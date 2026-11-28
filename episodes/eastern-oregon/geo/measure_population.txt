@@ -1,0 +1,25 @@
+Oregon 2020: 4,237,256 people, 248,630 km2 land (95,997 sq mi), 44.1/sq mi
+East of the Cascades (18 counties): 569,844 people = 13.4 % of Oregon; land 172,393 km2 (66,561 sq mi) = 69.3 %; 3.3/km2 (8.6/sq mi)
+  same without Deschutes (Bend): 371,591 people = 8.8 % of Oregon; land 164,577 km2 (63,543 sq mi) = 66.2 %; 2.3/km2 (5.8/sq mi)
+Far east (8 counties): 188,815 people = 4.5 % of Oregon; land 98,541 km2 (38,047 sq mi) = 39.6 %; 1.9/km2 (5.0/sq mi)
+Willamette Valley + Portland (10 counties): 3,037,630 people = 71.7 % of Oregon; land 35,849 km2 (13,841 sq mi) = 14.4 %; 84.7/km2 (219.5/sq mi)
+  Deschutes    198,253    7,816 km2 ( 3,018 sq mi)    65.7/sq mi   34.8 % of the east
+  Umatilla      80,075    8,328 km2 ( 3,215 sq mi)    24.9/sq mi   14.1 % of the east
+  Klamath       69,413   15,410 km2 ( 5,950 sq mi)    11.7/sq mi   12.2 % of the east
+  Malheur       31,571   25,609 km2 ( 9,888 sq mi)     3.2/sq mi    5.5 % of the east
+  Wasco         26,670    6,167 km2 ( 2,381 sq mi)    11.2/sq mi    4.7 % of the east
+  Union         26,196    5,276 km2 ( 2,037 sq mi)    12.9/sq mi    4.6 % of the east
+  Crook         24,738    7,715 km2 ( 2,979 sq mi)     8.3/sq mi    4.3 % of the east
+  Jefferson     24,502    4,615 km2 ( 1,782 sq mi)    13.8/sq mi    4.3 % of the east
+  Hood River    23,977    1,352 km2 (   522 sq mi)    45.9/sq mi    4.2 % of the east
+  Baker         16,668    7,946 km2 ( 3,068 sq mi)     5.4/sq mi    2.9 % of the east
+  Morrow        12,186    5,259 km2 ( 2,031 sq mi)     6.0/sq mi    2.1 % of the east
+  Lake           8,160   21,079 km2 ( 8,139 sq mi)     1.0/sq mi    1.4 % of the east
+  Harney         7,495   26,248 km2 (10,134 sq mi)     0.7/sq mi    1.3 % of the east
+  Wallowa        7,391    8,148 km2 ( 3,146 sq mi)     2.3/sq mi    1.3 % of the east
+  Grant          7,233   11,727 km2 ( 4,528 sq mi)     1.6/sq mi    1.3 % of the east
+  Gilliam        1,995    3,120 km2 ( 1,205 sq mi)     1.7/sq mi    0.4 % of the east
+  Sherman        1,870    2,133 km2 (   824 sq mi)     2.3/sq mi    0.3 % of the east
+  Wheeler        1,451    4,444 km2 ( 1,716 sq mi)     0.8/sq mi    0.3 % of the east
+east's people within 25 km of Bend, Redmond, Klamath Falls, Hermiston or Pendleton: 309,225 = 54.3 %
+Southeast (Harney + Lake + Malheur): 47,226 people = 1.1 % of Oregon; land 72,936 km2 (28,161 sq mi) = 29.3 %; 0.6/km2 (1.7/sq mi)

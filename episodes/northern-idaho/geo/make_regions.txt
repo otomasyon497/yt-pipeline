@@ -1,0 +1,17 @@
+idaho: 216,429 km2 = 83,564 sq mi = 53.48 M acres
+north: 55,261 km2 = 21,336 sq mi = 13.66 M acres
+south: 161,168 km2 = 62,227 sq mi = 39.83 M acres
+idaho_county: 22,005 km2 = 8,496 sq mi = 5.44 M acres
+kootenai: 3,388 km2 = 1,308 sq mi = 0.84 M acres
+shoshone: 6,834 km2 = 2,639 sq mi = 1.69 M acres
+washington: 174,948 km2 = 67,548 sq mi = 43.23 M acres
+montana: 385,920 km2 = 149,004 sq mi = 95.36 M acres
+fire1910: 10,003 km2 = 3,862 sq mi = 2.47 M acres
+territory1863: 856,423 km2 = 330,666 sq mi = 211.63 M acres
+vt_nh: 48,904 km2 = 18,882 sq mi = 12.08 M acres
+frank_church: 9,577 km2 = 3,698 sq mi = 2.37 M acres
+selway: 5,456 km2 = 2,107 sq mi = 1.35 M acres
+gospel: 832 km2 = 321 sq mi = 0.21 M acres
+wilderness: 15,864 km2 = 6,125 sq mi = 3.92 M acres
+forests: 27,937 km2 = 10,787 sq mi = 6.90 M acres
+salmon: 1,096 km2 = 423 sq mi = 0.27 M acres

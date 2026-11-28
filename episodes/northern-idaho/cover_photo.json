@@ -1,0 +1,15 @@
+{
+ "photo": "File:Lochsa River (6050308577).jpg",
+ "focus": [0.5, 0.55],
+ "zoom": 1.0,
+ "lines": [{"t": "WHY IS IT", "color": "white"}, {"t": "SO EMPTY?", "color": "yellow"}],
+ "text_at": [0.04, 0.05],
+ "text_size": 160,
+ "underline": true,
+ "variants": [
+  {"photo": "File:Lochsa River in Clearwater NF.jpg", "focus": [0.5, 0.55], "text_size": 160,
+   "lines": [{"t": "1 IN 5", "color": "white"}, {"t": "LIVE HERE", "color": "yellow"}]},
+  {"photo": "File:Drone view from Kellogg, Idaho.jpg", "focus": [0.5, 0.55], "text_size": 150,
+   "lines": [{"t": "SILVER,", "color": "white"}, {"t": "THEN LEAD", "color": "yellow"}]}
+ ]
+}

@@ -1,0 +1,4552 @@
+{
+ "title": "Why Almost Nobody Lives in Northern Idaho",
+ "voice": "am_michael",
+ "voice_speed": 1.15,
+ "music": "procedural",
+ "map_style": "satellite",
+ "look": "none",
+ "photo_upscale": true,
+ "sources": [
+  "episodes/northern-idaho/research.md and factcheck.md",
+  "Contains modified Copernicus Sentinel data 2024-2025",
+  "People in North Idaho: own count from the 2020 census, block groups (geo/measure_population.py)",
+  "Counties: US Census Bureau; states, rivers: Natural Earth; wildernesses and national forests: US Forest Service (geo/make_regions.py)",
+  "Drive Sandpoint-Boise: OSRM, (c) OpenStreetMap contributors (ODbL) (geo/drive_osrm.txt)",
+  "Idaho Territory 1863 and the 1910 fire area drawn as approximate areas; routes drawn through main points (approximate)"
+ ],
+ "thumbnail": {
+  "text": "1 IN 5"
+ },
+ "chapters": [
+  {
+   "title": "Hook",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Northern Idaho is a quarter of the state, a block of mountains and forest bigger than Vermont and New Hampshire put together.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.072,
+           "lat": 45.126,
+           "span": 28.993
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:south.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Spokane",
+            "lon": -117.43,
+            "lat": 47.66,
+            "kind": "city",
+            "label": "Spokane"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "a block of mountains",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.953,
+           "lat": 46.825,
+           "span": 16.539
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:vt_nh.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "But only about one Idahoan in five lives there, and most of them crowd into one corner. Idaho County, the biggest in the state, covers more than eight thousand square miles. Only sixteen thousand people live in it.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1 IN 5",
+        "label": "Idahoans who live in the ten northern counties",
+        "source": "Own count: 2020 census block groups, ten northern counties (geo/measure_population.py)"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and most of them",
+       "photo": "File:Coeur d'Alene aerial, May 2023.png",
+       "on_screen_text": "Coeur d'Alene, where most of the north lives"
+      },
+      {
+       "type": "map",
+       "at": "Idaho County, the biggest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.143,
+           "lat": 45.126,
+           "span": 28.993
+          },
+          "highlight": [
+           "file:idaho_county.geojson@red",
+           "file:idaho.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Grangeville",
+            "lon": -116.12,
+            "lat": 45.93,
+            "kind": "city",
+            "label": "Grangeville"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Only sixteen thousand people",
+       "stat": {
+        "value": "2 PER SQ MI",
+        "label": "Idaho County: 16,541 people on 8,477 sq mi",
+        "source": "US Census Bureau, 2020 census"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So why does almost nobody live in northern Idaho?",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Another Canyon View in Frank Church Wilderness.jpg",
+       "on_screen_text": "The Frank Church wilderness"
+      }
+     ]
+    },
+    {
+     "text": "Even the map looks strange. A thin chimney of land climbs north between Washington and Montana, until at the Canadian border it is only about forty-five miles wide. And above the Salmon River, Idaho runs on a different clock: the north keeps Pacific time with Seattle, the south keeps Mountain time with Boise.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.761,
+           "lat": 46.847,
+           "span": 16.756
+          },
+          "highlight": [
+           "file:north.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "45",
+            "lon": -116.5,
+            "lat": 49.05,
+            "kind": "label",
+            "label": "45 MILES"
+           },
+           {
+            "name": "Sandpoint",
+            "lon": -116.55,
+            "lat": 48.28,
+            "kind": "city",
+            "label": "Sandpoint"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "until at the Canadian",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.45,
+           "lat": 48.9,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Idaho's 45 miles of Canadian border"
+      },
+      {
+       "type": "map",
+       "at": "And above the Salmon",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.851,
+           "lat": 45.126,
+           "span": 28.993
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:south.geojson@alt",
+           "file:salmon.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "pt",
+            "lon": -116.6,
+            "lat": 47.2,
+            "kind": "label",
+            "label": "PACIFIC TIME"
+           },
+           {
+            "name": "mt",
+            "lon": -115.2,
+            "lat": 44.4,
+            "kind": "label",
+            "label": "MOUNTAIN TIME"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the north keeps Pacific",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.31,
+           "lat": 45.42,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Salmon River at Riggins: the time line"
+      },
+      {
+       "type": "map",
+       "at": "the south keeps Mountain",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.765,
+           "lat": 46.011,
+           "span": 22.558
+          },
+          "places": [
+           {
+            "name": "Seattle",
+            "lon": -122.33,
+            "lat": 47.61,
+            "kind": "city",
+            "label": "Seattle"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ],
+          "highlight": [
+           "file:north.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The answer runs through a capital that was carried off by soldiers, a fire that burned an area nearly as big as Connecticut in two days, and a valley that dug up more than a billion ounces of silver and then poisoned its own children.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Idaho - Lewiston - NARA - 23939445 (cropped).jpg",
+       "on_screen_text": "Lewiston, Idaho's first capital"
+      },
+      {
+       "type": "photo",
+       "at": "a fire that burned",
+       "photo": "File:Aftermath of the 1910 Fires (4929720525).jpg",
+       "on_screen_text": "After the fires of 1910"
+      },
+      {
+       "type": "map",
+       "at": "and a valley that",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.13,
+           "lat": 47.54,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kellogg, in the Silver Valley"
+      },
+      {
+       "type": "photo",
+       "at": "and then poisoned its",
+       "photo": "File:BUNKER HILL LEAD SMELTER. VIEW IS FROM CENTRAL IMPOUNDMENT AREA LOOKING SOUTH. PLANT DRY IS IN CENTER FOREGROUND, SLAG FUMING PLANT IS IN RIGHT FOREGROUND, AND BAG HOUSE IS IN HAER ID,40-KELL,2-1.tif",
+       "on_screen_text": "The Bunker Hill lead smelter"
+      }
+     ]
+    },
+    {
+     "text": "There are six reasons, and the first one is a wall of mountains in the middle of the state.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.59,
+           "lat": 45.753,
+           "span": 6.229
+          },
+          "places": [
+           {
+            "name": "cw",
+            "lon": -115.6,
+            "lat": 46.6,
+            "kind": "label",
+            "label": "Clearwater Mountains"
+           },
+           {
+            "name": "sr",
+            "lon": -115.2,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "Salmon River Mountains"
+           },
+           {
+            "name": "br",
+            "lon": -114.7,
+            "lat": 46.1,
+            "kind": "label",
+            "label": "Bitterroot Range"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a wall of mountains",
+       "photo": "File:Cabin Creek Frank Church.jpg",
+       "on_screen_text": "Central Idaho"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Wall in the Middle",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason one. Northern Idaho is cut off from the rest of its own state.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.693,
+           "lat": 46.825,
+           "span": 16.539
+          },
+          "highlight": [
+           "file:north.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Grangeville",
+            "lon": -116.12,
+            "lat": 45.93,
+            "kind": "city",
+            "label": "Grangeville"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Between Coeur d'Alene in the north and Boise in the south lie the Clearwater, the Salmon River and the Bitterroot mountains. It is some of the roughest country in the lower forty-eight states.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.38,
+           "lat": 45.753,
+           "span": 6.229
+          },
+          "places": [
+           {
+            "name": "cw",
+            "lon": -115.6,
+            "lat": 46.6,
+            "kind": "label",
+            "label": "Clearwater Mountains"
+           },
+           {
+            "name": "sr",
+            "lon": -115.2,
+            "lat": 45.1,
+            "kind": "label",
+            "label": "Salmon River Mountains"
+           },
+           {
+            "name": "br",
+            "lon": -114.7,
+            "lat": 46.1,
+            "kind": "label",
+            "label": "Bitterroot Range"
+           },
+           {
+            "name": "Grangeville",
+            "lon": -116.12,
+            "lat": 45.93,
+            "kind": "city",
+            "label": "Grangeville"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "the Clearwater, the Salmon",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.3,
+           "lat": 45.42,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Salmon River canyon"
+      },
+      {
+       "type": "photo",
+       "at": "It is some of",
+       "photo": "File:Middle Fork Salmon River Frank Church Wilderness.jpg",
+       "on_screen_text": "Middle Fork of the Salmon"
+      }
+     ]
+    },
+    {
+     "text": "Much of it was never built on at all. Along the Salmon River lies the Frank Church River of No Return Wilderness, almost two and a half million acres with no roads. It is the largest single block of wilderness in the lower forty-eight. Next to it lie the Selway-Bitterroot and the Gospel Hump wildernesses, and around them millions more acres of roadless forest.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Entering the Frank Church.jpg",
+       "on_screen_text": "Entering the Frank Church wilderness"
+      },
+      {
+       "type": "map",
+       "at": "Along the Salmon River",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.35,
+           "lat": 44.854,
+           "span": 8.731
+          },
+          "highlight": [
+           "file:frank_church.geojson@red",
+           "file:salmon.geojson@blue"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "almost two and a",
+       "stat": {
+        "value": "2.37 MILLION ACRES",
+        "label": "Frank Church-River of No Return Wilderness, no roads",
+        "source": "US Forest Service"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It is the largest",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.0,
+           "lat": 45.2,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Inside the Frank Church wilderness"
+      },
+      {
+       "type": "map",
+       "at": "Next to it lie",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.365,
+           "lat": 45.402,
+           "span": 9.462
+          },
+          "highlight": [
+           "file:frank_church.geojson@red",
+           "file:selway.geojson@red",
+           "file:gospel.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and around them millions",
+       "photo": "File:Middle Fork Salmon River Idaho.jpg",
+       "on_screen_text": "Middle Fork of the Salmon"
+      }
+     ]
+    },
+    {
+     "text": "The river through it is called the River of No Return. In the 1800s, freight boats could ride its rapids downstream but never come back up, so at the end of each trip the boatmen broke them up and sold the wood.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Along-the-npnht-lower-salmon-river-at-coopers-ferry-near-cottonwood-id-07212011-rogermpeterson-006 (6081074906).jpg",
+       "on_screen_text": "The lower Salmon River"
+      },
+      {
+       "type": "photo",
+       "at": "freight boats could ride",
+       "photo": "File:Middle Fork Salmon River.jpg",
+       "on_screen_text": "Rapids on the Middle Fork of the Salmon"
+      },
+      {
+       "type": "map",
+       "at": "so at the end",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.3,
+           "lat": 45.78,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 34,
+          "view": {
+           "lon": -116.3,
+           "lat": 45.78,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Salmon's canyon near White Bird"
+      }
+     ]
+    },
+    {
+     "text": "On the western edge, the Snake River runs through Hells Canyon, the deepest river gorge in North America, almost eight thousand feet from rim to river.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.732,
+           "lat": 45.776,
+           "span": 4.928
+          },
+          "places": [
+           {
+            "name": "Hells Canyon",
+            "lon": -116.7,
+            "lat": 45.28,
+            "kind": "site",
+            "label": "Hells Canyon"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "the deepest river gorge",
+       "photo": "File:Dug-bar-hells-canyon-07242011-rogermpeterson (6097008242).jpg",
+       "on_screen_text": "Hells Canyon of the Snake River"
+      },
+      {
+       "type": "stat",
+       "at": "almost eight thousand feet",
+       "stat": {
+        "value": "7,993 FT",
+        "label": "Hells Canyon, rim to river",
+        "source": "US Forest Service"
+       }
+      }
+     ]
+    },
+    {
+     "text": "So there is one road between north and south. US Highway 95 is mostly two lanes, and for about forty years it climbed over a single grade at White Bird Hill, a road of switchbacks that was the only link between the two halves of the state. The faster road over the hill opened only in 1975.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.656,
+           "lat": 45.411,
+           "span": 16.81
+          },
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -116.78,
+             47.68
+            ],
+            "via": [
+             [
+              -116.9,
+              47.05
+             ],
+             [
+              -117.0,
+              46.73
+             ],
+             [
+              -116.98,
+              46.4
+             ],
+             [
+              -116.3,
+              45.76
+             ],
+             [
+              -116.32,
+              45.42
+             ],
+             [
+              -116.29,
+              44.97
+             ],
+             [
+              -116.33,
+              44.3
+             ]
+            ],
+            "to": [
+             -116.2,
+             43.62
+            ],
+            "mode": "line",
+            "label": "US 95",
+            "color": "red",
+            "seconds": 3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "US Highway 95 is",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.32,
+           "lat": 45.55,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "US 95 in the Salmon River canyon"
+      },
+      {
+       "type": "photo",
+       "at": "over a single grade",
+       "photo": "File:White Bird Hill Grade, 1924 - White Bird, Idaho (50901386962).jpg",
+       "on_screen_text": "The White Bird grade, 1924"
+      },
+      {
+       "type": "map",
+       "at": "a road of switchbacks",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.3,
+           "lat": 45.78,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 39,
+          "view": {
+           "lon": -116.3,
+           "lat": 45.78,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "White Bird Hill"
+      },
+      {
+       "type": "stat",
+       "at": "The faster road over",
+       "stat": {
+        "value": "1975",
+        "label": "New US 95 grade over White Bird Hill opens",
+        "source": "Wikipedia; ITD"
+       }
+      }
+     ]
+    },
+    {
+     "text": "East to west it was no easier. The highway along the Lochsa River over Lolo Pass, close to the route Lewis and Clark took in 1805, was finished only in 1962.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.51,
+           "lat": 46.441,
+           "span": 4.052
+          },
+          "places": [
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           },
+           {
+            "name": "Lolo Pass",
+            "lon": -114.58,
+            "lat": 46.63,
+            "kind": "site",
+            "label": "Lolo Pass"
+           },
+           {
+            "name": "Missoula",
+            "lon": -114.0,
+            "lat": 46.87,
+            "kind": "city",
+            "label": "Missoula"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -117.02,
+             46.42
+            ],
+            "via": [
+             [
+              -116.25,
+              46.48
+             ],
+             [
+              -115.98,
+              46.15
+             ],
+             [
+              -115.6,
+              46.14
+             ],
+             [
+              -115.1,
+              46.45
+             ]
+            ],
+            "to": [
+             -114.58,
+             46.63
+            ],
+            "mode": "line",
+            "label": "US 12, finished 1962",
+            "color": "accent",
+            "seconds": 3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "along the Lochsa River",
+       "photo": "File:Lochsa River (6050298041).jpg",
+       "on_screen_text": "The Lochsa River"
+      },
+      {
+       "type": "photo",
+       "at": "close to the route",
+       "photo": "File:Fording Lochsa River, 1910 - Lewiston, Idaho (32873356827).jpg",
+       "on_screen_text": "Fording the Lochsa, 1910"
+      },
+      {
+       "type": "stat",
+       "at": "in 1805, was finished",
+       "stat": {
+        "value": "1962",
+        "label": "US 12 over Lolo Pass is finished",
+        "source": "Idaho State Historical Society"
+       }
+      }
+     ]
+    },
+    {
+     "text": "We asked a route planner for the drive from Sandpoint in the panhandle to Boise. The road through Idaho is about four hundred and twenty miles. The road that leaves Idaho, through Washington and Oregon, is seventy miles longer, and it takes about the same time.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sandpoint Idaho from Schweitzer.jpg",
+       "on_screen_text": "Sandpoint, in the panhandle"
+      },
+      {
+       "type": "map",
+       "at": "The road through Idaho",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -112.05,
+           "lat": 45.88,
+           "span": 20.52
+          },
+          "places": [
+           {
+            "name": "Sandpoint",
+            "lon": -116.55,
+            "lat": 48.28,
+            "kind": "city",
+            "label": "Sandpoint"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -116.55,
+             48.28
+            ],
+            "via": [
+             [
+              -116.78,
+              47.68
+             ],
+             [
+              -117.0,
+              46.73
+             ],
+             [
+              -116.98,
+              46.4
+             ],
+             [
+              -116.3,
+              45.76
+             ],
+             [
+              -116.32,
+              45.42
+             ]
+            ],
+            "to": [
+             -116.2,
+             43.62
+            ],
+            "mode": "line",
+            "label": "Through Idaho: 423 mi",
+            "color": "red",
+            "seconds": 3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The road that leaves",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -113.95,
+           "lat": 45.12,
+           "span": 22.04
+          },
+          "places": [
+           {
+            "name": "Sandpoint",
+            "lon": -116.55,
+            "lat": 48.28,
+            "kind": "city",
+            "label": "Sandpoint"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -116.55,
+             48.28
+            ],
+            "via": [
+             [
+              -117.43,
+              47.66
+             ],
+             [
+              -119.1,
+              46.23
+             ],
+             [
+              -118.79,
+              45.67
+             ],
+             [
+              -116.96,
+              44.03
+             ]
+            ],
+            "to": [
+             -116.2,
+             43.62
+            ],
+            "mode": "line",
+            "label": "Via Washington and Oregon: 496 mi",
+            "color": "blue",
+            "seconds": 3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and it takes about",
+       "stat": {
+        "value": "423 MI vs 496 MI",
+        "label": "Sandpoint to Boise, about 9 hours either way",
+        "source": "Own route test: OSRM / OpenStreetMap (geo/drive_osrm.txt)"
+       }
+      }
+     ]
+    },
+    {
+     "text": "That is why the north sets its clocks by Seattle. Spokane, just across the Washington line, is its big city. It shops there, flies from there and watches its television.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.45,
+           "lat": 47.96,
+           "span": 3.24
+          },
+          "places": [
+           {
+            "name": "Spokane",
+            "lon": -117.43,
+            "lat": 47.66,
+            "kind": "city",
+            "label": "Spokane"
+           },
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Spokane, just across the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.1,
+           "lat": 47.68,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Spokane to Coeur d'Alene along I-90"
+      },
+      {
+       "type": "photo",
+       "at": "It shops there, flies",
+       "photo": "File:City of Coeur d'Alene, from a rooftop, 2006.jpg",
+       "on_screen_text": "Coeur d'Alene"
+      }
+     ]
+    },
+    {
+     "text": "And when people could not get through the mountains, they could not farm them either, which brings us to the second reason: who owns the land.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lochsa River in Clearwater NF.jpg",
+       "on_screen_text": "Forest along the Lochsa"
+      },
+      {
+       "type": "map",
+       "at": "which brings us to",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.046,
+           "lat": 46.454,
+           "span": 19.291
+          },
+          "highlight": [
+           "file:forests.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Land Is Not for Sale",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason two. Most of Idaho does not belong to anyone who could live on it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.762,
+           "lat": 46.437,
+           "span": 19.418
+          },
+          "highlight": [
+           "file:forests.geojson@red",
+           "file:wilderness.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "About sixty-two per cent of the state is federal land, mostly national forest. Only Nevada and Utah have a larger share. In the north the forests run almost unbroken from the Canadian border to the Salmon River. Its two national forests, the Idaho Panhandle and the Nez Perce-Clearwater, cover about seven million acres between them.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "62 %",
+        "label": "Of Idaho is federal land (CRS)",
+        "source": "Congressional Research Service via Ballotpedia"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Only Nevada and Utah",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -106.622,
+           "lat": 43.302,
+           "span": 41.962
+          },
+          "highlight": [
+           "file:idaho.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In the north the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.8,
+           "lat": 46.5,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 29,
+          "view": {
+           "lon": -115.8,
+           "lat": 46.5,
+           "span": 0.186
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Forest near Pierce"
+      },
+      {
+       "type": "map",
+       "at": "Its two national forests",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.689,
+           "lat": 46.913,
+           "span": 15.882
+          },
+          "highlight": [
+           "file:forests.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "cover about seven million",
+       "stat": {
+        "value": "7 MILLION ACRES",
+        "label": "Idaho Panhandle + Nez Perce-Clearwater national forests",
+        "source": "US Forest Service"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Those forests were set aside for timber and water, not for towns. And in the summer of 1910 they showed what else they could do.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lochsa River (6050308577).jpg",
+       "on_screen_text": "National forest along the Lochsa"
+      },
+      {
+       "type": "photo",
+       "at": "And in the summer",
+       "photo": "File:Aftermath of the 1910 Fires (4929726023).jpg",
+       "on_screen_text": "The forest after 1910"
+      }
+     ]
+    },
+    {
+     "text": "It had been a dry year. By August hundreds of small fires were burning across northern Idaho and western Montana. Then, on the twentieth of August, a hurricane-force wind came from the southwest.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.15,
+           "lat": 46.04,
+           "span": 15.08
+          },
+          "highlight": [
+           "file:fire1910.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Wallace",
+            "lon": -115.93,
+            "lat": 47.47,
+            "kind": "city",
+            "label": "Wallace"
+           },
+           {
+            "name": "Missoula",
+            "lon": -114.0,
+            "lat": 46.87,
+            "kind": "city",
+            "label": "Missoula"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "By August hundreds of",
+       "photo": "File:Aftermath of the 1910 Fires (4929731503).jpg",
+       "on_screen_text": "Burned slopes, 1910"
+      },
+      {
+       "type": "map",
+       "at": "Then, on the twentieth",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.31,
+           "lat": 47.072,
+           "span": 7.529
+          },
+          "highlight": [
+           "file:fire1910.geojson@red"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -118.2,
+             46.3
+            ],
+            "to": [
+             -115.6,
+             47.3
+            ],
+            "color": "red",
+            "label": "Wind, 20 August",
+            "bend": 0.05
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "a hurricane-force wind came",
+       "stat": {
+        "value": "20 AUGUST 1910",
+        "label": "The wind that joined the fires",
+        "source": "Wikipedia; PBS"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In two days the fires joined into one. They burned about three million acres, nearly as big as Connecticut. About eighty-five people died, most of them firefighters. A third of the mining town of Wallace burned.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aftermath of the 1910 Fires (4929732171).jpg",
+       "on_screen_text": "The 1910 burn"
+      },
+      {
+       "type": "stat",
+       "at": "They burned about three",
+       "stat": {
+        "value": "3 MILLION ACRES",
+        "label": "Burned in two days, Idaho and Montana",
+        "source": "Wikipedia; NWCG"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "About eighty-five people died",
+       "stat": {
+        "value": "~85 DEAD",
+        "label": "Most of them firefighters",
+        "source": "Wikipedia; HistoryLink"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "A third of the",
+       "photo": "File:Aftermath of the 1910 Fires (4929735451).jpg",
+       "on_screen_text": "After the 1910 fires"
+      }
+     ]
+    },
+    {
+     "text": "That night the mayor of Wallace ordered the women and children out. Trains carried them west to Spokane and east to Missoula, and soldiers pulled men off the cars to keep them on the fire line.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.715,
+           "lat": 47.212,
+           "span": 4.602
+          },
+          "places": [
+           {
+            "name": "Wallace",
+            "lon": -115.93,
+            "lat": 47.47,
+            "kind": "city",
+            "label": "Wallace"
+           },
+           {
+            "name": "Spokane",
+            "lon": -117.43,
+            "lat": 47.66,
+            "kind": "city",
+            "label": "Spokane"
+           },
+           {
+            "name": "Missoula",
+            "lon": -114.0,
+            "lat": 46.87,
+            "kind": "city",
+            "label": "Missoula"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -115.93,
+             47.47
+            ],
+            "to": [
+             -117.43,
+             47.66
+            ],
+            "color": "blue",
+            "label": "To Spokane",
+            "bend": 0.1
+           },
+           {
+            "from": [
+             -115.93,
+             47.47
+            ],
+            "to": [
+             -114.0,
+             46.87
+            ],
+            "color": "blue",
+            "label": "To Missoula",
+            "bend": -0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Trains carried them west",
+       "photo": "File:Aftermath of the 1910 Fires (4929753575).jpg",
+       "on_screen_text": "The rail line through the burn, 1910"
+      },
+      {
+       "type": "photo",
+       "at": "and soldiers pulled men",
+       "photo": "File:Aftermath of the 1910 Fires (4929751287).jpg",
+       "on_screen_text": "Burned forest above the rail line, 1910"
+      }
+     ]
+    },
+    {
+     "text": "A forest ranger called Ed Pulaski was caught in the fire with a crew of about forty-five men. He led them into an old mine tunnel, held them there at gunpoint when they panicked, and hung wet blankets across the entrance. All but five or six of them survived.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aftermath of the 1910 Fires (4929769257).jpg",
+       "on_screen_text": "The 1910 burn"
+      },
+      {
+       "type": "stat",
+       "at": "with a crew of",
+       "stat": {
+        "value": "45 MEN",
+        "label": "Ed Pulaski's crew, 20 August 1910",
+        "source": "Wikipedia; PBS"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "He led them into",
+       "photo": "File:Aftermath of the 1910 Fires (4929757963).jpg",
+       "on_screen_text": "The burned forest near Wallace, 1910"
+      },
+      {
+       "type": "photo",
+       "at": "and hung wet blankets",
+       "photo": "File:Aftermath of the 1910 Fires (4929810323).jpg",
+       "on_screen_text": "After the 1910 fires"
+      },
+      {
+       "type": "stat",
+       "at": "All but five or",
+       "stat": {
+        "value": "~40 OF 45",
+        "label": "Pulaski's crew who came out alive",
+        "source": "Wikipedia; PBS"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The Big Burn made the young Forest Service what it became. From then on its job was to stop every fire, and by 1935 the rule was to have each one out by ten o'clock the next morning. The tool Pulaski designed after the fire, half axe and half hoe, is still carried by wildland firefighters today.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aftermath of the 1910 Fires (4929824539).jpg",
+       "on_screen_text": "The burned forest, 1910"
+      },
+      {
+       "type": "photo",
+       "at": "From then on its",
+       "photo": "File:Aftermath of the 1910 Fires (4929791753).jpg",
+       "on_screen_text": "Burned slopes, 1910"
+      },
+      {
+       "type": "stat",
+       "at": "and by 1935 the",
+       "stat": {
+        "value": "10 AM",
+        "label": "From 1935: every fire out by 10 the next morning",
+        "source": "US Forest Service history"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The tool Pulaski designed",
+       "photo": "File:Fire tools- pulaski.jpg",
+       "on_screen_text": "Pulaski tools, still in use"
+      },
+      {
+       "type": "stat",
+       "at": "is still carried by",
+       "stat": {
+        "value": "AXE + HOE",
+        "label": "The Pulaski tool, designed after the fire",
+        "source": "US Forest Service"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The land stayed with the government, and the government kept it as forest. But to understand why the north feels it has never had a say, we have to go back to the people who drew its borders.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aftermath of the 1910 Fires (4930314546).jpg",
+       "on_screen_text": "Forest after the 1910 fires"
+      },
+      {
+       "type": "photo",
+       "at": "But to understand why",
+       "photo": "File:Aftermath of the 1910 Fires (4929795871).jpg",
+       "on_screen_text": "The burned hills, 1910"
+      },
+      {
+       "type": "map",
+       "at": "we have to go",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -111.686,
+           "lat": 44.592,
+           "span": 32.773
+          },
+          "highlight": [
+           "file:territory1863.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Territory Run from Far Away",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason three. Northern Idaho was settled first, and then it lost the state.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -102.0,
+           "lat": 42.8,
+           "span": 43.2
+          },
+          "highlight": [
+           "file:territory1863.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "In 1860 a prospector called Elias Pierce found gold on the Clearwater River. Within a year thousands of miners had arrived, and a tent town grew where the Clearwater meets the Snake. They called it Lewiston.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.74,
+           "lat": 46.464,
+           "span": 3.456
+          },
+          "places": [
+           {
+            "name": "Pierce",
+            "lon": -115.8,
+            "lat": 46.49,
+            "kind": "site",
+            "label": "Pierce"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Within a year thousands",
+       "photo": "File:Clearwater River in Ahsahka, Idaho.jpg",
+       "on_screen_text": "The Clearwater River"
+      },
+      {
+       "type": "map",
+       "at": "and a tent town",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.02,
+           "lat": 46.42,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 28,
+          "view": {
+           "lon": -117.02,
+           "lat": 46.42,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lewiston, where the Clearwater meets the Snake"
+      }
+     ]
+    },
+    {
+     "text": "The gold was on Nez Perce land. In 1863 the United States made the Nez Perce sign a new treaty that cut their reservation by about ninety per cent. Many bands never signed it, and the anger it left led to the Nez Perce War of 1877.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.169,
+           "lat": 46.153,
+           "span": 3.712
+          },
+          "places": [
+           {
+            "name": "Fort Lapwai",
+            "lon": -116.8,
+            "lat": 46.4,
+            "kind": "site",
+            "label": "Fort Lapwai"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           },
+           {
+            "name": "White Bird Canyon",
+            "lon": -116.27,
+            "lat": 45.8,
+            "kind": "site",
+            "label": "White Bird Canyon, 1877",
+            "icon": "conflict"
+           }
+          ]
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -116.06,
+           "lat": 46.336,
+           "span": 3.155
+          }
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "cut their reservation by",
+       "stat": {
+        "value": "-90 %",
+        "label": "Nez Perce reservation under the 1863 treaty",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and the anger it",
+       "photo": "File:Along-the-npnht-lower-salmon-river-at-coopers-ferry-near-cottonwood-id-07212011-rogermpeterson-006 (6081074906).jpg",
+       "on_screen_text": "Nez Perce country on the lower Salmon"
+      }
+     ]
+    },
+    {
+     "text": "In June 1877, at White Bird Canyon, below the hill that US 95 climbs today, Nez Perce warriors routed a column of US cavalry. It was the first battle of the war. The bands that refused the treaty then fled east over the Lolo Trail, about eleven hundred and seventy miles through four states in a hundred and twenty-six days. They were caught in Montana in October, about forty miles short of Canada, and Chief Joseph surrendered.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.3,
+           "lat": 45.78,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 7,
+          "view": {
+           "lon": -116.3,
+           "lat": 45.78,
+           "span": 0.093
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "White Bird Canyon"
+      },
+      {
+       "type": "stat",
+       "at": "Nez Perce warriors routed",
+       "stat": {
+        "value": "17 JUNE 1877",
+        "label": "Battle of White Bird Canyon",
+        "source": "US Army"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It was the first",
+       "photo": "File:Lochsa River (6050852672).jpg",
+       "on_screen_text": "The Lochsa, on the Nez Perce route east"
+      },
+      {
+       "type": "map",
+       "at": "The bands that refused",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -112.43,
+           "lat": 45.29,
+           "span": 22.943
+          },
+          "places": [
+           {
+            "name": "White Bird Canyon",
+            "lon": -116.27,
+            "lat": 45.8,
+            "kind": "site",
+            "label": "White Bird Canyon, 1877",
+            "icon": "conflict"
+           },
+           {
+            "name": "Bear Paw",
+            "lon": -109.2,
+            "lat": 48.37,
+            "kind": "site",
+            "label": "Bear Paw, Oct 1877",
+            "icon": "conflict"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -116.27,
+             45.8
+            ],
+            "via": [
+             [
+              -114.58,
+              46.63
+             ],
+             [
+              -113.64,
+              45.65
+             ],
+             [
+              -110.5,
+              44.6
+             ],
+             [
+              -109.3,
+              46.5
+             ]
+            ],
+            "to": [
+             -109.2,
+             48.37
+            ],
+            "mode": "line",
+            "label": "1,170 miles, 1877",
+            "color": "red",
+            "seconds": 3.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about eleven hundred and",
+       "stat": {
+        "value": "1,170 MILES",
+        "label": "126 days through four states",
+        "source": "National Park Service"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "They were caught in",
+       "photo": "File:Fording Lochsa River, 1910 - Lewiston, Idaho (32873356827).jpg",
+       "on_screen_text": "The Lochsa country they crossed"
+      },
+      {
+       "type": "photo",
+       "at": "and Chief Joseph surrendered",
+       "photo": "File:Chief Joseph, Nez Perce - NARA - 523606.jpg",
+       "on_screen_text": "Chief Joseph"
+      }
+     ]
+    },
+    {
+     "text": "The same year, Congress created Idaho Territory, and Lewiston became its first capital. But the miners had already moved on, south to the Boise Basin, where richer gold had been found. By 1864 most of the territory's voters lived in the south.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.932,
+           "lat": 44.592,
+           "span": 32.773
+          },
+          "highlight": [
+           "file:territory1863.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and Lewiston became its",
+       "photo": "File:Confluence of Clearwater and Snake rivers - Lewiston, Idaho (21116852016).jpg",
+       "on_screen_text": "Lewiston, at the confluence"
+      },
+      {
+       "type": "map",
+       "at": "But the miners had",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.342,
+           "lat": 45.056,
+           "span": 10.664
+          },
+          "places": [
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           },
+           {
+            "name": "Boise Basin",
+            "lon": -115.83,
+            "lat": 43.83,
+            "kind": "site",
+            "label": "Boise Basin gold"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -117.02,
+             46.42
+            ],
+            "to": [
+             -115.83,
+             43.83
+            ],
+            "color": "accent",
+            "label": "Miners move south",
+            "bend": -0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "south to the Boise",
+       "stat": {
+        "value": "BOISE BASIN",
+        "label": "Richer gold draws the miners south",
+        "source": "Idaho State Historical Society"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "By 1864 most of",
+       "stat": {
+        "value": "1864",
+        "label": "Most of the territory's voters now live in the south",
+        "source": "Idaho State Historical Society"
+       }
+      }
+     ]
+    },
+    {
+     "text": "In December 1864 the legislature voted to move the capital to Boise. Lewiston refused. So in 1865 the acting governor came back with soldiers from Fort Lapwai and took the territorial seal and the archives south. The territory's supreme court settled it for Boise in 1866.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "DEC 1864",
+        "label": "Legislature votes to move the capital to Boise",
+        "source": "Idaho State Historical Society"
+       }
+      },
+      {
+       "type": "map",
+       "at": "So in 1865 the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.022,
+           "lat": 44.88,
+           "span": 11.776
+          },
+          "places": [
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           },
+           {
+            "name": "Fort Lapwai",
+            "lon": -116.8,
+            "lat": 46.4,
+            "kind": "site",
+            "label": "Fort Lapwai"
+           }
+          ],
+          "arrows": [
+           {
+            "from": [
+             -117.02,
+             46.42
+            ],
+            "to": [
+             -116.2,
+             43.62
+            ],
+            "color": "red",
+            "label": "The capital moves, 1865",
+            "bend": 0.15
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "took the territorial seal",
+       "stat": {
+        "value": "SEAL + ARCHIVES",
+        "label": "Taken from Lewiston to Boise, 1865",
+        "source": "Idaho State Historical Society"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The territory's supreme court",
+       "stat": {
+        "value": "1866",
+        "label": "Court settles the capital in Boise",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Then the shape. In 1864 Congress cut Montana Territory out of Idaho. Montana's border was drawn along the crest of the Bitterroot Mountains, and in the north Idaho was left with only a narrow strip of land.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.627,
+           "lat": 44.592,
+           "span": 32.773
+          },
+          "highlight": [
+           "file:territory1863.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1864 Congress cut",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -111.161,
+           "lat": 45.126,
+           "span": 28.993
+          },
+          "highlight": [
+           "file:idaho.geojson@alt",
+           "file:montana.geojson@alt"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Montana's border was drawn",
+       "photo": "File:Beautiful Skies over Frank Church Wilderness.jpg",
+       "on_screen_text": "Mountain country of central Idaho"
+      },
+      {
+       "type": "map",
+       "at": "and in the north",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -110.551,
+           "lat": 46.424,
+           "span": 19.516
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:montana.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "br",
+            "lon": -114.7,
+            "lat": 46.1,
+            "kind": "label",
+            "label": "Bitterroot Range"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "The north never liked being run from Boise, nearly three hundred miles away over the mountains. In 1887 Congress actually passed a bill to give the panhandle to Washington Territory. Idaho's governor sent a telegram to President Grover Cleveland, and Cleveland let the bill die without signing it.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.828,
+           "lat": 46.825,
+           "span": 16.539
+          },
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Moscow",
+            "lon": -117.0,
+            "lat": 46.73,
+            "kind": "city",
+            "label": "Moscow"
+           }
+          ],
+          "highlight": [
+           "file:north.geojson@red"
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "In 1887 Congress actually",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -119.356,
+           "lat": 46.825,
+           "span": 16.539
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:washington.geojson@blue"
+          ],
+          "arrows": [
+           {
+            "from": [
+             -116.5,
+             47.6
+            ],
+            "to": [
+             -118.6,
+             47.4
+            ],
+            "color": "blue",
+            "label": "1887: to Washington?",
+            "bend": 0.1
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Idaho's governor sent a",
+       "photo": "File:Grover Cleveland, bust portrait, seated, facing right LCCN2014648289.jpg",
+       "on_screen_text": "President Grover Cleveland"
+      },
+      {
+       "type": "stat",
+       "at": "and Cleveland let the",
+       "stat": {
+        "value": "1887",
+        "label": "The bill to give the panhandle to Washington dies",
+        "source": "Wikipedia; Spokesman-Review"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The territory still had to win the north back. In January 1889 its governor signed the bill that founded the University of Idaho, and the university was put in Moscow, in the north. It helped stop the push to join Washington, and it is still there.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.804,
+           "lat": 46.272,
+           "span": 3.968
+          },
+          "places": [
+           {
+            "name": "Moscow",
+            "lon": -117.0,
+            "lat": 46.73,
+            "kind": "city",
+            "label": "Moscow"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In January 1889 its",
+       "photo": "File:University of Idaho, 1908 - Moscow, Idaho (15454115069).jpg",
+       "on_screen_text": "University of Idaho, 1908"
+      },
+      {
+       "type": "stat",
+       "at": "and the university was",
+       "stat": {
+        "value": "1889",
+        "label": "University of Idaho founded in Moscow",
+        "source": "University of Idaho"
+       }
+      },
+      {
+       "type": "map",
+       "at": "It helped stop the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.0,
+           "lat": 46.73,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Moscow"
+      }
+     ]
+    },
+    {
+     "text": "Three years later, in 1890, Idaho became a state with the panhandle still attached. Should the north have gone to Washington? People in North Idaho still argue about it. What they did have was something the south did not: silver.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.972,
+           "lat": 45.126,
+           "span": 28.993
+          },
+          "highlight": [
+           "file:idaho.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           },
+           {
+            "name": "Olympia",
+            "lon": -122.9,
+            "lat": 47.04,
+            "kind": "capital",
+            "label": "Olympia"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "in 1890, Idaho became",
+       "stat": {
+        "value": "1890",
+        "label": "Idaho becomes a state",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Should the north have",
+       "photo": "File:Sandpoint Idaho from Schweitzer.jpg",
+       "on_screen_text": "Sandpoint and Lake Pend Oreille"
+      },
+      {
+       "type": "photo",
+       "at": "People in North Idaho",
+       "photo": "File:Broten, Idaho, US.jpg",
+       "on_screen_text": "Lake Pend Oreille"
+      },
+      {
+       "type": "photo",
+       "at": "What they did have",
+       "photo": "File:Miner's Hat Realty, Kellogg, Idaho LCCN2017709172.tif",
+       "on_screen_text": "Kellogg, a mining town"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Silver, Dynamite and Lead",
+   "mood": "tension",
+   "paragraphs": [
+    {
+     "text": "Reason four. The one place in the north that drew thousands of people also did the most damage.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.87,
+           "lat": 47.427,
+           "span": 4.864
+          },
+          "highlight": [
+           "file:shoshone.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Kellogg",
+            "lon": -116.12,
+            "lat": 47.54,
+            "kind": "city",
+            "label": "Kellogg"
+           },
+           {
+            "name": "Wallace",
+            "lon": -115.93,
+            "lat": 47.47,
+            "kind": "city",
+            "label": "Wallace"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "also did the most",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.0,
+           "lat": 47.52,
+           "span": 0.4
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Silver Valley"
+      }
+     ]
+    },
+    {
+     "text": "In the 1880s prospectors found silver, lead and zinc along the South Fork of the Coeur d'Alene River. The narrow canyon there became the Silver Valley, with Wallace, Kellogg and Mullan strung along the river.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Drone view from Kellogg, Idaho.jpg",
+       "on_screen_text": "The Silver Valley from above Kellogg"
+      },
+      {
+       "type": "map",
+       "at": "along the South Fork",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.05,
+           "lat": 47.5,
+           "span": 0.2
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The South Fork of the Coeur d'Alene"
+      },
+      {
+       "type": "map",
+       "at": "The narrow canyon there",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.23,
+           "lat": 47.448,
+           "span": 3.016
+          },
+          "places": [
+           {
+            "name": "Wallace",
+            "lon": -115.93,
+            "lat": 47.47,
+            "kind": "city",
+            "label": "Wallace"
+           },
+           {
+            "name": "Kellogg",
+            "lon": -116.12,
+            "lat": 47.54,
+            "kind": "city",
+            "label": "Kellogg"
+           },
+           {
+            "name": "Mullan",
+            "lon": -115.8,
+            "lat": 47.47,
+            "kind": "site",
+            "label": "Mullan"
+           },
+           {
+            "name": "Wardner",
+            "lon": -116.13,
+            "lat": 47.52,
+            "kind": "site",
+            "label": "Wardner",
+            "icon": "conflict"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "with Wallace, Kellogg and",
+       "photo": "File:Commercial building, Wallace, Idaho LCCN2017707015.tif",
+       "on_screen_text": "Wallace"
+      }
+     ]
+    },
+    {
+     "text": "Wallace is so tight in its canyon that Interstate 90 once ran down its main street. Until 1991 it had the last traffic light on the whole interstate between Seattle and Boston. When the freeway was finally lifted over the town on a viaduct, the people of Wallace held a funeral for the light.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.92,
+           "lat": 47.475,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-09-15"
+         },
+         {
+          "at": 8,
+          "view": {
+           "lon": -115.92,
+           "lat": 47.475,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wallace and the I-90 viaduct"
+      },
+      {
+       "type": "photo",
+       "at": "Until 1991 it had",
+       "photo": "File:Holohan & McKinley Bldg, Wallace, Idaho.jpg",
+       "on_screen_text": "Wallace's main street"
+      },
+      {
+       "type": "stat",
+       "at": "When the freeway was",
+       "stat": {
+        "value": "1991",
+        "label": "The last traffic light on I-90 is removed",
+        "source": "Idaho Transportation Department"
+       }
+      },
+      {
+       "type": "map",
+       "at": "held a funeral for",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.93,
+           "lat": 47.47,
+           "span": 0.1
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wallace in its canyon"
+      }
+     ]
+    },
+    {
+     "text": "Since 1884 the district has produced more than a billion ounces of silver. It is one of the richest silver districts ever found on Earth.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1 BILLION+ OZ",
+        "label": "Silver from the Coeur d'Alene district since 1884",
+        "source": "Idaho State University; Mining.com"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It is one of",
+       "photo": "File:Freibergite (GeoDIL number - 1257).jpg",
+       "on_screen_text": "Freibergite, a silver ore"
+      }
+     ]
+    },
+    {
+     "text": "The money did not reach the men underground. In 1892 and again in 1899 the miners' union fought the mine owners. On the twenty-ninth of April 1899, union men seized a train, loaded it with about three thousand pounds of dynamite, and blew up the Bunker Hill company's mill at Wardner.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Idaho - Kellogg through Ketchum - NARA - 23939441 (cropped).jpg",
+       "on_screen_text": "Mines and mills of the Silver Valley"
+      },
+      {
+       "type": "stat",
+       "at": "In 1892 and again",
+       "stat": {
+        "value": "1892 + 1899",
+        "label": "Mine wars in the Coeur d'Alene district",
+        "source": "Wikipedia; ISHS"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "On the twenty-ninth of",
+       "photo": "File:BUNKER HILL LEAD SMELTER. VIEW IS FROM CIA TO THE SOUTH. IN FOREGROUND, PLANT DRY, SLAG FUMING PLANT, BLAST FURNACE, SMELTER OFFICE, LEAD AND SILVER REFINERIES ARE VISIBLE, L. TO R HAER ID,40-KELL,2-2.tif",
+       "on_screen_text": "The Bunker Hill works at Kellogg"
+      },
+      {
+       "type": "stat",
+       "at": "loaded it with about",
+       "stat": {
+        "value": "3,000 LB",
+        "label": "Of dynamite, 29 April 1899",
+        "source": "Wikipedia; ISHS"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and blew up the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.13,
+           "lat": 47.52,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Wardner today"
+      }
+     ]
+    },
+    {
+     "text": "Governor Frank Steunenberg declared martial law. Federal troops came, and hundreds of miners were held for months in open-air pens called the bullpen.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Frank Steunenberg statue.jpg",
+       "on_screen_text": "Frank Steunenberg's statue in Boise"
+      },
+      {
+       "type": "stat",
+       "at": "Federal troops came, and",
+       "stat": {
+        "value": "MARTIAL LAW",
+        "label": "Shoshone County, May 1899",
+        "source": "Wikipedia; ISHS"
+       }
+      },
+      {
+       "type": "map",
+       "at": "in open-air pens called",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.022,
+           "lat": 47.396,
+           "span": 3.224
+          },
+          "places": [
+           {
+            "name": "Wardner",
+            "lon": -116.13,
+            "lat": 47.52,
+            "kind": "site",
+            "label": "Wardner",
+            "icon": "conflict"
+           },
+           {
+            "name": "Kellogg",
+            "lon": -116.12,
+            "lat": 47.54,
+            "kind": "city",
+            "label": "Kellogg"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Six years later, on the thirtieth of December 1905, Steunenberg opened the gate of his house in Caldwell and a bomb killed him. The man who planted it, Harry Orchard, said union leaders had paid him. The union's leader Big Bill Haywood was tried for the murder in 1907, in one of the most famous trials in American labour history, and acquitted.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -114.312,
+           "lat": 45.361,
+           "span": 15.964
+          },
+          "places": [
+           {
+            "name": "Caldwell",
+            "lon": -116.69,
+            "lat": 43.66,
+            "kind": "site",
+            "label": "Caldwell",
+            "icon": "conflict"
+           },
+           {
+            "name": "Wardner",
+            "lon": -116.13,
+            "lat": 47.52,
+            "kind": "site",
+            "label": "Wardner",
+            "icon": "conflict"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "on the thirtieth of",
+       "stat": {
+        "value": "30 DEC 1905",
+        "label": "Ex-governor Steunenberg killed by a bomb",
+        "source": "Wikipedia; Idaho PTV"
+       }
+      },
+      {
+       "type": "map",
+       "at": "opened the gate of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.69,
+           "lat": 43.66,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Caldwell"
+      },
+      {
+       "type": "stat",
+       "at": "The man who planted",
+       "stat": {
+        "value": "HARRY ORCHARD",
+        "label": "Said union leaders had paid him",
+        "source": "Wikipedia"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The union's leader Big",
+       "photo": "File:HAYWOOD, WILLIAM. 'BIG BILL,' LABOR AGITATOR LCCN2016866412.jpg",
+       "on_screen_text": "Big Bill Haywood"
+      },
+      {
+       "type": "stat",
+       "at": "in one of the",
+       "stat": {
+        "value": "ACQUITTED, 1907",
+        "label": "Haywood's murder trial in Boise",
+        "source": "Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The mines kept going. On the second of May 1972, a fire broke out deep inside the Sunshine Mine near Kellogg. One hundred and seventy-three men were underground. Smoke and carbon monoxide filled the tunnels, and ninety-one of them died. The cause was never found. It led to the federal mine safety law of 1977.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.07,
+           "lat": 47.5,
+           "span": 0.1
+          },
+          "date": "2024-07-01/2024-09-15"
+         },
+         {
+          "at": 10,
+          "view": {
+           "lon": -116.07,
+           "lat": 47.5,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Big Creek, site of the Sunshine Mine"
+      },
+      {
+       "type": "stat",
+       "at": "One hundred and seventy-three",
+       "stat": {
+        "value": "173",
+        "label": "Men underground, 2 May 1972",
+        "source": "MSHA"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Smoke and carbon monoxide",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.178,
+           "lat": 47.604,
+           "span": 2.912
+          },
+          "places": [
+           {
+            "name": "Sunshine Mine",
+            "lon": -116.07,
+            "lat": 47.5,
+            "kind": "site",
+            "label": "Sunshine Mine",
+            "icon": "conflict"
+           },
+           {
+            "name": "Kellogg",
+            "lon": -116.12,
+            "lat": 47.54,
+            "kind": "city",
+            "label": "Kellogg"
+           },
+           {
+            "name": "Wallace",
+            "lon": -115.93,
+            "lat": 47.47,
+            "kind": "city",
+            "label": "Wallace"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "and ninety-one of them",
+       "stat": {
+        "value": "91 MINERS",
+        "label": "Died in the Sunshine Mine fire",
+        "source": "MSHA"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "It led to the",
+       "stat": {
+        "value": "1977",
+        "label": "Federal Mine Safety and Health Act",
+        "source": "MSHA"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The worst damage came from above the ground. In Kellogg the Bunker Hill smelter melted lead ore. In September 1973 a fire damaged the baghouse, the great filter that caught the smoke. The company kept the smelter running without it.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:BUNKER HILL LEAD SMELTER. VIEW IS FROM RIDGE ABOVE GOVERNMENT GULCH LOOKING TO THE EAST. IN THE RIGHT MID GROUND, CARPENTER SHOP BUILDINGS AND FRAMING SHEDS ARE VISIBLE. THE HAER ID,40-KELL,2-4.tif",
+       "on_screen_text": "The Bunker Hill smelter"
+      },
+      {
+       "type": "stat",
+       "at": "In September 1973 a",
+       "stat": {
+        "value": "SEPT 1973",
+        "label": "Baghouse fire; the smelter keeps running",
+        "source": "EPA"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "The company kept the",
+       "photo": "File:PELLETIZING PLANT SECTION OF ORE PREPARATION PLANT. VIEW IS FROM WITHIN SMELTER COMPLEX LOOKING TO THE SOUTH. - Bunker Hill Lead Smelter, Bradley Rail Siding, Kellogg, Shoshone HAER ID,40-KELL,2-5.tif",
+       "on_screen_text": "Inside the smelter complex"
+      }
+     ]
+    },
+    {
+     "text": "Lead dust settled over the town. When the children of Kellogg were tested, their blood lead levels were some of the highest ever measured in the United States.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.15,
+           "lat": 47.54,
+           "span": 0.08
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kellogg and the smelter site"
+      },
+      {
+       "type": "stat",
+       "at": "their blood lead levels",
+       "stat": {
+        "value": "HIGHEST EVER",
+        "label": "Children's blood lead in Kellogg, 1974",
+        "source": "EPA"
+       }
+      }
+     ]
+    },
+    {
+     "text": "The smelter closed in 1981. Two years later the valley became one of the country's first Superfund sites. Crews have since replaced the soil or laid clean barriers over more than seven thousand homes and businesses.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Lincoln School, Cameron Avenue, Kellogg, Idaho LCCN2017706076.tif",
+       "on_screen_text": "A school in Kellogg"
+      },
+      {
+       "type": "stat",
+       "at": "Two years later the",
+       "stat": {
+        "value": "SUPERFUND 1983",
+        "label": "The Bunker Hill site is listed",
+        "source": "EPA"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Crews have since replaced",
+       "stat": {
+        "value": "7,000+",
+        "label": "Homes and businesses given clean soil or barriers",
+        "source": "EPA"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "laid clean barriers over",
+       "photo": "File:Masonic Temple, Main Street, Kellogg, Idaho LCCN2017706247.tif",
+       "on_screen_text": "Kellogg today"
+      }
+     ]
+    },
+    {
+     "text": "And the waste did not stay in the valley. Until 1968 most of the mines' tailings went straight into the river. About seventy-five million metric tons of sediment rich in lead and other metals now lie on the bed of Lake Coeur d'Alene, downstream.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.918,
+           "lat": 47.5,
+           "span": 3.12
+          },
+          "places": [
+           {
+            "name": "Kellogg",
+            "lon": -116.12,
+            "lat": 47.54,
+            "kind": "city",
+            "label": "Kellogg"
+           },
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -116.05,
+             47.52
+            ],
+            "via": [
+             [
+              -116.35,
+              47.55
+             ],
+             [
+              -116.62,
+              47.47
+             ]
+            ],
+            "to": [
+             -116.78,
+             47.45
+            ],
+            "mode": "line",
+            "label": "Mine waste down the river",
+            "color": "red",
+            "seconds": 2.5
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "Until 1968 most of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.8,
+           "lat": 47.45,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Where the Coeur d'Alene River enters the lake"
+      },
+      {
+       "type": "stat",
+       "at": "About seventy-five million metric",
+       "stat": {
+        "value": "75 MILLION TONS",
+        "label": "Metal-rich sediment on the bed of Lake Coeur d'Alene",
+        "source": "USGS 1993"
+       }
+      },
+      {
+       "type": "map",
+       "at": "now lie on the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.8,
+           "lat": 47.56,
+           "span": 0.3
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Coeur d'Alene"
+      }
+     ]
+    },
+    {
+     "text": "In 1970 Kellogg had about thirty-eight hundred people. In 2020 it had about twenty-three hundred. And the Silver Valley was not the only industry up here that collapsed.",
+     "shots": [
+      {
+       "type": "chart",
+       "at": 0,
+       "chart": {
+        "type": "bar",
+        "title": "Kellogg, people",
+        "unit": "",
+        "data": [
+         [
+          "1970",
+          3811
+         ],
+         [
+          "2020",
+          2314
+         ]
+        ],
+        "source": "US Census",
+        "highlight": 1
+       }
+      },
+      {
+       "type": "photo",
+       "at": "And the Silver Valley",
+       "photo": "File:Miner's Hat Realty, Kellogg, Idaho LCCN2017709172.tif",
+       "on_screen_text": "Kellogg"
+      }
+     ]
+    },
+    {
+     "text": "Kellogg has tried to turn itself around. In 1990 it opened a ski area, Silver Mountain, with a gondola that climbs three point one miles from the edge of town, the longest single-stage gondola in North America.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Drone view from Kellogg, Idaho.jpg",
+       "on_screen_text": "Kellogg and the slopes of Silver Mountain"
+      },
+      {
+       "type": "stat",
+       "at": "with a gondola that",
+       "stat": {
+        "value": "3.1 MILES",
+        "label": "Silver Mountain gondola, opened 1990",
+        "source": "Silver Mountain Resort"
+       }
+      },
+      {
+       "type": "map",
+       "at": "the longest single-stage gondola",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.13,
+           "lat": 47.54,
+           "span": 0.12
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Kellogg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "When the Mills Closed",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "Reason five. The forests that covered the north paid its wages for a century, and then they stopped.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.09,
+           "lat": 46.711,
+           "span": 4.478
+          },
+          "places": [
+           {
+            "name": "Potlatch",
+            "lon": -116.9,
+            "lat": 46.92,
+            "kind": "site",
+            "label": "Potlatch",
+            "icon": "factory"
+           },
+           {
+            "name": "Orofino",
+            "lon": -116.25,
+            "lat": 46.48,
+            "kind": "site",
+            "label": "Orofino"
+           },
+           {
+            "name": "Pierce",
+            "lon": -115.8,
+            "lat": 46.49,
+            "kind": "site",
+            "label": "Pierce"
+           },
+           {
+            "name": "St. Maries",
+            "lon": -116.56,
+            "lat": 47.31,
+            "kind": "site",
+            "label": "St. Maries"
+           }
+          ]
+         },
+         {
+          "at": 9,
+          "view": {
+           "lon": -115.996,
+           "lat": 46.528,
+           "span": 3.046
+          }
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Logging came with the railways. In 1906 the Potlatch Lumber Company built a whole town of its own on the edge of the Palouse, and next to it the largest white pine sawmill in the world.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:The Largest Log Train on Washington, Idaho & Montana Railway, Potlatch Lumber Company, 1907 - Potlatch, Idaho (18600423811).jpg",
+       "on_screen_text": "A log train of the Potlatch Lumber Company, 1907"
+      },
+      {
+       "type": "photo",
+       "at": "In 1906 the Potlatch",
+       "photo": "File:Potlatch, Idaho (1906).jpg",
+       "on_screen_text": "Potlatch, 1906"
+      },
+      {
+       "type": "map",
+       "at": "on the edge of",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.9,
+           "lat": 46.92,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Potlatch today"
+      },
+      {
+       "type": "photo",
+       "at": "and next to it",
+       "photo": "File:Big Mill, circa 1910 - Potlatch, Idaho (17489419750).jpg",
+       "on_screen_text": "The big mill at Potlatch, about 1910"
+      }
+     ]
+    },
+    {
+     "text": "Towns like Orofino, Pierce and St. Maries lived on the logs that came out of the national forests. Then, from the 1980s, there were fewer of them. Less federal land was opened for logging, machines replaced workers, and cheaper lumber came from Canada.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.25,
+           "lat": 46.48,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Orofino"
+      },
+      {
+       "type": "photo",
+       "at": "lived on the logs",
+       "photo": "File:Log Pond and Railroad Log Dump, Potlatch Lumber Company, 1907 - Potlatch, Idaho (18572366416).jpg",
+       "on_screen_text": "The Potlatch log pond, 1907"
+      },
+      {
+       "type": "map",
+       "at": "Then, from the 1980s",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.8,
+           "lat": 46.5,
+           "span": 0.3
+          },
+          "date": "2025-07-01/2025-09-15"
+         },
+         {
+          "at": 26,
+          "view": {
+           "lon": -115.8,
+           "lat": 46.5,
+           "span": 0.186
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Logged forest near Pierce"
+      },
+      {
+       "type": "photo",
+       "at": "machines replaced workers, and",
+       "photo": "File:Bird's Eye View, circa 1912 - Elk River, Idaho (4263609151).jpg",
+       "on_screen_text": "Elk River, a mill town, about 1912"
+      }
+     ]
+    },
+    {
+     "text": "The great mill at Potlatch closed in 1983. The plywood plant near Pierce closed in 2000, and 215 people lost their jobs. In 2016 two sawmills near Orofino closed within six months of each other.",
+     "shots": [
+      {
+       "type": "stat",
+       "at": 0,
+       "stat": {
+        "value": "1983",
+        "label": "The Potlatch mill closes",
+        "source": "Idaho Capital Sun"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "The plywood plant near",
+       "stat": {
+        "value": "215 JOBS",
+        "label": "Plywood plant near Pierce closes, 2000",
+        "source": "Spokesman-Review"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "In 2016 two sawmills",
+       "photo": "File:Clearwater River in Ahsahka, Idaho.jpg",
+       "on_screen_text": "The Clearwater near Orofino"
+      }
+     ]
+    },
+    {
+     "text": "Where the mills closed, the young left, and the towns grew older. Should the national forests be opened to more logging to bring the jobs back? Or are they worth more standing, for water, wildlife and the people who come to see them? Idaho has argued about it for forty years.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Sawmill Looking Northeast, Potlatch Lumber Company, 1907 - Potlatch, Idaho (18411041298).jpg",
+       "on_screen_text": "The Potlatch sawmill, 1907"
+      },
+      {
+       "type": "photo",
+       "at": "Should the national forests",
+       "photo": "File:Lochsa River in Clearwater NF.jpg",
+       "on_screen_text": "National forest on the Lochsa"
+      },
+      {
+       "type": "photo",
+       "at": "Or are they worth",
+       "photo": "File:Another Canyon View in Frank Church Wilderness.jpg",
+       "on_screen_text": "Wild country in central Idaho"
+      },
+      {
+       "type": "photo",
+       "at": "and the people who",
+       "photo": "File:Along trail in Frank Church Wilderness.jpg",
+       "on_screen_text": "A trail in the Frank Church wilderness"
+      }
+     ],
+     "ask": {
+      "at": "Should the national forests",
+      "text": "Open the national forests to more logging, or keep them standing?"
+     }
+    },
+    {
+     "text": "So we have mountains, government land, a lost capital, a poisoned valley and closed mills. And yet in one corner of the north, people are arriving faster than almost anywhere in the country.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Aftermath of the 1910 Fires (4929786873).jpg",
+       "on_screen_text": "The north's hard century"
+      },
+      {
+       "type": "map",
+       "at": "And yet in one",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.0,
+           "lat": 47.14,
+           "span": 6.144
+          },
+          "highlight": [
+           "file:kootenai.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "people are arriving faster",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.95,
+           "lat": 47.72,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "New streets in Post Falls"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Where People Do Live",
+   "mood": "curious",
+   "paragraphs": [
+    {
+     "text": "Reason six is really the answer to the whole question. Northern Idaho is not empty. It is full in one place and empty everywhere else.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.795,
+           "lat": 46.825,
+           "span": 16.539
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:kootenai.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "It is full in",
+       "photo": "File:Coeur d'Alene aerial, May 2023 (cropped).png",
+       "on_screen_text": "Coeur d'Alene"
+      }
+     ]
+    },
+    {
+     "text": "We added up the 2020 census for the ten northern counties. Kootenai County, around Coeur d'Alene, holds almost half of the north's people on six per cent of its land. Two in three northern Idahoans live within about fifteen miles of just three towns: Coeur d'Alene, Lewiston and Moscow.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.867,
+           "lat": 47.105,
+           "span": 6.691
+          },
+          "highlight": [
+           "file:kootenai.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Moscow",
+            "lon": -117.0,
+            "lat": 46.73,
+            "kind": "city",
+            "label": "Moscow"
+           },
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "holds almost half of",
+       "stat": {
+        "value": "47 % ON 6 %",
+        "label": "Of the north's people, on this share of its land",
+        "source": "Own count: 2020 census block groups, ten northern counties (geo/measure_population.py)"
+       }
+      },
+      {
+       "type": "stat",
+       "at": "Two in three northern",
+       "stat": {
+        "value": "2 IN 3",
+        "label": "Northern Idahoans within ~15 mi of three towns",
+        "source": "Own count: 2020 census block groups, ten northern counties (geo/measure_population.py)"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Coeur d'Alene, Lewiston and",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.78,
+           "lat": 47.68,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Coeur d'Alene"
+      }
+     ]
+    },
+    {
+     "text": "Lewiston, at the southern end, even has a seaport. Barges come up the Columbia and the Snake through eight locks and dams, about four hundred and sixty-five river miles from the Pacific, and carry wheat, peas and lentils from the Palouse back down. It is the most inland seaport on the West Coast.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.99,
+           "lat": 46.43,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "The Port of Lewiston"
+      },
+      {
+       "type": "map",
+       "at": "Barges come up the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.068,
+           "lat": 46.062,
+           "span": 23.968
+          },
+          "places": [
+           {
+            "name": "Lewiston",
+            "lon": -117.02,
+            "lat": 46.42,
+            "kind": "city",
+            "label": "Lewiston"
+           },
+           {
+            "name": "Portland",
+            "lon": -122.68,
+            "lat": 45.52,
+            "kind": "city",
+            "label": "Portland"
+           },
+           {
+            "name": "Pacific",
+            "lon": -126.0,
+            "lat": 46.0,
+            "kind": "label",
+            "label": "PACIFIC OCEAN"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -117.02,
+             46.42
+            ],
+            "via": [
+             [
+              -118.3,
+              46.55
+             ],
+             [
+              -119.1,
+              46.23
+             ],
+             [
+              -120.5,
+              45.7
+             ],
+             [
+              -121.9,
+              45.65
+             ],
+             [
+              -122.75,
+              45.85
+             ]
+            ],
+            "to": [
+             -123.9,
+             46.22
+            ],
+            "mode": "line",
+            "label": "465 river miles",
+            "color": "blue",
+            "seconds": 3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "stat",
+       "at": "about four hundred and",
+       "stat": {
+        "value": "465 RIVER MILES",
+        "label": "Lewiston, the most inland West Coast seaport",
+        "source": "Port of Lewiston"
+       }
+      },
+      {
+       "type": "map",
+       "at": "and carry wheat, peas",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -117.02,
+           "lat": 46.42,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lewiston and Clarkston"
+      },
+      {
+       "type": "photo",
+       "at": "It is the most",
+       "photo": "File:Confluence of Clearwater and Snake rivers - Lewiston, Idaho (21116852016).jpg",
+       "on_screen_text": "The Snake and the Clearwater at Lewiston"
+      }
+     ]
+    },
+    {
+     "text": "For decades the corner around Coeur d'Alene also had a problem with its name. From the 1970s a white supremacist group, the Aryan Nations, had its compound near Hayden Lake. In 2000 a local jury ordered it to pay six point three million dollars to a mother and son its guards had fired on. The group went bankrupt, and the compound was torn down in 2001.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.73,
+           "lat": 47.78,
+           "span": 0.15
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Hayden Lake"
+      },
+      {
+       "type": "photo",
+       "at": "From the 1970s a",
+       "photo": "File:Honeysuckle Bay, Hayden Lake, ID - panoramio.jpg",
+       "on_screen_text": "Hayden Lake"
+      },
+      {
+       "type": "stat",
+       "at": "In 2000 a local",
+       "stat": {
+        "value": "$6.3 MILLION",
+        "label": "Jury verdict against the Aryan Nations, 2000",
+        "source": "SPLC; Spokesman-Review"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "a mother and son",
+       "photo": "File:Broten, Idaho, US.jpg",
+       "on_screen_text": "North Idaho's lake country"
+      },
+      {
+       "type": "map",
+       "at": "The group went bankrupt,",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.75,
+           "lat": 47.84,
+           "span": 3.48
+          },
+          "places": [
+           {
+            "name": "Hayden Lake",
+            "lon": -116.75,
+            "lat": 47.78,
+            "kind": "site",
+            "label": "Hayden Lake"
+           },
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "And Kootenai is growing. Between 2020 and 2024 it gained about seventeen thousand people, almost ten per cent. Most of the newcomers came from other states, many of them from Spokane and from Southern California.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.95,
+           "lat": 47.72,
+           "span": 0.12
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Post Falls, between Spokane and Coeur d'Alene"
+      },
+      {
+       "type": "stat",
+       "at": "it gained about seventeen",
+       "stat": {
+        "value": "+9.9 %",
+        "label": "Kootenai County, 2020-2024",
+        "source": "US Census Bureau QuickFacts"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "Most of the newcomers",
+       "photo": "File:City of Coeur d'Alene, from a rooftop, 2006.jpg",
+       "on_screen_text": "Coeur d'Alene"
+      }
+     ]
+    },
+    {
+     "text": "It works because Coeur d'Alene is not really cut off. It sits on Interstate 90, half an hour from Spokane and its airport. The road follows the line of the Mullan Road, the first wagon road over these mountains, built between 1859 and 1862.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Coeur d'Alene aerial, May 2023.png",
+       "on_screen_text": "Coeur d'Alene"
+      },
+      {
+       "type": "map",
+       "at": "It sits on Interstate",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.282,
+           "lat": 47.5,
+           "span": 2.704
+          },
+          "places": [
+           {
+            "name": "Spokane",
+            "lon": -117.43,
+            "lat": 47.66,
+            "kind": "city",
+            "label": "Spokane"
+           },
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Wallace",
+            "lon": -115.93,
+            "lat": 47.47,
+            "kind": "city",
+            "label": "Wallace"
+           }
+          ],
+          "routes": [
+           {
+            "from": [
+             -117.43,
+             47.66
+            ],
+            "via": [
+             [
+              -116.95,
+              47.72
+             ],
+             [
+              -116.78,
+              47.68
+             ],
+             [
+              -116.42,
+              47.58
+             ],
+             [
+              -116.12,
+              47.54
+             ],
+             [
+              -115.93,
+              47.47
+             ]
+            ],
+            "to": [
+             -115.7,
+             47.46
+            ],
+            "mode": "line",
+            "label": "I-90, on the Mullan Road",
+            "color": "accent",
+            "seconds": 3
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "The road follows the",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.55,
+           "lat": 47.6,
+           "span": 0.15
+          },
+          "date": "2024-07-01/2024-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Fourth of July Pass, on the old Mullan Road"
+      },
+      {
+       "type": "stat",
+       "at": "the first wagon road",
+       "stat": {
+        "value": "1862",
+        "label": "The Mullan Road is finished",
+        "source": "Kootenai County; Wikipedia"
+       }
+      }
+     ]
+    },
+    {
+     "text": "North of Coeur d'Alene lies Lake Pend Oreille, Idaho's largest lake. It is about eleven hundred and fifty feet deep, carved by the ice age.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.4,
+           "lat": 48.1,
+           "span": 0.5
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Lake Pend Oreille"
+      },
+      {
+       "type": "stat",
+       "at": "It is about eleven",
+       "stat": {
+        "value": "1,150 FT",
+        "label": "Depth of Lake Pend Oreille",
+        "source": "US Navy"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "carved by the ice",
+       "photo": "File:Lake Pend Oreille.jpg",
+       "on_screen_text": "Lake Pend Oreille"
+      }
+     ]
+    },
+    {
+     "text": "In 1942 the US Navy built a training base on its shore, hundreds of miles from any ocean, where it was thought to be safe from Japanese bombers. In about two and a half years almost three hundred thousand sailors trained there. For a while it was the second-largest naval training station in the country.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.51,
+           "lat": 47.78,
+           "span": 3.72
+          },
+          "places": [
+           {
+            "name": "Farragut",
+            "lon": -116.58,
+            "lat": 47.95,
+            "kind": "site",
+            "label": "Farragut naval base"
+           },
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Sandpoint",
+            "lon": -116.55,
+            "lat": 48.28,
+            "kind": "city",
+            "label": "Sandpoint"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "hundreds of miles from",
+       "photo": "File:U.S. Naval Training Staion (Lake Pend Oreille) Farragut, Idaho. - NARA - 195430.jpg",
+       "on_screen_text": "Farragut Naval Training Station"
+      },
+      {
+       "type": "photo",
+       "at": "In about two and",
+       "photo": "File:Bayview - Flickr - MonikaMurren.jpg",
+       "on_screen_text": "Lake Pend Oreille at Bayview"
+      },
+      {
+       "type": "stat",
+       "at": "almost three hundred thousand",
+       "stat": {
+        "value": "293,381",
+        "label": "Recruits trained at Farragut, 1942-45",
+        "source": "Idaho Military Museum"
+       }
+      },
+      {
+       "type": "photo",
+       "at": "For a while it",
+       "photo": "File:U.S. Naval Training Station, (Lake Pend Oreille) Farragut, Idaho. - NARA - 195431.jpg",
+       "on_screen_text": "Farragut, Lake Pend Oreille"
+      }
+     ]
+    },
+    {
+     "text": "The base closed after the war and became Farragut State Park. But the Navy never left the lake. Its deep, quiet water is still used to test large scale models of submarines and ships.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Farragut State Park Welcome Sign, Idaho (40479710922).jpg",
+       "on_screen_text": "Farragut State Park"
+      },
+      {
+       "type": "map",
+       "at": "But the Navy never",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.56,
+           "lat": 47.98,
+           "span": 0.08
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Bayview, the Navy's lake station"
+      },
+      {
+       "type": "photo",
+       "at": "Its deep, quiet water",
+       "photo": "File:US Navy 051130-N-7676W-033 The Advanced Electric Ship Demonstrator (AESD), Sea Jet, undergoes sea trials on Lake Pend Oreille at the Naval Surface Warfare Center Carderock Division, Acoustic Research Detachment in Bayview, Idah.jpg",
+       "on_screen_text": "Navy test craft Sea Jet on Lake Pend Oreille, 2005"
+      }
+     ]
+    },
+    {
+     "text": "Now drive south from Coeur d'Alene into Idaho County, and it is a different place. Sixteen thousand people. More than eight thousand square miles, more land than New Jersey. Grangeville, its largest town, has about three thousand people.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.202,
+           "lat": 46.002,
+           "span": 12.5
+          },
+          "highlight": [
+           "file:idaho_county.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Grangeville",
+            "lon": -116.12,
+            "lat": 45.93,
+            "kind": "city",
+            "label": "Grangeville"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "photo",
+       "at": "and it is a",
+       "photo": "File:Cabin Creek Frank Church.jpg",
+       "on_screen_text": "Idaho County back country"
+      },
+      {
+       "type": "stat",
+       "at": "More than eight thousand",
+       "stat": {
+        "value": "8,477 SQ MI",
+        "label": "Idaho County: more land than New Jersey",
+        "source": "US Census Bureau, 2020 census"
+       }
+      },
+      {
+       "type": "map",
+       "at": "Grangeville, its largest town",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.12,
+           "lat": 45.93,
+           "span": 0.1
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Grangeville"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ending",
+   "mood": "calm",
+   "paragraphs": [
+    {
+     "text": "So why does almost nobody live in northern Idaho?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.579,
+           "lat": 45.126,
+           "span": 28.993
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:south.geojson@alt"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Because a wall of mountains cuts it off from the rest of its state, with one road over White Bird Hill and the last highway finished in 1962. Because most of its land is federal forest, and in 1910 that forest burned on a scale nobody had seen.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Middle Fork Salmon River Idaho.jpg",
+       "on_screen_text": "Central Idaho"
+      },
+      {
+       "type": "photo",
+       "at": "with one road over",
+       "photo": "File:White Bird Hill Grade, 1924 - White Bird, Idaho (50901386962).jpg",
+       "on_screen_text": "White Bird Hill"
+      },
+      {
+       "type": "photo",
+       "at": "Because most of its",
+       "photo": "File:Lochsa River (6050308577).jpg",
+       "on_screen_text": "National forest"
+      },
+      {
+       "type": "photo",
+       "at": "and in 1910 that",
+       "photo": "File:Aftermath of the 1910 Fires (4929720525).jpg",
+       "on_screen_text": "After 1910"
+      }
+     ]
+    },
+    {
+     "text": "Because its capital was carried off to Boise by soldiers in 1865, and the bill that would have given it to Washington died on a president's desk. Because the Silver Valley gave a billion ounces of silver and left lead in its children's blood. And because the mills that replaced the mines closed one after another.",
+     "shots": [
+      {
+       "type": "photo",
+       "at": 0,
+       "photo": "File:Idaho - Lewiston - NARA - 23939445 (cropped).jpg",
+       "on_screen_text": "Lewiston"
+      },
+      {
+       "type": "photo",
+       "at": "and the bill that",
+       "photo": "File:Grover Cleveland, bust portrait, seated, facing right LCCN2014648289.jpg",
+       "on_screen_text": "Grover Cleveland"
+      },
+      {
+       "type": "photo",
+       "at": "Because the Silver Valley",
+       "photo": "File:BUNKER HILL LEAD SMELTER. VIEW IS FROM CENTRAL IMPOUNDMENT AREA LOOKING SOUTH. PLANT DRY IS IN CENTER FOREGROUND, SLAG FUMING PLANT IS IN RIGHT FOREGROUND, AND BAG HOUSE IS IN HAER ID,40-KELL,2-1.tif",
+       "on_screen_text": "Bunker Hill"
+      },
+      {
+       "type": "photo",
+       "at": "And because the mills",
+       "photo": "File:Potlatch, Idaho (1906).jpg",
+       "on_screen_text": "Potlatch"
+      }
+     ]
+    },
+    {
+     "text": "What is left is a north that is full in one corner around Coeur d'Alene and nearly empty everywhere else, where the clocks still run on Pacific time.",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.855,
+           "lat": 46.825,
+           "span": 16.539
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:kootenai.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Coeur d'Alene",
+            "lon": -116.78,
+            "lat": 47.68,
+            "kind": "city",
+            "label": "Coeur d'Alene"
+           },
+           {
+            "name": "pt",
+            "lon": -116.6,
+            "lat": 47.2,
+            "kind": "label",
+            "label": "PACIFIC TIME"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "and nearly empty everywhere",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -115.0,
+           "lat": 45.2,
+           "span": 0.6
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Central Idaho"
+      }
+     ]
+    },
+    {
+     "text": "If you lived in North Idaho, would you rather be governed from Boise, or from Olympia in Washington?",
+     "shots": [
+      {
+       "type": "map",
+       "at": 0,
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -118.036,
+           "lat": 46.011,
+           "span": 22.558
+          },
+          "highlight": [
+           "file:north.geojson@red"
+          ],
+          "places": [
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           },
+           {
+            "name": "Olympia",
+            "lon": -122.9,
+            "lat": 47.04,
+            "kind": "capital",
+            "label": "Olympia"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      },
+      {
+       "type": "map",
+       "at": "or from Olympia in",
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.359,
+           "lat": 45.405,
+           "span": 26.974
+          },
+          "highlight": [
+           "file:north.geojson@red",
+           "file:washington.geojson@blue"
+          ],
+          "places": [
+           {
+            "name": "Olympia",
+            "lon": -122.9,
+            "lat": 47.04,
+            "kind": "capital",
+            "label": "Olympia"
+           },
+           {
+            "name": "Boise",
+            "lon": -116.2,
+            "lat": 43.62,
+            "kind": "capital",
+            "label": "Boise"
+           }
+          ]
+         }
+        ],
+        "cut": true
+       }
+      }
+     ],
+     "ask": {
+      "at": "If you lived in",
+      "text": "Govern North Idaho from Boise, or from Olympia in Washington?"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Why Almost Nobody Lives in Northern Idaho",
+  "title_candidates": [
+   "Why Almost Nobody Lives in Northern Idaho",
+   "Why North Idaho Is So Empty",
+   "Why Idaho's Panhandle Is Almost Empty"
+  ],
+  "description": "Northern Idaho is a quarter of the state, bigger than Vermont and New Hampshire together, yet only about one Idahoan in five lives there, most of them around Coeur d'Alene. We follow why: the wall of mountains and the largest wilderness in the lower 48, one road over White Bird Hill, national forest that covers most of the land, the Big Burn of 1910, a territorial capital taken from Lewiston to Boise in 1865 and the 1887 bill that nearly gave the panhandle to Washington, the Silver Valley's billion ounces of silver, its mine wars, the Sunshine Mine fire and the Bunker Hill lead poisoning, the timber mills that closed, and the corner around Coeur d'Alene that is now growing fast.",
+  "tags": [
+   "North Idaho",
+   "Idaho",
+   "Idaho Panhandle",
+   "Coeur d'Alene",
+   "Silver Valley",
+   "Wallace Idaho",
+   "Kellogg Idaho",
+   "Lewiston",
+   "Big Burn 1910",
+   "Bunker Hill",
+   "Sunshine Mine",
+   "Lake Pend Oreille",
+   "geography",
+   "satellite images"
+  ],
+  "pinned_comment": "If you lived in North Idaho, would you rather be governed from Boise, or from Olympia in Washington?"
+ }
+}

@@ -17,9 +17,6 @@ P2: So why does almost nobody live in northern Idaho?
 P3: Even the map looks strange. A thin chimney of land climbs north between Washington and Montana, until at the Canadian border it is only about forty-five miles wide. And above the Salmon River, Idaho runs on a different clock: the north keeps Pacific time with Seattle, the south keeps Mountain time with Boise.
 [ON SCREEN: map, the panhandle draws itself, label "45 MILES"; the Salmon River drawn blue across the state; north red "PACIFIC", south alt "MOUNTAIN"]
 
-P3b: The answer runs through a capital that was carried off by soldiers, a fire that burned an area nearly as big as Connecticut in two days, and a valley that dug up more than a billion ounces of silver and then poisoned its own children.
-[ON SCREEN: Lewiston's first capitol photo; 1910 fire photo; Silver Valley from orbit]
-
 P4: The answer runs through a capital that was carried off by soldiers, a fire that burned an area nearly as big as Connecticut in two days, and a valley that dug up more than a billion ounces of silver and then poisoned its own children.
 [ON SCREEN: Lewiston's first capitol photo; 1910 fire photo; Silver Valley from orbit]
 
@@ -119,7 +116,7 @@ P28b: The territory still had to win the north back. In January 1889 its governo
 P29: Three years later, in 1890, Idaho became a state with the panhandle still attached. Should the north have gone to Washington? People in North Idaho still argue about it. What they did have was something the south did not: silver.
 [ON SCREEN: map, Idaho 1890; Sentinel-2 of the Silver Valley]
 
-## 4. Silver, Dynamite and Lead (tense)
+## 4. Silver, Dynamite and Lead (tension)
 
 P30: Reason four. The one place in the north that drew thousands of people also did the most damage.
 [ON SCREEN: painted map, the Silver Valley red along I-90 east of Coeur d'Alene]
@@ -209,13 +206,13 @@ P51: North of Coeur d'Alene lies Lake Pend Oreille, Idaho's largest lake. It is 
 P52: In 1942 the US Navy built a training base on its shore, hundreds of miles from any ocean, where it was thought to be safe from Japanese bombers. In about two and a half years almost three hundred thousand sailors trained there. For a while it was the second-largest naval training station in the country.
 [ON SCREEN: photo of Farragut Naval Training Station; stat card "293,381 SAILORS"]
 
-P53: The base closed after the war and became Farragut State Park. But the Navy never left the lake. Its deep, quiet water is still used to test large scale models of submarines.
+P53: The base closed after the war and became Farragut State Park. But the Navy never left the lake. Its deep, quiet water is still used to test large scale models of submarines and ships.
 [ON SCREEN: photo of a Navy submarine model on the lake; map, Bayview pinned]
 
 P54: Now drive south from Coeur d'Alene into Idaho County, and it is a different place. Sixteen thousand people. More than eight thousand square miles, more land than New Jersey. Grangeville, its largest town, has about three thousand people.
 [ON SCREEN: map, Idaho County highlighted; stat card "8,477 SQ MI"; photo of Grangeville]
 
-## Ending (warm)
+## Ending (calm)
 
 P55: So why does almost nobody live in northern Idaho?
 [ON SCREEN: painted map, the north red, as in the hook]

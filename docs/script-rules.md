@@ -4,6 +4,7 @@ These add to the standing rules (two-sided questions, retention bridges, one con
 end CTA, the closing question as the pinned comment, never bend facts).
 
 ## Hook (first 30 s)
+See docs/hook-guide.md (2026-11-28): sentence one is a person, an event or an exact strange detail; contrast -> "But" -> three teasers (one live today) -> question by 0:25; first picture shows sentence one.
 1. Sentence one carries tension or a curiosity gap, not a description ("Something strange is happening...",
    "a powerhouse, but with a fatal flaw").
 2. A scale anchor the target audience knows (the Caspian laid over the United States; "enough water for X homes").

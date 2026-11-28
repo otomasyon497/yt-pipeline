@@ -4,6 +4,9 @@ south: 161,168 km2 = 62,227 sq mi = 39.83 M acres
 idaho_county: 22,005 km2 = 8,496 sq mi = 5.44 M acres
 kootenai: 3,388 km2 = 1,308 sq mi = 0.84 M acres
 shoshone: 6,834 km2 = 2,639 sq mi = 1.69 M acres
+clearwater_co: 6,461 km2 = 2,495 sq mi = 1.60 M acres
+nezperce_co: 2,217 km2 = 856 sq mi = 0.55 M acres
+latah: 2,782 km2 = 1,074 sq mi = 0.69 M acres
 washington: 174,948 km2 = 67,548 sq mi = 43.23 M acres
 montana: 385,920 km2 = 149,004 sq mi = 95.36 M acres
 fire1910: 10,003 km2 = 3,862 sq mi = 2.47 M acres

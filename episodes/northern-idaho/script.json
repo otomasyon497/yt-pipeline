@@ -206,7 +206,7 @@
         ],
         "cut": true
        },
-       "on_screen_text": "Idaho's 45 miles of Canadian border"
+       "on_screen_text": "Idaho's short border with Canada"
       },
       {
        "type": "map",
@@ -651,30 +651,16 @@
         "steps": [
          {
           "view": {
-           "lon": -115.732,
-           "lat": 45.776,
-           "span": 4.928
+           "lon": -116.7,
+           "lat": 45.28,
+           "span": 0.25
           },
-          "places": [
-           {
-            "name": "Hells Canyon",
-            "lon": -116.7,
-            "lat": 45.28,
-            "kind": "site",
-            "label": "Hells Canyon"
-           },
-           {
-            "name": "Lewiston",
-            "lon": -117.02,
-            "lat": 46.42,
-            "kind": "city",
-            "label": "Lewiston"
-           }
-          ]
+          "date": "2025-07-01/2025-09-15"
          }
         ],
         "cut": true
-       }
+       },
+       "on_screen_text": "Hells Canyon of the Snake River"
       },
       {
        "type": "photo",
@@ -776,7 +762,7 @@
       },
       {
        "type": "map",
-       "at": "US Highway 95 is",
+       "at": "and for about forty",
        "map": {
         "steps": [
          {
@@ -1709,10 +1695,14 @@
         "steps": [
          {
           "view": {
-           "lon": -115.74,
-           "lat": 46.464,
-           "span": 3.456
+           "lon": -115.829,
+           "lat": 46.325,
+           "span": 4.523
           },
+          "highlight": [
+           "file:clearwater_co.geojson@red",
+           "file:nezperce_co.geojson@red"
+          ],
           "places": [
            {
             "name": "Pierce",
@@ -1779,10 +1769,13 @@
         "steps": [
          {
           "view": {
-           "lon": -116.169,
-           "lat": 46.153,
-           "span": 3.712
+           "lon": -115.671,
+           "lat": 45.788,
+           "span": 6.488
           },
+          "highlight": [
+           "file:idaho_county.geojson@red"
+          ],
           "places": [
            {
             "name": "Fort Lapwai",
@@ -1807,18 +1800,16 @@
             "icon": "conflict"
            }
           ]
-         },
-         {
-          "at": 10,
-          "view": {
-           "lon": -116.06,
-           "lat": 46.336,
-           "span": 3.155
-          }
          }
         ],
         "cut": true
        }
+      },
+      {
+       "type": "photo",
+       "at": "In 1863 the United",
+       "photo": "File:Along-the-npnht-lower-salmon-river-at-coopers-ferry-near-cottonwood-id-07212011-rogermpeterson-006 (6081074906).jpg",
+       "on_screen_text": "Nez Perce country on the lower Salmon"
       },
       {
        "type": "stat",
@@ -1832,8 +1823,8 @@
       {
        "type": "photo",
        "at": "and the anger it",
-       "photo": "File:Along-the-npnht-lower-salmon-river-at-coopers-ferry-near-cottonwood-id-07212011-rogermpeterson-006 (6081074906).jpg",
-       "on_screen_text": "Nez Perce country on the lower Salmon"
+       "photo": "File:Along the River (11442531196).jpg",
+       "on_screen_text": "Nez Perce country along the Snake"
       }
      ]
     },
@@ -2342,10 +2333,13 @@
         "steps": [
          {
           "view": {
-           "lon": -115.804,
-           "lat": 46.272,
-           "span": 3.968
+           "lon": -116.025,
+           "lat": 46.47,
+           "span": 4.912
           },
+          "highlight": [
+           "file:latah.geojson@red"
+          ],
           "places": [
            {
             "name": "Moscow",
@@ -2574,10 +2568,13 @@
         "steps": [
          {
           "view": {
-           "lon": -116.23,
-           "lat": 47.448,
-           "span": 3.016
+           "lon": -115.896,
+           "lat": 47.427,
+           "span": 4.864
           },
+          "highlight": [
+           "file:shoshone.geojson@red"
+          ],
           "places": [
            {
             "name": "Wallace",
@@ -2785,10 +2782,13 @@
         "steps": [
          {
           "view": {
-           "lon": -116.022,
-           "lat": 47.396,
-           "span": 3.224
+           "lon": -115.813,
+           "lat": 47.427,
+           "span": 4.864
           },
+          "highlight": [
+           "file:shoshone.geojson@red"
+          ],
           "places": [
            {
             "name": "Wardner",
@@ -2823,10 +2823,13 @@
         "steps": [
          {
           "view": {
-           "lon": -114.312,
-           "lat": 45.361,
-           "span": 15.964
+           "lon": -114.143,
+           "lat": 45.126,
+           "span": 28.993
           },
+          "highlight": [
+           "file:idaho.geojson@alt"
+          ],
           "places": [
            {
             "name": "Caldwell",
@@ -2949,10 +2952,13 @@
         "steps": [
          {
           "view": {
-           "lon": -116.178,
-           "lat": 47.604,
-           "span": 2.912
+           "lon": -115.86,
+           "lat": 47.427,
+           "span": 4.864
           },
+          "highlight": [
+           "file:shoshone.geojson@red"
+          ],
           "places": [
            {
             "name": "Sunshine Mine",
@@ -3105,10 +3111,14 @@
         "steps": [
          {
           "view": {
-           "lon": -115.918,
-           "lat": 47.5,
-           "span": 3.12
+           "lon": -116.001,
+           "lat": 47.427,
+           "span": 4.864
           },
+          "highlight": [
+           "file:shoshone.geojson@red",
+           "file:kootenai.geojson@red"
+          ],
           "places": [
            {
             "name": "Kellogg",
@@ -3289,10 +3299,14 @@
         "steps": [
          {
           "view": {
-           "lon": -116.09,
+           "lon": -115.817,
            "lat": 46.711,
            "span": 4.478
           },
+          "highlight": [
+           "file:clearwater_co.geojson@red",
+           "file:latah.geojson@red"
+          ],
           "places": [
            {
             "name": "Potlatch",
@@ -3324,18 +3338,16 @@
             "label": "St. Maries"
            }
           ]
-         },
-         {
-          "at": 9,
-          "view": {
-           "lon": -115.996,
-           "lat": 46.528,
-           "span": 3.046
-          }
          }
         ],
         "cut": true
        }
+      },
+      {
+       "type": "photo",
+       "at": "paid its wages for",
+       "photo": "File:Sawmill Looking Northeast, Potlatch Lumber Company, 1907 - Potlatch, Idaho (18411041298).jpg",
+       "on_screen_text": "The Potlatch sawmill, 1907"
       }
      ]
     },
@@ -3475,10 +3487,22 @@
      "text": "Where the mills closed, the young left, and the towns grew older. Should the national forests be opened to more logging to bring the jobs back? Or are they worth more standing, for water, wildlife and the people who come to see them? Idaho has argued about it for forty years.",
      "shots": [
       {
-       "type": "photo",
+       "type": "map",
        "at": 0,
-       "photo": "File:Sawmill Looking Northeast, Potlatch Lumber Company, 1907 - Potlatch, Idaho (18411041298).jpg",
-       "on_screen_text": "The Potlatch sawmill, 1907"
+       "map": {
+        "steps": [
+         {
+          "view": {
+           "lon": -116.25,
+           "lat": 46.48,
+           "span": 0.2
+          },
+          "date": "2025-07-01/2025-09-15"
+         }
+        ],
+        "cut": true
+       },
+       "on_screen_text": "Orofino and the Clearwater"
       },
       {
        "type": "photo",
@@ -3511,7 +3535,7 @@
        "type": "photo",
        "at": 0,
        "photo": "File:Aftermath of the 1910 Fires (4929786873).jpg",
-       "on_screen_text": "The north's hard century"
+       "on_screen_text": "After the 1910 fires"
       },
       {
        "type": "map",
@@ -3880,9 +3904,12 @@
          {
           "view": {
            "lon": -116.75,
-           "lat": 47.84,
-           "span": 3.48
+           "lat": 47.685,
+           "span": 3.166
           },
+          "highlight": [
+           "file:kootenai.geojson@red"
+          ],
           "places": [
            {
             "name": "Hayden Lake",
@@ -3960,10 +3987,14 @@
         "steps": [
          {
           "view": {
-           "lon": -116.282,
-           "lat": 47.5,
-           "span": 2.704
+           "lon": -116.195,
+           "lat": 47.427,
+           "span": 4.864
           },
+          "highlight": [
+           "file:kootenai.geojson@red",
+           "file:shoshone.geojson@red"
+          ],
           "places": [
            {
             "name": "Spokane",
@@ -4111,6 +4142,9 @@
            "lat": 47.78,
            "span": 3.72
           },
+          "highlight": [
+           "file:kootenai.geojson@red"
+          ],
           "places": [
            {
             "name": "Farragut",

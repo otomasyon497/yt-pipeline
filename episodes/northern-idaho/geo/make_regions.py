@@ -58,6 +58,8 @@ out = {
     "idaho": (idaho, "Idaho", CEN), "north": (north, "North Idaho", CEN), "south": (south, "Southern Idaho", CEN),
     "idaho_county": (cty["16049"], "Idaho County", CEN), "kootenai": (cty["16055"], "Kootenai County", CEN),
     "shoshone": (cty["16079"], "Shoshone County", CEN),
+    "clearwater_co": (cty["16035"], "Clearwater County", CEN), "nezperce_co": (cty["16069"], "Nez Perce County", CEN),
+    "latah": (cty["16057"], "Latah County", CEN),
     "washington": (st["Washington"], "Washington", NE), "montana": (st["Montana"], "Montana", NE),
     "fire1910": (unary_union([cty["16079"], cty["30061"]]), "Heart of the 1910 fires", CEN),
     "territory1863": (unary_union([st["Idaho"], st["Montana"], st["Wyoming"]]), "Idaho Territory, 1863 (approx.)", NE),
